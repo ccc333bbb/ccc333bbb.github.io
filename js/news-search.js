@@ -1,4 +1,4 @@
-// TARDIS 新聞搜索功能
+// TARDIS News Search Functionality
 class NewsSearch {
   constructor() {
     this.searchIndex = null;
@@ -9,13 +9,13 @@ class NewsSearch {
 
   async loadData() {
     try {
-      // 加載搜索索引
+      // Load search index
       const searchResponse = await fetch('/data/search-index.json');
       if (searchResponse.ok) {
         this.searchIndex = await searchResponse.json();
       }
 
-      // 加載新聞索引
+      // Load news index
       const indexResponse = await fetch('/data/news-index.json');
       if (indexResponse.ok) {
         this.newsIndex = await indexResponse.json();
@@ -35,7 +35,7 @@ class NewsSearch {
     const words = query.toLowerCase().split(/\s+/);
     const results = new Map();
 
-    // 搜索匹配的文章
+    // Search for matching articles
     for (const word of words) {
       if (this.searchIndex[word]) {
         for (const match of this.searchIndex[word]) {
@@ -54,7 +54,7 @@ class NewsSearch {
       }
     }
 
-    // 應用過濾器
+    // Apply filters
     let filteredResults = Array.from(results.values());
     
     if (filters.dateRange) {
@@ -83,7 +83,7 @@ class NewsSearch {
       );
     }
 
-    // 按分數和時間排序
+    // Sort by score and time
     return filteredResults.sort((a, b) => {
       if (b.score !== a.score) {
         return b.score - a.score;
@@ -96,14 +96,14 @@ class NewsSearch {
     if (!this.newsIndex) return [];
 
     const results = [];
-    const recentDates = this.newsIndex.dates.slice(0, 5); // 最近5天
+    const recentDates = this.newsIndex.dates.slice(0, 5); // Last 5 days
 
     for (const dateInfo of recentDates) {
       const articles = await this.getArticlesByDate(dateInfo.date);
       results.push(...articles);
     }
 
-    // 應用過濾器
+    // Apply filters
     let filteredResults = results;
     
     if (filters.category) {
@@ -124,7 +124,7 @@ class NewsSearch {
       );
     }
 
-    // 按時間排序
+    // Sort by time
     return filteredResults.sort((a, b) => 
       new Date(b.timestamp) - new Date(a.timestamp)
     );
@@ -166,34 +166,34 @@ class NewsSearch {
     return [];
   }
 
-  // 渲染新聞區塊
+  // Render news section
   renderNewsSection() {
     return `
       <div class="news-section">
         <div class="news-header">
           <h2>📰 Latest News</h2>
           <div class="news-controls">
-            <button class="news-refresh-btn" onclick="newsSearch.refreshNews()">🔄</button>
-            <button class="news-search-toggle" onclick="newsSearch.toggleAdvancedSearch()">🔍</button>
+            <button class="news-refresh-btn" onclick="newsSearch.refreshNews()" title="Refresh News">🔄</button>
+            <button class="news-search-toggle" onclick="newsSearch.toggleAdvancedSearch()" title="Advanced Search">🔍</button>
           </div>
         </div>
         
         <div class="advanced-search hidden" id="advancedSearch">
           <div class="search-filters">
-            <input type="text" id="newsSearchInput" placeholder="搜索新聞..." onkeyup="newsSearch.handleSearchInput(event)">
+            <input type="text" id="newsSearchInput" placeholder="Search news..." onkeyup="newsSearch.handleSearchInput(event)">
             <select id="categoryFilter" onchange="newsSearch.handleFilterChange()">
-              <option value="">所有分類</option>
-              <option value="general">一般新聞</option>
-              <option value="keyword-search">關鍵詞搜索</option>
+              <option value="">All Categories</option>
+              <option value="general">General News</option>
+              <option value="keyword-search">Keyword Search</option>
             </select>
             <select id="sourceFilter" onchange="newsSearch.handleFilterChange()">
-              <option value="">所有來源</option>
+              <option value="">All Sources</option>
               <option value="BBC News">BBC News</option>
               <option value="TechCrunch">TechCrunch</option>
               <option value="The Verge">The Verge</option>
               <option value="Google News">Google News</option>
             </select>
-            <button onclick="newsSearch.performSearch()">搜索</button>
+            <button onclick="newsSearch.performSearch()">Search</button>
           </div>
         </div>
         
@@ -255,8 +255,8 @@ class NewsSearch {
       container.innerHTML = `
         <div class="no-results">
           <div class="no-results-icon">📰</div>
-          <h3>沒有找到相關新聞</h3>
-          <p>${query ? `沒有找到包含 "${query}" 的新聞` : '暫時沒有最新新聞'}</p>
+          <h3>No related news found</h3>
+          <p>${query ? `No news found containing "${query}"` : 'No latest news available'}</p>
         </div>
       `;
       statsContainer.innerHTML = '';
@@ -277,11 +277,11 @@ class NewsSearch {
           <span class="news-source">${article.source}</span>
           <span class="news-date">${this.formatTime(article.timestamp)}</span>
         </div>
-        ${article.score ? `<div class="news-score">相關度: ${article.score}</div>` : ''}
+        ${article.score ? `<div class="news-score">Relevance: ${article.score}</div>` : ''}
       </div>
     `).join('');
 
-    // 更新統計信息
+    // Update statistics
     const categories = {};
     const sources = {};
     const keywords = {};
@@ -297,20 +297,20 @@ class NewsSearch {
     statsContainer.innerHTML = `
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-label">總數:</span>
+          <span class="stat-label">Total Articles</span>
           <span class="stat-value">${results.length}</span>
         </div>
         <div class="stat-item">
-          <span class="stat-label">分類:</span>
+          <span class="stat-label">Categories</span>
           <span class="stat-value">${Object.keys(categories).length}</span>
         </div>
         <div class="stat-item">
-          <span class="stat-label">來源:</span>
+          <span class="stat-label">Sources</span>
           <span class="stat-value">${Object.keys(sources).length}</span>
         </div>
         ${Object.keys(keywords).length > 0 ? `
         <div class="stat-item">
-          <span class="stat-label">關鍵詞:</span>
+          <span class="stat-label">Keywords</span>
           <span class="stat-value">${Object.keys(keywords).length}</span>
         </div>
         ` : ''}
@@ -324,15 +324,15 @@ class NewsSearch {
     const diff = now - date;
     
     if (diff < 24 * 60 * 60 * 1000) {
-      // 24小時內
+      // Within 24 hours
       const hours = Math.floor(diff / (60 * 60 * 1000));
       if (hours === 0) {
         const minutes = Math.floor(diff / (60 * 1000));
-        return `${minutes}分鐘前`;
+        return `${minutes} minutes ago`;
       }
-      return `${hours}小時前`;
+      return `${hours} hours ago`;
     } else {
-      return date.toLocaleDateString('zh-CN', {
+      return date.toLocaleDateString('en-US', {
         month: 'short',
         day: 'numeric',
         hour: '2-digit',
@@ -342,5 +342,5 @@ class NewsSearch {
   }
 }
 
-// 初始化新聞搜索並暴露為全局變量
+// Initialize news search and expose as global variable
 window.newsSearch = new NewsSearch(); 

@@ -26,21 +26,21 @@ class NewsRanker {
       dailyRankings: []
     };
 
-    // 處理每一天的新聞
+    // Process news for each day
     for (const dateInfo of indexData.dates) {
       const dailyRanking = await this.rankDailyNews(dateInfo.date, keywordsData);
       rankedIndex.dailyRankings.push(dailyRanking);
       
-      // 收集所有文章用於全局排名
+      // Collect all articles for global ranking
       dailyRanking.articles.forEach(article => {
-        // 按分類統計
+        // Statistics by category
         const category = article.metadata?.keywordLevel ? `level${article.metadata.keywordLevel}` : 'general';
         if (!rankedIndex.categories[category]) {
           rankedIndex.categories[category] = [];
         }
         rankedIndex.categories[category].push(article);
         
-        // 按關鍵詞統計
+        // Statistics by keyword
         if (article.keyword) {
           if (!rankedIndex.keywords[article.keyword]) {
             rankedIndex.keywords[article.keyword] = [];
@@ -48,7 +48,7 @@ class NewsRanker {
           rankedIndex.keywords[article.keyword].push(article);
         }
         
-        // 按來源統計
+        // Statistics by source
         if (!rankedIndex.sources[article.source]) {
           rankedIndex.sources[article.source] = [];
         }
@@ -56,21 +56,21 @@ class NewsRanker {
       });
     }
 
-    // 生成全局 Top 10
+    // Generate global Top 10
     const allArticles = rankedIndex.dailyRankings.flatMap(d => d.articles);
     rankedIndex.top10 = this.getTop10(allArticles);
     
-    // 生成深度分析文章列表
+    // Generate deep analysis article list
     rankedIndex.analysis = this.getAnalysisArticles(allArticles);
     
-    // 排序各分類
+    // Sort each category
     Object.keys(rankedIndex.categories).forEach(category => {
       rankedIndex.categories[category].sort((a, b) => 
         b.metadata.importance - a.metadata.importance
       );
     });
 
-    // 保存排名結果
+    // Save ranking results
     fs.writeFileSync(this.rankedIndexFile, JSON.stringify(rankedIndex, null, 2));
     console.log(`✅ Ranked news index saved with ${allArticles.length} articles`);
     

@@ -1,11 +1,11 @@
-// TARDIS 主腳本
+// TARDIS Main Script
 class TardisApp {
     constructor() {
         this.init();
     }
     
     init() {
-        this.addKeyboardShortcuts();
+        // this.addKeyboardShortcuts(); // Disabled hotkeys
         this.addAnimations();
         this.addThemeToggle();
         this.addLoadingAnimation();
@@ -13,44 +13,45 @@ class TardisApp {
     }
     
     addKeyboardShortcuts() {
-        document.addEventListener('keydown', (e) => {
-            // Ctrl/Cmd + K 聚焦搜索框
-            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-                e.preventDefault();
-                document.getElementById('searchInput').focus();
-            }
-            
-            // ESC 清空搜索
-            if (e.key === 'Escape') {
-                const searchInput = document.getElementById('searchInput');
-                if (document.activeElement === searchInput) {
-                    searchInput.value = '';
-                    searchInput.dispatchEvent(new Event('input'));
-                }
-            }
-            
-            // 數字鍵快速選擇分類
-            const categoryMap = {
-                '1': 'all',
-                '2': 'tech',
-                '3': 'life',
-                '4': 'entertainment',
-                '5': 'tools'
-            };
-            
-            if (e.key in categoryMap && !e.ctrlKey && !e.metaKey) {
-                e.preventDefault();
-                const category = categoryMap[e.key];
-                const tabBtn = document.querySelector(`[data-category="${category}"]`);
-                if (tabBtn) {
-                    tabBtn.click();
-                }
-            }
-        });
+        // All keyboard shortcuts disabled
+        // document.addEventListener('keydown', (e) => {
+        //     // Ctrl/Cmd + K focus search box
+        //     if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        //         e.preventDefault();
+        //         document.getElementById('searchInput').focus();
+        //     }
+        //     
+        //     // ESC clear search
+        //     if (e.key === 'Escape') {
+        //         const searchInput = document.getElementById('searchInput');
+        //         if (document.activeElement === searchInput) {
+        //             searchInput.value = '';
+        //             searchInput.dispatchEvent(new Event('input'));
+        //         }
+        //     }
+        //     
+        //     // Number keys for quick category selection
+        //     const categoryMap = {
+        //         '1': 'all',
+        //         '2': 'tech',
+        //         '3': 'life',
+        //         '4': 'entertainment',
+        //         '5': 'tools'
+        //     };
+        //     
+        //     if (e.key in categoryMap && !e.ctrlKey && !e.metaKey) {
+        //         e.preventDefault();
+        //         const category = categoryMap[e.key];
+        //         const tabBtn = document.querySelector(`[data-category="${category}"]`);
+        //         if (tabBtn) {
+        //             tabBtn.click();
+        //         }
+        //     }
+        // });
     }
     
     addAnimations() {
-        // 添加滾動動畫
+        // Add scroll animations
         const observerOptions = {
             threshold: 0.1,
             rootMargin: '0px 0px -50px 0px'
@@ -65,7 +66,7 @@ class TardisApp {
             });
         }, observerOptions);
         
-        // 觀察所有門戶卡片
+        // Observe all portal cards
         document.addEventListener('DOMContentLoaded', () => {
             const cards = document.querySelectorAll('.portal-card');
             cards.forEach(card => {
@@ -78,40 +79,40 @@ class TardisApp {
     }
     
     addThemeToggle() {
-        // 創建主題切換按鈕
+        // Create theme toggle button
         const themeToggle = document.createElement('button');
         themeToggle.className = 'theme-toggle';
         themeToggle.innerHTML = '🌙';
-        themeToggle.title = '切換主題 (T)';
+        themeToggle.title = 'Toggle Theme';
         
-        // 添加到頁面
+        // Add to page
         const header = document.querySelector('.tardis-header');
         header.appendChild(themeToggle);
         
-        // 主題切換邏輯
+        // Theme toggle logic
         let isDark = true;
         themeToggle.addEventListener('click', () => {
             isDark = !isDark;
             document.body.classList.toggle('light-theme', !isDark);
             themeToggle.innerHTML = isDark ? '🌙' : '☀️';
-            themeToggle.title = isDark ? '切換到淺色主題 (T)' : '切換到深色主題 (T)';
+            themeToggle.title = isDark ? 'Switch to Light Theme' : 'Switch to Dark Theme';
         });
         
-        // 鍵盤快捷鍵
-        document.addEventListener('keydown', (e) => {
-            if (e.key.toLowerCase() === 't' && !e.ctrlKey && !e.metaKey) {
-                e.preventDefault();
-                themeToggle.click();
-            }
-        });
+        // Keyboard shortcut disabled
+        // document.addEventListener('keydown', (e) => {
+        //     if (e.key.toLowerCase() === 't' && !e.ctrlKey && !e.metaKey) {
+        //         e.preventDefault();
+        //         themeToggle.click();
+        //     }
+        // });
     }
     
     addLoadingAnimation() {
-        // 頁面加載動畫
+        // Page loading animation
         window.addEventListener('load', () => {
             document.body.classList.add('loaded');
             
-            // 添加歡迎動畫
+            // Add welcome animation
             setTimeout(() => {
                 this.showWelcomeMessage();
             }, 1000);
@@ -119,12 +120,12 @@ class TardisApp {
     }
     
     initNewsSection() {
-        // 初始化新聞區塊 - 改為在window.load事件中執行，確保所有腳本都已加載
+        // Initialize news section - execute in window.load event to ensure all scripts are loaded
         window.addEventListener('load', () => {
             const newsSection = document.getElementById('newsSection');
             if (newsSection && window.newsSearch) {
                 newsSection.innerHTML = window.newsSearch.renderNewsSection();
-                // 延遲加載新聞，避免影響主頁面加載
+                // Delay loading news to avoid affecting main page loading
                 setTimeout(() => {
                     window.newsSearch.displayLatestNews();
                 }, 2000);
@@ -139,16 +140,16 @@ class TardisApp {
         welcomeMsg.className = 'welcome-message';
         welcomeMsg.innerHTML = `
             <div class="welcome-content">
-                <h3>🚀 歡迎來到 TARDIS Navigation</h3>
-                <p>使用 Ctrl+K 快速搜索，數字鍵切換分類</p>
-                <p>📰 新聞區塊支持全文檢索和關鍵詞搜索</p>
-                <button class="welcome-close">知道了</button>
+                <h3>🚀 Welcome to TARDIS Navigation</h3>
+                <p>Click on portal cards to navigate to different digital spaces</p>
+                <p>📰 News section supports full-text search and keyword search</p>
+                <button class="welcome-close">Got it</button>
             </div>
         `;
         
         document.body.appendChild(welcomeMsg);
         
-        // 自動消失
+        // Auto disappear
         setTimeout(() => {
             welcomeMsg.classList.add('fade-out');
             setTimeout(() => {
@@ -156,7 +157,7 @@ class TardisApp {
             }, 500);
         }, 5000);
         
-        // 手動關閉
+        // Manual close
         welcomeMsg.querySelector('.welcome-close').addEventListener('click', () => {
             welcomeMsg.classList.add('fade-out');
             setTimeout(() => {
@@ -166,7 +167,7 @@ class TardisApp {
     }
 }
 
-// 添加額外的 CSS 樣式
+// Add additional CSS styles
 const mainStyles = `
     .theme-toggle {
         position: absolute;
@@ -280,7 +281,7 @@ const mainStyles = `
         }
     }
     
-    /* 淺色主題 */
+    /* Light theme */
     body.light-theme {
         background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 50%, #e3f2fd 100%);
         color: #333;
@@ -318,12 +319,12 @@ const mainStyles = `
     }
 `;
 
-// 動態添加樣式
+// Dynamically add styles
 const mainStyleSheet = document.createElement('style');
 mainStyleSheet.textContent = mainStyles;
 document.head.appendChild(mainStyleSheet);
 
-// 初始化應用
+// Initialize application
 document.addEventListener('DOMContentLoaded', () => {
     new TardisApp();
 }); 

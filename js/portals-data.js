@@ -1,9 +1,9 @@
-// TARDIS 門戶數據
+// TARDIS Portal Data
 const portalsData = [
     {
         id: 1,
-        title: "📝 Memo 知識庫",
-        description: "個人知識管理系統 - 多語言博客、隨想、項目展示",
+        title: "📝 Memo Knowledge Base",
+        description: "Personal knowledge management system - multilingual blog, thoughts, project showcase",
         url: "/memo/",
         icon: "📝",
         category: "tech",
@@ -13,7 +13,7 @@ const portalsData = [
     {
         id: 2,
         title: "💻 GitHub Profile",
-        description: "我的 GitHub 主頁 - 開源項目和代碼倉庫",
+        description: "My GitHub homepage - open source projects and code repositories",
         url: "https://github.com/ccc333bbb",
         icon: "💻",
         category: "tech",
@@ -22,8 +22,8 @@ const portalsData = [
     },
     {
         id: 3,
-        title: "🔧 開發工具集",
-        description: "常用開發工具和資源集合",
+        title: "🔧 Development Tools",
+        description: "Common development tools and resources collection",
         url: "#",
         icon: "🔧",
         category: "tools",
@@ -32,24 +32,24 @@ const portalsData = [
             {
                 title: "VS Code",
                 url: "https://code.visualstudio.com/",
-                description: "代碼編輯器"
+                description: "Code editor"
             },
             {
                 title: "GitHub",
                 url: "https://github.com/",
-                description: "代碼託管平台"
+                description: "Code hosting platform"
             },
             {
                 title: "Stack Overflow",
                 url: "https://stackoverflow.com/",
-                description: "開發者問答社區"
+                description: "Developer Q&A community"
             }
         ]
     },
     {
         id: 4,
-        title: "📚 學習資源",
-        description: "技術學習和知識獲取平台",
+        title: "📚 Learning Resources",
+        description: "Technology learning and knowledge acquisition platforms",
         url: "#",
         icon: "📚",
         category: "tech",
@@ -58,24 +58,24 @@ const portalsData = [
             {
                 title: "MDN Web Docs",
                 url: "https://developer.mozilla.org/",
-                description: "Web 開發文檔"
+                description: "Web development documentation"
             },
             {
                 title: "W3Schools",
                 url: "https://www.w3schools.com/",
-                description: "Web 技術教程"
+                description: "Web technology tutorials"
             },
             {
                 title: "freeCodeCamp",
                 url: "https://www.freecodecamp.org/",
-                description: "免費編程學習"
+                description: "Free programming learning"
             }
         ]
     },
     {
         id: 5,
-        title: "🎨 設計資源",
-        description: "UI/UX 設計工具和靈感來源",
+        title: "🎨 Design Resources",
+        description: "UI/UX design tools and inspiration sources",
         url: "#",
         icon: "🎨",
         category: "tools",
@@ -84,24 +84,24 @@ const portalsData = [
             {
                 title: "Figma",
                 url: "https://www.figma.com/",
-                description: "設計協作工具"
+                description: "Design collaboration tool"
             },
             {
                 title: "Dribbble",
                 url: "https://dribbble.com/",
-                description: "設計靈感社區"
+                description: "Design inspiration community"
             },
             {
                 title: "Behance",
                 url: "https://www.behance.net/",
-                description: "創意作品展示"
+                description: "Creative work showcase"
             }
         ]
     },
     {
         id: 6,
-        title: "🎵 音樂娛樂",
-        description: "音樂播放和娛樂平台",
+        title: "🎵 Music & Entertainment",
+        description: "Music streaming and entertainment platforms",
         url: "#",
         icon: "🎵",
         category: "entertainment",
@@ -110,24 +110,24 @@ const portalsData = [
             {
                 title: "Spotify",
                 url: "https://open.spotify.com/",
-                description: "音樂流媒體"
+                description: "Music streaming service"
             },
             {
                 title: "YouTube Music",
                 url: "https://music.youtube.com/",
-                description: "YouTube 音樂服務"
+                description: "YouTube music service"
             },
             {
                 title: "Netflix",
                 url: "https://www.netflix.com/",
-                description: "影視流媒體"
+                description: "Video streaming service"
             }
         ]
     },
     {
         id: 7,
-        title: "📰 新聞資訊",
-        description: "技術新聞和行業資訊",
+        title: "📰 News & Information",
+        description: "Technology news and industry information",
         url: "#",
         icon: "📰",
         category: "life",
@@ -136,24 +136,24 @@ const portalsData = [
             {
                 title: "TechCrunch",
                 url: "https://techcrunch.com/",
-                description: "科技新聞"
+                description: "Technology news"
             },
             {
                 title: "The Verge",
                 url: "https://www.theverge.com/",
-                description: "科技媒體"
+                description: "Technology media"
             },
             {
                 title: "Hacker News",
                 url: "https://news.ycombinator.com/",
-                description: "技術社區"
+                description: "Technology community"
             }
         ]
     },
     {
         id: 8,
-        title: "🛒 購物平台",
-        description: "常用購物和電商平台",
+        title: "🛒 Shopping Platforms",
+        description: "Common shopping and e-commerce platforms",
         url: "#",
         icon: "🛒",
         category: "life",
@@ -162,24 +162,24 @@ const portalsData = [
             {
                 title: "Amazon",
                 url: "https://www.amazon.com/",
-                description: "綜合電商平台"
+                description: "Comprehensive e-commerce platform"
             },
             {
                 title: "Apple Store",
                 url: "https://www.apple.com/",
-                description: "蘋果官方商店"
+                description: "Apple official store"
             },
             {
                 title: "Steam",
                 url: "https://store.steampowered.com/",
-                description: "遊戲平台"
+                description: "Gaming platform"
             }
         ]
     },
     {
         id: 9,
-        title: "🚀 生產力工具",
-        description: "提升工作效率的工具集合",
+        title: "🚀 Productivity Tools",
+        description: "Tools collection to improve work efficiency",
         url: "#",
         icon: "🚀",
         category: "tools",
@@ -188,24 +188,24 @@ const portalsData = [
             {
                 title: "Notion",
                 url: "https://www.notion.so/",
-                description: "筆記和協作工具"
+                description: "Note-taking and collaboration tool"
             },
             {
                 title: "Trello",
                 url: "https://trello.com/",
-                description: "項目管理工具"
+                description: "Project management tool"
             },
             {
                 title: "Slack",
                 url: "https://slack.com/",
-                description: "團隊溝通工具"
+                description: "Team communication tool"
             }
         ]
     },
     {
         id: 10,
-        title: "🌐 社交媒體",
-        description: "社交網絡和溝通平台",
+        title: "🌐 Social Media",
+        description: "Social networks and communication platforms",
         url: "#",
         icon: "🌐",
         category: "life",
@@ -214,21 +214,21 @@ const portalsData = [
             {
                 title: "Twitter",
                 url: "https://twitter.com/",
-                description: "社交媒體平台"
+                description: "Social media platform"
             },
             {
                 title: "LinkedIn",
                 url: "https://www.linkedin.com/",
-                description: "職業社交網絡"
+                description: "Professional social network"
             },
             {
                 title: "Discord",
                 url: "https://discord.com/",
-                description: "遊戲和社區聊天"
+                description: "Gaming and community chat"
             }
         ]
     }
 ];
 
-// 導出數據供其他腳本使用
+// Export data for use by other scripts
 window.portalsData = portalsData; 

@@ -1,4 +1,4 @@
-// TARDIS 搜索功能
+// TARDIS Search Functionality
 class TardisSearch {
     constructor() {
         this.searchInput = document.getElementById('searchInput');
@@ -14,13 +14,13 @@ class TardisSearch {
     }
     
     init() {
-        // 綁定搜索事件
+        // Bind search events
         this.searchInput.addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
             this.filterPortals();
         });
         
-        // 綁定分類標籤事件
+        // Bind category tab events
         this.tabButtons.forEach(btn => {
             btn.addEventListener('click', (e) => {
                 this.setActiveTab(e.target);
@@ -29,7 +29,7 @@ class TardisSearch {
             });
         });
         
-        // 初始加載
+        // Initial load
         this.filterPortals();
     }
     
@@ -58,8 +58,8 @@ class TardisSearch {
             this.portalsGrid.innerHTML = `
                 <div class="no-results">
                     <div class="no-results-icon">🔍</div>
-                    <h3>沒有找到匹配的門戶</h3>
-                    <p>嘗試使用不同的關鍵詞或選擇其他分類</p>
+                    <h3>No matching portals found</h3>
+                    <p>Try using different keywords or select another category</p>
                 </div>
             `;
             return;
@@ -69,7 +69,7 @@ class TardisSearch {
             return this.createPortalCard(portal);
         }).join('');
         
-        // 重新綁定卡片事件
+        // Re-bind card events
         this.bindPortalEvents();
     }
     
@@ -88,7 +88,7 @@ class TardisSearch {
                 <p>${portal.description}</p>
                 ${portal.subPortals ? this.createSubPortals(portal.subPortals) : ''}
                 <a href="${portal.url}" class="portal-link" ${portal.external ? 'target="_blank" rel="noopener"' : ''}>
-                    ${portal.subPortals ? '查看詳情' : '進入門戶'} →
+                    ${portal.subPortals ? 'View Details' : 'Enter Portal'} →
                 </a>
                 <div class="portal-tags">
                     ${tagsHtml}
@@ -119,7 +119,7 @@ class TardisSearch {
         
         portalCards.forEach(card => {
             card.addEventListener('click', (e) => {
-                // 如果點擊的是連結或子門戶，不觸發卡片點擊事件
+                // If clicking on a link or sub-portal, don't trigger card click event
                 if (e.target.tagName === 'A' || e.target.closest('a')) {
                     return;
                 }
@@ -143,7 +143,7 @@ class TardisSearch {
     }
 }
 
-// 添加額外的 CSS 樣式
+// Add additional CSS styles
 const additionalStyles = `
     .no-results {
         text-align: center;
@@ -225,12 +225,12 @@ const additionalStyles = `
     }
 `;
 
-// 動態添加樣式
+// Dynamically add styles
 const styleSheet = document.createElement('style');
 styleSheet.textContent = additionalStyles;
 document.head.appendChild(styleSheet);
 
-// 初始化搜索功能
+// Initialize search functionality
 document.addEventListener('DOMContentLoaded', () => {
     new TardisSearch();
 }); 
