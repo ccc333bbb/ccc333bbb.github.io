@@ -705,4 +705,139 @@ body {
     .stat-value {
         font-size: 1.2rem;
     }
+}
+
+/* Light theme styles for news section */
+body.light-theme .news-section {
+    background: #ffffff;
+}
+
+body.light-theme .news-section::before {
+    background: linear-gradient(90deg, transparent, #3498db, transparent);
+}
+
+body.light-theme .news-header {
+    border-bottom-color: #e74c3c;
+}
+
+body.light-theme .news-header h2 {
+    color: #2c3e50;
+}
+
+body.light-theme .news-refresh-btn,
+body.light-theme .news-search-toggle {
+    background: #f8f9fa;
+    border-color: #dee2e6;
+    color: #6c757d;
+}
+
+body.light-theme .news-refresh-btn:hover,
+body.light-theme .news-search-toggle:hover {
+    background: #e9ecef;
+    color: #495057;
+    border-color: #adb5bd;
+}
+
+body.light-theme .advanced-search {
+    background: #f8f9fa;
+    border-color: #dee2e6;
+}
+
+body.light-theme .search-filters input,
+body.light-theme .search-filters select {
+    background: #ffffff;
+    color: #495057;
+    border-color: #ced4da;
+}
+
+body.light-theme .search-filters input:focus,
+body.light-theme .search-filters select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+}
+
+body.light-theme .search-filters button {
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+body.light-theme .search-filters button:hover {
+    background: #c0392b;
+}
+
+body.light-theme .news-grid {
+    border-top-color: #e9ecef;
+}
+
+body.light-theme .news-card {
+    background: #ffffff;
+    border-bottom-color: #e9ecef;
+    border-right-color: #e9ecef;
+}
+
+body.light-theme .news-card:hover {
+    background: #f8f9fa;
+    border-color: #e9ecef;
+}
+
+body.light-theme .news-title a {
+    color: #2c3e50;
+}
+
+body.light-theme .news-title a:hover {
+    color: #e74c3c;
+}
+
+body.light-theme .news-keyword {
+    background: #e74c3c;
+    color: #ffffff;
+}
+
+body.light-theme .news-meta {
+    color: #6c757d;
+}
+
+body.light-theme .news-source {
+    color: #495057;
+}
+
+body.light-theme .news-date {
+    color: #6c757d;
+}
+
+body.light-theme .news-score {
+    color: #6c757d;
+}
+
+body.light-theme .news-stats {
+    background: #f8f9fa;
+    border-top-color: #e9ecef;
+}
+
+body.light-theme .stat-label {
+    color: #6c757d;
+}
+
+body.light-theme .stat-value {
+    color: #e74c3c;
+}
+
+body.light-theme .no-results {
+    background: #f8f9fa;
+}
+
+body.light-theme .no-results-icon {
+    color: #6c757d;
+}
+
+body.light-theme .no-results h3 {
+    color: #495057;
+}
+
+body.light-theme .no-results p {
+    color: #6c757d;
+}
+
+body.light-theme .loading {
+    color: #6c757d;
 } 
