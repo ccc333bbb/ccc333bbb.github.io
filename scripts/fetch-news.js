@@ -128,14 +128,18 @@ class NewsManager {
             }
             
             if (title && link && title.length > 10) {
-              articles.push({
+              const article = {
                 id: this.generateId(),
                 title,
                 link: link,
                 source: source.name,
                 timestamp: new Date().toISOString(),
                 category: 'general'
-              });
+              };
+              
+              // 添加智能標記
+              const enhancedArticle = this.addSmartMetadata(article);
+              articles.push(enhancedArticle);
             }
           });
           
@@ -174,14 +178,18 @@ class NewsManager {
                   }
                 }
                 
-                articles.push({
+                const article = {
                   id: this.generateId(),
                   title,
                   link: link,
                   source: source.name,
                   timestamp: new Date().toISOString(),
                   category: 'general'
-                });
+                };
+                
+                // 添加智能標記
+                const enhancedArticle = this.addSmartMetadata(article);
+                articles.push(enhancedArticle);
               }
             });
             
@@ -201,6 +209,137 @@ class NewsManager {
       }
       return [];
     }
+  }
+
+  // 添加智能元數據
+  addSmartMetadata(article) {
+    const keywordsData = JSON.parse(fs.readFileSync(this.keywordsFile, 'utf8'));
+    
+    // 計算重要性評分
+    const importance = this.calculateImportance(article, keywordsData);
+    
+    // 檢測文章類型
+    const articleType = this.detectArticleType(article, keywordsData);
+    
+    // 估算閱讀時間
+    const readTime = this.estimateReadTime(article.title);
+    
+    // 評估複雜度
+    const complexity = this.assessComplexity(article, keywordsData);
+    
+    // 獲取關鍵詞等級
+    const keywordLevel = this.getKeywordLevel(article.keyword, keywordsData);
+    
+    // 檢測是否為深度分析
+    const isAnalysis = this.isAnalysisArticle(article, keywordsData);
+    
+    return {
+      ...article,
+      metadata: {
+        importance,
+        articleType,
+        readTime,
+        complexity,
+        keywordLevel,
+        isAnalysis,
+        isTop10: false // 稍後在排名時設置
+      }
+    };
+  }
+
+  // 計算重要性評分
+  calculateImportance(article, keywordsData) {
+    let score = 0;
+    
+    // 來源權威性評分
+    const sourceWeights = keywordsData.sourceWeights || {};
+    score += sourceWeights[article.source] || 5;
+    
+    // 關鍵詞重要性
+    if (article.keyword) {
+      const keyword = keywordsData.keywords.find(k => k.keyword === article.keyword);
+      if (keyword) {
+        score += (11 - keyword.priority) * 2; // 優先級1得20分，優先級10得2分
+      }
+    }
+    
+    // 文章類型加分
+    const typeBonus = {
+      'analysis': 3,
+      'opinion': 2,
+      'breaking': 1,
+      'review': 2
+    };
+    
+    const detectedType = this.detectArticleType(article, keywordsData);
+    score += typeBonus[detectedType] || 0;
+    
+    // 標題長度加分（長標題通常更有信息量）
+    if (article.title.length > 50) {
+      score += 1;
+    }
+    
+    return Math.min(10, Math.max(1, score));
+  }
+
+  // 檢測文章類型
+  detectArticleType(article, keywordsData) {
+    const title = article.title.toLowerCase();
+    const patterns = keywordsData.articleTypePatterns || {};
+    
+    for (const [type, keywords] of Object.entries(patterns)) {
+      for (const keyword of keywords) {
+        if (title.includes(keyword.toLowerCase())) {
+          return type;
+        }
+      }
+    }
+    
+    return 'general';
+  }
+
+  // 估算閱讀時間
+  estimateReadTime(title) {
+    const wordCount = title.split(' ').length;
+    // 基於標題長度估算，平均每分鐘閱讀200字
+    const estimatedWords = wordCount * 20; // 假設正文是標題的20倍
+    return Math.max(1, Math.ceil(estimatedWords / 200));
+  }
+
+  // 評估複雜度
+  assessComplexity(article, keywordsData) {
+    const title = article.title.toLowerCase();
+    
+    // 複雜技術關鍵詞
+    const complexKeywords = ['quantum', 'algorithm', 'neural', 'blockchain', 'cryptography'];
+    const hasComplexKeywords = complexKeywords.some(keyword => title.includes(keyword));
+    
+    // 文章類型
+    const isAnalysis = this.isAnalysisArticle(article, keywordsData);
+    
+    if (hasComplexKeywords || isAnalysis) {
+      return 'advanced';
+    } else if (article.metadata?.readTime > 5) {
+      return 'medium';
+    } else {
+      return 'basic';
+    }
+  }
+
+  // 獲取關鍵詞等級
+  getKeywordLevel(keyword, keywordsData) {
+    if (!keyword) return null;
+    
+    const keywordData = keywordsData.keywords.find(k => k.keyword === keyword);
+    return keywordData?.level || null;
+  }
+
+  // 檢測是否為深度分析文章
+  isAnalysisArticle(article, keywordsData) {
+    const title = article.title.toLowerCase();
+    const analysisPatterns = keywordsData.articleTypePatterns?.analysis || [];
+    
+    return analysisPatterns.some(pattern => title.includes(pattern.toLowerCase()));
   }
 
   async searchKeywordNews(keyword) {

@@ -2,65 +2,168 @@
   "keywords": [
     {
       "keyword": "Artificial Intelligence",
-      "category": "tech",
       "priority": 1,
-      "description": "人工智能相關新聞"
+      "category": "core-tech",
+      "description": "人工智能核心技術發展",
+      "longTermFocus": true,
+      "color": "#FF6B6B",
+      "level": 1,
+      "tags": ["AI", "Machine Learning", "Deep Learning"]
     },
     {
       "keyword": "Machine Learning",
-      "category": "tech",
       "priority": 1,
-      "description": "機器學習技術發展"
+      "category": "core-tech", 
+      "description": "機器學習技術突破",
+      "longTermFocus": true,
+      "color": "#4ECDC4",
+      "level": 1,
+      "tags": ["ML", "AI", "Neural Networks"]
     },
     {
       "keyword": "ChatGPT",
-      "category": "tech",
-      "priority": 1,
-      "description": "OpenAI ChatGPT 相關"
+      "priority": 2,
+      "category": "ai-applications",
+      "description": "ChatGPT 相關發展",
+      "longTermFocus": true,
+      "color": "#45B7D1",
+      "level": 2,
+      "tags": ["OpenAI", "LLM", "AI Chat"]
     },
     {
       "keyword": "JavaScript",
-      "category": "tech",
       "priority": 2,
-      "description": "JavaScript 開發技術"
+      "category": "web-tech",
+      "description": "JavaScript 生態發展",
+      "longTermFocus": true,
+      "color": "#F7DC6F",
+      "level": 2,
+      "tags": ["Web", "Frontend", "ES2025"]
     },
     {
       "keyword": "React",
-      "category": "tech",
       "priority": 2,
-      "description": "React 框架相關"
+      "category": "web-tech",
+      "description": "React 框架更新",
+      "longTermFocus": true,
+      "color": "#61DAFB",
+      "level": 2,
+      "tags": ["Frontend", "Framework", "Meta"]
     },
     {
       "keyword": "Python",
-      "category": "tech",
       "priority": 2,
-      "description": "Python 編程語言"
+      "category": "programming",
+      "description": "Python 語言發展",
+      "longTermFocus": true,
+      "color": "#3776AB",
+      "level": 2,
+      "tags": ["Programming", "Data Science", "AI"]
     },
     {
       "keyword": "GitHub",
-      "category": "tech",
-      "priority": 2,
-      "description": "GitHub 平台相關"
+      "priority": 3,
+      "category": "dev-tools",
+      "description": "GitHub 平台更新",
+      "longTermFocus": true,
+      "color": "#181717",
+      "level": 3,
+      "tags": ["Git", "Development", "Microsoft"]
     },
     {
-      "keyword": "Web Development",
-      "category": "tech",
-      "priority": 3,
-      "description": "Web 開發技術"
+      "keyword": "Quantum Computing",
+      "priority": 1,
+      "category": "core-tech",
+      "description": "量子計算技術突破",
+      "longTermFocus": true,
+      "color": "#9B59B6",
+      "level": 1,
+      "tags": ["Quantum", "Physics", "Computing"]
+    },
+    {
+      "keyword": "Web3",
+      "priority": 2,
+      "category": "emerging-tech",
+      "description": "Web3 和區塊鏈發展",
+      "longTermFocus": true,
+      "color": "#F39C12",
+      "level": 2,
+      "tags": ["Blockchain", "Crypto", "Decentralized"]
     },
     {
       "keyword": "Cybersecurity",
-      "category": "tech",
-      "priority": 3,
-      "description": "網絡安全相關"
-    },
-    {
-      "keyword": "Cloud Computing",
-      "category": "tech",
-      "priority": 3,
-      "description": "雲計算技術"
+      "priority": 2,
+      "category": "security",
+      "description": "網絡安全威脅和防護",
+      "longTermFocus": true,
+      "color": "#E74C3C",
+      "level": 2,
+      "tags": ["Security", "Privacy", "Threats"]
     }
   ],
-  "lastUpdated": "2024-01-15T00:00:00.000Z",
-  "version": "1.0"
+  "lastUpdated": "2025-06-26T10:00:00.000Z",
+  "version": "1.0",
+  "categories": {
+    "core-tech": {
+      "name": "核心技術",
+      "description": "基礎性技術突破",
+      "priority": 1,
+      "color": "#FF6B6B"
+    },
+    "ai-applications": {
+      "name": "AI應用",
+      "description": "人工智能實際應用",
+      "priority": 2,
+      "color": "#4ECDC4"
+    },
+    "web-tech": {
+      "name": "Web技術",
+      "description": "前端和Web開發",
+      "priority": 2,
+      "color": "#F7DC6F"
+    },
+    "programming": {
+      "name": "編程語言",
+      "description": "編程語言發展",
+      "priority": 2,
+      "color": "#3776AB"
+    },
+    "dev-tools": {
+      "name": "開發工具",
+      "description": "開發工具和平台",
+      "priority": 3,
+      "color": "#181717"
+    },
+    "emerging-tech": {
+      "name": "新興技術",
+      "description": "新興技術趨勢",
+      "priority": 2,
+      "color": "#F39C12"
+    },
+    "security": {
+      "name": "網絡安全",
+      "description": "安全威脅和防護",
+      "priority": 2,
+      "color": "#E74C3C"
+    }
+  },
+  "sourceWeights": {
+    "BBC News": 10,
+    "The Economist": 9,
+    "TechCrunch": 8,
+    "Ars Technica": 7,
+    "The Verge": 7,
+    "Wired": 7,
+    "MIT Technology Review": 9,
+    "Nature": 10,
+    "Science": 10,
+    "Google News": 5,
+    "Bing News": 5
+  },
+  "articleTypePatterns": {
+    "analysis": ["analysis", "deep dive", "investigation", "research", "study"],
+    "opinion": ["opinion", "editorial", "commentary", "viewpoint"],
+    "breaking": ["breaking", "urgent", "alert", "update"],
+    "review": ["review", "comparison", "benchmark", "test"]
+  }
 } 

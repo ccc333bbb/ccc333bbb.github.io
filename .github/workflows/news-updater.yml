@@ -27,10 +27,14 @@ jobs:
       run: |
         node scripts/fetch-news.js
         
+    - name: Rank and classify news
+      run: |
+        node scripts/rank-news.js
+        
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/
-        git diff --quiet && git diff --staged --quiet || git commit -m "feat: update news and search index [skip ci]"
+        git diff --quiet && git diff --staged --quiet || git commit -m "feat: update news with smart ranking and classification [skip ci]"
         git push 
