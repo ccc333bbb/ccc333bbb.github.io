@@ -342,8 +342,5 @@ class NewsSearch {
   }
 }
 
-// 初始化新聞搜索
-let newsSearch;
-document.addEventListener('DOMContentLoaded', () => {
-  newsSearch = new NewsSearch();
-}); 
+// 初始化新聞搜索並暴露為全局變量
+window.newsSearch = new NewsSearch(); 
