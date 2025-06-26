@@ -119,8 +119,8 @@ class TardisApp {
     }
     
     initNewsSection() {
-        // 初始化新聞區塊
-        document.addEventListener('DOMContentLoaded', () => {
+        // 初始化新聞區塊 - 改為在window.load事件中執行，確保所有腳本都已加載
+        window.addEventListener('load', () => {
             const newsSection = document.getElementById('newsSection');
             if (newsSection && window.newsSearch) {
                 newsSection.innerHTML = window.newsSearch.renderNewsSection();
@@ -128,6 +128,8 @@ class TardisApp {
                 setTimeout(() => {
                     window.newsSearch.displayLatestNews();
                 }, 2000);
+            } else {
+                console.warn('News section or newsSearch not found');
             }
         });
     }
