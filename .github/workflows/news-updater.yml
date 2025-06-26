@@ -1,0 +1,36 @@
+name: News Updater
+
+on:
+  schedule:
+    # 每天 07:00, 12:00, 18:00, 21:00 (UTC+8)
+    - cron: '0 23,4,10,13 * * *'  # UTC 時間
+  workflow_dispatch:  # 手動觸發
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install axios cheerio
+        
+    - name: Fetch and process news
+      run: |
+        node scripts/fetch-news.js
+        
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/
+        git diff --quiet && git diff --staged --quiet || git commit -m "feat: update news and search index [skip ci]"
+        git push 

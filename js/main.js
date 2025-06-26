@@ -9,6 +9,7 @@ class TardisApp {
         this.addAnimations();
         this.addThemeToggle();
         this.addLoadingAnimation();
+        this.initNewsSection();
     }
     
     addKeyboardShortcuts() {
@@ -117,6 +118,20 @@ class TardisApp {
         });
     }
     
+    initNewsSection() {
+        // 初始化新聞區塊
+        document.addEventListener('DOMContentLoaded', () => {
+            const newsSection = document.getElementById('newsSection');
+            if (newsSection && window.newsSearch) {
+                newsSection.innerHTML = window.newsSearch.renderNewsSection();
+                // 延遲加載新聞，避免影響主頁面加載
+                setTimeout(() => {
+                    window.newsSearch.displayLatestNews();
+                }, 2000);
+            }
+        });
+    }
+    
     showWelcomeMessage() {
         const welcomeMsg = document.createElement('div');
         welcomeMsg.className = 'welcome-message';
@@ -124,6 +139,7 @@ class TardisApp {
             <div class="welcome-content">
                 <h3>🚀 歡迎來到 TARDIS Navigation</h3>
                 <p>使用 Ctrl+K 快速搜索，數字鍵切換分類</p>
+                <p>📰 新聞區塊支持全文檢索和關鍵詞搜索</p>
                 <button class="welcome-close">知道了</button>
             </div>
         `;
