@@ -2,8 +2,8 @@ name: News Updater
 
 on:
   schedule:
-    # 每天 07:00, 12:00, 18:00, 21:00 (UTC+8)
-    - cron: '0 23,4,10,13 * * *'  # UTC 時間
+    # 每小時執行一次 (UTC 時間)
+    - cron: '0 * * * *'  # UTC 時間，每小時的0分鐘執行
   workflow_dispatch:  # 手動觸發
 
 permissions:

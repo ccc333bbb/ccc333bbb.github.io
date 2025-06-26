@@ -34,6 +34,12 @@ const newsSources = [
     url: 'https://www.wired.com',
     selector: 'h3 a, .SummaryItemHedLink, .headline a',
     limit: 4
+  },
+  {
+    name: 'Google News',
+    url: 'https://news.google.com',
+    selector: 'h3 a, .VDXfz, .DY5T1d, .ipQwMb',
+    limit: 6
   }
 ];
 
