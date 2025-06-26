@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 TARDIS Navigation - Time And Relative Dimension In Space</title>
+    <meta name="description" content="個人時空導航門戶 - 穿梭於不同的數字世界">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tardis-container">
+        <!-- TARDIS 頭部 -->
+        <header class="tardis-header">
+            <div class="tardis-title">
+                <h1>🚀 TARDIS Navigation</h1>
+                <p class="subtitle">Time And Relative Dimension In Space</p>
+                <p class="description">歡迎來到我的數字時空門戶</p>
+            </div>
+        </header>
+
+        <!-- 搜索區域 -->
+        <div class="search-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="搜索時空門戶..." autocomplete="off">
+                <div class="search-icon">🔍</div>
+            </div>
+            <div class="search-stats">
+                <span id="searchStats">找到 <span id="portalCount">0</span> 個門戶</span>
+            </div>
+        </div>
+
+        <!-- 分類標籤 -->
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="all">全部</button>
+            <button class="tab-btn" data-category="tech">技術</button>
+            <button class="tab-btn" data-category="life">生活</button>
+            <button class="tab-btn" data-category="entertainment">娛樂</button>
+            <button class="tab-btn" data-category="tools">工具</button>
+        </div>
+
+        <!-- 時空門戶網格 -->
+        <main class="portals-grid" id="portalsGrid">
+            <!-- 門戶卡片將通過 JavaScript 動態生成 -->
+        </main>
+
+        <!-- 頁腳 -->
+        <footer class="tardis-footer">
+            <p>© 2024 TARDIS Navigation - 穿梭於數字時空</p>
+        </footer>
+    </div>
+
+    <script src="js/portals-data.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
