@@ -1,17 +1,16 @@
-name: News Updater
+name: RSS News Aggregator
 
 on:
   schedule:
-    # 每小時執行一次 (UTC 時間)
-    - cron: '0 * * * *'  # UTC 時間，每小時的0分鐘執行
+    # 每15分鐘執行一次 (UTC 時間)
+    - cron: '*/15 * * * *'
   workflow_dispatch:  # 手動觸發
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
-  fetch-news:
+  fetch-and-process-news:
     runs-on: ubuntu-latest
     
     steps:
@@ -24,25 +23,79 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
+        cache: 'npm'
         
     - name: Install dependencies
       run: |
-        npm install axios cheerio
+        npm install
         
-    - name: Fetch and process news
+    - name: Fetch trending keywords
       run: |
+        echo "🔍 獲取熱門關鍵詞..."
+        node scripts/fetch-keywords.js
+        
+    - name: Fetch RSS news
+      run: |
+        echo "📰 獲取RSS新聞..."
         node scripts/fetch-news.js
         
-    - name: Rank and classify news
+    - name: Process and rank news
       run: |
-        node scripts/rank-news.js
+        echo "🔄 處理和排序新聞..."
+        node scripts/process-news.js
         
     - name: Commit and push changes
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add data/
-        git diff --quiet && git diff --staged --quiet || git commit -m "feat: update news with smart ranking and classification [skip ci]"
-        git push
+        git config --local user.email "actions@github.com"
+        git config --local user.name "RSS News Bot"
+        
+        # 檢查是否有變更
+        if [[ -n $(git status --porcelain) ]]; then
+          echo "📝 發現數據變更，準備提交..."
+          
+          # 添加所有數據文件
+          git add data/
+          
+          # 獲取統計信息
+          TOTAL_ARTICLES=$(find data/news -name "*.json" -exec jq '.totalArticles // .articles | length' {} \; | head -1)
+          LAST_UPDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
+          
+          # 提交變更
+          git commit -m "feat(news): 自動更新RSS新聞聚合 - ${TOTAL_ARTICLES}篇文章 [${LAST_UPDATE}] [skip ci]"
+          
+          # 推送到倉庫
+          git push
+          
+          echo "✅ 新聞數據已成功更新並推送"
+        else
+          echo "ℹ️ 沒有檢測到數據變更，跳過提交"
+        fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Report status
+      if: always()
+      run: |
+        echo "📋 工作流程執行完成"
+        echo "⏰ 執行時間: $(date -u)"
+        
+        # 檢查數據文件
+        if [ -f "data/news-index.json" ]; then
+          echo "📰 新聞索引文件存在"
+          DAYS_COUNT=$(jq '.totalDays // .index | length' data/news-index.json)
+          echo "📊 索引包含 ${DAYS_COUNT} 天的數據"
+        fi
+        
+        if [ -f "data/ranked-news-index.json" ]; then
+          echo "🏆 排名索引文件存在"
+          ARTICLES_COUNT=$(jq '.totalArticles' data/ranked-news-index.json)
+          echo "📈 排名索引包含 ${ARTICLES_COUNT} 篇文章"
+        fi
+        
+        if [ -f "data/keywords.json" ]; then
+          echo "🔑 關鍵詞文件存在"
+          KEYWORDS_COUNT=$(jq '.totalKeywords // .keywords | length' data/keywords.json)
+          echo "🎯 關鍵詞庫包含 ${KEYWORDS_COUNT} 個關鍵詞"
+        fi
+        
+        echo "🎉 RSS新聞聚合系統運行正常" 

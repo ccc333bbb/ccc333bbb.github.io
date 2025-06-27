@@ -13,6 +13,7 @@
     "news:quick-update": "node scripts/update-all-news.js quick",
     "news:report": "node scripts/update-all-news.js report",
     "news:keywords-only": "node scripts/update-all-news.js keywords",
+    "news:process": "node scripts/process-news.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -21,13 +22,17 @@
     "portal",
     "tardis",
     "doctor-who",
-    "static-site"
+    "static-site",
+    "rss",
+    "news-aggregator"
   ],
   "author": "ccc333bbb",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.0",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "rss-parser": "^3.13.0",
+    "xml2js": "^0.6.2"
   },
   "devDependencies": {},
   "repository": {

@@ -1,755 +1,703 @@
 const axios = require('axios');
-const cheerio = require('cheerio');
+const Parser = require('rss-parser');
 const fs = require('fs');
 const path = require('path');
 
-// 擴展的新聞來源配置 - 包含多元化真實來源
-const newsSources = [
-  // 權威新聞
-  {
-    name: 'BBC News',
-    url: 'https://www.bbc.com/news/technology',
-    selector: 'h3[data-testid="card-headline"], h2[data-testid="card-headline"], .gs-c-promo-heading__title',
-    limit: 5,
-    weight: 10,
-    category: 'general'
-  },
-  {
-    name: 'Reuters',
-    url: 'https://www.reuters.com/technology/',
-    selector: 'h3 a, .story-title a, [data-testid="Heading"] a',
-    limit: 4,
-    weight: 10,
-    category: 'general'
-  },
-  {
-    name: 'Associated Press',
-    url: 'https://apnews.com/technology',
-    selector: 'h2 a, .Component-headline a, .CardHeadline a',
-    limit: 4,
-    weight: 9,
-    category: 'general'
-  },
-  
-  // 科技專業媒體
-  {
-    name: 'TechCrunch',
-    url: 'https://techcrunch.com',
-    selector: 'h2.post-block__title a, .post-block__title a, h2 a',
-    limit: 5,
-    weight: 8,
-    category: 'tech'
-  },
-  {
-    name: 'The Verge',
-    url: 'https://www.theverge.com',
-    selector: 'h2 a, .c-entry-box--compact__title a, .c-entry-summary__title a',
-    limit: 4,
-    weight: 7,
-    category: 'tech'
-  },
-  {
-    name: 'Ars Technica',
-    url: 'https://arstechnica.com',
-    selector: 'h2.entry-title a, .listing-title a',
-    limit: 4,
-    weight: 7,
-    category: 'tech'
-  },
-  {
-    name: 'Wired',
-    url: 'https://www.wired.com',
-    selector: 'h3 a, .SummaryItemHedLink, .headline a',
-    limit: 4,
-    weight: 7,
-    category: 'tech'
-  },
-  {
-    name: 'Engadget',
-    url: 'https://www.engadget.com',
-    selector: 'h2 a, .o-hit__title a, .o-hit__link',
-    limit: 4,
-    weight: 6,
-    category: 'tech'
-  },
-  
-  // 商業科技
-  {
-    name: 'TechTarget',
-    url: 'https://www.techtarget.com/searchcio/',
-    selector: 'h2 a, .content-headline a, .headline a',
-    limit: 3,
-    weight: 6,
-    category: 'business'
-  },
-  {
-    name: 'ZDNet',
-    url: 'https://www.zdnet.com',
-    selector: 'h3 a, .c-shortcodeListicle__item h4 a, .storyTitle a',
-    limit: 4,
-    weight: 6,
-    category: 'business'
-  },
-  
-  // 開發者社區
-  {
-    name: 'GitHub Blog',
-    url: 'https://github.blog/category/engineering/',
-    selector: 'h2 a, .post-title a, .Link--primary',
-    limit: 3,
-    weight: 7,
-    category: 'development'
-  },
-  {
-    name: 'Stack Overflow Blog',
-    url: 'https://stackoverflow.blog',
-    selector: 'h2 a, .s-post-summary--content-title a',
-    limit: 3,
-    weight: 6,
-    category: 'development'
-  },
-  
-  // 聚合器（作為補充）
-  {
-    name: 'Google News',
-    url: 'https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ4ZERBU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen',
-    selector: 'h3 a, .VDXfz, .DY5T1d, .ipQwMb',
-    limit: 3,
-    weight: 5,
-    category: 'general'
-  }
-];
-
-// 擴展的關鍵字搜索來源
-const keywordSearchSources = [
-  // NewsAPI 替代方案
-  {
-    name: 'AllSides News',
-    searchUrl: (keyword) => `https://www.allsides.com/search/site/${encodeURIComponent(keyword)}`,
-    selector: '.view-content h3 a, .search-result-title a',
-    weight: 6
-  },
-  
-  // 專業數據庫
-  {
-    name: 'MIT Technology Review',
-    searchUrl: (keyword) => `https://www.technologyreview.com/search/?s=${encodeURIComponent(keyword)}`,
-    selector: '.teaserContent__title a, h3 a',
-    weight: 9
-  },
-  
-  // 學術搜索
-  {
-    name: 'ACM Digital Library',
-    searchUrl: (keyword) => `https://dl.acm.org/action/doSearch?AllField=${encodeURIComponent(keyword)}`,
-    selector: '.issue-item__title a, .hlFld-Title a',
-    weight: 8
-  },
-  
-  // 行業報告
-  {
-    name: 'Gartner',
-    searchUrl: (keyword) => `https://www.gartner.com/en/search?keywords=${encodeURIComponent(keyword)}`,
-    selector: '.search-result-title a, h3 a',
-    weight: 9
-  },
-  
-  // RSS聚合
-  {
-    name: 'Feedly Discover',
-    searchUrl: (keyword) => `https://feedly.com/i/search/${encodeURIComponent(keyword)}`,
-    selector: '.entry-title a, .fx-searchResult-title a',
-    weight: 5
-  },
-  
-  // 社區驅動
-  {
-    name: 'Dev.to',
-    searchUrl: (keyword) => `https://dev.to/search?q=${encodeURIComponent(keyword)}`,
-    selector: 'h2 a, .crayons-story__title a',
-    weight: 6
-  },
-  
-  // 保留原有的搜索引擎作為補充
-  {
-    name: 'DuckDuckGo News',
-    searchUrl: (keyword) => `https://duckduckgo.com/?q=${encodeURIComponent(keyword)}&iar=news&ia=news`,
-    selector: '.result__title a, .result__a',
-    weight: 5
-  },
-  
-  {
-    name: 'Bing News Search',
-    searchUrl: (keyword) => `https://www.bing.com/news/search?q=${encodeURIComponent(keyword)}`,
-    selector: '.news-card a, .title a, .newsitem h2 a',
-    weight: 5
-  }
-];
-
-class NewsManager {
-  constructor() {
-    this.dataDir = path.join(__dirname, '../data');
-    this.newsDir = path.join(this.dataDir, 'news');
-    this.indexFile = path.join(this.dataDir, 'news-index.json');
-    this.searchIndexFile = path.join(this.dataDir, 'search-index.json');
-    this.keywordsFile = path.join(this.dataDir, 'keywords.json');
-    this.ensureDirectories();
-  }
-
-  ensureDirectories() {
-    if (!fs.existsSync(this.dataDir)) {
-      fs.mkdirSync(this.dataDir, { recursive: true });
+class RSSNewsAggregator {
+    constructor() {
+        this.parser = new Parser({
+            customFields: {
+                item: [['description', 'description'], ['pubDate', 'pubDate'], ['content', 'content']]
+            }
+        });
+        this.dataDir = path.join(__dirname, '../data');
+        this.newsDir = path.join(this.dataDir, 'news');
+        this.indexFile = path.join(this.dataDir, 'news-index.json');
+        this.searchIndexFile = path.join(this.dataDir, 'search-index.json');
+        this.ensureDirectories();
     }
-    if (!fs.existsSync(this.newsDir)) {
-      fs.mkdirSync(this.newsDir, { recursive: true });
+
+    ensureDirectories() {
+        [this.dataDir, this.newsDir].forEach(dir => {
+            if (!fs.existsSync(dir)) {
+                fs.mkdirSync(dir, { recursive: true });
+            }
+        });
     }
-  }
 
-  getDateString(date = new Date()) {
-    return date.toISOString().split('T')[0]; // YYYY-MM-DD
-  }
+    // 免費RSS新聞源配置
+    getNewsSources() {
+        return [
+            // 國際權威媒體 RSS
+            {
+                name: 'BBC News',
+                url: 'http://feeds.bbci.co.uk/news/rss.xml',
+                category: 'general',
+                weight: 10,
+                limit: 5
+            },
+            {
+                name: 'BBC Technology',
+                url: 'http://feeds.bbci.co.uk/news/technology/rss.xml',
+                category: 'tech',
+                weight: 9,
+                limit: 4
+            },
+            {
+                name: 'Reuters',
+                url: 'https://www.reutersagency.com/feed/?best-topics=tech&post_type=best',
+                category: 'general',
+                weight: 10,
+                limit: 4
+            },
+            {
+                name: 'Associated Press',
+                url: 'https://feeds.apnews.com/index.rss',
+                category: 'general',
+                weight: 9,
+                limit: 4
+            },
 
-  generateId() {
-    return Date.now().toString(36) + Math.random().toString(36).substr(2);
-  }
+            // 科技媒體 RSS
+            {
+                name: 'TechCrunch',
+                url: 'https://techcrunch.com/feed/',
+                category: 'tech',
+                weight: 8,
+                limit: 5
+            },
+            {
+                name: 'The Verge',
+                url: 'https://www.theverge.com/rss/index.xml',
+                category: 'tech',
+                weight: 7,
+                limit: 4
+            },
+            {
+                name: 'Ars Technica',
+                url: 'https://feeds.arstechnica.com/arstechnica/index',
+                category: 'tech',
+                weight: 7,
+                limit: 4
+            },
+            {
+                name: 'Wired',
+                url: 'https://www.wired.com/feed/rss',
+                category: 'tech',
+                weight: 7,
+                limit: 4
+            },
+            {
+                name: 'Engadget',
+                url: 'https://www.engadget.com/rss.xml',
+                category: 'tech',
+                weight: 6,
+                limit: 4
+            },
 
-  async fetchNewsFromSource(source) {
-    try {
-      console.log(`Fetching news from ${source.name}...`);
-      
-      // 更強的反反爬蟲策略
-      const response = await axios.get(source.url, {
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-          'Accept-Language': 'en-US,en;q=0.5',
-          'Accept-Encoding': 'gzip, deflate, br',
-          'DNT': '1',
-          'Connection': 'keep-alive',
-          'Upgrade-Insecure-Requests': '1',
-          'Sec-Fetch-Dest': 'document',
-          'Sec-Fetch-Mode': 'navigate',
-          'Sec-Fetch-Site': 'none',
-          'Cache-Control': 'max-age=0'
-        },
-        timeout: 20000,
-        maxRedirects: 5
-      });
-      
-      console.log(`✓ Got response from ${source.name}, status: ${response.status}`);
-      console.log(`✓ Content length: ${response.data.length} characters`);
-      
-      const $ = cheerio.load(response.data);
-      const articles = [];
-      
-      // 嘗試多個選擇器
-      const selectors = source.selector.split(', ');
-      let foundArticles = false;
-      
-      for (const selector of selectors) {
-        const elements = $(selector);
-        console.log(`  Trying selector "${selector}": found ${elements.length} elements`);
-        
-        if (elements.length > 0) {
-          elements.slice(0, source.limit).each((i, element) => {
-            const $el = $(element);
-            let title = $el.text().trim();
-            let link = $el.attr('href') || $el.find('a').attr('href');
-            
-            // 如果沒有直接找到鏈接，嘗試父元素
-            if (!link && $el.parent().is('a')) {
-              link = $el.parent().attr('href');
+            // 商業和財經 RSS
+            {
+                name: 'NPR Business',
+                url: 'https://feeds.npr.org/1006/rss.xml',
+                category: 'business',
+                weight: 8,
+                limit: 3
+            },
+            {
+                name: 'ABC News Business',
+                url: 'https://abcnews.go.com/abcnews/businessheadlines',
+                category: 'business',
+                weight: 7,
+                limit: 3
+            },
+
+            // 開發者和技術社區 RSS
+            {
+                name: 'GitHub Blog',
+                url: 'https://github.blog/feed/',
+                category: 'development',
+                weight: 7,
+                limit: 3
+            },
+            {
+                name: 'Stack Overflow Blog',
+                url: 'https://stackoverflow.blog/feed/',
+                category: 'development',
+                weight: 6,
+                limit: 3
+            },
+            {
+                name: 'Dev.to',
+                url: 'https://dev.to/feed',
+                category: 'development',
+                weight: 6,
+                limit: 3
+            },
+
+            // 科學和研究 RSS
+            {
+                name: 'Science Daily',
+                url: 'https://www.sciencedaily.com/rss/computers_math/computer_science/artificial_intelligence.xml',
+                category: 'science',
+                weight: 8,
+                limit: 3
+            },
+            {
+                name: 'MIT Technology Review',
+                url: 'https://www.technologyreview.com/feed/',
+                category: 'science',
+                weight: 9,
+                limit: 3
+            },
+
+            // Reddit RSS (免費且無需API)
+            {
+                name: 'Reddit Technology',
+                url: 'https://www.reddit.com/r/technology/.rss',
+                category: 'tech',
+                weight: 5,
+                limit: 3
+            },
+            {
+                name: 'Reddit Programming',
+                url: 'https://www.reddit.com/r/programming/.rss',
+                category: 'development',
+                weight: 5,
+                limit: 3
+            },
+            {
+                name: 'Reddit World News',
+                url: 'https://www.reddit.com/r/worldnews/.rss',
+                category: 'world',
+                weight: 6,
+                limit: 3
             }
+        ];
+    }
+
+    // 獲取單個RSS源的新聞
+    async fetchRSSFeed(source) {
+        try {
+            console.log(`🔍 正在獲取 ${source.name} 的新聞...`);
             
-            // 構建完整URL
-            if (link) {
-              if (link.startsWith('http')) {
-                // 已經是完整URL
-              } else if (link.startsWith('//')) {
-                link = 'https:' + link;
-              } else if (link.startsWith('/')) {
-                const baseUrl = source.url.split('/').slice(0, 3).join('/');
-                link = baseUrl + link;
-              } else {
-                const baseUrl = source.url.split('/').slice(0, 3).join('/');
-                link = baseUrl + '/' + link;
-              }
-            }
+            const feed = await this.parser.parseURL(source.url);
+            const articles = [];
             
-            if (title && link && title.length > 10) {
-              const article = {
-                id: this.generateId(),
-                title,
-                link: link,
-                source: source.name,
-                timestamp: new Date().toISOString(),
-                category: 'general'
-              };
-              
-              // 添加智能標記
-              const enhancedArticle = this.addSmartMetadata(article);
-              articles.push(enhancedArticle);
-            }
-          });
-          
-          if (articles.length > 0) {
-            foundArticles = true;
-            break;
-          }
-        }
-      }
-      
-      if (!foundArticles) {
-        // 如果所有選擇器都失敗，嘗試通用的標題選擇器
-        console.log(`  No articles found with specific selectors, trying generic selectors...`);
-        const genericSelectors = ['h1 a', 'h2 a', 'h3 a', '.title a', '.headline a', 'a[href*="/202"]'];
-        
-        for (const selector of genericSelectors) {
-          const elements = $(selector);
-          console.log(`  Trying generic selector "${selector}": found ${elements.length} elements`);
-          
-          if (elements.length > 0) {
-            elements.slice(0, source.limit).each((i, element) => {
-              const $el = $(element);
-              const title = $el.text().trim();
-              let link = $el.attr('href');
-              
-              if (link && title && title.length > 10) {
-                if (!link.startsWith('http')) {
-                  if (link.startsWith('//')) {
-                    link = 'https:' + link;
-                  } else if (link.startsWith('/')) {
-                    const baseUrl = source.url.split('/').slice(0, 3).join('/');
-                    link = baseUrl + link;
-                  } else {
-                    const baseUrl = source.url.split('/').slice(0, 3).join('/');
-                    link = baseUrl + '/' + link;
-                  }
+            const itemsToProcess = feed.items.slice(0, source.limit || 5);
+            
+            for (const item of itemsToProcess) {
+                try {
+                    const article = this.processRSSItem(item, source);
+                    if (article && this.isRecentArticle(article.pubDate)) {
+                        articles.push(article);
+                    }
+                } catch (error) {
+                    console.warn(`處理文章時出錯 (${source.name}):`, error.message);
                 }
+            }
+            
+            console.log(`✅ ${source.name}: 獲取到 ${articles.length} 篇文章`);
+            return articles;
+            
+        } catch (error) {
+            console.error(`❌ 獲取 ${source.name} 失敗:`, error.message);
+            return [];
+        }
+    }
+
+    // 處理RSS條目
+    processRSSItem(item, source) {
+        // 提取文章基本信息
+        const title = item.title?.trim() || '';
+        const link = item.link || item.guid || '';
+        const description = this.extractDescription(item);
+        const pubDate = this.parseDate(item.pubDate || item.isoDate);
+        
+        if (!title || !link) {
+            return null;
+        }
+
+        // 生成文章ID
+        const id = this.generateArticleId(title, link);
+        
+        // 創建文章對象
+        const article = {
+            id,
+            title,
+            link,
+            description,
+            pubDate: pubDate.toISOString(),
+            source: source.name,
+            category: source.category,
+            weight: source.weight,
+            content: this.extractContent(item),
+            author: item.author || item.creator || source.name,
+            
+            // 添加智能元數據
+            ...this.addSmartMetadata(title, description, source)
+        };
+
+        return article;
+    }
+
+    // 提取描述文本
+    extractDescription(item) {
+        let description = '';
+        
+        if (item.description) {
+            description = item.description;
+        } else if (item.summary) {
+            description = item.summary;
+        } else if (item.content) {
+            description = item.content;
+        } else if (item['content:encoded']) {
+            description = item['content:encoded'];
+        }
+        
+        // 清理HTML標籤
+        return this.stripHtml(description).substring(0, 300);
+    }
+
+    // 提取內容
+    extractContent(item) {
+        let content = '';
+        
+        if (item['content:encoded']) {
+            content = item['content:encoded'];
+        } else if (item.content) {
+            content = item.content;
+        } else if (item.description) {
+            content = item.description;
+        }
+        
+        return this.stripHtml(content).substring(0, 500);
+    }
+
+    // 清理HTML標籤
+    stripHtml(html) {
+        if (!html) return '';
+        return html
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/&nbsp;/g, ' ')
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&quot;/g, '"')
+            .replace(/&#039;/g, "'")
+            .replace(/\s+/g, ' ')
+            .trim();
+    }
+
+    // 解析日期
+    parseDate(dateString) {
+        if (!dateString) return new Date();
+        
+        try {
+            return new Date(dateString);
+        } catch (error) {
+            return new Date();
+        }
+    }
+
+    // 檢查文章是否為最近24小時內
+    isRecentArticle(pubDate, hoursLimit = 48) {
+        const articleDate = new Date(pubDate);
+        const now = new Date();
+        const diffHours = (now - articleDate) / (1000 * 60 * 60);
+        return diffHours <= hoursLimit;
+    }
+
+    // 生成文章ID
+    generateArticleId(title, link) {
+        const combined = `${title}-${link}`;
+        return Buffer.from(combined).toString('base64').substring(0, 16);
+    }
+
+    // 添加智能元數據
+    addSmartMetadata(title, description, source) {
+        const fullText = `${title} ${description}`.toLowerCase();
+        
+        return {
+            readTime: this.estimateReadTime(title + ' ' + description),
+            importance: this.calculateImportance(fullText, source),
+            tags: this.extractTags(fullText),
+            sentiment: this.analyzeSentiment(fullText),
+            complexity: this.assessComplexity(fullText),
+            type: this.detectArticleType(fullText)
+        };
+    }
+
+    // 估算閱讀時間
+    estimateReadTime(text) {
+        const wordsPerMinute = 200;
+        const wordCount = text.split(/\s+/).length;
+        return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
+    }
+
+    // 計算重要性分數
+    calculateImportance(text, source) {
+        let score = source.weight || 5;
+        
+        // 關鍵詞加權
+        const importantKeywords = [
+            'breaking', 'urgent', 'exclusive', 'first', 'new', 'launch',
+            'ai', 'artificial intelligence', 'breakthrough', 'innovation',
+            'crisis', 'emergency', 'alert', 'warning', 'critical'
+        ];
+        
+        importantKeywords.forEach(keyword => {
+            if (text.includes(keyword)) {
+                score += 2;
+            }
+        });
+        
+        return Math.min(10, score);
+    }
+
+    // 提取標籤
+    extractTags(text) {
+        const tags = [];
+        const tagPatterns = {
+            'AI': /\b(ai|artificial intelligence|machine learning|deep learning)\b/i,
+            'Tech': /\b(tech|technology|software|hardware|digital)\b/i,
+            'Business': /\b(business|economy|market|finance|investment)\b/i,
+            'Science': /\b(science|research|study|discovery|breakthrough)\b/i,
+            'Security': /\b(security|privacy|cyber|hack|breach)\b/i,
+            'Mobile': /\b(mobile|smartphone|iphone|android|app)\b/i,
+            'Web': /\b(web|website|browser|internet|online)\b/i,
+            'Cloud': /\b(cloud|aws|azure|google cloud|saas)\b/i,
+            'Startup': /\b(startup|funding|ipo|venture|investor)\b/i,
+            'Social': /\b(social|facebook|twitter|instagram|tiktok)\b/i
+        };
+        
+        Object.entries(tagPatterns).forEach(([tag, pattern]) => {
+            if (pattern.test(text)) {
+                tags.push(tag);
+            }
+        });
+        
+        return tags.slice(0, 3); // 最多3個標籤
+    }
+
+    // 簡單的情感分析
+    analyzeSentiment(text) {
+        const positiveWords = ['good', 'great', 'excellent', 'amazing', 'breakthrough', 'success', 'win', 'growth', 'improve'];
+        const negativeWords = ['bad', 'terrible', 'crisis', 'problem', 'issue', 'fail', 'decline', 'drop', 'concern', 'risk'];
+        
+        let positiveCount = 0;
+        let negativeCount = 0;
+        
+        positiveWords.forEach(word => {
+            if (text.includes(word)) positiveCount++;
+        });
+        
+        negativeWords.forEach(word => {
+            if (text.includes(word)) negativeCount++;
+        });
+        
+        if (positiveCount > negativeCount) return 'positive';
+        if (negativeCount > positiveCount) return 'negative';
+        return 'neutral';
+    }
+
+    // 評估複雜度
+    assessComplexity(text) {
+        const technicalTerms = [
+            'algorithm', 'api', 'framework', 'protocol', 'architecture',
+            'database', 'encryption', 'blockchain', 'kubernetes', 'docker'
+        ];
+        
+        let complexityScore = 0;
+        technicalTerms.forEach(term => {
+            if (text.includes(term)) complexityScore++;
+        });
+        
+        if (complexityScore >= 3) return 'high';
+        if (complexityScore >= 1) return 'medium';
+        return 'low';
+    }
+
+    // 檢測文章類型
+    detectArticleType(text) {
+        const typePatterns = {
+            'news': /\b(report|announce|reveal|confirm|statement)\b/i,
+            'analysis': /\b(analysis|examine|study|research|investigate)\b/i,
+            'opinion': /\b(opinion|think|believe|argue|perspective)\b/i,
+            'tutorial': /\b(how to|guide|tutorial|step|learn)\b/i,
+            'review': /\b(review|test|compare|evaluation)\b/i
+        };
+        
+        for (const [type, pattern] of Object.entries(typePatterns)) {
+            if (pattern.test(text)) {
+                return type;
+            }
+        }
+        
+        return 'news';
+    }
+
+    // 去重處理
+    deduplicateArticles(articles) {
+        const seen = new Set();
+        const uniqueArticles = [];
+        
+        articles.forEach(article => {
+            // 使用標題的前50個字符作為去重依據
+            const titleKey = article.title.substring(0, 50).toLowerCase();
+            
+            if (!seen.has(titleKey)) {
+                seen.add(titleKey);
+                uniqueArticles.push(article);
+            }
+        });
+        
+        return uniqueArticles;
+    }
+
+    // 根據關鍵詞過濾和排序
+    async filterAndRankArticles(articles) {
+        try {
+            // 嘗試讀取關鍵詞文件
+            const keywordsPath = path.join(this.dataDir, 'keywords.json');
+            let keywords = [];
+            
+            if (fs.existsSync(keywordsPath)) {
+                const keywordsData = JSON.parse(fs.readFileSync(keywordsPath, 'utf8'));
+                keywords = keywordsData.keywords || [];
+            }
+
+            // 為每篇文章計算相關性分數
+            articles.forEach(article => {
+                let relevanceScore = article.importance || 5;
+                const fullText = `${article.title} ${article.description}`.toLowerCase();
                 
-                const article = {
-                  id: this.generateId(),
-                  title,
-                  link: link,
-                  source: source.name,
-                  timestamp: new Date().toISOString(),
-                  category: 'general'
-                };
+                // 基於關鍵詞的相關性評分
+                keywords.forEach(keywordObj => {
+                    const keyword = keywordObj.keyword?.toLowerCase();
+                    if (keyword && fullText.includes(keyword)) {
+                        relevanceScore += (keywordObj.score || 1);
+                    }
+                });
                 
-                // 添加智能標記
-                const enhancedArticle = this.addSmartMetadata(article);
-                articles.push(enhancedArticle);
-              }
+                // 時間新鮮度加權
+                const hoursAgo = (new Date() - new Date(article.pubDate)) / (1000 * 60 * 60);
+                const freshnessBonus = Math.max(0, 5 - hoursAgo * 0.5);
+                
+                article.relevanceScore = relevanceScore + freshnessBonus;
+            });
+
+            // 排序：相關性分數降序
+            return articles.sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0));
+            
+        } catch (error) {
+            console.warn('排序時出錯:', error.message);
+            // 降級到簡單的時間排序
+            return articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+        }
+    }
+
+    // 保存日報數據
+    async saveDailyNews(articles, date = new Date()) {
+        const dateString = date.toISOString().split('T')[0];
+        const filePath = path.join(this.newsDir, `${dateString}.json`);
+        
+        const newsData = {
+            date: dateString,
+            lastUpdated: new Date().toISOString(),
+            totalArticles: articles.length,
+            articles: articles,
+            sources: [...new Set(articles.map(a => a.source))],
+            categories: [...new Set(articles.map(a => a.category))]
+        };
+        
+        fs.writeFileSync(filePath, JSON.stringify(newsData, null, 2));
+        console.log(`💾 已保存 ${articles.length} 篇文章到 ${dateString}.json`);
+        
+        return filePath;
+    }
+
+    // 更新索引文件
+    async updateNewsIndex() {
+        try {
+            const newsFiles = fs.readdirSync(this.newsDir)
+                .filter(file => file.endsWith('.json'))
+                .sort((a, b) => b.localeCompare(a)); // 最新日期在前
+            
+            const index = [];
+            
+            for (const file of newsFiles.slice(0, 30)) { // 保留最近30天
+                const filePath = path.join(this.newsDir, file);
+                const newsData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                
+                index.push({
+                    date: newsData.date,
+                    file: file,
+                    totalArticles: newsData.totalArticles,
+                    lastUpdated: newsData.lastUpdated,
+                    sources: newsData.sources,
+                    categories: newsData.categories,
+                    topArticles: newsData.articles
+                        .slice(0, 5)
+                        .map(article => ({
+                            title: article.title,
+                            source: article.source,
+                            link: article.link,
+                            relevanceScore: article.relevanceScore
+                        }))
+                });
+            }
+            
+            const indexData = {
+                lastUpdated: new Date().toISOString(),
+                totalDays: index.length,
+                index: index
+            };
+            
+            fs.writeFileSync(this.indexFile, JSON.stringify(indexData, null, 2));
+            console.log(`📇 已更新新聞索引，包含 ${index.length} 天的數據`);
+            
+        } catch (error) {
+            console.error('更新索引時出錯:', error.message);
+        }
+    }
+
+    // 構建搜索索引
+    async buildSearchIndex() {
+        try {
+            const searchIndex = {};
+            const newsFiles = fs.readdirSync(this.newsDir)
+                .filter(file => file.endsWith('.json'))
+                .slice(0, 7); // 最近7天
+            
+            for (const file of newsFiles) {
+                const filePath = path.join(this.newsDir, file);
+                const newsData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+                
+                newsData.articles.forEach(article => {
+                    const words = this.extractWords(`${article.title} ${article.description}`);
+                    
+                    words.forEach(word => {
+                        if (word.length > 2) {
+                            if (!searchIndex[word]) {
+                                searchIndex[word] = [];
+                            }
+                            
+                            searchIndex[word].push({
+                                title: article.title,
+                                link: article.link,
+                                source: article.source,
+                                date: article.pubDate,
+                                relevance: this.calculateWordRelevance(word, article)
+                            });
+                        }
+                    });
+                });
+            }
+            
+            // 排序每個詞的結果
+            Object.keys(searchIndex).forEach(word => {
+                searchIndex[word] = searchIndex[word]
+                    .sort((a, b) => b.relevance - a.relevance)
+                    .slice(0, 20); // 每個詞最多20個結果
             });
             
-            if (articles.length > 0) break;
-          }
-        }
-      }
-      
-      console.log(`✓ Fetched ${articles.length} articles from ${source.name}`);
-      return articles;
-      
-    } catch (error) {
-      console.error(`✗ Error fetching from ${source.name}:`, error.message);
-      if (error.response) {
-        console.error(`  Status: ${error.response.status}`);
-        console.error(`  Headers:`, error.response.headers);
-      }
-      return [];
-    }
-  }
-
-  // 添加智能元數據
-  addSmartMetadata(article) {
-    const keywordsData = JSON.parse(fs.readFileSync(this.keywordsFile, 'utf8'));
-    
-    // 計算重要性評分
-    const importance = this.calculateImportance(article, keywordsData);
-    
-    // 檢測文章類型
-    const articleType = this.detectArticleType(article, keywordsData);
-    
-    // 估算閱讀時間
-    const readTime = this.estimateReadTime(article.title);
-    
-    // 評估複雜度
-    const complexity = this.assessComplexity(article, keywordsData);
-    
-    // 獲取關鍵詞等級
-    const keywordLevel = this.getKeywordLevel(article.keyword, keywordsData);
-    
-    // 檢測是否為深度分析
-    const isAnalysis = this.isAnalysisArticle(article, keywordsData);
-    
-    return {
-      ...article,
-      metadata: {
-        importance,
-        articleType,
-        readTime,
-        complexity,
-        keywordLevel,
-        isAnalysis,
-        isTop10: false // 稍後在排名時設置
-      }
-    };
-  }
-
-  // 計算重要性評分
-  calculateImportance(article, keywordsData) {
-    let score = 0;
-    
-    // 來源權威性評分
-    const sourceWeights = keywordsData.sourceWeights || {};
-    score += sourceWeights[article.source] || 5;
-    
-    // 關鍵詞重要性
-    if (article.keyword) {
-      const keyword = keywordsData.keywords.find(k => k.keyword === article.keyword);
-      if (keyword) {
-        score += (11 - keyword.priority) * 2; // 優先級1得20分，優先級10得2分
-      }
-    }
-    
-    // 文章類型加分
-    const typeBonus = {
-      'analysis': 3,
-      'opinion': 2,
-      'breaking': 1,
-      'review': 2
-    };
-    
-    const detectedType = this.detectArticleType(article, keywordsData);
-    score += typeBonus[detectedType] || 0;
-    
-    // 標題長度加分（長標題通常更有信息量）
-    if (article.title.length > 50) {
-      score += 1;
-    }
-    
-    return Math.min(10, Math.max(1, score));
-  }
-
-  // 檢測文章類型
-  detectArticleType(article, keywordsData) {
-    const title = article.title.toLowerCase();
-    const patterns = keywordsData.articleTypePatterns || {};
-    
-    for (const [type, keywords] of Object.entries(patterns)) {
-      for (const keyword of keywords) {
-        if (title.includes(keyword.toLowerCase())) {
-          return type;
-        }
-      }
-    }
-    
-    return 'general';
-  }
-
-  // 估算閱讀時間
-  estimateReadTime(title) {
-    const wordCount = title.split(' ').length;
-    // 基於標題長度估算，平均每分鐘閱讀200字
-    const estimatedWords = wordCount * 20; // 假設正文是標題的20倍
-    return Math.max(1, Math.ceil(estimatedWords / 200));
-  }
-
-  // 評估複雜度
-  assessComplexity(article, keywordsData) {
-    const title = article.title.toLowerCase();
-    
-    // 複雜技術關鍵詞
-    const complexKeywords = ['quantum', 'algorithm', 'neural', 'blockchain', 'cryptography'];
-    const hasComplexKeywords = complexKeywords.some(keyword => title.includes(keyword));
-    
-    // 文章類型
-    const isAnalysis = this.isAnalysisArticle(article, keywordsData);
-    
-    if (hasComplexKeywords || isAnalysis) {
-      return 'advanced';
-    } else if (article.metadata?.readTime > 5) {
-      return 'medium';
-    } else {
-      return 'basic';
-    }
-  }
-
-  // 獲取關鍵詞等級
-  getKeywordLevel(keyword, keywordsData) {
-    if (!keyword) return null;
-    
-    const keywordData = keywordsData.keywords.find(k => k.keyword === keyword);
-    return keywordData?.level || null;
-  }
-
-  // 檢測是否為深度分析文章
-  isAnalysisArticle(article, keywordsData) {
-    const title = article.title.toLowerCase();
-    const analysisPatterns = keywordsData.articleTypePatterns?.analysis || [];
-    
-    return analysisPatterns.some(pattern => title.includes(pattern.toLowerCase()));
-  }
-
-  async searchKeywordNews(keyword) {
-    try {
-      console.log(`Searching for keyword: ${keyword}`);
-      
-      // 使用多個搜索源
-      const searchSources = [
-        {
-          name: 'Google News',
-          url: `https://news.google.com/search?q=${encodeURIComponent(keyword)}&hl=en-US&gl=US&ceid=US:en`,
-          selector: 'article h3 a, .DY5T1d'
-        },
-        {
-          name: 'Bing News',
-          url: `https://www.bing.com/news/search?q=${encodeURIComponent(keyword)}`,
-          selector: '.news-card a, .title a'
-        }
-      ];
-      
-      let allArticles = [];
-      
-      for (const searchSource of searchSources) {
-        try {
-          const response = await axios.get(searchSource.url, {
-            headers: {
-              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-              'Accept-Language': 'en-US,en;q=0.5'
-            },
-            timeout: 15000
-          });
-          
-          const $ = cheerio.load(response.data);
-          const articles = [];
-          
-          $(searchSource.selector).slice(0, 5).each((i, element) => {
-            const $el = $(element);
-            const title = $el.text().trim();
-            let link = $el.attr('href');
+            const searchData = {
+                lastUpdated: new Date().toISOString(),
+                totalWords: Object.keys(searchIndex).length,
+                index: searchIndex
+            };
             
-            if (title && link && title.length > 10) {
-              if (!link.startsWith('http')) {
-                if (link.startsWith('//')) {
-                  link = 'https:' + link;
-                } else if (link.startsWith('/')) {
-                  const baseUrl = searchSource.url.split('/').slice(0, 3).join('/');
-                  link = baseUrl + link;
-                } else {
-                  const baseUrl = searchSource.url.split('/').slice(0, 3).join('/');
-                  link = baseUrl + '/' + link;
-                }
-              }
-              
-              articles.push({
-                id: this.generateId(),
-                title,
-                link: link,
-                source: searchSource.name,
-                keyword: keyword,
-                timestamp: new Date().toISOString(),
-                category: 'keyword-search'
-              });
-            }
-          });
-          
-          allArticles.push(...articles);
-          console.log(`✓ Found ${articles.length} articles from ${searchSource.name} for "${keyword}"`);
-          
+            fs.writeFileSync(this.searchIndexFile, JSON.stringify(searchData, null, 2));
+            console.log(`🔍 已構建搜索索引，包含 ${Object.keys(searchIndex).length} 個詞條`);
+            
         } catch (error) {
-          console.error(`✗ Error searching ${searchSource.name} for "${keyword}":`, error.message);
+            console.error('構建搜索索引時出錯:', error.message);
         }
-      }
-      
-      console.log(`✓ Total found ${allArticles.length} articles for keyword "${keyword}"`);
-      return allArticles;
-      
-    } catch (error) {
-      console.error(`✗ Error searching keyword "${keyword}":`, error.message);
-      return [];
     }
-  }
 
-  async saveDailyNews(articles, date) {
-    const filePath = path.join(this.newsDir, `${date}.json`);
-    const dailyData = {
-      date: date,
-      lastUpdated: new Date().toISOString(),
-      articles: articles
-    };
-    
-    fs.writeFileSync(filePath, JSON.stringify(dailyData, null, 2));
-    console.log(`✓ Saved ${articles.length} articles to ${date}.json`);
-  }
+    extractWords(text) {
+        return text.toLowerCase()
+            .replace(/[^\w\s]/g, ' ')
+            .split(/\s+/)
+            .filter(word => word.length > 2);
+    }
 
-  async updateNewsIndex() {
-    const index = {
-      lastUpdated: new Date().toISOString(),
-      dates: [],
-      totalArticles: 0,
-      categories: {},
-      keywords: {}
-    };
-
-    // 掃描所有新聞文件
-    const files = fs.readdirSync(this.newsDir).filter(f => f.endsWith('.json'));
-    
-    for (const file of files) {
-      const filePath = path.join(this.newsDir, file);
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      
-      index.dates.push({
-        date: data.date,
-        articleCount: data.articles.length,
-        file: file
-      });
-      
-      index.totalArticles += data.articles.length;
-      
-      // 統計分類和關鍵詞
-      data.articles.forEach(article => {
-        const category = article.category || 'general';
-        if (!index.categories[category]) {
-          index.categories[category] = 0;
-        }
-        index.categories[category]++;
+    calculateWordRelevance(word, article) {
+        const titleWeight = 3;
+        const descWeight = 1;
+        let relevance = 0;
         
-        if (article.keyword) {
-          if (!index.keywords[article.keyword]) {
-            index.keywords[article.keyword] = 0;
-          }
-          index.keywords[article.keyword]++;
-        }
-      });
+        const titleCount = (article.title.toLowerCase().match(new RegExp(word, 'g')) || []).length;
+        const descCount = (article.description.toLowerCase().match(new RegExp(word, 'g')) || []).length;
+        
+        relevance = titleCount * titleWeight + descCount * descWeight;
+        relevance += article.relevanceScore || 0;
+        
+        return relevance;
     }
 
-    // 保留最近30天，刪除舊文件
-    index.dates.sort((a, b) => new Date(b.date) - new Date(a.date));
-    if (index.dates.length > 30) {
-      const toDelete = index.dates.slice(30);
-      toDelete.forEach(item => {
-        const filePath = path.join(this.newsDir, item.file);
-        if (fs.existsSync(filePath)) {
-          fs.unlinkSync(filePath);
-          console.log(`🗑️ Deleted old news file: ${item.date}`);
-        }
-      });
-      index.dates = index.dates.slice(0, 30);
-    }
-
-    fs.writeFileSync(this.indexFile, JSON.stringify(index, null, 2));
-    console.log(`✓ Updated news index with ${index.dates.length} days`);
-  }
-
-  async buildSearchIndex() {
-    const searchIndex = {};
-    const files = fs.readdirSync(this.newsDir).filter(f => f.endsWith('.json'));
-    
-    for (const file of files) {
-      const filePath = path.join(this.newsDir, file);
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-      
-      data.articles.forEach(article => {
-        const words = this.extractWords(article.title + ' ' + (article.description || ''));
-        words.forEach(word => {
-          if (!searchIndex[word]) {
-            searchIndex[word] = [];
-          }
-          searchIndex[word].push({
-            articleId: article.id,
-            date: data.date,
-            score: this.calculateScore(word, article)
-          });
+    // 主執行函數
+    async fetchAllNews() {
+        console.log('🚀 開始RSS新聞聚合...');
+        const startTime = Date.now();
+        
+        const sources = this.getNewsSources();
+        const allArticles = [];
+        
+        // 並行獲取所有RSS源
+        const promises = sources.map(source => this.fetchRSSFeed(source));
+        const results = await Promise.allSettled(promises);
+        
+        results.forEach((result, index) => {
+            if (result.status === 'fulfilled') {
+                allArticles.push(...result.value);
+            } else {
+                console.error(`❌ ${sources[index].name} 獲取失敗:`, result.reason?.message);
+            }
         });
-      });
+        
+        console.log(`📊 總共獲取到 ${allArticles.length} 篇原始文章`);
+        
+        // 去重
+        const uniqueArticles = this.deduplicateArticles(allArticles);
+        console.log(`🔄 去重後剩餘 ${uniqueArticles.length} 篇文章`);
+        
+        // 過濾和排序
+        const rankedArticles = await this.filterAndRankArticles(uniqueArticles);
+        console.log(`📈 完成智能排序和相關性評分`);
+        
+        // 保存數據
+        await this.saveDailyNews(rankedArticles);
+        await this.updateNewsIndex();
+        await this.buildSearchIndex();
+        
+        const endTime = Date.now();
+        const duration = ((endTime - startTime) / 1000).toFixed(2);
+        
+        console.log(`✅ RSS新聞聚合完成！`);
+        console.log(`⏱️  總耗時: ${duration}秒`);
+        console.log(`📰 最終文章數: ${rankedArticles.length}`);
+        console.log(`🎯 涵蓋來源: ${sources.length}個`);
+        
+        return {
+            success: true,
+            totalArticles: rankedArticles.length,
+            sources: sources.length,
+            duration: duration,
+            articles: rankedArticles.slice(0, 10) // 返回前10篇用於預覽
+        };
     }
-
-    fs.writeFileSync(this.searchIndexFile, JSON.stringify(searchIndex, null, 2));
-    console.log(`✓ Built search index with ${Object.keys(searchIndex).length} words`);
-  }
-
-  extractWords(text) {
-    return text.toLowerCase()
-      .replace(/[^\w\s]/g, ' ')
-      .split(/\s+/)
-      .filter(word => word.length > 2);
-  }
-
-  calculateScore(word, article) {
-    let score = 0;
-    const title = article.title.toLowerCase();
-    const description = (article.description || '').toLowerCase();
-    
-    if (title.includes(word)) score += 3;
-    if (description.includes(word)) score += 1;
-    if (article.keyword === word) score += 2;
-    
-    return score;
-  }
-
-  deduplicateArticles(articles) {
-    const seen = new Set();
-    return articles.filter(article => {
-      const key = article.title.toLowerCase().replace(/[^\w\s]/g, '');
-      if (seen.has(key)) {
-        return false;
-      }
-      seen.add(key);
-      return true;
-    });
-  }
-
-  async fetchAllNews() {
-    const today = this.getDateString();
-    let allArticles = [];
-
-    // 抓取常規新聞
-    console.log('📰 Fetching regular news...');
-    for (const source of newsSources) {
-      const articles = await this.fetchNewsFromSource(source);
-      allArticles.push(...articles);
-    }
-
-    // 抓取關鍵詞相關新聞
-    console.log('🔍 Fetching keyword-based news...');
-    const keywordsData = JSON.parse(fs.readFileSync(this.keywordsFile, 'utf8'));
-    const highPriorityKeywords = keywordsData.keywords
-      .filter(k => k.priority <= 2)
-      .map(k => k.keyword);
-
-    for (const keyword of highPriorityKeywords) {
-      const articles = await this.searchKeywordNews(keyword);
-      allArticles.push(...articles);
-      
-      // 避免請求過於頻繁
-      await new Promise(resolve => setTimeout(resolve, 2000));
-    }
-
-    // 去重
-    allArticles = this.deduplicateArticles(allArticles);
-    console.log(`✓ Total unique articles: ${allArticles.length}`);
-
-    // 保存今日新聞
-    await this.saveDailyNews(allArticles, today);
-    
-    // 更新索引
-    await this.updateNewsIndex();
-    
-    // 構建搜索索引
-    await this.buildSearchIndex();
-
-    return allArticles;
-  }
 }
 
-// 執行新聞抓取
+// 主函數
 async function main() {
-  console.log('🚀 Starting news fetch process...');
-  const newsManager = new NewsManager();
-  await newsManager.fetchAllNews();
-  console.log('✅ News fetch process completed!');
+    const aggregator = new RSSNewsAggregator();
+    const result = await aggregator.fetchAllNews();
+    console.log('🎉 新聞聚合結果:', result);
 }
 
-main().catch(console.error); 
+if (require.main === module) {
+    main().catch(console.error);
+}
+
+module.exports = RSSNewsAggregator; 
