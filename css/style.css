@@ -570,6 +570,18 @@ body {
 
 .news-date {
     color: #6c757d;
+    line-height: 1.3;
+}
+
+.relative-time {
+    font-weight: 500;
+    color: var(--tardis-gold);
+}
+
+.absolute-time {
+    font-size: 0.85em;
+    color: var(--tardis-text-secondary);
+    opacity: 0.8;
 }
 
 .news-score {
@@ -803,6 +815,16 @@ body.light-theme .news-source {
 
 body.light-theme .news-date {
     color: #6c757d;
+}
+
+body.light-theme .relative-time {
+    color: #e74c3c;
+    font-weight: 500;
+}
+
+body.light-theme .absolute-time {
+    color: #6c757d;
+    opacity: 0.8;
 }
 
 body.light-theme .news-score {

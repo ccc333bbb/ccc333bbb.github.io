@@ -323,21 +323,30 @@ class NewsSearch {
     const now = new Date();
     const diff = now - date;
     
+    // Format absolute time
+    const absoluteTime = date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    });
+    
     if (diff < 24 * 60 * 60 * 1000) {
-      // Within 24 hours
+      // Within 24 hours - show both relative and absolute time
       const hours = Math.floor(diff / (60 * 60 * 1000));
+      let relativeTime;
       if (hours === 0) {
         const minutes = Math.floor(diff / (60 * 1000));
-        return `${minutes} minutes ago`;
+        relativeTime = `${minutes} minutes ago`;
+      } else {
+        relativeTime = `${hours} hours ago`;
       }
-      return `${hours} hours ago`;
+      return `<span class="relative-time">${relativeTime}</span><br><span class="absolute-time">${absoluteTime}</span>`;
     } else {
-      return date.toLocaleDateString('en-US', {
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
+      // More than 24 hours - show absolute time with relative days
+      const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+      return `<span class="relative-time">${days} days ago</span><br><span class="absolute-time">${absoluteTime}</span>`;
     }
   }
 }
