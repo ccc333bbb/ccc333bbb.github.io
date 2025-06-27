@@ -10,7 +10,7 @@ class RSSNewsAggregator {
                 item: [['description', 'description'], ['pubDate', 'pubDate'], ['content', 'content']]
             }
         });
-        this.dataDir = path.join(__dirname, '../data');
+        this.dataDir = path.join(__dirname, '../../../data');
         this.newsDir = path.join(this.dataDir, 'news');
         this.indexFile = path.join(this.dataDir, 'news-index.json');
         this.searchIndexFile = path.join(this.dataDir, 'search-index.json');

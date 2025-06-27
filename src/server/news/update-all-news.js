@@ -6,7 +6,7 @@ const path = require('path');
 
 class NewsUpdateManager {
     constructor() {
-        this.dataDir = path.join(__dirname, '../data');
+        this.dataDir = path.join(__dirname, '../../../data');
         this.logFile = path.join(this.dataDir, 'update-log.json');
     }
 

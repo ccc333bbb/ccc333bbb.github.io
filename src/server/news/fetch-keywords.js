@@ -6,7 +6,7 @@ const path = require('path');
 class KeywordsFetcher {
     constructor() {
         this.parser = new Parser();
-        this.dataDir = path.join(__dirname, '../data');
+        this.dataDir = path.join(__dirname, '../../../data');
         this.keywordsFile = path.join(this.dataDir, 'keywords.json');
         this.dynamicKeywordsFile = path.join(this.dataDir, 'dynamic-keywords.json');
         this.ensureDirectories();

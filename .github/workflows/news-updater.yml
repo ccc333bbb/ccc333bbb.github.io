@@ -56,10 +56,16 @@ jobs:
           echo "📝 發現數據變更，準備提交..."
           
           # 添加所有數據文件
-          git add data/
+          git add data/ || true
           
-          # 獲取統計信息
-          TOTAL_ARTICLES=$(find data/news -name "*.json" -exec jq '.totalArticles // .articles | length' {} \; | head -1 || echo "0")
+          # 獲取統計信息（更安全的方式）
+          TOTAL_ARTICLES="0"
+          if [ -f "data/ranked-news-index.json" ]; then
+            TOTAL_ARTICLES=$(jq -r '.totalArticles // 0' data/ranked-news-index.json 2>/dev/null || echo "0")
+          elif [ -d "data/news" ]; then
+            TOTAL_ARTICLES=$(find data/news -name "*.json" | wc -l || echo "0")
+          fi
+          
           LAST_UPDATE=$(date -u +"%Y-%m-%d %H:%M UTC")
           
           # 提交變更
@@ -85,19 +91,19 @@ jobs:
         # 檢查數據文件
         if [ -f "data/news-index.json" ]; then
           echo "📰 新聞索引文件存在"
-          DAYS_COUNT=$(jq '.totalDays // .index | length' data/news-index.json 2>/dev/null || echo "0")
+          DAYS_COUNT=$(jq -r '.totalDays // (.index | length) // 0' data/news-index.json 2>/dev/null || echo "0")
           echo "📊 索引包含 ${DAYS_COUNT} 天的數據"
         fi
         
         if [ -f "data/ranked-news-index.json" ]; then
           echo "🏆 排名索引文件存在"
-          ARTICLES_COUNT=$(jq '.totalArticles' data/ranked-news-index.json 2>/dev/null || echo "0")
+          ARTICLES_COUNT=$(jq -r '.totalArticles // 0' data/ranked-news-index.json 2>/dev/null || echo "0")
           echo "📈 排名索引包含 ${ARTICLES_COUNT} 篇文章"
         fi
         
         if [ -f "data/keywords.json" ]; then
           echo "🔑 關鍵詞文件存在"
-          KEYWORDS_COUNT=$(jq '.totalKeywords // .keywords | length' data/keywords.json 2>/dev/null || echo "0")
+          KEYWORDS_COUNT=$(jq -r '.totalKeywords // (.keywords | length) // 0' data/keywords.json 2>/dev/null || echo "0")
           echo "🎯 關鍵詞庫包含 ${KEYWORDS_COUNT} 個關鍵詞"
         fi
         

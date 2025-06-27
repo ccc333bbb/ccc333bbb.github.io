@@ -4,7 +4,7 @@ const path = require('path');
 
 class NewsProcessor {
     constructor() {
-        this.dataDir = path.join(__dirname, '../data');
+        this.dataDir = path.join(__dirname, '../../../data');
         this.newsDir = path.join(this.dataDir, 'news');
         this.rankedIndexFile = path.join(this.dataDir, 'ranked-news-index.json');
         this.updateLogFile = path.join(this.dataDir, 'update-log.json');
