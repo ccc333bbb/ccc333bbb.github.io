@@ -3,43 +3,186 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 const path = require('path');
 
-// 新聞來源配置 - 更新選擇器和添加更多來源
+// 擴展的新聞來源配置 - 包含多元化真實來源
 const newsSources = [
+  // 權威新聞
   {
     name: 'BBC News',
-    url: 'https://www.bbc.com/news',
+    url: 'https://www.bbc.com/news/technology',
     selector: 'h3[data-testid="card-headline"], h2[data-testid="card-headline"], .gs-c-promo-heading__title',
-    limit: 5
+    limit: 5,
+    weight: 10,
+    category: 'general'
   },
+  {
+    name: 'Reuters',
+    url: 'https://www.reuters.com/technology/',
+    selector: 'h3 a, .story-title a, [data-testid="Heading"] a',
+    limit: 4,
+    weight: 10,
+    category: 'general'
+  },
+  {
+    name: 'Associated Press',
+    url: 'https://apnews.com/technology',
+    selector: 'h2 a, .Component-headline a, .CardHeadline a',
+    limit: 4,
+    weight: 9,
+    category: 'general'
+  },
+  
+  // 科技專業媒體
   {
     name: 'TechCrunch',
     url: 'https://techcrunch.com',
     selector: 'h2.post-block__title a, .post-block__title a, h2 a',
-    limit: 5
+    limit: 5,
+    weight: 8,
+    category: 'tech'
   },
   {
     name: 'The Verge',
     url: 'https://www.theverge.com',
     selector: 'h2 a, .c-entry-box--compact__title a, .c-entry-summary__title a',
-    limit: 4
+    limit: 4,
+    weight: 7,
+    category: 'tech'
   },
   {
     name: 'Ars Technica',
     url: 'https://arstechnica.com',
     selector: 'h2.entry-title a, .listing-title a',
-    limit: 4
+    limit: 4,
+    weight: 7,
+    category: 'tech'
   },
   {
     name: 'Wired',
     url: 'https://www.wired.com',
     selector: 'h3 a, .SummaryItemHedLink, .headline a',
-    limit: 4
+    limit: 4,
+    weight: 7,
+    category: 'tech'
   },
   {
+    name: 'Engadget',
+    url: 'https://www.engadget.com',
+    selector: 'h2 a, .o-hit__title a, .o-hit__link',
+    limit: 4,
+    weight: 6,
+    category: 'tech'
+  },
+  
+  // 商業科技
+  {
+    name: 'TechTarget',
+    url: 'https://www.techtarget.com/searchcio/',
+    selector: 'h2 a, .content-headline a, .headline a',
+    limit: 3,
+    weight: 6,
+    category: 'business'
+  },
+  {
+    name: 'ZDNet',
+    url: 'https://www.zdnet.com',
+    selector: 'h3 a, .c-shortcodeListicle__item h4 a, .storyTitle a',
+    limit: 4,
+    weight: 6,
+    category: 'business'
+  },
+  
+  // 開發者社區
+  {
+    name: 'GitHub Blog',
+    url: 'https://github.blog/category/engineering/',
+    selector: 'h2 a, .post-title a, .Link--primary',
+    limit: 3,
+    weight: 7,
+    category: 'development'
+  },
+  {
+    name: 'Stack Overflow Blog',
+    url: 'https://stackoverflow.blog',
+    selector: 'h2 a, .s-post-summary--content-title a',
+    limit: 3,
+    weight: 6,
+    category: 'development'
+  },
+  
+  // 聚合器（作為補充）
+  {
     name: 'Google News',
-    url: 'https://news.google.com',
+    url: 'https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRFZ4ZERBU0FtVnVHZ0pWVXlnQVAB?hl=en-US&gl=US&ceid=US%3Aen',
     selector: 'h3 a, .VDXfz, .DY5T1d, .ipQwMb',
-    limit: 6
+    limit: 3,
+    weight: 5,
+    category: 'general'
+  }
+];
+
+// 擴展的關鍵字搜索來源
+const keywordSearchSources = [
+  // NewsAPI 替代方案
+  {
+    name: 'AllSides News',
+    searchUrl: (keyword) => `https://www.allsides.com/search/site/${encodeURIComponent(keyword)}`,
+    selector: '.view-content h3 a, .search-result-title a',
+    weight: 6
+  },
+  
+  // 專業數據庫
+  {
+    name: 'MIT Technology Review',
+    searchUrl: (keyword) => `https://www.technologyreview.com/search/?s=${encodeURIComponent(keyword)}`,
+    selector: '.teaserContent__title a, h3 a',
+    weight: 9
+  },
+  
+  // 學術搜索
+  {
+    name: 'ACM Digital Library',
+    searchUrl: (keyword) => `https://dl.acm.org/action/doSearch?AllField=${encodeURIComponent(keyword)}`,
+    selector: '.issue-item__title a, .hlFld-Title a',
+    weight: 8
+  },
+  
+  // 行業報告
+  {
+    name: 'Gartner',
+    searchUrl: (keyword) => `https://www.gartner.com/en/search?keywords=${encodeURIComponent(keyword)}`,
+    selector: '.search-result-title a, h3 a',
+    weight: 9
+  },
+  
+  // RSS聚合
+  {
+    name: 'Feedly Discover',
+    searchUrl: (keyword) => `https://feedly.com/i/search/${encodeURIComponent(keyword)}`,
+    selector: '.entry-title a, .fx-searchResult-title a',
+    weight: 5
+  },
+  
+  // 社區驅動
+  {
+    name: 'Dev.to',
+    searchUrl: (keyword) => `https://dev.to/search?q=${encodeURIComponent(keyword)}`,
+    selector: 'h2 a, .crayons-story__title a',
+    weight: 6
+  },
+  
+  // 保留原有的搜索引擎作為補充
+  {
+    name: 'DuckDuckGo News',
+    searchUrl: (keyword) => `https://duckduckgo.com/?q=${encodeURIComponent(keyword)}&iar=news&ia=news`,
+    selector: '.result__title a, .result__a',
+    weight: 5
+  },
+  
+  {
+    name: 'Bing News Search',
+    searchUrl: (keyword) => `https://www.bing.com/news/search?q=${encodeURIComponent(keyword)}`,
+    selector: '.news-card a, .title a, .newsitem h2 a',
+    weight: 5
   }
 ];
 

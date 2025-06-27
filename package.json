@@ -6,6 +6,13 @@
   "scripts": {
     "dev": "python3 -m http.server 8000",
     "fetch-news": "node scripts/fetch-news.js",
+    "news:update-keywords": "node scripts/fetch-keywords.js",
+    "news:fetch": "node scripts/fetch-news.js", 
+    "news:rank": "node scripts/rank-news.js",
+    "news:update-all": "node scripts/update-all-news.js",
+    "news:quick-update": "node scripts/update-all-news.js quick",
+    "news:report": "node scripts/update-all-news.js report",
+    "news:keywords-only": "node scripts/update-all-news.js keywords",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
