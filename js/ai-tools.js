@@ -108,7 +108,7 @@ class AIToolsApp {
         document.getElementById('activeTools').textContent = metadata.activeTools;
         
         const lastUpdated = new Date(metadata.lastUpdated);
-        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('zh-TW');
+        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
     }
 
     renderTools() {
@@ -178,11 +178,11 @@ class AIToolsApp {
                 
                 <div class="resource-actions">
                     <a href="${tool.url}" target="_blank" rel="noopener noreferrer" class="resource-link">
-                        訪問工具 🚀
+                        Visit Tool 🚀
                     </a>
                     ${tool.lastUpdate ? `
                         <div class="last-update">
-                            更新: ${tool.lastUpdate}
+                            Updated: ${tool.lastUpdate}
                         </div>
                     ` : ''}
                 </div>
@@ -200,13 +200,13 @@ class AIToolsApp {
             stats.push(`🔗 ${tool.integrations}`);
         }
         if (tool.models_supported && Array.isArray(tool.models_supported)) {
-            stats.push(`🤖 ${tool.models_supported.length} 模型`);
+            stats.push(`🤖 ${tool.models_supported.length} Models`);
         }
         if (tool.extensions) {
-            stats.push(`🧩 ${tool.extensions} 擴展`);
+            stats.push(`🧩 ${tool.extensions} Extensions`);
         }
         if (tool.communityNodes) {
-            stats.push(`🔗 ${tool.communityNodes} 節點`);
+            stats.push(`🔗 ${tool.communityNodes} Nodes`);
         }
 
         if (stats.length === 0) return '';
@@ -224,7 +224,7 @@ class AIToolsApp {
         
         return `
             <div class="tool-features">
-                <div class="features-title">主要功能</div>
+                <div class="features-title">Key Features</div>
                 <div class="features-list">
                     ${features.map(feature => `
                         <span class="feature-tag">${this.translateFeature(feature)}</span>
@@ -245,7 +245,7 @@ class AIToolsApp {
 
         return `
             <div class="tool-quota">
-                <div class="quota-title">免費額度</div>
+                <div class="quota-title">Free Quota</div>
                 <div class="quota-list">
                     ${Object.entries(quota).map(([key, value]) => `
                         <div class="quota-item">
@@ -263,7 +263,7 @@ class AIToolsApp {
 
         return `
             <div class="new-features">
-                <div class="new-features-title">🆕 最新功能</div>
+                <div class="new-features-title">🆕 Latest Features</div>
                 <div class="new-features-list">
                     ${features.slice(0, 3).map(feature => `
                         <div class="new-feature-item">${feature}</div>
@@ -288,12 +288,12 @@ class AIToolsApp {
 
     getPricingBadge(pricing) {
         const badges = {
-            'free': '<span class="pricing-badge free">免費</span>',
-            'freemium': '<span class="pricing-badge freemium">免費版</span>',
-            'free_tier_available': '<span class="pricing-badge freemium">含免費額度</span>',
-            'pay_per_use': '<span class="pricing-badge paid">按使用付費</span>',
-            'free_open_source': '<span class="pricing-badge free">開源免費</span>',
-            'open_source': '<span class="pricing-badge free">開源</span>'
+            'free': '<span class="pricing-badge free">Free</span>',
+            'freemium': '<span class="pricing-badge freemium">Freemium</span>',
+            'free_tier_available': '<span class="pricing-badge freemium">Free Tier</span>',
+            'pay_per_use': '<span class="pricing-badge paid">Pay per Use</span>',
+            'free_open_source': '<span class="pricing-badge free">Open Source</span>',
+            'open_source': '<span class="pricing-badge free">Open Source</span>'
         };
         return badges[pricing] || '';
     }
@@ -301,9 +301,9 @@ class AIToolsApp {
     renderEmptyState() {
         return `
             <div class="empty-state">
-                <h3>🔍 未找到匹配的 AI 工具</h3>
-                <p>請嘗試調整搜索條件或選擇不同的分類</p>
-                <p>或者清空搜索框查看所有工具</p>
+                <h3>🔍 No matching AI tools found</h3>
+                <p>Try adjusting your search terms or selecting a different category</p>
+                <p>Or clear the search box to view all tools</p>
             </div>
         `;
     }
@@ -319,66 +319,68 @@ class AIToolsApp {
 
     getStatusText(health) {
         switch (health) {
-            case 'active': return '活躍';
-            case 'maintenance': return '維護中';
-            case 'inactive': return '不活躍';
-            default: return '狀態正常';
+            case 'active': return 'Active';
+            case 'maintenance': return 'Maintenance';
+            case 'inactive': return 'Inactive';
+            default: return 'Normal';
         }
     }
 
     translateFeature(feature) {
-        const translations = {
-            'workflow': '工作流',
-            'agent': '智能體',
-            'chatbot': '聊天機器人',
-            'knowledge_base': '知識庫',
-            'prompt_engineering': '提示工程',
-            'model_tuning': '模型調優',
-            'api_testing': 'API 測試',
-            'node_workflow': '節點工作流',
-            'custom_nodes': '自定義節點',
+        // Features now display in English directly
+        const featureMap = {
+            'workflow': 'Workflow',
+            'agent': 'Agent',
+            'chatbot': 'Chatbot',
+            'knowledge_base': 'Knowledge Base',
+            'prompt_engineering': 'Prompt Engineering',
+            'model_tuning': 'Model Tuning',
+            'api_testing': 'API Testing',
+            'node_workflow': 'Node Workflow',
+            'custom_nodes': 'Custom Nodes',
             'api': 'API',
-            'model_management': '模型管理',
-            'webui': 'Web 界面',
-            'extensions': '擴展',
-            'model_training': '模型訓練',
-            'img2img': '圖像轉圖像',
-            'gui': '圖形界面',
-            'model_discovery': '模型發現',
-            'chat_interface': '對話界面',
-            'api_server': 'API 服務器',
-            'debugging': '調試',
-            'testing': '測試',
-            'monitoring': '監控',
-            'dataset_management': '數據集管理'
+            'model_management': 'Model Management',
+            'webui': 'Web UI',
+            'extensions': 'Extensions',
+            'model_training': 'Model Training',
+            'img2img': 'Image to Image',
+            'gui': 'GUI',
+            'model_discovery': 'Model Discovery',
+            'chat_interface': 'Chat Interface',
+            'api_server': 'API Server',
+            'debugging': 'Debugging',
+            'testing': 'Testing',
+            'monitoring': 'Monitoring',
+            'dataset_management': 'Dataset Management'
         };
-        return translations[feature] || feature;
+        return featureMap[feature] || feature.charAt(0).toUpperCase() + feature.slice(1);
     }
 
     translateQuotaKey(key) {
-        const translations = {
-            'requests': '請求次數',
-            'tokens': 'Token 數',
-            'models': '模型',
-            'credits': '免費額度',
-            'rate_limits': '速率限制',
-            'workflows': '工作流',
-            'executions': '執行次數',
-            'users': '用戶數',
-            'traces': '追蹤數',
-            'datasets': '數據集'
+        // Quotas now display in English directly
+        const keyMap = {
+            'requests': 'Requests',
+            'tokens': 'Tokens',
+            'models': 'Models',
+            'credits': 'Credits',
+            'rate_limits': 'Rate Limits',
+            'workflows': 'Workflows',
+            'executions': 'Executions',
+            'users': 'Users',
+            'traces': 'Traces',
+            'datasets': 'Datasets'
         };
-        return translations[key] || key;
+        return keyMap[key] || key.charAt(0).toUpperCase() + key.slice(1);
     }
 
     showError() {
         const container = document.getElementById('resourcesGrid');
         container.innerHTML = `
             <div class="empty-state">
-                <h3>⚠️ 載入失敗</h3>
-                <p>無法載入 AI 工具數據，請檢查網路連接或稍後再試</p>
+                <h3>⚠️ Loading Failed</h3>
+                <p>Unable to load AI tools data. Please check your network connection or try again later</p>
                 <button onclick="location.reload()" class="resource-link" style="margin-top: 1rem; display: inline-block;">
-                    重新載入
+                    Reload
                 </button>
             </div>
         `;
@@ -393,6 +395,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add loading animation
 document.getElementById('resourcesGrid').innerHTML = `
     <div class="loading">
-        載入 AI 工具中...
+        Loading AI tools...
     </div>
 `; 

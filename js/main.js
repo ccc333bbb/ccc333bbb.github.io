@@ -52,16 +52,25 @@ class TardisApp {
         const header = document.querySelector('.tardis-header');
         header.appendChild(themeToggle);
         
+        // Load saved theme preference
+        const savedTheme = localStorage.getItem('tardis-theme');
+        let isDark = savedTheme !== 'light';
+        
+        // Apply initial theme
+        document.body.classList.toggle('light-theme', !isDark);
+        themeToggle.innerHTML = isDark ? '🌙' : '☀️';
+        themeToggle.title = isDark ? 'Switch to Light Theme' : 'Switch to Dark Theme';
+        
         // Theme toggle logic
-        let isDark = true;
         themeToggle.addEventListener('click', () => {
             isDark = !isDark;
             document.body.classList.toggle('light-theme', !isDark);
             themeToggle.innerHTML = isDark ? '🌙' : '☀️';
             themeToggle.title = isDark ? 'Switch to Light Theme' : 'Switch to Dark Theme';
+            
+            // Save theme preference
+            localStorage.setItem('tardis-theme', isDark ? 'dark' : 'light');
         });
-        
-        // Theme toggle keyboard shortcut removed
     }
     
     addLoadingAnimation() {
@@ -93,34 +102,8 @@ class TardisApp {
     }
     
     showWelcomeMessage() {
-        const welcomeMsg = document.createElement('div');
-        welcomeMsg.className = 'welcome-message';
-        welcomeMsg.innerHTML = `
-            <div class="welcome-content">
-                <h3>🚀 Welcome to TARDIS Navigation</h3>
-                <p>Click on portal cards to navigate to different digital spaces</p>
-                <p>📰 News section supports full-text search and keyword search</p>
-                <button class="welcome-close">Got it</button>
-            </div>
-        `;
-        
-        document.body.appendChild(welcomeMsg);
-        
-        // Auto disappear
-        setTimeout(() => {
-            welcomeMsg.classList.add('fade-out');
-            setTimeout(() => {
-                welcomeMsg.remove();
-            }, 500);
-        }, 5000);
-        
-        // Manual close
-        welcomeMsg.querySelector('.welcome-close').addEventListener('click', () => {
-            welcomeMsg.classList.add('fade-out');
-            setTimeout(() => {
-                welcomeMsg.remove();
-            }, 500);
-        });
+        // Welcome message disabled per user request
+        return;
     }
 }
 

@@ -136,9 +136,10 @@
 /* Resources Grid */
 .resources-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 1.5rem;
     margin-bottom: 3rem;
+    align-items: start;
 }
 
 .resource-card {
@@ -150,6 +151,10 @@
     backdrop-filter: blur(10px);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    gap: 1rem;
 }
 
 .resource-card:hover {
@@ -296,6 +301,9 @@
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 215, 0, 0.2);
 }
 
 .resource-link {
@@ -556,9 +564,14 @@
 .pricing-badge {
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: bold;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
 }
 
 .pricing-badge.free {
@@ -581,10 +594,19 @@
 
 .tool-stats {
     display: flex;
-    gap: 1rem;
+    gap: 0.5rem;
     font-size: 0.8rem;
-    color: var(--tardis-text);
+    color: var(--tardis-text-secondary);
     flex-wrap: wrap;
+    margin-bottom: 0.8rem;
+}
+
+.tool-stats .stat {
+    padding: 2px 8px;
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 12px;
+    white-space: nowrap;
 }
 
 .tool-features,
@@ -609,12 +631,19 @@
 }
 
 .feature-tag {
-    background: rgba(138, 43, 226, 0.2);
-    color: #8a2be2;
+    background: rgba(255, 215, 0, 0.15);
+    color: var(--tardis-gold);
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
     font-size: 0.8rem;
-    border: 1px solid #8a2be2;
+    border: 1px solid rgba(255, 215, 0, 0.4);
+    white-space: nowrap;
+    transition: all 0.2s ease;
+}
+
+.feature-tag:hover {
+    background: rgba(255, 215, 0, 0.25);
+    transform: scale(1.05);
 }
 
 .quota-list {
@@ -641,10 +670,10 @@
 }
 
 .new-features-list {
-    background: rgba(34, 139, 34, 0.1);
+    background: rgba(255, 215, 0, 0.1);
     border-radius: 8px;
     padding: 0.8rem;
-    border: 1px solid rgba(34, 139, 34, 0.3);
+    border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 .new-feature-item {
@@ -655,11 +684,12 @@
 }
 
 .new-feature-item:before {
-    content: "•";
-    color: #32cd32;
+    content: "✨";
+    color: var(--tardis-gold);
     font-weight: bold;
     position: absolute;
     left: 0;
+    font-size: 0.8rem;
 }
 
 .new-feature-item:last-child {
