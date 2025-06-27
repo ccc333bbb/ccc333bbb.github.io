@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "timestamp": "2025-06-27T05:22:14.344Z",
+      "operation": "process-news",
+      "details": {
+        "file": "2025-06-27.json",
+        "totalArticles": 53,
+        "avgRelevanceScore": 156.2890566037736,
+        "categoriesCount": 17,
+        "sourcesCount": 16
+      }
+    },
+    {
       "timestamp": "2025-06-27T04:04:18.976Z",
       "type": "health_check",
       "status": "unhealthy",
@@ -60,5 +71,6 @@
       "message": "📊 生成新聞更新報告..."
     }
   ],
-  "lastUpdate": "2025-06-27T04:04:18.976Z"
+  "lastUpdate": "2025-06-27T04:04:18.976Z",
+  "lastUpdated": "2025-06-27T05:22:14.344Z"
 }
