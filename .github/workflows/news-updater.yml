@@ -1,10 +1,10 @@
 name: RSS News Aggregator
 
 on:
-  # schedule:
-  #   # 每15分鐘執行一次 (UTC 時間) - 暫時禁用以節省資源
-  #   - cron: '*/15 * * * *'
-  workflow_dispatch:  # 僅手動觸發
+  schedule:
+    # 每15分鐘執行一次 (UTC 時間)
+    - cron: '*/15 * * * *'
+  workflow_dispatch:  # 支援手動觸發
 
 permissions:
   contents: write
