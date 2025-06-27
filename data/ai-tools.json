@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "lastUpdated": "2024-01-15T10:30:00Z",
-    "totalTools": 30,
-    "activeTools": 28,
+    "lastUpdated": "2025-01-27T10:30:00Z",
+    "totalTools": 65,
+    "activeTools": 62,
     "categories": 6
   },
   "categories": {
     "google_ai": {
-      "name": "Google AI 工具",
-      "description": "Google 提供的 AI 工具和服務",
+      "name": "Google AI Tools",
+      "description": "Google AI tools and services",
       "tools": [
         {
           "id": "gemini",
           "name": "Google Gemini",
-          "description": "Google 的多模態 AI 模型，支援文字、圖像和代碼處理",
+          "description": "Google's multimodal AI model supporting text, image, and code processing",
           "url": "https://ai.google.dev/",
           "category": "llm",
           "capabilities": ["text", "vision", "code", "reasoning"],
           "pricing": "free_tier_available",
           "freeQuota": {
-            "requests": "每分鐘 60 次",
-            "tokens": "每月 1M 輸入 tokens",
+            "requests": "60 requests/minute",
+            "tokens": "1M input tokens/month",
             "models": "Gemini 1.5 Flash"
           },
           "lastUpdate": "2024-01-15",
           "newFeatures": [
-            "Gemini 1.5 Pro 擴展上下文窗口至 2M tokens",
-            "改進的代碼理解能力",
-            "多語言支持增強"
+            "Gemini 1.5 Pro extended context window to 2M tokens",
+            "Improved code understanding capabilities",
+            "Enhanced multilingual support"
           ],
           "status": {
             "health": "active",
@@ -40,16 +40,16 @@
         {
           "id": "ai-studio",
           "name": "Google AI Studio",
-          "description": "Google 的 AI 開發平台，用於測試和部署 Gemini 模型",
+          "description": "Google's AI development platform for testing and deploying Gemini models",
           "url": "https://aistudio.google.com/",
           "category": "development_platform",
           "capabilities": ["prompt_engineering", "model_tuning", "api_testing"],
           "pricing": "free",
           "lastUpdate": "2024-01-12",
           "newFeatures": [
-            "新增批量處理功能",
-            "改進的 Prompt 調試工具",
-            "支援自定義函數調用"
+            "Added batch processing functionality",
+            "Improved Prompt debugging tools",
+            "Support for custom function calls"
           ],
           "status": {
             "health": "active",
@@ -61,28 +61,28 @@
       ]
     },
     "workflow_automation": {
-      "name": "工作流自動化",
-      "description": "自動化工作流程和任務的 AI 工具",
+      "name": "Workflow Automation",
+      "description": "AI tools for automating workflows and tasks",
       "tools": [
         {
           "id": "n8n",
           "name": "n8n",
-          "description": "開源的工作流自動化平台，支援 400+ 集成",
+          "description": "Open-source workflow automation platform with 400+ integrations",
           "url": "https://n8n.io/",
           "category": "automation",
           "deployment": ["cloud", "self-hosted"],
           "integrations": 400,
           "lastRelease": "1.25.0",
           "newFeatures": [
-            "AI Agent 節點支援",
-            "增強的錯誤處理機制",
-            "新增 OpenAI 和 Anthropic 集成"
+            "AI Agent node support",
+            "Enhanced error handling mechanisms",
+            "New OpenAI and Anthropic integrations"
           ],
           "pricing": "freemium",
           "freeQuota": {
-            "workflows": "無限制 (self-hosted)",
-            "executions": "5000次/月 (cloud)",
-            "users": "1 用戶 (cloud free)"
+            "workflows": "Unlimited (self-hosted)",
+            "executions": "5000/month (cloud)",
+            "users": "1 user (cloud free)"
           },
           "status": {
             "health": "active",
@@ -95,20 +95,20 @@
         {
           "id": "zapier",
           "name": "Zapier",
-          "description": "連接不同應用程式的自動化平台",
+          "description": "Automation platform connecting different applications",
           "url": "https://zapier.com/",
           "category": "automation",
           "integrations": 5000,
           "pricing": "freemium",
           "freeQuota": {
-            "zaps": "5 個 Zaps",
-            "tasks": "100 tasks/月"
+            "zaps": "5 Zaps",
+            "tasks": "100 tasks/month"
           },
           "lastUpdate": "2024-01-14",
           "newFeatures": [
-            "AI 驅動的 Zap 建議",
-            "新增 ChatGPT 和 Claude 集成",
-            "改進的條件邏輯"
+            "AI-driven Zap suggestions",
+            "New ChatGPT and Claude integrations",
+            "Improved conditional logic"
           ],
           "status": {
             "health": "active",
@@ -120,13 +120,13 @@
       ]
     },
     "ai_platforms": {
-      "name": "AI 開發平台", 
-      "description": "用於構建和部署 AI 應用的平台",
+      "name": "AI Development Platforms", 
+      "description": "Platforms for building and deploying AI applications",
       "tools": [
         {
           "id": "dify",
           "name": "Dify",
-          "description": "開源的 LLMOps 平台，用於構建 AI 應用和工作流",
+          "description": "Open-source LLMOps platform for building AI applications and workflows",
           "url": "https://dify.ai/",
           "category": "llmops",
           "features": ["workflow", "agent", "chatbot", "knowledge_base"],
@@ -134,9 +134,9 @@
           "lastUpdate": "2024-01-14",
           "githubStars": 45000,
           "newFeatures": [
-            "新增 RAG 增強功能",
-            "支援多模型並行推理",
-            "改進的 Agent 協作能力"
+            "Added RAG enhancement features",
+            "Support for multi-model parallel inference",
+            "Improved Agent collaboration capabilities"
           ],
           "pricing": "open_source",
           "cloudPricing": "pay_as_you_go",
@@ -150,21 +150,21 @@
         {
           "id": "langsmith",
           "name": "LangSmith",
-          "description": "LangChain 官方的 LLM 應用開發和監控平台",
+          "description": "LangChain's official LLM application development and monitoring platform",
           "url": "https://smith.langchain.com/",
           "category": "llmops",
           "features": ["debugging", "testing", "monitoring", "dataset_management"],
           "pricing": "freemium",
           "freeQuota": {
-            "traces": "5000 traces/月",
-            "datasets": "無限制",
-            "users": "1 用戶"
+            "traces": "5000 traces/month",
+            "datasets": "Unlimited",
+            "users": "1 user"
           },
           "lastUpdate": "2024-01-13",
           "newFeatures": [
-            "新增 A/B 測試功能",
-            "改進的性能分析工具",
-            "支援自定義評估指標"
+            "Added A/B testing functionality",
+            "Improved performance analysis tools",
+            "Support for custom evaluation metrics"
           ],
           "status": {
             "health": "active",
@@ -176,13 +176,13 @@
       ]
     },
     "image_generation": {
-      "name": "圖像生成工具",
-      "description": "AI 圖像生成和編輯工具",
+      "name": "Image Generation Tools",
+      "description": "AI image generation and editing tools",
       "tools": [
         {
           "id": "comfyui",
           "name": "ComfyUI",
-          "description": "基於節點的 Stable Diffusion GUI，提供強大的工作流功能",
+          "description": "Node-based Stable Diffusion GUI with powerful workflow capabilities",
           "url": "https://github.com/comfyanonymous/ComfyUI",
           "category": "image_generation",
           "features": ["node_workflow", "custom_nodes", "api", "model_management"],
@@ -190,9 +190,9 @@
           "communityNodes": 2000,
           "lastUpdate": "2024-01-14",
           "newFeatures": [
-            "新增 FLUX 模型支援",
-            "改進的內存管理",
-            "WebUI 界面優化"
+            "Added FLUX model support",
+            "Improved memory management",
+            "WebUI interface optimization"
           ],
           "pricing": "free_open_source",
           "status": {
@@ -206,7 +206,7 @@
         {
           "id": "automatic1111",
           "name": "AUTOMATIC1111",
-          "description": "最受歡迎的 Stable Diffusion WebUI",
+          "description": "Most popular Stable Diffusion WebUI",
           "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
           "category": "image_generation",
           "features": ["webui", "extensions", "model_training", "img2img"],
@@ -214,9 +214,9 @@
           "extensions": 1500,
           "lastUpdate": "2024-01-12",
           "newFeatures": [
-            "支援 SDXL Turbo",
-            "新增批量處理功能",
-            "改進的擴展管理器"
+            "Support for SDXL Turbo",
+            "Added batch processing functionality",
+            "Improved extension manager"
           ],
           "pricing": "free_open_source",
           "status": {
@@ -230,13 +230,13 @@
       ]
     },
     "local_llm": {
-      "name": "本地 LLM 工具",
-      "description": "在本地運行大型語言模型的工具",
+      "name": "Local LLM Tools",
+      "description": "Tools for running large language models locally",
       "tools": [
         {
           "id": "ollama",
           "name": "Ollama",
-          "description": "簡化本地 LLM 運行的工具，支援多種開源模型",
+          "description": "Simplified tool for running local LLMs, supports multiple open-source models",
           "url": "https://ollama.com/",
           "category": "local_inference",
           "models_supported": ["llama3", "codellama", "mistral", "gemma", "phi3"],
@@ -260,7 +260,7 @@
         {
           "id": "lm-studio",
           "name": "LM Studio",
-          "description": "桌面 GUI 應用，用於運行本地 LLM",
+          "description": "Desktop GUI application for running local LLMs",
           "url": "https://lmstudio.ai/",
           "category": "local_inference",
           "platforms": ["macOS", "Windows", "Linux"],
@@ -268,9 +268,9 @@
           "pricing": "free",
           "lastUpdate": "2024-01-13",
           "newFeatures": [
-            "新增模型搜索功能",
-            "改進的對話界面",
-            "支援多模態模型"
+            "Added model search functionality",
+            "Improved conversation interface",
+            "Support for multimodal models"
           ],
           "status": {
             "health": "active",
@@ -282,22 +282,348 @@
       ]
     },
     "inference_apis": {
-      "name": "LLM 推理 API",
-      "description": "提供 LLM 推理服務的 API 平台",
+      "name": "Free LLM Inference APIs",
+      "description": "Free and trial API platforms providing LLM inference services",
       "tools": [
+        {
+          "id": "openrouter",
+          "name": "OpenRouter",
+          "description": "Unified API for accessing multiple LLM providers with free tier",
+          "url": "https://openrouter.ai/",
+          "category": "api_aggregator",
+          "pricing": "freemium",
+          "freeQuota": {
+            "requests": "20 requests/minute, 50 requests/day",
+            "extended": "1000 requests/day with $10 lifetime topup"
+          },
+          "models": ["DeepSeek R1", "DeepSeek V3", "Llama 3.3 70B", "Mistral Large", "Claude 3.5 Sonnet", "GPT-4o", "Phi-4"],
+          "features": ["model_routing", "unified_api", "cost_optimization"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:00:00Z",
+            "responseTime": 450
+          },
+          "tags": ["api", "aggregator", "free-tier", "multiple-models"]
+        },
+        {
+          "id": "google-ai-studio",
+          "name": "Google AI Studio",
+          "description": "Free access to Gemini models with generous quotas",
+          "url": "https://aistudio.google.com/",
+          "category": "free_provider",
+          "pricing": "free",
+          "freeQuota": {
+            "requests": "15 requests/minute",
+            "tokens": "1M tokens/day for Gemini 1.5 Flash"
+          },
+          "models": ["Gemini 1.5 Pro", "Gemini 1.5 Flash", "Gemini 2.0 Flash"],
+          "features": ["multimodal", "long_context", "function_calling"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:01:00Z",
+            "responseTime": 320
+          },
+          "tags": ["google", "gemini", "free", "multimodal"]
+        },
+        {
+          "id": "nvidia-nim",
+          "name": "NVIDIA NIM",
+          "description": "Free inference for NVIDIA-optimized models",
+          "url": "https://build.nvidia.com/",
+          "category": "free_provider",
+          "pricing": "free",
+          "freeQuota": {
+            "requests": "1000 requests/month per model"
+          },
+          "models": ["Llama 3.1 70B", "Mistral Large", "Nemotron-4 340B", "CodeLlama 70B"],
+          "features": ["optimized_inference", "enterprise_ready", "multiple_models"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:02:00Z",
+            "responseTime": 280
+          },
+          "tags": ["nvidia", "optimized", "enterprise", "free-tier"]
+        },
+        {
+          "id": "mistral-platform",
+          "name": "Mistral La Plateforme",
+          "description": "Free tier for Mistral AI models",
+          "url": "https://console.mistral.ai/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "credits": "$5 free credits"
+          },
+          "models": ["Mistral Large", "Mistral Nemo", "Codestral", "Pixtral"],
+          "features": ["function_calling", "json_mode", "multimodal"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:03:00Z",
+            "responseTime": 380
+          },
+          "tags": ["mistral", "free-credits", "function-calling", "json"]
+        },
+        {
+          "id": "huggingface-inference",
+          "name": "HuggingFace Inference API",
+          "description": "Free inference for thousands of open-source models",
+          "url": "https://huggingface.co/inference-api",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "requests": "Rate limited per model"
+          },
+          "models": ["Meta-Llama models", "Mistral models", "CodeLlama", "Falcon", "BLOOM"],
+          "features": ["open_source_models", "community_driven", "easy_integration"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:04:00Z",
+            "responseTime": 520
+          },
+          "tags": ["huggingface", "open-source", "community", "free"]
+        },
+        {
+          "id": "cerebras",
+          "name": "Cerebras Inference",
+          "description": "Ultra-fast inference with free tier",
+          "url": "https://inference.cerebras.ai/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "tokens": "30M tokens/month"
+          },
+          "models": ["Llama 3.1 70B", "Llama 3.1 8B"],
+          "features": ["ultra_fast", "high_throughput", "optimized_hardware"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:05:00Z",
+            "responseTime": 150
+          },
+          "tags": ["cerebras", "fast", "high-throughput", "free-tier"]
+        },
+        {
+          "id": "groq",
+          "name": "Groq",
+          "description": "Lightning-fast LLM inference with free tier",
+          "url": "https://console.groq.com/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "requests": "14,400 requests/day",
+            "tokens": "Rate limited per model"
+          },
+          "models": ["Llama 3.1 70B", "Llama 3.1 8B", "Mixtral 8x7B", "Gemma 7B"],
+          "features": ["ultra_fast", "low_latency", "high_performance"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:06:00Z",
+            "responseTime": 120
+          },
+          "tags": ["groq", "ultra-fast", "low-latency", "free-tier"]
+        },
+        {
+          "id": "together-free",
+          "name": "Together AI (Free)",
+          "description": "Free tier for open-source model inference",
+          "url": "https://api.together.xyz/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "credits": "$1 with payment method"
+          },
+          "models": ["Llama 3.1 405B", "Llama 3.1 70B", "Qwen2.5 72B", "DeepSeek V3"],
+          "features": ["large_models", "open_source", "research_friendly"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:07:00Z",
+            "responseTime": 400
+          },
+          "tags": ["together", "large-models", "research", "trial-credits"]
+        },
+        {
+          "id": "cohere-free",
+          "name": "Cohere (Free Trial)",
+          "description": "Free trial for Cohere's Command models",
+          "url": "https://cohere.com/",
+          "category": "trial_provider",
+          "pricing": "trial",
+          "freeQuota": {
+            "credits": "Free trial credits"
+          },
+          "models": ["Command R+", "Command R", "Embed v3"],
+          "features": ["rag_optimized", "enterprise_ready", "embeddings"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:08:00Z",
+            "responseTime": 350
+          },
+          "tags": ["cohere", "command", "rag", "trial"]
+        },
+        {
+          "id": "github-models",
+          "name": "GitHub Models",
+          "description": "Free access to models through GitHub",
+          "url": "https://github.com/marketplace/models",
+          "category": "free_provider",
+          "pricing": "free",
+          "freeQuota": {
+            "requests": "Rate limited per model"
+          },
+          "models": ["GPT-4o", "Claude 3.5 Sonnet", "Llama 3.1", "Phi-3"],
+          "features": ["github_integration", "multiple_providers", "developer_friendly"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:09:00Z",
+            "responseTime": 380
+          },
+          "tags": ["github", "integration", "developer", "free"]
+        },
+        {
+          "id": "cloudflare-workers-ai",
+          "name": "Cloudflare Workers AI",
+          "description": "Serverless AI inference with free tier",
+          "url": "https://developers.cloudflare.com/workers-ai/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "neurons": "10,000 neurons/day"
+          },
+          "models": ["Llama 3.3 70B", "Llama 3.2 11B Vision", "DeepSeek R1 Distill", "Qwen QwQ 32B", "Mistral 7B"],
+          "features": ["serverless", "edge_computing", "low_latency", "global_deployment"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:10:00Z",
+            "responseTime": 200
+          },
+          "tags": ["cloudflare", "serverless", "edge", "free-tier"]
+        },
+        {
+          "id": "google-vertex-ai",
+          "name": "Google Cloud Vertex AI",
+          "description": "Free preview access to latest models",
+          "url": "https://cloud.google.com/vertex-ai",
+          "category": "free_provider",
+          "pricing": "free_preview",
+          "freeQuota": {
+            "requests": "Various limits per model during preview"
+          },
+          "models": ["Gemini 2.5 Pro", "Llama 3.2 90B Vision", "Llama 3.1 70B", "DeepSeek R1"],
+          "features": ["enterprise_ready", "multimodal", "latest_models"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:11:00Z",
+            "responseTime": 320
+          },
+          "tags": ["google-cloud", "enterprise", "preview", "multimodal"]
+        },
+        {
+          "id": "fireworks",
+          "name": "Fireworks AI",
+          "description": "Fast inference with $1 free credits",
+          "url": "https://fireworks.ai/",
+          "category": "trial_provider",
+          "pricing": "trial",
+          "freeQuota": {
+            "credits": "$1 free credits"
+          },
+          "models": ["Llama 3.1 405B", "Mixtral 8x22B", "CodeLlama 34B"],
+          "features": ["fast_inference", "open_models", "developer_friendly"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:12:00Z",
+            "responseTime": 250
+          },
+          "tags": ["fireworks", "fast", "trial-credits", "open-models"]
+        },
+        {
+          "id": "unify",
+          "name": "Unify",
+          "description": "Router to multiple providers with $5 trial credits",
+          "url": "https://unify.ai/",
+          "category": "trial_provider",
+          "pricing": "trial",
+          "freeQuota": {
+            "credits": "$5 with payment method"
+          },
+          "models": ["Routes to OpenAI, Anthropic, Google, Mistral, and more"],
+          "features": ["provider_routing", "cost_optimization", "unified_api"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:13:00Z",
+            "responseTime": 380
+          },
+          "tags": ["router", "multiple-providers", "optimization", "trial"]
+        },
+        {
+          "id": "hyperbolic",
+          "name": "Hyperbolic",
+          "description": "High-performance inference with $1 trial credits",
+          "url": "https://hyperbolic.xyz/",
+          "category": "trial_provider",
+          "pricing": "trial",
+          "freeQuota": {
+            "credits": "$1 trial credits"
+          },
+          "models": ["DeepSeek V3", "Llama 3.3 70B", "Qwen2.5 72B", "Pixtral 12B"],
+          "features": ["high_performance", "latest_models", "competitive_pricing"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:14:00Z",
+            "responseTime": 280
+          },
+          "tags": ["hyperbolic", "performance", "latest", "trial"]
+        },
+        {
+          "id": "sambanova",
+          "name": "SambaNova Cloud",
+          "description": "Fast inference with $5 free credits for 3 months",
+          "url": "https://cloud.sambanova.ai/",
+          "category": "trial_provider",
+          "pricing": "trial",
+          "freeQuota": {
+            "credits": "$5 for 3 months"
+          },
+          "models": ["Llama 3.3 70B", "DeepSeek R1", "Qwen3-32B"],
+          "features": ["fast_inference", "enterprise_ready", "latest_models"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:15:00Z",
+            "responseTime": 220
+          },
+          "tags": ["sambanova", "enterprise", "trial-credits", "fast"]
+        },
+        {
+          "id": "scaleway",
+          "name": "Scaleway Generative APIs",
+          "description": "1M free tokens for European users",
+          "url": "https://www.scaleway.com/en/generative-apis/",
+          "category": "free_provider",
+          "pricing": "freemium",
+          "freeQuota": {
+            "tokens": "1,000,000 free tokens"
+          },
+          "models": ["Llama 3.3 70B", "Mistral Small", "Gemma 3 27B", "DeepSeek R1 Distill"],
+          "features": ["european_provider", "gdpr_compliant", "generous_quota"],
+          "status": {
+            "health": "active",
+            "lastChecked": "2025-01-27T09:16:00Z",
+            "responseTime": 300
+          },
+          "tags": ["scaleway", "european", "gdpr", "generous-quota"]
+        },
         {
           "id": "openai",
           "name": "OpenAI API",
-          "description": "GPT 系列模型的官方 API 服務",
+          "description": "GPT series models official API service",
           "url": "https://openai.com/api/",
           "models": ["gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo", "dall-e-3"],
           "pricing": "pay_per_use",
           "free_credits": "$5",
           "rate_limits": "10,000 RPM (Tier 1)",
           "recent_updates": [
-            "GPT-4o 模型發布",
-            "降低 GPT-4 Turbo 價格",
-            "新增結構化輸出功能"
+            "GPT-4o model release",
+            "Reduced GPT-4 Turbo pricing",
+            "Added structured output functionality"
           ],
           "status": {
             "health": "active",
@@ -310,16 +636,16 @@
         {
           "id": "anthropic",
           "name": "Anthropic Claude API",
-          "description": "Claude 系列模型的官方 API 服務",
+          "description": "Claude series models official API service",
           "url": "https://www.anthropic.com/api/",
           "models": ["claude-3-5-sonnet", "claude-3-opus", "claude-3-haiku"],
           "pricing": "pay_per_use",
           "free_credits": "$5",
-          "rate_limits": "依模型而異",
+          "rate_limits": "Varies by model",
           "recent_updates": [
-            "Claude 3.5 Sonnet 發布",
-            "改進的工具使用能力",
-            "擴展上下文窗口至 200K"
+            "Claude 3.5 Sonnet release",
+            "Improved tool usage capabilities",
+            "Extended context window to 200K"
           ],
           "status": {
             "health": "active",

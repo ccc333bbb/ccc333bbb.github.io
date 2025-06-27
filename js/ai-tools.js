@@ -82,7 +82,8 @@ class AIToolsApp {
                     tool.name.toLowerCase().includes(this.searchTerm) ||
                     tool.description.toLowerCase().includes(this.searchTerm) ||
                     (tool.tags && tool.tags.some(tag => tag.toLowerCase().includes(this.searchTerm))) ||
-                    (tool.capabilities && tool.capabilities.some(cap => cap.toLowerCase().includes(this.searchTerm)))
+                    (tool.capabilities && tool.capabilities.some(cap => cap.toLowerCase().includes(this.searchTerm))) ||
+                    (tool.models && tool.models.some(model => model.toLowerCase().includes(this.searchTerm)))
                 );
                 
                 if (filteredTools.length > 0) {
@@ -104,8 +105,19 @@ class AIToolsApp {
 
         const metadata = this.tools.metadata;
         
+        // Count free APIs
+        const freeApiCount = this.tools.categories.inference_apis ? 
+            this.tools.categories.inference_apis.tools.filter(tool => 
+                tool.pricing === 'free' || 
+                tool.pricing === 'freemium' || 
+                tool.pricing === 'trial' ||
+                tool.pricing === 'free_provider' ||
+                tool.pricing === 'free_tier_available'
+            ).length : 0;
+        
         document.getElementById('totalTools').textContent = metadata.totalTools;
         document.getElementById('activeTools').textContent = metadata.activeTools;
+        document.getElementById('freeApis').textContent = freeApiCount;
         
         const lastUpdated = new Date(metadata.lastUpdated);
         document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
@@ -171,6 +183,7 @@ class AIToolsApp {
                     ${tool.description}
                 </div>
                 
+                ${this.renderModels(tool)}
                 ${this.renderToolFeatures(tool)}
                 ${this.renderFreeQuota(tool)}
                 ${this.renderNewFeatures(newFeatures)}
@@ -194,7 +207,7 @@ class AIToolsApp {
         const stats = [];
         
         if (tool.githubStars) {
-            stats.push(`⭐ ${tool.githubStars}`);
+            stats.push(`⭐ ${this.formatNumber(tool.githubStars)}`);
         }
         if (tool.integrations) {
             stats.push(`🔗 ${tool.integrations}`);
@@ -202,11 +215,17 @@ class AIToolsApp {
         if (tool.models_supported && Array.isArray(tool.models_supported)) {
             stats.push(`🤖 ${tool.models_supported.length} Models`);
         }
+        if (tool.models && Array.isArray(tool.models)) {
+            stats.push(`🤖 ${tool.models.length} Models`);
+        }
         if (tool.extensions) {
             stats.push(`🧩 ${tool.extensions} Extensions`);
         }
         if (tool.communityNodes) {
             stats.push(`🔗 ${tool.communityNodes} Nodes`);
+        }
+        if (tool.status?.responseTime) {
+            stats.push(`⚡ ${tool.status.responseTime}ms`);
         }
 
         if (stats.length === 0) return '';
@@ -214,6 +233,25 @@ class AIToolsApp {
         return `
             <div class="tool-stats">
                 ${stats.map(stat => `<div class="stat">${stat}</div>`).join('')}
+            </div>
+        `;
+    }
+
+    renderModels(tool) {
+        if (!tool.models || !Array.isArray(tool.models)) return '';
+        
+        const displayModels = tool.models.slice(0, 6); // Show first 6 models
+        const hasMore = tool.models.length > 6;
+        
+        return `
+            <div class="tool-models">
+                <div class="models-title">Supported Models</div>
+                <div class="models-list">
+                    ${displayModels.map(model => `
+                        <span class="model-tag">${model}</span>
+                    `).join('')}
+                    ${hasMore ? `<span class="model-tag more">+${tool.models.length - 6} more</span>` : ''}
+                </div>
             </div>
         `;
     }
@@ -245,11 +283,11 @@ class AIToolsApp {
 
         return `
             <div class="tool-quota">
-                <div class="quota-title">Free Quota</div>
+                <div class="quota-title">🆓 Free Quota</div>
                 <div class="quota-list">
                     ${Object.entries(quota).map(([key, value]) => `
                         <div class="quota-item">
-                            <span>${this.translateQuotaKey(key)}</span>
+                            <span class="quota-key">${this.translateQuotaKey(key)}:</span>
                             <span class="quota-value">${value}</span>
                         </div>
                     `).join('')}
@@ -262,38 +300,48 @@ class AIToolsApp {
         if (!features || features.length === 0) return '';
 
         return `
-            <div class="new-features">
-                <div class="new-features-title">🆕 Latest Features</div>
-                <div class="new-features-list">
+            <div class="tool-updates">
+                <div class="updates-title">🆕 Recent Updates</div>
+                <ul class="updates-list">
                     ${features.slice(0, 3).map(feature => `
-                        <div class="new-feature-item">${feature}</div>
+                        <li>${feature}</li>
                     `).join('')}
-                </div>
+                </ul>
             </div>
         `;
     }
 
     renderToolTags(tool) {
-        const tags = tool.tags || [];
-        if (tags.length === 0) return '';
+        if (!tool.tags || tool.tags.length === 0) return '';
 
         return `
-            <div class="resource-tags">
-                ${tags.map(tag => `
+            <div class="tool-tags">
+                ${tool.tags.map(tag => `
                     <span class="tag">${tag}</span>
                 `).join('')}
             </div>
         `;
     }
 
+    formatNumber(num) {
+        if (num >= 1000) {
+            return (num / 1000).toFixed(1) + 'k';
+        }
+        return num.toString();
+    }
+
     getPricingBadge(pricing) {
         const badges = {
             'free': '<span class="pricing-badge free">Free</span>',
             'freemium': '<span class="pricing-badge freemium">Freemium</span>',
-            'free_tier_available': '<span class="pricing-badge freemium">Free Tier</span>',
+            'free_tier_available': '<span class="pricing-badge free">Free Tier</span>',
+            'free_provider': '<span class="pricing-badge free">Free</span>',
+            'free_preview': '<span class="pricing-badge free">Free Preview</span>',
+            'trial': '<span class="pricing-badge trial">Free Trial</span>',
+            'trial_provider': '<span class="pricing-badge trial">Free Trial</span>',
             'pay_per_use': '<span class="pricing-badge paid">Pay per Use</span>',
-            'free_open_source': '<span class="pricing-badge free">Open Source</span>',
-            'open_source': '<span class="pricing-badge free">Open Source</span>'
+            'open_source': '<span class="pricing-badge open-source">Open Source</span>',
+            'free_open_source': '<span class="pricing-badge open-source">Open Source</span>'
         };
         return badges[pricing] || '';
     }
@@ -301,41 +349,56 @@ class AIToolsApp {
     renderEmptyState() {
         return `
             <div class="empty-state">
-                <h3>🔍 No matching AI tools found</h3>
-                <p>Try adjusting your search terms or selecting a different category</p>
-                <p>Or clear the search box to view all tools</p>
+                <div class="empty-icon">🔍</div>
+                <h3>No tools found</h3>
+                <p>Try adjusting your search or filter criteria</p>
             </div>
         `;
     }
 
     getStatusClass(health) {
-        switch (health) {
-            case 'active': return '';
-            case 'maintenance': return 'warning';
-            case 'inactive': return 'unhealthy';
-            default: return '';
-        }
+        const statusMap = {
+            'active': 'healthy',
+            'healthy': 'healthy',
+            'warning': 'warning',
+            'inactive': 'unhealthy',
+            'unhealthy': 'unhealthy'
+        };
+        return statusMap[health] || 'unknown';
     }
 
     getStatusText(health) {
-        switch (health) {
-            case 'active': return 'Active';
-            case 'maintenance': return 'Maintenance';
-            case 'inactive': return 'Inactive';
-            default: return 'Normal';
-        }
+        const statusMap = {
+            'active': 'Active',
+            'healthy': 'Healthy',
+            'warning': 'Warning',
+            'inactive': 'Inactive',
+            'unhealthy': 'Unhealthy'
+        };
+        return statusMap[health] || 'Unknown';
     }
 
     translateFeature(feature) {
-        // Features now display in English directly
-        const featureMap = {
-            'workflow': 'Workflow',
-            'agent': 'Agent',
-            'chatbot': 'Chatbot',
-            'knowledge_base': 'Knowledge Base',
+        const translations = {
+            'text': 'Text Generation',
+            'vision': 'Vision/Image',
+            'code': 'Code Generation',
+            'reasoning': 'Advanced Reasoning',
+            'multimodal': 'Multimodal',
+            'long_context': 'Long Context',
+            'function_calling': 'Function Calling',
+            'json_mode': 'JSON Mode',
             'prompt_engineering': 'Prompt Engineering',
             'model_tuning': 'Model Tuning',
             'api_testing': 'API Testing',
+            'workflow': 'Workflow',
+            'agent': 'AI Agent',
+            'chatbot': 'Chatbot',
+            'knowledge_base': 'Knowledge Base',
+            'debugging': 'Debugging',
+            'testing': 'Testing',
+            'monitoring': 'Monitoring',
+            'dataset_management': 'Dataset Management',
             'node_workflow': 'Node Workflow',
             'custom_nodes': 'Custom Nodes',
             'api': 'API',
@@ -344,50 +407,80 @@ class AIToolsApp {
             'extensions': 'Extensions',
             'model_training': 'Model Training',
             'img2img': 'Image to Image',
-            'gui': 'GUI',
+            'gui': 'GUI Interface',
             'model_discovery': 'Model Discovery',
             'chat_interface': 'Chat Interface',
             'api_server': 'API Server',
-            'debugging': 'Debugging',
-            'testing': 'Testing',
-            'monitoring': 'Monitoring',
-            'dataset_management': 'Dataset Management'
+            'model_routing': 'Model Routing',
+            'unified_api': 'Unified API',
+            'cost_optimization': 'Cost Optimization',
+            'optimized_inference': 'Optimized Inference',
+            'enterprise_ready': 'Enterprise Ready',
+            'multiple_models': 'Multiple Models',
+            'open_source_models': 'Open Source Models',
+            'community_driven': 'Community Driven',
+            'easy_integration': 'Easy Integration',
+            'ultra_fast': 'Ultra Fast',
+            'high_throughput': 'High Throughput',
+            'optimized_hardware': 'Optimized Hardware',
+            'low_latency': 'Low Latency',
+            'high_performance': 'High Performance',
+            'large_models': 'Large Models',
+            'research_friendly': 'Research Friendly',
+            'rag_optimized': 'RAG Optimized',
+            'embeddings': 'Embeddings',
+            'github_integration': 'GitHub Integration',
+            'multiple_providers': 'Multiple Providers',
+            'developer_friendly': 'Developer Friendly',
+            'serverless': 'Serverless',
+            'edge_computing': 'Edge Computing',
+            'global_deployment': 'Global Deployment',
+            'latest_models': 'Latest Models',
+            'competitive_pricing': 'Competitive Pricing',
+            'fast_inference': 'Fast Inference',
+            'open_models': 'Open Models',
+            'provider_routing': 'Provider Routing',
+            'european_provider': 'European Provider',
+            'gdpr_compliant': 'GDPR Compliant',
+            'generous_quota': 'Generous Quota'
         };
-        return featureMap[feature] || feature.charAt(0).toUpperCase() + feature.slice(1);
+        return translations[feature] || feature.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
     }
 
     translateQuotaKey(key) {
-        // Quotas now display in English directly
-        const keyMap = {
+        const translations = {
             'requests': 'Requests',
-            'tokens': 'Tokens',
+            'tokens': 'Tokens', 
             'models': 'Models',
-            'credits': 'Credits',
-            'rate_limits': 'Rate Limits',
             'workflows': 'Workflows',
             'executions': 'Executions',
             'users': 'Users',
             'traces': 'Traces',
-            'datasets': 'Datasets'
+            'datasets': 'Datasets',
+            'zaps': 'Zaps',
+            'tasks': 'Tasks',
+            'credits': 'Credits',
+            'rate_limits': 'Rate Limits',
+            'neurons': 'Neurons',
+            'extended': 'Extended Plan'
         };
-        return keyMap[key] || key.charAt(0).toUpperCase() + key.slice(1);
+        return translations[key] || key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
     }
 
     showError() {
         const container = document.getElementById('resourcesGrid');
         container.innerHTML = `
-            <div class="empty-state">
-                <h3>⚠️ Loading Failed</h3>
-                <p>Unable to load AI tools data. Please check your network connection or try again later</p>
-                <button onclick="location.reload()" class="resource-link" style="margin-top: 1rem; display: inline-block;">
-                    Reload
-                </button>
+            <div class="error-state">
+                <div class="error-icon">⚠️</div>
+                <h3>Failed to load AI tools</h3>
+                <p>Please check your connection and try again</p>
+                <button onclick="location.reload()" class="retry-btn">Retry</button>
             </div>
         `;
     }
 }
 
-// Initialize when DOM is loaded
+// Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     new AIToolsApp();
 });

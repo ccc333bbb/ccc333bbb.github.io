@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🤖 AI Tools Hub - TARDIS Navigation</title>
-    <meta name="description" content="AI Tools Ecosystem - 全面的 AI 工具和平台追蹤">
+    <meta name="description" content="Comprehensive AI Tools Ecosystem with Free LLM Inference APIs - Track the latest AI tools, platforms, and free inference services">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/resource-page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
             </div>
             <div class="resource-title">
                 <h1>🤖 AI Tools Hub</h1>
-                <p class="subtitle">Comprehensive AI Tools Ecosystem</p>
+                <p class="subtitle">Comprehensive AI Tools Ecosystem with Free LLM APIs</p>
                 <div class="resource-stats">
                     <span class="stat-item">
                         <span class="stat-value" id="totalTools">-</span>
@@ -29,6 +29,10 @@
                     <span class="stat-item">
                         <span class="stat-value" id="activeTools">-</span>
                         <span class="stat-label">Active Tools</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="freeApis">-</span>
+                        <span class="stat-label">Free APIs</span>
                     </span>
                     <span class="stat-item">
                         <span class="stat-value" id="lastUpdated">-</span>
@@ -41,17 +45,17 @@
         <!-- Search and Filter -->
         <div class="search-filter-section">
             <div class="search-container">
-                <input type="text" id="resourceSearch" placeholder="Search AI tools...">
+                <input type="text" id="resourceSearch" placeholder="Search AI tools and APIs...">
                 <div class="search-icon">🔍</div>
             </div>
             <div class="filter-tabs">
                 <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="inference_apis">🆓 Free APIs</button>
                 <button class="filter-btn" data-category="google_ai">Google AI</button>
                 <button class="filter-btn" data-category="workflow_automation">Workflow</button>
                 <button class="filter-btn" data-category="ai_platforms">AI Platforms</button>
                 <button class="filter-btn" data-category="image_generation">Image Gen</button>
                 <button class="filter-btn" data-category="local_llm">Local LLM</button>
-                <button class="filter-btn" data-category="inference_apis">Inference APIs</button>
             </div>
         </div>
 
@@ -62,8 +66,9 @@
 
         <!-- Footer -->
         <footer class="resource-footer">
-            <p>© 2024 TARDIS Navigation - AI Tools Hub</p>
+            <p>© 2025 TARDIS Navigation - AI Tools Hub</p>
             <p>Track the latest developments and feature updates in the AI tools ecosystem</p>
+            <p>Free LLM API resources curated from <a href="https://github.com/cheahjs/free-llm-api-resources" target="_blank" rel="noopener">cheahjs/free-llm-api-resources</a></p>
         </footer>
     </div>
 
