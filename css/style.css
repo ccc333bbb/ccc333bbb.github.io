@@ -242,6 +242,34 @@ body {
     box-shadow: 0 5px 15px var(--tardis-glow);
 }
 
+/* 禁用的門戶卡片樣式 */
+.portal-card.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.portal-card.disabled:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.portal-card.disabled::before {
+    display: none;
+}
+
+.portal-link.disabled {
+    background: var(--tardis-gray);
+    color: var(--tardis-text-secondary);
+    cursor: not-allowed;
+    border: 1px solid var(--tardis-light-gray);
+}
+
+.portal-link.disabled:hover {
+    background: var(--tardis-gray);
+    color: var(--tardis-text-secondary);
+    transform: none;
+}
+
 .portal-tags {
     margin-top: 15px;
     display: flex;

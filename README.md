@@ -160,3 +160,138 @@ MIT License - 詳見 [LICENSE](LICENSE) 文件
 ---
 
 **歡迎來到 TARDIS Navigation，開始您的數字時空之旅！** 🚀
+
+# TARDIS Navigation System
+
+> A comprehensive navigation portal with intelligent resource monitoring and MCP ecosystem tracking
+
+## 🌟 專案簡介
+
+TARDIS Navigation System 是一個智能化的資源聚合平台，專注於：
+
+- **📝 Memo Knowledge Base** - 個人知識管理系統
+- **🆓 FTDD Resources** - 自動監控的免費開發者資源清單
+- **🔌 MCP Ecosystem** - Model Context Protocol Server 生態系統追蹤
+- **📊 Academic Frontier** - 前沿研究和論文追蹤（規劃中）
+
+## 🚀 核心特色
+
+### 自動化監控
+- **實時健康檢查**：GitHub Actions 自動監控服務狀態
+- **智能變更檢測**：自動發現政策變更和服務異常
+- **準確性保證**：95% 以上的資源信息準確率
+
+### FTDD (Free Tier Driven Development)
+- **500+ 免費資源**：涵蓋託管、數據庫、CI/CD、API 等各類服務
+- **詳細額度說明**：每個服務的免費限制和使用條件
+- **替代方案推薦**：相似服務的對比和推薦
+
+### MCP 生態追蹤
+- **Server 發現**：自動發現新的 MCP Server 項目
+- **兼容性矩陣**：與主要 AI 模型的兼容性測試
+- **安裝指南**：詳細的配置和使用教程
+
+## 📁 專案結構
+
+```
+ccc333bbb.github.io/
+├── css/                    # 樣式文件
+├── js/                     # JavaScript 功能模組
+│   ├── main.js            # 主要功能和初始化
+│   ├── portals-data.js    # Portal 數據配置
+│   └── search.js          # 搜索和過濾功能
+├── data/                   # 數據文件
+│   ├── ftdd-resources.json # FTDD 資源數據
+│   ├── mcp-servers.json   # MCP Server 數據
+│   └── update-log.json    # 更新日誌
+├── scripts/               # 自動化腳本
+│   ├── monitor-ftdd.js    # FTDD 資源監控
+│   ├── scan-mcp.js        # MCP 生態掃描
+│   └── health-check.js    # 健康檢查腳本
+├── docs/                  # 專案文檔
+│   └── project-spec.md    # 專案規格文檔
+└── .github/workflows/     # GitHub Actions 工作流
+```
+
+## 🛠️ 技術棧
+
+- **前端**：HTML5, CSS3, JavaScript (ES6+)
+- **數據存儲**：JSON 文件 + Git 版本控制
+- **自動化**：GitHub Actions
+- **監控**：Node.js + REST APIs
+- **部署**：GitHub Pages
+
+## 📊 專案狀態
+
+### 目前進展
+- ✅ **基礎架構** - TARDIS Navigation 核心功能
+- ✅ **Portal 系統** - 模組化的入口設計
+- 🚧 **FTDD 監控** - 免費資源追蹤系統開發中
+- 🚧 **MCP 追蹤** - Server 生態系統掃描開發中
+
+### 近期目標
+- [ ] 完成 FTDD 資源監控系統
+- [ ] 實現 MCP Server 自動發現
+- [ ] 建立社群貢獻機制
+- [ ] 部署自動化監控流程
+
+## 📋 開發計劃
+
+詳細的開發計劃和任務拆分請參考：[專案規格文檔](docs/project-spec.md)
+
+### Phase 1: 基礎建設 (Week 1-2)
+- FTDD 資源數據架構設計
+- MCP Server 追蹤機制開發
+- 基礎監控腳本實現
+
+### Phase 2: 自動化與智能化 (Week 3-4)
+- GitHub Actions 工作流配置
+- 智能分析和異常檢測
+- 社群反饋系統建立
+
+### Phase 3: 擴展與優化 (Week 5+)
+- 學術追蹤系統整合
+- 個人化推薦機制
+- API 生態完善
+
+## 🤝 參與貢獻
+
+我們歡迎各種形式的貢獻：
+
+### 資源貢獻
+- 新增免費服務資源
+- 報告失效或變更的資源
+- 提供 MCP Server 資訊
+
+### 技術貢獻
+- 改進監控算法
+- 優化前端體驗
+- 擴展數據分析功能
+
+### 文檔貢獻
+- 完善使用指南
+- 翻譯多語言版本
+- 撰寫最佳實踐
+
+## 📈 成功指標
+
+- **資源覆蓋**：500+ FTDD 資源，200+ MCP Servers
+- **準確性**：95% 資源信息準確率
+- **響應速度**：頁面加載時間 < 2 秒
+- **社群參與**：50+ 活躍貢獻者
+
+## 📞 聯繫方式
+
+- **專案主頁**：[https://ccc333bbb.github.io](https://ccc333bbb.github.io)
+- **問題回報**：[GitHub Issues]
+- **功能建議**：[GitHub Discussions]
+
+## 📄 授權條款
+
+本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 文件
+
+---
+
+**最後更新**：2024-01-15  
+**專案版本**：v2.0-dev  
+**維護團隊**：TARDIS Navigation Team

@@ -80,16 +80,20 @@ class TardisSearch {
         
         const externalIcon = portal.external ? '<span class="external-icon">↗</span>' : '';
         const featuredClass = portal.featured ? 'featured' : '';
+        const disabledClass = portal.disabled ? 'disabled' : '';
         
         return `
-            <div class="portal-card ${featuredClass}" data-portal-id="${portal.id}">
+            <div class="portal-card ${featuredClass} ${disabledClass}" data-portal-id="${portal.id}">
                 <div class="portal-icon">${portal.icon}</div>
                 <h3>${portal.title} ${externalIcon}</h3>
                 <p>${portal.description}</p>
                 ${portal.subPortals ? this.createSubPortals(portal.subPortals) : ''}
-                <a href="${portal.url}" class="portal-link" ${portal.external ? 'target="_blank" rel="noopener"' : ''}>
-                    ${portal.subPortals ? 'View Details' : 'Enter Portal'} →
-                </a>
+                ${portal.disabled ? 
+                    '<div class="portal-link disabled">Coming Soon...</div>' :
+                    `<a href="${portal.url}" class="portal-link" ${portal.external ? 'target="_blank" rel="noopener"' : ''}>
+                        ${portal.subPortals ? 'View Details' : 'Enter Portal'} →
+                    </a>`
+                }
                 <div class="portal-tags">
                     ${tagsHtml}
                 </div>
@@ -126,6 +130,11 @@ class TardisSearch {
                 
                 const portalId = parseInt(card.dataset.portalId);
                 const portal = portalsData.find(p => p.id === portalId);
+                
+                // Skip disabled portals
+                if (portal && portal.disabled) {
+                    return;
+                }
                 
                 if (portal && portal.url !== '#') {
                     if (portal.external) {

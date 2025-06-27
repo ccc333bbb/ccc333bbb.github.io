@@ -5,50 +5,13 @@ class TardisApp {
     }
     
     init() {
-        // this.addKeyboardShortcuts(); // Disabled hotkeys
         this.addAnimations();
         this.addThemeToggle();
         this.addLoadingAnimation();
         this.initNewsSection();
     }
     
-    addKeyboardShortcuts() {
-        // All keyboard shortcuts disabled
-        // document.addEventListener('keydown', (e) => {
-        //     // Ctrl/Cmd + K focus search box
-        //     if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-        //         e.preventDefault();
-        //         document.getElementById('searchInput').focus();
-        //     }
-        //     
-        //     // ESC clear search
-        //     if (e.key === 'Escape') {
-        //         const searchInput = document.getElementById('searchInput');
-        //         if (document.activeElement === searchInput) {
-        //             searchInput.value = '';
-        //             searchInput.dispatchEvent(new Event('input'));
-        //         }
-        //     }
-        //     
-        //     // Number keys for quick category selection
-        //     const categoryMap = {
-        //         '1': 'all',
-        //         '2': 'tech',
-        //         '3': 'life',
-        //         '4': 'entertainment',
-        //         '5': 'tools'
-        //     };
-        //     
-        //     if (e.key in categoryMap && !e.ctrlKey && !e.metaKey) {
-        //         e.preventDefault();
-        //         const category = categoryMap[e.key];
-        //         const tabBtn = document.querySelector(`[data-category="${category}"]`);
-        //         if (tabBtn) {
-        //             tabBtn.click();
-        //         }
-        //     }
-        // });
-    }
+    // Keyboard shortcuts functionality removed
     
     addAnimations() {
         // Add scroll animations
@@ -98,13 +61,7 @@ class TardisApp {
             themeToggle.title = isDark ? 'Switch to Light Theme' : 'Switch to Dark Theme';
         });
         
-        // Keyboard shortcut disabled
-        // document.addEventListener('keydown', (e) => {
-        //     if (e.key.toLowerCase() === 't' && !e.ctrlKey && !e.metaKey) {
-        //         e.preventDefault();
-        //         themeToggle.click();
-        //     }
-        // });
+        // Theme toggle keyboard shortcut removed
     }
     
     addLoadingAnimation() {
