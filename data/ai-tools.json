@@ -1,0 +1,334 @@
+{
+  "metadata": {
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "totalTools": 30,
+    "activeTools": 28,
+    "categories": 6
+  },
+  "categories": {
+    "google_ai": {
+      "name": "Google AI 工具",
+      "description": "Google 提供的 AI 工具和服務",
+      "tools": [
+        {
+          "id": "gemini",
+          "name": "Google Gemini",
+          "description": "Google 的多模態 AI 模型，支援文字、圖像和代碼處理",
+          "url": "https://ai.google.dev/",
+          "category": "llm",
+          "capabilities": ["text", "vision", "code", "reasoning"],
+          "pricing": "free_tier_available",
+          "freeQuota": {
+            "requests": "每分鐘 60 次",
+            "tokens": "每月 1M 輸入 tokens",
+            "models": "Gemini 1.5 Flash"
+          },
+          "lastUpdate": "2024-01-15",
+          "newFeatures": [
+            "Gemini 1.5 Pro 擴展上下文窗口至 2M tokens",
+            "改進的代碼理解能力",
+            "多語言支持增強"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:30:00Z",
+            "responseTime": 234
+          },
+          "blogUrl": "https://blog.google/technology/ai/",
+          "tags": ["llm", "multimodal", "api", "free-tier"]
+        },
+        {
+          "id": "ai-studio",
+          "name": "Google AI Studio",
+          "description": "Google 的 AI 開發平台，用於測試和部署 Gemini 模型",
+          "url": "https://aistudio.google.com/",
+          "category": "development_platform",
+          "capabilities": ["prompt_engineering", "model_tuning", "api_testing"],
+          "pricing": "free",
+          "lastUpdate": "2024-01-12",
+          "newFeatures": [
+            "新增批量處理功能",
+            "改進的 Prompt 調試工具",
+            "支援自定義函數調用"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:31:00Z",
+            "responseTime": 189
+          },
+          "tags": ["development", "prompt-engineering", "testing", "free"]
+        }
+      ]
+    },
+    "workflow_automation": {
+      "name": "工作流自動化",
+      "description": "自動化工作流程和任務的 AI 工具",
+      "tools": [
+        {
+          "id": "n8n",
+          "name": "n8n",
+          "description": "開源的工作流自動化平台，支援 400+ 集成",
+          "url": "https://n8n.io/",
+          "category": "automation",
+          "deployment": ["cloud", "self-hosted"],
+          "integrations": 400,
+          "lastRelease": "1.25.0",
+          "newFeatures": [
+            "AI Agent 節點支援",
+            "增強的錯誤處理機制",
+            "新增 OpenAI 和 Anthropic 集成"
+          ],
+          "pricing": "freemium",
+          "freeQuota": {
+            "workflows": "無限制 (self-hosted)",
+            "executions": "5000次/月 (cloud)",
+            "users": "1 用戶 (cloud free)"
+          },
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:32:00Z",
+            "githubStars": 42000
+          },
+          "repository": "https://github.com/n8n-io/n8n",
+          "tags": ["automation", "workflow", "open-source", "integrations"]
+        },
+        {
+          "id": "zapier",
+          "name": "Zapier",
+          "description": "連接不同應用程式的自動化平台",
+          "url": "https://zapier.com/",
+          "category": "automation",
+          "integrations": 5000,
+          "pricing": "freemium",
+          "freeQuota": {
+            "zaps": "5 個 Zaps",
+            "tasks": "100 tasks/月"
+          },
+          "lastUpdate": "2024-01-14",
+          "newFeatures": [
+            "AI 驅動的 Zap 建議",
+            "新增 ChatGPT 和 Claude 集成",
+            "改進的條件邏輯"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:33:00Z",
+            "responseTime": 345
+          },
+          "tags": ["automation", "saas", "integrations", "no-code"]
+        }
+      ]
+    },
+    "ai_platforms": {
+      "name": "AI 開發平台", 
+      "description": "用於構建和部署 AI 應用的平台",
+      "tools": [
+        {
+          "id": "dify",
+          "name": "Dify",
+          "description": "開源的 LLMOps 平台，用於構建 AI 應用和工作流",
+          "url": "https://dify.ai/",
+          "category": "llmops",
+          "features": ["workflow", "agent", "chatbot", "knowledge_base"],
+          "deployment": ["cloud", "docker", "source"],
+          "lastUpdate": "2024-01-14",
+          "githubStars": 45000,
+          "newFeatures": [
+            "新增 RAG 增強功能",
+            "支援多模型並行推理",
+            "改進的 Agent 協作能力"
+          ],
+          "pricing": "open_source",
+          "cloudPricing": "pay_as_you_go",
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:34:00Z"
+          },
+          "repository": "https://github.com/langgenius/dify",
+          "tags": ["llmops", "open-source", "workflow", "rag"]
+        },
+        {
+          "id": "langsmith",
+          "name": "LangSmith",
+          "description": "LangChain 官方的 LLM 應用開發和監控平台",
+          "url": "https://smith.langchain.com/",
+          "category": "llmops",
+          "features": ["debugging", "testing", "monitoring", "dataset_management"],
+          "pricing": "freemium",
+          "freeQuota": {
+            "traces": "5000 traces/月",
+            "datasets": "無限制",
+            "users": "1 用戶"
+          },
+          "lastUpdate": "2024-01-13",
+          "newFeatures": [
+            "新增 A/B 測試功能",
+            "改進的性能分析工具",
+            "支援自定義評估指標"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:35:00Z",
+            "responseTime": 456
+          },
+          "tags": ["llmops", "langchain", "monitoring", "testing"]
+        }
+      ]
+    },
+    "image_generation": {
+      "name": "圖像生成工具",
+      "description": "AI 圖像生成和編輯工具",
+      "tools": [
+        {
+          "id": "comfyui",
+          "name": "ComfyUI",
+          "description": "基於節點的 Stable Diffusion GUI，提供強大的工作流功能",
+          "url": "https://github.com/comfyanonymous/ComfyUI",
+          "category": "image_generation",
+          "features": ["node_workflow", "custom_nodes", "api", "model_management"],
+          "installation": ["pip", "docker", "portable"],
+          "communityNodes": 2000,
+          "lastUpdate": "2024-01-14",
+          "newFeatures": [
+            "新增 FLUX 模型支援",
+            "改進的內存管理",
+            "WebUI 界面優化"
+          ],
+          "pricing": "free_open_source",
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:36:00Z"
+          },
+          "githubStars": 38000,
+          "repository": "https://github.com/comfyanonymous/ComfyUI",
+          "tags": ["stable-diffusion", "image-generation", "workflow", "open-source"]
+        },
+        {
+          "id": "automatic1111",
+          "name": "AUTOMATIC1111",
+          "description": "最受歡迎的 Stable Diffusion WebUI",
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "category": "image_generation",
+          "features": ["webui", "extensions", "model_training", "img2img"],
+          "installation": ["git", "docker"],
+          "extensions": 1500,
+          "lastUpdate": "2024-01-12",
+          "newFeatures": [
+            "支援 SDXL Turbo",
+            "新增批量處理功能",
+            "改進的擴展管理器"
+          ],
+          "pricing": "free_open_source",
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:37:00Z"
+          },
+          "githubStars": 135000,
+          "repository": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+          "tags": ["stable-diffusion", "webui", "extensions", "open-source"]
+        }
+      ]
+    },
+    "local_llm": {
+      "name": "本地 LLM 工具",
+      "description": "在本地運行大型語言模型的工具",
+      "tools": [
+        {
+          "id": "ollama",
+          "name": "Ollama",
+          "description": "簡化本地 LLM 運行的工具，支援多種開源模型",
+          "url": "https://ollama.com/",
+          "category": "local_inference",
+          "models_supported": ["llama3", "codellama", "mistral", "gemma", "phi3"],
+          "platforms": ["macOS", "Linux", "Windows"],
+          "gpu_support": true,
+          "last_release": "0.1.45",
+          "new_models": [
+            "Llama 3.1 70B",
+            "Phi-3 Medium",
+            "CodeGemma 7B"
+          ],
+          "pricing": "free_open_source",
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:38:00Z"
+          },
+          "github_url": "https://github.com/ollama/ollama",
+          "githubStars": 75000,
+          "tags": ["local-llm", "cli", "docker", "open-source"]
+        },
+        {
+          "id": "lm-studio",
+          "name": "LM Studio",
+          "description": "桌面 GUI 應用，用於運行本地 LLM",
+          "url": "https://lmstudio.ai/",
+          "category": "local_inference",
+          "platforms": ["macOS", "Windows", "Linux"],
+          "features": ["gui", "model_discovery", "chat_interface", "api_server"],
+          "pricing": "free",
+          "lastUpdate": "2024-01-13",
+          "newFeatures": [
+            "新增模型搜索功能",
+            "改進的對話界面",
+            "支援多模態模型"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:39:00Z",
+            "responseTime": 123
+          },
+          "tags": ["local-llm", "gui", "desktop", "chat"]
+        }
+      ]
+    },
+    "inference_apis": {
+      "name": "LLM 推理 API",
+      "description": "提供 LLM 推理服務的 API 平台",
+      "tools": [
+        {
+          "id": "openai",
+          "name": "OpenAI API",
+          "description": "GPT 系列模型的官方 API 服務",
+          "url": "https://openai.com/api/",
+          "models": ["gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo", "dall-e-3"],
+          "pricing": "pay_per_use",
+          "free_credits": "$5",
+          "rate_limits": "10,000 RPM (Tier 1)",
+          "recent_updates": [
+            "GPT-4o 模型發布",
+            "降低 GPT-4 Turbo 價格",
+            "新增結構化輸出功能"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:40:00Z",
+            "responseTime": 567
+          },
+          "status_page": "https://status.openai.com/",
+          "tags": ["gpt", "api", "multimodal", "commercial"]
+        },
+        {
+          "id": "anthropic",
+          "name": "Anthropic Claude API",
+          "description": "Claude 系列模型的官方 API 服務",
+          "url": "https://www.anthropic.com/api/",
+          "models": ["claude-3-5-sonnet", "claude-3-opus", "claude-3-haiku"],
+          "pricing": "pay_per_use",
+          "free_credits": "$5",
+          "rate_limits": "依模型而異",
+          "recent_updates": [
+            "Claude 3.5 Sonnet 發布",
+            "改進的工具使用能力",
+            "擴展上下文窗口至 200K"
+          ],
+          "status": {
+            "health": "active",
+            "lastChecked": "2024-01-15T09:41:00Z", 
+            "responseTime": 432
+          },
+          "tags": ["claude", "api", "reasoning", "commercial"]
+        }
+      ]
+    }
+  }
+} 

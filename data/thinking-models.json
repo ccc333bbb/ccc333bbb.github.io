@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "totalModels": 15,
+    "categories": 4
+  },
+  "models": [
+    {
+      "id": "chain-of-thought",
+      "name": "Chain of Thought (CoT)",
+      "category": "reasoning",
+      "description": "透過分步驟推理來提升複雜問題解決能力的思維模型",
+      "applications": ["problem_solving", "math", "logic", "analysis"],
+      "papers": [
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "authors": ["Jason Wei", "Xuezhi Wang", "Dale Schuurmans"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2201.11903",
+          "citations": 2500
+        },
+        {
+          "title": "Large Language Models are Zero-Shot Reasoners",
+          "authors": ["Takeshi Kojima", "Shixiang Shane Gu"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2205.11916",
+          "citations": 1800
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "LangChain",
+          "url": "https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/",
+          "description": "內建 CoT prompt 模板和工具"
+        },
+        {
+          "framework": "Guidance",
+          "url": "https://github.com/microsoft/guidance",
+          "description": "Microsoft 的結構化生成框架"
+        }
+      ],
+      "examples": [
+        {
+          "name": "數學問題解決",
+          "description": "逐步分解複雜數學問題",
+          "prompt": "Let's solve this step by step..."
+        },
+        {
+          "name": "邏輯推理",
+          "description": "使用分步邏輯推理解決複雜問題",
+          "prompt": "Let me think through this logically..."
+        }
+      ],
+      "effectiveness": {
+        "math_problems": "85% 準確率提升",
+        "logical_reasoning": "67% 準確率提升",
+        "complex_analysis": "45% 準確率提升"
+      },
+      "lastUpdate": "2024-01-14",
+      "tags": ["reasoning", "step-by-step", "problem-solving"]
+    },
+    {
+      "id": "tree-of-thoughts",
+      "name": "Tree of Thoughts (ToT)",
+      "category": "reasoning",
+      "description": "通過探索多條思維路徑來改善問題解決的思維模型",
+      "applications": ["creative_writing", "planning", "game_solving", "optimization"],
+      "papers": [
+        {
+          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+          "authors": ["Shunyu Yao", "Dian Yu", "Jeffrey Zhao"],
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2305.10601",
+          "citations": 890
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "Tree-of-Thought GitHub",
+          "url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+          "description": "官方 ToT 實現"
+        },
+        {
+          "framework": "LangChain ToT",
+          "url": "https://python.langchain.com/docs/use_cases/more/graph/tree_of_thought",
+          "description": "LangChain 中的 ToT 實現"
+        }
+      ],
+      "examples": [
+        {
+          "name": "24點遊戲",
+          "description": "通過樹狀搜索找到解決方案",
+          "prompt": "Explore different calculation paths..."
+        },
+        {
+          "name": "創意寫作",
+          "description": "探索不同的情節發展路徑",
+          "prompt": "Consider multiple story directions..."
+        }
+      ],
+      "effectiveness": {
+        "game_solving": "74% 成功率",
+        "creative_tasks": "56% 質量提升",
+        "planning": "62% 方案完整性"
+      },
+      "lastUpdate": "2024-01-13",
+      "tags": ["search", "exploration", "creativity", "planning"]
+    },
+    {
+      "id": "react",
+      "name": "ReAct (Reasoning + Acting)",
+      "category": "agent",
+      "description": "結合推理和行動的智能體思維模型，用於複雜任務執行",
+      "applications": ["tool_use", "web_browsing", "api_calling", "task_automation"],
+      "papers": [
+        {
+          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+          "authors": ["Shunyu Yao", "Jeffrey Zhao", "Dian Yu"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2210.03629",
+          "citations": 1200
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "LangChain ReAct",
+          "url": "https://python.langchain.com/docs/modules/agents/agent_types/react",
+          "description": "LangChain 的 ReAct Agent 實現"
+        },
+        {
+          "framework": "AutoGPT",
+          "url": "https://github.com/Significant-Gravitas/AutoGPT",
+          "description": "基於 ReAct 的自主 AI 代理"
+        }
+      ],
+      "examples": [
+        {
+          "name": "網頁搜索任務",
+          "description": "結合搜索和推理來回答問題",
+          "prompt": "I need to search for information about..."
+        },
+        {
+          "name": "工具使用",
+          "description": "選擇和使用適當的工具完成任務",
+          "prompt": "To solve this, I should use..."
+        }
+      ],
+      "effectiveness": {
+        "tool_usage": "83% 任務完成率",
+        "information_retrieval": "71% 準確率",
+        "multi_step_tasks": "65% 成功率"
+      },
+      "lastUpdate": "2024-01-12",
+      "tags": ["agent", "tool-use", "reasoning-acting", "automation"]
+    },
+    {
+      "id": "self-reflection",
+      "name": "Self-Reflection",
+      "category": "meta_reasoning",
+      "description": "通過自我反思和修正來提升回答質量的思維模型",
+      "applications": ["error_correction", "quality_improvement", "iterative_refinement"],
+      "papers": [
+        {
+          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+          "authors": ["Noah Shinn", "Federico Cassano", "Beck Labash"],
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2303.11366",
+          "citations": 450
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "Reflexion GitHub",
+          "url": "https://github.com/noahshinn024/reflexion",
+          "description": "官方 Reflexion 實現"
+        },
+        {
+          "framework": "Self-Refine",
+          "url": "https://github.com/madaan/self-refine",
+          "description": "自我精煉框架"
+        }
+      ],
+      "examples": [
+        {
+          "name": "代碼調試",
+          "description": "反思和修正代碼錯誤",
+          "prompt": "Let me review my code and identify issues..."
+        },
+        {
+          "name": "文本改進",
+          "description": "迭代改進文本質量",
+          "prompt": "Let me reflect on this response and improve it..."
+        }
+      ],
+      "effectiveness": {
+        "code_quality": "42% 錯誤減少",
+        "text_quality": "35% 質量提升",
+        "problem_solving": "28% 準確率改善"
+      },
+      "lastUpdate": "2024-01-11",
+      "tags": ["meta-cognition", "self-improvement", "iterative", "reflection"]
+    },
+    {
+      "id": "program-aided-language",
+      "name": "Program-Aided Language Models (PAL)",
+      "category": "code_reasoning",
+      "description": "結合程式碼執行來解決複雜邏輯和數學問題的思維模型",
+      "applications": ["math_solving", "data_analysis", "logical_computation"],
+      "papers": [
+        {
+          "title": "PAL: Program-aided Language Models",
+          "authors": ["Luyu Gao", "Aman Madaan", "Shuyan Zhou"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2211.10435",
+          "citations": 380
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "PAL GitHub",
+          "url": "https://github.com/reasoning-machines/pal",
+          "description": "官方 PAL 實現"
+        },
+        {
+          "framework": "Code Interpreter",
+          "url": "https://openai.com/blog/chatgpt-plugins#code-interpreter",
+          "description": "OpenAI 的代碼解釋器"
+        }
+      ],
+      "examples": [
+        {
+          "name": "數學計算", 
+          "description": "使用 Python 代碼解決數學問題",
+          "prompt": "Let me solve this with code..."
+        },
+        {
+          "name": "數據分析",
+          "description": "編寫代碼分析數據趨勢",
+          "prompt": "I'll analyze this data programmatically..."
+        }
+      ],
+      "effectiveness": {
+        "math_problems": "92% 準確率",
+        "data_analysis": "78% 正確性",
+        "logical_computation": "85% 精確度"
+      },
+      "lastUpdate": "2024-01-10",
+      "tags": ["code", "computation", "math", "analysis"]
+    },
+    {
+      "id": "few-shot-cot",
+      "name": "Few-Shot Chain-of-Thought",
+      "category": "prompting",
+      "description": "通過少量示例引導模型進行鏈式思維推理",
+      "applications": ["few_shot_learning", "domain_adaptation", "skill_transfer"],
+      "papers": [
+        {
+          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+          "authors": ["Jason Wei", "Xuezhi Wang", "Dale Schuurmans"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2201.11903",
+          "citations": 2500
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "Prompt Engineering Guide",
+          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+          "description": "提示工程最佳實踐"
+        }
+      ],
+      "examples": [
+        {
+          "name": "複雜推理",
+          "description": "提供推理示例引導模型",
+          "prompt": "Here are some examples of step-by-step reasoning..."
+        }
+      ],
+      "effectiveness": {
+        "reasoning_tasks": "68% 準確率提升",
+        "domain_transfer": "45% 性能改善"
+      },
+      "lastUpdate": "2024-01-09",
+      "tags": ["few-shot", "prompting", "examples", "guidance"]
+    },
+    {
+      "id": "constitutional-ai",
+      "name": "Constitutional AI",
+      "category": "safety",
+      "description": "通過憲法原則引導 AI 行為的思維模型，確保安全和有益的輸出",
+      "applications": ["safety", "alignment", "harmful_content_filtering", "ethical_reasoning"],
+      "papers": [
+        {
+          "title": "Constitutional AI: Harmlessness from AI Feedback",
+          "authors": ["Yuntao Bai", "Andy Jones", "Kamal Ndousse"],
+          "year": 2022,
+          "url": "https://arxiv.org/abs/2212.08073",
+          "citations": 670
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "Anthropic Claude",
+          "url": "https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback",
+          "description": "Claude 模型的內建憲法 AI 機制"
+        }
+      ],
+      "examples": [
+        {
+          "name": "內容審核",
+          "description": "基於憲法原則評估內容安全性",
+          "prompt": "According to these principles, this content..."
+        }
+      ],
+      "effectiveness": {
+        "safety_compliance": "89% 改善",
+        "harmful_content_reduction": "76% 減少"
+      },
+      "lastUpdate": "2024-01-08",
+      "tags": ["safety", "ethics", "alignment", "principles"]
+    },
+    {
+      "id": "multimodal-cot",
+      "name": "Multimodal Chain-of-Thought",
+      "category": "multimodal",
+      "description": "結合視覺和文本信息的多模態鏈式思維推理",
+      "applications": ["visual_reasoning", "image_analysis", "multimodal_understanding"],
+      "papers": [
+        {
+          "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
+          "authors": ["Zhuosheng Zhang", "Aston Zhang", "Mu Li"],
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2302.00923",
+          "citations": 320
+        }
+      ],
+      "implementations": [
+        {
+          "framework": "MM-CoT GitHub",
+          "url": "https://github.com/amazon-science/mm-cot",
+          "description": "多模態 CoT 官方實現"
+        }
+      ],
+      "examples": [
+        {
+          "name": "圖像推理",
+          "description": "結合圖像和文本進行推理",
+          "prompt": "Looking at this image, let me reason step by step..."
+        }
+      ],
+      "effectiveness": {
+        "visual_reasoning": "58% 準確率提升",
+        "multimodal_tasks": "43% 性能改善"
+      },
+      "lastUpdate": "2024-01-07",
+      "tags": ["multimodal", "visual", "reasoning", "integration"]
+    }
+  ],
+  "categories": {
+    "reasoning": {
+      "name": "推理思維",
+      "description": "改善邏輯推理和問題解決能力的思維模型",
+      "count": 3
+    },
+    "agent": {
+      "name": "智能體",
+      "description": "用於自主任務執行的思維模型",
+      "count": 1
+    },
+    "meta_reasoning": {
+      "name": "元推理",
+      "description": "關於思考本身的思維模型",
+      "count": 1
+    },
+    "code_reasoning": {
+      "name": "代碼推理",
+      "description": "結合程式碼執行的思維模型",
+      "count": 1
+    },
+    "prompting": {
+      "name": "提示技術",
+      "description": "改善提示效果的技術和方法",
+      "count": 1
+    },
+    "safety": {
+      "name": "安全對齊",
+      "description": "確保 AI 安全和對齊的思維模型",
+      "count": 1
+    },
+    "multimodal": {
+      "name": "多模態",
+      "description": "處理多種模態信息的思維模型",
+      "count": 1
+    }
+  }
+} 

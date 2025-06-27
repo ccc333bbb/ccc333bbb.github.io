@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "timestamp": "2025-06-27T04:04:18.976Z",
+      "type": "health_check",
+      "status": "unhealthy",
+      "score": 49,
+      "details": {
+        "ftdd": {
+          "healthy": 12,
+          "warning": 1,
+          "unhealthy": 0,
+          "total": 13
+        },
+        "mcp": {
+          "active": 0,
+          "inactive": 8,
+          "total": 8
+        }
+      }
+    },
+    {
       "timestamp": "2025-06-27T01:48:00.300Z",
       "level": "info",
       "message": "📊 生成新聞更新報告..."
@@ -40,5 +59,6 @@
       "level": "info",
       "message": "📊 生成新聞更新報告..."
     }
-  ]
+  ],
+  "lastUpdate": "2025-06-27T04:04:18.976Z"
 }

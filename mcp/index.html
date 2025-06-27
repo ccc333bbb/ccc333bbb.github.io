@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔌 MCP Ecosystem - TARDIS Navigation</title>
+    <meta name="description" content="Model Context Protocol Servers - 擴展 AI 能力的工具生態系統">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resource-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tardis-container">
+        <!-- Header -->
+        <header class="resource-header">
+            <div class="breadcrumb">
+                <a href="../">🚀 TARDIS Navigation</a> / <span>🔌 MCP Ecosystem</span>
+            </div>
+            <div class="resource-title">
+                <h1>🔌 MCP Ecosystem</h1>
+                <p class="subtitle">Model Context Protocol Servers</p>
+                <div class="resource-stats">
+                    <span class="stat-item">
+                        <span class="stat-value" id="totalServers">-</span>
+                        <span class="stat-label">總服務器</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="activeServers">-</span>
+                        <span class="stat-label">活躍服務器</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="lastUpdated">-</span>
+                        <span class="stat-label">最後更新</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search and Filter -->
+        <div class="search-filter-section">
+            <div class="search-container">
+                <input type="text" id="resourceSearch" placeholder="搜索 MCP 服務器...">
+                <div class="search-icon">🔍</div>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="productivity">生產力</button>
+                <button class="filter-btn" data-category="development">開發工具</button>
+                <button class="filter-btn" data-category="system">系統工具</button>
+                <button class="filter-btn" data-category="cloud_storage">雲端存儲</button>
+                <button class="filter-btn" data-category="communication">通訊工具</button>
+                <button class="filter-btn" data-category="database">資料庫</button>
+                <button class="filter-btn" data-category="web">網頁工具</button>
+            </div>
+        </div>
+
+        <!-- Resources Grid -->
+        <main class="resources-grid" id="resourcesGrid">
+            <!-- MCP servers will be dynamically generated -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="resource-footer">
+            <p>© 2024 TARDIS Navigation - MCP Ecosystem Hub</p>
+            <p>追蹤最新的 Model Context Protocol 服務器發展</p>
+        </footer>
+    </div>
+
+    <script src="../js/mcp-servers.js"></script>
+</body>
+</html> 

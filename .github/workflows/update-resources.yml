@@ -1,0 +1,124 @@
+name: Update TARDIS Resources
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'Target to update'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+        - all
+        - ftdd
+        - mcp
+        - ai-tools
+        - thinking-models
+
+jobs:
+  update-resources:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Update FTDD Resources
+      if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'ftdd' || github.event.inputs.target == '' }}
+      run: |
+        echo "Updating FTDD resources..."
+        node scripts/update-ftdd-resources.js
+    
+    - name: Update MCP Servers
+      if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'mcp' || github.event.inputs.target == '' }}
+      run: |
+        echo "Updating MCP servers..."
+        node scripts/update-mcp-servers.js
+    
+    - name: Update AI Tools
+      if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'ai-tools' || github.event.inputs.target == '' }}
+      run: |
+        echo "Updating AI tools..."
+        node scripts/update-ai-tools.js
+    
+    - name: Update Thinking Models
+      if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'thinking-models' || github.event.inputs.target == '' }}
+      run: |
+        echo "Updating thinking models..."
+        node scripts/update-thinking-models.js
+    
+    - name: Generate Resource Summary
+      run: |
+        echo "Generating resource summary..."
+        node scripts/generate-summary.js
+    
+    - name: Check for changes
+      id: changes
+      run: |
+        git diff --quiet || echo "changes=true" >> $GITHUB_OUTPUT
+    
+    - name: Commit and push changes
+      if: steps.changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "chore(data): automatic resource update $(date +'%Y-%m-%d %H:%M:%S')"
+        git push
+    
+    - name: Create update log
+      if: steps.changes.outputs.changes == 'true'
+      run: |
+        echo "Resources updated successfully at $(date)" > update-log.txt
+        echo "Target: ${{ github.event.inputs.target || 'all' }}" >> update-log.txt
+        echo "Commit: $(git rev-parse HEAD)" >> update-log.txt
+
+  health-check:
+    runs-on: ubuntu-latest
+    needs: update-resources
+    if: always()
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Run health checks
+      run: |
+        echo "Running health checks..."
+        node scripts/health-check.js
+    
+    - name: Generate health report
+      run: |
+        echo "Generating health report..."
+        node scripts/generate-health-report.js
+    
+    - name: Upload health report
+      uses: actions/upload-artifact@v4
+      with:
+        name: health-report
+        path: health-report.json
+        retention-days: 7 

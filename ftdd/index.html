@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🆓 FTDD Resources - TARDIS Navigation</title>
+    <meta name="description" content="Free-to-Deploy Development Resources - 免費開發資源大全">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resource-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tardis-container">
+        <!-- Header -->
+        <header class="resource-header">
+            <div class="breadcrumb">
+                <a href="../">🚀 TARDIS Navigation</a> / <span>🆓 FTDD Resources</span>
+            </div>
+            <div class="resource-title">
+                <h1>🆓 FTDD Resources</h1>
+                <p class="subtitle">Free-to-Deploy Development Resources</p>
+                <div class="resource-stats">
+                    <span class="stat-item">
+                        <span class="stat-value" id="totalServices">-</span>
+                        <span class="stat-label">總服務數</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="healthyServices">-</span>
+                        <span class="stat-label">健康服務</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="lastUpdated">-</span>
+                        <span class="stat-label">最後更新</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search and Filter -->
+        <div class="search-filter-section">
+            <div class="search-container">
+                <input type="text" id="resourceSearch" placeholder="搜索資源...">
+                <div class="search-icon">🔍</div>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="hosting">主機</button>
+                <button class="filter-btn" data-category="database">資料庫</button>
+                <button class="filter-btn" data-category="ai_services">AI 服務</button>
+                <button class="filter-btn" data-category="serverless">Serverless</button>
+                <button class="filter-btn" data-category="monitoring">監控</button>
+                <button class="filter-btn" data-category="cdn">CDN</button>
+                <button class="filter-btn" data-category="apis">API</button>
+                <button class="filter-btn" data-category="development">開發工具</button>
+            </div>
+        </div>
+
+        <!-- Resources Grid -->
+        <main class="resources-grid" id="resourcesGrid">
+            <!-- Resources will be dynamically generated -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="resource-footer">
+            <p>© 2024 TARDIS Navigation - FTDD Resources Hub</p>
+            <p>數據自動更新，確保資源信息的準確性</p>
+        </footer>
+    </div>
+
+    <script src="../js/ftdd-resources.js"></script>
+</body>
+</html> 

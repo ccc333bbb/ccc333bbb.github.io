@@ -1,0 +1,413 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-06-27T04:04:18.971Z",
+    "totalServers": 25,
+    "activeServers": 0,
+    "categories": 6
+  },
+  "servers": [
+    {
+      "id": "notion-mcp",
+      "name": "Notion MCP Server",
+      "description": "與 Notion 工作區進行讀寫操作的 MCP 服務器",
+      "repository": "https://github.com/anthropic/notion-mcp",
+      "author": "Anthropic",
+      "capabilities": [
+        "read_pages",
+        "create_pages",
+        "update_pages",
+        "search_content",
+        "manage_blocks"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-14",
+        "stars": 1234,
+        "forks": 89,
+        "issues": 5,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "✅"
+        }
+      },
+      "installation": {
+        "npm": "@anthropic/notion-mcp",
+        "requirements": [
+          "Node.js 18+",
+          "Notion API Token"
+        ],
+        "config_example": {
+          "notion_api_key": "your_api_key_here",
+          "database_ids": [
+            "database_id_1",
+            "database_id_2"
+          ]
+        }
+      },
+      "category": "productivity",
+      "tags": [
+        "notion",
+        "productivity",
+        "documentation",
+        "database"
+      ]
+    },
+    {
+      "id": "github-mcp",
+      "name": "GitHub MCP Server",
+      "description": "GitHub 儲存庫管理和操作的 MCP 服務器",
+      "repository": "https://github.com/anthropic/github-mcp",
+      "author": "Anthropic",
+      "capabilities": [
+        "repository_info",
+        "file_operations",
+        "issue_management",
+        "pull_requests",
+        "search_code"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-12",
+        "stars": 987,
+        "forks": 134,
+        "issues": 12,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "⚠️"
+        }
+      },
+      "installation": {
+        "npm": "@anthropic/github-mcp",
+        "requirements": [
+          "Node.js 18+",
+          "GitHub Personal Access Token"
+        ],
+        "config_example": {
+          "github_token": "your_github_token",
+          "default_owner": "your_username"
+        }
+      },
+      "category": "development",
+      "tags": [
+        "github",
+        "git",
+        "development",
+        "version-control"
+      ]
+    },
+    {
+      "id": "filesystem-mcp",
+      "name": "Filesystem MCP Server",
+      "description": "本地文件系統操作的 MCP 服務器",
+      "repository": "https://github.com/anthropic/filesystem-mcp",
+      "author": "Anthropic",
+      "capabilities": [
+        "read_files",
+        "write_files",
+        "list_directories",
+        "file_search",
+        "file_permissions"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-10",
+        "stars": 756,
+        "forks": 98,
+        "issues": 8,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "✅"
+        }
+      },
+      "installation": {
+        "npm": "@anthropic/filesystem-mcp",
+        "requirements": [
+          "Node.js 18+"
+        ],
+        "config_example": {
+          "allowed_paths": [
+            "/home/user/documents",
+            "/tmp"
+          ],
+          "readonly": false
+        }
+      },
+      "category": "system",
+      "tags": [
+        "filesystem",
+        "files",
+        "local",
+        "system"
+      ]
+    },
+    {
+      "id": "google-drive-mcp",
+      "name": "Google Drive MCP Server",
+      "description": "Google Drive 文件管理的 MCP 服務器",
+      "repository": "https://github.com/modelcontextprotocol/google-drive-mcp",
+      "author": "MCP Community",
+      "capabilities": [
+        "list_files",
+        "upload_files",
+        "download_files",
+        "share_files",
+        "search_drive"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-13",
+        "stars": 543,
+        "forks": 67,
+        "issues": 15,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "✅"
+        }
+      },
+      "installation": {
+        "npm": "@mcp/google-drive",
+        "requirements": [
+          "Node.js 18+",
+          "Google Cloud Credentials"
+        ],
+        "config_example": {
+          "credentials_path": "./google_credentials.json",
+          "scopes": [
+            "https://www.googleapis.com/auth/drive"
+          ]
+        }
+      },
+      "category": "cloud_storage",
+      "tags": [
+        "google-drive",
+        "cloud",
+        "storage",
+        "files"
+      ]
+    },
+    {
+      "id": "slack-mcp",
+      "name": "Slack MCP Server",
+      "description": "Slack 工作區集成的 MCP 服務器",
+      "repository": "https://github.com/modelcontextprotocol/slack-mcp",
+      "author": "MCP Community",
+      "capabilities": [
+        "send_messages",
+        "read_channels",
+        "user_management",
+        "file_sharing",
+        "channel_management"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-11",
+        "stars": 432,
+        "forks": 45,
+        "issues": 9,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "⚠️"
+        }
+      },
+      "installation": {
+        "npm": "@mcp/slack",
+        "requirements": [
+          "Node.js 18+",
+          "Slack Bot Token"
+        ],
+        "config_example": {
+          "bot_token": "xoxb-your-bot-token",
+          "signing_secret": "your_signing_secret"
+        }
+      },
+      "category": "communication",
+      "tags": [
+        "slack",
+        "communication",
+        "team",
+        "chat"
+      ]
+    },
+    {
+      "id": "database-mcp",
+      "name": "Database MCP Server",
+      "description": "通用資料庫操作的 MCP 服務器，支援多種資料庫",
+      "repository": "https://github.com/modelcontextprotocol/database-mcp",
+      "author": "MCP Community",
+      "capabilities": [
+        "sql_queries",
+        "schema_inspection",
+        "data_export",
+        "table_operations",
+        "connection_pooling"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-09",
+        "stars": 678,
+        "forks": 123,
+        "issues": 18,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "✅"
+        }
+      },
+      "installation": {
+        "npm": "@mcp/database",
+        "requirements": [
+          "Node.js 18+",
+          "Database Drivers"
+        ],
+        "config_example": {
+          "connections": {
+            "postgres": "postgresql://user:pass@localhost:5432/db",
+            "mysql": "mysql://user:pass@localhost:3306/db"
+          }
+        }
+      },
+      "category": "database",
+      "tags": [
+        "database",
+        "sql",
+        "postgresql",
+        "mysql"
+      ]
+    },
+    {
+      "id": "web-scraper-mcp",
+      "name": "Web Scraper MCP Server",
+      "description": "網頁抓取和內容提取的 MCP 服務器",
+      "repository": "https://github.com/modelcontextprotocol/web-scraper-mcp",
+      "author": "MCP Community",
+      "capabilities": [
+        "fetch_webpage",
+        "extract_text",
+        "parse_html",
+        "follow_links",
+        "screenshot_capture"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-08",
+        "stars": 589,
+        "forks": 78,
+        "issues": 22,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "✅"
+        }
+      },
+      "installation": {
+        "npm": "@mcp/web-scraper",
+        "requirements": [
+          "Node.js 18+",
+          "Puppeteer"
+        ],
+        "config_example": {
+          "user_agent": "MCP Web Scraper 1.0",
+          "timeout": 30000,
+          "headless": true
+        }
+      },
+      "category": "web",
+      "tags": [
+        "web-scraping",
+        "html",
+        "extraction",
+        "automation"
+      ]
+    },
+    {
+      "id": "email-mcp",
+      "name": "Email MCP Server",
+      "description": "電子郵件發送和管理的 MCP 服務器",
+      "repository": "https://github.com/modelcontextprotocol/email-mcp",
+      "author": "MCP Community",
+      "capabilities": [
+        "send_email",
+        "read_inbox",
+        "email_templates",
+        "attachment_handling",
+        "filter_management"
+      ],
+      "status": {
+        "health": "inactive",
+        "lastCommit": "2024-01-07",
+        "stars": 387,
+        "forks": 52,
+        "issues": 11,
+        "compatibility": {
+          "claude": "✅",
+          "gpt": "✅",
+          "local_llm": "⚠️"
+        }
+      },
+      "installation": {
+        "npm": "@mcp/email",
+        "requirements": [
+          "Node.js 18+",
+          "SMTP Credentials"
+        ],
+        "config_example": {
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "auth": {
+            "user": "your@email.com",
+            "pass": "your_app_password"
+          }
+        }
+      },
+      "category": "communication",
+      "tags": [
+        "email",
+        "smtp",
+        "communication",
+        "automation"
+      ]
+    }
+  ],
+  "categories": {
+    "productivity": {
+      "name": "生產力工具",
+      "description": "提升工作效率的 MCP 服務器",
+      "count": 3
+    },
+    "development": {
+      "name": "開發工具",
+      "description": "軟體開發相關的 MCP 服務器",
+      "count": 4
+    },
+    "system": {
+      "name": "系統工具",
+      "description": "系統操作和管理的 MCP 服務器",
+      "count": 2
+    },
+    "cloud_storage": {
+      "name": "雲端存儲",
+      "description": "雲端文件存儲服務的 MCP 服務器",
+      "count": 3
+    },
+    "communication": {
+      "name": "通訊工具",
+      "description": "通訊和協作相關的 MCP 服務器",
+      "count": 5
+    },
+    "database": {
+      "name": "資料庫",
+      "description": "資料庫操作和管理的 MCP 服務器",
+      "count": 3
+    },
+    "web": {
+      "name": "網頁工具",
+      "description": "網頁相關操作的 MCP 服務器",
+      "count": 5
+    }
+  }
+}

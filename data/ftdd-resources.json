@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "lastUpdated": "2025-06-27T04:04:08.402Z",
+    "totalServices": 50,
+    "healthyServices": 13,
+    "categories": 8
+  },
+  "categories": {
+    "hosting": {
+      "name": "靜態主機 & CDN",
+      "description": "免費的靜態網站主機和內容分發網絡服務",
+      "services": [
+        {
+          "id": "vercel",
+          "name": "Vercel",
+          "description": "現代化的前端部署平台，專為 React、Next.js 等框架優化",
+          "url": "https://vercel.com",
+          "freeQuota": {
+            "bandwidth": "100GB/月",
+            "builds": "每天 6000 分鐘",
+            "functions": "100GB-小時",
+            "domains": "無限制"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:51.323Z",
+            "responseTime": 117
+          },
+          "features": [
+            "自動 HTTPS",
+            "全球 CDN",
+            "Serverless Functions",
+            "Git 集成"
+          ],
+          "tags": [
+            "hosting",
+            "jamstack",
+            "serverless"
+          ]
+        },
+        {
+          "id": "netlify",
+          "name": "Netlify",
+          "description": "專為現代網站打造的主機和自動化平台",
+          "url": "https://www.netlify.com",
+          "freeQuota": {
+            "bandwidth": "100GB/月",
+            "builds": "300 分鐘/月",
+            "forms": "100 次提交/月",
+            "functions": "125,000 次調用/月"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:52.426Z",
+            "responseTime": 101
+          },
+          "features": [
+            "表單處理",
+            "身份驗證",
+            "A/B 測試",
+            "邊緣函數"
+          ],
+          "tags": [
+            "hosting",
+            "jamstack",
+            "forms"
+          ]
+        },
+        {
+          "id": "github-pages",
+          "name": "GitHub Pages",
+          "description": "直接從 GitHub 儲存庫託管靜態網站",
+          "url": "https://pages.github.com",
+          "freeQuota": {
+            "storage": "1GB",
+            "bandwidth": "100GB/月",
+            "builds": "10 次/小時"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:53.579Z",
+            "responseTime": 151
+          },
+          "features": [
+            "Jekyll 支持",
+            "自定義域名",
+            "HTTPS",
+            "版本控制"
+          ],
+          "tags": [
+            "hosting",
+            "git",
+            "jekyll"
+          ]
+        }
+      ]
+    },
+    "database": {
+      "name": "資料庫服務",
+      "description": "免費的資料庫和數據存儲服務",
+      "services": [
+        {
+          "id": "supabase",
+          "name": "Supabase",
+          "description": "開源的 Firebase 替代方案，提供實時資料庫和認證",
+          "url": "https://supabase.com",
+          "freeQuota": {
+            "storage": "500MB",
+            "requests": "50,000 次/月",
+            "bandwidth": "2GB",
+            "users": "50,000 活躍用戶"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:54.675Z",
+            "responseTime": 95
+          },
+          "features": [
+            "PostgreSQL",
+            "實時同步",
+            "身份驗證",
+            "RESTful API"
+          ],
+          "tags": [
+            "database",
+            "postgresql",
+            "realtime"
+          ]
+        },
+        {
+          "id": "planetscale",
+          "name": "PlanetScale",
+          "description": "基於 MySQL 的無服務器資料庫平台",
+          "url": "https://planetscale.com",
+          "freeQuota": {
+            "storage": "5GB",
+            "reads": "10 億次/月",
+            "writes": "1000 萬次/月",
+            "branches": "1 個生產分支"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:55.867Z",
+            "responseTime": 189
+          },
+          "features": [
+            "分支功能",
+            "無服務器",
+            "自動擴展",
+            "備份"
+          ],
+          "tags": [
+            "database",
+            "mysql",
+            "serverless"
+          ]
+        }
+      ]
+    },
+    "ai_services": {
+      "name": "AI 服務",
+      "description": "免費的人工智能和機器學習服務",
+      "services": [
+        {
+          "id": "huggingface",
+          "name": "Hugging Face",
+          "description": "AI 模型和數據集託管平台",
+          "url": "https://huggingface.co",
+          "freeQuota": {
+            "models": "無限制公開模型",
+            "datasets": "無限制公開數據集",
+            "inference": "每月 30,000 次免費推理",
+            "spaces": "2 個免費 Spaces"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:56.971Z",
+            "responseTime": 101
+          },
+          "features": [
+            "模型庫",
+            "數據集",
+            "Transformers",
+            "推理 API"
+          ],
+          "tags": [
+            "ai",
+            "ml",
+            "transformers"
+          ]
+        },
+        {
+          "id": "openai",
+          "name": "OpenAI API",
+          "description": "GPT 和其他 AI 模型的 API 服務",
+          "url": "https://openai.com/api",
+          "freeQuota": {
+            "credit": "$5 免費額度",
+            "models": "GPT-3.5, GPT-4, DALL-E",
+            "rate_limit": "依模型而異"
+          },
+          "status": {
+            "health": "warning",
+            "lastChecked": "2025-06-27T04:03:58.039Z",
+            "responseTime": 66
+          },
+          "features": [
+            "GPT 模型",
+            "圖像生成",
+            "語音轉文字",
+            "嵌入"
+          ],
+          "tags": [
+            "ai",
+            "gpt",
+            "api"
+          ]
+        }
+      ]
+    },
+    "serverless": {
+      "name": "Serverless 平台",
+      "description": "無服務器函數和邊緣計算服務",
+      "services": [
+        {
+          "id": "cloudflare-workers",
+          "name": "Cloudflare Workers",
+          "description": "在 Cloudflare 邊緣網絡運行的無服務器函數",
+          "url": "https://workers.cloudflare.com",
+          "freeQuota": {
+            "requests": "100,000 次/天",
+            "cpu_time": "10ms/請求",
+            "workers": "無限制",
+            "kv_operations": "100,000 次讀取/天"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:03:59.340Z",
+            "responseTime": 299
+          },
+          "features": [
+            "邊緣計算",
+            "KV 存儲",
+            "WebAssembly",
+            "Cron 觸發器"
+          ],
+          "tags": [
+            "serverless",
+            "edge",
+            "workers"
+          ]
+        },
+        {
+          "id": "deno-deploy",
+          "name": "Deno Deploy",
+          "description": "Deno 官方的無服務器 JavaScript/TypeScript 平台",
+          "url": "https://deno.com/deploy",
+          "freeQuota": {
+            "requests": "100,000 次/月",
+            "bandwidth": "100GB/月",
+            "functions": "無限制",
+            "deployments": "每天 1000 次"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:04:01.642Z",
+            "responseTime": 1299
+          },
+          "features": [
+            "TypeScript 原生支持",
+            "Web APIs",
+            "邊緣部署",
+            "Git 集成"
+          ],
+          "tags": [
+            "serverless",
+            "deno",
+            "typescript"
+          ]
+        }
+      ]
+    },
+    "monitoring": {
+      "name": "監控服務",
+      "description": "網站監控和分析服務",
+      "services": [
+        {
+          "id": "uptimerobot",
+          "name": "UptimeRobot",
+          "description": "網站運行時間監控服務",
+          "url": "https://uptimerobot.com",
+          "freeQuota": {
+            "monitors": "50 個監控",
+            "interval": "5 分鐘檢查間隔",
+            "sms": "10 條 SMS/月",
+            "retention": "2 個月歷史數據"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:04:03.613Z",
+            "responseTime": 970
+          },
+          "features": [
+            "HTTP/HTTPS 監控",
+            "關鍵字監控",
+            "狀態頁面",
+            "API 集成"
+          ],
+          "tags": [
+            "monitoring",
+            "uptime",
+            "alerts"
+          ]
+        }
+      ]
+    },
+    "cdn": {
+      "name": "CDN 服務",
+      "description": "內容分發網絡和靜態資源加速",
+      "services": [
+        {
+          "id": "jsdelivr",
+          "name": "jsDelivr",
+          "description": "免費的開源 CDN，支援 npm、GitHub 和 WordPress",
+          "url": "https://www.jsdelivr.com",
+          "freeQuota": {
+            "bandwidth": "無限制",
+            "requests": "無限制",
+            "packages": "支援所有 npm 包",
+            "uptime": "99.9% SLA"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:04:04.682Z",
+            "responseTime": 66
+          },
+          "features": [
+            "npm CDN",
+            "GitHub CDN",
+            "自動壓縮",
+            "全球加速"
+          ],
+          "tags": [
+            "cdn",
+            "npm",
+            "github"
+          ]
+        }
+      ]
+    },
+    "apis": {
+      "name": "API 服務",
+      "description": "免費的 API 和後端服務",
+      "services": [
+        {
+          "id": "jsonbin",
+          "name": "JSONBin",
+          "description": "簡單的 JSON 存儲 API",
+          "url": "https://jsonbin.io",
+          "freeQuota": {
+            "bins": "無限制",
+            "requests": "10,000 次/月",
+            "storage": "每個 bin 最大 100KB"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:04:05.887Z",
+            "responseTime": 204
+          },
+          "features": [
+            "RESTful API",
+            "JSON 驗證",
+            "版本控制",
+            "私人 bins"
+          ],
+          "tags": [
+            "api",
+            "json",
+            "storage"
+          ]
+        }
+      ]
+    },
+    "development": {
+      "name": "開發工具",
+      "description": "免費的開發和部署工具",
+      "services": [
+        {
+          "id": "codesandbox",
+          "name": "CodeSandbox",
+          "description": "線上代碼編輯器和協作平台",
+          "url": "https://codesandbox.io",
+          "freeQuota": {
+            "sandboxes": "無限制公開沙盒",
+            "private": "3 個私人沙盒",
+            "storage": "每個沙盒 500MB",
+            "collaborators": "無限制"
+          },
+          "status": {
+            "health": "healthy",
+            "lastChecked": "2025-06-27T04:04:07.400Z",
+            "responseTime": 512
+          },
+          "features": [
+            "即時預覽",
+            "Git 集成",
+            "npm 支援",
+            "團隊協作"
+          ],
+          "tags": [
+            "development",
+            "editor",
+            "collaboration"
+          ]
+        }
+      ]
+    }
+  }
+}

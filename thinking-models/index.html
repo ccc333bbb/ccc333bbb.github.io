@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 Thinking Models - TARDIS Navigation</title>
+    <meta name="description" content="AI Thinking Models - 思維模型技術前沿追蹤">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/resource-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tardis-container">
+        <!-- Header -->
+        <header class="resource-header">
+            <div class="breadcrumb">
+                <a href="../">🚀 TARDIS Navigation</a> / <span>🧠 Thinking Models</span>
+            </div>
+            <div class="resource-title">
+                <h1>🧠 Thinking Models</h1>
+                <p class="subtitle">AI Thinking Models Research</p>
+                <div class="resource-stats">
+                    <span class="stat-item">
+                        <span class="stat-value" id="totalModels">-</span>
+                        <span class="stat-label">思維模型</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="totalPapers">-</span>
+                        <span class="stat-label">相關論文</span>
+                    </span>
+                    <span class="stat-item">
+                        <span class="stat-value" id="lastUpdated">-</span>
+                        <span class="stat-label">最後更新</span>
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search and Filter -->
+        <div class="search-filter-section">
+            <div class="search-container">
+                <input type="text" id="resourceSearch" placeholder="搜索思維模型...">
+                <div class="search-icon">🔍</div>
+            </div>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-category="all">全部</button>
+                <button class="filter-btn" data-category="reasoning">推理</button>
+                <button class="filter-btn" data-category="planning">規劃</button>
+                <button class="filter-btn" data-category="reflection">反思</button>
+                <button class="filter-btn" data-category="multimodal">多模態</button>
+                <button class="filter-btn" data-category="mathematical">數學</button>
+                <button class="filter-btn" data-category="ethical">倫理</button>
+            </div>
+        </div>
+
+        <!-- Resources Grid -->
+        <main class="resources-grid" id="resourcesGrid">
+            <!-- Thinking models will be dynamically generated -->
+        </main>
+
+        <!-- Footer -->
+        <footer class="resource-footer">
+            <p>© 2024 TARDIS Navigation - Thinking Models Research</p>
+            <p>追蹤 AI 思維模型的最新研究進展和實現技術</p>
+        </footer>
+    </div>
+
+    <script src="../js/thinking-models.js"></script>
+</body>
+</html> 
