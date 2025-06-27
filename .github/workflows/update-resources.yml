@@ -110,7 +110,7 @@ jobs:
     - name: Run health checks
       run: |
         echo "Running health checks..."
-        node scripts/health-check.js || echo "Health check script completed with warnings"
+        node src/server/monitoring/health-check.js || echo "Health check script completed with warnings"
     
     - name: Generate health report
       run: |

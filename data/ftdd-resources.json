@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2025-06-27T04:04:08.402Z",
+    "lastUpdated": "2025-06-27T10:02:24.092Z",
     "totalServices": 50,
-    "healthyServices": 13,
+    "healthyServices": 12,
     "categories": 8
   },
   "categories": {
@@ -23,8 +23,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:51.323Z",
-            "responseTime": 117
+            "lastChecked": "2025-06-27T10:02:00.933Z",
+            "responseTime": 250,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "自動 HTTPS",
@@ -51,8 +53,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:52.426Z",
-            "responseTime": 101
+            "lastChecked": "2025-06-27T10:02:02.503Z",
+            "responseTime": 64,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "表單處理",
@@ -78,8 +82,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:53.579Z",
-            "responseTime": 151
+            "lastChecked": "2025-06-27T10:02:04.483Z",
+            "responseTime": 58,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "Jekyll 支持",
@@ -112,8 +118,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:54.675Z",
-            "responseTime": 95
+            "lastChecked": "2025-06-27T10:02:06.066Z",
+            "responseTime": 73,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "PostgreSQL",
@@ -140,8 +148,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:55.867Z",
-            "responseTime": 189
+            "lastChecked": "2025-06-27T10:02:07.685Z",
+            "responseTime": 119,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "分支功能",
@@ -174,8 +184,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:56.971Z",
-            "responseTime": 101
+            "lastChecked": "2025-06-27T10:02:09.266Z",
+            "responseTime": 78,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "模型庫",
@@ -200,9 +212,11 @@
             "rate_limit": "依模型而異"
           },
           "status": {
-            "health": "warning",
-            "lastChecked": "2025-06-27T04:03:58.039Z",
-            "responseTime": 66
+            "health": "unhealthy",
+            "lastChecked": "2025-06-27T10:02:10.874Z",
+            "responseTime": 105,
+            "statusCode": 403,
+            "reason": "HTTP 403"
           },
           "features": [
             "GPT 模型",
@@ -235,8 +249,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:03:59.340Z",
-            "responseTime": 299
+            "lastChecked": "2025-06-27T10:02:12.544Z",
+            "responseTime": 168,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "邊緣計算",
@@ -263,8 +279,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:04:01.642Z",
-            "responseTime": 1299
+            "lastChecked": "2025-06-27T10:02:14.892Z",
+            "responseTime": 844,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "TypeScript 原生支持",
@@ -297,8 +315,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:04:03.613Z",
-            "responseTime": 970
+            "lastChecked": "2025-06-27T10:02:17.351Z",
+            "responseTime": 957,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "HTTP/HTTPS 監控",
@@ -331,8 +351,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:04:04.682Z",
-            "responseTime": 66
+            "lastChecked": "2025-06-27T10:02:18.930Z",
+            "responseTime": 77,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "npm CDN",
@@ -364,8 +386,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:04:05.887Z",
-            "responseTime": 204
+            "lastChecked": "2025-06-27T10:02:20.532Z",
+            "responseTime": 100,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "RESTful API",
@@ -398,8 +422,10 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2025-06-27T04:04:07.400Z",
-            "responseTime": 512
+            "lastChecked": "2025-06-27T10:02:22.591Z",
+            "responseTime": 555,
+            "statusCode": 200,
+            "reason": "Service operational"
           },
           "features": [
             "即時預覽",

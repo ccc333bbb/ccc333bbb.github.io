@@ -210,6 +210,11 @@
     background: #FF9800;
 }
 
+.status-indicator.discontinued {
+    background: #9E9E9E;
+    animation: none;
+}
+
 @keyframes pulse {
     0% { opacity: 1; }
     50% { opacity: 0.5; }

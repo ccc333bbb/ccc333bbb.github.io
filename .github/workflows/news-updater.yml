@@ -34,17 +34,17 @@ jobs:
     - name: Fetch trending keywords
       run: |
         echo "🔍 獲取熱門關鍵詞..."
-        node scripts/fetch-keywords.js
+        node src/server/news/fetch-keywords.js
         
     - name: Fetch RSS news
       run: |
         echo "📰 獲取RSS新聞..."
-        node scripts/fetch-news.js
+        node src/server/news/fetch-news.js
         
     - name: Process and rank news
       run: |
         echo "🔄 處理和排序新聞..."
-        node scripts/process-news.js
+        node src/server/news/process-news.js
         
     - name: Commit and push changes
       run: |

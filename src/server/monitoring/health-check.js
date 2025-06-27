@@ -3,25 +3,18 @@
 const fs = require('fs').promises;
 const path = require('path');
 const axios = require('axios');
+const config = require('../../../config/health-check.config.js');
 
 class HealthChecker {
     constructor() {
-        this.dataDir = path.join(__dirname, '../data');
+        this.dataDir = path.join(__dirname, '../../../data');
+        this.config = config;
         this.results = {
             timestamp: new Date().toISOString(),
             ftdd: { healthy: 0, warning: 0, unhealthy: 0, discontinued: 0, total: 0 },
             mcp: { active: 0, inactive: 0, total: 0 },
             overall: { status: 'healthy', score: 100 }
         };
-        
-        // 服務停止關鍵詞
-        this.discontinuedKeywords = [
-            'end of life', 'discontinued', 'no longer available',
-            'service terminated', 'sunset', 'deprecated',
-            'will discontinue', 'shutting down', 'closing down',
-            'service has been discontinued', 'no longer supported',
-            '停止服務', '不再提供', '已下線', '即將停止'
-        ];
     }
 
     async run() {
@@ -69,7 +62,7 @@ class HealthChecker {
                     console.log(`    ${this.getStatusIcon(healthResult.health)} ${service.name}: ${healthResult.health} ${healthResult.reason || ''}`);
                     
                     // 避免請求過於頻繁
-                    await this.delay(1500);
+                    await this.delay(this.config.checkInterval);
                 }
             }
             
@@ -88,7 +81,7 @@ class HealthChecker {
             // 1. 基本HTTP檢查
             const startTime = Date.now();
             const response = await axios.get(service.url, {
-                timeout: 15000,
+                timeout: this.config.timeout.http,
                 validateStatus: (status) => status < 500,
                 headers: {
                     'User-Agent': 'TARDIS-Health-Checker/1.0'
@@ -130,7 +123,7 @@ class HealthChecker {
             }
             
             // 5. 根據響應時間判斷健康狀態
-            if (responseTime > 8000) {
+            if (responseTime > this.config.responseTime.warning) {
                 return {
                     health: 'warning',
                     responseTime: responseTime,
@@ -164,7 +157,7 @@ class HealthChecker {
         
         const content = htmlContent.toLowerCase();
         
-        for (const keyword of this.discontinuedKeywords) {
+        for (const keyword of this.config.discontinuedKeywords) {
             if (content.includes(keyword.toLowerCase())) {
                 // 進一步檢查上下文，避免誤判
                 const contextCheck = this.analyzeKeywordContext(content, keyword.toLowerCase());
@@ -191,10 +184,7 @@ class HealthChecker {
         const context = content.substring(start, end);
         
         // 檢查是否是真正的停服通知
-        const positiveIndicators = [
-            'will be', 'has been', 'is being', 'announcement',
-            'effective', 'as of', 'september', 'december'
-        ];
+        const positiveIndicators = this.config.contextIndicators;
         
         const hasPositiveIndicator = positiveIndicators.some(indicator => 
             context.includes(indicator)
@@ -323,7 +313,7 @@ class HealthChecker {
                         const lastUpdate = new Date(response.data.updated_at);
                         const monthsAgo = (Date.now() - lastUpdate.getTime()) / (1000 * 60 * 60 * 24 * 30);
                         
-                        if (monthsAgo > 6) {
+                        if (monthsAgo > this.config.activityThreshold) {
                             server.status.health = 'inactive';
                             server.status.reason = `No updates for ${Math.round(monthsAgo)} months`;
                         } else {
@@ -360,17 +350,21 @@ class HealthChecker {
     }
 
     async calculateOverallHealth() {
+        const scoring = this.config.scoring;
         const ftddScore = this.results.ftdd.total > 0 ? 
-            (this.results.ftdd.healthy * 100 + this.results.ftdd.warning * 70 + this.results.ftdd.discontinued * 0) / this.results.ftdd.total : 100;
+            (this.results.ftdd.healthy * scoring.healthy + 
+             this.results.ftdd.warning * scoring.warning + 
+             this.results.ftdd.discontinued * scoring.discontinued) / this.results.ftdd.total : 100;
         
         const mcpScore = this.results.mcp.total > 0 ?
-            (this.results.mcp.active * 100) / this.results.mcp.total : 100;
+            (this.results.mcp.active * scoring.healthy) / this.results.mcp.total : 100;
         
         this.results.overall.score = Math.round((ftddScore + mcpScore) / 2);
         
-        if (this.results.overall.score >= 90) {
+        const thresholds = this.config.statusThresholds;
+        if (this.results.overall.score >= thresholds.healthy) {
             this.results.overall.status = 'healthy';
-        } else if (this.results.overall.score >= 70) {
+        } else if (this.results.overall.score >= thresholds.warning) {
             this.results.overall.status = 'warning';
         } else {
             this.results.overall.status = 'unhealthy';
