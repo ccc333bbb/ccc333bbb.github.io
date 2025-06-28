@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "timestamp": "2025-06-28T22:12:52.446Z",
+      "operation": "process-news",
+      "details": {
+        "file": "2025-06-28.json",
+        "totalArticles": 49,
+        "avgRelevanceScore": 204.86510204081634,
+        "categoriesCount": 16,
+        "sourcesCount": 16
+      }
+    },
+    {
       "timestamp": "2025-06-28T21:49:22.405Z",
       "operation": "process-news",
       "details": {
@@ -1096,13 +1107,8 @@
       "timestamp": "2025-06-27T01:48:54.169Z",
       "level": "info",
       "message": "📰 開始獲取新聞..."
-    },
-    {
-      "timestamp": "2025-06-27T01:50:17.995Z",
-      "level": "success",
-      "message": "✅ 新聞獲取完成"
     }
   ],
   "lastUpdate": "2025-06-28T06:32:57.516Z",
-  "lastUpdated": "2025-06-28T21:49:22.405Z"
+  "lastUpdated": "2025-06-28T22:12:52.446Z"
 }
