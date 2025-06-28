@@ -13,7 +13,7 @@ const portalsData = [
     {
         id: 2,
         title: "🆓 FTDD Resources",
-        description: "Free-to-Deploy Development resources - hosting, databases, APIs, and more",
+        description: "Free-Tier-Driven Development Resources - hosting, databases, APIs, and more",
         url: "/ftdd/",
         icon: "🆓",
         category: "main",
