@@ -188,7 +188,7 @@ class ThinkingModelsApp {
                 </div>
                 
                 <div class="model-implementations">
-                    <div class="implementations-title">實現代碼</div>
+                    <div class="implementations-title">實現框架</div>
                     <div class="implementations-list">
                         ${model.implementations.map(impl => `
                             <a href="${impl.url}" target="_blank" rel="noopener noreferrer" class="implementation-link">
@@ -198,30 +198,21 @@ class ThinkingModelsApp {
                         `).join('')}
                     </div>
                 </div>
-                
-                <div class="model-examples">
-                    <div class="examples-title">示例場景</div>
-                    <div class="examples-list">
-                        ${model.examples.slice(0, 3).map(example => `
-                            <div class="example-item">
-                                <div class="example-title">${example.title}</div>
-                                <div class="example-description">${example.description}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
             </div>
         `;
     }
 
     getCategoryName(category) {
         const categories = {
-            'reasoning': '推理模型',
-            'planning': '規劃模型',
-            'reflection': '反思模型',
-            'multimodal': '多模態模型',
+            'economic': '經濟學模型',
+            'cognitive': '認知心理模型', 
+            'analytical': '分析思維模型',
+            'optimization': '最佳化模型',
+            'strategic': '戰略思維模型',
+            'systems': '系統思維模型',
             'mathematical': '數學模型',
-            'ethical': '倫理模型'
+            'philosophical': '哲學思辯模型',
+            'general': '通用模型'
         };
         return categories[category] || category;
     }
@@ -237,12 +228,15 @@ class ThinkingModelsApp {
 
     translateEffectivenessKey(key) {
         const translations = {
+            'decision_quality': '決策品質',
+            'thinking_clarity': '思維清晰度',
+            'problem_solving': '問題解決能力',
             'accuracy': '準確性',
             'efficiency': '效率',
             'interpretability': '可解釋性',
             'consistency': '一致性',
             'robustness': '魯棒性',
-            'scalability': '可攜縮性'
+            'scalability': '可擴展性'
         };
         return translations[key] || key;
     }

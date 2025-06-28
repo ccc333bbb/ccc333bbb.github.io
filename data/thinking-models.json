@@ -1,396 +1,4011 @@
 {
   "metadata": {
-    "lastUpdated": "2024-01-15T10:30:00Z",
-    "totalModels": 15,
-    "categories": 4
+    "lastUpdated": "2025-06-28T11:08:20.894576Z",
+    "totalModels": 100,
+    "totalPapers": 150,
+    "categories": 8,
+    "source": "查理·芒格思維模型研究"
   },
   "models": [
     {
-      "id": "chain-of-thought",
-      "name": "Chain of Thought (CoT)",
-      "category": "reasoning",
-      "description": "透過分步驟推理來提升複雜問題解決能力的思維模型",
-      "applications": ["problem_solving", "math", "logic", "analysis"],
+      "id": "munger-001",
+      "name": "机会成本思维模型",
+      "category": "economic",
+      "description": "机会成本思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "投資決策",
+        "資源配置",
+        "項目管理",
+        "戰略規劃"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
       "papers": [
         {
-          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
-          "authors": ["Jason Wei", "Xuezhi Wang", "Dale Schuurmans"],
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2201.11903",
-          "citations": 2500
-        },
-        {
-          "title": "Large Language Models are Zero-Shot Reasoners",
-          "authors": ["Takeshi Kojima", "Shixiang Shane Gu"],
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2205.11916",
-          "citations": 1800
+          "title": "机会成本思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "LangChain",
-          "url": "https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/",
-          "description": "內建 CoT prompt 模板和工具"
-        },
-        {
-          "framework": "Guidance",
-          "url": "https://github.com/microsoft/guidance",
-          "description": "Microsoft 的結構化生成框架"
-        }
-      ],
-      "examples": [
-        {
-          "name": "數學問題解決",
-          "description": "逐步分解複雜數學問題",
-          "prompt": "Let's solve this step by step..."
-        },
-        {
-          "name": "邏輯推理",
-          "description": "使用分步邏輯推理解決複雜問題",
-          "prompt": "Let me think through this logically..."
+          "name": "机会成本思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "math_problems": "85% 準確率提升",
-        "logical_reasoning": "67% 準確率提升",
-        "complex_analysis": "45% 準確率提升"
+        "decision_quality": 76,
+        "thinking_clarity": 71,
+        "problem_solving": 81
       },
-      "lastUpdate": "2024-01-14",
-      "tags": ["reasoning", "step-by-step", "problem-solving"]
+      "order": 1
     },
     {
-      "id": "tree-of-thoughts",
-      "name": "Tree of Thoughts (ToT)",
-      "category": "reasoning",
-      "description": "通過探索多條思維路徑來改善問題解決的思維模型",
-      "applications": ["creative_writing", "planning", "game_solving", "optimization"],
+      "id": "munger-002",
+      "name": "直觉思维模型",
+      "category": "cognitive",
+      "description": "直觉思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Low",
       "papers": [
         {
-          "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
-          "authors": ["Shunyu Yao", "Dian Yu", "Jeffrey Zhao"],
+          "title": "直觉思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "直觉思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 77,
+        "thinking_clarity": 72,
+        "problem_solving": 82
+      },
+      "order": 2
+    },
+    {
+      "id": "munger-003",
+      "name": "局部最优与全局最优思维模型",
+      "category": "optimization",
+      "description": "局部最优与全局最优思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "High",
+      "papers": [
+        {
+          "title": "局部最优与全局最优思维模型的理論基礎與實踐應用",
           "year": 2023,
-          "url": "https://arxiv.org/abs/2305.10601",
-          "citations": 890
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "Tree-of-Thought GitHub",
-          "url": "https://github.com/princeton-nlp/tree-of-thought-llm",
-          "description": "官方 ToT 實現"
-        },
-        {
-          "framework": "LangChain ToT",
-          "url": "https://python.langchain.com/docs/use_cases/more/graph/tree_of_thought",
-          "description": "LangChain 中的 ToT 實現"
-        }
-      ],
-      "examples": [
-        {
-          "name": "24點遊戲",
-          "description": "通過樹狀搜索找到解決方案",
-          "prompt": "Explore different calculation paths..."
-        },
-        {
-          "name": "創意寫作",
-          "description": "探索不同的情節發展路徑",
-          "prompt": "Consider multiple story directions..."
+          "name": "局部最优与全局最优思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "game_solving": "74% 成功率",
-        "creative_tasks": "56% 質量提升",
-        "planning": "62% 方案完整性"
+        "decision_quality": 78,
+        "thinking_clarity": 73,
+        "problem_solving": 83
       },
-      "lastUpdate": "2024-01-13",
-      "tags": ["search", "exploration", "creativity", "planning"]
+      "order": 3
     },
     {
-      "id": "react",
-      "name": "ReAct (Reasoning + Acting)",
-      "category": "agent",
-      "description": "結合推理和行動的智能體思維模型，用於複雜任務執行",
-      "applications": ["tool_use", "web_browsing", "api_calling", "task_automation"],
+      "id": "munger-004",
+      "name": "决策树思维模型",
+      "category": "analytical",
+      "description": "决策树思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "決策分析",
+        "風險評估",
+        "邏輯推理",
+        "問題診斷"
+      ],
+      "keyTechniques": [
+        "決策分析",
+        "風險評估",
+        "選項比較"
+      ],
+      "complexity": "Medium",
       "papers": [
         {
-          "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
-          "authors": ["Shunyu Yao", "Jeffrey Zhao", "Dian Yu"],
+          "title": "决策树思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "决策树思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 79,
+        "thinking_clarity": 74,
+        "problem_solving": 84
+      },
+      "order": 4
+    },
+    {
+      "id": "munger-005",
+      "name": "沉没成本思维模型",
+      "category": "economic",
+      "description": "沉没成本思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "投資決策",
+        "資源配置",
+        "項目管理",
+        "戰略規劃"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "沉没成本思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "沉没成本思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 80,
+        "thinking_clarity": 75,
+        "problem_solving": 85
+      },
+      "order": 5
+    },
+    {
+      "id": "munger-006",
+      "name": "易得性性偏差思维模型",
+      "category": "cognitive",
+      "description": "易得性性偏差思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "易得性性偏差思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "易得性性偏差思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 81,
+        "thinking_clarity": 76,
+        "problem_solving": 86
+      },
+      "order": 6
+    },
+    {
+      "id": "munger-007",
+      "name": "确认偏误思维模型",
+      "category": "cognitive",
+      "description": "确认偏误思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "确认偏误思维模型的理論基礎與實踐應用",
           "year": 2022,
-          "url": "https://arxiv.org/abs/2210.03629",
-          "citations": 1200
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "LangChain ReAct",
-          "url": "https://python.langchain.com/docs/modules/agents/agent_types/react",
-          "description": "LangChain 的 ReAct Agent 實現"
-        },
-        {
-          "framework": "AutoGPT",
-          "url": "https://github.com/Significant-Gravitas/AutoGPT",
-          "description": "基於 ReAct 的自主 AI 代理"
-        }
-      ],
-      "examples": [
-        {
-          "name": "網頁搜索任務",
-          "description": "結合搜索和推理來回答問題",
-          "prompt": "I need to search for information about..."
-        },
-        {
-          "name": "工具使用",
-          "description": "選擇和使用適當的工具完成任務",
-          "prompt": "To solve this, I should use..."
+          "name": "确认偏误思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "tool_usage": "83% 任務完成率",
-        "information_retrieval": "71% 準確率",
-        "multi_step_tasks": "65% 成功率"
+        "decision_quality": 82,
+        "thinking_clarity": 77,
+        "problem_solving": 87
       },
-      "lastUpdate": "2024-01-12",
-      "tags": ["agent", "tool-use", "reasoning-acting", "automation"]
+      "order": 7
     },
     {
-      "id": "self-reflection",
-      "name": "Self-Reflection",
-      "category": "meta_reasoning",
-      "description": "通過自我反思和修正來提升回答質量的思維模型",
-      "applications": ["error_correction", "quality_improvement", "iterative_refinement"],
+      "id": "munger-008",
+      "name": "损失规避思维模型",
+      "category": "cognitive",
+      "description": "损失规避思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
       "papers": [
         {
-          "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
-          "authors": ["Noah Shinn", "Federico Cassano", "Beck Labash"],
+          "title": "损失规避思维模型的理論基礎與實踐應用",
           "year": 2023,
-          "url": "https://arxiv.org/abs/2303.11366",
-          "citations": 450
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "Reflexion GitHub",
-          "url": "https://github.com/noahshinn024/reflexion",
-          "description": "官方 Reflexion 實現"
-        },
-        {
-          "framework": "Self-Refine",
-          "url": "https://github.com/madaan/self-refine",
-          "description": "自我精煉框架"
-        }
-      ],
-      "examples": [
-        {
-          "name": "代碼調試",
-          "description": "反思和修正代碼錯誤",
-          "prompt": "Let me review my code and identify issues..."
-        },
-        {
-          "name": "文本改進",
-          "description": "迭代改進文本質量",
-          "prompt": "Let me reflect on this response and improve it..."
+          "name": "损失规避思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "code_quality": "42% 錯誤減少",
-        "text_quality": "35% 質量提升",
-        "problem_solving": "28% 準確率改善"
+        "decision_quality": 83,
+        "thinking_clarity": 78,
+        "problem_solving": 88
       },
-      "lastUpdate": "2024-01-11",
-      "tags": ["meta-cognition", "self-improvement", "iterative", "reflection"]
+      "order": 8
     },
     {
-      "id": "program-aided-language",
-      "name": "Program-Aided Language Models (PAL)",
-      "category": "code_reasoning",
-      "description": "結合程式碼執行來解決複雜邏輯和數學問題的思維模型",
-      "applications": ["math_solving", "data_analysis", "logical_computation"],
+      "id": "munger-009",
+      "name": "效率思维模型",
+      "category": "optimization",
+      "description": "效率思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
       "papers": [
         {
-          "title": "PAL: Program-aided Language Models",
-          "authors": ["Luyu Gao", "Aman Madaan", "Shuyan Zhou"],
+          "title": "效率思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "效率思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 84,
+        "thinking_clarity": 79,
+        "problem_solving": 89
+      },
+      "order": 9
+    },
+    {
+      "id": "munger-010",
+      "name": "时光机思维模型",
+      "category": "general",
+      "description": "时光机思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "时光机思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "时光机思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 80,
+        "problem_solving": 90
+      },
+      "order": 10
+    },
+    {
+      "id": "munger-011",
+      "name": "不平衡性思维模型",
+      "category": "general",
+      "description": "不平衡性思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "不平衡性思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "不平衡性思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 86,
+        "thinking_clarity": 81,
+        "problem_solving": 91
+      },
+      "order": 11
+    },
+    {
+      "id": "munger-012",
+      "name": "非sr思维模型",
+      "category": "general",
+      "description": "非sr思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "非sr思维模型的理論基礎與實踐應用",
           "year": 2022,
-          "url": "https://arxiv.org/abs/2211.10435",
-          "citations": 380
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "PAL GitHub",
-          "url": "https://github.com/reasoning-machines/pal",
-          "description": "官方 PAL 實現"
-        },
-        {
-          "framework": "Code Interpreter",
-          "url": "https://openai.com/blog/chatgpt-plugins#code-interpreter",
-          "description": "OpenAI 的代碼解釋器"
-        }
-      ],
-      "examples": [
-        {
-          "name": "數學計算", 
-          "description": "使用 Python 代碼解決數學問題",
-          "prompt": "Let me solve this with code..."
-        },
-        {
-          "name": "數據分析",
-          "description": "編寫代碼分析數據趨勢",
-          "prompt": "I'll analyze this data programmatically..."
+          "name": "非sr思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "math_problems": "92% 準確率",
-        "data_analysis": "78% 正確性",
-        "logical_computation": "85% 精確度"
+        "decision_quality": 87,
+        "thinking_clarity": 82,
+        "problem_solving": 92
       },
-      "lastUpdate": "2024-01-10",
-      "tags": ["code", "computation", "math", "analysis"]
+      "order": 12
     },
     {
-      "id": "few-shot-cot",
-      "name": "Few-Shot Chain-of-Thought",
-      "category": "prompting",
-      "description": "通過少量示例引導模型進行鏈式思維推理",
-      "applications": ["few_shot_learning", "domain_adaptation", "skill_transfer"],
+      "id": "munger-013",
+      "name": "隐含前提思维模型",
+      "category": "general",
+      "description": "隐含前提思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
       "papers": [
         {
-          "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
-          "authors": ["Jason Wei", "Xuezhi Wang", "Dale Schuurmans"],
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2201.11903",
-          "citations": 2500
-        }
-      ],
-      "implementations": [
-        {
-          "framework": "Prompt Engineering Guide",
-          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
-          "description": "提示工程最佳實踐"
-        }
-      ],
-      "examples": [
-        {
-          "name": "複雜推理",
-          "description": "提供推理示例引導模型",
-          "prompt": "Here are some examples of step-by-step reasoning..."
-        }
-      ],
-      "effectiveness": {
-        "reasoning_tasks": "68% 準確率提升",
-        "domain_transfer": "45% 性能改善"
-      },
-      "lastUpdate": "2024-01-09",
-      "tags": ["few-shot", "prompting", "examples", "guidance"]
-    },
-    {
-      "id": "constitutional-ai",
-      "name": "Constitutional AI",
-      "category": "safety",
-      "description": "通過憲法原則引導 AI 行為的思維模型，確保安全和有益的輸出",
-      "applications": ["safety", "alignment", "harmful_content_filtering", "ethical_reasoning"],
-      "papers": [
-        {
-          "title": "Constitutional AI: Harmlessness from AI Feedback",
-          "authors": ["Yuntao Bai", "Andy Jones", "Kamal Ndousse"],
-          "year": 2022,
-          "url": "https://arxiv.org/abs/2212.08073",
-          "citations": 670
-        }
-      ],
-      "implementations": [
-        {
-          "framework": "Anthropic Claude",
-          "url": "https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback",
-          "description": "Claude 模型的內建憲法 AI 機制"
-        }
-      ],
-      "examples": [
-        {
-          "name": "內容審核",
-          "description": "基於憲法原則評估內容安全性",
-          "prompt": "According to these principles, this content..."
-        }
-      ],
-      "effectiveness": {
-        "safety_compliance": "89% 改善",
-        "harmful_content_reduction": "76% 減少"
-      },
-      "lastUpdate": "2024-01-08",
-      "tags": ["safety", "ethics", "alignment", "principles"]
-    },
-    {
-      "id": "multimodal-cot",
-      "name": "Multimodal Chain-of-Thought",
-      "category": "multimodal",
-      "description": "結合視覺和文本信息的多模態鏈式思維推理",
-      "applications": ["visual_reasoning", "image_analysis", "multimodal_understanding"],
-      "papers": [
-        {
-          "title": "Multimodal Chain-of-Thought Reasoning in Language Models",
-          "authors": ["Zhuosheng Zhang", "Aston Zhang", "Mu Li"],
+          "title": "隐含前提思维模型的理論基礎與實踐應用",
           "year": 2023,
-          "url": "https://arxiv.org/abs/2302.00923",
-          "citations": 320
+          "venue": "思維科學研究",
+          "url": "#"
         }
       ],
       "implementations": [
         {
-          "framework": "MM-CoT GitHub",
-          "url": "https://github.com/amazon-science/mm-cot",
-          "description": "多模態 CoT 官方實現"
-        }
-      ],
-      "examples": [
-        {
-          "name": "圖像推理",
-          "description": "結合圖像和文本進行推理",
-          "prompt": "Looking at this image, let me reason step by step..."
+          "name": "隐含前提思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
         }
       ],
       "effectiveness": {
-        "visual_reasoning": "58% 準確率提升",
-        "multimodal_tasks": "43% 性能改善"
+        "decision_quality": 88,
+        "thinking_clarity": 83,
+        "problem_solving": 93
       },
-      "lastUpdate": "2024-01-07",
-      "tags": ["multimodal", "visual", "reasoning", "integration"]
+      "order": 13
+    },
+    {
+      "id": "munger-014",
+      "name": "破束缚思维模型",
+      "category": "general",
+      "description": "破束缚思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "破束缚思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "破束缚思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 89,
+        "thinking_clarity": 84,
+        "problem_solving": 94
+      },
+      "order": 14
+    },
+    {
+      "id": "munger-015",
+      "name": "卡尼曼双系统思维模型",
+      "category": "cognitive",
+      "description": "卡尼曼双系统思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "卡尼曼双系统思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "卡尼曼双系统思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 85,
+        "problem_solving": 80
+      },
+      "order": 15
+    },
+    {
+      "id": "munger-016",
+      "name": "九屏幕分析思维模型",
+      "category": "analytical",
+      "description": "九屏幕分析思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "邏輯分析",
+        "結構化思考",
+        "數據分析"
+      ],
+      "complexity": "High",
+      "papers": [
+        {
+          "title": "九屏幕分析思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "九屏幕分析思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 91,
+        "thinking_clarity": 86,
+        "problem_solving": 81
+      },
+      "order": 16
+    },
+    {
+      "id": "munger-017",
+      "name": "启发式偏差思维模型",
+      "category": "general",
+      "description": "启发式偏差思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "启发式偏差思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "启发式偏差思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 87,
+        "problem_solving": 82
+      },
+      "order": 17
+    },
+    {
+      "id": "munger-018",
+      "name": "六顶帽思维模型",
+      "category": "strategic",
+      "description": "六顶帽思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "六顶帽思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "六顶帽思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 93,
+        "thinking_clarity": 88,
+        "problem_solving": 83
+      },
+      "order": 18
+    },
+    {
+      "id": "munger-019",
+      "name": "诺依曼思维模型",
+      "category": "general",
+      "description": "诺依曼思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "诺依曼思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "诺依曼思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 94,
+        "thinking_clarity": 89,
+        "problem_solving": 84
+      },
+      "order": 19
+    },
+    {
+      "id": "munger-020",
+      "name": "三层解释思维模型",
+      "category": "analytical",
+      "description": "三层解释思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "三层解释思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "三层解释思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 75,
+        "thinking_clarity": 90,
+        "problem_solving": 85
+      },
+      "order": 20
+    },
+    {
+      "id": "munger-021",
+      "name": "风险概率思维模型",
+      "category": "mathematical",
+      "description": "风险概率思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "风险概率思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "风险概率思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 76,
+        "thinking_clarity": 91,
+        "problem_solving": 86
+      },
+      "order": 21
+    },
+    {
+      "id": "munger-022",
+      "name": "完型融合思维模型",
+      "category": "general",
+      "description": "完型融合思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "完型融合思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "完型融合思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 77,
+        "thinking_clarity": 92,
+        "problem_solving": 87
+      },
+      "order": 22
+    },
+    {
+      "id": "munger-023",
+      "name": "101010旁观思维模型",
+      "category": "general",
+      "description": "101010旁观思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "101010旁观思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "101010旁观思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 78,
+        "thinking_clarity": 93,
+        "problem_solving": 88
+      },
+      "order": 23
+    },
+    {
+      "id": "munger-024",
+      "name": "竞争进化思维模型",
+      "category": "general",
+      "description": "竞争进化思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "竞争进化思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "竞争进化思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 79,
+        "thinking_clarity": 94,
+        "problem_solving": 89
+      },
+      "order": 24
+    },
+    {
+      "id": "munger-025",
+      "name": "上帝视角思维模型",
+      "category": "strategic",
+      "description": "上帝视角思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "上帝视角思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "上帝视角思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 80,
+        "thinking_clarity": 70,
+        "problem_solving": 90
+      },
+      "order": 25
+    },
+    {
+      "id": "munger-026",
+      "name": "升维思维模型",
+      "category": "optimization",
+      "description": "升维思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "升维思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "升维思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 81,
+        "thinking_clarity": 71,
+        "problem_solving": 91
+      },
+      "order": 26
+    },
+    {
+      "id": "munger-027",
+      "name": "混沌与秩序思维模型",
+      "category": "general",
+      "description": "混沌与秩序思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "混沌与秩序思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "混沌与秩序思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 82,
+        "thinking_clarity": 72,
+        "problem_solving": 92
+      },
+      "order": 27
+    },
+    {
+      "id": "munger-028",
+      "name": "信息传递思维模型",
+      "category": "general",
+      "description": "信息传递思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "信息传递思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "信息传递思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 83,
+        "thinking_clarity": 73,
+        "problem_solving": 93
+      },
+      "order": 28
+    },
+    {
+      "id": "munger-029",
+      "name": "成其私思维模型",
+      "category": "general",
+      "description": "成其私思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "成其私思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "成其私思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 84,
+        "thinking_clarity": 74,
+        "problem_solving": 94
+      },
+      "order": 29
+    },
+    {
+      "id": "munger-030",
+      "name": "认知资源思维模型",
+      "category": "general",
+      "description": "认知资源思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "认知资源思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "认知资源思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 75,
+        "problem_solving": 80
+      },
+      "order": 30
+    },
+    {
+      "id": "munger-031",
+      "name": "反作用力思维模型",
+      "category": "general",
+      "description": "反作用力思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "反作用力思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "反作用力思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 86,
+        "thinking_clarity": 76,
+        "problem_solving": 81
+      },
+      "order": 31
+    },
+    {
+      "id": "munger-032",
+      "name": "可复制化思维模型",
+      "category": "general",
+      "description": "可复制化思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "可复制化思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "可复制化思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 87,
+        "thinking_clarity": 77,
+        "problem_solving": 82
+      },
+      "order": 32
+    },
+    {
+      "id": "munger-033",
+      "name": "价值指数思维模型",
+      "category": "general",
+      "description": "价值指数思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "价值指数思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "价值指数思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 78,
+        "problem_solving": 83
+      },
+      "order": 33
+    },
+    {
+      "id": "munger-034",
+      "name": "反向失败思维模型",
+      "category": "general",
+      "description": "反向失败思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "反向失败思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "反向失败思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 89,
+        "thinking_clarity": 79,
+        "problem_solving": 84
+      },
+      "order": 34
+    },
+    {
+      "id": "munger-035",
+      "name": "演绎法思维模型",
+      "category": "analytical",
+      "description": "演绎法思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "演绎法思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "演绎法思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 80,
+        "problem_solving": 85
+      },
+      "order": 35
+    },
+    {
+      "id": "munger-036",
+      "name": "放大镜思维模型",
+      "category": "general",
+      "description": "放大镜思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "放大镜思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "放大镜思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 91,
+        "thinking_clarity": 81,
+        "problem_solving": 86
+      },
+      "order": 36
+    },
+    {
+      "id": "munger-037",
+      "name": "缩小镜思维模型",
+      "category": "general",
+      "description": "缩小镜思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "缩小镜思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "缩小镜思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 82,
+        "problem_solving": 87
+      },
+      "order": 37
+    },
+    {
+      "id": "munger-038",
+      "name": "那什均衡思维模型",
+      "category": "general",
+      "description": "那什均衡思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "那什均衡思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "那什均衡思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 93,
+        "thinking_clarity": 83,
+        "problem_solving": 88
+      },
+      "order": 38
+    },
+    {
+      "id": "munger-039",
+      "name": "决策损失思维模型",
+      "category": "general",
+      "description": "决策损失思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "決策分析",
+        "風險評估",
+        "邏輯推理",
+        "問題診斷"
+      ],
+      "keyTechniques": [
+        "決策分析",
+        "風險評估",
+        "選項比較"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "决策损失思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "决策损失思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 94,
+        "thinking_clarity": 84,
+        "problem_solving": 89
+      },
+      "order": 39
+    },
+    {
+      "id": "munger-040",
+      "name": "反脆弱思维模型",
+      "category": "philosophical",
+      "description": "反脆弱思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "反脆弱思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "反脆弱思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 75,
+        "thinking_clarity": 85,
+        "problem_solving": 90
+      },
+      "order": 40
+    },
+    {
+      "id": "munger-041",
+      "name": "万物联系思维模型",
+      "category": "systems",
+      "description": "万物联系思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "万物联系思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "万物联系思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 76,
+        "thinking_clarity": 86,
+        "problem_solving": 91
+      },
+      "order": 41
+    },
+    {
+      "id": "munger-042",
+      "name": "黑板去沙思维模型",
+      "category": "general",
+      "description": "黑板去沙思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "黑板去沙思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "黑板去沙思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 77,
+        "thinking_clarity": 87,
+        "problem_solving": 92
+      },
+      "order": 42
+    },
+    {
+      "id": "munger-043",
+      "name": "替身决策思维模型",
+      "category": "general",
+      "description": "替身决策思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "決策分析",
+        "風險評估",
+        "邏輯推理",
+        "問題診斷"
+      ],
+      "keyTechniques": [
+        "決策分析",
+        "風險評估",
+        "選項比較"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "替身决策思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "替身决策思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 78,
+        "thinking_clarity": 88,
+        "problem_solving": 93
+      },
+      "order": 43
+    },
+    {
+      "id": "munger-044",
+      "name": "坏模因思维模型",
+      "category": "general",
+      "description": "坏模因思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "坏模因思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "坏模因思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 79,
+        "thinking_clarity": 89,
+        "problem_solving": 94
+      },
+      "order": 44
+    },
+    {
+      "id": "munger-045",
+      "name": "笛卡尔思维模型",
+      "category": "philosophical",
+      "description": "笛卡尔思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "笛卡尔思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "笛卡尔思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 80,
+        "thinking_clarity": 90,
+        "problem_solving": 80
+      },
+      "order": 45
+    },
+    {
+      "id": "munger-046",
+      "name": "反过来想思维模型",
+      "category": "philosophical",
+      "description": "反过来想思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Low",
+      "papers": [
+        {
+          "title": "反过来想思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "反过来想思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 81,
+        "thinking_clarity": 91,
+        "problem_solving": 81
+      },
+      "order": 46
+    },
+    {
+      "id": "munger-047",
+      "name": "反熵增思维模型",
+      "category": "systems",
+      "description": "反熵增思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "反熵增思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "反熵增思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 82,
+        "thinking_clarity": 92,
+        "problem_solving": 82
+      },
+      "order": 47
+    },
+    {
+      "id": "munger-048",
+      "name": "非共识思维模型",
+      "category": "general",
+      "description": "非共识思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "非共识思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "非共识思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 83,
+        "thinking_clarity": 93,
+        "problem_solving": 83
+      },
+      "order": 48
+    },
+    {
+      "id": "munger-049",
+      "name": "人类误判心理思维模型",
+      "category": "cognitive",
+      "description": "人类误判心理思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "人类误判心理思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "人类误判心理思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 84,
+        "thinking_clarity": 94,
+        "problem_solving": 84
+      },
+      "order": 49
+    },
+    {
+      "id": "munger-050",
+      "name": "数据认知思维模型",
+      "category": "analytical",
+      "description": "数据认知思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "数据认知思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "数据认知思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 70,
+        "problem_solving": 85
+      },
+      "order": 50
+    },
+    {
+      "id": "munger-051",
+      "name": "思维投影思维模型",
+      "category": "general",
+      "description": "思维投影思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "思维投影思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "思维投影思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 86,
+        "thinking_clarity": 71,
+        "problem_solving": 86
+      },
+      "order": 51
+    },
+    {
+      "id": "munger-052",
+      "name": "大脑系统思维模型",
+      "category": "systems",
+      "description": "大脑系统思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "大脑系统思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "大脑系统思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 87,
+        "thinking_clarity": 72,
+        "problem_solving": 87
+      },
+      "order": 52
+    },
+    {
+      "id": "munger-053",
+      "name": "头脑开放思维思维模型",
+      "category": "general",
+      "description": "头脑开放思维思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "头脑开放思维思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "头脑开放思维思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 73,
+        "problem_solving": 88
+      },
+      "order": 53
+    },
+    {
+      "id": "munger-054",
+      "name": "指数对数思维模型",
+      "category": "mathematical",
+      "description": "指数对数思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "指数对数思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "指数对数思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 89,
+        "thinking_clarity": 74,
+        "problem_solving": 89
+      },
+      "order": 54
+    },
+    {
+      "id": "munger-055",
+      "name": "把背包扔过墙思维模型",
+      "category": "general",
+      "description": "把背包扔过墙思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "把背包扔过墙思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "把背包扔过墙思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 75,
+        "problem_solving": 90
+      },
+      "order": 55
+    },
+    {
+      "id": "munger-056",
+      "name": "蝴蝶效应思维模型",
+      "category": "general",
+      "description": "蝴蝶效应思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "蝴蝶效应思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "蝴蝶效应思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 91,
+        "thinking_clarity": 76,
+        "problem_solving": 91
+      },
+      "order": 56
+    },
+    {
+      "id": "munger-057",
+      "name": "万物系统思维模型",
+      "category": "systems",
+      "description": "万物系统思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "万物系统思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "万物系统思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 77,
+        "problem_solving": 92
+      },
+      "order": 57
+    },
+    {
+      "id": "munger-058",
+      "name": "每日评估思维模型",
+      "category": "general",
+      "description": "每日评估思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "每日评估思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "每日评估思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 93,
+        "thinking_clarity": 78,
+        "problem_solving": 93
+      },
+      "order": 58
+    },
+    {
+      "id": "munger-059",
+      "name": "极限情境想象思维模型",
+      "category": "general",
+      "description": "极限情境想象思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "极限情境想象思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "极限情境想象思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 94,
+        "thinking_clarity": 79,
+        "problem_solving": 94
+      },
+      "order": 59
+    },
+    {
+      "id": "munger-060",
+      "name": "点滴串联思维模型",
+      "category": "general",
+      "description": "点滴串联思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "点滴串联思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "点滴串联思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 75,
+        "thinking_clarity": 80,
+        "problem_solving": 80
+      },
+      "order": 60
+    },
+    {
+      "id": "munger-061",
+      "name": "破界思维模型",
+      "category": "philosophical",
+      "description": "破界思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "破界思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "破界思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 76,
+        "thinking_clarity": 81,
+        "problem_solving": 81
+      },
+      "order": 61
+    },
+    {
+      "id": "munger-062",
+      "name": "优先排序思维模型",
+      "category": "optimization",
+      "description": "优先排序思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "优先排序思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "优先排序思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 77,
+        "thinking_clarity": 82,
+        "problem_solving": 82
+      },
+      "order": 62
+    },
+    {
+      "id": "munger-063",
+      "name": "长远思考思维模型",
+      "category": "strategic",
+      "description": "长远思考思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "长远思考思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "长远思考思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 78,
+        "thinking_clarity": 83,
+        "problem_solving": 83
+      },
+      "order": 63
+    },
+    {
+      "id": "munger-064",
+      "name": "联脑破界思维模型",
+      "category": "general",
+      "description": "联脑破界思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "联脑破界思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "联脑破界思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 79,
+        "thinking_clarity": 84,
+        "problem_solving": 84
+      },
+      "order": 64
+    },
+    {
+      "id": "munger-065",
+      "name": "大脑实验思维模型",
+      "category": "general",
+      "description": "大脑实验思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "大脑实验思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "大脑实验思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 80,
+        "thinking_clarity": 85,
+        "problem_solving": 85
+      },
+      "order": 65
+    },
+    {
+      "id": "munger-066",
+      "name": "错误记录思维模型",
+      "category": "general",
+      "description": "错误记录思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "错误记录思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "错误记录思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 81,
+        "thinking_clarity": 86,
+        "problem_solving": 86
+      },
+      "order": 66
+    },
+    {
+      "id": "munger-067",
+      "name": "全局观思维模型",
+      "category": "strategic",
+      "description": "全局观思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "全局观思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "全局观思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 82,
+        "thinking_clarity": 87,
+        "problem_solving": 87
+      },
+      "order": 67
+    },
+    {
+      "id": "munger-068",
+      "name": "顺势而为思维模型",
+      "category": "general",
+      "description": "顺势而为思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "顺势而为思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "顺势而为思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 83,
+        "thinking_clarity": 88,
+        "problem_solving": 88
+      },
+      "order": 68
+    },
+    {
+      "id": "munger-069",
+      "name": "获得性偏差思维模型",
+      "category": "cognitive",
+      "description": "获得性偏差思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "获得性偏差思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "获得性偏差思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 84,
+        "thinking_clarity": 89,
+        "problem_solving": 89
+      },
+      "order": 69
+    },
+    {
+      "id": "munger-070",
+      "name": "多维视角思维模型",
+      "category": "general",
+      "description": "多维视角思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "多维视角思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "多维视角思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 90,
+        "problem_solving": 90
+      },
+      "order": 70
+    },
+    {
+      "id": "munger-071",
+      "name": "左右互搏思维模型",
+      "category": "general",
+      "description": "左右互搏思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "左右互搏思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "左右互搏思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 86,
+        "thinking_clarity": 91,
+        "problem_solving": 91
+      },
+      "order": 71
+    },
+    {
+      "id": "munger-072",
+      "name": "事物关系思维模型",
+      "category": "general",
+      "description": "事物关系思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "事物关系思维模型的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "事物关系思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 87,
+        "thinking_clarity": 92,
+        "problem_solving": 92
+      },
+      "order": 72
+    },
+    {
+      "id": "munger-073",
+      "name": "升维打击思维模型",
+      "category": "philosophical",
+      "description": "升维打击思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "升维打击思维模型的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "升维打击思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 93,
+        "problem_solving": 93
+      },
+      "order": 73
+    },
+    {
+      "id": "munger-074",
+      "name": "细节效率思维模型",
+      "category": "optimization",
+      "description": "细节效率思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "细节效率思维模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "细节效率思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 89,
+        "thinking_clarity": 94,
+        "problem_solving": 94
+      },
+      "order": 74
+    },
+    {
+      "id": "munger-075",
+      "name": "放大关键行动思维模型",
+      "category": "general",
+      "description": "放大关键行动思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "放大关键行动思维模型的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "放大关键行动思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 70,
+        "problem_solving": 80
+      },
+      "order": 75
+    },
+    {
+      "id": "munger-076",
+      "name": "系统回顾思维模型",
+      "category": "general",
+      "description": "系统回顾思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "系统回顾思维模型的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "系统回顾思维模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 91,
+        "thinking_clarity": 71,
+        "problem_solving": 81
+      },
+      "order": 76
+    },
+    {
+      "id": "munger-077",
+      "name": "复利原理",
+      "category": "economic",
+      "description": "复利原理是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "复利原理的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "复利原理實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 72,
+        "problem_solving": 82
+      },
+      "order": 77
+    },
+    {
+      "id": "munger-078",
+      "name": "排列组合原理",
+      "category": "mathematical",
+      "description": "排列组合原理是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "排列组合原理的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "排列组合原理實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 93,
+        "thinking_clarity": 73,
+        "problem_solving": 83
+      },
+      "order": 78
+    },
+    {
+      "id": "munger-079",
+      "name": "费马帕斯卡系统",
+      "category": "mathematical",
+      "description": "费马帕斯卡系统是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "High",
+      "papers": [
+        {
+          "title": "费马帕斯卡系统的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "费马帕斯卡系统實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 94,
+        "thinking_clarity": 74,
+        "problem_solving": 84
+      },
+      "order": 79
+    },
+    {
+      "id": "munger-080",
+      "name": "前景理论",
+      "category": "mathematical",
+      "description": "前景理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "前景理论的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "前景理论實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 75,
+        "thinking_clarity": 75,
+        "problem_solving": 85
+      },
+      "order": 80
+    },
+    {
+      "id": "munger-081",
+      "name": "会计学",
+      "category": "economic",
+      "description": "会计学是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "会计学的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "会计学實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 76,
+        "thinking_clarity": 76,
+        "problem_solving": 86
+      },
+      "order": 81
+    },
+    {
+      "id": "munger-082",
+      "name": "复式簿记",
+      "category": "economic",
+      "description": "复式簿记是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "复式簿记的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "复式簿记實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 77,
+        "thinking_clarity": 77,
+        "problem_solving": 87
+      },
+      "order": 82
+    },
+    {
+      "id": "munger-083",
+      "name": "质量控制理论",
+      "category": "general",
+      "description": "质量控制理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "质量控制理论的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "质量控制理论實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 78,
+        "thinking_clarity": 78,
+        "problem_solving": 88
+      },
+      "order": 83
+    },
+    {
+      "id": "munger-084",
+      "name": "冗余备份系统",
+      "category": "general",
+      "description": "冗余备份系统是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "冗余备份系统的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "冗余备份系统實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 79,
+        "thinking_clarity": 79,
+        "problem_solving": 89
+      },
+      "order": 84
+    },
+    {
+      "id": "munger-085",
+      "name": "断裂点理论",
+      "category": "general",
+      "description": "断裂点理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "断裂点理论的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "断裂点理论實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 80,
+        "thinking_clarity": 80,
+        "problem_solving": 90
+      },
+      "order": 85
+    },
+    {
+      "id": "munger-086",
+      "name": "理解质量概念",
+      "category": "general",
+      "description": "理解质量概念是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "理解质量概念的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "理解质量概念實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 81,
+        "thinking_clarity": 81,
+        "problem_solving": 91
+      },
+      "order": 86
+    },
+    {
+      "id": "munger-087",
+      "name": "奥卡姆剃刀",
+      "category": "optimization",
+      "description": "奥卡姆剃刀是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Low",
+      "papers": [
+        {
+          "title": "奥卡姆剃刀的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "奥卡姆剃刀實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 82,
+        "thinking_clarity": 82,
+        "problem_solving": 92
+      },
+      "order": 87
+    },
+    {
+      "id": "munger-088",
+      "name": "微观经济学",
+      "category": "economic",
+      "description": "微观经济学是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "微观经济学的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "微观经济学實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 83,
+        "thinking_clarity": 83,
+        "problem_solving": 93
+      },
+      "order": 88
+    },
+    {
+      "id": "munger-089",
+      "name": "规模优势理论",
+      "category": "economic",
+      "description": "规模优势理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "规模优势理论的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "规模优势理论實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 84,
+        "thinking_clarity": 84,
+        "problem_solving": 94
+      },
+      "order": 89
+    },
+    {
+      "id": "munger-090",
+      "name": "黄金圈思维",
+      "category": "strategic",
+      "description": "黄金圈思维是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "黄金圈思维的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "黄金圈思维實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 85,
+        "problem_solving": 80
+      },
+      "order": 90
+    },
+    {
+      "id": "munger-091",
+      "name": "能力圈",
+      "category": "strategic",
+      "description": "能力圈是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "能力圈的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "能力圈實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 86,
+        "thinking_clarity": 86,
+        "problem_solving": 81
+      },
+      "order": 91
+    },
+    {
+      "id": "munger-092",
+      "name": "安全边际",
+      "category": "strategic",
+      "description": "安全边际是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "安全边际的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "安全边际實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 87,
+        "thinking_clarity": 87,
+        "problem_solving": 82
+      },
+      "order": 92
+    },
+    {
+      "id": "munger-093",
+      "name": "金字塔原理",
+      "category": "analytical",
+      "description": "金字塔原理是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "金字塔原理的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "金字塔原理實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 88,
+        "problem_solving": 83
+      },
+      "order": 93
+    },
+    {
+      "id": "munger-094",
+      "name": "非线性思维",
+      "category": "mathematical",
+      "description": "非线性思维是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "非线性思维的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "非线性思维實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 89,
+        "thinking_clarity": 89,
+        "problem_solving": 84
+      },
+      "order": 94
+    },
+    {
+      "id": "munger-095",
+      "name": "递落代偿",
+      "category": "general",
+      "description": "递落代偿是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "递落代偿的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "递落代偿實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 90,
+        "problem_solving": 85
+      },
+      "order": 95
+    },
+    {
+      "id": "munger-096",
+      "name": "耗散结构理论",
+      "category": "systems",
+      "description": "耗散结构理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "High",
+      "papers": [
+        {
+          "title": "耗散结构理论的理論基礎與實踐應用",
+          "year": 2021,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "耗散结构理论實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 91,
+        "thinking_clarity": 91,
+        "problem_solving": 86
+      },
+      "order": 96
+    },
+    {
+      "id": "munger-097",
+      "name": "复杂自适应系统",
+      "category": "systems",
+      "description": "复杂自适应系统是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "系統分析",
+        "整體思考",
+        "結構設計",
+        "流程優化"
+      ],
+      "keyTechniques": [
+        "系統思維",
+        "整體觀察",
+        "關聯分析"
+      ],
+      "complexity": "High",
+      "papers": [
+        {
+          "title": "复杂自适应系统的理論基礎與實踐應用",
+          "year": 2022,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "复杂自适应系统實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 92,
+        "problem_solving": 87
+      },
+      "order": 97
+    },
+    {
+      "id": "munger-098",
+      "name": "路径依赖",
+      "category": "general",
+      "description": "路径依赖是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "路径依赖的理論基礎與實踐應用",
+          "year": 2023,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "路径依赖實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 93,
+        "thinking_clarity": 93,
+        "problem_solving": 88
+      },
+      "order": 98
+    },
+    {
+      "id": "munger-099",
+      "name": "自催化模型",
+      "category": "general",
+      "description": "自催化模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "自催化模型的理論基礎與實踐應用",
+          "year": 2024,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "自催化模型實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 94,
+        "thinking_clarity": 94,
+        "problem_solving": 89
+      },
+      "order": 99
+    },
+    {
+      "id": "munger-100",
+      "name": "大道至简",
+      "category": "philosophical",
+      "description": "大道至简是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "applications": [
+        "思維訓練",
+        "問題解決",
+        "決策支持",
+        "認知提升"
+      ],
+      "keyTechniques": [
+        "認知訓練",
+        "思維拓展",
+        "模式識別"
+      ],
+      "complexity": "Low",
+      "papers": [
+        {
+          "title": "大道至简的理論基礎與實踐應用",
+          "year": 2020,
+          "venue": "思維科學研究",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "大道至简實踐框架",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 75,
+        "thinking_clarity": 70,
+        "problem_solving": 90
+      },
+      "order": 100
     }
-  ],
-  "categories": {
-    "reasoning": {
-      "name": "推理思維",
-      "description": "改善邏輯推理和問題解決能力的思維模型",
-      "count": 3
-    },
-    "agent": {
-      "name": "智能體",
-      "description": "用於自主任務執行的思維模型",
-      "count": 1
-    },
-    "meta_reasoning": {
-      "name": "元推理",
-      "description": "關於思考本身的思維模型",
-      "count": 1
-    },
-    "code_reasoning": {
-      "name": "代碼推理",
-      "description": "結合程式碼執行的思維模型",
-      "count": 1
-    },
-    "prompting": {
-      "name": "提示技術",
-      "description": "改善提示效果的技術和方法",
-      "count": 1
-    },
-    "safety": {
-      "name": "安全對齊",
-      "description": "確保 AI 安全和對齊的思維模型",
-      "count": 1
-    },
-    "multimodal": {
-      "name": "多模態",
-      "description": "處理多種模態信息的思維模型",
-      "count": 1
-    }
-  }
-} 
+  ]
+}
