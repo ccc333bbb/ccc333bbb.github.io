@@ -43,11 +43,11 @@ const portalsData = [
     {
         id: 5,
         title: "🧠 Thinking Models",
-        description: "AI reasoning patterns and thinking methodologies - CoT, ToT, ReAct and more",
-        url: "/thinking/",
+        description: "Charlie Munger Thinking Models - 查理·芒格思維模型研究",
+        url: "/thinking-models/",
         icon: "🧠",
         category: "main",
-        tags: ["reasoning", "cot", "react", "thinking", "ai"],
+        tags: ["reasoning", "cot", "react", "thinking", "ai", "munger"],
         featured: true
     },
     // Future expansion ideas - currently placeholders
