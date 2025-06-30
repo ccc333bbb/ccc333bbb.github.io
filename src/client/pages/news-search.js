@@ -1,62 +1,47 @@
 // TARDIS RSS News Search Functionality v2.0
 class NewsSearch {
     constructor() {
-        this.searchIndex = null;
-        this.newsData = {};
-        this.newsIndex = null;
         this.rankedIndex = null;
-        this.keywordsData = null;
         this.loadData();
     }
 
     async loadData() {
         try {
-            // Load search index
-            const searchResponse = await fetch('/data/search-index.json');
-            if (searchResponse.ok) {
-                this.searchIndex = await searchResponse.json();
-                console.log('✅ Search index loaded');
-            }
-
-            // Load news index
-            const indexResponse = await fetch('/data/news-index.json');
-            if (indexResponse.ok) {
-                this.newsIndex = await indexResponse.json();
-                console.log('✅ News index loaded');
-            }
-
-            // Load ranked news index (RSS v2.0)
+            // Load ranked news index, which is the primary source of truth for the client.
             const rankedResponse = await fetch('/data/ranked-news-index.json');
             if (rankedResponse.ok) {
                 this.rankedIndex = await rankedResponse.json();
                 console.log('✅ Ranked news index loaded');
+            } else {
+                // If the main data file fails, log an error and stop.
+                throw new Error(`Failed to load ranked-news-index.json: ${rankedResponse.status}`);
             }
-
-            // Load keywords data
-            const keywordsResponse = await fetch('/data/keywords.json');
-            if (keywordsResponse.ok) {
-                this.keywordsData = await keywordsResponse.json();
-                console.log('✅ Keywords data loaded');
-            }
-
             console.log('✅ RSS News search data loaded successfully');
         } catch (error) {
             console.error('❌ Error loading RSS news search data:', error);
+            // Optionally, render an error state in the UI
+            const newsGrid = document.getElementById('newsGrid');
+            if (newsGrid) {
+                newsGrid.innerHTML = `
+                    <div class="no-results">
+                        <h3>📭 Error loading news</h3>
+                        <p>Could not fetch the latest news data. Please try refreshing the page.</p>
+                    </div>
+                `;
+            }
         }
     }
 
     async searchNews(query, filters = {}) {
+        if (!this.rankedIndex || !this.rankedIndex.topArticles) {
+            return [];
+        }
+
         if (!query.trim()) {
-            return await this.getLatestNews(filters);
+            return this.getLatestNews(filters);
         }
 
-        // Use new RSS-based search
-        if (this.rankedIndex && this.rankedIndex.topArticles) {
-            return this.searchInRankedArticles(query, filters);
-        }
-
-        // Fallback to old search method if ranked index not available
-        return await this.searchInSearchIndex(query, filters);
+        return this.searchInRankedArticles(query, filters);
     }
 
     searchInRankedArticles(query, filters = {}) {
@@ -93,36 +78,6 @@ class NewsSearch {
             }
             return (b.relevanceScore || 0) - (a.relevanceScore || 0);
         });
-    }
-
-    async searchInSearchIndex(query, filters = {}) {
-        if (!this.searchIndex?.index) return [];
-
-        const words = query.toLowerCase().split(/\s+/);
-        const results = new Map();
-
-        // Search for matching articles
-        for (const word of words) {
-            if (this.searchIndex.index[word]) {
-                for (const match of this.searchIndex.index[word]) {
-                    const existing = results.get(match.link);
-                    const score = existing ? existing.searchScore + match.relevance : match.relevance;
-                    
-                    results.set(match.link, {
-                        title: match.title,
-                        link: match.link,
-                        source: match.source,
-                        pubDate: match.date,
-                        searchScore: score
-                    });
-                }
-            }
-        }
-
-        let filteredResults = Array.from(results.values());
-        filteredResults = this.applyFilters(filteredResults, filters);
-
-        return filteredResults.sort((a, b) => b.searchScore - a.searchScore);
     }
 
     applyFilters(results, filters) {
@@ -164,34 +119,18 @@ class NewsSearch {
     }
 
     async getLatestNews(filters = {}) {
-        // Use ranked index for latest news if available
-        if (this.rankedIndex && this.rankedIndex.topArticles) {
-            let results = [...this.rankedIndex.topArticles];
-            results = this.applyFilters(results, filters);
-            
-            return results.sort((a, b) => {
-                const dateA = new Date(a.pubDate || a.timestamp);
-                const dateB = new Date(b.pubDate || b.timestamp);
-                return dateB - dateA;
-            });
+        if (!this.rankedIndex || !this.rankedIndex.topArticles) {
+            return [];
         }
-
-        // Fallback to news index
-        if (!this.newsIndex?.index) return [];
-
-        const results = [];
-        const recentDates = this.newsIndex.index.slice(0, 5); // Last 5 days
-
-        for (const dateInfo of recentDates) {
-            if (dateInfo.topArticles) {
-                results.push(...dateInfo.topArticles);
-            }
-        }
-
-        let filteredResults = this.applyFilters(results, filters);
-        return filteredResults.sort((a, b) => 
-            new Date(b.pubDate || b.timestamp) - new Date(a.pubDate || a.timestamp)
-        );
+        
+        let results = [...this.rankedIndex.topArticles];
+        results = this.applyFilters(results, filters);
+        
+        return results.sort((a, b) => {
+            const dateA = new Date(a.pubDate || a.timestamp);
+            const dateB = new Date(b.pubDate || b.timestamp);
+            return dateB - dateA;
+        });
     }
 
     getCategories() {
@@ -479,11 +418,7 @@ class NewsSearch {
         
         return date.toLocaleDateString();
     }
-
-    formatTime(timestamp) {
-        return this.getTimeAgo(new Date(timestamp));
-    }
 }
 
 // Initialize global instance
-window.newsSearch = new NewsSearch(); 
+window.newsSearch = new NewsSearch();
