@@ -25,14 +25,14 @@ class NewsUpdateManager {
         }
 
         logs.operations.unshift(logEntry);
-        logs.operations = logs.operations.slice(0, 50); // 保留最近50次操作
+        logs.operations = logs.operations.slice(0, 50); // Keep the last 50 operations
         logs.lastUpdated = new Date().toISOString();
 
         fs.writeFileSync(this.logFile, JSON.stringify(logs, null, 2));
     }
 
     async runFullUpdate() {
-        console.log('🚀 開始完整的RSS新聞更新流程...');
+        console.log('🚀 Starting the full RSS news update process...');
         const startTime = Date.now();
         
         const results = {
@@ -42,34 +42,34 @@ class NewsUpdateManager {
         };
 
         try {
-            // 步驟1: 獲取熱門關鍵詞
-            console.log('\n📊 步驟 1/3: 獲取熱門關鍵詞');
+            // Step 1: Fetch trending keywords
+            console.log('\n📊 Step 1/3: Fetching trending keywords');
             const keywordsFetcher = new KeywordsFetcher();
             results.keywords = await keywordsFetcher.fetchAllKeywords();
             await this.logOperation('fetch-keywords', {
                 success: true,
                 totalKeywords: results.keywords.totalKeywords
             });
-            console.log('✅ 關鍵詞獲取完成');
+            console.log('✅ Keyword fetching complete.');
 
-            // 步驟2: 獲取RSS新聞
-            console.log('\n📰 步驟 2/3: 獲取RSS新聞');
+            // Step 2: Fetch RSS news
+            console.log('\n📰 Step 2/3: Fetching RSS news');
             const newsAggregator = new RSSNewsAggregator();
             results.news = await newsAggregator.fetchAllNews();
             await this.logOperation('fetch-news', results.news);
-            console.log('✅ 新聞抓取完成');
+            console.log('✅ News fetching complete.');
 
-            // 步驟3: 處理和排序新聞
-            console.log('\n🔄 步驟 3/3: 處理和排序新聞');
+            // Step 3: Process and rank news
+            console.log('\n🔄 Step 3/3: Processing and ranking news');
             const newsProcessor = new NewsProcessor();
             results.processing = await newsProcessor.processLatestNews();
             await this.logOperation('process-news', results.processing);
-            console.log('✅ 新聞處理完成');
+            console.log('✅ News processing complete.');
 
             const endTime = Date.now();
             const totalDuration = ((endTime - startTime) / 1000).toFixed(2);
 
-            // 生成綜合報告
+            // Generate a comprehensive report
             const report = {
                 success: true,
                 duration: totalDuration,
@@ -84,22 +84,22 @@ class NewsUpdateManager {
                 details: results
             };
 
-            // 保存報告
+            // Save the report
             const reportFile = path.join(this.dataDir, 'last-update-report.json');
             fs.writeFileSync(reportFile, JSON.stringify(report, null, 2));
 
-            console.log('\n🎉 完整更新流程完成！');
-            console.log(`⏱️  總耗時: ${totalDuration}秒`);
-            console.log(`🔑 關鍵詞: ${report.summary.keywordsCount}個`);
-            console.log(`📰 文章: ${report.summary.articlesCount}篇`);
-            console.log(`🎯 來源: ${report.summary.sourcesCount}個`);
-            console.log(`📊 分類: ${report.summary.categoriesCount}個`);
-            console.log(`📈 平均相關性: ${report.summary.avgRelevanceScore.toFixed(2)}`);
+            console.log('\n🎉 Full update process finished successfully!');
+            console.log(`⏱️  Total time: ${totalDuration}s`);
+            console.log(`🔑 Keywords: ${report.summary.keywordsCount}`);
+            console.log(`📰 Articles: ${report.summary.articlesCount}`);
+            console.log(`🎯 Sources: ${report.summary.sourcesCount}`);
+            console.log(`📊 Categories: ${report.summary.categoriesCount}`);
+            console.log(`📈 Average Relevance: ${report.summary.avgRelevanceScore.toFixed(2)}`);
 
             return report;
 
         } catch (error) {
-            console.error('❌ 更新流程失敗:', error.message);
+            console.error('❌ Update process failed:', error.message);
             
             const errorReport = {
                 success: false,
@@ -114,18 +114,18 @@ class NewsUpdateManager {
     }
 
     async runQuickUpdate() {
-        console.log('⚡ 開始快速新聞更新（僅新聞和處理）...');
+        console.log('⚡ Starting quick news update (news and processing only)...');
         
         try {
-            // 僅獲取新聞和處理
+            // Fetch and process news only
             const newsAggregator = new RSSNewsAggregator();
             const newsResult = await newsAggregator.fetchAllNews();
             
             const newsProcessor = new NewsProcessor();
             const processingResult = await newsProcessor.processLatestNews();
 
-            console.log('✅ 快速更新完成');
-            console.log(`📰 文章: ${newsResult.totalArticles}篇`);
+            console.log('✅ Quick update complete.');
+            console.log(`📰 Articles: ${newsResult.totalArticles}`);
             
             return {
                 success: true,
@@ -134,20 +134,20 @@ class NewsUpdateManager {
             };
 
         } catch (error) {
-            console.error('❌ 快速更新失敗:', error.message);
+            console.error('❌ Quick update failed:', error.message);
             throw error;
         }
     }
 
     async runKeywordsOnly() {
-        console.log('🔑 僅更新關鍵詞...');
+        console.log('🔑 Updating keywords only...');
         
         try {
             const keywordsFetcher = new KeywordsFetcher();
             const result = await keywordsFetcher.fetchAllKeywords();
             
-            console.log('✅ 關鍵詞更新完成');
-            console.log(`🎯 關鍵詞: ${result.totalKeywords}個`);
+            console.log('✅ Keyword update complete.');
+            console.log(`🎯 Keywords: ${result.totalKeywords}`);
             
             return {
                 success: true,
@@ -155,13 +155,13 @@ class NewsUpdateManager {
             };
 
         } catch (error) {
-            console.error('❌ 關鍵詞更新失敗:', error.message);
+            console.error('❌ Keyword update failed:', error.message);
             throw error;
         }
     }
 
     async generateReport() {
-        console.log('📋 生成更新報告...');
+        console.log('📋 Generating update report...');
         
         try {
             const report = {
@@ -170,7 +170,7 @@ class NewsUpdateManager {
                 files: {}
             };
 
-            // 檢查各個數據文件
+            // Check data files
             const dataFiles = [
                 'keywords.json',
                 'dynamic-keywords.json', 
@@ -200,7 +200,7 @@ class NewsUpdateManager {
                 }
             }
 
-            // 檢查新聞文件夾
+            // Check news directory
             const newsDir = path.join(this.dataDir, 'news');
             if (fs.existsSync(newsDir)) {
                 const newsFiles = fs.readdirSync(newsDir).filter(f => f.endsWith('.json'));
@@ -213,18 +213,18 @@ class NewsUpdateManager {
                 };
             }
 
-            console.log('✅ 報告生成完成');
+            console.log('✅ Report generation complete.');
             console.table(Object.entries(report.files).map(([file, info]) => ({
-                檔案: file,
-                存在: info.exists ? '✅' : '❌',
-                大小: info.exists ? `${(info.size / 1024).toFixed(1)}KB` : '-',
-                記錄數: info.exists ? info.recordCount : '-'
+                File: file,
+                Exists: info.exists ? '✅' : '❌',
+                Size: info.exists ? `${(info.size / 1024).toFixed(1)}KB` : '-',
+                Records: info.exists ? info.recordCount : '-'
             })));
 
             return report;
 
         } catch (error) {
-            console.error('❌ 報告生成失敗:', error.message);
+            console.error('❌ Report generation failed:', error.message);
             throw error;
         }
     }
@@ -240,7 +240,7 @@ class NewsUpdateManager {
     }
 }
 
-// 主執行函數
+// Main execution function
 async function main() {
     const manager = new NewsUpdateManager();
     const args = process.argv.slice(2);
@@ -263,7 +263,7 @@ async function main() {
                 break;
         }
     } catch (error) {
-        console.error('💥 執行失敗:', error.message);
+        console.error('💥 Execution failed:', error.message);
         process.exit(1);
     }
 }
@@ -272,4 +272,4 @@ if (require.main === module) {
     main().catch(console.error);
 }
 
-module.exports = NewsUpdateManager; 
+module.exports = NewsUpdateManager;

@@ -490,4 +490,4 @@ document.getElementById('resourcesGrid').innerHTML = `
     <div class="loading">
         Loading AI tools...
     </div>
-`; 
+`;

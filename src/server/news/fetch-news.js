@@ -25,10 +25,10 @@ class RSSNewsAggregator {
         });
     }
 
-    // 免費RSS新聞源配置
+    // Configuration for free RSS news sources
     getNewsSources() {
         return [
-            // 國際權威媒體 RSS
+            // International authoritative media RSS
             {
                 name: 'BBC News',
                 url: 'http://feeds.bbci.co.uk/news/rss.xml',
@@ -58,7 +58,7 @@ class RSSNewsAggregator {
                 limit: 4
             },
 
-            // 科技媒體 RSS
+            // Tech media RSS
             {
                 name: 'TechCrunch',
                 url: 'https://techcrunch.com/feed/',
@@ -95,7 +95,7 @@ class RSSNewsAggregator {
                 limit: 4
             },
 
-            // 商業和財經 RSS
+            // Business and finance RSS
             {
                 name: 'NPR Business',
                 url: 'https://feeds.npr.org/1006/rss.xml',
@@ -111,7 +111,7 @@ class RSSNewsAggregator {
                 limit: 3
             },
 
-            // 開發者和技術社區 RSS
+            // Developer and tech community RSS
             {
                 name: 'GitHub Blog',
                 url: 'https://github.blog/feed/',
@@ -134,7 +134,7 @@ class RSSNewsAggregator {
                 limit: 3
             },
 
-            // 科學和研究 RSS
+            // Science and research RSS
             {
                 name: 'Science Daily',
                 url: 'https://www.sciencedaily.com/rss/computers_math/computer_science/artificial_intelligence.xml',
@@ -150,7 +150,7 @@ class RSSNewsAggregator {
                 limit: 3
             },
 
-            // Reddit RSS (免費且無需API)
+            // Reddit RSS (free and no API key required)
             {
                 name: 'Reddit Technology',
                 url: 'https://www.reddit.com/r/technology/.rss',
@@ -175,10 +175,10 @@ class RSSNewsAggregator {
         ];
     }
 
-    // 獲取單個RSS源的新聞
+    // Fetch news from a single RSS source
     async fetchRSSFeed(source) {
         try {
-            console.log(`🔍 正在獲取 ${source.name} 的新聞...`);
+            console.log(`🔍 Fetching news from ${source.name}...`);
             
             const feed = await this.parser.parseURL(source.url);
             const articles = [];
@@ -192,22 +192,22 @@ class RSSNewsAggregator {
                         articles.push(article);
                     }
                 } catch (error) {
-                    console.warn(`處理文章時出錯 (${source.name}):`, error.message);
+                    console.warn(`Error processing article from ${source.name}:`, error.message);
                 }
             }
             
-            console.log(`✅ ${source.name}: 獲取到 ${articles.length} 篇文章`);
+            console.log(`✅ ${source.name}: Fetched ${articles.length} articles`);
             return articles;
             
         } catch (error) {
-            console.error(`❌ 獲取 ${source.name} 失敗:`, error.message);
+            console.error(`❌ Failed to fetch ${source.name}:`, error.message);
             return [];
         }
     }
 
-    // 處理RSS條目
+    // Process an RSS item
     processRSSItem(item, source) {
-        // 提取文章基本信息
+        // Extract basic article information
         const title = item.title?.trim() || '';
         const link = item.link || item.guid || '';
         const description = this.extractDescription(item);
@@ -217,10 +217,10 @@ class RSSNewsAggregator {
             return null;
         }
 
-        // 生成文章ID
+        // Generate a unique article ID
         const id = this.generateArticleId(title, link);
         
-        // 創建文章對象
+        // Create the article object
         const article = {
             id,
             title,
@@ -233,14 +233,14 @@ class RSSNewsAggregator {
             content: this.extractContent(item),
             author: item.author || item.creator || source.name,
             
-            // 添加智能元數據
+            // Add smart metadata
             ...this.addSmartMetadata(title, description, source)
         };
 
         return article;
     }
 
-    // 提取描述文本
+    // Extract description text
     extractDescription(item) {
         let description = '';
         
@@ -254,11 +254,11 @@ class RSSNewsAggregator {
             description = item['content:encoded'];
         }
         
-        // 清理HTML標籤
+        // Clean HTML tags and truncate
         return this.stripHtml(description).substring(0, 300);
     }
 
-    // 提取內容
+    // Extract content
     extractContent(item) {
         let content = '';
         
@@ -273,7 +273,7 @@ class RSSNewsAggregator {
         return this.stripHtml(content).substring(0, 500);
     }
 
-    // 清理HTML標籤
+    // Clean HTML tags
     stripHtml(html) {
         if (!html) return '';
         return html
@@ -288,7 +288,7 @@ class RSSNewsAggregator {
             .trim();
     }
 
-    // 解析日期
+    // Parse date string
     parseDate(dateString) {
         if (!dateString) return new Date();
         
@@ -299,7 +299,7 @@ class RSSNewsAggregator {
         }
     }
 
-    // 檢查文章是否為最近24小時內
+    // Check if the article is from the last 48 hours
     isRecentArticle(pubDate, hoursLimit = 48) {
         const articleDate = new Date(pubDate);
         const now = new Date();
@@ -307,13 +307,13 @@ class RSSNewsAggregator {
         return diffHours <= hoursLimit;
     }
 
-    // 生成文章ID
+    // Generate a unique article ID
     generateArticleId(title, link) {
         const combined = `${title}-${link}`;
         return Buffer.from(combined).toString('base64').substring(0, 16);
     }
 
-    // 添加智能元數據
+    // Add smart metadata
     addSmartMetadata(title, description, source) {
         const fullText = `${title} ${description}`.toLowerCase();
         
@@ -327,18 +327,18 @@ class RSSNewsAggregator {
         };
     }
 
-    // 估算閱讀時間
+    // Estimate reading time
     estimateReadTime(text) {
         const wordsPerMinute = 200;
         const wordCount = text.split(/\s+/).length;
         return Math.max(1, Math.ceil(wordCount / wordsPerMinute));
     }
 
-    // 計算重要性分數
+    // Calculate importance score
     calculateImportance(text, source) {
         let score = source.weight || 5;
         
-        // 關鍵詞加權
+        // Keyword weighting
         const importantKeywords = [
             'breaking', 'urgent', 'exclusive', 'first', 'new', 'launch',
             'ai', 'artificial intelligence', 'breakthrough', 'innovation',
@@ -354,7 +354,7 @@ class RSSNewsAggregator {
         return Math.min(10, score);
     }
 
-    // 提取標籤
+    // Extract tags
     extractTags(text) {
         const tags = [];
         const tagPatterns = {
@@ -376,10 +376,10 @@ class RSSNewsAggregator {
             }
         });
         
-        return tags.slice(0, 3); // 最多3個標籤
+        return tags.slice(0, 3); // Max 3 tags
     }
 
-    // 簡單的情感分析
+    // Simple sentiment analysis
     analyzeSentiment(text) {
         const positiveWords = ['good', 'great', 'excellent', 'amazing', 'breakthrough', 'success', 'win', 'growth', 'improve'];
         const negativeWords = ['bad', 'terrible', 'crisis', 'problem', 'issue', 'fail', 'decline', 'drop', 'concern', 'risk'];
@@ -400,7 +400,7 @@ class RSSNewsAggregator {
         return 'neutral';
     }
 
-    // 評估複雜度
+    // Assess complexity
     assessComplexity(text) {
         const technicalTerms = [
             'algorithm', 'api', 'framework', 'protocol', 'architecture',
@@ -417,7 +417,7 @@ class RSSNewsAggregator {
         return 'low';
     }
 
-    // 檢測文章類型
+    // Detect article type
     detectArticleType(text) {
         const typePatterns = {
             'news': /\b(report|announce|reveal|confirm|statement)\b/i,
@@ -436,13 +436,13 @@ class RSSNewsAggregator {
         return 'news';
     }
 
-    // 去重處理
+    // Deduplicate articles
     deduplicateArticles(articles) {
         const seen = new Set();
         const uniqueArticles = [];
         
         articles.forEach(article => {
-            // 使用標題的前50個字符作為去重依據
+            // Use the first 50 characters of the title as the deduplication key
             const titleKey = article.title.substring(0, 50).toLowerCase();
             
             if (!seen.has(titleKey)) {
@@ -454,10 +454,10 @@ class RSSNewsAggregator {
         return uniqueArticles;
     }
 
-    // 根據關鍵詞過濾和排序
+    // Filter and rank articles by keywords
     async filterAndRankArticles(articles) {
         try {
-            // 嘗試讀取關鍵詞文件
+            // Try to read the keywords file
             const keywordsPath = path.join(this.dataDir, 'keywords.json');
             let keywords = [];
             
@@ -466,12 +466,12 @@ class RSSNewsAggregator {
                 keywords = keywordsData.keywords || [];
             }
 
-            // 為每篇文章計算相關性分數
+            // Calculate relevance score for each article
             articles.forEach(article => {
                 let relevanceScore = article.importance || 5;
                 const fullText = `${article.title} ${article.description}`.toLowerCase();
                 
-                // 基於關鍵詞的相關性評分
+                // Keyword-based relevance scoring
                 keywords.forEach(keywordObj => {
                     const keyword = keywordObj.keyword?.toLowerCase();
                     if (keyword && fullText.includes(keyword)) {
@@ -479,24 +479,24 @@ class RSSNewsAggregator {
                     }
                 });
                 
-                // 時間新鮮度加權
+                // Time freshness weighting
                 const hoursAgo = (new Date() - new Date(article.pubDate)) / (1000 * 60 * 60);
                 const freshnessBonus = Math.max(0, 5 - hoursAgo * 0.5);
                 
                 article.relevanceScore = relevanceScore + freshnessBonus;
             });
 
-            // 排序：相關性分數降序
+            // Sort by relevance score, descending
             return articles.sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0));
             
         } catch (error) {
-            console.warn('排序時出錯:', error.message);
-            // 降級到簡單的時間排序
+            console.warn('Error during ranking:', error.message);
+            // Fallback to simple time-based sorting
             return articles.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
         }
     }
 
-    // 保存日報數據
+    // Save daily news data
     async saveDailyNews(articles, date = new Date()) {
         const dateString = date.toISOString().split('T')[0];
         const filePath = path.join(this.newsDir, `${dateString}.json`);
@@ -511,21 +511,21 @@ class RSSNewsAggregator {
         };
         
         fs.writeFileSync(filePath, JSON.stringify(newsData, null, 2));
-        console.log(`💾 已保存 ${articles.length} 篇文章到 ${dateString}.json`);
+        console.log(`💾 Saved ${articles.length} articles to ${dateString}.json`);
         
         return filePath;
     }
 
-    // 更新索引文件
+    // Update the index file
     async updateNewsIndex() {
         try {
             const newsFiles = fs.readdirSync(this.newsDir)
                 .filter(file => file.endsWith('.json'))
-                .sort((a, b) => b.localeCompare(a)); // 最新日期在前
+                .sort((a, b) => b.localeCompare(a)); // Newest date first
             
             const index = [];
             
-            for (const file of newsFiles.slice(0, 30)) { // 保留最近30天
+            for (const file of newsFiles.slice(0, 30)) { // Keep the last 30 days
                 const filePath = path.join(this.newsDir, file);
                 const newsData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
                 
@@ -554,20 +554,20 @@ class RSSNewsAggregator {
             };
             
             fs.writeFileSync(this.indexFile, JSON.stringify(indexData, null, 2));
-            console.log(`📇 已更新新聞索引，包含 ${index.length} 天的數據`);
+            console.log(`📇 Updated news index with ${index.length} days of data`);
             
         } catch (error) {
-            console.error('更新索引時出錯:', error.message);
+            console.error('Error updating news index:', error.message);
         }
     }
 
-    // 構建搜索索引
+    // Build the search index
     async buildSearchIndex() {
         try {
             const searchIndex = {};
             const newsFiles = fs.readdirSync(this.newsDir)
                 .filter(file => file.endsWith('.json'))
-                .slice(0, 7); // 最近7天
+                .slice(0, 7); // Last 7 days
             
             for (const file of newsFiles) {
                 const filePath = path.join(this.newsDir, file);
@@ -594,11 +594,11 @@ class RSSNewsAggregator {
                 });
             }
             
-            // 排序每個詞的結果
+            // Sort results for each word
             Object.keys(searchIndex).forEach(word => {
                 searchIndex[word] = searchIndex[word]
                     .sort((a, b) => b.relevance - a.relevance)
-                    .slice(0, 20); // 每個詞最多20個結果
+                    .slice(0, 20); // Max 20 results per word
             });
             
             const searchData = {
@@ -608,10 +608,10 @@ class RSSNewsAggregator {
             };
             
             fs.writeFileSync(this.searchIndexFile, JSON.stringify(searchData, null, 2));
-            console.log(`🔍 已構建搜索索引，包含 ${Object.keys(searchIndex).length} 個詞條`);
+            console.log(`🔍 Built search index with ${Object.keys(searchIndex).length} words`);
             
         } catch (error) {
-            console.error('構建搜索索引時出錯:', error.message);
+            console.error('Error building search index:', error.message);
         }
     }
 
@@ -636,15 +636,15 @@ class RSSNewsAggregator {
         return relevance;
     }
 
-    // 主執行函數
+    // Main execution function
     async fetchAllNews() {
-        console.log('🚀 開始RSS新聞聚合...');
+        console.log('🚀 Starting RSS news aggregation...');
         const startTime = Date.now();
         
         const sources = this.getNewsSources();
         const allArticles = [];
         
-        // 並行獲取所有RSS源
+        // Fetch all RSS sources in parallel
         const promises = sources.map(source => this.fetchRSSFeed(source));
         const results = await Promise.allSettled(promises);
         
@@ -652,21 +652,21 @@ class RSSNewsAggregator {
             if (result.status === 'fulfilled') {
                 allArticles.push(...result.value);
             } else {
-                console.error(`❌ ${sources[index].name} 獲取失敗:`, result.reason?.message);
+                console.error(`❌ Failed to fetch ${sources[index].name}:`, result.reason?.message);
             }
         });
         
-        console.log(`📊 總共獲取到 ${allArticles.length} 篇原始文章`);
+        console.log(`📊 Fetched a total of ${allArticles.length} raw articles`);
         
-        // 去重
+        // Deduplicate
         const uniqueArticles = this.deduplicateArticles(allArticles);
-        console.log(`🔄 去重後剩餘 ${uniqueArticles.length} 篇文章`);
+        console.log(`🔄 Remaining after deduplication: ${uniqueArticles.length} articles`);
         
-        // 過濾和排序
+        // Filter and rank
         const rankedArticles = await this.filterAndRankArticles(uniqueArticles);
-        console.log(`📈 完成智能排序和相關性評分`);
+        console.log(`📈 Completed smart sorting and relevance scoring`);
         
-        // 保存數據
+        // Save data
         await this.saveDailyNews(rankedArticles);
         await this.updateNewsIndex();
         await this.buildSearchIndex();
@@ -674,30 +674,30 @@ class RSSNewsAggregator {
         const endTime = Date.now();
         const duration = ((endTime - startTime) / 1000).toFixed(2);
         
-        console.log(`✅ RSS新聞聚合完成！`);
-        console.log(`⏱️  總耗時: ${duration}秒`);
-        console.log(`📰 最終文章數: ${rankedArticles.length}`);
-        console.log(`🎯 涵蓋來源: ${sources.length}個`);
+        console.log(`✅ RSS news aggregation complete!`);
+        console.log(`⏱️  Total time: ${duration}s`);
+        console.log(`📰 Final article count: ${rankedArticles.length}`);
+        console.log(`🎯 Covered sources: ${sources.length}`);
         
         return {
             success: true,
             totalArticles: rankedArticles.length,
             sources: sources.length,
             duration: duration,
-            articles: rankedArticles.slice(0, 10) // 返回前10篇用於預覽
+            articles: rankedArticles.slice(0, 10) // Return top 10 for preview
         };
     }
 }
 
-// 主函數
+// Main function
 async function main() {
     const aggregator = new RSSNewsAggregator();
     const result = await aggregator.fetchAllNews();
-    console.log('🎉 新聞聚合結果:', result);
+    console.log('🎉 News aggregation result:', result);
 }
 
 if (require.main === module) {
     main().catch(console.error);
 }
 
-module.exports = RSSNewsAggregator; 
+module.exports = RSSNewsAggregator;

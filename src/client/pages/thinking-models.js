@@ -92,7 +92,7 @@ class ThinkingModelsApp {
         document.getElementById('totalPapers').textContent = metadata.totalPapers;
         
         const lastUpdated = new Date(metadata.lastUpdated);
-        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('zh-TW');
+        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
     }
 
     renderModels() {
@@ -120,14 +120,14 @@ class ThinkingModelsApp {
                         <div class="resource-name">${model.name}</div>
                         <div class="model-category">${this.getCategoryName(model.category)}</div>
                         <div class="model-complexity">
-                            <span class="complexity-label">複雜度:</span>
+                            <span class="complexity-label">Complexity:</span>
                             <span class="complexity-value ${model.complexity.toLowerCase()}">${this.getComplexityText(model.complexity)}</span>
                         </div>
                     </div>
                     <div class="model-metrics">
-                        <div class="metric">📄 ${model.papers.length} 論文</div>
-                        <div class="metric">🔧 ${model.implementations.length} 實現</div>
-                        <div class="metric">🎯 ${model.applications.length} 應用</div>
+                        <div class="metric">📄 ${model.papers.length} Papers</div>
+                        <div class="metric">🔧 ${model.implementations.length} Implementations</div>
+                        <div class="metric">🎯 ${model.applications.length} Applications</div>
                     </div>
                 </div>
                 
@@ -136,7 +136,7 @@ class ThinkingModelsApp {
                 </div>
                 
                 <div class="model-techniques">
-                    <div class="techniques-title">關鍵技術</div>
+                    <div class="techniques-title">Key Techniques</div>
                     <div class="techniques-list">
                         ${model.keyTechniques.map(tech => `
                             <span class="technique-tag">${tech}</span>
@@ -145,7 +145,7 @@ class ThinkingModelsApp {
                 </div>
                 
                 <div class="model-applications">
-                    <div class="applications-title">應用領域</div>
+                    <div class="applications-title">Application Areas</div>
                     <div class="applications-list">
                         ${model.applications.map(app => `
                             <span class="application-tag">${app}</span>
@@ -154,7 +154,7 @@ class ThinkingModelsApp {
                 </div>
                 
                 <div class="model-effectiveness">
-                    <div class="effectiveness-title">效果評估</div>
+                    <div class="effectiveness-title">Effectiveness Evaluation</div>
                     <div class="effectiveness-grid">
                         ${Object.entries(model.effectiveness).map(([key, value]) => `
                             <div class="effectiveness-item">
@@ -169,7 +169,7 @@ class ThinkingModelsApp {
                 </div>
                 
                 <div class="model-papers">
-                    <div class="papers-title">相關論文</div>
+                    <div class="papers-title">Related Papers</div>
                     <div class="papers-list">
                         ${model.papers.slice(0, 2).map(paper => `
                             <div class="paper-item">
@@ -182,13 +182,13 @@ class ThinkingModelsApp {
                             </div>
                         `).join('')}
                         ${model.papers.length > 2 ? `
-                            <div class="more-papers">+${model.papers.length - 2} 更多論文</div>
+                            <div class="more-papers">+${model.papers.length - 2} more papers</div>
                         ` : ''}
                     </div>
                 </div>
                 
                 <div class="model-implementations">
-                    <div class="implementations-title">實現框架</div>
+                    <div class="implementations-title">Frameworks</div>
                     <div class="implementations-list">
                         ${model.implementations.map(impl => `
                             <a href="${impl.url}" target="_blank" rel="noopener noreferrer" class="implementation-link">
@@ -204,39 +204,39 @@ class ThinkingModelsApp {
 
     getCategoryName(category) {
         const categories = {
-            'economic': '經濟學模型',
-            'cognitive': '認知心理模型', 
-            'analytical': '分析思維模型',
-            'optimization': '最佳化模型',
-            'strategic': '戰略思維模型',
-            'systems': '系統思維模型',
-            'mathematical': '數學模型',
-            'philosophical': '哲學思辯模型',
-            'general': '通用模型'
+            'economic': 'Economic Models',
+            'cognitive': 'Cognitive Psychology Models', 
+            'analytical': 'Analytical Thinking Models',
+            'optimization': 'Optimization Models',
+            'strategic': 'Strategic Thinking Models',
+            'systems': 'Systems Thinking Models',
+            'mathematical': 'Mathematical Models',
+            'philosophical': 'Philosophical Models',
+            'general': 'General Models'
         };
         return categories[category] || category;
     }
 
     getComplexityText(complexity) {
         const complexities = {
-            'Low': '低',
-            'Medium': '中',
-            'High': '高'
+            'Low': 'Low',
+            'Medium': 'Medium',
+            'High': 'High'
         };
         return complexities[complexity] || complexity;
     }
 
     translateEffectivenessKey(key) {
         const translations = {
-            'decision_quality': '決策品質',
-            'thinking_clarity': '思維清晰度',
-            'problem_solving': '問題解決能力',
-            'accuracy': '準確性',
-            'efficiency': '效率',
-            'interpretability': '可解釋性',
-            'consistency': '一致性',
-            'robustness': '魯棒性',
-            'scalability': '可擴展性'
+            'decision_quality': 'Decision Quality',
+            'thinking_clarity': 'Clarity of Thought',
+            'problem_solving': 'Problem Solving',
+            'accuracy': 'Accuracy',
+            'efficiency': 'Efficiency',
+            'interpretability': 'Interpretability',
+            'consistency': 'Consistency',
+            'robustness': 'Robustness',
+            'scalability': 'Scalability'
         };
         return translations[key] || key;
     }
@@ -244,9 +244,9 @@ class ThinkingModelsApp {
     renderEmptyState() {
         return `
             <div class="empty-state">
-                <h3>🔍 未找到匹配的思維模型</h3>
-                <p>請嘗試調整搜索條件或選擇不同的分類</p>
-                <p>或者清空搜索框查看所有模型</p>
+                <h3>🔍 No matching thinking models found</h3>
+                <p>Try adjusting your search terms or selecting a different category.</p>
+                <p>Or clear the search box to see all models.</p>
             </div>
         `;
     }
@@ -255,10 +255,10 @@ class ThinkingModelsApp {
         const container = document.getElementById('resourcesGrid');
         container.innerHTML = `
             <div class="empty-state">
-                <h3>⚠️ 載入失敗</h3>
-                <p>無法載入思維模型數據，請檢查網路連接或稍後再試</p>
+                <h3>⚠️ Load Failed</h3>
+                <p>Could not load thinking model data. Please check your connection or try again later.</p>
                 <button onclick="location.reload()" class="resource-link" style="margin-top: 1rem; display: inline-block;">
-                    重新載入
+                    Reload
                 </button>
             </div>
         `;
@@ -273,6 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add loading animation
 document.getElementById('resourcesGrid').innerHTML = `
     <div class="loading">
-        載入思維模型中...
+        Loading Thinking Models...
     </div>
-`; 
+`;

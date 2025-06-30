@@ -9,7 +9,7 @@ class NewsProcessor {
         this.updateLogFile = path.join(this.dataDir, 'update-log.json');
     }
 
-    // 獲取最新的新聞文件
+    // Get the latest news file
     getLatestNewsFile() {
         const newsFiles = fs.readdirSync(this.newsDir)
             .filter(file => file.endsWith('.json'))
@@ -18,7 +18,7 @@ class NewsProcessor {
         return newsFiles.length > 0 ? newsFiles[0] : null;
     }
 
-    // 加載關鍵詞數據
+    // Load keyword data
     loadKeywords() {
         try {
             const keywordsFile = path.join(this.dataDir, 'keywords.json');
@@ -26,13 +26,13 @@ class NewsProcessor {
             
             let keywords = [];
             
-            // 加載靜態關鍵詞
+            // Load static keywords
             if (fs.existsSync(keywordsFile)) {
                 const keywordsData = JSON.parse(fs.readFileSync(keywordsFile, 'utf8'));
                 keywords = keywords.concat(keywordsData.keywords || []);
             }
             
-            // 加載動態關鍵詞
+            // Load dynamic keywords
             if (fs.existsSync(dynamicKeywordsFile)) {
                 const dynamicKeywordsData = JSON.parse(fs.readFileSync(dynamicKeywordsFile, 'utf8'));
                 keywords = keywords.concat(dynamicKeywordsData.keywords || []);
@@ -40,18 +40,18 @@ class NewsProcessor {
             
             return keywords;
         } catch (error) {
-            console.warn('載入關鍵詞失敗:', error.message);
+            console.warn('Failed to load keywords:', error.message);
             return [];
         }
     }
 
-    // 重新計算文章相關性分數
+    // Recalculate article relevance scores
     recalculateRelevanceScores(articles, keywords) {
         return articles.map(article => {
             let score = article.weight || 5;
             const fullText = `${article.title} ${article.description}`.toLowerCase();
             
-            // 基於關鍵詞的相關性評分
+            // Keyword-based relevance scoring
             keywords.forEach(keywordObj => {
                 const keyword = keywordObj.keyword?.toLowerCase();
                 if (keyword && fullText.includes(keyword)) {
@@ -59,11 +59,11 @@ class NewsProcessor {
                 }
             });
             
-            // 時間新鮮度加權
+            // Time freshness weighting
             const hoursAgo = (new Date() - new Date(article.pubDate)) / (1000 * 60 * 60);
             const freshnessBonus = Math.max(0, 10 - hoursAgo * 0.2);
             
-            // 來源權威性加權
+            // Source authority weighting
             const sourceWeights = {
                 'BBC News': 10,
                 'Reuters': 10,
@@ -87,7 +87,7 @@ class NewsProcessor {
             
             const sourceBonus = sourceWeights[article.source] || 5;
             
-            // 文章類型加權
+            // Article type weighting
             const typeWeights = {
                 'analysis': 3,
                 'news': 2,
@@ -98,7 +98,7 @@ class NewsProcessor {
             
             const typeBonus = typeWeights[article.type] || 1;
             
-            // 情感分析加權
+            // Sentiment analysis weighting
             const sentimentBonus = article.sentiment === 'positive' ? 1 : 
                                  article.sentiment === 'negative' ? -0.5 : 0;
             
@@ -112,29 +112,29 @@ class NewsProcessor {
         });
     }
 
-    // 文章分類和標籤優化
+    // Enhance article classification and tags
     enhanceArticleMetadata(articles) {
         return articles.map(article => {
             const enhanced = { ...article };
             
-            // 增強標籤系統
+            // Enhance tag system
             const additionalTags = this.extractAdditionalTags(article.title + ' ' + article.description);
             enhanced.tags = [...(article.tags || []), ...additionalTags].slice(0, 5);
             
-            // 增強分類
+            // Enhance category
             enhanced.category = this.refineCategory(article, enhanced.tags);
             
-            // 添加推薦分數
+            // Add recommendation score
             enhanced.recommendationScore = this.calculateRecommendationScore(article);
             
-            // 添加閱讀難度
+            // Add reading difficulty
             enhanced.readingLevel = this.assessReadingLevel(article.title + ' ' + article.description);
             
             return enhanced;
         });
     }
 
-    // 提取額外標籤
+    // Extract additional tags
     extractAdditionalTags(text) {
         const lowerText = text.toLowerCase();
         const additionalTags = [];
@@ -166,13 +166,13 @@ class NewsProcessor {
         return additionalTags;
     }
 
-    // 精細化分類
+    // Refine category
     refineCategory(article, tags) {
         const title = article.title.toLowerCase();
         const description = article.description.toLowerCase();
         const fullText = title + ' ' + description;
         
-        // 基於內容的分類規則
+        // Content-based categorization rules
         const categoryRules = {
             'ai-ml': /\b(ai|artificial intelligence|machine learning|deep learning|neural network|chatgpt|gpt|llm)\b/i,
             'blockchain': /\b(blockchain|bitcoin|crypto|ethereum|nft|web3|defi)\b/i,
@@ -200,24 +200,24 @@ class NewsProcessor {
         return article.category || 'general';
     }
 
-    // 計算推薦分數
+    // Calculate recommendation score
     calculateRecommendationScore(article) {
         let score = 0;
         
-        // 基礎分數
+        // Base score
         score += article.relevanceScore || 0;
         
-        // 社交指標模擬（基於標題吸引力）
+        // Social metrics simulation (based on title appeal)
         const title = article.title.toLowerCase();
         if (title.includes('new') || title.includes('first') || title.includes('launch')) score += 2;
         if (title.includes('vs') || title.includes('compared') || title.includes('better')) score += 1;
         if (title.includes('why') || title.includes('how') || title.includes('what')) score += 1.5;
         if (title.includes('best') || title.includes('worst') || title.includes('top')) score += 1;
         
-        // 長度加權
+        // Length weighting
         if (article.title.length > 50 && article.title.length < 100) score += 0.5;
         
-        // 標籤加權
+        // Tag weighting
         const premiumTags = ['Breaking', 'Exclusive', 'Analysis'];
         premiumTags.forEach(tag => {
             if (article.tags && article.tags.includes(tag)) score += 2;
@@ -226,13 +226,13 @@ class NewsProcessor {
         return Math.round(score * 100) / 100;
     }
 
-    // 評估閱讀難度
+    // Assess reading difficulty
     assessReadingLevel(text) {
         const words = text.split(/\s+/).length;
         const sentences = text.split(/[.!?]+/).length;
         const complexWords = text.split(/\s+/).filter(word => word.length > 6).length;
         
-        // 簡化的閱讀難度評估
+        // Simplified reading difficulty assessment
         const avgWordsPerSentence = words / Math.max(sentences, 1);
         const complexWordRatio = complexWords / Math.max(words, 1);
         
@@ -241,12 +241,12 @@ class NewsProcessor {
         return 'beginner';
     }
 
-    // 創建排名索引
+    // Create ranked index
     createRankedIndex(articles) {
-        // 按相關性分數排序
+        // Sort by relevance score
         const sortedArticles = [...articles].sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0));
         
-        // 創建分類索引
+        // Create category index
         const categoryIndex = {};
         sortedArticles.forEach(article => {
             const category = article.category || 'general';
@@ -263,7 +263,7 @@ class NewsProcessor {
             });
         });
         
-        // 限制每個分類的文章數量
+        // Limit the number of articles per category
         Object.keys(categoryIndex).forEach(category => {
             categoryIndex[category] = categoryIndex[category].slice(0, 20);
         });
@@ -296,7 +296,7 @@ class NewsProcessor {
         };
     }
 
-    // 記錄更新日誌
+    // Log update operation
     logUpdate(operation, details) {
         let updateLog = { updates: [] };
         
@@ -310,59 +310,59 @@ class NewsProcessor {
             details: details
         });
         
-        // 保留最近100條記錄
+        // Keep the last 100 records
         updateLog.updates = updateLog.updates.slice(0, 100);
         updateLog.lastUpdated = new Date().toISOString();
         
         fs.writeFileSync(this.updateLogFile, JSON.stringify(updateLog, null, 2));
     }
 
-    // 主處理函數
+    // Main processing function
     async processLatestNews() {
-        console.log('🔄 開始處理最新新聞...');
+        console.log('🔄 Starting to process the latest news...');
         
         try {
-            // 獲取最新新聞文件
+            // Get the latest news file
             const latestFile = this.getLatestNewsFile();
             if (!latestFile) {
-                console.log('❌ 沒有找到新聞文件');
+                console.log('❌ No news file found.');
                 return;
             }
             
-            console.log(`📄 處理文件: ${latestFile}`);
+            console.log(`📄 Processing file: ${latestFile}`);
             
-            // 載入新聞數據
+            // Load news data
             const newsFilePath = path.join(this.newsDir, latestFile);
             const newsData = JSON.parse(fs.readFileSync(newsFilePath, 'utf8'));
             
             if (!newsData.articles || newsData.articles.length === 0) {
-                console.log('❌ 新聞文件中沒有文章');
+                console.log('❌ No articles in the news file.');
                 return;
             }
             
-            console.log(`📊 原始文章數: ${newsData.articles.length}`);
+            console.log(`📊 Original article count: ${newsData.articles.length}`);
             
-            // 載入關鍵詞
+            // Load keywords
             const keywords = this.loadKeywords();
-            console.log(`🔑 載入關鍵詞數: ${keywords.length}`);
+            console.log(`🔑 Loaded keywords: ${keywords.length}`);
             
-            // 重新計算相關性分數
+            // Recalculate relevance scores
             let processedArticles = this.recalculateRelevanceScores(newsData.articles, keywords);
-            console.log('✅ 完成相關性分數計算');
+            console.log('✅ Completed relevance score calculation.');
             
-            // 增強文章元數據
+            // Enhance article metadata
             processedArticles = this.enhanceArticleMetadata(processedArticles);
-            console.log('✅ 完成元數據增強');
+            console.log('✅ Completed metadata enhancement.');
             
-            // 創建排名索引
+            // Create ranked index
             const rankedIndex = this.createRankedIndex(processedArticles);
-            console.log('✅ 完成排名索引創建');
+            console.log('✅ Completed ranked index creation.');
             
-            // 保存排名索引
+            // Save ranked index
             fs.writeFileSync(this.rankedIndexFile, JSON.stringify(rankedIndex, null, 2));
-            console.log(`💾 已保存排名索引到 ranked-news-index.json`);
+            console.log(`💾 Saved ranked index to ranked-news-index.json`);
             
-            // 更新原始新聞文件
+            // Update the original news file
             const updatedNewsData = {
                 ...newsData,
                 articles: processedArticles,
@@ -371,9 +371,9 @@ class NewsProcessor {
             };
             
             fs.writeFileSync(newsFilePath, JSON.stringify(updatedNewsData, null, 2));
-            console.log(`💾 已更新原始新聞文件`);
+            console.log(`💾 Updated the original news file.`);
             
-            // 記錄更新日誌
+            // Log the update
             this.logUpdate('process-news', {
                 file: latestFile,
                 totalArticles: processedArticles.length,
@@ -382,10 +382,10 @@ class NewsProcessor {
                 sourcesCount: rankedIndex.stats.totalSources
             });
             
-            console.log('✅ 新聞處理完成！');
-            console.log(`📈 平均相關性分數: ${rankedIndex.stats.avgRelevanceScore.toFixed(2)}`);
-            console.log(`📊 分類數: ${rankedIndex.stats.totalCategories}`);
-            console.log(`🎯 來源數: ${rankedIndex.stats.totalSources}`);
+            console.log('✅ News processing complete!');
+            console.log(`📈 Average relevance score: ${rankedIndex.stats.avgRelevanceScore.toFixed(2)}`);
+            console.log(`📊 Category count: ${rankedIndex.stats.totalCategories}`);
+            console.log(`🎯 Source count: ${rankedIndex.stats.totalSources}`);
             
             return {
                 success: true,
@@ -394,7 +394,7 @@ class NewsProcessor {
             };
             
         } catch (error) {
-            console.error('❌ 處理新聞時出錯:', error.message);
+            console.error('❌ Error processing news:', error.message);
             
             this.logUpdate('process-news-error', {
                 error: error.message,
@@ -409,15 +409,15 @@ class NewsProcessor {
     }
 }
 
-// 主函數
+// Main function
 async function main() {
     const processor = new NewsProcessor();
     const result = await processor.processLatestNews();
     
     if (result.success) {
-        console.log('🎉 新聞處理成功完成！');
+        console.log('🎉 News processing finished successfully!');
     } else {
-        console.error('💥 新聞處理失敗:', result.error);
+        console.error('💥 News processing failed:', result.error);
         process.exit(1);
     }
 }
@@ -426,4 +426,4 @@ if (require.main === module) {
     main().catch(console.error);
 }
 
-module.exports = NewsProcessor; 
+module.exports = NewsProcessor;

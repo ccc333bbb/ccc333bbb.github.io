@@ -93,7 +93,7 @@ class MCPServersApp {
         document.getElementById('activeServers').textContent = metadata.activeServers;
         
         const lastUpdated = new Date(metadata.lastUpdated);
-        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('zh-TW');
+        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
     }
 
     renderServers() {
@@ -174,7 +174,7 @@ class MCPServersApp {
                 </div>
                 
                 <div class="server-capabilities">
-                    <div class="capabilities-title">功能能力</div>
+                    <div class="capabilities-title">Capabilities</div>
                     <div class="capabilities-list">
                         ${server.capabilities.map(cap => `
                             <span class="capability-tag">${this.translateCapability(cap)}</span>
@@ -183,14 +183,14 @@ class MCPServersApp {
                 </div>
                 
                 <div class="server-compatibility">
-                    <div class="compatibility-title">兼容性</div>
+                    <div class="compatibility-title">Compatibility</div>
                     <div class="compatibility-list">
                         ${compatibilityIcons}
                     </div>
                 </div>
                 
                 <div class="server-installation">
-                    <div class="installation-title">安裝方式</div>
+                    <div class="installation-title">Installation</div>
                     <div class="installation-info">
                         <div class="npm-package">📦 ${server.installation.npm}</div>
                         <div class="requirements">
@@ -209,10 +209,10 @@ class MCPServersApp {
                 
                 <div class="resource-actions">
                     <a href="${server.repository}" target="_blank" rel="noopener noreferrer" class="resource-link">
-                        查看倉庫 🔗
+                        View Repository 🔗
                     </a>
                     <div class="last-commit">
-                        最後提交: ${server.status.lastCommit || '未知'}
+                        Last commit: ${server.status.lastCommit || 'Unknown'}
                     </div>
                 </div>
             </div>
@@ -231,9 +231,9 @@ class MCPServersApp {
     renderEmptyState() {
         return `
             <div class="empty-state">
-                <h3>🔍 未找到匹配的 MCP 服務器</h3>
-                <p>請嘗試調整搜索條件或選擇不同的分類</p>
-                <p>或者清空搜索框查看所有服務器</p>
+                <h3>🔍 No matching MCP servers found</h3>
+                <p>Try adjusting your search terms or selecting a different category.</p>
+                <p>Or clear the search box to see all servers.</p>
             </div>
         `;
     }
@@ -249,55 +249,55 @@ class MCPServersApp {
 
     getStatusText(health) {
         switch (health) {
-            case 'active': return '活躍維護';
-            case 'maintenance': return '維護中';
-            case 'inactive': return '不活躍';
-            default: return '狀態未知';
+            case 'active': return 'Active';
+            case 'maintenance': return 'Maintenance';
+            case 'inactive': return 'Inactive';
+            default: return 'Unknown';
         }
     }
 
     translateCapability(capability) {
         const translations = {
-            'read_pages': '讀取頁面',
-            'create_pages': '創建頁面',
-            'update_pages': '更新頁面',
-            'search_content': '搜索內容',
-            'manage_blocks': '管理區塊',
-            'repository_info': '倉庫信息',
-            'file_operations': '文件操作',
-            'issue_management': '問題管理',
-            'pull_requests': 'PR 管理',
-            'search_code': '代碼搜索',
-            'read_files': '讀取文件',
-            'write_files': '寫入文件',
-            'list_directories': '列表目錄',
-            'file_search': '文件搜索',
-            'file_permissions': '文件權限',
-            'list_files': '列表文件',
-            'upload_files': '上傳文件',
-            'download_files': '下載文件',
-            'share_files': '分享文件',
-            'search_drive': '搜索雲盤',
-            'send_messages': '發送消息',
-            'read_channels': '讀取頻道',
-            'user_management': '用戶管理',
-            'file_sharing': '文件分享',
-            'channel_management': '頻道管理',
-            'sql_queries': 'SQL 查詢',
-            'schema_inspection': '模式檢查',
-            'data_export': '數據導出',
-            'table_operations': '表操作',
-            'connection_pooling': '連接池',
-            'fetch_webpage': '抓取網頁',
-            'extract_text': '提取文本',
-            'parse_html': '解析 HTML',
-            'follow_links': '跟蹤鏈接',
-            'screenshot_capture': '截圖',
-            'send_email': '發送郵件',
-            'read_inbox': '讀取收件箱',
-            'email_templates': '郵件模板',
-            'attachment_handling': '附件處理',
-            'filter_management': '過濾管理'
+            'read_pages': 'Read Pages',
+            'create_pages': 'Create Pages',
+            'update_pages': 'Update Pages',
+            'search_content': 'Search Content',
+            'manage_blocks': 'Manage Blocks',
+            'repository_info': 'Repo Info',
+            'file_operations': 'File Operations',
+            'issue_management': 'Issue Management',
+            'pull_requests': 'PR Management',
+            'search_code': 'Code Search',
+            'read_files': 'Read Files',
+            'write_files': 'Write Files',
+            'list_directories': 'List Directories',
+            'file_search': 'File Search',
+            'file_permissions': 'File Permissions',
+            'list_files': 'List Files',
+            'upload_files': 'Upload Files',
+            'download_files': 'Download Files',
+            'share_files': 'Share Files',
+            'search_drive': 'Search Drive',
+            'send_messages': 'Send Messages',
+            'read_channels': 'Read Channels',
+            'user_management': 'User Management',
+            'file_sharing': 'File Sharing',
+            'channel_management': 'Channel Management',
+            'sql_queries': 'SQL Queries',
+            'schema_inspection': 'Schema Inspection',
+            'data_export': 'Data Export',
+            'table_operations': 'Table Operations',
+            'connection_pooling': 'Connection Pooling',
+            'fetch_webpage': 'Fetch Webpage',
+            'extract_text': 'Extract Text',
+            'parse_html': 'Parse HTML',
+            'follow_links': 'Follow Links',
+            'screenshot_capture': 'Screenshot',
+            'send_email': 'Send Email',
+            'read_inbox': 'Read Inbox',
+            'email_templates': 'Email Templates',
+            'attachment_handling': 'Attachment Handling',
+            'filter_management': 'Filter Management'
         };
         return translations[capability] || capability;
     }
@@ -306,10 +306,10 @@ class MCPServersApp {
         const container = document.getElementById('resourcesGrid');
         container.innerHTML = `
             <div class="empty-state">
-                <h3>⚠️ 載入失敗</h3>
-                <p>無法載入 MCP 服務器數據，請檢查網路連接或稍後再試</p>
+                <h3>⚠️ Load Failed</h3>
+                <p>Could not load MCP server data. Please check your connection or try again later.</p>
                 <button onclick="location.reload()" class="resource-link" style="margin-top: 1rem; display: inline-block;">
-                    重新載入
+                    Reload
                 </button>
             </div>
         `;
@@ -324,6 +324,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add loading animation
 document.getElementById('resourcesGrid').innerHTML = `
     <div class="loading">
-        載入 MCP 服務器中...
+        Loading MCP Servers...
     </div>
-`; 
+`;

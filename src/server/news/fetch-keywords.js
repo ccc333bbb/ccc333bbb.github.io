@@ -18,7 +18,7 @@ class KeywordsFetcher {
         }
     }
 
-    // Google Trends RSS URLs (免費且無需API key)
+    // Google Trends RSS URLs (free and no API key required)
     getTrendsUrls() {
         return {
             general: 'https://trends.google.com/trends/trendingsearches/daily/rss?geo=US',
@@ -29,7 +29,7 @@ class KeywordsFetcher {
         };
     }
 
-    // 獲取Reddit熱門話題 (免費API)
+    // Fetch popular topics from Reddit (free API)
     async fetchRedditTrends() {
         try {
             const subreddits = ['news', 'worldnews', 'technology', 'science'];
@@ -74,7 +74,7 @@ class KeywordsFetcher {
         }
     }
 
-    // 獲取Google Trends
+    // Fetch Google Trends
     async fetchGoogleTrends() {
         const keywords = [];
         const trendsUrls = this.getTrendsUrls();
@@ -107,7 +107,7 @@ class KeywordsFetcher {
         return keywords;
     }
 
-    // 從HackerNews獲取熱門話題
+    // Fetch popular topics from HackerNews
     async fetchHackerNewsTrends() {
         try {
             const response = await axios.get('https://hacker-news.firebaseio.com/v0/topstories.json', {
@@ -148,10 +148,10 @@ class KeywordsFetcher {
         }
     }
 
-    // 獲取GitHub Trending話題
+    // Fetch GitHub Trending topics
     async fetchGitHubTrends() {
         try {
-            // GitHub的trending頁面可以通過RSS獲取
+            // GitHub's trending page can be fetched via RSS
             const response = await axios.get('https://github.com/trending?since=daily', {
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (compatible; NewsAggregator/1.0)'
@@ -160,7 +160,7 @@ class KeywordsFetcher {
             });
 
             const keywords = [];
-            // 這裡可以解析HTML來提取關鍵詞，但為了簡化，我們使用預定義的技術關鍵詞
+            // For simplicity, we use predefined tech keywords instead of parsing HTML
             const techKeywords = [
                 'JavaScript', 'Python', 'TypeScript', 'React', 'Vue', 'Angular',
                 'Node.js', 'Docker', 'Kubernetes', 'AI', 'Machine Learning',
@@ -172,7 +172,7 @@ class KeywordsFetcher {
                     keyword: keyword,
                     source: 'github-trending',
                     category: 'development',
-                    score: Math.floor(Math.random() * 100) // 模擬分數
+                    score: Math.floor(Math.random() * 100) // Simulate a score
                 });
             });
 
@@ -183,7 +183,7 @@ class KeywordsFetcher {
         }
     }
 
-    // 提取關鍵詞
+    // Extract keywords from text
     extractKeywords(text) {
         return text
             .replace(/[^\w\s]/g, ' ')
@@ -192,7 +192,7 @@ class KeywordsFetcher {
             .map(word => word.toLowerCase());
     }
 
-    // 檢查是否為常見詞
+    // Check if a word is a common word
     isCommonWord(word) {
         const commonWords = [
             'the', 'and', 'for', 'are', 'but', 'not', 'you', 'all', 'can', 'had', 'her',
@@ -230,7 +230,7 @@ class KeywordsFetcher {
         }));
     }
 
-    // 合併和處理關鍵詞
+    // Merge and process keywords
     processKeywords(allKeywords) {
         const keywordMap = new Map();
         
@@ -251,15 +251,15 @@ class KeywordsFetcher {
             }
         });
 
-        // 轉換為數組並排序
+        // Convert to array, sort, and keep the top 100
         const processed = Array.from(keywordMap.values())
             .sort((a, b) => b.score - a.score)
-            .slice(0, 100); // 保留前100個關鍵詞
+            .slice(0, 100); 
 
         return processed;
     }
 
-    // 生成靜態關鍵詞作為後備
+    // Generate static keywords as a fallback
     getStaticKeywords() {
         return {
             trending: [
@@ -284,12 +284,12 @@ class KeywordsFetcher {
     }
 
     async fetchAllKeywords() {
-        console.log('🔍 開始獲取熱門關鍵詞...');
+        console.log('🔍 Starting to fetch trending keywords...');
         
         const allKeywords = [];
         
         try {
-            // 並行獲取各個來源
+            // Fetch from all sources in parallel
             const [googleTrends, redditTrends, hackerNewsTrends, githubTrends] = await Promise.allSettled([
                 this.fetchGoogleTrends(),
                 this.fetchRedditTrends(),
@@ -299,31 +299,31 @@ class KeywordsFetcher {
 
             if (googleTrends.status === 'fulfilled') {
                 allKeywords.push(...googleTrends.value);
-                console.log(`✅ Google Trends: ${googleTrends.value.length} 個關鍵詞`);
+                console.log(`✅ Google Trends: ${googleTrends.value.length} keywords`);
             }
             
             if (redditTrends.status === 'fulfilled') {
                 allKeywords.push(...redditTrends.value);
-                console.log(`✅ Reddit: ${redditTrends.value.length} 個關鍵詞`);
+                console.log(`✅ Reddit: ${redditTrends.value.length} keywords`);
             }
             
             if (hackerNewsTrends.status === 'fulfilled') {
                 allKeywords.push(...hackerNewsTrends.value);
-                console.log(`✅ HackerNews: ${hackerNewsTrends.value.length} 個關鍵詞`);
+                console.log(`✅ HackerNews: ${hackerNewsTrends.value.length} keywords`);
             }
             
             if (githubTrends.status === 'fulfilled') {
                 allKeywords.push(...githubTrends.value);
-                console.log(`✅ GitHub: ${githubTrends.value.length} 個關鍵詞`);
+                console.log(`✅ GitHub: ${githubTrends.value.length} keywords`);
             }
 
         } catch (error) {
-            console.error('獲取關鍵詞時出錯:', error.message);
+            console.error('Error fetching keywords:', error.message);
         }
 
-        // 如果沒有獲取到足夠的關鍵詞，使用靜態關鍵詞
+        // If not enough dynamic keywords were fetched, supplement with static ones
         if (allKeywords.length < 10) {
-            console.log('⚠️ 動態關鍵詞不足，使用靜態關鍵詞補充');
+            console.log('⚠️ Not enough dynamic keywords, supplementing with static keywords.');
             const staticKeywords = this.getStaticKeywords();
             Object.entries(staticKeywords).forEach(([category, keywords]) => {
                 keywords.forEach(keyword => {
@@ -339,7 +339,7 @@ class KeywordsFetcher {
 
         const processedKeywords = this.processKeywords(allKeywords);
         
-        // 保存處理後的關鍵詞
+        // Save the processed keywords
         const keywordsData = {
             lastUpdated: new Date().toISOString(),
             totalKeywords: processedKeywords.length,
@@ -350,17 +350,17 @@ class KeywordsFetcher {
         fs.writeFileSync(this.keywordsFile, JSON.stringify(keywordsData, null, 2));
         fs.writeFileSync(this.dynamicKeywordsFile, JSON.stringify({
             lastUpdated: new Date().toISOString(),
-            keywords: processedKeywords.slice(0, 50) // 只保存前50個動態關鍵詞
+            keywords: processedKeywords.slice(0, 50) // Save only the top 50 dynamic keywords
         }, null, 2));
 
-        console.log(`✅ 關鍵詞獲取完成！總共處理了 ${processedKeywords.length} 個關鍵詞`);
-        console.log(`🎯 前10個熱門關鍵詞: ${processedKeywords.slice(0, 10).map(k => k.keyword).join(', ')}`);
+        console.log(`✅ Keyword fetching complete! Processed ${processedKeywords.length} keywords.`);
+        console.log(`🎯 Top 10 trending keywords: ${processedKeywords.slice(0, 10).map(k => k.keyword).join(', ')}`);
         
         return keywordsData;
     }
 }
 
-// 主函數
+// Main function
 async function main() {
     const fetcher = new KeywordsFetcher();
     await fetcher.fetchAllKeywords();
@@ -370,4 +370,4 @@ if (require.main === module) {
     main().catch(console.error);
 }
 
-module.exports = KeywordsFetcher; 
+module.exports = KeywordsFetcher;

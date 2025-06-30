@@ -107,7 +107,7 @@ class FTDDResourcesApp {
         document.getElementById('healthyServices').textContent = metadata.healthyServices;
         
         const lastUpdated = new Date(metadata.lastUpdated);
-        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('zh-TW');
+        document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
     }
 
     renderResources() {
@@ -147,7 +147,7 @@ class FTDDResourcesApp {
 
     renderResourceCard(service) {
         const statusClass = this.getStatusClass(service.status.health);
-        const responseTime = service.status.responseTime ? `${service.status.responseTime}ms` : '測試中';
+        const responseTime = service.status.responseTime ? `${service.status.responseTime}ms` : 'Testing...';
         
         return `
             <div class="resource-card">
@@ -166,7 +166,7 @@ class FTDDResourcesApp {
                 </div>
                 
                 <div class="resource-quota">
-                    <div class="quota-title">免費額度</div>
+                    <div class="quota-title">Free Tier</div>
                     <div class="quota-list">
                         ${Object.entries(service.freeQuota).map(([key, value]) => `
                             <div class="quota-item">
@@ -178,7 +178,7 @@ class FTDDResourcesApp {
                 </div>
                 
                 <div class="resource-features">
-                    <div class="features-title">主要功能</div>
+                    <div class="features-title">Key Features</div>
                     <div class="features-list">
                         ${service.features.map(feature => `
                             <span class="feature-tag">${feature}</span>
@@ -194,7 +194,7 @@ class FTDDResourcesApp {
                 
                 <div class="resource-actions">
                     <a href="${service.url}" target="_blank" rel="noopener noreferrer" class="resource-link">
-                        訪問服務 🚀
+                        Visit Service 🚀
                     </a>
                     <div class="response-time">${responseTime}</div>
                 </div>
@@ -205,9 +205,9 @@ class FTDDResourcesApp {
     renderEmptyState() {
         return `
             <div class="empty-state">
-                <h3>🔍 未找到匹配的資源</h3>
-                <p>請嘗試調整搜索條件或選擇不同的分類</p>
-                <p>或者清空搜索框查看所有資源</p>
+                <h3>🔍 No matching resources found</h3>
+                <p>Try adjusting your search terms or selecting a different category.</p>
+                <p>Or clear the search box to see all resources.</p>
             </div>
         `;
     }
@@ -224,46 +224,46 @@ class FTDDResourcesApp {
 
     getStatusText(health) {
         switch (health) {
-            case 'healthy': return '正常運行';
-            case 'warning': return '部分問題';
-            case 'unhealthy': return '服務異常';
-            case 'discontinued': return '已停服';
-            default: return '狀態未知';
+            case 'healthy': return 'Operational';
+            case 'warning': return 'Partial Outage';
+            case 'unhealthy': return 'Major Outage';
+            case 'discontinued': return 'Discontinued';
+            default: return 'Unknown Status';
         }
     }
 
     translateQuotaKey(key) {
         const translations = {
-            'bandwidth': '頻寬',
-            'builds': '構建',
-            'functions': '函數',
-            'domains': '域名',
-            'storage': '存儲空間',
-            'requests': '請求次數',
-            'users': '用戶數',
-            'reads': '讀取次數',
-            'writes': '寫入次數',
-            'branches': '分支數',
-            'models': '模型',
-            'datasets': '數據集',
-            'inference': '推理次數',
+            'bandwidth': 'Bandwidth',
+            'builds': 'Builds',
+            'functions': 'Functions',
+            'domains': 'Domains',
+            'storage': 'Storage',
+            'requests': 'Requests',
+            'users': 'Users',
+            'reads': 'Reads',
+            'writes': 'Writes',
+            'branches': 'Branches',
+            'models': 'Models',
+            'datasets': 'Datasets',
+            'inference': 'Inference',
             'spaces': 'Spaces',
-            'credit': '免費額度',
-            'rate_limit': '請求限制',
-            'cpu_time': 'CPU 時間',
-            'workers': 'Worker 數',
-            'kv_operations': 'KV 操作',
-            'deployments': '部署次數',
-            'monitors': '監控數',
-            'interval': '檢查間隔',
-            'sms': 'SMS 次數',
-            'retention': '數據保留',
-            'packages': '包支持',
-            'uptime': '可用性',
-            'bins': 'Bin 數',
-            'sandboxes': '沙盒數',
-            'private': '私人項目',
-            'collaborators': '協作者'
+            'credit': 'Free Credit',
+            'rate_limit': 'Rate Limit',
+            'cpu_time': 'CPU Time',
+            'workers': 'Workers',
+            'kv_operations': 'KV Operations',
+            'deployments': 'Deployments',
+            'monitors': 'Monitors',
+            'interval': 'Check Interval',
+            'sms': 'SMS',
+            'retention': 'Data Retention',
+            'packages': 'Package Support',
+            'uptime': 'Uptime',
+            'bins': 'Bins',
+            'sandboxes': 'Sandboxes',
+            'private': 'Private Projects',
+            'collaborators': 'Collaborators'
         };
         return translations[key] || key;
     }
@@ -272,10 +272,10 @@ class FTDDResourcesApp {
         const container = document.getElementById('resourcesGrid');
         container.innerHTML = `
             <div class="empty-state">
-                <h3>⚠️ 載入失敗</h3>
-                <p>無法載入資源數據，請檢查網路連接或稍後再試</p>
+                <h3>⚠️ Load Failed</h3>
+                <p>Could not load resource data. Please check your connection or try again later.</p>
                 <button onclick="location.reload()" class="resource-link" style="margin-top: 1rem; display: inline-block;">
-                    重新載入
+                    Reload
                 </button>
             </div>
         `;
@@ -290,6 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add loading animation
 document.getElementById('resourcesGrid').innerHTML = `
     <div class="loading">
-        載入 FTDD 資源中...
+        Loading FTDD Resources...
     </div>
-`; 
+`;
