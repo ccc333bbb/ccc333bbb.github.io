@@ -1,20 +1,23 @@
 {
-  "lastUpdated": "2025-07-09T16:49:20.661Z",
+  "lastUpdated": "2025-07-09T17:15:01.114Z",
   "totalArticles": 54,
   "categories": [
     "ai-ml",
     "tech",
     "business",
     "cybersecurity",
-    "science",
     "general",
-    "finance",
-    "development",
-    "world",
-    "gaming",
+    "science",
+    "cloud",
     "entertainment",
+    "automotive",
+    "education",
+    "finance",
+    "world",
+    "social",
     "climate",
-    "social"
+    "gaming",
+    "development"
   ],
   "topArticles": [
     {
@@ -23,8 +26,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-09T09:00:00.000Z",
-      "relevanceScore": 1786.94,
-      "recommendationScore": 1790.94,
+      "relevanceScore": 1788.35,
+      "recommendationScore": 1792.35,
       "tags": [
         "AI",
         "Startup",
@@ -39,8 +42,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-07-09T09:14:12.000Z",
-      "relevanceScore": 1504.48,
-      "recommendationScore": 1504.98,
+      "relevanceScore": 1572.4,
+      "recommendationScore": 1572.9,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -50,8 +53,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-07-09T09:06:49.000Z",
-      "relevanceScore": 1384.46,
-      "recommendationScore": 1386.46,
+      "relevanceScore": 1422.37,
+      "recommendationScore": 1424.37,
       "tags": [
         "Business"
       ],
@@ -63,25 +66,11 @@
       "source": "GitHub Blog",
       "category": "cybersecurity",
       "pubDate": "2025-07-08T17:02:11.000Z",
-      "relevanceScore": 1379.24,
-      "recommendationScore": 1379.24,
+      "relevanceScore": 1393.16,
+      "recommendationScore": 1393.16,
       "tags": [
         "Security",
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: a conversation with Karen Hao, and how did life begin?",
-      "link": "https://www.technologyreview.com/2025/07/09/1119923/the-download-a-conversation-with-karen-hao-and-how-did-life-begin/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-07-09T12:10:00.000Z",
-      "relevanceScore": 1183.57,
-      "recommendationScore": 1185.57,
-      "tags": [
-        "Tech",
-        "Interview"
       ],
       "readingLevel": "advanced"
     },
@@ -91,8 +80,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-09T09:10:29.000Z",
-      "relevanceScore": 1142.97,
-      "recommendationScore": 1143.47,
+      "relevanceScore": 1154.38,
+      "recommendationScore": 1154.88,
       "tags": [
         "AI",
         "Tech",
@@ -102,38 +91,54 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Seven-year-old Southport survivor fought to save others, mum tells inquiry",
-      "link": "https://www.bbc.com/news/articles/ce83r3jjzjeo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-09T13:28:27.000Z",
-      "relevanceScore": 1092.33,
-      "recommendationScore": 1092.83,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Govt 1: Why Are Some Countries Rich and Some Countries Poor? (Institutions)",
-      "link": "https://www.npr.org/2026/01/01/1255336592/summer-school-political-economy-inclusive-extractive-institutions",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-07-09T07:05:00.000Z",
-      "relevanceScore": 1043.05,
-      "recommendationScore": 1045.05,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "X CEO Linda Yaccarino is stepping down after two years",
       "link": "https://www.engadget.com/social-media/x-ceo-linda-yaccarino-is-stepping-down-after-two-years-145907096.html?src=rss",
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-07-09T16:34:51.000Z",
-      "relevanceScore": 987.95,
-      "recommendationScore": 988.45,
+      "relevanceScore": 1139.37,
+      "recommendationScore": 1139.87,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Seven-year-old Southport survivor fought to save others, mum tells inquiry",
+      "link": "https://www.bbc.com/news/articles/ce83r3jjzjeo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-09T13:28:27.000Z",
+      "relevanceScore": 1116.74,
+      "recommendationScore": 1117.24,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Linda Yaccarino steps down after a turbulent two years leading X",
+      "link": "https://www.npr.org/2025/07/09/nx-s1-5462728/x-linda-yaccarino-elon-musk",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-07-09T17:09:12.000Z",
+      "relevanceScore": 1113.48,
+      "recommendationScore": 1113.98,
+      "tags": [
+        "Business",
+        "Controversy"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Perplexity just launched an AI web browser",
+      "link": "https://www.theverge.com/news/703037/perplexity-ai-web-browser-comet-launch",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2025-07-09T16:53:31.000Z",
+      "relevanceScore": 1080.93,
+      "recommendationScore": 1082.93,
+      "tags": [
+        "AI",
+        "Web",
+        "Startup"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -142,10 +147,24 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-09T15:39:04.000Z",
-      "relevanceScore": 986.27,
-      "recommendationScore": 987.77,
+      "relevanceScore": 974.18,
+      "recommendationScore": 975.68,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Code vs LLM in a simple planning poker agent example",
+      "link": "https://dev.to/portia-ai/code-vs-llm-in-a-simple-planning-poker-agent-example-5dg0",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-07-09T17:00:33.000Z",
+      "relevanceScore": 967.95,
+      "recommendationScore": 969.45,
+      "tags": [
+        "AI",
+        "Interview"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI’s open language model is imminent",
@@ -153,8 +172,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-07-09T16:00:00.000Z",
-      "relevanceScore": 915.34,
-      "recommendationScore": 915.34,
+      "relevanceScore": 923.75,
+      "recommendationScore": 923.75,
       "tags": [
         "AI",
         "Launch"
@@ -162,44 +181,18 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Best Prime Day TV deals 2025 from Sony, LG, Samsung and others",
-      "link": "https://www.engadget.com/deals/best-prime-day-tv-deals-2025-from-sony-lg-samsung-and-others-084705164.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-07-09T16:28:05.000Z",
-      "relevanceScore": 759.43,
-      "recommendationScore": 760.93,
+      "title": "The Download: a conversation with Karen Hao, and how did life begin?",
+      "link": "https://www.technologyreview.com/2025/07/09/1119923/the-download-a-conversation-with-karen-hao-and-how-did-life-begin/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-07-09T12:10:00.000Z",
+      "relevanceScore": 914.98,
+      "recommendationScore": 916.98,
       "tags": [
-        "Exclusive",
-        "Update"
+        "Tech",
+        "Interview"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "🏗️ From “Ghost Ideas” to Living Projects: My 5-Step Route to Mastering Python 🐍💥",
-      "link": "https://dev.to/jeancarje/from-ghost-ideas-to-living-projects-my-5-step-route-to-mastering-python-5aj3",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-09T16:34:07.000Z",
-      "relevanceScore": 741.95,
-      "recommendationScore": 742.45,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Confused about where things stand with Trump's tariffs? Here's a handy primer",
-      "link": "https://www.npr.org/2025/07/09/nx-s1-5460936/trump-tariffs-economy-china-policy",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-07-09T09:00:00.000Z",
-      "relevanceScore": 734.94,
-      "recommendationScore": 735.44,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Starmer refuses to rule out freeze on tax thresholds",
@@ -207,10 +200,23 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-09T14:57:56.000Z",
-      "relevanceScore": 710.13,
-      "recommendationScore": 710.63,
+      "relevanceScore": 717.04,
+      "recommendationScore": 717.54,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Confused about where things stand with Trump's tariffs? Here's a handy primer",
+      "link": "https://www.npr.org/2025/07/09/nx-s1-5460936/trump-tariffs-economy-china-policy",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-07-09T09:00:00.000Z",
+      "relevanceScore": 712.35,
+      "recommendationScore": 712.85,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Blok is using AI personas to simulate real-world app usage",
@@ -218,8 +224,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-09T16:00:00.000Z",
-      "relevanceScore": 479.34,
-      "recommendationScore": 479.84,
+      "relevanceScore": 457.75,
+      "recommendationScore": 458.25,
       "tags": [
         "AI",
         "Tech",
@@ -228,15 +234,33 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "How startups are rewriting the late-stage playbook at TechCrunch Disrupt 2025",
-      "link": "https://techcrunch.com/2025/07/09/david-george-on-the-future-of-going-public-at-techcrunch-disrupt-2025/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-07-09T16:00:00.000Z",
-      "relevanceScore": 336.34,
-      "recommendationScore": 338.34,
+      "title": "Attention isn’t all we need; we need ownership too",
+      "link": "https://stackoverflow.blog/2025/07/08/attention-isn-t-all-we-need-we-need-ownership-too/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-07-08T07:40:00.000Z",
+      "relevanceScore": 300.78,
+      "recommendationScore": 300.78,
       "tags": [
-        "IPO"
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to Create an EC2 Instance on AWS",
+      "link": "https://dev.to/dj_orchido/how-to-create-an-ec2-instance-on-aws-56gl",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-07-09T16:51:20.000Z",
+      "relevanceScore": 293.42,
+      "recommendationScore": 294.92,
+      "tags": [
+        "Tech",
+        "Web",
+        "Cloud",
+        "Tutorial",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -246,8 +270,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-07-09T16:00:00.000Z",
-      "relevanceScore": 309.34,
-      "recommendationScore": 312.34,
+      "relevanceScore": 284.75,
+      "recommendationScore": 287.75,
       "tags": [
         "AI",
         "Exclusive",
@@ -256,153 +280,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Attention isn’t all we need; we need ownership too",
-      "link": "https://stackoverflow.blog/2025/07/08/attention-isn-t-all-we-need-we-need-ownership-too/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-07-08T07:40:00.000Z",
-      "relevanceScore": 307.87,
-      "recommendationScore": 307.87,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1231, Part 1 (Thread #1378)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1lv99ac/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-07-09T04:02:13.000Z",
-      "relevanceScore": 302.94,
-      "recommendationScore": 305.44,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Prime Day 2025: The best headphone and earbud deals available right now",
-      "link": "https://www.engadget.com/deals/prime-day-2025-the-best-headphone-and-earbud-deals-available-right-now-082347495.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-07-09T16:33:43.000Z",
-      "relevanceScore": 287.95,
-      "recommendationScore": 289.45,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Met 'truly sorry' for distress to Al Fayed victims",
-      "link": "https://www.bbc.com/news/articles/c2k19z5z98lo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-09T16:10:54.000Z",
-      "relevanceScore": 283.87,
-      "recommendationScore": 283.87,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best fitness tracker and smartwatch Prime Day deals",
-      "link": "https://www.theverge.com/tech/702080/amazon-prime-day-best-fitness-tracker-smartwatch-deals-2025",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-07-09T16:30:00.000Z",
-      "relevanceScore": 278.94,
-      "recommendationScore": 280.44,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Better performance, smarter workflows: What’s new in Stack Overflow for Teams",
-      "link": "https://stackoverflow.blog/2025/07/08/better-performance-smarter-workflows-what-s-new-in-stack-overflow-for-teams/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-07-08T13:00:00.000Z",
-      "relevanceScore": 270.44,
-      "recommendationScore": 275.44,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Pinecone founder Edo Liberty explores the real missing link in enterprise AI at TechCrunch Disrupt 2025",
       "link": "https://techcrunch.com/2025/07/09/pinecone-founder-edo-liberty-explores-the-real-missing-link-in-enterprise-ai-at-techcrunch-disrupt-2025/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-09T15:30:00.000Z",
-      "relevanceScore": 251.24,
-      "recommendationScore": 251.24,
+      "relevanceScore": 227.65,
+      "recommendationScore": 227.65,
       "tags": [
         "AI",
         "Interview"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "🚨 “Google Alert: Someone Just Logged In?” — Don’t Fall for the Phishing Trap",
-      "link": "https://dev.to/sybersecure/google-alert-someone-just-logged-in-dont-fall-for-the-phishing-trap-3d6m",
-      "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2025-07-09T16:26:27.000Z",
-      "relevanceScore": 246.92,
-      "recommendationScore": 247.42,
-      "tags": [
-        "Tech",
-        "Breaking",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "iMerit believes better-quality data, not more data, is the future of AI",
-      "link": "https://techcrunch.com/2025/07/09/imerit-believes-better-quality-data-not-more-data-is-the-future-of-ai/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-07-09T15:20:14.000Z",
-      "relevanceScore": 238.2,
-      "recommendationScore": 239.7,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best Prime Day gaming deals from laptops and peripherals to the latest video games",
-      "link": "https://www.engadget.com/deals/the-best-prime-day-gaming-deals-from-laptops-and-peripherals-to-the-latest-video-games-085719478.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-07-09T16:28:40.000Z",
-      "relevanceScore": 235.43,
-      "recommendationScore": 236.93,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Russia Fires Record Drone Attack at Ukraine After Trump Calls Putin Out",
-      "link": "https://www.reddit.com/r/worldnews/comments/1lvc8p3/russia_fires_record_drone_attack_at_ukraine_after/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-07-09T07:03:16.000Z",
-      "relevanceScore": 221.55,
-      "recommendationScore": 222.05,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Grok Is Spewing Antisemitic Garbage on X",
-      "link": "https://www.reddit.com/r/technology/comments/1lvgcqe/grok_is_spewing_antisemitic_garbage_on_x/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-07-09T11:28:31.000Z",
-      "relevanceScore": 189.93,
-      "recommendationScore": 189.93,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -411,12 +299,47 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-09T16:09:47.000Z",
-      "relevanceScore": 110.87,
-      "recommendationScore": 111.37,
+      "relevanceScore": 220.78,
+      "recommendationScore": 221.28,
       "tags": [
         "Launch"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Grok Is Spewing Antisemitic Garbage on X",
+      "link": "https://www.reddit.com/r/technology/comments/1lvgcqe/grok_is_spewing_antisemitic_garbage_on_x/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-07-09T11:28:31.000Z",
+      "relevanceScore": 215.84,
+      "recommendationScore": 215.84,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "iMerit believes better-quality data, not more data, is the future of AI",
+      "link": "https://techcrunch.com/2025/07/09/imerit-believes-better-quality-data-not-more-data-is-the-future-of-ai/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-07-09T15:20:14.000Z",
+      "relevanceScore": 215.62,
+      "recommendationScore": 217.12,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best Prime Day SSD and external hard drive deals on Samsung, Crucial and more",
+      "link": "https://www.engadget.com/deals/the-best-prime-day-ssd-and-external-hard-drive-deals-on-samsung-crucial-and-more-090355162.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-07-09T17:00:47.000Z",
+      "relevanceScore": 211.95,
+      "recommendationScore": 213.45,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "The best Prime Day deals on our favorite robot vacuums",
@@ -424,8 +347,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-09T16:13:34.000Z",
-      "relevanceScore": 96.88,
-      "recommendationScore": 98.38,
+      "relevanceScore": 100.3,
+      "recommendationScore": 101.8,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -435,23 +358,12 @@
       "source": "TechCrunch",
       "category": "entertainment",
       "pubDate": "2025-07-09T16:19:35.000Z",
-      "relevanceScore": 91.4,
-      "recommendationScore": 91.9,
+      "relevanceScore": 98.32,
+      "recommendationScore": 98.82,
       "tags": [
         "Acquisition"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Best Prime Day Beauty Deals 2025: Hair, Skin, and Dental Care",
-      "link": "https://www.wired.com/story/prime-day-beauty-deals-july-2025-1/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-07-09T16:14:19.000Z",
-      "relevanceScore": 55.38,
-      "recommendationScore": 56.88,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "Nvidia becomes world's first $4tn company",
@@ -459,8 +371,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-09T14:56:18.000Z",
-      "relevanceScore": 55.12,
-      "recommendationScore": 57.12,
+      "relevanceScore": 97.54,
+      "recommendationScore": 99.54,
       "tags": [
         "AI",
         "Business",
@@ -470,14 +382,68 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Wildfires are challenging air quality monitoring infrastructure",
-      "link": "https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/",
-      "source": "Ars Technica",
-      "category": "climate",
-      "pubDate": "2025-07-09T11:30:07.000Z",
-      "relevanceScore": 54.44,
-      "recommendationScore": 54.94,
+      "title": "How startups are rewriting the late-stage playbook at TechCrunch Disrupt 2025",
+      "link": "https://techcrunch.com/2025/07/09/david-george-on-the-future-of-going-public-at-techcrunch-disrupt-2025/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-07-09T16:00:00.000Z",
+      "relevanceScore": 86.75,
+      "recommendationScore": 88.75,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best Amazon Prime Day 2025 robot vacuum deals that you can get right now",
+      "link": "https://www.engadget.com/deals/the-best-amazon-prime-day-2025-robot-vacuum-deals-that-you-can-get-right-now-140049915.html?src=rss",
+      "source": "Engadget",
+      "category": "automotive",
+      "pubDate": "2025-07-09T16:58:29.000Z",
+      "relevanceScore": 83.94,
+      "recommendationScore": 85.44,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nvidia beats Apple and Microsoft to become the world’s first $4 trillion public company",
+      "link": "https://www.reddit.com/r/technology/comments/1lvjms5/nvidia_beats_apple_and_microsoft_to_become_the/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-07-09T14:04:25.000Z",
+      "relevanceScore": 69.36,
+      "recommendationScore": 71.86,
+      "tags": [
+        "Exclusive",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Context Design Philosophy Patterns High Web",
+      "link": "https://dev.to/github-recommend/context-design-philosophy-patterns-high-web-1b08",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2025-07-09T17:09:25.000Z",
+      "relevanceScore": 68.98,
+      "recommendationScore": 68.98,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Sizing up the 5 companies selected for Europe’s launcher challenge",
+      "link": "https://arstechnica.com/space/2025/07/sizing-up-the-5-companies-selected-for-europes-launcher-challenge/",
+      "source": "Ars Technica",
+      "category": "finance",
+      "pubDate": "2025-07-09T12:48:59.000Z",
+      "relevanceScore": 49.11,
+      "recommendationScore": 51.61,
+      "tags": [
+        "Business",
+        "Launch"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -486,34 +452,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-09T11:26:28.000Z",
-      "relevanceScore": 54.42,
-      "recommendationScore": 54.92,
+      "relevanceScore": 48.84,
+      "recommendationScore": 49.34,
       "tags": [
         "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Musk's Grok chatbot praises Hitler and insults politicians",
-      "link": "https://www.bbc.com/news/articles/c4g8r34nxeno",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-07-09T11:17:37.000Z",
-      "relevanceScore": 54.39,
-      "recommendationScore": 54.89,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Stop forcing AI tools on your engineers",
-      "link": "https://www.reddit.com/r/programming/comments/1luk6dz/stop_forcing_ai_tools_on_your_engineers/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2025-07-08T09:30:06.000Z",
-      "relevanceScore": 45.24,
-      "recommendationScore": 46.24,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -523,10 +465,36 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-09T10:09:29.000Z",
-      "relevanceScore": 43.17,
-      "recommendationScore": 43.67,
+      "relevanceScore": 47.58,
+      "recommendationScore": 48.08,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Instagram wrongly accuses some users of breaching child sex abuse rules",
+      "link": "https://www.bbc.com/news/articles/cy8kjdz9nr3o",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2025-07-09T00:09:29.000Z",
+      "relevanceScore": 46.58,
+      "recommendationScore": 47.08,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Met 'truly sorry' for distress to Al Fayed victims",
+      "link": "https://www.bbc.com/news/articles/c2k19z5z98lo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-09T16:10:54.000Z",
+      "relevanceScore": 39.79,
+      "recommendationScore": 39.79,
+      "tags": [
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Linda Yaccarino departs as boss of Musk's X",
@@ -534,8 +502,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-09T15:36:33.000Z",
-      "relevanceScore": 31.76,
-      "recommendationScore": 31.76,
+      "relevanceScore": 31.67,
+      "recommendationScore": 31.67,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -545,21 +513,32 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-09T15:29:45.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 33.73,
+      "relevanceScore": 31.65,
+      "recommendationScore": 33.65,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "The best laptop deals we’ve found for Prime Day (so far)",
-      "link": "https://www.theverge.com/tech/699521/amazon-prime-day-laptops-notebooks-gaming-apple-lenovo-hp",
+      "title": "The best fitness tracker and smartwatch Prime Day deals",
+      "link": "https://www.theverge.com/tech/702080/amazon-prime-day-best-fitness-tracker-smartwatch-deals-2025",
       "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-07-09T15:53:35.000Z",
-      "relevanceScore": 25.81,
-      "recommendationScore": 27.31,
+      "pubDate": "2025-07-09T16:30:00.000Z",
+      "relevanceScore": 26.85,
+      "recommendationScore": 28.35,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Best Prime Day Beauty Deals 2025: Hair, Skin, and Dental Care",
+      "link": "https://www.wired.com/story/prime-day-beauty-deals-july-2025-1/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-09T16:14:19.000Z",
+      "relevanceScore": 25.8,
+      "recommendationScore": 27.3,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Beware of scams that promise good pay for completing easy online tasks",
@@ -567,8 +546,8 @@
       "source": "ABC News Business",
       "category": "climate",
       "pubDate": "2025-07-09T10:22:27.000Z",
-      "relevanceScore": 25.71,
-      "recommendationScore": 26.21,
+      "relevanceScore": 25.62,
+      "recommendationScore": 26.12,
       "tags": [
         "Web"
       ],
@@ -580,23 +559,20 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-09T14:48:41.000Z",
-      "relevanceScore": 25.6,
-      "recommendationScore": 26.6,
+      "relevanceScore": 25.51,
+      "recommendationScore": 26.51,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Sizing up the 5 companies selected for Europe’s launcher challenge",
-      "link": "https://arstechnica.com/space/2025/07/sizing-up-the-5-companies-selected-for-europes-launcher-challenge/",
+      "title": "Wildfires are challenging air quality monitoring infrastructure",
+      "link": "https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/",
       "source": "Ars Technica",
-      "category": "finance",
-      "pubDate": "2025-07-09T12:48:59.000Z",
-      "relevanceScore": 25.2,
-      "recommendationScore": 27.7,
-      "tags": [
-        "Business",
-        "Launch"
-      ],
+      "category": "climate",
+      "pubDate": "2025-07-09T11:30:07.000Z",
+      "relevanceScore": 24.85,
+      "recommendationScore": 25.35,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -605,8 +581,19 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-07-09T11:20:24.000Z",
-      "relevanceScore": 24.9,
-      "recommendationScore": 25.4,
+      "relevanceScore": 24.82,
+      "recommendationScore": 25.32,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Musk's Grok chatbot praises Hitler and insults politicians",
+      "link": "https://www.bbc.com/news/articles/c4g8r34nxeno",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-07-09T11:17:37.000Z",
+      "relevanceScore": 24.81,
+      "recommendationScore": 25.31,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -616,8 +603,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-09T11:10:01.000Z",
-      "relevanceScore": 24.87,
-      "recommendationScore": 25.37,
+      "relevanceScore": 24.78,
+      "recommendationScore": 25.28,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -627,23 +614,45 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-07-09T11:00:49.000Z",
-      "relevanceScore": 24.34,
-      "recommendationScore": 24.84,
+      "relevanceScore": 24.25,
+      "recommendationScore": 24.75,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Do you remember the first time you saw a computer? 🤔",
-      "link": "https://dev.to/canro91/do-you-remember-the-first-time-you-saw-a-computer-4cem",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-09T16:24:05.000Z",
-      "relevanceScore": 23.92,
-      "recommendationScore": 26.42,
+      "title": "All digital Xbox games now carry standardized accessibility tags",
+      "link": "https://www.engadget.com/gaming/all-digital-xbox-games-now-carry-standardized-accessibility-tags-170945916.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-07-09T17:09:45.000Z",
+      "relevanceScore": 23.98,
+      "recommendationScore": 24.48,
       "tags": [
-        "Exclusive"
+        "Tech"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Ukraine catches Chinese spies trying to steal secrets of missile that sank Russia’s flagship",
+      "link": "https://www.reddit.com/r/worldnews/comments/1lvm7t1/ukraine_catches_chinese_spies_trying_to_steal/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-07-09T15:48:03.000Z",
+      "relevanceScore": 23.71,
+      "recommendationScore": 24.21,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1231, Part 1 (Thread #1378)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1lv99ac/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-07-09T04:02:13.000Z",
+      "relevanceScore": 21.36,
+      "recommendationScore": 23.86,
+      "tags": [],
+      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
@@ -653,7 +662,7 @@
         "link": "https://www.technologyreview.com/2025/07/09/1119867/why-the-ai-moratoriums-defeat-may-signal-a-new-political-era/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-09T09:00:00.000Z",
-        "relevanceScore": 1786.94,
+        "relevanceScore": 1788.35,
         "tags": [
           "AI",
           "Startup",
@@ -666,7 +675,7 @@
         "link": "https://www.technologyreview.com/2025/07/09/1119784/inside-openais-empire-a-conversation-with-karen-hao/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-09T09:10:29.000Z",
-        "relevanceScore": 1142.97,
+        "relevanceScore": 1154.38,
         "tags": [
           "AI",
           "Tech",
@@ -675,11 +684,34 @@
         ]
       },
       {
+        "title": "Perplexity just launched an AI web browser",
+        "link": "https://www.theverge.com/news/703037/perplexity-ai-web-browser-comet-launch",
+        "source": "The Verge",
+        "pubDate": "2025-07-09T16:53:31.000Z",
+        "relevanceScore": 1080.93,
+        "tags": [
+          "AI",
+          "Web",
+          "Startup"
+        ]
+      },
+      {
+        "title": "Code vs LLM in a simple planning poker agent example",
+        "link": "https://dev.to/portia-ai/code-vs-llm-in-a-simple-planning-poker-agent-example-5dg0",
+        "source": "Dev.to",
+        "pubDate": "2025-07-09T17:00:33.000Z",
+        "relevanceScore": 967.95,
+        "tags": [
+          "AI",
+          "Interview"
+        ]
+      },
+      {
         "title": "OpenAI’s open language model is imminent",
         "link": "https://www.theverge.com/notepad-microsoft-newsletter/702848/openai-open-language-model-o3-mini-notepad",
         "source": "The Verge",
         "pubDate": "2025-07-09T16:00:00.000Z",
-        "relevanceScore": 915.34,
+        "relevanceScore": 923.75,
         "tags": [
           "AI",
           "Launch"
@@ -690,7 +722,7 @@
         "link": "https://techcrunch.com/2025/07/09/blok-is-using-ai-persons-to-simulate-real-world-app-usage/",
         "source": "TechCrunch",
         "pubDate": "2025-07-09T16:00:00.000Z",
-        "relevanceScore": 479.34,
+        "relevanceScore": 457.75,
         "tags": [
           "AI",
           "Tech",
@@ -698,11 +730,22 @@
         ]
       },
       {
+        "title": "Attention isn’t all we need; we need ownership too",
+        "link": "https://stackoverflow.blog/2025/07/08/attention-isn-t-all-we-need-we-need-ownership-too/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-07-08T07:40:00.000Z",
+        "relevanceScore": 300.78,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
         "title": "Beyond prompt crafting: How to be a better partner for your AI pair programmer",
         "link": "https://github.blog/ai-and-ml/github-copilot/beyond-prompt-crafting-how-to-be-a-better-partner-for-your-ai-pair-programmer/",
         "source": "GitHub Blog",
         "pubDate": "2025-07-09T16:00:00.000Z",
-        "relevanceScore": 309.34,
+        "relevanceScore": 284.75,
         "tags": [
           "AI",
           "Exclusive",
@@ -710,22 +753,11 @@
         ]
       },
       {
-        "title": "Attention isn’t all we need; we need ownership too",
-        "link": "https://stackoverflow.blog/2025/07/08/attention-isn-t-all-we-need-we-need-ownership-too/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-07-08T07:40:00.000Z",
-        "relevanceScore": 307.87,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
         "title": "Pinecone founder Edo Liberty explores the real missing link in enterprise AI at TechCrunch Disrupt 2025",
         "link": "https://techcrunch.com/2025/07/09/pinecone-founder-edo-liberty-explores-the-real-missing-link-in-enterprise-ai-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-07-09T15:30:00.000Z",
-        "relevanceScore": 251.24,
+        "relevanceScore": 227.65,
         "tags": [
           "AI",
           "Interview"
@@ -736,7 +768,7 @@
         "link": "https://techcrunch.com/2025/07/09/imerit-believes-better-quality-data-not-more-data-is-the-future-of-ai/",
         "source": "TechCrunch",
         "pubDate": "2025-07-09T15:20:14.000Z",
-        "relevanceScore": 238.2,
+        "relevanceScore": 215.62,
         "tags": [
           "AI"
         ]
@@ -746,7 +778,7 @@
         "link": "https://www.bbc.com/news/articles/c8j13m74lklo",
         "source": "BBC Technology",
         "pubDate": "2025-07-09T14:56:18.000Z",
-        "relevanceScore": 55.12,
+        "relevanceScore": 97.54,
         "tags": [
           "AI",
           "Business",
@@ -759,7 +791,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1luk6dz/stop_forcing_ai_tools_on_your_engineers/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-08T09:30:06.000Z",
-        "relevanceScore": 45.24,
+        "relevanceScore": 15.65,
         "tags": [
           "AI"
         ]
@@ -771,7 +803,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1lve5ot/court_nullifies_clicktocancel_rule_that_required/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-09T09:14:12.000Z",
-        "relevanceScore": 1504.48,
+        "relevanceScore": 1572.4,
         "tags": []
       },
       {
@@ -779,7 +811,7 @@
         "link": "https://www.engadget.com/social-media/x-ceo-linda-yaccarino-is-stepping-down-after-two-years-145907096.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-09T16:34:51.000Z",
-        "relevanceScore": 987.95,
+        "relevanceScore": 1139.37,
         "tags": []
       },
       {
@@ -787,52 +819,7 @@
         "link": "https://www.wired.com/story/the-best-prime-day-coffee-deals-1/",
         "source": "Wired",
         "pubDate": "2025-07-09T15:39:04.000Z",
-        "relevanceScore": 986.27,
-        "tags": []
-      },
-      {
-        "title": "Best Prime Day TV deals 2025 from Sony, LG, Samsung and others",
-        "link": "https://www.engadget.com/deals/best-prime-day-tv-deals-2025-from-sony-lg-samsung-and-others-084705164.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-09T16:28:05.000Z",
-        "relevanceScore": 759.43,
-        "tags": [
-          "Exclusive",
-          "Update"
-        ]
-      },
-      {
-        "title": "How startups are rewriting the late-stage playbook at TechCrunch Disrupt 2025",
-        "link": "https://techcrunch.com/2025/07/09/david-george-on-the-future-of-going-public-at-techcrunch-disrupt-2025/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-09T16:00:00.000Z",
-        "relevanceScore": 336.34,
-        "tags": [
-          "IPO"
-        ]
-      },
-      {
-        "title": "Prime Day 2025: The best headphone and earbud deals available right now",
-        "link": "https://www.engadget.com/deals/prime-day-2025-the-best-headphone-and-earbud-deals-available-right-now-082347495.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-09T16:33:43.000Z",
-        "relevanceScore": 287.95,
-        "tags": []
-      },
-      {
-        "title": "The best fitness tracker and smartwatch Prime Day deals",
-        "link": "https://www.theverge.com/tech/702080/amazon-prime-day-best-fitness-tracker-smartwatch-deals-2025",
-        "source": "The Verge",
-        "pubDate": "2025-07-09T16:30:00.000Z",
-        "relevanceScore": 278.94,
-        "tags": []
-      },
-      {
-        "title": "Grok Is Spewing Antisemitic Garbage on X",
-        "link": "https://www.reddit.com/r/technology/comments/1lvgcqe/grok_is_spewing_antisemitic_garbage_on_x/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-09T11:28:31.000Z",
-        "relevanceScore": 189.93,
+        "relevanceScore": 974.18,
         "tags": []
       },
       {
@@ -840,17 +827,62 @@
         "link": "https://www.wired.com/story/linda-yaccarino-x-ceo-resigns-elon-musk/",
         "source": "Wired",
         "pubDate": "2025-07-09T16:09:47.000Z",
-        "relevanceScore": 110.87,
+        "relevanceScore": 220.78,
         "tags": [
           "Launch"
         ]
+      },
+      {
+        "title": "Grok Is Spewing Antisemitic Garbage on X",
+        "link": "https://www.reddit.com/r/technology/comments/1lvgcqe/grok_is_spewing_antisemitic_garbage_on_x/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-09T11:28:31.000Z",
+        "relevanceScore": 215.84,
+        "tags": []
+      },
+      {
+        "title": "The best Prime Day SSD and external hard drive deals on Samsung, Crucial and more",
+        "link": "https://www.engadget.com/deals/the-best-prime-day-ssd-and-external-hard-drive-deals-on-samsung-crucial-and-more-090355162.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-09T17:00:47.000Z",
+        "relevanceScore": 211.95,
+        "tags": []
       },
       {
         "title": "The best Prime Day deals on our favorite robot vacuums",
         "link": "https://www.theverge.com/tech/698188/robot-vacuum-mop-deals-amazon-prime-day",
         "source": "The Verge",
         "pubDate": "2025-07-09T16:13:34.000Z",
-        "relevanceScore": 96.88,
+        "relevanceScore": 100.3,
+        "tags": []
+      },
+      {
+        "title": "How startups are rewriting the late-stage playbook at TechCrunch Disrupt 2025",
+        "link": "https://techcrunch.com/2025/07/09/david-george-on-the-future-of-going-public-at-techcrunch-disrupt-2025/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-09T16:00:00.000Z",
+        "relevanceScore": 86.75,
+        "tags": [
+          "IPO"
+        ]
+      },
+      {
+        "title": "Nvidia beats Apple and Microsoft to become the world’s first $4 trillion public company",
+        "link": "https://www.reddit.com/r/technology/comments/1lvjms5/nvidia_beats_apple_and_microsoft_to_become_the/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-09T14:04:25.000Z",
+        "relevanceScore": 69.36,
+        "tags": [
+          "Exclusive",
+          "IPO"
+        ]
+      },
+      {
+        "title": "The best fitness tracker and smartwatch Prime Day deals",
+        "link": "https://www.theverge.com/tech/702080/amazon-prime-day-best-fitness-tracker-smartwatch-deals-2025",
+        "source": "The Verge",
+        "pubDate": "2025-07-09T16:30:00.000Z",
+        "relevanceScore": 26.85,
         "tags": []
       },
       {
@@ -858,23 +890,7 @@
         "link": "https://www.wired.com/story/prime-day-beauty-deals-july-2025-1/",
         "source": "Wired",
         "pubDate": "2025-07-09T16:14:19.000Z",
-        "relevanceScore": 55.38,
-        "tags": []
-      },
-      {
-        "title": "Musk's Grok chatbot praises Hitler and insults politicians",
-        "link": "https://www.bbc.com/news/articles/c4g8r34nxeno",
-        "source": "BBC Technology",
-        "pubDate": "2025-07-09T11:17:37.000Z",
-        "relevanceScore": 54.39,
-        "tags": []
-      },
-      {
-        "title": "The best laptop deals we’ve found for Prime Day (so far)",
-        "link": "https://www.theverge.com/tech/699521/amazon-prime-day-laptops-notebooks-gaming-apple-lenovo-hp",
-        "source": "The Verge",
-        "pubDate": "2025-07-09T15:53:35.000Z",
-        "relevanceScore": 25.81,
+        "relevanceScore": 25.8,
         "tags": []
       },
       {
@@ -882,7 +898,7 @@
         "link": "https://www.wired.com/story/prime-day-pet-deals-2025/",
         "source": "Wired",
         "pubDate": "2025-07-09T14:48:41.000Z",
-        "relevanceScore": 25.6,
+        "relevanceScore": 25.51,
         "tags": []
       },
       {
@@ -890,7 +906,15 @@
         "link": "https://arstechnica.com/security/2025/07/critical-citrixbleed-2-vulnerability-has-been-under-active-exploit-for-weeks/",
         "source": "Ars Technica",
         "pubDate": "2025-07-09T11:20:24.000Z",
-        "relevanceScore": 24.9,
+        "relevanceScore": 24.82,
+        "tags": []
+      },
+      {
+        "title": "Musk's Grok chatbot praises Hitler and insults politicians",
+        "link": "https://www.bbc.com/news/articles/c4g8r34nxeno",
+        "source": "BBC Technology",
+        "pubDate": "2025-07-09T11:17:37.000Z",
+        "relevanceScore": 24.81,
         "tags": []
       },
       {
@@ -898,19 +922,8 @@
         "link": "https://arstechnica.com/gadgets/2025/07/intro-to-3d-printing-part-3-the-cool-weird-and-unexpected-prints-we-love/",
         "source": "Ars Technica",
         "pubDate": "2025-07-09T11:00:49.000Z",
-        "relevanceScore": 24.34,
+        "relevanceScore": 24.25,
         "tags": []
-      },
-      {
-        "title": "Nvidia beats Apple and Microsoft to become the world’s first $4 trillion public company",
-        "link": "https://www.reddit.com/r/technology/comments/1lvjms5/nvidia_beats_apple_and_microsoft_to_become_the/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-09T14:04:25.000Z",
-        "relevanceScore": 21.45,
-        "tags": [
-          "Exclusive",
-          "IPO"
-        ]
       }
     ],
     "business": [
@@ -919,9 +932,20 @@
         "link": "https://www.npr.org/2025/07/09/nx-s1-5461004/toy-company-ceo-discusses-how-trumps-recent-tariff-decisions-are-impacting-business",
         "source": "NPR Business",
         "pubDate": "2025-07-09T09:06:49.000Z",
-        "relevanceScore": 1384.46,
+        "relevanceScore": 1422.37,
         "tags": [
           "Business"
+        ]
+      },
+      {
+        "title": "Linda Yaccarino steps down after a turbulent two years leading X",
+        "link": "https://www.npr.org/2025/07/09/nx-s1-5462728/x-linda-yaccarino-elon-musk",
+        "source": "NPR Business",
+        "pubDate": "2025-07-09T17:09:12.000Z",
+        "relevanceScore": 1113.48,
+        "tags": [
+          "Business",
+          "Controversy"
         ]
       },
       {
@@ -929,7 +953,7 @@
         "link": "https://www.npr.org/2025/07/09/nx-s1-5460936/trump-tariffs-economy-china-policy",
         "source": "NPR Business",
         "pubDate": "2025-07-09T09:00:00.000Z",
-        "relevanceScore": 734.94,
+        "relevanceScore": 712.35,
         "tags": [
           "Regulation"
         ]
@@ -939,7 +963,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/merck-spends-10-billion-verona-gaining-access-copd-123602225",
         "source": "ABC News Business",
         "pubDate": "2025-07-09T11:26:28.000Z",
-        "relevanceScore": 54.42,
+        "relevanceScore": 48.84,
         "tags": [
           "Partnership"
         ]
@@ -949,7 +973,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/ohio-awards-310-million-us-defense-contractor-4000-123601863",
         "source": "ABC News Business",
         "pubDate": "2025-07-09T11:10:01.000Z",
-        "relevanceScore": 24.87,
+        "relevanceScore": 24.78,
         "tags": []
       }
     ],
@@ -959,35 +983,10 @@
         "link": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-6/",
         "source": "GitHub Blog",
         "pubDate": "2025-07-08T17:02:11.000Z",
-        "relevanceScore": 1379.24,
+        "relevanceScore": 1393.16,
         "tags": [
           "Security",
           "Exclusive"
-        ]
-      },
-      {
-        "title": "🚨 “Google Alert: Someone Just Logged In?” — Don’t Fall for the Phishing Trap",
-        "link": "https://dev.to/sybersecure/google-alert-someone-just-logged-in-dont-fall-for-the-phishing-trap-3d6m",
-        "source": "Dev.to",
-        "pubDate": "2025-07-09T16:26:27.000Z",
-        "relevanceScore": 246.92,
-        "tags": [
-          "Tech",
-          "Breaking",
-          "Exclusive"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "The Download: a conversation with Karen Hao, and how did life begin?",
-        "link": "https://www.technologyreview.com/2025/07/09/1119923/the-download-a-conversation-with-karen-hao-and-how-did-life-begin/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-07-09T12:10:00.000Z",
-        "relevanceScore": 1183.57,
-        "tags": [
-          "Tech",
-          "Interview"
         ]
       }
     ],
@@ -997,7 +996,7 @@
         "link": "https://www.bbc.com/news/articles/ce83r3jjzjeo",
         "source": "BBC News",
         "pubDate": "2025-07-09T13:28:27.000Z",
-        "relevanceScore": 1092.33,
+        "relevanceScore": 1116.74,
         "tags": []
       },
       {
@@ -1005,7 +1004,7 @@
         "link": "https://www.bbc.com/news/articles/cvg1p1pwxn6o",
         "source": "BBC News",
         "pubDate": "2025-07-09T14:57:56.000Z",
-        "relevanceScore": 710.13,
+        "relevanceScore": 717.04,
         "tags": []
       },
       {
@@ -1013,7 +1012,7 @@
         "link": "https://www.bbc.com/news/articles/c2k19z5z98lo",
         "source": "BBC News",
         "pubDate": "2025-07-09T16:10:54.000Z",
-        "relevanceScore": 283.87,
+        "relevanceScore": 39.79,
         "tags": [
           "Analysis"
         ]
@@ -1023,7 +1022,7 @@
         "link": "https://www.bbc.com/news/articles/cx2gy3j9xq6o",
         "source": "BBC News",
         "pubDate": "2025-07-09T15:36:33.000Z",
-        "relevanceScore": 31.76,
+        "relevanceScore": 31.67,
         "tags": []
       },
       {
@@ -1031,116 +1030,36 @@
         "link": "https://www.bbc.com/news/articles/cxr2dqvg4gpo",
         "source": "BBC News",
         "pubDate": "2025-07-09T15:29:45.000Z",
-        "relevanceScore": 31.73,
+        "relevanceScore": 31.65,
         "tags": []
       }
     ],
-    "finance": [
+    "science": [
       {
-        "title": "Govt 1: Why Are Some Countries Rich and Some Countries Poor? (Institutions)",
-        "link": "https://www.npr.org/2026/01/01/1255336592/summer-school-political-economy-inclusive-extractive-institutions",
-        "source": "NPR Business",
-        "pubDate": "2025-07-09T07:05:00.000Z",
-        "relevanceScore": 1043.05,
+        "title": "The Download: a conversation with Karen Hao, and how did life begin?",
+        "link": "https://www.technologyreview.com/2025/07/09/1119923/the-download-a-conversation-with-karen-hao-and-how-did-life-begin/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-07-09T12:10:00.000Z",
+        "relevanceScore": 914.98,
         "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Sizing up the 5 companies selected for Europe’s launcher challenge",
-        "link": "https://arstechnica.com/space/2025/07/sizing-up-the-5-companies-selected-for-europes-launcher-challenge/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-09T12:48:59.000Z",
-        "relevanceScore": 25.2,
-        "tags": [
-          "Business",
-          "Launch"
+          "Tech",
+          "Interview"
         ]
       }
     ],
-    "development": [
+    "cloud": [
       {
-        "title": "🏗️ From “Ghost Ideas” to Living Projects: My 5-Step Route to Mastering Python 🐍💥",
-        "link": "https://dev.to/jeancarje/from-ghost-ideas-to-living-projects-my-5-step-route-to-mastering-python-5aj3",
+        "title": "How to Create an EC2 Instance on AWS",
+        "link": "https://dev.to/dj_orchido/how-to-create-an-ec2-instance-on-aws-56gl",
         "source": "Dev.to",
-        "pubDate": "2025-07-09T16:34:07.000Z",
-        "relevanceScore": 741.95,
+        "pubDate": "2025-07-09T16:51:20.000Z",
+        "relevanceScore": 293.42,
         "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Better performance, smarter workflows: What’s new in Stack Overflow for Teams",
-        "link": "https://stackoverflow.blog/2025/07/08/better-performance-smarter-workflows-what-s-new-in-stack-overflow-for-teams/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-07-08T13:00:00.000Z",
-        "relevanceScore": 270.44,
-        "tags": [
+          "Tech",
+          "Web",
+          "Cloud",
+          "Tutorial",
           "Launch"
-        ]
-      },
-      {
-        "title": "Do you remember the first time you saw a computer? 🤔",
-        "link": "https://dev.to/canro91/do-you-remember-the-first-time-you-saw-a-computer-4cem",
-        "source": "Dev.to",
-        "pubDate": "2025-07-09T16:24:05.000Z",
-        "relevanceScore": 23.92,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "C++ with no classes?",
-        "link": "https://www.reddit.com/r/programming/comments/1lvdvyd/c_with_no_classes/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-07-09T08:56:03.000Z",
-        "relevanceScore": 20.42,
-        "tags": []
-      },
-      {
-        "title": "Introducing Skia Graphite: Chrome's rasterization backend for the future",
-        "link": "https://www.reddit.com/r/programming/comments/1lvdj5b/introducing_skia_graphite_chromes_rasterization/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-07-09T08:31:47.000Z",
-        "relevanceScore": 20.34,
-        "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1231, Part 1 (Thread #1378)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lv99ac/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-09T04:02:13.000Z",
-        "relevanceScore": 302.94,
-        "tags": []
-      },
-      {
-        "title": "Russia Fires Record Drone Attack at Ukraine After Trump Calls Putin Out",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lvc8p3/russia_fires_record_drone_attack_at_ukraine_after/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-09T07:03:16.000Z",
-        "relevanceScore": 221.55,
-        "tags": []
-      },
-      {
-        "title": "Russia reacts to Trump saying he threatened to bomb Moscow",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lvf0ea/russia_reacts_to_trump_saying_he_threatened_to/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-09T10:09:29.000Z",
-        "relevanceScore": 43.17,
-        "tags": []
-      }
-    ],
-    "gaming": [
-      {
-        "title": "The best Prime Day gaming deals from laptops and peripherals to the latest video games",
-        "link": "https://www.engadget.com/deals/the-best-prime-day-gaming-deals-from-laptops-and-peripherals-to-the-latest-video-games-085719478.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-09T16:28:40.000Z",
-        "relevanceScore": 235.43,
-        "tags": [
-          "Tech"
         ]
       }
     ],
@@ -1150,30 +1069,71 @@
         "link": "https://techcrunch.com/2025/07/09/apple-looks-to-bid-on-becoming-us-home-for-formula-1/",
         "source": "TechCrunch",
         "pubDate": "2025-07-09T16:19:35.000Z",
-        "relevanceScore": 91.4,
+        "relevanceScore": 98.32,
         "tags": [
           "Acquisition"
         ]
       }
     ],
-    "climate": [
+    "automotive": [
       {
-        "title": "Wildfires are challenging air quality monitoring infrastructure",
-        "link": "https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-09T11:30:07.000Z",
-        "relevanceScore": 54.44,
+        "title": "The best Amazon Prime Day 2025 robot vacuum deals that you can get right now",
+        "link": "https://www.engadget.com/deals/the-best-amazon-prime-day-2025-robot-vacuum-deals-that-you-can-get-right-now-140049915.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-09T16:58:29.000Z",
+        "relevanceScore": 83.94,
         "tags": []
-      },
+      }
+    ],
+    "education": [
       {
-        "title": "Beware of scams that promise good pay for completing easy online tasks",
-        "link": "https://abcnews.go.com/Business/wireStory/beware-scams-promise-good-pay-completing-easy-online-123601538",
-        "source": "ABC News Business",
-        "pubDate": "2025-07-09T10:22:27.000Z",
-        "relevanceScore": 25.71,
+        "title": "Context Design Philosophy Patterns High Web",
+        "link": "https://dev.to/github-recommend/context-design-philosophy-patterns-high-web-1b08",
+        "source": "Dev.to",
+        "pubDate": "2025-07-09T17:09:25.000Z",
+        "relevanceScore": 68.98,
         "tags": [
           "Web"
         ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "Sizing up the 5 companies selected for Europe’s launcher challenge",
+        "link": "https://arstechnica.com/space/2025/07/sizing-up-the-5-companies-selected-for-europes-launcher-challenge/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-09T12:48:59.000Z",
+        "relevanceScore": 49.11,
+        "tags": [
+          "Business",
+          "Launch"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "Russia reacts to Trump saying he threatened to bomb Moscow",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lvf0ea/russia_reacts_to_trump_saying_he_threatened_to/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-09T10:09:29.000Z",
+        "relevanceScore": 47.58,
+        "tags": []
+      },
+      {
+        "title": "Ukraine catches Chinese spies trying to steal secrets of missile that sank Russia’s flagship",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lvm7t1/ukraine_catches_chinese_spies_trying_to_steal/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-09T15:48:03.000Z",
+        "relevanceScore": 23.71,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1231, Part 1 (Thread #1378)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lv99ac/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-09T04:02:13.000Z",
+        "relevanceScore": 21.36,
+        "tags": []
       }
     ],
     "social": [
@@ -1182,37 +1142,97 @@
         "link": "https://www.bbc.com/news/articles/cy8kjdz9nr3o",
         "source": "BBC Technology",
         "pubDate": "2025-07-09T00:09:29.000Z",
-        "relevanceScore": 22.67,
+        "relevanceScore": 46.58,
         "tags": [
           "Social"
+        ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "Beware of scams that promise good pay for completing easy online tasks",
+        "link": "https://abcnews.go.com/Business/wireStory/beware-scams-promise-good-pay-completing-easy-online-123601538",
+        "source": "ABC News Business",
+        "pubDate": "2025-07-09T10:22:27.000Z",
+        "relevanceScore": 25.62,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Wildfires are challenging air quality monitoring infrastructure",
+        "link": "https://arstechnica.com/science/2025/07/wildfires-are-challenging-air-quality-monitoring-infrastructure/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-09T11:30:07.000Z",
+        "relevanceScore": 24.85,
+        "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "All digital Xbox games now carry standardized accessibility tags",
+        "link": "https://www.engadget.com/gaming/all-digital-xbox-games-now-carry-standardized-accessibility-tags-170945916.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-09T17:09:45.000Z",
+        "relevanceScore": 23.98,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "C++ with no classes?",
+        "link": "https://www.reddit.com/r/programming/comments/1lvdvyd/c_with_no_classes/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-07-09T08:56:03.000Z",
+        "relevanceScore": 20.34,
+        "tags": []
+      },
+      {
+        "title": "Introducing Skia Graphite: Chrome's rasterization backend for the future",
+        "link": "https://www.reddit.com/r/programming/comments/1lvdj5b/introducing_skia_graphite_chromes_rasterization/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-07-09T08:31:47.000Z",
+        "relevanceScore": 20.26,
+        "tags": []
+      },
+      {
+        "title": "Better performance, smarter workflows: What’s new in Stack Overflow for Teams",
+        "link": "https://stackoverflow.blog/2025/07/08/better-performance-smarter-workflows-what-s-new-in-stack-overflow-for-teams/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-07-08T13:00:00.000Z",
+        "relevanceScore": 18.35,
+        "tags": [
+          "Launch"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 13,
-    "avgRelevanceScore": 400.06259259259235,
+    "totalCategories": 16,
+    "avgRelevanceScore": 383.17259259259237,
     "topCategories": [
       {
         "category": "tech",
-        "count": 17
+        "count": 15
       },
       {
         "category": "ai-ml",
-        "count": 10
+        "count": 12
+      },
+      {
+        "category": "business",
+        "count": 5
       },
       {
         "category": "general",
         "count": 5
       },
       {
-        "category": "development",
-        "count": 5
-      },
-      {
-        "category": "business",
-        "count": 4
+        "category": "world",
+        "count": 3
       }
     ]
   }
