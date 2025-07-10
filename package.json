@@ -13,6 +13,23 @@
     "news:report": "node src/server/news/update-all-news.js report",
     "news:keywords-only": "node src/server/news/update-all-news.js keywords",
     "news:process": "node src/server/news/process-news.js",
+    "news:cleanup": "node src/server/news/update-all-news.js cleanup",
+    "news:search-update": "node src/server/news/update-all-news.js search",
+    "cleanup:run": "node src/server/news/cleanup-news.js",
+    "cleanup:report": "node src/server/news/cleanup-news.js report",
+    "cleanup:test": "node src/server/news/cleanup-news.js test",
+    "search:update": "node src/server/search/update-indexes.js",
+    "search:incremental": "node src/server/search/update-indexes.js incremental",
+    "search:report": "node src/server/search/update-indexes.js report",
+    "search:validate": "node src/server/search/update-indexes.js validate",
+    "search:cleanup": "node src/server/search/update-indexes.js cleanup",
+    "scheduler:start": "node src/server/scheduler/automated-tasks.js start",
+    "scheduler:stop": "node src/server/scheduler/automated-tasks.js stop",
+    "scheduler:status": "node src/server/scheduler/automated-tasks.js status",
+    "scheduler:news": "node src/server/scheduler/automated-tasks.js news",
+    "scheduler:cleanup": "node src/server/scheduler/automated-tasks.js cleanup",
+    "scheduler:search": "node src/server/scheduler/automated-tasks.js search",
+    "scheduler:reload": "node src/server/scheduler/automated-tasks.js reload",
     "health-check": "node src/server/monitoring/health-check.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +41,10 @@
     "doctor-who",
     "static-site",
     "rss",
-    "news-aggregator"
+    "news-aggregator",
+    "search",
+    "automation",
+    "file-management"
   ],
   "author": "ccc333bbb",
   "license": "MIT",
@@ -32,7 +52,8 @@
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
     "rss-parser": "^3.13.0",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "@lyrasearch/lyra": "^0.8.0"
   },
   "devDependencies": {},
   "repository": {
