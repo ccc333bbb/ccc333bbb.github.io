@@ -1,4 +1,6 @@
-// TARDIS Search Functionality
+// TARDIS Search Functionality with Lyra
+import lyraSearch from './lyra-search.js';
+
 class TardisSearch {
     constructor() {
         this.searchInput = document.getElementById('searchInput');
@@ -9,11 +11,15 @@ class TardisSearch {
         this.currentCategory = 'all';
         this.searchTerm = '';
         this.filteredPortals = [];
+        this.lyraInitialized = false;
         
         this.init();
     }
     
-    init() {
+    async init() {
+        // Initialize Lyra search
+        await this.initializeLyra();
+        
         // Bind search events
         this.searchInput.addEventListener('input', (e) => {
             this.searchTerm = e.target.value.toLowerCase();
@@ -32,22 +38,52 @@ class TardisSearch {
         // Initial load
         this.filterPortals();
     }
+
+    async initializeLyra() {
+        try {
+            await lyraSearch.initialize();
+            await lyraSearch.indexPortals(portalsData);
+            this.lyraInitialized = true;
+            console.log('✅ Lyra search initialized for portals');
+        } catch (error) {
+            console.error('❌ Failed to initialize Lyra search:', error);
+            // Fallback to original search method
+        }
+    }
     
     setActiveTab(activeBtn) {
         this.tabButtons.forEach(btn => btn.classList.remove('active'));
         activeBtn.classList.add('active');
     }
     
-    filterPortals() {
-        this.filteredPortals = portalsData.filter(portal => {
-            const matchesCategory = this.currentCategory === 'all' || portal.category === this.currentCategory;
-            const matchesSearch = this.searchTerm === '' || 
-                portal.title.toLowerCase().includes(this.searchTerm) ||
-                portal.description.toLowerCase().includes(this.searchTerm) ||
-                portal.tags.some(tag => tag.toLowerCase().includes(this.searchTerm));
+    async filterPortals() {
+        if (this.lyraInitialized && this.searchTerm.trim()) {
+            // Use Lyra search for better results
+            const filters = {
+                category: this.currentCategory === 'all' ? undefined : this.currentCategory
+            };
             
-            return matchesCategory && matchesSearch;
-        });
+            const lyraResults = await lyraSearch.searchPortals(this.searchTerm, filters);
+            this.filteredPortals = lyraResults.map(result => {
+                // Convert back to original portal format
+                const originalPortal = portalsData.find(p => p.id.toString() === result.id);
+                return {
+                    ...originalPortal,
+                    searchScore: result.score
+                };
+            });
+        } else {
+            // Fallback to original search method
+            this.filteredPortals = portalsData.filter(portal => {
+                const matchesCategory = this.currentCategory === 'all' || portal.category === this.currentCategory;
+                const matchesSearch = this.searchTerm === '' || 
+                    portal.title.toLowerCase().includes(this.searchTerm) ||
+                    portal.description.toLowerCase().includes(this.searchTerm) ||
+                    portal.tags.some(tag => tag.toLowerCase().includes(this.searchTerm));
+                
+                return matchesCategory && matchesSearch;
+            });
+        }
         
         this.renderPortals();
         this.updateStats();
