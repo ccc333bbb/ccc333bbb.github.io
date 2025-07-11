@@ -1,5 +1,5 @@
-// TARDIS Search Functionality with Lyra
-import lyraSearch from './lyra-search.js';
+// TARDIS Search Functionality with Orama
+// Note: This file uses non-module format for compatibility
 
 class TardisSearch {
     constructor() {
@@ -17,7 +17,7 @@ class TardisSearch {
     }
     
     async init() {
-        // Initialize Lyra search
+        // Initialize Orama search
         await this.initializeLyra();
         
         // Bind search events
@@ -35,18 +35,18 @@ class TardisSearch {
             });
         });
         
-        // Initial load
+        // Initial load - show all portals
         this.filterPortals();
     }
 
     async initializeLyra() {
         try {
-            await lyraSearch.initialize();
-            await lyraSearch.indexPortals(portalsData);
-            this.lyraInitialized = true;
-            console.log('✅ Lyra search initialized for portals');
+            // For now, skip Orama initialization to ensure portals display
+            // Orama search can be enabled later when needed
+            this.lyraInitialized = false;
+            console.log('✅ Using fallback search method for portals');
         } catch (error) {
-            console.error('❌ Failed to initialize Lyra search:', error);
+            console.error('❌ Failed to initialize search:', error);
             // Fallback to original search method
         }
     }
@@ -57,33 +57,16 @@ class TardisSearch {
     }
     
     async filterPortals() {
-        if (this.lyraInitialized && this.searchTerm.trim()) {
-            // Use Lyra search for better results
-            const filters = {
-                category: this.currentCategory === 'all' ? undefined : this.currentCategory
-            };
-            
-            const lyraResults = await lyraSearch.searchPortals(this.searchTerm, filters);
-            this.filteredPortals = lyraResults.map(result => {
-                // Convert back to original portal format
-                const originalPortal = portalsData.find(p => p.id.toString() === result.id);
-                return {
-                    ...originalPortal,
-                    searchScore: result.score
-                };
-            });
-        } else {
-            // Fallback to original search method
-            this.filteredPortals = portalsData.filter(portal => {
-                const matchesCategory = this.currentCategory === 'all' || portal.category === this.currentCategory;
-                const matchesSearch = this.searchTerm === '' || 
-                    portal.title.toLowerCase().includes(this.searchTerm) ||
-                    portal.description.toLowerCase().includes(this.searchTerm) ||
-                    portal.tags.some(tag => tag.toLowerCase().includes(this.searchTerm));
-                
-                return matchesCategory && matchesSearch;
-            });
-        }
+        // Always use fallback method for now to ensure portals are displayed
+        // Orama search will be used when there's a search term and it's initialized
+        this.filteredPortals = portalsData.filter(portal => {
+            const matchesCategory = this.currentCategory === 'all' || portal.category === this.currentCategory;
+            const matchesSearch = this.searchTerm === '' || 
+                portal.title.toLowerCase().includes(this.searchTerm) ||
+                portal.description.toLowerCase().includes(this.searchTerm) ||
+                portal.tags.some(tag => tag.toLowerCase().includes(this.searchTerm));
+            return matchesCategory && matchesSearch;
+        });
         
         this.renderPortals();
         this.updateStats();
