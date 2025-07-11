@@ -1,5 +1,5 @@
 // TARDIS Global Search Component with Auto-Update
-import lyraSearch from './lyra-search.js';
+import oramaSearch from './lyra-search.js';
 
 class GlobalSearch {
     constructor() {
@@ -107,7 +107,7 @@ class GlobalSearch {
 
     async initializeLyra() {
         try {
-            await lyraSearch.initialize();
+            await oramaSearch.initialize();
             
             // 索引所有數據
             await this.indexAllData();
@@ -126,7 +126,7 @@ class GlobalSearch {
             
             // 索引門戶數據
             if (typeof portalsData !== 'undefined') {
-                await lyraSearch.indexPortals(portalsData);
+                await oramaSearch.indexPortals(portalsData);
             }
 
             // 索引新聞數據
@@ -134,7 +134,7 @@ class GlobalSearch {
             if (newsResponse.ok) {
                 const newsData = await newsResponse.json();
                 if (newsData.topArticles) {
-                    await lyraSearch.indexNews(newsData.topArticles);
+                    await oramaSearch.indexNews(newsData.topArticles);
                 }
             }
 
@@ -142,21 +142,21 @@ class GlobalSearch {
             const aiToolsResponse = await fetch('/data/ai-tools.json');
             if (aiToolsResponse.ok) {
                 const aiToolsData = await aiToolsResponse.json();
-                await lyraSearch.indexAiTools(aiToolsData);
+                await oramaSearch.indexAiTools(aiToolsData);
             }
 
             // 索引思維模型數據
             const modelsResponse = await fetch('/data/thinking-models.json');
             if (modelsResponse.ok) {
                 const modelsData = await modelsResponse.json();
-                await lyraSearch.indexThinkingModels(modelsData);
+                await oramaSearch.indexThinkingModels(modelsData);
             }
 
             // 索引 MCP 服務器數據
             const mcpResponse = await fetch('/data/mcp-servers.json');
             if (mcpResponse.ok) {
                 const mcpData = await mcpResponse.json();
-                await lyraSearch.indexMcpServers(mcpData);
+                await oramaSearch.indexMcpServers(mcpData);
             }
 
             this.updateStatus('Ready', 'success');
@@ -326,7 +326,7 @@ class GlobalSearch {
         try {
             this.showLoading();
             
-            const results = await lyraSearch.globalSearch(query);
+            const results = await oramaSearch.globalSearch(query);
             
             this.displayResults(results, query);
         } catch (error) {
