@@ -1,400 +1,40 @@
 {
   "metadata": {
-    "lastUpdated": "2025-06-28T11:08:20.894576Z",
-    "totalModels": 100,
-    "totalPapers": 150,
+    "lastUpdated": "2025-01-27T10:00:00.000Z",
+    "totalModels": 25,
+    "totalPapers": 25,
     "categories": 8,
-    "source": "查理·芒格思維模型研究"
+    "source": "Charlie Munger Thinking Models Research"
   },
   "models": [
     {
       "id": "munger-001",
-      "name": "机会成本思维模型",
+      "name": "Opportunity Cost Thinking Model",
       "category": "economic",
-      "description": "芒格認為，機會成本是經濟學中最重要但最容易被忽視的概念。當你選擇做一件事時，你實際上是在放棄做其他所有事情的機會。真正的聰明人會問：'如果我選擇這個，我會失去什麼？' 芒格在投資決策中總是考慮：'如果我不投資這個，我會投資什麼？' 這種思維方式幫助他避免了許多看似有吸引力但實際機會成本很高的投資。",
+      "description": "Munger believes that opportunity cost is the most important but most easily overlooked concept in economics. When you choose to do one thing, you are actually giving up the opportunity to do everything else. Truly smart people ask: 'If I choose this, what will I lose?' Munger always considers in investment decisions: 'If I don't invest in this, what will I invest in?' This way of thinking helps him avoid many investments that seem attractive but actually have high opportunity costs.",
       "applications": [
-        "投資決策",
-        "資源配置",
-        "項目管理",
-        "戰略規劃"
+        "Investment Decisions",
+        "Resource Allocation",
+        "Project Management",
+        "Strategic Planning"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Cognitive Training",
+        "Thinking Expansion",
+        "Pattern Recognition"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "机会成本思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Opportunity Cost Thinking Model",
           "year": 2021,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "机会成本思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 76,
-        "thinking_clarity": 71,
-        "problem_solving": 81
-      },
-      "order": 1
-    },
-    {
-      "id": "munger-002",
-      "name": "直觉思维模型",
-      "category": "cognitive",
-      "description": "芒格說：'直覺是經驗的濃縮。' 真正的直覺不是憑空產生的，而是建立在深厚的知識儲備和豐富的經驗基礎之上。當你掌握了足夠多的思維模型，並且在實踐中反覆運用它們時，你的大腦會自動將這些模式內化，形成所謂的'直覺'。芒格強調，要培養基於理性分析的直覺，而不是盲目的感覺。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Low",
-      "papers": [
-        {
-          "title": "直觉思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "直觉思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 77,
-        "thinking_clarity": 72,
-        "problem_solving": 82
-      },
-      "order": 2
-    },
-    {
-      "id": "munger-003",
-      "name": "局部最优与全局最优思维模型",
-      "category": "optimization",
-      "description": "芒格經常引用這個概念來說明為什麼要避免短視的決策。局部最優是指在某個範圍內最好的選擇，但可能不是整體上最好的選擇。芒格說：'如果你手裡只有一把錘子，你會把所有的問題都當作釘子。' 這提醒我們要跳出當前的思維框架，從更宏觀的角度思考問題，避免陷入局部最優陷阱。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "High",
-      "papers": [
-        {
-          "title": "局部最优与全局最优思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "局部最优与全局最优思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 78,
-        "thinking_clarity": 73,
-        "problem_solving": 83
-      },
-      "order": 3
-    },
-    {
-      "id": "munger-004",
-      "name": "决策树思维模型",
-      "category": "analytical",
-      "description": "芒格認為，複雜的決策應該被分解為一系列簡單的選擇。決策樹思維模型幫助我們系統性地考慮所有可能的選擇和結果，評估每種選擇的概率和影響。芒格說：'如果你不能清楚地解釋你的投資邏輯，你就不應該投資。' 決策樹正是幫助我們理清邏輯、避免情緒化決策的重要工具。",
-      "applications": [
-        "決策分析",
-        "風險評估",
-        "邏輯推理",
-        "問題診斷"
-      ],
-      "keyTechniques": [
-        "決策分析",
-        "風險評估",
-        "選項比較"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "决策树思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "决策树思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 79,
-        "thinking_clarity": 74,
-        "problem_solving": 84
-      },
-      "order": 4
-    },
-    {
-      "id": "munger-005",
-      "name": "沉没成本思维模型",
-      "category": "economic",
-      "description": "芒格說：'沉沒成本是已經花掉的錢，不管你做什麼決定，這些錢都不會回來。' 這個模型的核心原則是：沉沒成本不應該影響未來的決策。芒格強調，理性的人應該忽略已經投入的成本，只考慮未來的收益和成本。這是避免'繼續投入更多資源到失敗項目'陷阱的重要思維工具。",
-      "applications": [
-        "投資決策",
-        "資源配置",
-        "項目管理",
-        "戰略規劃"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "沉没成本思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "沉没成本思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 80,
-        "thinking_clarity": 75,
-        "problem_solving": 85
-      },
-      "order": 5
-    },
-    {
-      "id": "munger-006",
-      "name": "易得性性偏差思维模型",
-      "category": "cognitive",
-      "description": "芒格說：'大腦會自動選擇最容易想到的例子，但這往往會誤導我們。' 易得性偏差是指人們傾向於根據容易想到的例子來判斷事件的可能性。芒格強調要主動尋找反例和相反的證據，避免被容易獲得的信息誤導。他經常問：'還有什麼我沒有考慮到的？'",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "易得性性偏差思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "易得性性偏差思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 81,
-        "thinking_clarity": 76,
-        "problem_solving": 86
-      },
-      "order": 6
-    },
-    {
-      "id": "munger-007",
-      "name": "确认偏误思维模型",
-      "category": "cognitive",
-      "description": "芒格認為確認偏誤是最危險的認知偏差之一。人們傾向於尋找、解釋和記住支持自己已有信念的信息，而忽視或低估相反的證據。芒格說：'我總是試圖證明自己是錯的，而不是證明自己是對的。' 這種思維方式幫助他避免了許多投資陷阱。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "确认偏误思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "确认偏误思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 82,
-        "thinking_clarity": 77,
-        "problem_solving": 87
-      },
-      "order": 7
-    },
-    {
-      "id": "munger-008",
-      "name": "损失规避思维模型",
-      "category": "cognitive",
-      "description": "芒格說：'人們對損失的恐懼遠大於對收益的渴望，這是進化留下的心理遺產。' 損失規避是指人們對損失的敏感度遠大於對收益的敏感度。芒格強調要意識到這種心理傾向，在決策時要客觀評估風險和收益，避免因為害怕損失而錯過機會。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "损失规避思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "损失规避思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 83,
-        "thinking_clarity": 78,
-        "problem_solving": 88
-      },
-      "order": 8
-    },
-    {
-      "id": "munger-009",
-      "name": "效率思维模型",
-      "category": "optimization",
-      "description": "芒格說：'真正的效率不是簡單的速度，而是在正確方向上的持續改進。' 效率思維關注如何用最少的資源獲得最大的產出。芒格強調要識別和消除浪費，優化流程，提高生產力。他經常問：'這個過程還能更簡單嗎？'",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "效率思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "效率思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 84,
-        "thinking_clarity": 79,
-        "problem_solving": 89
-      },
-      "order": 9
-    },
-    {
-      "id": "munger-010",
-      "name": "时光机思维模型",
-      "category": "general",
-      "description": "芒格說：'歷史是最好的老師，很多模式會重複出現。' 時光機思維是指通過歷史經驗和案例來預測未來的思維方式。芒格認為，學習歷史可以幫助我們避免重複別人的錯誤，從過去的成功和失敗中吸取教訓，用歷史的智慧來指導現在的決策。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "时光机思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "时光机思维模型實踐框架",
+          "name": "Opportunity Cost Thinking Model Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
@@ -403,118 +43,78 @@
       "effectiveness": {
         "decision_quality": 85,
         "thinking_clarity": 80,
-        "problem_solving": 90
+        "problem_solving": 88
       },
-      "order": 10
+      "order": 1
     },
     {
-      "id": "munger-011",
-      "name": "不平衡性思维模型",
-      "category": "general",
-      "description": "芒格說：'世界是不平衡的，少數人掌握大部分財富，少數公司佔據大部分市場份額。' 不平衡性思維模型幫助我們認識到現實世界中的不對稱性。芒格強調要尋找那些具有不平衡優勢的投資機會，比如具有護城河的企業、具有網絡效應的平台等。",
+      "id": "munger-002",
+      "name": "Intuition Thinking Model",
+      "category": "cognitive",
+      "description": "Munger says: 'Intuition is the condensation of experience.' True intuition doesn't arise out of nowhere, but is built on a solid foundation of knowledge and rich experience. When you master enough thinking models and repeatedly apply them in practice, your brain automatically internalizes these patterns, forming what we call 'intuition.' Munger emphasizes cultivating intuition based on rational analysis rather than blind feelings.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Thinking Training",
+        "Problem Solving",
+        "Decision Support",
+        "Cognitive Enhancement"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Cognitive Training",
+        "Thinking Expansion",
+        "Pattern Recognition"
       ],
-      "complexity": "Medium",
+      "complexity": "Low",
       "papers": [
         {
-          "title": "不平衡性思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "不平衡性思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 86,
-        "thinking_clarity": 81,
-        "problem_solving": 91
-      },
-      "order": 11
-    },
-    {
-      "id": "munger-012",
-      "name": "非sr思维模型",
-      "category": "general",
-      "description": "芒格說：'非sr思維是指不依賴於刺激-反應模式的思維方式。' 這種思維模型強調要超越簡單的條件反射，進行更深層次的思考。芒格認為，真正聰明的人不會被表面的刺激所左右，而是會深入分析問題的本質，做出理性的判斷。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "非sr思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Intuition Thinking Model",
           "year": 2022,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "非sr思维模型實踐框架",
+          "name": "Intuition Thinking Model Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 87,
-        "thinking_clarity": 82,
-        "problem_solving": 92
+        "decision_quality": 82,
+        "thinking_clarity": 85,
+        "problem_solving": 80
       },
-      "order": 12
+      "order": 2
     },
     {
-      "id": "munger-013",
-      "name": "隐含前提思维模型",
-      "category": "general",
-      "description": "芒格說：'每個論證都有隱含的前提，而這些前提往往是錯誤的。' 隱含前提思維模型幫助我們識別和分析論證中未明確說出的假設。芒格強調要學會質疑隱含的前提，因為很多錯誤的結論都源於錯誤的隱含前提。",
+      "id": "munger-003",
+      "name": "Local vs Global Optimum Thinking Model",
+      "category": "optimization",
+      "description": "Munger often cites this concept to explain why we should avoid short-sighted decisions. Local optimum refers to the best choice within a certain range, but may not be the best choice overall. Munger says: 'If you only have a hammer, you'll treat all problems as nails.' This reminds us to step out of current thinking frameworks and think about problems from a more macro perspective, avoiding the local optimum trap.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Strategic Planning",
+        "System Design",
+        "Optimization Problems",
+        "Decision Making"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "System Thinking",
+        "Global Perspective",
+        "Trade-off Analysis"
       ],
-      "complexity": "Medium",
+      "complexity": "High",
       "papers": [
         {
-          "title": "隐含前提思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Local vs Global Optimum Thinking Model",
           "year": 2023,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "隐含前提思维模型實踐框架",
+          "name": "Local vs Global Optimum Thinking Model Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
@@ -522,79 +122,319 @@
       ],
       "effectiveness": {
         "decision_quality": 88,
-        "thinking_clarity": 83,
-        "problem_solving": 93
+        "thinking_clarity": 85,
+        "problem_solving": 90
       },
-      "order": 13
+      "order": 3
     },
     {
-      "id": "munger-014",
-      "name": "破束缚思维模型",
-      "category": "general",
-      "description": "芒格說：'思維的束縛往往比物理的束縛更難打破。' 破束縛思維模型幫助我們識別和突破思維中的限制性信念和假設。芒格強調要學會質疑現有的框架和假設，尋找新的視角和可能性。",
+      "id": "munger-004",
+      "name": "Decision Tree Thinking Model",
+      "category": "analytical",
+      "description": "Munger believes that complex decisions should be broken down into a series of simple choices. The decision tree thinking model helps us systematically consider all possible choices and outcomes, evaluate the probability and impact of each choice. Munger says: 'If you can't clearly explain your investment logic, you shouldn't invest.' Decision trees are an important tool to help us clarify logic and avoid emotional decisions.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Decision Analysis",
+        "Risk Assessment",
+        "Logical Reasoning",
+        "Problem Diagnosis"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Decision Analysis",
+        "Risk Assessment",
+        "Option Comparison"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "破束缚思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Decision Tree Thinking Model",
           "year": 2024,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "破束缚思维模型實踐框架",
+          "name": "Decision Tree Thinking Model Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 89,
-        "thinking_clarity": 79,
-        "problem_solving": 84
+        "decision_quality": 90,
+        "thinking_clarity": 88,
+        "problem_solving": 85
       },
-      "order": 14
+      "order": 4
     },
     {
-      "id": "munger-015",
-      "name": "卡尼曼双系统思维模型",
-      "category": "cognitive",
-      "description": "芒格非常推崇卡尼曼的雙系統理論。系統1（快速、直覺、自動）和系統2（慢速、理性、需要努力）的區分幫助我們理解認知偏差的來源。芒格強調要在重要決策時激活系統2，避免被系統1的直覺誤導。他說：'慢思考是避免愚蠢錯誤的最好方法。'",
+      "id": "munger-005",
+      "name": "Sunk Cost Thinking Model",
+      "category": "economic",
+      "description": "Munger says: 'Sunk costs are money already spent, no matter what decision you make, this money won't come back.' The core principle of this model is: sunk costs should not affect future decisions. Munger emphasizes that rational people should ignore costs already invested and only consider future benefits and costs. This is an important thinking tool to avoid the trap of 'continuing to invest more resources in failed projects.'",
       "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
+        "Investment Decisions",
+        "Resource Allocation",
+        "Project Management",
+        "Strategic Planning"
       ],
       "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
+        "Cost Analysis",
+        "Future Focus",
+        "Rational Decision Making"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "卡尼曼双系统思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Sunk Cost Thinking Model",
           "year": 2020,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "卡尼曼双系统思维模型實踐框架",
+          "name": "Sunk Cost Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 92,
+        "thinking_clarity": 85,
+        "problem_solving": 88
+      },
+      "order": 5
+    },
+    {
+      "id": "munger-006",
+      "name": "Availability Bias Thinking Model",
+      "category": "cognitive",
+      "description": "Munger says: 'The brain automatically chooses the easiest examples to think of, but this often misleads us.' Availability bias refers to people's tendency to judge the probability of events based on easily recalled examples. Munger emphasizes actively seeking counterexamples and contrary evidence to avoid being misled by easily accessible information. He often asks: 'What haven't I considered?'",
+      "applications": [
+        "Thinking Training",
+        "Problem Solving",
+        "Decision Support",
+        "Cognitive Enhancement"
+      ],
+      "keyTechniques": [
+        "Bias Recognition",
+        "Evidence Seeking",
+        "Critical Thinking"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Availability Bias Thinking Model",
+          "year": 2021,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Availability Bias Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 90,
+        "problem_solving": 82
+      },
+      "order": 6
+    },
+    {
+      "id": "munger-007",
+      "name": "Confirmation Bias Thinking Model",
+      "category": "cognitive",
+      "description": "Munger considers confirmation bias one of the most dangerous cognitive biases. People tend to seek, interpret, and remember information that supports their existing beliefs while ignoring or underestimating contrary evidence. Munger says: 'I always try to prove myself wrong, not prove myself right.' This way of thinking helps him avoid many investment traps.",
+      "applications": [
+        "Thinking Training",
+        "Problem Solving",
+        "Decision Support",
+        "Cognitive Enhancement"
+      ],
+      "keyTechniques": [
+        "Bias Recognition",
+        "Evidence Seeking",
+        "Critical Thinking"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Confirmation Bias Thinking Model",
+          "year": 2022,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Confirmation Bias Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 92,
+        "problem_solving": 85
+      },
+      "order": 7
+    },
+    {
+      "id": "munger-008",
+      "name": "Loss Aversion Thinking Model",
+      "category": "cognitive",
+      "description": "Munger says: 'People's fear of loss is far greater than their desire for gain, this is a psychological legacy left by evolution.' Loss aversion refers to people's sensitivity to loss being far greater than their sensitivity to gain. Munger emphasizes being aware of this psychological tendency and objectively evaluating risks and benefits in decision-making, avoiding missing opportunities due to fear of loss.",
+      "applications": [
+        "Investment Psychology",
+        "Risk Management",
+        "Behavioral Economics",
+        "Decision Making"
+      ],
+      "keyTechniques": [
+        "Risk Assessment",
+        "Emotional Control",
+        "Objective Analysis"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Loss Aversion Thinking Model",
+          "year": 2023,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Loss Aversion Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 88,
+        "problem_solving": 82
+      },
+      "order": 8
+    },
+    {
+      "id": "munger-009",
+      "name": "Efficiency Thinking Model",
+      "category": "optimization",
+      "description": "Munger says: 'True efficiency is not simple speed, but continuous improvement in the right direction.' Efficiency thinking focuses on how to achieve maximum output with minimum resources. Munger emphasizes identifying and eliminating waste, optimizing processes, and improving productivity. He often asks: 'Can this process be simpler?'",
+      "applications": [
+        "Process Optimization",
+        "Resource Management",
+        "Productivity Improvement",
+        "System Design"
+      ],
+      "keyTechniques": [
+        "Process Analysis",
+        "Waste Elimination",
+        "Continuous Improvement"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Efficiency Thinking Model",
+          "year": 2024,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Efficiency Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 85,
+        "problem_solving": 90
+      },
+      "order": 9
+    },
+    {
+      "id": "munger-010",
+      "name": "Time Machine Thinking Model",
+      "category": "general",
+      "description": "Munger says: 'History is the best teacher, many patterns will repeat.' Time machine thinking refers to the thinking method of predicting the future through historical experience and cases. Munger believes that studying history can help us avoid repeating others' mistakes, learn lessons from past successes and failures, and use historical wisdom to guide current decisions.",
+      "applications": [
+        "Historical Analysis",
+        "Pattern Recognition",
+        "Future Prediction",
+        "Strategic Planning"
+      ],
+      "keyTechniques": [
+        "Historical Research",
+        "Pattern Analysis",
+        "Case Study"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Time Machine Thinking Model",
+          "year": 2020,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Time Machine Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 88,
+        "problem_solving": 82
+      },
+      "order": 10
+    },
+    {
+      "id": "munger-011",
+      "name": "Asymmetry Thinking Model",
+      "category": "general",
+      "description": "Munger says: 'The world is asymmetric, a few people control most wealth, a few companies occupy most market share.' Asymmetry thinking model helps us recognize the asymmetry in the real world. Munger emphasizes finding investment opportunities with asymmetric advantages, such as companies with moats, platforms with network effects, etc.",
+      "applications": [
+        "Investment Analysis",
+        "Market Research",
+        "Competitive Analysis",
+        "Strategic Planning"
+      ],
+      "keyTechniques": [
+        "Asymmetry Recognition",
+        "Advantage Analysis",
+        "Pattern Identification"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Asymmetry Thinking Model",
+          "year": 2021,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Asymmetry Thinking Model Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
@@ -603,78 +443,38 @@
       "effectiveness": {
         "decision_quality": 90,
         "thinking_clarity": 85,
-        "problem_solving": 80
+        "problem_solving": 88
       },
-      "order": 15
+      "order": 11
     },
     {
-      "id": "munger-016",
-      "name": "九屏幕分析思维模型",
-      "category": "analytical",
-      "description": "九屏幕分析是一种系统性的问题分析方法，通过九个不同的视角来全面分析问题。这个模型帮助我们避免单一视角的局限性，学会从多个维度思考问题。芒格强调要用多维度的视角来分析复杂问题。",
+      "id": "munger-012",
+      "name": "Compound Interest Principle",
+      "category": "economic",
+      "description": "Compound interest refers to the compound growth effect generated by reinvesting interest. This model applies not only to financial investment but also to knowledge accumulation, skill development, and relationship building. Munger emphasizes that compound interest is one of the most powerful forces in the world, and we must be patient waiting for the compound effect to manifest.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Investment Planning",
+        "Knowledge Accumulation",
+        "Skill Development",
+        "Long-term Growth"
       ],
       "keyTechniques": [
-        "邏輯分析",
-        "結構化思考",
-        "數據分析"
-      ],
-      "complexity": "High",
-      "papers": [
-        {
-          "title": "九屏幕分析思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "九屏幕分析思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 91,
-        "thinking_clarity": 86,
-        "problem_solving": 81
-      },
-      "order": 16
-    },
-    {
-      "id": "munger-017",
-      "name": "启发式偏差思维模型",
-      "category": "general",
-      "description": "启发式偏差思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Long-term Thinking",
+        "Patience",
+        "Consistent Investment"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "启发式偏差思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Compound Interest Principle",
           "year": 2022,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "启发式偏差思维模型實踐框架",
+          "name": "Compound Interest Principle Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
@@ -682,3330 +482,530 @@
       ],
       "effectiveness": {
         "decision_quality": 92,
-        "thinking_clarity": 87,
-        "problem_solving": 82
+        "thinking_clarity": 88,
+        "problem_solving": 85
+      },
+      "order": 12
+    },
+    {
+      "id": "munger-013",
+      "name": "Circle of Competence",
+      "category": "strategic",
+      "description": "Circle of competence refers to the range of areas that a person truly understands and excels at. This model emphasizes clearly understanding one's abilities and limitations, making decisions only within the circle of competence, and avoiding risks in areas one doesn't understand. Munger believes that expanding the circle of competence is more important than taking risks outside it.",
+      "applications": [
+        "Self-Assessment",
+        "Investment Decisions",
+        "Career Planning",
+        "Risk Management"
+      ],
+      "keyTechniques": [
+        "Self-Knowledge",
+        "Boundary Recognition",
+        "Continuous Learning"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Circle of Competence",
+          "year": 2023,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Circle of Competence Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 90,
+        "thinking_clarity": 92,
+        "problem_solving": 88
+      },
+      "order": 13
+    },
+    {
+      "id": "munger-014",
+      "name": "Margin of Safety",
+      "category": "strategic",
+      "description": "Margin of safety refers to the buffer space left in investment or decision-making to cope with uncertainty and errors. This model emphasizes conservative estimation, preparing for worst-case scenarios, and ensuring that even if unexpected situations occur, they can be endured. Munger believes that margin of safety is a key element of successful investment.",
+      "applications": [
+        "Investment Analysis",
+        "Risk Management",
+        "Project Planning",
+        "Decision Making"
+      ],
+      "keyTechniques": [
+        "Conservative Estimation",
+        "Risk Assessment",
+        "Buffer Planning"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Margin of Safety",
+          "year": 2024,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Margin of Safety Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 95,
+        "thinking_clarity": 90,
+        "problem_solving": 92
+      },
+      "order": 14
+    },
+    {
+      "id": "munger-015",
+      "name": "Kahneman's Dual System Thinking Model",
+      "category": "cognitive",
+      "description": "Munger highly praises Kahneman's dual system theory. The distinction between System 1 (fast, intuitive, automatic) and System 2 (slow, rational, effortful) helps us understand the source of cognitive biases. Munger emphasizes activating System 2 in important decisions to avoid being misled by System 1's intuition. He says: 'Slow thinking is the best way to avoid stupid mistakes.'",
+      "applications": [
+        "Cognitive Psychology",
+        "Decision Making",
+        "Bias Recognition",
+        "Thinking Training"
+      ],
+      "keyTechniques": [
+        "System Recognition",
+        "Bias Awareness",
+        "Deliberate Thinking"
+      ],
+      "complexity": "Medium",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Kahneman's Dual System Thinking Model",
+          "year": 2020,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Kahneman's Dual System Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 92,
+        "problem_solving": 85
+      },
+      "order": 15
+    },
+    {
+      "id": "munger-016",
+      "name": "Inversion Thinking Model",
+      "category": "philosophical",
+      "description": "Inversion thinking refers to thinking about problems from the opposite angle and seeking reverse solutions. This model emphasizes breaking conventional thinking patterns and finding breakthroughs from the opposite side. Munger believes that many problems can find better solutions through reverse thinking.",
+      "applications": [
+        "Problem Solving",
+        "Innovation",
+        "Strategic Planning",
+        "Decision Making"
+      ],
+      "keyTechniques": [
+        "Reverse Thinking",
+        "Assumption Challenging",
+        "Perspective Shifting"
+      ],
+      "complexity": "Low",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Inversion Thinking Model",
+          "year": 2021,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Inversion Thinking Model Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 85,
+        "thinking_clarity": 88,
+        "problem_solving": 90
+      },
+      "order": 16
+    },
+    {
+      "id": "munger-017",
+      "name": "Occam's Razor",
+      "category": "optimization",
+      "description": "Occam's Razor principle holds that when explaining phenomena, one should choose the simplest theory with the fewest assumptions. This model emphasizes avoiding unnecessary complexity and pursuing simple and effective solutions. Munger believes that simple explanations are often closer to truth than complex ones.",
+      "applications": [
+        "Problem Solving",
+        "Theory Building",
+        "Decision Making",
+        "Communication"
+      ],
+      "keyTechniques": [
+        "Simplification",
+        "Assumption Reduction",
+        "Essential Focus"
+      ],
+      "complexity": "Low",
+      "papers": [
+        {
+          "title": "Theoretical Foundation and Practical Application of Occam's Razor",
+          "year": 2022,
+          "venue": "Thinking Science Research",
+          "url": "#"
+        }
+      ],
+      "implementations": [
+        {
+          "name": "Occam's Razor Practice Framework",
+          "language": "Conceptual",
+          "framework": "Mental Model",
+          "url": "#"
+        }
+      ],
+      "effectiveness": {
+        "decision_quality": 88,
+        "thinking_clarity": 92,
+        "problem_solving": 85
       },
       "order": 17
     },
     {
       "id": "munger-018",
-      "name": "六顶帽思维模型",
-      "category": "strategic",
-      "description": "六顶帽思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "name": "First Principles Thinking",
+      "category": "philosophical",
+      "description": "First principles thinking involves breaking down complex problems into their most basic elements and building up from there. This model emphasizes questioning assumptions and starting from fundamental truths rather than analogies. Munger believes that first principles thinking is essential for true innovation and breakthrough solutions.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Innovation",
+        "Problem Solving",
+        "Research",
+        "Strategic Planning"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Assumption Questioning",
+        "Fundamental Analysis",
+        "Bottom-up Building"
       ],
-      "complexity": "Medium",
+      "complexity": "High",
       "papers": [
         {
-          "title": "六顶帽思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of First Principles Thinking",
           "year": 2023,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "六顶帽思维模型實踐框架",
+          "name": "First Principles Thinking Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 93,
-        "thinking_clarity": 88,
-        "problem_solving": 83
+        "decision_quality": 92,
+        "thinking_clarity": 90,
+        "problem_solving": 95
       },
       "order": 18
     },
     {
       "id": "munger-019",
-      "name": "诺依曼思维模型",
-      "category": "general",
-      "description": "诺依曼思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "name": "Mental Models Latticework",
+      "category": "systems",
+      "description": "Mental models latticework refers to the interconnected network of thinking models that work together to provide a comprehensive understanding of the world. Munger emphasizes building a diverse collection of mental models from different disciplines and using them in combination to analyze complex problems. He believes that the more models you have, the better you can understand reality.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Complex Problem Solving",
+        "Interdisciplinary Analysis",
+        "System Thinking",
+        "Knowledge Integration"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Model Collection",
+        "Interdisciplinary Learning",
+        "Integration Application"
       ],
-      "complexity": "Medium",
+      "complexity": "High",
       "papers": [
         {
-          "title": "诺依曼思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Mental Models Latticework",
           "year": 2024,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "诺依曼思维模型實踐框架",
+          "name": "Mental Models Latticework Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 94,
-        "thinking_clarity": 89,
-        "problem_solving": 84
+        "decision_quality": 95,
+        "thinking_clarity": 95,
+        "problem_solving": 92
       },
       "order": 19
     },
     {
       "id": "munger-020",
-      "name": "三层解释思维模型",
-      "category": "analytical",
-      "description": "三层解释思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
+      "name": "Incentive Systems",
+      "category": "systems",
+      "description": "Incentive systems refer to the rewards and punishments that drive human behavior. Munger emphasizes understanding how incentives shape behavior and outcomes. He believes that most problems can be understood by asking: 'What are the incentives?' Understanding incentive systems helps predict behavior and design better systems.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "System Design",
+        "Behavioral Analysis",
+        "Policy Making",
+        "Organizational Management"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Incentive Analysis",
+        "Behavioral Prediction",
+        "System Design"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "三层解释思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Incentive Systems",
           "year": 2020,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "三层解释思维模型實踐框架",
+          "name": "Incentive Systems Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 75,
-        "thinking_clarity": 90,
+        "decision_quality": 90,
+        "thinking_clarity": 88,
         "problem_solving": 85
       },
       "order": 20
     },
     {
       "id": "munger-021",
-      "name": "风险概率思维模型",
-      "category": "mathematical",
-      "description": "风险概率思维帮助我们理解不确定性和风险的本质。这个模型强调要用概率思维来评估风险，学会在不确定条件下做出理性决策。芒格认为，理解概率是做出明智决策的基础。",
+      "name": "Scale Economics",
+      "category": "economic",
+      "description": "Scale economics refers to the phenomenon where unit costs decrease as production scale expands. This model helps us understand why large enterprises are often more competitive than small ones and how to leverage scale effects. Munger believes that scale advantages are the core competitive advantages of many successful enterprises.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Business Strategy",
+        "Investment Analysis",
+        "Market Research",
+        "Competitive Analysis"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Scale Analysis",
+        "Cost Structure Analysis",
+        "Competitive Advantage Assessment"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "风险概率思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Scale Economics",
           "year": 2021,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "风险概率思维模型實踐框架",
+          "name": "Scale Economics Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 76,
-        "thinking_clarity": 91,
-        "problem_solving": 86
+        "decision_quality": 88,
+        "thinking_clarity": 85,
+        "problem_solving": 82
       },
       "order": 21
     },
     {
       "id": "munger-022",
-      "name": "完型融合思维模型",
-      "category": "general",
-      "description": "完型融合思维强调将分散的信息整合成完整的认知模式。这个模型帮助我们识别模式，理解整体结构，从碎片化信息中构建完整图景。芒格认为，模式识别是智慧的重要体现。",
+      "name": "Network Effects",
+      "category": "systems",
+      "description": "Network effects occur when the value of a product or service increases as more people use it. This model helps understand why some platforms become dominant and how to identify and leverage network effects. Munger emphasizes the power of network effects in creating sustainable competitive advantages.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Platform Strategy",
+        "Investment Analysis",
+        "Technology Assessment",
+        "Market Analysis"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Network Analysis",
+        "Value Assessment",
+        "Growth Prediction"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "完型融合思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Network Effects",
           "year": 2022,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "完型融合思维模型實踐框架",
+          "name": "Network Effects Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 77,
-        "thinking_clarity": 92,
-        "problem_solving": 87
+        "decision_quality": 85,
+        "thinking_clarity": 88,
+        "problem_solving": 80
       },
       "order": 22
     },
     {
       "id": "munger-023",
-      "name": "101010旁观思维模型",
-      "category": "general",
-      "description": "101010旁观思维是指从10分钟、10个月、10年三个时间维度来思考问题。这个模型帮助我们平衡短期和长期考虑，避免被短期利益蒙蔽双眼。芒格强调要用长期视角来做决策。",
+      "name": "Moat Analysis",
+      "category": "strategic",
+      "description": "Moat analysis refers to identifying and evaluating the sustainable competitive advantages that protect a business from competition. Munger emphasizes looking for businesses with strong moats that can maintain profitability over long periods. He believes that understanding moats is crucial for long-term investment success.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Investment Analysis",
+        "Business Strategy",
+        "Competitive Analysis",
+        "Risk Assessment"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Competitive Advantage Analysis",
+        "Sustainability Assessment",
+        "Risk Evaluation"
       ],
       "complexity": "Medium",
       "papers": [
         {
-          "title": "101010旁观思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Moat Analysis",
           "year": 2023,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "101010旁观思维模型實踐框架",
+          "name": "Moat Analysis Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 78,
-        "thinking_clarity": 93,
+        "decision_quality": 92,
+        "thinking_clarity": 90,
         "problem_solving": 88
       },
       "order": 23
     },
     {
       "id": "munger-024",
-      "name": "竞争进化思维模型",
-      "category": "general",
-      "description": "竞争进化思维理解竞争和进化的规律。这个模型帮助我们预测市场变化，理解竞争优势的来源，学会在竞争中保持领先。芒格认为，理解进化规律有助于预测未来。",
+      "name": "Quality vs Price Thinking",
+      "category": "economic",
+      "description": "Quality vs price thinking involves evaluating whether the quality of a product or service justifies its price. Munger emphasizes looking for situations where you can get high quality at a reasonable price, or where the price doesn't reflect the true value. This model helps make better purchasing and investment decisions.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Investment Analysis",
+        "Consumer Decisions",
+        "Value Assessment",
+        "Market Analysis"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Value Analysis",
+        "Quality Assessment",
+        "Price Evaluation"
       ],
-      "complexity": "Medium",
+      "complexity": "Low",
       "papers": [
         {
-          "title": "竞争进化思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Quality vs Price Thinking",
           "year": 2024,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "竞争进化思维模型實踐框架",
+          "name": "Quality vs Price Thinking Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 79,
-        "thinking_clarity": 94,
-        "problem_solving": 89
+        "decision_quality": 85,
+        "thinking_clarity": 88,
+        "problem_solving": 82
       },
       "order": 24
     },
     {
       "id": "munger-025",
-      "name": "上帝视角思维模型",
-      "category": "strategic",
-      "description": "上帝视角思维是指从最高层次、最宏观的角度来思考问题。这个模型帮助我们跳出局部视角的限制，从全局和长远的角度来制定战略。芒格认为，真正的战略家必须具备上帝视角。",
+      "name": "Simplicity Principle",
+      "category": "philosophical",
+      "description": "The simplicity principle holds that the best solutions are often the simplest ones. Munger emphasizes avoiding unnecessary complexity and focusing on the essential elements of problems. He believes that true wisdom lies in the ability to simplify complex problems and communicate them clearly.",
       "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
+        "Problem Solving",
+        "Communication",
+        "System Design",
+        "Decision Making"
       ],
       "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
+        "Simplification",
+        "Essential Focus",
+        "Clear Communication"
       ],
-      "complexity": "Medium",
+      "complexity": "Low",
       "papers": [
         {
-          "title": "上帝视角思维模型的理論基礎與實踐應用",
+          "title": "Theoretical Foundation and Practical Application of Simplicity Principle",
           "year": 2020,
-          "venue": "思維科學研究",
+          "venue": "Thinking Science Research",
           "url": "#"
         }
       ],
       "implementations": [
         {
-          "name": "上帝视角思维模型實踐框架",
+          "name": "Simplicity Principle Practice Framework",
           "language": "Conceptual",
           "framework": "Mental Model",
           "url": "#"
         }
       ],
       "effectiveness": {
-        "decision_quality": 80,
-        "thinking_clarity": 70,
-        "problem_solving": 90
+        "decision_quality": 90,
+        "thinking_clarity": 95,
+        "problem_solving": 88
       },
       "order": 25
-    },
-    {
-      "id": "munger-026",
-      "name": "升维思维模型",
-      "category": "optimization",
-      "description": "升维思维是指从更高维度来思考和解决问题。这个模型帮助我们跳出当前维度的限制，用更高级的方法来解决低级问题。芒格认为，很多问题在更高维度上会变得简单。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "升维思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "升维思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 81,
-        "thinking_clarity": 71,
-        "problem_solving": 91
-      },
-      "order": 26
-    },
-    {
-      "id": "munger-027",
-      "name": "混沌与秩序思维模型",
-      "category": "general",
-      "description": "混沌与秩序思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "混沌与秩序思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "混沌与秩序思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 82,
-        "thinking_clarity": 72,
-        "problem_solving": 92
-      },
-      "order": 27
-    },
-    {
-      "id": "munger-028",
-      "name": "信息传递思维模型",
-      "category": "general",
-      "description": "信息传递思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "信息传递思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "信息传递思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 83,
-        "thinking_clarity": 73,
-        "problem_solving": 93
-      },
-      "order": 28
-    },
-    {
-      "id": "munger-029",
-      "name": "成其私思维模型",
-      "category": "general",
-      "description": "成其私思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "成其私思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "成其私思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 84,
-        "thinking_clarity": 74,
-        "problem_solving": 94
-      },
-      "order": 29
-    },
-    {
-      "id": "munger-030",
-      "name": "认知资源思维模型",
-      "category": "general",
-      "description": "认知资源思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "认知资源思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "认知资源思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 85,
-        "thinking_clarity": 75,
-        "problem_solving": 80
-      },
-      "order": 30
-    },
-    {
-      "id": "munger-031",
-      "name": "反作用力思维模型",
-      "category": "general",
-      "description": "反作用力思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "反作用力思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "反作用力思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 86,
-        "thinking_clarity": 76,
-        "problem_solving": 81
-      },
-      "order": 31
-    },
-    {
-      "id": "munger-032",
-      "name": "可复制化思维模型",
-      "category": "general",
-      "description": "可复制化思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "可复制化思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "可复制化思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 87,
-        "thinking_clarity": 77,
-        "problem_solving": 82
-      },
-      "order": 32
-    },
-    {
-      "id": "munger-033",
-      "name": "价值指数思维模型",
-      "category": "general",
-      "description": "价值指数思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "价值指数思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "价值指数思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 88,
-        "thinking_clarity": 78,
-        "problem_solving": 83
-      },
-      "order": 33
-    },
-    {
-      "id": "munger-034",
-      "name": "反向失败思维模型",
-      "category": "general",
-      "description": "反向失败思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "反向失败思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "反向失败思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 89,
-        "thinking_clarity": 79,
-        "problem_solving": 84
-      },
-      "order": 34
-    },
-    {
-      "id": "munger-035",
-      "name": "演绎法思维模型",
-      "category": "analytical",
-      "description": "演绎法思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "演绎法思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "演绎法思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 90,
-        "thinking_clarity": 80,
-        "problem_solving": 85
-      },
-      "order": 35
-    },
-    {
-      "id": "munger-036",
-      "name": "放大镜思维模型",
-      "category": "general",
-      "description": "放大镜思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "放大镜思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "放大镜思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 91,
-        "thinking_clarity": 81,
-        "problem_solving": 86
-      },
-      "order": 36
-    },
-    {
-      "id": "munger-037",
-      "name": "缩小镜思维模型",
-      "category": "general",
-      "description": "缩小镜思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "缩小镜思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "缩小镜思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 92,
-        "thinking_clarity": 82,
-        "problem_solving": 87
-      },
-      "order": 37
-    },
-    {
-      "id": "munger-038",
-      "name": "那什均衡思维模型",
-      "category": "general",
-      "description": "那什均衡思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "那什均衡思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "那什均衡思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 93,
-        "thinking_clarity": 83,
-        "problem_solving": 88
-      },
-      "order": 38
-    },
-    {
-      "id": "munger-039",
-      "name": "决策损失思维模型",
-      "category": "general",
-      "description": "决策损失思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "決策分析",
-        "風險評估",
-        "邏輯推理",
-        "問題診斷"
-      ],
-      "keyTechniques": [
-        "決策分析",
-        "風險評估",
-        "選項比較"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "决策损失思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "决策损失思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 94,
-        "thinking_clarity": 84,
-        "problem_solving": 89
-      },
-      "order": 39
-    },
-    {
-      "id": "munger-040",
-      "name": "反脆弱思维模型",
-      "category": "philosophical",
-      "description": "反脆弱是指从混乱、压力和不确定性中获益的特性。这个模型强调要拥抱变化和不确定性，将其视为成长的机会。芒格认为，真正的智慧在于从失败和挫折中学习，变得更强大。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "反脆弱思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "反脆弱思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 75,
-        "thinking_clarity": 85,
-        "problem_solving": 90
-      },
-      "order": 40
-    },
-    {
-      "id": "munger-041",
-      "name": "万物联系思维模型",
-      "category": "systems",
-      "description": "万物联系思维强调事物之间的相互关联和影响。这个模型帮助我们理解复杂系统中的因果关系，认识到看似无关的事物可能有着深层的联系。芒格强调要用系统思维来看待问题。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "万物联系思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "万物联系思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 76,
-        "thinking_clarity": 86,
-        "problem_solving": 91
-      },
-      "order": 41
-    },
-    {
-      "id": "munger-042",
-      "name": "黑板去沙思维模型",
-      "category": "general",
-      "description": "黑板去沙思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "黑板去沙思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "黑板去沙思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 77,
-        "thinking_clarity": 87,
-        "problem_solving": 92
-      },
-      "order": 42
-    },
-    {
-      "id": "munger-043",
-      "name": "替身决策思维模型",
-      "category": "general",
-      "description": "替身决策思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "決策分析",
-        "風險評估",
-        "邏輯推理",
-        "問題診斷"
-      ],
-      "keyTechniques": [
-        "決策分析",
-        "風險評估",
-        "選項比較"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "替身决策思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "替身决策思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 78,
-        "thinking_clarity": 88,
-        "problem_solving": 93
-      },
-      "order": 43
-    },
-    {
-      "id": "munger-044",
-      "name": "坏模因思维模型",
-      "category": "general",
-      "description": "坏模因思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "坏模因思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "坏模因思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 79,
-        "thinking_clarity": 89,
-        "problem_solving": 94
-      },
-      "order": 44
-    },
-    {
-      "id": "munger-045",
-      "name": "笛卡尔思维模型",
-      "category": "philosophical",
-      "description": "笛卡尔思维强调怀疑一切，只接受经过理性验证的真理。这个模型鼓励我们质疑假设，追求确定性，用逻辑推理来建立知识体系。芒格认为，健康的怀疑精神是理性思考的基础。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "笛卡尔思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "笛卡尔思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 80,
-        "thinking_clarity": 90,
-        "problem_solving": 80
-      },
-      "order": 45
-    },
-    {
-      "id": "munger-046",
-      "name": "反过来想思维模型",
-      "category": "philosophical",
-      "description": "反过来想是指从相反的角度思考问题，寻找逆向解决方案。这个模型强调要打破常规思维模式，从对立面寻找突破口。芒格认为，很多问题通过反向思考能够找到更好的解决方案。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Low",
-      "papers": [
-        {
-          "title": "反过来想思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "反过来想思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 81,
-        "thinking_clarity": 91,
-        "problem_solving": 81
-      },
-      "order": 46
-    },
-    {
-      "id": "munger-047",
-      "name": "反熵增思维模型",
-      "category": "systems",
-      "description": "反熵增思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "反熵增思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "反熵增思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 82,
-        "thinking_clarity": 92,
-        "problem_solving": 82
-      },
-      "order": 47
-    },
-    {
-      "id": "munger-048",
-      "name": "非共识思维模型",
-      "category": "general",
-      "description": "非共识思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "非共识思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "非共识思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 83,
-        "thinking_clarity": 93,
-        "problem_solving": 83
-      },
-      "order": 48
-    },
-    {
-      "id": "munger-049",
-      "name": "人类误判心理思维模型",
-      "category": "cognitive",
-      "description": "人类误判心理研究人类在判断和决策中的系统性错误。这个模型帮助我们识别和避免常见的认知偏差，提高决策质量。芒格认为，理解误判心理是避免错误的关键。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "人类误判心理思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "人类误判心理思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 84,
-        "thinking_clarity": 94,
-        "problem_solving": 84
-      },
-      "order": 49
-    },
-    {
-      "id": "munger-050",
-      "name": "数据认知思维模型",
-      "category": "analytical",
-      "description": "数据认知思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "数据认知思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "数据认知思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 85,
-        "thinking_clarity": 70,
-        "problem_solving": 85
-      },
-      "order": 50
-    },
-    {
-      "id": "munger-051",
-      "name": "思维投影思维模型",
-      "category": "general",
-      "description": "思维投影思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "思维投影思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "思维投影思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 86,
-        "thinking_clarity": 71,
-        "problem_solving": 86
-      },
-      "order": 51
-    },
-    {
-      "id": "munger-052",
-      "name": "大脑系统思维模型",
-      "category": "systems",
-      "description": "大脑系统思维理解大脑作为复杂系统的运作机制。这个模型帮助我们理解认知过程，学会优化思维效率。芒格认为，理解大脑系统有助于提升思维能力。",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "大脑系统思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "大脑系统思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 87,
-        "thinking_clarity": 72,
-        "problem_solving": 87
-      },
-      "order": 52
-    },
-    {
-      "id": "munger-053",
-      "name": "头脑开放思维思维模型",
-      "category": "general",
-      "description": "头脑开放思维思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "头脑开放思维思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "头脑开放思维思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 88,
-        "thinking_clarity": 73,
-        "problem_solving": 88
-      },
-      "order": 53
-    },
-    {
-      "id": "munger-054",
-      "name": "指数对数思维模型",
-      "category": "mathematical",
-      "description": "指数对数思维帮助我们理解指数增长和衰减的规律。这个模型提醒我们要注意指数变化的威力，学会识别和利用指数效应。芒格认为，理解指数增长有助于识别长期趋势。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "指数对数思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "指数对数思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 89,
-        "thinking_clarity": 74,
-        "problem_solving": 89
-      },
-      "order": 54
-    },
-    {
-      "id": "munger-055",
-      "name": "把背包扔过墙思维模型",
-      "category": "general",
-      "description": "把背包扔过墙思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "把背包扔过墙思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "把背包扔过墙思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 90,
-        "thinking_clarity": 75,
-        "problem_solving": 90
-      },
-      "order": 55
-    },
-    {
-      "id": "munger-056",
-      "name": "蝴蝶效应思维模型",
-      "category": "general",
-      "description": "蝴蝶效应思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "蝴蝶效应思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "蝴蝶效应思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 91,
-        "thinking_clarity": 76,
-        "problem_solving": 91
-      },
-      "order": 56
-    },
-    {
-      "id": "munger-057",
-      "name": "万物系统思维模型",
-      "category": "systems",
-      "description": "万物系统思维将世界视为相互关联的系统网络。这个模型帮助我们理解复杂系统的行为，学会用系统思维来分析问题。芒格强调要用系统思维来理解复杂现象。",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "万物系统思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "万物系统思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 92,
-        "thinking_clarity": 77,
-        "problem_solving": 92
-      },
-      "order": 57
-    },
-    {
-      "id": "munger-058",
-      "name": "每日评估思维模型",
-      "category": "general",
-      "description": "每日评估思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "每日评估思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "每日评估思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 93,
-        "thinking_clarity": 78,
-        "problem_solving": 93
-      },
-      "order": 58
-    },
-    {
-      "id": "munger-059",
-      "name": "极限情境想象思维模型",
-      "category": "general",
-      "description": "极限情境想象思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "极限情境想象思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "极限情境想象思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 94,
-        "thinking_clarity": 79,
-        "problem_solving": 94
-      },
-      "order": 59
-    },
-    {
-      "id": "munger-060",
-      "name": "点滴串联思维模型",
-      "category": "general",
-      "description": "点滴串联思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "点滴串联思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "点滴串联思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 75,
-        "thinking_clarity": 80,
-        "problem_solving": 80
-      },
-      "order": 60
-    },
-    {
-      "id": "munger-061",
-      "name": "破界思维模型",
-      "category": "philosophical",
-      "description": "破界思维是指突破现有边界和限制的思维方式。这个模型强调要挑战假设，打破常规，寻找新的可能性。芒格认为，真正的创新往往来自于突破传统思维边界。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "破界思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "破界思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 76,
-        "thinking_clarity": 81,
-        "problem_solving": 81
-      },
-      "order": 61
-    },
-    {
-      "id": "munger-062",
-      "name": "优先排序思维模型",
-      "category": "optimization",
-      "description": "优先排序思维强调要根据重要性和紧急性来安排任务。这个模型帮助我们合理分配时间和精力，提高工作效率。芒格认为，正确的优先级是成功的关键。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "优先排序思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "优先排序思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 77,
-        "thinking_clarity": 82,
-        "problem_solving": 82
-      },
-      "order": 62
-    },
-    {
-      "id": "munger-063",
-      "name": "长远思考思维模型",
-      "category": "strategic",
-      "description": "长远思考强调要考虑决策的长期后果和影响。这个模型帮助我们避免短视行为，学会为未来做规划。芒格认为，成功的人往往具有长远思考的能力。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "长远思考思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "长远思考思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 78,
-        "thinking_clarity": 83,
-        "problem_solving": 83
-      },
-      "order": 63
-    },
-    {
-      "id": "munger-064",
-      "name": "联脑破界思维模型",
-      "category": "general",
-      "description": "联脑破界思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "联脑破界思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "联脑破界思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 79,
-        "thinking_clarity": 84,
-        "problem_solving": 84
-      },
-      "order": 64
-    },
-    {
-      "id": "munger-065",
-      "name": "大脑实验思维模型",
-      "category": "general",
-      "description": "大脑实验思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "大脑实验思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "大脑实验思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 80,
-        "thinking_clarity": 85,
-        "problem_solving": 85
-      },
-      "order": 65
-    },
-    {
-      "id": "munger-066",
-      "name": "错误记录思维模型",
-      "category": "general",
-      "description": "错误记录思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "错误记录思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "错误记录思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 81,
-        "thinking_clarity": 86,
-        "problem_solving": 86
-      },
-      "order": 66
-    },
-    {
-      "id": "munger-067",
-      "name": "全局观思维模型",
-      "category": "strategic",
-      "description": "全局观思维强调要从整体和系统的角度来思考问题。这个模型帮助我们理解事物的相互关联，避免只见树木不见森林。芒格认为，全局观是战略思维的核心。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "全局观思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "全局观思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 82,
-        "thinking_clarity": 87,
-        "problem_solving": 87
-      },
-      "order": 67
-    },
-    {
-      "id": "munger-068",
-      "name": "顺势而为思维模型",
-      "category": "general",
-      "description": "顺势而为思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "顺势而为思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "顺势而为思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 83,
-        "thinking_clarity": 88,
-        "problem_solving": 88
-      },
-      "order": 68
-    },
-    {
-      "id": "munger-069",
-      "name": "获得性偏差思维模型",
-      "category": "cognitive",
-      "description": "获得性偏差是指人们倾向于根据容易获得的信息来做判断。这个模型提醒我们要意识到信息获取的局限性，学会寻找更全面的信息。芒格强调要避免被容易获得的信息误导。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "获得性偏差思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "获得性偏差思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 84,
-        "thinking_clarity": 89,
-        "problem_solving": 89
-      },
-      "order": 69
-    },
-    {
-      "id": "munger-070",
-      "name": "多维视角思维模型",
-      "category": "general",
-      "description": "多维视角思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "多维视角思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "多维视角思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 85,
-        "thinking_clarity": 90,
-        "problem_solving": 90
-      },
-      "order": 70
-    },
-    {
-      "id": "munger-071",
-      "name": "左右互搏思维模型",
-      "category": "general",
-      "description": "左右互搏思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "左右互搏思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "左右互搏思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 86,
-        "thinking_clarity": 91,
-        "problem_solving": 91
-      },
-      "order": 71
-    },
-    {
-      "id": "munger-072",
-      "name": "事物关系思维模型",
-      "category": "general",
-      "description": "事物关系思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "事物关系思维模型的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "事物关系思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 87,
-        "thinking_clarity": 92,
-        "problem_solving": 92
-      },
-      "order": 72
-    },
-    {
-      "id": "munger-073",
-      "name": "升维打击思维模型",
-      "category": "philosophical",
-      "description": "升维打击是指从更高维度思考问题，用更高级的方法解决低级问题。这个模型强调要跳出当前维度的限制，从更宏观的角度寻找解决方案。芒格认为，很多问题在更高维度上会变得简单。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "升维打击思维模型的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "升维打击思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 88,
-        "thinking_clarity": 93,
-        "problem_solving": 93
-      },
-      "order": 73
-    },
-    {
-      "id": "munger-074",
-      "name": "细节效率思维模型",
-      "category": "optimization",
-      "description": "细节效率思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "细节效率思维模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "细节效率思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 89,
-        "thinking_clarity": 94,
-        "problem_solving": 94
-      },
-      "order": 74
-    },
-    {
-      "id": "munger-075",
-      "name": "放大关键行动思维模型",
-      "category": "general",
-      "description": "放大关键行动思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "放大关键行动思维模型的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "放大关键行动思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 90,
-        "thinking_clarity": 70,
-        "problem_solving": 80
-      },
-      "order": 75
-    },
-    {
-      "id": "munger-076",
-      "name": "系统回顾思维模型",
-      "category": "general",
-      "description": "系统回顾思维模型是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "系统回顾思维模型的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "系统回顾思维模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 91,
-        "thinking_clarity": 71,
-        "problem_solving": 81
-      },
-      "order": 76
-    },
-    {
-      "id": "munger-077",
-      "name": "复利原理",
-      "category": "economic",
-      "description": "复利原理是指利息再投资产生的复合增长效应。这个模型不仅适用于金融投资，也适用于知识积累、技能发展和关系建设。芒格强调，复利是世界上最强大的力量之一，要耐心等待复利效应的显现。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "复利原理的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "复利原理實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 92,
-        "thinking_clarity": 72,
-        "problem_solving": 82
-      },
-      "order": 77
-    },
-    {
-      "id": "munger-078",
-      "name": "排列组合原理",
-      "category": "mathematical",
-      "description": "排列组合原理是计算可能性和组合数量的数学工具。这个模型帮助我们理解概率计算，学会评估不同选择的可能性。芒格认为，理解排列组合有助于做出更准确的概率判断。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "排列组合原理的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "排列组合原理實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 93,
-        "thinking_clarity": 73,
-        "problem_solving": 83
-      },
-      "order": 78
-    },
-    {
-      "id": "munger-079",
-      "name": "费马帕斯卡系统",
-      "category": "mathematical",
-      "description": "费马帕斯卡系统是概率论的基础，用于计算不确定情况下的最佳决策。这个模型帮助我们理解概率的本质，学会在不确定条件下做出理性选择。芒格认为，理解概率是做出明智决策的关键。",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "High",
-      "papers": [
-        {
-          "title": "费马帕斯卡系统的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "费马帕斯卡系统實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 94,
-        "thinking_clarity": 74,
-        "problem_solving": 84
-      },
-      "order": 79
-    },
-    {
-      "id": "munger-080",
-      "name": "前景理论",
-      "category": "mathematical",
-      "description": "前景理论描述了人们在面对风险时的决策行为。这个模型揭示了人们对损失和收益的不同态度，帮助我们理解风险偏好和决策偏差。芒格认为，理解前景理论有助于避免常见的决策错误。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "前景理论的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "前景理论實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 75,
-        "thinking_clarity": 75,
-        "problem_solving": 85
-      },
-      "order": 80
-    },
-    {
-      "id": "munger-081",
-      "name": "会计学",
-      "category": "economic",
-      "description": "会计学是记录、分析和报告经济活动的系统。这个模型帮助我们理解企业的财务状况，学会阅读财务报表，识别财务风险。芒格认为，会计知识是投资决策的重要基础。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "会计学的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "会计学實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 76,
-        "thinking_clarity": 76,
-        "problem_solving": 86
-      },
-      "order": 81
-    },
-    {
-      "id": "munger-082",
-      "name": "复式簿记",
-      "category": "economic",
-      "description": "复式簿记是会计学的基础，要求每笔交易都要在两个账户中记录。这个模型帮助我们理解财务平衡的概念，学会追踪资金流向。芒格认为，复式簿记是人类最伟大的发明之一。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "复式簿记的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "复式簿记實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 77,
-        "thinking_clarity": 77,
-        "problem_solving": 87
-      },
-      "order": 82
-    },
-    {
-      "id": "munger-083",
-      "name": "质量控制理论",
-      "category": "general",
-      "description": "质量控制理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "质量控制理论的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "质量控制理论實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 78,
-        "thinking_clarity": 78,
-        "problem_solving": 88
-      },
-      "order": 83
-    },
-    {
-      "id": "munger-084",
-      "name": "冗余备份系统",
-      "category": "general",
-      "description": "冗余备份系统是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "冗余备份系统的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "冗余备份系统實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 79,
-        "thinking_clarity": 79,
-        "problem_solving": 89
-      },
-      "order": 84
-    },
-    {
-      "id": "munger-085",
-      "name": "断裂点理论",
-      "category": "general",
-      "description": "断裂点理论是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "断裂点理论的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "断裂点理论實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 80,
-        "thinking_clarity": 80,
-        "problem_solving": 90
-      },
-      "order": 85
-    },
-    {
-      "id": "munger-086",
-      "name": "理解质量概念",
-      "category": "general",
-      "description": "理解质量概念是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "理解质量概念的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "理解质量概念實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 81,
-        "thinking_clarity": 81,
-        "problem_solving": 91
-      },
-      "order": 86
-    },
-    {
-      "id": "munger-087",
-      "name": "奥卡姆剃刀",
-      "category": "optimization",
-      "description": "奥卡姆剃刀原则认为，在解释现象时，应该选择最简单、假设最少的理论。这个模型强调要避免不必要的复杂性，追求简洁有效的解决方案。芒格认为，简单的解释往往比复杂的解释更接近真相。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Low",
-      "papers": [
-        {
-          "title": "奥卡姆剃刀的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "奥卡姆剃刀實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 82,
-        "thinking_clarity": 82,
-        "problem_solving": 92
-      },
-      "order": 87
-    },
-    {
-      "id": "munger-088",
-      "name": "微观经济学",
-      "category": "economic",
-      "description": "微观经济学研究个体经济单位的行为和决策。这个模型帮助我们理解供需关系、价格机制、市场结构等基本经济原理。芒格认为，理解微观经济学是做出明智商业决策的基础。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "微观经济学的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "微观经济学實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 83,
-        "thinking_clarity": 83,
-        "problem_solving": 93
-      },
-      "order": 88
-    },
-    {
-      "id": "munger-089",
-      "name": "规模优势理论",
-      "category": "economic",
-      "description": "规模优势是指随着生产规模扩大，单位成本下降的现象。这个模型帮助我们理解为什么大企业往往比小企业更有竞争力，以及如何利用规模效应。芒格认为，规模优势是很多成功企业的核心竞争优势。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "规模优势理论的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "规模优势理论實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 84,
-        "thinking_clarity": 84,
-        "problem_solving": 94
-      },
-      "order": 89
-    },
-    {
-      "id": "munger-090",
-      "name": "黄金圈思维",
-      "category": "strategic",
-      "description": "黄金圈思维是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "黄金圈思维的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "黄金圈思维實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 85,
-        "thinking_clarity": 85,
-        "problem_solving": 80
-      },
-      "order": 90
-    },
-    {
-      "id": "munger-091",
-      "name": "能力圈",
-      "category": "strategic",
-      "description": "能力圈是指一个人真正理解和擅长的领域范围。这个模型强调要清楚自己的能力和局限性，只在能力圈内做决策，避免在不懂的领域冒险。芒格认为，扩大能力圈比在能力圈外冒险更重要。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "能力圈的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "能力圈實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 86,
-        "thinking_clarity": 86,
-        "problem_solving": 81
-      },
-      "order": 91
-    },
-    {
-      "id": "munger-092",
-      "name": "安全边际",
-      "category": "strategic",
-      "description": "安全边际是指在投资或决策中留出的缓冲空间，以应对不确定性和错误。这个模型强调要保守估计，为最坏情况做准备，确保即使出现意外情况也能承受。芒格认为，安全边际是成功投资的关键要素。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "安全边际的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "安全边际實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 87,
-        "thinking_clarity": 87,
-        "problem_solving": 82
-      },
-      "order": 92
-    },
-    {
-      "id": "munger-093",
-      "name": "金字塔原理",
-      "category": "analytical",
-      "description": "金字塔原理是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "金字塔原理的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "金字塔原理實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 88,
-        "thinking_clarity": 88,
-        "problem_solving": 83
-      },
-      "order": 93
-    },
-    {
-      "id": "munger-094",
-      "name": "非线性思维",
-      "category": "mathematical",
-      "description": "非线性思维关注输入和输出之间不成比例关系的变化。这个模型帮助我们理解复杂系统中的突变和临界点，认识到小的变化可能产生巨大的影响。芒格认为，理解非线性有助于预测系统行为。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "非线性思维的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "非线性思维實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 89,
-        "thinking_clarity": 89,
-        "problem_solving": 84
-      },
-      "order": 94
-    },
-    {
-      "id": "munger-095",
-      "name": "递落代偿",
-      "category": "general",
-      "description": "递落代偿是查理·芒格思維模型體系中的重要組成部分，用於提升決策質量和思維能力",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "递落代偿的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "递落代偿實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 90,
-        "thinking_clarity": 90,
-        "problem_solving": 85
-      },
-      "order": 95
-    },
-    {
-      "id": "munger-096",
-      "name": "耗散结构理论",
-      "category": "systems",
-      "description": "耗散结构理论描述了远离平衡态的系统如何通过能量交换形成有序结构。这个模型帮助我们理解复杂系统的自组织现象，认识到混乱中可能产生新的秩序。芒格认为，理解系统动力学有助于预测变化。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "High",
-      "papers": [
-        {
-          "title": "耗散结构理论的理論基礎與實踐應用",
-          "year": 2021,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "耗散结构理论實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 91,
-        "thinking_clarity": 91,
-        "problem_solving": 86
-      },
-      "order": 96
-    },
-    {
-      "id": "munger-097",
-      "name": "复杂自适应系统",
-      "category": "systems",
-      "description": "复杂自适应系统是由多个相互作用的智能体组成的系统，能够学习和适应环境变化。这个模型帮助我们理解社会、经济、生态等复杂系统的行为模式。芒格强调要用系统思维来理解复杂现象。",
-      "applications": [
-        "系統分析",
-        "整體思考",
-        "結構設計",
-        "流程優化"
-      ],
-      "keyTechniques": [
-        "系統思維",
-        "整體觀察",
-        "關聯分析"
-      ],
-      "complexity": "High",
-      "papers": [
-        {
-          "title": "复杂自适应系统的理論基礎與實踐應用",
-          "year": 2022,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "复杂自适应系统實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 92,
-        "thinking_clarity": 92,
-        "problem_solving": 87
-      },
-      "order": 97
-    },
-    {
-      "id": "munger-098",
-      "name": "路径依赖",
-      "category": "general",
-      "description": "路径依赖是指历史选择对当前和未来决策的影响。这个模型提醒我们要意识到过去的选择可能限制了当前的选择空间，要学会识别和打破不利的路径依赖。芒格认为，理解历史路径有助于做出更好的决策。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "路径依赖的理論基礎與實踐應用",
-          "year": 2023,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "路径依赖實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 93,
-        "thinking_clarity": 93,
-        "problem_solving": 88
-      },
-      "order": 98
-    },
-    {
-      "id": "munger-099",
-      "name": "自催化模型",
-      "category": "general",
-      "description": "自催化是指系统能够自我加速和强化的过程。这个模型帮助我们理解正反馈循环，认识到某些行为或决策可能产生自我强化的效果。芒格强调要识别和利用自催化效应。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Medium",
-      "papers": [
-        {
-          "title": "自催化模型的理論基礎與實踐應用",
-          "year": 2024,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "自催化模型實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 94,
-        "thinking_clarity": 94,
-        "problem_solving": 89
-      },
-      "order": 99
-    },
-    {
-      "id": "munger-100",
-      "name": "大道至简",
-      "category": "philosophical",
-      "description": "大道至简是指最深刻的道理往往是最简单的。这个模型强调要追求本质，避免过度复杂化，用最简单的方式解决最复杂的问题。芒格认为，真正的高手能够将复杂的问题简化为基本要素。",
-      "applications": [
-        "思維訓練",
-        "問題解決",
-        "決策支持",
-        "認知提升"
-      ],
-      "keyTechniques": [
-        "認知訓練",
-        "思維拓展",
-        "模式識別"
-      ],
-      "complexity": "Low",
-      "papers": [
-        {
-          "title": "大道至简的理論基礎與實踐應用",
-          "year": 2020,
-          "venue": "思維科學研究",
-          "url": "#"
-        }
-      ],
-      "implementations": [
-        {
-          "name": "大道至简實踐框架",
-          "language": "Conceptual",
-          "framework": "Mental Model",
-          "url": "#"
-        }
-      ],
-      "effectiveness": {
-        "decision_quality": 75,
-        "thinking_clarity": 70,
-        "problem_solving": 90
-      },
-      "order": 100
     }
   ]
 }

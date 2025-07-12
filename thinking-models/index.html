@@ -1,75 +1,358 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🧠 Thinking Models - TARDIS Navigation</title>
-    <meta name="description" content="Charlie Munger Thinking Models - 查理·芒格思維模型研究">
+    <title>Charlie Munger Thinking Models - Comprehensive Collection</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/resource-page.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global-search.css">
+    <style>
+        .thinking-models-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .model-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .model-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+        
+        .model-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .model-category {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+        
+        .model-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .model-applications {
+            margin-top: 15px;
+        }
+        
+        .applications-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+        
+        .applications-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .applications-list li {
+            background: #f8f9fa;
+            padding: 4px 8px;
+            margin: 2px 0;
+            border-radius: 4px;
+            font-size: 0.9em;
+            color: #495057;
+        }
+        
+        .filter-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .filter-controls {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        
+        .filter-group label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .filter-group select,
+        .filter-group input {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        
+        .stats-section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #3498db;
+        }
+        
+        .stat-label {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .complexity-badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+        
+        .complexity-low {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .complexity-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .complexity-high {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .effectiveness-bar {
+            width: 100%;
+            height: 6px;
+            background: #e9ecef;
+            border-radius: 3px;
+            margin-top: 5px;
+        }
+        
+        .effectiveness-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #ffc107, #dc3545);
+            border-radius: 3px;
+            transition: width 0.3s ease;
+        }
+        
+        @media (max-width: 768px) {
+            .models-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filter-controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="tardis-container">
-        <!-- Header -->
-        <header class="resource-header">
-            <div class="breadcrumb">
-                <a href="../">🚀 TARDIS Navigation</a> / <span>🧠 Thinking Models</span>
-            </div>
-            <div class="resource-title">
-                <h1>🧠 Thinking Models</h1>
-                <p class="subtitle">Charlie Munger Thinking Models Research</p>
-                <div class="resource-stats">
-                    <span class="stat-item">
-                        <span class="stat-value" id="totalModels">-</span>
-                        <span class="stat-label">思維模型</span>
-                    </span>
-                    <span class="stat-item">
-                        <span class="stat-value" id="totalPapers">-</span>
-                        <span class="stat-label">相關論文</span>
-                    </span>
-                    <span class="stat-item">
-                        <span class="stat-value" id="lastUpdated">-</span>
-                        <span class="stat-label">最後更新</span>
-                    </span>
-                </div>
-            </div>
+    <div class="thinking-models-container">
+        <header>
+            <h1>Charlie Munger Thinking Models</h1>
+            <p class="subtitle">A comprehensive collection of 25 authentic thinking models from Charlie Munger's wisdom</p>
         </header>
 
-        <!-- Search and Filter -->
-        <div class="search-filter-section">
-            <div class="search-container">
-                <input type="text" id="resourceSearch" placeholder="搜索思維模型...">
-                <div class="search-icon">🔍</div>
-            </div>
-            <div class="filter-tabs">
-                <button class="filter-btn active" data-category="all">全部</button>
-                <button class="filter-btn" data-category="economic">經濟學</button>
-                <button class="filter-btn" data-category="cognitive">認知心理</button>
-                <button class="filter-btn" data-category="analytical">分析思維</button>
-                <button class="filter-btn" data-category="optimization">最佳化</button>
-                <button class="filter-btn" data-category="strategic">戰略思維</button>
-                <button class="filter-btn" data-category="systems">系統思維</button>
-                <button class="filter-btn" data-category="mathematical">數學模型</button>
-                <button class="filter-btn" data-category="philosophical">哲學思辯</button>
+        <div class="stats-section">
+            <h2>Collection Overview</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Total Models</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25</div>
+                    <div class="stat-label">Research Papers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">2025</div>
+                    <div class="stat-label">Last Updated</div>
+                </div>
             </div>
         </div>
 
-        <!-- Resources Grid -->
-        <main class="resources-grid" id="resourcesGrid">
-            <!-- Thinking models will be dynamically generated -->
-        </main>
+        <div class="filter-section">
+            <h2>Filter & Search</h2>
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="categoryFilter">Category:</label>
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                        <option value="economic">Economic</option>
+                        <option value="cognitive">Cognitive</option>
+                        <option value="optimization">Optimization</option>
+                        <option value="analytical">Analytical</option>
+                        <option value="strategic">Strategic</option>
+                        <option value="philosophical">Philosophical</option>
+                        <option value="systems">Systems</option>
+                        <option value="general">General</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="complexityFilter">Complexity:</label>
+                    <select id="complexityFilter">
+                        <option value="">All Levels</option>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="searchInput">Search:</label>
+                    <input type="text" id="searchInput" placeholder="Search models...">
+                </div>
+            </div>
+        </div>
 
-        <!-- Footer -->
-        <footer class="resource-footer">
-            <p>© 2024 TARDIS Navigation - Charlie Munger Thinking Models</p>
-            <p>探索查理·芒格經典思維模型，提升決策智慧和認知能力</p>
-        </footer>
+        <div class="models-grid" id="modelsGrid">
+            <!-- Models will be loaded here dynamically -->
+        </div>
     </div>
 
-    <script src="../src/client/pages/thinking-models.js"></script>
-    <script src="../src/client/components/back-to-top.js"></script>
+    <script>
+        // Load and display thinking models
+        async function loadThinkingModels() {
+            try {
+                const response = await fetch('../data/thinking-models.json');
+                const data = await response.json();
+                displayModels(data.models);
+                setupFilters(data.models);
+            } catch (error) {
+                console.error('Error loading thinking models:', error);
+                document.getElementById('modelsGrid').innerHTML = '<p>Error loading models. Please try again later.</p>';
+            }
+        }
+
+        function displayModels(models) {
+            const grid = document.getElementById('modelsGrid');
+            grid.innerHTML = '';
+
+            models.forEach(model => {
+                const card = createModelCard(model);
+                grid.appendChild(card);
+            });
+        }
+
+        function createModelCard(model) {
+            const card = document.createElement('div');
+            card.className = 'model-card';
+            
+            const effectiveness = (model.effectiveness.decision_quality + 
+                                 model.effectiveness.thinking_clarity + 
+                                 model.effectiveness.problem_solving) / 3;
+            
+            card.innerHTML = `
+                <div class="model-title">${model.name}</div>
+                <div class="model-category">${model.category}</div>
+                <div class="complexity-badge complexity-${model.complexity.toLowerCase()}">${model.complexity}</div>
+                <div class="model-description">${model.description.substring(0, 200)}...</div>
+                <div class="model-applications">
+                    <div class="applications-title">Applications:</div>
+                    <ul class="applications-list">
+                        ${model.applications.slice(0, 3).map(app => `<li>${app}</li>`).join('')}
+                    </ul>
+                </div>
+                <div style="margin-top: 10px;">
+                    <small>Effectiveness: ${Math.round(effectiveness)}%</small>
+                    <div class="effectiveness-bar">
+                        <div class="effectiveness-fill" style="width: ${effectiveness}%"></div>
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+
+        function setupFilters(allModels) {
+            const categoryFilter = document.getElementById('categoryFilter');
+            const complexityFilter = document.getElementById('complexityFilter');
+            const searchInput = document.getElementById('searchInput');
+
+            function filterModels() {
+                const category = categoryFilter.value;
+                const complexity = complexityFilter.value;
+                const search = searchInput.value.toLowerCase();
+
+                const filtered = allModels.filter(model => {
+                    const categoryMatch = !category || model.category === category;
+                    const complexityMatch = !complexity || model.complexity === complexity;
+                    const searchMatch = !search || 
+                        model.name.toLowerCase().includes(search) ||
+                        model.description.toLowerCase().includes(search) ||
+                        model.applications.some(app => app.toLowerCase().includes(search));
+
+                    return categoryMatch && complexityMatch && searchMatch;
+                });
+
+                displayModels(filtered);
+            }
+
+            categoryFilter.addEventListener('change', filterModels);
+            complexityFilter.addEventListener('change', filterModels);
+            searchInput.addEventListener('input', filterModels);
+        }
+
+        // Load models when page loads
+        document.addEventListener('DOMContentLoaded', loadThinkingModels);
+    </script>
 </body>
 </html> 
