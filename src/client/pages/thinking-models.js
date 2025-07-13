@@ -90,6 +90,7 @@ class ThinkingModelsApp {
         
         document.getElementById('totalModels').textContent = metadata.totalModels;
         document.getElementById('totalPapers').textContent = metadata.totalPapers;
+        document.getElementById('categories').textContent = metadata.categories;
         
         const lastUpdated = new Date(metadata.lastUpdated);
         document.getElementById('lastUpdated').textContent = lastUpdated.toLocaleDateString('en-US');
@@ -267,12 +268,15 @@ class ThinkingModelsApp {
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+    // Add loading animation
+    const container = document.getElementById('resourcesGrid');
+    if (container) {
+        container.innerHTML = `
+            <div class="loading">
+                Loading Thinking Models...
+            </div>
+        `;
+    }
+    
     new ThinkingModelsApp();
 });
-
-// Add loading animation
-document.getElementById('resourcesGrid').innerHTML = `
-    <div class="loading">
-        Loading Thinking Models...
-    </div>
-`;
