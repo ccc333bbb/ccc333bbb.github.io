@@ -1,21 +1,22 @@
 {
-  "lastUpdated": "2025-07-13T17:50:35.834Z",
+  "lastUpdated": "2025-07-13T18:18:58.063Z",
   "totalArticles": 45,
   "categories": [
     "ai-ml",
-    "tech",
-    "startup",
-    "space",
-    "business",
-    "mobile",
-    "development",
-    "social",
-    "climate",
-    "general",
-    "cybersecurity",
     "gaming",
-    "world",
-    "entertainment"
+    "tech",
+    "education",
+    "business",
+    "space",
+    "startup",
+    "mobile",
+    "general",
+    "social",
+    "cybersecurity",
+    "development",
+    "climate",
+    "entertainment",
+    "world"
   ],
   "topArticles": [
     {
@@ -24,12 +25,23 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-07-13T00:54:56.000Z",
-      "relevanceScore": 1826.61,
-      "recommendationScore": 1827.11,
+      "relevanceScore": 1853.02,
+      "recommendationScore": 1853.52,
       "tags": [
         "AI",
         "Update"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "DevLog 20250713: Ease of Pain",
+      "link": "https://dev.to/nfc-charles/devlog-20250713-ease-of-pain-570e",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2025-07-13T18:08:54.000Z",
+      "relevanceScore": 1239.47,
+      "recommendationScore": 1239.47,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -38,12 +50,23 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-13T12:00:00.000Z",
-      "relevanceScore": 1177.83,
-      "recommendationScore": 1177.83,
+      "relevanceScore": 1202.74,
+      "recommendationScore": 1202.74,
       "tags": [
         "Update"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "🧐 Why Does Java Give an Error for Uninitialized Variables, But C Just Runs?",
+      "link": "https://dev.to/sandaruwan_wadiyage/why-does-java-give-an-error-for-uninitialized-variables-but-c-just-runs-38d9",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2025-07-13T18:04:55.000Z",
+      "relevanceScore": 489.95,
+      "recommendationScore": 491.95,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Marc Andreessen reportedly told group chat that universities will ‘pay the price’ for DEI",
@@ -51,8 +74,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-12T20:07:29.000Z",
-      "relevanceScore": 378.66,
-      "recommendationScore": 379.16,
+      "relevanceScore": 343.06,
+      "recommendationScore": 343.56,
       "tags": [
         "AI",
         "Science",
@@ -61,13 +84,24 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "9 Best Electric Scooters (2025), Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-electric-scooters/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-07-13T14:01:00.000Z",
-      "relevanceScore": 369.23,
-      "recommendationScore": 370.73,
+      "title": "Made in America",
+      "link": "https://www.npr.org/2025/07/11/1255526971/garment-workers-clothing-made-in-usa",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-07-11T22:25:07.000Z",
+      "relevanceScore": 340.22,
+      "recommendationScore": 340.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump’s NASA Cuts Would Hurt America for a Long, Long Time | Scientists warn that “the cuts would prevent the US from training and preparing the next generation of the scientific and technical workforce.”",
+      "link": "https://www.reddit.com/r/technology/comments/1lyveln/trumps_nasa_cuts_would_hurt_america_for_a_long/",
+      "source": "Reddit Technology",
+      "category": "space",
+      "pubDate": "2025-07-13T15:21:03.000Z",
+      "relevanceScore": 327.91,
+      "recommendationScore": 327.91,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -77,57 +111,36 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-07-13T13:00:00.000Z",
-      "relevanceScore": 292.53,
-      "recommendationScore": 293.03,
+      "relevanceScore": 316.44,
+      "recommendationScore": 316.94,
       "tags": [
         "Startup"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Trump’s NASA Cuts Would Hurt America for a Long, Long Time | Scientists warn that “the cuts would prevent the US from training and preparing the next generation of the scientific and technical workforce.”",
-      "link": "https://www.reddit.com/r/technology/comments/1lyveln/trumps_nasa_cuts_would_hurt_america_for_a_long/",
-      "source": "Reddit Technology",
-      "category": "space",
-      "pubDate": "2025-07-13T15:21:03.000Z",
-      "relevanceScore": 263.5,
-      "recommendationScore": 263.5,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Made in America",
-      "link": "https://www.npr.org/2025/07/11/1255526971/garment-workers-clothing-made-in-usa",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-07-11T22:25:07.000Z",
-      "relevanceScore": 243.32,
-      "recommendationScore": 243.32,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Serve Static React Files with NGINX in a Multi-Stage Docker Build",
-      "link": "https://dev.to/lovestaco/serve-static-react-files-with-nginx-in-a-multi-stage-docker-build-4mge",
+      "title": "📱 Mastering CSS Mobile Responsiveness: A Beginner’s Guide",
+      "link": "https://dev.to/bibimbop123/mastering-css-mobile-responsiveness-a-beginners-guide-3jag",
       "source": "Dev.to",
       "category": "mobile",
-      "pubDate": "2025-07-13T17:35:22.000Z",
-      "relevanceScore": 233.45,
-      "recommendationScore": 233.95,
+      "pubDate": "2025-07-13T18:03:43.000Z",
+      "relevanceScore": 309.95,
+      "recommendationScore": 310.45,
       "tags": [
         "Mobile",
-        "Exclusive"
+        "Web",
+        "Tutorial"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "What are the benefits of using Sveltos versus the traditional ArgoCD/Flux GitOps flow?",
-      "link": "https://dev.to/simone_morellato/what-are-the-benefits-of-using-sveltos-versus-the-traditional-argocdflux-gitops-flow-dek",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-13T17:36:08.000Z",
-      "relevanceScore": 199.95,
-      "recommendationScore": 202.95,
+      "title": "9 Best Electric Scooters (2025), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-electric-scooters/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-13T14:01:00.000Z",
+      "relevanceScore": 298.14,
+      "recommendationScore": 299.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -137,8 +150,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-12T21:03:39.000Z",
-      "relevanceScore": 183.84,
-      "recommendationScore": 184.34,
+      "relevanceScore": 207.25,
+      "recommendationScore": 207.75,
       "tags": [
         "AI",
         "Science",
@@ -148,38 +161,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "EA is reportedly hitting the brakes on the Need for Speed franchise",
-      "link": "https://www.engadget.com/gaming/ea-is-reportedly-hitting-the-brakes-on-the-need-for-speed-franchise-164807626.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2025-07-13T16:48:08.000Z",
-      "relevanceScore": 180.79,
-      "recommendationScore": 181.29,
-      "tags": [
-        "Web",
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Man’s heart stopped after common bacterium caused ultra-rare infection",
-      "link": "https://arstechnica.com/health/2025/07/mans-heart-stopped-after-common-bacterium-caused-ultra-rare-infection/",
-      "source": "Ars Technica",
-      "category": "climate",
-      "pubDate": "2025-07-11T21:35:11.000Z",
-      "relevanceScore": 165.15,
-      "recommendationScore": 166.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Ukraine says it has killed two agents behind assassination of its intelligence officer",
       "link": "https://www.bbc.com/news/articles/cj3r7p117l0o",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-13T13:31:11.000Z",
-      "relevanceScore": 163.14,
-      "recommendationScore": 163.64,
+      "relevanceScore": 199.54,
+      "recommendationScore": 200.04,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -189,9 +177,23 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-07-13T10:00:00.000Z",
-      "relevanceScore": 158.43,
-      "recommendationScore": 160.43,
+      "relevanceScore": 189.84,
+      "recommendationScore": 191.84,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "EA is reportedly hitting the brakes on the Need for Speed franchise",
+      "link": "https://www.engadget.com/gaming/ea-is-reportedly-hitting-the-brakes-on-the-need-for-speed-franchise-164807626.html?src=rss",
+      "source": "Engadget",
+      "category": "social",
+      "pubDate": "2025-07-13T16:48:08.000Z",
+      "relevanceScore": 186.2,
+      "recommendationScore": 186.7,
+      "tags": [
+        "Web",
+        "Social"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -200,21 +202,21 @@
       "source": "Reddit Programming",
       "category": "cybersecurity",
       "pubDate": "2025-07-13T14:52:04.000Z",
-      "relevanceScore": 151.9,
-      "recommendationScore": 151.9,
+      "relevanceScore": 185.81,
+      "recommendationScore": 185.81,
       "tags": [
         "Security"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "5 big EV takeaways from Trump’s “One Big Beautiful Bill”",
-      "link": "https://arstechnica.com/cars/2025/07/5-big-ev-takeaways-from-trumps-one-big-beautiful-bill/",
-      "source": "Ars Technica",
+      "title": "Amazon CEO sparks backlash after announcing major company shift in mass email: 'Should change the way our work is done'",
+      "link": "https://www.reddit.com/r/technology/comments/1lyynf0/amazon_ceo_sparks_backlash_after_announcing_major/",
+      "source": "Reddit Technology",
       "category": "tech",
-      "pubDate": "2025-07-12T11:12:00.000Z",
-      "relevanceScore": 141.87,
-      "recommendationScore": 142.37,
+      "pubDate": "2025-07-13T17:34:00.000Z",
+      "relevanceScore": 185.35,
+      "recommendationScore": 185.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -224,62 +226,19 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-13T10:34:43.000Z",
-      "relevanceScore": 140.55,
-      "recommendationScore": 141.05,
+      "relevanceScore": 173.45,
+      "recommendationScore": 173.95,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "🚀 What's New in Next.js 15? (A Smooth Developer Experience Ahead!)",
-      "link": "https://dev.to/heyabdullahbruh/whats-new-in-nextjs-15-a-smooth-developer-experience-ahead-bep",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-13T17:24:31.000Z",
-      "relevanceScore": 117.91,
-      "recommendationScore": 121.91,
-      "tags": [
-        "Web",
-        "Exclusive",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "For Algorithms, Memory Is a Far More Powerful Resource Than Time",
-      "link": "https://www.wired.com/story/for-algorithms-a-little-memory-outweighs-a-lot-of-time/",
-      "source": "Wired",
+      "title": "5 big EV takeaways from Trump’s “One Big Beautiful Bill”",
+      "link": "https://arstechnica.com/cars/2025/07/5-big-ev-takeaways-from-trumps-one-big-beautiful-bill/",
+      "source": "Ars Technica",
       "category": "tech",
-      "pubDate": "2025-07-13T11:00:00.000Z",
-      "relevanceScore": 111.63,
-      "recommendationScore": 112.13,
-      "tags": [
-        "Science",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "UK launches £500M package to support diverse, underrepresented investors and founders",
-      "link": "https://techcrunch.com/2025/07/13/uk-launches-500-package-to-support-diverse-underrepresented-investors-and-founders/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-07-13T14:30:00.000Z",
-      "relevanceScore": 109.33,
-      "recommendationScore": 111.83,
-      "tags": [
-        "Business",
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "System Design Basics - Databases and Connection Pools",
-      "link": "https://www.reddit.com/r/programming/comments/1lyvflu/system_design_basics_databases_and_connection/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-07-13T15:22:11.000Z",
-      "relevanceScore": 98.01,
-      "recommendationScore": 98.51,
+      "pubDate": "2025-07-12T11:12:00.000Z",
+      "relevanceScore": 145.78,
+      "recommendationScore": 146.28,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -289,8 +248,30 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-07-12T21:10:27.000Z",
-      "relevanceScore": 89.37,
-      "recommendationScore": 89.87,
+      "relevanceScore": 103.27,
+      "recommendationScore": 103.77,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "System Design Basics - Databases and Connection Pools",
+      "link": "https://www.reddit.com/r/programming/comments/1lyvflu/system_design_basics_databases_and_connection/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-07-13T15:22:11.000Z",
+      "relevanceScore": 102.91,
+      "recommendationScore": 103.41,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Man’s heart stopped after common bacterium caused ultra-rare infection",
+      "link": "https://arstechnica.com/health/2025/07/mans-heart-stopped-after-common-bacterium-caused-ultra-rare-infection/",
+      "source": "Ars Technica",
+      "category": "climate",
+      "pubDate": "2025-07-11T21:35:11.000Z",
+      "relevanceScore": 84.05,
+      "recommendationScore": 85.55,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -300,12 +281,39 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-07-11T22:01:10.000Z",
-      "relevanceScore": 57.24,
-      "recommendationScore": 57.74,
+      "relevanceScore": 72.64,
+      "recommendationScore": 73.14,
       "tags": [
         "AI",
         "Science",
         "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "For Algorithms, Memory Is a Far More Powerful Resource Than Time",
+      "link": "https://www.wired.com/story/for-algorithms-a-little-memory-outweighs-a-lot-of-time/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-13T11:00:00.000Z",
+      "relevanceScore": 55.54,
+      "recommendationScore": 56.04,
+      "tags": [
+        "Science",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Musk's latest Grok chatbot searches for billionaire mogul's views before answering questions",
+      "link": "https://abcnews.go.com/Business/wireStory/musks-latest-grok-chatbot-searches-billionaire-moguls-views-123690230",
+      "source": "ABC News Business",
+      "category": "ai-ml",
+      "pubDate": "2025-07-11T21:26:34.000Z",
+      "relevanceScore": 52.53,
+      "recommendationScore": 53.03,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -315,8 +323,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-13T17:16:24.000Z",
-      "relevanceScore": 53.89,
-      "recommendationScore": 53.89,
+      "relevanceScore": 52.29,
+      "recommendationScore": 52.29,
       "tags": [
         "Breaking"
       ],
@@ -328,23 +336,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-13T16:29:05.000Z",
-      "relevanceScore": 53.73,
-      "recommendationScore": 54.23,
+      "relevanceScore": 52.13,
+      "recommendationScore": 52.63,
       "tags": [
         "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Musk's latest Grok chatbot searches for billionaire mogul's views before answering questions",
-      "link": "https://abcnews.go.com/Business/wireStory/musks-latest-grok-chatbot-searches-billionaire-moguls-views-123690230",
-      "source": "ABC News Business",
-      "category": "ai-ml",
-      "pubDate": "2025-07-11T21:26:34.000Z",
-      "relevanceScore": 50.12,
-      "recommendationScore": 50.62,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -354,8 +349,8 @@
       "source": "TechCrunch",
       "category": "space",
       "pubDate": "2025-07-13T15:12:17.000Z",
-      "relevanceScore": 49.47,
-      "recommendationScore": 49.97,
+      "relevanceScore": 47.88,
+      "recommendationScore": 48.38,
       "tags": [
         "Business",
         "Funding"
@@ -363,24 +358,27 @@
       "readingLevel": "beginner"
     },
     {
+      "title": "It's the last day to get two months of Paramount+ access for only $2",
+      "link": "https://www.engadget.com/deals/its-the-last-day-to-get-two-months-of-paramount-access-for-only-2-114314326.html?src=rss",
+      "source": "Engadget",
+      "category": "entertainment",
+      "pubDate": "2025-07-13T11:00:35.000Z",
+      "relevanceScore": 45.54,
+      "recommendationScore": 46.04,
+      "tags": [
+        "Exclusive",
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Putin hit squad ‘eliminated’ after cold-blooded daylight assassination of Ukrainian special ops chief",
       "link": "https://www.reddit.com/r/worldnews/comments/1lysa2o/putin_hit_squad_eliminated_after_coldblooded/",
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-13T13:02:03.000Z",
-      "relevanceScore": 45.04,
-      "recommendationScore": 45.04,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "China's astonishing Maglev train Is faster than most planes, hitting 620 km/h in just 7 seconds",
-      "link": "https://www.reddit.com/r/technology/comments/1lyphv7/chinas_astonishing_maglev_train_is_faster_than/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-07-13T10:23:25.000Z",
-      "relevanceScore": 45.01,
-      "recommendationScore": 45.51,
+      "relevanceScore": 43.44,
+      "recommendationScore": 43.44,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -390,8 +388,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-07-12T13:58:19.000Z",
-      "relevanceScore": 44.43,
-      "recommendationScore": 44.93,
+      "relevanceScore": 42.83,
+      "recommendationScore": 43.33,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -401,24 +399,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-13T04:02:28.000Z",
-      "relevanceScore": 43.24,
-      "recommendationScore": 45.74,
+      "relevanceScore": 41.64,
+      "recommendationScore": 44.14,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "It's the last day to get two months of Paramount+ access for only $2",
-      "link": "https://www.engadget.com/deals/its-the-last-day-to-get-two-months-of-paramount-access-for-only-2-114314326.html?src=rss",
-      "source": "Engadget",
-      "category": "entertainment",
-      "pubDate": "2025-07-13T11:00:35.000Z",
-      "relevanceScore": 43.13,
-      "recommendationScore": 43.63,
-      "tags": [
-        "Exclusive",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "AI slows down some experienced software developers, study finds",
@@ -426,8 +410,8 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-07-13T04:57:39.000Z",
-      "relevanceScore": 42.42,
-      "recommendationScore": 42.92,
+      "relevanceScore": 40.83,
+      "recommendationScore": 41.33,
       "tags": [
         "AI",
         "Tech",
@@ -437,15 +421,32 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "UK heatwave enters final day ahead of Monday dip",
-      "link": "https://www.bbc.com/news/articles/cwyxk999p5wo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-13T15:59:33.000Z",
-      "relevanceScore": 31.63,
-      "recommendationScore": 31.63,
-      "tags": [],
+      "title": "More rules being considered to keep children safe online",
+      "link": "https://www.bbc.com/news/articles/cp82447l84ko",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-07-13T11:57:33.000Z",
+      "relevanceScore": 40.23,
+      "recommendationScore": 40.73,
+      "tags": [
+        "Web",
+        "Interview"
+      ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "The best Amazon Prime Day deals you can still shop",
+      "link": "https://www.theverge.com/tech/705786/amazon-prime-day-best-tech-deals-still-available-2025",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-07-12T14:53:07.000Z",
+      "relevanceScore": 36.01,
+      "recommendationScore": 37.01,
+      "tags": [
+        "Exclusive",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "A new Martian climate model suggest a mostly cold, harsh environment",
@@ -453,8 +454,19 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2025-07-13T11:13:05.000Z",
-      "relevanceScore": 31.17,
-      "recommendationScore": 33.67,
+      "relevanceScore": 33.58,
+      "recommendationScore": 36.08,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "UK heatwave enters final day ahead of Monday dip",
+      "link": "https://www.bbc.com/news/articles/cwyxk999p5wo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-13T15:59:33.000Z",
+      "relevanceScore": 31.54,
+      "recommendationScore": 31.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -464,24 +476,24 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-07-13T13:32:02.000Z",
-      "relevanceScore": 27.64,
-      "recommendationScore": 30.14,
+      "relevanceScore": 30.04,
+      "recommendationScore": 32.54,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "More rules being considered to keep children safe online",
-      "link": "https://www.bbc.com/news/articles/cp82447l84ko",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-07-13T11:57:33.000Z",
-      "relevanceScore": 27.32,
-      "recommendationScore": 27.82,
+      "title": "UK launches £500M package to support diverse, underrepresented investors and founders",
+      "link": "https://techcrunch.com/2025/07/13/uk-launches-500-package-to-support-diverse-underrepresented-investors-and-founders/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-07-13T14:30:00.000Z",
+      "relevanceScore": 27.24,
+      "recommendationScore": 29.74,
       "tags": [
-        "Web",
-        "Interview"
+        "Business",
+        "Startup"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "The EU is delaying retaliatory tariffs on U.S. goods, in hopes of reaching a deal by Aug. 1",
@@ -489,8 +501,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-13T13:42:29.000Z",
-      "relevanceScore": 26.17,
-      "recommendationScore": 26.67,
+      "relevanceScore": 26.08,
+      "recommendationScore": 26.58,
       "tags": [
         "Partnership"
       ],
@@ -502,8 +514,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-13T13:00:00.000Z",
-      "relevanceScore": 25.03,
-      "recommendationScore": 25.53,
+      "relevanceScore": 24.94,
+      "recommendationScore": 25.44,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -513,8 +525,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-13T12:00:00.000Z",
-      "relevanceScore": 24.83,
-      "recommendationScore": 24.83,
+      "relevanceScore": 24.74,
+      "recommendationScore": 24.74,
       "tags": [
         "Tutorial"
       ],
@@ -526,8 +538,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-13T11:00:00.000Z",
-      "relevanceScore": 24.63,
-      "recommendationScore": 26.63,
+      "relevanceScore": 24.54,
+      "recommendationScore": 26.54,
       "tags": [
         "Exclusive"
       ],
@@ -539,23 +551,9 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-13T15:24:33.000Z",
-      "relevanceScore": 23.51,
-      "recommendationScore": 24.01,
+      "relevanceScore": 23.42,
+      "recommendationScore": 23.92,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best Amazon Prime Day deals you can still shop",
-      "link": "https://www.theverge.com/tech/705786/amazon-prime-day-best-tech-deals-still-available-2025",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-07-12T14:53:07.000Z",
-      "relevanceScore": 23.11,
-      "recommendationScore": 24.11,
-      "tags": [
-        "Exclusive",
-        "Partnership"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -564,8 +562,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-12T14:22:22.000Z",
-      "relevanceScore": 20.01,
-      "recommendationScore": 20.51,
+      "relevanceScore": 19.91,
+      "recommendationScore": 20.41,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -575,8 +573,8 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2025-07-12T19:24:52.000Z",
-      "relevanceScore": 19.51,
-      "recommendationScore": 20.01,
+      "relevanceScore": 19.42,
+      "recommendationScore": 19.92,
       "tags": [
         "Social"
       ],
@@ -590,7 +588,7 @@
         "link": "https://www.theverge.com/news/706498/xai-grok-hitler-antisemitism-tesla-ai-bot",
         "source": "The Verge",
         "pubDate": "2025-07-13T00:54:56.000Z",
-        "relevanceScore": 1826.61,
+        "relevanceScore": 1853.02,
         "tags": [
           "AI",
           "Update"
@@ -601,7 +599,7 @@
         "link": "https://techcrunch.com/2025/07/12/marc-andreessen-reportedly-told-group-chat-that-universities-will-pay-the-price-for-dei/",
         "source": "TechCrunch",
         "pubDate": "2025-07-12T20:07:29.000Z",
-        "relevanceScore": 378.66,
+        "relevanceScore": 343.06,
         "tags": [
           "AI",
           "Science",
@@ -613,7 +611,7 @@
         "link": "https://techcrunch.com/2025/07/12/a-united-nations-research-institute-created-an-ai-refugee-avatar/",
         "source": "TechCrunch",
         "pubDate": "2025-07-12T21:03:39.000Z",
-        "relevanceScore": 183.84,
+        "relevanceScore": 207.25,
         "tags": [
           "AI",
           "Science",
@@ -626,7 +624,7 @@
         "link": "https://arstechnica.com/ai/2025/07/ai-therapy-bots-fuel-delusions-and-give-dangerous-advice-stanford-study-finds/",
         "source": "Ars Technica",
         "pubDate": "2025-07-11T22:01:10.000Z",
-        "relevanceScore": 57.24,
+        "relevanceScore": 72.64,
         "tags": [
           "AI",
           "Science",
@@ -638,7 +636,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/musks-latest-grok-chatbot-searches-billionaire-moguls-views-123690230",
         "source": "ABC News Business",
         "pubDate": "2025-07-11T21:26:34.000Z",
-        "relevanceScore": 50.12,
+        "relevanceScore": 52.53,
         "tags": [
           "AI"
         ]
@@ -648,7 +646,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1lykgzc/ai_slows_down_some_experienced_software/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-13T04:57:39.000Z",
-        "relevanceScore": 42.42,
+        "relevanceScore": 40.83,
         "tags": [
           "AI",
           "Tech",
@@ -657,13 +655,31 @@
         ]
       }
     ],
+    "gaming": [
+      {
+        "title": "DevLog 20250713: Ease of Pain",
+        "link": "https://dev.to/nfc-charles/devlog-20250713-ease-of-pain-570e",
+        "source": "Dev.to",
+        "pubDate": "2025-07-13T18:08:54.000Z",
+        "relevanceScore": 1239.47,
+        "tags": []
+      },
+      {
+        "title": "The Cult of the Lamb comic is coming back with the Schism Special this fall",
+        "link": "https://www.engadget.com/entertainment/the-cult-of-the-lamb-comic-is-coming-back-with-the-schism-special-this-fall-211027564.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-12T21:10:27.000Z",
+        "relevanceScore": 103.27,
+        "tags": []
+      }
+    ],
     "tech": [
       {
         "title": "LG Gram Pro 16 (2025) Review: Thin Is Still In",
         "link": "https://www.wired.com/review/lg-gram-pro-16-2025/",
         "source": "Wired",
         "pubDate": "2025-07-13T12:00:00.000Z",
-        "relevanceScore": 1177.83,
+        "relevanceScore": 1202.74,
         "tags": [
           "Update"
         ]
@@ -673,7 +689,15 @@
         "link": "https://www.wired.com/gallery/best-electric-scooters/",
         "source": "Wired",
         "pubDate": "2025-07-13T14:01:00.000Z",
-        "relevanceScore": 369.23,
+        "relevanceScore": 298.14,
+        "tags": []
+      },
+      {
+        "title": "Amazon CEO sparks backlash after announcing major company shift in mass email: 'Should change the way our work is done'",
+        "link": "https://www.reddit.com/r/technology/comments/1lyynf0/amazon_ceo_sparks_backlash_after_announcing_major/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-13T17:34:00.000Z",
+        "relevanceScore": 185.35,
         "tags": []
       },
       {
@@ -681,7 +705,7 @@
         "link": "https://arstechnica.com/cars/2025/07/5-big-ev-takeaways-from-trumps-one-big-beautiful-bill/",
         "source": "Ars Technica",
         "pubDate": "2025-07-12T11:12:00.000Z",
-        "relevanceScore": 141.87,
+        "relevanceScore": 145.78,
         "tags": []
       },
       {
@@ -689,45 +713,48 @@
         "link": "https://www.wired.com/story/for-algorithms-a-little-memory-outweighs-a-lot-of-time/",
         "source": "Wired",
         "pubDate": "2025-07-13T11:00:00.000Z",
-        "relevanceScore": 111.63,
+        "relevanceScore": 55.54,
         "tags": [
           "Science",
           "Exclusive"
         ]
       },
       {
-        "title": "China's astonishing Maglev train Is faster than most planes, hitting 620 km/h in just 7 seconds",
-        "link": "https://www.reddit.com/r/technology/comments/1lyphv7/chinas_astonishing_maglev_train_is_faster_than/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-13T10:23:25.000Z",
-        "relevanceScore": 45.01,
-        "tags": []
-      },
-      {
-        "title": "EV makers delay and cancel models as US tax credits vanish under Trump's new bill",
-        "link": "https://www.reddit.com/r/technology/comments/1lyswqa/ev_makers_delay_and_cancel_models_as_us_tax/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-13T13:32:02.000Z",
-        "relevanceScore": 27.64,
-        "tags": []
-      },
-      {
         "title": "More rules being considered to keep children safe online",
         "link": "https://www.bbc.com/news/articles/cp82447l84ko",
         "source": "BBC Technology",
         "pubDate": "2025-07-13T11:57:33.000Z",
-        "relevanceScore": 27.32,
+        "relevanceScore": 40.23,
         "tags": [
           "Web",
           "Interview"
         ]
       },
       {
+        "title": "The best Amazon Prime Day deals you can still shop",
+        "link": "https://www.theverge.com/tech/705786/amazon-prime-day-best-tech-deals-still-available-2025",
+        "source": "The Verge",
+        "pubDate": "2025-07-12T14:53:07.000Z",
+        "relevanceScore": 36.01,
+        "tags": [
+          "Exclusive",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "EV makers delay and cancel models as US tax credits vanish under Trump's new bill",
+        "link": "https://www.reddit.com/r/technology/comments/1lyswqa/ev_makers_delay_and_cancel_models_as_us_tax/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-13T13:32:02.000Z",
+        "relevanceScore": 30.04,
+        "tags": []
+      },
+      {
         "title": "Garmin Forerunner 970 Review: A Very Extra Running Watch",
         "link": "https://www.wired.com/review/garmin-forerunner-970/",
         "source": "Wired",
         "pubDate": "2025-07-13T13:00:00.000Z",
-        "relevanceScore": 25.03,
+        "relevanceScore": 24.94,
         "tags": []
       },
       {
@@ -735,7 +762,7 @@
         "link": "https://www.theverge.com/installer-newsletter/705979/samsung-galaxy-z-fold-flip-7-nothing-phone-headphone-installer",
         "source": "The Verge",
         "pubDate": "2025-07-13T12:00:00.000Z",
-        "relevanceScore": 24.83,
+        "relevanceScore": 24.74,
         "tags": [
           "Tutorial"
         ]
@@ -745,65 +772,20 @@
         "link": "https://www.theverge.com/gm-general-motors/705320/gm-ceo-mary-barra-interview-ev-cadillac-dei-trump",
         "source": "The Verge",
         "pubDate": "2025-07-13T11:00:00.000Z",
-        "relevanceScore": 24.63,
+        "relevanceScore": 24.54,
         "tags": [
           "Exclusive"
         ]
-      },
-      {
-        "title": "The best Amazon Prime Day deals you can still shop",
-        "link": "https://www.theverge.com/tech/705786/amazon-prime-day-best-tech-deals-still-available-2025",
-        "source": "The Verge",
-        "pubDate": "2025-07-12T14:53:07.000Z",
-        "relevanceScore": 23.11,
-        "tags": [
-          "Exclusive",
-          "Partnership"
-        ]
       }
     ],
-    "startup": [
+    "education": [
       {
-        "title": "The countdown’s almost over: 2 days until TechCrunch All Stage 2025 kicks off in Boston",
-        "link": "https://techcrunch.com/2025/07/13/the-countdowns-almost-over-2-days-until-techcrunch-all-stage-2025-kicks-off-in-boston/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-13T13:00:00.000Z",
-        "relevanceScore": 292.53,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "UK launches £500M package to support diverse, underrepresented investors and founders",
-        "link": "https://techcrunch.com/2025/07/13/uk-launches-500-package-to-support-diverse-underrepresented-investors-and-founders/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-13T14:30:00.000Z",
-        "relevanceScore": 109.33,
-        "tags": [
-          "Business",
-          "Startup"
-        ]
-      }
-    ],
-    "space": [
-      {
-        "title": "Trump’s NASA Cuts Would Hurt America for a Long, Long Time | Scientists warn that “the cuts would prevent the US from training and preparing the next generation of the scientific and technical workforce.”",
-        "link": "https://www.reddit.com/r/technology/comments/1lyveln/trumps_nasa_cuts_would_hurt_america_for_a_long/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-13T15:21:03.000Z",
-        "relevanceScore": 263.5,
+        "title": "🧐 Why Does Java Give an Error for Uninitialized Variables, But C Just Runs?",
+        "link": "https://dev.to/sandaruwan_wadiyage/why-does-java-give-an-error-for-uninitialized-variables-but-c-just-runs-38d9",
+        "source": "Dev.to",
+        "pubDate": "2025-07-13T18:04:55.000Z",
+        "relevanceScore": 489.95,
         "tags": []
-      },
-      {
-        "title": "Elon Musk’s SpaceX might invest $2 billion in Musk’s xAI",
-        "link": "https://techcrunch.com/2025/07/13/elon-musks-spacex-might-invest-2-billion-in-musks-xai/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-13T15:12:17.000Z",
-        "relevanceScore": 49.47,
-        "tags": [
-          "Business",
-          "Funding"
-        ]
       }
     ],
     "business": [
@@ -812,7 +794,7 @@
         "link": "https://www.npr.org/2025/07/11/1255526971/garment-workers-clothing-made-in-usa",
         "source": "NPR Business",
         "pubDate": "2025-07-11T22:25:07.000Z",
-        "relevanceScore": 243.32,
+        "relevanceScore": 340.22,
         "tags": []
       },
       {
@@ -820,7 +802,7 @@
         "link": "https://www.npr.org/2025/07/13/nx-s1-5462807/college-graduates-jobs-employment-unemployment",
         "source": "NPR Business",
         "pubDate": "2025-07-13T10:00:00.000Z",
-        "relevanceScore": 158.43,
+        "relevanceScore": 189.84,
         "tags": []
       },
       {
@@ -828,7 +810,7 @@
         "link": "https://www.npr.org/2025/07/12/nx-s1-5465577/trump-30-tariffs-eu-mexico",
         "source": "NPR Business",
         "pubDate": "2025-07-12T13:58:19.000Z",
-        "relevanceScore": 44.43,
+        "relevanceScore": 42.83,
         "tags": []
       },
       {
@@ -836,7 +818,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/eu-delaying-retaliatory-tariffs-us-goods-hopes-reaching-123714960",
         "source": "ABC News Business",
         "pubDate": "2025-07-13T13:42:29.000Z",
-        "relevanceScore": 26.17,
+        "relevanceScore": 26.08,
         "tags": [
           "Partnership"
         ]
@@ -846,50 +828,111 @@
         "link": "https://abcnews.go.com/Business/wireStory/osprey-back-brink-now-chicks-dying-nests-blame-123699374",
         "source": "ABC News Business",
         "pubDate": "2025-07-12T14:22:22.000Z",
-        "relevanceScore": 20.01,
+        "relevanceScore": 19.91,
         "tags": []
+      }
+    ],
+    "space": [
+      {
+        "title": "Trump’s NASA Cuts Would Hurt America for a Long, Long Time | Scientists warn that “the cuts would prevent the US from training and preparing the next generation of the scientific and technical workforce.”",
+        "link": "https://www.reddit.com/r/technology/comments/1lyveln/trumps_nasa_cuts_would_hurt_america_for_a_long/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-13T15:21:03.000Z",
+        "relevanceScore": 327.91,
+        "tags": []
+      },
+      {
+        "title": "Elon Musk’s SpaceX might invest $2 billion in Musk’s xAI",
+        "link": "https://techcrunch.com/2025/07/13/elon-musks-spacex-might-invest-2-billion-in-musks-xai/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-13T15:12:17.000Z",
+        "relevanceScore": 47.88,
+        "tags": [
+          "Business",
+          "Funding"
+        ]
+      }
+    ],
+    "startup": [
+      {
+        "title": "The countdown’s almost over: 2 days until TechCrunch All Stage 2025 kicks off in Boston",
+        "link": "https://techcrunch.com/2025/07/13/the-countdowns-almost-over-2-days-until-techcrunch-all-stage-2025-kicks-off-in-boston/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-13T13:00:00.000Z",
+        "relevanceScore": 316.44,
+        "tags": [
+          "Startup"
+        ]
+      },
+      {
+        "title": "UK launches £500M package to support diverse, underrepresented investors and founders",
+        "link": "https://techcrunch.com/2025/07/13/uk-launches-500-package-to-support-diverse-underrepresented-investors-and-founders/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-13T14:30:00.000Z",
+        "relevanceScore": 27.24,
+        "tags": [
+          "Business",
+          "Startup"
+        ]
       }
     ],
     "mobile": [
       {
-        "title": "Serve Static React Files with NGINX in a Multi-Stage Docker Build",
-        "link": "https://dev.to/lovestaco/serve-static-react-files-with-nginx-in-a-multi-stage-docker-build-4mge",
+        "title": "📱 Mastering CSS Mobile Responsiveness: A Beginner’s Guide",
+        "link": "https://dev.to/bibimbop123/mastering-css-mobile-responsiveness-a-beginners-guide-3jag",
         "source": "Dev.to",
-        "pubDate": "2025-07-13T17:35:22.000Z",
-        "relevanceScore": 233.45,
+        "pubDate": "2025-07-13T18:03:43.000Z",
+        "relevanceScore": 309.95,
         "tags": [
           "Mobile",
-          "Exclusive"
+          "Web",
+          "Tutorial"
         ]
       }
     ],
-    "development": [
+    "general": [
       {
-        "title": "What are the benefits of using Sveltos versus the traditional ArgoCD/Flux GitOps flow?",
-        "link": "https://dev.to/simone_morellato/what-are-the-benefits-of-using-sveltos-versus-the-traditional-argocdflux-gitops-flow-dek",
-        "source": "Dev.to",
-        "pubDate": "2025-07-13T17:36:08.000Z",
-        "relevanceScore": 199.95,
+        "title": "Ukraine says it has killed two agents behind assassination of its intelligence officer",
+        "link": "https://www.bbc.com/news/articles/cj3r7p117l0o",
+        "source": "BBC News",
+        "pubDate": "2025-07-13T13:31:11.000Z",
+        "relevanceScore": 199.54,
         "tags": []
       },
       {
-        "title": "🚀 What's New in Next.js 15? (A Smooth Developer Experience Ahead!)",
-        "link": "https://dev.to/heyabdullahbruh/whats-new-in-nextjs-15-a-smooth-developer-experience-ahead-bep",
-        "source": "Dev.to",
-        "pubDate": "2025-07-13T17:24:31.000Z",
-        "relevanceScore": 117.91,
+        "title": "Child dies at Alder Hey Hospital after contracting measles",
+        "link": "https://www.bbc.com/news/articles/c8j1k3k44e2o",
+        "source": "BBC News",
+        "pubDate": "2025-07-13T10:34:43.000Z",
+        "relevanceScore": 173.45,
+        "tags": []
+      },
+      {
+        "title": "Plane crashes at Southend Airport",
+        "link": "https://www.bbc.com/news/articles/c1jw71kjx14o",
+        "source": "BBC News",
+        "pubDate": "2025-07-13T17:16:24.000Z",
+        "relevanceScore": 52.29,
         "tags": [
-          "Web",
-          "Exclusive",
-          "Launch"
+          "Breaking"
         ]
       },
       {
-        "title": "System Design Basics - Databases and Connection Pools",
-        "link": "https://www.reddit.com/r/programming/comments/1lyvflu/system_design_basics_databases_and_connection/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-07-13T15:22:11.000Z",
-        "relevanceScore": 98.01,
+        "title": "Gaza officials say children killed in strike as Israeli military admits 'error'",
+        "link": "https://www.bbc.com/news/articles/c0rvxjnvv71o",
+        "source": "BBC News",
+        "pubDate": "2025-07-13T16:29:05.000Z",
+        "relevanceScore": 52.13,
+        "tags": [
+          "Breaking"
+        ]
+      },
+      {
+        "title": "UK heatwave enters final day ahead of Monday dip",
+        "link": "https://www.bbc.com/news/articles/cwyxk999p5wo",
+        "source": "BBC News",
+        "pubDate": "2025-07-13T15:59:33.000Z",
+        "relevanceScore": 31.54,
         "tags": []
       }
     ],
@@ -899,7 +942,7 @@
         "link": "https://www.engadget.com/gaming/ea-is-reportedly-hitting-the-brakes-on-the-need-for-speed-franchise-164807626.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-13T16:48:08.000Z",
-        "relevanceScore": 180.79,
+        "relevanceScore": 186.2,
         "tags": [
           "Web",
           "Social"
@@ -910,74 +953,10 @@
         "link": "https://www.engadget.com/gaming/nintendo/nintendo-reportedly-bans-switch-2-user-playing-preowned-game-cards-192452163.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-12T19:24:52.000Z",
-        "relevanceScore": 19.51,
+        "relevanceScore": 19.42,
         "tags": [
           "Social"
         ]
-      }
-    ],
-    "climate": [
-      {
-        "title": "Man’s heart stopped after common bacterium caused ultra-rare infection",
-        "link": "https://arstechnica.com/health/2025/07/mans-heart-stopped-after-common-bacterium-caused-ultra-rare-infection/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-11T21:35:11.000Z",
-        "relevanceScore": 165.15,
-        "tags": []
-      },
-      {
-        "title": "A new Martian climate model suggest a mostly cold, harsh environment",
-        "link": "https://arstechnica.com/science/2025/07/a-new-martian-climate-model-suggest-a-mostly-cold-harsh-environment/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-13T11:13:05.000Z",
-        "relevanceScore": 31.17,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Ukraine says it has killed two agents behind assassination of its intelligence officer",
-        "link": "https://www.bbc.com/news/articles/cj3r7p117l0o",
-        "source": "BBC News",
-        "pubDate": "2025-07-13T13:31:11.000Z",
-        "relevanceScore": 163.14,
-        "tags": []
-      },
-      {
-        "title": "Child dies at Alder Hey Hospital after contracting measles",
-        "link": "https://www.bbc.com/news/articles/c8j1k3k44e2o",
-        "source": "BBC News",
-        "pubDate": "2025-07-13T10:34:43.000Z",
-        "relevanceScore": 140.55,
-        "tags": []
-      },
-      {
-        "title": "Plane crashes at Southend Airport",
-        "link": "https://www.bbc.com/news/articles/c1jw71kjx14o",
-        "source": "BBC News",
-        "pubDate": "2025-07-13T17:16:24.000Z",
-        "relevanceScore": 53.89,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "Gaza officials say children killed in strike as Israeli military admits 'error'",
-        "link": "https://www.bbc.com/news/articles/c0rvxjnvv71o",
-        "source": "BBC News",
-        "pubDate": "2025-07-13T16:29:05.000Z",
-        "relevanceScore": 53.73,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "UK heatwave enters final day ahead of Monday dip",
-        "link": "https://www.bbc.com/news/articles/cwyxk999p5wo",
-        "source": "BBC News",
-        "pubDate": "2025-07-13T15:59:33.000Z",
-        "relevanceScore": 31.63,
-        "tags": []
       }
     ],
     "cybersecurity": [
@@ -986,45 +965,37 @@
         "link": "https://www.reddit.com/r/programming/comments/1lyup38/after_managing_50_security_breaches_i_documented/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-13T14:52:04.000Z",
-        "relevanceScore": 151.9,
+        "relevanceScore": 185.81,
         "tags": [
           "Security"
         ]
       }
     ],
-    "gaming": [
+    "development": [
       {
-        "title": "The Cult of the Lamb comic is coming back with the Schism Special this fall",
-        "link": "https://www.engadget.com/entertainment/the-cult-of-the-lamb-comic-is-coming-back-with-the-schism-special-this-fall-211027564.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-12T21:10:27.000Z",
-        "relevanceScore": 89.37,
+        "title": "System Design Basics - Databases and Connection Pools",
+        "link": "https://www.reddit.com/r/programming/comments/1lyvflu/system_design_basics_databases_and_connection/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-07-13T15:22:11.000Z",
+        "relevanceScore": 102.91,
         "tags": []
       }
     ],
-    "world": [
+    "climate": [
       {
-        "title": "Putin hit squad ‘eliminated’ after cold-blooded daylight assassination of Ukrainian special ops chief",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lysa2o/putin_hit_squad_eliminated_after_coldblooded/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-13T13:02:03.000Z",
-        "relevanceScore": 45.04,
+        "title": "Man’s heart stopped after common bacterium caused ultra-rare infection",
+        "link": "https://arstechnica.com/health/2025/07/mans-heart-stopped-after-common-bacterium-caused-ultra-rare-infection/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-11T21:35:11.000Z",
+        "relevanceScore": 84.05,
         "tags": []
       },
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1235, Part 1 (Thread #1382)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lyji4j/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-13T04:02:28.000Z",
-        "relevanceScore": 43.24,
-        "tags": []
-      },
-      {
-        "title": "IDF blames 'technical error' after Gaza officials say children collecting water killed in strike",
-        "link": "https://www.reddit.com/r/worldnews/comments/1lyvhni/idf_blames_technical_error_after_gaza_officials/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-13T15:24:33.000Z",
-        "relevanceScore": 23.51,
+        "title": "A new Martian climate model suggest a mostly cold, harsh environment",
+        "link": "https://arstechnica.com/science/2025/07/a-new-martian-climate-model-suggest-a-mostly-cold-harsh-environment/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-13T11:13:05.000Z",
+        "relevanceScore": 33.58,
         "tags": []
       }
     ],
@@ -1034,18 +1005,44 @@
         "link": "https://www.engadget.com/deals/its-the-last-day-to-get-two-months-of-paramount-access-for-only-2-114314326.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-13T11:00:35.000Z",
-        "relevanceScore": 43.13,
+        "relevanceScore": 45.54,
         "tags": [
           "Exclusive",
           "Partnership"
         ]
       }
+    ],
+    "world": [
+      {
+        "title": "Putin hit squad ‘eliminated’ after cold-blooded daylight assassination of Ukrainian special ops chief",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lysa2o/putin_hit_squad_eliminated_after_coldblooded/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-13T13:02:03.000Z",
+        "relevanceScore": 43.44,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1235, Part 1 (Thread #1382)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lyji4j/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-13T04:02:28.000Z",
+        "relevanceScore": 41.64,
+        "tags": []
+      },
+      {
+        "title": "IDF blames 'technical error' after Gaza officials say children collecting water killed in strike",
+        "link": "https://www.reddit.com/r/worldnews/comments/1lyvhni/idf_blames_technical_error_after_gaza_officials/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-13T15:24:33.000Z",
+        "relevanceScore": 23.42,
+        "tags": []
+      }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 14,
-    "avgRelevanceScore": 169.53955555555555,
+    "totalCategories": 15,
+    "avgRelevanceScore": 208.74066666666675,
     "topCategories": [
       {
         "category": "tech",
@@ -1064,7 +1061,7 @@
         "count": 5
       },
       {
-        "category": "development",
+        "category": "world",
         "count": 3
       }
     ]
