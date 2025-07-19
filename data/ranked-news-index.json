@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2025-07-19T13:06:15.065Z",
-  "totalArticles": 48,
+  "lastUpdated": "2025-07-19T13:39:46.886Z",
+  "totalArticles": 49,
   "categories": [
     "ai-ml",
     "business",
     "tech",
     "gaming",
-    "general",
     "world",
-    "mobile",
-    "cybersecurity",
-    "startup",
-    "entertainment",
+    "general",
+    "cloud",
     "development",
+    "health",
     "blockchain",
-    "social",
+    "cybersecurity",
+    "finance",
+    "startup",
     "science"
   ],
   "topArticles": [
@@ -24,8 +24,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-18T13:08:26.000Z",
-      "relevanceScore": 1310.71,
-      "recommendationScore": 1311.21,
+      "relevanceScore": 1356.6,
+      "recommendationScore": 1357.1,
       "tags": [
         "AI",
         "Science",
@@ -39,8 +39,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-07-19T09:00:00.000Z",
-      "relevanceScore": 635.18,
-      "recommendationScore": 635.68,
+      "relevanceScore": 660.07,
+      "recommendationScore": 660.57,
       "tags": [
         "Tutorial"
       ],
@@ -52,8 +52,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-19T12:03:00.000Z",
-      "relevanceScore": 633.79,
-      "recommendationScore": 634.79,
+      "relevanceScore": 658.68,
+      "recommendationScore": 659.68,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -63,8 +63,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-07-19T11:00:43.000Z",
-      "relevanceScore": 631.58,
-      "recommendationScore": 634.08,
+      "relevanceScore": 656.47,
+      "recommendationScore": 658.97,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -74,23 +74,12 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-18T08:54:29.000Z",
-      "relevanceScore": 604.86,
-      "recommendationScore": 607.36,
+      "relevanceScore": 601.75,
+      "recommendationScore": 604.25,
       "tags": [
         "AI",
         "Exclusive"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Who is in charge? The prime minister's authority is in question again",
-      "link": "https://www.bbc.com/news/articles/czxwe3g4wl5o",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-19T12:09:50.000Z",
-      "relevanceScore": 547.31,
-      "recommendationScore": 547.81,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -99,8 +88,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-18T23:33:35.000Z",
-      "relevanceScore": 539.29,
-      "recommendationScore": 539.79,
+      "relevanceScore": 543.18,
+      "recommendationScore": 543.68,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Who is in charge? The prime minister's authority is in question again",
+      "link": "https://www.bbc.com/news/articles/czxwe3g4wl5o",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-19T12:09:50.000Z",
+      "relevanceScore": 535.2,
+      "recommendationScore": 535.7,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -110,10 +110,25 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-19T12:00:00.000Z",
-      "relevanceScore": 508.28,
-      "recommendationScore": 510.28,
+      "relevanceScore": 514.17,
+      "recommendationScore": 516.17,
       "tags": [
         "Breaking",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Containerized Deployments: A Step-by-Step Guide to Deploying A Docker Image Using ECS and 2048 Game Application using EKS",
+      "link": "https://dev.to/christiana_orji/containerized-deployments-a-step-by-step-guide-to-deploying-a-docker-image-using-ecs-and-2048-game-1me8",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-07-19T13:23:59.000Z",
+      "relevanceScore": 468.45,
+      "recommendationScore": 468.45,
+      "tags": [
+        "Tech",
+        "Cloud",
         "Tutorial"
       ],
       "readingLevel": "advanced"
@@ -124,8 +139,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-07-18T21:29:28.000Z",
-      "relevanceScore": 396.88,
-      "recommendationScore": 398.38,
+      "relevanceScore": 400.77,
+      "recommendationScore": 402.27,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -135,8 +150,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-07-19T13:00:00.000Z",
-      "relevanceScore": 383.48,
-      "recommendationScore": 383.48,
+      "relevanceScore": 379.37,
+      "recommendationScore": 379.37,
       "tags": [
         "Web"
       ],
@@ -148,8 +163,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-19T04:02:29.000Z",
-      "relevanceScore": 378.69,
-      "recommendationScore": 381.19,
+      "relevanceScore": 374.58,
+      "recommendationScore": 377.08,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "🏷️ commit_gh: Because Git Tags Shouldn't Be That Hard\"",
+      "link": "https://dev.to/raymonepping/commitgh-because-git-tags-shouldnt-be-that-hard-17ff",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-07-19T13:19:40.000Z",
+      "relevanceScore": 373.93,
+      "recommendationScore": 374.43,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -159,8 +185,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-19T12:00:00.000Z",
-      "relevanceScore": 377.28,
-      "recommendationScore": 377.28,
+      "relevanceScore": 373.67,
+      "recommendationScore": 373.67,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -170,8 +196,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-18T12:10:00.000Z",
-      "relevanceScore": 363.01,
-      "recommendationScore": 365.01,
+      "relevanceScore": 359.9,
+      "recommendationScore": 361.9,
       "tags": [
         "Tech",
         "Tutorial"
@@ -179,18 +205,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "From Requirements to a Data Model in MSSQL",
-      "link": "https://dev.to/samit_paudel_5d330ffcfb22/from-requirements-to-a-data-model-in-mssql-3927",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-07-19T12:44:57.000Z",
-      "relevanceScore": 337.43,
-      "recommendationScore": 337.43,
-      "tags": [
-        "Business",
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
+      "title": "Dozens killed by Israeli gunfire near aid sites in south Gaza, Hamas-run ministry says",
+      "link": "https://www.bbc.com/news/articles/ce3n04w19qlo",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2025-07-19T13:14:02.000Z",
+      "relevanceScore": 346.41,
+      "recommendationScore": 346.91,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Engadget review recap: Galaxy Z Fold 7, Panasonic S1 II, Samsung QS700F and more",
@@ -198,44 +221,9 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-07-19T12:30:35.000Z",
-      "relevanceScore": 333.88,
-      "recommendationScore": 334.38,
+      "relevanceScore": 345.77,
+      "recommendationScore": 346.27,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "TanStack Table v8: Complete Interactive Data Grid Demo",
-      "link": "https://dev.to/abhirup99/tanstack-table-v8-complete-interactive-data-grid-demo-1eo0",
-      "source": "Dev.to",
-      "category": "gaming",
-      "pubDate": "2025-07-19T12:56:27.000Z",
-      "relevanceScore": 331.97,
-      "recommendationScore": 332.47,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The EU targets Russia's energy revenue and shadow fleet with new sanctions over Ukraine war",
-      "link": "https://abcnews.go.com/Business/wireStory/eu-targets-russias-energy-revenue-shadow-fleet-new-123855600",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-07-18T10:22:32.000Z",
-      "relevanceScore": 326.15,
-      "recommendationScore": 328.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Exhausted man defeats AI model in world coding championship",
-      "link": "https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2025-07-18T19:34:14.000Z",
-      "relevanceScore": 300.99,
-      "recommendationScore": 301.49,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -244,12 +232,38 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-07-18T20:12:09.000Z",
-      "relevanceScore": 289.62,
-      "recommendationScore": 291.62,
+      "relevanceScore": 328.01,
+      "recommendationScore": 330.01,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Exhausted man defeats AI model in world coding championship",
+      "link": "https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2025-07-18T19:34:14.000Z",
+      "relevanceScore": 293.38,
+      "recommendationScore": 293.88,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump signs new stablecoin regulations into law, a major milestone for crypto industry",
+      "link": "https://abcnews.go.com/Business/wireStory/trump-signs-new-stablecoin-regulations-law-major-milestone-123873615",
+      "source": "ABC News Business",
+      "category": "blockchain",
+      "pubDate": "2025-07-18T21:34:19.000Z",
+      "relevanceScore": 283.78,
+      "recommendationScore": 286.28,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Meta investors settle $8bn lawsuit with Zuckerberg over Facebook privacy",
@@ -257,24 +271,11 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-07-17T20:05:28.000Z",
-      "relevanceScore": 277.8,
-      "recommendationScore": 278.3,
+      "relevanceScore": 279.69,
+      "recommendationScore": 280.19,
       "tags": [
         "Security",
         "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "ServiceNow’s acquisition of Moveworks is reportedly being reviewed over antitrust concerns",
-      "link": "https://techcrunch.com/2025/07/18/servicenows-acquisition-of-moveworks-is-reportedly-being-reviewed-over-antitrust-concerns/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-07-18T21:04:30.000Z",
-      "relevanceScore": 246.79,
-      "recommendationScore": 247.29,
-      "tags": [
-        "Acquisition"
       ],
       "readingLevel": "advanced"
     },
@@ -284,20 +285,22 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-07-19T13:00:00.000Z",
-      "relevanceScore": 214.98,
-      "recommendationScore": 215.48,
+      "relevanceScore": 260.87,
+      "recommendationScore": 261.37,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Judge restores Democrat to Federal Trade Commission, ruling her firing by Trump was illegal",
-      "link": "https://abcnews.go.com/Business/wireStory/judge-restores-democrat-federal-trade-commission-ruling-firing-123870519",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-07-18T18:30:28.000Z",
-      "relevanceScore": 174.28,
-      "recommendationScore": 174.78,
-      "tags": [],
+      "title": "ServiceNow’s acquisition of Moveworks is reportedly being reviewed over antitrust concerns",
+      "link": "https://techcrunch.com/2025/07/18/servicenows-acquisition-of-moveworks-is-reportedly-being-reviewed-over-antitrust-concerns/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-07-18T21:04:30.000Z",
+      "relevanceScore": 250.68,
+      "recommendationScore": 251.18,
+      "tags": [
+        "Acquisition"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -306,8 +309,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-18T19:56:12.000Z",
-      "relevanceScore": 171.07,
-      "recommendationScore": 171.57,
+      "relevanceScore": 159.95,
+      "recommendationScore": 160.45,
       "tags": [
         "AI",
         "Startup"
@@ -315,13 +318,41 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Good to use",
+      "link": "https://dev.to/mo3badah/good-to-use-jhd",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-07-19T13:24:38.000Z",
+      "relevanceScore": 108.95,
+      "recommendationScore": 108.95,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to Buy an Electric Bike (2025): Classes, Range, Repairs",
+      "link": "https://www.wired.com/story/how-to-buy-an-electric-bike/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-19T13:00:00.000Z",
+      "relevanceScore": 98.37,
+      "recommendationScore": 100.37,
+      "tags": [
+        "Exclusive",
+        "Tutorial",
+        "Acquisition"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Coway Airmega 50 Review: Effective and Affordable (2025)",
       "link": "https://www.wired.com/review/coway-airmega-50/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-19T12:02:00.000Z",
-      "relevanceScore": 105.79,
-      "recommendationScore": 106.29,
+      "relevanceScore": 98.17,
+      "recommendationScore": 98.67,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -331,11 +362,33 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-18T23:50:33.000Z",
-      "relevanceScore": 84.35,
-      "recommendationScore": 84.85,
+      "relevanceScore": 72.74,
+      "recommendationScore": 73.24,
       "tags": [
         "AI"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Robot Vacuum Tips to Help You Keep a Tidy Home (2025)",
+      "link": "https://www.wired.com/story/surprising-tips-for-your-robot-vacuum/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-19T13:30:00.000Z",
+      "relevanceScore": 67.97,
+      "recommendationScore": 68.47,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "How major US stock indexes fared Friday, 7/18/2025",
+      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-7182025-123876446",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-07-18T21:01:56.000Z",
+      "relevanceScore": 65.67,
+      "recommendationScore": 67.17,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -344,8 +397,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-19T12:00:52.000Z",
-      "relevanceScore": 78.28,
-      "recommendationScore": 78.78,
+      "relevanceScore": 62.17,
+      "recommendationScore": 62.67,
       "tags": [
         "Breaking"
       ],
@@ -357,8 +410,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-18T23:05:42.000Z",
-      "relevanceScore": 75.2,
-      "recommendationScore": 75.7,
+      "relevanceScore": 59.09,
+      "recommendationScore": 59.59,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -368,8 +421,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-19T12:00:13.000Z",
-      "relevanceScore": 73.28,
-      "recommendationScore": 73.78,
+      "relevanceScore": 57.17,
+      "recommendationScore": 57.67,
       "tags": [
         "AI",
         "Security"
@@ -377,13 +430,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "New airport scanners are better at spotting liquid explosives, but many airports lack them",
+      "link": "https://abcnews.go.com/Business/wireStory/new-airport-scanners-spotting-liquid-explosives-airports-lack-123888542",
+      "source": "ABC News Business",
+      "category": "health",
+      "pubDate": "2025-07-19T13:21:51.000Z",
+      "relevanceScore": 56.44,
+      "recommendationScore": 59.94,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Benchmark in talks to lead Series A for Greptile, valuing AI-code reviewer at $180M, sources say",
       "link": "https://techcrunch.com/2025/07/18/benchmark-in-talks-to-lead-series-a-for-greptile-valuing-ai-code-reviewer-at-180m-sources-say/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-18T23:21:29.000Z",
-      "relevanceScore": 71.75,
-      "recommendationScore": 72.25,
+      "relevanceScore": 55.64,
+      "recommendationScore": 56.14,
       "tags": [
         "AI"
       ],
@@ -395,8 +459,8 @@
       "source": "NPR Business",
       "category": "startup",
       "pubDate": "2025-07-18T22:35:22.000Z",
-      "relevanceScore": 71.6,
-      "recommendationScore": 73.6,
+      "relevanceScore": 55.49,
+      "recommendationScore": 57.49,
       "tags": [
         "Startup",
         "IPO",
@@ -410,8 +474,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-18T22:33:47.000Z",
-      "relevanceScore": 71.59,
-      "recommendationScore": 73.59,
+      "relevanceScore": 55.48,
+      "recommendationScore": 57.48,
       "tags": [
         "AI",
         "Tech",
@@ -426,41 +490,8 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-19T10:01:59.000Z",
-      "relevanceScore": 67.89,
-      "recommendationScore": 68.39,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The 43 Best Movies on Netflix Right Now (July 2025)",
-      "link": "https://www.wired.com/story/netflix-best-movies-this-week/",
-      "source": "Wired",
-      "category": "entertainment",
-      "pubDate": "2025-07-19T11:00:00.000Z",
-      "relevanceScore": 59.08,
-      "recommendationScore": 60.58,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Several critically injured in LA after vehicle driven into crowd",
-      "link": "https://www.bbc.com/news/articles/c873vd3y007o",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-19T12:40:43.000Z",
-      "relevanceScore": 46.41,
-      "recommendationScore": 46.91,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Phishers have found a way to downgrade—not bypass—FIDO MFA",
-      "link": "https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/",
-      "source": "Ars Technica",
-      "category": "cybersecurity",
-      "pubDate": "2025-07-18T19:07:21.000Z",
-      "relevanceScore": 40.9,
-      "recommendationScore": 41.4,
+      "relevanceScore": 51.77,
+      "recommendationScore": 52.27,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -470,8 +501,8 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-07-18T07:40:00.000Z",
-      "relevanceScore": 40.11,
-      "recommendationScore": 41.61,
+      "relevanceScore": 46.5,
+      "recommendationScore": 48,
       "tags": [
         "Science",
         "Tutorial",
@@ -481,13 +512,24 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Phishers have found a way to downgrade—not bypass—FIDO MFA",
+      "link": "https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/",
+      "source": "Ars Technica",
+      "category": "cybersecurity",
+      "pubDate": "2025-07-18T19:07:21.000Z",
+      "relevanceScore": 45.29,
+      "recommendationScore": 45.79,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Syrian presidency announces ceasefire after deadly sectarian clashes in south",
       "link": "https://www.bbc.com/news/articles/c0m87d4p9gvo",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-19T11:31:36.000Z",
-      "relevanceScore": 31.68,
-      "recommendationScore": 32.18,
+      "relevanceScore": 31.57,
+      "recommendationScore": 32.07,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -497,8 +539,8 @@
       "source": "NPR Business",
       "category": "blockchain",
       "pubDate": "2025-07-19T12:00:00.000Z",
-      "relevanceScore": 27.78,
-      "recommendationScore": 27.78,
+      "relevanceScore": 27.67,
+      "recommendationScore": 27.67,
       "tags": [
         "Tech",
         "Exclusive"
@@ -506,17 +548,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "How to Delete All of Your Social Media Accounts: Instagram, X, Facebook, TikTok, and More",
-      "link": "https://www.wired.com/story/how-to-delete-your-facebook-instagram-twitter-snapchat/",
-      "source": "Wired",
-      "category": "social",
-      "pubDate": "2025-07-19T11:30:00.000Z",
-      "relevanceScore": 25.68,
-      "recommendationScore": 27.68,
+      "title": "RFK Jr. wants to change program that stopped vaccine makers from leaving US market",
+      "link": "https://arstechnica.com/health/2025/07/rfk-jr-wants-to-change-program-that-stopped-vaccine-makers-from-leaving-us-market/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2025-07-19T11:10:04.000Z",
+      "relevanceScore": 25.5,
+      "recommendationScore": 27,
       "tags": [
-        "Social",
-        "Breaking",
-        "Tutorial"
+        "Business"
       ],
       "readingLevel": "advanced"
     },
@@ -526,8 +566,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-07-18T09:00:00.000Z",
-      "relevanceScore": 25.38,
-      "recommendationScore": 25.38,
+      "relevanceScore": 25.27,
+      "recommendationScore": 25.27,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -537,8 +577,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-19T09:24:25.000Z",
-      "relevanceScore": 23.26,
-      "recommendationScore": 24.76,
+      "relevanceScore": 23.15,
+      "recommendationScore": 24.65,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -548,8 +588,8 @@
       "source": "Ars Technica",
       "category": "startup",
       "pubDate": "2025-07-18T20:54:25.000Z",
-      "relevanceScore": 22.76,
-      "recommendationScore": 23.26,
+      "relevanceScore": 22.65,
+      "recommendationScore": 23.15,
       "tags": [
         "Startup",
         "Funding"
@@ -562,30 +602,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-19T11:03:08.000Z",
-      "relevanceScore": 22.59,
-      "recommendationScore": 23.09,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "After 5 years in development, the Assassin’s Creed TV series is happening",
-      "link": "https://arstechnica.com/gaming/2025/07/netflix-green-lights-live-action-assassins-creed-tv-series/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-07-18T17:40:05.000Z",
-      "relevanceScore": 22.11,
-      "recommendationScore": 22.61,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Trump is leveraging power of his office to reap profits for family businesses",
-      "link": "https://abcnews.go.com/Business/wireStory/sale-trump-leveraging-power-office-reap-profits-family-123858027",
-      "source": "ABC News Business",
-      "category": "blockchain",
-      "pubDate": "2025-07-18T12:53:01.000Z",
-      "relevanceScore": 21.16,
-      "recommendationScore": 21.66,
+      "relevanceScore": 22.48,
+      "recommendationScore": 22.98,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -595,8 +613,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-18T20:46:14.000Z",
-      "relevanceScore": 18.73,
-      "recommendationScore": 20.73,
+      "relevanceScore": 18.62,
+      "recommendationScore": 20.62,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -606,8 +624,8 @@
       "source": "BBC Technology",
       "category": "blockchain",
       "pubDate": "2025-07-17T23:17:14.000Z",
-      "relevanceScore": 18.44,
-      "recommendationScore": 20.44,
+      "relevanceScore": 18.32,
+      "recommendationScore": 20.32,
       "tags": [
         "Exclusive"
       ],
@@ -621,7 +639,7 @@
         "link": "https://www.technologyreview.com/2025/07/18/1120466/a-major-ai-training-data-set-contains-millions-of-examples-of-personal-data/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-18T13:08:26.000Z",
-        "relevanceScore": 1310.71,
+        "relevanceScore": 1356.6,
         "tags": [
           "AI",
           "Science",
@@ -633,7 +651,7 @@
         "link": "https://www.bbc.com/news/articles/c9vr4rymlw9o",
         "source": "BBC Technology",
         "pubDate": "2025-07-18T08:54:29.000Z",
-        "relevanceScore": 604.86,
+        "relevanceScore": 601.75,
         "tags": [
           "AI",
           "Exclusive"
@@ -644,20 +662,10 @@
         "link": "https://www.technologyreview.com/2025/07/18/1120453/the-download-how-to-run-an-llm-and-a-history-of-three-parent-babies/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-18T12:10:00.000Z",
-        "relevanceScore": 363.01,
+        "relevanceScore": 359.9,
         "tags": [
           "Tech",
           "Tutorial"
-        ]
-      },
-      {
-        "title": "Exhausted man defeats AI model in world coding championship",
-        "link": "https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-18T19:34:14.000Z",
-        "relevanceScore": 300.99,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -665,7 +673,17 @@
         "link": "https://www.engadget.com/entertainment/streaming/netflix-is-already-using-generative-ai-in-its-original-shows-201209502.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-18T20:12:09.000Z",
-        "relevanceScore": 289.62,
+        "relevanceScore": 328.01,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Exhausted man defeats AI model in world coding championship",
+        "link": "https://arstechnica.com/ai/2025/07/exhausted-man-defeats-ai-model-in-world-coding-championship/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-18T19:34:14.000Z",
+        "relevanceScore": 293.38,
         "tags": [
           "AI"
         ]
@@ -675,10 +693,20 @@
         "link": "https://techcrunch.com/2025/07/18/cursor-snaps-up-enterprise-startup-koala-in-challenge-to-github-copilot/",
         "source": "TechCrunch",
         "pubDate": "2025-07-18T19:56:12.000Z",
-        "relevanceScore": 171.07,
+        "relevanceScore": 159.95,
         "tags": [
           "AI",
           "Startup"
+        ]
+      },
+      {
+        "title": "Good to use",
+        "link": "https://dev.to/mo3badah/good-to-use-jhd",
+        "source": "Dev.to",
+        "pubDate": "2025-07-19T13:24:38.000Z",
+        "relevanceScore": 108.95,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -686,7 +714,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1m3hs9l/duckduckgo_now_lets_you_hide_aigenerated_images/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-18T23:50:33.000Z",
-        "relevanceScore": 84.35,
+        "relevanceScore": 72.74,
         "tags": [
           "AI"
         ]
@@ -696,7 +724,7 @@
         "link": "https://techcrunch.com/2025/07/19/for-privacy-and-security-think-twice-before-granting-ai-access-to-your-personal-data/",
         "source": "TechCrunch",
         "pubDate": "2025-07-19T12:00:13.000Z",
-        "relevanceScore": 73.28,
+        "relevanceScore": 57.17,
         "tags": [
           "AI",
           "Security"
@@ -707,7 +735,7 @@
         "link": "https://techcrunch.com/2025/07/18/benchmark-in-talks-to-lead-series-a-for-greptile-valuing-ai-code-reviewer-at-180m-sources-say/",
         "source": "TechCrunch",
         "pubDate": "2025-07-18T23:21:29.000Z",
-        "relevanceScore": 71.75,
+        "relevanceScore": 55.64,
         "tags": [
           "AI"
         ]
@@ -717,7 +745,7 @@
         "link": "https://techcrunch.com/2025/07/18/why-a-y-combinator-startup-tackling-ai-agents-for-windows-gave-up-and-pivoted/",
         "source": "TechCrunch",
         "pubDate": "2025-07-18T22:33:47.000Z",
-        "relevanceScore": 71.59,
+        "relevanceScore": 55.48,
         "tags": [
           "AI",
           "Tech",
@@ -730,7 +758,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1m3sjl8/people_are_being_involuntarily_committed_jailed/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-19T10:01:59.000Z",
-        "relevanceScore": 67.89,
+        "relevanceScore": 51.77,
         "tags": []
       }
     ],
@@ -740,26 +768,10 @@
         "link": "https://www.npr.org/2025/07/19/nx-s1-5471414/money-shopping-budget-mindful-purchases",
         "source": "NPR Business",
         "pubDate": "2025-07-19T09:00:00.000Z",
-        "relevanceScore": 635.18,
+        "relevanceScore": 660.07,
         "tags": [
           "Tutorial"
         ]
-      },
-      {
-        "title": "The EU targets Russia's energy revenue and shadow fleet with new sanctions over Ukraine war",
-        "link": "https://abcnews.go.com/Business/wireStory/eu-targets-russias-energy-revenue-shadow-fleet-new-123855600",
-        "source": "ABC News Business",
-        "pubDate": "2025-07-18T10:22:32.000Z",
-        "relevanceScore": 326.15,
-        "tags": []
-      },
-      {
-        "title": "Judge restores Democrat to Federal Trade Commission, ruling her firing by Trump was illegal",
-        "link": "https://abcnews.go.com/Business/wireStory/judge-restores-democrat-federal-trade-commission-ruling-firing-123870519",
-        "source": "ABC News Business",
-        "pubDate": "2025-07-18T18:30:28.000Z",
-        "relevanceScore": 174.28,
-        "tags": []
       }
     ],
     "tech": [
@@ -768,7 +780,7 @@
         "link": "https://www.wired.com/gallery/best-graphics-cards-gpu/",
         "source": "Wired",
         "pubDate": "2025-07-19T12:03:00.000Z",
-        "relevanceScore": 633.79,
+        "relevanceScore": 658.68,
         "tags": []
       },
       {
@@ -776,7 +788,7 @@
         "link": "https://www.theverge.com/science/709362/flash-flood-warning-system-experts-texas-sirens-blue-alert",
         "source": "The Verge",
         "pubDate": "2025-07-19T12:00:00.000Z",
-        "relevanceScore": 508.28,
+        "relevanceScore": 514.17,
         "tags": [
           "Breaking",
           "Tutorial"
@@ -787,7 +799,7 @@
         "link": "https://www.theverge.com/bmw/689434/bmw-m5-review-phev-specs-price",
         "source": "The Verge",
         "pubDate": "2025-07-19T12:00:00.000Z",
-        "relevanceScore": 377.28,
+        "relevanceScore": 373.67,
         "tags": []
       },
       {
@@ -795,7 +807,15 @@
         "link": "https://www.engadget.com/engadget-review-recap-galaxy-z-fold-7-panasonic-s1-ii-samsung-qs700f-and-more-123027122.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-19T12:30:35.000Z",
-        "relevanceScore": 333.88,
+        "relevanceScore": 345.77,
+        "tags": []
+      },
+      {
+        "title": "Samsung Galaxy Z Fold 7 review: stunning, bendy, and spendy",
+        "link": "https://www.theverge.com/reviews/709990/samsung-galaxy-z-fold-7-review",
+        "source": "The Verge",
+        "pubDate": "2025-07-19T13:00:00.000Z",
+        "relevanceScore": 260.87,
         "tags": []
       },
       {
@@ -803,33 +823,37 @@
         "link": "https://techcrunch.com/2025/07/18/servicenows-acquisition-of-moveworks-is-reportedly-being-reviewed-over-antitrust-concerns/",
         "source": "TechCrunch",
         "pubDate": "2025-07-18T21:04:30.000Z",
-        "relevanceScore": 246.79,
+        "relevanceScore": 250.68,
         "tags": [
           "Acquisition"
         ]
       },
       {
-        "title": "Samsung Galaxy Z Fold 7 review: stunning, bendy, and spendy",
-        "link": "https://www.theverge.com/reviews/709990/samsung-galaxy-z-fold-7-review",
-        "source": "The Verge",
+        "title": "How to Buy an Electric Bike (2025): Classes, Range, Repairs",
+        "link": "https://www.wired.com/story/how-to-buy-an-electric-bike/",
+        "source": "Wired",
         "pubDate": "2025-07-19T13:00:00.000Z",
-        "relevanceScore": 214.98,
-        "tags": []
+        "relevanceScore": 98.37,
+        "tags": [
+          "Exclusive",
+          "Tutorial",
+          "Acquisition"
+        ]
       },
       {
         "title": "Coway Airmega 50 Review: Effective and Affordable (2025)",
         "link": "https://www.wired.com/review/coway-airmega-50/",
         "source": "Wired",
         "pubDate": "2025-07-19T12:02:00.000Z",
-        "relevanceScore": 105.79,
+        "relevanceScore": 98.17,
         "tags": []
       },
       {
-        "title": "After 5 years in development, the Assassin’s Creed TV series is happening",
-        "link": "https://arstechnica.com/gaming/2025/07/netflix-green-lights-live-action-assassins-creed-tv-series/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-18T17:40:05.000Z",
-        "relevanceScore": 22.11,
+        "title": "Robot Vacuum Tips to Help You Keep a Tidy Home (2025)",
+        "link": "https://www.wired.com/story/surprising-tips-for-your-robot-vacuum/",
+        "source": "Wired",
+        "pubDate": "2025-07-19T13:30:00.000Z",
+        "relevanceScore": 67.97,
         "tags": []
       }
     ],
@@ -839,7 +863,7 @@
         "link": "https://www.engadget.com/gaming/neon-abyss-2-a-prison-break-rpg-and-other-new-indie-games-worth-checking-out-110043805.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-19T11:00:43.000Z",
-        "relevanceScore": 631.58,
+        "relevanceScore": 656.47,
         "tags": []
       },
       {
@@ -847,7 +871,7 @@
         "link": "https://www.engadget.com/gaming/what-the-hell-is-going-on-with-subnautica-2-212928022.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-18T21:29:28.000Z",
-        "relevanceScore": 396.88,
+        "relevanceScore": 400.77,
         "tags": []
       },
       {
@@ -855,17 +879,35 @@
         "link": "https://www.theverge.com/games-review/705627/fast-fusion-review-f-zero-nintendo-switch-2",
         "source": "The Verge",
         "pubDate": "2025-07-19T13:00:00.000Z",
-        "relevanceScore": 383.48,
+        "relevanceScore": 379.37,
         "tags": [
           "Web"
         ]
+      }
+    ],
+    "world": [
+      {
+        "title": "US and Europe must prepare for war with China and Russia, NATO commander says",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m3heu2/us_and_europe_must_prepare_for_war_with_china_and/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-18T23:33:35.000Z",
+        "relevanceScore": 543.18,
+        "tags": []
       },
       {
-        "title": "TanStack Table v8: Complete Interactive Data Grid Demo",
-        "link": "https://dev.to/abhirup99/tanstack-table-v8-complete-interactive-data-grid-demo-1eo0",
-        "source": "Dev.to",
-        "pubDate": "2025-07-19T12:56:27.000Z",
-        "relevanceScore": 331.97,
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1241, Part 1 (Thread #1388)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m3mreo/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-19T04:02:29.000Z",
+        "relevanceScore": 374.58,
+        "tags": []
+      },
+      {
+        "title": "Pope Leo On Gaza: \"It Is Time To Stop This Slaughter\"",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m3rzan/pope_leo_on_gaza_it_is_time_to_stop_this_slaughter/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-19T09:24:25.000Z",
+        "relevanceScore": 23.15,
         "tags": []
       }
     ],
@@ -875,7 +917,7 @@
         "link": "https://www.bbc.com/news/articles/czxwe3g4wl5o",
         "source": "BBC News",
         "pubDate": "2025-07-19T12:09:50.000Z",
-        "relevanceScore": 547.31,
+        "relevanceScore": 535.2,
         "tags": []
       },
       {
@@ -883,7 +925,7 @@
         "link": "https://www.bbc.com/news/articles/c8j1nvp9440o",
         "source": "BBC News",
         "pubDate": "2025-07-19T12:00:52.000Z",
-        "relevanceScore": 78.28,
+        "relevanceScore": 62.17,
         "tags": [
           "Breaking"
         ]
@@ -893,15 +935,7 @@
         "link": "https://www.bbc.com/news/articles/cj9vgwr48gwo",
         "source": "BBC News",
         "pubDate": "2025-07-18T23:05:42.000Z",
-        "relevanceScore": 75.2,
-        "tags": []
-      },
-      {
-        "title": "Several critically injured in LA after vehicle driven into crowd",
-        "link": "https://www.bbc.com/news/articles/c873vd3y007o",
-        "source": "BBC News",
-        "pubDate": "2025-07-19T12:40:43.000Z",
-        "relevanceScore": 46.41,
+        "relevanceScore": 59.09,
         "tags": []
       },
       {
@@ -909,112 +943,39 @@
         "link": "https://www.bbc.com/news/articles/c0m87d4p9gvo",
         "source": "BBC News",
         "pubDate": "2025-07-19T11:31:36.000Z",
-        "relevanceScore": 31.68,
+        "relevanceScore": 31.57,
         "tags": []
       }
     ],
-    "world": [
+    "cloud": [
       {
-        "title": "US and Europe must prepare for war with China and Russia, NATO commander says",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m3heu2/us_and_europe_must_prepare_for_war_with_china_and/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-18T23:33:35.000Z",
-        "relevanceScore": 539.29,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1241, Part 1 (Thread #1388)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m3mreo/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-19T04:02:29.000Z",
-        "relevanceScore": 378.69,
-        "tags": []
-      },
-      {
-        "title": "Pope Leo On Gaza: \"It Is Time To Stop This Slaughter\"",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m3rzan/pope_leo_on_gaza_it_is_time_to_stop_this_slaughter/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-19T09:24:25.000Z",
-        "relevanceScore": 23.26,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "From Requirements to a Data Model in MSSQL",
-        "link": "https://dev.to/samit_paudel_5d330ffcfb22/from-requirements-to-a-data-model-in-mssql-3927",
+        "title": "Containerized Deployments: A Step-by-Step Guide to Deploying A Docker Image Using ECS and 2048 Game Application using EKS",
+        "link": "https://dev.to/christiana_orji/containerized-deployments-a-step-by-step-guide-to-deploying-a-docker-image-using-ecs-and-2048-game-1me8",
         "source": "Dev.to",
-        "pubDate": "2025-07-19T12:44:57.000Z",
-        "relevanceScore": 337.43,
+        "pubDate": "2025-07-19T13:23:59.000Z",
+        "relevanceScore": 468.45,
         "tags": [
-          "Business",
-          "Mobile"
+          "Tech",
+          "Cloud",
+          "Tutorial"
         ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Meta investors settle $8bn lawsuit with Zuckerberg over Facebook privacy",
-        "link": "https://www.bbc.com/news/articles/cx2jmledvr3o",
-        "source": "BBC Technology",
-        "pubDate": "2025-07-17T20:05:28.000Z",
-        "relevanceScore": 277.8,
-        "tags": [
-          "Security",
-          "Social"
-        ]
-      },
-      {
-        "title": "Phishers have found a way to downgrade—not bypass—FIDO MFA",
-        "link": "https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-18T19:07:21.000Z",
-        "relevanceScore": 40.9,
-        "tags": []
-      }
-    ],
-    "startup": [
-      {
-        "title": "Funding cuts will hit rural areas hard. One station manager explains how",
-        "link": "https://www.npr.org/2025/07/18/nx-s1-5472460/funding-cuts-will-hit-rural-areas-hard-one-station-manager-explains-how",
-        "source": "NPR Business",
-        "pubDate": "2025-07-18T22:35:22.000Z",
-        "relevanceScore": 71.6,
-        "tags": [
-          "Startup",
-          "IPO",
-          "Funding"
-        ]
-      },
-      {
-        "title": "As White House talks about impounding NASA funding, Congress takes the threat seriously",
-        "link": "https://arstechnica.com/space/2025/07/a-huge-fight-looms-over-the-nasa-budget-this-fall/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-18T20:54:25.000Z",
-        "relevanceScore": 22.76,
-        "tags": [
-          "Startup",
-          "Funding"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "The 43 Best Movies on Netflix Right Now (July 2025)",
-        "link": "https://www.wired.com/story/netflix-best-movies-this-week/",
-        "source": "Wired",
-        "pubDate": "2025-07-19T11:00:00.000Z",
-        "relevanceScore": 59.08,
-        "tags": []
       }
     ],
     "development": [
+      {
+        "title": "🏷️ commit_gh: Because Git Tags Shouldn't Be That Hard\"",
+        "link": "https://dev.to/raymonepping/commitgh-because-git-tags-shouldnt-be-that-hard-17ff",
+        "source": "Dev.to",
+        "pubDate": "2025-07-19T13:19:40.000Z",
+        "relevanceScore": 373.93,
+        "tags": []
+      },
       {
         "title": "How to do your job happier",
         "link": "https://stackoverflow.blog/2025/07/18/how-to-do-your-job-happier/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-07-18T07:40:00.000Z",
-        "relevanceScore": 40.11,
+        "relevanceScore": 46.5,
         "tags": [
           "Science",
           "Tutorial",
@@ -1027,7 +988,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1m3thxa/amazing_talk_from_casey_muatori_about/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-19T11:03:08.000Z",
-        "relevanceScore": 22.59,
+        "relevanceScore": 22.48,
         "tags": []
       },
       {
@@ -1035,52 +996,124 @@
         "link": "https://www.reddit.com/r/programming/comments/1m3di7x/how_go_124s_swiss_tables_saved_hundreds_of/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-18T20:46:14.000Z",
-        "relevanceScore": 18.73,
+        "relevanceScore": 18.62,
         "tags": []
       }
     ],
+    "health": [
+      {
+        "title": "Dozens killed by Israeli gunfire near aid sites in south Gaza, Hamas-run ministry says",
+        "link": "https://www.bbc.com/news/articles/ce3n04w19qlo",
+        "source": "BBC News",
+        "pubDate": "2025-07-19T13:14:02.000Z",
+        "relevanceScore": 346.41,
+        "tags": []
+      },
+      {
+        "title": "New airport scanners are better at spotting liquid explosives, but many airports lack them",
+        "link": "https://abcnews.go.com/Business/wireStory/new-airport-scanners-spotting-liquid-explosives-airports-lack-123888542",
+        "source": "ABC News Business",
+        "pubDate": "2025-07-19T13:21:51.000Z",
+        "relevanceScore": 56.44,
+        "tags": []
+      },
+      {
+        "title": "RFK Jr. wants to change program that stopped vaccine makers from leaving US market",
+        "link": "https://arstechnica.com/health/2025/07/rfk-jr-wants-to-change-program-that-stopped-vaccine-makers-from-leaving-us-market/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-19T11:10:04.000Z",
+        "relevanceScore": 25.5,
+        "tags": [
+          "Business"
+        ]
+      }
+    ],
     "blockchain": [
+      {
+        "title": "Trump signs new stablecoin regulations into law, a major milestone for crypto industry",
+        "link": "https://abcnews.go.com/Business/wireStory/trump-signs-new-stablecoin-regulations-law-major-milestone-123873615",
+        "source": "ABC News Business",
+        "pubDate": "2025-07-18T21:34:19.000Z",
+        "relevanceScore": 283.78,
+        "tags": [
+          "Regulation"
+        ]
+      },
       {
         "title": "The week when crypto won big in America",
         "link": "https://www.npr.org/2025/07/19/nx-s1-5470007/crypto-economy-trump-genius-clarity-act",
         "source": "NPR Business",
         "pubDate": "2025-07-19T12:00:00.000Z",
-        "relevanceScore": 27.78,
+        "relevanceScore": 27.67,
         "tags": [
           "Tech",
           "Exclusive"
         ]
       },
       {
-        "title": "Trump is leveraging power of his office to reap profits for family businesses",
-        "link": "https://abcnews.go.com/Business/wireStory/sale-trump-leveraging-power-office-reap-profits-family-123858027",
-        "source": "ABC News Business",
-        "pubDate": "2025-07-18T12:53:01.000Z",
-        "relevanceScore": 21.16,
-        "tags": []
-      },
-      {
         "title": "US passes first major national crypto legislation",
         "link": "https://www.bbc.com/news/articles/cd78lvd94zyo",
         "source": "BBC Technology",
         "pubDate": "2025-07-17T23:17:14.000Z",
-        "relevanceScore": 18.44,
+        "relevanceScore": 18.32,
         "tags": [
           "Exclusive"
         ]
       }
     ],
-    "social": [
+    "cybersecurity": [
       {
-        "title": "How to Delete All of Your Social Media Accounts: Instagram, X, Facebook, TikTok, and More",
-        "link": "https://www.wired.com/story/how-to-delete-your-facebook-instagram-twitter-snapchat/",
-        "source": "Wired",
-        "pubDate": "2025-07-19T11:30:00.000Z",
-        "relevanceScore": 25.68,
+        "title": "Meta investors settle $8bn lawsuit with Zuckerberg over Facebook privacy",
+        "link": "https://www.bbc.com/news/articles/cx2jmledvr3o",
+        "source": "BBC Technology",
+        "pubDate": "2025-07-17T20:05:28.000Z",
+        "relevanceScore": 279.69,
         "tags": [
-          "Social",
-          "Breaking",
-          "Tutorial"
+          "Security",
+          "Social"
+        ]
+      },
+      {
+        "title": "Phishers have found a way to downgrade—not bypass—FIDO MFA",
+        "link": "https://arstechnica.com/security/2025/07/no-phishers-are-not-bypassing-fido-mfa-at-least-not-yet-heres-why/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-18T19:07:21.000Z",
+        "relevanceScore": 45.29,
+        "tags": []
+      }
+    ],
+    "finance": [
+      {
+        "title": "How major US stock indexes fared Friday, 7/18/2025",
+        "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-7182025-123876446",
+        "source": "ABC News Business",
+        "pubDate": "2025-07-18T21:01:56.000Z",
+        "relevanceScore": 65.67,
+        "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "Funding cuts will hit rural areas hard. One station manager explains how",
+        "link": "https://www.npr.org/2025/07/18/nx-s1-5472460/funding-cuts-will-hit-rural-areas-hard-one-station-manager-explains-how",
+        "source": "NPR Business",
+        "pubDate": "2025-07-18T22:35:22.000Z",
+        "relevanceScore": 55.49,
+        "tags": [
+          "Startup",
+          "IPO",
+          "Funding"
+        ]
+      },
+      {
+        "title": "As White House talks about impounding NASA funding, Congress takes the threat seriously",
+        "link": "https://arstechnica.com/space/2025/07/a-huge-fight-looms-over-the-nasa-budget-this-fall/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-18T20:54:25.000Z",
+        "relevanceScore": 22.65,
+        "tags": [
+          "Startup",
+          "Funding"
         ]
       }
     ],
@@ -1090,7 +1123,7 @@
         "link": "https://www.technologyreview.com/2025/07/18/1120383/a-brief-history-of-three-parent-babies/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-18T09:00:00.000Z",
-        "relevanceScore": 25.38,
+        "relevanceScore": 25.27,
         "tags": []
       }
     ]
@@ -1098,26 +1131,26 @@
   "stats": {
     "totalSources": 15,
     "totalCategories": 14,
-    "avgRelevanceScore": 238.7729166666668,
+    "avgRelevanceScore": 246.47897959183683,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 12
       },
       {
         "category": "tech",
-        "count": 8
+        "count": 9
       },
       {
         "category": "general",
-        "count": 5
-      },
-      {
-        "category": "gaming",
         "count": 4
       },
       {
-        "category": "business",
+        "category": "development",
+        "count": 4
+      },
+      {
+        "category": "gaming",
         "count": 3
       }
     ]
