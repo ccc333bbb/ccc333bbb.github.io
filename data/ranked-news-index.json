@@ -1,21 +1,23 @@
 {
-  "lastUpdated": "2025-07-23T10:16:39.795Z",
+  "lastUpdated": "2025-07-23T10:47:26.194Z",
   "totalArticles": 52,
   "categories": [
     "development",
     "gaming",
     "ai-ml",
+    "mobile",
     "finance",
     "space",
     "world",
     "business",
     "general",
-    "tech",
-    "startup",
+    "blockchain",
+    "cloud",
     "cybersecurity",
+    "tech",
     "automotive",
     "social",
-    "mobile"
+    "startup"
   ],
   "topArticles": [
     {
@@ -24,8 +26,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-22T17:43:14.000Z",
-      "relevanceScore": 1133.19,
-      "recommendationScore": 1134.19,
+      "relevanceScore": 1162.09,
+      "recommendationScore": 1163.09,
       "tags": [
         "Tech",
         "Business",
@@ -39,8 +41,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-07-22T22:18:39.000Z",
-      "relevanceScore": 1070.61,
-      "recommendationScore": 1071.11,
+      "relevanceScore": 1096.5,
+      "recommendationScore": 1097,
       "tags": [
         "Exclusive",
         "Controversy"
@@ -53,8 +55,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-22T12:10:00.000Z",
-      "relevanceScore": 996.08,
-      "recommendationScore": 998.08,
+      "relevanceScore": 978.48,
+      "recommendationScore": 980.48,
       "tags": [
         "AI",
         "Tech",
@@ -69,12 +71,25 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-23T00:23:05.000Z",
-      "relevanceScore": 933.52,
-      "recommendationScore": 935.02,
+      "relevanceScore": 905.42,
+      "recommendationScore": 906.92,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Refactoring a monolithic MPA platform - memory wiped on every deploy",
+      "link": "https://dev.to/samuele_sala_f712f688c7f2/refactoring-a-monolithic-mpa-platform-memory-wiped-on-every-deploy-68e",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-07-23T10:40:45.000Z",
+      "relevanceScore": 895.98,
+      "recommendationScore": 896.48,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "PayPal taps wallets from China and India to make cross-border payments easier for 2 billion people",
@@ -82,19 +97,8 @@
       "source": "TechCrunch",
       "category": "finance",
       "pubDate": "2025-07-23T04:01:00.000Z",
-      "relevanceScore": 851.75,
-      "recommendationScore": 852.25,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Using Data Engineering to Track Food Prices and Inflation in Kenya from 2006 to 2025",
-      "link": "https://dev.to/dkkinyua/using-data-engineering-to-track-food-prices-and-inflation-in-kenya-from-2006-to-2025-47ja",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-23T09:48:24.000Z",
-      "relevanceScore": 765.91,
-      "recommendationScore": 766.41,
+      "relevanceScore": 864.65,
+      "recommendationScore": 865.15,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -104,10 +108,23 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2025-07-23T09:00:35.000Z",
-      "relevanceScore": 663.75,
-      "recommendationScore": 664.75,
+      "relevanceScore": 681.64,
+      "recommendationScore": 682.64,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "How China came to rule the world of rare earth elements",
+      "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-07-23T10:03:50.000Z",
+      "relevanceScore": 629.85,
+      "recommendationScore": 631.85,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Debugging UI with AI: GitHub Copilot agent mode meets MCP servers",
@@ -115,8 +132,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-07-22T21:58:35.000Z",
-      "relevanceScore": 654.04,
-      "recommendationScore": 654.54,
+      "relevanceScore": 624.94,
+      "recommendationScore": 625.44,
       "tags": [
         "AI",
         "Exclusive"
@@ -129,22 +146,33 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-23T04:02:27.000Z",
-      "relevanceScore": 653.75,
-      "recommendationScore": 656.25,
+      "relevanceScore": 624.65,
+      "recommendationScore": 627.15,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "How China came to rule the world of rare earth elements",
-      "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-07-23T10:03:50.000Z",
-      "relevanceScore": 614.96,
-      "recommendationScore": 616.96,
+      "title": "Built a macOS app solo →$3.6K revenue, 5.3K users, $0 ads, and total chaos (in a good way)",
+      "link": "https://www.reddit.com/r/programming/comments/1m72xos/built_a_macos_app_solo_36k_revenue_53k_users_0/",
+      "source": "Reddit Programming",
+      "category": "mobile",
+      "pubDate": "2025-07-23T07:34:39.000Z",
+      "relevanceScore": 559.86,
+      "recommendationScore": 560.36,
       "tags": [
-        "Business"
+        "Mobile"
       ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Can the U.S. sugar supply meet demand for Coca-Cola's cane sugar change?",
+      "link": "https://www.npr.org/2025/07/22/nx-s1-5476242/can-the-u-s-sugar-supply-meet-demand-for-coca-colas-cane-sugar-change",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-07-22T20:07:32.000Z",
+      "relevanceScore": 377.57,
+      "recommendationScore": 378.07,
+      "tags": [],
       "readingLevel": "beginner"
     },
     {
@@ -153,8 +181,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-07-23T10:00:00.000Z",
-      "relevanceScore": 391.44,
-      "recommendationScore": 393.44,
+      "relevanceScore": 359.34,
+      "recommendationScore": 361.34,
       "tags": [
         "AI",
         "Security"
@@ -162,13 +190,35 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "I don't care about my age, 19-year-old Reform council leader tells BBC",
+      "link": "https://www.bbc.com/news/articles/cj61l526xlxo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T08:08:42.000Z",
+      "relevanceScore": 343.47,
+      "recommendationScore": 343.97,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Great Crypto Re-Banking Has Begun",
+      "link": "https://www.wired.com/story/the-great-crypto-re-banking-has-begun/",
+      "source": "Wired",
+      "category": "blockchain",
+      "pubDate": "2025-07-23T10:18:57.000Z",
+      "relevanceScore": 338.91,
+      "recommendationScore": 338.91,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Silicon Valley AI Startups Are Embracing China’s Controversial ‘996’ Work Schedule",
       "link": "https://www.wired.com/story/silicon-valley-china-996-work-schedule/",
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-07-23T09:30:00.000Z",
-      "relevanceScore": 374.84,
-      "recommendationScore": 375.34,
+      "relevanceScore": 337.74,
+      "recommendationScore": 338.24,
       "tags": [
         "AI"
       ],
@@ -180,12 +230,26 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-23T04:14:17.000Z",
-      "relevanceScore": 373.79,
-      "recommendationScore": 374.29,
+      "relevanceScore": 336.69,
+      "recommendationScore": 337.19,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why Your Lambda Function Is Slow (And How to Fix It)",
+      "link": "https://dev.to/momina_ayub/why-your-lambda-function-is-slow-and-how-to-fix-it-2i2o",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-07-23T10:43:12.000Z",
+      "relevanceScore": 335.49,
+      "recommendationScore": 337.49,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Splitgate 2 is yanked back to beta a month after release",
@@ -193,12 +257,23 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-07-22T23:10:22.000Z",
-      "relevanceScore": 371.78,
-      "recommendationScore": 372.28,
+      "relevanceScore": 334.68,
+      "recommendationScore": 335.18,
       "tags": [
         "Launch"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "'He sees Trump as emotional and susceptible to influence' — Putin not worried about 50-day ceasefire deadline",
+      "link": "https://www.reddit.com/r/worldnews/comments/1m6zdos/he_sees_trump_as_emotional_and_susceptible_to/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-07-23T04:02:41.000Z",
+      "relevanceScore": 334.65,
+      "recommendationScore": 334.65,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI and UK sign deal to use AI in public services",
@@ -206,8 +281,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-22T12:00:26.000Z",
-      "relevanceScore": 370.55,
-      "recommendationScore": 371.05,
+      "relevanceScore": 333.44,
+      "recommendationScore": 333.94,
       "tags": [
         "AI",
         "Tech",
@@ -217,24 +292,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "I don't care about my age, 19-year-old Reform council leader tells BBC",
-      "link": "https://www.bbc.com/news/articles/cj61l526xlxo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T08:08:42.000Z",
-      "relevanceScore": 336.57,
-      "recommendationScore": 337.07,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "“AI has been the wild west”: Creating standards for agents with Sean Falconer",
       "link": "https://stackoverflow.blog/2025/07/22/ai-has-been-the-wild-west-creating-standards-for-agents-with-sean-falconer/",
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-07-22T07:40:00.000Z",
-      "relevanceScore": 334.68,
-      "recommendationScore": 335.18,
+      "relevanceScore": 296.58,
+      "recommendationScore": 297.08,
       "tags": [
         "AI",
         "Web"
@@ -242,52 +306,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Can the U.S. sugar supply meet demand for Coca-Cola's cane sugar change?",
-      "link": "https://www.npr.org/2025/07/22/nx-s1-5476242/can-the-u-s-sugar-supply-meet-demand-for-coca-colas-cane-sugar-change",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-07-22T20:07:32.000Z",
-      "relevanceScore": 330.17,
-      "recommendationScore": 330.67,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "'He sees Trump as emotional and susceptible to influence' — Putin not worried about 50-day ceasefire deadline",
-      "link": "https://www.reddit.com/r/worldnews/comments/1m6zdos/he_sees_trump_as_emotional_and_susceptible_to/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-07-23T04:02:41.000Z",
-      "relevanceScore": 327.75,
-      "recommendationScore": 327.75,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon is acquiring an AI wearable that listens to everything you do",
-      "link": "https://www.engadget.com/ai/amazon-is-acquiring-an-ai-wearable-that-listens-to-everything-you-do-221103233.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-07-22T22:11:08.000Z",
-      "relevanceScore": 199.58,
-      "recommendationScore": 200.08,
-      "tags": [
-        "AI",
-        "Mobile",
-        "Startup",
-        "Acquisition",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "The battery-powered Starlink Mini is here",
       "link": "https://www.theverge.com/reviews/712043/peakdo-linkpower-review-battery-powered-starlink-mini",
       "source": "The Verge",
       "category": "space",
       "pubDate": "2025-07-23T08:51:05.000Z",
-      "relevanceScore": 175.71,
-      "recommendationScore": 175.71,
+      "relevanceScore": 181.61,
+      "recommendationScore": 181.61,
       "tags": [
         "Web"
       ],
@@ -299,20 +324,26 @@
       "source": "Wired",
       "category": "space",
       "pubDate": "2025-07-23T09:00:00.000Z",
-      "relevanceScore": 159.74,
-      "recommendationScore": 159.74,
+      "relevanceScore": 164.64,
+      "recommendationScore": 164.64,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "A Top NASA Official Is Among Thousands of Staff Leaving the Agency",
-      "link": "https://www.wired.com/story/a-top-nasa-official-is-among-thousands-of-staff-leaving-the-agency/",
-      "source": "Wired",
-      "category": "space",
-      "pubDate": "2025-07-23T00:00:00.000Z",
-      "relevanceScore": 157.94,
-      "recommendationScore": 159.44,
-      "tags": [],
+      "title": "Amazon is acquiring an AI wearable that listens to everything you do",
+      "link": "https://www.engadget.com/ai/amazon-is-acquiring-an-ai-wearable-that-listens-to-everything-you-do-221103233.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-07-22T22:11:08.000Z",
+      "relevanceScore": 160.48,
+      "recommendationScore": 160.98,
+      "tags": [
+        "AI",
+        "Mobile",
+        "Startup",
+        "Acquisition",
+        "Partnership"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -321,10 +352,60 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-23T05:22:17.000Z",
-      "relevanceScore": 124.52,
-      "recommendationScore": 124.52,
+      "relevanceScore": 137.92,
+      "recommendationScore": 137.92,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Two dead and two injured after NI shooting",
+      "link": "https://www.bbc.com/news/articles/cqx2537w5e2o",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T10:35:26.000Z",
+      "relevanceScore": 70.46,
+      "recommendationScore": 70.46,
+      "tags": [
+        "Breaking",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Microsoft servers hacked by Chinese groups, says tech giant",
+      "link": "https://www.bbc.com/news/articles/c4gdnz1nlgyo",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2025-07-23T02:53:31.000Z",
+      "relevanceScore": 67.42,
+      "recommendationScore": 67.92,
+      "tags": [
+        "Tech",
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Escobar Phone scam saga has finally come to an end",
+      "link": "https://www.theverge.com/news/711929/escobar-phone-scam-guilty-plea-deal",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-07-22T22:27:49.000Z",
+      "relevanceScore": 53.53,
+      "recommendationScore": 54.03,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "It Looks Like the Tesla Model Y Refresh Has Bombed",
+      "link": "https://www.wired.com/story/it-looks-like-the-tesla-model-y-refresh-has-bombed/",
+      "source": "Wired",
+      "category": "automotive",
+      "pubDate": "2025-07-23T10:00:00.000Z",
+      "relevanceScore": 47.34,
+      "recommendationScore": 47.34,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Flurry of trade deals offers relief for some Asian countries, while others wait",
@@ -332,10 +413,24 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-23T08:28:43.000Z",
-      "relevanceScore": 86.14,
-      "recommendationScore": 86.64,
+      "relevanceScore": 47.04,
+      "recommendationScore": 47.54,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "US nuclear weapons agency reportedly breached in Microsoft SharePoint attacks",
+      "link": "https://www.theverge.com/news/712080/microsoft-sharepoint-hack-us-nuclear-weapons-agency",
+      "source": "The Verge",
+      "category": "cybersecurity",
+      "pubDate": "2025-07-23T08:24:26.000Z",
+      "relevanceScore": 47.02,
+      "recommendationScore": 47.52,
+      "tags": [
+        "Tech",
+        "Security"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI agreed to pay Oracle $30B a year for data center services",
@@ -343,23 +438,58 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-07-22T20:36:31.000Z",
-      "relevanceScore": 85.77,
-      "recommendationScore": 86.27,
+      "relevanceScore": 46.66,
+      "recommendationScore": 47.16,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "beginner"
     },
     {
+      "title": "Toy company may regret coming for “Sylvanian Drama” TikToker, experts say",
+      "link": "https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/",
+      "source": "Ars Technica",
+      "category": "social",
+      "pubDate": "2025-07-22T21:53:51.000Z",
+      "relevanceScore": 44.92,
+      "recommendationScore": 45.42,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "City traders jailed for interest rate-rigging have convictions quashed",
       "link": "https://www.bbc.com/news/articles/cr5vgqr8p14o",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-07-23T09:40:37.000Z",
-      "relevanceScore": 75.88,
-      "recommendationScore": 76.38,
+      "pubDate": "2025-07-23T10:37:50.000Z",
+      "relevanceScore": 31.97,
+      "recommendationScore": 32.47,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "'There will never be another Ozzy': Stars pay tribute to rock legend",
+      "link": "https://www.bbc.com/news/articles/c17w4wn71z9o",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T08:05:25.000Z",
+      "relevanceScore": 31.46,
+      "recommendationScore": 31.96,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Chaos and comebacks: How England keep overcoming the odds",
+      "link": "https://www.bbc.com/sport/football/articles/c1lj0nm0myyo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T01:00:34.000Z",
+      "relevanceScore": 30.04,
+      "recommendationScore": 32.04,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Gupshup raises $60M in equity and debt, leaves unicorn status hanging",
@@ -367,8 +497,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-07-23T06:30:00.000Z",
-      "relevanceScore": 71.24,
-      "recommendationScore": 71.74,
+      "relevanceScore": 27.14,
+      "recommendationScore": 27.64,
       "tags": [
         "Funding"
       ],
@@ -380,12 +510,25 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-07-23T03:56:29.000Z",
-      "relevanceScore": 70.73,
-      "recommendationScore": 71.23,
+      "relevanceScore": 26.63,
+      "recommendationScore": 27.13,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Fighting forever chemicals and startup fatigue",
+      "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
+      "source": "MIT Technology Review",
+      "category": "startup",
+      "pubDate": "2025-07-22T17:38:18.000Z",
+      "relevanceScore": 26.57,
+      "recommendationScore": 26.57,
+      "tags": [
+        "Startup"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "We need a European Sovereign Tech Fund",
@@ -393,8 +536,8 @@
       "source": "GitHub Blog",
       "category": "startup",
       "pubDate": "2025-07-23T07:01:00.000Z",
-      "relevanceScore": 70.35,
-      "recommendationScore": 70.35,
+      "relevanceScore": 26.25,
+      "recommendationScore": 26.25,
       "tags": [
         "Tech",
         "Science",
@@ -410,10 +553,23 @@
       "source": "MIT Technology Review",
       "category": "startup",
       "pubDate": "2025-07-22T11:00:00.000Z",
-      "relevanceScore": 70.34,
-      "recommendationScore": 70.84,
+      "relevanceScore": 26.24,
+      "recommendationScore": 26.74,
       "tags": [
         "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple alerted Iranians to iPhone spyware attacks, say researchers",
+      "link": "https://techcrunch.com/2025/07/22/apple-alerted-iranians-to-iphone-spyware-attacks-say-researchers/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2025-07-22T20:57:48.000Z",
+      "relevanceScore": 25.23,
+      "recommendationScore": 25.73,
+      "tags": [
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -423,8 +579,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-22T20:51:41.000Z",
-      "relevanceScore": 69.32,
-      "recommendationScore": 69.82,
+      "relevanceScore": 25.21,
+      "recommendationScore": 25.71,
       "tags": [
         "AI",
         "Mobile",
@@ -438,183 +594,23 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-07-23T01:18:34.000Z",
-      "relevanceScore": 68.21,
-      "recommendationScore": 68.71,
+      "relevanceScore": 24.1,
+      "recommendationScore": 24.6,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Apple Intelligence news summaries are back, with a big red disclaimer",
-      "link": "https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-07-22T20:24:41.000Z",
-      "relevanceScore": 67.23,
-      "recommendationScore": 69.73,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Python 3.14 release candidate 1 is go",
-      "link": "https://www.reddit.com/r/programming/comments/1m6t1ml/python_314_release_candidate_1_is_go/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-07-22T23:03:34.000Z",
-      "relevanceScore": 62.76,
-      "recommendationScore": 62.76,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Microsoft servers hacked by Chinese groups, says tech giant",
-      "link": "https://www.bbc.com/news/articles/c4gdnz1nlgyo",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2025-07-23T02:53:31.000Z",
-      "relevanceScore": 57.52,
-      "recommendationScore": 58.02,
-      "tags": [
-        "Tech",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Escobar Phone scam saga has finally come to an end",
-      "link": "https://www.theverge.com/news/711929/escobar-phone-scam-guilty-plea-deal",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-07-22T22:27:49.000Z",
-      "relevanceScore": 51.14,
-      "recommendationScore": 51.64,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "It Looks Like the Tesla Model Y Refresh Has Bombed",
-      "link": "https://www.wired.com/story/it-looks-like-the-tesla-model-y-refresh-has-bombed/",
-      "source": "Wired",
-      "category": "automotive",
-      "pubDate": "2025-07-23T10:00:00.000Z",
-      "relevanceScore": 42.44,
-      "recommendationScore": 42.44,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "US nuclear weapons agency reportedly breached in Microsoft SharePoint attacks",
-      "link": "https://www.theverge.com/news/712080/microsoft-sharepoint-hack-us-nuclear-weapons-agency",
-      "source": "The Verge",
-      "category": "cybersecurity",
-      "pubDate": "2025-07-23T08:24:26.000Z",
-      "relevanceScore": 42.13,
-      "recommendationScore": 42.63,
-      "tags": [
-        "Tech",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Toy company may regret coming for “Sylvanian Drama” TikToker, experts say",
-      "link": "https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/",
-      "source": "Ars Technica",
-      "category": "social",
-      "pubDate": "2025-07-22T21:53:51.000Z",
-      "relevanceScore": 40.02,
-      "recommendationScore": 40.52,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "'There will never be another Ozzy': Stars pay tribute to rock legend",
-      "link": "https://www.bbc.com/news/articles/c17w4wn71z9o",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T08:05:25.000Z",
-      "relevanceScore": 31.56,
-      "recommendationScore": 32.06,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "'A hospital gave us two death certificates for dad to cover up their mistake'",
-      "link": "https://www.bbc.com/news/articles/c78np7l9djlo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T01:36:05.000Z",
-      "relevanceScore": 30.26,
-      "recommendationScore": 30.76,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Chaos and comebacks: How England keep overcoming the odds",
-      "link": "https://www.bbc.com/sport/football/articles/c1lj0nm0myyo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T01:00:34.000Z",
-      "relevanceScore": 30.15,
-      "recommendationScore": 32.15,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Fighting forever chemicals and startup fatigue",
-      "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2025-07-22T17:38:18.000Z",
-      "relevanceScore": 26.67,
-      "recommendationScore": 26.67,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Apple alerted Iranians to iPhone spyware attacks, say researchers",
-      "link": "https://techcrunch.com/2025/07/22/apple-alerted-iranians-to-iphone-spyware-attacks-say-researchers/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2025-07-22T20:57:48.000Z",
-      "relevanceScore": 25.34,
-      "recommendationScore": 25.84,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to Set Up and Manage APIs Using Kalp Studio’s API Gateway",
-      "link": "https://dev.to/kalpstudio/how-to-set-up-and-manage-apis-using-kalp-studios-api-gateway-1me0",
+      "title": "My AWS Cloud Journey Begins: Passing CLF-C02 and AIF-C01",
+      "link": "https://dev.to/angelareichi/my-aws-cloud-journey-begins-passing-clf-c02-and-aif-c01-mpg",
       "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-07-23T09:57:50.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 25.94,
+      "category": "cloud",
+      "pubDate": "2025-07-23T10:39:00.000Z",
+      "relevanceScore": 23.97,
+      "recommendationScore": 24.47,
       "tags": [
-        "Mobile",
-        "Exclusive",
-        "Tutorial"
+        "Cloud",
+        "Exclusive"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Middleware Architecture Patterns for Request Processing(1460)",
-      "link": "https://dev.to/member_8c78b76f/middleware-architecture-patterns-for-request-processing1460-46m4",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-23T09:49:33.000Z",
-      "relevanceScore": 23.91,
-      "recommendationScore": 24.41,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -623,8 +619,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-07-22T23:01:05.000Z",
-      "relevanceScore": 23.75,
-      "recommendationScore": 25.25,
+      "relevanceScore": 23.65,
+      "recommendationScore": 25.15,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -634,8 +630,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-07-22T21:00:10.000Z",
-      "relevanceScore": 23.35,
-      "recommendationScore": 23.85,
+      "relevanceScore": 23.24,
+      "recommendationScore": 23.74,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -645,8 +641,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-23T06:52:39.000Z",
-      "relevanceScore": 23.32,
-      "recommendationScore": 23.82,
+      "relevanceScore": 23.22,
+      "recommendationScore": 23.72,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple Intelligence news summaries are back, with a big red disclaimer",
+      "link": "https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-07-22T20:24:41.000Z",
+      "relevanceScore": 23.12,
+      "recommendationScore": 25.62,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -658,7 +665,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1m6krap/its_really_time_tech_workers_start_talking_about/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-22T17:43:14.000Z",
-        "relevanceScore": 1133.19,
+        "relevanceScore": 1162.09,
         "tags": [
           "Tech",
           "Business",
@@ -666,37 +673,11 @@
         ]
       },
       {
-        "title": "Using Data Engineering to Track Food Prices and Inflation in Kenya from 2006 to 2025",
-        "link": "https://dev.to/dkkinyua/using-data-engineering-to-track-food-prices-and-inflation-in-kenya-from-2006-to-2025-47ja",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T09:48:24.000Z",
-        "relevanceScore": 765.91,
-        "tags": []
-      },
-      {
         "title": "When Is WebAssembly Going to Get DOM Support?",
         "link": "https://www.reddit.com/r/programming/comments/1m70tdf/when_is_webassembly_going_to_get_dom_support/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-23T05:22:17.000Z",
-        "relevanceScore": 124.52,
-        "tags": []
-      },
-      {
-        "title": "Python 3.14 release candidate 1 is go",
-        "link": "https://www.reddit.com/r/programming/comments/1m6t1ml/python_314_release_candidate_1_is_go/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-07-22T23:03:34.000Z",
-        "relevanceScore": 62.76,
-        "tags": [
-          "Launch"
-        ]
-      },
-      {
-        "title": "Middleware Architecture Patterns for Request Processing(1460)",
-        "link": "https://dev.to/member_8c78b76f/middleware-architecture-patterns-for-request-processing1460-46m4",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T09:49:33.000Z",
-        "relevanceScore": 23.91,
+        "relevanceScore": 137.92,
         "tags": []
       },
       {
@@ -704,7 +685,7 @@
         "link": "https://stackoverflow.blog/2025/07/21/community-products-roadmap-update-july-2025/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-07-21T18:00:00.000Z",
-        "relevanceScore": 15.94,
+        "relevanceScore": 15.84,
         "tags": [
           "Update"
         ]
@@ -716,7 +697,7 @@
         "link": "https://www.engadget.com/gaming/video-games-weekly-censorship-shrinkage-and-a-subnautica-scandal-221839722.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-22T22:18:39.000Z",
-        "relevanceScore": 1070.61,
+        "relevanceScore": 1096.5,
         "tags": [
           "Exclusive",
           "Controversy"
@@ -727,7 +708,7 @@
         "link": "https://www.engadget.com/gaming/splitgate-2-is-yanked-back-to-beta-a-month-after-release-231022772.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-22T23:10:22.000Z",
-        "relevanceScore": 371.78,
+        "relevanceScore": 334.68,
         "tags": [
           "Launch"
         ]
@@ -739,7 +720,7 @@
         "link": "https://www.technologyreview.com/2025/07/22/1120562/the-download-how-to-melt-rocks-and-what-you-need-to-know-about-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-22T12:10:00.000Z",
-        "relevanceScore": 996.08,
+        "relevanceScore": 978.48,
         "tags": [
           "AI",
           "Tech",
@@ -752,7 +733,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1m6uun8/openai_ceo_sam_altman_says_the_world_may_be_on/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-23T00:23:05.000Z",
-        "relevanceScore": 933.52,
+        "relevanceScore": 905.42,
         "tags": [
           "AI"
         ]
@@ -762,7 +743,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/debugging-ui-with-ai-github-copilot-agent-mode-meets-mcp-servers/",
         "source": "GitHub Blog",
         "pubDate": "2025-07-22T21:58:35.000Z",
-        "relevanceScore": 654.04,
+        "relevanceScore": 624.94,
         "tags": [
           "AI",
           "Exclusive"
@@ -773,7 +754,7 @@
         "link": "https://www.theverge.com/news/711860/proton-privacy-focused-ai-chatbot",
         "source": "The Verge",
         "pubDate": "2025-07-23T10:00:00.000Z",
-        "relevanceScore": 391.44,
+        "relevanceScore": 359.34,
         "tags": [
           "AI",
           "Security"
@@ -784,7 +765,7 @@
         "link": "https://www.wired.com/story/silicon-valley-china-996-work-schedule/",
         "source": "Wired",
         "pubDate": "2025-07-23T09:30:00.000Z",
-        "relevanceScore": 374.84,
+        "relevanceScore": 337.74,
         "tags": [
           "AI"
         ]
@@ -794,7 +775,7 @@
         "link": "https://www.bbc.com/news/articles/czdv68gejm7o",
         "source": "BBC Technology",
         "pubDate": "2025-07-22T12:00:26.000Z",
-        "relevanceScore": 370.55,
+        "relevanceScore": 333.44,
         "tags": [
           "AI",
           "Tech",
@@ -807,7 +788,7 @@
         "link": "https://stackoverflow.blog/2025/07/22/ai-has-been-the-wild-west-creating-standards-for-agents-with-sean-falconer/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-07-22T07:40:00.000Z",
-        "relevanceScore": 334.68,
+        "relevanceScore": 296.58,
         "tags": [
           "AI",
           "Web"
@@ -818,7 +799,7 @@
         "link": "https://www.engadget.com/ai/amazon-is-acquiring-an-ai-wearable-that-listens-to-everything-you-do-221103233.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-22T22:11:08.000Z",
-        "relevanceScore": 199.58,
+        "relevanceScore": 160.48,
         "tags": [
           "AI",
           "Mobile",
@@ -832,11 +813,43 @@
         "link": "https://techcrunch.com/2025/07/22/amazon-acquires-bee-the-ai-wearable-that-records-everything-you-say/",
         "source": "TechCrunch",
         "pubDate": "2025-07-22T20:51:41.000Z",
-        "relevanceScore": 69.32,
+        "relevanceScore": 25.21,
         "tags": [
           "AI",
           "Mobile",
           "Startup"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Refactoring a monolithic MPA platform - memory wiped on every deploy",
+        "link": "https://dev.to/samuele_sala_f712f688c7f2/refactoring-a-monolithic-mpa-platform-memory-wiped-on-every-deploy-68e",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T10:40:45.000Z",
+        "relevanceScore": 895.98,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Built a macOS app solo →$3.6K revenue, 5.3K users, $0 ads, and total chaos (in a good way)",
+        "link": "https://www.reddit.com/r/programming/comments/1m72xos/built_a_macos_app_solo_36k_revenue_53k_users_0/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-07-23T07:34:39.000Z",
+        "relevanceScore": 559.86,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Apple alerted Iranians to iPhone spyware attacks, say researchers",
+        "link": "https://techcrunch.com/2025/07/22/apple-alerted-iranians-to-iphone-spyware-attacks-say-researchers/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-22T20:57:48.000Z",
+        "relevanceScore": 25.23,
+        "tags": [
+          "Mobile"
         ]
       }
     ],
@@ -846,7 +859,7 @@
         "link": "https://techcrunch.com/2025/07/22/paypal-announces-integration-with-international-wallets-for-easier-cross-border-transactions/",
         "source": "TechCrunch",
         "pubDate": "2025-07-23T04:01:00.000Z",
-        "relevanceScore": 851.75,
+        "relevanceScore": 864.65,
         "tags": []
       },
       {
@@ -854,7 +867,7 @@
         "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
         "source": "NPR Business",
         "pubDate": "2025-07-23T10:03:50.000Z",
-        "relevanceScore": 614.96,
+        "relevanceScore": 629.85,
         "tags": [
           "Business"
         ]
@@ -866,7 +879,7 @@
         "link": "https://www.engadget.com/computing/accessories/best-portable-ssd-120043652.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-23T09:00:35.000Z",
-        "relevanceScore": 663.75,
+        "relevanceScore": 681.64,
         "tags": []
       },
       {
@@ -874,7 +887,7 @@
         "link": "https://www.theverge.com/reviews/712043/peakdo-linkpower-review-battery-powered-starlink-mini",
         "source": "The Verge",
         "pubDate": "2025-07-23T08:51:05.000Z",
-        "relevanceScore": 175.71,
+        "relevanceScore": 181.61,
         "tags": [
           "Web"
         ]
@@ -884,15 +897,7 @@
         "link": "https://www.wired.com/story/south-korea-wants-to-build-a-space-base-on-the-moon-within-20-years/",
         "source": "Wired",
         "pubDate": "2025-07-23T09:00:00.000Z",
-        "relevanceScore": 159.74,
-        "tags": []
-      },
-      {
-        "title": "A Top NASA Official Is Among Thousands of Staff Leaving the Agency",
-        "link": "https://www.wired.com/story/a-top-nasa-official-is-among-thousands-of-staff-leaving-the-agency/",
-        "source": "Wired",
-        "pubDate": "2025-07-23T00:00:00.000Z",
-        "relevanceScore": 157.94,
+        "relevanceScore": 164.64,
         "tags": []
       }
     ],
@@ -902,7 +907,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1m6zdia/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-07-23T04:02:27.000Z",
-        "relevanceScore": 653.75,
+        "relevanceScore": 624.65,
         "tags": []
       },
       {
@@ -910,7 +915,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1m6zdos/he_sees_trump_as_emotional_and_susceptible_to/",
         "source": "Reddit World News",
         "pubDate": "2025-07-23T04:02:41.000Z",
-        "relevanceScore": 327.75,
+        "relevanceScore": 334.65,
         "tags": []
       },
       {
@@ -918,35 +923,35 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1m72a6j/israeli_teens_chased_beaten_in_rhodes_by/",
         "source": "Reddit World News",
         "pubDate": "2025-07-23T06:52:39.000Z",
-        "relevanceScore": 23.32,
+        "relevanceScore": 23.22,
         "tags": []
       }
     ],
     "business": [
       {
-        "title": "Asian markets gain, with Japan's Nikkei up more than 3%, lifted by deal on Trump's tariffs",
-        "link": "https://abcnews.go.com/Business/wireStory/asian-markets-gain-japans-nikkei-3-lifted-deal-123985512",
-        "source": "ABC News Business",
-        "pubDate": "2025-07-23T04:14:17.000Z",
-        "relevanceScore": 373.79,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
         "title": "Can the U.S. sugar supply meet demand for Coca-Cola's cane sugar change?",
         "link": "https://www.npr.org/2025/07/22/nx-s1-5476242/can-the-u-s-sugar-supply-meet-demand-for-coca-colas-cane-sugar-change",
         "source": "NPR Business",
         "pubDate": "2025-07-22T20:07:32.000Z",
-        "relevanceScore": 330.17,
+        "relevanceScore": 377.57,
         "tags": []
+      },
+      {
+        "title": "Asian markets gain, with Japan's Nikkei up more than 3%, lifted by deal on Trump's tariffs",
+        "link": "https://abcnews.go.com/Business/wireStory/asian-markets-gain-japans-nikkei-3-lifted-deal-123985512",
+        "source": "ABC News Business",
+        "pubDate": "2025-07-23T04:14:17.000Z",
+        "relevanceScore": 336.69,
+        "tags": [
+          "Partnership"
+        ]
       },
       {
         "title": "Flurry of trade deals offers relief for some Asian countries, while others wait",
         "link": "https://abcnews.go.com/Business/wireStory/flurry-trade-deals-offers-relief-asian-countries-wait-123987699",
         "source": "ABC News Business",
         "pubDate": "2025-07-23T08:28:43.000Z",
-        "relevanceScore": 86.14,
+        "relevanceScore": 47.04,
         "tags": []
       },
       {
@@ -954,7 +959,7 @@
         "link": "https://www.npr.org/2025/07/22/nx-s1-5476800/trump-trade-deal-japan",
         "source": "NPR Business",
         "pubDate": "2025-07-23T03:56:29.000Z",
-        "relevanceScore": 70.73,
+        "relevanceScore": 26.63,
         "tags": [
           "Partnership"
         ]
@@ -964,7 +969,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/appeals-court-reinstate-ap-access-presidential-events-123982670",
         "source": "ABC News Business",
         "pubDate": "2025-07-23T01:18:34.000Z",
-        "relevanceScore": 68.21,
+        "relevanceScore": 24.1,
         "tags": []
       }
     ],
@@ -974,15 +979,26 @@
         "link": "https://www.bbc.com/news/articles/cj61l526xlxo",
         "source": "BBC News",
         "pubDate": "2025-07-23T08:08:42.000Z",
-        "relevanceScore": 336.57,
+        "relevanceScore": 343.47,
         "tags": []
+      },
+      {
+        "title": "Two dead and two injured after NI shooting",
+        "link": "https://www.bbc.com/news/articles/cqx2537w5e2o",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T10:35:26.000Z",
+        "relevanceScore": 70.46,
+        "tags": [
+          "Breaking",
+          "IPO"
+        ]
       },
       {
         "title": "City traders jailed for interest rate-rigging have convictions quashed",
         "link": "https://www.bbc.com/news/articles/cr5vgqr8p14o",
         "source": "BBC News",
-        "pubDate": "2025-07-23T09:40:37.000Z",
-        "relevanceScore": 75.88,
+        "pubDate": "2025-07-23T10:37:50.000Z",
+        "relevanceScore": 31.97,
         "tags": []
       },
       {
@@ -990,61 +1006,101 @@
         "link": "https://www.bbc.com/news/articles/c17w4wn71z9o",
         "source": "BBC News",
         "pubDate": "2025-07-23T08:05:25.000Z",
-        "relevanceScore": 31.56,
+        "relevanceScore": 31.46,
         "tags": []
-      },
-      {
-        "title": "'A hospital gave us two death certificates for dad to cover up their mistake'",
-        "link": "https://www.bbc.com/news/articles/c78np7l9djlo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T01:36:05.000Z",
-        "relevanceScore": 30.26,
-        "tags": [
-          "Analysis"
-        ]
       },
       {
         "title": "Chaos and comebacks: How England keep overcoming the odds",
         "link": "https://www.bbc.com/sport/football/articles/c1lj0nm0myyo",
         "source": "BBC News",
         "pubDate": "2025-07-23T01:00:34.000Z",
-        "relevanceScore": 30.15,
+        "relevanceScore": 30.04,
         "tags": []
       }
     ],
-    "tech": [
+    "blockchain": [
       {
-        "title": "OpenAI agreed to pay Oracle $30B a year for data center services",
-        "link": "https://techcrunch.com/2025/07/22/openai-agreed-to-pay-oracle-30b-a-year-for-data-center-services/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-22T20:36:31.000Z",
-        "relevanceScore": 85.77,
+        "title": "The Great Crypto Re-Banking Has Begun",
+        "link": "https://www.wired.com/story/the-great-crypto-re-banking-has-begun/",
+        "source": "Wired",
+        "pubDate": "2025-07-23T10:18:57.000Z",
+        "relevanceScore": 338.91,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Why Your Lambda Function Is Slow (And How to Fix It)",
+        "link": "https://dev.to/momina_ayub/why-your-lambda-function-is-slow-and-how-to-fix-it-2i2o",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T10:43:12.000Z",
+        "relevanceScore": 335.49,
         "tags": [
-          "Partnership"
+          "Cloud",
+          "Tutorial"
         ]
       },
       {
-        "title": "Apple Intelligence news summaries are back, with a big red disclaimer",
-        "link": "https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-22T20:24:41.000Z",
-        "relevanceScore": 67.23,
-        "tags": []
+        "title": "My AWS Cloud Journey Begins: Passing CLF-C02 and AIF-C01",
+        "link": "https://dev.to/angelareichi/my-aws-cloud-journey-begins-passing-clf-c02-and-aif-c01-mpg",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T10:39:00.000Z",
+        "relevanceScore": 23.97,
+        "tags": [
+          "Cloud",
+          "Exclusive"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Microsoft servers hacked by Chinese groups, says tech giant",
+        "link": "https://www.bbc.com/news/articles/c4gdnz1nlgyo",
+        "source": "BBC Technology",
+        "pubDate": "2025-07-23T02:53:31.000Z",
+        "relevanceScore": 67.42,
+        "tags": [
+          "Tech",
+          "Security"
+        ]
       },
+      {
+        "title": "US nuclear weapons agency reportedly breached in Microsoft SharePoint attacks",
+        "link": "https://www.theverge.com/news/712080/microsoft-sharepoint-hack-us-nuclear-weapons-agency",
+        "source": "The Verge",
+        "pubDate": "2025-07-23T08:24:26.000Z",
+        "relevanceScore": 47.02,
+        "tags": [
+          "Tech",
+          "Security"
+        ]
+      }
+    ],
+    "tech": [
       {
         "title": "The Escobar Phone scam saga has finally come to an end",
         "link": "https://www.theverge.com/news/711929/escobar-phone-scam-guilty-plea-deal",
         "source": "The Verge",
         "pubDate": "2025-07-22T22:27:49.000Z",
-        "relevanceScore": 51.14,
+        "relevanceScore": 53.53,
         "tags": []
+      },
+      {
+        "title": "OpenAI agreed to pay Oracle $30B a year for data center services",
+        "link": "https://techcrunch.com/2025/07/22/openai-agreed-to-pay-oracle-30b-a-year-for-data-center-services/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-22T20:36:31.000Z",
+        "relevanceScore": 46.66,
+        "tags": [
+          "Partnership"
+        ]
       },
       {
         "title": "2025 Aston Martin Vanquish Volante: A-M’s ultimate GT goes topless",
         "link": "https://arstechnica.com/cars/2025/07/2025-aston-martin-vanquish-volante-a-ms-ultimate-gt-goes-topless/",
         "source": "Ars Technica",
         "pubDate": "2025-07-22T23:01:05.000Z",
-        "relevanceScore": 23.75,
+        "relevanceScore": 23.65,
         "tags": []
       },
       {
@@ -1052,8 +1108,38 @@
         "link": "https://arstechnica.com/tech-policy/2025/07/eff-moves-to-stop-power-utility-reporting-suspected-pot-growers-to-cops/",
         "source": "Ars Technica",
         "pubDate": "2025-07-22T21:00:10.000Z",
-        "relevanceScore": 23.35,
+        "relevanceScore": 23.24,
         "tags": []
+      },
+      {
+        "title": "Apple Intelligence news summaries are back, with a big red disclaimer",
+        "link": "https://arstechnica.com/apple/2025/07/apple-intelligence-news-summaries-are-back-with-a-big-red-disclaimer/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-22T20:24:41.000Z",
+        "relevanceScore": 23.12,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "It Looks Like the Tesla Model Y Refresh Has Bombed",
+        "link": "https://www.wired.com/story/it-looks-like-the-tesla-model-y-refresh-has-bombed/",
+        "source": "Wired",
+        "pubDate": "2025-07-23T10:00:00.000Z",
+        "relevanceScore": 47.34,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Toy company may regret coming for “Sylvanian Drama” TikToker, experts say",
+        "link": "https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-22T21:53:51.000Z",
+        "relevanceScore": 44.92,
+        "tags": [
+          "Social"
+        ]
       }
     ],
     "startup": [
@@ -1062,9 +1148,19 @@
         "link": "https://techcrunch.com/2025/07/22/gupshup-raises-60m-in-equity-and-debt-leaves-unicorn-status-hanging/",
         "source": "TechCrunch",
         "pubDate": "2025-07-23T06:30:00.000Z",
-        "relevanceScore": 71.24,
+        "relevanceScore": 27.14,
         "tags": [
           "Funding"
+        ]
+      },
+      {
+        "title": "Fighting forever chemicals and startup fatigue",
+        "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-07-22T17:38:18.000Z",
+        "relevanceScore": 26.57,
+        "tags": [
+          "Startup"
         ]
       },
       {
@@ -1072,7 +1168,7 @@
         "link": "https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/",
         "source": "GitHub Blog",
         "pubDate": "2025-07-23T07:01:00.000Z",
-        "relevanceScore": 70.35,
+        "relevanceScore": 26.25,
         "tags": [
           "Tech",
           "Science",
@@ -1086,17 +1182,7 @@
         "link": "https://www.technologyreview.com/2025/07/22/1120545/geothermal-drilling-quaise/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-22T11:00:00.000Z",
-        "relevanceScore": 70.34,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "Fighting forever chemicals and startup fatigue",
-        "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-07-22T17:38:18.000Z",
-        "relevanceScore": 26.67,
+        "relevanceScore": 26.24,
         "tags": [
           "Startup"
         ]
@@ -1106,96 +1192,22 @@
         "link": "https://www.reddit.com/r/technology/comments/1m6rmrh/california_backs_down_to_trump_admin_wont_force/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-22T22:04:28.000Z",
-        "relevanceScore": 19.56,
+        "relevanceScore": 19.46,
         "tags": [
           "Startup",
           "Funding"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Microsoft servers hacked by Chinese groups, says tech giant",
-        "link": "https://www.bbc.com/news/articles/c4gdnz1nlgyo",
-        "source": "BBC Technology",
-        "pubDate": "2025-07-23T02:53:31.000Z",
-        "relevanceScore": 57.52,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      },
-      {
-        "title": "US nuclear weapons agency reportedly breached in Microsoft SharePoint attacks",
-        "link": "https://www.theverge.com/news/712080/microsoft-sharepoint-hack-us-nuclear-weapons-agency",
-        "source": "The Verge",
-        "pubDate": "2025-07-23T08:24:26.000Z",
-        "relevanceScore": 42.13,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      }
-    ],
-    "automotive": [
-      {
-        "title": "It Looks Like the Tesla Model Y Refresh Has Bombed",
-        "link": "https://www.wired.com/story/it-looks-like-the-tesla-model-y-refresh-has-bombed/",
-        "source": "Wired",
-        "pubDate": "2025-07-23T10:00:00.000Z",
-        "relevanceScore": 42.44,
-        "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "Toy company may regret coming for “Sylvanian Drama” TikToker, experts say",
-        "link": "https://arstechnica.com/tech-policy/2025/07/tiktok-parody-account-sylvanian-drama-may-survive-sponsored-content-lawsuit/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-22T21:53:51.000Z",
-        "relevanceScore": 40.02,
-        "tags": [
-          "Social"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Apple alerted Iranians to iPhone spyware attacks, say researchers",
-        "link": "https://techcrunch.com/2025/07/22/apple-alerted-iranians-to-iphone-spyware-attacks-say-researchers/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-22T20:57:48.000Z",
-        "relevanceScore": 25.34,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "How to Set Up and Manage APIs Using Kalp Studio’s API Gateway",
-        "link": "https://dev.to/kalpstudio/how-to-set-up-and-manage-apis-using-kalp-studios-api-gateway-1me0",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T09:57:50.000Z",
-        "relevanceScore": 23.94,
-        "tags": [
-          "Mobile",
-          "Exclusive",
-          "Tutorial"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 14,
-    "avgRelevanceScore": 263.37673076923073,
+    "totalCategories": 16,
+    "avgRelevanceScore": 274.51923076923066,
     "topCategories": [
       {
         "category": "ai-ml",
         "count": 9
-      },
-      {
-        "category": "development",
-        "count": 6
       },
       {
         "category": "business",
@@ -1207,6 +1219,10 @@
       },
       {
         "category": "tech",
+        "count": 5
+      },
+      {
+        "category": "startup",
         "count": 5
       }
     ]
