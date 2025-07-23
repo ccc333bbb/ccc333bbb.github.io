@@ -1,44 +1,31 @@
 {
-  "lastUpdated": "2025-07-23T20:17:11.645Z",
+  "lastUpdated": "2025-07-23T20:43:34.879Z",
   "totalArticles": 55,
   "categories": [
-    "cloud",
     "ai-ml",
-    "startup",
     "development",
+    "startup",
     "cybersecurity",
-    "education",
+    "automotive",
+    "finance",
     "tech",
     "climate",
-    "mobile",
-    "finance",
     "business",
-    "world",
+    "gaming",
     "general",
-    "gaming"
+    "mobile",
+    "world",
+    "education"
   ],
   "topArticles": [
-    {
-      "title": "Building a Serverless CRUD API with AWS SAM, Lambda, API Gateway, and DynamoDB",
-      "link": "https://dev.to/kevin_k/building-a-serverless-crud-api-with-aws-sam-lambda-api-gateway-and-dynamodb-45ji",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-07-23T20:05:58.000Z",
-      "relevanceScore": 769.96,
-      "recommendationScore": 770.46,
-      "tags": [
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
     {
       "title": "Solving the inference problem for open source AI projects with GitHub Models",
       "link": "https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/",
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-07-23T16:00:00.000Z",
-      "relevanceScore": 527.64,
-      "recommendationScore": 528.14,
+      "relevanceScore": 632.05,
+      "recommendationScore": 632.55,
       "tags": [
         "AI",
         "Tech",
@@ -47,13 +34,27 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Building better platforms with continuous discovery",
+      "link": "https://stackoverflow.blog/2025/07/23/building-better-platforms-with-continuous-discovery/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2025-07-23T16:00:00.000Z",
+      "relevanceScore": 544.05,
+      "recommendationScore": 545.55,
+      "tags": [
+        "Tech",
+        "Science"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "We need a European Sovereign Tech Fund",
       "link": "https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/",
       "source": "GitHub Blog",
       "category": "startup",
       "pubDate": "2025-07-23T07:01:00.000Z",
-      "relevanceScore": 422.35,
-      "recommendationScore": 422.35,
+      "relevanceScore": 477.26,
+      "recommendationScore": 477.26,
       "tags": [
         "Tech",
         "Science",
@@ -64,16 +65,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Building better platforms with continuous discovery",
-      "link": "https://stackoverflow.blog/2025/07/23/building-better-platforms-with-continuous-discovery/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-07-23T16:00:00.000Z",
-      "relevanceScore": 399.14,
-      "recommendationScore": 400.64,
+      "title": "Google’s CEO says ‘AI is positively impacting every part of the business’",
+      "link": "https://www.theverge.com/news/712638/alphabet-google-earnings-q2-2025-ceo-sundar-pichai-ai",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2025-07-23T20:34:55.000Z",
+      "relevanceScore": 436.97,
+      "recommendationScore": 437.47,
       "tags": [
-        "Tech",
-        "Science"
+        "AI",
+        "Business",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -83,8 +85,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-22T17:43:14.000Z",
-      "relevanceScore": 397.69,
-      "recommendationScore": 398.69,
+      "relevanceScore": 372.6,
+      "recommendationScore": 373.6,
       "tags": [
         "Tech",
         "Business",
@@ -93,13 +95,62 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Debugging UI with AI: GitHub Copilot agent mode meets MCP servers",
+      "link": "https://github.blog/ai-and-ml/github-copilot/debugging-ui-with-ai-github-copilot-agent-mode-meets-mcp-servers/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-07-22T21:58:35.000Z",
+      "relevanceScore": 315.95,
+      "recommendationScore": 316.45,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "EU and Japan agree to work together to promote free trade and economic security",
+      "link": "https://abcnews.go.com/Business/wireStory/eu-japan-agree-work-promote-free-trade-economic-123998426",
+      "source": "ABC News Business",
+      "category": "cybersecurity",
+      "pubDate": "2025-07-23T15:10:03.000Z",
+      "relevanceScore": 300.89,
+      "recommendationScore": 301.39,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla’s earnings hit a new low, with largest revenue drop in years",
+      "link": "https://www.theverge.com/news/712256/tesla-earnings-q2-2025-revenue-profit-elon-musk",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2025-07-23T20:20:40.000Z",
+      "relevanceScore": 261.42,
+      "recommendationScore": 263.92,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "When Is WebAssembly Going to Get DOM Support?",
+      "link": "https://www.reddit.com/r/programming/comments/1m70tdf/when_is_webassembly_going_to_get_dom_support/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-07-23T05:22:17.000Z",
+      "relevanceScore": 247.43,
+      "recommendationScore": 247.43,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "OpenAI and UK sign deal to use AI in public services",
       "link": "https://www.bbc.com/news/articles/czdv68gejm7o",
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-22T12:00:26.000Z",
-      "relevanceScore": 327.54,
-      "recommendationScore": 328.04,
+      "relevanceScore": 245.46,
+      "recommendationScore": 245.96,
       "tags": [
         "AI",
         "Tech",
@@ -109,42 +160,44 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "EU and Japan agree to work together to promote free trade and economic security",
-      "link": "https://abcnews.go.com/Business/wireStory/eu-japan-agree-work-promote-free-trade-economic-123998426",
-      "source": "ABC News Business",
-      "category": "cybersecurity",
-      "pubDate": "2025-07-23T15:10:03.000Z",
-      "relevanceScore": 322.98,
-      "recommendationScore": 323.48,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Writing an OS in Rust",
-      "link": "https://dev.to/feel_thefiya_b90e3648ad03/writing-an-os-in-rust-5bc",
-      "source": "Dev.to",
-      "category": "education",
-      "pubDate": "2025-07-23T20:06:08.000Z",
-      "relevanceScore": 308.46,
-      "recommendationScore": 308.46,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Trump’s AI strategy trades guardrails for growth in race against China",
       "link": "https://techcrunch.com/2025/07/23/trumps-ai-strategy-trades-guardrails-for-growth-in-race-against-china/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-07-23T16:57:21.000Z",
-      "relevanceScore": 308.33,
-      "recommendationScore": 308.83,
+      "relevanceScore": 225.25,
+      "recommendationScore": 225.75,
       "tags": [
         "AI",
         "Security"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "🚀 Seamless Agent Switching in Robots-AI – No More Restarting the Chat!",
+      "link": "https://dev.to/wissam_metawee_c320c2e1d8/seamless-agent-switching-in-robots-ai-no-more-restarting-the-chat-2lfe",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-07-23T20:29:59.000Z",
+      "relevanceScore": 216.95,
+      "recommendationScore": 217.45,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "When Uncle Sam owned banks and factories",
+      "link": "https://www.npr.org/2025/07/23/1256100360/when-uncle-sam-owned-banks-and-factories",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-07-23T12:11:26.000Z",
+      "relevanceScore": 200.29,
+      "recommendationScore": 200.29,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Photos: Here Are the Piles of Used Bedding and Children’s Play Sets Left Near DOGE’s Old Offices",
@@ -152,33 +205,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-23T17:17:50.000Z",
-      "relevanceScore": 282.4,
-      "recommendationScore": 282.9,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Debugging UI with AI: GitHub Copilot agent mode meets MCP servers",
-      "link": "https://github.blog/ai-and-ml/github-copilot/debugging-ui-with-ai-github-copilot-agent-mode-meets-mcp-servers/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-07-22T21:58:35.000Z",
-      "relevanceScore": 278.04,
-      "recommendationScore": 278.54,
-      "tags": [
-        "AI",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Signal safety and why should you care",
-      "link": "https://dev.to/serpent7776/signal-safety-and-why-should-you-care-4pe7",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-07-23T20:01:24.000Z",
-      "relevanceScore": 214.95,
-      "recommendationScore": 216.45,
+      "relevanceScore": 197.31,
+      "recommendationScore": 197.81,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -188,13 +216,24 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-07-23T15:00:08.000Z",
-      "relevanceScore": 211.94,
-      "recommendationScore": 214.44,
+      "relevanceScore": 173.86,
+      "recommendationScore": 176.36,
       "tags": [
         "AI",
         "Tech"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Reset Windows 10/11 Password Without USB or Reinstall",
+      "link": "https://dev.to/jackscott7/reset-windows-1011-password-without-usb-or-reinstall-43m6",
+      "source": "Dev.to",
+      "category": "climate",
+      "pubDate": "2025-07-23T20:26:34.000Z",
+      "relevanceScore": 169.94,
+      "recommendationScore": 170.44,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "UK and other countries can be sued over climate change, top UN court rules",
@@ -202,36 +241,34 @@
       "source": "BBC News",
       "category": "climate",
       "pubDate": "2025-07-23T17:33:18.000Z",
-      "relevanceScore": 169.95,
-      "recommendationScore": 171.45,
+      "relevanceScore": 160.87,
+      "recommendationScore": 162.37,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "How Trump&#8217;s war on clean energy is making AI a bigger polluter",
-      "link": "https://www.theverge.com/climate-change/712038/ai-energy-trump-epa-gas-coal-emissions",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2025-07-23T18:40:10.000Z",
-      "relevanceScore": 168.68,
-      "recommendationScore": 170.68,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
+      "title": "US home sales slip in June with mortgages rates high and prices hitting unprecedented levels",
+      "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-slip-june-mortgages-rates-high-123996499",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-07-23T14:06:05.000Z",
+      "relevanceScore": 154.68,
+      "recommendationScore": 155.18,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Download: what’s next for AI agents, and how Trump protects US tech companies overseas",
-      "link": "https://www.technologyreview.com/2025/07/23/1120571/the-download-whats-next-for-ai-agents-and-how-trump-protects-us-tech-companies-overseas/",
-      "source": "MIT Technology Review",
+      "title": "FDA employees say the agency's Elsa generative AI hallucinates entire studies",
+      "link": "https://www.engadget.com/ai/fda-employees-say-the-agencys-elsa-generative-ai-hallucinates-entire-studies-203547157.html?src=rss",
+      "source": "Engadget",
       "category": "ai-ml",
-      "pubDate": "2025-07-23T12:10:00.000Z",
-      "relevanceScore": 163.88,
-      "recommendationScore": 165.88,
+      "pubDate": "2025-07-23T20:35:47.000Z",
+      "relevanceScore": 125.97,
+      "recommendationScore": 126.47,
       "tags": [
         "AI",
-        "Tech"
+        "Science",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -241,8 +278,8 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-07-23T13:40:37.000Z",
-      "relevanceScore": 163.68,
-      "recommendationScore": 165.18,
+      "relevanceScore": 77.09,
+      "recommendationScore": 78.59,
       "tags": [
         "AI",
         "Social"
@@ -250,26 +287,27 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Starlink-powered &#8216;T-Satellite&#8217; service is now live on T-Mobile",
-      "link": "https://www.theverge.com/news/712546/starlink-powered-t-satellite-service-is-now-live-on-t-mobile",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-07-23T17:56:24.000Z",
-      "relevanceScore": 151.03,
-      "recommendationScore": 151.53,
+      "title": "The Download: what’s next for AI agents, and how Trump protects US tech companies overseas",
+      "link": "https://www.technologyreview.com/2025/07/23/1120571/the-download-whats-next-for-ai-agents-and-how-trump-protects-us-tech-companies-overseas/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2025-07-23T12:10:00.000Z",
+      "relevanceScore": 75.29,
+      "recommendationScore": 77.29,
       "tags": [
-        "Mobile"
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Tonal's AI-created workouts will adapt to your daily progress",
-      "link": "https://www.engadget.com/home/smart-home/tonals-ai-created-workouts-will-adapt-to-your-daily-progress-170037100.html?src=rss",
-      "source": "Engadget",
+      "title": "Trump unveils his plan to put AI in everything",
+      "link": "https://www.reddit.com/r/technology/comments/1m7fxvv/trump_unveils_his_plan_to_put_ai_in_everything/",
+      "source": "Reddit Technology",
       "category": "ai-ml",
-      "pubDate": "2025-07-23T17:00:37.000Z",
-      "relevanceScore": 150.34,
-      "recommendationScore": 150.84,
+      "pubDate": "2025-07-23T17:45:26.000Z",
+      "relevanceScore": 66.91,
+      "recommendationScore": 66.91,
       "tags": [
         "AI"
       ],
@@ -281,37 +319,74 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-07-23T19:34:55.000Z",
-      "relevanceScore": 149.86,
-      "recommendationScore": 150.36,
+      "relevanceScore": 62.27,
+      "recommendationScore": 62.77,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "When Uncle Sam owned banks and factories",
-      "link": "https://www.npr.org/2025/07/23/1256100360/when-uncle-sam-owned-banks-and-factories",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-07-23T12:11:26.000Z",
-      "relevanceScore": 146.38,
-      "recommendationScore": 146.38,
+      "title": "Microsoft backtracks on $80 The Outer Worlds 2 pricing",
+      "link": "https://www.engadget.com/gaming/microsoft-backtracks-on-80-the-outer-worlds-2-pricing-173027532.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-07-23T17:30:27.000Z",
+      "relevanceScore": 57.86,
+      "recommendationScore": 58.36,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Judge blocks release of Epstein docs, where Trump is reportedly named",
+      "link": "https://www.bbc.com/news/articles/cwyq921zqqzo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T20:35:03.000Z",
+      "relevanceScore": 54.47,
+      "recommendationScore": 54.97,
       "tags": [
-        "Business"
+        "Launch"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "India expands its e-commerce crackdown with a new $200M case against Walmart’s fashion arm Myntra",
-      "link": "https://techcrunch.com/2025/07/23/india-expands-its-e-commerce-crackdown-with-a-new-200m-case-against-walmarts-fashion-arm-myntra/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-07-23T16:52:30.000Z",
-      "relevanceScore": 143.32,
-      "recommendationScore": 145.82,
+      "title": "How China came to rule the world of rare earth elements",
+      "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-07-23T10:03:50.000Z",
+      "relevanceScore": 53.87,
+      "recommendationScore": 55.87,
       "tags": [
-        "Business",
-        "Funding"
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "How Trump&#8217;s war on clean energy is making AI a bigger polluter",
+      "link": "https://www.theverge.com/climate-change/712038/ai-energy-trump-epa-gas-coal-emissions",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2025-07-23T18:40:10.000Z",
+      "relevanceScore": 53.59,
+      "recommendationScore": 55.59,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Starlink-powered &#8216;T-Satellite&#8217; service is now live on T-Mobile",
+      "link": "https://www.theverge.com/news/712546/starlink-powered-t-satellite-service-is-now-live-on-t-mobile",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-07-23T17:56:24.000Z",
+      "relevanceScore": 53.44,
+      "recommendationScore": 53.94,
+      "tags": [
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -321,8 +396,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-07-23T15:00:00.000Z",
-      "relevanceScore": 142.94,
-      "recommendationScore": 143.44,
+      "relevanceScore": 52.85,
+      "recommendationScore": 53.35,
       "tags": [
         "Tech"
       ],
@@ -334,8 +409,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-07-23T14:52:43.000Z",
-      "relevanceScore": 142.92,
-      "recommendationScore": 143.42,
+      "relevanceScore": 52.83,
+      "recommendationScore": 53.33,
       "tags": [
         "AI",
         "Tech",
@@ -344,213 +419,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Ukrainians arrest alleged admin of major crime forum XSS",
-      "link": "https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-07-23T19:10:08.000Z",
-      "relevanceScore": 141.78,
-      "recommendationScore": 142.28,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Apple and Google have 'effective duopoly' in UK says regulator",
       "link": "https://www.bbc.com/news/articles/c5yknl04dnno",
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-07-23T11:11:23.000Z",
-      "relevanceScore": 141.68,
-      "recommendationScore": 142.18,
+      "relevanceScore": 51.59,
+      "recommendationScore": 52.09,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "US home sales slip in June with mortgages rates high and prices hitting unprecedented levels",
-      "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-slip-june-mortgages-rates-high-123996499",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-07-23T14:06:05.000Z",
-      "relevanceScore": 138.76,
-      "recommendationScore": 139.26,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1245, Part 1 (Thread #1392)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1m6zdia/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-07-23T04:02:27.000Z",
-      "relevanceScore": 138.75,
-      "recommendationScore": 141.25,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Uber will let women drivers and riders request to avoid being paired with men starting next month",
-      "link": "https://www.reddit.com/r/technology/comments/1m79d6h/uber_will_let_women_drivers_and_riders_request_to/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-07-23T13:32:14.000Z",
-      "relevanceScore": 138.65,
-      "recommendationScore": 139.15,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Spotify CEO investments $700m in AI drone weapons company, as artists call for boycott",
-      "link": "https://www.reddit.com/r/technology/comments/1m73f6a/spotify_ceo_investments_700m_in_ai_drone_weapons/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-07-23T08:06:09.000Z",
-      "relevanceScore": 138.56,
-      "recommendationScore": 139.06,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Judge denies Trump administration's request to release Epstein files",
-      "link": "https://www.bbc.com/news/articles/cwyq921zqqzo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T19:29:46.000Z",
-      "relevanceScore": 122.84,
-      "recommendationScore": 123.34,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Macrons file defamation suit against US influencer Candace Owens",
-      "link": "https://www.bbc.com/news/articles/c8739w8py4jo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T16:53:16.000Z",
-      "relevanceScore": 122.32,
-      "recommendationScore": 122.82,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn",
-      "link": "https://www.bbc.com/news/articles/ce9xkx7vnmxo",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-07-23T14:40:44.000Z",
-      "relevanceScore": 121.88,
-      "recommendationScore": 122.38,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump’s AI Action Plan aims to block chip exports to China but lacks key details",
-      "link": "https://techcrunch.com/2025/07/23/trumps-ai-action-plan-aims-to-block-chip-exports-to-china-but-lacks-key-details/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-07-23T18:39:36.000Z",
-      "relevanceScore": 118.67,
-      "recommendationScore": 119.17,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Open source X rival Mastodon begins raising funds with new in-app donation feature",
-      "link": "https://techcrunch.com/2025/07/23/open-source-x-rival-mastodon-begins-raising-funds-with-new-in-app-donation-feature/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2025-07-23T17:15:37.000Z",
-      "relevanceScore": 118.39,
-      "recommendationScore": 120.89,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best foldable phone you can buy",
-      "link": "https://www.theverge.com/tech/635839/best-foldable-phone",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-07-23T17:44:41.000Z",
-      "relevanceScore": 116.49,
-      "recommendationScore": 117.49,
-      "tags": [
-        "Mobile",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "US home sales fade in June as prices soar to record levels",
-      "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-fall-june-prices-soar-new-123996493",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-07-23T15:59:56.000Z",
-      "relevanceScore": 116.14,
-      "recommendationScore": 116.64,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump is bringing back the AI law moratorium",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/712537/trump-ai-action-plan-white-house-ai-law-moratorium",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2025-07-23T17:46:34.000Z",
-      "relevanceScore": 116,
-      "recommendationScore": 116,
-      "tags": [
-        "AI",
-        "IPO",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "“AI has been the wild west”: Creating standards for agents with Sean Falconer",
-      "link": "https://stackoverflow.blog/2025/07/22/ai-has-been-the-wild-west-creating-standards-for-agents-with-sean-falconer/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-07-22T07:40:00.000Z",
-      "relevanceScore": 108.68,
-      "recommendationScore": 109.18,
-      "tags": [
-        "AI",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How China came to rule the world of rare earth elements",
-      "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-07-23T10:03:50.000Z",
-      "relevanceScore": 77.96,
-      "recommendationScore": 79.96,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Microsoft backtracks on $80 The Outer Worlds 2 pricing",
-      "link": "https://www.engadget.com/gaming/microsoft-backtracks-on-80-the-outer-worlds-2-pricing-173027532.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-07-23T17:30:27.000Z",
-      "relevanceScore": 50.94,
-      "recommendationScore": 51.44,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Japan trade deal info on Trump’s desk was altered by hand with a marker",
@@ -558,8 +437,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-23T14:49:42.000Z",
-      "relevanceScore": 49.91,
-      "recommendationScore": 50.41,
+      "relevanceScore": 50.82,
+      "recommendationScore": 51.32,
       "tags": [
         "Partnership"
       ],
@@ -571,8 +450,8 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-07-23T02:53:31.000Z",
-      "relevanceScore": 49.52,
-      "recommendationScore": 50.02,
+      "relevanceScore": 50.43,
+      "recommendationScore": 50.93,
       "tags": [
         "Tech",
         "Security"
@@ -580,40 +459,43 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Trump’s AI Action Plan aims to block chip exports to China but lacks key details",
+      "link": "https://techcrunch.com/2025/07/23/trumps-ai-action-plan-aims-to-block-chip-exports-to-china-but-lacks-key-details/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-07-23T18:39:36.000Z",
+      "relevanceScore": 50.09,
+      "recommendationScore": 50.59,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Protesters drown out live interview with far-right AfD party leader Alice Weidel",
       "link": "https://www.reddit.com/r/worldnews/comments/1m75xwr/protesters_drown_out_live_interview_with_farright/",
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-07-23T10:46:36.000Z",
-      "relevanceScore": 49.1,
-      "recommendationScore": 49.6,
+      "relevanceScore": 50.01,
+      "recommendationScore": 50.51,
       "tags": [
         "Interview"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Qi2 25W wireless charging is coming to iPhones and 'major Android smartphones'",
-      "link": "https://www.engadget.com/mobile/smartphones/qi2-25w-wireless-charging-is-coming-to-iphones-and-major-android-smartphones-183013979.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-07-23T18:30:13.000Z",
-      "relevanceScore": 48.64,
-      "recommendationScore": 49.14,
+      "title": "Former Y Combinator, a16z experts hold invite-only summit for founders",
+      "link": "https://techcrunch.com/2025/07/23/former-y-combinator-a16z-experts-hold-invite-only-summit-for-founders/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-07-23T17:50:21.000Z",
+      "relevanceScore": 49.92,
+      "recommendationScore": 50.42,
       "tags": [
-        "Mobile"
+        "Startup",
+        "Social"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Open Source Hackathon with $5k+ prize pool",
-      "link": "https://www.reddit.com/r/programming/comments/1m7fzrp/open_source_hackathon_with_5k_prize_pool/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-07-23T17:47:22.000Z",
-      "relevanceScore": 48.5,
-      "recommendationScore": 48.5,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -622,11 +504,33 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-07-23T16:03:43.000Z",
-      "relevanceScore": 48.16,
-      "recommendationScore": 48.16,
+      "relevanceScore": 49.07,
+      "recommendationScore": 49.07,
       "tags": [
         "Science"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1245, Part 1 (Thread #1392)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1m6zdia/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-07-23T04:02:27.000Z",
+      "relevanceScore": 48.66,
+      "recommendationScore": 51.16,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Uber will let women drivers and riders request to avoid being paired with men starting next month",
+      "link": "https://www.reddit.com/r/technology/comments/1m79d6h/uber_will_let_women_drivers_and_riders_request_to/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-07-23T13:32:14.000Z",
+      "relevanceScore": 48.56,
+      "recommendationScore": 49.06,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -635,22 +539,31 @@
       "source": "NPR Business",
       "category": "education",
       "pubDate": "2025-07-23T07:00:00.000Z",
-      "relevanceScore": 40.84,
-      "recommendationScore": 42.84,
+      "relevanceScore": 42.75,
+      "recommendationScore": 44.75,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Fighting forever chemicals and startup fatigue",
-      "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2025-07-22T17:38:18.000Z",
-      "relevanceScore": 32.17,
-      "recommendationScore": 32.17,
-      "tags": [
-        "Startup"
-      ],
+      "title": "Bryan Kohberger gets four life sentences for murdering Idaho college students",
+      "link": "https://www.bbc.com/news/articles/c0rvk25v5lxo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T19:36:31.000Z",
+      "relevanceScore": 31.28,
+      "recommendationScore": 31.78,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn",
+      "link": "https://www.bbc.com/news/articles/ce9xkx7vnmxo",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-07-23T14:40:44.000Z",
+      "relevanceScore": 30.79,
+      "recommendationScore": 31.29,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -659,35 +572,130 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-07-23T13:45:04.000Z",
-      "relevanceScore": 30.69,
-      "recommendationScore": 31.19,
+      "relevanceScore": 30.6,
+      "recommendationScore": 31.1,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Open source X rival Mastodon begins raising funds with new in-app donation feature",
+      "link": "https://techcrunch.com/2025/07/23/open-source-x-rival-mastodon-begins-raising-funds-with-new-in-app-donation-feature/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2025-07-23T17:15:37.000Z",
+      "relevanceScore": 27.31,
+      "recommendationScore": 29.81,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "India expands its e-commerce crackdown with a new $200M case against Walmart’s fashion arm Myntra",
+      "link": "https://techcrunch.com/2025/07/23/india-expands-its-e-commerce-crackdown-with-a-new-200m-case-against-walmarts-fashion-arm-myntra/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-07-23T16:52:30.000Z",
+      "relevanceScore": 27.23,
+      "recommendationScore": 29.73,
+      "tags": [
+        "Business",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "After $380M hack, Clorox sues its “service desk” vendor for simply giving out passwords",
+      "link": "https://arstechnica.com/security/2025/07/how-do-hackers-get-passwords-sometimes-they-just-ask/",
+      "source": "Ars Technica",
+      "category": "cybersecurity",
+      "pubDate": "2025-07-23T19:46:30.000Z",
+      "relevanceScore": 25.81,
+      "recommendationScore": 26.31,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Ukrainians arrest alleged admin of major crime forum XSS",
+      "link": "https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-07-23T19:10:08.000Z",
+      "relevanceScore": 25.69,
+      "recommendationScore": 26.19,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Super Pocket Neo Geo Edition Review: Pocketable Fun",
+      "link": "https://www.wired.com/review/super-pocket-neo-geo-edition/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-07-23T13:00:00.000Z",
+      "relevanceScore": 25.45,
+      "recommendationScore": 25.95,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Whistleblower scientists outline Trump’s plan to politicize and dismantle NSF",
+      "link": "https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-07-23T16:57:30.000Z",
+      "relevanceScore": 25.25,
+      "recommendationScore": 25.75,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US home sales fade in June as prices soar to record levels",
+      "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-fall-june-prices-soar-new-123996493",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-07-23T15:59:56.000Z",
+      "relevanceScore": 25.05,
+      "recommendationScore": 25.55,
+      "tags": [],
+      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
-    "cloud": [
-      {
-        "title": "Building a Serverless CRUD API with AWS SAM, Lambda, API Gateway, and DynamoDB",
-        "link": "https://dev.to/kevin_k/building-a-serverless-crud-api-with-aws-sam-lambda-api-gateway-and-dynamodb-45ji",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T20:05:58.000Z",
-        "relevanceScore": 769.96,
-        "tags": [
-          "Cloud"
-        ]
-      }
-    ],
     "ai-ml": [
       {
         "title": "Solving the inference problem for open source AI projects with GitHub Models",
         "link": "https://github.blog/ai-and-ml/llms/solving-the-inference-problem-for-open-source-ai-projects-with-github-models/",
         "source": "GitHub Blog",
         "pubDate": "2025-07-23T16:00:00.000Z",
-        "relevanceScore": 527.64,
+        "relevanceScore": 632.05,
         "tags": [
           "AI",
           "Tech",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Google’s CEO says ‘AI is positively impacting every part of the business’",
+        "link": "https://www.theverge.com/news/712638/alphabet-google-earnings-q2-2025-ceo-sundar-pichai-ai",
+        "source": "The Verge",
+        "pubDate": "2025-07-23T20:34:55.000Z",
+        "relevanceScore": 436.97,
+        "tags": [
+          "AI",
+          "Business",
+          "Launch"
+        ]
+      },
+      {
+        "title": "Debugging UI with AI: GitHub Copilot agent mode meets MCP servers",
+        "link": "https://github.blog/ai-and-ml/github-copilot/debugging-ui-with-ai-github-copilot-agent-mode-meets-mcp-servers/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-07-22T21:58:35.000Z",
+        "relevanceScore": 315.95,
+        "tags": [
+          "AI",
           "Exclusive"
         ]
       },
@@ -696,7 +704,7 @@
         "link": "https://www.bbc.com/news/articles/czdv68gejm7o",
         "source": "BBC Technology",
         "pubDate": "2025-07-22T12:00:26.000Z",
-        "relevanceScore": 327.54,
+        "relevanceScore": 245.46,
         "tags": [
           "AI",
           "Tech",
@@ -709,21 +717,20 @@
         "link": "https://techcrunch.com/2025/07/23/trumps-ai-strategy-trades-guardrails-for-growth-in-race-against-china/",
         "source": "TechCrunch",
         "pubDate": "2025-07-23T16:57:21.000Z",
-        "relevanceScore": 308.33,
+        "relevanceScore": 225.25,
         "tags": [
           "AI",
           "Security"
         ]
       },
       {
-        "title": "Debugging UI with AI: GitHub Copilot agent mode meets MCP servers",
-        "link": "https://github.blog/ai-and-ml/github-copilot/debugging-ui-with-ai-github-copilot-agent-mode-meets-mcp-servers/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-07-22T21:58:35.000Z",
-        "relevanceScore": 278.04,
+        "title": "🚀 Seamless Agent Switching in Robots-AI – No More Restarting the Chat!",
+        "link": "https://dev.to/wissam_metawee_c320c2e1d8/seamless-agent-switching-in-robots-ai-no-more-restarting-the-chat-2lfe",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T20:29:59.000Z",
+        "relevanceScore": 216.95,
         "tags": [
-          "AI",
-          "Exclusive"
+          "AI"
         ]
       },
       {
@@ -731,32 +738,22 @@
         "link": "https://www.technologyreview.com/2025/07/23/1120574/deepmind-ai-aeneas-helps-historians-interpret-latin-inscriptions/",
         "source": "MIT Technology Review",
         "pubDate": "2025-07-23T15:00:08.000Z",
-        "relevanceScore": 211.94,
+        "relevanceScore": 173.86,
         "tags": [
           "AI",
           "Tech"
         ]
       },
       {
-        "title": "How Trump&#8217;s war on clean energy is making AI a bigger polluter",
-        "link": "https://www.theverge.com/climate-change/712038/ai-energy-trump-epa-gas-coal-emissions",
-        "source": "The Verge",
-        "pubDate": "2025-07-23T18:40:10.000Z",
-        "relevanceScore": 168.68,
+        "title": "FDA employees say the agency's Elsa generative AI hallucinates entire studies",
+        "link": "https://www.engadget.com/ai/fda-employees-say-the-agencys-elsa-generative-ai-hallucinates-entire-studies-203547157.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-23T20:35:47.000Z",
+        "relevanceScore": 125.97,
         "tags": [
           "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "The Download: what’s next for AI agents, and how Trump protects US tech companies overseas",
-        "link": "https://www.technologyreview.com/2025/07/23/1120571/the-download-whats-next-for-ai-agents-and-how-trump-protects-us-tech-companies-overseas/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-07-23T12:10:00.000Z",
-        "relevanceScore": 163.88,
-        "tags": [
-          "AI",
-          "Tech"
+          "Science",
+          "Report"
         ]
       },
       {
@@ -764,18 +761,29 @@
         "link": "https://www.reddit.com/r/technology/comments/1m79k42/maga_senator_mike_lee_falls_for_fake_letter_that/",
         "source": "Reddit Technology",
         "pubDate": "2025-07-23T13:40:37.000Z",
-        "relevanceScore": 163.68,
+        "relevanceScore": 77.09,
         "tags": [
           "AI",
           "Social"
         ]
       },
       {
-        "title": "Tonal's AI-created workouts will adapt to your daily progress",
-        "link": "https://www.engadget.com/home/smart-home/tonals-ai-created-workouts-will-adapt-to-your-daily-progress-170037100.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-23T17:00:37.000Z",
-        "relevanceScore": 150.34,
+        "title": "The Download: what’s next for AI agents, and how Trump protects US tech companies overseas",
+        "link": "https://www.technologyreview.com/2025/07/23/1120571/the-download-whats-next-for-ai-agents-and-how-trump-protects-us-tech-companies-overseas/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-07-23T12:10:00.000Z",
+        "relevanceScore": 75.29,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "Trump unveils his plan to put AI in everything",
+        "link": "https://www.reddit.com/r/technology/comments/1m7fxvv/trump_unveils_his_plan_to_put_ai_in_everything/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-23T17:45:26.000Z",
+        "relevanceScore": 66.91,
         "tags": [
           "AI"
         ]
@@ -785,9 +793,20 @@
         "link": "https://arstechnica.com/google/2025/07/ai-video-is-invading-youtube-shorts-and-google-photos-starting-today/",
         "source": "Ars Technica",
         "pubDate": "2025-07-23T19:34:55.000Z",
-        "relevanceScore": 149.86,
+        "relevanceScore": 62.27,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "How Trump&#8217;s war on clean energy is making AI a bigger polluter",
+        "link": "https://www.theverge.com/climate-change/712038/ai-energy-trump-epa-gas-coal-emissions",
+        "source": "The Verge",
+        "pubDate": "2025-07-23T18:40:10.000Z",
+        "relevanceScore": 53.59,
+        "tags": [
+          "AI",
+          "Tech"
         ]
       },
       {
@@ -795,21 +814,11 @@
         "link": "https://www.wired.com/story/trumps-ai-action-plan-crusade-against-bias-regulation/",
         "source": "Wired",
         "pubDate": "2025-07-23T14:52:43.000Z",
-        "relevanceScore": 142.92,
+        "relevanceScore": 52.83,
         "tags": [
           "AI",
           "Tech",
           "Regulation"
-        ]
-      },
-      {
-        "title": "Spotify CEO investments $700m in AI drone weapons company, as artists call for boycott",
-        "link": "https://www.reddit.com/r/technology/comments/1m73f6a/spotify_ceo_investments_700m_in_ai_drone_weapons/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-23T08:06:09.000Z",
-        "relevanceScore": 138.56,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -817,21 +826,30 @@
         "link": "https://techcrunch.com/2025/07/23/trumps-ai-action-plan-aims-to-block-chip-exports-to-china-but-lacks-key-details/",
         "source": "TechCrunch",
         "pubDate": "2025-07-23T18:39:36.000Z",
-        "relevanceScore": 118.67,
+        "relevanceScore": 50.09,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "Trump is bringing back the AI law moratorium",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/712537/trump-ai-action-plan-white-house-ai-law-moratorium",
-        "source": "The Verge",
-        "pubDate": "2025-07-23T17:46:34.000Z",
-        "relevanceScore": 116,
+        "title": "Google DeepMind's Aeneas model can restore fragmented Latin text",
+        "link": "https://www.engadget.com/ai/google-deepminds-aeneas-model-can-restore-fragmented-latin-text-202004714.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-23T20:20:04.000Z",
+        "relevanceScore": 24.92,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "From Industrial Automation to AI-Powered Gift Magic: My Journey with Mago.Chat",
+        "link": "https://dev.to/victor_manuel_3408c3ca9d2/from-industrial-automation-to-ai-powered-gift-magic-my-journey-with-magochat-30fl",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T20:21:33.000Z",
+        "relevanceScore": 23.93,
         "tags": [
           "AI",
-          "IPO",
-          "Regulation"
+          "Security"
         ]
       },
       {
@@ -839,47 +857,10 @@
         "link": "https://stackoverflow.blog/2025/07/22/ai-has-been-the-wild-west-creating-standards-for-agents-with-sean-falconer/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-07-22T07:40:00.000Z",
-        "relevanceScore": 108.68,
+        "relevanceScore": 17.59,
         "tags": [
           "AI",
           "Web"
-        ]
-      }
-    ],
-    "startup": [
-      {
-        "title": "We need a European Sovereign Tech Fund",
-        "link": "https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-07-23T07:01:00.000Z",
-        "relevanceScore": 422.35,
-        "tags": [
-          "Tech",
-          "Science",
-          "Startup",
-          "Exclusive",
-          "Report"
-        ]
-      },
-      {
-        "title": "Fighting forever chemicals and startup fatigue",
-        "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-07-22T17:38:18.000Z",
-        "relevanceScore": 32.17,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "Former Y Combinator, a16z experts hold invite-only summit for founders",
-        "link": "https://techcrunch.com/2025/07/23/former-y-combinator-a16z-experts-hold-invite-only-summit-for-founders/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-23T17:50:21.000Z",
-        "relevanceScore": 27.51,
-        "tags": [
-          "Startup",
-          "Social"
         ]
       }
     ],
@@ -889,7 +870,7 @@
         "link": "https://stackoverflow.blog/2025/07/23/building-better-platforms-with-continuous-discovery/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-07-23T16:00:00.000Z",
-        "relevanceScore": 399.14,
+        "relevanceScore": 544.05,
         "tags": [
           "Tech",
           "Science"
@@ -900,7 +881,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1m6krap/its_really_time_tech_workers_start_talking_about/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-22T17:43:14.000Z",
-        "relevanceScore": 397.69,
+        "relevanceScore": 372.6,
         "tags": [
           "Tech",
           "Business",
@@ -908,19 +889,11 @@
         ]
       },
       {
-        "title": "Signal safety and why should you care",
-        "link": "https://dev.to/serpent7776/signal-safety-and-why-should-you-care-4pe7",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T20:01:24.000Z",
-        "relevanceScore": 214.95,
-        "tags": []
-      },
-      {
-        "title": "Open Source Hackathon with $5k+ prize pool",
-        "link": "https://www.reddit.com/r/programming/comments/1m7fzrp/open_source_hackathon_with_5k_prize_pool/",
+        "title": "When Is WebAssembly Going to Get DOM Support?",
+        "link": "https://www.reddit.com/r/programming/comments/1m70tdf/when_is_webassembly_going_to_get_dom_support/",
         "source": "Reddit Programming",
-        "pubDate": "2025-07-23T17:47:22.000Z",
-        "relevanceScore": 48.5,
+        "pubDate": "2025-07-23T05:22:17.000Z",
+        "relevanceScore": 247.43,
         "tags": []
       },
       {
@@ -928,9 +901,46 @@
         "link": "https://www.reddit.com/r/programming/comments/1m7d8zn/mathematics_for_computer_science/",
         "source": "Reddit Programming",
         "pubDate": "2025-07-23T16:03:43.000Z",
-        "relevanceScore": 48.16,
+        "relevanceScore": 49.07,
         "tags": [
           "Science"
+        ]
+      }
+    ],
+    "startup": [
+      {
+        "title": "We need a European Sovereign Tech Fund",
+        "link": "https://github.blog/open-source/maintainers/we-need-a-european-sovereign-tech-fund/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-07-23T07:01:00.000Z",
+        "relevanceScore": 477.26,
+        "tags": [
+          "Tech",
+          "Science",
+          "Startup",
+          "Exclusive",
+          "Report"
+        ]
+      },
+      {
+        "title": "Former Y Combinator, a16z experts hold invite-only summit for founders",
+        "link": "https://techcrunch.com/2025/07/23/former-y-combinator-a16z-experts-hold-invite-only-summit-for-founders/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-23T17:50:21.000Z",
+        "relevanceScore": 49.92,
+        "tags": [
+          "Startup",
+          "Social"
+        ]
+      },
+      {
+        "title": "Fighting forever chemicals and startup fatigue",
+        "link": "https://www.technologyreview.com/2025/07/22/1117638/fighting-forever-chemicals-and-startup-fatigue/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-07-22T17:38:18.000Z",
+        "relevanceScore": 24.58,
+        "tags": [
+          "Startup"
         ]
       }
     ],
@@ -940,7 +950,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/eu-japan-agree-work-promote-free-trade-economic-123998426",
         "source": "ABC News Business",
         "pubDate": "2025-07-23T15:10:03.000Z",
-        "relevanceScore": 322.98,
+        "relevanceScore": 300.89,
         "tags": [
           "Security"
         ]
@@ -950,7 +960,7 @@
         "link": "https://www.bbc.com/news/articles/c4gdnz1nlgyo",
         "source": "BBC Technology",
         "pubDate": "2025-07-23T02:53:31.000Z",
-        "relevanceScore": 49.52,
+        "relevanceScore": 50.43,
         "tags": [
           "Tech",
           "Security"
@@ -961,165 +971,20 @@
         "link": "https://arstechnica.com/security/2025/07/how-do-hackers-get-passwords-sometimes-they-just-ask/",
         "source": "Ars Technica",
         "pubDate": "2025-07-23T19:46:30.000Z",
-        "relevanceScore": 25.9,
+        "relevanceScore": 25.81,
         "tags": [
           "Security"
         ]
       }
     ],
-    "education": [
+    "automotive": [
       {
-        "title": "Writing an OS in Rust",
-        "link": "https://dev.to/feel_thefiya_b90e3648ad03/writing-an-os-in-rust-5bc",
-        "source": "Dev.to",
-        "pubDate": "2025-07-23T20:06:08.000Z",
-        "relevanceScore": 308.46,
-        "tags": []
-      },
-      {
-        "title": "Summer School 3: How government decides what to spend our money on",
-        "link": "https://www.npr.org/sections/money/2025/07/16/1269634359/budget-spending-debt-lobbying",
-        "source": "NPR Business",
-        "pubDate": "2025-07-23T07:00:00.000Z",
-        "relevanceScore": 40.84,
-        "tags": []
-      }
-    ],
-    "tech": [
-      {
-        "title": "Photos: Here Are the Piles of Used Bedding and Children’s Play Sets Left Near DOGE’s Old Offices",
-        "link": "https://www.wired.com/story/photos-bedding-childrens-play-sets-doge-old-offices/",
-        "source": "Wired",
-        "pubDate": "2025-07-23T17:17:50.000Z",
-        "relevanceScore": 282.4,
-        "tags": []
-      },
-      {
-        "title": "India expands its e-commerce crackdown with a new $200M case against Walmart’s fashion arm Myntra",
-        "link": "https://techcrunch.com/2025/07/23/india-expands-its-e-commerce-crackdown-with-a-new-200m-case-against-walmarts-fashion-arm-myntra/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-23T16:52:30.000Z",
-        "relevanceScore": 143.32,
-        "tags": [
-          "Business",
-          "Funding"
-        ]
-      },
-      {
-        "title": "The GOP's Message for Tech Billionaires: Be Like Peter Thiel",
-        "link": "https://www.wired.com/story/peter-thiel-silicon-valley-billionaires-dc/",
-        "source": "Wired",
-        "pubDate": "2025-07-23T15:00:00.000Z",
-        "relevanceScore": 142.94,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Ukrainians arrest alleged admin of major crime forum XSS",
-        "link": "https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-23T19:10:08.000Z",
-        "relevanceScore": 141.78,
-        "tags": []
-      },
-      {
-        "title": "Apple and Google have 'effective duopoly' in UK says regulator",
-        "link": "https://www.bbc.com/news/articles/c5yknl04dnno",
-        "source": "BBC Technology",
-        "pubDate": "2025-07-23T11:11:23.000Z",
-        "relevanceScore": 141.68,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Uber will let women drivers and riders request to avoid being paired with men starting next month",
-        "link": "https://www.reddit.com/r/technology/comments/1m79d6h/uber_will_let_women_drivers_and_riders_request_to/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-07-23T13:32:14.000Z",
-        "relevanceScore": 138.65,
-        "tags": []
-      },
-      {
-        "title": "Super Pocket Neo Geo Edition Review: Pocketable Fun",
-        "link": "https://www.wired.com/review/super-pocket-neo-geo-edition/",
-        "source": "Wired",
-        "pubDate": "2025-07-23T13:00:00.000Z",
-        "relevanceScore": 25.54,
-        "tags": []
-      },
-      {
-        "title": "Whistleblower scientists outline Trump’s plan to politicize and dismantle NSF",
-        "link": "https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/",
-        "source": "Ars Technica",
-        "pubDate": "2025-07-23T16:57:30.000Z",
-        "relevanceScore": 25.33,
-        "tags": []
-      }
-    ],
-    "climate": [
-      {
-        "title": "UK and other countries can be sued over climate change, top UN court rules",
-        "link": "https://www.bbc.com/news/articles/ce379k4v3pwo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T17:33:18.000Z",
-        "relevanceScore": 169.95,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Starlink-powered &#8216;T-Satellite&#8217; service is now live on T-Mobile",
-        "link": "https://www.theverge.com/news/712546/starlink-powered-t-satellite-service-is-now-live-on-t-mobile",
+        "title": "Tesla’s earnings hit a new low, with largest revenue drop in years",
+        "link": "https://www.theverge.com/news/712256/tesla-earnings-q2-2025-revenue-profit-elon-musk",
         "source": "The Verge",
-        "pubDate": "2025-07-23T17:56:24.000Z",
-        "relevanceScore": 151.03,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Open source X rival Mastodon begins raising funds with new in-app donation feature",
-        "link": "https://techcrunch.com/2025/07/23/open-source-x-rival-mastodon-begins-raising-funds-with-new-in-app-donation-feature/",
-        "source": "TechCrunch",
-        "pubDate": "2025-07-23T17:15:37.000Z",
-        "relevanceScore": 118.39,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "The best foldable phone you can buy",
-        "link": "https://www.theverge.com/tech/635839/best-foldable-phone",
-        "source": "The Verge",
-        "pubDate": "2025-07-23T17:44:41.000Z",
-        "relevanceScore": 116.49,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Qi2 25W wireless charging is coming to iPhones and 'major Android smartphones'",
-        "link": "https://www.engadget.com/mobile/smartphones/qi2-25w-wireless-charging-is-coming-to-iphones-and-major-android-smartphones-183013979.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-23T18:30:13.000Z",
-        "relevanceScore": 48.64,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "ExpressVPN patches Windows bug that exposed remote desktop traffic",
-        "link": "https://www.engadget.com/cybersecurity/vpn/expressvpn-patches-windows-bug-that-exposed-remote-desktop-traffic-171507501.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-07-23T17:15:07.000Z",
-        "relevanceScore": 24.39,
-        "tags": [
-          "Mobile",
-          "Update"
-        ]
+        "pubDate": "2025-07-23T20:20:40.000Z",
+        "relevanceScore": 261.42,
+        "tags": []
       }
     ],
     "finance": [
@@ -1128,7 +993,7 @@
         "link": "https://www.npr.org/2025/07/23/1256100360/when-uncle-sam-owned-banks-and-factories",
         "source": "NPR Business",
         "pubDate": "2025-07-23T12:11:26.000Z",
-        "relevanceScore": 146.38,
+        "relevanceScore": 200.29,
         "tags": [
           "Business"
         ]
@@ -1138,10 +1003,101 @@
         "link": "https://www.npr.org/2025/07/23/nx-s1-5475137/china-rare-earth-elements",
         "source": "NPR Business",
         "pubDate": "2025-07-23T10:03:50.000Z",
-        "relevanceScore": 77.96,
+        "relevanceScore": 53.87,
         "tags": [
           "Business"
         ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Photos: Here Are the Piles of Used Bedding and Children’s Play Sets Left Near DOGE’s Old Offices",
+        "link": "https://www.wired.com/story/photos-bedding-childrens-play-sets-doge-old-offices/",
+        "source": "Wired",
+        "pubDate": "2025-07-23T17:17:50.000Z",
+        "relevanceScore": 197.31,
+        "tags": []
+      },
+      {
+        "title": "The GOP's Message for Tech Billionaires: Be Like Peter Thiel",
+        "link": "https://www.wired.com/story/peter-thiel-silicon-valley-billionaires-dc/",
+        "source": "Wired",
+        "pubDate": "2025-07-23T15:00:00.000Z",
+        "relevanceScore": 52.85,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "Apple and Google have 'effective duopoly' in UK says regulator",
+        "link": "https://www.bbc.com/news/articles/c5yknl04dnno",
+        "source": "BBC Technology",
+        "pubDate": "2025-07-23T11:11:23.000Z",
+        "relevanceScore": 51.59,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "Uber will let women drivers and riders request to avoid being paired with men starting next month",
+        "link": "https://www.reddit.com/r/technology/comments/1m79d6h/uber_will_let_women_drivers_and_riders_request_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-07-23T13:32:14.000Z",
+        "relevanceScore": 48.56,
+        "tags": []
+      },
+      {
+        "title": "India expands its e-commerce crackdown with a new $200M case against Walmart’s fashion arm Myntra",
+        "link": "https://techcrunch.com/2025/07/23/india-expands-its-e-commerce-crackdown-with-a-new-200m-case-against-walmarts-fashion-arm-myntra/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-23T16:52:30.000Z",
+        "relevanceScore": 27.23,
+        "tags": [
+          "Business",
+          "Funding"
+        ]
+      },
+      {
+        "title": "Ukrainians arrest alleged admin of major crime forum XSS",
+        "link": "https://arstechnica.com/tech-policy/2025/07/ukrainians-arrest-alleged-admin-of-major-crime-forum-xss/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-23T19:10:08.000Z",
+        "relevanceScore": 25.69,
+        "tags": []
+      },
+      {
+        "title": "Super Pocket Neo Geo Edition Review: Pocketable Fun",
+        "link": "https://www.wired.com/review/super-pocket-neo-geo-edition/",
+        "source": "Wired",
+        "pubDate": "2025-07-23T13:00:00.000Z",
+        "relevanceScore": 25.45,
+        "tags": []
+      },
+      {
+        "title": "Whistleblower scientists outline Trump’s plan to politicize and dismantle NSF",
+        "link": "https://arstechnica.com/tech-policy/2025/07/whistleblower-scientists-outline-trumps-plan-to-politicize-and-dismantle-nsf/",
+        "source": "Ars Technica",
+        "pubDate": "2025-07-23T16:57:30.000Z",
+        "relevanceScore": 25.25,
+        "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Reset Windows 10/11 Password Without USB or Reinstall",
+        "link": "https://dev.to/jackscott7/reset-windows-1011-password-without-usb-or-reinstall-43m6",
+        "source": "Dev.to",
+        "pubDate": "2025-07-23T20:26:34.000Z",
+        "relevanceScore": 169.94,
+        "tags": []
+      },
+      {
+        "title": "UK and other countries can be sued over climate change, top UN court rules",
+        "link": "https://www.bbc.com/news/articles/ce379k4v3pwo",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T17:33:18.000Z",
+        "relevanceScore": 160.87,
+        "tags": []
       }
     ],
     "business": [
@@ -1150,7 +1106,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-slip-june-mortgages-rates-high-123996499",
         "source": "ABC News Business",
         "pubDate": "2025-07-23T14:06:05.000Z",
-        "relevanceScore": 138.76,
+        "relevanceScore": 154.68,
         "tags": []
       },
       {
@@ -1158,73 +1114,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-fall-june-prices-soar-new-123996493",
         "source": "ABC News Business",
         "pubDate": "2025-07-23T15:59:56.000Z",
-        "relevanceScore": 116.14,
-        "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1245, Part 1 (Thread #1392)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m6zdia/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-23T04:02:27.000Z",
-        "relevanceScore": 138.75,
-        "tags": []
-      },
-      {
-        "title": "Japan trade deal info on Trump’s desk was altered by hand with a marker",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m7bapt/japan_trade_deal_info_on_trumps_desk_was_altered/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-23T14:49:42.000Z",
-        "relevanceScore": 49.91,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Protesters drown out live interview with far-right AfD party leader Alice Weidel",
-        "link": "https://www.reddit.com/r/worldnews/comments/1m75xwr/protesters_drown_out_live_interview_with_farright/",
-        "source": "Reddit World News",
-        "pubDate": "2025-07-23T10:46:36.000Z",
-        "relevanceScore": 49.1,
-        "tags": [
-          "Interview"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Judge denies Trump administration's request to release Epstein files",
-        "link": "https://www.bbc.com/news/articles/cwyq921zqqzo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T19:29:46.000Z",
-        "relevanceScore": 122.84,
-        "tags": [
-          "Launch"
-        ]
-      },
-      {
-        "title": "Macrons file defamation suit against US influencer Candace Owens",
-        "link": "https://www.bbc.com/news/articles/c8739w8py4jo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T16:53:16.000Z",
-        "relevanceScore": 122.32,
-        "tags": []
-      },
-      {
-        "title": "Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn",
-        "link": "https://www.bbc.com/news/articles/ce9xkx7vnmxo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T14:40:44.000Z",
-        "relevanceScore": 121.88,
-        "tags": []
-      },
-      {
-        "title": "British surgeon who had his legs removed  accused of fraud",
-        "link": "https://www.bbc.com/news/articles/c75r21ww30vo",
-        "source": "BBC News",
-        "pubDate": "2025-07-23T13:45:04.000Z",
-        "relevanceScore": 30.69,
+        "relevanceScore": 25.05,
         "tags": []
       }
     ],
@@ -1234,7 +1124,115 @@
         "link": "https://www.engadget.com/gaming/microsoft-backtracks-on-80-the-outer-worlds-2-pricing-173027532.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-07-23T17:30:27.000Z",
-        "relevanceScore": 50.94,
+        "relevanceScore": 57.86,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Judge blocks release of Epstein docs, where Trump is reportedly named",
+        "link": "https://www.bbc.com/news/articles/cwyq921zqqzo",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T20:35:03.000Z",
+        "relevanceScore": 54.47,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "Bryan Kohberger gets four life sentences for murdering Idaho college students",
+        "link": "https://www.bbc.com/news/articles/c0rvk25v5lxo",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T19:36:31.000Z",
+        "relevanceScore": 31.28,
+        "tags": []
+      },
+      {
+        "title": "Gazans 'wasting away' as mass starvation spreads, humanitarian groups warn",
+        "link": "https://www.bbc.com/news/articles/ce9xkx7vnmxo",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T14:40:44.000Z",
+        "relevanceScore": 30.79,
+        "tags": []
+      },
+      {
+        "title": "British surgeon who had his legs removed  accused of fraud",
+        "link": "https://www.bbc.com/news/articles/c75r21ww30vo",
+        "source": "BBC News",
+        "pubDate": "2025-07-23T13:45:04.000Z",
+        "relevanceScore": 30.6,
+        "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Starlink-powered &#8216;T-Satellite&#8217; service is now live on T-Mobile",
+        "link": "https://www.theverge.com/news/712546/starlink-powered-t-satellite-service-is-now-live-on-t-mobile",
+        "source": "The Verge",
+        "pubDate": "2025-07-23T17:56:24.000Z",
+        "relevanceScore": 53.44,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Open source X rival Mastodon begins raising funds with new in-app donation feature",
+        "link": "https://techcrunch.com/2025/07/23/open-source-x-rival-mastodon-begins-raising-funds-with-new-in-app-donation-feature/",
+        "source": "TechCrunch",
+        "pubDate": "2025-07-23T17:15:37.000Z",
+        "relevanceScore": 27.31,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Qi2 25W wireless charging is coming to iPhones and 'major Android smartphones'",
+        "link": "https://www.engadget.com/mobile/smartphones/qi2-25w-wireless-charging-is-coming-to-iphones-and-major-android-smartphones-183013979.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-07-23T18:30:13.000Z",
+        "relevanceScore": 23.56,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "Japan trade deal info on Trump’s desk was altered by hand with a marker",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m7bapt/japan_trade_deal_info_on_trumps_desk_was_altered/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-23T14:49:42.000Z",
+        "relevanceScore": 50.82,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Protesters drown out live interview with far-right AfD party leader Alice Weidel",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m75xwr/protesters_drown_out_live_interview_with_farright/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-23T10:46:36.000Z",
+        "relevanceScore": 50.01,
+        "tags": [
+          "Interview"
+        ]
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1245, Part 1 (Thread #1392)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1m6zdia/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-07-23T04:02:27.000Z",
+        "relevanceScore": 48.66,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Summer School 3: How government decides what to spend our money on",
+        "link": "https://www.npr.org/sections/money/2025/07/16/1269634359/budget-spending-debt-lobbying",
+        "source": "NPR Business",
+        "pubDate": "2025-07-23T07:00:00.000Z",
+        "relevanceScore": 42.75,
         "tags": []
       }
     ]
@@ -1242,11 +1240,11 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 14,
-    "avgRelevanceScore": 163.98345454545455,
+    "avgRelevanceScore": 127.2838181818182,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 15
+        "count": 18
       },
       {
         "category": "tech",
@@ -1254,15 +1252,15 @@
       },
       {
         "category": "development",
-        "count": 5
-      },
-      {
-        "category": "mobile",
-        "count": 5
+        "count": 4
       },
       {
         "category": "general",
         "count": 4
+      },
+      {
+        "category": "startup",
+        "count": 3
       }
     ]
   }
