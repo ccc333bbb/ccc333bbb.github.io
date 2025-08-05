@@ -1,19 +1,21 @@
 {
-  "lastUpdated": "2025-08-04T23:51:56.663Z",
-  "totalArticles": 39,
+  "lastUpdated": "2025-08-05T01:18:29.093Z",
+  "totalArticles": 48,
   "categories": [
     "tech",
     "ai-ml",
+    "development",
     "startup",
     "cloud",
     "general",
     "business",
+    "cybersecurity",
+    "world",
     "mobile",
-    "gaming",
-    "automotive",
     "health",
+    "gaming",
     "space",
-    "development"
+    "automotive"
   ],
   "topArticles": [
     {
@@ -22,8 +24,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-04T21:11:10.000Z",
-      "relevanceScore": 3871.46,
-      "recommendationScore": 3871.96,
+      "relevanceScore": 3862.18,
+      "recommendationScore": 3862.68,
       "tags": [
         "Web",
         "Report"
@@ -36,8 +38,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-08-04T19:16:26.000Z",
-      "relevanceScore": 2923.58,
-      "recommendationScore": 2924.08,
+      "relevanceScore": 2890.29,
+      "recommendationScore": 2890.79,
       "tags": [
         "AI",
         "Web"
@@ -50,8 +52,19 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-04T18:43:02.000Z",
-      "relevanceScore": 1503.97,
-      "recommendationScore": 1505.47,
+      "relevanceScore": 1644.18,
+      "recommendationScore": 1645.68,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How we made JSON.stringify more than twice as fast",
+      "link": "https://www.reddit.com/r/programming/comments/1mhesf7/how_we_made_jsonstringify_more_than_twice_as_fast/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-04T14:21:12.000Z",
+      "relevanceScore": 1087.81,
+      "recommendationScore": 1089.31,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -61,24 +74,10 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-04T21:45:18.000Z",
-      "relevanceScore": 905.58,
-      "recommendationScore": 907.08,
+      "relevanceScore": 1008.29,
+      "recommendationScore": 1009.79,
       "tags": [
         "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Sengled’s downfall shows the peril of relying on cloud connections for smart home control",
-      "link": "https://www.theverge.com/analysis/718436/amazon-alexa-skill-ended-for-sengled-smart-lighting",
-      "source": "The Verge",
-      "category": "cloud",
-      "pubDate": "2025-08-04T21:20:50.000Z",
-      "relevanceScore": 842.5,
-      "recommendationScore": 844.5,
-      "tags": [
-        "Cloud",
-        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -88,8 +87,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-04T19:22:04.000Z",
-      "relevanceScore": 819.6,
-      "recommendationScore": 820.1,
+      "relevanceScore": 893.81,
+      "recommendationScore": 894.31,
       "tags": [
         "AI",
         "Security"
@@ -102,9 +101,36 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-08-04T22:37:27.000Z",
-      "relevanceScore": 725.25,
-      "recommendationScore": 726.25,
+      "relevanceScore": 811.46,
+      "recommendationScore": 812.46,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Science Reveals the Surprising Origins of the Potato",
+      "link": "https://www.wired.com/story/science-reveals-the-surprising-origins-of-the-potato/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-04T15:43:29.000Z",
+      "relevanceScore": 800.58,
+      "recommendationScore": 801.08,
+      "tags": [
+        "Science"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Sengled’s downfall shows the peril of relying on cloud connections for smart home control",
+      "link": "https://www.theverge.com/analysis/718436/amazon-alexa-skill-ended-for-sengled-smart-lighting",
+      "source": "The Verge",
+      "category": "cloud",
+      "pubDate": "2025-08-04T21:20:50.000Z",
+      "relevanceScore": 796.71,
+      "recommendationScore": 798.71,
+      "tags": [
+        "Cloud",
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -113,8 +139,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-04T17:05:21.000Z",
-      "relevanceScore": 701.64,
-      "recommendationScore": 702.14,
+      "relevanceScore": 784.36,
+      "recommendationScore": 784.86,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -124,8 +150,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-04T07:00:59.000Z",
-      "relevanceScore": 695.63,
-      "recommendationScore": 697.63,
+      "relevanceScore": 778.34,
+      "recommendationScore": 780.34,
       "tags": [
         "Business",
         "Report",
@@ -134,31 +160,30 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Science Reveals the Surprising Origins of the Potato",
-      "link": "https://www.wired.com/story/science-reveals-the-surprising-origins-of-the-potato/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-04T15:43:29.000Z",
-      "relevanceScore": 694.37,
-      "recommendationScore": 694.87,
-      "tags": [
-        "Science"
-      ],
+      "title": "[Deno] Our fight with Oracle is getting crazy...",
+      "link": "https://www.reddit.com/r/programming/comments/1mho7j5/deno_our_fight_with_oracle_is_getting_crazy/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-04T20:07:21.000Z",
+      "relevanceScore": 634.96,
+      "recommendationScore": 634.96,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Is the CCSP Certification Worth It for Cloud Security?",
-      "link": "https://dev.to/osaigbovo_emuze_b5e350e65/is-the-ccsp-certification-worth-it-for-cloud-security-27ed",
+      "title": "SOC (Security Operations Center) Fundamentals: A Beginner’s Guide",
+      "link": "https://dev.to/moh4med404/soc-security-operations-center-fundamentals-a-beginners-guide-3lf0",
       "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-08-04T23:26:19.000Z",
-      "relevanceScore": 577.91,
-      "recommendationScore": 578.41,
+      "category": "cybersecurity",
+      "pubDate": "2025-08-05T00:42:48.000Z",
+      "relevanceScore": 379.88,
+      "recommendationScore": 380.38,
       "tags": [
+        "Tech",
         "Security",
-        "Cloud"
+        "Tutorial"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "The Download: fixing ‘evil’ AI, and the White House’s war on science",
@@ -166,8 +191,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-04T12:05:00.000Z",
-      "relevanceScore": 350.14,
-      "recommendationScore": 350.64,
+      "relevanceScore": 340.36,
+      "recommendationScore": 340.86,
       "tags": [
         "AI",
         "Tech",
@@ -176,13 +201,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "The bodies of all 5 miners are found and identified in Chile's El Teniente mine after collapse",
-      "link": "https://abcnews.go.com/Business/wireStory/bodies-5-miners-found-identified-chiles-el-teniente-124326737",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-08-03T21:58:26.000Z",
-      "relevanceScore": 324.82,
-      "recommendationScore": 325.32,
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1257, Part 1 (Thread #1404)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mh3iv0/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-04T04:02:33.000Z",
+      "relevanceScore": 332.75,
+      "recommendationScore": 335.25,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -192,10 +217,37 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-08-04T20:15:31.000Z",
-      "relevanceScore": 284.28,
-      "recommendationScore": 284.78,
+      "relevanceScore": 314.99,
+      "recommendationScore": 315.49,
       "tags": [
         "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "An Illinois bill banning AI therapy has been signed into law",
+      "link": "https://www.reddit.com/r/technology/comments/1mht50e/an_illinois_bill_banning_ai_therapy_has_been/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-08-04T23:21:18.000Z",
+      "relevanceScore": 313.61,
+      "recommendationScore": 314.11,
+      "tags": [
+        "AI",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Airbnb guest says host used AI-generated images in false $9,000 damages claim | Airbnb initially sided with host before reversing decision",
+      "link": "https://www.reddit.com/r/technology/comments/1mhbo7c/airbnb_guest_says_host_used_aigenerated_images_in/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-08-04T12:10:05.000Z",
+      "relevanceScore": 304.37,
+      "recommendationScore": 304.37,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -205,8 +257,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-08-04T21:23:56.000Z",
-      "relevanceScore": 223.01,
-      "recommendationScore": 225.01,
+      "relevanceScore": 251.22,
+      "recommendationScore": 253.22,
       "tags": [
         "Mobile",
         "Launch"
@@ -214,63 +266,62 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Netanyahu moves to fire attorney general prosecuting him for corruption",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mhh3sq/netanyahu_moves_to_fire_attorney_general/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-04T15:48:40.000Z",
+      "relevanceScore": 200.1,
+      "recommendationScore": 200.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Jeh Aerospace nets $11M to scale the commercial aircraft supply chain in India",
+      "link": "https://techcrunch.com/2025/08/04/jeh-aerospace-nets-11m-to-scale-the-commercial-aircraft-supply-chain-in-india/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-08-05T00:30:00.000Z",
+      "relevanceScore": 198.84,
+      "recommendationScore": 199.34,
+      "tags": [
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Archive Legacy Github Repos with Subtree",
+      "link": "https://dev.to/tonymet/archive-legacy-github-repos-with-subtree-1dj3",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-08-05T00:47:08.000Z",
+      "relevanceScore": 73.9,
+      "recommendationScore": 73.9,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "These protocols will help AI agents navigate our messy lives",
       "link": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-04T15:00:13.000Z",
-      "relevanceScore": 146.73,
-      "recommendationScore": 147.23,
+      "relevanceScore": 59.44,
+      "recommendationScore": 59.94,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Here are the best Apple Watch deals available right now",
-      "link": "https://www.theverge.com/21289209/best-apple-watch-deals",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-08-04T23:09:37.000Z",
-      "relevanceScore": 60.36,
-      "recommendationScore": 61.86,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The US Military Is Raking in Millions From On-Base Slot Machines",
-      "link": "https://www.wired.com/story/us-military-on-base-slot-machines-gambling-addiction/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-04T10:30:00.000Z",
-      "relevanceScore": 57.33,
-      "recommendationScore": 57.83,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What happens to the internet if no one clicks search links?",
-      "link": "https://www.npr.org/2025/08/04/1256727552/google-ai-overviews-threat-publishers",
-      "source": "NPR Business",
-      "category": "ai-ml",
-      "pubDate": "2025-08-04T21:19:17.000Z",
-      "relevanceScore": 45.49,
-      "recommendationScore": 47.49,
-      "tags": [
-        "AI",
-        "Business",
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Disfigured, shamed and forgotten: The BBC visits the Korean survivors of the Hiroshima bomb",
+      "title": "Disfigured, shamed and forgotten: BBC visits the Korean survivors of the Hiroshima bomb",
       "link": "https://www.bbc.com/news/articles/cp8zlwd3e42o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-04T22:04:35.000Z",
-      "relevanceScore": 44.64,
-      "recommendationScore": 45.14,
+      "relevanceScore": 49.35,
+      "recommendationScore": 49.85,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -280,21 +331,23 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-04T09:00:00.000Z",
-      "relevanceScore": 44.53,
-      "recommendationScore": 45.03,
+      "relevanceScore": 49.24,
+      "recommendationScore": 49.74,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "IGN hit by layoffs as parent company Ziff Davis cuts costs",
-      "link": "https://www.theverge.com/news/718692/ign-entertainment-layoffs-creators-guild-ziff-davis",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-08-04T22:32:41.000Z",
-      "relevanceScore": 44.24,
-      "recommendationScore": 44.74,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "Deploy de funções AWS Lambda com GitHub Actions usando Organizations",
+      "link": "https://dev.to/eudu4rdo/deploy-de-funcoes-aws-lambda-com-github-actions-usando-organizations-1p8a",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-08-05T00:34:24.000Z",
+      "relevanceScore": 48.35,
+      "recommendationScore": 48.85,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Automate your project with GitHub Models in Actions",
@@ -302,8 +355,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-08-04T16:00:00.000Z",
-      "relevanceScore": 42.93,
-      "recommendationScore": 43.43,
+      "relevanceScore": 47.64,
+      "recommendationScore": 48.14,
       "tags": [
         "AI",
         "Exclusive",
@@ -312,46 +365,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Será que a IA realmente nos deixa mais burros?",
-      "link": "https://dev.to/kkademorais/sera-que-a-ia-realmente-nos-deixa-mais-burros-3fjo",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-08-04T23:28:07.000Z",
-      "relevanceScore": 42.42,
-      "recommendationScore": 42.42,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Tesla awards CEO Musk millions in shares valued at about $29 billion",
-      "link": "https://abcnews.go.com/Business/wireStory/tesla-awards-ceo-musk-millions-shares-valued-29-124338284",
-      "source": "ABC News Business",
-      "category": "automotive",
-      "pubDate": "2025-08-04T12:54:31.000Z",
-      "relevanceScore": 39.81,
-      "recommendationScore": 40.31,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Storm Floris batters UK with winds over 80mph",
-      "link": "https://www.bbc.com/news/articles/c4gq3n049jno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-04T22:49:37.000Z",
-      "relevanceScore": 32.79,
-      "recommendationScore": 32.79,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Obesity jab patients need a plan to stop weight coming back, health experts say",
       "link": "https://www.bbc.com/news/articles/cwy3jg20j1ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "health",
       "pubDate": "2025-08-04T23:00:10.000Z",
-      "relevanceScore": 31.83,
-      "recommendationScore": 33.33,
+      "relevanceScore": 31.54,
+      "recommendationScore": 33.04,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -361,10 +381,36 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-04T21:34:23.000Z",
-      "relevanceScore": 31.54,
-      "recommendationScore": 31.54,
+      "relevanceScore": 31.25,
+      "recommendationScore": 31.25,
       "tags": [
         "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Tommy Robinson arrested in connection with assault at St Pancras station",
+      "link": "https://www.bbc.com/news/articles/crr2dpxxzz1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-04T20:24:41.000Z",
+      "relevanceScore": 31.02,
+      "recommendationScore": 31.52,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What happens to the internet if no one clicks search links?",
+      "link": "https://www.npr.org/2025/08/04/1256727552/google-ai-overviews-threat-publishers",
+      "source": "NPR Business",
+      "category": "ai-ml",
+      "pubDate": "2025-08-04T21:19:17.000Z",
+      "relevanceScore": 26.7,
+      "recommendationScore": 28.7,
+      "tags": [
+        "AI",
+        "Business",
+        "Web"
       ],
       "readingLevel": "intermediate"
     },
@@ -374,24 +420,32 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-04T17:25:37.000Z",
-      "relevanceScore": 26.71,
-      "recommendationScore": 27.71,
+      "relevanceScore": 26.42,
+      "recommendationScore": 27.42,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Amazon denies report it’s shutting down Wondery podcast studio",
-      "link": "https://techcrunch.com/2025/08/04/amazon-denies-report-its-shutting-down-wondery-podcast-studio/",
-      "source": "TechCrunch",
+      "title": "Here are the best Apple Watch deals available right now",
+      "link": "https://www.theverge.com/21289209/best-apple-watch-deals",
+      "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-08-04T17:14:00.000Z",
-      "relevanceScore": 26.67,
-      "recommendationScore": 27.17,
-      "tags": [
-        "Business",
-        "Report"
-      ],
+      "pubDate": "2025-08-04T23:09:37.000Z",
+      "relevanceScore": 25.57,
+      "recommendationScore": 27.07,
+      "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "IGN hit by layoffs as parent company Ziff Davis cuts costs",
+      "link": "https://www.theverge.com/news/718692/ign-entertainment-layoffs-creators-guild-ziff-davis",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2025-08-04T22:32:41.000Z",
+      "relevanceScore": 25.45,
+      "recommendationScore": 25.95,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Is the Dream Chaser space plane ever going to launch into orbit?",
@@ -399,8 +453,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-08-04T19:56:58.000Z",
-      "relevanceScore": 25.22,
-      "recommendationScore": 27.72,
+      "relevanceScore": 24.93,
+      "recommendationScore": 27.43,
       "tags": [
         "Launch"
       ],
@@ -412,8 +466,8 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2025-08-04T17:50:07.000Z",
-      "relevanceScore": 24.79,
-      "recommendationScore": 25.29,
+      "relevanceScore": 24.51,
+      "recommendationScore": 25.01,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -423,8 +477,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-04T17:42:19.000Z",
-      "relevanceScore": 24.77,
-      "recommendationScore": 26.27,
+      "relevanceScore": 24.48,
+      "recommendationScore": 25.98,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -434,8 +488,8 @@
       "source": "Wired",
       "category": "startup",
       "pubDate": "2025-08-04T11:00:00.000Z",
-      "relevanceScore": 24.43,
-      "recommendationScore": 26.43,
+      "relevanceScore": 24.14,
+      "recommendationScore": 26.14,
       "tags": [
         "Startup",
         "Funding"
@@ -448,8 +502,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-08-04T20:49:45.000Z",
-      "relevanceScore": 24.39,
-      "recommendationScore": 27.89,
+      "relevanceScore": 24.1,
+      "recommendationScore": 27.6,
       "tags": [
         "Mobile",
         "Tutorial",
@@ -463,8 +517,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-04T10:38:23.000Z",
-      "relevanceScore": 24.35,
-      "recommendationScore": 24.85,
+      "relevanceScore": 24.07,
+      "recommendationScore": 24.57,
       "tags": [
         "Report",
         "Launch"
@@ -477,10 +531,21 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-08-04T14:00:00.000Z",
-      "relevanceScore": 24.03,
-      "recommendationScore": 25.53,
+      "relevanceScore": 23.74,
+      "recommendationScore": 25.24,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Tesla awards CEO Musk millions in shares valued at about $29 billion",
+      "link": "https://abcnews.go.com/Business/wireStory/tesla-awards-ceo-musk-millions-shares-valued-29-124338284",
+      "source": "ABC News Business",
+      "category": "automotive",
+      "pubDate": "2025-08-04T12:54:31.000Z",
+      "relevanceScore": 23.52,
+      "recommendationScore": 24.02,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Cross-pollination as a strategic advantage for forward-thinking organizations",
@@ -488,22 +553,68 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-08-04T16:00:00.000Z",
-      "relevanceScore": 23.43,
-      "recommendationScore": 23.93,
+      "relevanceScore": 23.14,
+      "recommendationScore": 23.64,
       "tags": [
         "Innovation"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "How My Ad Revenue Dropped Despite Consistent Traffic (And What I Learned)",
-      "link": "https://dev.to/kainat_zulfiqar_78381f0f6/how-my-ad-revenue-dropped-despite-consistent-traffic-and-what-i-learned-3hh1",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-04T23:23:00.000Z",
-      "relevanceScore": 23.4,
-      "recommendationScore": 25.4,
+      "title": "Netanyahu has decided on full occupation of Gaza Strip: Reports",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mhky68/netanyahu_has_decided_on_full_occupation_of_gaza/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-04T18:07:54.000Z",
+      "relevanceScore": 22.56,
+      "recommendationScore": 23.06,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The US Military Is Raking in Millions From On-Base Slot Machines",
+      "link": "https://www.wired.com/story/us-military-on-base-slot-machines-gambling-addiction/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-04T10:30:00.000Z",
+      "relevanceScore": 22.54,
+      "recommendationScore": 23.04,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Substack’s Algorithm Accidentally Reveals What We Already Knew: It’s The Nazi Bar Now",
+      "link": "https://www.reddit.com/r/technology/comments/1mhproz/substacks_algorithm_accidentally_reveals_what_we/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-08-04T21:05:51.000Z",
+      "relevanceScore": 21.16,
+      "recommendationScore": 25.16,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "China rejects US demands to stop buying Russian, Iranian oil",
+      "link": "https://abcnews.go.com/Business/wireStory/china-pushes-back-us-demands-stop-buying-russian-124333719",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-08-04T01:02:21.000Z",
+      "relevanceScore": 21.15,
+      "recommendationScore": 22.65,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trust in AI coding tools is plummeting",
+      "link": "https://www.reddit.com/r/programming/comments/1mhfash/trust_in_ai_coding_tools_is_plummeting/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2025-08-04T14:41:24.000Z",
+      "relevanceScore": 19.88,
+      "recommendationScore": 19.88,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "intermediate"
     }
   ],
@@ -514,7 +625,7 @@
         "link": "https://www.engadget.com/ai/perplexity-is-allegedly-scraping-websites-its-not-supposed-to-again-211110756.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-04T21:11:10.000Z",
-        "relevanceScore": 3871.46,
+        "relevanceScore": 3862.18,
         "tags": [
           "Web",
           "Report"
@@ -525,7 +636,7 @@
         "link": "https://techcrunch.com/2025/08/04/foxconn-sells-former-gm-factory-to-mystery-buyer-after-failing-to-make-evs/",
         "source": "TechCrunch",
         "pubDate": "2025-08-04T18:43:02.000Z",
-        "relevanceScore": 1503.97,
+        "relevanceScore": 1644.18,
         "tags": []
       },
       {
@@ -533,7 +644,7 @@
         "link": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
         "source": "The Verge",
         "pubDate": "2025-08-04T22:37:27.000Z",
-        "relevanceScore": 725.25,
+        "relevanceScore": 811.46,
         "tags": []
       },
       {
@@ -541,17 +652,33 @@
         "link": "https://www.wired.com/story/science-reveals-the-surprising-origins-of-the-potato/",
         "source": "Wired",
         "pubDate": "2025-08-04T15:43:29.000Z",
-        "relevanceScore": 694.37,
+        "relevanceScore": 800.58,
         "tags": [
           "Science"
         ]
+      },
+      {
+        "title": "Rivian sues to sell its EVs directly in Ohio",
+        "link": "https://techcrunch.com/2025/08/04/rivian-sues-to-sell-its-evs-directly-in-ohio/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-04T17:25:37.000Z",
+        "relevanceScore": 26.42,
+        "tags": []
       },
       {
         "title": "Here are the best Apple Watch deals available right now",
         "link": "https://www.theverge.com/21289209/best-apple-watch-deals",
         "source": "The Verge",
         "pubDate": "2025-08-04T23:09:37.000Z",
-        "relevanceScore": 60.36,
+        "relevanceScore": 25.57,
+        "tags": []
+      },
+      {
+        "title": "F1 in Hungary: Please stop saying Monaco without the walls",
+        "link": "https://arstechnica.com/cars/2025/08/f1-in-hungary-strategy-and-fast-tire-changes-make-all-the-difference/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-04T17:42:19.000Z",
+        "relevanceScore": 24.48,
         "tags": []
       },
       {
@@ -559,34 +686,15 @@
         "link": "https://www.wired.com/story/us-military-on-base-slot-machines-gambling-addiction/",
         "source": "Wired",
         "pubDate": "2025-08-04T10:30:00.000Z",
-        "relevanceScore": 57.33,
+        "relevanceScore": 22.54,
         "tags": []
       },
       {
-        "title": "Rivian sues to sell its EVs directly in Ohio",
-        "link": "https://techcrunch.com/2025/08/04/rivian-sues-to-sell-its-evs-directly-in-ohio/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-04T17:25:37.000Z",
-        "relevanceScore": 26.71,
-        "tags": []
-      },
-      {
-        "title": "Amazon denies report it’s shutting down Wondery podcast studio",
-        "link": "https://techcrunch.com/2025/08/04/amazon-denies-report-its-shutting-down-wondery-podcast-studio/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-04T17:14:00.000Z",
-        "relevanceScore": 26.67,
-        "tags": [
-          "Business",
-          "Report"
-        ]
-      },
-      {
-        "title": "F1 in Hungary: Please stop saying Monaco without the walls",
-        "link": "https://arstechnica.com/cars/2025/08/f1-in-hungary-strategy-and-fast-tire-changes-make-all-the-difference/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-04T17:42:19.000Z",
-        "relevanceScore": 24.77,
+        "title": "Substack’s Algorithm Accidentally Reveals What We Already Knew: It’s The Nazi Bar Now",
+        "link": "https://www.reddit.com/r/technology/comments/1mhproz/substacks_algorithm_accidentally_reveals_what_we/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-08-04T21:05:51.000Z",
+        "relevanceScore": 21.16,
         "tags": []
       }
     ],
@@ -596,7 +704,7 @@
         "link": "https://arstechnica.com/information-technology/2025/08/ai-site-perplexity-uses-stealth-tactics-to-flout-no-crawl-edicts-cloudflare-says/",
         "source": "Ars Technica",
         "pubDate": "2025-08-04T19:16:26.000Z",
-        "relevanceScore": 2923.58,
+        "relevanceScore": 2890.29,
         "tags": [
           "AI",
           "Web"
@@ -607,7 +715,7 @@
         "link": "https://techcrunch.com/2025/08/04/google-says-its-ai-based-bug-hunter-found-20-security-vulnerabilities/",
         "source": "TechCrunch",
         "pubDate": "2025-08-04T19:22:04.000Z",
-        "relevanceScore": 819.6,
+        "relevanceScore": 893.81,
         "tags": [
           "AI",
           "Security"
@@ -618,7 +726,7 @@
         "link": "https://www.technologyreview.com/2025/08/04/1120978/the-download-fix-evil-ai-white-house-war-science/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-04T12:05:00.000Z",
-        "relevanceScore": 350.14,
+        "relevanceScore": 340.36,
         "tags": [
           "AI",
           "Tech",
@@ -626,25 +734,34 @@
         ]
       },
       {
-        "title": "These protocols will help AI agents navigate our messy lives",
-        "link": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-08-04T15:00:13.000Z",
-        "relevanceScore": 146.73,
+        "title": "An Illinois bill banning AI therapy has been signed into law",
+        "link": "https://www.reddit.com/r/technology/comments/1mht50e/an_illinois_bill_banning_ai_therapy_has_been/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-08-04T23:21:18.000Z",
+        "relevanceScore": 313.61,
+        "tags": [
+          "AI",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Airbnb guest says host used AI-generated images in false $9,000 damages claim | Airbnb initially sided with host before reversing decision",
+        "link": "https://www.reddit.com/r/technology/comments/1mhbo7c/airbnb_guest_says_host_used_aigenerated_images_in/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-08-04T12:10:05.000Z",
+        "relevanceScore": 304.37,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "What happens to the internet if no one clicks search links?",
-        "link": "https://www.npr.org/2025/08/04/1256727552/google-ai-overviews-threat-publishers",
-        "source": "NPR Business",
-        "pubDate": "2025-08-04T21:19:17.000Z",
-        "relevanceScore": 45.49,
+        "title": "These protocols will help AI agents navigate our messy lives",
+        "link": "https://www.technologyreview.com/2025/08/04/1120996/protocols-help-agents-navigate-lives-mcp-a2a/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-08-04T15:00:13.000Z",
+        "relevanceScore": 59.44,
         "tags": [
-          "AI",
-          "Business",
-          "Web"
+          "AI"
         ]
       },
       {
@@ -652,7 +769,7 @@
         "link": "https://github.blog/ai-and-ml/generative-ai/automate-your-project-with-github-models-in-actions/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-04T16:00:00.000Z",
-        "relevanceScore": 42.93,
+        "relevanceScore": 47.64,
         "tags": [
           "AI",
           "Exclusive",
@@ -660,12 +777,62 @@
         ]
       },
       {
-        "title": "Será que a IA realmente nos deixa mais burros?",
-        "link": "https://dev.to/kkademorais/sera-que-a-ia-realmente-nos-deixa-mais-burros-3fjo",
-        "source": "Dev.to",
-        "pubDate": "2025-08-04T23:28:07.000Z",
-        "relevanceScore": 42.42,
+        "title": "What happens to the internet if no one clicks search links?",
+        "link": "https://www.npr.org/2025/08/04/1256727552/google-ai-overviews-threat-publishers",
+        "source": "NPR Business",
+        "pubDate": "2025-08-04T21:19:17.000Z",
+        "relevanceScore": 26.7,
+        "tags": [
+          "AI",
+          "Business",
+          "Web"
+        ]
+      },
+      {
+        "title": "Trust in AI coding tools is plummeting",
+        "link": "https://www.reddit.com/r/programming/comments/1mhfash/trust_in_ai_coding_tools_is_plummeting/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-04T14:41:24.000Z",
+        "relevanceScore": 19.88,
+        "tags": [
+          "AI"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "How we made JSON.stringify more than twice as fast",
+        "link": "https://www.reddit.com/r/programming/comments/1mhesf7/how_we_made_jsonstringify_more_than_twice_as_fast/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-04T14:21:12.000Z",
+        "relevanceScore": 1087.81,
         "tags": []
+      },
+      {
+        "title": "[Deno] Our fight with Oracle is getting crazy...",
+        "link": "https://www.reddit.com/r/programming/comments/1mho7j5/deno_our_fight_with_oracle_is_getting_crazy/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-04T20:07:21.000Z",
+        "relevanceScore": 634.96,
+        "tags": []
+      },
+      {
+        "title": "Archive Legacy Github Repos with Subtree",
+        "link": "https://dev.to/tonymet/archive-legacy-github-repos-with-subtree-1dj3",
+        "source": "Dev.to",
+        "pubDate": "2025-08-05T00:47:08.000Z",
+        "relevanceScore": 73.9,
+        "tags": []
+      },
+      {
+        "title": "Cross-pollination as a strategic advantage for forward-thinking organizations",
+        "link": "https://stackoverflow.blog/2025/08/04/cross-pollination-as-a-strategic-advantage-for-forward-thinking-organizations/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-08-04T16:00:00.000Z",
+        "relevanceScore": 23.14,
+        "tags": [
+          "Innovation"
+        ]
       }
     ],
     "startup": [
@@ -674,9 +841,20 @@
         "link": "https://techcrunch.com/2025/08/04/a-top-designer-was-banned-from-dribbble-now-hes-building-his-own-competitor/",
         "source": "TechCrunch",
         "pubDate": "2025-08-04T21:45:18.000Z",
-        "relevanceScore": 905.58,
+        "relevanceScore": 1008.29,
         "tags": [
           "Startup"
+        ]
+      },
+      {
+        "title": "Jeh Aerospace nets $11M to scale the commercial aircraft supply chain in India",
+        "link": "https://techcrunch.com/2025/08/04/jeh-aerospace-nets-11m-to-scale-the-commercial-aircraft-supply-chain-in-india/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-05T00:30:00.000Z",
+        "relevanceScore": 198.84,
+        "tags": [
+          "Startup",
+          "Funding"
         ]
       },
       {
@@ -684,7 +862,7 @@
         "link": "https://www.wired.com/story/whats-inside-the-tiny-miracle-food-pouches-that-can-save-the-lives-of-starving-gazans/",
         "source": "Wired",
         "pubDate": "2025-08-04T11:00:00.000Z",
-        "relevanceScore": 24.43,
+        "relevanceScore": 24.14,
         "tags": [
           "Startup",
           "Funding"
@@ -697,20 +875,19 @@
         "link": "https://www.theverge.com/analysis/718436/amazon-alexa-skill-ended-for-sengled-smart-lighting",
         "source": "The Verge",
         "pubDate": "2025-08-04T21:20:50.000Z",
-        "relevanceScore": 842.5,
+        "relevanceScore": 796.71,
         "tags": [
           "Cloud",
           "Exclusive"
         ]
       },
       {
-        "title": "Is the CCSP Certification Worth It for Cloud Security?",
-        "link": "https://dev.to/osaigbovo_emuze_b5e350e65/is-the-ccsp-certification-worth-it-for-cloud-security-27ed",
+        "title": "Deploy de funções AWS Lambda com GitHub Actions usando Organizations",
+        "link": "https://dev.to/eudu4rdo/deploy-de-funcoes-aws-lambda-com-github-actions-usando-organizations-1p8a",
         "source": "Dev.to",
-        "pubDate": "2025-08-04T23:26:19.000Z",
-        "relevanceScore": 577.91,
+        "pubDate": "2025-08-05T00:34:24.000Z",
+        "relevanceScore": 48.35,
         "tags": [
-          "Security",
           "Cloud"
         ]
       }
@@ -721,23 +898,15 @@
         "link": "https://www.bbc.com/news/articles/cewyk4ezeedo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-04T17:05:21.000Z",
-        "relevanceScore": 701.64,
+        "relevanceScore": 784.36,
         "tags": []
       },
       {
-        "title": "Disfigured, shamed and forgotten: The BBC visits the Korean survivors of the Hiroshima bomb",
+        "title": "Disfigured, shamed and forgotten: BBC visits the Korean survivors of the Hiroshima bomb",
         "link": "https://www.bbc.com/news/articles/cp8zlwd3e42o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-04T22:04:35.000Z",
-        "relevanceScore": 44.64,
-        "tags": []
-      },
-      {
-        "title": "Storm Floris batters UK with winds over 80mph",
-        "link": "https://www.bbc.com/news/articles/c4gq3n049jno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-04T22:49:37.000Z",
-        "relevanceScore": 32.79,
+        "relevanceScore": 49.35,
         "tags": []
       },
       {
@@ -745,10 +914,18 @@
         "link": "https://www.bbc.com/news/articles/cewykzegy4qo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-04T21:34:23.000Z",
-        "relevanceScore": 31.54,
+        "relevanceScore": 31.25,
         "tags": [
           "Partnership"
         ]
+      },
+      {
+        "title": "Tommy Robinson arrested in connection with assault at St Pancras station",
+        "link": "https://www.bbc.com/news/articles/crr2dpxxzz1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-04T20:24:41.000Z",
+        "relevanceScore": 31.02,
+        "tags": []
       }
     ],
     "business": [
@@ -757,7 +934,7 @@
         "link": "https://www.npr.org/2025/08/04/1256727558/trump-fires-bls-director-jobs-report",
         "source": "NPR Business",
         "pubDate": "2025-08-04T07:00:59.000Z",
-        "relevanceScore": 695.63,
+        "relevanceScore": 778.34,
         "tags": [
           "Business",
           "Report",
@@ -765,19 +942,11 @@
         ]
       },
       {
-        "title": "The bodies of all 5 miners are found and identified in Chile's El Teniente mine after collapse",
-        "link": "https://abcnews.go.com/Business/wireStory/bodies-5-miners-found-identified-chiles-el-teniente-124326737",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-03T21:58:26.000Z",
-        "relevanceScore": 324.82,
-        "tags": []
-      },
-      {
         "title": "As Trump's tariffs take shape, is America really winning?",
         "link": "https://www.npr.org/2025/08/04/nx-s1-5487592/global-economy-tariffs-inflation-prices",
         "source": "NPR Business",
         "pubDate": "2025-08-04T09:00:00.000Z",
-        "relevanceScore": 44.53,
+        "relevanceScore": 49.24,
         "tags": []
       },
       {
@@ -785,11 +954,59 @@
         "link": "https://abcnews.go.com/Business/wireStory/asian-markets-mixed-after-wall-st-tumbles-poor-124334956",
         "source": "ABC News Business",
         "pubDate": "2025-08-04T10:38:23.000Z",
-        "relevanceScore": 24.35,
+        "relevanceScore": 24.07,
         "tags": [
           "Report",
           "Launch"
         ]
+      },
+      {
+        "title": "China rejects US demands to stop buying Russian, Iranian oil",
+        "link": "https://abcnews.go.com/Business/wireStory/china-pushes-back-us-demands-stop-buying-russian-124333719",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-04T01:02:21.000Z",
+        "relevanceScore": 21.15,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "SOC (Security Operations Center) Fundamentals: A Beginner’s Guide",
+        "link": "https://dev.to/moh4med404/soc-security-operations-center-fundamentals-a-beginners-guide-3lf0",
+        "source": "Dev.to",
+        "pubDate": "2025-08-05T00:42:48.000Z",
+        "relevanceScore": 379.88,
+        "tags": [
+          "Tech",
+          "Security",
+          "Tutorial"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1257, Part 1 (Thread #1404)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mh3iv0/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-04T04:02:33.000Z",
+        "relevanceScore": 332.75,
+        "tags": []
+      },
+      {
+        "title": "Netanyahu moves to fire attorney general prosecuting him for corruption",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mhh3sq/netanyahu_moves_to_fire_attorney_general/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-04T15:48:40.000Z",
+        "relevanceScore": 200.1,
+        "tags": []
+      },
+      {
+        "title": "Netanyahu has decided on full occupation of Gaza Strip: Reports",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mhky68/netanyahu_has_decided_on_full_occupation_of_gaza/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-04T18:07:54.000Z",
+        "relevanceScore": 22.56,
+        "tags": []
       }
     ],
     "mobile": [
@@ -798,7 +1015,7 @@
         "link": "https://www.engadget.com/mobile/heres-a-comprehensive-list-of-compatible-iphones-that-can-download-the-ios-26-beta-today-191854632.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-04T20:15:31.000Z",
-        "relevanceScore": 284.28,
+        "relevanceScore": 314.99,
         "tags": [
           "Mobile"
         ]
@@ -808,7 +1025,7 @@
         "link": "https://www.engadget.com/mobile/smartphones/iphone-17-pro-max-and-air-release-dates-colors-and-everything-else-you-need-to-know-about-apples-new-phones-153024847.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-04T21:23:56.000Z",
-        "relevanceScore": 223.01,
+        "relevanceScore": 251.22,
         "tags": [
           "Mobile",
           "Launch"
@@ -819,48 +1036,12 @@
         "link": "https://www.engadget.com/mobile/apple-ios-26-beta-how-to-download-the-update-on-your-iphone-new-features-like-liquid-glass-and-everything-else-you-need-to-know-135749293.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-04T20:49:45.000Z",
-        "relevanceScore": 24.39,
+        "relevanceScore": 24.1,
         "tags": [
           "Mobile",
           "Tutorial",
           "Update"
         ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "IGN hit by layoffs as parent company Ziff Davis cuts costs",
-        "link": "https://www.theverge.com/news/718692/ign-entertainment-layoffs-creators-guild-ziff-davis",
-        "source": "The Verge",
-        "pubDate": "2025-08-04T22:32:41.000Z",
-        "relevanceScore": 44.24,
-        "tags": []
-      },
-      {
-        "title": "8 Best Handheld Gaming Consoles (2025), Tested and Reviewed",
-        "link": "https://www.wired.com/gallery/best-gaming-handhelds/",
-        "source": "Wired",
-        "pubDate": "2025-08-04T14:00:00.000Z",
-        "relevanceScore": 24.03,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Tesla awards CEO Musk millions in shares valued at about $29 billion",
-        "link": "https://abcnews.go.com/Business/wireStory/tesla-awards-ceo-musk-millions-shares-valued-29-124338284",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-04T12:54:31.000Z",
-        "relevanceScore": 39.81,
-        "tags": []
-      },
-      {
-        "title": "Tesla awards Musk $29B in attempt to “keep Elon’s energies focused on Tesla”",
-        "link": "https://arstechnica.com/tech-policy/2025/08/tesla-awards-elon-musk-29-billion-after-much-larger-pay-plan-blocked-in-court/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-04T17:50:07.000Z",
-        "relevanceScore": 24.79,
-        "tags": []
       }
     ],
     "health": [
@@ -869,7 +1050,25 @@
         "link": "https://www.bbc.com/news/articles/cwy3jg20j1ro?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-04T23:00:10.000Z",
-        "relevanceScore": 31.83,
+        "relevanceScore": 31.54,
+        "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "IGN hit by layoffs as parent company Ziff Davis cuts costs",
+        "link": "https://www.theverge.com/news/718692/ign-entertainment-layoffs-creators-guild-ziff-davis",
+        "source": "The Verge",
+        "pubDate": "2025-08-04T22:32:41.000Z",
+        "relevanceScore": 25.45,
+        "tags": []
+      },
+      {
+        "title": "8 Best Handheld Gaming Consoles (2025), Tested and Reviewed",
+        "link": "https://www.wired.com/gallery/best-gaming-handhelds/",
+        "source": "Wired",
+        "pubDate": "2025-08-04T14:00:00.000Z",
+        "relevanceScore": 23.74,
         "tags": []
       }
     ],
@@ -879,37 +1078,35 @@
         "link": "https://arstechnica.com/space/2025/08/is-the-dream-chaser-space-plane-ever-going-to-launch-into-orbit/",
         "source": "Ars Technica",
         "pubDate": "2025-08-04T19:56:58.000Z",
-        "relevanceScore": 25.22,
+        "relevanceScore": 24.93,
         "tags": [
           "Launch"
         ]
       }
     ],
-    "development": [
+    "automotive": [
       {
-        "title": "Cross-pollination as a strategic advantage for forward-thinking organizations",
-        "link": "https://stackoverflow.blog/2025/08/04/cross-pollination-as-a-strategic-advantage-for-forward-thinking-organizations/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-08-04T16:00:00.000Z",
-        "relevanceScore": 23.43,
-        "tags": [
-          "Innovation"
-        ]
+        "title": "Tesla awards Musk $29B in attempt to “keep Elon’s energies focused on Tesla”",
+        "link": "https://arstechnica.com/tech-policy/2025/08/tesla-awards-elon-musk-29-billion-after-much-larger-pay-plan-blocked-in-court/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-04T17:50:07.000Z",
+        "relevanceScore": 24.51,
+        "tags": []
       },
       {
-        "title": "How My Ad Revenue Dropped Despite Consistent Traffic (And What I Learned)",
-        "link": "https://dev.to/kainat_zulfiqar_78381f0f6/how-my-ad-revenue-dropped-despite-consistent-traffic-and-what-i-learned-3hh1",
-        "source": "Dev.to",
-        "pubDate": "2025-08-04T23:23:00.000Z",
-        "relevanceScore": 23.4,
+        "title": "Tesla awards CEO Musk millions in shares valued at about $29 billion",
+        "link": "https://abcnews.go.com/Business/wireStory/tesla-awards-ceo-musk-millions-shares-valued-29-124338284",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-04T12:54:31.000Z",
+        "relevanceScore": 23.52,
         "tags": []
       }
     ]
   },
   "stats": {
-    "totalSources": 12,
-    "totalCategories": 12,
-    "avgRelevanceScore": 420.0146153846154,
+    "totalSources": 15,
+    "totalCategories": 14,
+    "avgRelevanceScore": 405.81,
     "topCategories": [
       {
         "category": "tech",
@@ -917,7 +1114,11 @@
       },
       {
         "category": "ai-ml",
-        "count": 7
+        "count": 9
+      },
+      {
+        "category": "development",
+        "count": 4
       },
       {
         "category": "general",
@@ -926,10 +1127,6 @@
       {
         "category": "business",
         "count": 4
-      },
-      {
-        "category": "mobile",
-        "count": 3
       }
     ]
   }
