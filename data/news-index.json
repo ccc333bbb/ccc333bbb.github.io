@@ -1,7 +1,71 @@
 {
-  "lastUpdated": "2025-08-08T23:49:48.411Z",
+  "lastUpdated": "2025-08-09T01:10:58.733Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2025-08-09",
+      "file": "2025-08-09.json",
+      "totalArticles": 55,
+      "lastUpdated": "2025-08-09T01:10:58.713Z",
+      "sources": [
+        "Reddit Programming",
+        "BBC News",
+        "Dev.to",
+        "The Verge",
+        "Reddit Technology",
+        "Engadget",
+        "BBC Technology",
+        "MIT Technology Review",
+        "TechCrunch",
+        "Wired",
+        "Stack Overflow Blog",
+        "GitHub Blog",
+        "ABC News Business",
+        "NPR Business",
+        "Ars Technica",
+        "Reddit World News"
+      ],
+      "categories": [
+        "development",
+        "general",
+        "tech",
+        "science",
+        "business",
+        "world"
+      ],
+      "topArticles": [
+        {
+          "title": "Keep API work local: Why offline-first beats cloud-based tools",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1ml0lcd/keep_api_work_local_why_offlinefirst_beats/",
+          "relevanceScore": 1594.872956527778
+        },
+        {
+          "title": "Jim Lovell, who guided Apollo 13 safely back to Earth, dies aged 97",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cl7y8zq5xpno?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 1139.3339290277777
+        },
+        {
+          "title": "Why I Tried AWS SAM for My Portfolio Project",
+          "source": "Dev.to",
+          "link": "https://dev.to/a-k-0047/why-i-tried-aws-sam-for-my-portfolio-project-eah",
+          "relevanceScore": 1059.6549009722223
+        },
+        {
+          "title": "Building Durable Cloud Control Systems with Temporal",
+          "source": "Dev.to",
+          "link": "https://dev.to/sergeybykov/building-durable-cloud-control-systems-with-temporal-5l7",
+          "relevanceScore": 938.80142875
+        },
+        {
+          "title": "ChatGPT is bringing back 4o as an option because people missed it",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/756980/openai-chatgpt-users-mourn-gpt-5-4o",
+          "relevanceScore": 873.1605955555556
+        }
+      ]
+    },
     {
       "date": "2025-08-08",
       "file": "2025-08-08.json",
@@ -38,31 +102,31 @@
           "title": "NASA and Google are building an AI medical assistant to keep Mars-bound astronauts healthy",
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2025/08/08/nasa-and-google-are-building-an-ai-medical-assistant-to-keep-mars-bound-astronauts-healthy/",
-          "relevanceScore": 1371.7314738888888
+          "relevanceScore": 1356.69
         },
         {
           "title": "Keep API work local: Why offline-first beats cloud-based tools",
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1ml0lcd/keep_api_work_local_why_offlinefirst_beats/",
-          "relevanceScore": 1128.5493904166667
+          "relevanceScore": 1069.62
         },
         {
           "title": "Jim Lovell, who guided Apollo 13 safely back to Earth, dies aged 97",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/cl7y8zq5xpno?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 952.0103627777778
+          "relevanceScore": 959.7
         },
         {
           "title": "ChatGPT is bringing back 4o as an option because people missed it",
           "source": "The Verge",
           "link": "https://www.theverge.com/news/756980/openai-chatgpt-users-mourn-gpt-5-4o",
-          "relevanceScore": 762.8370294444444
+          "relevanceScore": 749.63
         },
         {
           "title": "iOS 26 public beta is available to download: Everything you need to know about the new iPhone and iPad update",
           "source": "Engadget",
           "link": "https://www.engadget.com/mobile/ios-26-public-beta-is-available-to-download-everything-you-need-to-know-about-the-new-iphone-and-ipad-update-135749331.html?src=rss",
-          "relevanceScore": 748.2359183333333
+          "relevanceScore": 742.29
         }
       ]
     },
@@ -1816,70 +1880,6 @@
           "source": "NPR Business",
           "link": "https://www.npr.org/2025/07/11/nx-s1-5465063/air-india-boeing-787-crash-report",
           "relevanceScore": 1282.03
-        }
-      ]
-    },
-    {
-      "date": "2025-07-10",
-      "file": "2025-07-10.json",
-      "totalArticles": 56,
-      "lastUpdated": "2025-07-10T15:55:31.379Z",
-      "sources": [
-        "MIT Technology Review",
-        "The Verge",
-        "NPR Business",
-        "Dev.to",
-        "Reddit Programming",
-        "Ars Technica",
-        "BBC Technology",
-        "Reddit World News",
-        "TechCrunch",
-        "BBC News",
-        "ABC News Business",
-        "Engadget",
-        "Wired",
-        "GitHub Blog",
-        "Stack Overflow Blog",
-        "Reddit Technology"
-      ],
-      "categories": [
-        "science",
-        "tech",
-        "business",
-        "development",
-        "world",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "China’s energy dominance in three charts",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2025/07/10/1119941/china-energy-dominance-three-charts/",
-          "relevanceScore": 1148.81
-        },
-        {
-          "title": "OpenAI&#8217;s next big launch could be an AI web browser",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/news/704162/opeani-ai-web-browser-chatgpt",
-          "relevanceScore": 1074.93
-        },
-        {
-          "title": "Could Meta do more to protect us from cyber scams?",
-          "source": "NPR Business",
-          "link": "https://www.npr.org/2025/07/10/1255443737/facebook-scams-small-business-cyber-crime",
-          "relevanceScore": 951.22
-        },
-        {
-          "title": "Grant Horvat: Can We Beat Bryson & Garrett in a Golf Match?",
-          "source": "Dev.to",
-          "link": "https://dev.to/youtube_golf/grant-horvat-can-we-beat-bryson-garrett-in-a-golf-match-12hg",
-          "relevanceScore": 673.49
-        },
-        {
-          "title": "Bryan Bros Golf: We Flew To Germany For Golf Match!",
-          "source": "Dev.to",
-          "link": "https://dev.to/youtube_golf/bryan-bros-golf-we-flew-to-germany-for-golf-match-1oo3",
-          "relevanceScore": 553.99
         }
       ]
     }
