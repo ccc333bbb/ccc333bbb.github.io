@@ -1,33 +1,45 @@
 {
-  "lastUpdated": "2025-08-19T11:12:03.210Z",
+  "lastUpdated": "2025-08-19T11:27:17.392Z",
   "totalArticles": 51,
   "categories": [
-    "social",
     "development",
+    "social",
     "cloud",
     "business",
     "ai-ml",
     "general",
     "science",
+    "blockchain",
     "tech",
     "gaming",
     "entertainment",
-    "space",
-    "world",
-    "climate",
-    "finance",
     "cybersecurity",
-    "mobile"
+    "climate",
+    "mobile",
+    "world"
   ],
   "topArticles": [
+    {
+      "title": "Highlights from Git 2.51",
+      "link": "https://github.blog/open-source/git/highlights-from-git-2-51/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-08-18T17:04:36.000Z",
+      "relevanceScore": 1577.32,
+      "recommendationScore": 1577.32,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "How algorithms are changing the way we speak",
       "link": "https://www.npr.org/2025/08/19/nx-s1-5506168/how-algorithms-are-changing-the-way-we-speak",
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2025-08-19T07:00:02.000Z",
-      "relevanceScore": 1542.16,
-      "recommendationScore": 1543.66,
+      "relevanceScore": 1469.11,
+      "recommendationScore": 1470.61,
       "tags": [
         "Web",
         "Social"
@@ -35,26 +47,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Highlights from Git 2.51",
-      "link": "https://github.blog/open-source/git/highlights-from-git-2-51/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-08-18T17:04:36.000Z",
-      "relevanceScore": 1522.38,
-      "recommendationScore": 1522.38,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Nvidia’s GeForce Now is upgrading to RTX 5080 GPUs and opening a floodgate of new games",
       "link": "https://www.theverge.com/news/760219/nvidia-geforce-now-rtx-5080-cloud-gaming",
       "source": "The Verge",
       "category": "cloud",
       "pubDate": "2025-08-18T19:30:00.000Z",
-      "relevanceScore": 1286.86,
-      "recommendationScore": 1289.36,
+      "relevanceScore": 1192.81,
+      "recommendationScore": 1195.31,
       "tags": [
         "Cloud"
       ],
@@ -66,8 +65,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-18T12:09:17.000Z",
-      "relevanceScore": 1158.39,
-      "recommendationScore": 1160.39,
+      "relevanceScore": 1084.34,
+      "recommendationScore": 1086.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -77,8 +76,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-19T09:00:00.000Z",
-      "relevanceScore": 779.56,
-      "recommendationScore": 779.56,
+      "relevanceScore": 861.51,
+      "recommendationScore": 861.51,
       "tags": [
         "AI",
         "Launch"
@@ -86,26 +85,40 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Hamas source says group agrees to latest Gaza ceasefire proposal",
-      "link": "https://www.bbc.com/news/articles/ckgjye15zdlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-18T20:51:15.000Z",
-      "relevanceScore": 779.13,
-      "recommendationScore": 779.63,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "OpenAI launches a sub-$5 ChatGPT plan in India",
       "link": "https://techcrunch.com/2025/08/18/openai-launches-a-sub-5-chatgpt-plan-in-india/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-19T03:57:15.000Z",
-      "relevanceScore": 776.55,
-      "recommendationScore": 778.55,
+      "relevanceScore": 858.5,
+      "recommendationScore": 860.5,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Terraform Module Example – Resource Group Creation on Azure",
+      "link": "https://dev.to/techmademi/terraform-module-example-resource-group-creation-on-azure-281",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-08-19T11:05:25.000Z",
+      "relevanceScore": 848.93,
+      "recommendationScore": 849.43,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Hamas source says group agrees to latest Gaza ceasefire proposal",
+      "link": "https://www.bbc.com/news/articles/ckgjye15zdlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-18T20:51:15.000Z",
+      "relevanceScore": 795.08,
+      "recommendationScore": 795.58,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Apple AirPods : a gateway hearing aid",
@@ -113,12 +126,38 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-08-19T10:00:00.000Z",
-      "relevanceScore": 743.76,
-      "recommendationScore": 743.76,
+      "relevanceScore": 794.71,
+      "recommendationScore": 794.71,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The Smart Way Pandas Handles Overlapping Column Names",
+      "link": "https://dev.to/drorata/the-smart-way-pandas-handles-overlapping-column-names-4jko",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-08-19T11:03:29.000Z",
+      "relevanceScore": 705.92,
+      "recommendationScore": 706.42,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Figure’s IPO filing marks Mike Cagney’s return to public markets",
+      "link": "https://techcrunch.com/2025/08/19/figures-ipo-filing-marks-mike-cagneys-return-to-public-markets/",
+      "source": "TechCrunch",
+      "category": "blockchain",
+      "pubDate": "2025-08-19T11:23:41.000Z",
+      "relevanceScore": 703.49,
+      "recommendationScore": 703.99,
+      "tags": [
+        "Tech",
+        "Startup",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Elon Musk’s “thermonuclear” Media Matters lawsuit may be fizzling out",
@@ -126,8 +165,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-18T18:42:08.000Z",
-      "relevanceScore": 618.7,
-      "recommendationScore": 619.2,
+      "relevanceScore": 621.65,
+      "recommendationScore": 622.15,
       "tags": [
         "Exclusive"
       ],
@@ -139,8 +178,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-19T05:43:27.000Z",
-      "relevanceScore": 616.9,
-      "recommendationScore": 617.4,
+      "relevanceScore": 619.85,
+      "recommendationScore": 620.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -150,36 +189,10 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-08-18T19:30:00.000Z",
-      "relevanceScore": 535.36,
-      "recommendationScore": 536.86,
+      "relevanceScore": 463.81,
+      "recommendationScore": 465.31,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best gaming handhelds for 2025",
-      "link": "https://www.engadget.com/gaming/best-handheld-gaming-system-140018863.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-08-19T07:00:36.000Z",
-      "relevanceScore": 525.16,
-      "recommendationScore": 526.16,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to Make Your AI Agents Reliable: A Comprehensive Guide for Developers",
-      "link": "https://dev.to/kuldeep_paul/how-to-make-your-ai-agents-reliable-a-comprehensive-guide-for-developers-i5p",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-08-19T10:58:33.000Z",
-      "relevanceScore": 438.95,
-      "recommendationScore": 440.95,
-      "tags": [
-        "AI",
-        "Tutorial",
-        "Innovation"
       ],
       "readingLevel": "advanced"
     },
@@ -189,8 +202,8 @@
       "source": "TechCrunch",
       "category": "entertainment",
       "pubDate": "2025-08-19T10:00:00.000Z",
-      "relevanceScore": 403.76,
-      "recommendationScore": 404.26,
+      "relevanceScore": 408.71,
+      "recommendationScore": 409.21,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -200,21 +213,24 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-19T11:00:00.000Z",
-      "relevanceScore": 364.96,
-      "recommendationScore": 365.46,
+      "relevanceScore": 367.91,
+      "recommendationScore": 368.41,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "UK drops demand for backdoor into Apple encryption",
-      "link": "https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-08-19T09:11:23.000Z",
-      "relevanceScore": 301.1,
-      "recommendationScore": 301.1,
-      "tags": [],
-      "readingLevel": "advanced"
+      "title": "The Morning After: What to expect at Google’s Pixel 10 event tomorrow",
+      "link": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-111518622.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-08-19T11:15:18.000Z",
+      "relevanceScore": 309.46,
+      "recommendationScore": 311.46,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "After recent tests, China appears likely to beat the United States back to the Moon",
@@ -222,105 +238,35 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-18T17:18:22.000Z",
-      "relevanceScore": 222.92,
-      "recommendationScore": 223.42,
+      "relevanceScore": 268.87,
+      "recommendationScore": 269.37,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "LeetCode #242. Valid Anagram",
-      "link": "https://dev.to/desiato/leetcode-242-valid-anagram-2868",
+      "title": "UK drops demand for backdoor into Apple encryption",
+      "link": "https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-08-19T09:11:23.000Z",
+      "relevanceScore": 229.05,
+      "recommendationScore": 229.05,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Introducing SCAN - A Must Have Plugin",
+      "link": "https://dev.to/theaniketraj/introducing-scan-a-must-have-plugin-47jh",
       "source": "Dev.to",
-      "category": "space",
-      "pubDate": "2025-08-19T10:49:34.000Z",
-      "relevanceScore": 102.93,
-      "recommendationScore": 102.93,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Spotify now lets you create seamless transitions between songs on your custom playlists",
-      "link": "https://www.engadget.com/entertainment/music/spotify-now-lets-you-create-seamless-transitions-between-songs-on-your-custom-playlists-100051537.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-19T10:00:51.000Z",
-      "relevanceScore": 96.26,
-      "recommendationScore": 96.76,
+      "category": "cybersecurity",
+      "pubDate": "2025-08-19T11:05:40.000Z",
+      "relevanceScore": 162.93,
+      "recommendationScore": 162.93,
       "tags": [
-        "Update"
+        "Security",
+        "Breaking",
+        "Launch"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How churches use data and AI as engines of surveillance",
-      "link": "https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2025-08-19T10:00:00.000Z",
-      "relevanceScore": 92.76,
-      "recommendationScore": 94.76,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tableau Sales Dashboard Performance (Updated for 2025)",
-      "link": "https://dev.to/vamshi_e_eebe5a6287a27142/tableau-sales-dashboard-performance-updated-for-2025-2099",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-19T10:56:03.000Z",
-      "relevanceScore": 86.95,
-      "recommendationScore": 87.45,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best pizza oven for 2025",
-      "link": "https://www.engadget.com/home/kitchen-tech/best-pizza-oven-141550352.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-19T09:00:36.000Z",
-      "relevanceScore": 86.56,
-      "recommendationScore": 87.56,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "RFK Jr.’s Wi-Fi and 5G conspiracies appear to make it into MAHA report draft",
-      "link": "https://arstechnica.com/health/2025/08/maha-draft-takes-on-electromagnetic-radiation-echoing-rfk-jr-s-conspiracies/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-08-18T17:04:53.000Z",
-      "relevanceScore": 85.38,
-      "recommendationScore": 85.88,
-      "tags": [
-        "Report"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Sydney developer illegally clears hundreds of trees to build $3 million mansion; receives \"slap on the wrist\".",
-      "link": "https://www.reddit.com/r/worldnews/comments/1mu6pu6/sydney_developer_illegally_clears_hundreds_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-08-19T02:52:20.000Z",
-      "relevanceScore": 62.33,
-      "recommendationScore": 62.33,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Stop children using VPNs to watch porn, ministers told",
-      "link": "https://www.bbc.com/news/articles/cn438z3ejxyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-19T05:39:49.000Z",
-      "relevanceScore": 40.39,
-      "recommendationScore": 41.89,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -329,8 +275,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-19T11:00:00.000Z",
-      "relevanceScore": 37.46,
-      "recommendationScore": 37.96,
+      "relevanceScore": 86.91,
+      "recommendationScore": 87.41,
       "tags": [
         "AI",
         "Startup"
@@ -343,21 +289,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-19T10:28:23.000Z",
-      "relevanceScore": 31.85,
-      "recommendationScore": 32.35,
+      "relevanceScore": 74.8,
+      "recommendationScore": 75.3,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "I was sexually assaulted on a plane - now I'm fighting for compensation",
-      "link": "https://www.bbc.com/news/articles/cly6g2j67rko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-19T05:10:28.000Z",
-      "relevanceScore": 30.79,
-      "recommendationScore": 31.29,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Four key takeaways from Ukraine talks in Washington",
@@ -365,9 +300,22 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-19T01:01:32.000Z",
-      "relevanceScore": 29.96,
-      "recommendationScore": 30.46,
+      "relevanceScore": 72.91,
+      "recommendationScore": 73.41,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How churches use data and AI as engines of surveillance",
+      "link": "https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2025-08-19T10:00:00.000Z",
+      "relevanceScore": 72.71,
+      "recommendationScore": 74.71,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -376,8 +324,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-19T10:00:00.000Z",
-      "relevanceScore": 27.76,
-      "recommendationScore": 28.26,
+      "relevanceScore": 70.71,
+      "recommendationScore": 71.21,
       "tags": [
         "AI",
         "Tech"
@@ -390,64 +338,10 @@
       "source": "NPR Business",
       "category": "climate",
       "pubDate": "2025-08-19T09:39:04.000Z",
-      "relevanceScore": 27.69,
-      "recommendationScore": 28.19,
+      "relevanceScore": 70.64,
+      "recommendationScore": 71.14,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "The Mysterious Origins of the Most Energetic Neutrino Ever Detected",
-      "link": "https://www.wired.com/story/the-mysterious-origins-of-the-most-energetic-neutrino-ever-detected/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-19T11:00:00.000Z",
-      "relevanceScore": 26.96,
-      "recommendationScore": 27.46,
-      "tags": [
-        "Science",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Silicon Valley Is Panicking About Zohran Mamdani. NYC’s Tech Scene Is Not",
-      "link": "https://www.wired.com/story/tech-executives-new-york-zohran-mamdani/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-19T11:00:00.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 26.46,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "SoftBank makes $2B investment in Intel",
-      "link": "https://techcrunch.com/2025/08/18/softbank-makes-2b-investment-in-intel/",
-      "source": "TechCrunch",
-      "category": "finance",
-      "pubDate": "2025-08-19T00:23:55.000Z",
-      "relevanceScore": 25.84,
-      "recommendationScore": 25.84,
-      "tags": [
-        "Business",
-        "Funding"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "'SNL' castmember Bowen Yang shares a piece of 'cultural contraband' from his youth",
-      "link": "https://www.npr.org/2025/08/18/nx-s1-5503406/bowen-yang-snl-wicked-las-culturistas",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-08-18T18:45:34.000Z",
-      "relevanceScore": 25.71,
-      "recommendationScore": 26.21,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "An Ancient Penis Worm With Rings of Sharp Teeth Has Been Discovered in the Grand Canyon",
@@ -455,58 +349,9 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-19T09:08:33.000Z",
-      "relevanceScore": 25.59,
-      "recommendationScore": 26.09,
+      "relevanceScore": 68.54,
+      "recommendationScore": 69.04,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "UK backs down in Apple privacy row, US says",
-      "link": "https://www.bbc.com/news/articles/cdj2m3rrk74o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2025-08-19T09:05:13.000Z",
-      "relevanceScore": 25.58,
-      "recommendationScore": 25.58,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Intel shares jump as Softbank to buy $2bn stake in chip giant",
-      "link": "https://www.bbc.com/news/articles/cly4vn1nxg7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-08-19T02:06:02.000Z",
-      "relevanceScore": 24.18,
-      "recommendationScore": 24.68,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The UK will no longer require Apple to create backdoor access to users' data",
-      "link": "https://www.engadget.com/big-tech/the-uk-will-no-longer-require-apple-to-create-backdoor-access-to-users-data-110014398.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-19T11:00:14.000Z",
-      "relevanceScore": 23.96,
-      "recommendationScore": 24.46,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Nvidia’s app gets global DLSS override and more control panel features",
-      "link": "https://www.theverge.com/news/760488/nvidia-app-dlss-override-control-panel-features",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-08-18T19:30:00.000Z",
-      "relevanceScore": 23.86,
-      "recommendationScore": 24.36,
-      "tags": [
-        "Mobile",
-        "Launch"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -515,8 +360,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-08-18T19:07:52.000Z",
-      "relevanceScore": 22.79,
-      "recommendationScore": 23.29,
+      "relevanceScore": 65.74,
+      "recommendationScore": 66.24,
       "tags": [
         "Mobile"
       ],
@@ -528,10 +373,23 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-19T04:02:37.000Z",
-      "relevanceScore": 22.57,
-      "recommendationScore": 25.07,
+      "relevanceScore": 65.52,
+      "recommendationScore": 68.02,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "RFK Jr.’s Wi-Fi and 5G conspiracies appear to make it into MAHA report draft",
+      "link": "https://arstechnica.com/health/2025/08/maha-draft-takes-on-electromagnetic-radiation-echoing-rfk-jr-s-conspiracies/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-08-18T17:04:53.000Z",
+      "relevanceScore": 65.33,
+      "recommendationScore": 65.83,
+      "tags": [
+        "Report"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Soho House agrees to go private again in a deal led by hotel giant MCR",
@@ -539,36 +397,11 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-18T16:21:00.000Z",
-      "relevanceScore": 22.23,
-      "recommendationScore": 22.73,
+      "relevanceScore": 65.18,
+      "recommendationScore": 65.68,
       "tags": [
         "Partnership"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Study of 281 MCP plugins: 72% expose high-privilege actions; 1 in 10 fully exploitable",
-      "link": "https://www.reddit.com/r/programming/comments/1mubl8b/study_of_281_mcp_plugins_72_expose_highprivilege/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-19T07:19:37.000Z",
-      "relevanceScore": 22.23,
-      "recommendationScore": 22.73,
-      "tags": [
-        "Science",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "JSON.stringify got faster",
-      "link": "https://www.reddit.com/r/programming/comments/1mueqcy/jsonstringify_got_faster/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-19T10:35:10.000Z",
-      "relevanceScore": 21.88,
-      "recommendationScore": 21.88,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -577,8 +410,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-08-18T12:04:06.000Z",
-      "relevanceScore": 21.37,
-      "recommendationScore": 21.87,
+      "relevanceScore": 64.32,
+      "recommendationScore": 64.82,
       "tags": [
         "AI",
         "Tech"
@@ -591,19 +424,19 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-18T11:12:29.000Z",
-      "relevanceScore": 21.2,
-      "recommendationScore": 21.7,
+      "relevanceScore": 64.15,
+      "recommendationScore": 64.65,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Trump interrupts talks with European leaders to call Putin, says EU diplomat",
-      "link": "https://www.reddit.com/r/worldnews/comments/1mtyoaa/trump_interrupts_talks_with_european_leaders_to/",
+      "title": "Sydney developer illegally clears hundreds of trees to build $3 million mansion; receives \"slap on the wrist\".",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mu6pu6/sydney_developer_illegally_clears_hundreds_of/",
       "source": "Reddit World News",
       "category": "world",
-      "pubDate": "2025-08-18T21:10:42.000Z",
-      "relevanceScore": 21.2,
-      "recommendationScore": 21.7,
+      "pubDate": "2025-08-19T02:52:20.000Z",
+      "relevanceScore": 63.78,
+      "recommendationScore": 63.78,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -613,12 +446,183 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-08-19T04:02:43.000Z",
-      "relevanceScore": 20.07,
-      "recommendationScore": 20.57,
+      "relevanceScore": 63.02,
+      "recommendationScore": 63.52,
       "tags": [
         "AI",
         "Report"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Stop children using VPNs to watch porn, ministers told",
+      "link": "https://www.bbc.com/news/articles/cn438z3ejxyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-19T05:39:49.000Z",
+      "relevanceScore": 46.84,
+      "recommendationScore": 48.34,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Spotify now lets you create seamless transitions between songs on your custom playlists",
+      "link": "https://www.engadget.com/entertainment/music/spotify-now-lets-you-create-seamless-transitions-between-songs-on-your-custom-playlists-100051537.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-19T10:00:51.000Z",
+      "relevanceScore": 39.71,
+      "recommendationScore": 40.21,
+      "tags": [
+        "Update"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I was sexually assaulted on a plane - now I'm fighting for compensation",
+      "link": "https://www.bbc.com/news/articles/cly6g2j67rko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-19T05:10:28.000Z",
+      "relevanceScore": 30.74,
+      "recommendationScore": 31.24,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Mysterious Origins of the Most Energetic Neutrino Ever Detected",
+      "link": "https://www.wired.com/story/the-mysterious-origins-of-the-most-energetic-neutrino-ever-detected/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-19T11:00:00.000Z",
+      "relevanceScore": 26.91,
+      "recommendationScore": 27.41,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Silicon Valley Is Panicking About Zohran Mamdani. NYC’s Tech Scene Is Not",
+      "link": "https://www.wired.com/story/tech-executives-new-york-zohran-mamdani/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-19T11:00:00.000Z",
+      "relevanceScore": 25.91,
+      "recommendationScore": 26.41,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'SNL' castmember Bowen Yang shares a piece of 'cultural contraband' from his youth",
+      "link": "https://www.npr.org/2025/08/18/nx-s1-5503406/bowen-yang-snl-wicked-las-culturistas",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-08-18T18:45:34.000Z",
+      "relevanceScore": 25.66,
+      "recommendationScore": 26.16,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "UK backs down in Apple privacy row, US says",
+      "link": "https://www.bbc.com/news/articles/cdj2m3rrk74o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2025-08-19T09:05:13.000Z",
+      "relevanceScore": 25.53,
+      "recommendationScore": 25.53,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Intel shares jump as Softbank to buy $2bn stake in chip giant",
+      "link": "https://www.bbc.com/news/articles/cly4vn1nxg7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-08-19T02:06:02.000Z",
+      "relevanceScore": 24.13,
+      "recommendationScore": 24.63,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The UK will no longer require Apple to create backdoor access to users' data",
+      "link": "https://www.engadget.com/big-tech/the-uk-will-no-longer-require-apple-to-create-backdoor-access-to-users-data-110014398.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-19T11:00:14.000Z",
+      "relevanceScore": 23.91,
+      "recommendationScore": 24.41,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nvidia’s app gets global DLSS override and more control panel features",
+      "link": "https://www.theverge.com/news/760488/nvidia-app-dlss-override-control-panel-features",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-08-18T19:30:00.000Z",
+      "relevanceScore": 23.81,
+      "recommendationScore": 24.31,
+      "tags": [
+        "Mobile",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best pizza oven for 2025",
+      "link": "https://www.engadget.com/home/kitchen-tech/best-pizza-oven-141550352.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-19T09:00:36.000Z",
+      "relevanceScore": 23.51,
+      "recommendationScore": 24.51,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Study of 281 MCP plugins: 72% expose high-privilege actions; 1 in 10 fully exploitable",
+      "link": "https://www.reddit.com/r/programming/comments/1mubl8b/study_of_281_mcp_plugins_72_expose_highprivilege/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-19T07:19:37.000Z",
+      "relevanceScore": 22.17,
+      "recommendationScore": 22.67,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "JSON.stringify got faster",
+      "link": "https://www.reddit.com/r/programming/comments/1mueqcy/jsonstringify_got_faster/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-19T10:35:10.000Z",
+      "relevanceScore": 21.83,
+      "recommendationScore": 21.83,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump interrupts talks with European leaders to call Putin, says EU diplomat",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mtyoaa/trump_interrupts_talks_with_european_leaders_to/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-18T21:10:42.000Z",
+      "relevanceScore": 21.14,
+      "recommendationScore": 21.64,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -627,8 +631,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-18T20:28:48.000Z",
-      "relevanceScore": 18.56,
-      "recommendationScore": 19.06,
+      "relevanceScore": 18.51,
+      "recommendationScore": 19.01,
       "tags": [
         "Web"
       ],
@@ -636,46 +640,31 @@
     }
   ],
   "categoryIndex": {
-    "social": [
-      {
-        "title": "How algorithms are changing the way we speak",
-        "link": "https://www.npr.org/2025/08/19/nx-s1-5506168/how-algorithms-are-changing-the-way-we-speak",
-        "source": "NPR Business",
-        "pubDate": "2025-08-19T07:00:02.000Z",
-        "relevanceScore": 1542.16,
-        "tags": [
-          "Web",
-          "Social"
-        ]
-      }
-    ],
     "development": [
       {
         "title": "Highlights from Git 2.51",
         "link": "https://github.blog/open-source/git/highlights-from-git-2-51/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-18T17:04:36.000Z",
-        "relevanceScore": 1522.38,
+        "relevanceScore": 1577.32,
         "tags": [
           "Exclusive"
         ]
       },
       {
-        "title": "Tableau Sales Dashboard Performance (Updated for 2025)",
-        "link": "https://dev.to/vamshi_e_eebe5a6287a27142/tableau-sales-dashboard-performance-updated-for-2025-2099",
+        "title": "The Smart Way Pandas Handles Overlapping Column Names",
+        "link": "https://dev.to/drorata/the-smart-way-pandas-handles-overlapping-column-names-4jko",
         "source": "Dev.to",
-        "pubDate": "2025-08-19T10:56:03.000Z",
-        "relevanceScore": 86.95,
-        "tags": [
-          "Business"
-        ]
+        "pubDate": "2025-08-19T11:03:29.000Z",
+        "relevanceScore": 705.92,
+        "tags": []
       },
       {
         "title": "Study of 281 MCP plugins: 72% expose high-privilege actions; 1 in 10 fully exploitable",
         "link": "https://www.reddit.com/r/programming/comments/1mubl8b/study_of_281_mcp_plugins_72_expose_highprivilege/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-19T07:19:37.000Z",
-        "relevanceScore": 22.23,
+        "relevanceScore": 22.17,
         "tags": [
           "Science",
           "Report"
@@ -686,7 +675,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mueqcy/jsonstringify_got_faster/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-19T10:35:10.000Z",
-        "relevanceScore": 21.88,
+        "relevanceScore": 21.83,
         "tags": []
       },
       {
@@ -694,9 +683,22 @@
         "link": "https://www.reddit.com/r/programming/comments/1mtm2fn/immutable_by_default_how_to_avoid_hidden_state/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-18T13:28:50.000Z",
-        "relevanceScore": 17.66,
+        "relevanceScore": 17.61,
         "tags": [
           "Tutorial"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "title": "How algorithms are changing the way we speak",
+        "link": "https://www.npr.org/2025/08/19/nx-s1-5506168/how-algorithms-are-changing-the-way-we-speak",
+        "source": "NPR Business",
+        "pubDate": "2025-08-19T07:00:02.000Z",
+        "relevanceScore": 1469.11,
+        "tags": [
+          "Web",
+          "Social"
         ]
       }
     ],
@@ -706,9 +708,20 @@
         "link": "https://www.theverge.com/news/760219/nvidia-geforce-now-rtx-5080-cloud-gaming",
         "source": "The Verge",
         "pubDate": "2025-08-18T19:30:00.000Z",
-        "relevanceScore": 1286.86,
+        "relevanceScore": 1192.81,
         "tags": [
           "Cloud"
+        ]
+      },
+      {
+        "title": "Terraform Module Example – Resource Group Creation on Azure",
+        "link": "https://dev.to/techmademi/terraform-module-example-resource-group-creation-on-azure-281",
+        "source": "Dev.to",
+        "pubDate": "2025-08-19T11:05:25.000Z",
+        "relevanceScore": 848.93,
+        "tags": [
+          "Cloud",
+          "Tutorial"
         ]
       }
     ],
@@ -718,25 +731,15 @@
         "link": "https://abcnews.go.com/Business/wireStory/swiss-watchmaker-swatch-apologies-ad-showing-gesture-racist-124737786",
         "source": "ABC News Business",
         "pubDate": "2025-08-18T12:09:17.000Z",
-        "relevanceScore": 1158.39,
+        "relevanceScore": 1084.34,
         "tags": []
-      },
-      {
-        "title": "'SNL' castmember Bowen Yang shares a piece of 'cultural contraband' from his youth",
-        "link": "https://www.npr.org/2025/08/18/nx-s1-5503406/bowen-yang-snl-wicked-las-culturistas",
-        "source": "NPR Business",
-        "pubDate": "2025-08-18T18:45:34.000Z",
-        "relevanceScore": 25.71,
-        "tags": [
-          "Exclusive"
-        ]
       },
       {
         "title": "Soho House agrees to go private again in a deal led by hotel giant MCR",
         "link": "https://abcnews.go.com/Business/wireStory/soho-house-agrees-private-deal-led-hotel-giant-124747092",
         "source": "ABC News Business",
         "pubDate": "2025-08-18T16:21:00.000Z",
-        "relevanceScore": 22.23,
+        "relevanceScore": 65.18,
         "tags": [
           "Partnership"
         ]
@@ -746,8 +749,18 @@
         "link": "https://abcnews.go.com/Business/wireStory/asian-shares-gain-eyes-turn-meetings-white-house-124734381",
         "source": "ABC News Business",
         "pubDate": "2025-08-18T11:12:29.000Z",
-        "relevanceScore": 21.2,
+        "relevanceScore": 64.15,
         "tags": []
+      },
+      {
+        "title": "'SNL' castmember Bowen Yang shares a piece of 'cultural contraband' from his youth",
+        "link": "https://www.npr.org/2025/08/18/nx-s1-5503406/bowen-yang-snl-wicked-las-culturistas",
+        "source": "NPR Business",
+        "pubDate": "2025-08-18T18:45:34.000Z",
+        "relevanceScore": 25.66,
+        "tags": [
+          "Exclusive"
+        ]
       }
     ],
     "ai-ml": [
@@ -756,7 +769,7 @@
         "link": "https://www.technologyreview.com/2025/08/19/1122021/should-ai-flatter-us-fix-us-or-just-inform-us/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-19T09:00:00.000Z",
-        "relevanceScore": 779.56,
+        "relevanceScore": 861.51,
         "tags": [
           "AI",
           "Launch"
@@ -767,29 +780,18 @@
         "link": "https://techcrunch.com/2025/08/18/openai-launches-a-sub-5-chatgpt-plan-in-india/",
         "source": "TechCrunch",
         "pubDate": "2025-08-19T03:57:15.000Z",
-        "relevanceScore": 776.55,
+        "relevanceScore": 858.5,
         "tags": []
       },
       {
-        "title": "How to Make Your AI Agents Reliable: A Comprehensive Guide for Developers",
-        "link": "https://dev.to/kuldeep_paul/how-to-make-your-ai-agents-reliable-a-comprehensive-guide-for-developers-i5p",
-        "source": "Dev.to",
-        "pubDate": "2025-08-19T10:58:33.000Z",
-        "relevanceScore": 438.95,
+        "title": "The Morning After: What to expect at Google’s Pixel 10 event tomorrow",
+        "link": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-111518622.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-19T11:15:18.000Z",
+        "relevanceScore": 309.46,
         "tags": [
           "AI",
-          "Tutorial",
-          "Innovation"
-        ]
-      },
-      {
-        "title": "How churches use data and AI as engines of surveillance",
-        "link": "https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-08-19T10:00:00.000Z",
-        "relevanceScore": 92.76,
-        "tags": [
-          "AI"
+          "Tech"
         ]
       },
       {
@@ -797,10 +799,20 @@
         "link": "https://techcrunch.com/2025/08/19/ai-crawler-firecrawl-raises-14-5m-is-still-looking-to-hire-agents-as-employees/",
         "source": "TechCrunch",
         "pubDate": "2025-08-19T11:00:00.000Z",
-        "relevanceScore": 37.46,
+        "relevanceScore": 86.91,
         "tags": [
           "AI",
           "Startup"
+        ]
+      },
+      {
+        "title": "How churches use data and AI as engines of surveillance",
+        "link": "https://www.technologyreview.com/2025/08/19/1121389/ai-data-church-surveillance-america/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-08-19T10:00:00.000Z",
+        "relevanceScore": 72.71,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -808,7 +820,7 @@
         "link": "https://techcrunch.com/2025/08/19/eight-sleep-grabs-100m-to-bring-ai-into-your-bed/",
         "source": "TechCrunch",
         "pubDate": "2025-08-19T10:00:00.000Z",
-        "relevanceScore": 27.76,
+        "relevanceScore": 70.71,
         "tags": [
           "AI",
           "Tech"
@@ -819,7 +831,7 @@
         "link": "https://www.bbc.com/news/articles/c3dpmlvx1k2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-18T12:04:06.000Z",
-        "relevanceScore": 21.37,
+        "relevanceScore": 64.32,
         "tags": [
           "AI",
           "Tech"
@@ -830,7 +842,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mu85io/mit_report_95_of_generative_ai_pilots_at/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-19T04:02:43.000Z",
-        "relevanceScore": 20.07,
+        "relevanceScore": 63.02,
         "tags": [
           "AI",
           "Report"
@@ -843,15 +855,7 @@
         "link": "https://www.bbc.com/news/articles/ckgjye15zdlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-18T20:51:15.000Z",
-        "relevanceScore": 779.13,
-        "tags": []
-      },
-      {
-        "title": "Stop children using VPNs to watch porn, ministers told",
-        "link": "https://www.bbc.com/news/articles/cn438z3ejxyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-19T05:39:49.000Z",
-        "relevanceScore": 40.39,
+        "relevanceScore": 795.08,
         "tags": []
       },
       {
@@ -859,15 +863,7 @@
         "link": "https://www.bbc.com/news/articles/c5y042g11yvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-19T10:28:23.000Z",
-        "relevanceScore": 31.85,
-        "tags": []
-      },
-      {
-        "title": "I was sexually assaulted on a plane - now I'm fighting for compensation",
-        "link": "https://www.bbc.com/news/articles/cly6g2j67rko?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-19T05:10:28.000Z",
-        "relevanceScore": 30.79,
+        "relevanceScore": 74.8,
         "tags": []
       },
       {
@@ -875,7 +871,23 @@
         "link": "https://www.bbc.com/news/articles/c5yp4jggrj2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-19T01:01:32.000Z",
-        "relevanceScore": 29.96,
+        "relevanceScore": 72.91,
+        "tags": []
+      },
+      {
+        "title": "Stop children using VPNs to watch porn, ministers told",
+        "link": "https://www.bbc.com/news/articles/cn438z3ejxyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-19T05:39:49.000Z",
+        "relevanceScore": 46.84,
+        "tags": []
+      },
+      {
+        "title": "I was sexually assaulted on a plane - now I'm fighting for compensation",
+        "link": "https://www.bbc.com/news/articles/cly6g2j67rko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-19T05:10:28.000Z",
+        "relevanceScore": 30.74,
         "tags": []
       }
     ],
@@ -885,9 +897,23 @@
         "link": "https://www.technologyreview.com/2025/08/19/1121384/apple-airpod-pro-2-hearing-aid/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-19T10:00:00.000Z",
-        "relevanceScore": 743.76,
+        "relevanceScore": 794.71,
         "tags": [
           "Tech"
+        ]
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "Figure’s IPO filing marks Mike Cagney’s return to public markets",
+        "link": "https://techcrunch.com/2025/08/19/figures-ipo-filing-marks-mike-cagneys-return-to-public-markets/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-19T11:23:41.000Z",
+        "relevanceScore": 703.49,
+        "tags": [
+          "Tech",
+          "Startup",
+          "IPO"
         ]
       }
     ],
@@ -897,7 +923,7 @@
         "link": "https://arstechnica.com/tech-policy/2025/08/elon-musks-thermonuclear-media-matters-lawsuit-may-be-fizzling-out/",
         "source": "Ars Technica",
         "pubDate": "2025-08-18T18:42:08.000Z",
-        "relevanceScore": 618.7,
+        "relevanceScore": 621.65,
         "tags": [
           "Exclusive"
         ]
@@ -907,7 +933,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mu9z2j/mozilla_warns_germany_could_soon_declare_ad/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-19T05:43:27.000Z",
-        "relevanceScore": 616.9,
+        "relevanceScore": 619.85,
         "tags": []
       },
       {
@@ -915,15 +941,7 @@
         "link": "https://www.wired.com/story/people-are-trying-to-deprogram-their-maga-parents-through-book-clubs/",
         "source": "Wired",
         "pubDate": "2025-08-19T11:00:00.000Z",
-        "relevanceScore": 364.96,
-        "tags": []
-      },
-      {
-        "title": "UK drops demand for backdoor into Apple encryption",
-        "link": "https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped",
-        "source": "The Verge",
-        "pubDate": "2025-08-19T09:11:23.000Z",
-        "relevanceScore": 301.1,
+        "relevanceScore": 367.91,
         "tags": []
       },
       {
@@ -931,25 +949,23 @@
         "link": "https://arstechnica.com/space/2025/08/after-recent-tests-china-appears-likely-to-beat-the-united-states-back-to-the-moon/",
         "source": "Ars Technica",
         "pubDate": "2025-08-18T17:18:22.000Z",
-        "relevanceScore": 222.92,
+        "relevanceScore": 268.87,
         "tags": []
       },
       {
-        "title": "Spotify now lets you create seamless transitions between songs on your custom playlists",
-        "link": "https://www.engadget.com/entertainment/music/spotify-now-lets-you-create-seamless-transitions-between-songs-on-your-custom-playlists-100051537.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-19T10:00:51.000Z",
-        "relevanceScore": 96.26,
-        "tags": [
-          "Update"
-        ]
+        "title": "UK drops demand for backdoor into Apple encryption",
+        "link": "https://www.theverge.com/news/761240/uk-apple-us-encryption-back-door-demands-dropped",
+        "source": "The Verge",
+        "pubDate": "2025-08-19T09:11:23.000Z",
+        "relevanceScore": 229.05,
+        "tags": []
       },
       {
-        "title": "The best pizza oven for 2025",
-        "link": "https://www.engadget.com/home/kitchen-tech/best-pizza-oven-141550352.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-19T09:00:36.000Z",
-        "relevanceScore": 86.56,
+        "title": "An Ancient Penis Worm With Rings of Sharp Teeth Has Been Discovered in the Grand Canyon",
+        "link": "https://www.wired.com/story/an-ancient-penis-worm-with-rings-of-sharp-teeth-has-been-discovered-in-the-grand-canyon/",
+        "source": "Wired",
+        "pubDate": "2025-08-19T09:08:33.000Z",
+        "relevanceScore": 68.54,
         "tags": []
       },
       {
@@ -957,9 +973,19 @@
         "link": "https://arstechnica.com/health/2025/08/maha-draft-takes-on-electromagnetic-radiation-echoing-rfk-jr-s-conspiracies/",
         "source": "Ars Technica",
         "pubDate": "2025-08-18T17:04:53.000Z",
-        "relevanceScore": 85.38,
+        "relevanceScore": 65.33,
         "tags": [
           "Report"
+        ]
+      },
+      {
+        "title": "Spotify now lets you create seamless transitions between songs on your custom playlists",
+        "link": "https://www.engadget.com/entertainment/music/spotify-now-lets-you-create-seamless-transitions-between-songs-on-your-custom-playlists-100051537.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-19T10:00:51.000Z",
+        "relevanceScore": 39.71,
+        "tags": [
+          "Update"
         ]
       },
       {
@@ -967,7 +993,7 @@
         "link": "https://www.wired.com/story/the-mysterious-origins-of-the-most-energetic-neutrino-ever-detected/",
         "source": "Wired",
         "pubDate": "2025-08-19T11:00:00.000Z",
-        "relevanceScore": 26.96,
+        "relevanceScore": 26.91,
         "tags": [
           "Science",
           "Report"
@@ -978,25 +1004,17 @@
         "link": "https://www.wired.com/story/tech-executives-new-york-zohran-mamdani/",
         "source": "Wired",
         "pubDate": "2025-08-19T11:00:00.000Z",
-        "relevanceScore": 25.96,
+        "relevanceScore": 25.91,
         "tags": [
           "Tech"
         ]
-      },
-      {
-        "title": "An Ancient Penis Worm With Rings of Sharp Teeth Has Been Discovered in the Grand Canyon",
-        "link": "https://www.wired.com/story/an-ancient-penis-worm-with-rings-of-sharp-teeth-has-been-discovered-in-the-grand-canyon/",
-        "source": "Wired",
-        "pubDate": "2025-08-19T09:08:33.000Z",
-        "relevanceScore": 25.59,
-        "tags": []
       },
       {
         "title": "Intel shares jump as Softbank to buy $2bn stake in chip giant",
         "link": "https://www.bbc.com/news/articles/cly4vn1nxg7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-19T02:06:02.000Z",
-        "relevanceScore": 24.18,
+        "relevanceScore": 24.13,
         "tags": []
       },
       {
@@ -1004,7 +1022,15 @@
         "link": "https://www.engadget.com/big-tech/the-uk-will-no-longer-require-apple-to-create-backdoor-access-to-users-data-110014398.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-19T11:00:14.000Z",
-        "relevanceScore": 23.96,
+        "relevanceScore": 23.91,
+        "tags": []
+      },
+      {
+        "title": "The best pizza oven for 2025",
+        "link": "https://www.engadget.com/home/kitchen-tech/best-pizza-oven-141550352.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-19T09:00:36.000Z",
+        "relevanceScore": 23.51,
         "tags": []
       },
       {
@@ -1012,7 +1038,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mtxjhx/porn_censorship_is_going_to_destroy_the_entire/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-18T20:28:48.000Z",
-        "relevanceScore": 18.56,
+        "relevanceScore": 18.51,
         "tags": [
           "Web"
         ]
@@ -1024,18 +1050,10 @@
         "link": "https://www.theverge.com/news/760479/nvidia-rtx-hair-indiana-jones-game",
         "source": "The Verge",
         "pubDate": "2025-08-18T19:30:00.000Z",
-        "relevanceScore": 535.36,
+        "relevanceScore": 463.81,
         "tags": [
           "Exclusive"
         ]
-      },
-      {
-        "title": "The best gaming handhelds for 2025",
-        "link": "https://www.engadget.com/gaming/best-handheld-gaming-system-140018863.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-19T07:00:36.000Z",
-        "relevanceScore": 525.16,
-        "tags": []
       }
     ],
     "entertainment": [
@@ -1044,44 +1062,32 @@
         "link": "https://techcrunch.com/2025/08/19/spotifys-latest-feature-lets-you-add-your-own-transitions-to-playlists/",
         "source": "TechCrunch",
         "pubDate": "2025-08-19T10:00:00.000Z",
-        "relevanceScore": 403.76,
+        "relevanceScore": 408.71,
         "tags": []
       }
     ],
-    "space": [
+    "cybersecurity": [
       {
-        "title": "LeetCode #242. Valid Anagram",
-        "link": "https://dev.to/desiato/leetcode-242-valid-anagram-2868",
+        "title": "Introducing SCAN - A Must Have Plugin",
+        "link": "https://dev.to/theaniketraj/introducing-scan-a-must-have-plugin-47jh",
         "source": "Dev.to",
-        "pubDate": "2025-08-19T10:49:34.000Z",
-        "relevanceScore": 102.93,
-        "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "Sydney developer illegally clears hundreds of trees to build $3 million mansion; receives \"slap on the wrist\".",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mu6pu6/sydney_developer_illegally_clears_hundreds_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-19T02:52:20.000Z",
-        "relevanceScore": 62.33,
-        "tags": []
+        "pubDate": "2025-08-19T11:05:40.000Z",
+        "relevanceScore": 162.93,
+        "tags": [
+          "Security",
+          "Breaking",
+          "Launch"
+        ]
       },
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1272, Part 1 (Thread #1419)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mu85gc/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-19T04:02:37.000Z",
-        "relevanceScore": 22.57,
-        "tags": []
-      },
-      {
-        "title": "Trump interrupts talks with European leaders to call Putin, says EU diplomat",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mtyoaa/trump_interrupts_talks_with_european_leaders_to/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-18T21:10:42.000Z",
-        "relevanceScore": 21.2,
-        "tags": []
+        "title": "UK backs down in Apple privacy row, US says",
+        "link": "https://www.bbc.com/news/articles/cdj2m3rrk74o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-19T09:05:13.000Z",
+        "relevanceScore": 25.53,
+        "tags": [
+          "Security"
+        ]
       }
     ],
     "climate": [
@@ -1090,63 +1096,64 @@
         "link": "https://www.npr.org/2025/08/19/nx-s1-5501576/climate-pollution-epa-regulation-endangerment-finding",
         "source": "NPR Business",
         "pubDate": "2025-08-19T09:39:04.000Z",
-        "relevanceScore": 27.69,
+        "relevanceScore": 70.64,
         "tags": []
       }
     ],
-    "finance": [
-      {
-        "title": "SoftBank makes $2B investment in Intel",
-        "link": "https://techcrunch.com/2025/08/18/softbank-makes-2b-investment-in-intel/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-19T00:23:55.000Z",
-        "relevanceScore": 25.84,
-        "tags": [
-          "Business",
-          "Funding"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "UK backs down in Apple privacy row, US says",
-        "link": "https://www.bbc.com/news/articles/cdj2m3rrk74o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-19T09:05:13.000Z",
-        "relevanceScore": 25.58,
-        "tags": [
-          "Security"
-        ]
-      }
-    ],
     "mobile": [
-      {
-        "title": "Nvidia’s app gets global DLSS override and more control panel features",
-        "link": "https://www.theverge.com/news/760488/nvidia-app-dlss-override-control-panel-features",
-        "source": "The Verge",
-        "pubDate": "2025-08-18T19:30:00.000Z",
-        "relevanceScore": 23.86,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
-      },
       {
         "title": "T-Mobile claimed selling location data without consent is legal—judges disagree",
         "link": "https://arstechnica.com/tech-policy/2025/08/t-mobile-claimed-selling-location-data-without-consent-is-legal-judges-disagree/",
         "source": "Ars Technica",
         "pubDate": "2025-08-18T19:07:52.000Z",
-        "relevanceScore": 22.79,
+        "relevanceScore": 65.74,
         "tags": [
           "Mobile"
         ]
+      },
+      {
+        "title": "Nvidia’s app gets global DLSS override and more control panel features",
+        "link": "https://www.theverge.com/news/760488/nvidia-app-dlss-override-control-panel-features",
+        "source": "The Verge",
+        "pubDate": "2025-08-18T19:30:00.000Z",
+        "relevanceScore": 23.81,
+        "tags": [
+          "Mobile",
+          "Launch"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1272, Part 1 (Thread #1419)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mu85gc/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-19T04:02:37.000Z",
+        "relevanceScore": 65.52,
+        "tags": []
+      },
+      {
+        "title": "Sydney developer illegally clears hundreds of trees to build $3 million mansion; receives \"slap on the wrist\".",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mu6pu6/sydney_developer_illegally_clears_hundreds_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-19T02:52:20.000Z",
+        "relevanceScore": 63.78,
+        "tags": []
+      },
+      {
+        "title": "Trump interrupts talks with European leaders to call Putin, says EU diplomat",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mtyoaa/trump_interrupts_talks_with_european_leaders_to/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-18T21:10:42.000Z",
+        "relevanceScore": 21.14,
+        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 15,
-    "totalCategories": 16,
-    "avgRelevanceScore": 272.84450980392154,
+    "totalCategories": 15,
+    "avgRelevanceScore": 309.72823529411755,
     "topCategories": [
       {
         "category": "tech",
