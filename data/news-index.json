@@ -1,7 +1,71 @@
 {
-  "lastUpdated": "2025-08-21T23:48:20.264Z",
+  "lastUpdated": "2025-08-22T01:06:39.500Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2025-08-22",
+      "file": "2025-08-22.json",
+      "totalArticles": 56,
+      "lastUpdated": "2025-08-22T01:06:39.480Z",
+      "sources": [
+        "Reddit Programming",
+        "MIT Technology Review",
+        "Stack Overflow Blog",
+        "BBC News",
+        "The Verge",
+        "BBC Technology",
+        "Reddit World News",
+        "TechCrunch",
+        "Dev.to",
+        "Ars Technica",
+        "Engadget",
+        "NPR Business",
+        "Wired",
+        "GitHub Blog",
+        "ABC News Business",
+        "Reddit Technology"
+      ],
+      "categories": [
+        "development",
+        "science",
+        "general",
+        "tech",
+        "world",
+        "business"
+      ],
+      "topArticles": [
+        {
+          "title": "The Death of the Page Cache? From mmap() to NVMe-ZNS and User-Space File Systems",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1mwey6c/the_death_of_the_page_cache_from_mmap_to_nvmezns/",
+          "relevanceScore": 919.4191001388889
+        },
+        {
+          "title": "In a first, Google has released data on how much energy an AI prompt uses",
+          "source": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
+          "relevanceScore": 710
+        },
+        {
+          "title": "Documents: The architect’s programming language",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2025/08/20/documents-the-architect-s-programming-language/",
+          "relevanceScore": 656
+        },
+        {
+          "title": "Do asylum figures show if government's strategy is working?",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 598.6232669444445
+        },
+        {
+          "title": "Here are the best streaming service deals available right now",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
+          "relevanceScore": 593.7386836111111
+        }
+      ]
+    },
     {
       "date": "2025-08-21",
       "file": "2025-08-21.json",
@@ -38,31 +102,31 @@
           "title": "The Death of the Page Cache? From mmap() to NVMe-ZNS and User-Space File Systems",
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1mwey6c/the_death_of_the_page_cache_from_mmap_to_nvmezns/",
-          "relevanceScore": 896.0717716666667
+          "relevanceScore": 882.43
         },
         {
           "title": "Here are the best streaming service deals available right now",
           "source": "The Verge",
           "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
-          "relevanceScore": 854.3913551388889
+          "relevanceScore": 866.76
         },
         {
           "title": "Do asylum figures show if government's strategy is working?",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 833.2759384722223
+          "relevanceScore": 852.51
         },
         {
           "title": "In a first, Google has released data on how much energy an AI prompt uses",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
-          "relevanceScore": 708
+          "relevanceScore": 725.64
         },
         {
           "title": "Microsoft boss troubled by rise in reports of 'AI psychosis'",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/c24zdel5j18o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 562
+          "relevanceScore": 571.76
         }
       ]
     },
@@ -1819,70 +1883,6 @@
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2025/07/24/1120645/americas-ai-watchdog-is-losing-its-bite/",
           "relevanceScore": 799.03
-        }
-      ]
-    },
-    {
-      "date": "2025-07-23",
-      "file": "2025-07-23.json",
-      "totalArticles": 55,
-      "lastUpdated": "2025-07-23T23:51:06.181Z",
-      "sources": [
-        "Engadget",
-        "The Verge",
-        "Stack Overflow Blog",
-        "TechCrunch",
-        "Reddit Programming",
-        "Dev.to",
-        "GitHub Blog",
-        "Wired",
-        "BBC News",
-        "MIT Technology Review",
-        "BBC Technology",
-        "Ars Technica",
-        "ABC News Business",
-        "Reddit World News",
-        "NPR Business",
-        "Reddit Technology"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "general",
-        "science",
-        "business",
-        "world"
-      ],
-      "topArticles": [
-        {
-          "title": "What to expect at the Google Pixel 10 launch event on August 20",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/mobile/smartphones/what-to-expect-at-the-google-pixel-10-launch-event-on-august-20-214510264.html?src=rss",
-          "relevanceScore": 1555.58
-        },
-        {
-          "title": "Google leaks its full Pixel 10 lineup",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/news/712693/google-leaks-entire-pixel-10-lineup-play-store",
-          "relevanceScore": 1002.59
-        },
-        {
-          "title": "Building better platforms with continuous discovery",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2025/07/23/building-better-platforms-with-continuous-discovery/",
-          "relevanceScore": 737.43
-        },
-        {
-          "title": "Sundar Pichai is ‘very excited’ about Google Cloud’s OpenAI partnership",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2025/07/23/sundar-pichai-is-very-excited-about-google-clouds-openai-partnership/",
-          "relevanceScore": 674.71
-        },
-        {
-          "title": "It's really time tech workers start talking about unionizing - Rumors of heavy layoffs at Amazon, targeting high-senior devs",
-          "source": "Reddit Programming",
-          "link": "https://www.reddit.com/r/programming/comments/1m6krap/its_really_time_tech_workers_start_talking_about/",
-          "relevanceScore": 710.97
         }
       ]
     }

@@ -1,23 +1,24 @@
 {
-  "lastUpdated": "2025-08-21T23:48:20.351Z",
+  "lastUpdated": "2025-08-22T01:06:39.585Z",
   "totalArticles": 56,
   "categories": [
     "space",
-    "entertainment",
-    "general",
     "ai-ml",
     "development",
-    "climate",
+    "general",
+    "entertainment",
+    "world",
     "social",
+    "climate",
     "startup",
     "science",
-    "tech",
-    "mobile",
-    "world",
-    "business",
-    "finance",
     "gaming",
-    "education"
+    "tech",
+    "finance",
+    "education",
+    "business",
+    "cloud",
+    "mobile"
   ],
   "topArticles": [
     {
@@ -26,32 +27,10 @@
       "source": "Reddit Programming",
       "category": "space",
       "pubDate": "2025-08-21T15:56:57.000Z",
-      "relevanceScore": 882.43,
-      "recommendationScore": 882.93,
+      "relevanceScore": 910.17,
+      "recommendationScore": 910.67,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Here are the best streaming service deals available right now",
-      "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-08-21T22:35:18.000Z",
-      "relevanceScore": 866.76,
-      "recommendationScore": 868.26,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Do asylum figures show if government's strategy is working?",
-      "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-21T16:21:27.000Z",
-      "relevanceScore": 852.51,
-      "recommendationScore": 854.51,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "In a first, Google has released data on how much energy an AI prompt uses",
@@ -59,25 +38,12 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-21T12:00:00.000Z",
-      "relevanceScore": 725.64,
-      "recommendationScore": 729.64,
+      "relevanceScore": 699.88,
+      "recommendationScore": 703.88,
       "tags": [
         "AI",
         "Exclusive",
         "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Microsoft boss troubled by rise in reports of 'AI psychosis'",
-      "link": "https://www.bbc.com/news/articles/c24zdel5j18o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-08-20T16:36:03.000Z",
-      "relevanceScore": 571.76,
-      "recommendationScore": 572.26,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -87,37 +53,57 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-08-20T14:00:00.000Z",
-      "relevanceScore": 485.74,
-      "recommendationScore": 485.74,
+      "relevanceScore": 646.98,
+      "recommendationScore": 646.98,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Netflix signs up another YouTube star with Mark Rober deal",
-      "link": "https://www.bbc.com/news/articles/c20939pp04po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "space",
-      "pubDate": "2025-08-21T11:26:08.000Z",
-      "relevanceScore": 473.53,
-      "recommendationScore": 474.03,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
+      "title": "Do asylum figures show if government's strategy is working?",
+      "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-21T16:21:27.000Z",
+      "relevanceScore": 602.25,
+      "recommendationScore": 604.25,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
-      "title": "The Download: Ukraine’s Starlink repair shop, and predicting solar storms",
-      "link": "https://www.technologyreview.com/2025/08/21/1122298/the-download-ukraines-starlink-repair-shop-and-predicting-solar-storms/",
-      "source": "MIT Technology Review",
-      "category": "climate",
-      "pubDate": "2025-08-21T12:10:00.000Z",
-      "relevanceScore": 440.67,
-      "recommendationScore": 441.17,
+      "title": "Here are the best streaming service deals available right now",
+      "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-08-21T22:35:18.000Z",
+      "relevanceScore": 563,
+      "recommendationScore": 564.5,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Microsoft boss troubled by rise in reports of 'AI psychosis'",
+      "link": "https://www.bbc.com/news/articles/c24zdel5j18o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-08-20T16:36:03.000Z",
+      "relevanceScore": 540,
+      "recommendationScore": 540.5,
       "tags": [
-        "Tech"
+        "AI"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zelenskyy: The signals Russia is sending out are obscene; pressure must continue",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mwmwuj/zelenskyy_the_signals_russia_is_sending_out_are/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-21T20:53:06.000Z",
+      "relevanceScore": 516.15,
+      "recommendationScore": 516.65,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -126,21 +112,21 @@
       "source": "TechCrunch",
       "category": "social",
       "pubDate": "2025-08-21T19:52:20.000Z",
-      "relevanceScore": 399.21,
-      "recommendationScore": 399.71,
+      "relevanceScore": 415.45,
+      "recommendationScore": 415.95,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "IGN: Hollow Knight: Silksong Release Date Trailer Reaction Livestream | gamescom 2025",
-      "link": "https://dev.to/gg_news/ign-hollow-knight-silksong-release-date-trailer-reaction-livestream-gamescom-2025-56fo",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-21T22:00:36.000Z",
-      "relevanceScore": 383.14,
-      "recommendationScore": 383.64,
+      "title": "The Download: Ukraine’s Starlink repair shop, and predicting solar storms",
+      "link": "https://www.technologyreview.com/2025/08/21/1122298/the-download-ukraines-starlink-repair-shop-and-predicting-solar-storms/",
+      "source": "MIT Technology Review",
+      "category": "climate",
+      "pubDate": "2025-08-21T12:10:00.000Z",
+      "relevanceScore": 398.91,
+      "recommendationScore": 399.41,
       "tags": [
-        "Launch"
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -150,8 +136,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-21T20:02:47.000Z",
-      "relevanceScore": 374.75,
-      "recommendationScore": 375.25,
+      "relevanceScore": 393.49,
+      "recommendationScore": 393.99,
       "tags": [
         "Startup",
         "Funding"
@@ -164,9 +150,35 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-08-21T10:00:00.000Z",
-      "relevanceScore": 351.74,
-      "recommendationScore": 353.74,
+      "relevanceScore": 367.48,
+      "recommendationScore": 369.48,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Netflix’s new Splinter Cell animated series kicks off in October",
+      "link": "https://www.theverge.com/netflix/763821/netflix-splinter-cell-deathwatch-release-date-trailer",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-08-22T00:00:00.000Z",
+      "relevanceScore": 320.28,
+      "recommendationScore": 322.78,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "IGN: Metal Eden - New Gameplay Trailer",
+      "link": "https://dev.to/gg_news/ign-metal-eden-new-gameplay-trailer-1dea",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2025-08-22T00:02:19.000Z",
+      "relevanceScore": 318.29,
+      "recommendationScore": 320.29,
+      "tags": [
+        "Launch"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -175,8 +187,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-08-21T22:06:37.000Z",
-      "relevanceScore": 285.66,
-      "recommendationScore": 286.16,
+      "relevanceScore": 230.9,
+      "recommendationScore": 231.4,
       "tags": [
         "AI"
       ],
@@ -188,8 +200,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-21T20:56:57.000Z",
-      "relevanceScore": 189.43,
-      "recommendationScore": 189.93,
+      "relevanceScore": 205.17,
+      "recommendationScore": 205.67,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -199,22 +211,11 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-08-21T21:05:36.000Z",
-      "relevanceScore": 187.46,
-      "recommendationScore": 187.46,
+      "relevanceScore": 203.2,
+      "recommendationScore": 203.2,
       "tags": [
         "Update"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Polyphonic: Why Does Jazz Use Those Instruments?",
-      "link": "https://dev.to/music_youtube/polyphonic-why-does-jazz-use-those-instruments-468c",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-21T22:02:43.000Z",
-      "relevanceScore": 185.65,
-      "recommendationScore": 187.15,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -223,8 +224,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-21T21:36:27.000Z",
-      "relevanceScore": 185.56,
-      "recommendationScore": 186.06,
+      "relevanceScore": 201.3,
+      "recommendationScore": 201.8,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -234,24 +235,44 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-21T21:21:58.000Z",
-      "relevanceScore": 185.51,
-      "recommendationScore": 186.01,
+      "relevanceScore": 201.25,
+      "recommendationScore": 201.75,
       "tags": [
         "Web"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Trump Mobile is promoting its smartphone with terribly edited photos of other brands' products",
-      "link": "https://www.engadget.com/mobile/smartphones/trump-mobile-is-promoting-its-smartphone-with-terribly-edited-photos-of-other-brands-products-222940375.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-08-21T22:29:43.000Z",
-      "relevanceScore": 161.74,
-      "recommendationScore": 162.24,
-      "tags": [
-        "Mobile"
-      ],
+      "title": "With Fed under pressure, Jerome Powell prepares for a high-stakes speech",
+      "link": "https://www.npr.org/2025/08/21/nx-s1-5509586/federal-reserve-jerome-powell-jackson-hole-speech",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-08-21T17:27:32.000Z",
+      "relevanceScore": 174.97,
+      "recommendationScore": 175.47,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Learning in the flow: Unlocking employee potential through continuous learning",
+      "link": "https://stackoverflow.blog/2025/08/21/learning-in-the-flow-unlocking-employee-potential-through-continuous-learning/",
+      "source": "Stack Overflow Blog",
+      "category": "education",
+      "pubDate": "2025-08-21T07:40:00.000Z",
+      "relevanceScore": 141.51,
+      "recommendationScore": 142.01,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The race for the two miles-a-second super weapons that Putin says turn targets to dust",
+      "link": "https://www.bbc.com/news/articles/cgeqj1q8gj4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-21T23:24:37.000Z",
+      "relevanceScore": 130.66,
+      "recommendationScore": 131.16,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -260,22 +281,38 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-21T17:04:06.000Z",
-      "relevanceScore": 136.65,
-      "recommendationScore": 137.15,
+      "relevanceScore": 84.89,
+      "recommendationScore": 85.39,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Trump steps back from Russia and Ukraine peace talks for now, sources say",
-      "link": "https://www.reddit.com/r/worldnews/comments/1mwbmci/trump_steps_back_from_russia_and_ukraine_peace/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-08-21T13:55:32.000Z",
-      "relevanceScore": 134.02,
-      "recommendationScore": 134.52,
-      "tags": [],
+      "title": "Ukrainian startup makes drones — and soon, cruise missiles — to strike inside Russia",
+      "link": "https://abcnews.go.com/Business/wireStory/ukrainian-startup-makes-drones-cruise-missiles-strike-deep-124836676",
+      "source": "ABC News Business",
+      "category": "startup",
+      "pubDate": "2025-08-21T06:31:20.000Z",
+      "relevanceScore": 68.28,
+      "recommendationScore": 68.78,
+      "tags": [
+        "Tech",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Who will maintain the future? Rethinking open source leadership for a new generation",
+      "link": "https://github.blog/open-source/maintainers/who-will-maintain-the-future-rethinking-open-source-leadership-for-a-new-generation/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-08-20T16:00:00.000Z",
+      "relevanceScore": 66.38,
+      "recommendationScore": 68.88,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -284,8 +321,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-21T20:41:53.000Z",
-      "relevanceScore": 129.38,
-      "recommendationScore": 129.88,
+      "relevanceScore": 58.62,
+      "recommendationScore": 59.12,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -295,23 +332,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-21T15:59:35.000Z",
-      "relevanceScore": 128.44,
-      "recommendationScore": 128.44,
+      "relevanceScore": 57.68,
+      "recommendationScore": 57.68,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Who will maintain the future? Rethinking open source leadership for a new generation",
-      "link": "https://github.blog/open-source/maintainers/who-will-maintain-the-future-rethinking-open-source-leadership-for-a-new-generation/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-08-20T16:00:00.000Z",
-      "relevanceScore": 127.64,
-      "recommendationScore": 130.14,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
+      "title": "OpenAI lawyers question Meta’s role in Elon Musk’s $97B takeover bid",
+      "link": "https://techcrunch.com/2025/08/21/openai-lawyers-question-metas-role-in-elon-musks-97b-takeover-bid/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-08-22T00:31:38.000Z",
+      "relevanceScore": 55.38,
+      "recommendationScore": 55.88,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Walmart says tariff costs are rising 'each week' and will continue",
@@ -319,21 +354,24 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-21T15:55:32.000Z",
-      "relevanceScore": 125.42,
-      "recommendationScore": 125.92,
+      "relevanceScore": 54.66,
+      "recommendationScore": 55.16,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "With Fed under pressure, Jerome Powell prepares for a high-stakes speech",
-      "link": "https://www.npr.org/2025/08/21/nx-s1-5509586/federal-reserve-jerome-powell-jackson-hole-speech",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-08-21T17:27:32.000Z",
-      "relevanceScore": 124.73,
-      "recommendationScore": 125.23,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "4chan will refuse to pay daily online safety fines, lawyer tells BBC",
+      "link": "https://www.bbc.com/news/articles/cq68j5g2nr1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-08-21T23:45:55.000Z",
+      "relevanceScore": 53.23,
+      "recommendationScore": 53.73,
+      "tags": [
+        "Business",
+        "Web"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "'I regret that I didn't fight harder,' former labor secretary Robert Reich says",
@@ -341,8 +379,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-21T15:30:39.000Z",
-      "relevanceScore": 123.84,
-      "recommendationScore": 124.34,
+      "relevanceScore": 53.08,
+      "recommendationScore": 53.58,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -352,22 +390,21 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-21T18:49:35.000Z",
-      "relevanceScore": 123,
-      "recommendationScore": 125.5,
+      "relevanceScore": 52.24,
+      "recommendationScore": 54.74,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Microsoft&#8217;s new NFL deal could let you blame Copilot AI for terrible playcalls",
-      "link": "https://www.theverge.com/news/763928/nfl-microsoft-copilot-surface-ai",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2025-08-21T20:59:31.000Z",
-      "relevanceScore": 122.94,
-      "recommendationScore": 125.44,
+      "title": "[Boost]",
+      "link": "https://dev.to/elizabethfuentes12/-mhh",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-08-22T00:31:58.000Z",
+      "relevanceScore": 51.38,
+      "recommendationScore": 51.38,
       "tags": [
-        "AI",
-        "Partnership"
+        "Cloud"
       ],
       "readingLevel": "advanced"
     },
@@ -377,35 +414,24 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-08-21T12:55:28.000Z",
-      "relevanceScore": 121.82,
-      "recommendationScore": 122.32,
+      "relevanceScore": 51.06,
+      "recommendationScore": 51.56,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "BEIDI DINA SAMUEL : Le spécialiste qui Bâtit la Cybersécurité depuis Maroua",
-      "link": "https://dev.to/samglish/beidi-dina-samuel-le-specialiste-qui-batit-la-cybersecurite-depuis-maroua-4dfm",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-21T22:08:14.000Z",
-      "relevanceScore": 121.67,
-      "recommendationScore": 122.17,
+      "title": "Trump Mobile is promoting its smartphone with terribly edited photos of other brands' products",
+      "link": "https://www.engadget.com/mobile/smartphones/trump-mobile-is-promoting-its-smartphone-with-terribly-edited-photos-of-other-brands-products-222940375.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-08-21T22:29:43.000Z",
+      "relevanceScore": 50.98,
+      "recommendationScore": 51.48,
       "tags": [
-        "Innovation"
+        "Mobile"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The race for the two miles-a-second super weapons that Putin says turn targets to dust",
-      "link": "https://www.bbc.com/news/articles/cgeqj1q8gj4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-21T23:24:37.000Z",
-      "relevanceScore": 120.92,
-      "recommendationScore": 121.42,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -414,8 +440,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-21T18:22:44.000Z",
-      "relevanceScore": 120.91,
-      "recommendationScore": 121.41,
+      "relevanceScore": 50.15,
+      "recommendationScore": 50.65,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -425,12 +451,25 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-08-21T12:48:12.000Z",
-      "relevanceScore": 118.8,
-      "recommendationScore": 119.3,
+      "relevanceScore": 48.04,
+      "recommendationScore": 48.54,
       "tags": [
         "AI",
         "Science",
         "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zuckerberg freezes AI hiring amid bubble fears",
+      "link": "https://www.reddit.com/r/technology/comments/1mwgarh/zuckerberg_freezes_ai_hiring_amid_bubble_fears/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-08-21T16:45:37.000Z",
+      "relevanceScore": 47.83,
+      "recommendationScore": 47.83,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -440,24 +479,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-21T04:02:32.000Z",
-      "relevanceScore": 118.05,
-      "recommendationScore": 120.55,
+      "relevanceScore": 47.29,
+      "recommendationScore": 49.79,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "AWS CEO says AI replacing junior staff is 'dumbest idea'",
-      "link": "https://www.reddit.com/r/technology/comments/1mwasud/aws_ceo_says_ai_replacing_junior_staff_is_dumbest/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-08-21T13:22:16.000Z",
-      "relevanceScore": 117.91,
-      "recommendationScore": 119.41,
-      "tags": [
-        "AI",
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Baby food firms told to cut sugar and stop promoting snacks for under-ones",
@@ -465,8 +490,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-21T23:42:39.000Z",
-      "relevanceScore": 71.98,
-      "recommendationScore": 73.48,
+      "relevanceScore": 31.72,
+      "recommendationScore": 33.22,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -476,8 +501,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-21T22:11:37.000Z",
-      "relevanceScore": 28.68,
-      "recommendationScore": 30.68,
+      "relevanceScore": 28.42,
+      "recommendationScore": 30.42,
       "tags": [
         "Science",
         "Tutorial",
@@ -486,26 +511,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Elon Musk’s X may finally settle $500M severance lawsuit",
-      "link": "https://techcrunch.com/2025/08/21/elon-musks-x-may-finally-settle-500m-severance-lawsuit/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-08-21T19:25:22.000Z",
-      "relevanceScore": 27.12,
-      "recommendationScore": 27.62,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Microsoft is bringing PC gaming apps and stores to its Xbox app on Windows",
       "link": "https://www.theverge.com/news/763994/microsoft-xbox-app-windows-third-party-stores-apps-utilities",
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-08-21T22:20:32.000Z",
-      "relevanceScore": 26.71,
-      "recommendationScore": 27.21,
+      "relevanceScore": 26.45,
+      "recommendationScore": 26.95,
       "tags": [
         "Mobile",
         "Launch"
@@ -513,13 +525,37 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Deeply divided Supreme Court lets NIH grant terminations continue",
+      "link": "https://arstechnica.com/science/2025/08/deeply-divided-supreme-court-lets-nih-grant-terminations-continue/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-08-21T23:52:45.000Z",
+      "relevanceScore": 25.75,
+      "recommendationScore": 26.25,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "After successes like Severance and The Studio, Apple TV+ gets a price hike",
       "link": "https://arstechnica.com/culture/2025/08/after-successes-like-severance-and-the-studio-apple-tv-gets-a-price-hike/",
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-21T18:46:28.000Z",
-      "relevanceScore": 25.99,
-      "recommendationScore": 26.49,
+      "relevanceScore": 25.73,
+      "recommendationScore": 26.23,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "More frozen shrimp recalled for possible radioactive contamination",
+      "link": "https://abcnews.go.com/Business/wireStory/frozen-shrimp-recalled-radioactive-contamination-124862320",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-08-21T21:54:20.000Z",
+      "relevanceScore": 25.36,
+      "recommendationScore": 25.86,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -529,8 +565,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-21T21:13:39.000Z",
-      "relevanceScore": 25.48,
-      "recommendationScore": 26.48,
+      "relevanceScore": 25.22,
+      "recommendationScore": 26.22,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -540,8 +576,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-21T19:44:44.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 25.69,
+      "relevanceScore": 24.93,
+      "recommendationScore": 25.43,
       "tags": [
         "Science",
         "Report"
@@ -554,23 +590,23 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-08-21T19:13:15.000Z",
-      "relevanceScore": 25.08,
-      "recommendationScore": 25.58,
+      "relevanceScore": 24.82,
+      "recommendationScore": 25.32,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Neolithic people took gruesome trophies from invading tribes",
-      "link": "https://arstechnica.com/science/2025/08/neolithic-people-took-gruesome-trophies-from-invading-tribes/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-08-21T18:20:47.000Z",
-      "relevanceScore": 24.91,
-      "recommendationScore": 25.41,
+      "title": "Bryan Bros Golf: The Greatest Youtube Golf ALT Shot!",
+      "link": "https://dev.to/youtube_golf/bryan-bros-golf-the-greatest-youtube-golf-alt-shot-1kc",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-08-22T00:03:20.000Z",
+      "relevanceScore": 24.79,
+      "recommendationScore": 25.29,
       "tags": [
-        "IPO"
+        "Partnership"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Explore the best of GitHub Universe: 9 spaces built to spark creativity, connection, and joy",
@@ -578,8 +614,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-08-21T18:02:34.000Z",
-      "relevanceScore": 24.85,
-      "recommendationScore": 26.35,
+      "relevanceScore": 24.59,
+      "recommendationScore": 26.09,
       "tags": [
         "Exclusive"
       ],
@@ -591,53 +627,12 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-08-21T16:47:26.000Z",
-      "relevanceScore": 24.6,
-      "recommendationScore": 26.1,
+      "relevanceScore": 24.34,
+      "recommendationScore": 25.84,
       "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Instagram adds Spotify integration to Stories and Notes",
-      "link": "https://www.engadget.com/social-media/instagram-adds-spotify-integration-to-stories-and-notes-195705816.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2025-08-21T19:57:05.000Z",
-      "relevanceScore": 23.23,
-      "recommendationScore": 23.73,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "US and EU frame the ongoing deal between the trading partners and solidify some commitments",
-      "link": "https://abcnews.go.com/Business/wireStory/us-eu-frame-ongoing-deal-trading-partners-solidify-124840024",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-08-21T11:34:30.000Z",
-      "relevanceScore": 23.05,
-      "recommendationScore": 23.55,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Research roadmap update, August 2025",
-      "link": "https://stackoverflow.blog/2025/08/21/research-roadmap-update-august-2025/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-08-21T14:00:25.000Z",
-      "relevanceScore": 23.04,
-      "recommendationScore": 23.04,
-      "tags": [
-        "Science",
-        "Report",
-        "Update"
-      ],
-      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
@@ -647,69 +642,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mwey6c/the_death_of_the_page_cache_from_mmap_to_nvmezns/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-21T15:56:57.000Z",
-        "relevanceScore": 882.43,
-        "tags": []
-      },
-      {
-        "title": "Netflix signs up another YouTube star with Mark Rober deal",
-        "link": "https://www.bbc.com/news/articles/c20939pp04po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-21T11:26:08.000Z",
-        "relevanceScore": 473.53,
-        "tags": [
-          "Partnership"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Here are the best streaming service deals available right now",
-        "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
-        "source": "The Verge",
-        "pubDate": "2025-08-21T22:35:18.000Z",
-        "relevanceScore": 866.76,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Do asylum figures show if government's strategy is working?",
-        "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-21T16:21:27.000Z",
-        "relevanceScore": 852.51,
-        "tags": []
-      },
-      {
-        "title": "Israel will begin talks to free all hostages, Netanyahu says",
-        "link": "https://www.bbc.com/news/articles/c754kknw2g2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-21T20:41:53.000Z",
-        "relevanceScore": 129.38,
-        "tags": []
-      },
-      {
-        "title": "Five key takeaways from this year's GCSE results",
-        "link": "https://www.bbc.com/news/articles/c70x5j8z34do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-21T15:59:35.000Z",
-        "relevanceScore": 128.44,
-        "tags": []
-      },
-      {
-        "title": "The race for the two miles-a-second super weapons that Putin says turn targets to dust",
-        "link": "https://www.bbc.com/news/articles/cgeqj1q8gj4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-21T23:24:37.000Z",
-        "relevanceScore": 120.92,
-        "tags": []
-      },
-      {
-        "title": "Baby food firms told to cut sugar and stop promoting snacks for under-ones",
-        "link": "https://www.bbc.com/news/articles/cvgpld8p9rqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-21T23:42:39.000Z",
-        "relevanceScore": 71.98,
+        "relevanceScore": 910.17,
         "tags": []
       }
     ],
@@ -719,7 +652,7 @@
         "link": "https://www.technologyreview.com/2025/08/21/1122288/google-gemini-ai-energy/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-21T12:00:00.000Z",
-        "relevanceScore": 725.64,
+        "relevanceScore": 699.88,
         "tags": [
           "AI",
           "Exclusive",
@@ -731,7 +664,7 @@
         "link": "https://www.bbc.com/news/articles/c24zdel5j18o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-20T16:36:03.000Z",
-        "relevanceScore": 571.76,
+        "relevanceScore": 540,
         "tags": [
           "AI"
         ]
@@ -741,28 +674,25 @@
         "link": "https://arstechnica.com/information-technology/2025/08/sam-altman-calls-ai-a-bubble-while-seeking-500b-valuation-for-openai/",
         "source": "Ars Technica",
         "pubDate": "2025-08-21T22:06:37.000Z",
-        "relevanceScore": 285.66,
+        "relevanceScore": 230.9,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "Microsoft&#8217;s new NFL deal could let you blame Copilot AI for terrible playcalls",
-        "link": "https://www.theverge.com/news/763928/nfl-microsoft-copilot-surface-ai",
-        "source": "The Verge",
-        "pubDate": "2025-08-21T20:59:31.000Z",
-        "relevanceScore": 122.94,
-        "tags": [
-          "AI",
-          "Partnership"
-        ]
+        "title": "OpenAI lawyers question Meta’s role in Elon Musk’s $97B takeover bid",
+        "link": "https://techcrunch.com/2025/08/21/openai-lawyers-question-metas-role-in-elon-musks-97b-takeover-bid/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-22T00:31:38.000Z",
+        "relevanceScore": 55.38,
+        "tags": []
       },
       {
         "title": "Hundreds of thousands of Grok chats exposed in Google results",
         "link": "https://www.bbc.com/news/articles/cdrkmk00jy0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-21T12:55:28.000Z",
-        "relevanceScore": 121.82,
+        "relevanceScore": 51.06,
         "tags": [
           "AI"
         ]
@@ -772,7 +702,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mw9ztz/when_ai_optimizations_miss_the_mark_a_case_study/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-21T12:48:12.000Z",
-        "relevanceScore": 118.8,
+        "relevanceScore": 48.04,
         "tags": [
           "AI",
           "Science",
@@ -780,14 +710,13 @@
         ]
       },
       {
-        "title": "AWS CEO says AI replacing junior staff is 'dumbest idea'",
-        "link": "https://www.reddit.com/r/technology/comments/1mwasud/aws_ceo_says_ai_replacing_junior_staff_is_dumbest/",
+        "title": "Zuckerberg freezes AI hiring amid bubble fears",
+        "link": "https://www.reddit.com/r/technology/comments/1mwgarh/zuckerberg_freezes_ai_hiring_amid_bubble_fears/",
         "source": "Reddit Technology",
-        "pubDate": "2025-08-21T13:22:16.000Z",
-        "relevanceScore": 117.91,
+        "pubDate": "2025-08-21T16:45:37.000Z",
+        "relevanceScore": 47.83,
         "tags": [
-          "AI",
-          "Cloud"
+          "AI"
         ]
       }
     ],
@@ -797,47 +726,29 @@
         "link": "https://stackoverflow.blog/2025/08/20/documents-the-architect-s-programming-language/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-20T14:00:00.000Z",
-        "relevanceScore": 485.74,
+        "relevanceScore": 646.98,
         "tags": [
           "Tutorial"
         ]
-      },
-      {
-        "title": "IGN: Hollow Knight: Silksong Release Date Trailer Reaction Livestream | gamescom 2025",
-        "link": "https://dev.to/gg_news/ign-hollow-knight-silksong-release-date-trailer-reaction-livestream-gamescom-2025-56fo",
-        "source": "Dev.to",
-        "pubDate": "2025-08-21T22:00:36.000Z",
-        "relevanceScore": 383.14,
-        "tags": [
-          "Launch"
-        ]
-      },
-      {
-        "title": "Polyphonic: Why Does Jazz Use Those Instruments?",
-        "link": "https://dev.to/music_youtube/polyphonic-why-does-jazz-use-those-instruments-468c",
-        "source": "Dev.to",
-        "pubDate": "2025-08-21T22:02:43.000Z",
-        "relevanceScore": 185.65,
-        "tags": []
       },
       {
         "title": "Who will maintain the future? Rethinking open source leadership for a new generation",
         "link": "https://github.blog/open-source/maintainers/who-will-maintain-the-future-rethinking-open-source-leadership-for-a-new-generation/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-20T16:00:00.000Z",
-        "relevanceScore": 127.64,
+        "relevanceScore": 66.38,
         "tags": [
           "Exclusive"
         ]
       },
       {
-        "title": "BEIDI DINA SAMUEL : Le spécialiste qui Bâtit la Cybersécurité depuis Maroua",
-        "link": "https://dev.to/samglish/beidi-dina-samuel-le-specialiste-qui-batit-la-cybersecurite-depuis-maroua-4dfm",
+        "title": "Bryan Bros Golf: The Greatest Youtube Golf ALT Shot!",
+        "link": "https://dev.to/youtube_golf/bryan-bros-golf-the-greatest-youtube-golf-alt-shot-1kc",
         "source": "Dev.to",
-        "pubDate": "2025-08-21T22:08:14.000Z",
-        "relevanceScore": 121.67,
+        "pubDate": "2025-08-22T00:03:20.000Z",
+        "relevanceScore": 24.79,
         "tags": [
-          "Innovation"
+          "Partnership"
         ]
       },
       {
@@ -845,7 +756,7 @@
         "link": "https://github.blog/news-insights/company-news/explore-the-best-of-github-universe-9-spaces-built-to-spark-creativity-connection-and-joy/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-21T18:02:34.000Z",
-        "relevanceScore": 24.85,
+        "relevanceScore": 24.59,
         "tags": [
           "Exclusive"
         ]
@@ -855,7 +766,7 @@
         "link": "https://stackoverflow.blog/2025/08/21/research-roadmap-update-august-2025/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-21T14:00:25.000Z",
-        "relevanceScore": 23.04,
+        "relevanceScore": 22.78,
         "tags": [
           "Science",
           "Report",
@@ -867,20 +778,96 @@
         "link": "https://www.reddit.com/r/programming/comments/1mwm5sg/three_cool_things_in_c26_safety_reflection/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-21T20:23:55.000Z",
-        "relevanceScore": 21.32,
+        "relevanceScore": 21.06,
         "tags": []
       }
     ],
-    "climate": [
+    "general": [
       {
-        "title": "The Download: Ukraine’s Starlink repair shop, and predicting solar storms",
-        "link": "https://www.technologyreview.com/2025/08/21/1122298/the-download-ukraines-starlink-repair-shop-and-predicting-solar-storms/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-08-21T12:10:00.000Z",
-        "relevanceScore": 440.67,
+        "title": "Do asylum figures show if government's strategy is working?",
+        "link": "https://www.bbc.com/news/articles/cx2x371g2k8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-21T16:21:27.000Z",
+        "relevanceScore": 602.25,
+        "tags": []
+      },
+      {
+        "title": "The race for the two miles-a-second super weapons that Putin says turn targets to dust",
+        "link": "https://www.bbc.com/news/articles/cgeqj1q8gj4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-21T23:24:37.000Z",
+        "relevanceScore": 130.66,
+        "tags": []
+      },
+      {
+        "title": "Israel will begin talks to free all hostages, Netanyahu says",
+        "link": "https://www.bbc.com/news/articles/c754kknw2g2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-21T20:41:53.000Z",
+        "relevanceScore": 58.62,
+        "tags": []
+      },
+      {
+        "title": "Five key takeaways from this year's GCSE results",
+        "link": "https://www.bbc.com/news/articles/c70x5j8z34do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-21T15:59:35.000Z",
+        "relevanceScore": 57.68,
+        "tags": []
+      },
+      {
+        "title": "Baby food firms told to cut sugar and stop promoting snacks for under-ones",
+        "link": "https://www.bbc.com/news/articles/cvgpld8p9rqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-21T23:42:39.000Z",
+        "relevanceScore": 31.72,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Here are the best streaming service deals available right now",
+        "link": "https://www.theverge.com/23353629/streaming-deals-netflix-hulu-disney-plus-amazon-prime-video-hbo-max-best-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2025-08-21T22:35:18.000Z",
+        "relevanceScore": 563,
+        "tags": []
+      },
+      {
+        "title": "Netflix’s new Splinter Cell animated series kicks off in October",
+        "link": "https://www.theverge.com/netflix/763821/netflix-splinter-cell-deathwatch-release-date-trailer",
+        "source": "The Verge",
+        "pubDate": "2025-08-22T00:00:00.000Z",
+        "relevanceScore": 320.28,
         "tags": [
-          "Tech"
+          "Launch"
         ]
+      }
+    ],
+    "world": [
+      {
+        "title": "Zelenskyy: The signals Russia is sending out are obscene; pressure must continue",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mwmwuj/zelenskyy_the_signals_russia_is_sending_out_are/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-21T20:53:06.000Z",
+        "relevanceScore": 516.15,
+        "tags": []
+      },
+      {
+        "title": "Putin's demand to Ukraine: give up Donbas, no NATO and no Western troops, sources say",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mwixvf/putins_demand_to_ukraine_give_up_donbas_no_nato/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-21T18:22:44.000Z",
+        "relevanceScore": 50.15,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1274, Part 1 (Thread #1421)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1mw0qqr/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-08-21T04:02:32.000Z",
+        "relevanceScore": 47.29,
+        "tags": []
       }
     ],
     "social": [
@@ -889,27 +876,29 @@
         "link": "https://techcrunch.com/2025/08/21/gas-power-plants-approved-for-metas-10b-data-center-and-not-everyone-is-happy/",
         "source": "TechCrunch",
         "pubDate": "2025-08-21T19:52:20.000Z",
-        "relevanceScore": 399.21,
+        "relevanceScore": 415.45,
         "tags": []
-      },
-      {
-        "title": "Elon Musk’s X may finally settle $500M severance lawsuit",
-        "link": "https://techcrunch.com/2025/08/21/elon-musks-x-may-finally-settle-500m-severance-lawsuit/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-21T19:25:22.000Z",
-        "relevanceScore": 27.12,
-        "tags": [
-          "Social"
-        ]
       },
       {
         "title": "Instagram adds Spotify integration to Stories and Notes",
         "link": "https://www.engadget.com/social-media/instagram-adds-spotify-integration-to-stories-and-notes-195705816.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-21T19:57:05.000Z",
-        "relevanceScore": 23.23,
+        "relevanceScore": 22.97,
         "tags": [
           "Social"
+        ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "The Download: Ukraine’s Starlink repair shop, and predicting solar storms",
+        "link": "https://www.technologyreview.com/2025/08/21/1122298/the-download-ukraines-starlink-repair-shop-and-predicting-solar-storms/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-08-21T12:10:00.000Z",
+        "relevanceScore": 398.91,
+        "tags": [
+          "Tech"
         ]
       }
     ],
@@ -919,10 +908,21 @@
         "link": "https://techcrunch.com/2025/08/21/ecosia-has-offered-to-take-stewardship-of-chrome-and-its-not-a-bad-idea/",
         "source": "TechCrunch",
         "pubDate": "2025-08-21T20:02:47.000Z",
-        "relevanceScore": 374.75,
+        "relevanceScore": 393.49,
         "tags": [
           "Startup",
           "Funding"
+        ]
+      },
+      {
+        "title": "Ukrainian startup makes drones — and soon, cruise missiles — to strike inside Russia",
+        "link": "https://abcnews.go.com/Business/wireStory/ukrainian-startup-makes-drones-cruise-missiles-strike-deep-124836676",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-21T06:31:20.000Z",
+        "relevanceScore": 68.28,
+        "tags": [
+          "Tech",
+          "Startup"
         ]
       }
     ],
@@ -932,7 +932,27 @@
         "link": "https://www.technologyreview.com/2025/08/21/1122247/recycling-climate-emissions/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-21T10:00:00.000Z",
-        "relevanceScore": 351.74,
+        "relevanceScore": 367.48,
+        "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "IGN: Metal Eden - New Gameplay Trailer",
+        "link": "https://dev.to/gg_news/ign-metal-eden-new-gameplay-trailer-1dea",
+        "source": "Dev.to",
+        "pubDate": "2025-08-22T00:02:19.000Z",
+        "relevanceScore": 318.29,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "Take $15 Off ‘Tony Hawk’s Pro Skater 3+4’ Remasters Right Now",
+        "link": "https://www.wired.com/story/tony-hawks-pro-skater-remasters-deal/",
+        "source": "Wired",
+        "pubDate": "2025-08-21T19:13:15.000Z",
+        "relevanceScore": 24.82,
         "tags": []
       }
     ],
@@ -942,7 +962,7 @@
         "link": "https://techcrunch.com/2025/08/21/as-india-bans-real-money-games-dream-sports-mpl-start-pulling-the-plug/",
         "source": "TechCrunch",
         "pubDate": "2025-08-21T20:56:57.000Z",
-        "relevanceScore": 189.43,
+        "relevanceScore": 205.17,
         "tags": []
       },
       {
@@ -950,7 +970,7 @@
         "link": "https://www.theverge.com/news/763895/bungie-ceo-pete-parsons-steps-down-destiny",
         "source": "The Verge",
         "pubDate": "2025-08-21T21:05:36.000Z",
-        "relevanceScore": 187.46,
+        "relevanceScore": 203.2,
         "tags": [
           "Update"
         ]
@@ -960,7 +980,7 @@
         "link": "https://www.engadget.com/gaming/bungies-veteran-ceo-pete-parsons-is-leaving-the-company-213626001.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-21T21:36:27.000Z",
-        "relevanceScore": 185.56,
+        "relevanceScore": 201.3,
         "tags": []
       },
       {
@@ -968,7 +988,7 @@
         "link": "https://www.engadget.com/big-tech/nonprofit-search-engine-ecosia-offers-0-for-control-of-chrome-212158739.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-21T21:21:58.000Z",
-        "relevanceScore": 185.51,
+        "relevanceScore": 201.25,
         "tags": [
           "Web"
         ]
@@ -978,9 +998,20 @@
         "link": "https://www.wired.com/story/golden-shares-tsmc-micron-trump-equity-stake/",
         "source": "Wired",
         "pubDate": "2025-08-21T17:04:06.000Z",
-        "relevanceScore": 136.65,
+        "relevanceScore": 84.89,
         "tags": [
           "Partnership"
+        ]
+      },
+      {
+        "title": "4chan will refuse to pay daily online safety fines, lawyer tells BBC",
+        "link": "https://www.bbc.com/news/articles/cq68j5g2nr1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-21T23:45:55.000Z",
+        "relevanceScore": 53.23,
+        "tags": [
+          "Business",
+          "Web"
         ]
       },
       {
@@ -988,7 +1019,7 @@
         "link": "https://www.wired.com/story/kanye-west-memecoin/",
         "source": "Wired",
         "pubDate": "2025-08-21T18:49:35.000Z",
-        "relevanceScore": 123,
+        "relevanceScore": 52.24,
         "tags": []
       },
       {
@@ -996,7 +1027,7 @@
         "link": "https://techcrunch.com/2025/08/21/anduril-blue-origin-to-study-how-to-transport-cargo-from-orbit-to-earth-for-the-pentagon/",
         "source": "TechCrunch",
         "pubDate": "2025-08-21T22:11:37.000Z",
-        "relevanceScore": 28.68,
+        "relevanceScore": 28.42,
         "tags": [
           "Science",
           "Tutorial",
@@ -1004,11 +1035,21 @@
         ]
       },
       {
+        "title": "Deeply divided Supreme Court lets NIH grant terminations continue",
+        "link": "https://arstechnica.com/science/2025/08/deeply-divided-supreme-court-lets-nih-grant-terminations-continue/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-21T23:52:45.000Z",
+        "relevanceScore": 25.75,
+        "tags": [
+          "Regulation"
+        ]
+      },
+      {
         "title": "After successes like Severance and The Studio, Apple TV+ gets a price hike",
         "link": "https://arstechnica.com/culture/2025/08/after-successes-like-severance-and-the-studio-apple-tv-gets-a-price-hike/",
         "source": "Ars Technica",
         "pubDate": "2025-08-21T18:46:28.000Z",
-        "relevanceScore": 25.99,
+        "relevanceScore": 25.73,
         "tags": []
       },
       {
@@ -1016,7 +1057,7 @@
         "link": "https://www.wired.com/story/best-movies-hulu-right-now/",
         "source": "Wired",
         "pubDate": "2025-08-21T21:13:39.000Z",
-        "relevanceScore": 25.48,
+        "relevanceScore": 25.22,
         "tags": []
       },
       {
@@ -1024,20 +1065,10 @@
         "link": "https://arstechnica.com/cars/2025/08/junk-filled-garages-hurt-ev-sales-as-people-dont-have-room-for-chargers/",
         "source": "Ars Technica",
         "pubDate": "2025-08-21T19:44:44.000Z",
-        "relevanceScore": 25.19,
+        "relevanceScore": 24.93,
         "tags": [
           "Science",
           "Report"
-        ]
-      },
-      {
-        "title": "Neolithic people took gruesome trophies from invading tribes",
-        "link": "https://arstechnica.com/science/2025/08/neolithic-people-took-gruesome-trophies-from-invading-tribes/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-21T18:20:47.000Z",
-        "relevanceScore": 24.91,
-        "tags": [
-          "IPO"
         ]
       },
       {
@@ -1045,7 +1076,7 @@
         "link": "https://www.bbc.com/news/articles/cr4e1k6l4lyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-21T16:47:26.000Z",
-        "relevanceScore": 24.6,
+        "relevanceScore": 24.34,
         "tags": [
           "Web"
         ]
@@ -1055,7 +1086,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mwgzbd/cisco_announces_mass_layoffs_just_after_soaring/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-21T17:10:18.000Z",
-        "relevanceScore": 20.67,
+        "relevanceScore": 20.41,
         "tags": [
           "Report"
         ]
@@ -1065,103 +1096,10 @@
         "link": "https://www.reddit.com/r/technology/comments/1mw8rxk/trump_and_melanias_scammy_meme_coins_have_lost/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-21T11:53:03.000Z",
-        "relevanceScore": 19.62,
+        "relevanceScore": 19.35,
         "tags": [
           "Exclusive"
         ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Trump Mobile is promoting its smartphone with terribly edited photos of other brands' products",
-        "link": "https://www.engadget.com/mobile/smartphones/trump-mobile-is-promoting-its-smartphone-with-terribly-edited-photos-of-other-brands-products-222940375.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-21T22:29:43.000Z",
-        "relevanceScore": 161.74,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Microsoft is bringing PC gaming apps and stores to its Xbox app on Windows",
-        "link": "https://www.theverge.com/news/763994/microsoft-xbox-app-windows-third-party-stores-apps-utilities",
-        "source": "The Verge",
-        "pubDate": "2025-08-21T22:20:32.000Z",
-        "relevanceScore": 26.71,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "Trump steps back from Russia and Ukraine peace talks for now, sources say",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mwbmci/trump_steps_back_from_russia_and_ukraine_peace/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-21T13:55:32.000Z",
-        "relevanceScore": 134.02,
-        "tags": []
-      },
-      {
-        "title": "Putin's demand to Ukraine: give up Donbas, no NATO and no Western troops, sources say",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mwixvf/putins_demand_to_ukraine_give_up_donbas_no_nato/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-21T18:22:44.000Z",
-        "relevanceScore": 120.91,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1274, Part 1 (Thread #1421)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1mw0qqr/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-08-21T04:02:32.000Z",
-        "relevanceScore": 118.05,
-        "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "Walmart says tariff costs are rising 'each week' and will continue",
-        "link": "https://www.npr.org/2025/08/21/nx-s1-5509592/walmart-tariff-costs-rising-earnings",
-        "source": "NPR Business",
-        "pubDate": "2025-08-21T15:55:32.000Z",
-        "relevanceScore": 125.42,
-        "tags": []
-      },
-      {
-        "title": "'I regret that I didn't fight harder,' former labor secretary Robert Reich says",
-        "link": "https://www.npr.org/2025/08/21/nx-s1-5507068/i-regret-that-i-didnt-fight-harder-former-labor-secretary-robert-reich-says",
-        "source": "NPR Business",
-        "pubDate": "2025-08-21T15:30:39.000Z",
-        "relevanceScore": 123.84,
-        "tags": []
-      },
-      {
-        "title": "US and EU frame the ongoing deal between the trading partners and solidify some commitments",
-        "link": "https://abcnews.go.com/Business/wireStory/us-eu-frame-ongoing-deal-trading-partners-solidify-124840024",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-21T11:34:30.000Z",
-        "relevanceScore": 23.05,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "FTC sues LA Fitness operators for 'exceedingly difficult' gym cancellation policies",
-        "link": "https://abcnews.go.com/Business/wireStory/ftc-sues-la-fitness-operators-exceedingly-difficult-gym-124823997",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-20T20:23:13.000Z",
-        "relevanceScore": 20.52,
-        "tags": []
-      },
-      {
-        "title": "Pakistan, China and Afghanistan hold summit in Kabul to boost cooperation",
-        "link": "https://abcnews.go.com/Business/wireStory/pakistan-china-afghanistan-hold-summit-kabul-boost-cooperation-124803604",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-20T11:42:06.000Z",
-        "relevanceScore": 18.78,
-        "tags": []
       }
     ],
     "finance": [
@@ -1170,17 +1108,7 @@
         "link": "https://www.npr.org/2025/08/21/nx-s1-5509586/federal-reserve-jerome-powell-jackson-hole-speech",
         "source": "NPR Business",
         "pubDate": "2025-08-21T17:27:32.000Z",
-        "relevanceScore": 124.73,
-        "tags": []
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Take $15 Off ‘Tony Hawk’s Pro Skater 3+4’ Remasters Right Now",
-        "link": "https://www.wired.com/story/tony-hawks-pro-skater-remasters-deal/",
-        "source": "Wired",
-        "pubDate": "2025-08-21T19:13:15.000Z",
-        "relevanceScore": 25.08,
+        "relevanceScore": 174.97,
         "tags": []
       }
     ],
@@ -1190,27 +1118,98 @@
         "link": "https://stackoverflow.blog/2025/08/21/learning-in-the-flow-unlocking-employee-potential-through-continuous-learning/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-21T07:40:00.000Z",
-        "relevanceScore": 20.77,
+        "relevanceScore": 141.51,
         "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "Walmart says tariff costs are rising 'each week' and will continue",
+        "link": "https://www.npr.org/2025/08/21/nx-s1-5509592/walmart-tariff-costs-rising-earnings",
+        "source": "NPR Business",
+        "pubDate": "2025-08-21T15:55:32.000Z",
+        "relevanceScore": 54.66,
+        "tags": []
+      },
+      {
+        "title": "'I regret that I didn't fight harder,' former labor secretary Robert Reich says",
+        "link": "https://www.npr.org/2025/08/21/nx-s1-5507068/i-regret-that-i-didnt-fight-harder-former-labor-secretary-robert-reich-says",
+        "source": "NPR Business",
+        "pubDate": "2025-08-21T15:30:39.000Z",
+        "relevanceScore": 53.08,
+        "tags": []
+      },
+      {
+        "title": "More frozen shrimp recalled for possible radioactive contamination",
+        "link": "https://abcnews.go.com/Business/wireStory/frozen-shrimp-recalled-radioactive-contamination-124862320",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-21T21:54:20.000Z",
+        "relevanceScore": 25.36,
+        "tags": []
+      },
+      {
+        "title": "US and EU frame the ongoing deal between the trading partners and solidify some commitments",
+        "link": "https://abcnews.go.com/Business/wireStory/us-eu-frame-ongoing-deal-trading-partners-solidify-124840024",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-21T11:34:30.000Z",
+        "relevanceScore": 22.79,
+        "tags": [
+          "Partnership"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "[Boost]",
+        "link": "https://dev.to/elizabethfuentes12/-mhh",
+        "source": "Dev.to",
+        "pubDate": "2025-08-22T00:31:58.000Z",
+        "relevanceScore": 51.38,
+        "tags": [
+          "Cloud"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Trump Mobile is promoting its smartphone with terribly edited photos of other brands' products",
+        "link": "https://www.engadget.com/mobile/smartphones/trump-mobile-is-promoting-its-smartphone-with-terribly-edited-photos-of-other-brands-products-222940375.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-21T22:29:43.000Z",
+        "relevanceScore": 50.98,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Microsoft is bringing PC gaming apps and stores to its Xbox app on Windows",
+        "link": "https://www.theverge.com/news/763994/microsoft-xbox-app-windows-third-party-stores-apps-utilities",
+        "source": "The Verge",
+        "pubDate": "2025-08-21T22:20:32.000Z",
+        "relevanceScore": 26.45,
+        "tags": [
+          "Mobile",
+          "Launch"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 193.33249999999998,
+    "totalCategories": 17,
+    "avgRelevanceScore": 170.96321428571426,
     "topCategories": [
       {
         "category": "tech",
-        "count": 14
-      },
-      {
-        "category": "development",
-        "count": 8
+        "count": 15
       },
       {
         "category": "ai-ml",
         "count": 7
+      },
+      {
+        "category": "development",
+        "count": 6
       },
       {
         "category": "general",
@@ -1218,7 +1217,7 @@
       },
       {
         "category": "business",
-        "count": 5
+        "count": 4
       }
     ]
   }
