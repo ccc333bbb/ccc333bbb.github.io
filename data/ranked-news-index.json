@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2025-08-24T23:40:14.278Z",
+  "lastUpdated": "2025-08-24T23:48:27.962Z",
   "totalArticles": 45,
   "categories": [
     "tech",
     "entertainment",
     "space",
-    "development",
     "cybersecurity",
+    "development",
     "climate",
-    "finance",
     "gaming",
     "business",
     "startup",
-    "social",
+    "cloud",
     "world",
     "general",
-    "mobile"
+    "mobile",
+    "social"
   ],
   "topArticles": [
     {
@@ -24,8 +24,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-24T16:47:35.000Z",
-      "relevanceScore": 875.62,
-      "recommendationScore": 876.12,
+      "relevanceScore": 922.1,
+      "recommendationScore": 922.6,
       "tags": [
         "IPO"
       ],
@@ -37,8 +37,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-24T12:30:00.000Z",
-      "relevanceScore": 802.27,
-      "recommendationScore": 803.77,
+      "relevanceScore": 804.74,
+      "recommendationScore": 806.24,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -48,8 +48,8 @@
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2025-08-23T16:41:24.000Z",
-      "relevanceScore": 680.8,
-      "recommendationScore": 681.3,
+      "relevanceScore": 685.78,
+      "recommendationScore": 686.28,
       "tags": [
         "Update"
       ],
@@ -61,8 +61,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-24T18:05:00.000Z",
-      "relevanceScore": 667.88,
-      "recommendationScore": 668.38,
+      "relevanceScore": 669.86,
+      "recommendationScore": 670.36,
       "tags": [
         "Analysis"
       ],
@@ -74,8 +74,8 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2025-08-24T21:56:52.000Z",
-      "relevanceScore": 659.16,
-      "recommendationScore": 661.66,
+      "relevanceScore": 668.63,
+      "recommendationScore": 671.13,
       "tags": [
         "Web",
         "Launch"
@@ -88,8 +88,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-08-24T12:00:00.000Z",
-      "relevanceScore": 650.67,
-      "recommendationScore": 650.67,
+      "relevanceScore": 652.64,
+      "recommendationScore": 652.64,
       "tags": [
         "Tutorial"
       ],
@@ -101,21 +101,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-24T13:03:00.000Z",
-      "relevanceScore": 506.88,
-      "recommendationScore": 508.88,
+      "relevanceScore": 512.85,
+      "recommendationScore": 514.85,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Don't pick weird subnets for embedded networks, use VRFs",
-      "link": "https://www.reddit.com/r/programming/comments/1mz4ftg/dont_pick_weird_subnets_for_embedded_networks_use/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-24T19:08:08.000Z",
-      "relevanceScore": 458.09,
-      "recommendationScore": 458.59,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Bluesky blocks service in Mississippi over age assurance law",
@@ -123,12 +112,23 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2025-08-24T20:40:32.000Z",
-      "relevanceScore": 413.9,
-      "recommendationScore": 414.4,
+      "relevanceScore": 465.87,
+      "recommendationScore": 466.37,
       "tags": [
         "Security",
         "Regulation"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Don't pick weird subnets for embedded networks, use VRFs",
+      "link": "https://www.reddit.com/r/programming/comments/1mz4ftg/dont_pick_weird_subnets_for_embedded_networks_use/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-24T19:08:08.000Z",
+      "relevanceScore": 459.07,
+      "recommendationScore": 459.57,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -137,8 +137,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-24T14:00:00.000Z",
-      "relevanceScore": 351.57,
-      "recommendationScore": 352.57,
+      "relevanceScore": 353.04,
+      "recommendationScore": 354.04,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -148,10 +148,23 @@
       "source": "BBC Technology",
       "category": "entertainment",
       "pubDate": "2025-08-24T23:05:06.000Z",
-      "relevanceScore": 246.88,
-      "recommendationScore": 247.38,
+      "relevanceScore": 250.86,
+      "recommendationScore": 251.36,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
+      "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2025-08-24T18:51:51.000Z",
+      "relevanceScore": 220.51,
+      "recommendationScore": 221.01,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Trump halts construction on nearly complete wind farm off Rhode Island",
@@ -159,8 +172,8 @@
       "source": "Reddit Technology",
       "category": "climate",
       "pubDate": "2025-08-24T20:59:51.000Z",
-      "relevanceScore": 201.47,
-      "recommendationScore": 201.97,
+      "relevanceScore": 204.44,
+      "recommendationScore": 204.94,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -170,47 +183,9 @@
       "source": "ABC News Business",
       "category": "climate",
       "pubDate": "2025-08-23T17:29:57.000Z",
-      "relevanceScore": 199.97,
-      "recommendationScore": 202.47,
+      "relevanceScore": 202.94,
+      "recommendationScore": 205.44,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "10 Open Source Gems To Become The Ultimate Developer 🔥",
-      "link": "https://dev.to/anthonymax/10-open-source-gems-to-become-the-ultimate-developer-dkk",
-      "source": "Dev.to",
-      "category": "finance",
-      "pubDate": "2025-08-24T21:19:05.000Z",
-      "relevanceScore": 197.53,
-      "recommendationScore": 198.03,
-      "tags": [
-        "Business",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Framework Desktop and Linux have shown me the path to PC gaming in the living room",
-      "link": "https://www.theverge.com/games/761025/framework-desktop-bazzite-linux-steam-machine-pc-game-console-impressions",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-08-24T13:00:00.000Z",
-      "relevanceScore": 181.87,
-      "recommendationScore": 184.87,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
-      "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2025-08-24T18:51:51.000Z",
-      "relevanceScore": 170.54,
-      "recommendationScore": 171.04,
-      "tags": [
-        "Launch"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -219,19 +194,8 @@
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-08-24T21:27:40.000Z",
-      "relevanceScore": 145.56,
-      "recommendationScore": 146.06,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Boxed in by shifting tariff rules, European shippers pause some U.S.-bound parcels",
-      "link": "https://www.npr.org/2025/08/23/nx-s1-5513936/dhl-parcel-tariffs",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-08-23T22:21:20.000Z",
-      "relevanceScore": 144.94,
-      "recommendationScore": 145.44,
+      "relevanceScore": 191.03,
+      "recommendationScore": 191.53,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -241,11 +205,22 @@
       "source": "Ars Technica",
       "category": "cybersecurity",
       "pubDate": "2025-08-23T11:00:57.000Z",
-      "relevanceScore": 140.17,
-      "recommendationScore": 140.67,
+      "relevanceScore": 185.64,
+      "recommendationScore": 186.14,
       "tags": [
         "Security"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Framework Desktop and Linux have shown me the path to PC gaming in the living room",
+      "link": "https://www.theverge.com/games/761025/framework-desktop-bazzite-linux-steam-machine-pc-game-console-impressions",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2025-08-24T13:00:00.000Z",
+      "relevanceScore": 181.84,
+      "recommendationScore": 184.84,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -254,10 +229,21 @@
       "source": "Dev.to",
       "category": "entertainment",
       "pubDate": "2025-08-24T22:01:59.000Z",
-      "relevanceScore": 106.67,
-      "recommendationScore": 107.17,
+      "relevanceScore": 157.15,
+      "recommendationScore": 157.65,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Boxed in by shifting tariff rules, European shippers pause some U.S.-bound parcels",
+      "link": "https://www.npr.org/2025/08/23/nx-s1-5513936/dhl-parcel-tariffs",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-08-23T22:21:20.000Z",
+      "relevanceScore": 144.91,
+      "recommendationScore": 145.41,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "8BitDo 64 Bluetooth Controller Review: For Human Hands",
@@ -265,8 +251,46 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-24T12:00:00.000Z",
-      "relevanceScore": 106.67,
-      "recommendationScore": 107.17,
+      "relevanceScore": 111.64,
+      "recommendationScore": 112.14,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Pintarnya raises $16.7M to power jobs and financial services in Indonesia",
+      "link": "https://techcrunch.com/2025/08/24/pintarnya-raises-16-7m-to-power-jobs-and-financial-services-in-indonesia/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-08-24T22:00:00.000Z",
+      "relevanceScore": 105.14,
+      "recommendationScore": 105.64,
+      "tags": [
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How I Attached and Mounted an EBS Volume to My Ubuntu EC2 Instance",
+      "link": "https://dev.to/goldenboy58/how-i-attached-and-mounted-an-ebs-volume-to-my-ubuntu-ec2-instance-12kl",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-08-24T23:38:02.000Z",
+      "relevanceScore": 100.47,
+      "recommendationScore": 102.47,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zelenskyy: Ukraine does not need US permission to strike Russia",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mywqbq/zelenskyy_ukraine_does_not_need_us_permission_to/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-24T14:16:03.000Z",
+      "relevanceScore": 93.59,
+      "recommendationScore": 94.09,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -276,96 +300,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-24T12:51:55.000Z",
-      "relevanceScore": 78.84,
-      "recommendationScore": 79.34,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump administration halts work on an almost-finished wind farm",
-      "link": "https://www.npr.org/2025/08/23/nx-s1-5513919/trump-stops-offshore-wind-renewable-energy",
-      "source": "NPR Business",
-      "category": "climate",
-      "pubDate": "2025-08-23T15:38:19.000Z",
-      "relevanceScore": 60.59,
-      "recommendationScore": 61.09,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Pintarnya raises $16.7M to power jobs and financial services in Indonesia",
-      "link": "https://techcrunch.com/2025/08/24/pintarnya-raises-16-7m-to-power-jobs-and-financial-services-in-indonesia/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-08-24T22:00:00.000Z",
-      "relevanceScore": 58.67,
-      "recommendationScore": 59.17,
-      "tags": [
-        "Startup",
-        "Funding"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Former Meta exec Nick Clegg offers careful criticism of ‘cloyingly conformist’ Silicon Valley",
-      "link": "https://techcrunch.com/2025/08/24/former-meta-exec-nick-clegg-offers-careful-criticism-of-cloyingly-conformist-silicon-valley/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-08-24T20:32:56.000Z",
-      "relevanceScore": 58.38,
-      "recommendationScore": 58.88,
-      "tags": [
-        "Web",
-        "Tutorial",
-        "Controversy",
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Exactly-Once Processing Across Kafka and Databases: Using Kafka Transactions + Idempotent Writes",
-      "link": "https://www.reddit.com/r/programming/comments/1mywhub/exactlyonce_processing_across_kafka_and_databases/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-24T14:06:28.000Z",
-      "relevanceScore": 58.09,
-      "recommendationScore": 58.59,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "They’re trying to make deep-sea mining happen",
-      "link": "https://www.theverge.com/the-stepback-newsletter/763871/deep-sea-mining-happening-again",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-08-24T12:00:00.000Z",
-      "relevanceScore": 54.67,
-      "recommendationScore": 54.67,
-      "tags": [
-        "Tech",
-        "Breaking"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Mario 64 wastes SO MUCH MEMORY",
-      "link": "https://www.reddit.com/r/programming/comments/1mz6obd/mario_64_wastes_so_much_memory/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-24T20:34:00.000Z",
-      "relevanceScore": 52.38,
-      "recommendationScore": 52.38,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Zelenskyy: Ukraine does not need US permission to strike Russia",
-      "link": "https://www.reddit.com/r/worldnews/comments/1mywqbq/zelenskyy_ukraine_does_not_need_us_permission_to/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-08-24T14:16:03.000Z",
-      "relevanceScore": 48.12,
-      "recommendationScore": 48.62,
+      "relevanceScore": 82.81,
+      "recommendationScore": 83.31,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -375,8 +311,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T23:00:53.000Z",
-      "relevanceScore": 31.87,
-      "recommendationScore": 32.37,
+      "relevanceScore": 77.34,
+      "recommendationScore": 77.84,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -386,8 +322,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T21:04:11.000Z",
-      "relevanceScore": 31.48,
-      "recommendationScore": 31.98,
+      "relevanceScore": 76.95,
+      "recommendationScore": 77.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -397,8 +333,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T18:42:54.000Z",
-      "relevanceScore": 31.01,
-      "recommendationScore": 31.51,
+      "relevanceScore": 76.48,
+      "recommendationScore": 76.98,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -408,8 +344,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T18:19:40.000Z",
-      "relevanceScore": 30.93,
-      "recommendationScore": 30.93,
+      "relevanceScore": 76.4,
+      "recommendationScore": 76.4,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -419,22 +355,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T16:54:49.000Z",
-      "relevanceScore": 30.65,
-      "recommendationScore": 31.15,
+      "relevanceScore": 76.12,
+      "recommendationScore": 76.62,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Netflix’s ‘KPop Demon Hunters’ is probably the biggest movie in theaters",
-      "link": "https://techcrunch.com/2025/08/24/netflixs-kpop-demon-hunters-is-probably-the-biggest-movie-in-theaters/",
-      "source": "TechCrunch",
-      "category": "entertainment",
-      "pubDate": "2025-08-24T19:59:29.000Z",
-      "relevanceScore": 28.26,
-      "recommendationScore": 28.76,
-      "tags": [
-        "Exclusive"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -443,8 +366,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-08-24T18:35:33.000Z",
-      "relevanceScore": 22.98,
-      "recommendationScore": 25.48,
+      "relevanceScore": 68.46,
+      "recommendationScore": 70.96,
       "tags": [
         "Mobile",
         "Exclusive",
@@ -458,9 +381,96 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-24T18:18:06.000Z",
-      "relevanceScore": 22.93,
-      "recommendationScore": 23.43,
+      "relevanceScore": 68.4,
+      "recommendationScore": 68.9,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1277, Part 1 (Thread #1424)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1mylrwu/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-24T04:02:50.000Z",
+      "relevanceScore": 65.55,
+      "recommendationScore": 68.05,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump administration halts work on an almost-finished wind farm",
+      "link": "https://www.npr.org/2025/08/23/nx-s1-5513919/trump-stops-offshore-wind-renewable-energy",
+      "source": "NPR Business",
+      "category": "climate",
+      "pubDate": "2025-08-23T15:38:19.000Z",
+      "relevanceScore": 61.57,
+      "recommendationScore": 62.07,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Former Meta exec Nick Clegg offers careful criticism of ‘cloyingly conformist’ Silicon Valley",
+      "link": "https://techcrunch.com/2025/08/24/former-meta-exec-nick-clegg-offers-careful-criticism-of-cloyingly-conformist-silicon-valley/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2025-08-24T20:32:56.000Z",
+      "relevanceScore": 59.35,
+      "recommendationScore": 59.85,
+      "tags": [
+        "Web",
+        "Tutorial",
+        "Controversy",
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "They’re trying to make deep-sea mining happen",
+      "link": "https://www.theverge.com/the-stepback-newsletter/763871/deep-sea-mining-happening-again",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-08-24T12:00:00.000Z",
+      "relevanceScore": 55.64,
+      "recommendationScore": 55.64,
+      "tags": [
+        "Tech",
+        "Breaking"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Mario 64 wastes SO MUCH MEMORY",
+      "link": "https://www.reddit.com/r/programming/comments/1mz6obd/mario_64_wastes_so_much_memory/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-24T20:34:00.000Z",
+      "relevanceScore": 53.35,
+      "recommendationScore": 53.35,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Exactly-Once Processing Across Kafka and Databases: Using Kafka Transactions + Idempotent Writes",
+      "link": "https://www.reddit.com/r/programming/comments/1mywhub/exactlyonce_processing_across_kafka_and_databases/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-24T14:06:28.000Z",
+      "relevanceScore": 50.06,
+      "recommendationScore": 50.56,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Netflix’s ‘KPop Demon Hunters’ is probably the biggest movie in theaters",
+      "link": "https://techcrunch.com/2025/08/24/netflixs-kpop-demon-hunters-is-probably-the-biggest-movie-in-theaters/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2025-08-24T19:59:29.000Z",
+      "relevanceScore": 28.24,
+      "recommendationScore": 28.74,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -469,8 +479,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-08-24T19:44:16.000Z",
-      "relevanceScore": 22.71,
-      "recommendationScore": 23.21,
+      "relevanceScore": 22.69,
+      "recommendationScore": 23.19,
       "tags": [
         "Launch"
       ],
@@ -482,22 +492,11 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-24T15:53:51.000Z",
-      "relevanceScore": 21.45,
-      "recommendationScore": 23.45,
+      "relevanceScore": 21.42,
+      "recommendationScore": 23.42,
       "tags": [
         "Partnership"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1277, Part 1 (Thread #1424)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1mylrwu/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-08-24T04:02:50.000Z",
-      "relevanceScore": 20.08,
-      "recommendationScore": 22.58,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -506,8 +505,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-24T13:49:43.000Z",
-      "relevanceScore": 20.03,
-      "recommendationScore": 20.53,
+      "relevanceScore": 20,
+      "recommendationScore": 20.5,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -517,8 +516,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-23T13:03:29.000Z",
-      "relevanceScore": 19.08,
-      "recommendationScore": 19.58,
+      "relevanceScore": 19.05,
+      "recommendationScore": 19.55,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -528,8 +527,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-23T13:00:13.000Z",
-      "relevanceScore": 19.07,
-      "recommendationScore": 19.57,
+      "relevanceScore": 19.04,
+      "recommendationScore": 19.54,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -539,8 +538,8 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2025-08-23T11:07:40.000Z",
-      "relevanceScore": 18.69,
-      "recommendationScore": 20.69,
+      "relevanceScore": 18.66,
+      "recommendationScore": 20.66,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -550,8 +549,8 @@
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2025-08-23T00:34:38.000Z",
-      "relevanceScore": 16.58,
-      "recommendationScore": 17.08,
+      "relevanceScore": 16.55,
+      "recommendationScore": 17.05,
       "tags": [
         "Mobile"
       ],
@@ -565,7 +564,7 @@
         "link": "https://www.engadget.com/ai/you-can-now-download-and-tweak-grok-25-for-yourself-as-it-goes-open-source-164734471.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-24T16:47:35.000Z",
-        "relevanceScore": 875.62,
+        "relevanceScore": 922.1,
         "tags": [
           "IPO"
         ]
@@ -575,7 +574,7 @@
         "link": "https://www.wired.com/gallery/best-heart-rate-monitors/",
         "source": "Wired",
         "pubDate": "2025-08-24T12:30:00.000Z",
-        "relevanceScore": 802.27,
+        "relevanceScore": 804.74,
         "tags": []
       },
       {
@@ -583,7 +582,7 @@
         "link": "https://techcrunch.com/2025/08/24/techcrunch-mobility-waymos-big-apple-score-and-nvidia-backs-nuro/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T18:05:00.000Z",
-        "relevanceScore": 667.88,
+        "relevanceScore": 669.86,
         "tags": [
           "Analysis"
         ]
@@ -593,7 +592,7 @@
         "link": "https://www.theverge.com/installer-newsletter/764641/shutter-declutter-pixel-10-pro-fold-samsung-galaxy-buds-3-fe-herdling-installer",
         "source": "The Verge",
         "pubDate": "2025-08-24T12:00:00.000Z",
-        "relevanceScore": 650.67,
+        "relevanceScore": 652.64,
         "tags": [
           "Tutorial"
         ]
@@ -603,7 +602,7 @@
         "link": "https://www.wired.com/gallery/best-cheap-tvs/",
         "source": "Wired",
         "pubDate": "2025-08-24T13:03:00.000Z",
-        "relevanceScore": 506.88,
+        "relevanceScore": 512.85,
         "tags": []
       },
       {
@@ -611,7 +610,7 @@
         "link": "https://www.wired.com/gallery/best-360-cameras/",
         "source": "Wired",
         "pubDate": "2025-08-24T14:00:00.000Z",
-        "relevanceScore": 351.57,
+        "relevanceScore": 353.04,
         "tags": []
       },
       {
@@ -619,7 +618,7 @@
         "link": "https://www.wired.com/review/8bitdo-64-bluetooth-controller/",
         "source": "Wired",
         "pubDate": "2025-08-24T12:00:00.000Z",
-        "relevanceScore": 106.67,
+        "relevanceScore": 111.64,
         "tags": []
       },
       {
@@ -627,7 +626,7 @@
         "link": "https://www.theverge.com/the-stepback-newsletter/763871/deep-sea-mining-happening-again",
         "source": "The Verge",
         "pubDate": "2025-08-24T12:00:00.000Z",
-        "relevanceScore": 54.67,
+        "relevanceScore": 55.64,
         "tags": [
           "Tech",
           "Breaking"
@@ -638,7 +637,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1myz8t5/this_the_new_pbs_viral_kids_cartoon_teaches/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-24T15:53:51.000Z",
-        "relevanceScore": 21.45,
+        "relevanceScore": 21.42,
         "tags": [
           "Partnership"
         ]
@@ -648,7 +647,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1myw3dj/burkina_faso_says_no_to_bill_gates_plan_of/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-24T13:49:43.000Z",
-        "relevanceScore": 20.03,
+        "relevanceScore": 20,
         "tags": []
       }
     ],
@@ -658,7 +657,7 @@
         "link": "https://www.theverge.com/tech/764496/bose-tv-speaker-soundbar-8bitdo-ultimate-2-bluetooth-controller-deal-sale",
         "source": "The Verge",
         "pubDate": "2025-08-23T16:41:24.000Z",
-        "relevanceScore": 680.8,
+        "relevanceScore": 685.78,
         "tags": [
           "Update"
         ]
@@ -668,7 +667,7 @@
         "link": "https://www.bbc.com/news/articles/cm21xy23npyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-24T23:05:06.000Z",
-        "relevanceScore": 246.88,
+        "relevanceScore": 250.86,
         "tags": []
       },
       {
@@ -676,7 +675,7 @@
         "link": "https://dev.to/music_youtube/rick-beato-unpacking-the-beatles-1965-songwriting-blueprint-2mp",
         "source": "Dev.to",
         "pubDate": "2025-08-24T22:01:59.000Z",
-        "relevanceScore": 106.67,
+        "relevanceScore": 157.15,
         "tags": []
       },
       {
@@ -684,7 +683,7 @@
         "link": "https://techcrunch.com/2025/08/24/netflixs-kpop-demon-hunters-is-probably-the-biggest-movie-in-theaters/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T19:59:29.000Z",
-        "relevanceScore": 28.26,
+        "relevanceScore": 28.24,
         "tags": [
           "Exclusive"
         ]
@@ -696,7 +695,7 @@
         "link": "https://www.engadget.com/science/space/spacex-is-about-to-launch-starship-for-its-10th-test-flight-215652105.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-24T21:56:52.000Z",
-        "relevanceScore": 659.16,
+        "relevanceScore": 668.63,
         "tags": [
           "Web",
           "Launch"
@@ -707,44 +706,10 @@
         "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
         "source": "Ars Technica",
         "pubDate": "2025-08-24T18:51:51.000Z",
-        "relevanceScore": 170.54,
+        "relevanceScore": 220.51,
         "tags": [
           "Launch"
         ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Don't pick weird subnets for embedded networks, use VRFs",
-        "link": "https://www.reddit.com/r/programming/comments/1mz4ftg/dont_pick_weird_subnets_for_embedded_networks_use/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-08-24T19:08:08.000Z",
-        "relevanceScore": 458.09,
-        "tags": []
-      },
-      {
-        "title": "Day 75: When Work Becomes Mental Survival (Not Motivation)",
-        "link": "https://dev.to/casperday11/day-75-when-work-becomes-mental-survival-not-motivation-1160",
-        "source": "Dev.to",
-        "pubDate": "2025-08-24T21:27:40.000Z",
-        "relevanceScore": 145.56,
-        "tags": []
-      },
-      {
-        "title": "Exactly-Once Processing Across Kafka and Databases: Using Kafka Transactions + Idempotent Writes",
-        "link": "https://www.reddit.com/r/programming/comments/1mywhub/exactlyonce_processing_across_kafka_and_databases/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-08-24T14:06:28.000Z",
-        "relevanceScore": 58.09,
-        "tags": []
-      },
-      {
-        "title": "Mario 64 wastes SO MUCH MEMORY",
-        "link": "https://www.reddit.com/r/programming/comments/1mz6obd/mario_64_wastes_so_much_memory/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-08-24T20:34:00.000Z",
-        "relevanceScore": 52.38,
-        "tags": []
       }
     ],
     "cybersecurity": [
@@ -753,7 +718,7 @@
         "link": "https://techcrunch.com/2025/08/24/bluesky-blocks-service-in-mississippi-over-age-assurance-law/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T20:40:32.000Z",
-        "relevanceScore": 413.9,
+        "relevanceScore": 465.87,
         "tags": [
           "Security",
           "Regulation"
@@ -764,10 +729,44 @@
         "link": "https://arstechnica.com/science/2025/08/an-inner-speech-decoder-reveals-some-mental-privacy-issues/",
         "source": "Ars Technica",
         "pubDate": "2025-08-23T11:00:57.000Z",
-        "relevanceScore": 140.17,
+        "relevanceScore": 185.64,
         "tags": [
           "Security"
         ]
+      }
+    ],
+    "development": [
+      {
+        "title": "Don't pick weird subnets for embedded networks, use VRFs",
+        "link": "https://www.reddit.com/r/programming/comments/1mz4ftg/dont_pick_weird_subnets_for_embedded_networks_use/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-24T19:08:08.000Z",
+        "relevanceScore": 459.07,
+        "tags": []
+      },
+      {
+        "title": "Day 75: When Work Becomes Mental Survival (Not Motivation)",
+        "link": "https://dev.to/casperday11/day-75-when-work-becomes-mental-survival-not-motivation-1160",
+        "source": "Dev.to",
+        "pubDate": "2025-08-24T21:27:40.000Z",
+        "relevanceScore": 191.03,
+        "tags": []
+      },
+      {
+        "title": "Mario 64 wastes SO MUCH MEMORY",
+        "link": "https://www.reddit.com/r/programming/comments/1mz6obd/mario_64_wastes_so_much_memory/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-24T20:34:00.000Z",
+        "relevanceScore": 53.35,
+        "tags": []
+      },
+      {
+        "title": "Exactly-Once Processing Across Kafka and Databases: Using Kafka Transactions + Idempotent Writes",
+        "link": "https://www.reddit.com/r/programming/comments/1mywhub/exactlyonce_processing_across_kafka_and_databases/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-24T14:06:28.000Z",
+        "relevanceScore": 50.06,
+        "tags": []
       }
     ],
     "climate": [
@@ -776,7 +775,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mz7caf/trump_halts_construction_on_nearly_complete_wind/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-24T20:59:51.000Z",
-        "relevanceScore": 201.47,
+        "relevanceScore": 204.44,
         "tags": []
       },
       {
@@ -784,7 +783,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/trump-halts-work-new-england-offshore-wind-project-124918883",
         "source": "ABC News Business",
         "pubDate": "2025-08-23T17:29:57.000Z",
-        "relevanceScore": 199.97,
+        "relevanceScore": 202.94,
         "tags": []
       },
       {
@@ -792,7 +791,7 @@
         "link": "https://www.npr.org/2025/08/23/nx-s1-5513919/trump-stops-offshore-wind-renewable-energy",
         "source": "NPR Business",
         "pubDate": "2025-08-23T15:38:19.000Z",
-        "relevanceScore": 60.59,
+        "relevanceScore": 61.57,
         "tags": []
       },
       {
@@ -800,21 +799,8 @@
         "link": "https://arstechnica.com/science/2025/08/why-wind-farms-attract-so-much-misinformation-and-conspiracy-theory/",
         "source": "Ars Technica",
         "pubDate": "2025-08-23T11:07:40.000Z",
-        "relevanceScore": 18.69,
+        "relevanceScore": 18.66,
         "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "10 Open Source Gems To Become The Ultimate Developer 🔥",
-        "link": "https://dev.to/anthonymax/10-open-source-gems-to-become-the-ultimate-developer-dkk",
-        "source": "Dev.to",
-        "pubDate": "2025-08-24T21:19:05.000Z",
-        "relevanceScore": 197.53,
-        "tags": [
-          "Business",
-          "Web"
-        ]
       }
     ],
     "gaming": [
@@ -823,7 +809,7 @@
         "link": "https://www.theverge.com/games/761025/framework-desktop-bazzite-linux-steam-machine-pc-game-console-impressions",
         "source": "The Verge",
         "pubDate": "2025-08-24T13:00:00.000Z",
-        "relevanceScore": 181.87,
+        "relevanceScore": 181.84,
         "tags": []
       },
       {
@@ -831,7 +817,7 @@
         "link": "https://www.engadget.com/gaming/ayn-reveals-a-nintendo-ds-style-handheld-that-comes-in-the-classic-game-boy-color-purple-194416424.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-24T19:44:16.000Z",
-        "relevanceScore": 22.71,
+        "relevanceScore": 22.69,
         "tags": [
           "Launch"
         ]
@@ -843,7 +829,7 @@
         "link": "https://www.npr.org/2025/08/23/nx-s1-5513936/dhl-parcel-tariffs",
         "source": "NPR Business",
         "pubDate": "2025-08-23T22:21:20.000Z",
-        "relevanceScore": 144.94,
+        "relevanceScore": 144.91,
         "tags": []
       },
       {
@@ -851,7 +837,7 @@
         "link": "https://www.npr.org/2025/08/24/nx-s1-5502688/canadas-retaliatory-tariffs-have-left-the-u-s-wine-industry-reeling",
         "source": "NPR Business",
         "pubDate": "2025-08-24T12:51:55.000Z",
-        "relevanceScore": 78.84,
+        "relevanceScore": 82.81,
         "tags": []
       },
       {
@@ -859,7 +845,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/bikes-strollers-fill-central-park-managers-push-horse-124912848",
         "source": "ABC News Business",
         "pubDate": "2025-08-23T13:03:29.000Z",
-        "relevanceScore": 19.08,
+        "relevanceScore": 19.05,
         "tags": []
       },
       {
@@ -867,7 +853,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/european-postal-services-suspend-shipment-packages-us-import-124912854",
         "source": "ABC News Business",
         "pubDate": "2025-08-23T13:00:13.000Z",
-        "relevanceScore": 19.07,
+        "relevanceScore": 19.04,
         "tags": []
       }
     ],
@@ -877,25 +863,22 @@
         "link": "https://techcrunch.com/2025/08/24/pintarnya-raises-16-7m-to-power-jobs-and-financial-services-in-indonesia/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T22:00:00.000Z",
-        "relevanceScore": 58.67,
+        "relevanceScore": 105.14,
         "tags": [
           "Startup",
           "Funding"
         ]
       }
     ],
-    "social": [
+    "cloud": [
       {
-        "title": "Former Meta exec Nick Clegg offers careful criticism of ‘cloyingly conformist’ Silicon Valley",
-        "link": "https://techcrunch.com/2025/08/24/former-meta-exec-nick-clegg-offers-careful-criticism-of-cloyingly-conformist-silicon-valley/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-24T20:32:56.000Z",
-        "relevanceScore": 58.38,
+        "title": "How I Attached and Mounted an EBS Volume to My Ubuntu EC2 Instance",
+        "link": "https://dev.to/goldenboy58/how-i-attached-and-mounted-an-ebs-volume-to-my-ubuntu-ec2-instance-12kl",
+        "source": "Dev.to",
+        "pubDate": "2025-08-24T23:38:02.000Z",
+        "relevanceScore": 100.47,
         "tags": [
-          "Web",
-          "Tutorial",
-          "Controversy",
-          "Regulation"
+          "Cloud"
         ]
       }
     ],
@@ -905,7 +888,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mywqbq/zelenskyy_ukraine_does_not_need_us_permission_to/",
         "source": "Reddit World News",
         "pubDate": "2025-08-24T14:16:03.000Z",
-        "relevanceScore": 48.12,
+        "relevanceScore": 93.59,
         "tags": []
       },
       {
@@ -913,7 +896,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mz34dh/ukraine_liberates_3_villages_in_donetsk_oblast/",
         "source": "Reddit World News",
         "pubDate": "2025-08-24T18:18:06.000Z",
-        "relevanceScore": 22.93,
+        "relevanceScore": 68.4,
         "tags": []
       },
       {
@@ -921,7 +904,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mylrwu/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-08-24T04:02:50.000Z",
-        "relevanceScore": 20.08,
+        "relevanceScore": 65.55,
         "tags": []
       }
     ],
@@ -931,7 +914,7 @@
         "link": "https://www.bbc.com/news/articles/cx2x16y2ppro?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T23:00:53.000Z",
-        "relevanceScore": 31.87,
+        "relevanceScore": 77.34,
         "tags": []
       },
       {
@@ -939,7 +922,7 @@
         "link": "https://www.bbc.com/news/articles/c209yn1ygz6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T21:04:11.000Z",
-        "relevanceScore": 31.48,
+        "relevanceScore": 76.95,
         "tags": []
       },
       {
@@ -947,7 +930,7 @@
         "link": "https://www.bbc.com/news/articles/czxy2v9dzgxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T18:42:54.000Z",
-        "relevanceScore": 31.01,
+        "relevanceScore": 76.48,
         "tags": []
       },
       {
@@ -955,7 +938,7 @@
         "link": "https://www.bbc.com/news/articles/cg4xp4ywk47o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T18:19:40.000Z",
-        "relevanceScore": 30.93,
+        "relevanceScore": 76.4,
         "tags": []
       },
       {
@@ -963,7 +946,7 @@
         "link": "https://www.bbc.com/news/articles/c2djy596rezo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T16:54:49.000Z",
-        "relevanceScore": 30.65,
+        "relevanceScore": 76.12,
         "tags": []
       }
     ],
@@ -973,7 +956,7 @@
         "link": "https://www.engadget.com/gaming/the-first-premium-handheld-from-ayaneos-budget-brand-arrives-in-september-183533792.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-24T18:35:33.000Z",
-        "relevanceScore": 22.98,
+        "relevanceScore": 68.46,
         "tags": [
           "Mobile",
           "Exclusive",
@@ -985,9 +968,24 @@
         "link": "https://www.bbc.com/news/articles/ce87rer52k3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-23T00:34:38.000Z",
-        "relevanceScore": 16.58,
+        "relevanceScore": 16.55,
         "tags": [
           "Mobile"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "title": "Former Meta exec Nick Clegg offers careful criticism of ‘cloyingly conformist’ Silicon Valley",
+        "link": "https://techcrunch.com/2025/08/24/former-meta-exec-nick-clegg-offers-careful-criticism-of-cloyingly-conformist-silicon-valley/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-24T20:32:56.000Z",
+        "relevanceScore": 59.35,
+        "tags": [
+          "Web",
+          "Tutorial",
+          "Controversy",
+          "Regulation"
         ]
       }
     ]
@@ -995,7 +993,7 @@
   "stats": {
     "totalSources": 13,
     "totalCategories": 14,
-    "avgRelevanceScore": 194.8144444444445,
+    "avgRelevanceScore": 210.19711111111104,
     "topCategories": [
       {
         "category": "tech",
