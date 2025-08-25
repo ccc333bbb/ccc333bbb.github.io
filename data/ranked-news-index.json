@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2025-08-25T13:41:37.761Z",
+  "lastUpdated": "2025-08-25T13:52:45.103Z",
   "totalArticles": 44,
   "categories": [
     "tech",
     "general",
     "development",
-    "finance",
-    "space",
     "business",
     "entertainment",
+    "finance",
+    "space",
+    "gaming",
+    "cloud",
+    "cybersecurity",
     "ai-ml",
     "social",
     "startup",
-    "cybersecurity",
-    "gaming",
     "world",
     "education",
     "climate",
@@ -26,8 +27,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-08-25T13:10:49.000Z",
-      "relevanceScore": 702.9,
-      "recommendationScore": 703.4,
+      "relevanceScore": 725.86,
+      "recommendationScore": 726.36,
       "tags": [
         "Web",
         "Regulation"
@@ -40,8 +41,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-25T12:20:14.000Z",
-      "relevanceScore": 506.23,
-      "recommendationScore": 508.23,
+      "relevanceScore": 467.19,
+      "recommendationScore": 469.19,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -51,8 +52,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-25T03:00:01.000Z",
-      "relevanceScore": 403.86,
-      "recommendationScore": 404.36,
+      "relevanceScore": 358.32,
+      "recommendationScore": 358.82,
       "tags": [
         "IPO"
       ],
@@ -64,44 +65,9 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-08-24T19:08:08.000Z",
-      "relevanceScore": 317.29,
-      "recommendationScore": 317.79,
+      "relevanceScore": 319.25,
+      "recommendationScore": 319.75,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "EcoFlow’s Rapid power bank is the fastest yet",
-      "link": "https://www.theverge.com/reviews/764829/fastest-power-bank-review-ecoflow-rapid",
-      "source": "The Verge",
-      "category": "finance",
-      "pubDate": "2025-08-25T13:00:00.000Z",
-      "relevanceScore": 231.86,
-      "recommendationScore": 231.86,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why Scrum Is a Failed Experiment",
-      "link": "https://www.reddit.com/r/programming/comments/1mzlnkc/why_scrum_is_a_failed_experiment/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-08-25T09:17:45.000Z",
-      "relevanceScore": 212.12,
-      "recommendationScore": 213.62,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
-      "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2025-08-24T18:51:51.000Z",
-      "relevanceScore": 190.23,
-      "recommendationScore": 190.73,
-      "tags": [
-        "Launch"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -110,8 +76,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-25T09:00:44.000Z",
-      "relevanceScore": 188.06,
-      "recommendationScore": 188.56,
+      "relevanceScore": 189.03,
+      "recommendationScore": 189.53,
       "tags": [
         "Partnership"
       ],
@@ -123,10 +89,84 @@
       "source": "TechCrunch",
       "category": "entertainment",
       "pubDate": "2025-08-24T19:59:29.000Z",
-      "relevanceScore": 186.46,
-      "recommendationScore": 186.96,
+      "relevanceScore": 187.42,
+      "recommendationScore": 187.92,
       "tags": [
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why Scrum Is a Failed Experiment",
+      "link": "https://www.reddit.com/r/programming/comments/1mzlnkc/why_scrum_is_a_failed_experiment/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-25T09:17:45.000Z",
+      "relevanceScore": 173.08,
+      "recommendationScore": 174.58,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "EcoFlow’s Rapid power bank is the fastest yet",
+      "link": "https://www.theverge.com/reviews/764829/fastest-power-bank-review-ecoflow-rapid",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2025-08-25T13:00:00.000Z",
+      "relevanceScore": 158.32,
+      "recommendationScore": 158.32,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
+      "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2025-08-24T18:51:51.000Z",
+      "relevanceScore": 148.7,
+      "recommendationScore": 149.2,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "25 Best Power Banks (2025), I've Tested Countless to Find Them",
+      "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2025-08-25T13:00:00.000Z",
+      "relevanceScore": 114.82,
+      "recommendationScore": 116.32,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Beginners Guide on how to Attach and Mount an EBS volume on Ubuntu EC2 Instance in AWS",
+      "link": "https://dev.to/momoischief/beginners-guide-on-how-to-attach-and-mount-an-ebs-volume-on-ubuntu-ec2-instance-in-aws-506",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-08-25T13:42:31.000Z",
+      "relevanceScore": 87.97,
+      "recommendationScore": 89.97,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bluesky blocks service in Mississippi over age assurance law",
+      "link": "https://techcrunch.com/2025/08/24/bluesky-blocks-service-in-mississippi-over-age-assurance-law/",
+      "source": "TechCrunch",
+      "category": "cybersecurity",
+      "pubDate": "2025-08-24T20:40:32.000Z",
+      "relevanceScore": 66.56,
+      "recommendationScore": 67.06,
+      "tags": [
+        "Security",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -136,8 +176,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-24T21:04:11.000Z",
-      "relevanceScore": 119.18,
-      "recommendationScore": 119.68,
+      "relevanceScore": 66.14,
+      "recommendationScore": 66.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -147,8 +187,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-08-25T12:30:00.000Z",
-      "relevanceScore": 110.76,
-      "recommendationScore": 110.76,
+      "relevanceScore": 65.72,
+      "recommendationScore": 65.72,
       "tags": [
         "Exclusive"
       ],
@@ -160,8 +200,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-08-25T11:00:24.000Z",
-      "relevanceScore": 110.46,
-      "recommendationScore": 110.96,
+      "relevanceScore": 62.93,
+      "recommendationScore": 63.43,
       "tags": [
         "AI",
         "Tech",
@@ -176,8 +216,8 @@
       "source": "Wired",
       "category": "social",
       "pubDate": "2025-08-25T11:00:00.000Z",
-      "relevanceScore": 110.46,
-      "recommendationScore": 110.46,
+      "relevanceScore": 62.92,
+      "recommendationScore": 62.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -187,8 +227,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-24T22:00:00.000Z",
-      "relevanceScore": 109.86,
-      "recommendationScore": 110.36,
+      "relevanceScore": 62.32,
+      "recommendationScore": 62.82,
       "tags": [
         "Startup",
         "Funding"
@@ -196,38 +236,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Bluesky blocks service in Mississippi over age assurance law",
-      "link": "https://techcrunch.com/2025/08/24/bluesky-blocks-service-in-mississippi-over-age-assurance-law/",
-      "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2025-08-24T20:40:32.000Z",
-      "relevanceScore": 109.1,
-      "recommendationScore": 109.6,
-      "tags": [
-        "Security",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "25 Best Power Banks (2025), I've Tested Countless to Find Them",
-      "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2025-08-25T13:00:00.000Z",
-      "relevanceScore": 108.86,
-      "recommendationScore": 110.36,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "A four-pack of Apple AirTags drops to $70 for Labor Day",
       "link": "https://www.engadget.com/mobile/smartphones/a-four-pack-of-apple-airtags-drops-to-70-for-labor-day-130740384.html?src=rss",
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-25T13:07:40.000Z",
-      "relevanceScore": 108.39,
-      "recommendationScore": 108.89,
+      "relevanceScore": 60.85,
+      "recommendationScore": 61.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -237,8 +252,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-25T10:29:23.000Z",
-      "relevanceScore": 108.36,
-      "recommendationScore": 108.86,
+      "relevanceScore": 60.82,
+      "recommendationScore": 61.32,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -248,8 +263,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-25T07:10:20.000Z",
-      "relevanceScore": 107.7,
-      "recommendationScore": 108.2,
+      "relevanceScore": 60.16,
+      "recommendationScore": 60.66,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -259,8 +274,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-25T04:02:36.000Z",
-      "relevanceScore": 107.07,
-      "recommendationScore": 109.57,
+      "relevanceScore": 59.53,
+      "recommendationScore": 62.03,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -270,8 +285,8 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-08-25T11:55:59.000Z",
-      "relevanceScore": 106.65,
-      "recommendationScore": 108.15,
+      "relevanceScore": 59.11,
+      "recommendationScore": 60.61,
       "tags": [
         "AI",
         "Cloud"
@@ -279,13 +294,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Women aren't just 'cosy gamers' - I play horror games and 600,000 watch",
-      "link": "https://www.bbc.com/news/articles/cm21xy23npyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "entertainment",
-      "pubDate": "2025-08-24T23:05:06.000Z",
-      "relevanceScore": 62.08,
-      "recommendationScore": 62.58,
+      "title": "Medvedev has US Open meltdown after photographer interrupts play",
+      "link": "https://www.bbc.com/sport/tennis/articles/c0qly4k97q0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "education",
+      "pubDate": "2025-08-25T07:06:27.000Z",
+      "relevanceScore": 33.15,
+      "recommendationScore": 33.65,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -295,8 +310,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-25T11:03:22.000Z",
-      "relevanceScore": 31.47,
-      "recommendationScore": 31.97,
+      "relevanceScore": 31.44,
+      "recommendationScore": 31.94,
       "tags": [
         "Breaking"
       ],
@@ -308,19 +323,19 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-25T07:49:33.000Z",
-      "relevanceScore": 30.83,
-      "recommendationScore": 31.33,
+      "relevanceScore": 30.79,
+      "recommendationScore": 31.29,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Medvedev has US Open meltdown after photographer interrupts play",
-      "link": "https://www.bbc.com/sport/tennis/articles/c0qly4k97q0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "education",
-      "pubDate": "2025-08-25T07:06:27.000Z",
-      "relevanceScore": 30.68,
-      "recommendationScore": 31.18,
+      "title": "Women aren't just 'cosy gamers' - I play horror games and 600,000 watch",
+      "link": "https://www.bbc.com/news/articles/cm21xy23npyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "entertainment",
+      "pubDate": "2025-08-24T23:05:06.000Z",
+      "relevanceScore": 30.04,
+      "recommendationScore": 30.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -330,8 +345,8 @@
       "source": "MIT Technology Review",
       "category": "climate",
       "pubDate": "2025-08-25T10:00:00.000Z",
-      "relevanceScore": 29.26,
-      "recommendationScore": 30.76,
+      "relevanceScore": 29.22,
+      "recommendationScore": 30.72,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -341,32 +356,21 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2025-08-25T11:42:32.000Z",
-      "relevanceScore": 26.6,
-      "recommendationScore": 28.6,
+      "relevanceScore": 29.07,
+      "recommendationScore": 31.07,
       "tags": [
         "Business"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "LG S95AR Review: A Hassle-Free Dolby Atmos Soundbar",
-      "link": "https://www.wired.com/review/lg-s95ar/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-25T12:03:00.000Z",
-      "relevanceScore": 25.67,
-      "recommendationScore": 26.17,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "First Netflix House opens its doors on November 12th",
-      "link": "https://www.theverge.com/news/765025/first-netflix-house-opens-its-doors-on-november-12th",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-08-25T12:00:00.000Z",
-      "relevanceScore": 25.66,
-      "recommendationScore": 28.16,
+      "title": "Subaru Solterra first drive: Big improvements in all the right places for 2026",
+      "link": "https://www.engadget.com/transportation/evs/subaru-solterra-first-drive-big-improvements-in-all-the-right-places-for-2026-130023352.html?src=rss",
+      "source": "Engadget",
+      "category": "automotive",
+      "pubDate": "2025-08-25T13:00:23.000Z",
+      "relevanceScore": 26.33,
+      "recommendationScore": 28.83,
       "tags": [
         "Exclusive"
       ],
@@ -377,10 +381,45 @@
       "link": "https://abcnews.go.com/Business/wireStory/asian-shares-track-wall-streets-rally-after-powell-124943359",
       "source": "ABC News Business",
       "category": "business",
-      "pubDate": "2025-08-25T11:42:18.000Z",
-      "relevanceScore": 25.6,
-      "recommendationScore": 26.1,
+      "pubDate": "2025-08-25T13:50:21.000Z",
+      "relevanceScore": 25.99,
+      "recommendationScore": 26.49,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "LG S95AR Review: A Hassle-Free Dolby Atmos Soundbar",
+      "link": "https://www.wired.com/review/lg-s95ar/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-25T12:03:00.000Z",
+      "relevanceScore": 25.63,
+      "recommendationScore": 26.13,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump halts construction on nearly complete wind farm off Rhode Island",
+      "link": "https://www.reddit.com/r/technology/comments/1mz7caf/trump_halts_construction_on_nearly_complete_wind/",
+      "source": "Reddit Technology",
+      "category": "climate",
+      "pubDate": "2025-08-24T20:59:51.000Z",
+      "relevanceScore": 25.62,
+      "recommendationScore": 26.12,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "First Netflix House opens its doors on November 12th",
+      "link": "https://www.theverge.com/news/765025/first-netflix-house-opens-its-doors-on-november-12th",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-08-25T12:00:00.000Z",
+      "relevanceScore": 25.62,
+      "recommendationScore": 28.12,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -389,8 +428,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-25T11:30:00.000Z",
-      "relevanceScore": 25.56,
-      "recommendationScore": 25.56,
+      "relevanceScore": 25.52,
+      "recommendationScore": 25.52,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -400,22 +439,11 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-24T18:05:00.000Z",
-      "relevanceScore": 25.08,
-      "recommendationScore": 25.58,
+      "relevanceScore": 25.04,
+      "recommendationScore": 25.54,
       "tags": [
         "Analysis"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump halts construction on nearly complete wind farm off Rhode Island",
-      "link": "https://www.reddit.com/r/technology/comments/1mz7caf/trump_halts_construction_on_nearly_complete_wind/",
-      "source": "Reddit Technology",
-      "category": "climate",
-      "pubDate": "2025-08-24T20:59:51.000Z",
-      "relevanceScore": 24.66,
-      "recommendationScore": 25.16,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -424,8 +452,8 @@
       "source": "TechCrunch",
       "category": "social",
       "pubDate": "2025-08-24T20:32:56.000Z",
-      "relevanceScore": 24.57,
-      "recommendationScore": 25.07,
+      "relevanceScore": 24.53,
+      "recommendationScore": 25.03,
       "tags": [
         "Web",
         "Tutorial",
@@ -440,8 +468,8 @@
       "source": "Stack Overflow Blog",
       "category": "education",
       "pubDate": "2025-08-25T16:00:00.000Z",
-      "relevanceScore": 24.46,
-      "recommendationScore": 24.46,
+      "relevanceScore": 24.42,
+      "recommendationScore": 24.42,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -451,9 +479,22 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-24T12:51:55.000Z",
-      "relevanceScore": 24.03,
-      "recommendationScore": 24.53,
+      "relevanceScore": 24,
+      "recommendationScore": 24.5,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The MasterClass Labor Day sale discounts subscriptions by 50 percent",
+      "link": "https://www.engadget.com/deals/the-masterclass-labor-day-sale-discounts-subscriptions-by-50-percent-133223509.html?src=rss",
+      "source": "Engadget",
+      "category": "education",
+      "pubDate": "2025-08-25T13:46:25.000Z",
+      "relevanceScore": 23.98,
+      "recommendationScore": 24.48,
+      "tags": [
+        "Web"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -462,8 +503,8 @@
       "source": "Engadget",
       "category": "finance",
       "pubDate": "2025-08-25T13:06:27.000Z",
-      "relevanceScore": 23.88,
-      "recommendationScore": 24.38,
+      "relevanceScore": 23.85,
+      "recommendationScore": 24.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -473,8 +514,8 @@
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-08-25T13:01:54.000Z",
-      "relevanceScore": 23.87,
-      "recommendationScore": 23.87,
+      "relevanceScore": 23.83,
+      "recommendationScore": 23.83,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -484,47 +525,10 @@
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-08-25T13:01:53.000Z",
-      "relevanceScore": 23.87,
-      "recommendationScore": 23.87,
+      "relevanceScore": 23.83,
+      "recommendationScore": 23.83,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Credit: @bernert",
-      "link": "https://dev.to/dumb_dev_meme_bot/credit-bernert-382",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-25T13:01:52.000Z",
-      "relevanceScore": 23.87,
-      "recommendationScore": 23.87,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Subaru Solterra first drive: Big improvements in all the right places for 2026",
-      "link": "https://www.engadget.com/transportation/evs/subaru-solterra-first-drive-big-improvements-in-all-the-right-places-for-2026-130023352.html?src=rss",
-      "source": "Engadget",
-      "category": "automotive",
-      "pubDate": "2025-08-25T13:00:23.000Z",
-      "relevanceScore": 23.86,
-      "recommendationScore": 26.36,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "NordVPN deal: Get a two-year plan for up to 77 percent off",
-      "link": "https://www.engadget.com/deals/nordvpn-deal-get-a-two-year-plan-for-up-to-77-percent-off-151807968.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-25T12:41:25.000Z",
-      "relevanceScore": 22.8,
-      "recommendationScore": 23.3,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Florida schools introducing armed drones that respond to shootings within seconds | Smart safety measure or a recipe for disaster?",
@@ -532,8 +536,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-08-25T10:46:15.000Z",
-      "relevanceScore": 21.42,
-      "recommendationScore": 21.42,
+      "relevanceScore": 21.38,
+      "recommendationScore": 21.38,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -543,8 +547,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-23T22:21:20.000Z",
-      "relevanceScore": 21.13,
-      "recommendationScore": 21.63,
+      "relevanceScore": 21.1,
+      "recommendationScore": 21.6,
       "tags": [],
       "readingLevel": "intermediate"
     }
@@ -556,7 +560,7 @@
         "link": "https://www.theverge.com/policy/764602/online-child-exploitation-investigations-hsi-immigration",
         "source": "The Verge",
         "pubDate": "2025-08-25T13:10:49.000Z",
-        "relevanceScore": 702.9,
+        "relevanceScore": 725.86,
         "tags": [
           "Web",
           "Regulation"
@@ -567,7 +571,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mzfe5d/trump_appoints_airbnb_cofounder_to_revamp_public/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-25T03:00:01.000Z",
-        "relevanceScore": 403.86,
+        "relevanceScore": 358.32,
         "tags": [
           "IPO"
         ]
@@ -577,7 +581,7 @@
         "link": "https://www.theverge.com/features/760555/vineyard-wind-turbine-blade-break-nantucket",
         "source": "The Verge",
         "pubDate": "2025-08-25T12:30:00.000Z",
-        "relevanceScore": 110.76,
+        "relevanceScore": 65.72,
         "tags": [
           "Exclusive"
         ]
@@ -587,7 +591,7 @@
         "link": "https://www.engadget.com/mobile/smartphones/a-four-pack-of-apple-airtags-drops-to-70-for-labor-day-130740384.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-25T13:07:40.000Z",
-        "relevanceScore": 108.39,
+        "relevanceScore": 60.85,
         "tags": []
       },
       {
@@ -595,7 +599,7 @@
         "link": "https://www.wired.com/review/lg-s95ar/",
         "source": "Wired",
         "pubDate": "2025-08-25T12:03:00.000Z",
-        "relevanceScore": 25.67,
+        "relevanceScore": 25.63,
         "tags": []
       },
       {
@@ -603,7 +607,7 @@
         "link": "https://www.wired.com/review/pro-by-deesse-pro/",
         "source": "Wired",
         "pubDate": "2025-08-25T11:30:00.000Z",
-        "relevanceScore": 25.56,
+        "relevanceScore": 25.52,
         "tags": []
       },
       {
@@ -611,19 +615,9 @@
         "link": "https://techcrunch.com/2025/08/24/techcrunch-mobility-waymos-big-apple-score-and-nvidia-backs-nuro/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T18:05:00.000Z",
-        "relevanceScore": 25.08,
+        "relevanceScore": 25.04,
         "tags": [
           "Analysis"
-        ]
-      },
-      {
-        "title": "NordVPN deal: Get a two-year plan for up to 77 percent off",
-        "link": "https://www.engadget.com/deals/nordvpn-deal-get-a-two-year-plan-for-up-to-77-percent-off-151807968.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-25T12:41:25.000Z",
-        "relevanceScore": 22.8,
-        "tags": [
-          "Partnership"
         ]
       },
       {
@@ -631,7 +625,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mzn4bc/florida_schools_introducing_armed_drones_that/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-25T10:46:15.000Z",
-        "relevanceScore": 21.42,
+        "relevanceScore": 21.38,
         "tags": []
       }
     ],
@@ -641,7 +635,7 @@
         "link": "https://www.bbc.com/news/articles/c0qly7g9pepo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-25T12:20:14.000Z",
-        "relevanceScore": 506.23,
+        "relevanceScore": 467.19,
         "tags": []
       },
       {
@@ -649,7 +643,7 @@
         "link": "https://www.bbc.com/news/articles/c209yn1ygz6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-24T21:04:11.000Z",
-        "relevanceScore": 119.18,
+        "relevanceScore": 66.14,
         "tags": []
       },
       {
@@ -657,7 +651,7 @@
         "link": "https://www.bbc.com/news/articles/c05ey2ypp92o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-25T11:03:22.000Z",
-        "relevanceScore": 31.47,
+        "relevanceScore": 31.44,
         "tags": [
           "Breaking"
         ]
@@ -667,7 +661,7 @@
         "link": "https://www.bbc.com/news/articles/c2djy7048pdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-25T07:49:33.000Z",
-        "relevanceScore": 30.83,
+        "relevanceScore": 30.79,
         "tags": []
       }
     ],
@@ -677,7 +671,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mz4ftg/dont_pick_weird_subnets_for_embedded_networks_use/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-24T19:08:08.000Z",
-        "relevanceScore": 317.29,
+        "relevanceScore": 319.25,
         "tags": []
       },
       {
@@ -685,7 +679,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mzlnkc/why_scrum_is_a_failed_experiment/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-25T09:17:45.000Z",
-        "relevanceScore": 212.12,
+        "relevanceScore": 173.08,
         "tags": []
       },
       {
@@ -693,7 +687,7 @@
         "link": "https://dev.to/dumb_dev_meme_bot/credit-hfrench-33ij",
         "source": "Dev.to",
         "pubDate": "2025-08-25T13:01:54.000Z",
-        "relevanceScore": 23.87,
+        "relevanceScore": 23.83,
         "tags": []
       },
       {
@@ -701,56 +695,8 @@
         "link": "https://dev.to/dumb_dev_meme_bot/credit-cwrite-1ci3",
         "source": "Dev.to",
         "pubDate": "2025-08-25T13:01:53.000Z",
-        "relevanceScore": 23.87,
+        "relevanceScore": 23.83,
         "tags": []
-      },
-      {
-        "title": "Credit: @bernert",
-        "link": "https://dev.to/dumb_dev_meme_bot/credit-bernert-382",
-        "source": "Dev.to",
-        "pubDate": "2025-08-25T13:01:52.000Z",
-        "relevanceScore": 23.87,
-        "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "EcoFlow’s Rapid power bank is the fastest yet",
-        "link": "https://www.theverge.com/reviews/764829/fastest-power-bank-review-ecoflow-rapid",
-        "source": "The Verge",
-        "pubDate": "2025-08-25T13:00:00.000Z",
-        "relevanceScore": 231.86,
-        "tags": []
-      },
-      {
-        "title": "What to know about the delisting of property developer China Evergrande's shares in Hong Kong",
-        "link": "https://abcnews.go.com/Business/wireStory/delisting-property-developer-china-evergrandes-shares-hong-kong-124946046",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-25T11:42:32.000Z",
-        "relevanceScore": 26.6,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "This Anker 5K magnetic power bank is on sale for only $28",
-        "link": "https://www.engadget.com/deals/this-anker-5k-magnetic-power-bank-is-on-sale-for-only-28-161505856.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-25T13:06:27.000Z",
-        "relevanceScore": 23.88,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
-        "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-24T18:51:51.000Z",
-        "relevanceScore": 190.23,
-        "tags": [
-          "Launch"
-        ]
       }
     ],
     "business": [
@@ -759,7 +705,7 @@
         "link": "https://www.npr.org/2025/08/25/nx-s1-5508133/south-korean-president-lee-to-meet-with-trump-in-washington-on-monday",
         "source": "NPR Business",
         "pubDate": "2025-08-25T09:00:44.000Z",
-        "relevanceScore": 188.06,
+        "relevanceScore": 189.03,
         "tags": [
           "Partnership"
         ]
@@ -768,8 +714,8 @@
         "title": "Asian shares track Wall Street's rally after Powell hints at rate cuts",
         "link": "https://abcnews.go.com/Business/wireStory/asian-shares-track-wall-streets-rally-after-powell-124943359",
         "source": "ABC News Business",
-        "pubDate": "2025-08-25T11:42:18.000Z",
-        "relevanceScore": 25.6,
+        "pubDate": "2025-08-25T13:50:21.000Z",
+        "relevanceScore": 25.99,
         "tags": []
       },
       {
@@ -777,7 +723,7 @@
         "link": "https://www.npr.org/2025/08/24/nx-s1-5502688/canadas-retaliatory-tariffs-have-left-the-u-s-wine-industry-reeling",
         "source": "NPR Business",
         "pubDate": "2025-08-24T12:51:55.000Z",
-        "relevanceScore": 24.03,
+        "relevanceScore": 24,
         "tags": []
       },
       {
@@ -785,7 +731,7 @@
         "link": "https://www.npr.org/2025/08/23/nx-s1-5513936/dhl-parcel-tariffs",
         "source": "NPR Business",
         "pubDate": "2025-08-23T22:21:20.000Z",
-        "relevanceScore": 21.13,
+        "relevanceScore": 21.1,
         "tags": []
       }
     ],
@@ -795,7 +741,7 @@
         "link": "https://techcrunch.com/2025/08/24/netflixs-kpop-demon-hunters-is-probably-the-biggest-movie-in-theaters/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T19:59:29.000Z",
-        "relevanceScore": 186.46,
+        "relevanceScore": 187.42,
         "tags": [
           "Exclusive"
         ]
@@ -805,7 +751,7 @@
         "link": "https://www.bbc.com/news/articles/cm21xy23npyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-24T23:05:06.000Z",
-        "relevanceScore": 62.08,
+        "relevanceScore": 30.04,
         "tags": []
       },
       {
@@ -813,9 +759,85 @@
         "link": "https://www.theverge.com/news/765025/first-netflix-house-opens-its-doors-on-november-12th",
         "source": "The Verge",
         "pubDate": "2025-08-25T12:00:00.000Z",
-        "relevanceScore": 25.66,
+        "relevanceScore": 25.62,
         "tags": [
           "Exclusive"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "EcoFlow’s Rapid power bank is the fastest yet",
+        "link": "https://www.theverge.com/reviews/764829/fastest-power-bank-review-ecoflow-rapid",
+        "source": "The Verge",
+        "pubDate": "2025-08-25T13:00:00.000Z",
+        "relevanceScore": 158.32,
+        "tags": []
+      },
+      {
+        "title": "What to know about the delisting of property developer China Evergrande's shares in Hong Kong",
+        "link": "https://abcnews.go.com/Business/wireStory/delisting-property-developer-china-evergrandes-shares-hong-kong-124946046",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-25T11:42:32.000Z",
+        "relevanceScore": 29.07,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "This Anker 5K magnetic power bank is on sale for only $28",
+        "link": "https://www.engadget.com/deals/this-anker-5k-magnetic-power-bank-is-on-sale-for-only-28-161505856.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-25T13:06:27.000Z",
+        "relevanceScore": 23.85,
+        "tags": []
+      }
+    ],
+    "space": [
+      {
+        "title": "Time is running out for SpaceX to make a splash with second-gen Starship",
+        "link": "https://arstechnica.com/space/2025/08/whats-the-goal-of-spacexs-10th-starship-test-flight-right-the-ship/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-24T18:51:51.000Z",
+        "relevanceScore": 148.7,
+        "tags": [
+          "Launch"
+        ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "25 Best Power Banks (2025), I've Tested Countless to Find Them",
+        "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
+        "source": "Wired",
+        "pubDate": "2025-08-25T13:00:00.000Z",
+        "relevanceScore": 114.82,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Beginners Guide on how to Attach and Mount an EBS volume on Ubuntu EC2 Instance in AWS",
+        "link": "https://dev.to/momoischief/beginners-guide-on-how-to-attach-and-mount-an-ebs-volume-on-ubuntu-ec2-instance-in-aws-506",
+        "source": "Dev.to",
+        "pubDate": "2025-08-25T13:42:31.000Z",
+        "relevanceScore": 87.97,
+        "tags": [
+          "Cloud",
+          "Tutorial"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Bluesky blocks service in Mississippi over age assurance law",
+        "link": "https://techcrunch.com/2025/08/24/bluesky-blocks-service-in-mississippi-over-age-assurance-law/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-24T20:40:32.000Z",
+        "relevanceScore": 66.56,
+        "tags": [
+          "Security",
+          "Regulation"
         ]
       }
     ],
@@ -825,7 +847,7 @@
         "link": "https://arstechnica.com/information-technology/2025/08/with-ai-chatbots-big-tech-is-moving-fast-and-breaking-people/",
         "source": "Ars Technica",
         "pubDate": "2025-08-25T11:00:24.000Z",
-        "relevanceScore": 110.46,
+        "relevanceScore": 62.93,
         "tags": [
           "AI",
           "Tech",
@@ -838,7 +860,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1mzofsk/aws_ceo_says_replacing_junior_developers_with_ai/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-25T11:55:59.000Z",
-        "relevanceScore": 106.65,
+        "relevanceScore": 59.11,
         "tags": [
           "AI",
           "Cloud"
@@ -851,7 +873,7 @@
         "link": "https://www.wired.com/story/meta-has-already-won-the-smart-glasses-race/",
         "source": "Wired",
         "pubDate": "2025-08-25T11:00:00.000Z",
-        "relevanceScore": 110.46,
+        "relevanceScore": 62.92,
         "tags": []
       },
       {
@@ -859,7 +881,7 @@
         "link": "https://techcrunch.com/2025/08/24/former-meta-exec-nick-clegg-offers-careful-criticism-of-cloyingly-conformist-silicon-valley/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T20:32:56.000Z",
-        "relevanceScore": 24.57,
+        "relevanceScore": 24.53,
         "tags": [
           "Web",
           "Tutorial",
@@ -874,34 +896,11 @@
         "link": "https://techcrunch.com/2025/08/24/pintarnya-raises-16-7m-to-power-jobs-and-financial-services-in-indonesia/",
         "source": "TechCrunch",
         "pubDate": "2025-08-24T22:00:00.000Z",
-        "relevanceScore": 109.86,
+        "relevanceScore": 62.32,
         "tags": [
           "Startup",
           "Funding"
         ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Bluesky blocks service in Mississippi over age assurance law",
-        "link": "https://techcrunch.com/2025/08/24/bluesky-blocks-service-in-mississippi-over-age-assurance-law/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-24T20:40:32.000Z",
-        "relevanceScore": 109.1,
-        "tags": [
-          "Security",
-          "Regulation"
-        ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "25 Best Power Banks (2025), I've Tested Countless to Find Them",
-        "link": "https://www.wired.com/gallery/best-portable-chargers-power-banks/",
-        "source": "Wired",
-        "pubDate": "2025-08-25T13:00:00.000Z",
-        "relevanceScore": 108.86,
-        "tags": []
       }
     ],
     "world": [
@@ -910,7 +909,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mzmty1/parts_of_russia_face_gasoline_shortages_after/",
         "source": "Reddit World News",
         "pubDate": "2025-08-25T10:29:23.000Z",
-        "relevanceScore": 108.36,
+        "relevanceScore": 60.82,
         "tags": []
       },
       {
@@ -918,7 +917,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mzjpko/russias_foreign_minister_struggles_to_defend/",
         "source": "Reddit World News",
         "pubDate": "2025-08-25T07:10:20.000Z",
-        "relevanceScore": 107.7,
+        "relevanceScore": 60.16,
         "tags": []
       },
       {
@@ -926,7 +925,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1mzgl3d/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-08-25T04:02:36.000Z",
-        "relevanceScore": 107.07,
+        "relevanceScore": 59.53,
         "tags": []
       }
     ],
@@ -936,7 +935,7 @@
         "link": "https://www.bbc.com/sport/tennis/articles/c0qly4k97q0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-25T07:06:27.000Z",
-        "relevanceScore": 30.68,
+        "relevanceScore": 33.15,
         "tags": []
       },
       {
@@ -944,8 +943,18 @@
         "link": "https://stackoverflow.blog/2025/08/25/making-continuous-learning-work-at-work/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-25T16:00:00.000Z",
-        "relevanceScore": 24.46,
+        "relevanceScore": 24.42,
         "tags": []
+      },
+      {
+        "title": "The MasterClass Labor Day sale discounts subscriptions by 50 percent",
+        "link": "https://www.engadget.com/deals/the-masterclass-labor-day-sale-discounts-subscriptions-by-50-percent-133223509.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-25T13:46:25.000Z",
+        "relevanceScore": 23.98,
+        "tags": [
+          "Web"
+        ]
       }
     ],
     "climate": [
@@ -954,7 +963,7 @@
         "link": "https://www.technologyreview.com/2025/08/25/1121450/lidar-climate-change-disasters-cost/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-25T10:00:00.000Z",
-        "relevanceScore": 29.26,
+        "relevanceScore": 29.22,
         "tags": []
       },
       {
@@ -962,7 +971,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1mz7caf/trump_halts_construction_on_nearly_complete_wind/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-24T20:59:51.000Z",
-        "relevanceScore": 24.66,
+        "relevanceScore": 25.62,
         "tags": []
       }
     ],
@@ -972,7 +981,7 @@
         "link": "https://www.engadget.com/transportation/evs/subaru-solterra-first-drive-big-improvements-in-all-the-right-places-for-2026-130023352.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-25T13:00:23.000Z",
-        "relevanceScore": 23.86,
+        "relevanceScore": 26.33,
         "tags": [
           "Exclusive"
         ]
@@ -981,19 +990,19 @@
   },
   "stats": {
     "totalSources": 15,
-    "totalCategories": 16,
-    "avgRelevanceScore": 110.83568181818183,
+    "totalCategories": 17,
+    "avgRelevanceScore": 95.25909090909092,
     "topCategories": [
       {
         "category": "tech",
-        "count": 9
-      },
-      {
-        "category": "development",
-        "count": 5
+        "count": 8
       },
       {
         "category": "general",
+        "count": 4
+      },
+      {
+        "category": "development",
         "count": 4
       },
       {
@@ -1001,7 +1010,7 @@
         "count": 4
       },
       {
-        "category": "finance",
+        "category": "entertainment",
         "count": 3
       }
     ]
