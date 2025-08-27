@@ -1,34 +1,59 @@
 {
-  "lastUpdated": "2025-08-27T15:32:57.994Z",
-  "totalArticles": 56,
+  "lastUpdated": "2025-08-27T15:48:43.989Z",
+  "totalArticles": 53,
   "categories": [
-    "space",
     "development",
+    "space",
     "general",
-    "ai-ml",
     "mobile",
+    "ai-ml",
     "cloud",
-    "blockchain",
     "science",
+    "tech",
     "entertainment",
+    "blockchain",
+    "finance",
+    "gaming",
     "business",
     "automotive",
-    "tech",
     "world",
     "startup",
-    "finance",
     "social",
     "education"
   ],
   "topArticles": [
+    {
+      "title": "Analyse and Optimise your container image size",
+      "link": "https://dev.to/satyamkr1729/optimising-your-container-image-size-24f7",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-08-27T15:41:25.000Z",
+      "relevanceScore": 1066.98,
+      "recommendationScore": 1066.98,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "SpaceX Starship Finally Pulls Off a Successful Test Flight",
       "link": "https://www.wired.com/story/spacex-starship-successful-test-flight/",
       "source": "Wired",
       "category": "space",
       "pubDate": "2025-08-27T13:52:01.000Z",
-      "relevanceScore": 748.66,
-      "recommendationScore": 749.16,
+      "relevanceScore": 712.11,
+      "recommendationScore": 712.61,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Therac-25 Incident",
+      "link": "https://www.reddit.com/r/programming/comments/1n1eo7y/the_therac25_incident/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-08-27T11:40:57.000Z",
+      "relevanceScore": 605.17,
+      "recommendationScore": 605.17,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -38,8 +63,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-08-25T16:01:12.000Z",
-      "relevanceScore": 570.99,
-      "recommendationScore": 571.99,
+      "relevanceScore": 519.44,
+      "recommendationScore": 520.44,
       "tags": [
         "Interview"
       ],
@@ -51,10 +76,25 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-27T14:50:57.000Z",
-      "relevanceScore": 433.86,
-      "recommendationScore": 436.36,
+      "relevanceScore": 377.31,
+      "recommendationScore": 379.81,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Svelte was built on “slinging code for the sheer love of it”",
+      "link": "https://stackoverflow.blog/2025/08/26/svelte-was-built-on-slinging-code-for-the-sheer-love-of-it/",
+      "source": "Stack Overflow Blog",
+      "category": "mobile",
+      "pubDate": "2025-08-26T07:40:00.000Z",
+      "relevanceScore": 337.57,
+      "recommendationScore": 338.07,
+      "tags": [
+        "Tech",
+        "Mobile",
+        "Web"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Rediscovering joy in learning: Jason Lengstorf on the state of development",
@@ -62,8 +102,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-08-26T16:10:14.000Z",
-      "relevanceScore": 343.82,
-      "recommendationScore": 344.32,
+      "relevanceScore": 282.27,
+      "recommendationScore": 282.77,
       "tags": [
         "AI",
         "Exclusive"
@@ -76,52 +116,10 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-08-27T04:44:55.000Z",
-      "relevanceScore": 329.34,
-      "recommendationScore": 329.34,
+      "relevanceScore": 274.79,
+      "recommendationScore": 274.79,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Svelte was built on “slinging code for the sheer love of it”",
-      "link": "https://stackoverflow.blog/2025/08/26/svelte-was-built-on-slinging-code-for-the-sheer-love-of-it/",
-      "source": "Stack Overflow Blog",
-      "category": "mobile",
-      "pubDate": "2025-08-26T07:40:00.000Z",
-      "relevanceScore": 321.62,
-      "recommendationScore": 322.12,
-      "tags": [
-        "Tech",
-        "Mobile",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How do you make FullStack Demo App for Interviews using Laravel + React with Dockerize Part 3",
-      "link": "https://dev.to/pirvanm/how-do-you-make-fullstack-demo-app-for-interviews-using-laravel-react-with-dockerize-part-3-mci",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-08-27T15:12:33.000Z",
-      "relevanceScore": 298.93,
-      "recommendationScore": 300.93,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "HSBC resolves app and online banking  outage",
-      "link": "https://www.bbc.com/news/articles/cqjykl7ek9qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "mobile",
-      "pubDate": "2025-08-27T15:29:59.000Z",
-      "relevanceScore": 293.49,
-      "recommendationScore": 293.49,
-      "tags": [
-        "Mobile",
-        "Web"
       ],
       "readingLevel": "intermediate"
     },
@@ -131,36 +129,11 @@
       "source": "The Verge",
       "category": "cloud",
       "pubDate": "2025-08-27T15:16:27.000Z",
-      "relevanceScore": 289.44,
-      "recommendationScore": 289.94,
+      "relevanceScore": 233.39,
+      "recommendationScore": 233.89,
       "tags": [
         "Tech",
         "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The White House Is Going to Put Government Statistics on the Blockchain (Yeah, We Don’t Know Why Either) | \"We're just ironing out all the details,\" said Howard Lutnick.",
-      "link": "https://www.reddit.com/r/technology/comments/1n1e0e5/the_white_house_is_going_to_put_government/",
-      "source": "Reddit Technology",
-      "category": "blockchain",
-      "pubDate": "2025-08-27T11:06:13.000Z",
-      "relevanceScore": 211.11,
-      "recommendationScore": 212.61,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The smart way of centralizing VPC endpoints with Route 53 Profiles",
-      "link": "https://dev.to/aws-builders/the-smart-way-of-centralizing-vpc-endpoints-with-route-53-profiles-38bc",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-08-27T15:27:46.000Z",
-      "relevanceScore": 192.98,
-      "recommendationScore": 193.48,
-      "tags": [
-        "Cloud",
-        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -170,8 +143,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-08-27T14:00:00.000Z",
-      "relevanceScore": 192.69,
-      "recommendationScore": 192.69,
+      "relevanceScore": 227.64,
+      "recommendationScore": 227.64,
       "tags": [
         "Tech",
         "Business"
@@ -179,19 +152,43 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "DOGE accused of copying entire Social Security database to insecure cloud system | Live copy of NUMIDENT \"lacks any security oversight,\" whistleblower alleges.",
-      "link": "https://www.reddit.com/r/technology/comments/1n1dto7/doge_accused_of_copying_entire_social_security/",
-      "source": "Reddit Technology",
-      "category": "cloud",
-      "pubDate": "2025-08-27T10:56:11.000Z",
-      "relevanceScore": 190.08,
-      "recommendationScore": 190.08,
+      "title": "HSBC resolves app and online banking  outage",
+      "link": "https://www.bbc.com/news/articles/cqjykl7ek9qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2025-08-27T15:29:59.000Z",
+      "relevanceScore": 223.94,
+      "recommendationScore": 223.94,
       "tags": [
-        "Security",
-        "Cloud",
-        "Social"
+        "Mobile",
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI Skills That Will Actually Get You Hired in 2025",
+      "link": "https://dev.to/philipjohnbasile/ai-skills-that-will-actually-get-you-hired-in-2025-350j",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-08-27T15:45:04.000Z",
+      "relevanceScore": 221.49,
+      "recommendationScore": 221.49,
+      "tags": [
+        "AI",
+        "Business"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Best Window Air Conditioners 2025: 11 Picks to Cool You for Years",
+      "link": "https://www.wired.com/gallery/best-window-air-conditioners/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-08-27T15:29:35.000Z",
+      "relevanceScore": 207.44,
+      "recommendationScore": 208.94,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Kpop Demon Hunters becomes Netflix's most viewed film ever",
@@ -199,9 +196,23 @@
       "source": "BBC Technology",
       "category": "entertainment",
       "pubDate": "2025-08-27T03:10:08.000Z",
-      "relevanceScore": 179.52,
-      "recommendationScore": 180.02,
+      "relevanceScore": 188.47,
+      "recommendationScore": 188.97,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best Labor Day sales for 2025: Save up to $500 on tech from Apple, Anker, Dyson, Shark and others",
+      "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-save-up-to-500-on-tech-from-apple-anker-dyson-shark-and-others-120049728.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-27T15:00:37.000Z",
+      "relevanceScore": 138.84,
+      "recommendationScore": 139.84,
+      "tags": [
+        "Tech",
+        "Web"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -210,8 +221,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-27T14:07:31.000Z",
-      "relevanceScore": 172.22,
-      "recommendationScore": 174.22,
+      "relevanceScore": 133.16,
+      "recommendationScore": 135.16,
       "tags": [
         "AI"
       ],
@@ -223,8 +234,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-08-27T12:10:00.000Z",
-      "relevanceScore": 159.82,
-      "recommendationScore": 159.82,
+      "relevanceScore": 89.77,
+      "recommendationScore": 89.77,
       "tags": [
         "AI",
         "Tech",
@@ -239,8 +250,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-08-27T14:04:40.000Z",
-      "relevanceScore": 154.71,
-      "recommendationScore": 155.21,
+      "relevanceScore": 86.15,
+      "recommendationScore": 86.65,
       "tags": [
         "AI",
         "Mobile"
@@ -248,28 +259,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "The White House Is Going to Put Government Statistics on the Blockchain (Yeah, We Don’t Know Why Either) | \"We're just ironing out all the details,\" said Howard Lutnick.",
+      "link": "https://www.reddit.com/r/technology/comments/1n1e0e5/the_white_house_is_going_to_put_government/",
+      "source": "Reddit Technology",
+      "category": "blockchain",
+      "pubDate": "2025-08-27T11:06:13.000Z",
+      "relevanceScore": 76.06,
+      "recommendationScore": 77.56,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Four ways to keep your energy bills down",
       "link": "https://www.bbc.com/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-27T13:11:45.000Z",
-      "relevanceScore": 148.53,
-      "recommendationScore": 148.53,
+      "relevanceScore": 75.48,
+      "recommendationScore": 75.48,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Building a Simple SQL Parser in Python: From Basics to Hands-On",
-      "link": "https://dev.to/leapcell/building-a-simple-sql-parser-in-python-from-basics-to-hands-on-2a0o",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-27T15:12:38.000Z",
-      "relevanceScore": 140.93,
-      "recommendationScore": 141.43,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Gaza City evacuation inevitable, Israeli army warns Palestinians",
@@ -277,30 +286,59 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-27T15:02:18.000Z",
-      "relevanceScore": 136.9,
-      "recommendationScore": 137.4,
+      "relevanceScore": 65.35,
+      "recommendationScore": 65.85,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Trump extends control over Washington by taking management of Union Station away from Amtrak",
-      "link": "https://abcnews.go.com/Business/wireStory/trump-extends-control-washington-taking-management-union-station-125020469",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-08-27T13:34:16.000Z",
-      "relevanceScore": 122.6,
-      "recommendationScore": 123.1,
+      "title": "From punch cards to prompts: a history of how software got better",
+      "link": "https://stackoverflow.blog/2025/08/27/from-punch-cards-to-prompts-a-history-of-how-software-got-better/",
+      "source": "Stack Overflow Blog",
+      "category": "cloud",
+      "pubDate": "2025-08-27T04:40:00.000Z",
+      "relevanceScore": 60.77,
+      "recommendationScore": 63.77,
+      "tags": [
+        "Tech",
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "DOGE accused of copying entire Social Security database to insecure cloud system | Live copy of NUMIDENT \"lacks any security oversight,\" whistleblower alleges.",
+      "link": "https://www.reddit.com/r/technology/comments/1n1dto7/doge_accused_of_copying_entire_social_security/",
+      "source": "Reddit Technology",
+      "category": "cloud",
+      "pubDate": "2025-08-27T10:56:11.000Z",
+      "relevanceScore": 59.52,
+      "recommendationScore": 59.52,
+      "tags": [
+        "Security",
+        "Cloud",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "European banks hit by rogue PayPal payments worth 'billions'",
+      "link": "https://www.bbc.com/news/articles/cj6y42jggdyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "finance",
+      "pubDate": "2025-08-27T15:38:52.000Z",
+      "relevanceScore": 59.47,
+      "recommendationScore": 59.97,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Denmark summons top US diplomat over alleged 'covert influence operations' in Greenland",
-      "link": "https://www.bbc.com/news/articles/c0j9l08902eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-27T11:39:04.000Z",
-      "relevanceScore": 121.22,
-      "recommendationScore": 122.72,
+      "title": "Google’s Pixel Tablet is up to $170 off ahead of Labor Day weekend",
+      "link": "https://www.theverge.com/tech/766417/google-pixel-tablet-apple-airpods-4-deal-sale",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-08-27T13:36:03.000Z",
+      "relevanceScore": 54.06,
+      "recommendationScore": 54.56,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -310,8 +348,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-27T15:01:00.000Z",
-      "relevanceScore": 117.89,
-      "recommendationScore": 120.39,
+      "relevanceScore": 43.34,
+      "recommendationScore": 45.84,
       "tags": [
         "AI",
         "Exclusive"
@@ -324,8 +362,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-27T14:13:02.000Z",
-      "relevanceScore": 117.73,
-      "recommendationScore": 120.23,
+      "relevanceScore": 43.18,
+      "recommendationScore": 45.68,
       "tags": [
         "AI",
         "Tech"
@@ -333,13 +371,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Video Games Weekly: Climbing games are so hot right now",
+      "link": "https://www.engadget.com/gaming/video-games-weekly-climbing-games-are-so-hot-right-now-010748663.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-08-27T01:07:48.000Z",
+      "relevanceScore": 43.06,
+      "recommendationScore": 43.56,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Despite sanctions, many countries are still importing Russian products",
       "link": "https://www.npr.org/2025/08/27/nx-s1-5496336/despite-sanctions-many-countries-are-still-importing-russian-products",
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-27T08:06:54.000Z",
-      "relevanceScore": 117.51,
-      "recommendationScore": 118.01,
+      "relevanceScore": 42.96,
+      "recommendationScore": 43.46,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -349,8 +400,8 @@
       "source": "The Verge",
       "category": "automotive",
       "pubDate": "2025-08-27T14:39:34.000Z",
-      "relevanceScore": 115.82,
-      "recommendationScore": 117.32,
+      "relevanceScore": 41.27,
+      "recommendationScore": 42.77,
       "tags": [
         "Exclusive"
       ],
@@ -362,8 +413,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-08-27T14:22:34.000Z",
-      "relevanceScore": 113.77,
-      "recommendationScore": 116.27,
+      "relevanceScore": 39.21,
+      "recommendationScore": 41.71,
       "tags": [
         "Exclusive"
       ],
@@ -375,8 +426,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-27T10:35:35.000Z",
-      "relevanceScore": 113.01,
-      "recommendationScore": 113.51,
+      "relevanceScore": 38.46,
+      "recommendationScore": 38.96,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -386,8 +437,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-08-26T22:26:03.000Z",
-      "relevanceScore": 112.58,
-      "recommendationScore": 113.08,
+      "relevanceScore": 38.02,
+      "recommendationScore": 38.52,
       "tags": [
         "AI"
       ],
@@ -399,95 +450,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-27T04:02:49.000Z",
-      "relevanceScore": 111.7,
-      "recommendationScore": 114.2,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Korean Air plans to buy more than 100 Boeing aircraft",
-      "link": "https://abcnews.go.com/Business/wireStory/korean-air-plans-buy-100-boeing-aircraft-124976156",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-08-26T06:10:45.000Z",
-      "relevanceScore": 109.33,
-      "recommendationScore": 109.83,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why I'm declining your AI generated MR",
-      "link": "https://www.reddit.com/r/programming/comments/1n12fdr/why_im_declining_your_ai_generated_mr/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2025-08-27T00:16:20.000Z",
-      "relevanceScore": 108.94,
-      "recommendationScore": 110.44,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Musk firms sue Apple and OpenAI, alleging they hurt competition",
-      "link": "https://www.bbc.com/news/articles/cly6xjg9nnyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-08-25T17:21:41.000Z",
-      "relevanceScore": 106.76,
-      "recommendationScore": 107.26,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best Labor Day sales for 2025: Save up to $500 on tech from Apple, Anker, Dyson, Shark and others",
-      "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-save-up-to-500-on-tech-from-apple-anker-dyson-shark-and-others-120049728.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-27T15:00:37.000Z",
-      "relevanceScore": 67.39,
-      "recommendationScore": 68.39,
-      "tags": [
-        "Tech",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "From punch cards to prompts: a history of how software got better",
-      "link": "https://stackoverflow.blog/2025/08/27/from-punch-cards-to-prompts-a-history-of-how-software-got-better/",
-      "source": "Stack Overflow Blog",
-      "category": "cloud",
-      "pubDate": "2025-08-27T04:40:00.000Z",
-      "relevanceScore": 58.32,
-      "recommendationScore": 61.32,
-      "tags": [
-        "Tech",
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google’s Pixel Tablet is up to $170 off ahead of Labor Day weekend",
-      "link": "https://www.theverge.com/tech/766417/google-pixel-tablet-apple-airpods-4-deal-sale",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-08-27T13:36:03.000Z",
-      "relevanceScore": 52.61,
-      "recommendationScore": 53.11,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Get two years of NordVPN access for up to 77 percent off",
-      "link": "https://www.engadget.com/deals/get-two-years-of-nordvpn-access-for-up-to-77-percent-off-151807223.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-27T13:16:28.000Z",
-      "relevanceScore": 44.55,
-      "recommendationScore": 45.05,
+      "relevanceScore": 37.15,
+      "recommendationScore": 39.65,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -497,19 +461,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-08-27T13:00:09.000Z",
-      "relevanceScore": 34.49,
-      "recommendationScore": 34.99,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How Taylor Swift's engagement could change her music",
-      "link": "https://www.bbc.com/news/articles/c0ml7dmm1y9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "entertainment",
-      "pubDate": "2025-08-27T12:03:58.000Z",
-      "relevanceScore": 31.3,
-      "recommendationScore": 33.3,
+      "relevanceScore": 36.44,
+      "recommendationScore": 36.94,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -519,8 +472,30 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-08-26T15:39:31.000Z",
-      "relevanceScore": 30.22,
-      "recommendationScore": 30.72,
+      "relevanceScore": 32.17,
+      "recommendationScore": 32.67,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'Punk rock' dinosaur with metre-long spikes discovered",
+      "link": "https://www.bbc.com/news/articles/c5y2emnnn4po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-27T15:08:21.000Z",
+      "relevanceScore": 31.87,
+      "recommendationScore": 32.37,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How Taylor Swift's engagement could change her music",
+      "link": "https://www.bbc.com/news/articles/c0ml7dmm1y9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "entertainment",
+      "pubDate": "2025-08-27T12:03:58.000Z",
+      "relevanceScore": 31.25,
+      "recommendationScore": 33.25,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -530,8 +505,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-27T14:43:04.000Z",
-      "relevanceScore": 27.83,
-      "recommendationScore": 28.33,
+      "relevanceScore": 27.78,
+      "recommendationScore": 28.28,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -541,8 +516,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-27T14:00:00.000Z",
-      "relevanceScore": 27.69,
-      "recommendationScore": 28.19,
+      "relevanceScore": 27.64,
+      "recommendationScore": 28.14,
       "tags": [
         "Tech",
         "Startup",
@@ -556,8 +531,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-27T14:00:00.000Z",
-      "relevanceScore": 27.69,
-      "recommendationScore": 27.69,
+      "relevanceScore": 27.64,
+      "recommendationScore": 27.64,
       "tags": [
         "Tech",
         "Startup"
@@ -570,8 +545,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2025-08-27T11:56:51.000Z",
-      "relevanceScore": 27.28,
-      "recommendationScore": 27.78,
+      "relevanceScore": 27.23,
+      "recommendationScore": 27.73,
       "tags": [
         "Business"
       ],
@@ -583,8 +558,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-27T08:48:54.000Z",
-      "relevanceScore": 26.65,
-      "recommendationScore": 27.15,
+      "relevanceScore": 26.6,
+      "recommendationScore": 27.1,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -594,8 +569,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-08-27T11:00:15.000Z",
-      "relevanceScore": 26.09,
-      "recommendationScore": 26.59,
+      "relevanceScore": 26.04,
+      "recommendationScore": 26.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -605,8 +580,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-27T15:00:00.000Z",
-      "relevanceScore": 25.89,
-      "recommendationScore": 25.89,
+      "relevanceScore": 25.84,
+      "recommendationScore": 25.84,
       "tags": [
         "Regulation"
       ],
@@ -618,8 +593,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-27T14:03:00.000Z",
-      "relevanceScore": 25.7,
-      "recommendationScore": 28.2,
+      "relevanceScore": 25.65,
+      "recommendationScore": 28.15,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -629,8 +604,8 @@
       "source": "Ars Technica",
       "category": "social",
       "pubDate": "2025-08-27T13:11:02.000Z",
-      "relevanceScore": 25.53,
-      "recommendationScore": 26.03,
+      "relevanceScore": 25.47,
+      "recommendationScore": 25.97,
       "tags": [
         "Science",
         "Social",
@@ -639,55 +614,71 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "PopSockets PopCase Kindle Hands-On (2025): Easy Reading",
-      "link": "https://www.wired.com/story/popsocket-popcase-kindle-hands-on/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-08-27T13:09:00.000Z",
-      "relevanceScore": 25.52,
-      "recommendationScore": 26.02,
+      "title": "CAD vs BIM: Why 5D BIM Cost Estimating Is a Game Changer",
+      "link": "https://dev.to/javeria/cad-vs-bim-why-5d-bim-cost-estimating-is-a-game-changer-2lf0",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2025-08-27T15:41:03.000Z",
+      "relevanceScore": 24.97,
+      "recommendationScore": 27.97,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "South Korea bans smartphones in all middle and elementary school classrooms",
+      "link": "https://www.engadget.com/big-tech/south-korea-bans-smartphones-in-all-middle-and-elementary-school-classrooms-153742244.html?src=rss",
+      "source": "Engadget",
+      "category": "education",
+      "pubDate": "2025-08-27T15:37:42.000Z",
+      "relevanceScore": 23.96,
+      "recommendationScore": 24.46,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Denmark demands US answers to new Greenland allegations",
+      "link": "https://www.reddit.com/r/worldnews/comments/1n1b4yi/denmark_demands_us_answers_to_new_greenland/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-08-27T08:09:05.000Z",
+      "relevanceScore": 22.47,
+      "recommendationScore": 24.97,
       "tags": [],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
-    "space": [
+    "development": [
       {
-        "title": "SpaceX Starship Finally Pulls Off a Successful Test Flight",
-        "link": "https://www.wired.com/story/spacex-starship-successful-test-flight/",
-        "source": "Wired",
-        "pubDate": "2025-08-27T13:52:01.000Z",
-        "relevanceScore": 748.66,
-        "tags": []
+        "title": "Analyse and Optimise your container image size",
+        "link": "https://dev.to/satyamkr1729/optimising-your-container-image-size-24f7",
+        "source": "Dev.to",
+        "pubDate": "2025-08-27T15:41:25.000Z",
+        "relevanceScore": 1066.98,
+        "tags": [
+          "Tech"
+        ]
       },
       {
-        "title": "The Outer Worlds 2 wants you to join the space police",
-        "link": "https://arstechnica.com/gaming/2025/08/the-outer-worlds-2-wants-you-to-join-the-space-police/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-27T13:00:09.000Z",
-        "relevanceScore": 34.49,
+        "title": "The Therac-25 Incident",
+        "link": "https://www.reddit.com/r/programming/comments/1n1eo7y/the_therac25_incident/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-08-27T11:40:57.000Z",
+        "relevanceScore": 605.17,
         "tags": []
-      }
-    ],
-    "development": [
+      },
       {
         "title": "Safeguarding VS Code against prompt injections",
         "link": "https://github.blog/security/vulnerability-research/safeguarding-vs-code-against-prompt-injections/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-25T16:01:12.000Z",
-        "relevanceScore": 570.99,
+        "relevanceScore": 519.44,
         "tags": [
           "Interview"
-        ]
-      },
-      {
-        "title": "Building a Simple SQL Parser in Python: From Basics to Hands-On",
-        "link": "https://dev.to/leapcell/building-a-simple-sql-parser-in-python-from-basics-to-hands-on-2a0o",
-        "source": "Dev.to",
-        "pubDate": "2025-08-27T15:12:38.000Z",
-        "relevanceScore": 140.93,
-        "tags": [
-          "Web"
         ]
       },
       {
@@ -695,7 +686,25 @@
         "link": "https://www.reddit.com/r/programming/comments/1n1f1kl/toilets_considered_harmful/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-27T11:59:43.000Z",
-        "relevanceScore": 21.29,
+        "relevanceScore": 21.24,
+        "tags": []
+      }
+    ],
+    "space": [
+      {
+        "title": "SpaceX Starship Finally Pulls Off a Successful Test Flight",
+        "link": "https://www.wired.com/story/spacex-starship-successful-test-flight/",
+        "source": "Wired",
+        "pubDate": "2025-08-27T13:52:01.000Z",
+        "relevanceScore": 712.11,
+        "tags": []
+      },
+      {
+        "title": "The Outer Worlds 2 wants you to join the space police",
+        "link": "https://arstechnica.com/gaming/2025/08/the-outer-worlds-2-wants-you-to-join-the-space-police/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-27T13:00:09.000Z",
+        "relevanceScore": 36.44,
         "tags": []
       }
     ],
@@ -705,7 +714,7 @@
         "link": "https://www.bbc.com/news/articles/c4gzk1p90q1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-27T14:50:57.000Z",
-        "relevanceScore": 433.86,
+        "relevanceScore": 377.31,
         "tags": []
       },
       {
@@ -713,7 +722,7 @@
         "link": "https://www.bbc.com/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-27T13:11:45.000Z",
-        "relevanceScore": 148.53,
+        "relevanceScore": 75.48,
         "tags": []
       },
       {
@@ -721,16 +730,41 @@
         "link": "https://www.bbc.com/news/articles/c4gmrxd8ryno?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-27T15:02:18.000Z",
-        "relevanceScore": 136.9,
+        "relevanceScore": 65.35,
         "tags": []
       },
       {
-        "title": "Denmark summons top US diplomat over alleged 'covert influence operations' in Greenland",
-        "link": "https://www.bbc.com/news/articles/c0j9l08902eo?at_medium=RSS&at_campaign=rss",
+        "title": "'Punk rock' dinosaur with metre-long spikes discovered",
+        "link": "https://www.bbc.com/news/articles/c5y2emnnn4po?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-08-27T11:39:04.000Z",
-        "relevanceScore": 121.22,
+        "pubDate": "2025-08-27T15:08:21.000Z",
+        "relevanceScore": 31.87,
         "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Svelte was built on “slinging code for the sheer love of it”",
+        "link": "https://stackoverflow.blog/2025/08/26/svelte-was-built-on-slinging-code-for-the-sheer-love-of-it/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-08-26T07:40:00.000Z",
+        "relevanceScore": 337.57,
+        "tags": [
+          "Tech",
+          "Mobile",
+          "Web"
+        ]
+      },
+      {
+        "title": "HSBC resolves app and online banking  outage",
+        "link": "https://www.bbc.com/news/articles/cqjykl7ek9qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-27T15:29:59.000Z",
+        "relevanceScore": 223.94,
+        "tags": [
+          "Mobile",
+          "Web"
+        ]
       }
     ],
     "ai-ml": [
@@ -739,7 +773,7 @@
         "link": "https://github.blog/developer-skills/career-growth/rediscovering-joy-in-learning-jason-lengstorf-on-the-state-of-development/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-26T16:10:14.000Z",
-        "relevanceScore": 343.82,
+        "relevanceScore": 282.27,
         "tags": [
           "AI",
           "Exclusive"
@@ -750,9 +784,20 @@
         "link": "https://www.reddit.com/r/programming/comments/1n17vn1/mcp_servers_cant_be_the_future_can_they/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-27T04:44:55.000Z",
-        "relevanceScore": 329.34,
+        "relevanceScore": 274.79,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "AI Skills That Will Actually Get You Hired in 2025",
+        "link": "https://dev.to/philipjohnbasile/ai-skills-that-will-actually-get-you-hired-in-2025-350j",
+        "source": "Dev.to",
+        "pubDate": "2025-08-27T15:45:04.000Z",
+        "relevanceScore": 221.49,
+        "tags": [
+          "AI",
+          "Business"
         ]
       },
       {
@@ -760,7 +805,7 @@
         "link": "https://www.technologyreview.com/2025/08/27/1122356/the-ai-hype-index-ai-designed-antibiotics-show-promise/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-27T14:07:31.000Z",
-        "relevanceScore": 172.22,
+        "relevanceScore": 133.16,
         "tags": [
           "AI"
         ]
@@ -770,7 +815,7 @@
         "link": "https://www.technologyreview.com/2025/08/27/1122632/the-download-introducing-the-security-issue/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-27T12:10:00.000Z",
-        "relevanceScore": 159.82,
+        "relevanceScore": 89.77,
         "tags": [
           "AI",
           "Tech",
@@ -783,7 +828,7 @@
         "link": "https://www.theverge.com/news/766557/google-vids-ai-avatar-gemini-image-to-video",
         "source": "The Verge",
         "pubDate": "2025-08-27T14:04:40.000Z",
-        "relevanceScore": 154.71,
+        "relevanceScore": 86.15,
         "tags": [
           "AI",
           "Mobile"
@@ -794,7 +839,7 @@
         "link": "https://techcrunch.com/2025/08/27/malaysias-skyechip-unveils-the-countrys-first-edge-ai-processor/",
         "source": "TechCrunch",
         "pubDate": "2025-08-27T15:01:00.000Z",
-        "relevanceScore": 117.89,
+        "relevanceScore": 43.34,
         "tags": [
           "AI",
           "Exclusive"
@@ -805,7 +850,7 @@
         "link": "https://techcrunch.com/2025/08/27/plaud-launches-a-new-ai-hardware-notetaker-the-179-note-pro/",
         "source": "TechCrunch",
         "pubDate": "2025-08-27T14:13:02.000Z",
-        "relevanceScore": 117.73,
+        "relevanceScore": 43.18,
         "tags": [
           "AI",
           "Tech"
@@ -816,62 +861,9 @@
         "link": "https://arstechnica.com/tech-policy/2025/08/authors-celebrate-historic-settlement-coming-soon-in-anthropic-class-action/",
         "source": "Ars Technica",
         "pubDate": "2025-08-26T22:26:03.000Z",
-        "relevanceScore": 112.58,
+        "relevanceScore": 38.02,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "Why I'm declining your AI generated MR",
-        "link": "https://www.reddit.com/r/programming/comments/1n12fdr/why_im_declining_your_ai_generated_mr/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-08-27T00:16:20.000Z",
-        "relevanceScore": 108.94,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Musk firms sue Apple and OpenAI, alleging they hurt competition",
-        "link": "https://www.bbc.com/news/articles/cly6xjg9nnyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-25T17:21:41.000Z",
-        "relevanceScore": 106.76,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Svelte was built on “slinging code for the sheer love of it”",
-        "link": "https://stackoverflow.blog/2025/08/26/svelte-was-built-on-slinging-code-for-the-sheer-love-of-it/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-08-26T07:40:00.000Z",
-        "relevanceScore": 321.62,
-        "tags": [
-          "Tech",
-          "Mobile",
-          "Web"
-        ]
-      },
-      {
-        "title": "How do you make FullStack Demo App for Interviews using Laravel + React with Dockerize Part 3",
-        "link": "https://dev.to/pirvanm/how-do-you-make-fullstack-demo-app-for-interviews-using-laravel-react-with-dockerize-part-3-mci",
-        "source": "Dev.to",
-        "pubDate": "2025-08-27T15:12:33.000Z",
-        "relevanceScore": 298.93,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "HSBC resolves app and online banking  outage",
-        "link": "https://www.bbc.com/news/articles/cqjykl7ek9qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-27T15:29:59.000Z",
-        "relevanceScore": 293.49,
-        "tags": [
-          "Mobile",
-          "Web"
         ]
       }
     ],
@@ -881,33 +873,10 @@
         "link": "https://www.theverge.com/news/766762/microsoft-xbox-cloud-gaming-game-pass-core-standard-pc-games",
         "source": "The Verge",
         "pubDate": "2025-08-27T15:16:27.000Z",
-        "relevanceScore": 289.44,
+        "relevanceScore": 233.39,
         "tags": [
           "Tech",
           "Cloud"
-        ]
-      },
-      {
-        "title": "The smart way of centralizing VPC endpoints with Route 53 Profiles",
-        "link": "https://dev.to/aws-builders/the-smart-way-of-centralizing-vpc-endpoints-with-route-53-profiles-38bc",
-        "source": "Dev.to",
-        "pubDate": "2025-08-27T15:27:46.000Z",
-        "relevanceScore": 192.98,
-        "tags": [
-          "Cloud",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "DOGE accused of copying entire Social Security database to insecure cloud system | Live copy of NUMIDENT \"lacks any security oversight,\" whistleblower alleges.",
-        "link": "https://www.reddit.com/r/technology/comments/1n1dto7/doge_accused_of_copying_entire_social_security/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-08-27T10:56:11.000Z",
-        "relevanceScore": 190.08,
-        "tags": [
-          "Security",
-          "Cloud",
-          "Social"
         ]
       },
       {
@@ -915,21 +884,23 @@
         "link": "https://stackoverflow.blog/2025/08/27/from-punch-cards-to-prompts-a-history-of-how-software-got-better/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-27T04:40:00.000Z",
-        "relevanceScore": 58.32,
+        "relevanceScore": 60.77,
         "tags": [
           "Tech",
           "Cloud"
         ]
-      }
-    ],
-    "blockchain": [
+      },
       {
-        "title": "The White House Is Going to Put Government Statistics on the Blockchain (Yeah, We Don’t Know Why Either) | \"We're just ironing out all the details,\" said Howard Lutnick.",
-        "link": "https://www.reddit.com/r/technology/comments/1n1e0e5/the_white_house_is_going_to_put_government/",
+        "title": "DOGE accused of copying entire Social Security database to insecure cloud system | Live copy of NUMIDENT \"lacks any security oversight,\" whistleblower alleges.",
+        "link": "https://www.reddit.com/r/technology/comments/1n1dto7/doge_accused_of_copying_entire_social_security/",
         "source": "Reddit Technology",
-        "pubDate": "2025-08-27T11:06:13.000Z",
-        "relevanceScore": 211.11,
-        "tags": []
+        "pubDate": "2025-08-27T10:56:11.000Z",
+        "relevanceScore": 59.52,
+        "tags": [
+          "Security",
+          "Cloud",
+          "Social"
+        ]
       }
     ],
     "science": [
@@ -938,112 +909,28 @@
         "link": "https://www.technologyreview.com/2025/08/27/1121532/unlocking-enterprise-agility-in-the-api-economy/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-27T14:00:00.000Z",
-        "relevanceScore": 192.69,
+        "relevanceScore": 227.64,
         "tags": [
           "Tech",
           "Business"
         ]
       }
     ],
-    "entertainment": [
-      {
-        "title": "Kpop Demon Hunters becomes Netflix's most viewed film ever",
-        "link": "https://www.bbc.com/news/articles/c1kz12v08l1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-27T03:10:08.000Z",
-        "relevanceScore": 179.52,
-        "tags": []
-      },
-      {
-        "title": "How Taylor Swift's engagement could change her music",
-        "link": "https://www.bbc.com/news/articles/c0ml7dmm1y9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-27T12:03:58.000Z",
-        "relevanceScore": 31.3,
-        "tags": []
-      },
-      {
-        "title": "MasterClass memberships are 50 percent off for Labor Day",
-        "link": "https://www.engadget.com/deals/masterclass-memberships-are-50-percent-off-for-labor-day-133223382.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-27T14:00:35.000Z",
-        "relevanceScore": 25.19,
-        "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "Trump extends control over Washington by taking management of Union Station away from Amtrak",
-        "link": "https://abcnews.go.com/Business/wireStory/trump-extends-control-washington-taking-management-union-station-125020469",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-27T13:34:16.000Z",
-        "relevanceScore": 122.6,
-        "tags": []
-      },
-      {
-        "title": "Despite sanctions, many countries are still importing Russian products",
-        "link": "https://www.npr.org/2025/08/27/nx-s1-5496336/despite-sanctions-many-countries-are-still-importing-russian-products",
-        "source": "NPR Business",
-        "pubDate": "2025-08-27T08:06:54.000Z",
-        "relevanceScore": 117.51,
-        "tags": []
-      },
-      {
-        "title": "Korean Air plans to buy more than 100 Boeing aircraft",
-        "link": "https://abcnews.go.com/Business/wireStory/korean-air-plans-buy-100-boeing-aircraft-124976156",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-26T06:10:45.000Z",
-        "relevanceScore": 109.33,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "U.S. tariffs take effect on India, threatening $48.2B in exports",
-        "link": "https://www.npr.org/2025/08/27/nx-s1-5518809/india-us-tariffs-trump-modi-exports",
-        "source": "NPR Business",
-        "pubDate": "2025-08-27T08:48:54.000Z",
-        "relevanceScore": 26.65,
-        "tags": []
-      },
-      {
-        "title": "India braces for export shock as US tariffs take effect",
-        "link": "https://abcnews.go.com/Business/wireStory/india-braces-export-shock-us-tariffs-effect-125011271",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-27T11:58:20.000Z",
-        "relevanceScore": 25.28,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "EVs are getting a temporary Trump bump thanks to expiring incentives",
-        "link": "https://www.theverge.com/electric-cars/766609/ev-sales-increase-trump-tax-credit-expire",
-        "source": "The Verge",
-        "pubDate": "2025-08-27T14:39:34.000Z",
-        "relevanceScore": 115.82,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
     "tech": [
       {
-        "title": "The new Return to Silent Hill trailer gives us our first look at Pyramid Head",
-        "link": "https://www.engadget.com/entertainment/tv-movies/the-new-return-to-silent-hill-trailer-gives-us-our-first-look-at-pyramid-head-142234505.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-27T14:22:34.000Z",
-        "relevanceScore": 113.77,
-        "tags": [
-          "Exclusive"
-        ]
+        "title": "Best Window Air Conditioners 2025: 11 Picks to Cool You for Years",
+        "link": "https://www.wired.com/gallery/best-window-air-conditioners/",
+        "source": "Wired",
+        "pubDate": "2025-08-27T15:29:35.000Z",
+        "relevanceScore": 207.44,
+        "tags": []
       },
       {
         "title": "The best Labor Day sales for 2025: Save up to $500 on tech from Apple, Anker, Dyson, Shark and others",
         "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-save-up-to-500-on-tech-from-apple-anker-dyson-shark-and-others-120049728.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-27T15:00:37.000Z",
-        "relevanceScore": 67.39,
+        "relevanceScore": 138.84,
         "tags": [
           "Tech",
           "Web"
@@ -1054,23 +941,25 @@
         "link": "https://www.theverge.com/tech/766417/google-pixel-tablet-apple-airpods-4-deal-sale",
         "source": "The Verge",
         "pubDate": "2025-08-27T13:36:03.000Z",
-        "relevanceScore": 52.61,
+        "relevanceScore": 54.06,
         "tags": []
       },
       {
-        "title": "Get two years of NordVPN access for up to 77 percent off",
-        "link": "https://www.engadget.com/deals/get-two-years-of-nordvpn-access-for-up-to-77-percent-off-151807223.html?src=rss",
+        "title": "The new Return to Silent Hill trailer gives us our first look at Pyramid Head",
+        "link": "https://www.engadget.com/entertainment/tv-movies/the-new-return-to-silent-hill-trailer-gives-us-our-first-look-at-pyramid-head-142234505.html?src=rss",
         "source": "Engadget",
-        "pubDate": "2025-08-27T13:16:28.000Z",
-        "relevanceScore": 44.55,
-        "tags": []
+        "pubDate": "2025-08-27T14:22:34.000Z",
+        "relevanceScore": 39.21,
+        "tags": [
+          "Exclusive"
+        ]
       },
       {
         "title": "Video platform Kick investigated over streamer's death",
         "link": "https://www.bbc.com/news/articles/czxpepn5qlxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-26T15:39:31.000Z",
-        "relevanceScore": 30.22,
+        "relevanceScore": 32.17,
         "tags": []
       },
       {
@@ -1078,7 +967,7 @@
         "link": "https://techcrunch.com/2025/08/27/us-sanctions-fraud-network-used-by-north-korea-to-seek-jobs-and-steal-money/",
         "source": "TechCrunch",
         "pubDate": "2025-08-27T14:43:04.000Z",
-        "relevanceScore": 27.83,
+        "relevanceScore": 27.78,
         "tags": []
       },
       {
@@ -1086,7 +975,7 @@
         "link": "https://arstechnica.com/science/2025/08/lawmaker-trumps-golden-dome-will-end-the-madness-and-thats-not-a-good-thing/",
         "source": "Ars Technica",
         "pubDate": "2025-08-27T11:00:15.000Z",
-        "relevanceScore": 26.09,
+        "relevanceScore": 26.04,
         "tags": []
       },
       {
@@ -1094,7 +983,7 @@
         "link": "https://www.wired.com/story/president-donald-trump-priorities/",
         "source": "Wired",
         "pubDate": "2025-08-27T15:00:00.000Z",
-        "relevanceScore": 25.89,
+        "relevanceScore": 25.84,
         "tags": [
           "Regulation"
         ]
@@ -1104,15 +993,7 @@
         "link": "https://www.wired.com/gallery/best-oleds/",
         "source": "Wired",
         "pubDate": "2025-08-27T14:03:00.000Z",
-        "relevanceScore": 25.7,
-        "tags": []
-      },
-      {
-        "title": "PopSockets PopCase Kindle Hands-On (2025): Easy Reading",
-        "link": "https://www.wired.com/story/popsocket-popcase-kindle-hands-on/",
-        "source": "Wired",
-        "pubDate": "2025-08-27T13:09:00.000Z",
-        "relevanceScore": 25.52,
+        "relevanceScore": 25.65,
         "tags": []
       },
       {
@@ -1120,8 +1001,108 @@
         "link": "https://www.reddit.com/r/technology/comments/1n1ftv5/mark_zuckerberg_gifted_noisecanceling_headphones/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-27T12:36:19.000Z",
-        "relevanceScore": 21.41,
+        "relevanceScore": 21.36,
         "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Kpop Demon Hunters becomes Netflix's most viewed film ever",
+        "link": "https://www.bbc.com/news/articles/c1kz12v08l1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-27T03:10:08.000Z",
+        "relevanceScore": 188.47,
+        "tags": []
+      },
+      {
+        "title": "How Taylor Swift's engagement could change her music",
+        "link": "https://www.bbc.com/news/articles/c0ml7dmm1y9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-27T12:03:58.000Z",
+        "relevanceScore": 31.25,
+        "tags": []
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "The White House Is Going to Put Government Statistics on the Blockchain (Yeah, We Don’t Know Why Either) | \"We're just ironing out all the details,\" said Howard Lutnick.",
+        "link": "https://www.reddit.com/r/technology/comments/1n1e0e5/the_white_house_is_going_to_put_government/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-08-27T11:06:13.000Z",
+        "relevanceScore": 76.06,
+        "tags": []
+      }
+    ],
+    "finance": [
+      {
+        "title": "European banks hit by rogue PayPal payments worth 'billions'",
+        "link": "https://www.bbc.com/news/articles/cj6y42jggdyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-27T15:38:52.000Z",
+        "relevanceScore": 59.47,
+        "tags": []
+      },
+      {
+        "title": "Take The Planet Money Summer School Quiz In Political Economy",
+        "link": "https://www.npr.org/2025/08/27/g-s1-85342/planet-money-summer-school-quiz-political-economy",
+        "source": "NPR Business",
+        "pubDate": "2025-08-27T11:56:51.000Z",
+        "relevanceScore": 27.23,
+        "tags": [
+          "Business"
+        ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Video Games Weekly: Climbing games are so hot right now",
+        "link": "https://www.engadget.com/gaming/video-games-weekly-climbing-games-are-so-hot-right-now-010748663.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-27T01:07:48.000Z",
+        "relevanceScore": 43.06,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "CAD vs BIM: Why 5D BIM Cost Estimating Is a Game Changer",
+        "link": "https://dev.to/javeria/cad-vs-bim-why-5d-bim-cost-estimating-is-a-game-changer-2lf0",
+        "source": "Dev.to",
+        "pubDate": "2025-08-27T15:41:03.000Z",
+        "relevanceScore": 24.97,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Despite sanctions, many countries are still importing Russian products",
+        "link": "https://www.npr.org/2025/08/27/nx-s1-5496336/despite-sanctions-many-countries-are-still-importing-russian-products",
+        "source": "NPR Business",
+        "pubDate": "2025-08-27T08:06:54.000Z",
+        "relevanceScore": 42.96,
+        "tags": []
+      },
+      {
+        "title": "U.S. tariffs take effect on India, threatening $48.2B in exports",
+        "link": "https://www.npr.org/2025/08/27/nx-s1-5518809/india-us-tariffs-trump-modi-exports",
+        "source": "NPR Business",
+        "pubDate": "2025-08-27T08:48:54.000Z",
+        "relevanceScore": 26.6,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "EVs are getting a temporary Trump bump thanks to expiring incentives",
+        "link": "https://www.theverge.com/electric-cars/766609/ev-sales-increase-trump-tax-credit-expire",
+        "source": "The Verge",
+        "pubDate": "2025-08-27T14:39:34.000Z",
+        "relevanceScore": 41.27,
+        "tags": [
+          "Exclusive"
+        ]
       }
     ],
     "world": [
@@ -1130,7 +1111,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1n1dglo/powerful_explosion_rocks_russian_oil_pipeline/",
         "source": "Reddit World News",
         "pubDate": "2025-08-27T10:35:35.000Z",
-        "relevanceScore": 113.01,
+        "relevanceScore": 38.46,
         "tags": []
       },
       {
@@ -1138,7 +1119,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1n174h2/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-08-27T04:02:49.000Z",
-        "relevanceScore": 111.7,
+        "relevanceScore": 37.15,
         "tags": []
       },
       {
@@ -1146,7 +1127,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1n1b4yi/denmark_demands_us_answers_to_new_greenland/",
         "source": "Reddit World News",
         "pubDate": "2025-08-27T08:09:05.000Z",
-        "relevanceScore": 22.52,
+        "relevanceScore": 22.47,
         "tags": []
       }
     ],
@@ -1156,7 +1137,7 @@
         "link": "https://techcrunch.com/2025/08/27/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-08-27T14:00:00.000Z",
-        "relevanceScore": 27.69,
+        "relevanceScore": 27.64,
         "tags": [
           "Tech",
           "Startup",
@@ -1168,22 +1149,10 @@
         "link": "https://techcrunch.com/2025/08/27/terraton-wants-to-be-the-mcdonalds-of-biochar/",
         "source": "TechCrunch",
         "pubDate": "2025-08-27T14:00:00.000Z",
-        "relevanceScore": 27.69,
+        "relevanceScore": 27.64,
         "tags": [
           "Tech",
           "Startup"
-        ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "Take The Planet Money Summer School Quiz In Political Economy",
-        "link": "https://www.npr.org/2025/08/27/g-s1-85342/planet-money-summer-school-quiz-political-economy",
-        "source": "NPR Business",
-        "pubDate": "2025-08-27T11:56:51.000Z",
-        "relevanceScore": 27.28,
-        "tags": [
-          "Business"
         ]
       }
     ],
@@ -1193,7 +1162,7 @@
         "link": "https://arstechnica.com/science/2025/08/more-scientists-choose-bluesky-over-twitter/",
         "source": "Ars Technica",
         "pubDate": "2025-08-27T13:11:02.000Z",
-        "relevanceScore": 25.53,
+        "relevanceScore": 25.47,
         "tags": [
           "Science",
           "Social",
@@ -1203,31 +1172,41 @@
     ],
     "education": [
       {
+        "title": "South Korea bans smartphones in all middle and elementary school classrooms",
+        "link": "https://www.engadget.com/big-tech/south-korea-bans-smartphones-in-all-middle-and-elementary-school-classrooms-153742244.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-27T15:37:42.000Z",
+        "relevanceScore": 23.96,
+        "tags": [
+          "Regulation"
+        ]
+      },
+      {
         "title": "Making continuous learning work at work",
         "link": "https://stackoverflow.blog/2025/08/25/making-continuous-learning-work-at-work/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-25T16:00:00.000Z",
-        "relevanceScore": 14.49,
+        "relevanceScore": 14.44,
         "tags": []
       }
     ]
   },
   "stats": {
-    "totalSources": 16,
-    "totalCategories": 17,
-    "avgRelevanceScore": 137.73982142857142,
+    "totalSources": 15,
+    "totalCategories": 18,
+    "avgRelevanceScore": 136.66698113207553,
     "topCategories": [
       {
         "category": "tech",
-        "count": 11
-      },
-      {
-        "category": "ai-ml",
         "count": 10
       },
       {
-        "category": "business",
-        "count": 5
+        "category": "ai-ml",
+        "count": 9
+      },
+      {
+        "category": "development",
+        "count": 4
       },
       {
         "category": "general",
@@ -1235,7 +1214,7 @@
       },
       {
         "category": "cloud",
-        "count": 4
+        "count": 3
       }
     ]
   }
