@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-29T17:12:05.520Z",
+  "lastUpdated": "2025-08-29T17:29:20.032Z",
   "totalArticles": 56,
   "categories": [
     "gaming",
@@ -7,17 +7,18 @@
     "general",
     "business",
     "cloud",
-    "tech",
-    "cybersecurity",
     "mobile",
+    "cybersecurity",
+    "tech",
+    "health",
     "development",
-    "social",
-    "science",
     "space",
     "automotive",
     "world",
-    "health",
-    "startup"
+    "education",
+    "science",
+    "startup",
+    "social"
   ],
   "topArticles": [
     {
@@ -26,8 +27,8 @@
       "source": "Ars Technica",
       "category": "gaming",
       "pubDate": "2025-08-29T15:10:47.000Z",
-      "relevanceScore": 1019.1,
-      "recommendationScore": 1019.1,
+      "relevanceScore": 1123.54,
+      "recommendationScore": 1123.54,
       "tags": [
         "Analysis"
       ],
@@ -39,8 +40,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-29T17:04:17.000Z",
-      "relevanceScore": 995.97,
-      "recommendationScore": 997.47,
+      "relevanceScore": 1118.92,
+      "recommendationScore": 1120.42,
       "tags": [
         "AI",
         "Report"
@@ -53,8 +54,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-08-29T15:46:27.000Z",
-      "relevanceScore": 776.71,
-      "recommendationScore": 777.21,
+      "relevanceScore": 896.66,
+      "recommendationScore": 897.16,
       "tags": [
         "AI"
       ],
@@ -66,8 +67,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-29T15:58:42.000Z",
-      "relevanceScore": 716.26,
-      "recommendationScore": 716.76,
+      "relevanceScore": 722.2,
+      "recommendationScore": 722.7,
       "tags": [
         "Regulation"
       ],
@@ -79,8 +80,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-29T08:10:11.000Z",
-      "relevanceScore": 680.19,
-      "recommendationScore": 680.69,
+      "relevanceScore": 685.14,
+      "recommendationScore": 685.64,
       "tags": [
         "Regulation"
       ],
@@ -92,8 +93,8 @@
       "source": "Stack Overflow Blog",
       "category": "cloud",
       "pubDate": "2025-08-28T16:00:00.000Z",
-      "relevanceScore": 529.96,
-      "recommendationScore": 530.46,
+      "relevanceScore": 582.4,
+      "recommendationScore": 582.9,
       "tags": [
         "Cloud",
         "IPO"
@@ -101,37 +102,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "The White House reportedly ordered xAI's Grok to be approved for government use",
-      "link": "https://www.engadget.com/ai/the-white-house-reportedly-ordered-xais-grok-to-be-approved-for-government-use-165625891.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-29T16:56:43.000Z",
-      "relevanceScore": 485.95,
-      "recommendationScore": 486.45,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Introducing 'Sources & Methods,' a new podcast from NPR",
-      "link": "https://www.npr.org/2025/08/28/nx-s1-5520761/introducing-sources-methods-a-new-podcast-from-npr",
-      "source": "NPR Business",
-      "category": "cybersecurity",
-      "pubDate": "2025-08-28T22:04:48.000Z",
-      "relevanceScore": 448.68,
-      "recommendationScore": 451.18,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Apple iOS 26: Everything you need to know about the new features in the upcoming iPhone update",
       "link": "https://www.engadget.com/mobile/apple-ios-26-everything-you-need-to-know-about-the-new-features-in-the-upcoming-iphone-update-135749557.html?src=rss",
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-08-29T16:56:56.000Z",
-      "relevanceScore": 417.95,
-      "recommendationScore": 420.45,
+      "relevanceScore": 581.89,
+      "recommendationScore": 584.39,
       "tags": [
         "Mobile",
         "Update"
@@ -144,11 +121,35 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-08-29T16:09:02.000Z",
-      "relevanceScore": 377.29,
-      "recommendationScore": 378.79,
+      "relevanceScore": 476.73,
+      "recommendationScore": 478.23,
       "tags": [
         "Exclusive"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Introducing 'Sources & Methods,' a new podcast from NPR",
+      "link": "https://www.npr.org/2025/08/28/nx-s1-5520761/introducing-sources-methods-a-new-podcast-from-npr",
+      "source": "NPR Business",
+      "category": "cybersecurity",
+      "pubDate": "2025-08-28T22:04:48.000Z",
+      "relevanceScore": 465.62,
+      "recommendationScore": 468.12,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The White House reportedly ordered xAI's Grok to be approved for government use",
+      "link": "https://www.engadget.com/ai/the-white-house-reportedly-ordered-xais-grok-to-be-approved-for-government-use-165625891.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-29T16:56:43.000Z",
+      "relevanceScore": 458.89,
+      "recommendationScore": 459.39,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -157,23 +158,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-08-29T09:18:24.000Z",
-      "relevanceScore": 366.42,
-      "recommendationScore": 368.42,
+      "relevanceScore": 441.36,
+      "recommendationScore": 443.36,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Xbox cloud games will soon follow you just about everywhere",
-      "link": "https://www.engadget.com/gaming/xbox-cloud-games-will-soon-follow-you-just-about-everywhere-183603601.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-08-29T16:05:49.000Z",
-      "relevanceScore": 358.78,
-      "recommendationScore": 359.28,
-      "tags": [
-        "Mobile",
-        "Cloud"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -182,8 +169,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-08-29T15:30:00.000Z",
-      "relevanceScore": 334.66,
-      "recommendationScore": 335.16,
+      "relevanceScore": 436.6,
+      "recommendationScore": 437.1,
       "tags": [
         "AI",
         "Tech"
@@ -191,13 +178,27 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Xbox cloud games will soon follow you just about everywhere",
+      "link": "https://www.engadget.com/gaming/xbox-cloud-games-will-soon-follow-you-just-about-everywhere-183603601.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-08-29T16:05:49.000Z",
+      "relevanceScore": 380.22,
+      "recommendationScore": 380.72,
+      "tags": [
+        "Mobile",
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "41 Best Labor Day Sales on WIRED-Tested Gear (2025)",
       "link": "https://www.wired.com/story/best-labor-day-sales-deals-2025-1/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-29T17:06:37.000Z",
-      "relevanceScore": 324.98,
-      "recommendationScore": 326.48,
+      "relevanceScore": 339.92,
+      "recommendationScore": 341.42,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -207,8 +208,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-08-29T14:35:05.000Z",
-      "relevanceScore": 324.48,
-      "recommendationScore": 324.98,
+      "relevanceScore": 339.42,
+      "recommendationScore": 339.92,
       "tags": [
         "Mobile"
       ],
@@ -220,8 +221,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-29T14:03:00.000Z",
-      "relevanceScore": 323.87,
-      "recommendationScore": 324.87,
+      "relevanceScore": 338.81,
+      "recommendationScore": 339.81,
       "tags": [
         "Tech",
         "Tutorial"
@@ -229,13 +230,52 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Health is Wealth – Even for Developers",
+      "link": "https://dev.to/dr_royocheremie_86b47d6/health-is-wealth-even-for-developers-712",
+      "source": "Dev.to",
+      "category": "health",
+      "pubDate": "2025-08-29T17:18:30.000Z",
+      "relevanceScore": 269.96,
+      "recommendationScore": 269.96,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Court documents shed new light on UK-Apple row over user data",
+      "link": "https://www.bbc.com/news/articles/cx293qg7z39o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-08-29T15:58:33.000Z",
+      "relevanceScore": 264.2,
+      "recommendationScore": 266.7,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Taco Bell rethinks AI drive-through after man orders 18,000 waters",
+      "link": "https://www.bbc.com/news/articles/ckgyk2p55g8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-08-29T10:33:42.000Z",
+      "relevanceScore": 254.61,
+      "recommendationScore": 255.11,
+      "tags": [
+        "AI",
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "Trump ends Secret Service protection for Harris",
       "link": "https://www.bbc.com/news/articles/c04r073nxz5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2025-08-29T13:34:51.000Z",
-      "relevanceScore": 233.78,
-      "recommendationScore": 233.78,
+      "relevanceScore": 243.72,
+      "recommendationScore": 243.72,
       "tags": [
         "Security"
       ],
@@ -247,65 +287,64 @@
       "source": "Wired",
       "category": "cybersecurity",
       "pubDate": "2025-08-29T14:23:54.000Z",
-      "relevanceScore": 227.94,
-      "recommendationScore": 227.94,
+      "relevanceScore": 237.88,
+      "recommendationScore": 237.88,
       "tags": [
         "Security"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Court documents shed new light on UK-Apple row over user data",
-      "link": "https://www.bbc.com/news/articles/cx293qg7z39o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-08-29T15:58:33.000Z",
-      "relevanceScore": 222.25,
-      "recommendationScore": 224.75,
+      "title": "US to stop Palestinians attending UN meeting in New York",
+      "link": "https://www.bbc.com/news/articles/cjdym32z9v7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-29T16:47:01.000Z",
+      "relevanceScore": 236.86,
+      "recommendationScore": 240.36,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Angular Migrate To New Control Flow Syntax",
-      "link": "https://dev.to/nagarlalit/angular-migrate-to-new-control-flow-syntax-421n",
-      "source": "Dev.to",
+      "title": "Open-source is for the people, by the people",
+      "link": "https://stackoverflow.blog/2025/08/29/open-source-is-for-the-people-by-the-people/",
+      "source": "Stack Overflow Blog",
       "category": "development",
-      "pubDate": "2025-08-29T16:59:23.000Z",
-      "relevanceScore": 164.46,
-      "recommendationScore": 166.46,
+      "pubDate": "2025-08-29T07:40:00.000Z",
+      "relevanceScore": 228.54,
+      "recommendationScore": 228.54,
       "tags": [
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Musk files to dismiss lawsuit over his purchase of Twitter shares",
-      "link": "https://www.bbc.com/news/articles/cn47ey2wxkpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2025-08-29T11:09:32.000Z",
-      "relevanceScore": 163.79,
-      "recommendationScore": 164.29,
-      "tags": [
-        "Social",
-        "Acquisition"
+        "Science",
+        "Partnership"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Taco Bell rethinks AI drive-through after man orders 18,000 waters",
-      "link": "https://www.bbc.com/news/articles/ckgyk2p55g8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "title": "Under the hood: Exploring the AI models powering GitHub Copilot",
+      "link": "https://github.blog/ai-and-ml/github-copilot/under-the-hood-exploring-the-ai-models-powering-github-copilot/",
+      "source": "GitHub Blog",
       "category": "ai-ml",
-      "pubDate": "2025-08-29T10:33:42.000Z",
-      "relevanceScore": 150.67,
-      "recommendationScore": 151.17,
+      "pubDate": "2025-08-29T16:14:42.000Z",
+      "relevanceScore": 156.75,
+      "recommendationScore": 157.25,
       "tags": [
         "AI",
-        "Tech",
-        "Web"
+        "Exclusive"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "My Journey with AI Voice Chatbot and Internship Experience",
+      "link": "https://dev.to/jash_kapadia_86dd0990b168/my-journey-with-ai-voice-chatbot-and-internship-experience-djg",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-08-29T17:16:47.000Z",
+      "relevanceScore": 149.96,
+      "recommendationScore": 150.46,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Mastodon says it doesn’t ‘have the means’ to comply with age verification laws",
@@ -313,75 +352,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-29T15:50:11.000Z",
-      "relevanceScore": 112.73,
-      "recommendationScore": 113.23,
+      "relevanceScore": 140.67,
+      "recommendationScore": 141.17,
       "tags": [
         "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Does anyone want to form a hobby opensource project group for beginners in C# with me?",
-      "link": "https://dev.to/ripetide1229/does-anyone-want-to-form-a-hobby-opensource-project-group-for-beginners-in-c-with-me-2jmp",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-29T17:02:16.000Z",
-      "relevanceScore": 108.97,
-      "recommendationScore": 109.47,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "This American nuclear company could help India’s thorium dream",
-      "link": "https://www.technologyreview.com/2025/08/29/1122839/this-american-nuclear-company-could-help-indias-thorium-dream/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-08-29T09:56:45.000Z",
-      "relevanceScore": 104.55,
-      "recommendationScore": 105.05,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How we accelerated Secret Protection engineering with Copilot",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-we-accelerated-secret-protection-engineering-with-copilot/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-08-28T17:08:51.000Z",
-      "relevanceScore": 93.69,
-      "recommendationScore": 95.69,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Nigeria bans exports of raw shea nuts used for cosmetic products to help grow local economy",
-      "link": "https://abcnews.go.com/Business/wireStory/nigeria-bans-exports-raw-shea-nuts-cosmetic-products-125050567",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-08-28T11:58:18.000Z",
-      "relevanceScore": 87.15,
-      "recommendationScore": 87.65,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Hisense&#8217;s take on the Samsung Frame TV is $300 off",
-      "link": "https://www.theverge.com/tech/768031/hisense-lego-samsung-elgato-deal-sale",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-08-29T15:15:32.000Z",
-      "relevanceScore": 80.61,
-      "recommendationScore": 81.11,
-      "tags": [
-        "Partnership"
       ],
       "readingLevel": "intermediate"
     },
@@ -391,88 +365,12 @@
       "source": "MIT Technology Review",
       "category": "space",
       "pubDate": "2025-08-29T12:10:00.000Z",
-      "relevanceScore": 65.99,
-      "recommendationScore": 66.49,
+      "relevanceScore": 135.94,
+      "recommendationScore": 136.44,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Open-source is for the people, by the people",
-      "link": "https://stackoverflow.blog/2025/08/29/open-source-is-for-the-people-by-the-people/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-08-29T07:40:00.000Z",
-      "relevanceScore": 62.59,
-      "recommendationScore": 62.59,
-      "tags": [
-        "Science",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Madeleine McCann suspect to be released in less than three weeks",
-      "link": "https://www.bbc.com/news/articles/c2063n085d1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-29T16:28:40.000Z",
-      "relevanceScore": 62.36,
-      "recommendationScore": 62.86,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "From Side Project to Full-Fledged Platform: Lessons from Building Modeldraw",
-      "link": "https://dev.to/martin-staufcik/from-side-project-to-full-fledged-platform-lessons-from-building-modeldraw-1ep1",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-08-29T16:59:20.000Z",
-      "relevanceScore": 54.46,
-      "recommendationScore": 54.96,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "UK blocks Israeli government delegation from arms trade fair",
-      "link": "https://www.bbc.com/news/articles/cvgpxwy2lkwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-08-29T12:55:17.000Z",
-      "relevanceScore": 41.14,
-      "recommendationScore": 41.64,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How GitHub Models can help open source maintainers focus on what matters",
-      "link": "https://github.blog/open-source/maintainers/how-github-models-can-help-open-source-maintainers-focus-on-what-matters/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-08-28T19:02:44.000Z",
-      "relevanceScore": 40.57,
-      "recommendationScore": 42.57,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Under the hood: Exploring the AI models powering GitHub Copilot",
-      "link": "https://github.blog/ai-and-ml/github-copilot/under-the-hood-exploring-the-ai-models-powering-github-copilot/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-08-29T16:14:42.000Z",
-      "relevanceScore": 35.81,
-      "recommendationScore": 36.31,
-      "tags": [
-        "AI",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Tesla asks court to toss wrongful death verdict that cost it $243 million",
@@ -480,8 +378,8 @@
       "source": "The Verge",
       "category": "automotive",
       "pubDate": "2025-08-29T15:32:56.000Z",
-      "relevanceScore": 35.67,
-      "recommendationScore": 36.17,
+      "relevanceScore": 122.61,
+      "recommendationScore": 123.11,
       "tags": [
         "Tech"
       ],
@@ -493,8 +391,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-29T04:02:39.000Z",
-      "relevanceScore": 31.37,
-      "recommendationScore": 33.87,
+      "relevanceScore": 118.31,
+      "recommendationScore": 120.81,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -504,10 +402,23 @@
       "source": "Reddit Technology",
       "category": "automotive",
       "pubDate": "2025-08-29T13:31:09.000Z",
-      "relevanceScore": 31.26,
-      "recommendationScore": 31.76,
+      "relevanceScore": 118.21,
+      "recommendationScore": 118.71,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "How GitHub Models can help open source maintainers focus on what matters",
+      "link": "https://github.blog/open-source/maintainers/how-github-models-can-help-open-source-maintainers-focus-on-what-matters/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-08-28T19:02:44.000Z",
+      "relevanceScore": 118.01,
+      "recommendationScore": 120.01,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Asian shares are mixed after US stocks creep higher ahead of Nvidia earnings report",
@@ -515,10 +426,115 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-08-28T08:14:25.000Z",
-      "relevanceScore": 29.41,
-      "recommendationScore": 29.91,
+      "relevanceScore": 116.35,
+      "recommendationScore": 116.85,
       "tags": [
         "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How we accelerated Secret Protection engineering with Copilot",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-we-accelerated-secret-protection-engineering-with-copilot/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-08-28T17:08:51.000Z",
+      "relevanceScore": 106.63,
+      "recommendationScore": 108.63,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nigeria bans exports of raw shea nuts used for cosmetic products to help grow local economy",
+      "link": "https://abcnews.go.com/Business/wireStory/nigeria-bans-exports-raw-shea-nuts-cosmetic-products-125050567",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-08-28T11:58:18.000Z",
+      "relevanceScore": 98.1,
+      "recommendationScore": 98.6,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "My Third Year as a Developer Advocate: Talks, Tech, and Teaching",
+      "link": "https://dev.to/c_yatteau/my-third-year-as-a-developer-advocate-talks-tech-and-teaching-39oa",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2025-08-29T17:23:45.000Z",
+      "relevanceScore": 86.48,
+      "recommendationScore": 86.98,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Hisense&#8217;s take on the Samsung Frame TV is $300 off",
+      "link": "https://www.theverge.com/tech/768031/hisense-lego-samsung-elgato-deal-sale",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-08-29T15:15:32.000Z",
+      "relevanceScore": 85.55,
+      "recommendationScore": 86.05,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Madeleine McCann suspect to be released in less than three weeks",
+      "link": "https://www.bbc.com/news/articles/c2063n085d1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-08-29T17:18:24.000Z",
+      "relevanceScore": 63.46,
+      "recommendationScore": 63.96,
+      "tags": [
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "700-piece Lego G3 iMac design faces long-shot odds to get made, but I still want one",
+      "link": "https://arstechnica.com/gadgets/2025/08/lego-imac-g3-concept-is-unlikely-to-go-anywhere-but-it-is-very-cute/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-08-29T14:34:45.000Z",
+      "relevanceScore": 59.42,
+      "recommendationScore": 59.92,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The best Labor Day sales for 2025: Get up to 50 percent off gear from Apple, Dyson, Sony and others",
+      "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-get-up-to-50-percent-off-gear-from-apple-dyson-sony-and-others-120049238.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-08-29T15:06:26.000Z",
+      "relevanceScore": 58.52,
+      "recommendationScore": 60.02,
+      "tags": [
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "This American nuclear company could help India’s thorium dream",
+      "link": "https://www.technologyreview.com/2025/08/29/1122839/this-american-nuclear-company-could-help-indias-thorium-dream/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-08-29T09:56:45.000Z",
+      "relevanceScore": 57.99,
+      "recommendationScore": 58.49,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -528,8 +544,8 @@
       "source": "MIT Technology Review",
       "category": "health",
       "pubDate": "2025-08-29T09:00:00.000Z",
-      "relevanceScore": 27.86,
-      "recommendationScore": 28.36,
+      "relevanceScore": 27.8,
+      "recommendationScore": 28.3,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -539,8 +555,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-08-29T15:47:01.000Z",
-      "relevanceScore": 27.72,
-      "recommendationScore": 28.22,
+      "relevanceScore": 27.66,
+      "recommendationScore": 28.16,
       "tags": [
         "Startup"
       ],
@@ -552,8 +568,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-08-29T15:40:18.000Z",
-      "relevanceScore": 27.69,
-      "recommendationScore": 27.69,
+      "relevanceScore": 27.64,
+      "recommendationScore": 27.64,
       "tags": [
         "Tech"
       ],
@@ -565,23 +581,10 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-08-29T16:10:39.000Z",
-      "relevanceScore": 26.8,
-      "recommendationScore": 28.8,
+      "relevanceScore": 26.74,
+      "recommendationScore": 28.74,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "700-piece Lego G3 iMac design faces long-shot odds to get made, but I still want one",
-      "link": "https://arstechnica.com/gadgets/2025/08/lego-imac-g3-concept-is-unlikely-to-go-anywhere-but-it-is-very-cute/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-08-29T14:34:45.000Z",
-      "relevanceScore": 25.48,
-      "recommendationScore": 25.98,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "The Best Kindle of 2025: Paperwhite, Scribe, or Colorsoft?",
@@ -589,22 +592,22 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-08-29T13:34:00.000Z",
-      "relevanceScore": 25.27,
-      "recommendationScore": 26.77,
+      "relevanceScore": 25.22,
+      "recommendationScore": 26.72,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The best Labor Day sales for 2025: Get up to 50 percent off gear from Apple, Dyson, Sony and others",
-      "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-get-up-to-50-percent-off-gear-from-apple-dyson-sony-and-others-120049238.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-08-29T15:06:26.000Z",
-      "relevanceScore": 24.58,
-      "recommendationScore": 26.08,
+      "title": "Musk files to dismiss lawsuit over his purchase of Twitter shares",
+      "link": "https://www.bbc.com/news/articles/cn47ey2wxkpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2025-08-29T11:09:32.000Z",
+      "relevanceScore": 24.73,
+      "recommendationScore": 25.23,
       "tags": [
-        "Tech",
-        "Web"
+        "Social",
+        "Acquisition"
       ],
       "readingLevel": "advanced"
     },
@@ -614,19 +617,19 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-08-28T22:10:24.000Z",
-      "relevanceScore": 24.19,
-      "recommendationScore": 24.69,
+      "relevanceScore": 24.14,
+      "recommendationScore": 24.64,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Newly discovered document adds evidence that Shroud of Turin is fake",
-      "link": "https://www.reddit.com/r/worldnews/comments/1n32pl0/newly_discovered_document_adds_evidence_that/",
+      "title": "U.S. shoppers' orders canceled as world shuts down some American-bound shipments",
+      "link": "https://www.reddit.com/r/worldnews/comments/1n3bet7/us_shoppers_orders_canceled_as_world_shuts_down/",
       "source": "Reddit World News",
       "category": "world",
-      "pubDate": "2025-08-29T09:26:38.000Z",
-      "relevanceScore": 22.45,
-      "recommendationScore": 24.95,
+      "pubDate": "2025-08-29T16:02:17.000Z",
+      "relevanceScore": 23.71,
+      "recommendationScore": 24.21,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -636,8 +639,8 @@
       "source": "Reddit Programming",
       "category": "mobile",
       "pubDate": "2025-08-29T14:25:53.000Z",
-      "relevanceScore": 22.45,
-      "recommendationScore": 24.45,
+      "relevanceScore": 22.39,
+      "recommendationScore": 24.39,
       "tags": [
         "Mobile"
       ],
@@ -649,8 +652,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-08-29T08:02:18.000Z",
-      "relevanceScore": 22.17,
-      "recommendationScore": 22.67,
+      "relevanceScore": 22.11,
+      "recommendationScore": 22.61,
       "tags": [
         "Update"
       ],
@@ -664,7 +667,7 @@
         "link": "https://arstechnica.com/gaming/2025/08/todays-game-consoles-are-historically-overpriced/",
         "source": "Ars Technica",
         "pubDate": "2025-08-29T15:10:47.000Z",
-        "relevanceScore": 1019.1,
+        "relevanceScore": 1123.54,
         "tags": [
           "Analysis"
         ]
@@ -674,7 +677,7 @@
         "link": "https://www.theverge.com/report/768083/framework-actually-did-it-i-upgraded-a-laptops-entire-gpu-in-just-three-minutes",
         "source": "The Verge",
         "pubDate": "2025-08-29T16:09:02.000Z",
-        "relevanceScore": 377.29,
+        "relevanceScore": 476.73,
         "tags": [
           "Exclusive"
         ]
@@ -686,7 +689,7 @@
         "link": "https://techcrunch.com/2025/08/29/meta-updates-chatbot-rules-to-avoid-inappropriate-topics-with-teen-users/",
         "source": "TechCrunch",
         "pubDate": "2025-08-29T17:04:17.000Z",
-        "relevanceScore": 995.97,
+        "relevanceScore": 1118.92,
         "tags": [
           "AI",
           "Report"
@@ -697,7 +700,7 @@
         "link": "https://techcrunch.com/2025/08/29/chatgpt-everything-to-know-about-the-ai-chatbot/",
         "source": "TechCrunch",
         "pubDate": "2025-08-29T15:46:27.000Z",
-        "relevanceScore": 776.71,
+        "relevanceScore": 896.66,
         "tags": [
           "AI"
         ]
@@ -707,7 +710,7 @@
         "link": "https://www.theverge.com/report/767765/ai-hardware-google-pixel-gemini-wearables-ambient-computing",
         "source": "The Verge",
         "pubDate": "2025-08-29T15:30:00.000Z",
-        "relevanceScore": 334.66,
+        "relevanceScore": 436.6,
         "tags": [
           "AI",
           "Tech"
@@ -718,7 +721,7 @@
         "link": "https://www.bbc.com/news/articles/ckgyk2p55g8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-08-29T10:33:42.000Z",
-        "relevanceScore": 150.67,
+        "relevanceScore": 254.61,
         "tags": [
           "AI",
           "Tech",
@@ -730,10 +733,20 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/under-the-hood-exploring-the-ai-models-powering-github-copilot/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-29T16:14:42.000Z",
-        "relevanceScore": 35.81,
+        "relevanceScore": 156.75,
         "tags": [
           "AI",
           "Exclusive"
+        ]
+      },
+      {
+        "title": "My Journey with AI Voice Chatbot and Internship Experience",
+        "link": "https://dev.to/jash_kapadia_86dd0990b168/my-journey-with-ai-voice-chatbot-and-internship-experience-djg",
+        "source": "Dev.to",
+        "pubDate": "2025-08-29T17:16:47.000Z",
+        "relevanceScore": 149.96,
+        "tags": [
+          "AI"
         ]
       }
     ],
@@ -743,7 +756,7 @@
         "link": "https://www.bbc.com/news/articles/c7vlpdqeg4qo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-29T15:58:42.000Z",
-        "relevanceScore": 716.26,
+        "relevanceScore": 722.2,
         "tags": [
           "Regulation"
         ]
@@ -753,26 +766,26 @@
         "link": "https://www.bbc.com/news/articles/cdrkvy2pn87o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-08-29T09:18:24.000Z",
-        "relevanceScore": 366.42,
+        "relevanceScore": 441.36,
+        "tags": []
+      },
+      {
+        "title": "US to stop Palestinians attending UN meeting in New York",
+        "link": "https://www.bbc.com/news/articles/cjdym32z9v7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-29T16:47:01.000Z",
+        "relevanceScore": 236.86,
         "tags": []
       },
       {
         "title": "Madeleine McCann suspect to be released in less than three weeks",
         "link": "https://www.bbc.com/news/articles/c2063n085d1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-08-29T16:28:40.000Z",
-        "relevanceScore": 62.36,
+        "pubDate": "2025-08-29T17:18:24.000Z",
+        "relevanceScore": 63.46,
         "tags": [
           "Analysis"
         ]
-      },
-      {
-        "title": "UK blocks Israeli government delegation from arms trade fair",
-        "link": "https://www.bbc.com/news/articles/cvgpxwy2lkwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-29T12:55:17.000Z",
-        "relevanceScore": 41.14,
-        "tags": []
       }
     ],
     "business": [
@@ -781,19 +794,9 @@
         "link": "https://www.npr.org/2025/08/29/nx-s1-5519233/as-trump-tariffs-hit-companies-they-are-finding-ways-to-minimize-the-impact",
         "source": "NPR Business",
         "pubDate": "2025-08-29T08:10:11.000Z",
-        "relevanceScore": 680.19,
+        "relevanceScore": 685.14,
         "tags": [
           "Regulation"
-        ]
-      },
-      {
-        "title": "Nigeria bans exports of raw shea nuts used for cosmetic products to help grow local economy",
-        "link": "https://abcnews.go.com/Business/wireStory/nigeria-bans-exports-raw-shea-nuts-cosmetic-products-125050567",
-        "source": "ABC News Business",
-        "pubDate": "2025-08-28T11:58:18.000Z",
-        "relevanceScore": 87.15,
-        "tags": [
-          "Business"
         ]
       },
       {
@@ -801,9 +804,19 @@
         "link": "https://abcnews.go.com/Business/wireStory/asian-shares-mixed-after-us-stocks-creep-higher-125049376",
         "source": "ABC News Business",
         "pubDate": "2025-08-28T08:14:25.000Z",
-        "relevanceScore": 29.41,
+        "relevanceScore": 116.35,
         "tags": [
           "Report"
+        ]
+      },
+      {
+        "title": "Nigeria bans exports of raw shea nuts used for cosmetic products to help grow local economy",
+        "link": "https://abcnews.go.com/Business/wireStory/nigeria-bans-exports-raw-shea-nuts-cosmetic-products-125050567",
+        "source": "ABC News Business",
+        "pubDate": "2025-08-28T11:58:18.000Z",
+        "relevanceScore": 98.1,
+        "tags": [
+          "Business"
         ]
       },
       {
@@ -811,7 +824,7 @@
         "link": "https://www.npr.org/2025/08/28/nx-s1-5521328/judge-kari-lake-voice-of-america-firing-judge-ruling",
         "source": "NPR Business",
         "pubDate": "2025-08-28T22:10:24.000Z",
-        "relevanceScore": 24.19,
+        "relevanceScore": 24.14,
         "tags": []
       },
       {
@@ -819,7 +832,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/salmonella-outbreak-tied-recalled-eggs-sickened-95-people-125072772",
         "source": "ABC News Business",
         "pubDate": "2025-08-28T20:58:54.000Z",
-        "relevanceScore": 21.96,
+        "relevanceScore": 21.9,
         "tags": []
       }
     ],
@@ -829,158 +842,10 @@
         "link": "https://stackoverflow.blog/2025/08/28/moving-the-public-stack-overflow-sites-to-the-cloud-part-1/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-08-28T16:00:00.000Z",
-        "relevanceScore": 529.96,
+        "relevanceScore": 582.4,
         "tags": [
           "Cloud",
           "IPO"
-        ]
-      }
-    ],
-    "tech": [
-      {
-        "title": "The White House reportedly ordered xAI's Grok to be approved for government use",
-        "link": "https://www.engadget.com/ai/the-white-house-reportedly-ordered-xais-grok-to-be-approved-for-government-use-165625891.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-29T16:56:43.000Z",
-        "relevanceScore": 485.95,
-        "tags": []
-      },
-      {
-        "title": "41 Best Labor Day Sales on WIRED-Tested Gear (2025)",
-        "link": "https://www.wired.com/story/best-labor-day-sales-deals-2025-1/",
-        "source": "Wired",
-        "pubDate": "2025-08-29T17:06:37.000Z",
-        "relevanceScore": 324.98,
-        "tags": []
-      },
-      {
-        "title": "The Best Google Pixel Phones of 2025, Tested and Reviewed: Which Model to Buy, Cases and Accessories, Feature Drops",
-        "link": "https://www.wired.com/story/best-google-pixel-phone/",
-        "source": "Wired",
-        "pubDate": "2025-08-29T14:03:00.000Z",
-        "relevanceScore": 323.87,
-        "tags": [
-          "Tech",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Court documents shed new light on UK-Apple row over user data",
-        "link": "https://www.bbc.com/news/articles/cx293qg7z39o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-29T15:58:33.000Z",
-        "relevanceScore": 222.25,
-        "tags": []
-      },
-      {
-        "title": "Mastodon says it doesn’t ‘have the means’ to comply with age verification laws",
-        "link": "https://techcrunch.com/2025/08/29/mastodon-says-it-doesnt-have-the-means-to-comply-with-age-verification-laws/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-29T15:50:11.000Z",
-        "relevanceScore": 112.73,
-        "tags": [
-          "Social"
-        ]
-      },
-      {
-        "title": "Hisense&#8217;s take on the Samsung Frame TV is $300 off",
-        "link": "https://www.theverge.com/tech/768031/hisense-lego-samsung-elgato-deal-sale",
-        "source": "The Verge",
-        "pubDate": "2025-08-29T15:15:32.000Z",
-        "relevanceScore": 80.61,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "A comprehensive list of 2025 tech layoffs",
-        "link": "https://techcrunch.com/2025/08/29/tech-layoffs-2025-list/",
-        "source": "TechCrunch",
-        "pubDate": "2025-08-29T15:40:18.000Z",
-        "relevanceScore": 27.69,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "700-piece Lego G3 iMac design faces long-shot odds to get made, but I still want one",
-        "link": "https://arstechnica.com/gadgets/2025/08/lego-imac-g3-concept-is-unlikely-to-go-anywhere-but-it-is-very-cute/",
-        "source": "Ars Technica",
-        "pubDate": "2025-08-29T14:34:45.000Z",
-        "relevanceScore": 25.48,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "The Best Kindle of 2025: Paperwhite, Scribe, or Colorsoft?",
-        "link": "https://www.wired.com/gallery/best-kindle/",
-        "source": "Wired",
-        "pubDate": "2025-08-29T13:34:00.000Z",
-        "relevanceScore": 25.27,
-        "tags": []
-      },
-      {
-        "title": "The best Labor Day sales for 2025: Get up to 50 percent off gear from Apple, Dyson, Sony and others",
-        "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-get-up-to-50-percent-off-gear-from-apple-dyson-sony-and-others-120049238.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-08-29T15:06:26.000Z",
-        "relevanceScore": 24.58,
-        "tags": [
-          "Tech",
-          "Web"
-        ]
-      },
-      {
-        "title": "Kick accuses French authorities of politicising streamer's death",
-        "link": "https://www.bbc.com/news/articles/cx23zdvk854o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-28T16:03:28.000Z",
-        "relevanceScore": 20.97,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Delta agrees to pay $79 million after a plane dumped thousands of gallons of fuel over homes and schools in California during an emergency",
-        "link": "https://www.reddit.com/r/technology/comments/1n35fmp/delta_agrees_to_pay_79_million_after_a_plane/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-08-29T11:58:03.000Z",
-        "relevanceScore": 20.95,
-        "tags": [
-          "Breaking"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Introducing 'Sources & Methods,' a new podcast from NPR",
-        "link": "https://www.npr.org/2025/08/28/nx-s1-5520761/introducing-sources-methods-a-new-podcast-from-npr",
-        "source": "NPR Business",
-        "pubDate": "2025-08-28T22:04:48.000Z",
-        "relevanceScore": 448.68,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "Trump ends Secret Service protection for Harris",
-        "link": "https://www.bbc.com/news/articles/c04r073nxz5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-08-29T13:34:51.000Z",
-        "relevanceScore": 233.78,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "FEMA’s Chaotic Summer Has Gone From Bad to Worse",
-        "link": "https://www.wired.com/story/fema-funding-dhs-agency-punishment/",
-        "source": "Wired",
-        "pubDate": "2025-08-29T14:23:54.000Z",
-        "relevanceScore": 227.94,
-        "tags": [
-          "Security"
         ]
       }
     ],
@@ -990,7 +855,7 @@
         "link": "https://www.engadget.com/mobile/apple-ios-26-everything-you-need-to-know-about-the-new-features-in-the-upcoming-iphone-update-135749557.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-29T16:56:56.000Z",
-        "relevanceScore": 417.95,
+        "relevanceScore": 581.89,
         "tags": [
           "Mobile",
           "Update"
@@ -1001,7 +866,7 @@
         "link": "https://www.engadget.com/gaming/xbox-cloud-games-will-soon-follow-you-just-about-everywhere-183603601.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-08-29T16:05:49.000Z",
-        "relevanceScore": 358.78,
+        "relevanceScore": 380.22,
         "tags": [
           "Mobile",
           "Cloud"
@@ -1012,7 +877,7 @@
         "link": "https://arstechnica.com/gadgets/2025/08/google-pixel-10-series-review-dont-call-it-an-android/",
         "source": "Ars Technica",
         "pubDate": "2025-08-29T14:35:05.000Z",
-        "relevanceScore": 324.48,
+        "relevanceScore": 339.42,
         "tags": [
           "Mobile"
         ]
@@ -1022,31 +887,200 @@
         "link": "https://www.reddit.com/r/programming/comments/1n38vz6/petition_to_stop_googles_attack_on_android_devs/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-29T14:25:53.000Z",
-        "relevanceScore": 22.45,
+        "relevanceScore": 22.39,
         "tags": [
           "Mobile"
         ]
       }
     ],
-    "development": [
+    "cybersecurity": [
       {
-        "title": "Angular Migrate To New Control Flow Syntax",
-        "link": "https://dev.to/nagarlalit/angular-migrate-to-new-control-flow-syntax-421n",
-        "source": "Dev.to",
-        "pubDate": "2025-08-29T16:59:23.000Z",
-        "relevanceScore": 164.46,
+        "title": "Introducing 'Sources & Methods,' a new podcast from NPR",
+        "link": "https://www.npr.org/2025/08/28/nx-s1-5520761/introducing-sources-methods-a-new-podcast-from-npr",
+        "source": "NPR Business",
+        "pubDate": "2025-08-28T22:04:48.000Z",
+        "relevanceScore": 465.62,
         "tags": [
-          "Update"
+          "Security"
         ]
       },
       {
-        "title": "Does anyone want to form a hobby opensource project group for beginners in C# with me?",
-        "link": "https://dev.to/ripetide1229/does-anyone-want-to-form-a-hobby-opensource-project-group-for-beginners-in-c-with-me-2jmp",
-        "source": "Dev.to",
-        "pubDate": "2025-08-29T17:02:16.000Z",
-        "relevanceScore": 108.97,
+        "title": "Trump ends Secret Service protection for Harris",
+        "link": "https://www.bbc.com/news/articles/c04r073nxz5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-08-29T13:34:51.000Z",
+        "relevanceScore": 243.72,
         "tags": [
-          "Science"
+          "Security"
+        ]
+      },
+      {
+        "title": "FEMA’s Chaotic Summer Has Gone From Bad to Worse",
+        "link": "https://www.wired.com/story/fema-funding-dhs-agency-punishment/",
+        "source": "Wired",
+        "pubDate": "2025-08-29T14:23:54.000Z",
+        "relevanceScore": 237.88,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "The White House reportedly ordered xAI's Grok to be approved for government use",
+        "link": "https://www.engadget.com/ai/the-white-house-reportedly-ordered-xais-grok-to-be-approved-for-government-use-165625891.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-29T16:56:43.000Z",
+        "relevanceScore": 458.89,
+        "tags": []
+      },
+      {
+        "title": "41 Best Labor Day Sales on WIRED-Tested Gear (2025)",
+        "link": "https://www.wired.com/story/best-labor-day-sales-deals-2025-1/",
+        "source": "Wired",
+        "pubDate": "2025-08-29T17:06:37.000Z",
+        "relevanceScore": 339.92,
+        "tags": []
+      },
+      {
+        "title": "The Best Google Pixel Phones of 2025, Tested and Reviewed: Which Model to Buy, Cases and Accessories, Feature Drops",
+        "link": "https://www.wired.com/story/best-google-pixel-phone/",
+        "source": "Wired",
+        "pubDate": "2025-08-29T14:03:00.000Z",
+        "relevanceScore": 338.81,
+        "tags": [
+          "Tech",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Court documents shed new light on UK-Apple row over user data",
+        "link": "https://www.bbc.com/news/articles/cx293qg7z39o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-29T15:58:33.000Z",
+        "relevanceScore": 264.2,
+        "tags": []
+      },
+      {
+        "title": "Mastodon says it doesn’t ‘have the means’ to comply with age verification laws",
+        "link": "https://techcrunch.com/2025/08/29/mastodon-says-it-doesnt-have-the-means-to-comply-with-age-verification-laws/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-29T15:50:11.000Z",
+        "relevanceScore": 140.67,
+        "tags": [
+          "Social"
+        ]
+      },
+      {
+        "title": "Hisense&#8217;s take on the Samsung Frame TV is $300 off",
+        "link": "https://www.theverge.com/tech/768031/hisense-lego-samsung-elgato-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2025-08-29T15:15:32.000Z",
+        "relevanceScore": 85.55,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "700-piece Lego G3 iMac design faces long-shot odds to get made, but I still want one",
+        "link": "https://arstechnica.com/gadgets/2025/08/lego-imac-g3-concept-is-unlikely-to-go-anywhere-but-it-is-very-cute/",
+        "source": "Ars Technica",
+        "pubDate": "2025-08-29T14:34:45.000Z",
+        "relevanceScore": 59.42,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "The best Labor Day sales for 2025: Get up to 50 percent off gear from Apple, Dyson, Sony and others",
+        "link": "https://www.engadget.com/deals/the-best-labor-day-sales-for-2025-get-up-to-50-percent-off-gear-from-apple-dyson-sony-and-others-120049238.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-08-29T15:06:26.000Z",
+        "relevanceScore": 58.52,
+        "tags": [
+          "Tech",
+          "Web"
+        ]
+      },
+      {
+        "title": "A comprehensive list of 2025 tech layoffs",
+        "link": "https://techcrunch.com/2025/08/29/tech-layoffs-2025-list/",
+        "source": "TechCrunch",
+        "pubDate": "2025-08-29T15:40:18.000Z",
+        "relevanceScore": 27.64,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "The Best Kindle of 2025: Paperwhite, Scribe, or Colorsoft?",
+        "link": "https://www.wired.com/gallery/best-kindle/",
+        "source": "Wired",
+        "pubDate": "2025-08-29T13:34:00.000Z",
+        "relevanceScore": 25.22,
+        "tags": []
+      },
+      {
+        "title": "Kick accuses French authorities of politicising streamer's death",
+        "link": "https://www.bbc.com/news/articles/cx23zdvk854o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-28T16:03:28.000Z",
+        "relevanceScore": 20.91,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Delta agrees to pay $79 million after a plane dumped thousands of gallons of fuel over homes and schools in California during an emergency",
+        "link": "https://www.reddit.com/r/technology/comments/1n35fmp/delta_agrees_to_pay_79_million_after_a_plane/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-08-29T11:58:03.000Z",
+        "relevanceScore": 20.9,
+        "tags": [
+          "Breaking"
+        ]
+      }
+    ],
+    "health": [
+      {
+        "title": "Health is Wealth – Even for Developers",
+        "link": "https://dev.to/dr_royocheremie_86b47d6/health-is-wealth-even-for-developers-712",
+        "source": "Dev.to",
+        "pubDate": "2025-08-29T17:18:30.000Z",
+        "relevanceScore": 269.96,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "RFK Jr’s plan to improve America’s diet is missing the point",
+        "link": "https://www.technologyreview.com/2025/08/29/1122733/rfk-jrs-plan-to-improve-americas-diet-is-missing-the-point/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-08-29T09:00:00.000Z",
+        "relevanceScore": 27.8,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "Open-source is for the people, by the people",
+        "link": "https://stackoverflow.blog/2025/08/29/open-source-is-for-the-people-by-the-people/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-08-29T07:40:00.000Z",
+        "relevanceScore": 228.54,
+        "tags": [
+          "Science",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "How GitHub Models can help open source maintainers focus on what matters",
+        "link": "https://github.blog/open-source/maintainers/how-github-models-can-help-open-source-maintainers-focus-on-what-matters/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-08-28T19:02:44.000Z",
+        "relevanceScore": 118.01,
+        "tags": [
+          "Exclusive"
         ]
       },
       {
@@ -1054,36 +1088,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/how-we-accelerated-secret-protection-engineering-with-copilot/",
         "source": "GitHub Blog",
         "pubDate": "2025-08-28T17:08:51.000Z",
-        "relevanceScore": 93.69,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Open-source is for the people, by the people",
-        "link": "https://stackoverflow.blog/2025/08/29/open-source-is-for-the-people-by-the-people/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-08-29T07:40:00.000Z",
-        "relevanceScore": 62.59,
-        "tags": [
-          "Science",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "From Side Project to Full-Fledged Platform: Lessons from Building Modeldraw",
-        "link": "https://dev.to/martin-staufcik/from-side-project-to-full-fledged-platform-lessons-from-building-modeldraw-1ep1",
-        "source": "Dev.to",
-        "pubDate": "2025-08-29T16:59:20.000Z",
-        "relevanceScore": 54.46,
-        "tags": []
-      },
-      {
-        "title": "How GitHub Models can help open source maintainers focus on what matters",
-        "link": "https://github.blog/open-source/maintainers/how-github-models-can-help-open-source-maintainers-focus-on-what-matters/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-08-28T19:02:44.000Z",
-        "relevanceScore": 40.57,
+        "relevanceScore": 106.63,
         "tags": [
           "Exclusive"
         ]
@@ -1093,7 +1098,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1n355fd/the_promise_of_rust/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-29T11:43:47.000Z",
-        "relevanceScore": 20.91,
+        "relevanceScore": 20.85,
         "tags": []
       },
       {
@@ -1101,33 +1106,8 @@
         "link": "https://www.reddit.com/r/programming/comments/1n2xsd1/open_source_dilemma_in_the_eu_too_many_see/",
         "source": "Reddit Programming",
         "pubDate": "2025-08-29T04:20:00.000Z",
-        "relevanceScore": 19.43,
+        "relevanceScore": 19.37,
         "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "Musk files to dismiss lawsuit over his purchase of Twitter shares",
-        "link": "https://www.bbc.com/news/articles/cn47ey2wxkpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-08-29T11:09:32.000Z",
-        "relevanceScore": 163.79,
-        "tags": [
-          "Social",
-          "Acquisition"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "This American nuclear company could help India’s thorium dream",
-        "link": "https://www.technologyreview.com/2025/08/29/1122839/this-american-nuclear-company-could-help-indias-thorium-dream/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-08-29T09:56:45.000Z",
-        "relevanceScore": 104.55,
-        "tags": [
-          "Tech"
-        ]
       }
     ],
     "space": [
@@ -1136,7 +1116,7 @@
         "link": "https://www.technologyreview.com/2025/08/29/1122843/the-download-humans-in-space-and-indias-thorium-ambitions/",
         "source": "MIT Technology Review",
         "pubDate": "2025-08-29T12:10:00.000Z",
-        "relevanceScore": 65.99,
+        "relevanceScore": 135.94,
         "tags": [
           "Tech"
         ]
@@ -1146,7 +1126,7 @@
         "link": "https://arstechnica.com/space/2025/08/spacex-got-good-heat-shield-data-for-starship-so-what-comes-next/",
         "source": "Ars Technica",
         "pubDate": "2025-08-29T16:10:39.000Z",
-        "relevanceScore": 26.8,
+        "relevanceScore": 26.74,
         "tags": []
       },
       {
@@ -1154,7 +1134,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1n2vepx/trump_nixes_patent_office_weather_service_nasa/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-29T02:20:18.000Z",
-        "relevanceScore": 19.03,
+        "relevanceScore": 18.97,
         "tags": []
       }
     ],
@@ -1164,7 +1144,7 @@
         "link": "https://www.theverge.com/news/768068/tesla-wrongful-death-verdict-court-toss",
         "source": "The Verge",
         "pubDate": "2025-08-29T15:32:56.000Z",
-        "relevanceScore": 35.67,
+        "relevanceScore": 122.61,
         "tags": [
           "Tech"
         ]
@@ -1174,7 +1154,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1n37iw0/tesla_said_it_didnt_have_key_data_in_a_fatal/",
         "source": "Reddit Technology",
         "pubDate": "2025-08-29T13:31:09.000Z",
-        "relevanceScore": 31.26,
+        "relevanceScore": 118.21,
         "tags": []
       }
     ],
@@ -1184,15 +1164,15 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1n2xgpu/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-08-29T04:02:39.000Z",
-        "relevanceScore": 31.37,
+        "relevanceScore": 118.31,
         "tags": []
       },
       {
-        "title": "Newly discovered document adds evidence that Shroud of Turin is fake",
-        "link": "https://www.reddit.com/r/worldnews/comments/1n32pl0/newly_discovered_document_adds_evidence_that/",
+        "title": "U.S. shoppers' orders canceled as world shuts down some American-bound shipments",
+        "link": "https://www.reddit.com/r/worldnews/comments/1n3bet7/us_shoppers_orders_canceled_as_world_shuts_down/",
         "source": "Reddit World News",
-        "pubDate": "2025-08-29T09:26:38.000Z",
-        "relevanceScore": 22.45,
+        "pubDate": "2025-08-29T16:02:17.000Z",
+        "relevanceScore": 23.71,
         "tags": []
       },
       {
@@ -1200,20 +1180,34 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1n31ewk/zelensky_gives_tragic_update_on_russias_kyiv/",
         "source": "Reddit World News",
         "pubDate": "2025-08-29T08:02:18.000Z",
-        "relevanceScore": 22.17,
+        "relevanceScore": 22.11,
         "tags": [
           "Update"
         ]
       }
     ],
-    "health": [
+    "education": [
       {
-        "title": "RFK Jr’s plan to improve America’s diet is missing the point",
-        "link": "https://www.technologyreview.com/2025/08/29/1122733/rfk-jrs-plan-to-improve-americas-diet-is-missing-the-point/",
+        "title": "My Third Year as a Developer Advocate: Talks, Tech, and Teaching",
+        "link": "https://dev.to/c_yatteau/my-third-year-as-a-developer-advocate-talks-tech-and-teaching-39oa",
+        "source": "Dev.to",
+        "pubDate": "2025-08-29T17:23:45.000Z",
+        "relevanceScore": 86.48,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "science": [
+      {
+        "title": "This American nuclear company could help India’s thorium dream",
+        "link": "https://www.technologyreview.com/2025/08/29/1122839/this-american-nuclear-company-could-help-indias-thorium-dream/",
         "source": "MIT Technology Review",
-        "pubDate": "2025-08-29T09:00:00.000Z",
-        "relevanceScore": 27.86,
-        "tags": []
+        "pubDate": "2025-08-29T09:56:45.000Z",
+        "relevanceScore": 57.99,
+        "tags": [
+          "Tech"
+        ]
       }
     ],
     "startup": [
@@ -1222,32 +1216,45 @@
         "link": "https://techcrunch.com/2025/08/29/henrik-fisker-quietly-wound-down-his-nonprofit-after-his-ev-startup-went-bankrupt/",
         "source": "TechCrunch",
         "pubDate": "2025-08-29T15:47:01.000Z",
-        "relevanceScore": 27.72,
+        "relevanceScore": 27.66,
         "tags": [
           "Startup"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "title": "Musk files to dismiss lawsuit over his purchase of Twitter shares",
+        "link": "https://www.bbc.com/news/articles/cn47ey2wxkpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-08-29T11:09:32.000Z",
+        "relevanceScore": 24.73,
+        "tags": [
+          "Social",
+          "Acquisition"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 198.6139285714286,
+    "totalCategories": 17,
+    "avgRelevanceScore": 237.35874999999987,
     "topCategories": [
       {
         "category": "tech",
         "count": 12
       },
       {
-        "category": "development",
-        "count": 8
-      },
-      {
         "category": "ai-ml",
-        "count": 5
+        "count": 6
       },
       {
         "category": "business",
+        "count": 5
+      },
+      {
+        "category": "development",
         "count": 5
       },
       {
