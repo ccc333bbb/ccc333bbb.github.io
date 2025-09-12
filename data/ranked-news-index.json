@@ -1,22 +1,23 @@
 {
-  "lastUpdated": "2025-09-12T21:34:45.075Z",
+  "lastUpdated": "2025-09-12T21:48:20.734Z",
   "totalArticles": 56,
   "categories": [
     "development",
-    "ai-ml",
     "tech",
-    "business",
-    "mobile",
-    "startup",
-    "general",
+    "ai-ml",
     "cloud",
+    "startup",
+    "mobile",
+    "business",
+    "general",
+    "climate",
+    "social",
     "gaming",
+    "finance",
     "entertainment",
     "automotive",
     "education",
-    "social",
-    "world",
-    "finance"
+    "world"
   ],
   "topArticles": [
     {
@@ -25,11 +26,24 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-12T15:32:55.000Z",
-      "relevanceScore": 1056.29,
-      "recommendationScore": 1056.79,
+      "relevanceScore": 1023.25,
+      "recommendationScore": 1023.75,
       "tags": [
         "Science",
         "Interview"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Discord is distancing itself from the Charlie Kirk shooting suspect",
+      "link": "https://www.theverge.com/news/777614/discord-charlie-kirk-shooting-tyler-robinson",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-09-12T21:12:22.000Z",
+      "relevanceScore": 843.88,
+      "recommendationScore": 844.38,
+      "tags": [
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -39,8 +53,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-12T10:01:44.000Z",
-      "relevanceScore": 894.19,
-      "recommendationScore": 895.69,
+      "relevanceScore": 842.14,
+      "recommendationScore": 843.64,
       "tags": [
         "AI",
         "Tech",
@@ -49,17 +63,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Discord is distancing itself from the Charlie Kirk shooting suspect",
-      "link": "https://www.theverge.com/news/777614/discord-charlie-kirk-shooting-tyler-robinson",
-      "source": "The Verge",
+      "title": "Lee Pace Has Big Hopes for the Fourth Season of ‘Foundation’",
+      "link": "https://www.wired.com/story/lee-pace-foundation-interview/",
+      "source": "Wired",
       "category": "tech",
-      "pubDate": "2025-09-12T21:12:22.000Z",
-      "relevanceScore": 855.43,
-      "recommendationScore": 855.93,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
+      "pubDate": "2025-09-12T20:38:27.000Z",
+      "relevanceScore": 537.77,
+      "recommendationScore": 538.27,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Encyclopedia Britannica and Merriam-Webster sue Perplexity for copying their definitions",
@@ -67,8 +79,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-09-12T17:23:34.000Z",
-      "relevanceScore": 587.16,
-      "recommendationScore": 587.66,
+      "relevanceScore": 528.62,
+      "recommendationScore": 529.12,
       "tags": [
         "AI",
         "Web"
@@ -81,23 +93,12 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-09-12T04:40:00.000Z",
-      "relevanceScore": 572.12,
-      "recommendationScore": 572.62,
+      "relevanceScore": 524.07,
+      "recommendationScore": 524.57,
       "tags": [
         "AI",
         "Mobile"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Lee Pace Has Big Hopes for the Fourth Season of ‘Foundation’",
-      "link": "https://www.wired.com/story/lee-pace-foundation-interview/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-09-12T20:38:27.000Z",
-      "relevanceScore": 536.81,
-      "recommendationScore": 537.31,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -106,8 +107,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-09-12T16:00:00.000Z",
-      "relevanceScore": 530.88,
-      "recommendationScore": 530.88,
+      "relevanceScore": 490.34,
+      "recommendationScore": 490.34,
       "tags": [
         "AI",
         "Exclusive",
@@ -121,8 +122,8 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-09-12T17:27:32.000Z",
-      "relevanceScore": 461.18,
-      "recommendationScore": 461.18,
+      "relevanceScore": 389.63,
+      "recommendationScore": 389.63,
       "tags": [
         "AI"
       ],
@@ -134,8 +135,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-12T20:01:41.000Z",
-      "relevanceScore": 346.19,
-      "recommendationScore": 348.19,
+      "relevanceScore": 289.64,
+      "recommendationScore": 291.64,
       "tags": [
         "AI",
         "Partnership"
@@ -143,18 +144,48 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Education report calling for ethical AI use contains over 15 fake sources",
-      "link": "https://arstechnica.com/ai/2025/09/education-report-calling-for-ethical-ai-use-contains-over-15-fake-sources/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2025-09-12T16:01:27.000Z",
-      "relevanceScore": 310.89,
-      "recommendationScore": 311.39,
+      "title": "How to set up Identity Federation between Google Cloud and Oracle Cloud",
+      "link": "https://dev.to/farisdurrani/how-to-set-up-identity-federation-between-google-cloud-and-oracle-cloud-1a43",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-09-12T21:38:51.000Z",
+      "relevanceScore": 269.47,
+      "recommendationScore": 271.47,
       "tags": [
-        "AI",
-        "Report"
+        "Cloud",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Via shrugs off tepid open to end first day of trading slightly above IPO price",
+      "link": "https://techcrunch.com/2025/09/12/via-shrugs-off-tepid-open-to-end-first-day-of-trading-slightly-above-ipo-price/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-09-12T21:16:00.000Z",
+      "relevanceScore": 266.39,
+      "recommendationScore": 268.89,
+      "tags": [
+        "Tech",
+        "Startup",
+        "Exclusive",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "RowSwift: A Simple CSV Analyzer for iOS",
+      "link": "https://dev.to/juandes/rowswift-a-simple-csv-analyzer-for-ios-4g4a",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-09-12T21:28:12.000Z",
+      "relevanceScore": 265.93,
+      "recommendationScore": 265.93,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "AI 'friend' chatbots probed over child protection",
@@ -162,8 +193,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-09-12T10:36:53.000Z",
-      "relevanceScore": 309.81,
-      "recommendationScore": 309.81,
+      "relevanceScore": 252.26,
+      "recommendationScore": 252.26,
       "tags": [
         "AI",
         "Tech"
@@ -176,8 +207,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-09-11T19:53:44.000Z",
-      "relevanceScore": 306.86,
-      "recommendationScore": 306.86,
+      "relevanceScore": 249.32,
+      "recommendationScore": 249.32,
       "tags": [
         "Exclusive",
         "Report"
@@ -190,52 +221,9 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-11T05:50:27.000Z",
-      "relevanceScore": 304.05,
-      "recommendationScore": 304.55,
+      "relevanceScore": 246.51,
+      "recommendationScore": 247.01,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "RowSwift: A Simple CSV Analyzer for iOS",
-      "link": "https://dev.to/juandes/rowswift-a-simple-csv-analyzer-for-ios-4g4a",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-09-12T21:28:12.000Z",
-      "relevanceScore": 257.98,
-      "recommendationScore": 257.98,
-      "tags": [
-        "Mobile",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Via shrugs off tepid open to end first day of trading slightly above IPO price",
-      "link": "https://techcrunch.com/2025/09/12/via-shrugs-off-tepid-open-to-end-first-day-of-trading-slightly-above-ipo-price/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-09-12T21:16:00.000Z",
-      "relevanceScore": 250.44,
-      "recommendationScore": 252.94,
-      "tags": [
-        "Tech",
-        "Startup",
-        "Exclusive",
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "GitHub Copilot coding agent 101: Getting started with agentic workflows on GitHub",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-coding-agent-101-getting-started-with-agentic-workflows-on-github/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-09-11T16:00:00.000Z",
-      "relevanceScore": 223.08,
-      "recommendationScore": 223.58,
-      "tags": [
-        "Exclusive"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -244,23 +232,34 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-12T18:22:49.000Z",
-      "relevanceScore": 221.36,
-      "recommendationScore": 221.86,
+      "relevanceScore": 236.31,
+      "recommendationScore": 236.81,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Pilot union urges FAA to reject Rainmaker’s drone cloud-seeding plan",
-      "link": "https://techcrunch.com/2025/09/12/pilot-union-urges-faa-to-reject-rainmakers-drone-cloud-seeding-plan/",
-      "source": "TechCrunch",
-      "category": "cloud",
-      "pubDate": "2025-09-12T20:42:12.000Z",
-      "relevanceScore": 219.82,
-      "recommendationScore": 220.32,
+      "title": "Children hacking their own schools for 'fun', watchdog warns",
+      "link": "https://www.bbc.com/news/articles/c203pedz58go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-09-11T10:59:34.000Z",
+      "relevanceScore": 232.04,
+      "recommendationScore": 232.54,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "GitHub Copilot coding agent 101: Getting started with agentic workflows on GitHub",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-coding-agent-101-getting-started-with-agentic-workflows-on-github/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-09-11T16:00:00.000Z",
+      "relevanceScore": 232.04,
+      "recommendationScore": 232.54,
       "tags": [
-        "Cloud"
+        "Exclusive"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
     },
     {
       "title": "GameHub fixed its Silksong save game uploads and now I&#8217;m playing across phone and PC",
@@ -268,8 +267,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-09-12T20:13:14.000Z",
-      "relevanceScore": 215.73,
-      "recommendationScore": 216.23,
+      "relevanceScore": 230.68,
+      "recommendationScore": 231.18,
       "tags": [
         "Mobile",
         "Update"
@@ -282,20 +281,22 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-09-12T09:22:26.000Z",
-      "relevanceScore": 209.56,
-      "recommendationScore": 209.56,
+      "relevanceScore": 224.51,
+      "recommendationScore": 224.51,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Children hacking their own schools for 'fun', watchdog warns",
-      "link": "https://www.bbc.com/news/articles/c203pedz58go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-09-11T10:59:34.000Z",
-      "relevanceScore": 209.08,
-      "recommendationScore": 209.58,
-      "tags": [],
+      "title": "Feds try to dodge lawsuit against their bogus climate report",
+      "link": "https://arstechnica.com/science/2025/09/department-of-energy-gets-rid-of-climate-skeptics-group-to-dodge-lawsuit/",
+      "source": "Ars Technica",
+      "category": "climate",
+      "pubDate": "2025-09-12T20:58:03.000Z",
+      "relevanceScore": 205.33,
+      "recommendationScore": 205.83,
+      "tags": [
+        "Report"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -304,8 +305,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-12T21:00:58.000Z",
-      "relevanceScore": 202.89,
-      "recommendationScore": 203.39,
+      "relevanceScore": 131.34,
+      "recommendationScore": 131.84,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -315,9 +316,22 @@
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-09-12T21:22:41.000Z",
-      "relevanceScore": 192.46,
-      "recommendationScore": 192.46,
+      "relevanceScore": 110.41,
+      "recommendationScore": 110.41,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Charlie Kirk’s alleged killer scratched bullets with a Helldivers combo and a furry sex meme. ﻿The suspected shooter left a hodgepodge of extremely online taunts.",
+      "link": "https://www.reddit.com/r/technology/comments/1nf9izc/charlie_kirks_alleged_killer_scratched_bullets/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-09-12T17:35:16.000Z",
+      "relevanceScore": 97.16,
+      "recommendationScore": 97.16,
+      "tags": [
+        "Web"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -326,8 +340,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-09-11T07:40:00.000Z",
-      "relevanceScore": 177.92,
-      "recommendationScore": 179.92,
+      "relevanceScore": 94.37,
+      "recommendationScore": 96.37,
       "tags": [
         "AI",
         "Tech",
@@ -341,8 +355,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-12T12:10:00.000Z",
-      "relevanceScore": 156.12,
-      "recommendationScore": 158.12,
+      "relevanceScore": 84.57,
+      "recommendationScore": 86.57,
       "tags": [
         "AI",
         "Tech"
@@ -355,8 +369,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-12T18:53:26.000Z",
-      "relevanceScore": 151.96,
-      "recommendationScore": 152.46,
+      "relevanceScore": 81.42,
+      "recommendationScore": 81.92,
       "tags": [
         "AI",
         "Web"
@@ -364,15 +378,78 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Pilot union urges FAA to reject Rainmaker’s drone cloud-seeding plan",
+      "link": "https://techcrunch.com/2025/09/12/pilot-union-urges-faa-to-reject-rainmakers-drone-cloud-seeding-plan/",
+      "source": "TechCrunch",
+      "category": "cloud",
+      "pubDate": "2025-09-12T20:42:12.000Z",
+      "relevanceScore": 59.78,
+      "recommendationScore": 60.28,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "After Kirk shooting, Utah governor calls social media a “cancer.” Will we treat it like one?",
+      "link": "https://arstechnica.com/culture/2025/09/after-kirk-shooting-utah-governor-calls-social-media-a-cancer-will-we-treat-it-like-one/",
+      "source": "Ars Technica",
+      "category": "social",
+      "pubDate": "2025-09-12T19:55:49.000Z",
+      "relevanceScore": 58.62,
+      "recommendationScore": 59.12,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "'Hades II' Is Coming to Nintendo Switch This Month",
       "link": "https://www.wired.com/story/hades-ii-is-coming-to-nintendo-switch-this-month/",
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-09-12T17:30:47.000Z",
-      "relevanceScore": 129.19,
-      "recommendationScore": 129.19,
+      "relevanceScore": 58.14,
+      "recommendationScore": 58.14,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "How major US stock indexes fared Thursday, 9/11/2025",
+      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9112025-125491424",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-09-11T20:46:00.000Z",
+      "relevanceScore": 56.99,
+      "recommendationScore": 58.99,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Extremist Groups Hated Charlie Kirk. They’re Using His Death to Radicalize Others",
+      "link": "https://www.wired.com/story/extremists-hated-charlie-kirk-now-radicalizing-others/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-09-12T20:24:22.000Z",
+      "relevanceScore": 56.72,
+      "recommendationScore": 57.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Instagram fixed an issue that caused posting multiple Stories to tank your reach",
+      "link": "https://www.engadget.com/social-media/instagram-fixed-an-issue-that-caused-posting-multiple-stories-to-tank-your-reach-184714482.html?src=rss",
+      "source": "Engadget",
+      "category": "social",
+      "pubDate": "2025-09-12T18:47:14.000Z",
+      "relevanceScore": 55.9,
+      "recommendationScore": 56.4,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Prince Harry told me I was being hacked, says Stephen Lawrence's mum",
@@ -380,8 +457,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-12T16:02:45.000Z",
-      "relevanceScore": 126.89,
-      "recommendationScore": 127.39,
+      "relevanceScore": 54.35,
+      "recommendationScore": 54.85,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -391,8 +468,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-12T16:00:10.000Z",
-      "relevanceScore": 126.38,
-      "recommendationScore": 126.88,
+      "relevanceScore": 53.84,
+      "recommendationScore": 54.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -402,8 +479,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-09-12T18:46:51.000Z",
-      "relevanceScore": 123.44,
-      "recommendationScore": 124.44,
+      "relevanceScore": 50.9,
+      "recommendationScore": 51.9,
       "tags": [
         "Mobile"
       ],
@@ -415,8 +492,8 @@
       "source": "NPR Business",
       "category": "entertainment",
       "pubDate": "2025-09-12T17:03:34.000Z",
-      "relevanceScore": 123.1,
-      "recommendationScore": 123.6,
+      "relevanceScore": 50.55,
+      "recommendationScore": 51.05,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -426,8 +503,8 @@
       "source": "The Verge",
       "category": "automotive",
       "pubDate": "2025-09-12T20:17:51.000Z",
-      "relevanceScore": 122.74,
-      "recommendationScore": 123.24,
+      "relevanceScore": 50.2,
+      "recommendationScore": 50.7,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -437,8 +514,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-12T18:33:47.000Z",
-      "relevanceScore": 121.4,
-      "recommendationScore": 121.9,
+      "relevanceScore": 48.85,
+      "recommendationScore": 49.35,
       "tags": [
         "Exclusive",
         "Regulation"
@@ -451,8 +528,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-09-12T09:02:37.000Z",
-      "relevanceScore": 120.99,
-      "recommendationScore": 122.99,
+      "relevanceScore": 48.45,
+      "recommendationScore": 50.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -462,8 +539,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-09-12T21:26:28.000Z",
-      "relevanceScore": 119.97,
-      "recommendationScore": 121.97,
+      "relevanceScore": 47.43,
+      "recommendationScore": 49.43,
       "tags": [
         "AI"
       ],
@@ -475,8 +552,8 @@
       "source": "MIT Technology Review",
       "category": "education",
       "pubDate": "2025-09-11T16:57:00.000Z",
-      "relevanceScore": 119.77,
-      "recommendationScore": 120.27,
+      "relevanceScore": 47.23,
+      "recommendationScore": 47.73,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -486,8 +563,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-09-12T18:35:12.000Z",
-      "relevanceScore": 119.4,
-      "recommendationScore": 119.9,
+      "relevanceScore": 46.86,
+      "recommendationScore": 47.36,
       "tags": [
         "Launch",
         "Update"
@@ -495,26 +572,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Instagram fixed an issue that caused posting multiple Stories to tank your reach",
-      "link": "https://www.engadget.com/social-media/instagram-fixed-an-issue-that-caused-posting-multiple-stories-to-tank-your-reach-184714482.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2025-09-12T18:47:14.000Z",
-      "relevanceScore": 118.94,
-      "recommendationScore": 119.44,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Russia has deported nearly 11,000 Ukrainian children to ''re-education'' camps in 2025 alone",
       "link": "https://www.reddit.com/r/worldnews/comments/1nf7dg0/russia_has_deported_nearly_11000_ukrainian/",
       "source": "Reddit World News",
       "category": "education",
       "pubDate": "2025-09-12T16:11:25.000Z",
-      "relevanceScore": 118.92,
-      "recommendationScore": 119.42,
+      "relevanceScore": 46.38,
+      "recommendationScore": 46.88,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -524,8 +588,8 @@
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2025-09-12T04:27:58.000Z",
-      "relevanceScore": 118.58,
-      "recommendationScore": 118.58,
+      "relevanceScore": 46.03,
+      "recommendationScore": 46.03,
       "tags": [
         "Mobile"
       ],
@@ -537,8 +601,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-12T17:15:30.000Z",
-      "relevanceScore": 117.14,
-      "recommendationScore": 117.14,
+      "relevanceScore": 44.59,
+      "recommendationScore": 44.59,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -548,8 +612,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-12T04:02:45.000Z",
-      "relevanceScore": 116.49,
-      "recommendationScore": 118.99,
+      "relevanceScore": 43.95,
+      "recommendationScore": 46.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -559,58 +623,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-11T13:02:23.000Z",
-      "relevanceScore": 115.49,
-      "recommendationScore": 115.99,
+      "relevanceScore": 42.95,
+      "recommendationScore": 43.45,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Charlie Kirk’s alleged killer scratched bullets with a Helldivers combo and a furry sex meme. ﻿The suspected shooter left a hodgepodge of extremely online taunts.",
-      "link": "https://www.reddit.com/r/technology/comments/1nf9izc/charlie_kirks_alleged_killer_scratched_bullets/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-09-12T17:35:16.000Z",
-      "relevanceScore": 96.2,
-      "recommendationScore": 96.2,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How major US stock indexes fared Thursday, 9/11/2025",
-      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9112025-125491424",
-      "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2025-09-11T20:46:00.000Z",
-      "relevanceScore": 91.54,
-      "recommendationScore": 93.54,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Row vs. Columnar Data Stores: Why Your Choice Matters More Than You Think",
-      "link": "https://dev.to/gervaisamoah/row-vs-columnar-data-stores-why-your-choice-matters-more-than-you-think-2h11",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-12T21:20:30.000Z",
-      "relevanceScore": 54.95,
-      "recommendationScore": 57.95,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Extremist Groups Hated Charlie Kirk. They’re Using His Death to Radicalize Others",
-      "link": "https://www.wired.com/story/extremists-hated-charlie-kirk-now-radicalizing-others/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-09-12T20:24:22.000Z",
-      "relevanceScore": 54.77,
-      "recommendationScore": 55.27,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Nine Met Police officers suspended after BBC investigation",
@@ -618,8 +634,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-12T20:13:25.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 32.23,
+      "relevanceScore": 31.68,
+      "recommendationScore": 32.18,
       "tags": [
         "Analysis"
       ],
@@ -631,23 +647,10 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2025-09-12T18:49:30.000Z",
-      "relevanceScore": 25.45,
-      "recommendationScore": 25.95,
+      "relevanceScore": 25.4,
+      "recommendationScore": 25.9,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Save $70 on One of Our Favorite Android Tablets",
-      "link": "https://www.wired.com/story/samsung-galaxy-tab-s10-fe-deal/",
-      "source": "Wired",
-      "category": "mobile",
-      "pubDate": "2025-09-12T18:19:33.000Z",
-      "relevanceScore": 25.35,
-      "recommendationScore": 25.35,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
@@ -657,7 +660,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1nf6df3/i_got_pwned_npm_maintainer_of_chalk_debug_speaks/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-12T15:32:55.000Z",
-        "relevanceScore": 1056.29,
+        "relevanceScore": 1023.25,
         "tags": [
           "Science",
           "Interview"
@@ -668,7 +671,7 @@
         "link": "https://github.blog/news-insights/company-news/github-availability-report-august-2025/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-11T19:53:44.000Z",
-        "relevanceScore": 306.86,
+        "relevanceScore": 249.32,
         "tags": [
           "Exclusive",
           "Report"
@@ -679,7 +682,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-coding-agent-101-getting-started-with-agentic-workflows-on-github/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-11T16:00:00.000Z",
-        "relevanceScore": 223.08,
+        "relevanceScore": 232.04,
         "tags": [
           "Exclusive"
         ]
@@ -689,7 +692,7 @@
         "link": "https://dev.to/themuhsinoglu/middleware-in-net-2m2f",
         "source": "Dev.to",
         "pubDate": "2025-09-12T21:22:41.000Z",
-        "relevanceScore": 192.46,
+        "relevanceScore": 110.41,
         "tags": []
       },
       {
@@ -697,15 +700,99 @@
         "link": "https://www.reddit.com/r/programming/comments/1nf90qr/get_excited_about_postgres_18/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-12T17:15:30.000Z",
-        "relevanceScore": 117.14,
+        "relevanceScore": 44.59,
+        "tags": []
+      }
+    ],
+    "tech": [
+      {
+        "title": "Discord is distancing itself from the Charlie Kirk shooting suspect",
+        "link": "https://www.theverge.com/news/777614/discord-charlie-kirk-shooting-tyler-robinson",
+        "source": "The Verge",
+        "pubDate": "2025-09-12T21:12:22.000Z",
+        "relevanceScore": 843.88,
+        "tags": [
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Lee Pace Has Big Hopes for the Fourth Season of ‘Foundation’",
+        "link": "https://www.wired.com/story/lee-pace-foundation-interview/",
+        "source": "Wired",
+        "pubDate": "2025-09-12T20:38:27.000Z",
+        "relevanceScore": 537.77,
         "tags": []
       },
       {
-        "title": "Row vs. Columnar Data Stores: Why Your Choice Matters More Than You Think",
-        "link": "https://dev.to/gervaisamoah/row-vs-columnar-data-stores-why-your-choice-matters-more-than-you-think-2h11",
-        "source": "Dev.to",
-        "pubDate": "2025-09-12T21:20:30.000Z",
-        "relevanceScore": 54.95,
+        "title": "Children hacking their own schools for 'fun', watchdog warns",
+        "link": "https://www.bbc.com/news/articles/c203pedz58go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-11T10:59:34.000Z",
+        "relevanceScore": 232.04,
+        "tags": []
+      },
+      {
+        "title": "‘We Should Put Our Phones Down’: Utah Governor Says ‘There Is a Tremendous Amount of Disinformation’ About Charlie Kirk Assassination",
+        "link": "https://www.reddit.com/r/technology/comments/1neyi6s/we_should_put_our_phones_down_utah_governor_says/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-12T09:22:26.000Z",
+        "relevanceScore": 224.51,
+        "tags": []
+      },
+      {
+        "title": "Charlie Kirk’s alleged killer scratched bullets with a Helldivers combo and a furry sex meme. ﻿The suspected shooter left a hodgepodge of extremely online taunts.",
+        "link": "https://www.reddit.com/r/technology/comments/1nf9izc/charlie_kirks_alleged_killer_scratched_bullets/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-12T17:35:16.000Z",
+        "relevanceScore": 97.16,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Extremist Groups Hated Charlie Kirk. They’re Using His Death to Radicalize Others",
+        "link": "https://www.wired.com/story/extremists-hated-charlie-kirk-now-radicalizing-others/",
+        "source": "Wired",
+        "pubDate": "2025-09-12T20:24:22.000Z",
+        "relevanceScore": 56.72,
+        "tags": []
+      },
+      {
+        "title": "California bill lets renters escape exclusive deals between ISPs and landlords",
+        "link": "https://arstechnica.com/tech-policy/2025/09/california-snubs-cable-lobby-with-bill-to-boost-isp-competition-in-rental-housing/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-12T18:33:47.000Z",
+        "relevanceScore": 48.85,
+        "tags": [
+          "Exclusive",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Balatro's big 2025 update won't be coming out this year after all",
+        "link": "https://www.engadget.com/gaming/balatros-big-2025-update-wont-be-coming-out-this-year-after-all-183511401.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-12T18:35:12.000Z",
+        "relevanceScore": 46.86,
+        "tags": [
+          "Launch",
+          "Update"
+        ]
+      },
+      {
+        "title": "The best iPad deals you can get right now include the iPad A16 for $299",
+        "link": "https://www.engadget.com/deals/the-best-ipad-deals-you-can-get-right-now-include-the-ipad-a16-for-299-150020765.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-12T17:03:21.000Z",
+        "relevanceScore": 23.05,
+        "tags": []
+      },
+      {
+        "title": "Comcast Executives Warn Workers To Not Say The Wrong Thing About Charlie Kirk",
+        "link": "https://www.reddit.com/r/technology/comments/1nfdafa/comcast_executives_warn_workers_to_not_say_the/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-12T20:03:37.000Z",
+        "relevanceScore": 21.65,
         "tags": []
       }
     ],
@@ -715,7 +802,7 @@
         "link": "https://www.technologyreview.com/2025/09/12/1123562/how-do-ai-models-generate-videos/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-12T10:01:44.000Z",
-        "relevanceScore": 894.19,
+        "relevanceScore": 842.14,
         "tags": [
           "AI",
           "Tech",
@@ -727,7 +814,7 @@
         "link": "https://www.theverge.com/news/777344/perplexity-lawsuit-encyclopedia-britannica-merriam-webster",
         "source": "The Verge",
         "pubDate": "2025-09-12T17:23:34.000Z",
-        "relevanceScore": 587.16,
+        "relevanceScore": 528.62,
         "tags": [
           "AI",
           "Web"
@@ -738,7 +825,7 @@
         "link": "https://stackoverflow.blog/2025/09/12/planning-to-arm-mobile-devices-with-chips-that-handle-ai/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-12T04:40:00.000Z",
-        "relevanceScore": 572.12,
+        "relevanceScore": 524.07,
         "tags": [
           "AI",
           "Mobile"
@@ -749,7 +836,7 @@
         "link": "https://github.blog/open-source/maintainers/building-personal-apps-with-open-source-and-ai/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-12T16:00:00.000Z",
-        "relevanceScore": 530.88,
+        "relevanceScore": 490.34,
         "tags": [
           "AI",
           "Exclusive",
@@ -761,7 +848,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1nf9buo/the_productivity_paradox_of_ai_coding_assistants/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-12T17:27:32.000Z",
-        "relevanceScore": 461.18,
+        "relevanceScore": 389.63,
         "tags": [
           "AI"
         ]
@@ -771,21 +858,10 @@
         "link": "https://techcrunch.com/2025/09/12/why-the-oracle-openai-deal-caught-wall-street-by-surprise/",
         "source": "TechCrunch",
         "pubDate": "2025-09-12T20:01:41.000Z",
-        "relevanceScore": 346.19,
+        "relevanceScore": 289.64,
         "tags": [
           "AI",
           "Partnership"
-        ]
-      },
-      {
-        "title": "Education report calling for ethical AI use contains over 15 fake sources",
-        "link": "https://arstechnica.com/ai/2025/09/education-report-calling-for-ethical-ai-use-contains-over-15-fake-sources/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-12T16:01:27.000Z",
-        "relevanceScore": 310.89,
-        "tags": [
-          "AI",
-          "Report"
         ]
       },
       {
@@ -793,7 +869,7 @@
         "link": "https://www.bbc.com/news/articles/c74933vzx2yo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-12T10:36:53.000Z",
-        "relevanceScore": 309.81,
+        "relevanceScore": 252.26,
         "tags": [
           "AI",
           "Tech"
@@ -804,7 +880,7 @@
         "link": "https://stackoverflow.blog/2025/09/11/how-ai-is-reshaping-developer-teams/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-11T07:40:00.000Z",
-        "relevanceScore": 177.92,
+        "relevanceScore": 94.37,
         "tags": [
           "AI",
           "Tech",
@@ -816,7 +892,7 @@
         "link": "https://www.technologyreview.com/2025/09/12/1123577/the-download-americas-gun-crisis-and-how-ai-video-models-work/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-12T12:10:00.000Z",
-        "relevanceScore": 156.12,
+        "relevanceScore": 84.57,
         "tags": [
           "AI",
           "Tech"
@@ -827,7 +903,7 @@
         "link": "https://techcrunch.com/2025/09/12/google-is-a-bad-actor-says-people-ceo-accusing-the-company-of-stealing-content/",
         "source": "TechCrunch",
         "pubDate": "2025-09-12T18:53:26.000Z",
-        "relevanceScore": 151.96,
+        "relevanceScore": 81.42,
         "tags": [
           "AI",
           "Web"
@@ -838,144 +914,48 @@
         "link": "https://www.engadget.com/social-media/what-to-expect-at-meta-connect-2025-hypernova-smart-glasses-ai-and-the-metaverse-212628436.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-12T21:26:28.000Z",
-        "relevanceScore": 119.97,
+        "relevanceScore": 47.43,
         "tags": [
           "AI"
         ]
       }
     ],
-    "tech": [
+    "cloud": [
       {
-        "title": "Discord is distancing itself from the Charlie Kirk shooting suspect",
-        "link": "https://www.theverge.com/news/777614/discord-charlie-kirk-shooting-tyler-robinson",
-        "source": "The Verge",
-        "pubDate": "2025-09-12T21:12:22.000Z",
-        "relevanceScore": 855.43,
+        "title": "How to set up Identity Federation between Google Cloud and Oracle Cloud",
+        "link": "https://dev.to/farisdurrani/how-to-set-up-identity-federation-between-google-cloud-and-oracle-cloud-1a43",
+        "source": "Dev.to",
+        "pubDate": "2025-09-12T21:38:51.000Z",
+        "relevanceScore": 269.47,
         "tags": [
-          "Regulation"
+          "Cloud",
+          "Tutorial"
         ]
       },
       {
-        "title": "Lee Pace Has Big Hopes for the Fourth Season of ‘Foundation’",
-        "link": "https://www.wired.com/story/lee-pace-foundation-interview/",
-        "source": "Wired",
-        "pubDate": "2025-09-12T20:38:27.000Z",
-        "relevanceScore": 536.81,
-        "tags": []
-      },
-      {
-        "title": "‘We Should Put Our Phones Down’: Utah Governor Says ‘There Is a Tremendous Amount of Disinformation’ About Charlie Kirk Assassination",
-        "link": "https://www.reddit.com/r/technology/comments/1neyi6s/we_should_put_our_phones_down_utah_governor_says/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-09-12T09:22:26.000Z",
-        "relevanceScore": 209.56,
-        "tags": []
-      },
-      {
-        "title": "Children hacking their own schools for 'fun', watchdog warns",
-        "link": "https://www.bbc.com/news/articles/c203pedz58go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-11T10:59:34.000Z",
-        "relevanceScore": 209.08,
-        "tags": []
-      },
-      {
-        "title": "California bill lets renters escape exclusive deals between ISPs and landlords",
-        "link": "https://arstechnica.com/tech-policy/2025/09/california-snubs-cable-lobby-with-bill-to-boost-isp-competition-in-rental-housing/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-12T18:33:47.000Z",
-        "relevanceScore": 121.4,
+        "title": "Pilot union urges FAA to reject Rainmaker’s drone cloud-seeding plan",
+        "link": "https://techcrunch.com/2025/09/12/pilot-union-urges-faa-to-reject-rainmakers-drone-cloud-seeding-plan/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-12T20:42:12.000Z",
+        "relevanceScore": 59.78,
         "tags": [
-          "Exclusive",
-          "Regulation"
+          "Cloud"
         ]
-      },
-      {
-        "title": "Balatro's big 2025 update won't be coming out this year after all",
-        "link": "https://www.engadget.com/gaming/balatros-big-2025-update-wont-be-coming-out-this-year-after-all-183511401.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-12T18:35:12.000Z",
-        "relevanceScore": 119.4,
-        "tags": [
-          "Launch",
-          "Update"
-        ]
-      },
-      {
-        "title": "Charlie Kirk’s alleged killer scratched bullets with a Helldivers combo and a furry sex meme. ﻿The suspected shooter left a hodgepodge of extremely online taunts.",
-        "link": "https://www.reddit.com/r/technology/comments/1nf9izc/charlie_kirks_alleged_killer_scratched_bullets/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-09-12T17:35:16.000Z",
-        "relevanceScore": 96.2,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Extremist Groups Hated Charlie Kirk. They’re Using His Death to Radicalize Others",
-        "link": "https://www.wired.com/story/extremists-hated-charlie-kirk-now-radicalizing-others/",
-        "source": "Wired",
-        "pubDate": "2025-09-12T20:24:22.000Z",
-        "relevanceScore": 54.77,
-        "tags": []
-      },
-      {
-        "title": "Over three decades later, Nintendo remembers the Virtual Boy exists",
-        "link": "https://arstechnica.com/gaming/2025/09/over-three-decades-later-nintendo-remembers-the-virtual-boy-exists/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-12T15:46:39.000Z",
-        "relevanceScore": 24.84,
-        "tags": []
-      },
-      {
-        "title": "The best iPad deals you can get right now include the iPad A16 for $299",
-        "link": "https://www.engadget.com/deals/the-best-ipad-deals-you-can-get-right-now-include-the-ipad-a16-for-299-150020765.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-12T17:03:21.000Z",
-        "relevanceScore": 23.1,
-        "tags": []
-      },
-      {
-        "title": "Comcast Executives Warn Workers To Not Say The Wrong Thing About Charlie Kirk",
-        "link": "https://www.reddit.com/r/technology/comments/1nfdafa/comcast_executives_warn_workers_to_not_say_the/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-09-12T20:03:37.000Z",
-        "relevanceScore": 21.7,
-        "tags": []
       }
     ],
-    "business": [
+    "startup": [
       {
-        "title": "South Korea president says Korean companies will hesitate to invest in US",
-        "link": "https://abcnews.go.com/Business/wireStory/south-korea-president-korean-companies-hesitate-invest-us-125467322",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-11T05:50:27.000Z",
-        "relevanceScore": 304.05,
-        "tags": []
-      },
-      {
-        "title": "Why mothers in the U.S. are scaling back on their work lives",
-        "link": "https://www.npr.org/2025/09/12/nx-s1-5537129/why-mothers-in-the-u-s-are-scaling-back-on-their-work-lives",
-        "source": "NPR Business",
-        "pubDate": "2025-09-12T09:02:37.000Z",
-        "relevanceScore": 120.99,
-        "tags": []
-      },
-      {
-        "title": "South Korean workers detained in immigration raid headed to Atlanta for flight home",
-        "link": "https://abcnews.go.com/Business/wireStory/south-korean-workers-detained-immigration-raid-headed-atlanta-125474353",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-11T13:02:23.000Z",
-        "relevanceScore": 115.49,
-        "tags": []
-      },
-      {
-        "title": "CBS shifts to appease the right under new owner",
-        "link": "https://www.npr.org/2025/09/12/nx-s1-5537152/cbs-news-ellison-steps-appease-trump",
-        "source": "NPR Business",
-        "pubDate": "2025-09-12T09:00:00.000Z",
-        "relevanceScore": 24.98,
-        "tags": []
+        "title": "Via shrugs off tepid open to end first day of trading slightly above IPO price",
+        "link": "https://techcrunch.com/2025/09/12/via-shrugs-off-tepid-open-to-end-first-day-of-trading-slightly-above-ipo-price/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-12T21:16:00.000Z",
+        "relevanceScore": 266.39,
+        "tags": [
+          "Tech",
+          "Startup",
+          "Exclusive",
+          "IPO"
+        ]
       }
     ],
     "mobile": [
@@ -984,7 +964,7 @@
         "link": "https://dev.to/juandes/rowswift-a-simple-csv-analyzer-for-ios-4g4a",
         "source": "Dev.to",
         "pubDate": "2025-09-12T21:28:12.000Z",
-        "relevanceScore": 257.98,
+        "relevanceScore": 265.93,
         "tags": [
           "Mobile",
           "Exclusive"
@@ -995,7 +975,7 @@
         "link": "https://www.theverge.com/pc-gaming/777551/gamehub-fixed-its-silksong-save-game-uploads-and-now-im-playing-across-phone-and-pc",
         "source": "The Verge",
         "pubDate": "2025-09-12T20:13:14.000Z",
-        "relevanceScore": 215.73,
+        "relevanceScore": 230.68,
         "tags": [
           "Mobile",
           "Update"
@@ -1006,7 +986,7 @@
         "link": "https://techcrunch.com/2025/09/12/all-of-the-iphone-17-models-compared/",
         "source": "TechCrunch",
         "pubDate": "2025-09-12T18:46:51.000Z",
-        "relevanceScore": 123.44,
+        "relevanceScore": 50.9,
         "tags": [
           "Mobile"
         ]
@@ -1016,7 +996,7 @@
         "link": "https://www.bbc.com/news/articles/c4gz30grggqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-12T04:27:58.000Z",
-        "relevanceScore": 118.58,
+        "relevanceScore": 46.03,
         "tags": [
           "Mobile"
         ]
@@ -1026,25 +1006,44 @@
         "link": "https://www.wired.com/story/samsung-galaxy-tab-s10-fe-deal/",
         "source": "Wired",
         "pubDate": "2025-09-12T18:19:33.000Z",
-        "relevanceScore": 25.35,
+        "relevanceScore": 25.3,
         "tags": [
           "Mobile"
         ]
       }
     ],
-    "startup": [
+    "business": [
       {
-        "title": "Via shrugs off tepid open to end first day of trading slightly above IPO price",
-        "link": "https://techcrunch.com/2025/09/12/via-shrugs-off-tepid-open-to-end-first-day-of-trading-slightly-above-ipo-price/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-12T21:16:00.000Z",
-        "relevanceScore": 250.44,
-        "tags": [
-          "Tech",
-          "Startup",
-          "Exclusive",
-          "IPO"
-        ]
+        "title": "South Korea president says Korean companies will hesitate to invest in US",
+        "link": "https://abcnews.go.com/Business/wireStory/south-korea-president-korean-companies-hesitate-invest-us-125467322",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-11T05:50:27.000Z",
+        "relevanceScore": 246.51,
+        "tags": []
+      },
+      {
+        "title": "Why mothers in the U.S. are scaling back on their work lives",
+        "link": "https://www.npr.org/2025/09/12/nx-s1-5537129/why-mothers-in-the-u-s-are-scaling-back-on-their-work-lives",
+        "source": "NPR Business",
+        "pubDate": "2025-09-12T09:02:37.000Z",
+        "relevanceScore": 48.45,
+        "tags": []
+      },
+      {
+        "title": "South Korean workers detained in immigration raid headed to Atlanta for flight home",
+        "link": "https://abcnews.go.com/Business/wireStory/south-korean-workers-detained-immigration-raid-headed-atlanta-125474353",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-11T13:02:23.000Z",
+        "relevanceScore": 42.95,
+        "tags": []
+      },
+      {
+        "title": "CBS shifts to appease the right under new owner",
+        "link": "https://www.npr.org/2025/09/12/nx-s1-5537152/cbs-news-ellison-steps-appease-trump",
+        "source": "NPR Business",
+        "pubDate": "2025-09-12T09:00:00.000Z",
+        "relevanceScore": 24.94,
+        "tags": []
       }
     ],
     "general": [
@@ -1053,7 +1052,7 @@
         "link": "https://www.bbc.com/news/articles/cx238pwwqg6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-12T18:22:49.000Z",
-        "relevanceScore": 221.36,
+        "relevanceScore": 236.31,
         "tags": []
       },
       {
@@ -1061,7 +1060,7 @@
         "link": "https://www.bbc.com/news/articles/c784end1wxvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-12T21:00:58.000Z",
-        "relevanceScore": 202.89,
+        "relevanceScore": 131.34,
         "tags": []
       },
       {
@@ -1069,7 +1068,7 @@
         "link": "https://www.bbc.com/news/articles/c4g70271ndlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-12T16:02:45.000Z",
-        "relevanceScore": 126.89,
+        "relevanceScore": 54.35,
         "tags": []
       },
       {
@@ -1077,7 +1076,7 @@
         "link": "https://www.bbc.com/news/articles/cy50kk14y00o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-12T16:00:10.000Z",
-        "relevanceScore": 126.38,
+        "relevanceScore": 53.84,
         "tags": []
       },
       {
@@ -1085,87 +1084,41 @@
         "link": "https://www.bbc.com/news/articles/cn839398xzpo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-12T20:13:25.000Z",
-        "relevanceScore": 31.73,
+        "relevanceScore": 31.68,
         "tags": [
           "Analysis"
         ]
       }
     ],
-    "cloud": [
+    "climate": [
       {
-        "title": "Pilot union urges FAA to reject Rainmaker’s drone cloud-seeding plan",
-        "link": "https://techcrunch.com/2025/09/12/pilot-union-urges-faa-to-reject-rainmakers-drone-cloud-seeding-plan/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-12T20:42:12.000Z",
-        "relevanceScore": 219.82,
+        "title": "Feds try to dodge lawsuit against their bogus climate report",
+        "link": "https://arstechnica.com/science/2025/09/department-of-energy-gets-rid-of-climate-skeptics-group-to-dodge-lawsuit/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-12T20:58:03.000Z",
+        "relevanceScore": 205.33,
         "tags": [
-          "Cloud"
+          "Report"
         ]
       }
     ],
-    "gaming": [
-      {
-        "title": "'Hades II' Is Coming to Nintendo Switch This Month",
-        "link": "https://www.wired.com/story/hades-ii-is-coming-to-nintendo-switch-this-month/",
-        "source": "Wired",
-        "pubDate": "2025-09-12T17:30:47.000Z",
-        "relevanceScore": 129.19,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Tipper Gore, Twisted Sister and the fight to put warning labels on music",
-        "link": "https://www.npr.org/2025/09/12/nx-s1-5460888/music-parental-advisory-sticker-tipper-gore",
-        "source": "NPR Business",
-        "pubDate": "2025-09-12T17:03:34.000Z",
-        "relevanceScore": 123.1,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Stellantis cancels Ram 1500 REV as electric truck demand dims",
-        "link": "https://www.theverge.com/news/777574/stellantis-cancels-ram-1500-ev-ramcharger",
-        "source": "The Verge",
-        "pubDate": "2025-09-12T20:17:51.000Z",
-        "relevanceScore": 122.74,
-        "tags": []
-      },
-      {
-        "title": "Electric vehicle sales grew 25% worldwide but just 6% in North America",
-        "link": "https://arstechnica.com/cars/2025/09/electric-vehicle-sales-grew-25-worldwide-but-just-6-in-north-america/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-12T18:49:30.000Z",
-        "relevanceScore": 25.45,
-        "tags": []
-      }
-    ],
-    "education": [
-      {
-        "title": "We can’t “make American children healthy again” without tackling the gun crisis",
-        "link": "https://www.technologyreview.com/2025/09/11/1123553/maha-report-gun-violence-checkup/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-09-11T16:57:00.000Z",
-        "relevanceScore": 119.77,
-        "tags": []
-      },
-      {
-        "title": "Russia has deported nearly 11,000 Ukrainian children to ''re-education'' camps in 2025 alone",
-        "link": "https://www.reddit.com/r/worldnews/comments/1nf7dg0/russia_has_deported_nearly_11000_ukrainian/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-12T16:11:25.000Z",
-        "relevanceScore": 118.92,
-        "tags": []
-      }
-    ],
     "social": [
+      {
+        "title": "After Kirk shooting, Utah governor calls social media a “cancer.” Will we treat it like one?",
+        "link": "https://arstechnica.com/culture/2025/09/after-kirk-shooting-utah-governor-calls-social-media-a-cancer-will-we-treat-it-like-one/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-12T19:55:49.000Z",
+        "relevanceScore": 58.62,
+        "tags": [
+          "Social"
+        ]
+      },
       {
         "title": "Instagram fixed an issue that caused posting multiple Stories to tank your reach",
         "link": "https://www.engadget.com/social-media/instagram-fixed-an-issue-that-caused-posting-multiple-stories-to-tank-your-reach-184714482.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-12T18:47:14.000Z",
-        "relevanceScore": 118.94,
+        "relevanceScore": 55.9,
         "tags": [
           "Social"
         ]
@@ -1175,7 +1128,7 @@
         "link": "https://www.bbc.com/news/articles/crkjep23403o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-11T15:38:43.000Z",
-        "relevanceScore": 19.51,
+        "relevanceScore": 19.47,
         "tags": [
           "Tech",
           "Social",
@@ -1183,21 +1136,13 @@
         ]
       }
     ],
-    "world": [
+    "gaming": [
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1296, Part 1 (Thread #1443)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1netf32/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-12T04:02:45.000Z",
-        "relevanceScore": 116.49,
-        "tags": []
-      },
-      {
-        "title": "SIM cards in downed drones expose Russia’s months-long plan to target Poland and Lithuania",
-        "link": "https://www.reddit.com/r/worldnews/comments/1nf3sze/sim_cards_in_downed_drones_expose_russias/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-12T13:51:04.000Z",
-        "relevanceScore": 22.45,
+        "title": "'Hades II' Is Coming to Nintendo Switch This Month",
+        "link": "https://www.wired.com/story/hades-ii-is-coming-to-nintendo-switch-this-month/",
+        "source": "Wired",
+        "pubDate": "2025-09-12T17:30:47.000Z",
+        "relevanceScore": 58.14,
         "tags": []
       }
     ],
@@ -1207,29 +1152,93 @@
         "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9112025-125491424",
         "source": "ABC News Business",
         "pubDate": "2025-09-11T20:46:00.000Z",
-        "relevanceScore": 91.54,
+        "relevanceScore": 56.99,
         "tags": [
           "Business"
         ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Tipper Gore, Twisted Sister and the fight to put warning labels on music",
+        "link": "https://www.npr.org/2025/09/12/nx-s1-5460888/music-parental-advisory-sticker-tipper-gore",
+        "source": "NPR Business",
+        "pubDate": "2025-09-12T17:03:34.000Z",
+        "relevanceScore": 50.55,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Stellantis cancels Ram 1500 REV as electric truck demand dims",
+        "link": "https://www.theverge.com/news/777574/stellantis-cancels-ram-1500-ev-ramcharger",
+        "source": "The Verge",
+        "pubDate": "2025-09-12T20:17:51.000Z",
+        "relevanceScore": 50.2,
+        "tags": []
+      },
+      {
+        "title": "Electric vehicle sales grew 25% worldwide but just 6% in North America",
+        "link": "https://arstechnica.com/cars/2025/09/electric-vehicle-sales-grew-25-worldwide-but-just-6-in-north-america/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-12T18:49:30.000Z",
+        "relevanceScore": 25.4,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "We can’t “make American children healthy again” without tackling the gun crisis",
+        "link": "https://www.technologyreview.com/2025/09/11/1123553/maha-report-gun-violence-checkup/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-09-11T16:57:00.000Z",
+        "relevanceScore": 47.23,
+        "tags": []
+      },
+      {
+        "title": "Russia has deported nearly 11,000 Ukrainian children to ''re-education'' camps in 2025 alone",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nf7dg0/russia_has_deported_nearly_11000_ukrainian/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-12T16:11:25.000Z",
+        "relevanceScore": 46.38,
+        "tags": []
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1296, Part 1 (Thread #1443)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1netf32/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-12T04:02:45.000Z",
+        "relevanceScore": 43.95,
+        "tags": []
+      },
+      {
+        "title": "SIM cards in downed drones expose Russia’s months-long plan to target Poland and Lithuania",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nf3sze/sim_cards_in_downed_drones_expose_russias/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-12T13:51:04.000Z",
+        "relevanceScore": 22.41,
+        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 15,
-    "avgRelevanceScore": 220.27964285714285,
+    "totalCategories": 16,
+    "avgRelevanceScore": 182.8930357142858,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 12
-      },
-      {
-        "category": "tech",
         "count": 11
       },
       {
+        "category": "tech",
+        "count": 10
+      },
+      {
         "category": "development",
-        "count": 6
+        "count": 5
       },
       {
         "category": "mobile",
