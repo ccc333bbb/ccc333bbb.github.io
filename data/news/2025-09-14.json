@@ -1,32 +1,8 @@
 {
   "date": "2025-09-14",
-  "lastUpdated": "2025-09-14T17:34:22.691Z",
+  "lastUpdated": "2025-09-14T17:48:44.889Z",
   "totalArticles": 35,
   "articles": [
-    {
-      "id": "TW9uZ29EQiBJbnRl",
-      "title": "MongoDB Internals: How Collections and Indexes Are Stored in WiredTiger",
-      "link": "https://dev.to/franckpachot/mongodb-internals-how-collections-and-indexes-are-stored-in-wiredtiger-2ed",
-      "description": "WiredTiger is MongoDB’s default storage engine, but what really occurs behind the scenes when collections and indexes are saved to disk? In this short deep dive, we’ll explore the internals of WiredTiger data files, covering everything from _mdb_catalog metadata and B-Tree page layouts to BSON stora",
-      "pubDate": "2025-09-14T17:25:13.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "WiredTiger is MongoDB’s default storage engine, but what really occurs behind the scenes when collections and indexes are saved to disk? In this short deep dive, we’ll explore the internals of WiredTiger data files, covering everything from _mdb_catalog metadata and B-Tree page layouts to BSON storage, primary and secondary indexes, and multi-key array handling. The goal is to introduce useful low-level tools like wt and other utilities . I ran this experiment in a Docker container, set up as de",
-      "author": "Franck Pachot",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Analysis"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 1080.47,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 1082.47,
-      "readingLevel": "advanced"
-    },
     {
       "id": "Q2FsaWZvcm5pYSdz",
       "title": "California's age verification bill for app stores and operating systems takes another step forward",
@@ -47,9 +23,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 1064.03,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 1064.53,
+      "relevanceScore": 1072.98,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 1073.48,
       "readingLevel": "advanced"
     },
     {
@@ -71,10 +47,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1044.25,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 1044.75,
+      "relevanceScore": 1047.7,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 1048.2,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "TGl0dGxlIENob2lj",
+      "title": "Little Choices That Shape User Experience",
+      "link": "https://dev.to/lovestaco/little-choices-that-shape-user-experience-1gk5",
+      "description": "Hello, I'm Maneshwar. I’m building LiveReview , a private AI code review tool that runs on your LLM key (OpenAI, Gemini, etc.) with highly competitive pricing -- built for small teams. Do check it out and give it a try! When people interact with digital products, they often take the path of least re",
+      "pubDate": "2025-09-14T17:45:13.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "Hello, I'm Maneshwar. I’m building LiveReview , a private AI code review tool that runs on your LLM key (OpenAI, Gemini, etc.) with highly competitive pricing -- built for small teams. Do check it out and give it a try! When people interact with digital products, they often take the path of least resistance. One of the most effective ways to guide them smoothly through an experience is by setting sensible defaults — pre-selected options or settings that reflect the most common or most helpful ch",
+      "author": "Athreya aka Maneshwar",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "review",
+      "relevanceScore": 1043.99,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 1043.99,
+      "readingLevel": "intermediate"
     },
     {
       "id": "SG93IHRvIFN3aXRj",
@@ -96,9 +97,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 1011.89,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 1013.89,
+      "relevanceScore": 1013.84,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 1015.84,
       "readingLevel": "intermediate"
     },
     {
@@ -118,9 +119,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 398.24,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 398.74,
+      "relevanceScore": 411.19,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 411.69,
       "readingLevel": "advanced"
     },
     {
@@ -140,9 +141,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 452.09,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 452.59,
+      "relevanceScore": 454.04,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 454.54,
       "readingLevel": "intermediate"
     },
     {
@@ -162,9 +163,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 371.04,
-      "calculatedAt": "2025-09-14T17:34:22.779Z",
-      "recommendationScore": 371.54,
+      "relevanceScore": 380.49,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 380.99,
       "readingLevel": "intermediate"
     },
     {
@@ -184,31 +185,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 136.77,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 137.27,
+      "relevanceScore": 142.22,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 142.72,
       "readingLevel": "intermediate"
     },
     {
-      "id": "S2lyayBzdXNwZWN0",
-      "title": "Kirk suspect 'not co-operating' with authorities, governor says",
-      "link": "https://www.bbc.com/news/articles/c4gvrw2pgedo?at_medium=RSS&at_campaign=rss",
-      "description": "He adds that \"much more evidence and information\" will become available once charges are filed in the case.",
-      "pubDate": "2025-09-14T17:15:42.000Z",
-      "source": "BBC News",
-      "category": "general",
-      "weight": 10,
-      "content": "He adds that \"much more evidence and information\" will become available once charges are filed in the case.",
-      "author": "BBC News",
+      "id": "QnJpbmdpbmcgQmxv",
+      "title": "Bringing Blockchain-Grade Security to IoT and Edge Systems with nanoedge-pki",
+      "link": "https://dev.to/raghavachellu/bringing-blockchain-grade-security-to-iot-and-edge-systems-with-nanoedge-pki-4ba",
+      "description": "Overview NanoEdge PKI is a high-performance, compact, and purpose-built cryptographic library that brings secure public key infrastructure (PKI) capabilities to environments where traditional security libraries may be too large or inefficient. This library is specifically optimized for resource-cons",
+      "pubDate": "2025-09-14T17:42:55.000Z",
+      "source": "Dev.to",
+      "category": "blockchain",
+      "weight": 6,
+      "content": "Overview NanoEdge PKI is a high-performance, compact, and purpose-built cryptographic library that brings secure public key infrastructure (PKI) capabilities to environments where traditional security libraries may be too large or inefficient. This library is specifically optimized for resource-constrained devices, such as Internet of Things (IoT) sensors, edge gateways, wearables, industrial embedded systems, and nano-scale computing units that are increasingly deployed in the modern digital ec",
+      "author": "Raghava Chellu",
       "readTime": 1,
-      "importance": 10,
-      "tags": [],
+      "importance": 8,
+      "tags": [
+        "Security",
+        "IPO"
+      ],
       "sentiment": "neutral",
-      "complexity": "low",
+      "complexity": "medium",
       "type": "news",
-      "relevanceScore": 139.94,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 140.44,
+      "relevanceScore": 138.48,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 138.98,
       "readingLevel": "advanced"
     },
     {
@@ -232,9 +236,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 103.26,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 105.76,
+      "relevanceScore": 106.22,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 108.72,
       "readingLevel": "advanced"
     },
     {
@@ -254,34 +258,10 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 152,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 152.5,
+      "relevanceScore": 153.95,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 154.45,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "QUkncyBTcGF0aWFs",
-      "title": "AI's Spatial Blind Spot: Borrowing Brainpower for Better Navigation",
-      "link": "https://dev.to/arvindsundararajan/ais-spatial-blind-spot-borrowing-brainpower-for-better-navigation-4jfg",
-      "description": "AI's Spatial Blind Spot: Borrowing Brainpower for Better Navigation Ever watched a self-driving car get confused by a simple detour? Or seen a robot vacuum cleaner endlessly bumping into the same chair? Agentic AI excels at complex tasks, but often stumbles when navigating the real world. The proble",
-      "pubDate": "2025-09-14T17:26:41.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "AI's Spatial Blind Spot: Borrowing Brainpower for Better Navigation Ever watched a self-driving car get confused by a simple detour? Or seen a robot vacuum cleaner endlessly bumping into the same chair? Agentic AI excels at complex tasks, but often stumbles when navigating the real world. The problem? Their spatial understanding lacks the nuanced, adaptable quality of human intuition. The key to unlocking superior AI navigation lies in mirroring the brain's spatial processing. Imagine a modular ",
-      "author": "Arvind Sundara Rajan",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 84.97,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 86.47,
-      "readingLevel": "advanced"
     },
     {
       "id": "SSBzcGVudCDCozEs",
@@ -300,9 +280,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 151.47,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 151.97,
+      "relevanceScore": 153.43,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 153.93,
       "readingLevel": "beginner"
     },
     {
@@ -322,9 +302,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 79.44,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 81.94,
+      "relevanceScore": 81.39,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 83.89,
       "readingLevel": "beginner"
     },
     {
@@ -344,9 +324,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 80.33,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 80.83,
+      "relevanceScore": 83.78,
+      "calculatedAt": "2025-09-14T17:48:44.979Z",
+      "recommendationScore": 84.28,
       "readingLevel": "advanced"
     },
     {
@@ -369,9 +349,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 75.89,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 76.39,
+      "relevanceScore": 78.34,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 78.84,
       "readingLevel": "intermediate"
     },
     {
@@ -395,9 +375,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 55.35,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 55.85,
+      "relevanceScore": 56.8,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 57.3,
       "readingLevel": "advanced"
     },
     {
@@ -420,9 +400,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 57.29,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 57.79,
+      "relevanceScore": 58.75,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 59.25,
       "readingLevel": "intermediate"
     },
     {
@@ -445,9 +425,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 57.2,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 57.7,
+      "relevanceScore": 58.65,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 59.15,
       "readingLevel": "intermediate"
     },
     {
@@ -469,9 +449,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 56.99,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 58.99,
+      "relevanceScore": 58.44,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 60.44,
       "readingLevel": "intermediate"
     },
     {
@@ -491,34 +471,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 60.88,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 61.38,
+      "relevanceScore": 62.33,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 62.83,
       "readingLevel": "intermediate"
     },
     {
-      "id": "R2xpdGNoIFRhbGVz",
-      "title": "Glitch Tales: Turning Errors into Epic Stories",
-      "link": "https://dev.to/konark_13/glitch-tales-turning-errors-into-epic-stories-407f",
-      "description": "This is a submission for the Google AI Studio Multimodal Challenge Once Upon a Bug… 🐞 We’ve all been there. You’re coding happily, maybe sipping your tea/coffee, maybe blasting lo-fi beats, and then… BAM! A wall of red error text explodes on your screen. It’s indecipherable. It’s terrifying. It’s p",
-      "pubDate": "2025-09-14T17:29:33.000Z",
+      "id": "UnVzdCArIEZsdXR0",
+      "title": "Rust + Flutter: How to Build Fast, Safe, Cross-Platform Mobile Apps",
+      "link": "https://dev.to/abibeh/rust-flutter-how-to-build-fast-safe-cross-platform-mobile-apps-ika",
+      "description": "Benefits of Using Rust in Flutter Apps When integrating Rust into Flutter, the main idea is to let Flutter handle the UI/UX while Rust powers the core logic . This combination provides several benefits: 🚀 High Performance Rust compiles directly to native machine code, making it ideal for performanc",
+      "pubDate": "2025-09-14T17:42:13.000Z",
       "source": "Dev.to",
-      "category": "ai-ml",
+      "category": "mobile",
       "weight": 6,
-      "content": "This is a submission for the Google AI Studio Multimodal Challenge Once Upon a Bug… 🐞 We’ve all been there. You’re coding happily, maybe sipping your tea/coffee, maybe blasting lo-fi beats, and then… BAM! A wall of red error text explodes on your screen. It’s indecipherable. It’s terrifying. It’s poetry written by a grumpy compiler. Usually, this is the part where you panic-Gemini, question your life choices, and consider becoming a goat farmer in the Himalayas. But what if errors… told you a s",
-      "author": "Konark Sharma",
+      "content": "Benefits of Using Rust in Flutter Apps When integrating Rust into Flutter, the main idea is to let Flutter handle the UI/UX while Rust powers the core logic . This combination provides several benefits: 🚀 High Performance Rust compiles directly to native machine code, making it ideal for performance-critical tasks such as cryptography, media processing, networking, or financial calculations. 📱 Cross-Platform Core Logic With Rust, you write your business logic once and use it across both Androi",
+      "author": "abibeh",
       "readTime": 1,
       "importance": 8,
       "tags": [
-        "AI"
+        "Mobile",
+        "Tutorial"
       ],
       "sentiment": "neutral",
       "complexity": "low",
-      "type": "news",
-      "relevanceScore": 53.48,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 53.48,
-      "readingLevel": "intermediate"
+      "type": "tutorial",
+      "relevanceScore": 54.98,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 56.98,
+      "readingLevel": "advanced"
     },
     {
       "id": "U2NhcmxldCB0dXJu",
@@ -537,9 +518,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.79,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 55.29,
+      "relevanceScore": 56.24,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 56.74,
       "readingLevel": "advanced"
     },
     {
@@ -562,9 +543,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 60.23,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 60.73,
+      "relevanceScore": 61.68,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 62.18,
       "readingLevel": "advanced"
     },
     {
@@ -584,9 +565,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 59.89,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 60.39,
+      "relevanceScore": 61.34,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 61.84,
       "readingLevel": "beginner"
     },
     {
@@ -606,9 +587,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.91,
-      "calculatedAt": "2025-09-14T17:34:22.780Z",
-      "recommendationScore": 56.41,
+      "relevanceScore": 55.37,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 57.87,
       "readingLevel": "advanced"
     },
     {
@@ -628,32 +609,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 49.46,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 49.96,
+      "relevanceScore": 50.91,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 51.41,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "UkZLIEpyLuKAmXMg",
-      "title": "RFK Jr.’s CDC may limit COVID shots to 75 and up, claim they killed kids",
-      "link": "https://arstechnica.com/health/2025/09/covid-shot-access-could-tighten-rfk-jr-may-claim-they-cause-child-deaths/",
-      "description": "A battle is brewing over mRNA vaccines, which could intensify backlash against Kennedy.",
-      "pubDate": "2025-09-12T22:00:53.000Z",
-      "source": "Ars Technica",
-      "category": "health",
-      "weight": 7,
-      "content": "Under ardent anti-vaccine activist Robert F. Kennedy Jr, federal health officials are working to link COVID-19 mRNA vaccines to the deaths of 25 children, and may further restrict access to the shots, possibly recommending them for people aged 75 and up, instead of 65 and up, according to The Washington Post . Four unnamed sources close to the situation told the Post that Trump administration health officials appear to be using information from the Vaccine Adverse Event Reporting System (VAERS) ",
-      "author": "\n                    Beth Mole\n                ",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 47.79,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 48.29,
-      "readingLevel": "intermediate"
     },
     {
       "id": "U2NpZW50aXN0czog",
@@ -672,9 +631,53 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.15,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 46.65,
+      "relevanceScore": 49.6,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 50.1,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "UkZLIEpyLuKAmXMg",
+      "title": "RFK Jr.’s CDC may limit COVID shots to 75 and up, claim they killed kids",
+      "link": "https://arstechnica.com/health/2025/09/covid-shot-access-could-tighten-rfk-jr-may-claim-they-cause-child-deaths/",
+      "description": "A battle is brewing over mRNA vaccines, which could intensify backlash against Kennedy.",
+      "pubDate": "2025-09-12T22:00:53.000Z",
+      "source": "Ars Technica",
+      "category": "health",
+      "weight": 7,
+      "content": "Under ardent anti-vaccine activist Robert F. Kennedy Jr, federal health officials are working to link COVID-19 mRNA vaccines to the deaths of 25 children, and may further restrict access to the shots, possibly recommending them for people aged 75 and up, instead of 65 and up, according to The Washington Post . Four unnamed sources close to the situation told the Post that Trump administration health officials appear to be using information from the Vaccine Adverse Event Reporting System (VAERS) ",
+      "author": "\n                    Beth Mole\n                ",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 49.24,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 49.74,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "QmVja2hhbSBhbmQg",
+      "title": "Beckham and Fury lead tributes to champion boxer Ricky Hatton after his death",
+      "link": "https://www.bbc.com/sport/boxing/articles/cd0724eg90ko?at_medium=RSS&at_campaign=rss",
+      "description": "Ricky Hatton, known as 'The Hitman', was found dead at home in Manchester earlier. The 46-year-old was set to return to the ring in December.",
+      "pubDate": "2025-09-14T13:41:26.000Z",
+      "source": "BBC News",
+      "category": "general",
+      "weight": 10,
+      "content": "Ricky Hatton, known as 'The Hitman', was found dead at home in Manchester earlier. The 46-year-old was set to return to the ring in December.",
+      "author": "BBC News",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 31.18,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 31.68,
       "readingLevel": "intermediate"
     },
     {
@@ -694,9 +697,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.09,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 25.59,
+      "relevanceScore": 25.04,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 25.54,
       "readingLevel": "advanced"
     },
     {
@@ -716,9 +719,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.21,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 25.71,
+      "relevanceScore": 23.16,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 25.66,
       "readingLevel": "beginner"
     },
     {
@@ -738,9 +741,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.49,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 25.99,
+      "relevanceScore": 25.44,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 25.94,
       "readingLevel": "advanced"
     },
     {
@@ -760,9 +763,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.29,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 26.79,
+      "relevanceScore": 25.24,
+      "calculatedAt": "2025-09-14T17:48:44.980Z",
+      "recommendationScore": 26.74,
       "readingLevel": "intermediate"
     },
     {
@@ -782,9 +785,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.42,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 24.92,
+      "relevanceScore": 24.38,
+      "calculatedAt": "2025-09-14T17:48:44.981Z",
+      "recommendationScore": 24.88,
       "readingLevel": "advanced"
     },
     {
@@ -804,16 +807,16 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.32,
-      "calculatedAt": "2025-09-14T17:34:22.781Z",
-      "recommendationScore": 22.82,
+      "relevanceScore": 22.27,
+      "calculatedAt": "2025-09-14T17:48:44.981Z",
+      "recommendationScore": 22.77,
       "readingLevel": "advanced"
     }
   ],
   "sources": [
-    "Dev.to",
     "Engadget",
     "TechCrunch",
+    "Dev.to",
     "Wired",
     "NPR Business",
     "ABC News Business",
@@ -822,11 +825,11 @@
     "The Verge"
   ],
   "categories": [
-    "development",
     "tech",
+    "development",
     "business",
     "general"
   ],
-  "processedAt": "2025-09-14T17:34:22.791Z",
+  "processedAt": "2025-09-14T17:48:44.991Z",
   "processingVersion": "2.0"
 }
