@@ -1,8 +1,32 @@
 {
   "date": "2025-09-14",
-  "lastUpdated": "2025-09-14T18:40:53.599Z",
+  "lastUpdated": "2025-09-14T18:49:16.714Z",
   "totalArticles": 44,
   "articles": [
+    {
+      "id": "UHl0aG9uIExpc3Rz",
+      "title": "Python Lists vs. Tuples: Choosing the Right Tool",
+      "link": "https://dev.to/aaron_rose_0787cc8b4775a0/python-lists-vs-tuples-choosing-the-right-tool-28a4",
+      "description": "So, you've got a handle on variables, loops, and the concept of mutability. Now it's time to level up and master two of Python's most fundamental data structures: the list and the tuple . At first glance, they seem identical. Both can store ordered sequences of items, which you can access using an i",
+      "pubDate": "2025-09-14T18:37:39.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "So, you've got a handle on variables, loops, and the concept of mutability. Now it's time to level up and master two of Python's most fundamental data structures: the list and the tuple . At first glance, they seem identical. Both can store ordered sequences of items, which you can access using an index (e.g., my_sequence[0] ). But understanding their critical difference is what separates novice scripters from true Pythonistas. The entire choice between them boils down to one core concept: mutab",
+      "author": "Aaron Rose",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Exclusive"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 1051.96,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 1052.96,
+      "readingLevel": "beginner"
+    },
     {
       "id": "Q2hpbmHigJlzIEdy",
       "title": "China’s Great Firewall suffers its biggest leak ever as 500GB of source code and docs spill online — censorship tool has been sold to three different countries",
@@ -22,9 +46,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1022.87,
-      "calculatedAt": "2025-09-14T18:40:53.689Z",
-      "recommendationScore": 1022.87,
+      "relevanceScore": 1022.85,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 1022.85,
       "readingLevel": "advanced"
     },
     {
@@ -46,32 +70,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1019.53,
-      "calculatedAt": "2025-09-14T18:40:53.689Z",
-      "recommendationScore": 1020.03,
+      "relevanceScore": 1019.5,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 1020,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "SW4gYSBNZXRob2Qg",
-      "title": "In a Method calling what happens in a compile time and Run Time.",
-      "link": "https://dev.to/vigneshwaralingam/in-a-method-calling-what-happens-in-a-compile-time-and-run-time-4m5i",
-      "description": "Let's clarify what happens step-by-step during compile time and runtime for the provided code. Compile-Time: The Type Check At compile time, the Java compiler's main job is to ensure that the code is syntactically correct and that method calls are valid based on the reference type . The compiler isn",
-      "pubDate": "2025-09-14T18:21:57.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Let's clarify what happens step-by-step during compile time and runtime for the provided code. Compile-Time: The Type Check At compile time, the Java compiler's main job is to ensure that the code is syntactically correct and that method calls are valid based on the reference type . The compiler isn't concerned with the actual object type at this stage; it only looks at the variable's declared type. Animal myAnimal = new Animal(); The compiler sees an Animal reference. It checks if the Animal cl",
-      "author": "Vigneshwaralingam",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 1015.94,
-      "calculatedAt": "2025-09-14T18:40:53.689Z",
-      "recommendationScore": 1017.94,
-      "readingLevel": "intermediate"
     },
     {
       "id": "SG93IHRvIFN3aXRj",
@@ -93,36 +95,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 1016.66,
-      "calculatedAt": "2025-09-14T18:40:53.689Z",
-      "recommendationScore": 1018.66,
+      "relevanceScore": 1016.64,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 1018.64,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "U2VudGluZWxNRlQ6",
-      "title": "SentinelMFT: AI-Powered Secure File Transfer & Network Firewall for Google Cloud",
-      "link": "https://dev.to/raghavachellu/sentinelmft-ai-powered-secure-file-transfer-network-firewall-for-google-cloud-2ne3",
-      "description": "Overview sentinelmft is a Python library and CLI tool that provides secure, intelligent, and policy-driven file transfers across cloud and on-prem networks. It integrates Google Cloud services (GCS, Pub/Sub, Secret Manager) with AI-driven anomaly detection, cryptography (AES-256 + RSA), and a softwa",
-      "pubDate": "2025-09-14T18:19:43.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "Overview sentinelmft is a Python library and CLI tool that provides secure, intelligent, and policy-driven file transfers across cloud and on-prem networks. It integrates Google Cloud services (GCS, Pub/Sub, Secret Manager) with AI-driven anomaly detection, cryptography (AES-256 + RSA), and a software-defined firewall layer for transfer sessions. It’s like combining MFT + Firewall + AI Monitoring into one lightweight Python package. Key Features Security & Cryptography AES-256-GCM encryption for",
-      "author": "Raghava Chellu",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI",
-        "Cloud",
-        "Regulation"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 522.43,
-      "calculatedAt": "2025-09-14T18:40:53.689Z",
-      "recommendationScore": 522.93,
-      "readingLevel": "advanced"
     },
     {
       "id": "SHlwZXJzaGVsbCBQ",
@@ -141,9 +117,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 470.86,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 471.36,
+      "relevanceScore": 472.84,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 473.34,
       "readingLevel": "intermediate"
     },
     {
@@ -163,9 +139,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 143.91,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 144.41,
+      "relevanceScore": 145.88,
+      "calculatedAt": "2025-09-14T18:49:16.803Z",
+      "recommendationScore": 146.38,
       "readingLevel": "advanced"
     },
     {
@@ -185,9 +161,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 192.54,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 193.04,
+      "relevanceScore": 196.02,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 196.52,
       "readingLevel": "intermediate"
     },
     {
@@ -207,9 +183,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 102.16,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 103.66,
+      "relevanceScore": 105.13,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 106.63,
       "readingLevel": "advanced"
     },
     {
@@ -229,9 +205,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 164.77,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 165.27,
+      "relevanceScore": 166.75,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 167.25,
       "readingLevel": "intermediate"
     },
     {
@@ -253,9 +229,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 156.97,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 159.47,
+      "relevanceScore": 157.94,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 160.44,
       "readingLevel": "advanced"
     },
     {
@@ -275,9 +251,34 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 164.11,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 164.61,
+      "relevanceScore": 165.08,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 165.58,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VHJ5IENocm9tYUZs",
+      "title": "Try ChromaFlip Chronicles",
+      "link": "https://dev.to/arunavmaitra/try-chromaflip-chronicles-1af6",
+      "description": "This is a submission for the Google AI Studio Multimodal Challenge What I Built I built ChromaFlip Chronicles , a digital experience that breathes new life into the classic photo album. Imagine a scrapbook, but one that's alive. One that's interactive. And one that's powered by your own imagination.",
+      "pubDate": "2025-09-14T18:37:00.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "This is a submission for the Google AI Studio Multimodal Challenge What I Built I built ChromaFlip Chronicles , a digital experience that breathes new life into the classic photo album. Imagine a scrapbook, but one that's alive. One that's interactive. And one that's powered by your own imagination. That's ChromaFlip Chronicles. It's a beautifully designed, hand-drawn style notebook that you can flip through, page by page. But here's the magic: it's not just a gallery. It's a creative canvas. Ea",
+      "author": "Arunav Maitra",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 80.46,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 80.46,
       "readingLevel": "advanced"
     },
     {
@@ -301,9 +302,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 79.54,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 82.04,
+      "relevanceScore": 80.01,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 82.51,
       "readingLevel": "advanced"
     },
     {
@@ -323,9 +324,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 79.01,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 79.51,
+      "relevanceScore": 80.49,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 80.99,
       "readingLevel": "advanced"
     },
     {
@@ -345,9 +346,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 73.42,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 73.92,
+      "relevanceScore": 74.9,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 75.4,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "VXNlcnMgdHVybiB0",
+      "title": "Users turn to chatbots for spiritual guidance",
+      "link": "https://techcrunch.com/2025/09/14/users-turn-to-chatbots-for-spiritual-guidance/",
+      "description": "At least one website claims to allow users to chat with God.",
+      "pubDate": "2025-09-14T18:45:26.000Z",
+      "source": "TechCrunch",
+      "category": "tech",
+      "weight": 8,
+      "content": "At least one website claims to allow users to chat with God.",
+      "author": "Anthony Ha",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "Web"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 80.49,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 80.49,
       "readingLevel": "intermediate"
     },
     {
@@ -367,9 +392,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 75.42,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 75.92,
+      "relevanceScore": 76.39,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 76.89,
       "readingLevel": "advanced"
     },
     {
@@ -389,9 +414,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 76.56,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 77.06,
+      "relevanceScore": 77.54,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 78.04,
       "readingLevel": "advanced"
     },
     {
@@ -411,35 +436,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 76.56,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 78.06,
+      "relevanceScore": 77.54,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 79.04,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "TWVkaVZpc2lvbiBB",
-      "title": "MediVision Assistant",
-      "link": "https://dev.to/omkar598/medivision-assistant-13go",
-      "description": "This is a submission for the Google AI Studio Multimodal Challenge What I Built MediVision Assistant - An AI-powered healthcare companion that makes medical assistance accessible to everyone, especially those with visual impairments or accessibility needs. The app combines computer vision, voice rec",
-      "pubDate": "2025-09-14T18:28:01.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "This is a submission for the Google AI Studio Multimodal Challenge What I Built MediVision Assistant - An AI-powered healthcare companion that makes medical assistance accessible to everyone, especially those with visual impairments or accessibility needs. The app combines computer vision, voice recognition, and AI chat to provide comprehensive health monitoring and assistance. Key Features: 🖼️ AI Skin Analysis - Upload photos for instant skin condition assessment 🎤 Voice Symptom Logger - Reco",
-      "author": "omkar",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI",
-        "Mobile"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 55.96,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 55.96,
-      "readingLevel": "advanced"
     },
     {
       "id": "NjAgeWVhcnMgYWZ0",
@@ -458,9 +458,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 51.22,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 53.72,
+      "relevanceScore": 53.69,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 56.19,
       "readingLevel": "beginner"
     },
     {
@@ -480,9 +480,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.57,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 48.07,
+      "relevanceScore": 47.05,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 49.55,
       "readingLevel": "advanced"
     },
     {
@@ -504,9 +504,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.85,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 47.85,
+      "relevanceScore": 46.32,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 48.32,
       "readingLevel": "advanced"
     },
     {
@@ -529,9 +529,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.67,
-      "calculatedAt": "2025-09-14T18:40:53.690Z",
-      "recommendationScore": 28.17,
+      "relevanceScore": 27.64,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 28.14,
       "readingLevel": "intermediate"
     },
     {
@@ -555,9 +555,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.63,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 26.13,
+      "relevanceScore": 25.6,
+      "calculatedAt": "2025-09-14T18:49:16.804Z",
+      "recommendationScore": 26.1,
       "readingLevel": "advanced"
     },
     {
@@ -580,9 +580,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.57,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 28.07,
+      "relevanceScore": 27.54,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 28.04,
       "readingLevel": "intermediate"
     },
     {
@@ -605,33 +605,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.48,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 27.98,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "4oCYU2VsbGluZyBj",
-      "title": "‘Selling coffee beans to Starbucks’ – how the AI boom could leave AI’s biggest companies behind",
-      "link": "https://techcrunch.com/2025/09/14/selling-coffee-beans-to-starbucks-how-the-ai-boom-could-leave-ais-biggest-companies-behind/",
-      "description": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs.",
-      "pubDate": "2025-09-14T15:00:00.000Z",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "weight": 8,
-      "content": "The competitive landscape of AI is changing in ways that undermine the advantages of the biggest AI labs.",
-      "author": "Russell Brandom",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 27.26,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 29.26,
+      "relevanceScore": 27.45,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 27.95,
       "readingLevel": "intermediate"
     },
     {
@@ -651,9 +627,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.16,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 31.66,
+      "relevanceScore": 31.13,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 31.63,
       "readingLevel": "intermediate"
     },
     {
@@ -673,9 +649,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 31.5,
+      "relevanceScore": 30.97,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 31.47,
       "readingLevel": "intermediate"
     },
     {
@@ -695,9 +671,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.33,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 23.83,
+      "relevanceScore": 23.3,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 23.8,
       "readingLevel": "advanced"
     },
     {
@@ -720,9 +696,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.51,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 31.01,
+      "relevanceScore": 30.48,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 30.98,
       "readingLevel": "advanced"
     },
     {
@@ -742,9 +718,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.86,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 25.36,
+      "relevanceScore": 24.84,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 25.34,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VGhlIEV2b2x1dGlv",
+      "title": "The Evolution of Web Development: Past, Present, and Future",
+      "link": "https://dev.to/lindamendoza/the-evolution-of-web-development-past-present-and-future-2mf0",
+      "description": "Web development has undergone a remarkable transformation since the advent of the internet. From simple static pages to complex, interactive applications, the journey of web development reflects technological advancements, changing user expectations, and the growth of the digital economy. In this ar",
+      "pubDate": "2025-09-14T18:32:00.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Web development has undergone a remarkable transformation since the advent of the internet. From simple static pages to complex, interactive applications, the journey of web development reflects technological advancements, changing user expectations, and the growth of the digital economy. In this article, we’ll explore the key milestones in web development's evolution, the current landscape, and where we might be headed in the future. The Early Days: Static Websites In the early 1990s, web devel",
+      "author": "Linda Mendosa",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Tech",
+        "Business",
+        "Web"
+      ],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 24.94,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 25.44,
       "readingLevel": "advanced"
     },
     {
@@ -764,9 +766,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.16,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 30.66,
+      "relevanceScore": 30.14,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 30.64,
       "readingLevel": "beginner"
     },
     {
@@ -786,9 +788,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.26,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 25.76,
+      "relevanceScore": 25.24,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 25.74,
       "readingLevel": "advanced"
     },
     {
@@ -808,9 +810,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.19,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 26.69,
+      "relevanceScore": 24.16,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 26.66,
       "readingLevel": "advanced"
     },
     {
@@ -830,32 +832,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.32,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 24.82,
+      "relevanceScore": 24.29,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 24.79,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "UGFyYW1vdW50KyBh",
-      "title": "Paramount+ annual subscriptions are 50 percent off right now",
-      "link": "https://www.engadget.com/deals/paramount-annual-subscriptions-are-50-percent-off-right-now-212655665.html?src=rss",
-      "description": "With streaming service prices constantly on the rise, it can feel like good deals are few and far between. But they do come around every once in a while — such is the case with Paramount+ right now. You can get half off annual subscriptions through September 18; that brings the Essential (with ads) ",
-      "pubDate": "2025-09-14T14:41:26.000Z",
-      "source": "Engadget",
-      "category": "entertainment",
-      "weight": 6,
-      "content": "With streaming service prices constantly on the rise, it can feel like good deals are few and far between. But they do come around every once in a while — such is the case with Paramount+ right now. You can get half off annual subscriptions through September 18; that brings the Essential (with ads) plan down to $30 for one year instead of $60, and the Premium plan down to $60 for the year instead of $120. This is a substantial deal that both new and returning subscribers can take advantage of; i",
-      "author": "Anna Washenko",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 24.2,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 24.7,
-      "readingLevel": "advanced"
     },
     {
       "id": "VGhlIFVTIGlzIHRy",
@@ -874,9 +854,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.74,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 20.24,
+      "relevanceScore": 19.71,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 20.21,
       "readingLevel": "advanced"
     },
     {
@@ -896,9 +876,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.07,
-      "calculatedAt": "2025-09-14T18:40:53.691Z",
-      "recommendationScore": 18.57,
+      "relevanceScore": 18.04,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 18.54,
       "readingLevel": "intermediate"
     },
     {
@@ -918,9 +898,31 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.09,
-      "calculatedAt": "2025-09-14T18:40:53.692Z",
-      "recommendationScore": 22.59,
+      "relevanceScore": 22.07,
+      "calculatedAt": "2025-09-14T18:49:16.805Z",
+      "recommendationScore": 22.57,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "UGFyYW1vdW50KyBh",
+      "title": "Paramount+ annual subscriptions are 50 percent off right now",
+      "link": "https://www.engadget.com/deals/paramount-annual-subscriptions-are-50-percent-off-right-now-212655665.html?src=rss",
+      "description": "With streaming service prices constantly on the rise, it can feel like good deals are few and far between. But they do come around every once in a while — such is the case with Paramount+ right now. You can get half off annual subscriptions through September 18; that brings the Essential (with ads) ",
+      "pubDate": "2025-09-14T14:41:26.000Z",
+      "source": "Engadget",
+      "category": "entertainment",
+      "weight": 6,
+      "content": "With streaming service prices constantly on the rise, it can feel like good deals are few and far between. But they do come around every once in a while — such is the case with Paramount+ right now. You can get half off annual subscriptions through September 18; that brings the Essential (with ads) plan down to $30 for one year instead of $60, and the Premium plan down to $60 for the year instead of $120. This is a substantial deal that both new and returning subscribers can take advantage of; i",
+      "author": "Anna Washenko",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 24.17,
+      "calculatedAt": "2025-09-14T18:49:16.806Z",
+      "recommendationScore": 24.67,
       "readingLevel": "advanced"
     },
     {
@@ -940,9 +942,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.21,
-      "calculatedAt": "2025-09-14T18:40:53.692Z",
-      "recommendationScore": 22.71,
+      "relevanceScore": 22.18,
+      "calculatedAt": "2025-09-14T18:49:16.806Z",
+      "recommendationScore": 22.68,
       "readingLevel": "advanced"
     },
     {
@@ -962,9 +964,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.79,
-      "calculatedAt": "2025-09-14T18:40:53.692Z",
-      "recommendationScore": 21.29,
+      "relevanceScore": 18.77,
+      "calculatedAt": "2025-09-14T18:49:16.806Z",
+      "recommendationScore": 21.27,
       "readingLevel": "intermediate"
     },
     {
@@ -984,9 +986,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.61,
-      "calculatedAt": "2025-09-14T18:40:53.692Z",
-      "recommendationScore": 19.11,
+      "relevanceScore": 18.58,
+      "calculatedAt": "2025-09-14T18:49:16.806Z",
+      "recommendationScore": 19.08,
       "readingLevel": "intermediate"
     },
     {
@@ -1006,16 +1008,16 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 16.44,
-      "calculatedAt": "2025-09-14T18:40:53.692Z",
-      "recommendationScore": 18.44,
+      "relevanceScore": 16.41,
+      "calculatedAt": "2025-09-14T18:49:16.806Z",
+      "recommendationScore": 18.41,
       "readingLevel": "intermediate"
     }
   ],
   "sources": [
+    "Dev.to",
     "Reddit Technology",
     "TechCrunch",
-    "Dev.to",
     "Wired",
     "BBC News",
     "NPR Business",
@@ -1027,12 +1029,12 @@
     "Reddit World News"
   ],
   "categories": [
-    "tech",
     "development",
+    "tech",
     "general",
     "business",
     "world"
   ],
-  "processedAt": "2025-09-14T18:40:53.702Z",
+  "processedAt": "2025-09-14T18:49:16.816Z",
   "processingVersion": "2.0"
 }
