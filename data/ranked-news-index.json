@@ -1,12 +1,13 @@
 {
-  "lastUpdated": "2025-09-19T04:40:44.529Z",
-  "totalArticles": 53,
+  "lastUpdated": "2025-09-19T04:50:06.474Z",
+  "totalArticles": 54,
   "categories": [
     "tech",
     "development",
     "social",
     "mobile",
     "business",
+    "cybersecurity",
     "ai-ml",
     "gaming",
     "world",
@@ -14,8 +15,7 @@
     "startup",
     "health",
     "finance",
-    "science",
-    "cybersecurity"
+    "science"
   ],
   "topArticles": [
     {
@@ -24,8 +24,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-09-18T22:07:53.000Z",
-      "relevanceScore": 3276.69,
-      "recommendationScore": 3279.69,
+      "relevanceScore": 3353.66,
+      "recommendationScore": 3356.66,
       "tags": [
         "Tutorial",
         "Partnership"
@@ -38,8 +38,8 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-09-18T13:36:47.000Z",
-      "relevanceScore": 3215.99,
-      "recommendationScore": 3218.49,
+      "relevanceScore": 3222.96,
+      "recommendationScore": 3225.46,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -49,8 +49,8 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2025-09-19T00:23:34.000Z",
-      "relevanceScore": 3068.14,
-      "recommendationScore": 3068.64,
+      "relevanceScore": 3143.11,
+      "recommendationScore": 3143.61,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -60,8 +60,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-09-18T22:16:27.000Z",
-      "relevanceScore": 1122.72,
-      "recommendationScore": 1125.22,
+      "relevanceScore": 1524.69,
+      "recommendationScore": 1527.19,
       "tags": [
         "Mobile",
         "Exclusive",
@@ -76,8 +76,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-09-18T21:15:37.000Z",
-      "relevanceScore": 1002.52,
-      "recommendationScore": 1003.02,
+      "relevanceScore": 1299.49,
+      "recommendationScore": 1299.99,
       "tags": [
         "Tech",
         "Mobile",
@@ -86,28 +86,27 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Build Your Own Animated Component Library with React + Framer Motion",
+      "link": "https://dev.to/jay_sarvaiya_f85e7148bb57/build-your-own-animated-component-library-with-react-framer-motion-3p48",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-09-19T04:43:18.000Z",
+      "relevanceScore": 889.48,
+      "recommendationScore": 889.98,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "When self-doubt creeps in at work, pause and reframe your negative thoughts. Here's how",
       "link": "https://abcnews.go.com/Business/wireStory/doubt-creeps-work-pause-reframe-negative-thoughts-125690459",
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-18T04:22:24.000Z",
-      "relevanceScore": 748.14,
-      "recommendationScore": 750.14,
+      "relevanceScore": 756.11,
+      "recommendationScore": 758.11,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "5 ways to integrate GitHub Copilot coding agent into your workflow",
-      "link": "https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-09-18T16:00:00.000Z",
-      "relevanceScore": 688.46,
-      "recommendationScore": 688.96,
-      "tags": [
-        "Tech",
-        "Exclusive"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -116,23 +115,40 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-09-18T21:47:50.000Z",
-      "relevanceScore": 620.62,
-      "recommendationScore": 621.12,
+      "relevanceScore": 699.59,
+      "recommendationScore": 700.09,
       "tags": [
         "Update"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "React - Components and props",
-      "link": "https://dev.to/dharshinieswaran/react-components-and-props-2p5p",
-      "source": "Dev.to",
+      "title": "5 ways to integrate GitHub Copilot coding agent into your workflow",
+      "link": "https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/",
+      "source": "GitHub Blog",
       "category": "development",
-      "pubDate": "2025-09-19T04:27:48.000Z",
-      "relevanceScore": 616.96,
-      "recommendationScore": 616.96,
-      "tags": [],
+      "pubDate": "2025-09-18T16:00:00.000Z",
+      "relevanceScore": 696.43,
+      "recommendationScore": 696.93,
+      "tags": [
+        "Tech",
+        "Exclusive"
+      ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Off with your CMS’s head! Composability and security in headless CMS",
+      "link": "https://stackoverflow.blog/2025/09/19/off-with-your-cms-s-head-composability-and-security-in-headless-cms/",
+      "source": "Stack Overflow Blog",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-19T04:40:00.000Z",
+      "relevanceScore": 606.97,
+      "recommendationScore": 607.47,
+      "tags": [
+        "Tech",
+        "Security"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "The Download: AI-designed viruses, and bad news for the hydrogen industry",
@@ -140,8 +156,22 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-18T12:10:00.000Z",
-      "relevanceScore": 454.2,
-      "recommendationScore": 456.7,
+      "relevanceScore": 491.17,
+      "recommendationScore": 493.67,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
+      "link": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-09-18T21:14:15.000Z",
+      "relevanceScore": 439.48,
+      "recommendationScore": 441.98,
       "tags": [
         "AI",
         "Tech"
@@ -154,23 +184,12 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-09-18T20:15:36.000Z",
-      "relevanceScore": 362.32,
-      "recommendationScore": 362.82,
+      "relevanceScore": 400.28,
+      "recommendationScore": 400.78,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "You Can Save $200 on Samsung’s Elite Gaming Monitor Today",
-      "link": "https://www.wired.com/story/save-dollar200-on-samsungs-monster-4k-gaming-monitor/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2025-09-18T20:45:16.000Z",
-      "relevanceScore": 294.92,
-      "recommendationScore": 295.42,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Jimmy Kimmel's suspension shows how the FCC is wielding its power",
@@ -178,10 +197,34 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-09-18T21:20:42.000Z",
-      "relevanceScore": 275.53,
-      "recommendationScore": 277.53,
+      "relevanceScore": 343,
+      "recommendationScore": 345,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Freeware Android Paint with source code...",
+      "link": "https://dev.to/sommukhopadhyay/freeware-android-paint-with-source-code-52h5",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-09-19T04:45:09.000Z",
+      "relevanceScore": 330.98,
+      "recommendationScore": 330.98,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "You Can Save $200 on Samsung’s Elite Gaming Monitor Today",
+      "link": "https://www.wired.com/story/save-dollar200-on-samsungs-monster-4k-gaming-monitor/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2025-09-18T20:45:16.000Z",
+      "relevanceScore": 300.88,
+      "recommendationScore": 301.38,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Flying cars crash into each other at Chinese air show",
@@ -189,8 +232,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2025-09-17T12:34:08.000Z",
-      "relevanceScore": 203.98,
-      "recommendationScore": 205.98,
+      "relevanceScore": 277.95,
+      "recommendationScore": 279.95,
       "tags": [
         "Social"
       ],
@@ -202,10 +245,32 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-09-18T18:26:45.000Z",
-      "relevanceScore": 189.95,
-      "recommendationScore": 190.45,
+      "relevanceScore": 193.92,
+      "recommendationScore": 194.42,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "CMS Migration: From Nuxeo to Strapi",
+      "link": "https://dev.to/codelink/cms-migration-from-nuxeo-to-strapi-emb",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2025-09-19T04:43:00.000Z",
+      "relevanceScore": 187.98,
+      "recommendationScore": 187.98,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What's the FCC's role in what stations broadcast?",
+      "link": "https://www.npr.org/2025/09/18/nx-s1-5545742/whats-the-fccs-role-in-what-stations-broadcast",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-18T22:12:01.000Z",
+      "relevanceScore": 175.17,
+      "recommendationScore": 176.67,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "\"The agent kept “working” for more than an hour at a time without ever reaching a solution. Worse, instead of fixing the bug, it started introducing regressions and damaging the project, at one point even deleting a critical file like storage.\"",
@@ -213,22 +278,9 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-18T13:31:14.000Z",
-      "relevanceScore": 156.47,
-      "recommendationScore": 156.47,
+      "relevanceScore": 158.94,
+      "recommendationScore": 158.94,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Intel says Arc GPUs will live on after Nvidia deal",
-      "link": "https://www.theverge.com/news/781635/intel-says-arc-gpus-will-live-on-after-nvidia-deal",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-09-18T22:23:42.000Z",
-      "relevanceScore": 120.74,
-      "recommendationScore": 120.74,
-      "tags": [
-        "Partnership"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -237,30 +289,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-19T04:03:09.000Z",
-      "relevanceScore": 118.87,
-      "recommendationScore": 121.37,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What's the FCC's role in what stations broadcast?",
-      "link": "https://www.npr.org/2025/09/18/nx-s1-5545742/whats-the-fccs-role-in-what-stations-broadcast",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-09-18T22:12:01.000Z",
-      "relevanceScore": 111.7,
-      "recommendationScore": 113.2,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Two UK teens charged in connection to Scattered Spider ransomware attacks",
-      "link": "https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-09-19T00:00:37.000Z",
-      "relevanceScore": 98.07,
-      "recommendationScore": 98.57,
+      "relevanceScore": 152.84,
+      "recommendationScore": 155.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -270,8 +300,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-18T22:54:20.000Z",
-      "relevanceScore": 72.85,
-      "recommendationScore": 73.35,
+      "relevanceScore": 143.81,
+      "recommendationScore": 144.31,
       "tags": [
         "AI",
         "Science",
@@ -285,8 +315,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-18T18:26:18.000Z",
-      "relevanceScore": 62.95,
-      "recommendationScore": 63.45,
+      "relevanceScore": 134.92,
+      "recommendationScore": 135.42,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -296,8 +326,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-18T23:34:01.000Z",
-      "relevanceScore": 59.48,
-      "recommendationScore": 63.48,
+      "relevanceScore": 129.45,
+      "recommendationScore": 133.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -307,8 +337,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-18T20:53:33.000Z",
-      "relevanceScore": 59.44,
-      "recommendationScore": 61.44,
+      "relevanceScore": 126.91,
+      "recommendationScore": 128.91,
       "tags": [
         "AI",
         "Business",
@@ -322,8 +352,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-19T00:47:03.000Z",
-      "relevanceScore": 53.22,
-      "recommendationScore": 53.72,
+      "relevanceScore": 123.19,
+      "recommendationScore": 123.69,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -333,12 +363,25 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-19T02:52:33.000Z",
-      "relevanceScore": 53.14,
-      "recommendationScore": 53.64,
+      "relevanceScore": 123.11,
+      "recommendationScore": 123.61,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Intel says Arc GPUs will live on after Nvidia deal",
+      "link": "https://www.theverge.com/news/781635/intel-says-arc-gpus-will-live-on-after-nvidia-deal",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-09-18T22:23:42.000Z",
+      "relevanceScore": 122.71,
+      "recommendationScore": 122.71,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Meta will let outside developers create AI-powered apps for its smart glasses",
@@ -346,8 +389,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-09-18T19:41:59.000Z",
-      "relevanceScore": 52.2,
-      "recommendationScore": 52.7,
+      "relevanceScore": 122.17,
+      "recommendationScore": 122.67,
       "tags": [
         "AI"
       ],
@@ -359,8 +402,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-09-18T21:30:00.000Z",
-      "relevanceScore": 49.56,
-      "recommendationScore": 51.06,
+      "relevanceScore": 119.53,
+      "recommendationScore": 121.03,
       "tags": [
         "Startup",
         "Tutorial",
@@ -374,24 +417,10 @@
       "source": "MIT Technology Review",
       "category": "health",
       "pubDate": "2025-09-18T16:21:31.000Z",
-      "relevanceScore": 49.54,
-      "recommendationScore": 50.04,
+      "relevanceScore": 119.5,
+      "recommendationScore": 120,
       "tags": [
         "IPO"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
-      "link": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-09-18T21:14:15.000Z",
-      "relevanceScore": 48.51,
-      "recommendationScore": 51.01,
-      "tags": [
-        "AI",
-        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -401,8 +430,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-18T23:18:10.000Z",
-      "relevanceScore": 46.92,
-      "recommendationScore": 49.42,
+      "relevanceScore": 116.89,
+      "recommendationScore": 119.39,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -412,32 +441,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-18T20:28:19.000Z",
-      "relevanceScore": 46.36,
-      "recommendationScore": 46.86,
+      "relevanceScore": 116.33,
+      "recommendationScore": 116.83,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Google Code Comments Approach",
-      "link": "https://dev.to/bhavy_k_5a3b6c88887b58c92/google-code-comments-approach-1gca",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-19T04:28:45.000Z",
-      "relevanceScore": 45.96,
-      "recommendationScore": 45.96,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google Code Comments Engineering Approach",
-      "link": "https://dev.to/pratham_naik_project_manager/google-code-comments-engineering-approach-4mnm",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-19T04:27:55.000Z",
-      "relevanceScore": 45.96,
-      "recommendationScore": 45.96,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Facebook owner unveils new AI-powered smart glasses",
@@ -445,8 +452,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-09-18T12:25:49.000Z",
-      "relevanceScore": 44.75,
-      "recommendationScore": 47.25,
+      "relevanceScore": 114.72,
+      "recommendationScore": 117.22,
       "tags": [
         "AI",
         "Social"
@@ -459,22 +466,11 @@
       "source": "Reddit Technology",
       "category": "social",
       "pubDate": "2025-09-18T21:00:18.000Z",
-      "relevanceScore": 43.47,
-      "recommendationScore": 43.97,
+      "relevanceScore": 113.43,
+      "recommendationScore": 113.93,
       "tags": [
         "Social"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Announcing Rust 1.90.0",
-      "link": "https://www.reddit.com/r/programming/comments/1nklzrv/announcing_rust_1900/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-09-18T22:10:24.000Z",
-      "relevanceScore": 43.2,
-      "recommendationScore": 43.2,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -483,8 +479,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-09-18T23:21:50.000Z",
-      "relevanceScore": 42.94,
-      "recommendationScore": 43.44,
+      "relevanceScore": 112.91,
+      "recommendationScore": 113.41,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -494,8 +490,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-09-17T16:00:11.000Z",
-      "relevanceScore": 40.66,
-      "recommendationScore": 41.16,
+      "relevanceScore": 110.63,
+      "recommendationScore": 111.13,
       "tags": [
         "AI",
         "Tech",
@@ -504,13 +500,35 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Two UK teens charged in connection to Scattered Spider ransomware attacks",
+      "link": "https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-09-19T00:00:37.000Z",
+      "relevanceScore": 62.04,
+      "recommendationScore": 62.54,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Announcing Rust 1.90.0",
+      "link": "https://www.reddit.com/r/programming/comments/1nklzrv/announcing_rust_1900/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-09-18T22:10:24.000Z",
+      "relevanceScore": 44.17,
+      "recommendationScore": 44.17,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Chris Mason: Delight and relief in government after state visit",
       "link": "https://www.bbc.com/news/articles/cvgn3445655o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-19T00:24:23.000Z",
-      "relevanceScore": 31.15,
-      "recommendationScore": 31.65,
+      "relevanceScore": 31.11,
+      "recommendationScore": 31.61,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -520,8 +538,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-18T21:23:45.000Z",
-      "relevanceScore": 30.54,
-      "recommendationScore": 31.04,
+      "relevanceScore": 30.51,
+      "recommendationScore": 31.01,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -531,8 +549,8 @@
       "source": "TechCrunch",
       "category": "finance",
       "pubDate": "2025-09-19T03:30:00.000Z",
-      "relevanceScore": 27.76,
-      "recommendationScore": 28.26,
+      "relevanceScore": 27.73,
+      "recommendationScore": 28.23,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -542,8 +560,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-09-18T10:00:00.000Z",
-      "relevanceScore": 26.26,
-      "recommendationScore": 26.26,
+      "relevanceScore": 26.23,
+      "recommendationScore": 26.23,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -553,8 +571,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-18T22:00:30.000Z",
-      "relevanceScore": 25.67,
-      "recommendationScore": 25.67,
+      "relevanceScore": 25.63,
+      "recommendationScore": 25.63,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -564,8 +582,8 @@
       "source": "Wired",
       "category": "health",
       "pubDate": "2025-09-18T23:59:44.000Z",
-      "relevanceScore": 25.06,
-      "recommendationScore": 25.56,
+      "relevanceScore": 25.03,
+      "recommendationScore": 25.53,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -575,8 +593,8 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2025-09-18T23:38:23.000Z",
-      "relevanceScore": 24.99,
-      "recommendationScore": 27.49,
+      "relevanceScore": 24.96,
+      "recommendationScore": 27.46,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -586,8 +604,8 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2025-09-18T20:30:01.000Z",
-      "relevanceScore": 24.36,
-      "recommendationScore": 26.36,
+      "relevanceScore": 24.33,
+      "recommendationScore": 26.33,
       "tags": [
         "Tech"
       ],
@@ -599,8 +617,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-18T20:18:03.000Z",
-      "relevanceScore": 24.32,
-      "recommendationScore": 25.82,
+      "relevanceScore": 24.29,
+      "recommendationScore": 25.79,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -610,22 +628,11 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-09-18T14:32:17.000Z",
-      "relevanceScore": 23.17,
-      "recommendationScore": 23.67,
+      "relevanceScore": 23.14,
+      "recommendationScore": 23.64,
       "tags": [
         "Security"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Canada, Mexico agree to deepen ties in face of Trump's turbulent 2nd term",
-      "link": "https://www.reddit.com/r/worldnews/comments/1nkoye1/canada_mexico_agree_to_deepen_ties_in_face_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-09-19T00:22:19.000Z",
-      "relevanceScore": 23.14,
-      "recommendationScore": 23.64,
-      "tags": [],
       "readingLevel": "advanced"
     }
   ],
@@ -636,7 +643,7 @@
         "link": "https://www.theverge.com/21502865/amazon-prime-day-best-deals-how-to-find",
         "source": "The Verge",
         "pubDate": "2025-09-18T22:07:53.000Z",
-        "relevanceScore": 3276.69,
+        "relevanceScore": 3353.66,
         "tags": [
           "Tutorial",
           "Partnership"
@@ -647,7 +654,7 @@
         "link": "https://www.theverge.com/tech/781588/nothing-ear-3-charging-case-super-mic-impressions-hands-on",
         "source": "The Verge",
         "pubDate": "2025-09-18T21:47:50.000Z",
-        "relevanceScore": 620.62,
+        "relevanceScore": 699.59,
         "tags": [
           "Update"
         ]
@@ -657,7 +664,7 @@
         "link": "https://www.theverge.com/report/781330/nvidia-intel-explain-5-billion-deal-jensen-huang-lip-bu-tan-amd",
         "source": "The Verge",
         "pubDate": "2025-09-18T20:15:36.000Z",
-        "relevanceScore": 362.32,
+        "relevanceScore": 400.28,
         "tags": [
           "Partnership"
         ]
@@ -667,25 +674,17 @@
         "link": "https://www.theverge.com/news/781635/intel-says-arc-gpus-will-live-on-after-nvidia-deal",
         "source": "The Verge",
         "pubDate": "2025-09-18T22:23:42.000Z",
-        "relevanceScore": 120.74,
+        "relevanceScore": 122.71,
         "tags": [
           "Partnership"
         ]
-      },
-      {
-        "title": "Two UK teens charged in connection to Scattered Spider ransomware attacks",
-        "link": "https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-19T00:00:37.000Z",
-        "relevanceScore": 98.07,
-        "tags": []
       },
       {
         "title": "These Are the 15 New York Officials ICE and NYPD Arrested in Manhattan",
         "link": "https://www.wired.com/story/ice-mass-arrests-new-york-officials/",
         "source": "Wired",
         "pubDate": "2025-09-18T23:18:10.000Z",
-        "relevanceScore": 46.92,
+        "relevanceScore": 116.89,
         "tags": []
       },
       {
@@ -693,7 +692,7 @@
         "link": "https://arstechnica.com/culture/2025/09/get-off-the-ipad-warns-air-traffic-control-as-spirit-flight-nears-air-force-one/",
         "source": "Ars Technica",
         "pubDate": "2025-09-18T20:28:19.000Z",
-        "relevanceScore": 46.36,
+        "relevanceScore": 116.33,
         "tags": []
       },
       {
@@ -701,7 +700,15 @@
         "link": "https://www.reddit.com/r/technology/comments/1nknn3h/fcc_chair_carr_says_were_not_done_yet_after_jimmy/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-18T23:21:50.000Z",
-        "relevanceScore": 42.94,
+        "relevanceScore": 112.91,
+        "tags": []
+      },
+      {
+        "title": "Two UK teens charged in connection to Scattered Spider ransomware attacks",
+        "link": "https://arstechnica.com/security/2025/09/two-uk-teens-charged-in-connection-to-scattered-spider-ransomware-attacks/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-19T00:00:37.000Z",
+        "relevanceScore": 62.04,
         "tags": []
       },
       {
@@ -709,7 +716,7 @@
         "link": "https://arstechnica.com/science/2025/09/meet-the-2025-ig-nobel-prize-winners/",
         "source": "Ars Technica",
         "pubDate": "2025-09-18T22:00:30.000Z",
-        "relevanceScore": 25.67,
+        "relevanceScore": 25.63,
         "tags": []
       },
       {
@@ -717,7 +724,7 @@
         "link": "https://www.wired.com/story/brendan-carr-isnt-going-to-stop-until-someone-makes-him/",
         "source": "Wired",
         "pubDate": "2025-09-18T20:18:03.000Z",
-        "relevanceScore": 24.32,
+        "relevanceScore": 24.29,
         "tags": []
       },
       {
@@ -725,7 +732,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1nkl8b0/yes_jimmy_kimmels_suspension_was_government/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-18T21:39:46.000Z",
-        "relevanceScore": 20.6,
+        "relevanceScore": 20.57,
         "tags": []
       }
     ],
@@ -735,34 +742,36 @@
         "link": "https://stackoverflow.blog/2025/09/18/stack-overflow-is-helping-you-learn-to-code-with-new-resources/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-18T13:36:47.000Z",
-        "relevanceScore": 3215.99,
+        "relevanceScore": 3222.96,
         "tags": []
+      },
+      {
+        "title": "Build Your Own Animated Component Library with React + Framer Motion",
+        "link": "https://dev.to/jay_sarvaiya_f85e7148bb57/build-your-own-animated-component-library-with-react-framer-motion-3p48",
+        "source": "Dev.to",
+        "pubDate": "2025-09-19T04:43:18.000Z",
+        "relevanceScore": 889.48,
+        "tags": [
+          "Tutorial"
+        ]
       },
       {
         "title": "5 ways to integrate GitHub Copilot coding agent into your workflow",
         "link": "https://github.blog/ai-and-ml/github-copilot/5-ways-to-integrate-github-copilot-coding-agent-into-your-workflow/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-18T16:00:00.000Z",
-        "relevanceScore": 688.46,
+        "relevanceScore": 696.43,
         "tags": [
           "Tech",
           "Exclusive"
         ]
       },
       {
-        "title": "React - Components and props",
-        "link": "https://dev.to/dharshinieswaran/react-components-and-props-2p5p",
-        "source": "Dev.to",
-        "pubDate": "2025-09-19T04:27:48.000Z",
-        "relevanceScore": 616.96,
-        "tags": []
-      },
-      {
         "title": "\"The agent kept “working” for more than an hour at a time without ever reaching a solution. Worse, instead of fixing the bug, it started introducing regressions and damaging the project, at one point even deleting a critical file like storage.\"",
         "link": "https://www.reddit.com/r/programming/comments/1nk8dmc/the_agent_kept_working_for_more_than_an_hour_at_a/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-18T13:31:14.000Z",
-        "relevanceScore": 156.47,
+        "relevanceScore": 158.94,
         "tags": []
       },
       {
@@ -770,23 +779,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1nkg6ph/deno_is_raising_200k_for_the_legal_fight_to_free/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-18T18:26:18.000Z",
-        "relevanceScore": 62.95,
-        "tags": []
-      },
-      {
-        "title": "Google Code Comments Approach",
-        "link": "https://dev.to/bhavy_k_5a3b6c88887b58c92/google-code-comments-approach-1gca",
-        "source": "Dev.to",
-        "pubDate": "2025-09-19T04:28:45.000Z",
-        "relevanceScore": 45.96,
-        "tags": []
-      },
-      {
-        "title": "Google Code Comments Engineering Approach",
-        "link": "https://dev.to/pratham_naik_project_manager/google-code-comments-engineering-approach-4mnm",
-        "source": "Dev.to",
-        "pubDate": "2025-09-19T04:27:55.000Z",
-        "relevanceScore": 45.96,
+        "relevanceScore": 134.92,
         "tags": []
       },
       {
@@ -794,7 +787,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1nklzrv/announcing_rust_1900/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-18T22:10:24.000Z",
-        "relevanceScore": 43.2,
+        "relevanceScore": 44.17,
         "tags": []
       }
     ],
@@ -804,7 +797,7 @@
         "link": "https://www.engadget.com/wearables/meta-ray-ban-display-hands-on-discreet-and-intuitive-002334346.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-19T00:23:34.000Z",
-        "relevanceScore": 3068.14,
+        "relevanceScore": 3143.11,
         "tags": []
       },
       {
@@ -812,7 +805,7 @@
         "link": "https://www.bbc.com/news/articles/cn5qk4de997o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-17T12:34:08.000Z",
-        "relevanceScore": 203.98,
+        "relevanceScore": 277.95,
         "tags": [
           "Social"
         ]
@@ -822,7 +815,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1nkk855/tiktok_to_be_sold_to_trumps_right_wing/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-18T21:00:18.000Z",
-        "relevanceScore": 43.47,
+        "relevanceScore": 113.43,
         "tags": [
           "Social"
         ]
@@ -834,7 +827,7 @@
         "link": "https://www.engadget.com/mobile/ready-to-download-ios-26-see-if-your-iphone-is-eligible-for-the-free-update-first-191854926.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-18T22:16:27.000Z",
-        "relevanceScore": 1122.72,
+        "relevanceScore": 1524.69,
         "tags": [
           "Mobile",
           "Exclusive",
@@ -847,11 +840,21 @@
         "link": "https://www.engadget.com/mobile/ios-26-is-ready-to-download-everything-to-know-about-the-free-iphone-software-update-135749287.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-18T21:15:37.000Z",
-        "relevanceScore": 1002.52,
+        "relevanceScore": 1299.49,
         "tags": [
           "Tech",
           "Mobile",
           "Update"
+        ]
+      },
+      {
+        "title": "Freeware Android Paint with source code...",
+        "link": "https://dev.to/sommukhopadhyay/freeware-android-paint-with-source-code-52h5",
+        "source": "Dev.to",
+        "pubDate": "2025-09-19T04:45:09.000Z",
+        "relevanceScore": 330.98,
+        "tags": [
+          "Mobile"
         ]
       }
     ],
@@ -861,7 +864,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/doubt-creeps-work-pause-reframe-negative-thoughts-125690459",
         "source": "ABC News Business",
         "pubDate": "2025-09-18T04:22:24.000Z",
-        "relevanceScore": 748.14,
+        "relevanceScore": 756.11,
         "tags": []
       },
       {
@@ -869,7 +872,7 @@
         "link": "https://www.npr.org/2025/09/18/nx-s1-5545617/jimmy-kimmels-suspension-shows-how-the-fcc-is-wielding-its-power",
         "source": "NPR Business",
         "pubDate": "2025-09-18T21:20:42.000Z",
-        "relevanceScore": 275.53,
+        "relevanceScore": 343,
         "tags": []
       },
       {
@@ -877,7 +880,7 @@
         "link": "https://www.npr.org/2025/09/18/nx-s1-5545509/jimmy-kimmel-suspended-free-speech-trump",
         "source": "NPR Business",
         "pubDate": "2025-09-18T18:26:45.000Z",
-        "relevanceScore": 189.95,
+        "relevanceScore": 193.92,
         "tags": []
       },
       {
@@ -885,7 +888,7 @@
         "link": "https://www.npr.org/2025/09/18/nx-s1-5545742/whats-the-fccs-role-in-what-stations-broadcast",
         "source": "NPR Business",
         "pubDate": "2025-09-18T22:12:01.000Z",
-        "relevanceScore": 111.7,
+        "relevanceScore": 175.17,
         "tags": []
       },
       {
@@ -893,8 +896,31 @@
         "link": "https://abcnews.go.com/Business/wireStory/day-strikes-france-challenges-new-prime-ministers-budget-125691095",
         "source": "ABC News Business",
         "pubDate": "2025-09-18T12:22:19.000Z",
-        "relevanceScore": 22.74,
+        "relevanceScore": 22.71,
         "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Off with your CMS’s head! Composability and security in headless CMS",
+        "link": "https://stackoverflow.blog/2025/09/19/off-with-your-cms-s-head-composability-and-security-in-headless-cms/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-09-19T04:40:00.000Z",
+        "relevanceScore": 606.97,
+        "tags": [
+          "Tech",
+          "Security"
+        ]
+      },
+      {
+        "title": "Two teenagers charged over Transport for London cyber attack",
+        "link": "https://www.bbc.com/news/articles/c62z8k14kxxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-18T14:32:17.000Z",
+        "relevanceScore": 23.14,
+        "tags": [
+          "Security"
+        ]
       }
     ],
     "ai-ml": [
@@ -903,7 +929,18 @@
         "link": "https://www.technologyreview.com/2025/09/18/1123830/the-download-ai-designed-viruses-and-bad-news-for-the-hydrogen-industry/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-18T12:10:00.000Z",
-        "relevanceScore": 454.2,
+        "relevanceScore": 491.17,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
+        "link": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-18T21:14:15.000Z",
+        "relevanceScore": 439.48,
         "tags": [
           "AI",
           "Tech"
@@ -914,7 +951,7 @@
         "link": "https://techcrunch.com/2025/09/18/openais-research-on-ai-models-deliberately-lying-is-wild/",
         "source": "TechCrunch",
         "pubDate": "2025-09-18T22:54:20.000Z",
-        "relevanceScore": 72.85,
+        "relevanceScore": 143.81,
         "tags": [
           "AI",
           "Science",
@@ -926,7 +963,7 @@
         "link": "https://techcrunch.com/2025/09/18/how-ai-startups-are-fueling-googles-booming-cloud-business/",
         "source": "TechCrunch",
         "pubDate": "2025-09-18T20:53:33.000Z",
-        "relevanceScore": 59.44,
+        "relevanceScore": 126.91,
         "tags": [
           "AI",
           "Business",
@@ -938,20 +975,9 @@
         "link": "https://www.engadget.com/wearables/meta-will-let-outside-developers-create-ai-powered-apps-for-its-smart-glasses-194159233.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-18T19:41:59.000Z",
-        "relevanceScore": 52.2,
+        "relevanceScore": 122.17,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "Huawei announces new AI infrastructure as Nvidia gets locked out of China",
-        "link": "https://techcrunch.com/2025/09/18/huawei-announces-new-ai-infrastructure-as-nvidia-gets-locked-out-of-china/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-18T21:14:15.000Z",
-        "relevanceScore": 48.51,
-        "tags": [
-          "AI",
-          "Tech"
         ]
       },
       {
@@ -959,7 +985,7 @@
         "link": "https://www.bbc.com/news/articles/c5y599yz0l3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-18T12:25:49.000Z",
-        "relevanceScore": 44.75,
+        "relevanceScore": 114.72,
         "tags": [
           "AI",
           "Social"
@@ -970,7 +996,7 @@
         "link": "https://www.bbc.com/news/articles/c7016ljre03o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-17T16:00:11.000Z",
-        "relevanceScore": 40.66,
+        "relevanceScore": 110.63,
         "tags": [
           "AI",
           "Tech",
@@ -984,7 +1010,15 @@
         "link": "https://www.wired.com/story/save-dollar200-on-samsungs-monster-4k-gaming-monitor/",
         "source": "Wired",
         "pubDate": "2025-09-18T20:45:16.000Z",
-        "relevanceScore": 294.92,
+        "relevanceScore": 300.88,
+        "tags": []
+      },
+      {
+        "title": "CMS Migration: From Nuxeo to Strapi",
+        "link": "https://dev.to/codelink/cms-migration-from-nuxeo-to-strapi-emb",
+        "source": "Dev.to",
+        "pubDate": "2025-09-19T04:43:00.000Z",
+        "relevanceScore": 187.98,
         "tags": []
       }
     ],
@@ -994,7 +1028,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1nktjyx/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-09-19T04:03:09.000Z",
-        "relevanceScore": 118.87,
+        "relevanceScore": 152.84,
         "tags": []
       },
       {
@@ -1002,7 +1036,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1nkoye1/canada_mexico_agree_to_deepen_ties_in_face_of/",
         "source": "Reddit World News",
         "pubDate": "2025-09-19T00:22:19.000Z",
-        "relevanceScore": 23.14,
+        "relevanceScore": 23.11,
         "tags": []
       },
       {
@@ -1010,7 +1044,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1nkl2jm/us_ambassador_disappointed_with_antiamerican/",
         "source": "Reddit World News",
         "pubDate": "2025-09-18T21:33:14.000Z",
-        "relevanceScore": 22.57,
+        "relevanceScore": 22.54,
         "tags": []
       }
     ],
@@ -1020,7 +1054,7 @@
         "link": "https://www.bbc.com/news/articles/cvg9n6vr2eyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-18T23:34:01.000Z",
-        "relevanceScore": 59.48,
+        "relevanceScore": 129.45,
         "tags": []
       },
       {
@@ -1028,7 +1062,7 @@
         "link": "https://www.bbc.com/news/articles/cr4qe0rz2zvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-19T00:47:03.000Z",
-        "relevanceScore": 53.22,
+        "relevanceScore": 123.19,
         "tags": []
       },
       {
@@ -1036,7 +1070,7 @@
         "link": "https://www.bbc.com/news/articles/cx273vnkjpmo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-19T02:52:33.000Z",
-        "relevanceScore": 53.14,
+        "relevanceScore": 123.11,
         "tags": [
           "Partnership"
         ]
@@ -1046,7 +1080,7 @@
         "link": "https://www.bbc.com/news/articles/cvgn3445655o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-19T00:24:23.000Z",
-        "relevanceScore": 31.15,
+        "relevanceScore": 31.11,
         "tags": []
       },
       {
@@ -1054,7 +1088,7 @@
         "link": "https://www.bbc.com/news/articles/cpd91wjypj9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-18T21:23:45.000Z",
-        "relevanceScore": 30.54,
+        "relevanceScore": 30.51,
         "tags": []
       }
     ],
@@ -1064,7 +1098,7 @@
         "link": "https://techcrunch.com/2025/09/18/term-sheets-traction-and-truth-bombs-inside-the-series-a-mindset-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-09-18T21:30:00.000Z",
-        "relevanceScore": 49.56,
+        "relevanceScore": 119.53,
         "tags": [
           "Startup",
           "Tutorial",
@@ -1078,7 +1112,7 @@
         "link": "https://www.technologyreview.com/2025/09/18/1123844/meeting-vaccine-guidance-former-cdc-leaders-alarmed/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-18T16:21:31.000Z",
-        "relevanceScore": 49.54,
+        "relevanceScore": 119.5,
         "tags": [
           "IPO"
         ]
@@ -1088,7 +1122,7 @@
         "link": "https://www.wired.com/story/vaccine-panel-stacked-by-rfk-jr-recommends-delaying-mmrv-immunization/",
         "source": "Wired",
         "pubDate": "2025-09-18T23:59:44.000Z",
-        "relevanceScore": 25.06,
+        "relevanceScore": 25.03,
         "tags": []
       },
       {
@@ -1096,7 +1130,7 @@
         "link": "https://arstechnica.com/health/2025/09/in-new-level-of-stupid-rfk-jr-s-anti-vaccine-advisors-axe-mmrv-recommendation/",
         "source": "Ars Technica",
         "pubDate": "2025-09-18T23:38:23.000Z",
-        "relevanceScore": 24.99,
+        "relevanceScore": 24.96,
         "tags": []
       }
     ],
@@ -1106,7 +1140,7 @@
         "link": "https://techcrunch.com/2025/09/18/indian-fintech-jar-turns-profitable-by-helping-millions-save-in-gold/",
         "source": "TechCrunch",
         "pubDate": "2025-09-19T03:30:00.000Z",
-        "relevanceScore": 27.76,
+        "relevanceScore": 27.73,
         "tags": []
       },
       {
@@ -1114,7 +1148,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-thursday-9182025-125716282",
         "source": "ABC News Business",
         "pubDate": "2025-09-18T20:30:01.000Z",
-        "relevanceScore": 24.36,
+        "relevanceScore": 24.33,
         "tags": [
           "Tech"
         ]
@@ -1126,39 +1160,27 @@
         "link": "https://www.technologyreview.com/2025/09/18/1123818/hydrogen-reality-check-china/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-18T10:00:00.000Z",
-        "relevanceScore": 26.26,
+        "relevanceScore": 26.23,
         "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Two teenagers charged over Transport for London cyber attack",
-        "link": "https://www.bbc.com/news/articles/c62z8k14kxxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-18T14:32:17.000Z",
-        "relevanceScore": 23.17,
-        "tags": [
-          "Security"
-        ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
     "totalCategories": 14,
-    "avgRelevanceScore": 340.7628301886792,
+    "avgRelevanceScore": 408.39611111111094,
     "topCategories": [
       {
         "category": "tech",
         "count": 11
       },
       {
-        "category": "development",
-        "count": 8
-      },
-      {
         "category": "ai-ml",
         "count": 7
+      },
+      {
+        "category": "development",
+        "count": 6
       },
       {
         "category": "business",
