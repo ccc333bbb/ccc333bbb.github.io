@@ -1,6 +1,6 @@
 {
   "date": "2025-09-21",
-  "lastUpdated": "2025-09-21T07:11:45.175Z",
+  "lastUpdated": "2025-09-21T07:24:32.950Z",
   "totalArticles": 45,
   "articles": [
     {
@@ -22,9 +22,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 584.16,
-      "calculatedAt": "2025-09-21T07:11:45.260Z",
-      "recommendationScore": 586.16,
+      "relevanceScore": 591.62,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 593.62,
       "readingLevel": "advanced"
     },
     {
@@ -44,9 +44,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 522.46,
-      "calculatedAt": "2025-09-21T07:11:45.260Z",
-      "recommendationScore": 522.96,
+      "relevanceScore": 523.92,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 524.42,
       "readingLevel": "advanced"
     },
     {
@@ -68,9 +68,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 480.18,
-      "calculatedAt": "2025-09-21T07:11:45.260Z",
-      "recommendationScore": 480.18,
+      "relevanceScore": 477.64,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 477.64,
       "readingLevel": "intermediate"
     },
     {
@@ -92,9 +92,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 300.18,
-      "calculatedAt": "2025-09-21T07:11:45.260Z",
-      "recommendationScore": 302.68,
+      "relevanceScore": 305.64,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 308.14,
       "readingLevel": "advanced"
     },
     {
@@ -116,9 +116,36 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 298.86,
-      "calculatedAt": "2025-09-21T07:11:45.260Z",
-      "recommendationScore": 298.86,
+      "relevanceScore": 304.32,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 304.32,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QVdTIFNlY3VyaXR5",
+      "title": "AWS Security Best Practices for Production Applications",
+      "link": "https://dev.to/vanessamadison/aws-security-best-practices-for-production-applications-25e9",
+      "description": "AWS can scale your business overnight — or expose it if misconfigured. From IAM sprawl to open S3 buckets, mistakes are common. Security in AWS requires defense in depth . 1. IAM as the First Line Favor least privilege roles Avoid all-powerful AdministratorAccess policies { \"Version\" : \"2012-10-17\" ",
+      "pubDate": "2025-09-21T07:19:29.000Z",
+      "source": "Dev.to",
+      "category": "cloud",
+      "weight": 6,
+      "content": "AWS can scale your business overnight — or expose it if misconfigured. From IAM sprawl to open S3 buckets, mistakes are common. Security in AWS requires defense in depth . 1. IAM as the First Line Favor least privilege roles Avoid all-powerful AdministratorAccess policies { \"Version\" : \"2012-10-17\" , \"Statement\" : [ { \"Effect\" : \"Allow\" , \"Action\" : [ \"s3:GetObject\" , \"s3:PutObject\" ], \"Resource\" : \"arn:aws:s3:::my-app-bucket/user-uploads/*\" , \"Condition\" : { \"StringEquals\" : { \"s3:x-amz-server-",
+      "author": "𝙑𝙖𝙣𝙚𝙨𝙨𝙖 𝙈𝙖𝙙𝙞𝙨𝙤𝙣",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Business",
+        "Security",
+        "Cloud",
+        "Exclusive"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 300.98,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 302.48,
       "readingLevel": "advanced"
     },
     {
@@ -140,31 +167,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 274.07,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 274.57,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "TWFzdGVyIHRtdXgg",
-      "title": "Master tmux Like a Pro: Boost Your Terminal Workflow 🚀",
-      "link": "https://dev.to/masoomjethwa/master-tmux-like-a-pro-boost-your-terminal-workflow-5a4a",
-      "description": "Working constantly in the terminal and want to level up your workflow? tmux can help transform how you manage sessions, split panes, reuse work across SSH, and stay productive. In this post, I’ll walk you through tmux like a pro — core concepts, commands, config tricks, tips, and plugins that really",
-      "pubDate": "2025-09-21T06:42:56.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Working constantly in the terminal and want to level up your workflow? tmux can help transform how you manage sessions, split panes, reuse work across SSH, and stay productive. In this post, I’ll walk you through tmux like a pro — core concepts, commands, config tricks, tips, and plugins that really make a difference. Table of Contents What is tmux & Why Use It Core Concepts Essential tmux Commands Configuration: .tmux.conf Setup Power‑Tips & Best Practices Plugins to Supercharge tmux Conclusion",
-      "author": "masoomjethwa",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 283.4,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 283.9,
+      "relevanceScore": 271.52,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 272.02,
       "readingLevel": "advanced"
     },
     {
@@ -186,9 +191,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 273.37,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 274.87,
+      "relevanceScore": 277.33,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 278.83,
       "readingLevel": "intermediate"
     },
     {
@@ -210,9 +215,33 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 263.11,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 265.11,
+      "relevanceScore": 266.06,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 268.06,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QW1hem9uLCBHb29n",
+      "title": "Amazon, Google, and Microsoft warn employees to rush back to the US",
+      "link": "https://www.theverge.com/news/782258/amazon-google-microsoft-warn-h-1b-employees-return-to-the-us",
+      "description": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google, Amazon, and Microsoft have been circulating on social media that instruct instruct any H-1B v",
+      "pubDate": "2025-09-20T20:13:28.000Z",
+      "source": "The Verge",
+      "category": "social",
+      "weight": 7,
+      "content": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google , Amazon , and Microsoft have been circulating on social media that instruct instruct any H-1B visa holders currently traveling to immediately make travel arrangements to land in the US before 12AM ET on Sunday September 21st. The companies all acknowledge the limited warning provided and apol",
+      "author": "Terrence O’Brien",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [
+        "Social"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 250.76,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 251.26,
       "readingLevel": "advanced"
     },
     {
@@ -235,33 +264,33 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 188.15,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 188.65,
+      "relevanceScore": 179.61,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 180.11,
       "readingLevel": "advanced"
     },
     {
-      "id": "QW1hem9uLCBHb29n",
-      "title": "Amazon, Google, and Microsoft warn employees to rush back to the US",
-      "link": "https://www.theverge.com/news/782258/amazon-google-microsoft-warn-h-1b-employees-return-to-the-us",
-      "description": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google, Amazon, and Microsoft have been circulating on social media that instruct instruct any H-1B v",
-      "pubDate": "2025-09-20T20:13:28.000Z",
-      "source": "The Verge",
-      "category": "social",
-      "weight": 7,
-      "content": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google , Amazon , and Microsoft have been circulating on social media that instruct instruct any H-1B visa holders currently traveling to immediately make travel arrangements to land in the US before 12AM ET on Sunday September 21st. The companies all acknowledge the limited warning provided and apol",
-      "author": "Terrence O’Brien",
+      "id": "W1JlYWN0IHggU3Vw",
+      "title": "[React x Supabase] Renewing a learning record app with TypeScript and ChakraUI",
+      "link": "https://dev.to/kazutora_hattori_66972c88/react-x-supabase-renewing-a-learning-record-app-with-typescript-and-chakraui-5f0n",
+      "description": "Introduction I rebuilt a learning log app I previously created in React using Typescript and Chakra UI. I also implemented hosting on Firebase, automated CI/CD deployment using GitHub Actions, and automated testing with Jest and the React Testing Library. In this article, I'll review the app's struc",
+      "pubDate": "2025-09-21T07:17:23.000Z",
+      "source": "Dev.to",
+      "category": "mobile",
+      "weight": 6,
+      "content": "Introduction I rebuilt a learning log app I previously created in React using Typescript and Chakra UI. I also implemented hosting on Firebase, automated CI/CD deployment using GitHub Actions, and automated testing with Jest and the React Testing Library. In this article, I'll review the app's structure, development challenges and solutions, and my learnings and growth. -- App Overview GitHub Repository: https://github.com/kazukashima/kadai3.git This app records daily learning content and study ",
+      "author": "Kazutora Hattori",
       "readTime": 1,
-      "importance": 9,
+      "importance": 8,
       "tags": [
-        "Social"
+        "Mobile"
       ],
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "complexity": "low",
-      "type": "news",
-      "relevanceScore": 240.81,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 241.31,
+      "type": "review",
+      "relevanceScore": 163.98,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 166.48,
       "readingLevel": "advanced"
     },
     {
@@ -281,9 +310,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 166.19,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 167.69,
+      "relevanceScore": 153.65,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 155.15,
       "readingLevel": "intermediate"
     },
     {
@@ -303,9 +332,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 126.46,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 129.96,
+      "relevanceScore": 115.92,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 119.42,
       "readingLevel": "advanced"
     },
     {
@@ -327,10 +356,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 124.51,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 125.01,
+      "relevanceScore": 113.97,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 114.47,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "QmVzdCBEb2cgQmVk",
+      "title": "Best Dog Beds (2025): For All Kinds of Dogs in All Kinds of Spaces",
+      "link": "https://www.wired.com/gallery/best-dog-bed/",
+      "description": "Dogs deserve a quality mattress, too. These are the best WIRED-tested options we—or, rather, our dogs—have found.",
+      "pubDate": "2025-09-20T14:07:00.000Z",
+      "source": "Wired",
+      "category": "tech",
+      "weight": 7,
+      "content": "Dogs deserve a quality mattress, too. These are the best WIRED-tested options we—or, rather, our dogs—have found.",
+      "author": "Julia Forbes",
+      "readTime": 1,
+      "importance": 7,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 134.54,
+      "calculatedAt": "2025-09-21T07:24:33.035Z",
+      "recommendationScore": 136.04,
+      "readingLevel": "intermediate"
     },
     {
       "id": "V2hpdGUgSG91c2Ug",
@@ -353,32 +404,32 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 80.79,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 81.29,
+      "relevanceScore": 72.25,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 72.75,
       "readingLevel": "intermediate"
     },
     {
-      "id": "QmVzdCBEb2cgQmVk",
-      "title": "Best Dog Beds (2025): For All Kinds of Dogs in All Kinds of Spaces",
-      "link": "https://www.wired.com/gallery/best-dog-bed/",
-      "description": "Dogs deserve a quality mattress, too. These are the best WIRED-tested options we—or, rather, our dogs—have found.",
-      "pubDate": "2025-09-20T14:07:00.000Z",
-      "source": "Wired",
-      "category": "tech",
-      "weight": 7,
-      "content": "Dogs deserve a quality mattress, too. These are the best WIRED-tested options we—or, rather, our dogs—have found.",
-      "author": "Julia Forbes",
+      "id": "QnJpbmdpbmcgdGlt",
+      "title": "Bringing timeout to macOS Without Installing All of GNU Coreutils",
+      "link": "https://dev.to/maple/bringing-timeout-to-macos-without-installing-all-of-gnu-coreutils-22lj",
+      "description": "Not long ago, I was writing a shell script on macOS and ran into a small but surprising issue: there was no built-in timeout command. If you’ve spent time on Linux, you’ve probably taken timeout for granted, it’s part of GNU coreutils and is incredibly handy when you want to limit how long a command",
+      "pubDate": "2025-09-21T07:21:11.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Not long ago, I was writing a shell script on macOS and ran into a small but surprising issue: there was no built-in timeout command. If you’ve spent time on Linux, you’ve probably taken timeout for granted, it’s part of GNU coreutils and is incredibly handy when you want to limit how long a command can run. On macOS, though, the situation is different. macOS ships with a BSD-flavored set of core utilities, and GNU’s version of timeout simply isn’t there. My first instinct was to install GNU cor",
+      "author": "Maple",
       "readTime": 1,
-      "importance": 7,
+      "importance": 6,
       "tags": [],
-      "sentiment": "neutral",
+      "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 134.58,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 136.08,
-      "readingLevel": "intermediate"
+      "relevanceScore": 56.99,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 57.49,
+      "readingLevel": "advanced"
     },
     {
       "id": "L3IvV29ybGROZXdz",
@@ -397,9 +448,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.87,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 57.37,
+      "relevanceScore": 42.33,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 44.83,
       "readingLevel": "advanced"
     },
     {
@@ -419,9 +470,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 62.43,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 62.93,
+      "relevanceScore": 49.89,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 50.39,
       "readingLevel": "advanced"
     },
     {
@@ -441,9 +492,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 55.85,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 56.35,
+      "relevanceScore": 43.31,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 43.81,
       "readingLevel": "intermediate"
     },
     {
@@ -466,9 +517,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 51.37,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 51.37,
+      "relevanceScore": 38.83,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 38.83,
       "readingLevel": "intermediate"
     },
     {
@@ -491,9 +542,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 56.46,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 58.46,
+      "relevanceScore": 43.92,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 45.92,
       "readingLevel": "beginner"
     },
     {
@@ -515,9 +566,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 56.26,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 58.76,
+      "relevanceScore": 43.72,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 46.22,
       "readingLevel": "advanced"
     },
     {
@@ -540,9 +591,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 52.89,
-      "calculatedAt": "2025-09-21T07:11:45.261Z",
-      "recommendationScore": 52.89,
+      "relevanceScore": 40.35,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 40.35,
       "readingLevel": "advanced"
     },
     {
@@ -564,9 +615,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.73,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 55.23,
+      "relevanceScore": 42.19,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 42.69,
       "readingLevel": "intermediate"
     },
     {
@@ -589,9 +640,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.46,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 53.96,
+      "relevanceScore": 40.92,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 41.42,
       "readingLevel": "beginner"
     },
     {
@@ -611,9 +662,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.59,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 55.59,
+      "relevanceScore": 41.05,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 43.05,
       "readingLevel": "advanced"
     },
     {
@@ -637,9 +688,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.4,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 54.4,
+      "relevanceScore": 41.85,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 41.85,
       "readingLevel": "advanced"
     },
     {
@@ -659,9 +710,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.58,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 50.58,
+      "relevanceScore": 38.03,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 38.03,
       "readingLevel": "advanced"
     },
     {
@@ -681,33 +732,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 49.35,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 49.85,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "U2V0dGluZyBVcCBh",
-      "title": "Setting Up a Scalable JupyterHub Classroom on Debian 12 LTS with DockerSpawner",
-      "link": "https://dev.to/masoomjethwa/setting-up-a-scalable-jupyterhub-classroom-on-debian-12-lts-with-dockerspawner-2k9f",
-      "description": "Hey Dev.to community! If you're an educator, data scientist, or sysadmin looking to set up a multi-user Jupyter environment for teaching or collaboration, you've come to the right place. Today, we're diving into a complete, automated setup for JupyterHub on Debian 12 LTS using Docker and DockerSpawn",
-      "pubDate": "2025-09-21T06:39:03.000Z",
-      "source": "Dev.to",
-      "category": "cloud",
-      "weight": 6,
-      "content": "Hey Dev.to community! If you're an educator, data scientist, or sysadmin looking to set up a multi-user Jupyter environment for teaching or collaboration, you've come to the right place. Today, we're diving into a complete, automated setup for JupyterHub on Debian 12 LTS using Docker and DockerSpawner . This configuration is perfect for classrooms: it provides isolated containers per user, resource limits to prevent overloads, dummy users for testing, benchmarking tools, and even a shared notebo",
-      "author": "masoomjethwa",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Partnership"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 43.89,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 44.39,
+      "relevanceScore": 36.81,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 37.31,
       "readingLevel": "advanced"
     },
     {
@@ -729,9 +756,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.8,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 32.3,
+      "relevanceScore": 31.76,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 32.26,
       "readingLevel": "advanced"
     },
     {
@@ -756,9 +783,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.57,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 32.07,
+      "relevanceScore": 31.52,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 32.02,
       "readingLevel": "beginner"
     },
     {
@@ -778,32 +805,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.57,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 32.07,
+      "relevanceScore": 31.52,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 32.02,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "RmxvcmVzIGFtYXJp",
-      "title": "Flores amarillas",
-      "link": "https://dev.to/colecciom_repart_782646de/flores-amarillas-3mmg",
-      "description": "Check out this Pen I made!",
-      "pubDate": "2025-09-21T06:49:03.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Check out this Pen I made!",
-      "author": "Colecciom Repart",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 23.92,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 23.92,
-      "readingLevel": "beginner"
     },
     {
       "id": "Rm9ybWVyIExpdmVy",
@@ -822,9 +827,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.28,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 30.28,
+      "relevanceScore": 30.23,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 30.23,
       "readingLevel": "intermediate"
     },
     {
@@ -846,9 +851,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.15,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 28.65,
+      "relevanceScore": 26.11,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 28.61,
       "readingLevel": "intermediate"
     },
     {
@@ -868,9 +873,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.31,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 23.81,
+      "relevanceScore": 23.27,
+      "calculatedAt": "2025-09-21T07:24:33.036Z",
+      "recommendationScore": 23.77,
       "readingLevel": "advanced"
     },
     {
@@ -892,9 +897,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.85,
-      "calculatedAt": "2025-09-21T07:11:45.262Z",
-      "recommendationScore": 24.85,
+      "relevanceScore": 24.81,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 24.81,
       "readingLevel": "advanced"
     },
     {
@@ -914,9 +919,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.82,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 20.32,
+      "relevanceScore": 19.78,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 20.28,
       "readingLevel": "advanced"
     },
     {
@@ -939,9 +944,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.49,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 21.99,
+      "relevanceScore": 21.44,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 21.94,
       "readingLevel": "advanced"
     },
     {
@@ -963,9 +968,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.49,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 20.99,
+      "relevanceScore": 20.45,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 20.95,
       "readingLevel": "intermediate"
     },
     {
@@ -985,9 +990,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.02,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 20.52,
+      "relevanceScore": 19.98,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 20.48,
       "readingLevel": "advanced"
     },
     {
@@ -1007,9 +1012,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.83,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 21.83,
+      "relevanceScore": 19.79,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 21.79,
       "readingLevel": "intermediate"
     },
     {
@@ -1032,9 +1037,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 19.38,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 19.88,
+      "relevanceScore": 19.33,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 19.83,
       "readingLevel": "advanced"
     },
     {
@@ -1054,9 +1059,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.14,
-      "calculatedAt": "2025-09-21T07:11:45.263Z",
-      "recommendationScore": 19.14,
+      "relevanceScore": 19.1,
+      "calculatedAt": "2025-09-21T07:24:33.037Z",
+      "recommendationScore": 19.1,
       "readingLevel": "advanced"
     }
   ],
@@ -1065,8 +1070,8 @@
     "The Verge",
     "NPR Business",
     "Wired",
-    "TechCrunch",
     "Dev.to",
+    "TechCrunch",
     "Ars Technica",
     "Reddit World News",
     "BBC News",
@@ -1084,6 +1089,6 @@
     "general",
     "science"
   ],
-  "processedAt": "2025-09-21T07:11:45.274Z",
+  "processedAt": "2025-09-21T07:24:33.047Z",
   "processingVersion": "2.0"
 }
