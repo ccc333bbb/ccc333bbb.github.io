@@ -1,6 +1,6 @@
 {
   "date": "2025-09-21",
-  "lastUpdated": "2025-09-21T04:40:07.265Z",
+  "lastUpdated": "2025-09-21T04:48:48.095Z",
   "totalArticles": 45,
   "articles": [
     {
@@ -22,9 +22,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 550.17,
-      "calculatedAt": "2025-09-21T04:40:07.370Z",
-      "recommendationScore": 552.17,
+      "relevanceScore": 582.64,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 584.64,
       "readingLevel": "advanced"
     },
     {
@@ -44,35 +44,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 449.47,
-      "calculatedAt": "2025-09-21T04:40:07.370Z",
-      "recommendationScore": 449.97,
+      "relevanceScore": 484.44,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 484.94,
       "readingLevel": "advanced"
     },
     {
-      "id": "QnVpbGRpbmcgTXVs",
-      "title": "Building Multi-Agent Systems for Professional Software: Lessons from BIM Automation",
-      "link": "https://dev.to/saher_elsayed_ed9aa17af74/building-multi-agent-systems-for-professional-software-lessons-from-bim-automation-3bg9",
-      "description": "Working with complex professional software often feels like conducting an orchestra—you need multiple specialized components working in harmony to achieve your goals. Recently, I've been exploring how multi-agent AI systems can orchestrate these complex workflows, particularly in Building Informatio",
-      "pubDate": "2025-09-21T04:23:11.000Z",
+      "id": "MjAyNSBWb2ljZSBB",
+      "title": "2025 Voice AI Guide: How to Make Your Own Real-Time Voice Agent (Part-1)",
+      "link": "https://dev.to/programmerraja/2025-voice-ai-guide-how-to-make-your-own-real-time-voice-agent-part-1-45hl",
+      "description": "Over the past few months I’ve been building a fully open-source voice agent, exploring the stack end-to-end and learning a ton along the way. Now I’m ready to share everything I discovered. The best part? In 2025 you actually can build one yourself. With today’s open-source models and frameworks you",
+      "pubDate": "2025-09-21T04:34:25.000Z",
       "source": "Dev.to",
       "category": "ai-ml",
       "weight": 6,
-      "content": "Working with complex professional software often feels like conducting an orchestra—you need multiple specialized components working in harmony to achieve your goals. Recently, I've been exploring how multi-agent AI systems can orchestrate these complex workflows, particularly in Building Information Modeling (BIM) environments. The Challenge with Monolithic Approaches Traditional automation approaches typically use single AI models to handle entire workflows. But professional software environme",
-      "author": "Saher Elsayed",
+      "content": "Over the past few months I’ve been building a fully open-source voice agent, exploring the stack end-to-end and learning a ton along the way. Now I’m ready to share everything I discovered. The best part? In 2025 you actually can build one yourself. With today’s open-source models and frameworks you can piece together a real-time voice agent that listens, reasons, and talks back almost like a human without relying on closed platforms. Let’s walk through the building blocks, step by step. Let’s w",
+      "author": "Boopathi",
       "readTime": 1,
       "importance": 8,
       "tags": [
         "AI",
-        "Tech"
+        "Tutorial"
       ],
       "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 312.94,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 313.44,
-      "readingLevel": "advanced"
+      "complexity": "medium",
+      "type": "tutorial",
+      "relevanceScore": 344.45,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 346.45,
+      "readingLevel": "intermediate"
     },
     {
       "id": "VGhlIHdhZmVyLXRo",
@@ -93,58 +93,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 298.19,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 298.19,
+      "relevanceScore": 322.66,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 322.66,
       "readingLevel": "intermediate"
     },
     {
-      "id": "TGFyYXZlbOKAmXMg",
-      "title": "Laravel’s Str::mask: Elegant String Masking Made Simple",
-      "link": "https://dev.to/apnahive/laravels-strmask-elegant-string-masking-made-simple-4jig",
-      "description": "When handling sensitive data like email addresses, phone numbers, or credit card details, it’s often necessary to mask parts of the string to protect user privacy. Laravel’s Str::mask helper, introduced in Laravel 9, makes this task effortless and expressive. Let’s explore how Str::mask works, when ",
-      "pubDate": "2025-09-21T04:14:23.000Z",
+      "id": "VHVybmluZyBGcmVl",
+      "title": "Turning Free Users into Paying Customers (With Code-Like Thinking)",
+      "link": "https://dev.to/soasme/turning-free-users-into-paying-customers-with-code-like-thinking-2fjb",
+      "description": "Free signups are cool until your MRR chart looks like: const MRR = 0; while(users.signups++) MRR.staysFlat(); I wrote the full article here 👉 How to Turn Free Users Into Paying Customers Here’s the developer-cut version: 1. Soft walls after success Let them hit the “aha” moment first. Block growth,",
+      "pubDate": "2025-09-21T04:37:36.000Z",
       "source": "Dev.to",
-      "category": "cybersecurity",
+      "category": "development",
       "weight": 6,
-      "content": "When handling sensitive data like email addresses, phone numbers, or credit card details, it’s often necessary to mask parts of the string to protect user privacy. Laravel’s Str::mask helper, introduced in Laravel 9, makes this task effortless and expressive. Let’s explore how Str::mask works, when to use it, and some practical examples to integrate it into your Laravel projects. 🧠 What Is Str::mask? Str::mask is a method in Laravel’s Illuminate\\Support\\Str class that replaces a portion of a st",
-      "author": "Apna Hive",
+      "content": "Free signups are cool until your MRR chart looks like: const MRR = 0; while(users.signups++) MRR.staysFlat(); I wrote the full article here 👉 How to Turn Free Users Into Paying Customers Here’s the developer-cut version: 1. Soft walls after success Let them hit the “aha” moment first. Block growth, not the first win. if (user.projectsCreated === 0) { allow(\"create_project\"); // first win is free } else if (user.projectsCreated >= FREE_LIMIT) { showUpgradeCTA(\"Unlock unlimited projects\"); } 2. U",
+      "author": "Ju",
       "readTime": 1,
       "importance": 8,
       "tags": [
-        "Security"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 295.41,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 295.91,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "VHJ1bXAgaGl0cyBI",
-      "title": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
-      "link": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
-      "description": "President Trump signed a proclamation Friday requiring employers to pay a hefty $100,000 fee for new H-1B visa applications—an enormous jump from the current $215 lottery registration fee—targeting the very program that helped create some of Silicon Valley's biggest success stories.",
-      "pubDate": "2025-09-20T19:13:20.000Z",
-      "source": "TechCrunch",
-      "category": "social",
-      "weight": 8,
-      "content": "President Trump signed a proclamation Friday requiring employers to pay a hefty $100,000 fee for new H-1B visa applications—an enormous jump from the current $215 lottery registration fee—targeting the very program that helped create some of Silicon Valley's biggest success stories.",
-      "author": "Connie Loizos",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Social"
+        "Exclusive",
+        "Tutorial"
       ],
       "sentiment": "positive",
       "complexity": "low",
-      "type": "news",
-      "relevanceScore": 245.61,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 247.61,
-      "readingLevel": "advanced"
+      "type": "tutorial",
+      "relevanceScore": 268.46,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 268.96,
+      "readingLevel": "intermediate"
     },
     {
       "id": "TGF3eWVycyB2cy4g",
@@ -163,9 +140,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 238.47,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 241.97,
+      "relevanceScore": 261.94,
+      "calculatedAt": "2025-09-21T04:48:48.187Z",
+      "recommendationScore": 265.44,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QW1hem9uLCBHb29n",
+      "title": "Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US",
+      "link": "https://techcrunch.com/2025/09/20/amazon-google-microsoft-warn-h-1b-employees-to-stay-in-the-us/",
+      "description": "Large tech companies have responded to President Donald Trump’s dramatic changes to H-1B visa applications by telling employees with those visas to remain in the United States for now.",
+      "pubDate": "2025-09-20T19:01:44.000Z",
+      "source": "TechCrunch",
+      "category": "tech",
+      "weight": 8,
+      "content": "Large tech companies have responded to President Donald Trump’s dramatic changes to H-1B visa applications by telling employees with those visas to remain in the United States for now.",
+      "author": "Anthony Ha",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "Tech"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 268.04,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 268.54,
       "readingLevel": "advanced"
     },
     {
@@ -187,9 +188,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 246.69,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 249.19,
+      "relevanceScore": 251.66,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 254.16,
       "readingLevel": "advanced"
     },
     {
@@ -211,9 +212,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 245.37,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 245.37,
+      "relevanceScore": 250.34,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 250.34,
       "readingLevel": "advanced"
     },
     {
@@ -233,9 +234,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 245.84,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 246.34,
+      "relevanceScore": 249.82,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 250.32,
       "readingLevel": "advanced"
     },
     {
@@ -257,57 +258,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 237.88,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 239.38,
+      "relevanceScore": 241.85,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 243.35,
       "readingLevel": "intermediate"
     },
     {
-      "id": "QW1hem9uLCBHb29n",
-      "title": "Amazon, Google, Microsoft reportedly warn H-1B employees to stay in the US",
-      "link": "https://techcrunch.com/2025/09/20/amazon-google-microsoft-warn-h-1b-employees-to-stay-in-the-us/",
-      "description": "Large tech companies have responded to President Donald Trump’s dramatic changes to H-1B visa applications by telling employees with those visas to remain in the United States for now.",
-      "pubDate": "2025-09-20T19:01:44.000Z",
+      "id": "VHJ1bXAgaGl0cyBI",
+      "title": "Trump hits H-1B visas with $100,000 fee, targeting the program that launched Elon Musk and Instagram",
+      "link": "https://techcrunch.com/2025/09/20/trump-hits-h-1b-visas-with-100000-fee-targeting-the-program-that-launched-elon-musk-and-instagram/",
+      "description": "President Trump signed a proclamation Friday requiring employers to pay a hefty $100,000 fee for new H-1B visa applications—an enormous jump from the current $215 lottery registration fee—targeting the very program that helped create some of Silicon Valley's biggest success stories.",
+      "pubDate": "2025-09-20T19:13:20.000Z",
       "source": "TechCrunch",
-      "category": "tech",
+      "category": "social",
       "weight": 8,
-      "content": "Large tech companies have responded to President Donald Trump’s dramatic changes to H-1B visa applications by telling employees with those visas to remain in the United States for now.",
-      "author": "Anthony Ha",
+      "content": "President Trump signed a proclamation Friday requiring employers to pay a hefty $100,000 fee for new H-1B visa applications—an enormous jump from the current $215 lottery registration fee—targeting the very program that helped create some of Silicon Valley's biggest success stories.",
+      "author": "Connie Loizos",
       "readTime": 1,
       "importance": 10,
       "tags": [
-        "Tech"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 237.07,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 237.57,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "QW1hem9uLCBHb29n",
-      "title": "Amazon, Google, and Microsoft warn employees to rush back to the US",
-      "link": "https://www.theverge.com/news/782258/amazon-google-microsoft-warn-h-1b-employees-return-to-the-us",
-      "description": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google, Amazon, and Microsoft have been circulating on social media that instruct instruct any H-1B v",
-      "pubDate": "2025-09-20T20:13:28.000Z",
-      "source": "The Verge",
-      "category": "social",
-      "weight": 7,
-      "content": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google , Amazon , and Microsoft have been circulating on social media that instruct instruct any H-1B visa holders currently traveling to immediately make travel arrangements to land in the US before 12AM ET on Sunday September 21st. The companies all acknowledge the limited warning provided and apol",
-      "author": "Terrence O’Brien",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [
         "Social"
       ],
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 161.31,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 161.81,
+      "relevanceScore": 225.58,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 227.58,
       "readingLevel": "advanced"
     },
     {
@@ -329,9 +306,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 120.52,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 121.02,
+      "relevanceScore": 143.99,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 144.49,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QW1hem9uLCBHb29n",
+      "title": "Amazon, Google, and Microsoft warn employees to rush back to the US",
+      "link": "https://www.theverge.com/news/782258/amazon-google-microsoft-warn-h-1b-employees-return-to-the-us",
+      "description": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google, Amazon, and Microsoft have been circulating on social media that instruct instruct any H-1B v",
+      "pubDate": "2025-09-20T20:13:28.000Z",
+      "source": "The Verge",
+      "category": "social",
+      "weight": 7,
+      "content": "With new restrictions and fees on work visas in the US set to take effect at midnight tonight, it’s no surprise that many employers are advising workers abroad to return to the US. Leaked memos from Google , Amazon , and Microsoft have been circulating on social media that instruct instruct any H-1B visa holders currently traveling to immediately make travel arrangements to land in the US before 12AM ET on Sunday September 21st. The companies all acknowledge the limited warning provided and apol",
+      "author": "Terrence O’Brien",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [
+        "Social"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 169.28,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 169.78,
       "readingLevel": "advanced"
     },
     {
@@ -351,9 +352,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 116.97,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 116.97,
+      "relevanceScore": 139.94,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 139.94,
       "readingLevel": "intermediate"
     },
     {
@@ -373,9 +374,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 97.88,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 100.38,
+      "relevanceScore": 120.85,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 123.35,
       "readingLevel": "advanced"
     },
     {
@@ -395,34 +396,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 105.44,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 105.94,
+      "relevanceScore": 128.41,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 128.91,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "QUkgY29taWMgc3Ry",
-      "title": "AI comic strip",
-      "link": "https://dev.to/naijhen_chen_a2f41654e89/ai-comic-strip-11ho",
-      "description": "Check out this Pen I made!",
-      "pubDate": "2025-09-21T04:19:43.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "Check out this Pen I made!",
-      "author": "NAI-JHEN CHEN",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 97.93,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 97.93,
-      "readingLevel": "beginner"
     },
     {
       "id": "V2hpdGUgSG91c2Ug",
@@ -441,9 +418,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 98.86,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 99.36,
+      "relevanceScore": 121.83,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 122.33,
       "readingLevel": "intermediate"
     },
     {
@@ -467,9 +444,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 100.3,
-      "calculatedAt": "2025-09-21T04:40:07.371Z",
-      "recommendationScore": 100.8,
+      "relevanceScore": 123.27,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 123.77,
       "readingLevel": "intermediate"
     },
     {
@@ -492,9 +469,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 94.38,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 94.38,
+      "relevanceScore": 117.35,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 117.35,
       "readingLevel": "intermediate"
     },
     {
@@ -517,9 +494,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 99.47,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 101.47,
+      "relevanceScore": 122.44,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 124.44,
       "readingLevel": "beginner"
     },
     {
@@ -541,9 +518,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 99.27,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 101.77,
+      "relevanceScore": 122.24,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 124.74,
       "readingLevel": "advanced"
     },
     {
@@ -566,9 +543,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 95.9,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 95.9,
+      "relevanceScore": 118.87,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 118.87,
       "readingLevel": "advanced"
     },
     {
@@ -588,35 +565,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 96.6,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 98.6,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "VVMgYW5kIENoaW5h",
-      "title": "US and China agree to agree on a TikTok deal",
-      "link": "https://www.engadget.com/social-media/us-and-china-agree-to-agree-on-a-tiktok-deal-231254041.html?src=rss",
-      "description": "White House press secretary Karoline Leavitt said a TikTok deal is expected to be signed \"in the coming days,\" after President Donald Trump posted an update on Friday that did little to clarify where the deal currently stands following a call with Chinese President Xi Jinping. In a post on Truth Soc",
-      "pubDate": "2025-09-20T20:40:40.000Z",
-      "source": "Engadget",
-      "category": "social",
-      "weight": 6,
-      "content": "White House press secretary Karoline Leavitt said a TikTok deal is expected to be signed \"in the coming days,\" after President Donald Trump posted an update on Friday that did little to clarify where the deal currently stands following a call with Chinese President Xi Jinping. In a post on Truth Social, Trump said both that the two had \"made progress\" on \"approval of the TikTok Deal\" and that he \"appreciate[s] the TikTok approval.\" Trump also told reporters in the Oval Office that \"he approved t",
-      "author": "Karissa Bell",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Social",
-        "Update",
-        "Partnership"
-      ],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 97.4,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 97.4,
+      "relevanceScore": 119.57,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 121.57,
       "readingLevel": "advanced"
     },
     {
@@ -638,9 +589,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 97.74,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 98.24,
+      "relevanceScore": 120.71,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 121.21,
       "readingLevel": "intermediate"
     },
     {
@@ -663,9 +614,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 96.47,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 96.97,
+      "relevanceScore": 119.44,
+      "calculatedAt": "2025-09-21T04:48:48.188Z",
+      "recommendationScore": 119.94,
       "readingLevel": "beginner"
     },
     {
@@ -685,10 +636,36 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 97.2,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 98.7,
+      "relevanceScore": 120.17,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 121.67,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "VVMgYW5kIENoaW5h",
+      "title": "US and China agree to agree on a TikTok deal",
+      "link": "https://www.engadget.com/social-media/us-and-china-agree-to-agree-on-a-tiktok-deal-231254041.html?src=rss",
+      "description": "White House press secretary Karoline Leavitt said a TikTok deal is expected to be signed \"in the coming days,\" after President Donald Trump posted an update on Friday that did little to clarify where the deal currently stands following a call with Chinese President Xi Jinping. In a post on Truth Soc",
+      "pubDate": "2025-09-20T20:40:40.000Z",
+      "source": "Engadget",
+      "category": "social",
+      "weight": 6,
+      "content": "White House press secretary Karoline Leavitt said a TikTok deal is expected to be signed \"in the coming days,\" after President Donald Trump posted an update on Friday that did little to clarify where the deal currently stands following a call with Chinese President Xi Jinping. In a post on Truth Social, Trump said both that the two had \"made progress\" on \"approval of the TikTok Deal\" and that he \"appreciate[s] the TikTok approval.\" Trump also told reporters in the Oval Office that \"he approved t",
+      "author": "Karissa Bell",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Social",
+        "Update",
+        "Partnership"
+      ],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 120.37,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 120.37,
+      "readingLevel": "advanced"
     },
     {
       "id": "eEFJIGRlYnV0cyBh",
@@ -710,9 +687,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 95.66,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 96.16,
+      "relevanceScore": 118.63,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 119.13,
       "readingLevel": "advanced"
     },
     {
@@ -732,9 +709,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 93.58,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 93.58,
+      "relevanceScore": 116.55,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 116.55,
       "readingLevel": "advanced"
     },
     {
@@ -754,9 +731,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 92.36,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 92.86,
+      "relevanceScore": 115.33,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 115.83,
       "readingLevel": "advanced"
     },
     {
@@ -778,9 +755,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.87,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 32.87,
+      "relevanceScore": 30.84,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 32.84,
       "readingLevel": "intermediate"
     },
     {
@@ -802,9 +779,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.65,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 29.15,
+      "relevanceScore": 26.63,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 29.13,
       "readingLevel": "intermediate"
     },
     {
@@ -826,10 +803,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.57,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 31.07,
+      "relevanceScore": 30.54,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 31.04,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "8J+OiSBUaGFuayBZ",
+      "title": "🎉 Thank You for 4K Followers on Dev.to 🚀",
+      "link": "https://dev.to/pjdeveloper896/thank-you-for-4k-followers-on-devto-9jj",
+      "description": "🎉 Thank You for 4K Followers on Dev.to 🚀 I’m honestly so grateful right now — today we crossed 4,000 followers on Dev.to ! ✨ When I started writing here, I never thought my thoughts, experiments, and projects would connect with so many amazing developers, learners, and creators from all over the w",
+      "pubDate": "2025-09-21T04:37:26.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "🎉 Thank You for 4K Followers on Dev.to 🚀 I’m honestly so grateful right now — today we crossed 4,000 followers on Dev.to ! ✨ When I started writing here, I never thought my thoughts, experiments, and projects would connect with so many amazing developers, learners, and creators from all over the world. This milestone isn’t just a number — it’s a reminder that we’re building something bigger: 💡 Sharing knowledge 🤝 Supporting each other 🔥 Growing together Every comment, like, or even silent r",
+      "author": "Prasoon  Jadon ",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 24.96,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 24.96,
+      "readingLevel": "intermediate"
     },
     {
       "id": "QWZ0ZXIgY3V0cyB0",
@@ -850,9 +849,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.35,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 25.35,
+      "relevanceScore": 25.32,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 25.32,
       "readingLevel": "advanced"
     },
     {
@@ -872,9 +871,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.33,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 20.83,
+      "relevanceScore": 20.3,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 20.8,
       "readingLevel": "advanced"
     },
     {
@@ -897,9 +896,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.99,
-      "calculatedAt": "2025-09-21T04:40:07.372Z",
-      "recommendationScore": 22.49,
+      "relevanceScore": 21.96,
+      "calculatedAt": "2025-09-21T04:48:48.189Z",
+      "recommendationScore": 22.46,
       "readingLevel": "advanced"
     },
     {
@@ -921,9 +920,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.99,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 21.49,
+      "relevanceScore": 20.96,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 21.46,
       "readingLevel": "intermediate"
     },
     {
@@ -943,9 +942,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.09,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 24.59,
+      "relevanceScore": 23.06,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 24.56,
       "readingLevel": "intermediate"
     },
     {
@@ -965,9 +964,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.53,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 21.03,
+      "relevanceScore": 20.5,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 21,
       "readingLevel": "advanced"
     },
     {
@@ -987,9 +986,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.59,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 22.09,
+      "relevanceScore": 21.56,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 22.06,
       "readingLevel": "advanced"
     },
     {
@@ -1009,9 +1008,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.34,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 22.34,
+      "relevanceScore": 20.31,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 22.31,
       "readingLevel": "intermediate"
     },
     {
@@ -1034,9 +1033,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 19.88,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 20.38,
+      "relevanceScore": 19.85,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 20.35,
       "readingLevel": "advanced"
     },
     {
@@ -1056,9 +1055,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.64,
-      "calculatedAt": "2025-09-21T04:40:07.373Z",
-      "recommendationScore": 19.64,
+      "relevanceScore": 19.61,
+      "calculatedAt": "2025-09-21T04:48:48.190Z",
+      "recommendationScore": 19.61,
       "readingLevel": "advanced"
     }
   ],
@@ -1066,8 +1065,8 @@
     "Engadget",
     "The Verge",
     "Dev.to",
-    "TechCrunch",
     "NPR Business",
+    "TechCrunch",
     "Wired",
     "BBC News",
     "Ars Technica",
@@ -1086,6 +1085,6 @@
     "world",
     "science"
   ],
-  "processedAt": "2025-09-21T04:40:07.383Z",
+  "processedAt": "2025-09-21T04:48:48.200Z",
   "processingVersion": "2.0"
 }
