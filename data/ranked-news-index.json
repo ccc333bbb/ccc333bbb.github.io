@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-22T23:35:52.230Z",
+  "lastUpdated": "2025-09-22T23:48:39.813Z",
   "totalArticles": 52,
   "categories": [
     "science",
@@ -10,14 +10,14 @@
     "gaming",
     "startup",
     "finance",
+    "development",
     "health",
-    "general",
     "business",
-    "cybersecurity",
-    "social",
-    "world",
+    "general",
     "space",
-    "development"
+    "cybersecurity",
+    "world",
+    "social"
   ],
   "topArticles": [
     {
@@ -26,8 +26,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-09-22T11:00:00.000Z",
-      "relevanceScore": 747.48,
-      "recommendationScore": 747.98,
+      "relevanceScore": 754.44,
+      "recommendationScore": 754.94,
       "tags": [
         "Business",
         "Funding",
@@ -41,12 +41,25 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-09-22T21:32:31.000Z",
-      "relevanceScore": 637.59,
-      "recommendationScore": 638.59,
+      "relevanceScore": 566.55,
+      "recommendationScore": 567.55,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Building CardOS: An AI-Powered Credit Pre-Approval System on Google Kubernetes Engine",
+      "link": "https://dev.to/amelia751/building-cardos-an-ai-powered-credit-pre-approval-system-on-google-kubernetes-engine-hn8",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-09-22T23:12:17.000Z",
+      "relevanceScore": 547.88,
+      "recommendationScore": 548.38,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Facebook adds an AI assistant to its dating app",
@@ -54,8 +67,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-09-22T22:57:54.000Z",
-      "relevanceScore": 523.87,
-      "recommendationScore": 523.87,
+      "relevanceScore": 449.83,
+      "recommendationScore": 449.83,
       "tags": [
         "AI",
         "Mobile",
@@ -69,22 +82,9 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-22T17:14:07.000Z",
-      "relevanceScore": 507.73,
-      "recommendationScore": 507.73,
+      "relevanceScore": 425.68,
+      "recommendationScore": 425.68,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Building CardOS: An AI-Powered Credit Pre-Approval System on Google Kubernetes Engine",
-      "link": "https://dev.to/amelia751/building-cardos-an-ai-powered-credit-pre-approval-system-on-google-kubernetes-engine-hn8",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-09-22T23:12:17.000Z",
-      "relevanceScore": 455.92,
-      "recommendationScore": 456.42,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -93,23 +93,9 @@
       "source": "Dev.to",
       "category": "cloud",
       "pubDate": "2025-09-22T23:11:28.000Z",
-      "relevanceScore": 409.42,
-      "recommendationScore": 411.42,
+      "relevanceScore": 413.38,
+      "recommendationScore": 415.38,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "$3,800 Flights and Aborted Takeoffs: How Trump’s H-1B Announcement Panicked Tech Workers",
-      "link": "https://www.wired.com/story/dollar3800-flights-and-aborted-takeoffs-how-trumps-h-1b-announcement-panicked-tech-workers/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-09-22T14:55:48.000Z",
-      "relevanceScore": 396.27,
-      "recommendationScore": 398.27,
-      "tags": [
-        "Tech",
-        "Regulation"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -118,10 +104,24 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-09-22T21:52:39.000Z",
-      "relevanceScore": 392.66,
-      "recommendationScore": 392.66,
+      "relevanceScore": 401.61,
+      "recommendationScore": 401.61,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "$3,800 Flights and Aborted Takeoffs: How Trump’s H-1B Announcement Panicked Tech Workers",
+      "link": "https://www.wired.com/story/dollar3800-flights-and-aborted-takeoffs-how-trumps-h-1b-announcement-panicked-tech-workers/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-09-22T14:55:48.000Z",
+      "relevanceScore": 398.22,
+      "recommendationScore": 400.22,
+      "tags": [
+        "Tech",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -131,12 +131,23 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-09-22T23:12:56.000Z",
-      "relevanceScore": 366.92,
-      "recommendationScore": 367.42,
+      "relevanceScore": 288.88,
+      "recommendationScore": 289.38,
       "tags": [
         "AI",
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Disney reinstates Jimmy Kimmel after backlash over capitulation to FCC",
+      "link": "https://www.reddit.com/r/technology/comments/1nnyney/disney_reinstates_jimmy_kimmel_after_backlash/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-09-22T21:07:49.000Z",
+      "relevanceScore": 255.46,
+      "recommendationScore": 255.96,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -145,8 +156,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-09-22T16:33:00.000Z",
-      "relevanceScore": 340.59,
-      "recommendationScore": 342.59,
+      "relevanceScore": 215.55,
+      "recommendationScore": 217.55,
       "tags": [
         "AI"
       ],
@@ -158,12 +169,60 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-09-22T05:48:49.000Z",
-      "relevanceScore": 265.44,
-      "recommendationScore": 265.94,
+      "relevanceScore": 185.4,
+      "recommendationScore": 185.9,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "This medical startup uses LLMs to run appointments and make diagnoses",
+      "link": "https://www.technologyreview.com/2025/09/22/1123873/medical-diagnosis-llm/",
+      "source": "MIT Technology Review",
+      "category": "startup",
+      "pubDate": "2025-09-22T09:10:47.000Z",
+      "relevanceScore": 184.57,
+      "recommendationScore": 185.07,
+      "tags": [
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump's Federal Reserve appointee seeks steeper rate cuts",
+      "link": "https://abcnews.go.com/Business/wireStory/trump-appointee-federal-reserve-calls-steeper-rate-cuts-125820346",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-09-22T17:47:42.000Z",
+      "relevanceScore": 176.3,
+      "recommendationScore": 176.8,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+      "link": "https://www.reddit.com/r/programming/comments/1nnnvlo/how_i_a_nondeveloper_read_the_tutorial_you_a/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-09-22T14:23:52.000Z",
+      "relevanceScore": 175.12,
+      "recommendationScore": 177.12,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump escalates crackdown by designating ‘Antifa’ a domestic terror group",
+      "link": "https://www.theverge.com/news/783158/antifa-domestic-terror-designation-donald-trump",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-09-22T23:27:44.000Z",
+      "relevanceScore": 169.43,
+      "recommendationScore": 169.93,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Rand Paul and Ted Cruz slam FCC Chairman Carr’s attack on Jimmy Kimmel: \"Absolutely inappropriate. Brendan Carr has got no business weighing in on this.\"",
@@ -171,8 +230,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-09-22T19:36:51.000Z",
-      "relevanceScore": 237.2,
-      "recommendationScore": 237.2,
+      "relevanceScore": 157.16,
+      "recommendationScore": 157.16,
       "tags": [
         "Business"
       ],
@@ -184,8 +243,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-22T20:15:32.000Z",
-      "relevanceScore": 235.33,
-      "recommendationScore": 237.33,
+      "relevanceScore": 152.29,
+      "recommendationScore": 154.29,
       "tags": [
         "AI"
       ],
@@ -197,8 +256,8 @@
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2025-09-22T16:39:27.000Z",
-      "relevanceScore": 233.61,
-      "recommendationScore": 234.11,
+      "relevanceScore": 150.57,
+      "recommendationScore": 151.07,
       "tags": [
         "Mobile",
         "Social",
@@ -207,50 +266,28 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "This medical startup uses LLMs to run appointments and make diagnoses",
-      "link": "https://www.technologyreview.com/2025/09/22/1123873/medical-diagnosis-llm/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2025-09-22T09:10:47.000Z",
-      "relevanceScore": 223.62,
-      "recommendationScore": 224.12,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Disney reinstates Jimmy Kimmel after backlash over capitulation to FCC",
-      "link": "https://www.reddit.com/r/technology/comments/1nnyney/disney_reinstates_jimmy_kimmel_after_backlash/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-09-22T21:07:49.000Z",
-      "relevanceScore": 205.01,
-      "recommendationScore": 205.51,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump's Federal Reserve appointee seeks steeper rate cuts",
-      "link": "https://abcnews.go.com/Business/wireStory/trump-appointee-federal-reserve-calls-steeper-rate-cuts-125820346",
-      "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2025-09-22T17:47:42.000Z",
-      "relevanceScore": 202.84,
-      "recommendationScore": 203.34,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "The Unbreachable Resort: When Php Back End Goes to Therapy with GDPR, PCI DSS and HIPAA -> part one",
       "link": "https://dev.to/igornosatov_15/the-unbreachable-resort-when-php-back-end-goes-to-therapy-with-gdpr-pci-dss-and-hipaa1-part-47ea",
       "source": "Dev.to",
       "category": "health",
       "pubDate": "2025-09-22T23:18:37.000Z",
-      "relevanceScore": 147.94,
-      "recommendationScore": 148.44,
+      "relevanceScore": 148.9,
+      "recommendationScore": 149.4,
       "tags": [
         "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Top economists and Jerome Powell agree that Gen Z’s hiring nightmare is real—and it’s not about AI eating entry-level jobs",
+      "link": "https://www.reddit.com/r/technology/comments/1nnq9u9/top_economists_and_jerome_powell_agree_that_gen/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-09-22T15:53:41.000Z",
+      "relevanceScore": 108.42,
+      "recommendationScore": 109.42,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -260,12 +297,34 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-22T22:37:26.000Z",
-      "relevanceScore": 144.81,
-      "recommendationScore": 146.81,
+      "relevanceScore": 99.76,
+      "recommendationScore": 101.76,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The Supreme Court will hear former FTC commissioner Rebecca Slaughter's case",
+      "link": "https://www.engadget.com/the-supreme-court-will-hear-former-ftc-commissioner-rebecca-slaughters-case-203200530.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-09-22T20:32:00.000Z",
+      "relevanceScore": 86.84,
+      "recommendationScore": 87.34,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Jimmy Kimmel will be back on air on Tuesday, Disney says",
+      "link": "https://www.npr.org/2025/09/22/nx-s1-5550330/jimmy-kimmel-back-suspended-disney-trump",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-22T20:55:00.000Z",
+      "relevanceScore": 59.92,
+      "recommendationScore": 60.42,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Duchess of York dropped from multiple charities over Epstein email",
@@ -273,23 +332,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-22T22:40:48.000Z",
-      "relevanceScore": 142.32,
-      "recommendationScore": 142.82,
+      "relevanceScore": 58.27,
+      "recommendationScore": 58.77,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Top economists and Jerome Powell agree that Gen Z’s hiring nightmare is real—and it’s not about AI eating entry-level jobs",
-      "link": "https://www.reddit.com/r/technology/comments/1nnq9u9/top_economists_and_jerome_powell_agree_that_gen/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-09-22T15:53:41.000Z",
-      "relevanceScore": 141.96,
-      "recommendationScore": 142.96,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
+      "title": "NASA names 24th astronaut class, including prior SpaceX crew member",
+      "link": "https://arstechnica.com/space/2025/09/nasa-names-24th-astronaut-class-including-prior-spacex-crew-member/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2025-09-22T22:18:07.000Z",
+      "relevanceScore": 56.7,
+      "recommendationScore": 57.2,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "iFixit tears down the iPhone Air, finds that it’s mostly battery",
@@ -297,8 +354,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-09-22T21:25:18.000Z",
-      "relevanceScore": 139.56,
-      "recommendationScore": 140.06,
+      "relevanceScore": 56.52,
+      "recommendationScore": 57.02,
       "tags": [
         "Mobile"
       ],
@@ -310,32 +367,21 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-22T18:10:01.000Z",
-      "relevanceScore": 138.91,
-      "recommendationScore": 138.91,
+      "relevanceScore": 55.87,
+      "recommendationScore": 55.87,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Jimmy Kimmel will be back on air on Tuesday, Disney says",
-      "link": "https://www.npr.org/2025/09/22/nx-s1-5550330/jimmy-kimmel-back-suspended-disney-trump",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-09-22T20:55:00.000Z",
-      "relevanceScore": 137.96,
-      "recommendationScore": 138.46,
+      "title": "How the simmering row over freedom of speech reached boiling point",
+      "link": "https://www.bbc.com/news/articles/c62ln7mzd5ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-09-22T23:00:07.000Z",
+      "relevanceScore": 31.84,
+      "recommendationScore": 33.84,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump ramps up retribution campaign with push for Bondi to pursue cases against his foes",
-      "link": "https://abcnews.go.com/Business/wireStory/trump-ramps-retribution-campaign-push-bondi-pursue-cases-125791820",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-09-22T07:20:55.000Z",
-      "relevanceScore": 120.75,
-      "recommendationScore": 121.25,
-      "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
     },
     {
       "title": "Jimmy Kimmel show to return after suspension over Charlie Kirk comments",
@@ -343,8 +389,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-22T22:12:14.000Z",
-      "relevanceScore": 115.72,
-      "recommendationScore": 117.72,
+      "relevanceScore": 31.68,
+      "recommendationScore": 33.68,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -354,8 +400,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-22T22:00:47.000Z",
-      "relevanceScore": 115.68,
-      "recommendationScore": 117.68,
+      "relevanceScore": 31.64,
+      "recommendationScore": 33.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -365,9 +411,24 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-22T21:15:42.000Z",
-      "relevanceScore": 115.53,
-      "recommendationScore": 115.53,
+      "relevanceScore": 31.49,
+      "recommendationScore": 31.49,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Mirror founder Brynn Putnam to unveil her gaming hardware startup at TechCrunch Disrupt 2025",
+      "link": "https://techcrunch.com/2025/09/22/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-09-22T22:38:23.000Z",
+      "relevanceScore": 27.77,
+      "recommendationScore": 28.27,
+      "tags": [
+        "Tech",
+        "Startup",
+        "Launch"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -376,8 +437,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-22T12:10:00.000Z",
-      "relevanceScore": 111.71,
-      "recommendationScore": 114.21,
+      "relevanceScore": 27.67,
+      "recommendationScore": 30.17,
       "tags": [
         "Tech",
         "Startup",
@@ -391,8 +452,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-22T20:27:06.000Z",
-      "relevanceScore": 111.37,
-      "recommendationScore": 111.37,
+      "relevanceScore": 27.33,
+      "recommendationScore": 27.33,
       "tags": [
         "AI",
         "Social"
@@ -400,149 +461,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Steam game removed after cryptostealer takes over $150K",
-      "link": "https://www.theverge.com/news/782993/steam-blockblasters-crypto-scam-malware",
-      "source": "The Verge",
-      "category": "cybersecurity",
-      "pubDate": "2025-09-22T20:23:12.000Z",
-      "relevanceScore": 109.36,
-      "recommendationScore": 109.86,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Gartner positions GitHub as a Leader in the 2025 Magic Quadrant for AI Code Assistants for the second year in a row",
-      "link": "https://github.blog/ai-and-ml/github-copilot/gartner-positions-github-as-a-leader-in-the-2025-magic-quadrant-for-ai-code-assistants-for-the-second-year-in-a-row/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-09-22T18:24:17.000Z",
-      "relevanceScore": 108.96,
-      "recommendationScore": 108.96,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Should You Subscribe to Garmin Connect+? (2025)",
-      "link": "https://www.wired.com/story/should-you-subscribe-to-garmin-connect/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-09-22T13:00:00.000Z",
-      "relevanceScore": 107.88,
-      "recommendationScore": 107.88,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "EU cyber agency says airport software held to ransom by criminals",
-      "link": "https://www.bbc.com/news/articles/cqjeej85452o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2025-09-22T09:58:16.000Z",
-      "relevanceScore": 107.27,
-      "recommendationScore": 107.77,
-      "tags": [
-        "Tech",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Murdochs likely to be involved in US TikTok deal, Trump says",
-      "link": "https://www.bbc.com/news/articles/crkjjv28ykjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2025-09-21T21:35:04.000Z",
-      "relevanceScore": 104.8,
-      "recommendationScore": 105.3,
-      "tags": [
-        "Social",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1306, Part 1 (Thread #1453)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1nncl0r/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-09-22T04:02:39.000Z",
-      "relevanceScore": 104.09,
-      "recommendationScore": 106.59,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump escalates crackdown by designating ‘Antifa’ a domestic terror group",
-      "link": "https://www.theverge.com/news/783158/antifa-domestic-terror-designation-donald-trump",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-09-22T23:27:44.000Z",
-      "relevanceScore": 79.97,
-      "recommendationScore": 80.47,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Supreme Court will hear former FTC commissioner Rebecca Slaughter's case",
-      "link": "https://www.engadget.com/the-supreme-court-will-hear-former-ftc-commissioner-rebecca-slaughters-case-203200530.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-09-22T20:32:00.000Z",
-      "relevanceScore": 79.89,
-      "recommendationScore": 80.39,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "NASA names 24th astronaut class, including prior SpaceX crew member",
-      "link": "https://arstechnica.com/space/2025/09/nasa-names-24th-astronaut-class-including-prior-spacex-crew-member/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2025-09-22T22:18:07.000Z",
-      "relevanceScore": 55.74,
-      "recommendationScore": 56.24,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How the simmering row over freedom of speech reached boiling point",
-      "link": "https://www.bbc.com/news/articles/c62ln7mzd5ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-09-22T23:00:07.000Z",
-      "relevanceScore": 31.88,
-      "recommendationScore": 33.88,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Mirror founder Brynn Putnam to unveil her gaming hardware startup at TechCrunch Disrupt 2025",
-      "link": "https://techcrunch.com/2025/09/22/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-09-22T22:38:23.000Z",
-      "relevanceScore": 27.81,
-      "recommendationScore": 28.31,
-      "tags": [
-        "Tech",
-        "Startup",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Stellantis cancels plans for an electrified Jeep Gladiator",
       "link": "https://techcrunch.com/2025/09/22/stellantis-cancels-plans-for-an-electrified-jeep-gladiator/",
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-09-22T20:23:46.000Z",
-      "relevanceScore": 27.36,
-      "recommendationScore": 27.86,
+      "relevanceScore": 27.32,
+      "recommendationScore": 27.82,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -552,8 +477,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-09-22T19:15:00.000Z",
-      "relevanceScore": 27.13,
-      "recommendationScore": 29.13,
+      "relevanceScore": 27.09,
+      "recommendationScore": 29.09,
       "tags": [
         "Interview"
       ],
@@ -565,8 +490,8 @@
       "source": "NPR Business",
       "category": "cybersecurity",
       "pubDate": "2025-09-22T16:44:55.000Z",
-      "relevanceScore": 26.63,
-      "recommendationScore": 27.13,
+      "relevanceScore": 26.59,
+      "recommendationScore": 27.09,
       "tags": [
         "Tech",
         "Security",
@@ -581,9 +506,47 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2025-09-22T22:05:29.000Z",
-      "relevanceScore": 25.7,
-      "recommendationScore": 26.2,
+      "relevanceScore": 25.66,
+      "recommendationScore": 26.16,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Steam game removed after cryptostealer takes over $150K",
+      "link": "https://www.theverge.com/news/782993/steam-blockblasters-crypto-scam-malware",
+      "source": "The Verge",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-22T20:23:12.000Z",
+      "relevanceScore": 25.32,
+      "recommendationScore": 25.82,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Gartner positions GitHub as a Leader in the 2025 Magic Quadrant for AI Code Assistants for the second year in a row",
+      "link": "https://github.blog/ai-and-ml/github-copilot/gartner-positions-github-as-a-leader-in-the-2025-magic-quadrant-for-ai-code-assistants-for-the-second-year-in-a-row/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-09-22T18:24:17.000Z",
+      "relevanceScore": 24.92,
+      "recommendationScore": 24.92,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Should You Subscribe to Garmin Connect+? (2025)",
+      "link": "https://www.wired.com/story/should-you-subscribe-to-garmin-connect/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-09-22T13:00:00.000Z",
+      "relevanceScore": 23.84,
+      "recommendationScore": 23.84,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -592,8 +555,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-22T11:58:26.000Z",
-      "relevanceScore": 23.68,
-      "recommendationScore": 24.18,
+      "relevanceScore": 23.63,
+      "recommendationScore": 24.13,
       "tags": [
         "Tech",
         "Business",
@@ -607,8 +570,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-09-22T21:30:14.000Z",
-      "relevanceScore": 23.58,
-      "recommendationScore": 25.58,
+      "relevanceScore": 23.54,
+      "recommendationScore": 25.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -618,9 +581,23 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-22T20:02:06.000Z",
-      "relevanceScore": 23.29,
-      "recommendationScore": 23.79,
+      "relevanceScore": 23.24,
+      "recommendationScore": 23.74,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "EU cyber agency says airport software held to ransom by criminals",
+      "link": "https://www.bbc.com/news/articles/cqjeej85452o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-22T09:58:16.000Z",
+      "relevanceScore": 23.23,
+      "recommendationScore": 23.73,
+      "tags": [
+        "Tech",
+        "Security"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -629,8 +606,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-22T19:37:26.000Z",
-      "relevanceScore": 23.21,
-      "recommendationScore": 23.71,
+      "relevanceScore": 23.16,
+      "recommendationScore": 23.66,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump ramps up retribution campaign with push for Bondi to pursue cases against his foes",
+      "link": "https://abcnews.go.com/Business/wireStory/trump-ramps-retribution-campaign-push-bondi-pursue-cases-125791820",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-09-22T07:20:55.000Z",
+      "relevanceScore": 22.71,
+      "recommendationScore": 23.21,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -640,9 +628,23 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-22T20:39:01.000Z",
-      "relevanceScore": 21.41,
-      "recommendationScore": 22.41,
+      "relevanceScore": 21.37,
+      "recommendationScore": 22.37,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Murdochs likely to be involved in US TikTok deal, Trump says",
+      "link": "https://www.bbc.com/news/articles/crkjjv28ykjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2025-09-21T21:35:04.000Z",
+      "relevanceScore": 20.75,
+      "recommendationScore": 21.25,
+      "tags": [
+        "Social",
+        "Partnership"
+      ],
       "readingLevel": "intermediate"
     }
   ],
@@ -653,7 +655,7 @@
         "link": "https://www.technologyreview.com/2025/09/22/1123870/commonwealth-fusion-eni/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-22T11:00:00.000Z",
-        "relevanceScore": 747.48,
+        "relevanceScore": 754.44,
         "tags": [
           "Business",
           "Funding",
@@ -667,7 +669,7 @@
         "link": "https://www.theverge.com/23618862/best-iphone-camera-battery-screen-guide",
         "source": "The Verge",
         "pubDate": "2025-09-22T21:32:31.000Z",
-        "relevanceScore": 637.59,
+        "relevanceScore": 566.55,
         "tags": [
           "Mobile"
         ]
@@ -677,7 +679,7 @@
         "link": "https://www.bbc.com/news/articles/c4gj7mlg9vdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-22T16:39:27.000Z",
-        "relevanceScore": 233.61,
+        "relevanceScore": 150.57,
         "tags": [
           "Mobile",
           "Social",
@@ -689,7 +691,7 @@
         "link": "https://arstechnica.com/gadgets/2025/09/iphone-air-teardown-reveals-a-phone-thats-more-durable-repairable-than-expected/",
         "source": "Ars Technica",
         "pubDate": "2025-09-22T21:25:18.000Z",
-        "relevanceScore": 139.56,
+        "relevanceScore": 56.52,
         "tags": [
           "Mobile"
         ]
@@ -699,17 +701,27 @@
         "link": "https://www.engadget.com/cybersecurity/vpn/heres-how-eventvpn-is-different-from-other-free-vpns-213014671.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-22T21:30:14.000Z",
-        "relevanceScore": 23.58,
+        "relevanceScore": 23.54,
         "tags": []
       }
     ],
     "ai-ml": [
       {
+        "title": "Building CardOS: An AI-Powered Credit Pre-Approval System on Google Kubernetes Engine",
+        "link": "https://dev.to/amelia751/building-cardos-an-ai-powered-credit-pre-approval-system-on-google-kubernetes-engine-hn8",
+        "source": "Dev.to",
+        "pubDate": "2025-09-22T23:12:17.000Z",
+        "relevanceScore": 547.88,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "Facebook adds an AI assistant to its dating app",
         "link": "https://www.engadget.com/social-media/facebook-adds-an-ai-assistant-to-its-dating-app-225754544.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-22T22:57:54.000Z",
-        "relevanceScore": 523.87,
+        "relevanceScore": 449.83,
         "tags": [
           "AI",
           "Mobile",
@@ -717,21 +729,11 @@
         ]
       },
       {
-        "title": "Building CardOS: An AI-Powered Credit Pre-Approval System on Google Kubernetes Engine",
-        "link": "https://dev.to/amelia751/building-cardos-an-ai-powered-credit-pre-approval-system-on-google-kubernetes-engine-hn8",
-        "source": "Dev.to",
-        "pubDate": "2025-09-22T23:12:17.000Z",
-        "relevanceScore": 455.92,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
         "title": "The AI-energy apocalypse might be a little overblown",
         "link": "https://www.theverge.com/report/782952/ai-electricity-demand-inflated-forecast-report",
         "source": "The Verge",
         "pubDate": "2025-09-22T23:12:56.000Z",
-        "relevanceScore": 366.92,
+        "relevanceScore": 288.88,
         "tags": [
           "AI",
           "Tech"
@@ -742,7 +744,7 @@
         "link": "https://github.blog/open-source/whats-next-for-git-20-years-in-the-community-is-still-pushing-forward/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-22T16:33:00.000Z",
-        "relevanceScore": 340.59,
+        "relevanceScore": 215.55,
         "tags": [
           "AI"
         ]
@@ -752,7 +754,7 @@
         "link": "https://techcrunch.com/2025/09/22/the-oakland-ballers-let-an-ai-manage-the-team-what-could-go-wrong/",
         "source": "TechCrunch",
         "pubDate": "2025-09-22T20:15:32.000Z",
-        "relevanceScore": 235.33,
+        "relevanceScore": 152.29,
         "tags": [
           "AI"
         ]
@@ -762,7 +764,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1nnq9u9/top_economists_and_jerome_powell_agree_that_gen/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-22T15:53:41.000Z",
-        "relevanceScore": 141.96,
+        "relevanceScore": 108.42,
         "tags": [
           "AI"
         ]
@@ -772,7 +774,7 @@
         "link": "https://www.technologyreview.com/2025/09/22/1123889/the-download-the-llm-will-see-you-now-and-a-new-fusion-power-deal/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-22T12:10:00.000Z",
-        "relevanceScore": 111.71,
+        "relevanceScore": 27.67,
         "tags": [
           "Tech",
           "Startup",
@@ -784,7 +786,7 @@
         "link": "https://techcrunch.com/2025/09/22/facebook-is-getting-an-ai-dating-assistant/",
         "source": "TechCrunch",
         "pubDate": "2025-09-22T20:27:06.000Z",
-        "relevanceScore": 111.37,
+        "relevanceScore": 27.33,
         "tags": [
           "AI",
           "Social"
@@ -795,7 +797,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/gartner-positions-github-as-a-leader-in-the-2025-magic-quadrant-for-ai-code-assistants-for-the-second-year-in-a-row/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-22T18:24:17.000Z",
-        "relevanceScore": 108.96,
+        "relevanceScore": 24.92,
         "tags": [
           "AI",
           "Tech"
@@ -806,7 +808,7 @@
         "link": "https://www.wired.com/story/should-you-subscribe-to-garmin-connect/",
         "source": "Wired",
         "pubDate": "2025-09-22T13:00:00.000Z",
-        "relevanceScore": 107.88,
+        "relevanceScore": 23.84,
         "tags": [
           "AI"
         ]
@@ -818,7 +820,7 @@
         "link": "https://www.wired.com/story/uncanny-valley-podcast-wired-roundup-the-right-embraces-cancel-culture/",
         "source": "Wired",
         "pubDate": "2025-09-22T17:14:07.000Z",
-        "relevanceScore": 507.73,
+        "relevanceScore": 425.68,
         "tags": []
       },
       {
@@ -826,30 +828,10 @@
         "link": "https://www.wired.com/story/dollar3800-flights-and-aborted-takeoffs-how-trumps-h-1b-announcement-panicked-tech-workers/",
         "source": "Wired",
         "pubDate": "2025-09-22T14:55:48.000Z",
-        "relevanceScore": 396.27,
+        "relevanceScore": 398.22,
         "tags": [
           "Tech",
           "Regulation"
-        ]
-      },
-      {
-        "title": "Apple steps up war of words with European regulators",
-        "link": "https://www.bbc.com/news/articles/cly930y90lro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-22T05:48:49.000Z",
-        "relevanceScore": 265.44,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Rand Paul and Ted Cruz slam FCC Chairman Carr’s attack on Jimmy Kimmel: \"Absolutely inappropriate. Brendan Carr has got no business weighing in on this.\"",
-        "link": "https://www.reddit.com/r/technology/comments/1nnw9pz/rand_paul_and_ted_cruz_slam_fcc_chairman_carrs/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-09-22T19:36:51.000Z",
-        "relevanceScore": 237.2,
-        "tags": [
-          "Business"
         ]
       },
       {
@@ -857,41 +839,61 @@
         "link": "https://www.reddit.com/r/technology/comments/1nnyney/disney_reinstates_jimmy_kimmel_after_backlash/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-22T21:07:49.000Z",
-        "relevanceScore": 205.01,
+        "relevanceScore": 255.46,
         "tags": []
       },
       {
-        "title": "How to fight censorship, one Disney+ cancellation at a time",
-        "link": "https://arstechnica.com/culture/2025/09/kimmel-censorship-fiasco-shows-that-protests-still-matter-and-can-still-work/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-22T22:37:26.000Z",
-        "relevanceScore": 144.81,
+        "title": "Apple steps up war of words with European regulators",
+        "link": "https://www.bbc.com/news/articles/cly930y90lro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-22T05:48:49.000Z",
+        "relevanceScore": 185.4,
         "tags": [
-          "Tutorial"
+          "Tech"
         ]
-      },
-      {
-        "title": "Save $36 on a Cool, Compact Hall Effect Keyboard",
-        "link": "https://www.wired.com/story/keychron-q1-he-deal/",
-        "source": "Wired",
-        "pubDate": "2025-09-22T18:10:01.000Z",
-        "relevanceScore": 138.91,
-        "tags": []
       },
       {
         "title": "Trump escalates crackdown by designating ‘Antifa’ a domestic terror group",
         "link": "https://www.theverge.com/news/783158/antifa-domestic-terror-designation-donald-trump",
         "source": "The Verge",
         "pubDate": "2025-09-22T23:27:44.000Z",
-        "relevanceScore": 79.97,
+        "relevanceScore": 169.43,
         "tags": []
+      },
+      {
+        "title": "Rand Paul and Ted Cruz slam FCC Chairman Carr’s attack on Jimmy Kimmel: \"Absolutely inappropriate. Brendan Carr has got no business weighing in on this.\"",
+        "link": "https://www.reddit.com/r/technology/comments/1nnw9pz/rand_paul_and_ted_cruz_slam_fcc_chairman_carrs/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-22T19:36:51.000Z",
+        "relevanceScore": 157.16,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "How to fight censorship, one Disney+ cancellation at a time",
+        "link": "https://arstechnica.com/culture/2025/09/kimmel-censorship-fiasco-shows-that-protests-still-matter-and-can-still-work/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-22T22:37:26.000Z",
+        "relevanceScore": 99.76,
+        "tags": [
+          "Tutorial"
+        ]
       },
       {
         "title": "The Supreme Court will hear former FTC commissioner Rebecca Slaughter's case",
         "link": "https://www.engadget.com/the-supreme-court-will-hear-former-ftc-commissioner-rebecca-slaughters-case-203200530.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-22T20:32:00.000Z",
-        "relevanceScore": 79.89,
+        "relevanceScore": 86.84,
+        "tags": []
+      },
+      {
+        "title": "Save $36 on a Cool, Compact Hall Effect Keyboard",
+        "link": "https://www.wired.com/story/keychron-q1-he-deal/",
+        "source": "Wired",
+        "pubDate": "2025-09-22T18:10:01.000Z",
+        "relevanceScore": 55.87,
         "tags": []
       },
       {
@@ -899,7 +901,7 @@
         "link": "https://techcrunch.com/2025/09/22/stellantis-cancels-plans-for-an-electrified-jeep-gladiator/",
         "source": "TechCrunch",
         "pubDate": "2025-09-22T20:23:46.000Z",
-        "relevanceScore": 27.36,
+        "relevanceScore": 27.32,
         "tags": []
       },
       {
@@ -907,7 +909,7 @@
         "link": "https://techcrunch.com/2025/09/22/from-idea-to-first-check-raising-pre-seed-and-seed-capital-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-09-22T19:15:00.000Z",
-        "relevanceScore": 27.13,
+        "relevanceScore": 27.09,
         "tags": [
           "Interview"
         ]
@@ -919,7 +921,7 @@
         "link": "https://dev.to/arbythecoder/why-i-avoided-kubernetes-for-2-years-spoiler-bad-idea-179k",
         "source": "Dev.to",
         "pubDate": "2025-09-22T23:11:28.000Z",
-        "relevanceScore": 409.42,
+        "relevanceScore": 413.38,
         "tags": []
       }
     ],
@@ -929,7 +931,7 @@
         "link": "https://www.engadget.com/deals/the-lcd-steam-deck-is-20-percent-off-right-now-215238765.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-22T21:52:39.000Z",
-        "relevanceScore": 392.66,
+        "relevanceScore": 401.61,
         "tags": [
           "Tech"
         ]
@@ -941,7 +943,7 @@
         "link": "https://www.technologyreview.com/2025/09/22/1123873/medical-diagnosis-llm/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-22T09:10:47.000Z",
-        "relevanceScore": 223.62,
+        "relevanceScore": 184.57,
         "tags": [
           "Startup"
         ]
@@ -951,7 +953,7 @@
         "link": "https://techcrunch.com/2025/09/22/mirror-founder-brynn-putnam-to-unveil-her-gaming-hardware-startup-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-09-22T22:38:23.000Z",
-        "relevanceScore": 27.81,
+        "relevanceScore": 27.77,
         "tags": [
           "Tech",
           "Startup",
@@ -965,7 +967,35 @@
         "link": "https://abcnews.go.com/Business/wireStory/trump-appointee-federal-reserve-calls-steeper-rate-cuts-125820346",
         "source": "ABC News Business",
         "pubDate": "2025-09-22T17:47:42.000Z",
-        "relevanceScore": 202.84,
+        "relevanceScore": 176.3,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
+        "link": "https://www.reddit.com/r/programming/comments/1nnnvlo/how_i_a_nondeveloper_read_the_tutorial_you_a/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-22T14:23:52.000Z",
+        "relevanceScore": 175.12,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "@ts-ignore is almost always the worst option",
+        "link": "https://www.reddit.com/r/programming/comments/1nnxwul/tsignore_is_almost_always_the_worst_option/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-22T20:39:01.000Z",
+        "relevanceScore": 21.37,
+        "tags": []
+      },
+      {
+        "title": "Dear GitHub: no YAML anchors, please",
+        "link": "https://www.reddit.com/r/programming/comments/1nno8qn/dear_github_no_yaml_anchors_please/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-22T14:37:54.000Z",
+        "relevanceScore": 20.16,
         "tags": []
       }
     ],
@@ -975,7 +1005,7 @@
         "link": "https://dev.to/igornosatov_15/the-unbreachable-resort-when-php-back-end-goes-to-therapy-with-gdpr-pci-dss-and-hipaa1-part-47ea",
         "source": "Dev.to",
         "pubDate": "2025-09-22T23:18:37.000Z",
-        "relevanceScore": 147.94,
+        "relevanceScore": 148.9,
         "tags": [
           "Regulation"
         ]
@@ -985,49 +1015,7 @@
         "link": "https://arstechnica.com/health/2025/09/anti-vaccine-groups-melt-down-over-reports-rfk-jr-to-link-autism-to-tylenol/",
         "source": "Ars Technica",
         "pubDate": "2025-09-22T22:05:29.000Z",
-        "relevanceScore": 25.7,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Duchess of York dropped from multiple charities over Epstein email",
-        "link": "https://www.bbc.com/news/articles/cddmr6v0jpzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-22T22:40:48.000Z",
-        "relevanceScore": 142.32,
-        "tags": []
-      },
-      {
-        "title": "Jimmy Kimmel show to return after suspension over Charlie Kirk comments",
-        "link": "https://www.bbc.com/news/articles/c701jr01dj2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-22T22:12:14.000Z",
-        "relevanceScore": 115.72,
-        "tags": []
-      },
-      {
-        "title": "New GPs rule after 27-year-old's cancer missed",
-        "link": "https://www.bbc.com/news/articles/cly0428jjpeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-22T22:00:47.000Z",
-        "relevanceScore": 115.68,
-        "tags": []
-      },
-      {
-        "title": "France formally recognises Palestinian state",
-        "link": "https://www.bbc.com/news/articles/cd9ykqw22zlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-22T21:15:42.000Z",
-        "relevanceScore": 115.53,
-        "tags": []
-      },
-      {
-        "title": "How the simmering row over freedom of speech reached boiling point",
-        "link": "https://www.bbc.com/news/articles/c62ln7mzd5ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-22T23:00:07.000Z",
-        "relevanceScore": 31.88,
+        "relevanceScore": 25.66,
         "tags": []
       }
     ],
@@ -1037,15 +1025,7 @@
         "link": "https://www.npr.org/2025/09/22/nx-s1-5550330/jimmy-kimmel-back-suspended-disney-trump",
         "source": "NPR Business",
         "pubDate": "2025-09-22T20:55:00.000Z",
-        "relevanceScore": 137.96,
-        "tags": []
-      },
-      {
-        "title": "Trump ramps up retribution campaign with push for Bondi to pursue cases against his foes",
-        "link": "https://abcnews.go.com/Business/wireStory/trump-ramps-retribution-campaign-push-bondi-pursue-cases-125791820",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-22T07:20:55.000Z",
-        "relevanceScore": 120.75,
+        "relevanceScore": 59.92,
         "tags": []
       },
       {
@@ -1053,84 +1033,61 @@
         "link": "https://abcnews.go.com/Business/wireStory/google-faces-antitrust-dj-vu-us-seeks-break-125809197",
         "source": "ABC News Business",
         "pubDate": "2025-09-22T11:58:26.000Z",
-        "relevanceScore": 23.68,
+        "relevanceScore": 23.63,
         "tags": [
           "Tech",
           "Business",
           "Web"
         ]
+      },
+      {
+        "title": "Trump ramps up retribution campaign with push for Bondi to pursue cases against his foes",
+        "link": "https://abcnews.go.com/Business/wireStory/trump-ramps-retribution-campaign-push-bondi-pursue-cases-125791820",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-22T07:20:55.000Z",
+        "relevanceScore": 22.71,
+        "tags": []
       }
     ],
-    "cybersecurity": [
+    "general": [
       {
-        "title": "Steam game removed after cryptostealer takes over $150K",
-        "link": "https://www.theverge.com/news/782993/steam-blockblasters-crypto-scam-malware",
-        "source": "The Verge",
-        "pubDate": "2025-09-22T20:23:12.000Z",
-        "relevanceScore": 109.36,
+        "title": "Duchess of York dropped from multiple charities over Epstein email",
+        "link": "https://www.bbc.com/news/articles/cddmr6v0jpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-22T22:40:48.000Z",
+        "relevanceScore": 58.27,
         "tags": []
       },
       {
-        "title": "EU cyber agency says airport software held to ransom by criminals",
-        "link": "https://www.bbc.com/news/articles/cqjeej85452o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-22T09:58:16.000Z",
-        "relevanceScore": 107.27,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      },
-      {
-        "title": "Deal for TikTok creates U.S. joint venture, and government won't have a stake",
-        "link": "https://www.npr.org/2025/09/22/nx-s1-5550152/tiktok-deal-joint-venture",
-        "source": "NPR Business",
-        "pubDate": "2025-09-22T16:44:55.000Z",
-        "relevanceScore": 26.63,
-        "tags": [
-          "Tech",
-          "Security",
-          "Startup",
-          "Partnership"
-        ]
-      }
-    ],
-    "social": [
-      {
-        "title": "Murdochs likely to be involved in US TikTok deal, Trump says",
-        "link": "https://www.bbc.com/news/articles/crkjjv28ykjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-21T21:35:04.000Z",
-        "relevanceScore": 104.8,
-        "tags": [
-          "Social",
-          "Partnership"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1306, Part 1 (Thread #1453)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1nncl0r/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-22T04:02:39.000Z",
-        "relevanceScore": 104.09,
+        "title": "How the simmering row over freedom of speech reached boiling point",
+        "link": "https://www.bbc.com/news/articles/c62ln7mzd5ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-22T23:00:07.000Z",
+        "relevanceScore": 31.84,
         "tags": []
       },
       {
-        "title": "Moscow comes under drone attack, explosions reported in nine districts",
-        "link": "https://www.reddit.com/r/worldnews/comments/1nnwxnm/moscow_comes_under_drone_attack_explosions/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-22T20:02:06.000Z",
-        "relevanceScore": 23.29,
+        "title": "Jimmy Kimmel show to return after suspension over Charlie Kirk comments",
+        "link": "https://www.bbc.com/news/articles/c701jr01dj2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-22T22:12:14.000Z",
+        "relevanceScore": 31.68,
         "tags": []
       },
       {
-        "title": "France recognizes State of Palestine, Macron declares at UN",
-        "link": "https://www.reddit.com/r/worldnews/comments/1nnwa9e/france_recognizes_state_of_palestine_macron/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-22T19:37:26.000Z",
-        "relevanceScore": 23.21,
+        "title": "New GPs rule after 27-year-old's cancer missed",
+        "link": "https://www.bbc.com/news/articles/cly0428jjpeo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-22T22:00:47.000Z",
+        "relevanceScore": 31.64,
+        "tags": []
+      },
+      {
+        "title": "France formally recognises Palestinian state",
+        "link": "https://www.bbc.com/news/articles/cd9ykqw22zlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-22T21:15:42.000Z",
+        "relevanceScore": 31.49,
         "tags": []
       }
     ],
@@ -1140,35 +1097,80 @@
         "link": "https://arstechnica.com/space/2025/09/nasa-names-24th-astronaut-class-including-prior-spacex-crew-member/",
         "source": "Ars Technica",
         "pubDate": "2025-09-22T22:18:07.000Z",
-        "relevanceScore": 55.74,
+        "relevanceScore": 56.7,
         "tags": []
       }
     ],
-    "development": [
+    "cybersecurity": [
       {
-        "title": "@ts-ignore is almost always the worst option",
-        "link": "https://www.reddit.com/r/programming/comments/1nnxwul/tsignore_is_almost_always_the_worst_option/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-09-22T20:39:01.000Z",
-        "relevanceScore": 21.41,
-        "tags": []
-      },
-      {
-        "title": "Dear GitHub: no YAML anchors, please",
-        "link": "https://www.reddit.com/r/programming/comments/1nno8qn/dear_github_no_yaml_anchors_please/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-09-22T14:37:54.000Z",
-        "relevanceScore": 20.21,
-        "tags": []
-      },
-      {
-        "title": "How I, a non-developer, read the tutorial you, a developer, wrote for me, a beginner",
-        "link": "https://www.reddit.com/r/programming/comments/1nnnvlo/how_i_a_nondeveloper_read_the_tutorial_you_a/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-09-22T14:23:52.000Z",
-        "relevanceScore": 20.16,
+        "title": "Deal for TikTok creates U.S. joint venture, and government won't have a stake",
+        "link": "https://www.npr.org/2025/09/22/nx-s1-5550152/tiktok-deal-joint-venture",
+        "source": "NPR Business",
+        "pubDate": "2025-09-22T16:44:55.000Z",
+        "relevanceScore": 26.59,
         "tags": [
-          "Tutorial"
+          "Tech",
+          "Security",
+          "Startup",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Steam game removed after cryptostealer takes over $150K",
+        "link": "https://www.theverge.com/news/782993/steam-blockblasters-crypto-scam-malware",
+        "source": "The Verge",
+        "pubDate": "2025-09-22T20:23:12.000Z",
+        "relevanceScore": 25.32,
+        "tags": []
+      },
+      {
+        "title": "EU cyber agency says airport software held to ransom by criminals",
+        "link": "https://www.bbc.com/news/articles/cqjeej85452o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-22T09:58:16.000Z",
+        "relevanceScore": 23.23,
+        "tags": [
+          "Tech",
+          "Security"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "Moscow comes under drone attack, explosions reported in nine districts",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nnwxnm/moscow_comes_under_drone_attack_explosions/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-22T20:02:06.000Z",
+        "relevanceScore": 23.24,
+        "tags": []
+      },
+      {
+        "title": "France recognizes State of Palestine, Macron declares at UN",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nnwa9e/france_recognizes_state_of_palestine_macron/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-22T19:37:26.000Z",
+        "relevanceScore": 23.16,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1306, Part 1 (Thread #1453)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nncl0r/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-22T04:02:39.000Z",
+        "relevanceScore": 20.05,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Murdochs likely to be involved in US TikTok deal, Trump says",
+        "link": "https://www.bbc.com/news/articles/crkjjv28ykjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-21T21:35:04.000Z",
+        "relevanceScore": 20.75,
+        "tags": [
+          "Social",
+          "Partnership"
         ]
       }
     ]
@@ -1176,7 +1178,7 @@
   "stats": {
     "totalSources": 15,
     "totalCategories": 16,
-    "avgRelevanceScore": 177.8024999999999,
+    "avgRelevanceScore": 142.52923076923076,
     "topCategories": [
       {
         "category": "tech",
@@ -1195,7 +1197,7 @@
         "count": 4
       },
       {
-        "category": "business",
+        "category": "development",
         "count": 3
       }
     ]
