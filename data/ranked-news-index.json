@@ -1,242 +1,56 @@
 {
-  "lastUpdated": "2025-09-24T18:19:20.618Z",
+  "lastUpdated": "2025-09-24T18:44:00.467Z",
   "totalArticles": 56,
   "categories": [
-    "tech",
-    "development",
-    "blockchain",
     "space",
-    "social",
-    "business",
-    "ai-ml",
-    "gaming",
-    "science",
-    "mobile",
-    "finance",
+    "cloud",
     "general",
     "world",
-    "entertainment",
+    "science",
+    "tech",
+    "blockchain",
+    "development",
+    "social",
+    "ai-ml",
     "cybersecurity",
-    "cloud",
-    "startup",
+    "entertainment",
     "automotive",
-    "health",
-    "education"
+    "finance",
+    "business",
+    "gaming",
+    "startup",
+    "mobile",
+    "health"
   ],
   "topArticles": [
-    {
-      "title": "Waymo is launching a new service for business travelers",
-      "link": "https://www.theverge.com/news/784929/waymo-for-business-corporate-travel-employer",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-09-24T18:15:07.000Z",
-      "relevanceScore": 1346.49,
-      "recommendationScore": 1348.99,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The history and future of software development (part 1)",
-      "link": "https://stackoverflow.blog/2025/09/24/the-history-and-future-of-software-development-part-1/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-09-24T14:00:00.000Z",
-      "relevanceScore": 1299.14,
-      "recommendationScore": 1299.64,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Despite past complications, crypto company Tether is ready for American debut",
-      "link": "https://www.npr.org/2025/09/23/nx-s1-5540038/despite-past-complications-crypto-company-tether-is-ready-for-american-debut",
-      "source": "NPR Business",
-      "category": "blockchain",
-      "pubDate": "2025-09-23T21:18:06.000Z",
-      "relevanceScore": 897.8,
-      "recommendationScore": 898.3,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "YouTube content creators contributed £2.2bn to UK economy in 2024",
-      "link": "https://www.bbc.com/news/articles/c0knpm6v36go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-09-24T09:03:45.000Z",
-      "relevanceScore": 893.65,
-      "recommendationScore": 894.15,
-      "tags": [
-        "Business",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
     {
       "title": "Meet the history-making Nasa astronauts headed for the Moon next year",
       "link": "https://www.bbc.com/news/articles/cvg0kv8rq0xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "space",
       "pubDate": "2025-09-24T16:20:53.000Z",
-      "relevanceScore": 819.61,
-      "recommendationScore": 820.11,
+      "relevanceScore": 1342.52,
+      "recommendationScore": 1343.02,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Jessica Chastain says she and Apple are &#8216;not aligned&#8217; on decision to halt The Savant",
-      "link": "https://www.theverge.com/news/784839/jessica-chastain-respone-the-savant-pause-apple-tv-plus",
-      "source": "The Verge",
-      "category": "social",
-      "pubDate": "2025-09-24T17:08:18.000Z",
-      "relevanceScore": 771.76,
-      "recommendationScore": 772.26,
+      "title": "Build Once, Deploy Everywhere: Deploying a .NET 8 API with Docker, AKS & GitHub Actions",
+      "link": "https://dev.to/ibrahimbioabu/build-once-deploy-everywhere-deploying-a-net-8-api-with-docker-aks-github-actions-4h4o",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-09-24T18:39:57.000Z",
+      "relevanceScore": 1100.49,
+      "recommendationScore": 1100.99,
       "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Kentucky distillery bounces back from massive flood that briefly halted bourbon production",
-      "link": "https://abcnews.go.com/Business/wireStory/kentucky-distillery-bounces-back-massive-flood-briefly-halted-125840891",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-09-23T06:08:50.000Z",
-      "relevanceScore": 618.76,
-      "recommendationScore": 619.26,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Just Let Me Select Text",
-      "link": "https://www.reddit.com/r/programming/comments/1nostrl/just_let_me_select_text/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-09-23T20:43:10.000Z",
-      "relevanceScore": 605.68,
-      "recommendationScore": 605.68,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Democratizing your data access with AI agents",
-      "link": "https://stackoverflow.blog/2025/09/23/democratizing-your-data-access-with-ai-agents/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-09-23T07:40:00.000Z",
-      "relevanceScore": 573.57,
-      "recommendationScore": 573.57,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Tylenol maker rebounds a day after Trump's unfounded claims about its safety",
-      "link": "https://abcnews.go.com/Business/wireStory/tylenol-maker-rebounds-day-after-trumps-unfounded-claims-125845812",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-09-23T13:10:28.000Z",
-      "relevanceScore": 548.67,
-      "recommendationScore": 549.17,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Meet the first person to own over 40,000 paid Steam games",
-      "link": "https://arstechnica.com/gaming/2025/09/meet-the-first-person-to-own-over-40000-paid-steam-games/",
-      "source": "Ars Technica",
-      "category": "gaming",
-      "pubDate": "2025-09-24T17:08:28.000Z",
-      "relevanceScore": 521.26,
-      "recommendationScore": 523.76,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Trump is pushing leucovorin as a new treatment for autism. What is it?",
-      "link": "https://www.technologyreview.com/2025/09/24/1124029/trump-leucovorin-autism-tylenol/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-09-24T11:56:32.000Z",
-      "relevanceScore": 516.72,
-      "recommendationScore": 520.72,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "These YC founders pivoted 5 times before building a social app that nabbed 300K users and over $1M ARR in 6 months",
-      "link": "https://techcrunch.com/2025/09/24/these-yc-founders-pivoted-5-times-before-building-a-social-app-that-nabbed-300k-users-and-over-1m-arr-in-6-months/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2025-09-24T17:00:51.000Z",
-      "relevanceScore": 515.74,
-      "recommendationScore": 515.74,
-      "tags": [
-        "Mobile",
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Examining Kimmel's brief suspension and Trump's threats to free speech",
-      "link": "https://www.npr.org/2025/09/24/nx-s1-5552132/examining-kimmels-brief-suspension-and-trumps-threats-to-free-speech",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-09-24T16:24:39.000Z",
-      "relevanceScore": 515.62,
-      "recommendationScore": 516.12,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Kimmel Says Effort to 'Cancel' Him 'Backfired Bigly': 'Release the Epstein Files to Distract Us'",
-      "link": "https://www.reddit.com/r/technology/comments/1npcq4k/kimmel_says_effort_to_cancel_him_backfired_bigly/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-09-24T13:52:18.000Z",
-      "relevanceScore": 509.11,
-      "recommendationScore": 509.61,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to build a GTM strategy that actually drives results at TechCrunch Disrupt 2025",
-      "link": "https://techcrunch.com/2025/09/24/how-to-build-a-gtm-strategy-that-actually-drives-results-at-techcrunch-disrupt-2025/",
-      "source": "TechCrunch",
-      "category": "finance",
-      "pubDate": "2025-09-24T17:30:00.000Z",
-      "relevanceScore": 476.84,
-      "recommendationScore": 478.84,
-      "tags": [
-        "Business",
+        "Web",
+        "Cloud",
+        "Exclusive",
         "Tutorial"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Workspace on Demand in i3wm",
-      "link": "https://dev.to/waterkip/workspace-on-demand-in-i3wm-3nki",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-24T18:05:29.000Z",
-      "relevanceScore": 328.45,
-      "recommendationScore": 328.45,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Huntington's disease successfully treated for first time",
@@ -244,8 +58,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-24T11:05:10.000Z",
-      "relevanceScore": 270.55,
-      "recommendationScore": 273.05,
+      "relevanceScore": 1048.47,
+      "recommendationScore": 1050.97,
       "tags": [
         "Exclusive"
       ],
@@ -257,52 +71,136 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-24T11:24:06.000Z",
-      "relevanceScore": 262.62,
-      "recommendationScore": 265.12,
+      "relevanceScore": 1040.53,
+      "recommendationScore": 1043.03,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "This AI-Powered Robot Keeps Going Even if You Attack It With a Chainsaw",
-      "link": "https://www.wired.com/story/this-ai-powered-robot-keeps-going-even-if-you-attack-it-with-a-chainsaw/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-09-24T18:00:00.000Z",
-      "relevanceScore": 134.44,
-      "recommendationScore": 134.94,
+      "title": "Trump is pushing leucovorin as a new treatment for autism. What is it?",
+      "link": "https://www.technologyreview.com/2025/09/24/1124029/trump-leucovorin-autism-tylenol/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-09-24T11:56:32.000Z",
+      "relevanceScore": 1022.64,
+      "recommendationScore": 1026.64,
       "tags": [
-        "AI",
         "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Using AI to map hope for refugees with UNHCR, the UN Refugee Agency",
-      "link": "https://github.blog/open-source/social-impact/using-ai-to-map-hope-for-refugees-with-unhcr-the-un-refugee-agency/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-09-24T16:12:47.000Z",
-      "relevanceScore": 112.58,
-      "recommendationScore": 113.08,
-      "tags": [
-        "AI",
-        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Google's AI Search Live is now available to all US app users",
-      "link": "https://www.engadget.com/ai/googles-ai-search-live-is-now-available-to-all-us-app-users-151849371.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-09-24T15:18:49.000Z",
-      "relevanceScore": 110.4,
-      "recommendationScore": 110.9,
+      "title": "YouTube content creators contributed £2.2bn to UK economy in 2024",
+      "link": "https://www.bbc.com/news/articles/c0knpm6v36go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-09-24T09:03:45.000Z",
+      "relevanceScore": 921.57,
+      "recommendationScore": 922.07,
       "tags": [
-        "AI",
-        "Mobile"
+        "Business",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "YouTube will finally let you hide popups at the end of videos",
+      "link": "https://www.engadget.com/social-media/youtube-will-finally-let-you-hide-popups-at-the-end-of-videos-183002850.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-09-24T18:30:02.000Z",
+      "relevanceScore": 907.95,
+      "recommendationScore": 908.45,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Waymo is launching a new service for business travelers",
+      "link": "https://www.theverge.com/news/784929/waymo-for-business-corporate-travel-employer",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-09-24T18:15:07.000Z",
+      "relevanceScore": 902.9,
+      "recommendationScore": 905.4,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Despite past complications, crypto company Tether is ready for American debut",
+      "link": "https://www.npr.org/2025/09/23/nx-s1-5540038/despite-past-complications-crypto-company-tether-is-ready-for-american-debut",
+      "source": "NPR Business",
+      "category": "blockchain",
+      "pubDate": "2025-09-23T21:18:06.000Z",
+      "relevanceScore": 884.71,
+      "recommendationScore": 885.21,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The history and future of software development (part 1)",
+      "link": "https://stackoverflow.blog/2025/09/24/the-history-and-future-of-software-development-part-1/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2025-09-24T14:00:00.000Z",
+      "relevanceScore": 837.05,
+      "recommendationScore": 837.55,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Jessica Chastain says she and Apple are &#8216;not aligned&#8217; on decision to halt The Savant",
+      "link": "https://www.theverge.com/news/784839/jessica-chastain-respone-the-savant-pause-apple-tv-plus",
+      "source": "The Verge",
+      "category": "social",
+      "pubDate": "2025-09-24T17:08:18.000Z",
+      "relevanceScore": 789.68,
+      "recommendationScore": 790.18,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Just Let Me Select Text",
+      "link": "https://www.reddit.com/r/programming/comments/1nostrl/just_let_me_select_text/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-09-23T20:43:10.000Z",
+      "relevanceScore": 733.6,
+      "recommendationScore": 733.6,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Democratizing your data access with AI agents",
+      "link": "https://stackoverflow.blog/2025/09/23/democratizing-your-data-access-with-ai-agents/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-09-23T07:40:00.000Z",
+      "relevanceScore": 649.99,
+      "recommendationScore": 649.99,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Our plan for a more secure npm supply chain",
+      "link": "https://github.blog/security/supply-chain-security/our-plan-for-a-more-secure-npm-supply-chain/",
+      "source": "GitHub Blog",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-23T00:29:50.000Z",
+      "relevanceScore": 585.55,
+      "recommendationScore": 585.55,
+      "tags": [
+        "Security",
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -312,12 +210,89 @@
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2025-09-24T16:17:26.000Z",
-      "relevanceScore": 109.59,
-      "recommendationScore": 111.09,
+      "relevanceScore": 567.51,
+      "recommendationScore": 569.01,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Volvo’s next-gen hyrbids will be American-made EREVs",
+      "link": "https://www.theverge.com/news/784652/volvo-erev-hybrid-factory-range-us",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2025-09-24T17:52:46.000Z",
+      "relevanceScore": 522.83,
+      "recommendationScore": 524.33,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to build a GTM strategy that actually drives results at TechCrunch Disrupt 2025",
+      "link": "https://techcrunch.com/2025/09/24/how-to-build-a-gtm-strategy-that-actually-drives-results-at-techcrunch-disrupt-2025/",
+      "source": "TechCrunch",
+      "category": "finance",
+      "pubDate": "2025-09-24T17:30:00.000Z",
+      "relevanceScore": 491.75,
+      "recommendationScore": 493.75,
+      "tags": [
+        "Business",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "This AI-Powered Robot Keeps Going Even if You Attack It With a Chainsaw",
+      "link": "https://www.wired.com/story/this-ai-powered-robot-keeps-going-even-if-you-attack-it-with-a-chainsaw/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-09-24T18:00:00.000Z",
+      "relevanceScore": 159.85,
+      "recommendationScore": 160.35,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "🚗 GrandMap: The GTA-Inspired Map Project Nobody Asked For (But I Built Anyway)",
+      "link": "https://dev.to/swagking/grandmap-the-gta-inspired-map-project-nobody-asked-for-but-i-built-anyway-3p8k",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-09-24T18:38:11.000Z",
+      "relevanceScore": 157.48,
+      "recommendationScore": 157.98,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Kentucky distillery bounces back from massive flood that briefly halted bourbon production",
+      "link": "https://abcnews.go.com/Business/wireStory/kentucky-distillery-bounces-back-massive-flood-briefly-halted-125840891",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-09-23T06:08:50.000Z",
+      "relevanceScore": 139.68,
+      "recommendationScore": 140.18,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Using AI to map hope for refugees with UNHCR, the UN Refugee Agency",
+      "link": "https://github.blog/open-source/social-impact/using-ai-to-map-hope-for-refugees-with-unhcr-the-un-refugee-agency/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-09-24T16:12:47.000Z",
+      "relevanceScore": 123.5,
+      "recommendationScore": 124,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Redis is fast - I'll cache in Postgres",
@@ -325,23 +300,20 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-24T16:38:16.000Z",
-      "relevanceScore": 108.66,
-      "recommendationScore": 108.66,
+      "relevanceScore": 119.58,
+      "recommendationScore": 119.58,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Our plan for a more secure npm supply chain",
-      "link": "https://github.blog/security/supply-chain-security/our-plan-for-a-more-secure-npm-supply-chain/",
-      "source": "GitHub Blog",
-      "category": "cybersecurity",
-      "pubDate": "2025-09-23T00:29:50.000Z",
-      "relevanceScore": 82.13,
-      "recommendationScore": 82.13,
-      "tags": [
-        "Security",
-        "Exclusive"
-      ],
+      "title": "Russia will expand aggression beyond Ukraine if not stopped, Zelensky warns",
+      "link": "https://www.bbc.com/news/articles/c5yg921rjrko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-09-24T18:22:17.000Z",
+      "relevanceScore": 67.93,
+      "recommendationScore": 69.43,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -350,8 +322,8 @@
       "source": "GitHub Blog",
       "category": "cloud",
       "pubDate": "2025-09-23T13:00:00.000Z",
-      "relevanceScore": 59.64,
-      "recommendationScore": 60.14,
+      "relevanceScore": 65.05,
+      "recommendationScore": 65.55,
       "tags": [
         "Cloud",
         "Exclusive",
@@ -360,14 +332,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "COLORS: The Favors - Lake George | A COLORS SHOW",
-      "link": "https://dev.to/music_youtube/colors-the-favors-lake-george-a-colors-show-1glb",
+      "title": "[Boost]",
+      "link": "https://dev.to/homeless-coder/-3i0o",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2025-09-24T18:06:36.000Z",
-      "relevanceScore": 45.46,
-      "recommendationScore": 46.96,
-      "tags": [],
+      "pubDate": "2025-09-24T18:38:59.000Z",
+      "relevanceScore": 46.98,
+      "recommendationScore": 46.98,
+      "tags": [
+        "Tech",
+        "Innovation"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -376,8 +351,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-09-24T13:25:20.000Z",
-      "relevanceScore": 37.52,
-      "recommendationScore": 38.02,
+      "relevanceScore": 42.94,
+      "recommendationScore": 43.44,
       "tags": [
         "Web"
       ],
@@ -389,8 +364,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-09-24T17:47:28.000Z",
-      "relevanceScore": 37.39,
-      "recommendationScore": 37.89,
+      "relevanceScore": 39.31,
+      "recommendationScore": 39.81,
       "tags": [
         "Tech",
         "Exclusive",
@@ -399,13 +374,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Meet the first person to own over 40,000 paid Steam games",
+      "link": "https://arstechnica.com/gaming/2025/09/meet-the-first-person-to-own-over-40000-paid-steam-games/",
+      "source": "Ars Technica",
+      "category": "gaming",
+      "pubDate": "2025-09-24T17:08:28.000Z",
+      "relevanceScore": 36.68,
+      "recommendationScore": 39.18,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "First migrants arrive in UK from France under 'one in one out' deal",
       "link": "https://www.bbc.com/news/articles/cwywv34w00ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-09-24T18:04:13.000Z",
-      "relevanceScore": 31.95,
-      "recommendationScore": 34.45,
+      "pubDate": "2025-09-24T18:38:51.000Z",
+      "relevanceScore": 31.98,
+      "recommendationScore": 34.48,
       "tags": [
         "Exclusive",
         "Partnership"
@@ -418,22 +406,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-24T17:44:35.000Z",
-      "relevanceScore": 31.88,
-      "recommendationScore": 32.38,
+      "relevanceScore": 31.8,
+      "recommendationScore": 32.3,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "High-speed rail plan for north of England delayed again",
-      "link": "https://www.bbc.com/news/articles/ckge94030g7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-09-24T16:35:52.000Z",
-      "relevanceScore": 31.66,
-      "recommendationScore": 32.16,
-      "tags": [
-        "Launch"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -442,8 +417,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-24T12:10:00.000Z",
-      "relevanceScore": 29.77,
-      "recommendationScore": 30.27,
+      "relevanceScore": 29.69,
+      "recommendationScore": 30.19,
       "tags": [
         "AI",
         "Tech",
@@ -458,8 +433,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-24T09:40:19.000Z",
-      "relevanceScore": 28.27,
-      "recommendationScore": 28.27,
+      "relevanceScore": 28.19,
+      "recommendationScore": 28.19,
       "tags": [
         "AI"
       ],
@@ -471,8 +446,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-09-24T18:06:22.000Z",
-      "relevanceScore": 27.96,
-      "recommendationScore": 28.46,
+      "relevanceScore": 27.87,
+      "recommendationScore": 28.37,
       "tags": [
         "Funding",
         "Partnership"
@@ -485,12 +460,37 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-24T17:46:29.000Z",
-      "relevanceScore": 27.89,
-      "recommendationScore": 27.89,
+      "relevanceScore": 27.81,
+      "recommendationScore": 27.81,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "These YC founders pivoted 5 times before building a social app that nabbed 300K users and over $1M ARR in 6 months",
+      "link": "https://techcrunch.com/2025/09/24/these-yc-founders-pivoted-5-times-before-building-a-social-app-that-nabbed-300k-users-and-over-1m-arr-in-6-months/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2025-09-24T17:00:51.000Z",
+      "relevanceScore": 27.66,
+      "recommendationScore": 27.66,
+      "tags": [
+        "Mobile",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Examining Kimmel's brief suspension and Trump's threats to free speech",
+      "link": "https://www.npr.org/2025/09/24/nx-s1-5552132/examining-kimmels-brief-suspension-and-trumps-threats-to-free-speech",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-24T16:24:39.000Z",
+      "relevanceScore": 27.54,
+      "recommendationScore": 28.04,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Instagram now has 3 billion monthly active users, will test features to help users control their feeds",
@@ -498,8 +498,8 @@
       "source": "TechCrunch",
       "category": "social",
       "pubDate": "2025-09-24T16:19:07.000Z",
-      "relevanceScore": 27.6,
-      "recommendationScore": 27.6,
+      "relevanceScore": 27.52,
+      "recommendationScore": 27.52,
       "tags": [
         "Social"
       ],
@@ -511,23 +511,10 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-09-24T16:06:03.000Z",
-      "relevanceScore": 26.56,
-      "recommendationScore": 28.06,
+      "relevanceScore": 26.47,
+      "recommendationScore": 27.97,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Volvo’s next-gen hyrbids will be American-made EREVs",
-      "link": "https://www.theverge.com/news/784652/volvo-erev-hybrid-factory-range-us",
-      "source": "The Verge",
-      "category": "automotive",
-      "pubDate": "2025-09-24T17:52:46.000Z",
-      "relevanceScore": 25.91,
-      "recommendationScore": 27.41,
-      "tags": [
-        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -537,8 +524,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-24T17:30:00.000Z",
-      "relevanceScore": 25.84,
-      "recommendationScore": 27.34,
+      "relevanceScore": 25.75,
+      "recommendationScore": 27.25,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -548,8 +535,8 @@
       "source": "Wired",
       "category": "finance",
       "pubDate": "2025-09-24T17:00:00.000Z",
-      "relevanceScore": 25.74,
-      "recommendationScore": 26.24,
+      "relevanceScore": 25.65,
+      "recommendationScore": 26.15,
       "tags": [
         "Business"
       ],
@@ -561,8 +548,8 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2025-09-24T16:25:41.000Z",
-      "relevanceScore": 25.62,
-      "recommendationScore": 26.12,
+      "relevanceScore": 25.54,
+      "recommendationScore": 26.04,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -572,8 +559,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-09-24T16:00:00.000Z",
-      "relevanceScore": 25.54,
-      "recommendationScore": 26.04,
+      "relevanceScore": 25.45,
+      "recommendationScore": 25.95,
       "tags": [
         "AI",
         "Tech",
@@ -587,10 +574,23 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-24T15:35:44.000Z",
-      "relevanceScore": 25.45,
-      "recommendationScore": 25.95,
+      "relevanceScore": 25.37,
+      "recommendationScore": 25.87,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Bowers & Wilkins' Px8 S2 headphones have updated drivers, improved ANC and a new look",
+      "link": "https://www.engadget.com/audio/headphones/bowers--wilkins-px8-s2-headphones-have-updated-drivers-improved-anc-and-a-new-look-181913079.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-09-24T18:19:13.000Z",
+      "relevanceScore": 24.92,
+      "recommendationScore": 27.42,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Man arrested in connection with cyber-attack on airports",
@@ -598,22 +598,11 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-09-24T11:53:42.000Z",
-      "relevanceScore": 24.71,
-      "recommendationScore": 25.21,
+      "relevanceScore": 24.63,
+      "recommendationScore": 25.13,
       "tags": [
         "Security"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Bryan Bros Golf: We Played With the #1 Junior Golfer in the Country",
-      "link": "https://dev.to/youtube_golf/bryan-bros-golf-we-played-with-the-1-junior-golfer-in-the-country-2k6k",
-      "source": "Dev.to",
-      "category": "education",
-      "pubDate": "2025-09-24T18:04:41.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 24.45,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -622,8 +611,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-09-24T07:11:54.000Z",
-      "relevanceScore": 23.78,
-      "recommendationScore": 24.28,
+      "relevanceScore": 23.69,
+      "recommendationScore": 24.19,
       "tags": [
         "AI",
         "Tech"
@@ -636,24 +625,10 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-09-24T16:30:43.000Z",
-      "relevanceScore": 23.64,
-      "recommendationScore": 24.14,
+      "relevanceScore": 23.56,
+      "recommendationScore": 24.06,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Instagram reaches 3 billion monthly users",
-      "link": "https://www.engadget.com/social-media/instagram-reaches-3-billion-monthly-users-160554420.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-09-24T16:05:54.000Z",
-      "relevanceScore": 23.56,
-      "recommendationScore": 23.56,
-      "tags": [
-        "Mobile",
-        "Social"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "'Roger that' — Poland, Estonia welcome Trump's calls to shoot down Russian jets",
@@ -661,43 +636,186 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-09-24T14:03:24.000Z",
-      "relevanceScore": 23.15,
-      "recommendationScore": 23.65,
+      "relevanceScore": 23.06,
+      "recommendationScore": 23.56,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The surprisingly lucrative business of making a list of 500 stocks",
+      "link": "https://www.npr.org/sections/planet-money/2025/09/23/g-s1-90054/how-does-the-s-p-500-work",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-23T16:00:00.000Z",
+      "relevanceScore": 22.65,
+      "recommendationScore": 23.15,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "TikTok child data protection inadequate, Canadian privacy officials say",
+      "link": "https://www.bbc.com/news/articles/c4gj5lqq52lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-24T01:46:55.000Z",
+      "relevanceScore": 22.61,
+      "recommendationScore": 23.11,
+      "tags": [
+        "Security",
+        "Social"
+      ],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
-    "tech": [
+    "space": [
       {
-        "title": "Waymo is launching a new service for business travelers",
-        "link": "https://www.theverge.com/news/784929/waymo-for-business-corporate-travel-employer",
-        "source": "The Verge",
-        "pubDate": "2025-09-24T18:15:07.000Z",
-        "relevanceScore": 1346.49,
+        "title": "Meet the history-making Nasa astronauts headed for the Moon next year",
+        "link": "https://www.bbc.com/news/articles/cvg0kv8rq0xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-24T16:20:53.000Z",
+        "relevanceScore": 1342.52,
         "tags": [
-          "Business"
+          "Exclusive"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Build Once, Deploy Everywhere: Deploying a .NET 8 API with Docker, AKS & GitHub Actions",
+        "link": "https://dev.to/ibrahimbioabu/build-once-deploy-everywhere-deploying-a-net-8-api-with-docker-aks-github-actions-4h4o",
+        "source": "Dev.to",
+        "pubDate": "2025-09-24T18:39:57.000Z",
+        "relevanceScore": 1100.49,
+        "tags": [
+          "Web",
+          "Cloud",
+          "Exclusive",
+          "Tutorial"
         ]
       },
+      {
+        "title": "A step-by-step guide to modernizing Java projects with GitHub Copilot agent mode",
+        "link": "https://github.blog/ai-and-ml/github-copilot/a-step-by-step-guide-to-modernizing-java-projects-with-github-copilot-agent-mode/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-09-23T13:00:00.000Z",
+        "relevanceScore": 65.05,
+        "tags": [
+          "Cloud",
+          "Exclusive",
+          "Tutorial"
+        ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Huntington's disease successfully treated for first time",
+        "link": "https://www.bbc.com/news/articles/cevz13xkxpro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-24T11:05:10.000Z",
+        "relevanceScore": 1048.47,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Russia will expand aggression beyond Ukraine if not stopped, Zelensky warns",
+        "link": "https://www.bbc.com/news/articles/c5yg921rjrko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-24T18:22:17.000Z",
+        "relevanceScore": 67.93,
+        "tags": []
+      },
+      {
+        "title": "First migrants arrive in UK from France under 'one in one out' deal",
+        "link": "https://www.bbc.com/news/articles/cwywv34w00ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-24T18:38:51.000Z",
+        "relevanceScore": 31.98,
+        "tags": [
+          "Exclusive",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "'Anti-ICE' message on ammunition at Dallas shooting that killed two immigration detainees",
+        "link": "https://www.bbc.com/news/articles/ckge9d26z1ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-24T17:44:35.000Z",
+        "relevanceScore": 31.8,
+        "tags": []
+      }
+    ],
+    "world": [
+      {
+        "title": "Huntington's disease successfully treated for the first time.",
+        "link": "https://www.reddit.com/r/worldnews/comments/1np9ix2/huntingtons_disease_successfully_treated_for_the/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-24T11:24:06.000Z",
+        "relevanceScore": 1040.53,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "'Roger that' — Poland, Estonia welcome Trump's calls to shoot down Russian jets",
+        "link": "https://www.reddit.com/r/worldnews/comments/1npd091/roger_that_poland_estonia_welcome_trumps_calls_to/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-24T14:03:24.000Z",
+        "relevanceScore": 23.06,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1308, Part 1 (Thread #1455)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1np2gzu/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-24T04:02:34.000Z",
+        "relevanceScore": 21.06,
+        "tags": []
+      }
+    ],
+    "science": [
+      {
+        "title": "Trump is pushing leucovorin as a new treatment for autism. What is it?",
+        "link": "https://www.technologyreview.com/2025/09/24/1124029/trump-leucovorin-autism-tylenol/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-09-24T11:56:32.000Z",
+        "relevanceScore": 1022.64,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "tech": [
       {
         "title": "YouTube content creators contributed £2.2bn to UK economy in 2024",
         "link": "https://www.bbc.com/news/articles/c0knpm6v36go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-24T09:03:45.000Z",
-        "relevanceScore": 893.65,
+        "relevanceScore": 921.57,
         "tags": [
           "Business",
           "Launch"
         ]
       },
       {
-        "title": "Kimmel Says Effort to 'Cancel' Him 'Backfired Bigly': 'Release the Epstein Files to Distract Us'",
-        "link": "https://www.reddit.com/r/technology/comments/1npcq4k/kimmel_says_effort_to_cancel_him_backfired_bigly/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-09-24T13:52:18.000Z",
-        "relevanceScore": 509.11,
+        "title": "YouTube will finally let you hide popups at the end of videos",
+        "link": "https://www.engadget.com/social-media/youtube-will-finally-let-you-hide-popups-at-the-end-of-videos-183002850.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-24T18:30:02.000Z",
+        "relevanceScore": 907.95,
+        "tags": []
+      },
+      {
+        "title": "Waymo is launching a new service for business travelers",
+        "link": "https://www.theverge.com/news/784929/waymo-for-business-corporate-travel-employer",
+        "source": "The Verge",
+        "pubDate": "2025-09-24T18:15:07.000Z",
+        "relevanceScore": 902.9,
         "tags": [
-          "Launch"
+          "Business"
         ]
       },
       {
@@ -705,7 +823,7 @@
         "link": "https://www.theverge.com/news/784895/ollee-casio-f-91w-a158w-watch-one-kit-bluetooth-smartwatch",
         "source": "The Verge",
         "pubDate": "2025-09-24T17:47:28.000Z",
-        "relevanceScore": 37.39,
+        "relevanceScore": 39.31,
         "tags": [
           "Tech",
           "Exclusive",
@@ -717,7 +835,7 @@
         "link": "https://www.wired.com/gallery/gifts-for-bird-lovers/",
         "source": "Wired",
         "pubDate": "2025-09-24T17:30:00.000Z",
-        "relevanceScore": 25.84,
+        "relevanceScore": 25.75,
         "tags": []
       },
       {
@@ -725,23 +843,43 @@
         "link": "https://arstechnica.com/tech-policy/2025/09/pacifying-us-taiwan-weaponizes-chip-access-targeting-south-africa-first/",
         "source": "Ars Technica",
         "pubDate": "2025-09-24T15:35:44.000Z",
-        "relevanceScore": 25.45,
+        "relevanceScore": 25.37,
         "tags": []
+      },
+      {
+        "title": "Bowers & Wilkins' Px8 S2 headphones have updated drivers, improved ANC and a new look",
+        "link": "https://www.engadget.com/audio/headphones/bowers--wilkins-px8-s2-headphones-have-updated-drivers-improved-anc-and-a-new-look-181913079.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-24T18:19:13.000Z",
+        "relevanceScore": 24.92,
+        "tags": [
+          "Tech"
+        ]
       },
       {
         "title": "The ThermoWorks Thermapen One is 30 percent off right now",
         "link": "https://www.engadget.com/deals/the-thermoworks-thermapen-one-is-30-percent-off-right-now-163043164.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-24T16:30:43.000Z",
-        "relevanceScore": 23.64,
+        "relevanceScore": 23.56,
         "tags": []
+      },
+      {
+        "title": "Kimmel Says Effort to 'Cancel' Him 'Backfired Bigly': 'Release the Epstein Files to Distract Us'",
+        "link": "https://www.reddit.com/r/technology/comments/1npcq4k/kimmel_says_effort_to_cancel_him_backfired_bigly/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-24T13:52:18.000Z",
+        "relevanceScore": 21.03,
+        "tags": [
+          "Launch"
+        ]
       },
       {
         "title": "Pokémon Torches DHS Over ‘Gotta Catch ‘Em All’ ICE Raid Stunt",
         "link": "https://www.reddit.com/r/technology/comments/1npb3p7/pokémon_torches_dhs_over_gotta_catch_em_all_ice/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-24T12:42:41.000Z",
-        "relevanceScore": 20.88,
+        "relevanceScore": 20.8,
         "tags": []
       },
       {
@@ -749,7 +887,17 @@
         "link": "https://www.reddit.com/r/technology/comments/1np96q5/disney_decides_it_hasnt_angered_people_enough/",
         "source": "Reddit Technology",
         "pubDate": "2025-09-24T11:05:13.000Z",
-        "relevanceScore": 20.55,
+        "relevanceScore": 20.47,
+        "tags": []
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "Despite past complications, crypto company Tether is ready for American debut",
+        "link": "https://www.npr.org/2025/09/23/nx-s1-5540038/despite-past-complications-crypto-company-tether-is-ready-for-american-debut",
+        "source": "NPR Business",
+        "pubDate": "2025-09-23T21:18:06.000Z",
+        "relevanceScore": 884.71,
         "tags": []
       }
     ],
@@ -759,7 +907,7 @@
         "link": "https://stackoverflow.blog/2025/09/24/the-history-and-future-of-software-development-part-1/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-24T14:00:00.000Z",
-        "relevanceScore": 1299.14,
+        "relevanceScore": 837.05,
         "tags": [
           "Tech"
         ]
@@ -769,65 +917,44 @@
         "link": "https://www.reddit.com/r/programming/comments/1nostrl/just_let_me_select_text/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-23T20:43:10.000Z",
-        "relevanceScore": 605.68,
+        "relevanceScore": 733.6,
         "tags": []
       },
       {
-        "title": "Workspace on Demand in i3wm",
-        "link": "https://dev.to/waterkip/workspace-on-demand-in-i3wm-3nki",
+        "title": "🚗 GrandMap: The GTA-Inspired Map Project Nobody Asked For (But I Built Anyway)",
+        "link": "https://dev.to/swagking/grandmap-the-gta-inspired-map-project-nobody-asked-for-but-i-built-anyway-3p8k",
         "source": "Dev.to",
-        "pubDate": "2025-09-24T18:05:29.000Z",
-        "relevanceScore": 328.45,
-        "tags": [
-          "Launch"
-        ]
+        "pubDate": "2025-09-24T18:38:11.000Z",
+        "relevanceScore": 157.48,
+        "tags": []
       },
       {
         "title": "Redis is fast - I'll cache in Postgres",
         "link": "https://www.reddit.com/r/programming/comments/1nph2jh/redis_is_fast_ill_cache_in_postgres/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-24T16:38:16.000Z",
-        "relevanceScore": 108.66,
+        "relevanceScore": 119.58,
         "tags": []
       },
       {
-        "title": "COLORS: The Favors - Lake George | A COLORS SHOW",
-        "link": "https://dev.to/music_youtube/colors-the-favors-lake-george-a-colors-show-1glb",
+        "title": "[Boost]",
+        "link": "https://dev.to/homeless-coder/-3i0o",
         "source": "Dev.to",
-        "pubDate": "2025-09-24T18:06:36.000Z",
-        "relevanceScore": 45.46,
-        "tags": []
+        "pubDate": "2025-09-24T18:38:59.000Z",
+        "relevanceScore": 46.98,
+        "tags": [
+          "Tech",
+          "Innovation"
+        ]
       },
       {
         "title": "Consistent Hashing Explained: The Algorithm That Powers Modern Internet",
         "link": "https://www.reddit.com/r/programming/comments/1npc2si/consistent_hashing_explained_the_algorithm_that/",
         "source": "Reddit Programming",
         "pubDate": "2025-09-24T13:25:20.000Z",
-        "relevanceScore": 37.52,
+        "relevanceScore": 42.94,
         "tags": [
           "Web"
-        ]
-      }
-    ],
-    "blockchain": [
-      {
-        "title": "Despite past complications, crypto company Tether is ready for American debut",
-        "link": "https://www.npr.org/2025/09/23/nx-s1-5540038/despite-past-complications-crypto-company-tether-is-ready-for-american-debut",
-        "source": "NPR Business",
-        "pubDate": "2025-09-23T21:18:06.000Z",
-        "relevanceScore": 897.8,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Meet the history-making Nasa astronauts headed for the Moon next year",
-        "link": "https://www.bbc.com/news/articles/cvg0kv8rq0xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-24T16:20:53.000Z",
-        "relevanceScore": 819.61,
-        "tags": [
-          "Exclusive"
         ]
       }
     ],
@@ -837,7 +964,7 @@
         "link": "https://www.theverge.com/news/784839/jessica-chastain-respone-the-savant-pause-apple-tv-plus",
         "source": "The Verge",
         "pubDate": "2025-09-24T17:08:18.000Z",
-        "relevanceScore": 771.76,
+        "relevanceScore": 789.68,
         "tags": [
           "Social"
         ]
@@ -847,45 +974,9 @@
         "link": "https://techcrunch.com/2025/09/24/instagram-now-has-3-billion-monthly-active-users-will-test-features-to-help-users-control-their-feeds/",
         "source": "TechCrunch",
         "pubDate": "2025-09-24T16:19:07.000Z",
-        "relevanceScore": 27.6,
+        "relevanceScore": 27.52,
         "tags": [
           "Social"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Kentucky distillery bounces back from massive flood that briefly halted bourbon production",
-        "link": "https://abcnews.go.com/Business/wireStory/kentucky-distillery-bounces-back-massive-flood-briefly-halted-125840891",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-23T06:08:50.000Z",
-        "relevanceScore": 618.76,
-        "tags": []
-      },
-      {
-        "title": "Tylenol maker rebounds a day after Trump's unfounded claims about its safety",
-        "link": "https://abcnews.go.com/Business/wireStory/tylenol-maker-rebounds-day-after-trumps-unfounded-claims-125845812",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-23T13:10:28.000Z",
-        "relevanceScore": 548.67,
-        "tags": []
-      },
-      {
-        "title": "Examining Kimmel's brief suspension and Trump's threats to free speech",
-        "link": "https://www.npr.org/2025/09/24/nx-s1-5552132/examining-kimmels-brief-suspension-and-trumps-threats-to-free-speech",
-        "source": "NPR Business",
-        "pubDate": "2025-09-24T16:24:39.000Z",
-        "relevanceScore": 515.62,
-        "tags": []
-      },
-      {
-        "title": "The surprisingly lucrative business of making a list of 500 stocks",
-        "link": "https://www.npr.org/sections/planet-money/2025/09/23/g-s1-90054/how-does-the-s-p-500-work",
-        "source": "NPR Business",
-        "pubDate": "2025-09-23T16:00:00.000Z",
-        "relevanceScore": 22.74,
-        "tags": [
-          "Business"
         ]
       }
     ],
@@ -895,7 +986,7 @@
         "link": "https://stackoverflow.blog/2025/09/23/democratizing-your-data-access-with-ai-agents/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-23T07:40:00.000Z",
-        "relevanceScore": 573.57,
+        "relevanceScore": 649.99,
         "tags": [
           "AI"
         ]
@@ -905,7 +996,7 @@
         "link": "https://www.wired.com/story/this-ai-powered-robot-keeps-going-even-if-you-attack-it-with-a-chainsaw/",
         "source": "Wired",
         "pubDate": "2025-09-24T18:00:00.000Z",
-        "relevanceScore": 134.44,
+        "relevanceScore": 159.85,
         "tags": [
           "AI",
           "Tech"
@@ -916,21 +1007,10 @@
         "link": "https://github.blog/open-source/social-impact/using-ai-to-map-hope-for-refugees-with-unhcr-the-un-refugee-agency/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-24T16:12:47.000Z",
-        "relevanceScore": 112.58,
+        "relevanceScore": 123.5,
         "tags": [
           "AI",
           "Exclusive"
-        ]
-      },
-      {
-        "title": "Google's AI Search Live is now available to all US app users",
-        "link": "https://www.engadget.com/ai/googles-ai-search-live-is-now-available-to-all-us-app-users-151849371.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-24T15:18:49.000Z",
-        "relevanceScore": 110.4,
-        "tags": [
-          "AI",
-          "Mobile"
         ]
       },
       {
@@ -938,7 +1018,7 @@
         "link": "https://www.technologyreview.com/2025/09/24/1124026/the-download-accidental-ai-relationships-and-future-contraception/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-24T12:10:00.000Z",
-        "relevanceScore": 29.77,
+        "relevanceScore": 29.69,
         "tags": [
           "AI",
           "Tech",
@@ -951,7 +1031,7 @@
         "link": "https://www.technologyreview.com/2025/09/24/1123999/the-ai-hype-index-cracking-the-chatbot-code/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-24T09:40:19.000Z",
-        "relevanceScore": 28.27,
+        "relevanceScore": 28.19,
         "tags": [
           "AI"
         ]
@@ -961,7 +1041,7 @@
         "link": "https://techcrunch.com/2025/09/24/microsoft-adds-anthropics-ai-to-copilot/",
         "source": "TechCrunch",
         "pubDate": "2025-09-24T17:46:29.000Z",
-        "relevanceScore": 27.89,
+        "relevanceScore": 27.81,
         "tags": [
           "AI"
         ]
@@ -971,7 +1051,7 @@
         "link": "https://arstechnica.com/ai/2025/09/why-does-openai-need-six-giant-data-centers/",
         "source": "Ars Technica",
         "pubDate": "2025-09-24T16:06:03.000Z",
-        "relevanceScore": 26.56,
+        "relevanceScore": 26.47,
         "tags": [
           "AI"
         ]
@@ -981,7 +1061,7 @@
         "link": "https://www.wired.com/story/semiconductor-software-startups-chips/",
         "source": "Wired",
         "pubDate": "2025-09-24T16:00:00.000Z",
-        "relevanceScore": 25.54,
+        "relevanceScore": 25.45,
         "tags": [
           "AI",
           "Tech",
@@ -993,172 +1073,10 @@
         "link": "https://www.bbc.com/news/articles/cpd92gpld0go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-24T07:11:54.000Z",
-        "relevanceScore": 23.78,
+        "relevanceScore": 23.69,
         "tags": [
           "AI",
           "Tech"
-        ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Meet the first person to own over 40,000 paid Steam games",
-        "link": "https://arstechnica.com/gaming/2025/09/meet-the-first-person-to-own-over-40000-paid-steam-games/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-24T17:08:28.000Z",
-        "relevanceScore": 521.26,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "Trump is pushing leucovorin as a new treatment for autism. What is it?",
-        "link": "https://www.technologyreview.com/2025/09/24/1124029/trump-leucovorin-autism-tylenol/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-09-24T11:56:32.000Z",
-        "relevanceScore": 516.72,
-        "tags": [
-          "Tech"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "These YC founders pivoted 5 times before building a social app that nabbed 300K users and over $1M ARR in 6 months",
-        "link": "https://techcrunch.com/2025/09/24/these-yc-founders-pivoted-5-times-before-building-a-social-app-that-nabbed-300k-users-and-over-1m-arr-in-6-months/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-24T17:00:51.000Z",
-        "relevanceScore": 515.74,
-        "tags": [
-          "Mobile",
-          "Social"
-        ]
-      },
-      {
-        "title": "Instagram reaches 3 billion monthly users",
-        "link": "https://www.engadget.com/social-media/instagram-reaches-3-billion-monthly-users-160554420.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-24T16:05:54.000Z",
-        "relevanceScore": 23.56,
-        "tags": [
-          "Mobile",
-          "Social"
-        ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "How to build a GTM strategy that actually drives results at TechCrunch Disrupt 2025",
-        "link": "https://techcrunch.com/2025/09/24/how-to-build-a-gtm-strategy-that-actually-drives-results-at-techcrunch-disrupt-2025/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-24T17:30:00.000Z",
-        "relevanceScore": 476.84,
-        "tags": [
-          "Business",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Larry Ellison Is a ‘Shadow President’ in Donald Trump’s America",
-        "link": "https://www.wired.com/story/larry-ellison-is-a-shadow-president-in-donald-trumps-america/",
-        "source": "Wired",
-        "pubDate": "2025-09-24T17:00:00.000Z",
-        "relevanceScore": 25.74,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "As Boeing's stock rises on a new foreign deal, US officials signal China may be next to order planes",
-        "link": "https://abcnews.go.com/Business/wireStory/boeings-stock-rises-new-foreign-deal-us-officials-125871416",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-23T21:43:00.000Z",
-        "relevanceScore": 21.88,
-        "tags": [
-          "Partnership"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Huntington's disease successfully treated for first time",
-        "link": "https://www.bbc.com/news/articles/cevz13xkxpro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-24T11:05:10.000Z",
-        "relevanceScore": 270.55,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "First migrants arrive in UK from France under 'one in one out' deal",
-        "link": "https://www.bbc.com/news/articles/cwywv34w00ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-24T18:04:13.000Z",
-        "relevanceScore": 31.95,
-        "tags": [
-          "Exclusive",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "'Anti-ICE' message on ammunition at Dallas shooting that killed two immigration detainees",
-        "link": "https://www.bbc.com/news/articles/ckge9d26z1ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-24T17:44:35.000Z",
-        "relevanceScore": 31.88,
-        "tags": []
-      },
-      {
-        "title": "High-speed rail plan for north of England delayed again",
-        "link": "https://www.bbc.com/news/articles/ckge94030g7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-24T16:35:52.000Z",
-        "relevanceScore": 31.66,
-        "tags": [
-          "Launch"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "Huntington's disease successfully treated for the first time.",
-        "link": "https://www.reddit.com/r/worldnews/comments/1np9ix2/huntingtons_disease_successfully_treated_for_the/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-24T11:24:06.000Z",
-        "relevanceScore": 262.62,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "'Roger that' — Poland, Estonia welcome Trump's calls to shoot down Russian jets",
-        "link": "https://www.reddit.com/r/worldnews/comments/1npd091/roger_that_poland_estonia_welcome_trumps_calls_to/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-24T14:03:24.000Z",
-        "relevanceScore": 23.15,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1308, Part 1 (Thread #1455)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1np2gzu/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-09-24T04:02:34.000Z",
-        "relevanceScore": 21.14,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "The best VPN deals: Get up to 87 percent off ProtonVPN, ExpressVPN, Surfshark and more",
-        "link": "https://www.engadget.com/deals/best-vpn-deals-120056041.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-24T16:17:26.000Z",
-        "relevanceScore": 109.59,
-        "tags": [
-          "Exclusive"
         ]
       }
     ],
@@ -1168,7 +1086,7 @@
         "link": "https://github.blog/security/supply-chain-security/our-plan-for-a-more-secure-npm-supply-chain/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-23T00:29:50.000Z",
-        "relevanceScore": 82.13,
+        "relevanceScore": 585.55,
         "tags": [
           "Security",
           "Exclusive"
@@ -1179,7 +1097,7 @@
         "link": "https://www.bbc.com/news/articles/c62ldxyj431o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-24T11:53:42.000Z",
-        "relevanceScore": 24.71,
+        "relevanceScore": 24.63,
         "tags": [
           "Security"
         ]
@@ -1189,37 +1107,22 @@
         "link": "https://www.bbc.com/news/articles/c4gj5lqq52lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-24T01:46:55.000Z",
-        "relevanceScore": 22.69,
+        "relevanceScore": 22.61,
         "tags": [
           "Security",
           "Social"
         ]
       }
     ],
-    "cloud": [
+    "entertainment": [
       {
-        "title": "A step-by-step guide to modernizing Java projects with GitHub Copilot agent mode",
-        "link": "https://github.blog/ai-and-ml/github-copilot/a-step-by-step-guide-to-modernizing-java-projects-with-github-copilot-agent-mode/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-09-23T13:00:00.000Z",
-        "relevanceScore": 59.64,
+        "title": "The best VPN deals: Get up to 87 percent off ProtonVPN, ExpressVPN, Surfshark and more",
+        "link": "https://www.engadget.com/deals/best-vpn-deals-120056041.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-24T16:17:26.000Z",
+        "relevanceScore": 567.51,
         "tags": [
-          "Cloud",
-          "Exclusive",
-          "Tutorial"
-        ]
-      }
-    ],
-    "startup": [
-      {
-        "title": "Cohere hits $7B valuation a month after its last raise, partners with AMD",
-        "link": "https://techcrunch.com/2025/09/24/cohere-hits-7b-valuation-a-month-after-its-last-raise-partners-with-amd/",
-        "source": "TechCrunch",
-        "pubDate": "2025-09-24T18:06:22.000Z",
-        "relevanceScore": 27.96,
-        "tags": [
-          "Funding",
-          "Partnership"
+          "Exclusive"
         ]
       }
     ],
@@ -1229,9 +1132,116 @@
         "link": "https://www.theverge.com/news/784652/volvo-erev-hybrid-factory-range-us",
         "source": "The Verge",
         "pubDate": "2025-09-24T17:52:46.000Z",
-        "relevanceScore": 25.91,
+        "relevanceScore": 522.83,
         "tags": [
           "Tech"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "How to build a GTM strategy that actually drives results at TechCrunch Disrupt 2025",
+        "link": "https://techcrunch.com/2025/09/24/how-to-build-a-gtm-strategy-that-actually-drives-results-at-techcrunch-disrupt-2025/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-24T17:30:00.000Z",
+        "relevanceScore": 491.75,
+        "tags": [
+          "Business",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Larry Ellison Is a ‘Shadow President’ in Donald Trump’s America",
+        "link": "https://www.wired.com/story/larry-ellison-is-a-shadow-president-in-donald-trumps-america/",
+        "source": "Wired",
+        "pubDate": "2025-09-24T17:00:00.000Z",
+        "relevanceScore": 25.65,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "As Boeing's stock rises on a new foreign deal, US officials signal China may be next to order planes",
+        "link": "https://abcnews.go.com/Business/wireStory/boeings-stock-rises-new-foreign-deal-us-officials-125871416",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-23T21:43:00.000Z",
+        "relevanceScore": 21.8,
+        "tags": [
+          "Partnership"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Kentucky distillery bounces back from massive flood that briefly halted bourbon production",
+        "link": "https://abcnews.go.com/Business/wireStory/kentucky-distillery-bounces-back-massive-flood-briefly-halted-125840891",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-23T06:08:50.000Z",
+        "relevanceScore": 139.68,
+        "tags": []
+      },
+      {
+        "title": "Examining Kimmel's brief suspension and Trump's threats to free speech",
+        "link": "https://www.npr.org/2025/09/24/nx-s1-5552132/examining-kimmels-brief-suspension-and-trumps-threats-to-free-speech",
+        "source": "NPR Business",
+        "pubDate": "2025-09-24T16:24:39.000Z",
+        "relevanceScore": 27.54,
+        "tags": []
+      },
+      {
+        "title": "The surprisingly lucrative business of making a list of 500 stocks",
+        "link": "https://www.npr.org/sections/planet-money/2025/09/23/g-s1-90054/how-does-the-s-p-500-work",
+        "source": "NPR Business",
+        "pubDate": "2025-09-23T16:00:00.000Z",
+        "relevanceScore": 22.65,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "Tylenol maker rebounds a day after Trump's unfounded claims about its safety",
+        "link": "https://abcnews.go.com/Business/wireStory/tylenol-maker-rebounds-day-after-trumps-unfounded-claims-125845812",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-23T13:10:28.000Z",
+        "relevanceScore": 20.09,
+        "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Meet the first person to own over 40,000 paid Steam games",
+        "link": "https://arstechnica.com/gaming/2025/09/meet-the-first-person-to-own-over-40000-paid-steam-games/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-24T17:08:28.000Z",
+        "relevanceScore": 36.68,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "startup": [
+      {
+        "title": "Cohere hits $7B valuation a month after its last raise, partners with AMD",
+        "link": "https://techcrunch.com/2025/09/24/cohere-hits-7b-valuation-a-month-after-its-last-raise-partners-with-amd/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-24T18:06:22.000Z",
+        "relevanceScore": 27.87,
+        "tags": [
+          "Funding",
+          "Partnership"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "These YC founders pivoted 5 times before building a social app that nabbed 300K users and over $1M ARR in 6 months",
+        "link": "https://techcrunch.com/2025/09/24/these-yc-founders-pivoted-5-times-before-building-a-social-app-that-nabbed-300k-users-and-over-1m-arr-in-6-months/",
+        "source": "TechCrunch",
+        "pubDate": "2025-09-24T17:00:51.000Z",
+        "relevanceScore": 27.66,
+        "tags": [
+          "Mobile",
+          "Social"
         ]
       }
     ],
@@ -1241,32 +1251,22 @@
         "link": "https://arstechnica.com/health/2025/09/trump-pacifies-anti-vaccine-allies-by-trashing-shots-alongside-tylenol/",
         "source": "Ars Technica",
         "pubDate": "2025-09-24T16:25:41.000Z",
-        "relevanceScore": 25.62,
-        "tags": []
-      }
-    ],
-    "education": [
-      {
-        "title": "Bryan Bros Golf: We Played With the #1 Junior Golfer in the Country",
-        "link": "https://dev.to/youtube_golf/bryan-bros-golf-we-played-with-the-1-junior-golfer-in-the-country-2k6k",
-        "source": "Dev.to",
-        "pubDate": "2025-09-24T18:04:41.000Z",
-        "relevanceScore": 23.95,
+        "relevanceScore": 25.54,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 20,
-    "avgRelevanceScore": 246.78857142857137,
+    "totalCategories": 19,
+    "avgRelevanceScore": 286.66749999999996,
     "topCategories": [
       {
-        "category": "ai-ml",
-        "count": 10
+        "category": "tech",
+        "count": 11
       },
       {
-        "category": "tech",
+        "category": "ai-ml",
         "count": 9
       },
       {
@@ -1274,11 +1274,11 @@
         "count": 6
       },
       {
-        "category": "business",
+        "category": "general",
         "count": 4
       },
       {
-        "category": "general",
+        "category": "business",
         "count": 4
       }
     ]
