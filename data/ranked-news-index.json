@@ -1,22 +1,25 @@
 {
-  "lastUpdated": "2025-09-27T14:48:44.834Z",
-  "totalArticles": 46,
+  "lastUpdated": "2025-09-27T15:12:06.602Z",
+  "totalArticles": 55,
   "categories": [
     "development",
     "ai-ml",
-    "business",
+    "world",
     "automotive",
     "tech",
+    "business",
     "mobile",
-    "cloud",
+    "education",
+    "entertainment",
     "general",
     "gaming",
-    "finance",
     "startup",
+    "blockchain",
+    "social",
+    "climate",
     "health",
     "cybersecurity",
-    "social",
-    "climate"
+    "finance"
   ],
   "topArticles": [
     {
@@ -25,8 +28,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-09-25T17:05:48.000Z",
-      "relevanceScore": 866.86,
-      "recommendationScore": 866.86,
+      "relevanceScore": 855.28,
+      "recommendationScore": 855.28,
       "tags": [
         "Web",
         "Exclusive"
@@ -39,8 +42,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-27T14:00:00.000Z",
-      "relevanceScore": 839.84,
-      "recommendationScore": 842.84,
+      "relevanceScore": 840.76,
+      "recommendationScore": 843.76,
       "tags": [
         "AI",
         "Tech"
@@ -48,16 +51,25 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "China launches an investigation into Mexico's tariffs on imports from Asia",
-      "link": "https://abcnews.go.com/Business/wireStory/china-launches-investigation-mexicos-tariffs-imports-asia-125954811",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-09-26T05:27:31.000Z",
-      "relevanceScore": 814.33,
-      "recommendationScore": 816.83,
-      "tags": [
-        "Analysis"
-      ],
+      "title": "Poland opens border with Belarus, urges its citizens to leave immediately",
+      "link": "https://www.reddit.com/r/worldnews/comments/1nrqfxe/poland_opens_border_with_belarus_urges_its/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-09-27T08:59:26.000Z",
+      "relevanceScore": 835.76,
+      "recommendationScore": 836.26,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "PostgreSQL 18 Released — pgbench Results Show It’s the Fastest Yet",
+      "link": "https://www.reddit.com/r/programming/comments/1nrw3p3/postgresql_18_released_pgbench_results_show_its/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-09-27T14:05:26.000Z",
+      "relevanceScore": 371.78,
+      "recommendationScore": 373.78,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -66,21 +78,10 @@
       "source": "TechCrunch",
       "category": "automotive",
       "pubDate": "2025-09-27T06:45:54.000Z",
-      "relevanceScore": 343.39,
-      "recommendationScore": 343.89,
+      "relevanceScore": 357.81,
+      "recommendationScore": 358.31,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Jimmy Kimmel reflects on his comic roots and how he broke into late night",
-      "link": "https://www.npr.org/2025/09/26/nx-s1-5553429/jimmy-kimmel-reflects-on-his-comic-roots-and-how-he-broke-into-late-night",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-09-26T13:48:10.000Z",
-      "relevanceScore": 333,
-      "recommendationScore": 335,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "What to expect from Amazon’s big fall hardware event on Tuesday",
@@ -88,12 +89,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-09-27T12:00:00.000Z",
-      "relevanceScore": 318.44,
-      "recommendationScore": 320.44,
+      "relevanceScore": 330.36,
+      "recommendationScore": 332.36,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Jimmy Kimmel reflects on his comic roots and how he broke into late night",
+      "link": "https://www.npr.org/2025/09/26/nx-s1-5553429/jimmy-kimmel-reflects-on-his-comic-roots-and-how-he-broke-into-late-night",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-26T13:48:10.000Z",
+      "relevanceScore": 327.92,
+      "recommendationScore": 329.92,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "An App Used to Dox Charlie Kirk Critics Doxed Its Own Users Instead",
@@ -101,8 +113,8 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2025-09-27T14:25:49.000Z",
-      "relevanceScore": 95.92,
-      "recommendationScore": 96.42,
+      "relevanceScore": 221.85,
+      "recommendationScore": 222.35,
       "tags": [
         "Security",
         "Mobile",
@@ -111,67 +123,39 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "From Messy to Modular: A Better Way to Write Production-Ready Terraform - Part 1",
-      "link": "https://dev.to/farouqmousa/from-messy-to-modular-a-better-way-to-write-production-ready-terraform-for-aws-part-1-39b8",
+      "title": "Tally: The Liveability Dashboard",
+      "link": "https://dev.to/richk21/tally-the-liveability-dashboard-4ha8",
       "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-09-27T14:43:55.000Z",
-      "relevanceScore": 92.48,
-      "recommendationScore": 93.98,
+      "category": "education",
+      "pubDate": "2025-09-27T14:53:07.000Z",
+      "relevanceScore": 213.44,
+      "recommendationScore": 213.44,
       "tags": [
-        "Cloud"
+        "Report"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Can Google be trusted without a break up?",
-      "link": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
-      "source": "The Verge",
+      "title": "The best October Prime Day deals you can get today: Early sales on gear from Apple, Anker, JBL, Shark and more",
+      "link": "https://www.engadget.com/deals/the-best-october-prime-day-deals-you-can-get-today-early-sales-on-gear-from-apple-anker-jbl-shark-and-more-050801366.html?src=rss",
+      "source": "Engadget",
       "category": "tech",
-      "pubDate": "2025-09-27T13:00:00.000Z",
-      "relevanceScore": 85.14,
-      "recommendationScore": 85.14,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Samsung Galaxy Buds3 FE Review: Better AirPods for Android",
-      "link": "https://www.wired.com/review/samsung-galaxy-buds3-fe/",
-      "source": "Wired",
-      "category": "mobile",
-      "pubDate": "2025-09-27T13:33:00.000Z",
-      "relevanceScore": 84.75,
-      "recommendationScore": 86.25,
-      "tags": [
-        "Mobile"
-      ],
+      "pubDate": "2025-09-27T15:00:36.000Z",
+      "relevanceScore": 164.46,
+      "recommendationScore": 165.46,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Nursery hackers threaten to publish more children's profiles online",
-      "link": "https://www.bbc.com/news/articles/c07vxv8v89lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-09-26T20:27:32.000Z",
-      "relevanceScore": 81.33,
-      "recommendationScore": 81.83,
+      "title": "The Roku Streaming Stick Plus is on sale for only $29 right now",
+      "link": "https://www.engadget.com/deals/the-roku-streaming-stick-plus-is-on-sale-for-only-29-right-now-134656999.html?src=rss",
+      "source": "Engadget",
+      "category": "entertainment",
+      "pubDate": "2025-09-27T14:46:26.000Z",
+      "relevanceScore": 159.91,
+      "recommendationScore": 160.41,
       "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OTA Python updates with ESP-Now",
-      "link": "https://dev.to/gtanyware/ota-python-updates-with-esp-now-4iai",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-27T14:33:42.000Z",
-      "relevanceScore": 77.45,
-      "recommendationScore": 77.45,
-      "tags": [
-        "Tutorial"
+        "Update"
       ],
       "readingLevel": "advanced"
     },
@@ -181,9 +165,22 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-27T03:39:38.000Z",
-      "relevanceScore": 71.77,
-      "recommendationScore": 74.27,
+      "relevanceScore": 129.69,
+      "recommendationScore": 132.19,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Samsung Galaxy Buds3 FE Review: Better AirPods for Android",
+      "link": "https://www.wired.com/review/samsung-galaxy-buds3-fe/",
+      "source": "Wired",
+      "category": "mobile",
+      "pubDate": "2025-09-27T13:33:00.000Z",
+      "relevanceScore": 125.67,
+      "recommendationScore": 127.17,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -192,21 +189,58 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-09-27T13:00:00.000Z",
-      "relevanceScore": 67.64,
-      "recommendationScore": 68.14,
+      "relevanceScore": 125.56,
+      "recommendationScore": 126.06,
       "tags": [
         "Launch"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "This Anker MagSafe power bank is down to a record low ahead of Prime Day",
-      "link": "https://www.engadget.com/deals/this-anker-magsafe-power-bank-is-down-to-a-record-low-ahead-of-prime-day-121512235.html?src=rss",
-      "source": "Engadget",
-      "category": "finance",
-      "pubDate": "2025-09-27T13:50:36.000Z",
-      "relevanceScore": 63.31,
-      "recommendationScore": 63.81,
+      "title": "Nursery hackers threaten to publish more children's profiles online",
+      "link": "https://www.bbc.com/news/articles/c07vxv8v89lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-09-26T20:27:32.000Z",
+      "relevanceScore": 122.25,
+      "recommendationScore": 122.75,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "6. CSS Properties",
+      "link": "https://dev.to/avery_/6-css-properties-8hp",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-09-27T14:50:48.000Z",
+      "relevanceScore": 116.93,
+      "recommendationScore": 116.93,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump finds new trade targets -- pharmaceuticals, kitchen cabinets and heavy trucks",
+      "link": "https://abcnews.go.com/Business/wireStory/trump-finds-new-trade-targets-pharmaceuticals-kitchen-cabinets-125989246",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-09-27T04:14:20.000Z",
+      "relevanceScore": 116.81,
+      "recommendationScore": 119.31,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Moldova bans pro-Russian parties ahead of Sunday’s election",
+      "link": "https://www.reddit.com/r/worldnews/comments/1nrtgii/moldova_bans_prorussian_parties_ahead_of_sundays/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-09-27T12:02:00.000Z",
+      "relevanceScore": 116.37,
+      "recommendationScore": 116.87,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -216,8 +250,8 @@
       "source": "NPR Business",
       "category": "startup",
       "pubDate": "2025-09-27T04:32:05.000Z",
-      "relevanceScore": 61.44,
-      "recommendationScore": 61.94,
+      "relevanceScore": 80.87,
+      "recommendationScore": 81.37,
       "tags": [
         "Startup",
         "IPO",
@@ -226,67 +260,41 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "US labor board drops allegation that Apple's CEO violated employees' rights",
-      "link": "https://www.engadget.com/big-tech/us-labor-board-drops-allegation-that-apples-ceo-violated-employees-rights-143053792.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-09-27T14:30:53.000Z",
-      "relevanceScore": 59.44,
-      "recommendationScore": 59.94,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "PM takes aim at 'toxic' Reform as he arrives for Labour conference",
-      "link": "https://www.bbc.com/news/articles/cn0xzdgyx0do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-09-27T14:21:13.000Z",
-      "relevanceScore": 48.91,
-      "recommendationScore": 49.41,
+      "title": "Connecting to the Ethereum Blockchain",
+      "link": "https://dev.to/loading_blocks/connecting-to-the-ethereum-blockchain-3cl0",
+      "source": "Dev.to",
+      "category": "blockchain",
+      "pubDate": "2025-09-27T14:55:54.000Z",
+      "relevanceScore": 79.45,
+      "recommendationScore": 79.45,
       "tags": [
         "Tutorial"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump claims a TikTok deal is done. Who would own it, and how would it work?",
-      "link": "https://www.bbc.com/news/articles/clyng762q4eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "mobile",
-      "pubDate": "2025-09-25T21:52:36.000Z",
-      "relevanceScore": 44.31,
-      "recommendationScore": 46.31,
-      "tags": [
-        "Mobile",
-        "Social",
-        "Partnership"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "When this EV maker collapsed, its customers became the car company",
-      "link": "https://www.theverge.com/transportation/785872/fisker-ocean-ownership-association-software-recall",
-      "source": "The Verge",
-      "category": "automotive",
-      "pubDate": "2025-09-27T12:00:00.000Z",
-      "relevanceScore": 43.44,
-      "recommendationScore": 43.94,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
-      "link": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2025-09-27T11:00:07.000Z",
-      "relevanceScore": 43.24,
-      "recommendationScore": 45.24,
+      "title": "Can Google be trusted without a break up?",
+      "link": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-09-27T13:00:00.000Z",
+      "relevanceScore": 70.06,
+      "recommendationScore": 70.06,
       "tags": [
-        "AI"
+        "Tech"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Sinclair gets nothing it asked for, puts Jimmy Kimmel back on anyway | Sorry, Brendan Carr: Sinclair and Nexstar stop preempting Kimmel on ABC affiliates.",
+      "link": "https://www.reddit.com/r/technology/comments/1nrdor7/sinclair_gets_nothing_it_asked_for_puts_jimmy/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-09-26T21:34:56.000Z",
+      "relevanceScore": 58.98,
+      "recommendationScore": 59.98,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "US investigators are using AI to detect child abuse images made by AI",
@@ -294,8 +302,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-09-26T19:03:34.000Z",
-      "relevanceScore": 43.05,
-      "recommendationScore": 43.55,
+      "relevanceScore": 35.47,
+      "recommendationScore": 35.97,
       "tags": [
         "AI"
       ],
@@ -307,12 +315,135 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-27T10:07:09.000Z",
-      "relevanceScore": 41.56,
-      "recommendationScore": 42.06,
+      "relevanceScore": 31.98,
+      "recommendationScore": 32.48,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "PM takes aim at 'toxic' Reform as he arrives for Labour conference",
+      "link": "https://www.bbc.com/news/articles/cn0xzdgyx0do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-09-27T14:21:13.000Z",
+      "relevanceScore": 31.83,
+      "recommendationScore": 32.33,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Harry suggests people trying to sabotage reconciliation with King",
+      "link": "https://www.bbc.com/news/articles/c04q3pr12e5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-09-27T13:23:42.000Z",
+      "relevanceScore": 31.64,
+      "recommendationScore": 32.14,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How much trouble is Labour in - and is the PM the right man for the job?",
+      "link": "https://www.bbc.com/news/articles/c1kwlzv9zl1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-09-27T12:20:39.000Z",
+      "relevanceScore": 31.43,
+      "recommendationScore": 33.43,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Experts say Trump's TikTok deal payment is a shakedown",
+      "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
+      "source": "NPR Business",
+      "category": "social",
+      "pubDate": "2025-09-27T11:45:24.000Z",
+      "relevanceScore": 27.31,
+      "recommendationScore": 27.81,
+      "tags": [
+        "Social",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "When this EV maker collapsed, its customers became the car company",
+      "link": "https://www.theverge.com/transportation/785872/fisker-ocean-ownership-association-software-recall",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2025-09-27T12:00:00.000Z",
+      "relevanceScore": 26.36,
+      "recommendationScore": 26.86,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
+      "link": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2025-09-27T11:00:07.000Z",
+      "relevanceScore": 26.16,
+      "recommendationScore": 28.16,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Best Body Pillow, Tested and Reviewed (2025)",
+      "link": "https://www.wired.com/gallery/best-body-pillow/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-09-27T14:32:00.000Z",
+      "relevanceScore": 25.87,
+      "recommendationScore": 26.87,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Ultrahuman Home Review: Overpriced and Underbaked",
+      "link": "https://www.wired.com/review/ultrahuman-home/",
+      "source": "Wired",
+      "category": "climate",
+      "pubDate": "2025-09-27T14:00:00.000Z",
+      "relevanceScore": 25.76,
+      "recommendationScore": 25.76,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The current war on science, and who’s behind it",
+      "link": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2025-09-27T11:30:01.000Z",
+      "relevanceScore": 25.26,
+      "recommendationScore": 25.26,
+      "tags": [
+        "Science"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Download: shoplifter-chasing drones, and Trump’s TikTok deal",
+      "link": "https://www.technologyreview.com/2025/09/26/1124253/the-download-shoplifter-chasing-drones-and-trumps-tiktok-deal/",
+      "source": "MIT Technology Review",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-26T12:12:00.000Z",
+      "relevanceScore": 24.6,
+      "recommendationScore": 25.1,
+      "tags": [
+        "Security",
+        "Social",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Vibe coding: Hype or new reality? Only at TechCrunch Disrupt 2025",
@@ -320,8 +451,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-26T20:00:00.000Z",
-      "relevanceScore": 41.24,
-      "recommendationScore": 43.74,
+      "relevanceScore": 24.16,
+      "recommendationScore": 26.66,
       "tags": [
         "AI",
         "Exclusive",
@@ -335,12 +466,25 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-09-26T19:40:24.000Z",
-      "relevanceScore": 41.17,
-      "recommendationScore": 43.17,
+      "relevanceScore": 24.09,
+      "recommendationScore": 26.09,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Checkout.com’s new $12B valuation is a glass half-full situation",
+      "link": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-09-26T19:30:52.000Z",
+      "relevanceScore": 24.06,
+      "recommendationScore": 26.56,
+      "tags": [
+        "Funding"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Shark robot vacuums are up to 58 percent off ahead of Prime Day",
@@ -348,8 +492,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-09-27T14:15:37.000Z",
-      "relevanceScore": 40.89,
-      "recommendationScore": 41.39,
+      "relevanceScore": 23.81,
+      "recommendationScore": 24.31,
       "tags": [
         "AI",
         "Tech"
@@ -357,13 +501,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "US labor board drops allegation that Apple's CEO violated employees' rights",
+      "link": "https://www.engadget.com/big-tech/us-labor-board-drops-allegation-that-apples-ceo-violated-employees-rights-143053792.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-09-27T14:30:53.000Z",
+      "relevanceScore": 23.36,
+      "recommendationScore": 23.86,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Can AI detect hedgehogs from space? Maybe if you find brambles first.",
       "link": "https://arstechnica.com/ai/2025/09/can-ai-detect-hedgehogs-from-space-maybe-if-you-find-brambles-first/",
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-09-26T22:22:13.000Z",
-      "relevanceScore": 39.71,
-      "recommendationScore": 42.21,
+      "relevanceScore": 22.63,
+      "recommendationScore": 25.13,
       "tags": [
         "AI",
         "Exclusive"
@@ -376,183 +531,54 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-26T22:02:57.000Z",
-      "relevanceScore": 39.65,
-      "recommendationScore": 40.15,
+      "relevanceScore": 22.57,
+      "recommendationScore": 23.07,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Listeria found in Walmart meatball meals may be linked to deadly fettuccine outbreak",
-      "link": "https://abcnews.go.com/Business/wireStory/listeria-found-walmart-meatball-meals-linked-deadly-fettuccine-125971768",
-      "source": "ABC News Business",
-      "category": "health",
-      "pubDate": "2025-09-26T17:09:18.000Z",
-      "relevanceScore": 38.67,
-      "recommendationScore": 39.17,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "After global aid cuts, nonprofits seek new energy and new partners on the UN sidelines",
-      "link": "https://abcnews.go.com/Business/wireStory/after-global-aid-cuts-nonprofits-seek-new-energy-125966760",
+      "title": "Ohtani tops MLB jersey sales for 3rd straight season. Skenes and Raleigh break into top 20",
+      "link": "https://abcnews.go.com/Business/wireStory/ohtani-tops-mlb-jersey-sales-3rd-straight-season-125977390",
       "source": "ABC News Business",
       "category": "business",
-      "pubDate": "2025-09-26T15:18:32.000Z",
-      "relevanceScore": 38.3,
-      "recommendationScore": 40.8,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Microsoft cuts off some services used by Israeli military unit",
-      "link": "https://www.bbc.com/news/articles/cvgjx0zve2no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-09-25T22:01:15.000Z",
-      "relevanceScore": 34.84,
-      "recommendationScore": 35.34,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Getting Backstage in front of a shifting dev experience",
-      "link": "https://stackoverflow.blog/2025/09/26/getting-backstage-in-front-of-a-shifting-dev-experience/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-09-26T07:40:00.000Z",
-      "relevanceScore": 34.77,
-      "recommendationScore": 35.27,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: shoplifter-chasing drones, and Trump’s TikTok deal",
-      "link": "https://www.technologyreview.com/2025/09/26/1124253/the-download-shoplifter-chasing-drones-and-trumps-tiktok-deal/",
-      "source": "MIT Technology Review",
-      "category": "cybersecurity",
-      "pubDate": "2025-09-26T12:12:00.000Z",
-      "relevanceScore": 34.18,
-      "recommendationScore": 34.68,
-      "tags": [
-        "Security",
-        "Social",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Harry suggests people trying to sabotage reconciliation with King",
-      "link": "https://www.bbc.com/news/articles/c04q3pr12e5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-09-27T13:23:42.000Z",
-      "relevanceScore": 31.72,
-      "recommendationScore": 32.22,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How much trouble is Labour in - and is the PM the right man for the job?",
-      "link": "https://www.bbc.com/news/articles/c1kwlzv9zl1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-09-27T12:20:39.000Z",
-      "relevanceScore": 31.51,
-      "recommendationScore": 33.51,
+      "pubDate": "2025-09-26T20:38:17.000Z",
+      "relevanceScore": 22.29,
+      "recommendationScore": 23.79,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "EA reportedly plans to go private with help from Silver Lake and Saudi Arabia",
-      "link": "https://www.engadget.com/gaming/ea-reportedly-plans-to-go-private-with-help-from-silver-lake-and-saudi-arabia-123011751.html?src=rss",
-      "source": "Engadget",
-      "category": "startup",
-      "pubDate": "2025-09-27T12:30:11.000Z",
-      "relevanceScore": 30.54,
-      "recommendationScore": 31.04,
-      "tags": [
-        "Startup",
-        "IPO",
-        "Partnership"
-      ],
+      "title": "How major US stock indexes fared Friday, 9/26/2025",
+      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-9262025-125979758",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-09-26T20:29:58.000Z",
+      "relevanceScore": 22.26,
+      "recommendationScore": 23.76,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Experts say Trump's TikTok deal payment is a shakedown",
-      "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
-      "source": "NPR Business",
-      "category": "social",
-      "pubDate": "2025-09-27T11:45:24.000Z",
-      "relevanceScore": 27.39,
-      "recommendationScore": 27.89,
-      "tags": [
-        "Social",
-        "Partnership"
-      ],
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1311, Part 1 (Thread #1458)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1nrllub/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-09-27T04:02:30.000Z",
+      "relevanceScore": 21.77,
+      "recommendationScore": 24.27,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Best Body Pillow, Tested and Reviewed (2025)",
-      "link": "https://www.wired.com/gallery/best-body-pillow/",
-      "source": "Wired",
+      "title": "Some groups that advertise with Nexstar and Sinclair are pausing their ads",
+      "link": "https://www.reddit.com/r/technology/comments/1nruz07/some_groups_that_advertise_with_nexstar_and/",
+      "source": "Reddit Technology",
       "category": "tech",
-      "pubDate": "2025-09-27T14:32:00.000Z",
-      "relevanceScore": 25.94,
-      "recommendationScore": 26.94,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Ultrahuman Home Review: Overpriced and Underbaked",
-      "link": "https://www.wired.com/review/ultrahuman-home/",
-      "source": "Wired",
-      "category": "climate",
-      "pubDate": "2025-09-27T14:00:00.000Z",
-      "relevanceScore": 25.84,
-      "recommendationScore": 25.84,
+      "pubDate": "2025-09-27T13:15:25.000Z",
+      "relevanceScore": 21.61,
+      "recommendationScore": 22.11,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "The current war on science, and who’s behind it",
-      "link": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2025-09-27T11:30:01.000Z",
-      "relevanceScore": 25.34,
-      "recommendationScore": 25.34,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Checkout.com’s new $12B valuation is a glass half-full situation",
-      "link": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-09-26T19:30:52.000Z",
-      "relevanceScore": 24.14,
-      "recommendationScore": 26.64,
-      "tags": [
-        "Funding"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I must have wasted at least 20 minutes hunting around slack for info on a Jira item yesterday.",
-      "link": "https://dev.to/saxmanjes/i-must-have-wasted-at-least-10-minutes-hunting-around-slack-for-info-on-a-jira-item-yesterday-458e",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-09-27T14:34:18.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 24.45,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "How GitHub protects developers from copyright enforcement overreach",
@@ -560,11 +586,22 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-09-26T17:06:17.000Z",
-      "relevanceScore": 21.66,
-      "recommendationScore": 23.66,
+      "relevanceScore": 21.58,
+      "recommendationScore": 23.58,
       "tags": [
         "Exclusive"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Federal Judge Rules ‘MyPillow Guy’ Mike Lindell Defamed Smartmatic Over 2020 Election Voting Machine Claims",
+      "link": "https://www.reddit.com/r/technology/comments/1nrtuck/federal_judge_rules_mypillow_guy_mike_lindell/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-09-27T12:21:51.000Z",
+      "relevanceScore": 21.43,
+      "recommendationScore": 21.43,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -573,8 +610,8 @@
       "source": "GitHub Blog",
       "category": "cybersecurity",
       "pubDate": "2025-09-26T15:00:00.000Z",
-      "relevanceScore": 21.24,
-      "recommendationScore": 21.74,
+      "relevanceScore": 21.16,
+      "recommendationScore": 21.66,
       "tags": [
         "Security",
         "Exclusive"
@@ -587,8 +624,8 @@
       "source": "MIT Technology Review",
       "category": "cybersecurity",
       "pubDate": "2025-09-25T17:34:26.000Z",
-      "relevanceScore": 20.95,
-      "recommendationScore": 20.95,
+      "relevanceScore": 20.87,
+      "recommendationScore": 20.87,
       "tags": [
         "Security"
       ],
@@ -600,8 +637,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2025-09-26T10:54:12.000Z",
-      "relevanceScore": 20.42,
-      "recommendationScore": 21.92,
+      "relevanceScore": 20.34,
+      "recommendationScore": 21.84,
       "tags": [
         "Social"
       ],
@@ -615,38 +652,56 @@
         "link": "https://github.blog/open-source/maintainers/building-beyond-the-browser-keeley-hammond-on-electron-open-source-and-the-future-of-maintainership/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-25T17:05:48.000Z",
-        "relevanceScore": 866.86,
+        "relevanceScore": 855.28,
         "tags": [
           "Web",
           "Exclusive"
         ]
       },
       {
-        "title": "OTA Python updates with ESP-Now",
-        "link": "https://dev.to/gtanyware/ota-python-updates-with-esp-now-4iai",
-        "source": "Dev.to",
-        "pubDate": "2025-09-27T14:33:42.000Z",
-        "relevanceScore": 77.45,
-        "tags": [
-          "Tutorial"
-        ]
+        "title": "PostgreSQL 18 Released — pgbench Results Show It’s the Fastest Yet",
+        "link": "https://www.reddit.com/r/programming/comments/1nrw3p3/postgresql_18_released_pgbench_results_show_its/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-27T14:05:26.000Z",
+        "relevanceScore": 371.78,
+        "tags": []
       },
       {
-        "title": "I must have wasted at least 20 minutes hunting around slack for info on a Jira item yesterday.",
-        "link": "https://dev.to/saxmanjes/i-must-have-wasted-at-least-10-minutes-hunting-around-slack-for-info-on-a-jira-item-yesterday-458e",
+        "title": "6. CSS Properties",
+        "link": "https://dev.to/avery_/6-css-properties-8hp",
         "source": "Dev.to",
-        "pubDate": "2025-09-27T14:34:18.000Z",
-        "relevanceScore": 23.95,
-        "tags": []
+        "pubDate": "2025-09-27T14:50:48.000Z",
+        "relevanceScore": 116.93,
+        "tags": [
+          "Web"
+        ]
       },
       {
         "title": "How GitHub protects developers from copyright enforcement overreach",
         "link": "https://github.blog/news-insights/policy-news-and-insights/how-github-protects-developers-from-copyright-enforcement-overreach/",
         "source": "GitHub Blog",
         "pubDate": "2025-09-26T17:06:17.000Z",
-        "relevanceScore": 21.66,
+        "relevanceScore": 21.58,
         "tags": [
           "Exclusive"
+        ]
+      },
+      {
+        "title": "Ruby Central executes hostile takeover of the RubyGems github organisation and code repositories",
+        "link": "https://www.reddit.com/r/programming/comments/1nrbh25/ruby_central_executes_hostile_takeover_of_the/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-26T20:04:29.000Z",
+        "relevanceScore": 18.17,
+        "tags": []
+      },
+      {
+        "title": "Australia might restrict GitHub over damage to kids, internet laughs",
+        "link": "https://www.reddit.com/r/programming/comments/1nr7zh5/australia_might_restrict_github_over_damage_to/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-09-26T17:47:44.000Z",
+        "relevanceScore": 17.72,
+        "tags": [
+          "Web"
         ]
       }
     ],
@@ -656,20 +711,10 @@
         "link": "https://techcrunch.com/2025/09/27/how-south-korea-plans-to-best-openai-google-others-with-homegrown-ai/",
         "source": "TechCrunch",
         "pubDate": "2025-09-27T14:00:00.000Z",
-        "relevanceScore": 839.84,
+        "relevanceScore": 840.76,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
-        "link": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-27T11:00:07.000Z",
-        "relevanceScore": 43.24,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -677,7 +722,17 @@
         "link": "https://www.technologyreview.com/2025/09/26/1124343/us-investigators-are-using-ai-to-detect-child-abuse-images-made-by-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-09-26T19:03:34.000Z",
-        "relevanceScore": 43.05,
+        "relevanceScore": 35.47,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
+        "link": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-27T11:00:07.000Z",
+        "relevanceScore": 26.16,
         "tags": [
           "AI"
         ]
@@ -687,7 +742,7 @@
         "link": "https://techcrunch.com/2025/09/26/discover-how-developer-tools-are-shifting-fast-with-lauri-moore-and-david-cramer-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-09-26T20:00:00.000Z",
-        "relevanceScore": 41.24,
+        "relevanceScore": 24.16,
         "tags": [
           "AI",
           "Exclusive",
@@ -699,7 +754,7 @@
         "link": "https://techcrunch.com/2025/09/26/whats-behind-the-massive-ai-data-center-headlines/",
         "source": "TechCrunch",
         "pubDate": "2025-09-26T19:40:24.000Z",
-        "relevanceScore": 41.17,
+        "relevanceScore": 24.09,
         "tags": [
           "AI"
         ]
@@ -709,7 +764,7 @@
         "link": "https://www.engadget.com/deals/shark-robot-vacuums-are-up-to-58-percent-off-ahead-of-prime-day-171836084.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-27T14:15:37.000Z",
-        "relevanceScore": 40.89,
+        "relevanceScore": 23.81,
         "tags": [
           "AI",
           "Tech"
@@ -720,7 +775,7 @@
         "link": "https://arstechnica.com/ai/2025/09/can-ai-detect-hedgehogs-from-space-maybe-if-you-find-brambles-first/",
         "source": "Ars Technica",
         "pubDate": "2025-09-26T22:22:13.000Z",
-        "relevanceScore": 39.71,
+        "relevanceScore": 22.63,
         "tags": [
           "AI",
           "Exclusive"
@@ -731,37 +786,35 @@
         "link": "https://stackoverflow.blog/2025/09/26/getting-backstage-in-front-of-a-shifting-dev-experience/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-09-26T07:40:00.000Z",
-        "relevanceScore": 34.77,
+        "relevanceScore": 17.69,
         "tags": [
           "AI"
         ]
       }
     ],
-    "business": [
+    "world": [
       {
-        "title": "China launches an investigation into Mexico's tariffs on imports from Asia",
-        "link": "https://abcnews.go.com/Business/wireStory/china-launches-investigation-mexicos-tariffs-imports-asia-125954811",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-26T05:27:31.000Z",
-        "relevanceScore": 814.33,
-        "tags": [
-          "Analysis"
-        ]
-      },
-      {
-        "title": "Jimmy Kimmel reflects on his comic roots and how he broke into late night",
-        "link": "https://www.npr.org/2025/09/26/nx-s1-5553429/jimmy-kimmel-reflects-on-his-comic-roots-and-how-he-broke-into-late-night",
-        "source": "NPR Business",
-        "pubDate": "2025-09-26T13:48:10.000Z",
-        "relevanceScore": 333,
+        "title": "Poland opens border with Belarus, urges its citizens to leave immediately",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nrqfxe/poland_opens_border_with_belarus_urges_its/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-27T08:59:26.000Z",
+        "relevanceScore": 835.76,
         "tags": []
       },
       {
-        "title": "After global aid cuts, nonprofits seek new energy and new partners on the UN sidelines",
-        "link": "https://abcnews.go.com/Business/wireStory/after-global-aid-cuts-nonprofits-seek-new-energy-125966760",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-26T15:18:32.000Z",
-        "relevanceScore": 38.3,
+        "title": "Moldova bans pro-Russian parties ahead of Sunday’s election",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nrtgii/moldova_bans_prorussian_parties_ahead_of_sundays/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-27T12:02:00.000Z",
+        "relevanceScore": 116.37,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1311, Part 1 (Thread #1458)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1nrllub/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-09-27T04:02:30.000Z",
+        "relevanceScore": 21.77,
         "tags": []
       }
     ],
@@ -771,7 +824,7 @@
         "link": "https://techcrunch.com/2025/09/26/famed-roboticist-says-humanoid-robot-bubble-is-doomed-to-burst/",
         "source": "TechCrunch",
         "pubDate": "2025-09-27T06:45:54.000Z",
-        "relevanceScore": 343.39,
+        "relevanceScore": 357.81,
         "tags": []
       },
       {
@@ -779,7 +832,7 @@
         "link": "https://www.theverge.com/transportation/785872/fisker-ocean-ownership-association-software-recall",
         "source": "The Verge",
         "pubDate": "2025-09-27T12:00:00.000Z",
-        "relevanceScore": 43.44,
+        "relevanceScore": 26.36,
         "tags": []
       }
     ],
@@ -789,9 +842,27 @@
         "link": "https://www.theverge.com/news/786455/amazon-fall-hardware-event-2025-what-to-expect-alexa-echo-kindle",
         "source": "The Verge",
         "pubDate": "2025-09-27T12:00:00.000Z",
-        "relevanceScore": 318.44,
+        "relevanceScore": 330.36,
         "tags": [
           "Tech"
+        ]
+      },
+      {
+        "title": "The best October Prime Day deals you can get today: Early sales on gear from Apple, Anker, JBL, Shark and more",
+        "link": "https://www.engadget.com/deals/the-best-october-prime-day-deals-you-can-get-today-early-sales-on-gear-from-apple-anker-jbl-shark-and-more-050801366.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-27T15:00:36.000Z",
+        "relevanceScore": 164.46,
+        "tags": []
+      },
+      {
+        "title": "Nursery hackers threaten to publish more children's profiles online",
+        "link": "https://www.bbc.com/news/articles/c07vxv8v89lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-09-26T20:27:32.000Z",
+        "relevanceScore": 122.25,
+        "tags": [
+          "Web"
         ]
       },
       {
@@ -799,27 +870,33 @@
         "link": "https://www.theverge.com/policy/786930/google-doj-ad-tech-remedies-break-up-trust",
         "source": "The Verge",
         "pubDate": "2025-09-27T13:00:00.000Z",
-        "relevanceScore": 85.14,
+        "relevanceScore": 70.06,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "Nursery hackers threaten to publish more children's profiles online",
-        "link": "https://www.bbc.com/news/articles/c07vxv8v89lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-09-26T20:27:32.000Z",
-        "relevanceScore": 81.33,
-        "tags": [
-          "Web"
-        ]
+        "title": "Sinclair gets nothing it asked for, puts Jimmy Kimmel back on anyway | Sorry, Brendan Carr: Sinclair and Nexstar stop preempting Kimmel on ABC affiliates.",
+        "link": "https://www.reddit.com/r/technology/comments/1nrdor7/sinclair_gets_nothing_it_asked_for_puts_jimmy/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-26T21:34:56.000Z",
+        "relevanceScore": 58.98,
+        "tags": []
+      },
+      {
+        "title": "The Best Body Pillow, Tested and Reviewed (2025)",
+        "link": "https://www.wired.com/gallery/best-body-pillow/",
+        "source": "Wired",
+        "pubDate": "2025-09-27T14:32:00.000Z",
+        "relevanceScore": 25.87,
+        "tags": []
       },
       {
         "title": "US labor board drops allegation that Apple's CEO violated employees' rights",
         "link": "https://www.engadget.com/big-tech/us-labor-board-drops-allegation-that-apples-ceo-violated-employees-rights-143053792.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-27T14:30:53.000Z",
-        "relevanceScore": 59.44,
+        "relevanceScore": 23.36,
         "tags": []
       },
       {
@@ -827,7 +904,23 @@
         "link": "https://arstechnica.com/health/2025/09/woman-hospitalized-with-pain-and-vomiting-a-diet-soda-cured-her/",
         "source": "Ars Technica",
         "pubDate": "2025-09-26T22:02:57.000Z",
-        "relevanceScore": 39.65,
+        "relevanceScore": 22.57,
+        "tags": []
+      },
+      {
+        "title": "Some groups that advertise with Nexstar and Sinclair are pausing their ads",
+        "link": "https://www.reddit.com/r/technology/comments/1nruz07/some_groups_that_advertise_with_nexstar_and/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-27T13:15:25.000Z",
+        "relevanceScore": 21.61,
+        "tags": []
+      },
+      {
+        "title": "Federal Judge Rules ‘MyPillow Guy’ Mike Lindell Defamed Smartmatic Over 2020 Election Voting Machine Claims",
+        "link": "https://www.reddit.com/r/technology/comments/1nrtuck/federal_judge_rules_mypillow_guy_mike_lindell/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-09-27T12:21:51.000Z",
+        "relevanceScore": 21.43,
         "tags": []
       },
       {
@@ -835,17 +928,35 @@
         "link": "https://www.bbc.com/news/articles/cvgjx0zve2no?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-25T22:01:15.000Z",
-        "relevanceScore": 34.84,
+        "relevanceScore": 17.76,
         "tags": [
           "Tech"
         ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Jimmy Kimmel reflects on his comic roots and how he broke into late night",
+        "link": "https://www.npr.org/2025/09/26/nx-s1-5553429/jimmy-kimmel-reflects-on-his-comic-roots-and-how-he-broke-into-late-night",
+        "source": "NPR Business",
+        "pubDate": "2025-09-26T13:48:10.000Z",
+        "relevanceScore": 327.92,
+        "tags": []
       },
       {
-        "title": "The Best Body Pillow, Tested and Reviewed (2025)",
-        "link": "https://www.wired.com/gallery/best-body-pillow/",
-        "source": "Wired",
-        "pubDate": "2025-09-27T14:32:00.000Z",
-        "relevanceScore": 25.94,
+        "title": "Trump finds new trade targets -- pharmaceuticals, kitchen cabinets and heavy trucks",
+        "link": "https://abcnews.go.com/Business/wireStory/trump-finds-new-trade-targets-pharmaceuticals-kitchen-cabinets-125989246",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-27T04:14:20.000Z",
+        "relevanceScore": 116.81,
+        "tags": []
+      },
+      {
+        "title": "Ohtani tops MLB jersey sales for 3rd straight season. Skenes and Raleigh break into top 20",
+        "link": "https://abcnews.go.com/Business/wireStory/ohtani-tops-mlb-jersey-sales-3rd-straight-season-125977390",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-26T20:38:17.000Z",
+        "relevanceScore": 22.29,
         "tags": []
       }
     ],
@@ -855,7 +966,7 @@
         "link": "https://www.wired.com/story/app-used-to-dox-charlie-kirk-critics-doxed-its-own-users-instead/",
         "source": "Wired",
         "pubDate": "2025-09-27T14:25:49.000Z",
-        "relevanceScore": 95.92,
+        "relevanceScore": 221.85,
         "tags": [
           "Security",
           "Mobile",
@@ -867,7 +978,7 @@
         "link": "https://www.wired.com/review/samsung-galaxy-buds3-fe/",
         "source": "Wired",
         "pubDate": "2025-09-27T13:33:00.000Z",
-        "relevanceScore": 84.75,
+        "relevanceScore": 125.67,
         "tags": [
           "Mobile"
         ]
@@ -877,7 +988,7 @@
         "link": "https://www.bbc.com/news/articles/clyng762q4eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-25T21:52:36.000Z",
-        "relevanceScore": 44.31,
+        "relevanceScore": 17.73,
         "tags": [
           "Mobile",
           "Social",
@@ -885,15 +996,27 @@
         ]
       }
     ],
-    "cloud": [
+    "education": [
       {
-        "title": "From Messy to Modular: A Better Way to Write Production-Ready Terraform - Part 1",
-        "link": "https://dev.to/farouqmousa/from-messy-to-modular-a-better-way-to-write-production-ready-terraform-for-aws-part-1-39b8",
+        "title": "Tally: The Liveability Dashboard",
+        "link": "https://dev.to/richk21/tally-the-liveability-dashboard-4ha8",
         "source": "Dev.to",
-        "pubDate": "2025-09-27T14:43:55.000Z",
-        "relevanceScore": 92.48,
+        "pubDate": "2025-09-27T14:53:07.000Z",
+        "relevanceScore": 213.44,
         "tags": [
-          "Cloud"
+          "Report"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "The Roku Streaming Stick Plus is on sale for only $29 right now",
+        "link": "https://www.engadget.com/deals/the-roku-streaming-stick-plus-is-on-sale-for-only-29-right-now-134656999.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-09-27T14:46:26.000Z",
+        "relevanceScore": 159.91,
+        "tags": [
+          "Update"
         ]
       }
     ],
@@ -903,27 +1026,27 @@
         "link": "https://www.bbc.com/news/articles/cwyl8j1we0lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-27T03:39:38.000Z",
-        "relevanceScore": 71.77,
+        "relevanceScore": 129.69,
         "tags": []
-      },
-      {
-        "title": "PM takes aim at 'toxic' Reform as he arrives for Labour conference",
-        "link": "https://www.bbc.com/news/articles/cn0xzdgyx0do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-09-27T14:21:13.000Z",
-        "relevanceScore": 48.91,
-        "tags": [
-          "Tutorial"
-        ]
       },
       {
         "title": "Reeves pushes for EU youth migration scheme ahead of Budget",
         "link": "https://www.bbc.com/news/articles/c179z10vy28o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-27T10:07:09.000Z",
-        "relevanceScore": 41.56,
+        "relevanceScore": 31.98,
         "tags": [
           "Partnership"
+        ]
+      },
+      {
+        "title": "PM takes aim at 'toxic' Reform as he arrives for Labour conference",
+        "link": "https://www.bbc.com/news/articles/cn0xzdgyx0do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-09-27T14:21:13.000Z",
+        "relevanceScore": 31.83,
+        "tags": [
+          "Tutorial"
         ]
       },
       {
@@ -931,7 +1054,7 @@
         "link": "https://www.bbc.com/news/articles/c04q3pr12e5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-27T13:23:42.000Z",
-        "relevanceScore": 31.72,
+        "relevanceScore": 31.64,
         "tags": []
       },
       {
@@ -939,7 +1062,7 @@
         "link": "https://www.bbc.com/news/articles/c1kwlzv9zl1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-27T12:20:39.000Z",
-        "relevanceScore": 31.51,
+        "relevanceScore": 31.43,
         "tags": []
       }
     ],
@@ -949,20 +1072,10 @@
         "link": "https://www.theverge.com/games/785848/blippo-plus-review-switch-steam",
         "source": "The Verge",
         "pubDate": "2025-09-27T13:00:00.000Z",
-        "relevanceScore": 67.64,
+        "relevanceScore": 125.56,
         "tags": [
           "Launch"
         ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "This Anker MagSafe power bank is down to a record low ahead of Prime Day",
-        "link": "https://www.engadget.com/deals/this-anker-magsafe-power-bank-is-down-to-a-record-low-ahead-of-prime-day-121512235.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-27T13:50:36.000Z",
-        "relevanceScore": 63.31,
-        "tags": []
       }
     ],
     "startup": [
@@ -971,23 +1084,11 @@
         "link": "https://www.npr.org/2025/09/27/nx-s1-5554882/npr-federal-funds-decline-clashes-cpb",
         "source": "NPR Business",
         "pubDate": "2025-09-27T04:32:05.000Z",
-        "relevanceScore": 61.44,
+        "relevanceScore": 80.87,
         "tags": [
           "Startup",
           "IPO",
           "Funding"
-        ]
-      },
-      {
-        "title": "EA reportedly plans to go private with help from Silver Lake and Saudi Arabia",
-        "link": "https://www.engadget.com/gaming/ea-reportedly-plans-to-go-private-with-help-from-silver-lake-and-saudi-arabia-123011751.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-09-27T12:30:11.000Z",
-        "relevanceScore": 30.54,
-        "tags": [
-          "Startup",
-          "IPO",
-          "Partnership"
         ]
       },
       {
@@ -995,64 +1096,21 @@
         "link": "https://techcrunch.com/2025/09/26/checkout-coms-new-12b-valuation-is-a-glass-half-full-situation/",
         "source": "TechCrunch",
         "pubDate": "2025-09-26T19:30:52.000Z",
-        "relevanceScore": 24.14,
+        "relevanceScore": 24.06,
         "tags": [
           "Funding"
         ]
       }
     ],
-    "health": [
+    "blockchain": [
       {
-        "title": "Listeria found in Walmart meatball meals may be linked to deadly fettuccine outbreak",
-        "link": "https://abcnews.go.com/Business/wireStory/listeria-found-walmart-meatball-meals-linked-deadly-fettuccine-125971768",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-26T17:09:18.000Z",
-        "relevanceScore": 38.67,
-        "tags": []
-      },
-      {
-        "title": "The current war on science, and who’s behind it",
-        "link": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
-        "source": "Ars Technica",
-        "pubDate": "2025-09-27T11:30:01.000Z",
-        "relevanceScore": 25.34,
+        "title": "Connecting to the Ethereum Blockchain",
+        "link": "https://dev.to/loading_blocks/connecting-to-the-ethereum-blockchain-3cl0",
+        "source": "Dev.to",
+        "pubDate": "2025-09-27T14:55:54.000Z",
+        "relevanceScore": 79.45,
         "tags": [
-          "Science"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "The Download: shoplifter-chasing drones, and Trump’s TikTok deal",
-        "link": "https://www.technologyreview.com/2025/09/26/1124253/the-download-shoplifter-chasing-drones-and-trumps-tiktok-deal/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-09-26T12:12:00.000Z",
-        "relevanceScore": 34.18,
-        "tags": [
-          "Security",
-          "Social",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Kicking off Cybersecurity Awareness Month 2025: Researcher Spotlights and Enhanced Incentives",
-        "link": "https://github.blog/security/vulnerability-research/kicking-off-cybersecurity-awareness-month-2025-researcher-spotlights-and-enhanced-incentives/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-09-26T15:00:00.000Z",
-        "relevanceScore": 21.24,
-        "tags": [
-          "Security",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Shoplifters could soon be chased down by drones",
-        "link": "https://www.technologyreview.com/2025/09/25/1124088/shoplifters-could-soon-be-chased-down-by-drones/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-09-25T17:34:26.000Z",
-        "relevanceScore": 20.95,
-        "tags": [
-          "Security"
+          "Tutorial"
         ]
       }
     ],
@@ -1062,7 +1120,7 @@
         "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
         "source": "NPR Business",
         "pubDate": "2025-09-27T11:45:24.000Z",
-        "relevanceScore": 27.39,
+        "relevanceScore": 27.31,
         "tags": [
           "Social",
           "Partnership"
@@ -1073,7 +1131,7 @@
         "link": "https://www.bbc.com/news/articles/c5y4xl5x8q7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-09-26T10:54:12.000Z",
-        "relevanceScore": 20.42,
+        "relevanceScore": 20.34,
         "tags": [
           "Social"
         ]
@@ -1085,34 +1143,91 @@
         "link": "https://www.wired.com/review/ultrahuman-home/",
         "source": "Wired",
         "pubDate": "2025-09-27T14:00:00.000Z",
-        "relevanceScore": 25.84,
+        "relevanceScore": 25.76,
+        "tags": []
+      }
+    ],
+    "health": [
+      {
+        "title": "The current war on science, and who’s behind it",
+        "link": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
+        "source": "Ars Technica",
+        "pubDate": "2025-09-27T11:30:01.000Z",
+        "relevanceScore": 25.26,
+        "tags": [
+          "Science"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "The Download: shoplifter-chasing drones, and Trump’s TikTok deal",
+        "link": "https://www.technologyreview.com/2025/09/26/1124253/the-download-shoplifter-chasing-drones-and-trumps-tiktok-deal/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-09-26T12:12:00.000Z",
+        "relevanceScore": 24.6,
+        "tags": [
+          "Security",
+          "Social",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Kicking off Cybersecurity Awareness Month 2025: Researcher Spotlights and Enhanced Incentives",
+        "link": "https://github.blog/security/vulnerability-research/kicking-off-cybersecurity-awareness-month-2025-researcher-spotlights-and-enhanced-incentives/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-09-26T15:00:00.000Z",
+        "relevanceScore": 21.16,
+        "tags": [
+          "Security",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Shoplifters could soon be chased down by drones",
+        "link": "https://www.technologyreview.com/2025/09/25/1124088/shoplifters-could-soon-be-chased-down-by-drones/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-09-25T17:34:26.000Z",
+        "relevanceScore": 20.87,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "How major US stock indexes fared Friday, 9/26/2025",
+        "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-9262025-125979758",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-26T20:29:58.000Z",
+        "relevanceScore": 22.26,
         "tags": []
       }
     ]
   },
   "stats": {
-    "totalSources": 13,
-    "totalCategories": 15,
-    "avgRelevanceScore": 115.98043478260873,
+    "totalSources": 16,
+    "totalCategories": 18,
+    "avgRelevanceScore": 120.23090909090912,
     "topCategories": [
+      {
+        "category": "tech",
+        "count": 11
+      },
       {
         "category": "ai-ml",
         "count": 8
       },
       {
-        "category": "tech",
-        "count": 7
+        "category": "development",
+        "count": 6
       },
       {
         "category": "general",
         "count": 5
       },
       {
-        "category": "development",
-        "count": 4
-      },
-      {
-        "category": "business",
+        "category": "world",
         "count": 3
       }
     ]
