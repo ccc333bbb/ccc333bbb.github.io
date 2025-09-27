@@ -1,7 +1,71 @@
 {
-  "lastUpdated": "2025-09-26T23:48:46.005Z",
+  "lastUpdated": "2025-09-27T01:01:12.200Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2025-09-27",
+      "file": "2025-09-27.json",
+      "totalArticles": 55,
+      "lastUpdated": "2025-09-27T01:01:12.181Z",
+      "sources": [
+        "ABC News Business",
+        "BBC News",
+        "The Verge",
+        "Engadget",
+        "TechCrunch",
+        "GitHub Blog",
+        "NPR Business",
+        "MIT Technology Review",
+        "Wired",
+        "Ars Technica",
+        "Reddit World News",
+        "Dev.to",
+        "BBC Technology",
+        "Reddit Technology",
+        "Stack Overflow Blog",
+        "Reddit Programming"
+      ],
+      "categories": [
+        "business",
+        "general",
+        "tech",
+        "development",
+        "science",
+        "world"
+      ],
+      "topArticles": [
+        {
+          "title": "China launches an investigation into Mexico's tariffs on imports from Asia",
+          "source": "ABC News Business",
+          "link": "https://abcnews.go.com/Business/wireStory/china-launches-investigation-mexicos-tariffs-imports-asia-125954811",
+          "relevanceScore": 467
+        },
+        {
+          "title": "New digital ID will be mandatory to work in the UK, Starmer says",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cn832y43ql5o?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 466.00483625
+        },
+        {
+          "title": "Chris Mason: Starmer unflinching as he seeks to take on Reform",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cvg41lljnryo?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 430.68400291666666
+        },
+        {
+          "title": "Trump’s new target: Microsoft head of global affairs Lisa Monaco",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/786885/trump-calls-for-firing-microsoft-lisa-monaco",
+          "relevanceScore": 429.8296972222222
+        },
+        {
+          "title": "Apple reportedly made a ChatGPT-clone to test Siri's new capabilities",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/ai/apple-reportedly-made-a-chatgpt-clone-to-test-siris-new-capabilities-194902560.html?src=rss",
+          "relevanceScore": 428.3985861111111
+        }
+      ]
+    },
     {
       "date": "2025-09-26",
       "file": "2025-09-26.json",
@@ -38,31 +102,31 @@
           "title": "Why is the government introducing digital IDs?",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/clyl3lzzed2o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 664
+          "relevanceScore": 683.7
         },
         {
           "title": "New digital ID will be mandatory to work in the UK, Starmer says",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/cn832y43ql5o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 426.60847458333336
+          "relevanceScore": 431.64
         },
         {
           "title": "Trump’s new target: Microsoft head of global affairs Lisa Monaco",
           "source": "The Verge",
           "link": "https://www.theverge.com/news/786885/trump-calls-for-firing-microsoft-lisa-monaco",
-          "relevanceScore": 422.4333355555556
+          "relevanceScore": 433.77
         },
         {
           "title": "Apple reportedly made a ChatGPT-clone to test Siri's new capabilities",
           "source": "Engadget",
           "link": "https://www.engadget.com/ai/apple-reportedly-made-a-chatgpt-clone-to-test-siris-new-capabilities-194902560.html?src=rss",
-          "relevanceScore": 421.00222444444444
+          "relevanceScore": 431.2
         },
         {
           "title": "Building beyond the browser: Keeley Hammond on Electron, open source, and the future of maintainership",
           "source": "GitHub Blog",
           "link": "https://github.blog/open-source/maintainers/building-beyond-the-browser-keeley-hammond-on-electron-open-source-and-the-future-of-maintainership/",
-          "relevanceScore": 418
+          "relevanceScore": 427.86
         }
       ]
     },
@@ -1814,70 +1878,6 @@
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1n3guzd/the_69_billion_domino_effect_how_vmwares/",
           "relevanceScore": 438.14
-        }
-      ]
-    },
-    {
-      "date": "2025-08-28",
-      "file": "2025-08-28.json",
-      "totalArticles": 56,
-      "lastUpdated": "2025-08-28T23:49:31.746Z",
-      "sources": [
-        "Wired",
-        "Dev.to",
-        "The Verge",
-        "Ars Technica",
-        "TechCrunch",
-        "Engadget",
-        "ABC News Business",
-        "Reddit Technology",
-        "Stack Overflow Blog",
-        "Reddit Programming",
-        "MIT Technology Review",
-        "NPR Business",
-        "GitHub Blog",
-        "BBC Technology",
-        "Reddit World News",
-        "BBC News"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "business",
-        "science",
-        "world",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "The Duty-Free Loophole Is Closing. What That Means for You—and Your Packages",
-          "source": "Wired",
-          "link": "https://www.wired.com/story/de-minimis-exemption-ending-what-that-means-for-you/",
-          "relevanceScore": 1150.5
-        },
-        {
-          "title": "Web Wide Worlds: An Open Technology Stack for Digital Worlds",
-          "source": "Dev.to",
-          "link": "https://dev.to/dyfi/web-wide-worlds-an-open-technology-stack-for-digital-worlds-e3p",
-          "relevanceScore": 946.85
-        },
-        {
-          "title": "Microsoft fires two more employees for participating in Palestine protests on campus",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/microsoft/767841/microsoft-fires-two-more-protesters-no-azure-for-apartheid",
-          "relevanceScore": 675.81
-        },
-        {
-          "title": "High-severity vulnerability in Passwordstate credential manager. Patch now.",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/",
-          "relevanceScore": 674.99
-        },
-        {
-          "title": "Mississippi’s age assurance law puts decentralized social networks to the test",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2025/08/28/mississippis-age-assurance-law-puts-decentralized-social-networks-to-the-test/",
-          "relevanceScore": 663.08
         }
       ]
     }
