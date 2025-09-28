@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2025-09-28T20:40:37.880Z",
+  "lastUpdated": "2025-09-28T20:48:57.497Z",
   "totalArticles": 35,
   "categories": [
     "climate",
+    "development",
     "ai-ml",
     "space",
     "cloud",
     "cybersecurity",
     "tech",
+    "business",
+    "social",
     "mobile",
     "general",
     "startup",
-    "business",
-    "social",
     "gaming",
     "health"
   ],
@@ -23,10 +24,23 @@
       "source": "The Verge",
       "category": "climate",
       "pubDate": "2025-09-28T13:00:00.000Z",
-      "relevanceScore": 710.46,
-      "recommendationScore": 712.46,
+      "relevanceScore": 720.44,
+      "recommendationScore": 722.44,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "WiredTigerHS.wt: MongoDB MVCC Durable History Store",
+      "link": "https://dev.to/franckpachot/mongodb-mvcc-durable-history-store-wiredtigerhswt-mn2",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-09-28T20:44:53.000Z",
+      "relevanceScore": 564.99,
+      "recommendationScore": 565.49,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Why LA Comic Con thought making an AI-powered Stan Lee hologram was a good idea",
@@ -34,8 +48,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-09-27T11:00:07.000Z",
-      "relevanceScore": 547.76,
-      "recommendationScore": 549.76,
+      "relevanceScore": 508.74,
+      "recommendationScore": 510.74,
       "tags": [
         "AI"
       ],
@@ -47,8 +61,8 @@
       "source": "BBC News",
       "category": "space",
       "pubDate": "2025-09-28T14:33:19.000Z",
-      "relevanceScore": 444.78,
-      "recommendationScore": 445.28,
+      "relevanceScore": 452.75,
+      "recommendationScore": 453.25,
       "tags": [
         "Regulation"
       ],
@@ -60,35 +74,11 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-09-28T20:04:44.000Z",
-      "relevanceScore": 404.38,
-      "recommendationScore": 404.38,
+      "relevanceScore": 366.85,
+      "recommendationScore": 366.85,
       "tags": [
         "AI",
         "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A Quick Dive into Kubernetes Operators - Part 3",
-      "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-3-19pi",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-09-28T20:27:00.000Z",
-      "relevanceScore": 222.95,
-      "recommendationScore": 222.95,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Hackers contact Harrods after 430,000 customer records hit by IT breach",
-      "link": "https://www.bbc.com/news/articles/cpq5w324pd3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "cybersecurity",
-      "pubDate": "2025-09-28T17:25:38.000Z",
-      "relevanceScore": 221.35,
-      "recommendationScore": 221.85,
-      "tags": [
-        "Security"
       ],
       "readingLevel": "advanced"
     },
@@ -98,8 +88,8 @@
       "source": "The Verge",
       "category": "cloud",
       "pubDate": "2025-09-28T19:32:05.000Z",
-      "relevanceScore": 210.27,
-      "recommendationScore": 210.27,
+      "relevanceScore": 213.74,
+      "recommendationScore": 213.74,
       "tags": [
         "Tech",
         "Cloud"
@@ -107,15 +97,52 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Apple is reportedly nearing production for its M5 MacBooks",
-      "link": "https://www.engadget.com/computing/laptops/apple-is-reportedly-nearing-production-for-its-latest-m5-powered-macbooks-154148070.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-09-28T15:41:48.000Z",
-      "relevanceScore": 137.5,
-      "recommendationScore": 138,
+      "title": "A Quick Dive into Kubernetes Operators - Part 3",
+      "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-3-19pi",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-09-28T20:27:00.000Z",
+      "relevanceScore": 188.93,
+      "recommendationScore": 188.93,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Hackers contact Harrods after 430,000 customer records hit by IT breach",
+      "link": "https://www.bbc.com/news/articles/cpq5w324pd3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "cybersecurity",
+      "pubDate": "2025-09-28T17:25:38.000Z",
+      "relevanceScore": 181.82,
+      "recommendationScore": 182.32,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Snapchat introduces a paid storage option for all the Memories hoarders out there",
+      "link": "https://www.engadget.com/social-media/snapchat-introduces-a-paid-storage-option-for-all-the-memories-hoarders-out-there-203013294.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-09-28T20:45:13.000Z",
+      "relevanceScore": 157.49,
+      "recommendationScore": 157.99,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A Quick Dive into Kubernetes Operators - Part 4",
+      "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-4-3ldb",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-09-28T20:27:09.000Z",
+      "relevanceScore": 148.43,
+      "recommendationScore": 148.43,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "How Walmart plans to prepare America's largest private workforce for an AI-driven future",
@@ -123,8 +150,8 @@
       "source": "ABC News Business",
       "category": "ai-ml",
       "pubDate": "2025-09-28T13:55:56.000Z",
-      "relevanceScore": 129.65,
-      "recommendationScore": 131.65,
+      "relevanceScore": 133.12,
+      "recommendationScore": 135.12,
       "tags": [
         "AI",
         "Business"
@@ -132,16 +159,27 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Wiz chief technologist Ami Luttwak on how AI is transforming cyberattacks",
-      "link": "https://techcrunch.com/2025/09/28/wiz-chief-technologist-ami-luttwak-on-how-ai-is-transforming-cyberattacks/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-09-28T14:00:00.000Z",
-      "relevanceScore": 121.66,
-      "recommendationScore": 123.66,
+      "title": "Why friends are teaming up to buy homes",
+      "link": "https://www.npr.org/2025/09/28/nx-s1-5497777/housing-buying-friends-siblings-affordability",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-09-28T09:00:00.000Z",
+      "relevanceScore": 102.64,
+      "recommendationScore": 104.14,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Experts say Trump's TikTok deal payment is a shakedown",
+      "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
+      "source": "NPR Business",
+      "category": "social",
+      "pubDate": "2025-09-27T11:45:24.000Z",
+      "relevanceScore": 98.39,
+      "recommendationScore": 98.89,
       "tags": [
-        "AI",
-        "Security"
+        "Social",
+        "Partnership"
       ],
       "readingLevel": "advanced"
     },
@@ -151,22 +189,25 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-09-28T13:00:00.000Z",
-      "relevanceScore": 120.46,
-      "recommendationScore": 122.46,
+      "relevanceScore": 77.44,
+      "recommendationScore": 79.44,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "How a Travel YouTuber Captured Nepal’s Revolution for the World",
-      "link": "https://www.wired.com/story/how-a-travel-youtuber-captured-nepals-revolution-for-the-world/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-09-28T14:40:00.000Z",
-      "relevanceScore": 112.8,
-      "recommendationScore": 114.8,
-      "tags": [],
+      "title": "Wiz chief technologist Ami Luttwak on how AI is transforming cyberattacks",
+      "link": "https://techcrunch.com/2025/09/28/wiz-chief-technologist-ami-luttwak-on-how-ai-is-transforming-cyberattacks/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-09-28T14:00:00.000Z",
+      "relevanceScore": 75.14,
+      "recommendationScore": 77.14,
+      "tags": [
+        "AI",
+        "Security"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -175,8 +216,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-28T20:33:44.000Z",
-      "relevanceScore": 111.98,
-      "recommendationScore": 111.98,
+      "relevanceScore": 64.45,
+      "recommendationScore": 64.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -186,8 +227,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-28T20:06:59.000Z",
-      "relevanceScore": 110.89,
-      "recommendationScore": 111.39,
+      "relevanceScore": 63.36,
+      "recommendationScore": 63.86,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -197,22 +238,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-09-28T11:46:41.000Z",
-      "relevanceScore": 109.22,
-      "recommendationScore": 109.72,
+      "relevanceScore": 61.69,
+      "recommendationScore": 62.19,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The billion-dollar infrastructure deals powering the AI boom",
-      "link": "https://techcrunch.com/2025/09/28/the-billion-dollar-infrastructure-deals-powering-the-ai-boom/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-09-28T18:07:00.000Z",
-      "relevanceScore": 106.49,
-      "recommendationScore": 106.99,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -221,11 +249,24 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-09-28T16:01:00.000Z",
-      "relevanceScore": 106.07,
-      "recommendationScore": 106.07,
+      "relevanceScore": 60.54,
+      "recommendationScore": 60.54,
       "tags": [
         "Startup",
         "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The billion-dollar infrastructure deals powering the AI boom",
+      "link": "https://techcrunch.com/2025/09/28/the-billion-dollar-infrastructure-deals-powering-the-ai-boom/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-09-28T18:07:00.000Z",
+      "relevanceScore": 58.96,
+      "recommendationScore": 59.46,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -235,8 +276,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-28T18:33:46.000Z",
-      "relevanceScore": 104.58,
-      "recommendationScore": 105.08,
+      "relevanceScore": 57.05,
+      "recommendationScore": 57.55,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -246,8 +287,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-09-28T15:44:08.000Z",
-      "relevanceScore": 104.01,
-      "recommendationScore": 104.51,
+      "relevanceScore": 56.48,
+      "recommendationScore": 56.98,
       "tags": [
         "AI",
         "Social"
@@ -255,13 +296,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "How a Travel YouTuber Captured Nepal’s Revolution for the World",
+      "link": "https://www.wired.com/story/how-a-travel-youtuber-captured-nepals-revolution-for-the-world/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-09-28T14:40:00.000Z",
+      "relevanceScore": 56.27,
+      "recommendationScore": 58.27,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Pick up this battery-powered Ring doorbell while it's down to $80 ahead of Prime Day",
       "link": "https://www.engadget.com/deals/pick-up-this-battery-powered-ring-doorbell-while-its-down-to-80-ahead-of-prime-day-154508825.html?src=rss",
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-09-28T19:00:35.000Z",
-      "relevanceScore": 103.67,
-      "recommendationScore": 104.17,
+      "relevanceScore": 56.14,
+      "recommendationScore": 56.64,
       "tags": [
         "Partnership"
       ],
@@ -273,8 +325,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-09-28T17:47:30.000Z",
-      "relevanceScore": 102.42,
-      "recommendationScore": 102.92,
+      "relevanceScore": 54.9,
+      "recommendationScore": 55.4,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -284,64 +336,12 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-09-27T19:26:24.000Z",
-      "relevanceScore": 99.95,
-      "recommendationScore": 102.45,
+      "relevanceScore": 52.42,
+      "recommendationScore": 54.92,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "A Quick Dive into Kubernetes Operators - Part 4",
-      "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-4-3ldb",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-09-28T20:27:09.000Z",
-      "relevanceScore": 82.96,
-      "recommendationScore": 82.96,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why friends are teaming up to buy homes",
-      "link": "https://www.npr.org/2025/09/28/nx-s1-5497777/housing-buying-friends-siblings-affordability",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-09-28T09:00:00.000Z",
-      "relevanceScore": 51.66,
-      "recommendationScore": 53.16,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Experts say Trump's TikTok deal payment is a shakedown",
-      "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
-      "source": "NPR Business",
-      "category": "social",
-      "pubDate": "2025-09-27T11:45:24.000Z",
-      "relevanceScore": 47.42,
-      "recommendationScore": 47.92,
-      "tags": [
-        "Social",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A Quick Dive into Kubernetes Operators - Part 2",
-      "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-2-ic0",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-09-28T20:26:52.000Z",
-      "relevanceScore": 32.95,
-      "recommendationScore": 32.95,
-      "tags": [
-        "Business",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Trump's tariffs are hurting India's shrimp industry",
@@ -349,8 +349,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-09-28T12:04:27.000Z",
-      "relevanceScore": 27.28,
-      "recommendationScore": 27.78,
+      "relevanceScore": 27.25,
+      "recommendationScore": 27.75,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -360,8 +360,8 @@
       "source": "TechCrunch",
       "category": "gaming",
       "pubDate": "2025-09-28T15:15:00.000Z",
-      "relevanceScore": 26.91,
-      "recommendationScore": 27.41,
+      "relevanceScore": 26.89,
+      "recommendationScore": 27.39,
       "tags": [
         "Business",
         "Acquisition"
@@ -374,8 +374,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-09-28T15:00:00.000Z",
-      "relevanceScore": 26.86,
-      "recommendationScore": 26.86,
+      "relevanceScore": 26.84,
+      "recommendationScore": 26.84,
       "tags": [
         "Mobile"
       ],
@@ -387,8 +387,8 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-09-28T15:00:00.000Z",
-      "relevanceScore": 25.86,
-      "recommendationScore": 28.86,
+      "relevanceScore": 25.84,
+      "recommendationScore": 28.84,
       "tags": [
         "Tutorial"
       ],
@@ -400,8 +400,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-28T11:00:03.000Z",
-      "relevanceScore": 25.06,
-      "recommendationScore": 25.56,
+      "relevanceScore": 25.04,
+      "recommendationScore": 25.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -411,8 +411,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-28T14:02:00.000Z",
-      "relevanceScore": 24.67,
-      "recommendationScore": 26.17,
+      "relevanceScore": 24.64,
+      "recommendationScore": 26.14,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -422,8 +422,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-09-28T13:05:00.000Z",
-      "relevanceScore": 24.48,
-      "recommendationScore": 25.98,
+      "relevanceScore": 24.45,
+      "recommendationScore": 25.95,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -433,8 +433,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-09-28T11:15:59.000Z",
-      "relevanceScore": 24.12,
-      "recommendationScore": 24.62,
+      "relevanceScore": 24.09,
+      "recommendationScore": 24.59,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -444,8 +444,8 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2025-09-27T11:30:01.000Z",
-      "relevanceScore": 19.36,
-      "recommendationScore": 19.36,
+      "relevanceScore": 19.34,
+      "recommendationScore": 19.34,
       "tags": [
         "Science"
       ],
@@ -459,8 +459,20 @@
         "link": "https://www.theverge.com/televisions/777588/telly-tv-hands-on-ads",
         "source": "The Verge",
         "pubDate": "2025-09-28T13:00:00.000Z",
-        "relevanceScore": 710.46,
+        "relevanceScore": 720.44,
         "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "WiredTigerHS.wt: MongoDB MVCC Durable History Store",
+        "link": "https://dev.to/franckpachot/mongodb-mvcc-durable-history-store-wiredtigerhswt-mn2",
+        "source": "Dev.to",
+        "pubDate": "2025-09-28T20:44:53.000Z",
+        "relevanceScore": 564.99,
+        "tags": [
+          "Regulation"
+        ]
       }
     ],
     "ai-ml": [
@@ -469,7 +481,7 @@
         "link": "https://arstechnica.com/ai/2025/09/why-la-comic-con-thought-making-an-ai-powered-stan-lee-hologram-was-a-good-idea/",
         "source": "Ars Technica",
         "pubDate": "2025-09-27T11:00:07.000Z",
-        "relevanceScore": 547.76,
+        "relevanceScore": 508.74,
         "tags": [
           "AI"
         ]
@@ -479,7 +491,7 @@
         "link": "https://www.engadget.com/social-media/meta-has-introduced-revised-guardrails-for-its-ai-chatbots-to-prevent-inappropriate-conversations-with-children-200444230.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-28T20:04:44.000Z",
-        "relevanceScore": 404.38,
+        "relevanceScore": 366.85,
         "tags": [
           "AI",
           "Business"
@@ -490,7 +502,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/walmart-plans-prepare-americas-largest-private-workforce-ai-126011317",
         "source": "ABC News Business",
         "pubDate": "2025-09-28T13:55:56.000Z",
-        "relevanceScore": 129.65,
+        "relevanceScore": 133.12,
         "tags": [
           "AI",
           "Business"
@@ -501,7 +513,7 @@
         "link": "https://techcrunch.com/2025/09/28/wiz-chief-technologist-ami-luttwak-on-how-ai-is-transforming-cyberattacks/",
         "source": "TechCrunch",
         "pubDate": "2025-09-28T14:00:00.000Z",
-        "relevanceScore": 121.66,
+        "relevanceScore": 75.14,
         "tags": [
           "AI",
           "Security"
@@ -512,7 +524,7 @@
         "link": "https://techcrunch.com/2025/09/28/the-billion-dollar-infrastructure-deals-powering-the-ai-boom/",
         "source": "TechCrunch",
         "pubDate": "2025-09-28T18:07:00.000Z",
-        "relevanceScore": 106.49,
+        "relevanceScore": 58.96,
         "tags": [
           "AI"
         ]
@@ -522,7 +534,7 @@
         "link": "https://www.theverge.com/news/787042/trump-posts-then-pulls-bizarre-ai-video-promoting-medbed-conspiracy",
         "source": "The Verge",
         "pubDate": "2025-09-28T15:44:08.000Z",
-        "relevanceScore": 104.01,
+        "relevanceScore": 56.48,
         "tags": [
           "AI",
           "Social"
@@ -535,7 +547,7 @@
         "link": "https://www.bbc.com/news/articles/cj6xdw1dg4zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-28T14:33:19.000Z",
-        "relevanceScore": 444.78,
+        "relevanceScore": 452.75,
         "tags": [
           "Regulation"
         ]
@@ -543,43 +555,32 @@
     ],
     "cloud": [
       {
-        "title": "A Quick Dive into Kubernetes Operators - Part 3",
-        "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-3-19pi",
-        "source": "Dev.to",
-        "pubDate": "2025-09-28T20:27:00.000Z",
-        "relevanceScore": 222.95,
-        "tags": []
-      },
-      {
         "title": "Larry Ellison’s quest to run the world",
         "link": "https://www.theverge.com/tech/787051/larry-ellison-tiktok-quest-to-run-the-world",
         "source": "The Verge",
         "pubDate": "2025-09-28T19:32:05.000Z",
-        "relevanceScore": 210.27,
+        "relevanceScore": 213.74,
         "tags": [
           "Tech",
           "Cloud"
         ]
       },
       {
+        "title": "A Quick Dive into Kubernetes Operators - Part 3",
+        "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-3-19pi",
+        "source": "Dev.to",
+        "pubDate": "2025-09-28T20:27:00.000Z",
+        "relevanceScore": 188.93,
+        "tags": []
+      },
+      {
         "title": "A Quick Dive into Kubernetes Operators - Part 4",
         "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-4-3ldb",
         "source": "Dev.to",
         "pubDate": "2025-09-28T20:27:09.000Z",
-        "relevanceScore": 82.96,
+        "relevanceScore": 148.43,
         "tags": [
           "Tutorial"
-        ]
-      },
-      {
-        "title": "A Quick Dive into Kubernetes Operators - Part 2",
-        "link": "https://dev.to/mhmxs/a-quick-dive-into-kubernetes-operators-part-2-ic0",
-        "source": "Dev.to",
-        "pubDate": "2025-09-28T20:26:52.000Z",
-        "relevanceScore": 32.95,
-        "tags": [
-          "Business",
-          "Exclusive"
         ]
       }
     ],
@@ -589,7 +590,7 @@
         "link": "https://www.bbc.com/news/articles/cpq5w324pd3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-28T17:25:38.000Z",
-        "relevanceScore": 221.35,
+        "relevanceScore": 181.82,
         "tags": [
           "Security"
         ]
@@ -597,11 +598,11 @@
     ],
     "tech": [
       {
-        "title": "Apple is reportedly nearing production for its M5 MacBooks",
-        "link": "https://www.engadget.com/computing/laptops/apple-is-reportedly-nearing-production-for-its-latest-m5-powered-macbooks-154148070.html?src=rss",
+        "title": "Snapchat introduces a paid storage option for all the Memories hoarders out there",
+        "link": "https://www.engadget.com/social-media/snapchat-introduces-a-paid-storage-option-for-all-the-memories-hoarders-out-there-203013294.html?src=rss",
         "source": "Engadget",
-        "pubDate": "2025-09-28T15:41:48.000Z",
-        "relevanceScore": 137.5,
+        "pubDate": "2025-09-28T20:45:13.000Z",
+        "relevanceScore": 157.49,
         "tags": []
       },
       {
@@ -609,7 +610,7 @@
         "link": "https://www.wired.com/story/how-a-travel-youtuber-captured-nepals-revolution-for-the-world/",
         "source": "Wired",
         "pubDate": "2025-09-28T14:40:00.000Z",
-        "relevanceScore": 112.8,
+        "relevanceScore": 56.27,
         "tags": []
       },
       {
@@ -617,7 +618,7 @@
         "link": "https://www.engadget.com/deals/pick-up-this-battery-powered-ring-doorbell-while-its-down-to-80-ahead-of-prime-day-154508825.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-28T19:00:35.000Z",
-        "relevanceScore": 103.67,
+        "relevanceScore": 56.14,
         "tags": [
           "Partnership"
         ]
@@ -627,7 +628,7 @@
         "link": "https://www.engadget.com/entertainment/music/martin-shkreli-has-to-face-claims-of-copying-one-of-a-kind-wu-tang-clan-album-174730388.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-09-28T17:47:30.000Z",
-        "relevanceScore": 102.42,
+        "relevanceScore": 54.9,
         "tags": []
       },
       {
@@ -635,7 +636,7 @@
         "link": "https://arstechnica.com/science/2025/09/150-million-year-old-pterosaur-cold-case-has-finally-been-solved/",
         "source": "Ars Technica",
         "pubDate": "2025-09-28T11:00:03.000Z",
-        "relevanceScore": 25.06,
+        "relevanceScore": 25.04,
         "tags": []
       },
       {
@@ -643,7 +644,7 @@
         "link": "https://www.wired.com/gallery/best-meal-kit-services-1/",
         "source": "Wired",
         "pubDate": "2025-09-28T14:02:00.000Z",
-        "relevanceScore": 24.67,
+        "relevanceScore": 24.64,
         "tags": []
       },
       {
@@ -651,7 +652,7 @@
         "link": "https://www.wired.com/gallery/best-noise-canceling-headphones/",
         "source": "Wired",
         "pubDate": "2025-09-28T13:05:00.000Z",
-        "relevanceScore": 24.48,
+        "relevanceScore": 24.45,
         "tags": []
       },
       {
@@ -659,8 +660,57 @@
         "link": "https://arstechnica.com/gaming/2025/09/30-years-later-im-still-obliterating-planets-in-master-of-orion-ii-and-you-can-too/",
         "source": "Ars Technica",
         "pubDate": "2025-09-28T11:15:59.000Z",
-        "relevanceScore": 24.12,
+        "relevanceScore": 24.09,
         "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "Why friends are teaming up to buy homes",
+        "link": "https://www.npr.org/2025/09/28/nx-s1-5497777/housing-buying-friends-siblings-affordability",
+        "source": "NPR Business",
+        "pubDate": "2025-09-28T09:00:00.000Z",
+        "relevanceScore": 102.64,
+        "tags": []
+      },
+      {
+        "title": "Moldovans await results in election plagued by Russian interference claims",
+        "link": "https://abcnews.go.com/Business/wireStory/moldovans-cast-ballots-tense-election-plagued-russian-interference-126008499",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-28T18:33:46.000Z",
+        "relevanceScore": 57.05,
+        "tags": []
+      },
+      {
+        "title": "Gabon awaits results in its first legislative and local elections after the 2023 military coup",
+        "link": "https://abcnews.go.com/Business/wireStory/gabon-awaits-results-legislative-local-elections-after-2023-126001914",
+        "source": "ABC News Business",
+        "pubDate": "2025-09-27T19:26:24.000Z",
+        "relevanceScore": 52.42,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Trump's tariffs are hurting India's shrimp industry",
+        "link": "https://www.npr.org/2025/09/28/nx-s1-5528611/trumps-tariffs-are-hurting-indias-shrimp-industry",
+        "source": "NPR Business",
+        "pubDate": "2025-09-28T12:04:27.000Z",
+        "relevanceScore": 27.25,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Experts say Trump's TikTok deal payment is a shakedown",
+        "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
+        "source": "NPR Business",
+        "pubDate": "2025-09-27T11:45:24.000Z",
+        "relevanceScore": 98.39,
+        "tags": [
+          "Social",
+          "Partnership"
+        ]
       }
     ],
     "mobile": [
@@ -669,7 +719,7 @@
         "link": "https://www.theverge.com/tech/786161/techwoven-case-iphone-17-pro",
         "source": "The Verge",
         "pubDate": "2025-09-28T13:00:00.000Z",
-        "relevanceScore": 120.46,
+        "relevanceScore": 77.44,
         "tags": [
           "Mobile"
         ]
@@ -679,7 +729,7 @@
         "link": "https://techcrunch.com/2025/09/28/lootlock-protects-kids-from-overspending-on-gaming-and-will-be-presenting-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-09-28T15:00:00.000Z",
-        "relevanceScore": 26.86,
+        "relevanceScore": 26.84,
         "tags": [
           "Mobile"
         ]
@@ -691,7 +741,7 @@
         "link": "https://www.bbc.com/news/articles/cn0xzpngj5xo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-28T20:33:44.000Z",
-        "relevanceScore": 111.98,
+        "relevanceScore": 64.45,
         "tags": []
       },
       {
@@ -699,7 +749,7 @@
         "link": "https://www.bbc.com/news/articles/cx2rdlj8ejgo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-28T20:06:59.000Z",
-        "relevanceScore": 110.89,
+        "relevanceScore": 63.36,
         "tags": []
       },
       {
@@ -707,7 +757,7 @@
         "link": "https://www.bbc.com/news/articles/c75qeqr5905o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-09-28T11:46:41.000Z",
-        "relevanceScore": 109.22,
+        "relevanceScore": 61.69,
         "tags": []
       }
     ],
@@ -717,59 +767,10 @@
         "link": "https://techcrunch.com/2025/09/28/techcrunch-mobility-self-driving-trucks-startup-kodiak-goes-public-and-a-shake-up-at-hyundais-supernal/",
         "source": "TechCrunch",
         "pubDate": "2025-09-28T16:01:00.000Z",
-        "relevanceScore": 106.07,
+        "relevanceScore": 60.54,
         "tags": [
           "Startup",
           "IPO"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Moldovans await results in election plagued by Russian interference claims",
-        "link": "https://abcnews.go.com/Business/wireStory/moldovans-cast-ballots-tense-election-plagued-russian-interference-126008499",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-28T18:33:46.000Z",
-        "relevanceScore": 104.58,
-        "tags": []
-      },
-      {
-        "title": "Gabon awaits results in its first legislative and local elections after the 2023 military coup",
-        "link": "https://abcnews.go.com/Business/wireStory/gabon-awaits-results-legislative-local-elections-after-2023-126001914",
-        "source": "ABC News Business",
-        "pubDate": "2025-09-27T19:26:24.000Z",
-        "relevanceScore": 99.95,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Why friends are teaming up to buy homes",
-        "link": "https://www.npr.org/2025/09/28/nx-s1-5497777/housing-buying-friends-siblings-affordability",
-        "source": "NPR Business",
-        "pubDate": "2025-09-28T09:00:00.000Z",
-        "relevanceScore": 51.66,
-        "tags": []
-      },
-      {
-        "title": "Trump's tariffs are hurting India's shrimp industry",
-        "link": "https://www.npr.org/2025/09/28/nx-s1-5528611/trumps-tariffs-are-hurting-indias-shrimp-industry",
-        "source": "NPR Business",
-        "pubDate": "2025-09-28T12:04:27.000Z",
-        "relevanceScore": 27.28,
-        "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "Experts say Trump's TikTok deal payment is a shakedown",
-        "link": "https://www.npr.org/2025/09/27/nx-s1-5554408/experts-say-trumps-tiktok-deal-payment-is-a-shakedown",
-        "source": "NPR Business",
-        "pubDate": "2025-09-27T11:45:24.000Z",
-        "relevanceScore": 47.42,
-        "tags": [
-          "Social",
-          "Partnership"
         ]
       }
     ],
@@ -779,7 +780,7 @@
         "link": "https://techcrunch.com/2025/09/28/do-ea-buyout-talks-hint-at-bigger-industry-troubles/",
         "source": "TechCrunch",
         "pubDate": "2025-09-28T15:15:00.000Z",
-        "relevanceScore": 26.91,
+        "relevanceScore": 26.89,
         "tags": [
           "Business",
           "Acquisition"
@@ -790,7 +791,7 @@
         "link": "https://www.wired.com/story/how-to-buy-a-gaming-laptop/",
         "source": "Wired",
         "pubDate": "2025-09-28T15:00:00.000Z",
-        "relevanceScore": 25.86,
+        "relevanceScore": 25.84,
         "tags": [
           "Tutorial"
         ]
@@ -802,7 +803,7 @@
         "link": "https://arstechnica.com/science/2025/09/who-should-we-blame-for-the-current-war-on-science/",
         "source": "Ars Technica",
         "pubDate": "2025-09-27T11:30:01.000Z",
-        "relevanceScore": 19.36,
+        "relevanceScore": 19.34,
         "tags": [
           "Science"
         ]
@@ -811,8 +812,8 @@
   },
   "stats": {
     "totalSources": 9,
-    "totalCategories": 13,
-    "avgRelevanceScore": 139.5111428571428,
+    "totalCategories": 14,
+    "avgRelevanceScore": 138.78714285714287,
     "topCategories": [
       {
         "category": "tech",
@@ -823,12 +824,12 @@
         "count": 6
       },
       {
-        "category": "cloud",
+        "category": "business",
         "count": 4
       },
       {
-        "category": "business",
-        "count": 4
+        "category": "cloud",
+        "count": 3
       },
       {
         "category": "general",
