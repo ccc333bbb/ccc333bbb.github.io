@@ -1,64 +1,68 @@
 {
-  "lastUpdated": "2025-10-01T13:07:19.715Z",
+  "lastUpdated": "2025-10-01T13:40:19.163Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2025-10-01",
       "file": "2025-10-01.json",
-      "totalArticles": 46,
-      "lastUpdated": "2025-10-01T13:07:19.697Z",
+      "totalArticles": 55,
+      "lastUpdated": "2025-10-01T13:40:19.144Z",
       "sources": [
-        "BBC Technology",
-        "TechCrunch",
-        "Engadget",
-        "BBC News",
-        "MIT Technology Review",
         "Dev.to",
-        "Wired",
+        "Reddit Technology",
+        "TechCrunch",
+        "BBC Technology",
         "The Verge",
-        "Ars Technica",
+        "BBC News",
+        "Engadget",
         "GitHub Blog",
+        "Reddit World News",
+        "Wired",
+        "MIT Technology Review",
+        "Ars Technica",
         "Stack Overflow Blog",
         "NPR Business",
-        "ABC News Business"
+        "ABC News Business",
+        "Reddit Programming"
       ],
       "categories": [
+        "development",
         "tech",
         "general",
+        "world",
         "science",
-        "development",
         "business"
       ],
       "topArticles": [
         {
-          "title": "Half of UK adults now regularly use mobile payments",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.com/news/articles/c2ejvld0ypyo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 861.8482368055555
+          "title": "Embedded Intelligence: How SQLite-vec Delivers Fast, Local Vector Search for AI.",
+          "source": "Dev.to",
+          "link": "https://dev.to/aairom/embedded-intelligence-how-sqlite-vec-delivers-fast-local-vector-search-for-ai-3dpb",
+          "relevanceScore": 778.9633133333333
+        },
+        {
+          "title": "ICE to Buy Tool that Tracks Locations of Hundreds of Millions of Phones Every Day | Documents show that ICE has gone back on its decision to not use location data remotely harvested from peoples' phones. The database is updated every day with billions of pieces of location data",
+          "source": "Reddit Technology",
+          "link": "https://www.reddit.com/r/technology/comments/1nuxcyj/ice_to_buy_tool_that_tracks_locations_of_hundreds/",
+          "relevanceScore": 763
         },
         {
           "title": "Meta plans to sell targeted ads based on data in your AI chats",
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2025/10/01/meta-plans-to-sell-targeted-ads-based-on-data-in-your-ai-chats/",
-          "relevanceScore": 652.9389311111111
+          "relevanceScore": 603.6640079166667
         },
         {
-          "title": "Google's new Nest Doorbell and Nest Cams have 2K video and new AI chops",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/home/smart-home/googles-new-nest-doorbell-and-nest-cams-have-2k-video-and-new-ai-chops-130006878.html?src=rss",
-          "relevanceScore": 505.93976444444445
+          "title": "Half of UK adults now regularly use mobile payments",
+          "source": "BBC Technology",
+          "link": "https://www.bbc.com/news/articles/c2ejvld0ypyo?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 547.5733134722223
         },
         {
-          "title": "Snapchat to charge users for storing their old photos and videos",
-          "source": "BBC News",
-          "link": "https://www.bbc.com/news/articles/cz69238p5p8o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 333.55504236111113
-        },
-        {
-          "title": "The Download: OpenAI’s caste bias problem, and how AI videos are made",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2025/10/01/1124630/the-download-openais-caste-bias-problem-and-how-ai-videos-are-made/",
-          "relevanceScore": 308.52226430555555
+          "title": "Spotify now lets you exclude specific songs from your algorithm",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/789717/spotify-exclude-songs-taste-profile-algorithm",
+          "relevanceScore": 469.9567856944444
         }
       ]
     },
