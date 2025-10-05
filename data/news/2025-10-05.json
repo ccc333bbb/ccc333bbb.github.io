@@ -1,6 +1,6 @@
 {
   "date": "2025-10-05",
-  "lastUpdated": "2025-10-05T09:11:58.866Z",
+  "lastUpdated": "2025-10-05T09:26:29.486Z",
   "totalArticles": 37,
   "articles": [
     {
@@ -24,9 +24,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 616.99,
-      "calculatedAt": "2025-10-05T09:11:58.956Z",
-      "recommendationScore": 617.49,
+      "relevanceScore": 606.45,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 606.95,
       "readingLevel": "advanced"
     },
     {
@@ -48,33 +48,34 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 608.56,
-      "calculatedAt": "2025-10-05T09:11:58.956Z",
-      "recommendationScore": 610.56,
+      "relevanceScore": 597.51,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 599.51,
       "readingLevel": "advanced"
     },
     {
-      "id": "MTAwMCsgRnJlZSBB",
-      "title": "1000+ Free APIs For Developers",
-      "link": "https://dev.to/we-the-developers/1000-free-apis-for-developers-49kc",
-      "description": "🚀 1000+ Public APIs That Every Developer Should Use ✨ We The Developers ・ Oct 5 #api #javascript #programming #discuss",
-      "pubDate": "2025-10-05T08:45:22.000Z",
+      "id": "U3RydWN0dXJlZCBv",
+      "title": "Structured output comparison across popular LLM providers - OpenAI, Gemini, Anthropic, Mistral and AWS Bedrock",
+      "link": "https://dev.to/rosgluk/structured-output-comparison-across-popular-llm-providers-openai-gemini-anthropic-mistral-and-k26",
+      "description": "Here’s a side-by-side support comparison of structured output across popular LLM providers , plus minimal Python examples. We already had a look how to request structured output from the LLM hosted on Ollama . Here we review how to request the same from other providers. TL;DR matrix Provider Native ",
+      "pubDate": "2025-10-05T09:19:04.000Z",
       "source": "Dev.to",
-      "category": "development",
+      "category": "ai-ml",
       "weight": 6,
-      "content": "🚀 1000+ Public APIs That Every Developer Should Use ✨ We The Developers ・ Oct 5 #api #javascript #programming #discuss",
-      "author": "We The Developers",
+      "content": "Here’s a side-by-side support comparison of structured output across popular LLM providers , plus minimal Python examples. We already had a look how to request structured output from the LLM hosted on Ollama . Here we review how to request the same from other providers. TL;DR matrix Provider Native “JSON mode” JSON Schema enforcement Typical knob Notes OpenAI Yes Yes (first-class) response_format= {\"type\":\"json_schema\", ...} Works via the Responses API or Chat Completions; can also do function c",
+      "author": "Rost",
       "readTime": 1,
-      "importance": 6,
+      "importance": 8,
       "tags": [
-        "IPO"
+        "Cloud",
+        "Tutorial"
       ],
       "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 285.91,
-      "calculatedAt": "2025-10-05T09:11:58.956Z",
-      "recommendationScore": 285.91,
+      "complexity": "low",
+      "type": "tutorial",
+      "relevanceScore": 503.48,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 503.48,
       "readingLevel": "advanced"
     },
     {
@@ -94,9 +95,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 208.4,
-      "calculatedAt": "2025-10-05T09:11:58.956Z",
-      "recommendationScore": 208.9,
+      "relevanceScore": 194.35,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 194.85,
       "readingLevel": "advanced"
     },
     {
@@ -118,9 +119,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 181.96,
-      "calculatedAt": "2025-10-05T09:11:58.956Z",
-      "recommendationScore": 183.46,
+      "relevanceScore": 168.91,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 170.41,
       "readingLevel": "advanced"
     },
     {
@@ -143,10 +144,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 155.13,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 155.63,
+      "relevanceScore": 158.08,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 158.58,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "SUNFIHdhbnRzIHRv",
+      "title": "ICE wants to build a 24/7 social media surveillance team",
+      "link": "https://arstechnica.com/security/2025/10/ice-wants-to-build-a-24-7-social-media-surveillance-team/",
+      "description": "ICE plans to hire contractors to scan platforms to target people for deportation.",
+      "pubDate": "2025-10-04T13:21:55.000Z",
+      "source": "Ars Technica",
+      "category": "social",
+      "weight": 7,
+      "content": "United States immigration authorities are moving to dramatically expand their social media surveillance , with plans to hire nearly 30 contractors to sift through posts, photos, and messages—raw material to be transformed into intelligence for deportation raids and arrests. Federal contracting records reviewed by WIRED show that the agency is seeking private vendors to run a multiyear surveillance program out of two of its little-known targeting centers. The program envisions stationing nearly 3",
+      "author": "\n                    Dell Cameron, WIRED.com\n                ",
+      "readTime": 1,
+      "importance": 7,
+      "tags": [
+        "Social"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 162.98,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 163.48,
+      "readingLevel": "beginner"
     },
     {
       "id": "T3BlbkFJIGFjcXVp",
@@ -169,56 +194,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 138.74,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 139.24,
+      "relevanceScore": 123.69,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 124.19,
       "readingLevel": "advanced"
     },
     {
-      "id": "SUNFIHdhbnRzIHRv",
-      "title": "ICE wants to build a 24/7 social media surveillance team",
-      "link": "https://arstechnica.com/security/2025/10/ice-wants-to-build-a-24-7-social-media-surveillance-team/",
-      "description": "ICE plans to hire contractors to scan platforms to target people for deportation.",
-      "pubDate": "2025-10-04T13:21:55.000Z",
-      "source": "Ars Technica",
-      "category": "social",
+      "id": "RGFuaWVsIEVrIHN0",
+      "title": "Daniel Ek stepping down changes nothing for Spotify",
+      "link": "https://www.theverge.com/report/791593/daniel-ek-stepping-down-changes-nothing-for-artists-boycotting-spotify",
+      "description": "Spotify has found itself the target of artists' ire for many reasons over the years: poor audio quality, terrible payouts, giving Joe Rogan millions of dollars… the list goes on. But recently it's been CEO and founder Daniel Ek's extracurricular activities that have been cause for consternation. Ove",
+      "pubDate": "2025-10-04T16:00:00.000Z",
+      "source": "The Verge",
+      "category": "tech",
       "weight": 7,
-      "content": "United States immigration authorities are moving to dramatically expand their social media surveillance , with plans to hire nearly 30 contractors to sift through posts, photos, and messages—raw material to be transformed into intelligence for deportation raids and arrests. Federal contracting records reviewed by WIRED show that the agency is seeking private vendors to run a multiyear surveillance program out of two of its little-known targeting centers. The program envisions stationing nearly 3",
-      "author": "\n                    Dell Cameron, WIRED.com\n                ",
+      "content": "Spotify has found itself the target of artists' ire for many reasons over the years: poor audio quality , terrible payouts , giving Joe Rogan millions of dollars… the list goes on. But recently it's been CEO and founder Daniel Ek's extracurricular activities that have been cause for consternation. Over the past few months his funding of German defense company Helsing through his investment firm Prima Materia has been the final straw for many acts, including Hotline TNT, Massive Attack , Godspeed",
+      "author": "Terrence O’Brien",
       "readTime": 1,
       "importance": 7,
-      "tags": [
-        "Social"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 144.03,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 144.53,
-      "readingLevel": "beginner"
-    },
-    {
-      "id": "RGlmZml1bSBmb3Vu",
-      "title": "Diffium found 4 great Golang contributors during Hacktoberfest!",
-      "link": "https://dev.to/kubeden/diffium-found-4-great-golang-contributors-during-hacktoberfest-2f94",
-      "description": "Hey guys! Denis here. I am quickly passing by to thank you to the 4 maintainers that decided to put in the work and contribute to Diffium ! Here is the list of those absolute chads: Udayan Kulkarni Affan Gyorgy Ravi / p.s. thank you for 36 stars :) / Anyway, so, if any of you reading this have consi",
-      "pubDate": "2025-10-05T08:55:43.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Hey guys! Denis here. I am quickly passing by to thank you to the 4 maintainers that decided to put in the work and contribute to Diffium ! Here is the list of those absolute chads: Udayan Kulkarni Affan Gyorgy Ravi / p.s. thank you for 36 stars :) / Anyway, so, if any of you reading this have considered jumping in the Golang arena, feel free to explore Diffium's issues board and start working on any of the open ones. Happy Hacking!",
-      "author": "kuberdenis",
-      "readTime": 1,
-      "importance": 8,
       "tags": [],
-      "sentiment": "positive",
+      "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 125.95,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 126.45,
-      "readingLevel": "beginner"
+      "relevanceScore": 136.01,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 136.51,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhpcyB3ZWVrJiM4",
@@ -239,9 +240,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 124.76,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 126.76,
+      "relevanceScore": 110.71,
+      "calculatedAt": "2025-10-05T09:26:29.578Z",
+      "recommendationScore": 112.71,
       "readingLevel": "advanced"
     },
     {
@@ -263,32 +264,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 122.76,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 124.26,
+      "relevanceScore": 108.71,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 110.21,
       "readingLevel": "beginner"
-    },
-    {
-      "id": "RGFuaWVsIEVrIHN0",
-      "title": "Daniel Ek stepping down changes nothing for Spotify",
-      "link": "https://www.theverge.com/report/791593/daniel-ek-stepping-down-changes-nothing-for-artists-boycotting-spotify",
-      "description": "Spotify has found itself the target of artists' ire for many reasons over the years: poor audio quality, terrible payouts, giving Joe Rogan millions of dollars… the list goes on. But recently it's been CEO and founder Daniel Ek's extracurricular activities that have been cause for consternation. Ove",
-      "pubDate": "2025-10-04T16:00:00.000Z",
-      "source": "The Verge",
-      "category": "tech",
-      "weight": 7,
-      "content": "Spotify has found itself the target of artists' ire for many reasons over the years: poor audio quality , terrible payouts , giving Joe Rogan millions of dollars… the list goes on. But recently it's been CEO and founder Daniel Ek's extracurricular activities that have been cause for consternation. Over the past few months his funding of German defense company Helsing through his investment firm Prima Materia has been the final straw for many acts, including Hotline TNT, Massive Attack , Godspeed",
-      "author": "Terrence O’Brien",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [],
-      "sentiment": "negative",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 134.06,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 134.56,
-      "readingLevel": "advanced"
     },
     {
       "id": "VGhlIGJlc3QgUHJp",
@@ -307,9 +286,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 108.06,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 109.56,
+      "relevanceScore": 109.02,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 110.52,
       "readingLevel": "advanced"
     },
     {
@@ -329,9 +308,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.16,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 69.66,
+      "relevanceScore": 70.11,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 71.61,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "VGhlIERqYW5nby1D",
+      "title": "The Django-CFG Manifesto — or, How I Stopped Worshiping settings.py and Let AI Build My Apps",
+      "link": "https://dev.to/markin/the-django-cfg-manifesto-or-how-i-stopped-worshiping-settingspy-and-let-ai-build-my-apps-3n0d",
+      "description": "“Every framework starts as a tool. Then it becomes a ritual. Finally, it becomes a religion.” — Anonymous Senior Developer, 2011 1. The Cult of settings.py Every Django developer remembers their first encounter with the sacred scroll called settings.py . It starts simple — a few variables, a few sec",
+      "pubDate": "2025-10-05T09:14:20.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "“Every framework starts as a tool. Then it becomes a ritual. Finally, it becomes a religion.” — Anonymous Senior Developer, 2011 1. The Cult of settings.py Every Django developer remembers their first encounter with the sacred scroll called settings.py . It starts simple — a few variables, a few secrets, maybe a database connection. And then, as the project grows, it mutates. It absorbs your soul. It whispers: “Just one more if DEBUG: and it’ll work.” But it never does. Soon you’re juggling .env",
+      "author": "Mark Effect",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 97.96,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 100.96,
       "readingLevel": "intermediate"
     },
     {
@@ -353,9 +357,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 105.65,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 105.65,
+      "relevanceScore": 90.6,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 90.6,
       "readingLevel": "beginner"
     },
     {
@@ -379,9 +383,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 114.59,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 115.09,
+      "relevanceScore": 99.55,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 100.05,
       "readingLevel": "advanced"
     },
     {
@@ -401,9 +405,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 114.55,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 117.05,
+      "relevanceScore": 99.5,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 102,
       "readingLevel": "advanced"
     },
     {
@@ -429,9 +433,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 115.38,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 115.88,
+      "relevanceScore": 100.33,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 100.83,
       "readingLevel": "advanced"
     },
     {
@@ -453,9 +457,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 114.03,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 114.53,
+      "relevanceScore": 98.98,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 99.48,
       "readingLevel": "advanced"
     },
     {
@@ -475,9 +479,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 109.98,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 112.48,
+      "relevanceScore": 94.93,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 97.43,
       "readingLevel": "advanced"
     },
     {
@@ -499,10 +503,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 111.16,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 111.66,
+      "relevanceScore": 96.11,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 96.61,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "UHl0aG9uLiBQcm9q",
+      "title": "Python. Project Structure (IX)",
+      "link": "https://dev.to/elferrer/python-project-structure-ix-3d80",
+      "description": "Índice: Sección A. Estructurar un proyecto: apartado I , apartado II , apartado III , apartado IV , apartado V , apartado VI , apartado VII , apartado VIII , apartado IX . En este artículo daremos un breve paseo a las particularidades de los archivos involucrados en la generación de la aplicación .e",
+      "pubDate": "2025-10-05T09:17:36.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Índice: Sección A. Estructurar un proyecto: apartado I , apartado II , apartado III , apartado IV , apartado V , apartado VI , apartado VII , apartado VIII , apartado IX . En este artículo daremos un breve paseo a las particularidades de los archivos involucrados en la generación de la aplicación .exe . Archivos involucrados Como hemos visto en el artículo anterior ( apartado VIII ), hemos creado una batería de archivos para conseguir generar el .exe : .gitlab-ci.yml , tarea launch-build-exe : l",
+      "author": "Raül Martínez i Peris",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 90.97,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 90.97,
+      "readingLevel": "advanced"
     },
     {
       "id": "QXBwbGUgcHVsbHMg",
@@ -524,9 +550,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 87.73,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 87.73,
+      "relevanceScore": 41.69,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 41.69,
       "readingLevel": "advanced"
     },
     {
@@ -548,9 +574,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 51.19,
-      "calculatedAt": "2025-10-05T09:11:58.957Z",
-      "recommendationScore": 51.69,
+      "relevanceScore": 52.14,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 52.64,
       "readingLevel": "intermediate"
     },
     {
@@ -570,9 +596,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.56,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 44.56,
+      "relevanceScore": 43.51,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 45.51,
       "readingLevel": "advanced"
     },
     {
@@ -592,9 +618,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 35.78,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 37.28,
+      "relevanceScore": 36.74,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 38.24,
       "readingLevel": "beginner"
     },
     {
@@ -614,9 +640,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 32.5,
+      "relevanceScore": 31.95,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 32.45,
       "readingLevel": "intermediate"
     },
     {
@@ -638,33 +664,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.16,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 31.66,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "UHJvamVjdCBJZGVh",
-      "title": "Project Ideas",
-      "link": "https://dev.to/muhammad_ammar_42be750b7c/project-ideas-12cb",
-      "description": "Hey guys, I'm Muhammad Ammar Saleem. I'm a beginner who has recently started learning Java. Can you please suggest me any ideas for my first project in this semester.",
-      "pubDate": "2025-10-05T08:32:05.000Z",
-      "source": "Dev.to",
-      "category": "education",
-      "weight": 6,
-      "content": "Hey guys, I'm Muhammad Ammar Saleem. I'm a beginner who has recently started learning Java. Can you please suggest me any ideas for my first project in this semester.",
-      "author": "Muhammad Ammar",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Exclusive"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 23.87,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 23.87,
+      "relevanceScore": 31.11,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 31.61,
       "readingLevel": "advanced"
     },
     {
@@ -684,9 +686,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 29.6,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 30.1,
+      "relevanceScore": 29.55,
+      "calculatedAt": "2025-10-05T09:26:29.579Z",
+      "recommendationScore": 30.05,
       "readingLevel": "advanced"
     },
     {
@@ -709,9 +711,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.31,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 20.81,
+      "relevanceScore": 20.26,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 20.76,
       "readingLevel": "advanced"
     },
     {
@@ -731,9 +733,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.3,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 24.8,
+      "relevanceScore": 22.25,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 24.75,
       "readingLevel": "advanced"
     },
     {
@@ -753,9 +755,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.19,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 25.69,
+      "relevanceScore": 25.15,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 25.65,
       "readingLevel": "advanced"
     },
     {
@@ -775,9 +777,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.23,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 25.23,
+      "relevanceScore": 23.18,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 25.18,
       "readingLevel": "advanced"
     },
     {
@@ -797,9 +799,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.56,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 23.56,
+      "relevanceScore": 21.51,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 23.51,
       "readingLevel": "advanced"
     },
     {
@@ -819,9 +821,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.95,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 19.45,
+      "relevanceScore": 18.9,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 19.4,
       "readingLevel": "intermediate"
     },
     {
@@ -844,9 +846,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.05,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 25.05,
+      "relevanceScore": 22,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 25,
       "readingLevel": "advanced"
     },
     {
@@ -866,9 +868,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.69,
-      "calculatedAt": "2025-10-05T09:11:58.958Z",
-      "recommendationScore": 20.19,
+      "relevanceScore": 18.64,
+      "calculatedAt": "2025-10-05T09:26:29.580Z",
+      "recommendationScore": 20.14,
       "readingLevel": "advanced"
     }
   ],
@@ -892,6 +894,6 @@
     "general",
     "tech"
   ],
-  "processedAt": "2025-10-05T09:11:58.969Z",
+  "processedAt": "2025-10-05T09:26:29.590Z",
   "processingVersion": "2.0"
 }
