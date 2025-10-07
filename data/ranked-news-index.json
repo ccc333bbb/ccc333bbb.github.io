@@ -1,24 +1,26 @@
 {
-  "lastUpdated": "2025-10-07T18:47:12.506Z",
+  "lastUpdated": "2025-10-07T19:11:11.789Z",
   "totalArticles": 56,
   "categories": [
     "tech",
     "ai-ml",
-    "cloud",
     "social",
-    "development",
-    "climate",
     "startup",
+    "climate",
     "business",
     "general",
+    "cloud",
     "space",
     "gaming",
-    "mobile",
-    "science",
-    "world",
+    "development",
+    "education",
     "automotive",
     "blockchain",
-    "cybersecurity"
+    "mobile",
+    "science",
+    "finance",
+    "cybersecurity",
+    "world"
   ],
   "topArticles": [
     {
@@ -27,8 +29,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-07T16:30:16.000Z",
-      "relevanceScore": 1513.54,
-      "recommendationScore": 1516.04,
+      "relevanceScore": 1626.46,
+      "recommendationScore": 1628.96,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -38,24 +40,23 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-10-07T10:51:52.000Z",
-      "relevanceScore": 849.92,
-      "recommendationScore": 851.42,
+      "relevanceScore": 998.34,
+      "recommendationScore": 999.84,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Automating EC2 Instance Management with Go",
-      "link": "https://dev.to/copubah/automating-ec2-instance-management-with-go-10nh",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-10-07T18:44:50.000Z",
-      "relevanceScore": 459.99,
-      "recommendationScore": 459.99,
+      "title": "Facebook updates its algorithm to give users more control over which videos they see",
+      "link": "https://techcrunch.com/2025/10/07/facebook-updates-its-algorithm-to-give-users-more-control-over-which-videos-they-see/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2025-10-07T17:16:52.000Z",
+      "relevanceScore": 435.12,
+      "recommendationScore": 435.62,
       "tags": [
-        "Cloud",
-        "Tutorial"
+        "Social"
       ],
       "readingLevel": "intermediate"
     },
@@ -65,47 +66,12 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-10-06T23:40:34.000Z",
-      "relevanceScore": 357.68,
-      "recommendationScore": 358.18,
+      "relevanceScore": 413.1,
+      "recommendationScore": 413.6,
       "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Facebook updates its algorithm to give users more control over which videos they see",
-      "link": "https://techcrunch.com/2025/10/07/facebook-updates-its-algorithm-to-give-users-more-control-over-which-videos-they-see/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-10-07T17:16:52.000Z",
-      "relevanceScore": 349.7,
-      "recommendationScore": 350.2,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "5 Tools That Make My Life Instantly Better 🚀",
-      "link": "https://dev.to/lovestaco/5-tools-that-make-my-life-instantly-better-2i5l",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-07T18:42:10.000Z",
-      "relevanceScore": 324.48,
-      "recommendationScore": 325.48,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Natural disasters are a rising burden for the National Guard",
-      "link": "https://arstechnica.com/science/2025/10/natural-disasters-are-a-rising-burden-for-the-national-guard/",
-      "source": "Ars Technica",
-      "category": "climate",
-      "pubDate": "2025-10-07T17:46:47.000Z",
-      "relevanceScore": 306.8,
-      "recommendationScore": 307.3,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Why some federal workers aren't scared by the threat of shutdown layoffs",
@@ -113,11 +79,50 @@
       "source": "NPR Business",
       "category": "startup",
       "pubDate": "2025-10-07T09:00:00.000Z",
-      "relevanceScore": 299.04,
-      "recommendationScore": 301.04,
+      "relevanceScore": 362.96,
+      "recommendationScore": 364.96,
       "tags": [
         "Startup",
         "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Natural disasters are a rising burden for the National Guard",
+      "link": "https://arstechnica.com/science/2025/10/natural-disasters-are-a-rising-burden-for-the-national-guard/",
+      "source": "Ars Technica",
+      "category": "climate",
+      "pubDate": "2025-10-07T17:46:47.000Z",
+      "relevanceScore": 357.72,
+      "recommendationScore": 358.22,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The US is set to cancel funding for two major direct-air capture plants",
+      "link": "https://www.technologyreview.com/2025/10/07/1125207/the-us-is-set-to-cancel-funding-for-two-major-direct-air-capture-plants/",
+      "source": "MIT Technology Review",
+      "category": "startup",
+      "pubDate": "2025-10-07T18:29:20.000Z",
+      "relevanceScore": 305.36,
+      "recommendationScore": 305.86,
+      "tags": [
+        "Tech",
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Mastodon snags Bluesky&#8217;s starter packs feature and includes the ability to opt out",
+      "link": "https://www.theverge.com/news/794988/mastodon-bluesky-starter-packs-fediverse",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-07T18:31:20.000Z",
+      "relevanceScore": 285.87,
+      "recommendationScore": 286.37,
+      "tags": [
+        "Social"
       ],
       "readingLevel": "advanced"
     },
@@ -127,36 +132,21 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-07T16:08:42.000Z",
-      "relevanceScore": 266.47,
-      "recommendationScore": 266.97,
+      "relevanceScore": 265.89,
+      "recommendationScore": 266.39,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Mastodon snags Bluesky&#8217;s starter packs feature and includes the ability to opt out",
-      "link": "https://www.theverge.com/news/794988/mastodon-bluesky-starter-packs-fediverse",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-07T18:31:20.000Z",
-      "relevanceScore": 254.95,
-      "recommendationScore": 255.45,
+      "title": "Stephen Lawrence killer admits role but refuses to name accomplices",
+      "link": "https://www.bbc.com/news/articles/cewn99k9l7zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-07T16:56:10.000Z",
+      "relevanceScore": 259.55,
+      "recommendationScore": 260.05,
       "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The US is set to cancel funding for two major direct-air capture plants",
-      "link": "https://www.technologyreview.com/2025/10/07/1125207/the-us-is-set-to-cancel-funding-for-two-major-direct-air-capture-plants/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2025-10-07T18:29:20.000Z",
-      "relevanceScore": 251.44,
-      "recommendationScore": 251.94,
-      "tags": [
-        "Tech",
-        "Startup",
-        "Funding"
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -166,8 +156,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-10-07T16:51:02.000Z",
-      "relevanceScore": 231.11,
-      "recommendationScore": 231.61,
+      "relevanceScore": 257.53,
+      "recommendationScore": 258.03,
       "tags": [
         "AI",
         "Report"
@@ -175,43 +165,61 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Stephen Lawrence killer admits role but refuses to name accomplices",
-      "link": "https://www.bbc.com/news/articles/cewn99k9l7zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-07T16:56:10.000Z",
-      "relevanceScore": 207.63,
-      "recommendationScore": 208.13,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
+      "title": "The best fast chargers for 2025",
+      "link": "https://www.engadget.com/computing/accessories/best-fast-chargers-140011033.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-10-07T19:01:26.000Z",
+      "relevanceScore": 229.97,
+      "recommendationScore": 230.97,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
-      "title": "Gold futures rise above $4,000 per ounce for the first time",
-      "link": "https://abcnews.go.com/Business/wireStory/gold-futures-rise-4000-ounce-time-126289013",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-07T14:13:48.000Z",
-      "relevanceScore": 201.09,
-      "recommendationScore": 203.59,
+      "title": "Docker in a Nutshell: Containers Made Simple",
+      "link": "https://dev.to/leesha_lois/docker-in-a-nutshell-containers-made-simple-2fa7",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-10-07T18:59:43.000Z",
+      "relevanceScore": 211.46,
+      "recommendationScore": 211.46,
       "tags": [
-        "Exclusive"
+        "Cloud"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Taylor Swift loses over 1,000,000 Instagram followers after The Life of a Showgirl release as fans slam use of AI in album promotion",
-      "link": "https://www.reddit.com/r/technology/comments/1o0e0zc/taylor_swift_loses_over_1000000_instagram/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-10-07T12:56:45.000Z",
-      "relevanceScore": 188.33,
-      "recommendationScore": 189.83,
+      "title": "Cozy Earth's Prime Day Sale (2025): Sheets, Pajamas, Socks and More on Deep Discount",
+      "link": "https://www.wired.com/story/cozy-earth-prime-day-sale-october-2025/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-07T18:29:36.000Z",
+      "relevanceScore": 199.36,
+      "recommendationScore": 199.86,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The best Prime Day speaker deals: JBL, Bose, Ultimate Ears and more",
+      "link": "https://www.engadget.com/audio/speakers/the-best-prime-day-speaker-deals-jbl-bose-ultimate-ears-and-more-070038290.html?src=rss",
+      "source": "Engadget",
+      "category": "space",
+      "pubDate": "2025-10-07T18:41:32.000Z",
+      "relevanceScore": 196.4,
+      "recommendationScore": 197.9,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Xbox Series X/S storage expansion cards haven&#8217;t been this cheap since July",
+      "link": "https://www.theverge.com/tech/698725/amazon-october-prime-day-xbox-storage-expansion-card-deal-sale-2025",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2025-10-07T18:30:00.000Z",
+      "relevanceScore": 188.86,
+      "recommendationScore": 189.36,
       "tags": [
-        "AI",
-        "Social",
-        "Launch"
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -221,45 +229,12 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-10-07T11:15:05.000Z",
-      "relevanceScore": 184.99,
-      "recommendationScore": 185.49,
+      "relevanceScore": 188.41,
+      "recommendationScore": 188.91,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Cozy Earth's Prime Day Sale (2025): Sheets, Pajamas, Socks and More on Deep Discount",
-      "link": "https://www.wired.com/story/cozy-earth-prime-day-sale-october-2025/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-07T18:29:36.000Z",
-      "relevanceScore": 169.94,
-      "recommendationScore": 170.44,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "ICE bought vehicles equipped with fake cell towers to spy on phones",
-      "link": "https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-10-07T17:01:41.000Z",
-      "relevanceScore": 168.65,
-      "recommendationScore": 169.15,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best Prime Day speaker deals: JBL, Bose, Ultimate Ears and more",
-      "link": "https://www.engadget.com/audio/speakers/the-best-prime-day-speaker-deals-jbl-bose-ultimate-ears-and-more-070038290.html?src=rss",
-      "source": "Engadget",
-      "category": "space",
-      "pubDate": "2025-10-07T18:41:32.000Z",
-      "relevanceScore": 166.98,
-      "recommendationScore": 168.48,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Gold demand puts Peru's Amazon at greater risk from mercury poisoning, bishop warns",
@@ -267,34 +242,34 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-07T14:38:05.000Z",
-      "relevanceScore": 159.17,
-      "recommendationScore": 159.67,
+      "relevanceScore": 188.09,
+      "recommendationScore": 188.59,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Xbox Series X/S storage expansion cards haven&#8217;t been this cheap since July",
-      "link": "https://www.theverge.com/tech/698725/amazon-october-prime-day-xbox-storage-expansion-card-deal-sale-2025",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-10-07T18:30:00.000Z",
-      "relevanceScore": 157.94,
-      "recommendationScore": 158.44,
-      "tags": [
-        "Tech"
-      ],
+      "title": "ICE bought vehicles equipped with fake cell towers to spy on phones",
+      "link": "https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-10-07T17:01:41.000Z",
+      "relevanceScore": 184.57,
+      "recommendationScore": 185.07,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Get $200 off the Samsung Galaxy S25 for Prime Day",
-      "link": "https://www.engadget.com/deals/get-200-off-the-samsung-galaxy-s25-for-prime-day-100037363.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-10-07T18:35:36.000Z",
-      "relevanceScore": 156.96,
-      "recommendationScore": 156.96,
+      "title": "Taylor Swift loses over 1,000,000 Instagram followers after The Life of a Showgirl release as fans slam use of AI in album promotion",
+      "link": "https://www.reddit.com/r/technology/comments/1o0e0zc/taylor_swift_loses_over_1000000_instagram/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-10-07T12:56:45.000Z",
+      "relevanceScore": 178.75,
+      "recommendationScore": 180.25,
       "tags": [
-        "Mobile"
+        "AI",
+        "Social",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -304,8 +279,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-10-07T17:00:00.000Z",
-      "relevanceScore": 141.64,
-      "recommendationScore": 143.64,
+      "relevanceScore": 173.56,
+      "recommendationScore": 175.56,
       "tags": [
         "Exclusive",
         "Partnership"
@@ -318,8 +293,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-07T18:00:00.000Z",
-      "relevanceScore": 124.84,
-      "recommendationScore": 125.34,
+      "relevanceScore": 136.76,
+      "recommendationScore": 137.26,
       "tags": [
         "Business",
         "Social"
@@ -327,13 +302,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Anthropic plans to open India office, eyes tie-up with billionaire Ambani",
-      "link": "https://techcrunch.com/2025/10/07/anthropic-plans-to-open-india-office-eyes-tie-up-with-billionaire-ambani/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-10-07T16:27:15.000Z",
-      "relevanceScore": 72.53,
-      "recommendationScore": 73.03,
+      "title": "Golang Dependency Inversion — A Java Developer's Point of View",
+      "link": "https://dev.to/kirekov/golang-dependency-inversion-a-java-developers-point-of-view-pj4",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2025-10-07T18:54:47.000Z",
+      "relevanceScore": 116.95,
+      "recommendationScore": 117.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -343,155 +318,12 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-10-06T07:40:00.000Z",
-      "relevanceScore": 70.98,
-      "recommendationScore": 72.98,
+      "relevanceScore": 55.9,
+      "recommendationScore": 57.9,
       "tags": [
         "AI",
         "Tech"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Dead celebrities are apparently fair game for Sora 2 video manipulation",
-      "link": "https://arstechnica.com/ai/2025/10/dj-bruce-lee-and-jackass-mr-rogers-dead-celebrities-become-puppets-in-sora-2-videos/",
-      "source": "Ars Technica",
-      "category": "gaming",
-      "pubDate": "2025-10-07T17:08:05.000Z",
-      "relevanceScore": 69.67,
-      "recommendationScore": 70.17,
-      "tags": [
-        "IPO"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google's Pixel Buds Pro 2 are cheaper than ever for Prime Day",
-      "link": "https://www.engadget.com/deals/googles-pixel-buds-pro-2-are-cheaper-than-ever-for-prime-day-130038433.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-10-07T18:40:35.000Z",
-      "relevanceScore": 61.48,
-      "recommendationScore": 61.98,
-      "tags": [
-        "Mobile",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Pipe operator is coming to PHP !",
-      "link": "https://dev.to/thicha0/pipe-operator-is-coming-to-php--2838",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-07T18:32:12.000Z",
-      "relevanceScore": 60.45,
-      "recommendationScore": 60.45,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: extracting lithium, and what we still don’t know about Sora",
-      "link": "https://www.technologyreview.com/2025/10/07/1125075/the-download-extracting-lithium-and-what-we-still-dont-know-about-sora/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-10-07T12:10:00.000Z",
-      "relevanceScore": 55.18,
-      "recommendationScore": 57.18,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best laptop deals you can get for Amazon’s October Prime Day",
-      "link": "https://www.theverge.com/tech/792893/amazon-october-prime-big-deal-day-laptops-gaming-apple",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-07T18:37:21.000Z",
-      "relevanceScore": 52.47,
-      "recommendationScore": 53.97,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Who is Larry Ellison, the billionaire Trump friend who's part of the TikTok takeover?",
-      "link": "https://www.npr.org/2025/10/06/nx-s1-5560216/who-is-larry-ellison-the-billionaire-trump-friend-whos-part-of-the-tiktok-takeover",
-      "source": "NPR Business",
-      "category": "social",
-      "pubDate": "2025-10-06T20:41:54.000Z",
-      "relevanceScore": 49.08,
-      "recommendationScore": 49.58,
-      "tags": [
-        "Tech",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Context is king for secure, AI-generated code",
-      "link": "https://stackoverflow.blog/2025/10/07/context-is-king-for-secure-ai-generated-code/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-07T07:40:00.000Z",
-      "relevanceScore": 47.28,
-      "recommendationScore": 47.28,
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The developer role is evolving. Here’s how to stay ahead.",
-      "link": "https://github.blog/ai-and-ml/the-developer-role-is-evolving-heres-how-to-stay-ahead/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-06T20:12:49.000Z",
-      "relevanceScore": 46.99,
-      "recommendationScore": 48.99,
-      "tags": [
-        "AI",
-        "Tech",
-        "Exclusive",
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Walrus: A 1 Million ops/sec, 1 GB/s Write Ahead Log in Rust",
-      "link": "https://www.reddit.com/r/programming/comments/1o0hdn9/walrus_a_1_million_opssec_1_gbs_write_ahead_log/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-10-07T15:07:20.000Z",
-      "relevanceScore": 46.77,
-      "recommendationScore": 47.27,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1321, Part 1 (Thread #1468)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1o04oyo/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-07T04:02:27.000Z",
-      "relevanceScore": 46.55,
-      "recommendationScore": 49.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "High immigration levels damage communities, Badenoch warns",
-      "link": "https://www.bbc.com/news/articles/c5ye7njqp2eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-07T16:00:54.000Z",
-      "relevanceScore": 46.45,
-      "recommendationScore": 46.95,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -500,8 +332,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-07T16:38:11.000Z",
-      "relevanceScore": 46.07,
-      "recommendationScore": 46.57,
+      "relevanceScore": 47.49,
+      "recommendationScore": 47.99,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -511,8 +343,8 @@
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2025-10-07T16:46:25.000Z",
-      "relevanceScore": 42.6,
-      "recommendationScore": 43.1,
+      "relevanceScore": 47.02,
+      "recommendationScore": 47.52,
       "tags": [
         "Business",
         "Controversy"
@@ -520,13 +352,99 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "MLZC25-09. Preparación de Datos: La Fundación de Todo Modelo Exitoso",
+      "link": "https://dev.to/jesus_oviedoriquelme_084/mlzc25-09-preparacion-de-datos-la-fundacion-de-todo-modelo-exitoso-272e",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-10-07T18:59:40.000Z",
+      "relevanceScore": 46.96,
+      "recommendationScore": 47.46,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "High immigration levels damage communities, Badenoch warns",
+      "link": "https://www.bbc.com/news/articles/c5ye7njqp2eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-07T16:00:54.000Z",
+      "relevanceScore": 46.37,
+      "recommendationScore": 46.87,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Dead celebrities are apparently fair game for Sora 2 video manipulation",
+      "link": "https://arstechnica.com/ai/2025/10/dj-bruce-lee-and-jackass-mr-rogers-dead-celebrities-become-puppets-in-sora-2-videos/",
+      "source": "Ars Technica",
+      "category": "gaming",
+      "pubDate": "2025-10-07T17:08:05.000Z",
+      "relevanceScore": 45.59,
+      "recommendationScore": 46.09,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla reveals slightly cheaper ‘standard’ versions of the Model 3 and Model Y",
+      "link": "https://techcrunch.com/2025/10/07/tesla-reveals-slightly-cheaper-standard-versions-of-the-model-3-and-model-y/",
+      "source": "TechCrunch",
+      "category": "automotive",
+      "pubDate": "2025-10-07T18:47:45.000Z",
+      "relevanceScore": 43.42,
+      "recommendationScore": 43.92,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "We Found the 214 Best Prime Day Deals of 2025: Up To 55% Off",
+      "link": "https://www.wired.com/story/prime-day-deals-october-2025/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-07T19:02:40.000Z",
+      "relevanceScore": 42.47,
+      "recommendationScore": 43.97,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Verge&#8217;s Guide to Amazon&#8217;s October Prime Day Event 2025",
+      "link": "https://www.theverge.com/tech/782478/october-amazon-prime-day-deals-guide",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-07T18:49:04.000Z",
+      "relevanceScore": 41.43,
+      "recommendationScore": 41.93,
+      "tags": [
+        "Tutorial",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best Prime Day kitchen deals include up to 50 percent off our favorite Instant Pots, blenders and more",
+      "link": "https://www.engadget.com/deals/the-best-prime-day-kitchen-deals-include-up-to-50-percent-off-our-favorite-instant-pots-blenders-and-more-193009814.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-10-07T18:55:10.000Z",
+      "relevanceScore": 40.45,
+      "recommendationScore": 41.45,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "North Korean hackers increasingly targeting wealthy crypto holders",
       "link": "https://www.bbc.com/news/articles/cwy8z7wxe03o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "blockchain",
       "pubDate": "2025-10-07T12:07:08.000Z",
-      "relevanceScore": 35.67,
-      "recommendationScore": 36.17,
+      "relevanceScore": 40.09,
+      "recommendationScore": 40.59,
       "tags": [
         "Security"
       ],
@@ -538,9 +456,34 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-07T17:09:40.000Z",
-      "relevanceScore": 31.17,
-      "recommendationScore": 31.67,
+      "relevanceScore": 37.09,
+      "recommendationScore": 37.59,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Missing Virginia store cat found after hitching a ride to another state",
+      "link": "https://abcnews.go.com/Business/wireStory/purrfect-ending-missing-virginia-store-cat-found-after-126304637",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-10-07T18:52:18.000Z",
+      "relevanceScore": 31.94,
+      "recommendationScore": 32.44,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Play Store changes coming this month as SCOTUS declines to freeze antitrust remedies",
+      "link": "https://arstechnica.com/gadgets/2025/10/supreme-court-refuses-to-pause-play-store-changes-while-google-appeals-antitrust-case/",
+      "source": "Ars Technica",
+      "category": "mobile",
+      "pubDate": "2025-10-07T15:56:43.000Z",
+      "relevanceScore": 30.85,
+      "recommendationScore": 31.35,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -549,19 +492,45 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-07T15:56:00.000Z",
-      "relevanceScore": 30.93,
-      "recommendationScore": 32.93,
+      "relevanceScore": 30.85,
+      "recommendationScore": 32.85,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Best Prime Day Apple Deals, From Watches to iPads (2025)",
-      "link": "https://www.wired.com/story/best-prime-day-apple-deals-oct-2025/",
-      "source": "Wired",
+      "title": "The Download: extracting lithium, and what we still don’t know about Sora",
+      "link": "https://www.technologyreview.com/2025/10/07/1125075/the-download-extracting-lithium-and-what-we-still-dont-know-about-sora/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-10-07T12:10:00.000Z",
+      "relevanceScore": 29.6,
+      "recommendationScore": 31.6,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best laptop deals you can get for Amazon’s October Prime Day",
+      "link": "https://www.theverge.com/tech/792893/amazon-october-prime-big-deal-day-laptops-gaming-apple",
+      "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-10-07T18:24:51.000Z",
-      "relevanceScore": 26.93,
-      "recommendationScore": 28.43,
+      "pubDate": "2025-10-07T18:37:21.000Z",
+      "relevanceScore": 26.89,
+      "recommendationScore": 28.39,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Best Prime Day TV Deals (2025)",
+      "link": "https://www.wired.com/story/prime-day-tv-deals-october-2025/",
+      "source": "Wired",
+      "category": "finance",
+      "pubDate": "2025-10-07T19:00:44.000Z",
+      "relevanceScore": 25.97,
+      "recommendationScore": 26.97,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -571,34 +540,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-07T18:35:16.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 25.96,
+      "relevanceScore": 25.88,
+      "recommendationScore": 25.88,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Best Prime Day Apple iPad Deals",
-      "link": "https://www.wired.com/story/apple-ipad-prime-day-sale-october-2025/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-07T18:26:37.000Z",
-      "relevanceScore": 25.93,
-      "recommendationScore": 26.93,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The 173 best October Prime Day deals",
-      "link": "https://www.theverge.com/tech/788343/best-amazon-prime-day-tech-deals-october-2025-day-1",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-07T18:24:22.000Z",
-      "relevanceScore": 25.92,
-      "recommendationScore": 26.92,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "How a top bug bounty researcher got their start in security",
@@ -606,24 +551,10 @@
       "source": "GitHub Blog",
       "category": "cybersecurity",
       "pubDate": "2025-10-07T16:00:00.000Z",
-      "relevanceScore": 25.44,
-      "recommendationScore": 28.44,
+      "relevanceScore": 25.36,
+      "recommendationScore": 28.36,
       "tags": [
         "Security",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Play Store changes coming this month as SCOTUS declines to freeze antitrust remedies",
-      "link": "https://arstechnica.com/gadgets/2025/10/supreme-court-refuses-to-pause-play-store-changes-while-google-appeals-antitrust-case/",
-      "source": "Ars Technica",
-      "category": "mobile",
-      "pubDate": "2025-10-07T15:56:43.000Z",
-      "relevanceScore": 24.93,
-      "recommendationScore": 25.43,
-      "tags": [
-        "Mobile",
         "Exclusive"
       ],
       "readingLevel": "intermediate"
@@ -634,10 +565,24 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-10-07T18:40:47.000Z",
-      "relevanceScore": 23.98,
-      "recommendationScore": 24.48,
+      "relevanceScore": 23.9,
+      "recommendationScore": 24.4,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Who is Larry Ellison, the billionaire Trump friend who's part of the TikTok takeover?",
+      "link": "https://www.npr.org/2025/10/06/nx-s1-5560216/who-is-larry-ellison-the-billionaire-trump-friend-whos-part-of-the-tiktok-takeover",
+      "source": "NPR Business",
+      "category": "social",
+      "pubDate": "2025-10-06T20:41:54.000Z",
+      "relevanceScore": 23.5,
+      "recommendationScore": 24,
+      "tags": [
+        "Tech",
+        "Social"
       ],
       "readingLevel": "intermediate"
     },
@@ -647,11 +592,57 @@
       "source": "Reddit World News",
       "category": "social",
       "pubDate": "2025-10-07T15:53:56.000Z",
-      "relevanceScore": 23.42,
-      "recommendationScore": 23.42,
+      "relevanceScore": 23.34,
+      "recommendationScore": 23.34,
       "tags": [
         "Social"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Who is Bari Weiss? CBS News' new editor-in-chief is a vocal critic of legacy media",
+      "link": "https://www.npr.org/2025/10/06/nx-s1-5563786/bari-weiss-cbs-news-free-press",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-10-06T19:44:21.000Z",
+      "relevanceScore": 23.31,
+      "recommendationScore": 25.81,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Chinese EV giant BYD sees UK sales soar by 880%",
+      "link": "https://www.bbc.com/news/articles/c3w5jl2jgqwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-10-07T05:28:42.000Z",
+      "relevanceScore": 23.26,
+      "recommendationScore": 23.26,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "China halts US soybean imports to hit Trump’s MAGA supporters",
+      "link": "https://www.reddit.com/r/worldnews/comments/1o0d74z/china_halts_us_soybean_imports_to_hit_trumps_maga/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-07T12:20:51.000Z",
+      "relevanceScore": 22.63,
+      "recommendationScore": 23.13,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Paramount Formally Hires Bari Weiss To Turn What’s Left Of CBS News Into A Soggy Right Wing Propaganda And Troll Farm",
+      "link": "https://www.reddit.com/r/technology/comments/1o0duow/paramount_formally_hires_bari_weiss_to_turn_whats/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-10-07T12:49:11.000Z",
+      "relevanceScore": 21.73,
+      "recommendationScore": 25.23,
+      "tags": [],
       "readingLevel": "advanced"
     }
   ],
@@ -662,7 +653,7 @@
         "link": "https://arstechnica.com/gadgets/2025/10/arduino-retains-its-brand-and-mission-following-acquisition-by-qualcomm/",
         "source": "Ars Technica",
         "pubDate": "2025-10-07T16:30:16.000Z",
-        "relevanceScore": 1513.54,
+        "relevanceScore": 1626.46,
         "tags": []
       },
       {
@@ -670,7 +661,7 @@
         "link": "https://www.bbc.com/news/articles/c4g5ypl6nkzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-06T23:40:34.000Z",
-        "relevanceScore": 357.68,
+        "relevanceScore": 413.1,
         "tags": [
           "Web"
         ]
@@ -680,17 +671,25 @@
         "link": "https://www.theverge.com/news/794988/mastodon-bluesky-starter-packs-fediverse",
         "source": "The Verge",
         "pubDate": "2025-10-07T18:31:20.000Z",
-        "relevanceScore": 254.95,
+        "relevanceScore": 285.87,
         "tags": [
           "Social"
         ]
+      },
+      {
+        "title": "The best fast chargers for 2025",
+        "link": "https://www.engadget.com/computing/accessories/best-fast-chargers-140011033.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-07T19:01:26.000Z",
+        "relevanceScore": 229.97,
+        "tags": []
       },
       {
         "title": "Cozy Earth's Prime Day Sale (2025): Sheets, Pajamas, Socks and More on Deep Discount",
         "link": "https://www.wired.com/story/cozy-earth-prime-day-sale-october-2025/",
         "source": "Wired",
         "pubDate": "2025-10-07T18:29:36.000Z",
-        "relevanceScore": 169.94,
+        "relevanceScore": 199.36,
         "tags": []
       },
       {
@@ -698,7 +697,7 @@
         "link": "https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/",
         "source": "TechCrunch",
         "pubDate": "2025-10-07T17:01:41.000Z",
-        "relevanceScore": 168.65,
+        "relevanceScore": 184.57,
         "tags": []
       },
       {
@@ -706,28 +705,10 @@
         "link": "https://techcrunch.com/2025/10/07/x-splits-verified-organizations-into-premium-business-and-premium-organizations/",
         "source": "TechCrunch",
         "pubDate": "2025-10-07T18:00:00.000Z",
-        "relevanceScore": 124.84,
+        "relevanceScore": 136.76,
         "tags": [
           "Business",
           "Social"
-        ]
-      },
-      {
-        "title": "Anthropic plans to open India office, eyes tie-up with billionaire Ambani",
-        "link": "https://techcrunch.com/2025/10/07/anthropic-plans-to-open-india-office-eyes-tie-up-with-billionaire-ambani/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-07T16:27:15.000Z",
-        "relevanceScore": 72.53,
-        "tags": []
-      },
-      {
-        "title": "The best laptop deals you can get for Amazon’s October Prime Day",
-        "link": "https://www.theverge.com/tech/792893/amazon-october-prime-big-deal-day-laptops-gaming-apple",
-        "source": "The Verge",
-        "pubDate": "2025-10-07T18:37:21.000Z",
-        "relevanceScore": 52.47,
-        "tags": [
-          "Partnership"
         ]
       },
       {
@@ -735,49 +716,62 @@
         "link": "https://techcrunch.com/2025/10/07/mastodon-is-taking-cues-from-bluesky-with-plans-for-its-own-starter-packs/",
         "source": "TechCrunch",
         "pubDate": "2025-10-07T16:38:11.000Z",
-        "relevanceScore": 46.07,
+        "relevanceScore": 47.49,
         "tags": []
       },
       {
-        "title": "The Best Prime Day Apple Deals, From Watches to iPads (2025)",
-        "link": "https://www.wired.com/story/best-prime-day-apple-deals-oct-2025/",
+        "title": "We Found the 214 Best Prime Day Deals of 2025: Up To 55% Off",
+        "link": "https://www.wired.com/story/prime-day-deals-october-2025/",
         "source": "Wired",
-        "pubDate": "2025-10-07T18:24:51.000Z",
-        "relevanceScore": 26.93,
+        "pubDate": "2025-10-07T19:02:40.000Z",
+        "relevanceScore": 42.47,
         "tags": []
+      },
+      {
+        "title": "The Verge&#8217;s Guide to Amazon&#8217;s October Prime Day Event 2025",
+        "link": "https://www.theverge.com/tech/782478/october-amazon-prime-day-deals-guide",
+        "source": "The Verge",
+        "pubDate": "2025-10-07T18:49:04.000Z",
+        "relevanceScore": 41.43,
+        "tags": [
+          "Tutorial",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "The best Prime Day kitchen deals include up to 50 percent off our favorite Instant Pots, blenders and more",
+        "link": "https://www.engadget.com/deals/the-best-prime-day-kitchen-deals-include-up-to-50-percent-off-our-favorite-instant-pots-blenders-and-more-193009814.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-07T18:55:10.000Z",
+        "relevanceScore": 40.45,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "The best laptop deals you can get for Amazon’s October Prime Day",
+        "link": "https://www.theverge.com/tech/792893/amazon-october-prime-big-deal-day-laptops-gaming-apple",
+        "source": "The Verge",
+        "pubDate": "2025-10-07T18:37:21.000Z",
+        "relevanceScore": 26.89,
+        "tags": [
+          "Partnership"
+        ]
       },
       {
         "title": "The Petcube Cam 360 Is $16 Off for Prime Day",
         "link": "https://www.wired.com/story/petcube-360-cam-prime-big-deal-day-deal/",
         "source": "Wired",
         "pubDate": "2025-10-07T18:35:16.000Z",
-        "relevanceScore": 25.96,
+        "relevanceScore": 25.88,
         "tags": []
-      },
-      {
-        "title": "Best Prime Day Apple iPad Deals",
-        "link": "https://www.wired.com/story/apple-ipad-prime-day-sale-october-2025/",
-        "source": "Wired",
-        "pubDate": "2025-10-07T18:26:37.000Z",
-        "relevanceScore": 25.93,
-        "tags": []
-      },
-      {
-        "title": "The 173 best October Prime Day deals",
-        "link": "https://www.theverge.com/tech/788343/best-amazon-prime-day-tech-deals-october-2025-day-1",
-        "source": "The Verge",
-        "pubDate": "2025-10-07T18:24:22.000Z",
-        "relevanceScore": 25.92,
-        "tags": [
-          "Partnership"
-        ]
       },
       {
         "title": "Prime Day Bluetooth speaker deals include the Beats Pill at a record-low price",
         "link": "https://www.engadget.com/deals/prime-day-bluetooth-speaker-deals-include-the-beats-pill-at-a-record-low-price-114554429.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-07T18:40:47.000Z",
-        "relevanceScore": 23.98,
+        "relevanceScore": 23.9,
         "tags": [
           "Tech"
         ]
@@ -787,7 +781,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1o0duow/paramount_formally_hires_bari_weiss_to_turn_whats/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-07T12:49:11.000Z",
-        "relevanceScore": 21.81,
+        "relevanceScore": 21.73,
         "tags": []
       }
     ],
@@ -797,7 +791,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1o0bemo/robin_williams_daughter_begs_fans_to_stop_sending/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-07T10:51:52.000Z",
-        "relevanceScore": 849.92,
+        "relevanceScore": 998.34,
         "tags": [
           "AI"
         ]
@@ -807,22 +801,10 @@
         "link": "https://www.technologyreview.com/2025/10/07/1125191/ai-toys-in-china/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-07T16:51:02.000Z",
-        "relevanceScore": 231.11,
+        "relevanceScore": 257.53,
         "tags": [
           "AI",
           "Report"
-        ]
-      },
-      {
-        "title": "Taylor Swift loses over 1,000,000 Instagram followers after The Life of a Showgirl release as fans slam use of AI in album promotion",
-        "link": "https://www.reddit.com/r/technology/comments/1o0e0zc/taylor_swift_loses_over_1000000_instagram/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-07T12:56:45.000Z",
-        "relevanceScore": 188.33,
-        "tags": [
-          "AI",
-          "Social",
-          "Launch"
         ]
       },
       {
@@ -830,9 +812,21 @@
         "link": "https://www.bbc.com/news/articles/cm2zmm0ry67o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-07T11:15:05.000Z",
-        "relevanceScore": 184.99,
+        "relevanceScore": 188.41,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Taylor Swift loses over 1,000,000 Instagram followers after The Life of a Showgirl release as fans slam use of AI in album promotion",
+        "link": "https://www.reddit.com/r/technology/comments/1o0e0zc/taylor_swift_loses_over_1000000_instagram/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-07T12:56:45.000Z",
+        "relevanceScore": 178.75,
+        "tags": [
+          "AI",
+          "Social",
+          "Launch"
         ]
       },
       {
@@ -840,10 +834,20 @@
         "link": "https://stackoverflow.blog/2025/10/06/beyond-code-generation-how-ai-is-changing-tech-teams-dynamics/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-10-06T07:40:00.000Z",
-        "relevanceScore": 70.98,
+        "relevanceScore": 55.9,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "MLZC25-09. Preparación de Datos: La Fundación de Todo Modelo Exitoso",
+        "link": "https://dev.to/jesus_oviedoriquelme_084/mlzc25-09-preparacion-de-datos-la-fundacion-de-todo-modelo-exitoso-272e",
+        "source": "Dev.to",
+        "pubDate": "2025-10-07T18:59:40.000Z",
+        "relevanceScore": 46.96,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -851,7 +855,7 @@
         "link": "https://stackoverflow.blog/2025/10/07/context-is-king-for-secure-ai-generated-code/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-10-07T07:40:00.000Z",
-        "relevanceScore": 47.28,
+        "relevanceScore": 21.7,
         "tags": [
           "AI",
           "Security"
@@ -862,24 +866,11 @@
         "link": "https://github.blog/ai-and-ml/the-developer-role-is-evolving-heres-how-to-stay-ahead/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-06T20:12:49.000Z",
-        "relevanceScore": 46.99,
+        "relevanceScore": 21.41,
         "tags": [
           "AI",
           "Tech",
           "Exclusive",
-          "Tutorial"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Automating EC2 Instance Management with Go",
-        "link": "https://dev.to/copubah/automating-ec2-instance-management-with-go-10nh",
-        "source": "Dev.to",
-        "pubDate": "2025-10-07T18:44:50.000Z",
-        "relevanceScore": 459.99,
-        "tags": [
-          "Cloud",
           "Tutorial"
         ]
       }
@@ -890,7 +881,7 @@
         "link": "https://techcrunch.com/2025/10/07/facebook-updates-its-algorithm-to-give-users-more-control-over-which-videos-they-see/",
         "source": "TechCrunch",
         "pubDate": "2025-10-07T17:16:52.000Z",
-        "relevanceScore": 349.7,
+        "relevanceScore": 435.12,
         "tags": [
           "Social"
         ]
@@ -900,7 +891,7 @@
         "link": "https://www.npr.org/2025/10/06/nx-s1-5560216/who-is-larry-ellison-the-billionaire-trump-friend-whos-part-of-the-tiktok-takeover",
         "source": "NPR Business",
         "pubDate": "2025-10-06T20:41:54.000Z",
-        "relevanceScore": 49.08,
+        "relevanceScore": 23.5,
         "tags": [
           "Tech",
           "Social"
@@ -911,77 +902,10 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1o0iniv/denmark_to_ban_social_media_for_under15s/",
         "source": "Reddit World News",
         "pubDate": "2025-10-07T15:53:56.000Z",
-        "relevanceScore": 23.42,
+        "relevanceScore": 23.34,
         "tags": [
           "Social"
         ]
-      }
-    ],
-    "development": [
-      {
-        "title": "5 Tools That Make My Life Instantly Better 🚀",
-        "link": "https://dev.to/lovestaco/5-tools-that-make-my-life-instantly-better-2i5l",
-        "source": "Dev.to",
-        "pubDate": "2025-10-07T18:42:10.000Z",
-        "relevanceScore": 324.48,
-        "tags": []
-      },
-      {
-        "title": "How GitHub Copilot enabled accessibility governance process improvements in record time",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-we-automated-accessibility-compliance-in-five-hours-with-github-copilot/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-07T17:00:00.000Z",
-        "relevanceScore": 141.64,
-        "tags": [
-          "Exclusive",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Pipe operator is coming to PHP !",
-        "link": "https://dev.to/thicha0/pipe-operator-is-coming-to-php--2838",
-        "source": "Dev.to",
-        "pubDate": "2025-10-07T18:32:12.000Z",
-        "relevanceScore": 60.45,
-        "tags": []
-      },
-      {
-        "title": "Walrus: A 1 Million ops/sec, 1 GB/s Write Ahead Log in Rust",
-        "link": "https://www.reddit.com/r/programming/comments/1o0hdn9/walrus_a_1_million_opssec_1_gbs_write_ahead_log/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-07T15:07:20.000Z",
-        "relevanceScore": 46.77,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "My First Contribution to Linux",
-        "link": "https://www.reddit.com/r/programming/comments/1o0gdef/my_first_contribution_to_linux/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-07T14:29:56.000Z",
-        "relevanceScore": 21.14,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Bringing NumPy's type-completeness score to nearly 90%",
-        "link": "https://www.reddit.com/r/programming/comments/1o0gd22/bringing_numpys_typecompleteness_score_to_nearly/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-07T14:29:34.000Z",
-        "relevanceScore": 21.14,
-        "tags": []
-      }
-    ],
-    "climate": [
-      {
-        "title": "Natural disasters are a rising burden for the National Guard",
-        "link": "https://arstechnica.com/science/2025/10/natural-disasters-are-a-rising-burden-for-the-national-guard/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-07T17:46:47.000Z",
-        "relevanceScore": 306.8,
-        "tags": []
       }
     ],
     "startup": [
@@ -990,7 +914,7 @@
         "link": "https://www.npr.org/2025/10/07/nx-s1-5563872/government-shutdown-federal-workers-layoffs-rifs",
         "source": "NPR Business",
         "pubDate": "2025-10-07T09:00:00.000Z",
-        "relevanceScore": 299.04,
+        "relevanceScore": 362.96,
         "tags": [
           "Startup",
           "Funding"
@@ -1001,12 +925,22 @@
         "link": "https://www.technologyreview.com/2025/10/07/1125207/the-us-is-set-to-cancel-funding-for-two-major-direct-air-capture-plants/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-07T18:29:20.000Z",
-        "relevanceScore": 251.44,
+        "relevanceScore": 305.36,
         "tags": [
           "Tech",
           "Startup",
           "Funding"
         ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "Natural disasters are a rising burden for the National Guard",
+        "link": "https://arstechnica.com/science/2025/10/natural-disasters-are-a-rising-burden-for-the-national-guard/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-07T17:46:47.000Z",
+        "relevanceScore": 357.72,
+        "tags": []
       }
     ],
     "business": [
@@ -1015,25 +949,23 @@
         "link": "https://abcnews.go.com/Business/wireStory/toyota-recalls-400000-tundras-sequoias-due-malfunctioning-rearview-126293676",
         "source": "ABC News Business",
         "pubDate": "2025-10-07T16:08:42.000Z",
-        "relevanceScore": 266.47,
+        "relevanceScore": 265.89,
         "tags": []
-      },
-      {
-        "title": "Gold futures rise above $4,000 per ounce for the first time",
-        "link": "https://abcnews.go.com/Business/wireStory/gold-futures-rise-4000-ounce-time-126289013",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-07T14:13:48.000Z",
-        "relevanceScore": 201.09,
-        "tags": [
-          "Exclusive"
-        ]
       },
       {
         "title": "Gold demand puts Peru's Amazon at greater risk from mercury poisoning, bishop warns",
         "link": "https://abcnews.go.com/Business/wireStory/gold-demand-puts-perus-amazon-greater-risk-mercury-126289339",
         "source": "ABC News Business",
         "pubDate": "2025-10-07T14:38:05.000Z",
-        "relevanceScore": 159.17,
+        "relevanceScore": 188.09,
+        "tags": []
+      },
+      {
+        "title": "Missing Virginia store cat found after hitching a ride to another state",
+        "link": "https://abcnews.go.com/Business/wireStory/purrfect-ending-missing-virginia-store-cat-found-after-126304637",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-07T18:52:18.000Z",
+        "relevanceScore": 31.94,
         "tags": []
       },
       {
@@ -1041,7 +973,7 @@
         "link": "https://www.npr.org/2025/10/06/nx-s1-5563786/bari-weiss-cbs-news-free-press",
         "source": "NPR Business",
         "pubDate": "2025-10-06T19:44:21.000Z",
-        "relevanceScore": 23.39,
+        "relevanceScore": 23.31,
         "tags": []
       }
     ],
@@ -1051,7 +983,7 @@
         "link": "https://www.bbc.com/news/articles/cewn99k9l7zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-07T16:56:10.000Z",
-        "relevanceScore": 207.63,
+        "relevanceScore": 259.55,
         "tags": [
           "Exclusive"
         ]
@@ -1061,7 +993,7 @@
         "link": "https://www.bbc.com/news/articles/c5ye7njqp2eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-07T16:00:54.000Z",
-        "relevanceScore": 46.45,
+        "relevanceScore": 46.37,
         "tags": []
       },
       {
@@ -1069,7 +1001,7 @@
         "link": "https://www.bbc.com/news/articles/cwy875px79po?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-07T17:09:40.000Z",
-        "relevanceScore": 31.17,
+        "relevanceScore": 37.09,
         "tags": []
       },
       {
@@ -1077,8 +1009,20 @@
         "link": "https://www.bbc.com/news/articles/c0kn04453z8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-07T15:56:00.000Z",
-        "relevanceScore": 30.93,
+        "relevanceScore": 30.85,
         "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Docker in a Nutshell: Containers Made Simple",
+        "link": "https://dev.to/leesha_lois/docker-in-a-nutshell-containers-made-simple-2fa7",
+        "source": "Dev.to",
+        "pubDate": "2025-10-07T18:59:43.000Z",
+        "relevanceScore": 211.46,
+        "tags": [
+          "Cloud"
+        ]
       }
     ],
     "space": [
@@ -1087,7 +1031,7 @@
         "link": "https://www.engadget.com/audio/speakers/the-best-prime-day-speaker-deals-jbl-bose-ultimate-ears-and-more-070038290.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-07T18:41:32.000Z",
-        "relevanceScore": 166.98,
+        "relevanceScore": 196.4,
         "tags": []
       }
     ],
@@ -1097,7 +1041,7 @@
         "link": "https://www.theverge.com/tech/698725/amazon-october-prime-day-xbox-storage-expansion-card-deal-sale-2025",
         "source": "The Verge",
         "pubDate": "2025-10-07T18:30:00.000Z",
-        "relevanceScore": 157.94,
+        "relevanceScore": 188.86,
         "tags": [
           "Tech"
         ]
@@ -1107,40 +1051,113 @@
         "link": "https://arstechnica.com/ai/2025/10/dj-bruce-lee-and-jackass-mr-rogers-dead-celebrities-become-puppets-in-sora-2-videos/",
         "source": "Ars Technica",
         "pubDate": "2025-10-07T17:08:05.000Z",
-        "relevanceScore": 69.67,
+        "relevanceScore": 45.59,
         "tags": [
           "IPO"
         ]
       }
     ],
-    "mobile": [
+    "development": [
       {
-        "title": "Get $200 off the Samsung Galaxy S25 for Prime Day",
-        "link": "https://www.engadget.com/deals/get-200-off-the-samsung-galaxy-s25-for-prime-day-100037363.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-07T18:35:36.000Z",
-        "relevanceScore": 156.96,
+        "title": "How GitHub Copilot enabled accessibility governance process improvements in record time",
+        "link": "https://github.blog/ai-and-ml/github-copilot/how-we-automated-accessibility-compliance-in-five-hours-with-github-copilot/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-07T17:00:00.000Z",
+        "relevanceScore": 173.56,
         "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Google's Pixel Buds Pro 2 are cheaper than ever for Prime Day",
-        "link": "https://www.engadget.com/deals/googles-pixel-buds-pro-2-are-cheaper-than-ever-for-prime-day-130038433.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-07T18:40:35.000Z",
-        "relevanceScore": 61.48,
-        "tags": [
-          "Mobile",
+          "Exclusive",
           "Partnership"
         ]
       },
+      {
+        "title": "Walrus: A 1 Million ops/sec, 1 GB/s Write Ahead Log in Rust",
+        "link": "https://www.reddit.com/r/programming/comments/1o0hdn9/walrus_a_1_million_opssec_1_gbs_write_ahead_log/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-07T15:07:20.000Z",
+        "relevanceScore": 21.19,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "My First Contribution to Linux",
+        "link": "https://www.reddit.com/r/programming/comments/1o0gdef/my_first_contribution_to_linux/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-07T14:29:56.000Z",
+        "relevanceScore": 21.06,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Bringing NumPy's type-completeness score to nearly 90%",
+        "link": "https://www.reddit.com/r/programming/comments/1o0gd22/bringing_numpys_typecompleteness_score_to_nearly/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-07T14:29:34.000Z",
+        "relevanceScore": 21.06,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Golang Dependency Inversion — A Java Developer's Point of View",
+        "link": "https://dev.to/kirekov/golang-dependency-inversion-a-java-developers-point-of-view-pj4",
+        "source": "Dev.to",
+        "pubDate": "2025-10-07T18:54:47.000Z",
+        "relevanceScore": 116.95,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Millions of drivers could receive £700 payout over car finance mis-selling scandal",
+        "link": "https://www.bbc.com/news/articles/cqlzwqv7xz1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-07T16:46:25.000Z",
+        "relevanceScore": 47.02,
+        "tags": [
+          "Business",
+          "Controversy"
+        ]
+      },
+      {
+        "title": "Tesla reveals slightly cheaper ‘standard’ versions of the Model 3 and Model Y",
+        "link": "https://techcrunch.com/2025/10/07/tesla-reveals-slightly-cheaper-standard-versions-of-the-model-3-and-model-y/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-07T18:47:45.000Z",
+        "relevanceScore": 43.42,
+        "tags": []
+      },
+      {
+        "title": "Chinese EV giant BYD sees UK sales soar by 880%",
+        "link": "https://www.bbc.com/news/articles/c3w5jl2jgqwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-07T05:28:42.000Z",
+        "relevanceScore": 23.26,
+        "tags": [
+          "Business"
+        ]
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "North Korean hackers increasingly targeting wealthy crypto holders",
+        "link": "https://www.bbc.com/news/articles/cwy8z7wxe03o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-07T12:07:08.000Z",
+        "relevanceScore": 40.09,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
+    "mobile": [
       {
         "title": "Play Store changes coming this month as SCOTUS declines to freeze antitrust remedies",
         "link": "https://arstechnica.com/gadgets/2025/10/supreme-court-refuses-to-pause-play-store-changes-while-google-appeals-antitrust-case/",
         "source": "Ars Technica",
         "pubDate": "2025-10-07T15:56:43.000Z",
-        "relevanceScore": 24.93,
+        "relevanceScore": 30.85,
         "tags": [
           "Mobile",
           "Exclusive"
@@ -1153,63 +1170,20 @@
         "link": "https://www.technologyreview.com/2025/10/07/1125075/the-download-extracting-lithium-and-what-we-still-dont-know-about-sora/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-07T12:10:00.000Z",
-        "relevanceScore": 55.18,
+        "relevanceScore": 29.6,
         "tags": [
           "Tech"
         ]
       }
     ],
-    "world": [
+    "finance": [
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1321, Part 1 (Thread #1468)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1o04oyo/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-07T04:02:27.000Z",
-        "relevanceScore": 46.55,
+        "title": "The Best Prime Day TV Deals (2025)",
+        "link": "https://www.wired.com/story/prime-day-tv-deals-october-2025/",
+        "source": "Wired",
+        "pubDate": "2025-10-07T19:00:44.000Z",
+        "relevanceScore": 25.97,
         "tags": []
-      },
-      {
-        "title": "China halts US soybean imports to hit Trump’s MAGA supporters",
-        "link": "https://www.reddit.com/r/worldnews/comments/1o0d74z/china_halts_us_soybean_imports_to_hit_trumps_maga/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-07T12:20:51.000Z",
-        "relevanceScore": 22.71,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Millions of drivers could receive £700 payout over car finance mis-selling scandal",
-        "link": "https://www.bbc.com/news/articles/cqlzwqv7xz1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-07T16:46:25.000Z",
-        "relevanceScore": 42.6,
-        "tags": [
-          "Business",
-          "Controversy"
-        ]
-      },
-      {
-        "title": "Chinese EV giant BYD sees UK sales soar by 880%",
-        "link": "https://www.bbc.com/news/articles/c3w5jl2jgqwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-07T05:28:42.000Z",
-        "relevanceScore": 23.34,
-        "tags": [
-          "Business"
-        ]
-      }
-    ],
-    "blockchain": [
-      {
-        "title": "North Korean hackers increasingly targeting wealthy crypto holders",
-        "link": "https://www.bbc.com/news/articles/cwy8z7wxe03o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-07T12:07:08.000Z",
-        "relevanceScore": 35.67,
-        "tags": [
-          "Security"
-        ]
       }
     ],
     "cybersecurity": [
@@ -1218,18 +1192,36 @@
         "link": "https://github.blog/security/how-a-top-bug-bounty-researcher-got-their-start-in-security/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-07T16:00:00.000Z",
-        "relevanceScore": 25.44,
+        "relevanceScore": 25.36,
         "tags": [
           "Security",
           "Exclusive"
         ]
       }
+    ],
+    "world": [
+      {
+        "title": "China halts US soybean imports to hit Trump’s MAGA supporters",
+        "link": "https://www.reddit.com/r/worldnews/comments/1o0d74z/china_halts_us_soybean_imports_to_hit_trumps_maga/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-07T12:20:51.000Z",
+        "relevanceScore": 22.63,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1321, Part 1 (Thread #1468)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1o04oyo/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-07T04:02:27.000Z",
+        "relevanceScore": 20.97,
+        "tags": []
+      }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 17,
-    "avgRelevanceScore": 156.10071428571422,
+    "totalCategories": 19,
+    "avgRelevanceScore": 157.3521428571428,
     "topCategories": [
       {
         "category": "tech",
@@ -1237,11 +1229,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 7
-      },
-      {
-        "category": "development",
-        "count": 6
+        "count": 8
       },
       {
         "category": "business",
@@ -1249,6 +1237,10 @@
       },
       {
         "category": "general",
+        "count": 4
+      },
+      {
+        "category": "development",
         "count": 4
       }
     ]
