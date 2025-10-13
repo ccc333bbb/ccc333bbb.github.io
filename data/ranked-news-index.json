@@ -1,16 +1,18 @@
 {
-  "lastUpdated": "2025-10-13T01:08:43.244Z",
-  "totalArticles": 32,
+  "lastUpdated": "2025-10-13T02:47:09.743Z",
+  "totalArticles": 33,
   "categories": [
     "tech",
     "mobile",
     "gaming",
-    "ai-ml",
+    "cloud",
     "business",
+    "ai-ml",
     "space",
+    "development",
     "general",
-    "entertainment",
-    "education"
+    "education",
+    "entertainment"
   ],
   "topArticles": [
     {
@@ -19,10 +21,24 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-12T15:06:00.000Z",
-      "relevanceScore": 677.99,
-      "recommendationScore": 679.49,
+      "relevanceScore": 335.66,
+      "recommendationScore": 337.16,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "The first products with Apple's M5 chip could make their debut this week",
+      "link": "https://www.engadget.com/big-tech/the-first-products-with-apples-m5-chip-could-make-their-debut-this-week-163149688.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-10-12T16:31:49.000Z",
+      "relevanceScore": 259.95,
+      "recommendationScore": 262.45,
+      "tags": [
+        "Exclusive",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Dating app Cerca will show how Gen Z really dates at TechCrunch Disrupt 2025",
@@ -30,12 +46,25 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-10-12T14:51:10.000Z",
-      "relevanceScore": 676.94,
-      "recommendationScore": 678.94,
+      "relevanceScore": 231.61,
+      "recommendationScore": 233.61,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "An Avatar fighting game is coming out in summer 2026",
+      "link": "https://www.engadget.com/gaming/an-avatar-fighting-game-is-coming-out-in-summer-2026-191008728.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-10-12T19:10:08.000Z",
+      "relevanceScore": 230.48,
+      "recommendationScore": 230.98,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "The ZoraSafe app wants to protect older people online and will present at TechCrunch Disrupt 2025",
@@ -43,8 +72,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-10-12T16:51:00.000Z",
-      "relevanceScore": 560.34,
-      "recommendationScore": 560.84,
+      "relevanceScore": 209.01,
+      "recommendationScore": 209.51,
       "tags": [
         "Mobile",
         "Web"
@@ -57,8 +86,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-12T13:00:00.000Z",
-      "relevanceScore": 546.57,
-      "recommendationScore": 547.57,
+      "relevanceScore": 207.24,
+      "recommendationScore": 208.24,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -68,91 +97,23 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-12T14:00:00.000Z",
-      "relevanceScore": 545.77,
-      "recommendationScore": 547.27,
+      "relevanceScore": 206.44,
+      "recommendationScore": 207.94,
       "tags": [
         "Web"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The first products with Apple's M5 chip could make their debut this week",
-      "link": "https://www.engadget.com/big-tech/the-first-products-with-apples-m5-chip-could-make-their-debut-this-week-163149688.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-10-12T16:31:49.000Z",
-      "relevanceScore": 220.28,
-      "recommendationScore": 222.78,
-      "tags": [
-        "Exclusive",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Marvel details upcoming slate of shows at New York Comic Con",
-      "link": "https://www.theverge.com/news/798740/marvels-upcoming-shows-new-york-comic-con-spider-man-x-men-daredevil-visionquest",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-12T20:44:10.000Z",
-      "relevanceScore": 220.12,
-      "recommendationScore": 224.12,
-      "tags": [
-        "Exclusive",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "An Avatar fighting game is coming out in summer 2026",
-      "link": "https://www.engadget.com/gaming/an-avatar-fighting-game-is-coming-out-in-summer-2026-191008728.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-10-12T19:10:08.000Z",
-      "relevanceScore": 209.8,
-      "recommendationScore": 210.3,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I’ve tested thousands of prompts across coding, writing, publishing, consulting, and product building.\r\nOnly a few made it into my personal high-leverage prompt library, the ones that saved me real time in real workflows!",
-      "link": "https://dev.to/jaideepparashar/ive-tested-thousands-of-prompts-across-coding-writing-publishing-consulting-and-product-20kn",
+      "title": "Hands-On: Despliega una base de datos PostgreSQL + Bastion + VPC con AWS CDK y Python",
+      "link": "https://dev.to/chainiz/hands-on-despliega-una-base-de-datos-postgresql-bastion-vpc-con-aws-cdk-y-python-1a38",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-10-13T01:02:41.000Z",
-      "relevanceScore": 197.98,
-      "recommendationScore": 197.98,
+      "category": "cloud",
+      "pubDate": "2025-10-13T02:16:46.000Z",
+      "relevanceScore": 203.4,
+      "recommendationScore": 203.9,
       "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Nvidia’s AI empire: A look at its top startup investments",
-      "link": "https://techcrunch.com/2025/10/12/nvidias-ai-empire-a-look-at-its-top-startup-investments/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-10-12T15:30:28.000Z",
-      "relevanceScore": 157.07,
-      "recommendationScore": 158.57,
-      "tags": [
-        "AI",
-        "Startup"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Reimagine Libraries management as Apps using Agentic Executable framework",
-      "link": "https://dev.to/arenukvern/reimagine-libraries-management-as-apps-using-agentic-executable-framework-ami",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-10-13T00:57:02.000Z",
-      "relevanceScore": 155.46,
-      "recommendationScore": 155.96,
-      "tags": [
-        "Mobile"
+        "Cloud"
       ],
       "readingLevel": "advanced"
     },
@@ -162,10 +123,24 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-10-12T12:11:39.000Z",
-      "relevanceScore": 133.41,
-      "recommendationScore": 135.41,
+      "relevanceScore": 169.08,
+      "recommendationScore": 171.08,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Nvidia’s AI empire: A look at its top startup investments",
+      "link": "https://techcrunch.com/2025/10/12/nvidias-ai-empire-a-look-at-its-top-startup-investments/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-10-12T15:30:28.000Z",
+      "relevanceScore": 160.74,
+      "recommendationScore": 162.24,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Police are asking kids to stop pulling AI homeless man prank",
@@ -173,8 +148,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-10-12T13:30:00.000Z",
-      "relevanceScore": 123.67,
-      "recommendationScore": 125.17,
+      "relevanceScore": 157.34,
+      "recommendationScore": 158.84,
       "tags": [
         "AI"
       ],
@@ -186,8 +161,8 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2025-10-12T20:42:37.000Z",
-      "relevanceScore": 122.11,
-      "recommendationScore": 122.61,
+      "relevanceScore": 144.78,
+      "recommendationScore": 145.28,
       "tags": [
         "Web",
         "Launch"
@@ -195,13 +170,38 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Marvel details upcoming slate of shows at New York Comic Con",
+      "link": "https://www.theverge.com/news/798740/marvels-upcoming-shows-new-york-comic-con-spider-man-x-men-daredevil-visionquest",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-12T20:44:10.000Z",
+      "relevanceScore": 111.79,
+      "recommendationScore": 115.79,
+      "tags": [
+        "Exclusive",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "COLORS: Nono La Grinta - LOVE YOU | A COLORS SHOW",
+      "link": "https://dev.to/music_youtube/colors-nono-la-grinta-love-you-a-colors-show-54jp",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-13T02:09:42.000Z",
+      "relevanceScore": 110.88,
+      "recommendationScore": 112.38,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "'She left trail of fairy dust': Tributes pour in for Diane Keaton",
       "link": "https://www.bbc.com/news/articles/cr5q5rp4r64o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-12T15:28:08.000Z",
-      "relevanceScore": 108.06,
-      "recommendationScore": 108.56,
+      "relevanceScore": 93.74,
+      "recommendationScore": 94.24,
       "tags": [
         "Exclusive"
       ],
@@ -213,48 +213,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-12T21:03:44.000Z",
-      "relevanceScore": 107.68,
-      "recommendationScore": 108.18,
+      "relevanceScore": 93.36,
+      "recommendationScore": 93.86,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why doesn’t Cards Against Humanity print its game in the US? It’s complicated.",
-      "link": "https://arstechnica.com/culture/2025/10/why-doesnt-cards-against-humanity-print-its-game-in-the-us-its-complicated/",
-      "source": "Ars Technica",
-      "category": "gaming",
-      "pubDate": "2025-10-11T12:00:05.000Z",
-      "relevanceScore": 107.57,
-      "recommendationScore": 109.57,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "California oil workers face an uncertain future in the state's energy transition",
-      "link": "https://abcnews.go.com/Business/wireStory/california-oil-workers-face-uncertain-future-states-energy-126444978",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-12T12:28:05.000Z",
-      "relevanceScore": 106.46,
-      "recommendationScore": 106.96,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Apple hit with another class action lawsuit for alleged copyright infringement",
-      "link": "https://www.engadget.com/ai/apple-hit-with-another-class-action-lawsuit-for-alleged-copyright-infringement-175242922.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-12T17:52:42.000Z",
-      "relevanceScore": 105.55,
-      "recommendationScore": 106.05,
-      "tags": [
-        "AI",
-        "Exclusive",
-        "Regulation"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -263,12 +224,25 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-12T20:50:35.000Z",
-      "relevanceScore": 102.14,
-      "recommendationScore": 104.14,
+      "relevanceScore": 87.81,
+      "recommendationScore": 89.81,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "California oil workers face an uncertain future in the state's energy transition",
+      "link": "https://abcnews.go.com/Business/wireStory/california-oil-workers-face-uncertain-future-states-energy-126444978",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-10-12T12:28:05.000Z",
+      "relevanceScore": 86.14,
+      "recommendationScore": 86.64,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Specialized S-Works Levo 4 Electric Mountain Bike Review: The Best Electric Mountain Bike",
@@ -276,9 +250,24 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-12T12:00:00.000Z",
-      "relevanceScore": 100.37,
-      "recommendationScore": 101.87,
+      "relevanceScore": 86.04,
+      "recommendationScore": 87.54,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple hit with another class action lawsuit for alleged copyright infringement",
+      "link": "https://www.engadget.com/ai/apple-hit-with-another-class-action-lawsuit-for-alleged-copyright-infringement-175242922.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-10-12T17:52:42.000Z",
+      "relevanceScore": 85.22,
+      "recommendationScore": 85.72,
+      "tags": [
+        "AI",
+        "Exclusive",
+        "Regulation"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -287,46 +276,35 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-11T19:10:37.000Z",
-      "relevanceScore": 99.01,
-      "recommendationScore": 99.51,
+      "relevanceScore": 84.68,
+      "recommendationScore": 85.18,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Trump threatens tech export limits, new 100% tariff on Chinese imports",
-      "link": "https://www.npr.org/2025/10/11/g-s1-93113/trump-threatens-100-tariff-chinese-imports",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-10-11T07:44:18.000Z",
-      "relevanceScore": 43.72,
-      "recommendationScore": 46.22,
+      "title": "Why doesn’t Cards Against Humanity print its game in the US? It’s complicated.",
+      "link": "https://arstechnica.com/culture/2025/10/why-doesnt-cards-against-humanity-print-its-game-in-the-us-its-complicated/",
+      "source": "Ars Technica",
+      "category": "gaming",
+      "pubDate": "2025-10-11T12:00:05.000Z",
+      "relevanceScore": 81.24,
+      "recommendationScore": 83.24,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "TCJSgame Pro: The Ultimate JavaScript Game Engine Evolution",
+      "link": "https://dev.to/kehinde_owolabi_e2e54567a/tcjsgame-pro-the-ultimate-javascript-game-engine-evolution-1mlh",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2025-10-13T02:20:09.000Z",
+      "relevanceScore": 35.91,
+      "recommendationScore": 36.41,
       "tags": [
-        "Tech"
+        "Launch"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Elon Musk vs. the regulators",
-      "link": "https://techcrunch.com/2025/10/12/elon-musk-vs-the-regulators/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-10-12T16:02:00.000Z",
-      "relevanceScore": 38.18,
-      "recommendationScore": 39.18,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "You need to watch the bonkers Japanese fantasy horror film House",
-      "link": "https://www.theverge.com/entertainment/798719/watch-japanese-horror-fantasy-film-house-halloween",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-10-12T18:00:00.000Z",
-      "relevanceScore": 31.57,
-      "recommendationScore": 32.07,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -335,8 +313,8 @@
       "source": "BBC News",
       "category": "education",
       "pubDate": "2025-10-12T20:20:46.000Z",
-      "relevanceScore": 31.04,
-      "recommendationScore": 31.54,
+      "relevanceScore": 30.71,
+      "recommendationScore": 31.21,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -346,8 +324,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-12T18:32:42.000Z",
-      "relevanceScore": 30.68,
-      "recommendationScore": 31.18,
+      "relevanceScore": 30.35,
+      "recommendationScore": 30.85,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -357,8 +335,30 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-12T17:52:14.000Z",
-      "relevanceScore": 30.55,
-      "recommendationScore": 31.05,
+      "relevanceScore": 30.22,
+      "recommendationScore": 30.72,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Elon Musk vs. the regulators",
+      "link": "https://techcrunch.com/2025/10/12/elon-musk-vs-the-regulators/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-10-12T16:02:00.000Z",
+      "relevanceScore": 25.85,
+      "recommendationScore": 26.85,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "You need to watch the bonkers Japanese fantasy horror film House",
+      "link": "https://www.theverge.com/entertainment/798719/watch-japanese-horror-fantasy-film-house-halloween",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-10-12T18:00:00.000Z",
+      "relevanceScore": 25.24,
+      "recommendationScore": 25.74,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -368,8 +368,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-10-12T15:26:55.000Z",
-      "relevanceScore": 24.06,
-      "recommendationScore": 24.56,
+      "relevanceScore": 23.73,
+      "recommendationScore": 24.23,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -379,10 +379,23 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-10-11T23:04:50.000Z",
-      "relevanceScore": 21.79,
-      "recommendationScore": 22.29,
+      "relevanceScore": 21.46,
+      "recommendationScore": 21.96,
       "tags": [
         "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump threatens tech export limits, new 100% tariff on Chinese imports",
+      "link": "https://www.npr.org/2025/10/11/g-s1-93113/trump-threatens-100-tariff-chinese-imports",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-10-11T07:44:18.000Z",
+      "relevanceScore": 19.39,
+      "recommendationScore": 21.89,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -392,8 +405,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-11T10:30:59.000Z",
-      "relevanceScore": 19.27,
-      "recommendationScore": 21.27,
+      "relevanceScore": 18.95,
+      "recommendationScore": 20.95,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -403,8 +416,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-11T11:15:22.000Z",
-      "relevanceScore": 18.42,
-      "recommendationScore": 18.92,
+      "relevanceScore": 18.09,
+      "recommendationScore": 18.59,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -416,15 +429,26 @@
         "link": "https://www.wired.com/gallery/the-best-cat-water-fountains/",
         "source": "Wired",
         "pubDate": "2025-10-12T15:06:00.000Z",
-        "relevanceScore": 677.99,
+        "relevanceScore": 335.66,
         "tags": []
+      },
+      {
+        "title": "The first products with Apple's M5 chip could make their debut this week",
+        "link": "https://www.engadget.com/big-tech/the-first-products-with-apples-m5-chip-could-make-their-debut-this-week-163149688.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-12T16:31:49.000Z",
+        "relevanceScore": 259.95,
+        "tags": [
+          "Exclusive",
+          "Launch"
+        ]
       },
       {
         "title": "16 Best Laptops (2025), WIRED-Tested and Approved",
         "link": "https://www.wired.com/gallery/best-laptops/",
         "source": "Wired",
         "pubDate": "2025-10-12T13:00:00.000Z",
-        "relevanceScore": 546.57,
+        "relevanceScore": 207.24,
         "tags": []
       },
       {
@@ -432,20 +456,9 @@
         "link": "https://www.wired.com/story/best-website-builders/",
         "source": "Wired",
         "pubDate": "2025-10-12T14:00:00.000Z",
-        "relevanceScore": 545.77,
+        "relevanceScore": 206.44,
         "tags": [
           "Web"
-        ]
-      },
-      {
-        "title": "The first products with Apple's M5 chip could make their debut this week",
-        "link": "https://www.engadget.com/big-tech/the-first-products-with-apples-m5-chip-could-make-their-debut-this-week-163149688.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-12T16:31:49.000Z",
-        "relevanceScore": 220.28,
-        "tags": [
-          "Exclusive",
-          "Launch"
         ]
       },
       {
@@ -453,7 +466,7 @@
         "link": "https://www.theverge.com/news/798740/marvels-upcoming-shows-new-york-comic-con-spider-man-x-men-daredevil-visionquest",
         "source": "The Verge",
         "pubDate": "2025-10-12T20:44:10.000Z",
-        "relevanceScore": 220.12,
+        "relevanceScore": 111.79,
         "tags": [
           "Exclusive",
           "Launch"
@@ -464,7 +477,7 @@
         "link": "https://arstechnica.com/culture/2025/10/new-starfleet-academy-trailer-debuts-at-nycc/",
         "source": "Ars Technica",
         "pubDate": "2025-10-12T20:50:35.000Z",
-        "relevanceScore": 102.14,
+        "relevanceScore": 87.81,
         "tags": [
           "Exclusive"
         ]
@@ -474,7 +487,7 @@
         "link": "https://www.wired.com/review/specialized-s-works-levo-4/",
         "source": "Wired",
         "pubDate": "2025-10-12T12:00:00.000Z",
-        "relevanceScore": 100.37,
+        "relevanceScore": 86.04,
         "tags": []
       },
       {
@@ -482,7 +495,7 @@
         "link": "https://techcrunch.com/2025/10/12/elon-musk-vs-the-regulators/",
         "source": "TechCrunch",
         "pubDate": "2025-10-12T16:02:00.000Z",
-        "relevanceScore": 38.18,
+        "relevanceScore": 25.85,
         "tags": []
       },
       {
@@ -490,7 +503,7 @@
         "link": "https://www.theverge.com/news/798712/amazon-awkwardly-edited-the-guns-out-of-james-bond-art",
         "source": "The Verge",
         "pubDate": "2025-10-12T15:26:55.000Z",
-        "relevanceScore": 24.06,
+        "relevanceScore": 23.73,
         "tags": []
       },
       {
@@ -498,7 +511,7 @@
         "link": "https://www.bbc.com/news/articles/cy0vzegkqweo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-11T23:04:50.000Z",
-        "relevanceScore": 21.79,
+        "relevanceScore": 21.46,
         "tags": [
           "Tutorial"
         ]
@@ -508,7 +521,7 @@
         "link": "https://arstechnica.com/cars/2025/10/how-close-are-we-to-solid-state-batteries-for-electric-vehicles/",
         "source": "Ars Technica",
         "pubDate": "2025-10-11T10:30:59.000Z",
-        "relevanceScore": 19.27,
+        "relevanceScore": 18.95,
         "tags": []
       },
       {
@@ -516,7 +529,7 @@
         "link": "https://arstechnica.com/security/2025/10/apple-ups-the-reward-for-finding-major-exploits-to-2-million/",
         "source": "Ars Technica",
         "pubDate": "2025-10-11T11:15:22.000Z",
-        "relevanceScore": 18.42,
+        "relevanceScore": 18.09,
         "tags": []
       }
     ],
@@ -526,7 +539,7 @@
         "link": "https://techcrunch.com/2025/10/12/dating-app-cerca-will-show-how-gen-z-really-dates-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-10-12T14:51:10.000Z",
-        "relevanceScore": 676.94,
+        "relevanceScore": 231.61,
         "tags": [
           "Mobile"
         ]
@@ -536,20 +549,10 @@
         "link": "https://techcrunch.com/2025/10/12/the-zorasafe-app-wants-to-protect-older-people-online-and-will-present-at-techcrunch-disrupt-2025/",
         "source": "TechCrunch",
         "pubDate": "2025-10-12T16:51:00.000Z",
-        "relevanceScore": 560.34,
+        "relevanceScore": 209.01,
         "tags": [
           "Mobile",
           "Web"
-        ]
-      },
-      {
-        "title": "Reimagine Libraries management as Apps using Agentic Executable framework",
-        "link": "https://dev.to/arenukvern/reimagine-libraries-management-as-apps-using-agentic-executable-framework-ami",
-        "source": "Dev.to",
-        "pubDate": "2025-10-13T00:57:02.000Z",
-        "relevanceScore": 155.46,
-        "tags": [
-          "Mobile"
         ]
       }
     ],
@@ -559,7 +562,7 @@
         "link": "https://www.engadget.com/gaming/an-avatar-fighting-game-is-coming-out-in-summer-2026-191008728.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-12T19:10:08.000Z",
-        "relevanceScore": 209.8,
+        "relevanceScore": 230.48,
         "tags": [
           "Launch"
         ]
@@ -569,27 +572,69 @@
         "link": "https://arstechnica.com/culture/2025/10/why-doesnt-cards-against-humanity-print-its-game-in-the-us-its-complicated/",
         "source": "Ars Technica",
         "pubDate": "2025-10-11T12:00:05.000Z",
-        "relevanceScore": 107.57,
+        "relevanceScore": 81.24,
         "tags": []
+      },
+      {
+        "title": "TCJSgame Pro: The Ultimate JavaScript Game Engine Evolution",
+        "link": "https://dev.to/kehinde_owolabi_e2e54567a/tcjsgame-pro-the-ultimate-javascript-game-engine-evolution-1mlh",
+        "source": "Dev.to",
+        "pubDate": "2025-10-13T02:20:09.000Z",
+        "relevanceScore": 35.91,
+        "tags": [
+          "Launch"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Hands-On: Despliega una base de datos PostgreSQL + Bastion + VPC con AWS CDK y Python",
+        "link": "https://dev.to/chainiz/hands-on-despliega-una-base-de-datos-postgresql-bastion-vpc-con-aws-cdk-y-python-1a38",
+        "source": "Dev.to",
+        "pubDate": "2025-10-13T02:16:46.000Z",
+        "relevanceScore": 203.4,
+        "tags": [
+          "Cloud"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "FIFA World Cup fans are outraged over what they say are unprecedented ticket prices",
+        "link": "https://www.npr.org/2025/10/12/nx-s1-5564717/fifa-world-cup-fans-are-outraged-over-what-they-say-are-unprecedented-ticket-prices",
+        "source": "NPR Business",
+        "pubDate": "2025-10-12T12:11:39.000Z",
+        "relevanceScore": 169.08,
+        "tags": []
+      },
+      {
+        "title": "California oil workers face an uncertain future in the state's energy transition",
+        "link": "https://abcnews.go.com/Business/wireStory/california-oil-workers-face-uncertain-future-states-energy-126444978",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-12T12:28:05.000Z",
+        "relevanceScore": 86.14,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Trump threatens tech export limits, new 100% tariff on Chinese imports",
+        "link": "https://www.npr.org/2025/10/11/g-s1-93113/trump-threatens-100-tariff-chinese-imports",
+        "source": "NPR Business",
+        "pubDate": "2025-10-11T07:44:18.000Z",
+        "relevanceScore": 19.39,
+        "tags": [
+          "Tech"
+        ]
       }
     ],
     "ai-ml": [
-      {
-        "title": "I’ve tested thousands of prompts across coding, writing, publishing, consulting, and product building.\r\nOnly a few made it into my personal high-leverage prompt library, the ones that saved me real time in real workflows!",
-        "link": "https://dev.to/jaideepparashar/ive-tested-thousands-of-prompts-across-coding-writing-publishing-consulting-and-product-20kn",
-        "source": "Dev.to",
-        "pubDate": "2025-10-13T01:02:41.000Z",
-        "relevanceScore": 197.98,
-        "tags": [
-          "AI"
-        ]
-      },
       {
         "title": "Nvidia’s AI empire: A look at its top startup investments",
         "link": "https://techcrunch.com/2025/10/12/nvidias-ai-empire-a-look-at-its-top-startup-investments/",
         "source": "TechCrunch",
         "pubDate": "2025-10-12T15:30:28.000Z",
-        "relevanceScore": 157.07,
+        "relevanceScore": 160.74,
         "tags": [
           "AI",
           "Startup"
@@ -600,7 +645,7 @@
         "link": "https://www.theverge.com/news/798681/police-stop-pulling-ai-homeless-man-tiktok-prank",
         "source": "The Verge",
         "pubDate": "2025-10-12T13:30:00.000Z",
-        "relevanceScore": 123.67,
+        "relevanceScore": 157.34,
         "tags": [
           "AI"
         ]
@@ -610,7 +655,7 @@
         "link": "https://www.engadget.com/ai/apple-hit-with-another-class-action-lawsuit-for-alleged-copyright-infringement-175242922.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-12T17:52:42.000Z",
-        "relevanceScore": 105.55,
+        "relevanceScore": 85.22,
         "tags": [
           "AI",
           "Exclusive",
@@ -622,39 +667,9 @@
         "link": "https://techcrunch.com/2025/10/11/thinking-machines-lab-co-founder-andrew-tulloch-heads-to-meta/",
         "source": "TechCrunch",
         "pubDate": "2025-10-11T19:10:37.000Z",
-        "relevanceScore": 99.01,
+        "relevanceScore": 84.68,
         "tags": [
           "AI"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "FIFA World Cup fans are outraged over what they say are unprecedented ticket prices",
-        "link": "https://www.npr.org/2025/10/12/nx-s1-5564717/fifa-world-cup-fans-are-outraged-over-what-they-say-are-unprecedented-ticket-prices",
-        "source": "NPR Business",
-        "pubDate": "2025-10-12T12:11:39.000Z",
-        "relevanceScore": 133.41,
-        "tags": []
-      },
-      {
-        "title": "California oil workers face an uncertain future in the state's energy transition",
-        "link": "https://abcnews.go.com/Business/wireStory/california-oil-workers-face-uncertain-future-states-energy-126444978",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-12T12:28:05.000Z",
-        "relevanceScore": 106.46,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Trump threatens tech export limits, new 100% tariff on Chinese imports",
-        "link": "https://www.npr.org/2025/10/11/g-s1-93113/trump-threatens-100-tariff-chinese-imports",
-        "source": "NPR Business",
-        "pubDate": "2025-10-11T07:44:18.000Z",
-        "relevanceScore": 43.72,
-        "tags": [
-          "Tech"
         ]
       }
     ],
@@ -664,11 +679,21 @@
         "link": "https://www.engadget.com/science/space/spacex-will-attempt-starships-11th-flight-test-on-monday-204237829.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-12T20:42:37.000Z",
-        "relevanceScore": 122.11,
+        "relevanceScore": 144.78,
         "tags": [
           "Web",
           "Launch"
         ]
+      }
+    ],
+    "development": [
+      {
+        "title": "COLORS: Nono La Grinta - LOVE YOU | A COLORS SHOW",
+        "link": "https://dev.to/music_youtube/colors-nono-la-grinta-love-you-a-colors-show-54jp",
+        "source": "Dev.to",
+        "pubDate": "2025-10-13T02:09:42.000Z",
+        "relevanceScore": 110.88,
+        "tags": []
       }
     ],
     "general": [
@@ -677,7 +702,7 @@
         "link": "https://www.bbc.com/news/articles/cr5q5rp4r64o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-12T15:28:08.000Z",
-        "relevanceScore": 108.06,
+        "relevanceScore": 93.74,
         "tags": [
           "Exclusive"
         ]
@@ -687,7 +712,7 @@
         "link": "https://www.bbc.com/news/articles/cg424d712q7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-12T21:03:44.000Z",
-        "relevanceScore": 107.68,
+        "relevanceScore": 93.36,
         "tags": []
       },
       {
@@ -695,7 +720,7 @@
         "link": "https://www.bbc.com/news/articles/cg5e551j593o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-12T18:32:42.000Z",
-        "relevanceScore": 30.68,
+        "relevanceScore": 30.35,
         "tags": []
       },
       {
@@ -703,17 +728,7 @@
         "link": "https://www.bbc.com/news/articles/cwy8y0rnw2eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-12T17:52:14.000Z",
-        "relevanceScore": 30.55,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "You need to watch the bonkers Japanese fantasy horror film House",
-        "link": "https://www.theverge.com/entertainment/798719/watch-japanese-horror-fantasy-film-house-halloween",
-        "source": "The Verge",
-        "pubDate": "2025-10-12T18:00:00.000Z",
-        "relevanceScore": 31.57,
+        "relevanceScore": 30.22,
         "tags": []
       }
     ],
@@ -723,15 +738,25 @@
         "link": "https://www.bbc.com/news/articles/cly9y7gg6eqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-12T20:20:46.000Z",
-        "relevanceScore": 31.04,
+        "relevanceScore": 30.71,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "You need to watch the bonkers Japanese fantasy horror film House",
+        "link": "https://www.theverge.com/entertainment/798719/watch-japanese-horror-fantasy-film-house-halloween",
+        "source": "The Verge",
+        "pubDate": "2025-10-12T18:00:00.000Z",
+        "relevanceScore": 25.24,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 10,
-    "totalCategories": 9,
-    "avgRelevanceScore": 177.3009375000001,
+    "totalCategories": 11,
+    "avgRelevanceScore": 112.62212121212119,
     "topCategories": [
       {
         "category": "tech",
@@ -739,14 +764,14 @@
       },
       {
         "category": "ai-ml",
-        "count": 5
+        "count": 4
       },
       {
         "category": "general",
         "count": 4
       },
       {
-        "category": "mobile",
+        "category": "gaming",
         "count": 3
       },
       {
