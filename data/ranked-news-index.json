@@ -1,23 +1,24 @@
 {
-  "lastUpdated": "2025-10-14T14:52:21.275Z",
+  "lastUpdated": "2025-10-14T15:16:15.072Z",
   "totalArticles": 53,
   "categories": [
     "tech",
     "ai-ml",
     "mobile",
     "gaming",
-    "development",
     "business",
     "general",
-    "cybersecurity",
-    "startup",
     "social",
     "science",
+    "health",
     "automotive",
     "space",
-    "cloud",
     "entertainment",
-    "world"
+    "cloud",
+    "world",
+    "development",
+    "startup",
+    "cybersecurity"
   ],
   "topArticles": [
     {
@@ -26,8 +27,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-10-14T03:14:28.000Z",
-      "relevanceScore": 2998.67,
-      "recommendationScore": 2999.17,
+      "relevanceScore": 3075.09,
+      "recommendationScore": 3075.59,
       "tags": [
         "Tech"
       ],
@@ -39,8 +40,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-10-14T13:51:00.000Z",
-      "relevanceScore": 2029.8,
-      "recommendationScore": 2031.3,
+      "relevanceScore": 2088.22,
+      "recommendationScore": 2089.72,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -50,8 +51,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-10-14T14:50:00.000Z",
-      "relevanceScore": 1390.99,
-      "recommendationScore": 1392.49,
+      "relevanceScore": 1441.41,
+      "recommendationScore": 1442.91,
       "tags": [
         "Mobile"
       ],
@@ -63,8 +64,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-14T14:06:00.000Z",
-      "relevanceScore": 1390.85,
-      "recommendationScore": 1392.35,
+      "relevanceScore": 1399.77,
+      "recommendationScore": 1401.27,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -74,8 +75,8 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-10-14T13:30:00.000Z",
-      "relevanceScore": 1390.73,
-      "recommendationScore": 1392.23,
+      "relevanceScore": 1399.65,
+      "recommendationScore": 1401.15,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -85,23 +86,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-14T13:00:00.000Z",
-      "relevanceScore": 1390.63,
-      "recommendationScore": 1392.13,
+      "relevanceScore": 1399.55,
+      "recommendationScore": 1401.05,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "🧪 The Anatomy of a Successful A/B Test at Scale",
-      "link": "https://dev.to/mujtabat/the-anatomy-of-a-successful-ab-test-at-scale-371e",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-14T14:48:47.000Z",
-      "relevanceScore": 1053.99,
-      "recommendationScore": 1053.99,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Data centers are booming. But there are big energy and environmental risks",
@@ -109,24 +97,22 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-10-14T10:00:00.000Z",
-      "relevanceScore": 939.53,
-      "recommendationScore": 940.03,
+      "relevanceScore": 951.45,
+      "recommendationScore": 951.95,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Satellites found exposing unencrypted data, including phone calls and some military comms",
-      "link": "https://techcrunch.com/2025/10/14/satellites-found-exposing-unencrypted-data-including-phone-calls-and-some-military-comms/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2025-10-14T13:37:42.000Z",
-      "relevanceScore": 897.75,
-      "recommendationScore": 898.25,
-      "tags": [
-        "Mobile"
-      ],
+      "title": "French PM backs freezing Macron's pension reform to save government",
+      "link": "https://www.bbc.com/news/articles/crkldd02xg8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-14T14:25:45.000Z",
+      "relevanceScore": 754.83,
+      "recommendationScore": 755.33,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -135,8 +121,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-10-13T16:00:00.000Z",
-      "relevanceScore": 838.43,
-      "recommendationScore": 840.43,
+      "relevanceScore": 681.85,
+      "recommendationScore": 683.85,
       "tags": [
         "AI",
         "Exclusive",
@@ -145,51 +131,30 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "French PM backs freezing Macron's pension reform to save government",
-      "link": "https://www.bbc.com/news/articles/crkldd02xg8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-14T14:25:45.000Z",
-      "relevanceScore": 698.41,
-      "recommendationScore": 698.91,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How I Secured User File Access Using ACL and Chroot Jail: A Step-by-Step Guide",
-      "link": "https://dev.to/vray/how-i-secured-user-file-access-using-acl-and-chroot-jail-a-step-by-step-guide-4g1m",
+      "title": "unleashing the potential of Agentic AI: How Autonomous Agents are revolutionizing cybersecurity and Application Security",
+      "link": "https://dev.to/rollbrace0/unleashing-the-potential-of-agentic-ai-how-autonomous-agents-are-revolutionizing-cybersecurity-and-3dm4",
       "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2025-10-14T14:30:00.000Z",
-      "relevanceScore": 688.93,
-      "recommendationScore": 690.93,
+      "category": "ai-ml",
+      "pubDate": "2025-10-14T15:09:05.000Z",
+      "relevanceScore": 669.48,
+      "recommendationScore": 670.98,
       "tags": [
-        "Security",
-        "Tutorial"
+        "AI",
+        "Security"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Measles outbreak in SC sends 150 unvaccinated kids into 21-day quarantine",
-      "link": "https://arstechnica.com/health/2025/10/over-150-unvaccinated-kids-quarantined-for-21-days-in-sc-measles-outbreak/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-10-13T20:48:21.000Z",
-      "relevanceScore": 651.39,
-      "recommendationScore": 651.89,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "UK is delaying Revolut’s banking license over risk management concerns",
-      "link": "https://techcrunch.com/2025/10/14/uk-is-delaying-revoluts-banking-license-over-risk-management-concerns/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-10-14T14:20:21.000Z",
-      "relevanceScore": 633.39,
-      "recommendationScore": 633.89,
+      "title": "Vodafone says outage affecting thousands of customers resolved",
+      "link": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2025-10-14T09:09:51.000Z",
+      "relevanceScore": 668.78,
+      "recommendationScore": 669.28,
       "tags": [
-        "Startup"
+        "Tech",
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -199,24 +164,24 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-10-14T14:00:00.000Z",
-      "relevanceScore": 621.83,
-      "recommendationScore": 622.33,
+      "relevanceScore": 628.75,
+      "recommendationScore": 629.25,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Vodafone says outage affecting thousands of customers resolved",
-      "link": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "mobile",
-      "pubDate": "2025-10-14T09:09:51.000Z",
-      "relevanceScore": 533.86,
-      "recommendationScore": 534.36,
+      "title": "🧠 Help Us Name Our Creative Tech Agency!",
+      "link": "https://dev.to/we-the-developers/help-us-name-our-creative-tech-agency-490a",
+      "source": "Dev.to",
+      "category": "social",
+      "pubDate": "2025-10-14T15:07:56.000Z",
+      "relevanceScore": 533.97,
+      "recommendationScore": 533.97,
       "tags": [
         "Tech",
-        "Mobile"
+        "Web"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Therabody just introduced the TheraFace Mask Glo, which uses LEDs to reduce wrinkles",
@@ -224,23 +189,10 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-10-14T12:30:44.000Z",
-      "relevanceScore": 523.53,
-      "recommendationScore": 524.03,
+      "relevanceScore": 531.95,
+      "recommendationScore": 532.45,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Man jailed for five years for threatening to kill Nigel Farage",
-      "link": "https://www.bbc.com/news/articles/cj97lkmd23po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "social",
-      "pubDate": "2025-10-14T11:48:10.000Z",
-      "relevanceScore": 450.39,
-      "recommendationScore": 450.89,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "How aging clocks can help us understand why we age—and if we can reverse it",
@@ -248,8 +200,8 @@
       "source": "MIT Technology Review",
       "category": "social",
       "pubDate": "2025-10-14T10:00:00.000Z",
-      "relevanceScore": 450.03,
-      "recommendationScore": 452.03,
+      "relevanceScore": 511.45,
+      "recommendationScore": 513.45,
       "tags": [
         "Social"
       ],
@@ -261,8 +213,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-10-14T12:10:00.000Z",
-      "relevanceScore": 448.46,
-      "recommendationScore": 448.96,
+      "relevanceScore": 505.38,
+      "recommendationScore": 505.88,
       "tags": [
         "Tech",
         "Web"
@@ -270,28 +222,64 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Microsoft bids farewell to Windows 10, but millions of users won&#8217;t be",
-      "link": "https://www.theverge.com/tech/799098/microsoft-windows-10-end-of-life-notepad",
-      "source": "The Verge",
+      "title": "Man jailed for five years for threatening to kill Nigel Farage",
+      "link": "https://www.bbc.com/news/articles/cj97lkmd23po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "social",
+      "pubDate": "2025-10-14T11:48:10.000Z",
+      "relevanceScore": 492.81,
+      "recommendationScore": 493.31,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Google updates Search and Discover with collapsible ads, AI features, and more",
+      "link": "https://techcrunch.com/2025/10/14/google-updates-search-and-discover-with-collapsible-ads-ai-features-and-more/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-10-14T15:12:42.000Z",
+      "relevanceScore": 490.49,
+      "recommendationScore": 490.99,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "J&J lays out plan to splinter orthopedics business into separate company",
+      "link": "https://abcnews.go.com/Business/wireStory/jj-lays-plan-splinter-orthopedics-business-separate-company-126508462",
+      "source": "ABC News Business",
+      "category": "health",
+      "pubDate": "2025-10-14T15:01:50.000Z",
+      "relevanceScore": 488.45,
+      "recommendationScore": 488.95,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Measles outbreak in SC sends 150 unvaccinated kids into 21-day quarantine",
+      "link": "https://arstechnica.com/health/2025/10/over-150-unvaccinated-kids-quarantined-for-21-days-in-sc-measles-outbreak/",
+      "source": "Ars Technica",
       "category": "tech",
-      "pubDate": "2025-10-14T14:30:00.000Z",
-      "relevanceScore": 445.93,
-      "recommendationScore": 446.43,
+      "pubDate": "2025-10-13T20:48:21.000Z",
+      "relevanceScore": 451.31,
+      "recommendationScore": 451.81,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "When You Don’t Need AI - Just Maths & Statistics",
-      "link": "https://dev.to/audaciatechnology/when-you-dont-need-ai-just-maths-statistics-43dn",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-10-14T14:31:32.000Z",
-      "relevanceScore": 341.43,
-      "recommendationScore": 341.43,
-      "tags": [
-        "AI",
-        "Business"
-      ],
+      "title": "As Microsoft bids farewell to Windows 10, millions of users won’t",
+      "link": "https://www.theverge.com/tech/799098/microsoft-windows-10-end-of-life-notepad",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-14T14:30:00.000Z",
+      "relevanceScore": 446.85,
+      "recommendationScore": 447.35,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -300,8 +288,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-10-13T10:00:00.000Z",
-      "relevanceScore": 340.23,
-      "recommendationScore": 340.73,
+      "relevanceScore": 386.65,
+      "recommendationScore": 387.15,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -311,25 +299,10 @@
       "source": "Reddit Technology",
       "category": "automotive",
       "pubDate": "2025-10-14T13:29:10.000Z",
-      "relevanceScore": 339.72,
-      "recommendationScore": 344.22,
+      "relevanceScore": 344.64,
+      "recommendationScore": 349.14,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI agents for your digital chores",
-      "link": "https://stackoverflow.blog/2025/10/14/ai-agents-for-your-digital-chores/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-14T07:40:00.000Z",
-      "relevanceScore": 229.56,
-      "recommendationScore": 229.56,
-      "tags": [
-        "AI",
-        "Tech",
-        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -339,8 +312,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-10-14T07:05:16.000Z",
-      "relevanceScore": 109.94,
-      "recommendationScore": 111.94,
+      "relevanceScore": 118.36,
+      "recommendationScore": 120.36,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -350,22 +323,11 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-14T12:30:00.000Z",
-      "relevanceScore": 103.53,
-      "recommendationScore": 103.53,
+      "relevanceScore": 104.95,
+      "recommendationScore": 104.95,
       "tags": [
         "Update"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "SpaceX is preparing the next-gen Starship after a successful flight test",
-      "link": "https://www.engadget.com/science/space/spacex-is-preparing-the-next-gen-starship-after-a-successful-flight-test-130027382.html?src=rss",
-      "source": "Engadget",
-      "category": "space",
-      "pubDate": "2025-10-14T13:00:27.000Z",
-      "relevanceScore": 102.63,
-      "recommendationScore": 103.13,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -374,8 +336,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-10-14T13:37:23.000Z",
-      "relevanceScore": 96.25,
-      "recommendationScore": 98.25,
+      "relevanceScore": 104.17,
+      "recommendationScore": 106.17,
       "tags": [
         "Tech",
         "Tutorial"
@@ -383,15 +345,129 @@
       "readingLevel": "beginner"
     },
     {
+      "title": "SpaceX is preparing the next-gen Starship after a successful flight test",
+      "link": "https://www.engadget.com/science/space/spacex-is-preparing-the-next-gen-starship-after-a-successful-flight-test-130027382.html?src=rss",
+      "source": "Engadget",
+      "category": "space",
+      "pubDate": "2025-10-14T13:00:27.000Z",
+      "relevanceScore": 104.05,
+      "recommendationScore": 104.55,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Can we repair the internet?",
+      "link": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/",
+      "source": "MIT Technology Review",
+      "category": "social",
+      "pubDate": "2025-10-14T10:00:00.000Z",
+      "relevanceScore": 70.45,
+      "recommendationScore": 70.45,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A Nobel Prize for explaining when technology leads to growth",
+      "link": "https://www.npr.org/2025/10/14/g-s1-93307/a-nobel-prize-for-explaining-when-technology-leads-to-growth",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-10-14T11:00:00.000Z",
+      "relevanceScore": 69.65,
+      "recommendationScore": 70.15,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Sheryl Sandberg-backed Flint wants to use AI to autonomously build and update websites",
+      "link": "https://techcrunch.com/2025/10/14/sheryl-sandberg-backed-flint-wants-to-use-ai-to-autonomously-build-and-update-websites/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-10-14T15:03:30.000Z",
+      "relevanceScore": 69.46,
+      "recommendationScore": 69.96,
+      "tags": [
+        "AI",
+        "Startup",
+        "Update",
+        "Funding"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Spotify expands parent-managed accounts for kids to more countries, including the US",
+      "link": "https://techcrunch.com/2025/10/14/spotify-expands-parent-managed-accounts-for-kids-to-more-countries-including-the-us/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2025-10-14T14:28:47.000Z",
+      "relevanceScore": 69.34,
+      "recommendationScore": 69.84,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "We saved 76% on our cloud bills while tripling our capacity by migrating to Hetzner from AWS and DigitalOcean",
       "link": "https://www.reddit.com/r/programming/comments/1o6au24/we_saved_76_on_our_cloud_bills_while_tripling_our/",
       "source": "Reddit Programming",
       "category": "cloud",
       "pubDate": "2025-10-14T09:30:05.000Z",
-      "relevanceScore": 46.43,
-      "recommendationScore": 46.43,
+      "relevanceScore": 66.35,
+      "recommendationScore": 66.35,
       "tags": [
         "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI agents for your digital chores",
+      "link": "https://stackoverflow.blog/2025/10/14/ai-agents-for-your-digital-chores/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-14T07:40:00.000Z",
+      "relevanceScore": 63.98,
+      "recommendationScore": 63.98,
+      "tags": [
+        "AI",
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1328, Part 1 (Thread #1475)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1o65j52/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-14T04:02:36.000Z",
+      "relevanceScore": 63.25,
+      "recommendationScore": 65.75,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Fendi names Maria Grazia Chiuri as creative director of Italian fashion house",
+      "link": "https://abcnews.go.com/Business/wireStory/fendi-names-maria-grazia-chiuri-creative-director-italian-126510749",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-10-14T14:34:16.000Z",
+      "relevanceScore": 38.86,
+      "recommendationScore": 39.36,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Optional Packages & Features",
+      "link": "https://dev.to/pauljlucas/optional-packages-features-59pp",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-14T15:09:57.000Z",
+      "relevanceScore": 38.48,
+      "recommendationScore": 38.48,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -401,8 +477,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-14T13:49:44.000Z",
-      "relevanceScore": 32.79,
-      "recommendationScore": 33.29,
+      "relevanceScore": 32.71,
+      "recommendationScore": 33.21,
       "tags": [
         "Business"
       ],
@@ -414,8 +490,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-14T13:18:57.000Z",
-      "relevanceScore": 31.69,
-      "recommendationScore": 32.69,
+      "relevanceScore": 31.61,
+      "recommendationScore": 32.61,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -425,22 +501,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-14T12:26:40.000Z",
-      "relevanceScore": 31.51,
-      "recommendationScore": 33.51,
+      "relevanceScore": 31.43,
+      "recommendationScore": 33.43,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Can we repair the internet?",
-      "link": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/",
-      "source": "MIT Technology Review",
-      "category": "social",
-      "pubDate": "2025-10-14T10:00:00.000Z",
-      "relevanceScore": 29.03,
-      "recommendationScore": 29.03,
-      "tags": [
-        "Web"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -449,8 +512,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-10-14T14:30:00.000Z",
-      "relevanceScore": 28.93,
-      "recommendationScore": 28.93,
+      "relevanceScore": 28.85,
+      "recommendationScore": 28.85,
       "tags": [
         "Tech",
         "Startup"
@@ -458,52 +521,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "A Nobel Prize for explaining when technology leads to growth",
-      "link": "https://www.npr.org/2025/10/14/g-s1-93307/a-nobel-prize-for-explaining-when-technology-leads-to-growth",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-10-14T11:00:00.000Z",
-      "relevanceScore": 28.23,
-      "recommendationScore": 28.73,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Spotify expands parent-managed accounts for kids to more countries, including the US",
-      "link": "https://techcrunch.com/2025/10/14/spotify-expands-parent-managed-accounts-for-kids-to-more-countries-including-the-us/",
+      "title": "YouTube makes it easier for teens to find informative mental health content",
+      "link": "https://techcrunch.com/2025/10/14/youtube-makes-it-easier-for-teens-to-find-informative-mental-health-content/",
       "source": "TechCrunch",
-      "category": "entertainment",
-      "pubDate": "2025-10-14T14:28:47.000Z",
-      "relevanceScore": 27.92,
-      "recommendationScore": 28.42,
+      "category": "health",
+      "pubDate": "2025-10-14T15:04:13.000Z",
+      "relevanceScore": 27.96,
+      "recommendationScore": 28.46,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Save up to $624 on your TechCrunch Disrupt 2025 Pass before prices rise in less than 4 days",
-      "link": "https://techcrunch.com/2025/10/14/save-up-to-624-on-your-techcrunch-disrupt-2025-pass-before-prices-rise-in-less-than-4-days/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-10-14T14:00:00.000Z",
-      "relevanceScore": 27.83,
-      "recommendationScore": 28.33,
-      "tags": [
-        "Startup"
-      ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Fendi names Maria Grazia Chiuri as creative director of Italian fashion house",
-      "link": "https://abcnews.go.com/Business/wireStory/fendi-names-maria-grazia-chiuri-creative-director-italian-126510749",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-14T14:34:16.000Z",
-      "relevanceScore": 25.94,
-      "recommendationScore": 26.44,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Google gadgets, ranked",
@@ -511,8 +537,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-10-14T14:30:32.000Z",
-      "relevanceScore": 25.93,
-      "recommendationScore": 25.93,
+      "relevanceScore": 25.85,
+      "recommendationScore": 25.85,
       "tags": [
         "Mobile"
       ],
@@ -524,22 +550,11 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-14T11:55:38.000Z",
-      "relevanceScore": 25.41,
-      "recommendationScore": 27.91,
+      "relevanceScore": 25.33,
+      "recommendationScore": 27.83,
       "tags": [
         "Regulation"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Russian aerial attack hits a Ukrainian hospital, days before Zelenskyy meets Trump",
-      "link": "https://abcnews.go.com/Business/wireStory/russian-aerial-attack-hits-ukrainian-hospital-days-zelenskyy-126500611",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-14T11:01:31.000Z",
-      "relevanceScore": 25.23,
-      "recommendationScore": 25.73,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -548,8 +563,8 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-10-14T10:30:10.000Z",
-      "relevanceScore": 25.13,
-      "recommendationScore": 25.63,
+      "relevanceScore": 25.05,
+      "recommendationScore": 25.55,
       "tags": [
         "Security"
       ],
@@ -561,8 +576,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-10-14T12:31:26.000Z",
-      "relevanceScore": 23.53,
-      "recommendationScore": 24.03,
+      "relevanceScore": 23.45,
+      "recommendationScore": 23.95,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -572,8 +587,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-10-14T11:46:14.000Z",
-      "relevanceScore": 23.38,
-      "recommendationScore": 23.88,
+      "relevanceScore": 23.3,
+      "recommendationScore": 23.8,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -583,8 +598,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-10-14T09:50:25.000Z",
-      "relevanceScore": 22.99,
-      "recommendationScore": 22.99,
+      "relevanceScore": 22.91,
+      "recommendationScore": 22.91,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -594,8 +609,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-10-13T22:40:04.000Z",
-      "relevanceScore": 22.76,
-      "recommendationScore": 24.26,
+      "relevanceScore": 22.68,
+      "recommendationScore": 24.18,
       "tags": [
         "Exclusive",
         "Tutorial"
@@ -608,33 +623,24 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-10-13T21:36:35.000Z",
-      "relevanceScore": 22.55,
-      "recommendationScore": 23.05,
+      "relevanceScore": 22.47,
+      "recommendationScore": 22.97,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1328, Part 1 (Thread #1475)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1o65j52/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-14T04:02:36.000Z",
-      "relevanceScore": 21.83,
-      "recommendationScore": 24.33,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "NASA will say goodbye to the International Space Station in 2030 − and welcome in the age of commercial space stations",
-      "link": "https://www.reddit.com/r/technology/comments/1o64i5w/nasa_will_say_goodbye_to_the_international_space/",
+      "title": "T-Mobile customer call and text data captured from unencrypted satellite comms; military data too",
+      "link": "https://www.reddit.com/r/technology/comments/1o6cwma/tmobile_customer_call_and_text_data_captured_from/",
       "source": "Reddit Technology",
-      "category": "space",
-      "pubDate": "2025-10-14T03:11:24.000Z",
-      "relevanceScore": 20.66,
-      "recommendationScore": 20.66,
-      "tags": [],
+      "category": "mobile",
+      "pubDate": "2025-10-14T11:28:11.000Z",
+      "relevanceScore": 21.24,
+      "recommendationScore": 21.74,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "advanced"
     }
   ],
@@ -645,7 +651,7 @@
         "link": "https://www.bbc.com/news/articles/ckgk21nng0vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-14T03:14:28.000Z",
-        "relevanceScore": 2998.67,
+        "relevanceScore": 3075.09,
         "tags": [
           "Tech"
         ]
@@ -655,7 +661,7 @@
         "link": "https://www.wired.com/gallery/best-advent-calendar/",
         "source": "Wired",
         "pubDate": "2025-10-14T14:06:00.000Z",
-        "relevanceScore": 1390.85,
+        "relevanceScore": 1399.77,
         "tags": []
       },
       {
@@ -663,15 +669,7 @@
         "link": "https://www.wired.com/gallery/best-wirefree-earbuds/",
         "source": "Wired",
         "pubDate": "2025-10-14T13:00:00.000Z",
-        "relevanceScore": 1390.63,
-        "tags": []
-      },
-      {
-        "title": "Measles outbreak in SC sends 150 unvaccinated kids into 21-day quarantine",
-        "link": "https://arstechnica.com/health/2025/10/over-150-unvaccinated-kids-quarantined-for-21-days-in-sc-measles-outbreak/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-13T20:48:21.000Z",
-        "relevanceScore": 651.39,
+        "relevanceScore": 1399.55,
         "tags": []
       },
       {
@@ -679,15 +677,23 @@
         "link": "https://www.engadget.com/home/therabody-just-introduced-the-theraface-mask-glo-which-uses-leds-to-reduce-wrinkles-123044315.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-14T12:30:44.000Z",
-        "relevanceScore": 523.53,
+        "relevanceScore": 531.95,
         "tags": []
       },
       {
-        "title": "Microsoft bids farewell to Windows 10, but millions of users won&#8217;t be",
+        "title": "Measles outbreak in SC sends 150 unvaccinated kids into 21-day quarantine",
+        "link": "https://arstechnica.com/health/2025/10/over-150-unvaccinated-kids-quarantined-for-21-days-in-sc-measles-outbreak/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-13T20:48:21.000Z",
+        "relevanceScore": 451.31,
+        "tags": []
+      },
+      {
+        "title": "As Microsoft bids farewell to Windows 10, millions of users won’t",
         "link": "https://www.theverge.com/tech/799098/microsoft-windows-10-end-of-life-notepad",
         "source": "The Verge",
         "pubDate": "2025-10-14T14:30:00.000Z",
-        "relevanceScore": 445.93,
+        "relevanceScore": 446.85,
         "tags": []
       },
       {
@@ -695,7 +701,7 @@
         "link": "https://www.wired.com/review/dji-mini-5-pro/",
         "source": "Wired",
         "pubDate": "2025-10-14T12:30:00.000Z",
-        "relevanceScore": 103.53,
+        "relevanceScore": 104.95,
         "tags": [
           "Update"
         ]
@@ -705,7 +711,7 @@
         "link": "https://www.engadget.com/computing/windows-10-support-ends-today-but-heres-how-to-get-an-extra-year-for-free-125118540.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-14T13:37:23.000Z",
-        "relevanceScore": 96.25,
+        "relevanceScore": 104.17,
         "tags": [
           "Tech",
           "Tutorial"
@@ -718,7 +724,7 @@
         "link": "https://arstechnica.com/ai/2025/10/openai-wants-to-stop-chatgpt-from-validating-users-political-views/",
         "source": "Ars Technica",
         "pubDate": "2025-10-14T13:51:00.000Z",
-        "relevanceScore": 2029.8,
+        "relevanceScore": 2088.22,
         "tags": []
       },
       {
@@ -726,7 +732,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/how-to-build-reliable-ai-workflows-with-agentic-primitives-and-context-engineering/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-13T16:00:00.000Z",
-        "relevanceScore": 838.43,
+        "relevanceScore": 681.85,
         "tags": [
           "AI",
           "Exclusive",
@@ -734,14 +740,37 @@
         ]
       },
       {
-        "title": "When You Don’t Need AI - Just Maths & Statistics",
-        "link": "https://dev.to/audaciatechnology/when-you-dont-need-ai-just-maths-statistics-43dn",
+        "title": "unleashing the potential of Agentic AI: How Autonomous Agents are revolutionizing cybersecurity and Application Security",
+        "link": "https://dev.to/rollbrace0/unleashing-the-potential-of-agentic-ai-how-autonomous-agents-are-revolutionizing-cybersecurity-and-3dm4",
         "source": "Dev.to",
-        "pubDate": "2025-10-14T14:31:32.000Z",
-        "relevanceScore": 341.43,
+        "pubDate": "2025-10-14T15:09:05.000Z",
+        "relevanceScore": 669.48,
         "tags": [
           "AI",
-          "Business"
+          "Security"
+        ]
+      },
+      {
+        "title": "Google updates Search and Discover with collapsible ads, AI features, and more",
+        "link": "https://techcrunch.com/2025/10/14/google-updates-search-and-discover-with-collapsible-ads-ai-features-and-more/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-14T15:12:42.000Z",
+        "relevanceScore": 490.49,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Sheryl Sandberg-backed Flint wants to use AI to autonomously build and update websites",
+        "link": "https://techcrunch.com/2025/10/14/sheryl-sandberg-backed-flint-wants-to-use-ai-to-autonomously-build-and-update-websites/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-14T15:03:30.000Z",
+        "relevanceScore": 69.46,
+        "tags": [
+          "AI",
+          "Startup",
+          "Update",
+          "Funding"
         ]
       },
       {
@@ -749,7 +778,7 @@
         "link": "https://stackoverflow.blog/2025/10/14/ai-agents-for-your-digital-chores/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-10-14T07:40:00.000Z",
-        "relevanceScore": 229.56,
+        "relevanceScore": 63.98,
         "tags": [
           "AI",
           "Tech",
@@ -763,17 +792,7 @@
         "link": "https://www.theverge.com/tech/799096/motorola-razr-ultra-2025-anker-nano-charging-station-deal-sale",
         "source": "The Verge",
         "pubDate": "2025-10-14T14:50:00.000Z",
-        "relevanceScore": 1390.99,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Satellites found exposing unencrypted data, including phone calls and some military comms",
-        "link": "https://techcrunch.com/2025/10/14/satellites-found-exposing-unencrypted-data-including-phone-calls-and-some-military-comms/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-14T13:37:42.000Z",
-        "relevanceScore": 897.75,
+        "relevanceScore": 1441.41,
         "tags": [
           "Mobile"
         ]
@@ -783,7 +802,7 @@
         "link": "https://www.bbc.com/news/articles/c5yldldx659o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-14T09:09:51.000Z",
-        "relevanceScore": 533.86,
+        "relevanceScore": 668.78,
         "tags": [
           "Tech",
           "Mobile"
@@ -794,7 +813,7 @@
         "link": "https://www.theverge.com/podcast/798880/best-google-gadgets-pixel-reviews",
         "source": "The Verge",
         "pubDate": "2025-10-14T14:30:32.000Z",
-        "relevanceScore": 25.93,
+        "relevanceScore": 25.85,
         "tags": [
           "Mobile"
         ]
@@ -804,7 +823,17 @@
         "link": "https://arstechnica.com/security/2025/10/no-fix-yet-for-attack-that-lets-hackers-pluck-2fa-codes-from-android-phones/",
         "source": "Ars Technica",
         "pubDate": "2025-10-13T21:36:35.000Z",
-        "relevanceScore": 22.55,
+        "relevanceScore": 22.47,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "T-Mobile customer call and text data captured from unencrypted satellite comms; military data too",
+        "link": "https://www.reddit.com/r/technology/comments/1o6cwma/tmobile_customer_call_and_text_data_captured_from/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-14T11:28:11.000Z",
+        "relevanceScore": 21.24,
         "tags": [
           "Mobile"
         ]
@@ -816,7 +845,7 @@
         "link": "https://www.wired.com/gallery/best-wireless-headphones/",
         "source": "Wired",
         "pubDate": "2025-10-14T13:30:00.000Z",
-        "relevanceScore": 1390.73,
+        "relevanceScore": 1399.65,
         "tags": []
       },
       {
@@ -824,7 +853,7 @@
         "link": "https://www.theverge.com/news/798992/steelseries-nova-7-gen-2-gaming-headset-release-date-pricing",
         "source": "The Verge",
         "pubDate": "2025-10-14T14:00:00.000Z",
-        "relevanceScore": 621.83,
+        "relevanceScore": 628.75,
         "tags": []
       },
       {
@@ -832,46 +861,7 @@
         "link": "https://www.engadget.com/deals/pick-up-this-nintendo-switch-2-compatible-microsd-express-card-for-less-than-40-134147278.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-14T12:31:26.000Z",
-        "relevanceScore": 23.53,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "🧪 The Anatomy of a Successful A/B Test at Scale",
-        "link": "https://dev.to/mujtabat/the-anatomy-of-a-successful-ab-test-at-scale-371e",
-        "source": "Dev.to",
-        "pubDate": "2025-10-14T14:48:47.000Z",
-        "relevanceScore": 1053.99,
-        "tags": [
-          "Science"
-        ]
-      },
-      {
-        "title": "GitHub Copilot CLI: How to get started",
-        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-how-to-get-started/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-13T22:40:04.000Z",
-        "relevanceScore": 22.76,
-        "tags": [
-          "Exclusive",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "The Story of Codesmith: How a Competitor Crippled a $23.5M Bootcamp By Becoming a Reddit Moderator",
-        "link": "https://www.reddit.com/r/programming/comments/1o67ip8/the_story_of_codesmith_how_a_competitor_crippled/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-14T05:55:19.000Z",
-        "relevanceScore": 20.21,
-        "tags": []
-      },
-      {
-        "title": "Tests Don’t Prove Code Is Correct… They Just Agree With It",
-        "link": "https://www.reddit.com/r/programming/comments/1o5rh32/tests_dont_prove_code_is_correct_they_just_agree/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-13T18:12:44.000Z",
-        "relevanceScore": 17.87,
+        "relevanceScore": 23.45,
         "tags": []
       }
     ],
@@ -881,7 +871,7 @@
         "link": "https://www.npr.org/2025/10/14/nx-s1-5565147/google-ai-data-centers-growth-environment-electricity",
         "source": "NPR Business",
         "pubDate": "2025-10-14T10:00:00.000Z",
-        "relevanceScore": 939.53,
+        "relevanceScore": 951.45,
         "tags": [
           "Tech"
         ]
@@ -891,7 +881,7 @@
         "link": "https://www.npr.org/2025/10/13/nx-s1-5558154/jimmy-kimmel-late-night-history-colbert-trump",
         "source": "NPR Business",
         "pubDate": "2025-10-13T10:00:00.000Z",
-        "relevanceScore": 340.23,
+        "relevanceScore": 386.65,
         "tags": []
       },
       {
@@ -899,7 +889,7 @@
         "link": "https://www.npr.org/2025/10/14/g-s1-93307/a-nobel-prize-for-explaining-when-technology-leads-to-growth",
         "source": "NPR Business",
         "pubDate": "2025-10-14T11:00:00.000Z",
-        "relevanceScore": 28.23,
+        "relevanceScore": 69.65,
         "tags": [
           "Tech"
         ]
@@ -909,7 +899,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/fendi-names-maria-grazia-chiuri-creative-director-italian-126510749",
         "source": "ABC News Business",
         "pubDate": "2025-10-14T14:34:16.000Z",
-        "relevanceScore": 25.94,
+        "relevanceScore": 38.86,
         "tags": []
       },
       {
@@ -917,18 +907,10 @@
         "link": "https://abcnews.go.com/Business/wireStory/greece-sees-2nd-general-strike-month-unions-protest-126502439",
         "source": "ABC News Business",
         "pubDate": "2025-10-14T11:55:38.000Z",
-        "relevanceScore": 25.41,
+        "relevanceScore": 25.33,
         "tags": [
           "Regulation"
         ]
-      },
-      {
-        "title": "Russian aerial attack hits a Ukrainian hospital, days before Zelenskyy meets Trump",
-        "link": "https://abcnews.go.com/Business/wireStory/russian-aerial-attack-hits-ukrainian-hospital-days-zelenskyy-126500611",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-14T11:01:31.000Z",
-        "relevanceScore": 25.23,
-        "tags": []
       }
     ],
     "general": [
@@ -937,7 +919,7 @@
         "link": "https://www.bbc.com/news/articles/crkldd02xg8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-14T14:25:45.000Z",
-        "relevanceScore": 698.41,
+        "relevanceScore": 754.83,
         "tags": []
       },
       {
@@ -945,7 +927,7 @@
         "link": "https://www.bbc.com/news/articles/cn092p27xn0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-14T13:49:44.000Z",
-        "relevanceScore": 32.79,
+        "relevanceScore": 32.71,
         "tags": [
           "Business"
         ]
@@ -955,7 +937,7 @@
         "link": "https://www.bbc.com/news/articles/c0rpwkp9xz2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-14T13:18:57.000Z",
-        "relevanceScore": 31.69,
+        "relevanceScore": 31.61,
         "tags": []
       },
       {
@@ -963,75 +945,20 @@
         "link": "https://www.bbc.com/news/articles/c9865l8540eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-14T12:26:40.000Z",
-        "relevanceScore": 31.51,
+        "relevanceScore": 31.43,
         "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "How I Secured User File Access Using ACL and Chroot Jail: A Step-by-Step Guide",
-        "link": "https://dev.to/vray/how-i-secured-user-file-access-using-acl-and-chroot-jail-a-step-by-step-guide-4g1m",
-        "source": "Dev.to",
-        "pubDate": "2025-10-14T14:30:00.000Z",
-        "relevanceScore": 688.93,
-        "tags": [
-          "Security",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Cyber attack contingency plans should be put on paper, firms told",
-        "link": "https://www.bbc.com/news/articles/ced61xv967lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-14T10:30:10.000Z",
-        "relevanceScore": 25.13,
-        "tags": [
-          "Security"
-        ]
-      }
-    ],
-    "startup": [
-      {
-        "title": "UK is delaying Revolut’s banking license over risk management concerns",
-        "link": "https://techcrunch.com/2025/10/14/uk-is-delaying-revoluts-banking-license-over-risk-management-concerns/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-14T14:20:21.000Z",
-        "relevanceScore": 633.39,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "Less than 4 days left: Visibility, traction, and growth start at your TechCrunch Disrupt 2025 exhibit table",
-        "link": "https://techcrunch.com/2025/10/14/less-than-4-days-left-visibility-traction-and-growth-start-at-your-techcrunch-disrupt-2025-exhibit-table/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-14T14:30:00.000Z",
-        "relevanceScore": 28.93,
-        "tags": [
-          "Tech",
-          "Startup"
-        ]
-      },
-      {
-        "title": "Save up to $624 on your TechCrunch Disrupt 2025 Pass before prices rise in less than 4 days",
-        "link": "https://techcrunch.com/2025/10/14/save-up-to-624-on-your-techcrunch-disrupt-2025-pass-before-prices-rise-in-less-than-4-days/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-14T14:00:00.000Z",
-        "relevanceScore": 27.83,
-        "tags": [
-          "Startup"
-        ]
       }
     ],
     "social": [
       {
-        "title": "Man jailed for five years for threatening to kill Nigel Farage",
-        "link": "https://www.bbc.com/news/articles/cj97lkmd23po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-14T11:48:10.000Z",
-        "relevanceScore": 450.39,
+        "title": "🧠 Help Us Name Our Creative Tech Agency!",
+        "link": "https://dev.to/we-the-developers/help-us-name-our-creative-tech-agency-490a",
+        "source": "Dev.to",
+        "pubDate": "2025-10-14T15:07:56.000Z",
+        "relevanceScore": 533.97,
         "tags": [
-          "Social"
+          "Tech",
+          "Web"
         ]
       },
       {
@@ -1039,7 +966,17 @@
         "link": "https://www.technologyreview.com/2025/10/14/1124977/aging-clocks-biology-mortality-longevity/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-14T10:00:00.000Z",
-        "relevanceScore": 450.03,
+        "relevanceScore": 511.45,
+        "tags": [
+          "Social"
+        ]
+      },
+      {
+        "title": "Man jailed for five years for threatening to kill Nigel Farage",
+        "link": "https://www.bbc.com/news/articles/cj97lkmd23po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-14T11:48:10.000Z",
+        "relevanceScore": 492.81,
         "tags": [
           "Social"
         ]
@@ -1049,7 +986,7 @@
         "link": "https://www.technologyreview.com/2025/10/14/1125104/internet-improvement-book-review-regulation-user-responsibility/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-14T10:00:00.000Z",
-        "relevanceScore": 29.03,
+        "relevanceScore": 70.45,
         "tags": [
           "Web"
         ]
@@ -1061,11 +998,31 @@
         "link": "https://www.technologyreview.com/2025/10/14/1125672/the-download-aging-clocks-and-repairing-the-internet/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-14T12:10:00.000Z",
-        "relevanceScore": 448.46,
+        "relevanceScore": 505.38,
         "tags": [
           "Tech",
           "Web"
         ]
+      }
+    ],
+    "health": [
+      {
+        "title": "J&J lays out plan to splinter orthopedics business into separate company",
+        "link": "https://abcnews.go.com/Business/wireStory/jj-lays-plan-splinter-orthopedics-business-separate-company-126508462",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-14T15:01:50.000Z",
+        "relevanceScore": 488.45,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "YouTube makes it easier for teens to find informative mental health content",
+        "link": "https://techcrunch.com/2025/10/14/youtube-makes-it-easier-for-teens-to-find-informative-mental-health-content/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-14T15:04:13.000Z",
+        "relevanceScore": 27.96,
+        "tags": []
       }
     ],
     "automotive": [
@@ -1074,7 +1031,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1o6fjda/average_new_car_price_tops_50000_for_first_time/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-14T13:29:10.000Z",
-        "relevanceScore": 339.72,
+        "relevanceScore": 344.64,
         "tags": [
           "Exclusive"
         ]
@@ -1086,7 +1043,7 @@
         "link": "https://arstechnica.com/space/2025/10/after-year-of-hardships-spacexs-starship-finally-flirts-with-perfection/",
         "source": "Ars Technica",
         "pubDate": "2025-10-14T07:05:16.000Z",
-        "relevanceScore": 109.94,
+        "relevanceScore": 118.36,
         "tags": []
       },
       {
@@ -1094,15 +1051,7 @@
         "link": "https://www.engadget.com/science/space/spacex-is-preparing-the-next-gen-starship-after-a-successful-flight-test-130027382.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-14T13:00:27.000Z",
-        "relevanceScore": 102.63,
-        "tags": []
-      },
-      {
-        "title": "NASA will say goodbye to the International Space Station in 2030 − and welcome in the age of commercial space stations",
-        "link": "https://www.reddit.com/r/technology/comments/1o64i5w/nasa_will_say_goodbye_to_the_international_space/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-14T03:11:24.000Z",
-        "relevanceScore": 20.66,
+        "relevanceScore": 104.05,
         "tags": []
       },
       {
@@ -1110,7 +1059,17 @@
         "link": "https://www.reddit.com/r/technology/comments/1o5y9q8/nasas_jet_propulsion_laboratory_to_lay_off_about/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-13T22:24:50.000Z",
-        "relevanceScore": 18.71,
+        "relevanceScore": 18.63,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Spotify expands parent-managed accounts for kids to more countries, including the US",
+        "link": "https://techcrunch.com/2025/10/14/spotify-expands-parent-managed-accounts-for-kids-to-more-countries-including-the-us/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-14T14:28:47.000Z",
+        "relevanceScore": 69.34,
         "tags": []
       }
     ],
@@ -1120,29 +1079,27 @@
         "link": "https://www.reddit.com/r/programming/comments/1o6au24/we_saved_76_on_our_cloud_bills_while_tripling_our/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-14T09:30:05.000Z",
-        "relevanceScore": 46.43,
+        "relevanceScore": 66.35,
         "tags": [
           "Cloud"
         ]
       }
     ],
-    "entertainment": [
-      {
-        "title": "Spotify expands parent-managed accounts for kids to more countries, including the US",
-        "link": "https://techcrunch.com/2025/10/14/spotify-expands-parent-managed-accounts-for-kids-to-more-countries-including-the-us/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-14T14:28:47.000Z",
-        "relevanceScore": 27.92,
-        "tags": []
-      }
-    ],
     "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1328, Part 1 (Thread #1475)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1o65j52/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-14T04:02:36.000Z",
+        "relevanceScore": 63.25,
+        "tags": []
+      },
       {
         "title": "Germany strips Palestinian of citizenship after he celebrated Hamas",
         "link": "https://www.reddit.com/r/worldnews/comments/1o6d9kl/germany_strips_palestinian_of_citizenship_after/",
         "source": "Reddit World News",
         "pubDate": "2025-10-14T11:46:14.000Z",
-        "relevanceScore": 23.38,
+        "relevanceScore": 23.3,
         "tags": []
       },
       {
@@ -1150,30 +1107,86 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1o6b5mv/hamas_deploys_7000_troops_to_cleanse_gaza_as/",
         "source": "Reddit World News",
         "pubDate": "2025-10-14T09:50:25.000Z",
-        "relevanceScore": 22.99,
+        "relevanceScore": 22.91,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "Optional Packages & Features",
+        "link": "https://dev.to/pauljlucas/optional-packages-features-59pp",
+        "source": "Dev.to",
+        "pubDate": "2025-10-14T15:09:57.000Z",
+        "relevanceScore": 38.48,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "GitHub Copilot CLI: How to get started",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-how-to-get-started/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-13T22:40:04.000Z",
+        "relevanceScore": 22.68,
+        "tags": [
+          "Exclusive",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "The Story of Codesmith: How a Competitor Crippled a $23.5M Bootcamp By Becoming a Reddit Moderator",
+        "link": "https://www.reddit.com/r/programming/comments/1o67ip8/the_story_of_codesmith_how_a_competitor_crippled/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-14T05:55:19.000Z",
+        "relevanceScore": 20.13,
         "tags": []
       },
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1328, Part 1 (Thread #1475)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1o65j52/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-14T04:02:36.000Z",
-        "relevanceScore": 21.83,
+        "title": "Tests Don’t Prove Code Is Correct… They Just Agree With It",
+        "link": "https://www.reddit.com/r/programming/comments/1o5rh32/tests_dont_prove_code_is_correct_they_just_agree/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-13T18:12:44.000Z",
+        "relevanceScore": 17.79,
         "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "Less than 4 days left: Visibility, traction, and growth start at your TechCrunch Disrupt 2025 exhibit table",
+        "link": "https://techcrunch.com/2025/10/14/less-than-4-days-left-visibility-traction-and-growth-start-at-your-techcrunch-disrupt-2025-exhibit-table/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-14T14:30:00.000Z",
+        "relevanceScore": 28.85,
+        "tags": [
+          "Tech",
+          "Startup"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Cyber attack contingency plans should be put on paper, firms told",
+        "link": "https://www.bbc.com/news/articles/ced61xv967lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-14T10:30:10.000Z",
+        "relevanceScore": 25.05,
+        "tags": [
+          "Security"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 429.38301886792436,
+    "totalCategories": 17,
+    "avgRelevanceScore": 410.2928301886794,
     "topCategories": [
       {
         "category": "tech",
         "count": 8
       },
       {
-        "category": "business",
+        "category": "ai-ml",
         "count": 6
       },
       {
@@ -1181,11 +1194,11 @@
         "count": 5
       },
       {
-        "category": "ai-ml",
-        "count": 4
+        "category": "business",
+        "count": 5
       },
       {
-        "category": "development",
+        "category": "general",
         "count": 4
       }
     ]
