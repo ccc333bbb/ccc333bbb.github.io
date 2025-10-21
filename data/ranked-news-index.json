@@ -1,50 +1,50 @@
 {
-  "lastUpdated": "2025-10-21T19:27:01.947Z",
+  "lastUpdated": "2025-10-21T19:37:42.202Z",
   "totalArticles": 54,
   "categories": [
     "ai-ml",
     "gaming",
-    "tech",
-    "business",
-    "science",
-    "finance",
-    "social",
-    "health",
     "development",
+    "business",
+    "tech",
+    "finance",
+    "science",
+    "social",
     "cybersecurity",
-    "education",
+    "health",
+    "cloud",
     "general",
+    "mobile",
     "space",
     "climate",
-    "world",
-    "cloud",
-    "mobile"
+    "blockchain",
+    "world"
   ],
   "topArticles": [
+    {
+      "title": "OpenAI’s Atlas Browser Takes Direct Aim at Google Chrome",
+      "link": "https://www.wired.com/story/openai-atlas-browser-chrome-agents-web-browsing/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T19:06:41.000Z",
+      "relevanceScore": 679.9,
+      "recommendationScore": 680.4,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "Google Fi to add AI-enhanced audio and RCS web messaging",
       "link": "https://techcrunch.com/2025/10/21/google-fi-to-add-ai-enhanced-audio-and-rcs-web-messaging/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-21T18:23:12.000Z",
-      "relevanceScore": 688.79,
-      "recommendationScore": 689.29,
+      "relevanceScore": 661.75,
+      "recommendationScore": 662.25,
       "tags": [
         "AI",
         "Tech",
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "OpenAI's Atlas Browser Takes Direct Aim at Google Chrome",
-      "link": "https://www.wired.com/story/openai-atlas-browser-chrome-agents-web-browsing/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T19:06:41.000Z",
-      "relevanceScore": 680.93,
-      "recommendationScore": 681.43,
-      "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
@@ -55,10 +55,21 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-10-21T18:51:33.000Z",
-      "relevanceScore": 574.38,
-      "recommendationScore": 575.88,
+      "relevanceScore": 534.85,
+      "recommendationScore": 536.35,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Why Git’s HEAD isn’t what most developers think it is",
+      "link": "https://www.reddit.com/r/programming/comments/1ocm5vj/why_gits_head_isnt_what_most_developers_think_it/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-10-21T19:17:20.000Z",
+      "relevanceScore": 324.43,
+      "recommendationScore": 326.43,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "I see your Haribo gummy bear battery and raise you a Pocket Rocket instead",
@@ -66,19 +77,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-10-21T18:05:27.000Z",
-      "relevanceScore": 321.73,
-      "recommendationScore": 322.23,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Jon Prosser says he’s been in ‘active communication’ with Apple over lawsuit",
-      "link": "https://www.theverge.com/news/803754/apple-jon-prosser-trade-secrets-lawsuit-responds-default",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-21T19:09:31.000Z",
-      "relevanceScore": 318.94,
-      "recommendationScore": 319.44,
+      "relevanceScore": 301.69,
+      "recommendationScore": 302.19,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -88,8 +88,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-21T13:52:15.000Z",
-      "relevanceScore": 289.88,
-      "recommendationScore": 290.38,
+      "relevanceScore": 293.85,
+      "recommendationScore": 294.35,
       "tags": [
         "Science",
         "Acquisition"
@@ -97,13 +97,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "New noninvasive endometriosis tests are on the rise",
-      "link": "https://www.technologyreview.com/2025/10/21/1125327/endometriosis-tests-noninvasive/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-10-21T10:00:00.000Z",
-      "relevanceScore": 247.61,
-      "recommendationScore": 250.11,
+      "title": "Jon Prosser says he’s been in ‘active communication’ with Apple over lawsuit",
+      "link": "https://www.theverge.com/news/803754/apple-jon-prosser-trade-secrets-lawsuit-responds-default",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-21T19:09:31.000Z",
+      "relevanceScore": 289.91,
+      "recommendationScore": 290.41,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -113,8 +113,8 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2025-10-21T11:26:41.000Z",
-      "relevanceScore": 223.4,
-      "recommendationScore": 223.9,
+      "relevanceScore": 243.36,
+      "recommendationScore": 243.86,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -124,24 +124,20 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-21T19:00:00.000Z",
-      "relevanceScore": 215.41,
-      "recommendationScore": 218.41,
+      "relevanceScore": 221.37,
+      "recommendationScore": 224.37,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Open source is giving you choices with your agent systems",
-      "link": "https://stackoverflow.blog/2025/10/21/open-source-is-giving-you-choices-with-your-agent-systems/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T07:40:00.000Z",
-      "relevanceScore": 193.14,
-      "recommendationScore": 193.64,
-      "tags": [
-        "AI",
-        "Tech",
-        "Security"
-      ],
+      "title": "New noninvasive endometriosis tests are on the rise",
+      "link": "https://www.technologyreview.com/2025/10/21/1125327/endometriosis-tests-noninvasive/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-10-21T10:00:00.000Z",
+      "relevanceScore": 216.57,
+      "recommendationScore": 219.07,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -150,12 +146,42 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2025-10-21T19:05:00.000Z",
-      "relevanceScore": 189.93,
-      "recommendationScore": 189.93,
+      "relevanceScore": 194.39,
+      "recommendationScore": 194.39,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Open source is giving you choices with your agent systems",
+      "link": "https://stackoverflow.blog/2025/10/21/open-source-is-giving-you-choices-with-your-agent-systems/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T07:40:00.000Z",
+      "relevanceScore": 171.61,
+      "recommendationScore": 172.11,
+      "tags": [
+        "AI",
+        "Tech",
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Inside the breach that broke the internet: The untold story of Log4Shell",
+      "link": "https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/",
+      "source": "GitHub Blog",
+      "category": "cybersecurity",
+      "pubDate": "2025-10-20T16:00:16.000Z",
+      "relevanceScore": 170.48,
+      "recommendationScore": 170.98,
+      "tags": [
+        "Tech",
+        "Security",
+        "Web"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Staff skipped checks and said a vulnerable young woman was safe. Days later, she was dead",
@@ -163,10 +189,24 @@
       "source": "BBC News",
       "category": "health",
       "pubDate": "2025-10-21T18:41:17.000Z",
-      "relevanceScore": 188.35,
-      "recommendationScore": 188.85,
+      "relevanceScore": 153.31,
+      "recommendationScore": 153.81,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Realtime Event-Driven Applications with AppSync Events and EventBridge Pipes",
+      "link": "https://dev.to/ianbrumby/realtime-event-driven-applications-with-appsync-events-and-eventbridge-pipes-1b27",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-10-21T19:33:49.000Z",
+      "relevanceScore": 147.99,
+      "recommendationScore": 148.49,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Hallmark’s glowing Xbox 360 ornament plays the Halo theme",
@@ -174,38 +214,10 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-10-21T18:32:09.000Z",
-      "relevanceScore": 180.82,
-      "recommendationScore": 181.32,
+      "relevanceScore": 147.28,
+      "recommendationScore": 147.78,
       "tags": [
         "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why Postmortems Fail and How to Make Them Drive Real Change",
-      "link": "https://dev.to/phoenix-incidents/why-postmortems-fail-and-how-to-make-them-drive-real-change-4pkn",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-21T19:04:59.000Z",
-      "relevanceScore": 165.43,
-      "recommendationScore": 167.43,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How to update community health files with AI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T16:00:00.000Z",
-      "relevanceScore": 161.81,
-      "recommendationScore": 163.31,
-      "tags": [
-        "AI",
-        "Tutorial",
-        "Update"
       ],
       "readingLevel": "intermediate"
     },
@@ -215,9 +227,62 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-10-21T09:02:38.000Z",
-      "relevanceScore": 157.92,
-      "recommendationScore": 157.92,
+      "relevanceScore": 135.88,
+      "recommendationScore": 135.88,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to update community health files with AI",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T16:00:00.000Z",
+      "relevanceScore": 133.27,
+      "recommendationScore": 134.77,
+      "tags": [
+        "AI",
+        "Tutorial",
+        "Update"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why Postmortems Fail and How to Make Them Drive Real Change",
+      "link": "https://dev.to/phoenix-incidents/why-postmortems-fail-and-how-to-make-them-drive-real-change-4pkn",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-21T19:04:59.000Z",
+      "relevanceScore": 130.89,
+      "recommendationScore": 132.89,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Third survivor quits grooming gang inquiry panel",
+      "link": "https://www.bbc.com/news/articles/cwykd173l3vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-21T18:07:26.000Z",
+      "relevanceScore": 126.7,
+      "recommendationScore": 126.7,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Cloudflare CEO Matthew Prince is pushing UK regulator to unbundle Google’s search and AI crawlers",
+      "link": "https://techcrunch.com/2025/10/21/cloudflare-ceo-matthew-prince-is-pushing-uk-regulator-to-unbundle-googles-search-and-ai-crawlers/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T19:34:21.000Z",
+      "relevanceScore": 122.99,
+      "recommendationScore": 123.49,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -226,74 +291,10 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2025-10-21T18:12:07.000Z",
-      "relevanceScore": 157.75,
-      "recommendationScore": 158.25,
+      "relevanceScore": 122.71,
+      "recommendationScore": 123.21,
       "tags": [
         "Science",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Coca-Cola sees third-quarter revenue rise on higher prices",
-      "link": "https://abcnews.go.com/Business/wireStory/coca-cola-sees-quarter-revenue-rise-higher-prices-126713096",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-21T12:34:49.000Z",
-      "relevanceScore": 156.63,
-      "recommendationScore": 157.13,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Inside the breach that broke the internet: The untold story of Log4Shell",
-      "link": "https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/",
-      "source": "GitHub Blog",
-      "category": "cybersecurity",
-      "pubDate": "2025-10-20T16:00:16.000Z",
-      "relevanceScore": 152.51,
-      "recommendationScore": 153.01,
-      "tags": [
-        "Tech",
-        "Security",
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Farewell-to-Framework-Bloat-How-I-Rediscovered-Simplicity-Without-Sacrificing-Performance",
-      "link": "https://dev.to/member_4890a1e6/farewell-to-framework-bloat-how-i-rediscovered-simplicity-without-sacrificing-performance-4oe7",
-      "source": "Dev.to",
-      "category": "education",
-      "pubDate": "2025-10-21T19:04:04.000Z",
-      "relevanceScore": 145.42,
-      "recommendationScore": 147.42,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Third survivor quits grooming gang inquiry panel",
-      "link": "https://www.bbc.com/news/articles/cwykd173l3vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-21T18:07:26.000Z",
-      "relevanceScore": 124.73,
-      "recommendationScore": 124.73,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Microsoft increases the price of Xbox dev kits by $500",
-      "link": "https://www.engadget.com/gaming/xbox/microsoft-increases-the-price-of-xbox-dev-kits-by-500-190000419.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-10-21T19:00:00.000Z",
-      "relevanceScore": 118.91,
-      "recommendationScore": 119.41,
-      "tags": [
-        "Tech",
         "Report"
       ],
       "readingLevel": "advanced"
@@ -304,9 +305,34 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-21T18:32:18.000Z",
-      "relevanceScore": 118.32,
-      "recommendationScore": 118.32,
+      "relevanceScore": 120.28,
+      "recommendationScore": 120.28,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Coca-Cola sees third-quarter revenue rise on higher prices",
+      "link": "https://abcnews.go.com/Business/wireStory/coca-cola-sees-quarter-revenue-rise-higher-prices-126713096",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-10-21T12:34:49.000Z",
+      "relevanceScore": 119.59,
+      "recommendationScore": 120.09,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Microsoft increases the price of Xbox dev kits by $500",
+      "link": "https://www.engadget.com/gaming/xbox/microsoft-increases-the-price-of-xbox-dev-kits-by-500-190000419.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-10-21T19:00:00.000Z",
+      "relevanceScore": 118.87,
+      "recommendationScore": 119.37,
+      "tags": [
+        "Tech",
+        "Report"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -315,8 +341,8 @@
       "source": "Reddit Technology",
       "category": "social",
       "pubDate": "2025-10-21T11:11:46.000Z",
-      "relevanceScore": 113.35,
-      "recommendationScore": 113.35,
+      "relevanceScore": 115.31,
+      "recommendationScore": 115.31,
       "tags": [
         "Social"
       ],
@@ -328,10 +354,25 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-10-20T14:00:00.000Z",
-      "relevanceScore": 111.11,
-      "recommendationScore": 111.61,
+      "relevanceScore": 113.07,
+      "recommendationScore": 113.57,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to watch Samsung unveil its Android XR headset",
+      "link": "https://www.engadget.com/ar-vr/how-to-watch-samsung-unveil-its-android-xr-headset-184820772.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-10-21T18:49:27.000Z",
+      "relevanceScore": 50.34,
+      "recommendationScore": 51.84,
+      "tags": [
+        "Mobile",
+        "Tutorial",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -341,33 +382,20 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-10-21T18:02:36.000Z",
-      "relevanceScore": 82.72,
-      "recommendationScore": 83.22,
+      "relevanceScore": 48.18,
+      "recommendationScore": 48.68,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Amazon outage 'resolved' as Snapchat and banks among sites impacted",
-      "link": "https://www.bbc.com/news/articles/c20pgp3nx07o?at_medium=RSS&at_campaign=rss",
+      "title": "Spike in Disney+ cancellations after Kimmel suspension",
+      "link": "https://www.bbc.com/news/articles/c1wle4dx4qwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
-      "pubDate": "2025-10-21T03:30:02.000Z",
-      "relevanceScore": 71.31,
-      "recommendationScore": 71.81,
+      "pubDate": "2025-10-20T21:11:50.000Z",
+      "relevanceScore": 47.51,
+      "recommendationScore": 48.01,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "YouTube’s likeness detection has arrived to help stop AI doppelgängers",
-      "link": "https://arstechnica.com/google/2025/10/youtube-rolls-out-likeness-detection-to-help-creators-combat-ai-fakes/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T18:46:42.000Z",
-      "relevanceScore": 68.87,
-      "recommendationScore": 70.37,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -376,10 +404,34 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-21T17:33:45.000Z",
-      "relevanceScore": 68.62,
-      "recommendationScore": 69.12,
+      "relevanceScore": 31.59,
+      "recommendationScore": 32.09,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Boris Johnson left the Covid Inquiry in a hurry - he'll be pleased not to come back",
+      "link": "https://www.bbc.com/news/articles/cj6nennz0nyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2025-10-21T16:49:01.000Z",
+      "relevanceScore": 31.44,
+      "recommendationScore": 31.94,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The deal that means Prince Andrew can still afford to live in Royal Lodge",
+      "link": "https://www.bbc.com/news/articles/cgmx1gxv1e7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-21T13:32:11.000Z",
+      "relevanceScore": 30.78,
+      "recommendationScore": 31.28,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Bill Gates’s old climate lobbyists launch a new firm",
@@ -387,8 +439,8 @@
       "source": "TechCrunch",
       "category": "climate",
       "pubDate": "2025-10-21T18:54:52.000Z",
-      "relevanceScore": 65.89,
-      "recommendationScore": 68.39,
+      "relevanceScore": 28.86,
+      "recommendationScore": 31.36,
       "tags": [
         "Business",
         "Science",
@@ -404,8 +456,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-10-21T12:10:00.000Z",
-      "relevanceScore": 65.04,
-      "recommendationScore": 65.54,
+      "relevanceScore": 28.01,
+      "recommendationScore": 28.51,
       "tags": [
         "Tech"
       ],
@@ -417,8 +469,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-21T18:23:56.000Z",
-      "relevanceScore": 64.79,
-      "recommendationScore": 65.29,
+      "relevanceScore": 27.75,
+      "recommendationScore": 28.25,
       "tags": [
         "AI"
       ],
@@ -430,24 +482,36 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-21T17:54:28.000Z",
-      "relevanceScore": 64.69,
-      "recommendationScore": 65.19,
+      "relevanceScore": 27.66,
+      "recommendationScore": 28.16,
       "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "A16z-backed Codi launches AI agent office manager",
-      "link": "https://techcrunch.com/2025/10/21/a16z-backed-codi-launches-ai-agent-office-manager/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T17:45:14.000Z",
-      "relevanceScore": 64.66,
-      "recommendationScore": 66.66,
+      "title": "Melania Trump Used as ‘Window-Dressing’ in Elaborate Memecoin Fraud, Legal Filing Claims",
+      "link": "https://www.wired.com/story/melania-trump-used-as-window-dressing-in-elaborate-memecoin-fraud-legal-filing-claims/",
+      "source": "Wired",
+      "category": "blockchain",
+      "pubDate": "2025-10-21T19:30:20.000Z",
+      "relevanceScore": 26.98,
+      "recommendationScore": 27.48,
       "tags": [
-        "AI",
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A theory why the internet is going down the toilet",
+      "link": "https://www.npr.org/sections/planet-money/2025/10/21/g-s1-94264/a-theory-why-the-internet-is-going-down-the-toilet",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-10-21T10:30:00.000Z",
+      "relevanceScore": 26.17,
+      "recommendationScore": 27.67,
+      "tags": [
+        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -457,171 +521,10 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-10-21T19:25:06.000Z",
-      "relevanceScore": 62.99,
-      "recommendationScore": 64.99,
+      "relevanceScore": 25.96,
+      "recommendationScore": 27.96,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Satellite operators will soon join airlines in using Starlink in-flight Wi-Fi",
-      "link": "https://arstechnica.com/space/2025/10/satellite-operators-will-soon-join-airlines-in-using-starlink-in-flight-wi-fi/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2025-10-21T18:30:11.000Z",
-      "relevanceScore": 62.81,
-      "recommendationScore": 63.31,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1335, Part 1 (Thread #1482)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1oc32r4/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-21T04:02:46.000Z",
-      "relevanceScore": 57.92,
-      "recommendationScore": 60.42,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "HBO Max Raises Prices Across All Plans Effective Immediately",
-      "link": "https://www.reddit.com/r/technology/comments/1ocdjtm/hbo_max_raises_prices_across_all_plans_effective/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-10-21T13:52:01.000Z",
-      "relevanceScore": 57.88,
-      "recommendationScore": 58.38,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "AI bro introduces regressions in the LTS Linux kernel",
-      "link": "https://www.reddit.com/r/programming/comments/1oc38d2/ai_bro_introduces_regressions_in_the_lts_linux/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T04:11:20.000Z",
-      "relevanceScore": 55.95,
-      "recommendationScore": 56.45,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How a fake AI recruiter delivers five staged malware disguised as a dream job",
-      "link": "https://www.reddit.com/r/programming/comments/1obxu0k/how_a_fake_ai_recruiter_delivers_five_staged/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2025-10-20T23:53:09.000Z",
-      "relevanceScore": 55.09,
-      "recommendationScore": 57.09,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Outage at Amazon Web Services disrupts websites across the internet",
-      "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
-      "source": "NPR Business",
-      "category": "cloud",
-      "pubDate": "2025-10-20T20:41:19.000Z",
-      "relevanceScore": 51.45,
-      "recommendationScore": 51.95,
-      "tags": [
-        "Web",
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to watch Samsung unveil its Android XR headset",
-      "link": "https://www.engadget.com/ar-vr/how-to-watch-samsung-unveil-its-android-xr-headset-184820772.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-10-21T18:49:27.000Z",
-      "relevanceScore": 50.37,
-      "recommendationScore": 51.87,
-      "tags": [
-        "Mobile",
-        "Tutorial",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Spike in Disney+ cancellations after Kimmel suspension",
-      "link": "https://www.bbc.com/news/articles/c1wle4dx4qwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-10-20T21:11:50.000Z",
-      "relevanceScore": 47.55,
-      "recommendationScore": 48.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What caused the AWS outage - and why did it make the internet fall apart?",
-      "link": "https://www.bbc.com/news/articles/cev1en9077ro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cloud",
-      "pubDate": "2025-10-21T08:29:43.000Z",
-      "relevanceScore": 35.81,
-      "recommendationScore": 37.81,
-      "tags": [
-        "Web",
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Boris Johnson left the Covid Inquiry in a hurry - he'll be pleased not to come back",
-      "link": "https://www.bbc.com/news/articles/cj6nennz0nyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2025-10-21T16:49:01.000Z",
-      "relevanceScore": 31.47,
-      "recommendationScore": 31.97,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The deal that means Prince Andrew can still afford to live in Royal Lodge",
-      "link": "https://www.bbc.com/news/articles/cgmx1gxv1e7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-21T13:32:11.000Z",
-      "relevanceScore": 30.82,
-      "recommendationScore": 31.32,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Long History of Frogs as Protest Symbols",
-      "link": "https://www.wired.com/story/the-long-history-of-frogs-as-protest-symbols/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-21T17:07:06.000Z",
-      "relevanceScore": 26.53,
-      "recommendationScore": 26.53,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A theory why the internet is going down the toilet",
-      "link": "https://www.npr.org/sections/planet-money/2025/10/21/g-s1-94264/a-theory-why-the-internet-is-going-down-the-toilet",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-10-21T10:30:00.000Z",
-      "relevanceScore": 26.21,
-      "recommendationScore": 27.71,
-      "tags": [
-        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -631,8 +534,8 @@
       "source": "BBC Technology",
       "category": "cloud",
       "pubDate": "2025-10-21T19:14:08.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 26.46,
+      "relevanceScore": 25.92,
+      "recommendationScore": 26.42,
       "tags": [
         "Tech",
         "Cloud",
@@ -641,38 +544,136 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "YouTube’s likeness detection has arrived to help stop AI doppelgängers",
+      "link": "https://arstechnica.com/google/2025/10/youtube-rolls-out-likeness-detection-to-help-creators-combat-ai-fakes/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T18:46:42.000Z",
+      "relevanceScore": 25.83,
+      "recommendationScore": 27.33,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Satellite operators will soon join airlines in using Starlink in-flight Wi-Fi",
+      "link": "https://arstechnica.com/space/2025/10/satellite-operators-will-soon-join-airlines-in-using-starlink-in-flight-wi-fi/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2025-10-21T18:30:11.000Z",
+      "relevanceScore": 25.77,
+      "recommendationScore": 26.27,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Hanno tagliato il pezzo più scomodo.",
       "link": "https://dev.to/beatrice_neri_/hanno-tagliato-il-pezzo-piu-scomodo-3aok",
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-10-21T19:08:19.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 23.94,
+      "relevanceScore": 23.9,
+      "recommendationScore": 23.9,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Donald Trump’s Meeting with Vladimir Putin Called Off",
+      "link": "https://www.reddit.com/r/worldnews/comments/1ocldi2/donald_trumps_meeting_with_vladimir_putin_called/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-21T18:48:36.000Z",
+      "relevanceScore": 23.84,
+      "recommendationScore": 24.34,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What caused the AWS outage - and why did it make the internet fall apart?",
+      "link": "https://www.bbc.com/news/articles/cev1en9077ro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cloud",
+      "pubDate": "2025-10-21T08:29:43.000Z",
+      "relevanceScore": 23.77,
+      "recommendationScore": 25.77,
+      "tags": [
+        "Web",
+        "Cloud"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Outage at Amazon Web Services disrupts websites across the internet",
+      "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
+      "source": "NPR Business",
+      "category": "cloud",
+      "pubDate": "2025-10-20T20:41:19.000Z",
+      "relevanceScore": 22.91,
+      "recommendationScore": 23.41,
+      "tags": [
+        "Web",
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon outage 'resolved' as Snapchat and banks among sites impacted",
+      "link": "https://www.bbc.com/news/articles/c20pgp3nx07o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-10-21T03:30:02.000Z",
+      "relevanceScore": 22.27,
+      "recommendationScore": 22.77,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Poland issues Putin arrest warning ahead of Trump meeting",
+      "link": "https://www.reddit.com/r/worldnews/comments/1oc9uhb/poland_issues_putin_arrest_warning_ahead_of_trump/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-21T10:59:04.000Z",
+      "relevanceScore": 21.77,
+      "recommendationScore": 22.27,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AWS crash causes $2,000 Smart Beds to overheat and get stuck upright",
+      "link": "https://www.reddit.com/r/technology/comments/1ocgytv/aws_crash_causes_2000_smart_beds_to_overheat_and/",
+      "source": "Reddit Technology",
+      "category": "cloud",
+      "pubDate": "2025-10-21T16:04:12.000Z",
+      "relevanceScore": 21.29,
+      "recommendationScore": 21.79,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
     "ai-ml": [
       {
-        "title": "Google Fi to add AI-enhanced audio and RCS web messaging",
-        "link": "https://techcrunch.com/2025/10/21/google-fi-to-add-ai-enhanced-audio-and-rcs-web-messaging/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-21T18:23:12.000Z",
-        "relevanceScore": 688.79,
+        "title": "OpenAI’s Atlas Browser Takes Direct Aim at Google Chrome",
+        "link": "https://www.wired.com/story/openai-atlas-browser-chrome-agents-web-browsing/",
+        "source": "Wired",
+        "pubDate": "2025-10-21T19:06:41.000Z",
+        "relevanceScore": 679.9,
         "tags": [
-          "AI",
-          "Tech",
           "Web"
         ]
       },
       {
-        "title": "OpenAI's Atlas Browser Takes Direct Aim at Google Chrome",
-        "link": "https://www.wired.com/story/openai-atlas-browser-chrome-agents-web-browsing/",
-        "source": "Wired",
-        "pubDate": "2025-10-21T19:06:41.000Z",
-        "relevanceScore": 680.93,
+        "title": "Google Fi to add AI-enhanced audio and RCS web messaging",
+        "link": "https://techcrunch.com/2025/10/21/google-fi-to-add-ai-enhanced-audio-and-rcs-web-messaging/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-21T18:23:12.000Z",
+        "relevanceScore": 661.75,
         "tags": [
+          "AI",
+          "Tech",
           "Web"
         ]
       },
@@ -681,7 +682,7 @@
         "link": "https://stackoverflow.blog/2025/10/21/open-source-is-giving-you-choices-with-your-agent-systems/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-10-21T07:40:00.000Z",
-        "relevanceScore": 193.14,
+        "relevanceScore": 171.61,
         "tags": [
           "AI",
           "Tech",
@@ -693,7 +694,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-21T16:00:00.000Z",
-        "relevanceScore": 161.81,
+        "relevanceScore": 133.27,
         "tags": [
           "AI",
           "Tutorial",
@@ -701,13 +702,14 @@
         ]
       },
       {
-        "title": "YouTube’s likeness detection has arrived to help stop AI doppelgängers",
-        "link": "https://arstechnica.com/google/2025/10/youtube-rolls-out-likeness-detection-to-help-creators-combat-ai-fakes/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-21T18:46:42.000Z",
-        "relevanceScore": 68.87,
+        "title": "Cloudflare CEO Matthew Prince is pushing UK regulator to unbundle Google’s search and AI crawlers",
+        "link": "https://techcrunch.com/2025/10/21/cloudflare-ceo-matthew-prince-is-pushing-uk-regulator-to-unbundle-googles-search-and-ai-crawlers/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-21T19:34:21.000Z",
+        "relevanceScore": 122.99,
         "tags": [
-          "AI"
+          "AI",
+          "Tech"
         ]
       },
       {
@@ -715,20 +717,19 @@
         "link": "https://techcrunch.com/2025/10/21/i-spent-a-month-living-with-a-430-ai-pet-the-casio-moflin/",
         "source": "TechCrunch",
         "pubDate": "2025-10-21T18:23:56.000Z",
-        "relevanceScore": 64.79,
+        "relevanceScore": 27.75,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "A16z-backed Codi launches AI agent office manager",
-        "link": "https://techcrunch.com/2025/10/21/a16z-backed-codi-launches-ai-agent-office-manager/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-21T17:45:14.000Z",
-        "relevanceScore": 64.66,
+        "title": "YouTube’s likeness detection has arrived to help stop AI doppelgängers",
+        "link": "https://arstechnica.com/google/2025/10/youtube-rolls-out-likeness-detection-to-help-creators-combat-ai-fakes/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-21T18:46:42.000Z",
+        "relevanceScore": 25.83,
         "tags": [
-          "AI",
-          "Exclusive"
+          "AI"
         ]
       },
       {
@@ -736,7 +737,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1oc38d2/ai_bro_introduces_regressions_in_the_lts_linux/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-21T04:11:20.000Z",
-        "relevanceScore": 55.95,
+        "relevanceScore": 18.91,
         "tags": [
           "AI"
         ]
@@ -746,7 +747,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1obxu0k/how_a_fake_ai_recruiter_delivers_five_staged/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-20T23:53:09.000Z",
-        "relevanceScore": 55.09,
+        "relevanceScore": 18.05,
         "tags": [
           "AI"
         ]
@@ -758,7 +759,7 @@
         "link": "https://www.engadget.com/entertainment/streaming/netflix-is-adapting-catan-into-movies-and-tv-shows-185133712.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-21T18:51:33.000Z",
-        "relevanceScore": 574.38,
+        "relevanceScore": 534.85,
         "tags": []
       },
       {
@@ -766,7 +767,7 @@
         "link": "https://www.theverge.com/tech/803021/haribo-gummy-bear-battery-nitecore-iniu-pocket-rocket",
         "source": "The Verge",
         "pubDate": "2025-10-21T18:05:27.000Z",
-        "relevanceScore": 321.73,
+        "relevanceScore": 301.69,
         "tags": []
       },
       {
@@ -774,7 +775,7 @@
         "link": "https://www.theverge.com/news/803728/hallmark-keepsake-ornament-microsoft-xbox-360-console-halo-3-theme",
         "source": "The Verge",
         "pubDate": "2025-10-21T18:32:09.000Z",
-        "relevanceScore": 180.82,
+        "relevanceScore": 147.28,
         "tags": [
           "Web"
         ]
@@ -784,88 +785,48 @@
         "link": "https://www.engadget.com/gaming/xbox/microsoft-increases-the-price-of-xbox-dev-kits-by-500-190000419.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-21T19:00:00.000Z",
-        "relevanceScore": 118.91,
+        "relevanceScore": 118.87,
         "tags": [
           "Tech",
           "Report"
         ]
       }
     ],
-    "tech": [
+    "development": [
       {
-        "title": "Jon Prosser says he’s been in ‘active communication’ with Apple over lawsuit",
-        "link": "https://www.theverge.com/news/803754/apple-jon-prosser-trade-secrets-lawsuit-responds-default",
-        "source": "The Verge",
-        "pubDate": "2025-10-21T19:09:31.000Z",
-        "relevanceScore": 318.94,
+        "title": "Why Git’s HEAD isn’t what most developers think it is",
+        "link": "https://www.reddit.com/r/programming/comments/1ocm5vj/why_gits_head_isnt_what_most_developers_think_it/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-21T19:17:20.000Z",
+        "relevanceScore": 324.43,
         "tags": []
       },
       {
-        "title": "The 39 Best Shows on Apple TV Right Now (November 2025)",
-        "link": "https://www.wired.com/story/best-apple-tv-plus-shows/",
-        "source": "Wired",
-        "pubDate": "2025-10-21T19:00:00.000Z",
-        "relevanceScore": 215.41,
-        "tags": []
-      },
-      {
-        "title": "Sperm From Older Men Have More Genetic Mutations",
-        "link": "https://www.wired.com/story/sperm-from-older-men-have-more-genetic-mutations/",
-        "source": "Wired",
-        "pubDate": "2025-10-21T18:32:18.000Z",
-        "relevanceScore": 118.32,
-        "tags": []
-      },
-      {
-        "title": "Amazon outage 'resolved' as Snapchat and banks among sites impacted",
-        "link": "https://www.bbc.com/news/articles/c20pgp3nx07o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-21T03:30:02.000Z",
-        "relevanceScore": 71.31,
-        "tags": []
-      },
-      {
-        "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2025",
-        "link": "https://techcrunch.com/2025/10/21/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2025/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-21T17:54:28.000Z",
-        "relevanceScore": 64.69,
+        "title": "Why Postmortems Fail and How to Make Them Drive Real Change",
+        "link": "https://dev.to/phoenix-incidents/why-postmortems-fail-and-how-to-make-them-drive-real-change-4pkn",
+        "source": "Dev.to",
+        "pubDate": "2025-10-21T19:04:59.000Z",
+        "relevanceScore": 130.89,
         "tags": [
-          "Web"
+          "Tutorial"
         ]
       },
       {
-        "title": "Here’s how Google is choosing 15 fans to test the next Pixel",
-        "link": "https://www.theverge.com/report/803702/google-pixel-superfan-contest-rules",
-        "source": "The Verge",
-        "pubDate": "2025-10-21T19:25:06.000Z",
-        "relevanceScore": 62.99,
+        "title": "From multilingual semantic search to virtual assistants at Bosch Digital",
+        "link": "https://stackoverflow.blog/2025/10/20/from-multilingual-semantic-search-to-virtual-assistants-at-bosch-digital/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-10-20T14:00:00.000Z",
+        "relevanceScore": 113.07,
         "tags": [
-          "Exclusive"
+          "Tech"
         ]
       },
       {
-        "title": "HBO Max Raises Prices Across All Plans Effective Immediately",
-        "link": "https://www.reddit.com/r/technology/comments/1ocdjtm/hbo_max_raises_prices_across_all_plans_effective/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-21T13:52:01.000Z",
-        "relevanceScore": 57.88,
-        "tags": []
-      },
-      {
-        "title": "Spike in Disney+ cancellations after Kimmel suspension",
-        "link": "https://www.bbc.com/news/articles/c1wle4dx4qwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-20T21:11:50.000Z",
-        "relevanceScore": 47.55,
-        "tags": []
-      },
-      {
-        "title": "The Long History of Frogs as Protest Symbols",
-        "link": "https://www.wired.com/story/the-long-history-of-frogs-as-protest-symbols/",
-        "source": "Wired",
-        "pubDate": "2025-10-21T17:07:06.000Z",
-        "relevanceScore": 26.53,
+        "title": "Hanno tagliato il pezzo più scomodo.",
+        "link": "https://dev.to/beatrice_neri_/hanno-tagliato-il-pezzo-piu-scomodo-3aok",
+        "source": "Dev.to",
+        "pubDate": "2025-10-21T19:08:19.000Z",
+        "relevanceScore": 23.9,
         "tags": []
       }
     ],
@@ -875,7 +836,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/warner-bros-discovery-confirms-received-buyout-offers-options-126716553",
         "source": "ABC News Business",
         "pubDate": "2025-10-21T13:52:15.000Z",
-        "relevanceScore": 289.88,
+        "relevanceScore": 293.85,
         "tags": [
           "Science",
           "Acquisition"
@@ -886,7 +847,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/coca-cola-sees-quarter-revenue-rise-higher-prices-126713096",
         "source": "ABC News Business",
         "pubDate": "2025-10-21T12:34:49.000Z",
-        "relevanceScore": 156.63,
+        "relevanceScore": 119.59,
         "tags": []
       },
       {
@@ -894,38 +855,80 @@
         "link": "https://www.npr.org/sections/planet-money/2025/10/21/g-s1-94264/a-theory-why-the-internet-is-going-down-the-toilet",
         "source": "NPR Business",
         "pubDate": "2025-10-21T10:30:00.000Z",
-        "relevanceScore": 26.21,
+        "relevanceScore": 26.17,
         "tags": [
           "Web"
         ]
       }
     ],
-    "science": [
+    "tech": [
       {
-        "title": "New noninvasive endometriosis tests are on the rise",
-        "link": "https://www.technologyreview.com/2025/10/21/1125327/endometriosis-tests-noninvasive/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-21T10:00:00.000Z",
-        "relevanceScore": 247.61,
+        "title": "Jon Prosser says he’s been in ‘active communication’ with Apple over lawsuit",
+        "link": "https://www.theverge.com/news/803754/apple-jon-prosser-trade-secrets-lawsuit-responds-default",
+        "source": "The Verge",
+        "pubDate": "2025-10-21T19:09:31.000Z",
+        "relevanceScore": 289.91,
         "tags": []
       },
       {
-        "title": "The astonishing embryo models of Jacob Hanna",
-        "link": "https://www.technologyreview.com/2025/10/21/1125523/jacob-hanna-israel-synthetic-embryo-models/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-21T09:02:38.000Z",
-        "relevanceScore": 157.92,
+        "title": "The 39 Best Shows on Apple TV Right Now (November 2025)",
+        "link": "https://www.wired.com/story/best-apple-tv-plus-shows/",
+        "source": "Wired",
+        "pubDate": "2025-10-21T19:00:00.000Z",
+        "relevanceScore": 221.37,
         "tags": []
       },
       {
-        "title": "The Download: embryo ethics, and reducing chatbot risks",
-        "link": "https://www.technologyreview.com/2025/10/21/1126189/the-download-embryo-ethics-and-reducing-chatbot-risks/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-21T12:10:00.000Z",
-        "relevanceScore": 65.04,
+        "title": "Sperm From Older Men Have More Genetic Mutations",
+        "link": "https://www.wired.com/story/sperm-from-older-men-have-more-genetic-mutations/",
+        "source": "Wired",
+        "pubDate": "2025-10-21T18:32:18.000Z",
+        "relevanceScore": 120.28,
+        "tags": []
+      },
+      {
+        "title": "Spike in Disney+ cancellations after Kimmel suspension",
+        "link": "https://www.bbc.com/news/articles/c1wle4dx4qwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-20T21:11:50.000Z",
+        "relevanceScore": 47.51,
+        "tags": []
+      },
+      {
+        "title": "As the browser wars heat up, here are the hottest alternatives to Chrome and Safari in 2025",
+        "link": "https://techcrunch.com/2025/10/21/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2025/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-21T17:54:28.000Z",
+        "relevanceScore": 27.66,
         "tags": [
-          "Tech"
+          "Web"
         ]
+      },
+      {
+        "title": "Here’s how Google is choosing 15 fans to test the next Pixel",
+        "link": "https://www.theverge.com/report/803702/google-pixel-superfan-contest-rules",
+        "source": "The Verge",
+        "pubDate": "2025-10-21T19:25:06.000Z",
+        "relevanceScore": 25.96,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Amazon outage 'resolved' as Snapchat and banks among sites impacted",
+        "link": "https://www.bbc.com/news/articles/c20pgp3nx07o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-21T03:30:02.000Z",
+        "relevanceScore": 22.27,
+        "tags": []
+      },
+      {
+        "title": "HBO Max Raises Prices Across All Plans Effective Immediately",
+        "link": "https://www.reddit.com/r/technology/comments/1ocdjtm/hbo_max_raises_prices_across_all_plans_effective/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-21T13:52:01.000Z",
+        "relevanceScore": 20.85,
+        "tags": []
       }
     ],
     "finance": [
@@ -934,8 +937,36 @@
         "link": "https://abcnews.go.com/Business/wireStory/world-bank-estimates-216b-needed-rebuild-syria-after-126712651",
         "source": "ABC News Business",
         "pubDate": "2025-10-21T11:26:41.000Z",
-        "relevanceScore": 223.4,
+        "relevanceScore": 243.36,
         "tags": []
+      }
+    ],
+    "science": [
+      {
+        "title": "New noninvasive endometriosis tests are on the rise",
+        "link": "https://www.technologyreview.com/2025/10/21/1125327/endometriosis-tests-noninvasive/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-21T10:00:00.000Z",
+        "relevanceScore": 216.57,
+        "tags": []
+      },
+      {
+        "title": "The astonishing embryo models of Jacob Hanna",
+        "link": "https://www.technologyreview.com/2025/10/21/1125523/jacob-hanna-israel-synthetic-embryo-models/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-21T09:02:38.000Z",
+        "relevanceScore": 135.88,
+        "tags": []
+      },
+      {
+        "title": "The Download: embryo ethics, and reducing chatbot risks",
+        "link": "https://www.technologyreview.com/2025/10/21/1126189/the-download-embryo-ethics-and-reducing-chatbot-risks/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-21T12:10:00.000Z",
+        "relevanceScore": 28.01,
+        "tags": [
+          "Tech"
+        ]
       }
     ],
     "social": [
@@ -944,7 +975,7 @@
         "link": "https://www.engadget.com/social-media/mark-zuckerberg-adam-mosseri-and-evan-spiegel-ordered-to-testify-in-trial-over-social-media-addiction-190500907.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-21T19:05:00.000Z",
-        "relevanceScore": 189.93,
+        "relevanceScore": 194.39,
         "tags": [
           "Social"
         ]
@@ -954,9 +985,23 @@
         "link": "https://www.reddit.com/r/technology/comments/1oca33n/disney_and_hulu_subscription_cancellations/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-21T11:11:46.000Z",
-        "relevanceScore": 113.35,
+        "relevanceScore": 115.31,
         "tags": [
           "Social"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Inside the breach that broke the internet: The untold story of Log4Shell",
+        "link": "https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-20T16:00:16.000Z",
+        "relevanceScore": 170.48,
+        "tags": [
+          "Tech",
+          "Security",
+          "Web"
         ]
       }
     ],
@@ -966,7 +1011,7 @@
         "link": "https://www.bbc.com/news/articles/cz91e1e23wzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-21T18:41:17.000Z",
-        "relevanceScore": 188.35,
+        "relevanceScore": 153.31,
         "tags": []
       },
       {
@@ -974,7 +1019,7 @@
         "link": "https://arstechnica.com/science/2025/10/butt-breathing-might-soon-be-a-real-medical-treatment/",
         "source": "Ars Technica",
         "pubDate": "2025-10-21T18:12:07.000Z",
-        "relevanceScore": 157.75,
+        "relevanceScore": 122.71,
         "tags": [
           "Science",
           "Report"
@@ -985,63 +1030,64 @@
         "link": "https://www.bbc.com/news/articles/cj6nennz0nyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-21T16:49:01.000Z",
-        "relevanceScore": 31.47,
+        "relevanceScore": 31.44,
         "tags": []
       }
     ],
-    "development": [
+    "cloud": [
       {
-        "title": "Why Postmortems Fail and How to Make Them Drive Real Change",
-        "link": "https://dev.to/phoenix-incidents/why-postmortems-fail-and-how-to-make-them-drive-real-change-4pkn",
+        "title": "Realtime Event-Driven Applications with AppSync Events and EventBridge Pipes",
+        "link": "https://dev.to/ianbrumby/realtime-event-driven-applications-with-appsync-events-and-eventbridge-pipes-1b27",
         "source": "Dev.to",
-        "pubDate": "2025-10-21T19:04:59.000Z",
-        "relevanceScore": 165.43,
+        "pubDate": "2025-10-21T19:33:49.000Z",
+        "relevanceScore": 147.99,
         "tags": [
+          "Cloud",
           "Tutorial"
         ]
       },
       {
-        "title": "From multilingual semantic search to virtual assistants at Bosch Digital",
-        "link": "https://stackoverflow.blog/2025/10/20/from-multilingual-semantic-search-to-virtual-assistants-at-bosch-digital/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-10-20T14:00:00.000Z",
-        "relevanceScore": 111.11,
+        "title": "AWS outage: Are we relying too much on US big tech?",
+        "link": "https://www.bbc.com/news/articles/c0jdgp6n45po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-21T19:14:08.000Z",
+        "relevanceScore": 25.92,
         "tags": [
-          "Tech"
+          "Tech",
+          "Cloud",
+          "Controversy"
         ]
       },
       {
-        "title": "Hanno tagliato il pezzo più scomodo.",
-        "link": "https://dev.to/beatrice_neri_/hanno-tagliato-il-pezzo-piu-scomodo-3aok",
-        "source": "Dev.to",
-        "pubDate": "2025-10-21T19:08:19.000Z",
-        "relevanceScore": 23.94,
-        "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Inside the breach that broke the internet: The untold story of Log4Shell",
-        "link": "https://github.blog/open-source/inside-the-breach-that-broke-the-internet-the-untold-story-of-log4shell/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-20T16:00:16.000Z",
-        "relevanceScore": 152.51,
+        "title": "What caused the AWS outage - and why did it make the internet fall apart?",
+        "link": "https://www.bbc.com/news/articles/cev1en9077ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-21T08:29:43.000Z",
+        "relevanceScore": 23.77,
         "tags": [
-          "Tech",
-          "Security",
-          "Web"
+          "Web",
+          "Cloud"
         ]
-      }
-    ],
-    "education": [
+      },
       {
-        "title": "Farewell-to-Framework-Bloat-How-I-Rediscovered-Simplicity-Without-Sacrificing-Performance",
-        "link": "https://dev.to/member_4890a1e6/farewell-to-framework-bloat-how-i-rediscovered-simplicity-without-sacrificing-performance-4oe7",
-        "source": "Dev.to",
-        "pubDate": "2025-10-21T19:04:04.000Z",
-        "relevanceScore": 145.42,
+        "title": "Outage at Amazon Web Services disrupts websites across the internet",
+        "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
+        "source": "NPR Business",
+        "pubDate": "2025-10-20T20:41:19.000Z",
+        "relevanceScore": 22.91,
         "tags": [
-          "Web"
+          "Web",
+          "Cloud"
+        ]
+      },
+      {
+        "title": "AWS crash causes $2,000 Smart Beds to overheat and get stuck upright",
+        "link": "https://www.reddit.com/r/technology/comments/1ocgytv/aws_crash_causes_2000_smart_beds_to_overheat_and/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-21T16:04:12.000Z",
+        "relevanceScore": 21.29,
+        "tags": [
+          "Cloud"
         ]
       }
     ],
@@ -1051,7 +1097,7 @@
         "link": "https://www.bbc.com/news/articles/cwykd173l3vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-21T18:07:26.000Z",
-        "relevanceScore": 124.73,
+        "relevanceScore": 126.7,
         "tags": []
       },
       {
@@ -1059,7 +1105,7 @@
         "link": "https://www.bbc.com/news/articles/c4gjp73gp41o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-21T17:33:45.000Z",
-        "relevanceScore": 68.62,
+        "relevanceScore": 31.59,
         "tags": []
       },
       {
@@ -1067,125 +1113,9 @@
         "link": "https://www.bbc.com/news/articles/cgmx1gxv1e7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-21T13:32:11.000Z",
-        "relevanceScore": 30.82,
+        "relevanceScore": 30.78,
         "tags": [
           "Partnership"
-        ]
-      }
-    ],
-    "space": [
-      {
-        "title": "Cards Against Humanity lawsuit forced SpaceX to vacate land on US/Mexico border",
-        "link": "https://arstechnica.com/tech-policy/2025/10/cards-against-humanity-gets-settlement-from-spacex-plans-pack-of-elon-musk-cards/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-21T18:02:36.000Z",
-        "relevanceScore": 82.72,
-        "tags": []
-      },
-      {
-        "title": "Satellite operators will soon join airlines in using Starlink in-flight Wi-Fi",
-        "link": "https://arstechnica.com/space/2025/10/satellite-operators-will-soon-join-airlines-in-using-starlink-in-flight-wi-fi/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-21T18:30:11.000Z",
-        "relevanceScore": 62.81,
-        "tags": []
-      }
-    ],
-    "climate": [
-      {
-        "title": "Bill Gates’s old climate lobbyists launch a new firm",
-        "link": "https://techcrunch.com/2025/10/21/bill-gatess-old-climate-lobbyists-launch-a-new-firm/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-21T18:54:52.000Z",
-        "relevanceScore": 65.89,
-        "tags": [
-          "Business",
-          "Science",
-          "Launch",
-          "Regulation",
-          "Innovation"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1335, Part 1 (Thread #1482)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1oc32r4/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-21T04:02:46.000Z",
-        "relevanceScore": 57.92,
-        "tags": []
-      },
-      {
-        "title": "Donald Trump’s Meeting with Vladimir Putin Called Off",
-        "link": "https://www.reddit.com/r/worldnews/comments/1ocldi2/donald_trumps_meeting_with_vladimir_putin_called/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-21T18:48:36.000Z",
-        "relevanceScore": 23.87,
-        "tags": []
-      },
-      {
-        "title": "Poland issues Putin arrest warning ahead of Trump meeting",
-        "link": "https://www.reddit.com/r/worldnews/comments/1oc9uhb/poland_issues_putin_arrest_warning_ahead_of_trump/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-21T10:59:04.000Z",
-        "relevanceScore": 21.81,
-        "tags": []
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Outage at Amazon Web Services disrupts websites across the internet",
-        "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
-        "source": "NPR Business",
-        "pubDate": "2025-10-20T20:41:19.000Z",
-        "relevanceScore": 51.45,
-        "tags": [
-          "Web",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "What caused the AWS outage - and why did it make the internet fall apart?",
-        "link": "https://www.bbc.com/news/articles/cev1en9077ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-21T08:29:43.000Z",
-        "relevanceScore": 35.81,
-        "tags": [
-          "Web",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "AWS outage: Are we relying too much on US big tech?",
-        "link": "https://www.bbc.com/news/articles/c0jdgp6n45po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-21T19:14:08.000Z",
-        "relevanceScore": 25.96,
-        "tags": [
-          "Tech",
-          "Cloud",
-          "Controversy"
-        ]
-      },
-      {
-        "title": "AWS crash causes $2,000 Smart Beds to overheat and get stuck upright",
-        "link": "https://www.reddit.com/r/technology/comments/1ocgytv/aws_crash_causes_2000_smart_beds_to_overheat_and/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-21T16:04:12.000Z",
-        "relevanceScore": 21.32,
-        "tags": [
-          "Cloud"
-        ]
-      },
-      {
-        "title": "AWS US-EAST-1 Outage (Oct 2025): What Happened and What We Can Learn",
-        "link": "https://www.reddit.com/r/programming/comments/1oca1a9/aws_useast1_outage_oct_2025_what_happened_and/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-21T11:09:00.000Z",
-        "relevanceScore": 20.34,
-        "tags": [
-          "Cloud"
         ]
       }
     ],
@@ -1195,19 +1125,91 @@
         "link": "https://www.engadget.com/ar-vr/how-to-watch-samsung-unveil-its-android-xr-headset-184820772.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-21T18:49:27.000Z",
-        "relevanceScore": 50.37,
+        "relevanceScore": 50.34,
         "tags": [
           "Mobile",
           "Tutorial",
           "Launch"
         ]
       }
+    ],
+    "space": [
+      {
+        "title": "Cards Against Humanity lawsuit forced SpaceX to vacate land on US/Mexico border",
+        "link": "https://arstechnica.com/tech-policy/2025/10/cards-against-humanity-gets-settlement-from-spacex-plans-pack-of-elon-musk-cards/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-21T18:02:36.000Z",
+        "relevanceScore": 48.18,
+        "tags": []
+      },
+      {
+        "title": "Satellite operators will soon join airlines in using Starlink in-flight Wi-Fi",
+        "link": "https://arstechnica.com/space/2025/10/satellite-operators-will-soon-join-airlines-in-using-starlink-in-flight-wi-fi/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-21T18:30:11.000Z",
+        "relevanceScore": 25.77,
+        "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Bill Gates’s old climate lobbyists launch a new firm",
+        "link": "https://techcrunch.com/2025/10/21/bill-gatess-old-climate-lobbyists-launch-a-new-firm/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-21T18:54:52.000Z",
+        "relevanceScore": 28.86,
+        "tags": [
+          "Business",
+          "Science",
+          "Launch",
+          "Regulation",
+          "Innovation"
+        ]
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "Melania Trump Used as ‘Window-Dressing’ in Elaborate Memecoin Fraud, Legal Filing Claims",
+        "link": "https://www.wired.com/story/melania-trump-used-as-window-dressing-in-elaborate-memecoin-fraud-legal-filing-claims/",
+        "source": "Wired",
+        "pubDate": "2025-10-21T19:30:20.000Z",
+        "relevanceScore": 26.98,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "Donald Trump’s Meeting with Vladimir Putin Called Off",
+        "link": "https://www.reddit.com/r/worldnews/comments/1ocldi2/donald_trumps_meeting_with_vladimir_putin_called/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-21T18:48:36.000Z",
+        "relevanceScore": 23.84,
+        "tags": []
+      },
+      {
+        "title": "Poland issues Putin arrest warning ahead of Trump meeting",
+        "link": "https://www.reddit.com/r/worldnews/comments/1oc9uhb/poland_issues_putin_arrest_warning_ahead_of_trump/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-21T10:59:04.000Z",
+        "relevanceScore": 21.77,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1335, Part 1 (Thread #1482)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1oc32r4/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-21T04:02:46.000Z",
+        "relevanceScore": 20.88,
+        "tags": []
+      }
     ]
   },
   "stats": {
     "totalSources": 16,
     "totalCategories": 17,
-    "avgRelevanceScore": 137.10888888888888,
+    "avgRelevanceScore": 127.02759259259261,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1215,7 +1217,7 @@
       },
       {
         "category": "tech",
-        "count": 9
+        "count": 8
       },
       {
         "category": "cloud",
@@ -1226,8 +1228,8 @@
         "count": 4
       },
       {
-        "category": "business",
-        "count": 3
+        "category": "development",
+        "count": 4
       }
     ]
   }
