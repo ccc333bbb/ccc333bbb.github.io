@@ -1,64 +1,68 @@
 {
-  "lastUpdated": "2025-10-21T12:30:09.038Z",
+  "lastUpdated": "2025-10-21T13:09:53.955Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2025-10-21",
       "file": "2025-10-21.json",
-      "totalArticles": 44,
-      "lastUpdated": "2025-10-21T12:30:09.019Z",
+      "totalArticles": 53,
+      "lastUpdated": "2025-10-21T13:09:53.934Z",
       "sources": [
         "NPR Business",
+        "TechCrunch",
         "Engadget",
         "BBC Technology",
-        "MIT Technology Review",
+        "Dev.to",
+        "Stack Overflow Blog",
+        "ABC News Business",
         "The Verge",
         "Ars Technica",
-        "Stack Overflow Blog",
+        "BBC News",
         "GitHub Blog",
+        "MIT Technology Review",
         "Wired",
-        "Dev.to",
-        "ABC News Business",
-        "TechCrunch",
-        "BBC News"
+        "Reddit Programming",
+        "Reddit World News",
+        "Reddit Technology"
       ],
       "categories": [
         "business",
         "tech",
-        "science",
         "development",
-        "general"
+        "general",
+        "science",
+        "world"
       ],
       "topArticles": [
         {
           "title": "Outage at Amazon Web Services disrupts websites across the internet",
           "source": "NPR Business",
           "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
-          "relevanceScore": 4775
+          "relevanceScore": 4878
+        },
+        {
+          "title": "Amazon identifies the issue that broke much of the internet, says AWS is back to normal",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2025/10/21/amazon-dns-outage-breaks-much-of-the-internet/",
+          "relevanceScore": 4616.4175094444445
         },
         {
           "title": "The Morning After: Amazon broke the internet (for a bit)",
           "source": "Engadget",
           "link": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-111553740.html?src=rss",
-          "relevanceScore": 4310.381108611111
+          "relevanceScore": 4391.049870416667
         },
         {
           "title": "What caused the AWS outage - and why did it make the internet fall apart?",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/cev1en9077ro?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 4095.9963865277778
+          "relevanceScore": 4147.6651483333335
         },
         {
-          "title": "Amazon outage 'resolved' as Snapchat and banks among sites impacted",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.com/news/articles/c20pgp3nx07o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 2113.499025416667
-        },
-        {
-          "title": "Why AI should be able to “hang up” on you",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2025/10/21/1126116/why-ai-should-be-able-to-hang-up-on-you/",
-          "relevanceScore": 1103.248747361111
+          "title": "Deploying Containerized Application on AWS LightSail with OpenRouter Integration",
+          "source": "Dev.to",
+          "link": "https://dev.to/ibshafique/deploying-containerized-application-on-aws-lightsail-with-openrouter-integration-103b",
+          "relevanceScore": 2863.798620416667
         }
       ]
     },
