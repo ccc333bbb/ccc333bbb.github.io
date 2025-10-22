@@ -1,6 +1,6 @@
 {
   "date": "2025-10-22",
-  "lastUpdated": "2025-10-22T04:26:33.617Z",
+  "lastUpdated": "2025-10-22T04:43:53.309Z",
   "totalArticles": 54,
   "articles": [
     {
@@ -22,35 +22,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1264.15,
-      "calculatedAt": "2025-10-22T04:26:33.708Z",
-      "recommendationScore": 1264.65,
+      "relevanceScore": 1275.1,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 1275.6,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "8J+noCBUd28g4oCc",
-      "title": "🧠 Two “AllowedHosts” Every Developer Should Know",
-      "link": "https://dev.to/kleinhouzin/two-allowedhosts-every-developer-should-know-ehe",
-      "description": "Whether you’re in .NET, Node.js, Java, or Python — you need to care about what hosts your app trusts. This is one of those small details that can quietly make or break your app’s security posture. And it’s straight out of the OWASP Top 10: → A10:2021 – Server-Side Request Forgery (SSRF) and → A01:20",
-      "pubDate": "2025-10-22T04:04:31.000Z",
-      "source": "Dev.to",
-      "category": "mobile",
-      "weight": 6,
-      "content": "Whether you’re in .NET, Node.js, Java, or Python — you need to care about what hosts your app trusts. This is one of those small details that can quietly make or break your app’s security posture. And it’s straight out of the OWASP Top 10: → A10:2021 – Server-Side Request Forgery (SSRF) and → A01:2021 – Broken Access Control. Let’s check both sides of “allowed hosts” 1️⃣ The Built-in One: Protecting Inbound Traffic In ASP.NET Core, you’ll often see this in appsettings.json: { \"AllowedHosts\": \"ex",
-      "author": "Klein Houzin",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Security",
-        "Mobile"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 1018.93,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 1018.93,
-      "readingLevel": "intermediate"
     },
     {
       "id": "MjUgeWVhcnMgb2Yg",
@@ -72,9 +47,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 1085.51,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 1085.51,
+      "relevanceScore": 1102.45,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 1102.45,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "TXkgSmF2YSAvIFNw",
+      "title": "My Java / Spring Boot Journey — Part 1 (Containerized App with Hot Reload)",
+      "link": "https://dev.to/jackfajardo/my-java-spring-boot-journey-part-1-containerized-app-with-hot-reload-4p71",
+      "description": "Introduction: This post will mainly serve as personal notes where I document my daily learnings throughout my journey into API development with Java. First of all, I want to make sure I bring over the practices I learned back when I was still doing Node.js development, and keep the mindset of buildi",
+      "pubDate": "2025-10-22T04:41:09.000Z",
+      "source": "Dev.to",
+      "category": "mobile",
+      "weight": 6,
+      "content": "Introduction: This post will mainly serve as personal notes where I document my daily learnings throughout my journey into API development with Java. First of all, I want to make sure I bring over the practices I learned back when I was still doing Node.js development, and keep the mindset of building applications with a strong and reliable infrastructure. With that in mind, I should think not just like a regular developer, but also with a cloud-oriented mindset — because I believe everything st",
+      "author": "Jack Fajardo",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 902.99,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 903.49,
       "readingLevel": "advanced"
     },
     {
@@ -97,59 +97,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 675.63,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 678.13,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "TmV0ZmxpeCBnb2Vz",
-      "title": "Netflix goes ‘all in’ on generative AI as entertainment industry remains divided",
-      "link": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
-      "description": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.\"",
-      "pubDate": "2025-10-21T22:21:46.000Z",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "weight": 8,
-      "content": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.\"",
-      "author": "Amanda Silberling",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 550.78,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 551.28,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "U291cmNlczogTXVs",
-      "title": "Sources: Multimodal AI startup Fal.ai already raised at $4B+ valuation",
-      "link": "https://techcrunch.com/2025/10/21/sources-multimodal-ai-startup-fal-ai-already-raised-at-4b-valuation/",
-      "description": "Fal.ai announced its previous round at a $1.5 billion valuation in July.",
-      "pubDate": "2025-10-21T20:12:41.000Z",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "weight": 8,
-      "content": "Fal.ai announced its previous round at a $1.5 billion valuation in July.",
-      "author": "Marina Temkin",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "AI",
-        "Startup",
-        "Funding"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 550.35,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 550.85,
+      "relevanceScore": 674.57,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 677.07,
       "readingLevel": "advanced"
     },
     {
@@ -172,9 +122,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 475.01,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 475.51,
+      "relevanceScore": 534.95,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 535.45,
       "readingLevel": "advanced"
     },
     {
@@ -198,10 +148,84 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 502.71,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 503.21,
+      "relevanceScore": 568.15,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 568.65,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "TmV0ZmxpeCBnb2Vz",
+      "title": "Netflix goes ‘all in’ on generative AI as entertainment industry remains divided",
+      "link": "https://techcrunch.com/2025/10/21/netflix-goes-all-in-on-generative-ai-as-entertainment-industry-remains-divided/",
+      "description": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.\"",
+      "pubDate": "2025-10-21T22:21:46.000Z",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "weight": 8,
+      "content": "Netflix is using AI for special effects and pre-production, but CEO Ted Sarandos that Netflix \"not worried about AI replacing creativity.\"",
+      "author": "Amanda Silberling",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "AI"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 561.73,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 562.23,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "U291cmNlczogTXVs",
+      "title": "Sources: Multimodal AI startup Fal.ai already raised at $4B+ valuation",
+      "link": "https://techcrunch.com/2025/10/21/sources-multimodal-ai-startup-fal-ai-already-raised-at-4b-valuation/",
+      "description": "Fal.ai announced its previous round at a $1.5 billion valuation in July.",
+      "pubDate": "2025-10-21T20:12:41.000Z",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "weight": 8,
+      "content": "Fal.ai announced its previous round at a $1.5 billion valuation in July.",
+      "author": "Marina Temkin",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "AI",
+        "Startup",
+        "Funding"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 561.3,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 561.8,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "8J+agCBFbmdhZ2VT",
+      "title": "🚀 EngageSwap — A Free Platform to Promote Your Website and Earn Coins",
+      "link": "https://dev.to/md_abubakar_bec10fd88e289/engageswap-a-free-platform-to-promote-your-website-and-earn-coins-51d8",
+      "description": "🚀 What is EngageSwap? EngageSwap is a free website-promotion platform I built to help creators, small businesses, and developers get real visitors without spending on ads. Promote your website for free and get real visitors today. Try EngageSwap Now You can: 💰 Earn coins by visiting other websites",
+      "pubDate": "2025-10-22T04:26:59.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "🚀 What is EngageSwap? EngageSwap is a free website-promotion platform I built to help creators, small businesses, and developers get real visitors without spending on ads. Promote your website for free and get real visitors today. Try EngageSwap Now You can: 💰 Earn coins by visiting other websites 🌐 Spend coins to promote your own 🔁 Enjoy a fair exchange system that rewards genuine engagement Everything happens automatically through our smart system that ensures authentic visits , quiz-based",
+      "author": "MD ABUBAKAR",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Web"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 515.44,
+      "calculatedAt": "2025-10-22T04:43:53.398Z",
+      "recommendationScore": 515.94,
+      "readingLevel": "advanced"
     },
     {
       "id": "SW5maW5pdGUgZm9s",
@@ -223,9 +247,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 457.01,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 457.01,
+      "relevanceScore": 463.95,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 463.95,
       "readingLevel": "intermediate"
     },
     {
@@ -245,9 +269,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 494.34,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 495.84,
+      "relevanceScore": 500.29,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 501.79,
       "readingLevel": "intermediate"
     },
     {
@@ -271,9 +295,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 484.75,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 485.25,
+      "relevanceScore": 491.7,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 492.2,
       "readingLevel": "advanced"
     },
     {
@@ -297,9 +321,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 481.51,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 483.01,
+      "relevanceScore": 488.45,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 489.95,
       "readingLevel": "intermediate"
     },
     {
@@ -323,9 +347,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 477.84,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 478.34,
+      "relevanceScore": 484.79,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 485.29,
       "readingLevel": "advanced"
     },
     {
@@ -347,9 +371,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 411.04,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 413.04,
+      "relevanceScore": 427.99,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 429.99,
       "readingLevel": "advanced"
     },
     {
@@ -371,9 +395,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 467.91,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 470.41,
+      "relevanceScore": 404.86,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 407.36,
       "readingLevel": "advanced"
     },
     {
@@ -393,32 +417,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 407.84,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 408.34,
+      "relevanceScore": 408.78,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 409.28,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "V2VsY29tZSBUaHJl",
-      "title": "Welcome Thread - v348",
-      "link": "https://dev.to/devteam/welcome-thread-v348-29i2",
-      "description": "Leave a comment below to introduce yourself! You can talk about what brought you here, what you're learning, or just a fun fact about yourself. Reply to someone's comment, either with a question or just a hello. 👋 Come back next week to greet our new members so you can one day earn our Warm Welcome",
-      "pubDate": "2025-10-22T04:00:00.000Z",
-      "source": "Dev.to",
-      "category": "education",
-      "weight": 6,
-      "content": "Leave a comment below to introduce yourself! You can talk about what brought you here, what you're learning, or just a fun fact about yourself. Reply to someone's comment, either with a question or just a hello. 👋 Come back next week to greet our new members so you can one day earn our Warm Welcome Badge !",
-      "author": "Sloan the DEV Moderator",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 440.91,
-      "calculatedAt": "2025-10-22T04:26:33.709Z",
-      "recommendationScore": 440.91,
-      "readingLevel": "beginner"
     },
     {
       "id": "VGhpcyBTbWFydCBX",
@@ -437,9 +439,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 441.33,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 441.33,
+      "relevanceScore": 447.27,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 447.27,
       "readingLevel": "beginner"
     },
     {
@@ -461,9 +463,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 441.15,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 441.65,
+      "relevanceScore": 447.1,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 447.6,
       "readingLevel": "beginner"
     },
     {
@@ -485,9 +487,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 437.23,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 437.23,
+      "relevanceScore": 443.18,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 443.18,
       "readingLevel": "intermediate"
     },
     {
@@ -507,9 +509,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 393.22,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 393.72,
+      "relevanceScore": 398.16,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 398.66,
       "readingLevel": "advanced"
     },
     {
@@ -529,9 +531,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 392.7,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 393.2,
+      "relevanceScore": 397.65,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 398.15,
       "readingLevel": "intermediate"
     },
     {
@@ -553,9 +555,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 383.01,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 384.01,
+      "relevanceScore": 388.95,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 389.95,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "U2Ftc3VuZyBpcyB3",
+      "title": "Samsung is working on XR smart glasses with Warby Parker and Gentle Monster",
+      "link": "https://www.engadget.com/ar-vr/samsung-is-working-on-xr-smart-glasses-with-warby-parker-and-gentle-monster-042632170.html?src=rss",
+      "description": "As part of its Galaxy XR headset presentation, Samsung also briefly teased another wearable product. It&#39;s working in collaboration with two eyewear companies, Warby Parker and Gentle Monster, on AI-powered smart glasses to go up against Meta&#39;s Ray-Ban models, Samsung&#39;s head of customer e",
+      "pubDate": "2025-10-22T04:26:32.000Z",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "As part of its Galaxy XR headset presentation, Samsung also briefly teased another wearable product. It&#39;s working in collaboration with two eyewear companies, Warby Parker and Gentle Monster, on AI-powered smart glasses to go up against Meta&#39;s Ray-Ban models, Samsung&#39;s head of customer experience Jay Kim announced at the end of the livestream. \"We&#39;re also really excited about the AI glasses that we&#39;re currently building together with Google,\" Kim said. \"We&#39;re working with",
+      "author": "Steve Dent",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "AI",
+        "Partnership"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 192.94,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 193.44,
       "readingLevel": "advanced"
     },
     {
@@ -578,9 +605,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 365.09,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 365.59,
+      "relevanceScore": 365.03,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 365.53,
       "readingLevel": "advanced"
     },
     {
@@ -600,9 +627,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 317.26,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 317.76,
+      "relevanceScore": 321.21,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 321.71,
       "readingLevel": "intermediate"
     },
     {
@@ -624,9 +651,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 337.31,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 337.81,
+      "relevanceScore": 341.25,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 341.75,
       "readingLevel": "advanced"
     },
     {
@@ -646,9 +673,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 283.51,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 284.01,
+      "relevanceScore": 289.45,
+      "calculatedAt": "2025-10-22T04:43:53.399Z",
+      "recommendationScore": 289.95,
       "readingLevel": "advanced"
     },
     {
@@ -672,9 +699,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 157.72,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 159.22,
+      "relevanceScore": 162.16,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 163.66,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "T3V0YWdlIGF0IEFt",
+      "title": "Outage at Amazon Web Services disrupts websites across the internet",
+      "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
+      "description": "Amazon's cloud computing service provides back-end support to many companies that operate online. When it has problems, so do they.",
+      "pubDate": "2025-10-20T20:41:19.000Z",
+      "source": "NPR Business",
+      "category": "cloud",
+      "weight": 8,
+      "content": "Amazon's cloud computing service provides back-end support to many companies that operate online. When it has problems, so do they. (Image credit: Noah Berger)",
+      "author": "Jaclyn Diaz",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Web",
+        "Cloud"
+      ],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 267.09,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 267.59,
       "readingLevel": "advanced"
     },
     {
@@ -694,10 +746,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 276.34,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 276.84,
+      "relevanceScore": 279.28,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 279.78,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "VGhlIEZsYW1lIG9m",
+      "title": "The Flame of Creation",
+      "link": "https://dev.to/anticoder03/the-flame-of-creation-bcj",
+      "description": "🌙Hello Everyone, I know I usually write posts about coding, hosting, and all things development — but tonight feels different. I was feeling a little low, and instead of debugging lines of code, I found myself tracing lines of thought. Somewhere between fatigue and reflection, a story began to form",
+      "pubDate": "2025-10-22T04:42:38.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "🌙Hello Everyone, I know I usually write posts about coding, hosting, and all things development — but tonight feels different. I was feeling a little low, and instead of debugging lines of code, I found myself tracing lines of thought. Somewhere between fatigue and reflection, a story began to form — a story that captures the quiet fire behind every programmer’s journey. So, here it goes… In a quiet town, there lived a young coder named Arin. Every night, while the world outside slept, Arin sat",
+      "author": "Ashish prajapati",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 150,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 150,
+      "readingLevel": "advanced"
     },
     {
       "id": "QVdTIG91dGFnZTog",
@@ -720,9 +794,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 246.16,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 246.66,
+      "relevanceScore": 251.1,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 251.6,
       "readingLevel": "intermediate"
     },
     {
@@ -745,35 +819,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 244.01,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 246.01,
+      "relevanceScore": 248.95,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 250.95,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "T3V0YWdlIGF0IEFt",
-      "title": "Outage at Amazon Web Services disrupts websites across the internet",
-      "link": "https://www.npr.org/2025/10/20/nx-s1-5580312/aws-outage",
-      "description": "Amazon's cloud computing service provides back-end support to many companies that operate online. When it has problems, so do they.",
-      "pubDate": "2025-10-20T20:41:19.000Z",
-      "source": "NPR Business",
-      "category": "cloud",
-      "weight": 8,
-      "content": "Amazon's cloud computing service provides back-end support to many companies that operate online. When it has problems, so do they. (Image credit: Noah Berger)",
-      "author": "Jaclyn Diaz",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Web",
-        "Cloud"
-      ],
-      "sentiment": "negative",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 243.15,
-      "calculatedAt": "2025-10-22T04:26:33.710Z",
-      "recommendationScore": 243.65,
-      "readingLevel": "advanced"
     },
     {
       "id": "SGVyZSBhcmUgdGhl",
@@ -792,34 +841,10 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 132.45,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 133.95,
+      "relevanceScore": 135.4,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 136.9,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "SG93IHRvIG9yZGVy",
-      "title": "How to order the Samsung Galaxy XR headset",
-      "link": "https://www.engadget.com/wearables/how-to-order-the-samsung-galaxy-xr-headset-020008173.html?src=rss",
-      "description": "Samsung&#39;s take on the Vision Pro is here — and you can already order it. Costing just over half as much as Apple&#39;s reality machine , the Galaxy XR has a 4K micro-OLED screen and a 100-degree horizontal field of view. The $1,800 mixed reality headset is available now for pre-order on Samsung&",
-      "pubDate": "2025-10-22T02:00:08.000Z",
-      "source": "Engadget",
-      "category": "tech",
-      "weight": 6,
-      "content": "Samsung&#39;s take on the Vision Pro is here — and you can already order it. Costing just over half as much as Apple&#39;s reality machine , the Galaxy XR has a 4K micro-OLED screen and a 100-degree horizontal field of view. The $1,800 mixed reality headset is available now for pre-order on Samsung&#39;s website . The Galaxy XR isn&#39;t only a Samsung product. The company developed the long-rumored headset alongside Google and Qualcomm. It&#39;s the first Android XR product, a line that will ev",
-      "author": "Will Shanklin",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Tutorial"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 131.01,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 132.51,
-      "readingLevel": "advanced"
     },
     {
       "id": "V2h5IEFJIENvZGlu",
@@ -840,9 +865,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 128.7,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 130.2,
+      "relevanceScore": 132.14,
+      "calculatedAt": "2025-10-22T04:43:53.400Z",
+      "recommendationScore": 133.64,
       "readingLevel": "advanced"
     },
     {
@@ -862,9 +887,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 90.01,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 90.51,
+      "relevanceScore": 91.96,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 92.46,
       "readingLevel": "intermediate"
     },
     {
@@ -884,9 +909,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 84.09,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 84.59,
+      "relevanceScore": 88.53,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 89.03,
       "readingLevel": "advanced"
     },
     {
@@ -906,33 +931,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 64.92,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 67.42,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "T3B0aW1pc3RpYyBT",
-      "title": "Optimistic Superposition: A Quantum Leap for AI?",
-      "link": "https://dev.to/arvind_sundararajan/optimistic-superposition-a-quantum-leap-for-ai-4me3",
-      "description": "Optimistic Superposition: A Quantum Leap for AI? The dream of truly intelligent AI hinges on our ability to train complex models, a process currently bottlenecked by sheer computational cost. Imagine training a model not in weeks or months, but in hours. What if we could explore solution spaces prev",
-      "pubDate": "2025-10-22T04:02:03.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "Optimistic Superposition: A Quantum Leap for AI? The dream of truly intelligent AI hinges on our ability to train complex models, a process currently bottlenecked by sheer computational cost. Imagine training a model not in weeks or months, but in hours. What if we could explore solution spaces previously deemed intractable? This is where \"optimistic superposition\" comes in. At its core, it's a novel algorithmic approach designed to handle complex problem-solving by strategically delaying comput",
-      "author": "Arvind SundaraRajan",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 64.92,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 64.92,
+      "relevanceScore": 65.86,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 68.36,
       "readingLevel": "advanced"
     },
     {
@@ -954,9 +955,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 71.59,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 74.09,
+      "relevanceScore": 72.53,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 75.03,
       "readingLevel": "beginner"
     },
     {
@@ -976,9 +977,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 72.06,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 74.06,
+      "relevanceScore": 73,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 75,
       "readingLevel": "intermediate"
     },
     {
@@ -1001,9 +1002,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 67.57,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 69.57,
+      "relevanceScore": 68.51,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 70.51,
       "readingLevel": "intermediate"
     },
     {
@@ -1025,9 +1026,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 66.21,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 66.71,
+      "relevanceScore": 67.15,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 67.65,
       "readingLevel": "advanced"
     },
     {
@@ -1047,9 +1048,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 65.31,
-      "calculatedAt": "2025-10-22T04:26:33.711Z",
-      "recommendationScore": 66.31,
+      "relevanceScore": 66.25,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 67.25,
       "readingLevel": "intermediate"
     },
     {
@@ -1069,9 +1070,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 63.83,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 64.33,
+      "relevanceScore": 64.77,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 65.27,
       "readingLevel": "advanced"
     },
     {
@@ -1091,9 +1092,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 62.95,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 63.45,
+      "relevanceScore": 63.89,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 64.39,
       "readingLevel": "advanced"
     },
     {
@@ -1115,9 +1116,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 58.15,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 58.65,
+      "relevanceScore": 59.09,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 59.59,
       "readingLevel": "intermediate"
     },
     {
@@ -1139,9 +1140,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 24.51,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 27.01,
+      "relevanceScore": 24.45,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 26.95,
       "readingLevel": "advanced"
     },
     {
@@ -1163,9 +1164,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.72,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 25.22,
+      "relevanceScore": 24.67,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 25.17,
       "readingLevel": "advanced"
     },
     {
@@ -1187,9 +1188,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.41,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 25.91,
+      "relevanceScore": 24.35,
+      "calculatedAt": "2025-10-22T04:43:53.401Z",
+      "recommendationScore": 25.85,
       "readingLevel": "advanced"
     },
     {
@@ -1209,9 +1210,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.97,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 25.47,
+      "relevanceScore": 24.91,
+      "calculatedAt": "2025-10-22T04:43:53.402Z",
+      "recommendationScore": 25.41,
       "readingLevel": "advanced"
     },
     {
@@ -1231,9 +1232,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.07,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 22.57,
+      "relevanceScore": 22.02,
+      "calculatedAt": "2025-10-22T04:43:53.402Z",
+      "recommendationScore": 22.52,
       "readingLevel": "advanced"
     },
     {
@@ -1253,9 +1254,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.36,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 20.86,
+      "relevanceScore": 20.3,
+      "calculatedAt": "2025-10-22T04:43:53.402Z",
+      "recommendationScore": 20.8,
       "readingLevel": "advanced"
     },
     {
@@ -1277,16 +1278,16 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.53,
-      "calculatedAt": "2025-10-22T04:26:33.712Z",
-      "recommendationScore": 20.03,
+      "relevanceScore": 19.47,
+      "calculatedAt": "2025-10-22T04:43:53.402Z",
+      "recommendationScore": 19.97,
       "readingLevel": "intermediate"
     }
   ],
   "sources": [
     "BBC Technology",
-    "Dev.to",
     "MIT Technology Review",
+    "Dev.to",
     "TechCrunch",
     "Wired",
     "GitHub Blog",
@@ -1303,12 +1304,12 @@
   ],
   "categories": [
     "tech",
-    "development",
     "science",
+    "development",
     "general",
     "business",
     "world"
   ],
-  "processedAt": "2025-10-22T04:26:33.723Z",
+  "processedAt": "2025-10-22T04:43:53.413Z",
   "processingVersion": "2.0"
 }
