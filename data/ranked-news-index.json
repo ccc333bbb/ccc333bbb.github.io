@@ -1,23 +1,24 @@
 {
-  "lastUpdated": "2025-10-23T17:14:20.666Z",
+  "lastUpdated": "2025-10-23T17:31:37.373Z",
   "totalArticles": 53,
   "categories": [
     "development",
-    "climate",
-    "ai-ml",
     "cloud",
-    "cybersecurity",
+    "ai-ml",
+    "climate",
     "tech",
     "entertainment",
     "gaming",
-    "business",
     "general",
+    "business",
+    "cybersecurity",
     "automotive",
     "startup",
-    "mobile",
     "science",
-    "world",
-    "finance"
+    "finance",
+    "mobile",
+    "space",
+    "world"
   ],
   "topArticles": [
     {
@@ -26,20 +27,22 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-10-23T09:43:33.000Z",
-      "relevanceScore": 2304.5,
-      "recommendationScore": 2304.5,
+      "relevanceScore": 2324.44,
+      "recommendationScore": 2324.44,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Google’s bets on carbon capture power plants, which have a mixed record",
-      "link": "https://techcrunch.com/2025/10/23/googles-bets-on-carbon-capture-power-plants-which-have-a-mixed-record/",
-      "source": "TechCrunch",
-      "category": "climate",
-      "pubDate": "2025-10-23T16:04:18.000Z",
-      "relevanceScore": 1385.77,
-      "recommendationScore": 1386.27,
-      "tags": [],
+      "title": "Amazon apologises to customers impacted by huge AWS outage",
+      "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cloud",
+      "pubDate": "2025-10-23T12:08:51.000Z",
+      "relevanceScore": 1515.42,
+      "recommendationScore": 1515.92,
+      "tags": [
+        "Cloud"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -48,24 +51,69 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-10-23T15:00:00.000Z",
-      "relevanceScore": 1385.55,
-      "recommendationScore": 1386.05,
+      "relevanceScore": 1346.99,
+      "recommendationScore": 1347.49,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Amazon apologises to customers impacted by huge AWS outage",
-      "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cloud",
-      "pubDate": "2025-10-23T12:08:51.000Z",
-      "relevanceScore": 1306.48,
-      "recommendationScore": 1306.98,
+      "title": "Google’s bets on carbon capture power plants, which have a mixed record",
+      "link": "https://techcrunch.com/2025/10/23/googles-bets-on-carbon-capture-power-plants-which-have-a-mixed-record/",
+      "source": "TechCrunch",
+      "category": "climate",
+      "pubDate": "2025-10-23T16:04:18.000Z",
+      "relevanceScore": 1342.71,
+      "recommendationScore": 1343.21,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why experiments belong inside feature flags, not beside them",
+      "link": "https://dev.to/miraan/why-experiments-belong-inside-feature-flags-not-beside-them-3i1i",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-23T17:13:34.000Z",
+      "relevanceScore": 1314.94,
+      "recommendationScore": 1316.94,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Democrats Will Launch a 'Master ICE Tracker' to Monitor Misconduct | \"Oversight Committee will be launching, on their website, a master ICE tracker where we’re gonna be tracking every single instance that we can verify that the community will send us information on,” said Rep. Garcia.",
+      "link": "https://www.reddit.com/r/technology/comments/1oe40lu/democrats_will_launch_a_master_ice_tracker_to/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-10-23T13:59:33.000Z",
+      "relevanceScore": 583.29,
+      "recommendationScore": 585.29,
       "tags": [
-        "Cloud"
+        "Web",
+        "Launch"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "White House Staffers Couldn’t Care Less About the East Wing Demolition",
+      "link": "https://www.wired.com/story/white-house-staffers-east-wing-demolition/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-23T15:47:15.000Z",
+      "relevanceScore": 568.15,
+      "recommendationScore": 568.65,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Sports ticket prices are getting more expensive — and pricing out many fans",
+      "link": "https://www.npr.org/2025/10/23/nx-s1-5561909/ticket-prices-sports",
+      "source": "NPR Business",
+      "category": "entertainment",
+      "pubDate": "2025-10-23T09:00:00.000Z",
+      "relevanceScore": 501.29,
+      "recommendationScore": 501.79,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -74,60 +122,37 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-10-23T16:25:18.000Z",
-      "relevanceScore": 924.84,
-      "recommendationScore": 926.84,
+      "relevanceScore": 462.78,
+      "recommendationScore": 464.78,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "RNG-Aliasing: Synthetic DVFS-Driven RNG Obfuscation",
-      "link": "https://dev.to/raghubathi_rajatk_6f274/rng-aliasing-synthetic-dvfs-driven-rng-obfuscation-5d58",
-      "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2025-10-23T16:55:13.000Z",
-      "relevanceScore": 840.94,
-      "recommendationScore": 841.44,
+      "title": "American e-waste is causing a 'hidden tsunami' of junk in Southeast Asia",
+      "link": "https://www.engadget.com/big-tech/american-e-waste-is-causing-a-hidden-tsunami-of-junk-in-southeast-asia-171344351.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-10-23T17:13:44.000Z",
+      "relevanceScore": 407.94,
+      "recommendationScore": 408.44,
       "tags": [
-        "Tech",
-        "Security"
+        "Report"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Democrats Will Launch a 'Master ICE Tracker' to Monitor Misconduct | \"Oversight Committee will be launching, on their website, a master ICE tracker where we’re gonna be tracking every single instance that we can verify that the community will send us information on,” said Rep. Garcia.",
-      "link": "https://www.reddit.com/r/technology/comments/1oe40lu/democrats_will_launch_a_master_ice_tracker_to/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-10-23T13:59:33.000Z",
-      "relevanceScore": 634.85,
-      "recommendationScore": 636.85,
+      "title": "Amazon unveils prototype AI smart glasses for its delivery drivers",
+      "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-10-23T03:18:34.000Z",
+      "relevanceScore": 368.16,
+      "recommendationScore": 368.66,
       "tags": [
-        "Web",
-        "Launch"
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Sports ticket prices are getting more expensive — and pricing out many fans",
-      "link": "https://www.npr.org/2025/10/23/nx-s1-5561909/ticket-prices-sports",
-      "source": "NPR Business",
-      "category": "entertainment",
-      "pubDate": "2025-10-23T09:00:00.000Z",
-      "relevanceScore": 549.35,
-      "recommendationScore": 549.85,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "White House Staffers Couldn’t Care Less About the East Wing Demolition",
-      "link": "https://www.wired.com/story/white-house-staffers-east-wing-demolition/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-23T15:47:15.000Z",
-      "relevanceScore": 422.71,
-      "recommendationScore": 423.21,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "My snake game is now 54 bytes",
@@ -135,11 +160,50 @@
       "source": "Reddit Programming",
       "category": "gaming",
       "pubDate": "2025-10-22T19:13:30.000Z",
-      "relevanceScore": 391.6,
-      "recommendationScore": 391.6,
+      "relevanceScore": 342.54,
+      "recommendationScore": 342.54,
       "tags": [
         "Update"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Netflix, Amazon, and Apple are reportedly interested in buying Warner Bros.",
+      "link": "https://www.theverge.com/news/805387/warner-bros-sale-netflix-amazon-apple-interested",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-10-23T17:18:36.000Z",
+      "relevanceScore": 235.96,
+      "recommendationScore": 236.46,
+      "tags": [
+        "Tech",
+        "Science"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon calls on AI once again with its new ‘Help Me Decide’ shopping tool",
+      "link": "https://www.engadget.com/ai/amazon-calls-on-ai-once-again-with-its-new-help-me-decide-shopping-tool-164516673.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-10-23T16:45:16.000Z",
+      "relevanceScore": 233.85,
+      "recommendationScore": 236.35,
+      "tags": [
+        "AI",
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Former paratrooper found not guilty of all charges in Bloody Sunday murder trial",
+      "link": "https://www.bbc.com/news/articles/c993nlken18o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-23T16:09:04.000Z",
+      "relevanceScore": 231.72,
+      "recommendationScore": 232.22,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -148,8 +212,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-10-23T15:00:00.000Z",
-      "relevanceScore": 276.55,
-      "recommendationScore": 276.55,
+      "relevanceScore": 219.49,
+      "recommendationScore": 219.49,
       "tags": [
         "AI"
       ],
@@ -161,8 +225,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-10-23T16:00:00.000Z",
-      "relevanceScore": 273.75,
-      "recommendationScore": 273.75,
+      "relevanceScore": 217.69,
+      "recommendationScore": 217.69,
       "tags": [
         "AI",
         "Exclusive"
@@ -175,37 +239,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-23T16:22:04.000Z",
-      "relevanceScore": 272.33,
-      "recommendationScore": 272.83,
+      "relevanceScore": 216.27,
+      "recommendationScore": 216.77,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Amazon unveils prototype AI smart glasses for its delivery drivers",
-      "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T03:18:34.000Z",
-      "relevanceScore": 222.21,
-      "recommendationScore": 222.71,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Building Digital Sovereignty in the Philippines: Open-Source Solutions for Transparent, Secure Government",
-      "link": "https://dev.to/alvinveroy/building-digital-sovereignty-in-the-philippines-open-source-solutions-for-transparent-secure-23c9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-23T16:52:33.000Z",
-      "relevanceScore": 221.93,
-      "recommendationScore": 221.93,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "President Trump pardons Binance founder Changpeng Zhao",
@@ -213,8 +250,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-10-23T17:09:08.000Z",
-      "relevanceScore": 205.98,
-      "recommendationScore": 206.48,
+      "relevanceScore": 209.93,
+      "recommendationScore": 210.43,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -224,8 +261,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-10-23T17:00:49.000Z",
-      "relevanceScore": 205.95,
-      "recommendationScore": 206.45,
+      "relevanceScore": 209.9,
+      "recommendationScore": 210.4,
       "tags": [
         "Tech"
       ],
@@ -237,8 +274,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-23T16:41:18.000Z",
-      "relevanceScore": 203.89,
-      "recommendationScore": 203.89,
+      "relevanceScore": 208.83,
+      "recommendationScore": 208.83,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -248,8 +285,8 @@
       "source": "GitHub Blog",
       "category": "cybersecurity",
       "pubDate": "2025-10-22T16:00:00.000Z",
-      "relevanceScore": 196.95,
-      "recommendationScore": 198.45,
+      "relevanceScore": 201.89,
+      "recommendationScore": 203.39,
       "tags": [
         "Security",
         "Exclusive"
@@ -257,40 +294,16 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "'It's been an absolute dream': Tess Daly and Claudia Winkleman to leave Strictly",
-      "link": "https://www.bbc.com/news/articles/cz0x1lr7j92o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-23T16:16:34.000Z",
-      "relevanceScore": 186.31,
-      "recommendationScore": 186.81,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI reportedly asked for memorial guest list in teen suicide case",
-      "link": "https://www.engadget.com/ai/openai-reportedly-asked-for-memorial-guest-list-in-teen-suicide-case-163309269.html?src=rss",
-      "source": "Engadget",
+      "title": "Anthropic’s Claude chatbot is getting a ‘memory’ upgrade",
+      "link": "https://www.theverge.com/news/804124/anthropic-claude-ai-memory-upgrade-all-subscribers",
+      "source": "The Verge",
       "category": "ai-ml",
-      "pubDate": "2025-10-23T16:33:09.000Z",
-      "relevanceScore": 160.86,
-      "recommendationScore": 161.36,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Microsoft makes Edge's Copilot Mode a bit smarter",
-      "link": "https://www.engadget.com/ai/microsoft-makes-edges-copilot-mode-a-bit-smarter-160031147.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T16:00:31.000Z",
-      "relevanceScore": 160.75,
-      "recommendationScore": 160.75,
+      "pubDate": "2025-10-23T17:00:00.000Z",
+      "relevanceScore": 176.39,
+      "recommendationScore": 176.89,
       "tags": [
         "AI",
-        "Web",
-        "Exclusive",
-        "Launch"
+        "Update"
       ],
       "readingLevel": "advanced"
     },
@@ -300,24 +313,47 @@
       "source": "ABC News Business",
       "category": "automotive",
       "pubDate": "2025-10-23T16:44:45.000Z",
-      "relevanceScore": 152.4,
-      "recommendationScore": 152.9,
+      "relevanceScore": 159.34,
+      "recommendationScore": 159.84,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Anthropic’s Claude chatbot is getting a ‘memory’ upgrade",
-      "link": "https://www.theverge.com/news/804124/anthropic-claude-ai-memory-upgrade-all-subscribers",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T17:00:00.000Z",
-      "relevanceScore": 140.95,
-      "recommendationScore": 141.45,
+      "title": "Assassin's Creed Shadows will hit Switch 2 on December 2",
+      "link": "https://www.engadget.com/assassins-creed-shadows-will-hit-switch-2-on-december-2-172338735.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-10-23T17:23:38.000Z",
+      "relevanceScore": 157.47,
+      "recommendationScore": 157.97,
       "tags": [
-        "AI",
         "Update"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "'It's been an absolute dream': Tess Daly and Claudia Winkleman to leave Strictly",
+      "link": "https://www.bbc.com/news/articles/cz0x1lr7j92o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-23T16:16:34.000Z",
+      "relevanceScore": 142.75,
+      "recommendationScore": 143.25,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Claude can now compartmentalize as part of a major memory upgrade",
+      "link": "https://www.engadget.com/claude-can-now-compartmentalize-as-part-of-a-major-memory-upgrade-170000194.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-10-23T17:00:00.000Z",
+      "relevanceScore": 141.39,
+      "recommendationScore": 141.89,
+      "tags": [
+        "Update"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "New images show Israeli control line deeper into Gaza than expected",
@@ -325,12 +361,52 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T13:35:35.000Z",
-      "relevanceScore": 110.77,
-      "recommendationScore": 114.77,
+      "relevanceScore": 122.21,
+      "recommendationScore": 126.21,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Elden Ring on the Switch 2 is delayed until 2026",
+      "link": "https://www.theverge.com/games/805381/elden-ring-tarnished-edition-nintendo-switch-2-delay",
+      "source": "The Verge",
+      "category": "startup",
+      "pubDate": "2025-10-23T16:28:19.000Z",
+      "relevanceScore": 105.79,
+      "recommendationScore": 105.79,
+      "tags": [
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What a massive thermal battery means for energy storage",
+      "link": "https://www.technologyreview.com/2025/10/23/1126419/thermal-batteries-energy-storage/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-10-23T10:00:00.000Z",
+      "relevanceScore": 101.49,
+      "recommendationScore": 103.49,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
+      "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-23T07:40:00.000Z",
+      "relevanceScore": 50.53,
+      "recommendationScore": 52.53,
+      "tags": [
+        "AI",
+        "Report"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "The Andrew Cuomo Campaign Is All in on MAGA Influencers",
@@ -338,8 +414,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-23T14:43:54.000Z",
-      "relevanceScore": 103.5,
-      "recommendationScore": 104,
+      "relevanceScore": 46.94,
+      "recommendationScore": 47.44,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -349,8 +425,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T16:27:30.000Z",
-      "relevanceScore": 102.84,
-      "recommendationScore": 103.34,
+      "relevanceScore": 41.79,
+      "recommendationScore": 42.29,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -360,8 +436,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 100.15,
-      "recommendationScore": 100.15,
+      "relevanceScore": 39.09,
+      "recommendationScore": 39.09,
       "tags": [
         "AI",
         "Report"
@@ -374,8 +450,8 @@
       "source": "MIT Technology Review",
       "category": "startup",
       "pubDate": "2025-10-23T12:10:00.000Z",
-      "relevanceScore": 99.99,
-      "recommendationScore": 101.99,
+      "relevanceScore": 38.93,
+      "recommendationScore": 40.93,
       "tags": [
         "Tech",
         "Startup"
@@ -383,17 +459,42 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Starter homes are scarce. But homebuyers can improve their odds",
+      "link": "https://www.npr.org/2025/10/23/nx-s1-5582442/starter-homes-housing-mortgage-rates",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-10-23T09:00:00.000Z",
+      "relevanceScore": 38.79,
+      "recommendationScore": 39.29,
+      "tags": [
+        "Business",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Microsoft’s Mico is a ‘Clippy’ for the AI era",
       "link": "https://techcrunch.com/2025/10/23/microsofts-mico-is-a-clippy-for-the-ai-era/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-23T17:08:23.000Z",
-      "relevanceScore": 98.98,
-      "recommendationScore": 98.98,
+      "relevanceScore": 38.42,
+      "recommendationScore": 38.42,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Great hybrid V6, lousy HMI: Three days with a Ferrari 296 GTB",
+      "link": "https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/",
+      "source": "Ars Technica",
+      "category": "automotive",
+      "pubDate": "2025-10-23T16:25:00.000Z",
+      "relevanceScore": 38.28,
+      "recommendationScore": 38.78,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Tensormesh raises $4.5M to squeeze more inference out of AI server loads",
@@ -401,39 +502,12 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-23T16:00:00.000Z",
-      "relevanceScore": 98.75,
-      "recommendationScore": 99.25,
+      "relevanceScore": 37.69,
+      "recommendationScore": 38.19,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
-      "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T07:40:00.000Z",
-      "relevanceScore": 97.09,
-      "recommendationScore": 99.09,
-      "tags": [
-        "AI",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Copilot is getting more personality with a ‘real talk’ mode and group chats",
-      "link": "https://www.theverge.com/news/804122/microsoft-copilot-real-talk-mode-group-chats-features",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T16:00:00.000Z",
-      "relevanceScore": 96.75,
-      "recommendationScore": 97.25,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Reports suggest Apple is already pulling back on the iPhone Air",
@@ -441,39 +515,34 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-10-23T15:04:47.000Z",
-      "relevanceScore": 96.57,
-      "recommendationScore": 97.07,
+      "relevanceScore": 36.01,
+      "recommendationScore": 36.51,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Amazon calls on AI once again with its new ‘Help Me Decide’ shopping tool",
-      "link": "https://www.engadget.com/ai/amazon-calls-on-ai-once-again-with-its-new-help-me-decide-shopping-tool-164516673.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T16:45:16.000Z",
-      "relevanceScore": 94.9,
-      "recommendationScore": 97.4,
-      "tags": [
-        "AI",
-        "Acquisition"
-      ],
-      "readingLevel": "advanced"
+      "title": "I built MathHacks - a weekend mathathon, now live!",
+      "link": "https://dev.to/vulcanwm/i-built-mathhacks-a-weekend-mathathon-now-live-3lo1",
+      "source": "Dev.to",
+      "category": "space",
+      "pubDate": "2025-10-23T17:13:06.000Z",
+      "relevanceScore": 35.44,
+      "recommendationScore": 35.44,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
-      "title": "What a massive thermal battery means for energy storage",
-      "link": "https://www.technologyreview.com/2025/10/23/1126419/thermal-batteries-energy-storage/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-10-23T10:00:00.000Z",
-      "relevanceScore": 94.55,
-      "recommendationScore": 96.55,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
+      "title": "Announcing Attractive.js, a new JavaScript-free JavaScript library",
+      "link": "https://dev.to/railsdesigner/announcing-attractivejs-a-new-javascript-free-javascript-library-1lno",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-23T17:15:00.000Z",
+      "relevanceScore": 34.94,
+      "recommendationScore": 37.44,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Confused by the U.S. economy? You're not alone",
@@ -481,8 +550,8 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2025-10-22T15:46:35.000Z",
-      "relevanceScore": 93.91,
-      "recommendationScore": 93.91,
+      "relevanceScore": 32.85,
+      "recommendationScore": 32.85,
       "tags": [
         "AI",
         "Business",
@@ -496,11 +565,24 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-10-22T20:30:35.000Z",
-      "relevanceScore": 93.85,
-      "recommendationScore": 94.35,
+      "relevanceScore": 32.8,
+      "recommendationScore": 33.3,
       "tags": [
         "AI",
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Met Police officers sacked for gross misconduct after BBC Panorama investigation",
+      "link": "https://www.bbc.com/news/articles/cy0kynx59v0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-23T15:50:08.000Z",
+      "relevanceScore": 32.66,
+      "recommendationScore": 33.16,
+      "tags": [
+        "Analysis"
       ],
       "readingLevel": "advanced"
     },
@@ -510,8 +592,8 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-10-23T15:21:37.000Z",
-      "relevanceScore": 92.62,
-      "recommendationScore": 93.12,
+      "relevanceScore": 31.57,
+      "recommendationScore": 32.07,
       "tags": [
         "AI"
       ],
@@ -523,72 +605,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-10-23T04:02:29.000Z",
-      "relevanceScore": 92.36,
-      "recommendationScore": 94.86,
+      "relevanceScore": 31.3,
+      "recommendationScore": 33.8,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Elden Ring on the Switch 2 is delayed until 2026",
-      "link": "https://www.theverge.com/games/805381/elden-ring-tarnished-edition-nintendo-switch-2-delay",
-      "source": "The Verge",
-      "category": "startup",
-      "pubDate": "2025-10-23T16:28:19.000Z",
-      "relevanceScore": 91.85,
-      "recommendationScore": 91.85,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Met Police officers sacked for gross misconduct after BBC Panorama investigation",
-      "link": "https://www.bbc.com/news/articles/cy0kynx59v0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-23T15:50:08.000Z",
-      "relevanceScore": 32.72,
-      "recommendationScore": 33.22,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Former paratrooper found not guilty of all charges in Bloody Sunday murder trial",
-      "link": "https://www.bbc.com/news/articles/c993nlken18o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-23T16:09:04.000Z",
-      "relevanceScore": 31.78,
-      "recommendationScore": 32.28,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Starter homes are scarce. But homebuyers can improve their odds",
-      "link": "https://www.npr.org/2025/10/23/nx-s1-5582442/starter-homes-housing-mortgage-rates",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-10-23T09:00:00.000Z",
-      "relevanceScore": 31.35,
-      "recommendationScore": 31.85,
-      "tags": [
-        "Business",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Great hybrid V6, lousy HMI: Three days with a Ferrari 296 GTB",
-      "link": "https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/",
-      "source": "Ars Technica",
-      "category": "automotive",
-      "pubDate": "2025-10-23T16:25:00.000Z",
-      "relevanceScore": 30.84,
-      "recommendationScore": 31.34,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "U.S. government accuses former L3Harris cyber boss of stealing trade secrets",
@@ -596,8 +616,8 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2025-10-23T15:46:30.000Z",
-      "relevanceScore": 27.71,
-      "recommendationScore": 28.21,
+      "relevanceScore": 27.65,
+      "recommendationScore": 28.15,
       "tags": [
         "Security"
       ],
@@ -609,8 +629,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-23T16:40:22.000Z",
-      "relevanceScore": 25.89,
-      "recommendationScore": 28.39,
+      "relevanceScore": 25.83,
+      "recommendationScore": 28.33,
       "tags": [
         "Update"
       ],
@@ -622,36 +642,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-23T15:33:04.000Z",
-      "relevanceScore": 25.66,
-      "recommendationScore": 26.16,
+      "relevanceScore": 25.6,
+      "recommendationScore": 26.1,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Claude can now compartmentalize as part of a major memory upgrade",
-      "link": "https://www.engadget.com/claude-can-now-compartmentalize-as-part-of-a-major-memory-upgrade-170000194.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-10-23T17:00:00.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 24.45,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "FlakyHunter: Revolutionizing How You Detect and Fix Flaky Tests",
-      "link": "https://dev.to/n3on/flakyhunter-revolutionizing-how-you-detect-and-fix-flaky-tests-41c9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-23T16:58:52.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 25.95,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
@@ -661,7 +655,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1odyyl0/scripts_i_wrote_that_i_use_all_the_time/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-23T09:43:33.000Z",
-        "relevanceScore": 2304.5,
+        "relevanceScore": 2324.44,
+        "tags": []
+      },
+      {
+        "title": "Why experiments belong inside feature flags, not beside them",
+        "link": "https://dev.to/miraan/why-experiments-belong-inside-feature-flags-not-beside-them-3i1i",
+        "source": "Dev.to",
+        "pubDate": "2025-10-23T17:13:34.000Z",
+        "relevanceScore": 1314.94,
         "tags": []
       },
       {
@@ -669,38 +671,28 @@
         "link": "https://www.reddit.com/r/programming/comments/1oe7u8d/the_billiondollar_mistake_and_why_i_turned_null/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-23T16:25:18.000Z",
-        "relevanceScore": 924.84,
+        "relevanceScore": 462.78,
         "tags": []
       },
       {
-        "title": "Building Digital Sovereignty in the Philippines: Open-Source Solutions for Transparent, Secure Government",
-        "link": "https://dev.to/alvinveroy/building-digital-sovereignty-in-the-philippines-open-source-solutions-for-transparent-secure-23c9",
+        "title": "Announcing Attractive.js, a new JavaScript-free JavaScript library",
+        "link": "https://dev.to/railsdesigner/announcing-attractivejs-a-new-javascript-free-javascript-library-1lno",
         "source": "Dev.to",
-        "pubDate": "2025-10-23T16:52:33.000Z",
-        "relevanceScore": 221.93,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "FlakyHunter: Revolutionizing How You Detect and Fix Flaky Tests",
-        "link": "https://dev.to/n3on/flakyhunter-revolutionizing-how-you-detect-and-fix-flaky-tests-41c9",
-        "source": "Dev.to",
-        "pubDate": "2025-10-23T16:58:52.000Z",
-        "relevanceScore": 23.95,
-        "tags": [
-          "Tech"
-        ]
+        "pubDate": "2025-10-23T17:15:00.000Z",
+        "relevanceScore": 34.94,
+        "tags": []
       }
     ],
-    "climate": [
+    "cloud": [
       {
-        "title": "Google’s bets on carbon capture power plants, which have a mixed record",
-        "link": "https://techcrunch.com/2025/10/23/googles-bets-on-carbon-capture-power-plants-which-have-a-mixed-record/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-23T16:04:18.000Z",
-        "relevanceScore": 1385.77,
-        "tags": []
+        "title": "Amazon apologises to customers impacted by huge AWS outage",
+        "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-23T12:08:51.000Z",
+        "relevanceScore": 1515.42,
+        "tags": [
+          "Cloud"
+        ]
       }
     ],
     "ai-ml": [
@@ -709,9 +701,31 @@
         "link": "https://www.wired.com/story/google-earth-gemini-ai-chatbot/",
         "source": "Wired",
         "pubDate": "2025-10-23T15:00:00.000Z",
-        "relevanceScore": 1385.55,
+        "relevanceScore": 1346.99,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Amazon unveils prototype AI smart glasses for its delivery drivers",
+        "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-23T03:18:34.000Z",
+        "relevanceScore": 368.16,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "Amazon calls on AI once again with its new ‘Help Me Decide’ shopping tool",
+        "link": "https://www.engadget.com/ai/amazon-calls-on-ai-once-again-with-its-new-help-me-decide-shopping-tool-164516673.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-23T16:45:16.000Z",
+        "relevanceScore": 233.85,
+        "tags": [
+          "AI",
+          "Acquisition"
         ]
       },
       {
@@ -719,7 +733,7 @@
         "link": "https://www.wired.com/story/made-in-china-the-chinese-creator-who-imitates-ai-slop/",
         "source": "Wired",
         "pubDate": "2025-10-23T15:00:00.000Z",
-        "relevanceScore": 276.55,
+        "relevanceScore": 219.49,
         "tags": [
           "AI"
         ]
@@ -729,42 +743,10 @@
         "link": "https://www.theverge.com/news/804106/microsoft-mico-copilot-ai-assistant-clippy",
         "source": "The Verge",
         "pubDate": "2025-10-23T16:00:00.000Z",
-        "relevanceScore": 273.75,
+        "relevanceScore": 217.69,
         "tags": [
           "AI",
           "Exclusive"
-        ]
-      },
-      {
-        "title": "Amazon unveils prototype AI smart glasses for its delivery drivers",
-        "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-23T03:18:34.000Z",
-        "relevanceScore": 222.21,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "OpenAI reportedly asked for memorial guest list in teen suicide case",
-        "link": "https://www.engadget.com/ai/openai-reportedly-asked-for-memorial-guest-list-in-teen-suicide-case-163309269.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T16:33:09.000Z",
-        "relevanceScore": 160.86,
-        "tags": []
-      },
-      {
-        "title": "Microsoft makes Edge's Copilot Mode a bit smarter",
-        "link": "https://www.engadget.com/ai/microsoft-makes-edges-copilot-mode-a-bit-smarter-160031147.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T16:00:31.000Z",
-        "relevanceScore": 160.75,
-        "tags": [
-          "AI",
-          "Web",
-          "Exclusive",
-          "Launch"
         ]
       },
       {
@@ -772,10 +754,21 @@
         "link": "https://www.theverge.com/news/804124/anthropic-claude-ai-memory-upgrade-all-subscribers",
         "source": "The Verge",
         "pubDate": "2025-10-23T17:00:00.000Z",
-        "relevanceScore": 140.95,
+        "relevanceScore": 176.39,
         "tags": [
           "AI",
           "Update"
+        ]
+      },
+      {
+        "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
+        "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-10-23T07:40:00.000Z",
+        "relevanceScore": 50.53,
+        "tags": [
+          "AI",
+          "Report"
         ]
       },
       {
@@ -783,7 +776,7 @@
         "link": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 100.15,
+        "relevanceScore": 39.09,
         "tags": [
           "AI",
           "Report"
@@ -794,7 +787,7 @@
         "link": "https://techcrunch.com/2025/10/23/microsofts-mico-is-a-clippy-for-the-ai-era/",
         "source": "TechCrunch",
         "pubDate": "2025-10-23T17:08:23.000Z",
-        "relevanceScore": 98.98,
+        "relevanceScore": 38.42,
         "tags": [
           "AI"
         ]
@@ -804,41 +797,9 @@
         "link": "https://techcrunch.com/2025/10/23/tensormesh-raises-4-5m-to-squeeze-more-inference-out-of-ai-server-loads/",
         "source": "TechCrunch",
         "pubDate": "2025-10-23T16:00:00.000Z",
-        "relevanceScore": 98.75,
+        "relevanceScore": 37.69,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
-        "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-10-23T07:40:00.000Z",
-        "relevanceScore": 97.09,
-        "tags": [
-          "AI",
-          "Report"
-        ]
-      },
-      {
-        "title": "Copilot is getting more personality with a ‘real talk’ mode and group chats",
-        "link": "https://www.theverge.com/news/804122/microsoft-copilot-real-talk-mode-group-chats-features",
-        "source": "The Verge",
-        "pubDate": "2025-10-23T16:00:00.000Z",
-        "relevanceScore": 96.75,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Amazon calls on AI once again with its new ‘Help Me Decide’ shopping tool",
-        "link": "https://www.engadget.com/ai/amazon-calls-on-ai-once-again-with-its-new-help-me-decide-shopping-tool-164516673.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T16:45:16.000Z",
-        "relevanceScore": 94.9,
-        "tags": [
-          "AI",
-          "Acquisition"
         ]
       },
       {
@@ -846,7 +807,7 @@
         "link": "https://www.npr.org/2025/10/22/nx-s1-5581578/confused-by-the-u-s-economy-youre-not-alone",
         "source": "NPR Business",
         "pubDate": "2025-10-22T15:46:35.000Z",
-        "relevanceScore": 93.91,
+        "relevanceScore": 32.85,
         "tags": [
           "AI",
           "Business",
@@ -858,7 +819,7 @@
         "link": "https://github.blog/open-source/from-karaoke-terminals-to-ai-resumes-the-winners-of-githubs-for-the-love-of-code-challenge/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-22T20:30:35.000Z",
-        "relevanceScore": 93.85,
+        "relevanceScore": 32.8,
         "tags": [
           "AI",
           "Exclusive"
@@ -869,56 +830,20 @@
         "link": "https://www.reddit.com/r/technology/comments/1oe6583/armed_police_swarm_student_after_ai_mistakes_bag/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-23T15:21:37.000Z",
-        "relevanceScore": 92.62,
+        "relevanceScore": 31.57,
         "tags": [
           "AI"
         ]
       }
     ],
-    "cloud": [
+    "climate": [
       {
-        "title": "Amazon apologises to customers impacted by huge AWS outage",
-        "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-23T12:08:51.000Z",
-        "relevanceScore": 1306.48,
-        "tags": [
-          "Cloud"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "RNG-Aliasing: Synthetic DVFS-Driven RNG Obfuscation",
-        "link": "https://dev.to/raghubathi_rajatk_6f274/rng-aliasing-synthetic-dvfs-driven-rng-obfuscation-5d58",
-        "source": "Dev.to",
-        "pubDate": "2025-10-23T16:55:13.000Z",
-        "relevanceScore": 840.94,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      },
-      {
-        "title": "Top security researcher shares their bug bounty process",
-        "link": "https://github.blog/security/top-security-researcher-shares-their-bug-bounty-process/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-22T16:00:00.000Z",
-        "relevanceScore": 196.95,
-        "tags": [
-          "Security",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "U.S. government accuses former L3Harris cyber boss of stealing trade secrets",
-        "link": "https://techcrunch.com/2025/10/23/u-s-government-accuses-former-l3harris-cyber-boss-of-stealing-trade-secrets/",
+        "title": "Google’s bets on carbon capture power plants, which have a mixed record",
+        "link": "https://techcrunch.com/2025/10/23/googles-bets-on-carbon-capture-power-plants-which-have-a-mixed-record/",
         "source": "TechCrunch",
-        "pubDate": "2025-10-23T15:46:30.000Z",
-        "relevanceScore": 27.71,
-        "tags": [
-          "Security"
-        ]
+        "pubDate": "2025-10-23T16:04:18.000Z",
+        "relevanceScore": 1342.71,
+        "tags": []
       }
     ],
     "tech": [
@@ -927,7 +852,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1oe40lu/democrats_will_launch_a_master_ice_tracker_to/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-23T13:59:33.000Z",
-        "relevanceScore": 634.85,
+        "relevanceScore": 583.29,
         "tags": [
           "Web",
           "Launch"
@@ -938,15 +863,25 @@
         "link": "https://www.wired.com/story/white-house-staffers-east-wing-demolition/",
         "source": "Wired",
         "pubDate": "2025-10-23T15:47:15.000Z",
-        "relevanceScore": 422.71,
+        "relevanceScore": 568.15,
         "tags": []
+      },
+      {
+        "title": "American e-waste is causing a 'hidden tsunami' of junk in Southeast Asia",
+        "link": "https://www.engadget.com/big-tech/american-e-waste-is-causing-a-hidden-tsunami-of-junk-in-southeast-asia-171344351.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-23T17:13:44.000Z",
+        "relevanceScore": 407.94,
+        "tags": [
+          "Report"
+        ]
       },
       {
         "title": "President Trump pardons Binance founder Changpeng Zhao",
         "link": "https://www.bbc.com/news/articles/cly1qrl9l1qo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-23T17:09:08.000Z",
-        "relevanceScore": 205.98,
+        "relevanceScore": 209.93,
         "tags": []
       },
       {
@@ -954,7 +889,7 @@
         "link": "https://www.bbc.com/news/articles/cy0kynek55wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-23T17:00:49.000Z",
-        "relevanceScore": 205.95,
+        "relevanceScore": 209.9,
         "tags": [
           "Tech"
         ]
@@ -964,15 +899,25 @@
         "link": "https://techcrunch.com/2025/10/23/trump-pardons-binance-founder-changpeng-zhao/",
         "source": "TechCrunch",
         "pubDate": "2025-10-23T16:41:18.000Z",
-        "relevanceScore": 203.89,
+        "relevanceScore": 208.83,
         "tags": []
+      },
+      {
+        "title": "Claude can now compartmentalize as part of a major memory upgrade",
+        "link": "https://www.engadget.com/claude-can-now-compartmentalize-as-part-of-a-major-memory-upgrade-170000194.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-23T17:00:00.000Z",
+        "relevanceScore": 141.39,
+        "tags": [
+          "Update"
+        ]
       },
       {
         "title": "The Andrew Cuomo Campaign Is All in on MAGA Influencers",
         "link": "https://www.wired.com/story/andrew-cuomo-campaign-maga-influencers/",
         "source": "Wired",
         "pubDate": "2025-10-23T14:43:54.000Z",
-        "relevanceScore": 103.5,
+        "relevanceScore": 46.94,
         "tags": []
       },
       {
@@ -980,7 +925,7 @@
         "link": "https://arstechnica.com/gaming/2025/10/valve-upends-the-cs2-item-marketplace-with-new-trade-up-update/",
         "source": "Ars Technica",
         "pubDate": "2025-10-23T16:40:22.000Z",
-        "relevanceScore": 25.89,
+        "relevanceScore": 25.83,
         "tags": [
           "Update"
         ]
@@ -990,18 +935,8 @@
         "link": "https://arstechnica.com/tech-policy/2025/10/trumps-industry-meddling-may-give-us-a-stake-in-quantum-computing-firms/",
         "source": "Ars Technica",
         "pubDate": "2025-10-23T15:33:04.000Z",
-        "relevanceScore": 25.66,
+        "relevanceScore": 25.6,
         "tags": []
-      },
-      {
-        "title": "Claude can now compartmentalize as part of a major memory upgrade",
-        "link": "https://www.engadget.com/claude-can-now-compartmentalize-as-part-of-a-major-memory-upgrade-170000194.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T17:00:00.000Z",
-        "relevanceScore": 23.95,
-        "tags": [
-          "Update"
-        ]
       }
     ],
     "entertainment": [
@@ -1010,8 +945,19 @@
         "link": "https://www.npr.org/2025/10/23/nx-s1-5561909/ticket-prices-sports",
         "source": "NPR Business",
         "pubDate": "2025-10-23T09:00:00.000Z",
-        "relevanceScore": 549.35,
+        "relevanceScore": 501.29,
         "tags": []
+      },
+      {
+        "title": "Netflix, Amazon, and Apple are reportedly interested in buying Warner Bros.",
+        "link": "https://www.theverge.com/news/805387/warner-bros-sale-netflix-amazon-apple-interested",
+        "source": "The Verge",
+        "pubDate": "2025-10-23T17:18:36.000Z",
+        "relevanceScore": 235.96,
+        "tags": [
+          "Tech",
+          "Science"
+        ]
       }
     ],
     "gaming": [
@@ -1020,29 +966,37 @@
         "link": "https://www.reddit.com/r/programming/comments/1odhklb/my_snake_game_is_now_54_bytes/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-22T19:13:30.000Z",
-        "relevanceScore": 391.6,
+        "relevanceScore": 342.54,
+        "tags": [
+          "Update"
+        ]
+      },
+      {
+        "title": "Assassin's Creed Shadows will hit Switch 2 on December 2",
+        "link": "https://www.engadget.com/assassins-creed-shadows-will-hit-switch-2-on-december-2-172338735.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-10-23T17:23:38.000Z",
+        "relevanceScore": 157.47,
         "tags": [
           "Update"
         ]
       }
     ],
-    "business": [
-      {
-        "title": "Average long-term US mortgage rate drops to 6.19%, lowest level in more than a year",
-        "link": "https://abcnews.go.com/Business/wireStory/average-long-term-us-mortgage-rate-drops-619-126801629",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-23T16:22:04.000Z",
-        "relevanceScore": 272.33,
-        "tags": []
-      }
-    ],
     "general": [
+      {
+        "title": "Former paratrooper found not guilty of all charges in Bloody Sunday murder trial",
+        "link": "https://www.bbc.com/news/articles/c993nlken18o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-23T16:09:04.000Z",
+        "relevanceScore": 231.72,
+        "tags": []
+      },
       {
         "title": "'It's been an absolute dream': Tess Daly and Claudia Winkleman to leave Strictly",
         "link": "https://www.bbc.com/news/articles/cz0x1lr7j92o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T16:16:34.000Z",
-        "relevanceScore": 186.31,
+        "relevanceScore": 142.75,
         "tags": []
       },
       {
@@ -1050,7 +1004,7 @@
         "link": "https://www.bbc.com/news/articles/cx2y00g4x29o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T13:35:35.000Z",
-        "relevanceScore": 110.77,
+        "relevanceScore": 122.21,
         "tags": [
           "Partnership"
         ]
@@ -1060,7 +1014,7 @@
         "link": "https://www.bbc.com/news/articles/cvgwnqeq5z0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T16:27:30.000Z",
-        "relevanceScore": 102.84,
+        "relevanceScore": 41.79,
         "tags": []
       },
       {
@@ -1068,18 +1022,43 @@
         "link": "https://www.bbc.com/news/articles/cy0kynx59v0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T15:50:08.000Z",
-        "relevanceScore": 32.72,
+        "relevanceScore": 32.66,
         "tags": [
           "Analysis"
         ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Average long-term US mortgage rate drops to 6.19%, lowest level in more than a year",
+        "link": "https://abcnews.go.com/Business/wireStory/average-long-term-us-mortgage-rate-drops-619-126801629",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-23T16:22:04.000Z",
+        "relevanceScore": 216.27,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Top security researcher shares their bug bounty process",
+        "link": "https://github.blog/security/top-security-researcher-shares-their-bug-bounty-process/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-22T16:00:00.000Z",
+        "relevanceScore": 201.89,
+        "tags": [
+          "Security",
+          "Exclusive"
+        ]
       },
       {
-        "title": "Former paratrooper found not guilty of all charges in Bloody Sunday murder trial",
-        "link": "https://www.bbc.com/news/articles/c993nlken18o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-23T16:09:04.000Z",
-        "relevanceScore": 31.78,
-        "tags": []
+        "title": "U.S. government accuses former L3Harris cyber boss of stealing trade secrets",
+        "link": "https://techcrunch.com/2025/10/23/u-s-government-accuses-former-l3harris-cyber-boss-of-stealing-trade-secrets/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-23T15:46:30.000Z",
+        "relevanceScore": 27.65,
+        "tags": [
+          "Security"
+        ]
       }
     ],
     "automotive": [
@@ -1088,7 +1067,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/tesla-recalls-63000-cybertrucks-front-lights-bright-126803608",
         "source": "ABC News Business",
         "pubDate": "2025-10-23T16:44:45.000Z",
-        "relevanceScore": 152.4,
+        "relevanceScore": 159.34,
         "tags": []
       },
       {
@@ -1096,42 +1075,30 @@
         "link": "https://arstechnica.com/cars/2025/10/great-hybrid-v6-lousy-hmi-three-days-with-a-ferrari-296-gtb/",
         "source": "Ars Technica",
         "pubDate": "2025-10-23T16:25:00.000Z",
-        "relevanceScore": 30.84,
+        "relevanceScore": 38.28,
         "tags": []
       }
     ],
     "startup": [
       {
-        "title": "The Download: aluminium’s potential as a zero-carbon fuel, and what’s next for energy storage",
-        "link": "https://www.technologyreview.com/2025/10/23/1126428/the-download-aluminiums-potential-as-a-zero-carbon-fuel-and-whats-next-for-energy-storage/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-23T12:10:00.000Z",
-        "relevanceScore": 99.99,
-        "tags": [
-          "Tech",
-          "Startup"
-        ]
-      },
-      {
         "title": "Elden Ring on the Switch 2 is delayed until 2026",
         "link": "https://www.theverge.com/games/805381/elden-ring-tarnished-edition-nintendo-switch-2-delay",
         "source": "The Verge",
         "pubDate": "2025-10-23T16:28:19.000Z",
-        "relevanceScore": 91.85,
+        "relevanceScore": 105.79,
         "tags": [
           "Startup"
         ]
-      }
-    ],
-    "mobile": [
+      },
       {
-        "title": "Reports suggest Apple is already pulling back on the iPhone Air",
-        "link": "https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-23T15:04:47.000Z",
-        "relevanceScore": 96.57,
+        "title": "The Download: aluminium’s potential as a zero-carbon fuel, and what’s next for energy storage",
+        "link": "https://www.technologyreview.com/2025/10/23/1126428/the-download-aluminiums-potential-as-a-zero-carbon-fuel-and-whats-next-for-energy-storage/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-23T12:10:00.000Z",
+        "relevanceScore": 38.93,
         "tags": [
-          "Mobile"
+          "Tech",
+          "Startup"
         ]
       }
     ],
@@ -1141,36 +1108,10 @@
         "link": "https://www.technologyreview.com/2025/10/23/1126419/thermal-batteries-energy-storage/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-23T10:00:00.000Z",
-        "relevanceScore": 94.55,
+        "relevanceScore": 101.49,
         "tags": [
           "Exclusive"
         ]
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T04:02:29.000Z",
-        "relevanceScore": 92.36,
-        "tags": []
-      },
-      {
-        "title": "Prime Minister Mark Carney says Canada will double its non-US exports as Canadians can't rely on US",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odyvtg/prime_minister_mark_carney_says_canada_will/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T09:38:44.000Z",
-        "relevanceScore": 22.48,
-        "tags": []
-      },
-      {
-        "title": "Putin to skip G20 summit in South Africa over arrest fears",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odyl7q/putin_to_skip_g20_summit_in_south_africa_over/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T09:19:13.000Z",
-        "relevanceScore": 22.42,
-        "tags": []
       }
     ],
     "finance": [
@@ -1179,7 +1120,7 @@
         "link": "https://www.npr.org/2025/10/23/nx-s1-5582442/starter-homes-housing-mortgage-rates",
         "source": "NPR Business",
         "pubDate": "2025-10-23T09:00:00.000Z",
-        "relevanceScore": 31.35,
+        "relevanceScore": 38.79,
         "tags": [
           "Business",
           "Exclusive"
@@ -1190,25 +1131,73 @@
         "link": "https://www.reddit.com/r/technology/comments/1oe0ikn/valve_just_crashed_the_high_end_counterstrike/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-23T11:15:58.000Z",
-        "relevanceScore": 20.81,
+        "relevanceScore": 20.75,
         "tags": [
           "Business"
         ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Reports suggest Apple is already pulling back on the iPhone Air",
+        "link": "https://arstechnica.com/gadgets/2025/10/early-indicators-analyst-reports-suggest-apples-iphone-air-isnt-taking-off/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-23T15:04:47.000Z",
+        "relevanceScore": 36.01,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "space": [
+      {
+        "title": "I built MathHacks - a weekend mathathon, now live!",
+        "link": "https://dev.to/vulcanwm/i-built-mathhacks-a-weekend-mathathon-now-live-3lo1",
+        "source": "Dev.to",
+        "pubDate": "2025-10-23T17:13:06.000Z",
+        "relevanceScore": 35.44,
+        "tags": []
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T04:02:29.000Z",
+        "relevanceScore": 31.3,
+        "tags": []
+      },
+      {
+        "title": "Prime Minister Mark Carney says Canada will double its non-US exports as Canadians can't rely on US",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odyvtg/prime_minister_mark_carney_says_canada_will/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T09:38:44.000Z",
+        "relevanceScore": 22.42,
+        "tags": []
+      },
+      {
+        "title": "Putin to skip G20 summit in South Africa over arrest fears",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odyl7q/putin_to_skip_g20_summit_in_south_africa_over/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T09:19:13.000Z",
+        "relevanceScore": 22.36,
+        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 283.13943396226415,
+    "totalCategories": 17,
+    "avgRelevanceScore": 285.91792452830197,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 16
+        "count": 13
       },
       {
         "category": "tech",
-        "count": 9
+        "count": 10
       },
       {
         "category": "general",
@@ -1219,7 +1208,7 @@
         "count": 4
       },
       {
-        "category": "cybersecurity",
+        "category": "world",
         "count": 3
       }
     ]
