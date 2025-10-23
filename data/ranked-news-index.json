@@ -1,23 +1,22 @@
 {
-  "lastUpdated": "2025-10-23T14:14:42.584Z",
-  "totalArticles": 55,
+  "lastUpdated": "2025-10-23T14:38:07.952Z",
+  "totalArticles": 51,
   "categories": [
     "development",
-    "mobile",
-    "tech",
     "cloud",
-    "ai-ml",
+    "mobile",
     "entertainment",
-    "automotive",
+    "ai-ml",
+    "tech",
     "gaming",
-    "general",
     "startup",
+    "general",
     "business",
-    "world",
+    "finance",
     "cybersecurity",
+    "world",
     "science",
-    "health",
-    "finance"
+    "automotive"
   ],
   "topArticles": [
     {
@@ -26,9 +25,22 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-10-23T09:43:33.000Z",
-      "relevanceScore": 2063.1,
-      "recommendationScore": 2063.1,
+      "relevanceScore": 2085.02,
+      "recommendationScore": 2085.02,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Amazon apologises to customers impacted by huge AWS outage",
+      "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cloud",
+      "pubDate": "2025-10-23T12:08:51.000Z",
+      "relevanceScore": 1312,
+      "recommendationScore": 1312.5,
+      "tags": [
+        "Cloud"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -37,8 +49,8 @@
       "source": "Reddit Programming",
       "category": "mobile",
       "pubDate": "2025-10-23T05:52:16.000Z",
-      "relevanceScore": 1212.33,
-      "recommendationScore": 1213.83,
+      "relevanceScore": 1247.75,
+      "recommendationScore": 1249.25,
       "tags": [
         "Mobile",
         "Launch"
@@ -46,39 +58,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "We let OpenAI’s “Agent Mode” surf the web for us—here’s what happened",
-      "link": "https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-10-23T11:00:08.000Z",
-      "relevanceScore": 1211.85,
-      "recommendationScore": 1213.85,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon apologises to customers impacted by huge AWS outage",
-      "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cloud",
-      "pubDate": "2025-10-23T12:08:51.000Z",
-      "relevanceScore": 1205.08,
-      "recommendationScore": 1205.58,
-      "tags": [
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Apple may be forced to allow rival app stores in UK",
       "link": "https://www.bbc.com/news/articles/c04gz1wx706o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2025-10-22T14:07:16.000Z",
-      "relevanceScore": 1133.18,
-      "recommendationScore": 1133.68,
+      "relevanceScore": 1165.1,
+      "recommendationScore": 1165.6,
       "tags": [
         "Tech",
         "Business",
@@ -87,69 +73,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Dropbox is bringing its Dash AI features into the main app",
-      "link": "https://www.engadget.com/ai/dropbox-is-bringing-its-dash-ai-features-into-the-main-app-130013854.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T13:00:13.000Z",
-      "relevanceScore": 746.75,
-      "recommendationScore": 747.25,
-      "tags": [
-        "AI",
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "The Stranger Things series finale is coming to theaters",
       "link": "https://www.theverge.com/news/805261/netflix-stranger-things-5-finale-theaters",
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2025-10-23T13:44:35.000Z",
-      "relevanceScore": 612.9,
-      "recommendationScore": 613.4,
+      "relevanceScore": 615.82,
+      "recommendationScore": 616.32,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Elon Musk frets over controlling Tesla’s ‘robot army’ as car biz rebounds slightly",
-      "link": "https://techcrunch.com/2025/10/22/elon-musk-frets-over-controlling-teslas-robot-army-as-car-biz-rebounds/",
-      "source": "TechCrunch",
-      "category": "automotive",
-      "pubDate": "2025-10-22T23:05:00.000Z",
-      "relevanceScore": 515.97,
-      "recommendationScore": 516.47,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "T-Shaped engineers: the blueprint for building with AI",
-      "link": "https://dev.to/rockandnull/t-shaped-engineers-the-blueprint-for-building-with-ai-2d2a",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T14:11:21.000Z",
-      "relevanceScore": 425.49,
-      "recommendationScore": 425.99,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to update community health files with AI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-21T16:00:00.000Z",
-      "relevanceScore": 417.25,
-      "recommendationScore": 418.75,
-      "tags": [
-        "AI",
-        "Tutorial",
-        "Update"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Sports ticket prices are getting more expensive — and pricing out many fans",
@@ -157,73 +89,21 @@
       "source": "NPR Business",
       "category": "entertainment",
       "pubDate": "2025-10-23T09:00:00.000Z",
-      "relevanceScore": 327.95,
-      "recommendationScore": 328.45,
+      "relevanceScore": 344.37,
+      "recommendationScore": 344.87,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "CinemaSins: Everything Wrong With M3GAN 2.0 In 25 Minutes Or Less",
-      "link": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-m3gan-20-in-25-minutes-or-less-39oe",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-10-23T14:11:44.000Z",
-      "relevanceScore": 244.99,
-      "recommendationScore": 245.49,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tesla's profits plunge despite record revenue and deliveries",
-      "link": "https://www.engadget.com/transportation/evs/teslas-profits-plunge-despite-record-revenue-and-deliveries-133004231.html?src=rss",
-      "source": "Engadget",
-      "category": "automotive",
-      "pubDate": "2025-10-23T13:30:04.000Z",
-      "relevanceScore": 228.35,
-      "recommendationScore": 228.85,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "As China’s 996 culture spreads, South Korea’s tech sector grapples with 52-hour limit",
-      "link": "https://techcrunch.com/2025/10/22/as-chinas-996-culture-spreads-south-koreas-tech-sector-grapples-with-52-hour-limit/",
+      "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2025",
+      "link": "https://techcrunch.com/2025/10/23/get-hands-on-the-full-techcrunch-disrupt-2025-roundtable-agenda/",
       "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-10-23T06:00:02.000Z",
-      "relevanceScore": 157.35,
-      "recommendationScore": 157.85,
+      "category": "ai-ml",
+      "pubDate": "2025-10-23T14:30:00.000Z",
+      "relevanceScore": 289.47,
+      "recommendationScore": 289.97,
       "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Female spies are waging ‘sex warfare’ to steal Silicon Valley secrets | China and Russia are sending attractive women to seduce tech workers - even marrying and having children with their targets",
-      "link": "https://www.reddit.com/r/technology/comments/1odq9z6/female_spies_are_waging_sex_warfare_to_steal/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-10-23T01:18:23.000Z",
-      "relevanceScore": 150.41,
-      "recommendationScore": 150.41,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Only 4 days until TechCrunch Disrupt 2025 kicks off in San Francisco and ticket rates increase",
-      "link": "https://techcrunch.com/2025/10/23/only-4-days-until-techcrunch-disrupt-2025-kicks-off-in-san-francisco-and-ticket-rates-increase/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-10-23T14:00:00.000Z",
-      "relevanceScore": 146.95,
-      "recommendationScore": 147.45,
-      "tags": [
-        "Tech"
+        "AI"
       ],
       "readingLevel": "intermediate"
     },
@@ -233,12 +113,63 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2025-10-22T15:46:35.000Z",
-      "relevanceScore": 139.01,
-      "recommendationScore": 139.01,
+      "relevanceScore": 211.43,
+      "recommendationScore": 211.43,
       "tags": [
         "AI",
         "Business",
         "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Only 4 days until TechCrunch Disrupt 2025 kicks off in San Francisco and ticket rates increase",
+      "link": "https://techcrunch.com/2025/10/23/only-4-days-until-techcrunch-disrupt-2025-kicks-off-in-san-francisco-and-ticket-rates-increase/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-10-23T14:00:00.000Z",
+      "relevanceScore": 186.37,
+      "recommendationScore": 186.87,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "From karaoke terminals to AI résumés: The winners of GitHub’s For the Love of Code challenge",
+      "link": "https://github.blog/open-source/from-karaoke-terminals-to-ai-resumes-the-winners-of-githubs-for-the-love-of-code-challenge/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-22T20:30:35.000Z",
+      "relevanceScore": 186.37,
+      "recommendationScore": 186.87,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Building Features Won't Save Your Product (But This Will)",
+      "link": "https://dev.to/shayy/building-features-wont-save-your-product-but-this-will-3hf9",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-23T14:28:56.000Z",
+      "relevanceScore": 157.97,
+      "recommendationScore": 158.47,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Female spies are waging ‘sex warfare’ to steal Silicon Valley secrets | China and Russia are sending attractive women to seduce tech workers - even marrying and having children with their targets",
+      "link": "https://www.reddit.com/r/technology/comments/1odq9z6/female_spies_are_waging_sex_warfare_to_steal/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-10-23T01:18:23.000Z",
+      "relevanceScore": 154.33,
+      "recommendationScore": 154.33,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -248,24 +179,10 @@
       "source": "Reddit Programming",
       "category": "gaming",
       "pubDate": "2025-10-22T19:13:30.000Z",
-      "relevanceScore": 137.2,
-      "recommendationScore": 137.2,
+      "relevanceScore": 147.12,
+      "recommendationScore": 147.12,
       "tags": [
         "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "From karaoke terminals to AI résumés: The winners of GitHub’s For the Love of Code challenge",
-      "link": "https://github.blog/open-source/from-karaoke-terminals-to-ai-resumes-the-winners-of-githubs-for-the-love-of-code-challenge/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-22T20:30:35.000Z",
-      "relevanceScore": 118.95,
-      "recommendationScore": 119.45,
-      "tags": [
-        "AI",
-        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -275,8 +192,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 116.25,
-      "recommendationScore": 116.25,
+      "relevanceScore": 120.17,
+      "recommendationScore": 120.17,
       "tags": [
         "AI",
         "Report"
@@ -284,16 +201,42 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "From Code to Campaign: Turning Your Open‑Source Project into a Marketing Powerhouse",
+      "link": "https://dev.to/stormdjent/from-code-to-campaign-turning-your-open-source-project-into-a-marketing-powerhouse-455p",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-23T14:30:34.000Z",
+      "relevanceScore": 110.47,
+      "recommendationScore": 110.97,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Amazon unveils prototype AI smart glasses for its delivery drivers",
       "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-10-23T03:18:34.000Z",
-      "relevanceScore": 104.81,
-      "recommendationScore": 105.31,
+      "relevanceScore": 108.23,
+      "recommendationScore": 108.73,
       "tags": [
         "AI",
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Redwood Materials raises another $350M to power up its energy storage business",
+      "link": "https://techcrunch.com/2025/10/23/redwood-materials-raises-another-350-million-to-power-up-its-energy-storage-business/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-10-23T12:00:00.000Z",
+      "relevanceScore": 101.97,
+      "recommendationScore": 102.47,
+      "tags": [
+        "Business",
+        "Startup",
+        "Funding"
       ],
       "readingLevel": "advanced"
     },
@@ -303,23 +246,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T08:57:02.000Z",
-      "relevanceScore": 92.94,
-      "recommendationScore": 93.44,
+      "relevanceScore": 90.86,
+      "recommendationScore": 91.36,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "The Best Hearing Aids of 2025, Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-hearing-aids/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-23T14:00:00.000Z",
-      "relevanceScore": 88.95,
-      "recommendationScore": 89.95,
-      "tags": [
-        "Interview"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Amazon’s new AI shopping tool tells you why you should buy a recommended product",
@@ -327,12 +257,23 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 88.75,
-      "recommendationScore": 92.75,
+      "relevanceScore": 86.67,
+      "recommendationScore": 90.67,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Amazon launches revamped Luna game streaming service",
+      "link": "https://techcrunch.com/2025/10/23/amazon-launches-revamped-luna-game-streaming-service/",
+      "source": "TechCrunch",
+      "category": "gaming",
+      "pubDate": "2025-10-23T14:18:47.000Z",
+      "relevanceScore": 81.44,
+      "recommendationScore": 83.94,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Israel maintaining control deeper inside Gaza than expected, new boundary markers suggest",
@@ -340,8 +281,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T13:35:35.000Z",
-      "relevanceScore": 79.37,
-      "recommendationScore": 81.87,
+      "relevanceScore": 76.79,
+      "recommendationScore": 79.29,
       "tags": [
         "Partnership"
       ],
@@ -353,8 +294,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T10:34:31.000Z",
-      "relevanceScore": 78.77,
-      "recommendationScore": 79.27,
+      "relevanceScore": 76.19,
+      "recommendationScore": 76.69,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -364,26 +305,11 @@
       "source": "MIT Technology Review",
       "category": "startup",
       "pubDate": "2025-10-23T12:10:00.000Z",
-      "relevanceScore": 77.08,
-      "recommendationScore": 79.08,
+      "relevanceScore": 74.51,
+      "recommendationScore": 76.51,
       "tags": [
         "Tech",
         "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Redwood Materials raises another $350M to power up its energy storage business",
-      "link": "https://techcrunch.com/2025/10/23/redwood-materials-raises-another-350-million-to-power-up-its-energy-storage-business/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-10-23T12:00:00.000Z",
-      "relevanceScore": 75.05,
-      "recommendationScore": 75.55,
-      "tags": [
-        "Business",
-        "Startup",
-        "Funding"
       ],
       "readingLevel": "advanced"
     },
@@ -393,78 +319,11 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-23T12:45:46.000Z",
-      "relevanceScore": 74.2,
-      "recommendationScore": 74.7,
+      "relevanceScore": 71.63,
+      "recommendationScore": 72.13,
       "tags": [
         "Acquisition"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "GoPro Max 2 360 Camera Review: It’s Finally Here",
-      "link": "https://www.wired.com/review/gopro-max-2-360-camera/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-23T12:00:00.000Z",
-      "relevanceScore": 73.05,
-      "recommendationScore": 73.05,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Meta removes AI deepfake video of Irish presidential candidate",
-      "link": "https://www.engadget.com/ai/meta-removes-ai-deepfake-video-of-irish-presidential-candidate-130059996.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T13:00:59.000Z",
-      "relevanceScore": 72.25,
-      "recommendationScore": 72.75,
-      "tags": [
-        "AI",
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Transforming AI Monetization: The Future of LLM-Powered Applications",
-      "link": "https://dev.to/monetzly/transforming-ai-monetization-the-future-of-llm-powered-applications-4jpf",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T14:11:14.000Z",
-      "relevanceScore": 71.49,
-      "recommendationScore": 71.99,
-      "tags": [
-        "AI",
-        "Exclusive",
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
-      "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-10-23T07:40:00.000Z",
-      "relevanceScore": 70.18,
-      "recommendationScore": 72.18,
-      "tags": [
-        "AI",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-23T04:02:29.000Z",
-      "relevanceScore": 69.46,
-      "recommendationScore": 71.96,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -473,10 +332,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-10-23T14:02:52.000Z",
-      "relevanceScore": 64.96,
-      "recommendationScore": 64.96,
+      "relevanceScore": 71.38,
+      "recommendationScore": 71.38,
       "tags": [
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US home sales accelerated in September to their fastest pace since February",
+      "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-accelerated-september-fastest-pace-february-126795842",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-10-23T14:31:00.000Z",
+      "relevanceScore": 70.98,
+      "recommendationScore": 71.48,
+      "tags": [
+        "Business"
       ],
       "readingLevel": "advanced"
     },
@@ -486,8 +358,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-10-23T11:30:55.000Z",
-      "relevanceScore": 64.45,
-      "recommendationScore": 64.95,
+      "relevanceScore": 70.88,
+      "recommendationScore": 71.38,
       "tags": [
         "Science",
         "Analysis"
@@ -495,13 +367,64 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "The Best Hearing Aids of 2025, Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-hearing-aids/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-23T14:00:00.000Z",
+      "relevanceScore": 70.87,
+      "recommendationScore": 71.87,
+      "tags": [
+        "Interview"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "GoPro Max 2 360 Camera Review: It’s Finally Here",
+      "link": "https://www.wired.com/review/gopro-max-2-360-camera/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-23T12:00:00.000Z",
+      "relevanceScore": 70.47,
+      "recommendationScore": 70.47,
+      "tags": [
+        "Update"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "An outcast faces a deadly alien world in Predator: Badlands trailer",
+      "link": "https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-10-23T13:58:46.000Z",
+      "relevanceScore": 70.37,
+      "recommendationScore": 70.87,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What leaders need to know from the 2025 Stack Overflow Developer Survey",
+      "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-23T07:40:00.000Z",
+      "relevanceScore": 67.61,
+      "recommendationScore": 69.61,
+      "tags": [
+        "AI",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Top security researcher shares their bug bounty process",
       "link": "https://github.blog/security/top-security-researcher-shares-their-bug-bounty-process/",
       "source": "GitHub Blog",
       "category": "cybersecurity",
       "pubDate": "2025-10-22T16:00:00.000Z",
-      "relevanceScore": 60.55,
-      "recommendationScore": 62.05,
+      "relevanceScore": 66.97,
+      "recommendationScore": 68.47,
       "tags": [
         "Security",
         "Exclusive"
@@ -509,16 +432,51 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Baby Steps isn't done with Maxi Boch",
-      "link": "https://www.engadget.com/baby-steps-isnt-done-with-maxi-boch-140000613.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-10-23T14:00:00.000Z",
-      "relevanceScore": 56.45,
-      "recommendationScore": 56.45,
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-23T04:02:29.000Z",
+      "relevanceScore": 66.88,
+      "recommendationScore": 69.38,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to update community health files with AI",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-10-21T16:00:00.000Z",
+      "relevanceScore": 61.67,
+      "recommendationScore": 63.17,
       "tags": [
-        "Launch"
+        "AI",
+        "Tutorial",
+        "Update"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Nike’s Robotic Shoe Gets Humans One Step Closer to Cyborg",
+      "link": "https://www.wired.com/story/nike-project-amplify/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-23T13:00:00.000Z",
+      "relevanceScore": 61.17,
+      "recommendationScore": 61.67,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Porsche does U-turn on electric vehicles, will focus on gas engines",
+      "link": "https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-10-23T13:42:41.000Z",
+      "relevanceScore": 50.82,
+      "recommendationScore": 51.32,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -527,36 +485,10 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-10-23T10:00:00.000Z",
-      "relevanceScore": 42.65,
-      "recommendationScore": 44.65,
+      "relevanceScore": 43.07,
+      "recommendationScore": 45.07,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "14 Best Tablets (2025), Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/the-best-tablets/",
-      "source": "Wired",
-      "category": "mobile",
-      "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 42.25,
-      "recommendationScore": 43.25,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Health care compromise appears far off as the government shutdown stalemate persists",
-      "link": "https://abcnews.go.com/Business/wireStory/health-care-compromise-appears-off-government-shutdown-stalemate-126786717",
-      "source": "ABC News Business",
-      "category": "health",
-      "pubDate": "2025-10-23T11:09:39.000Z",
-      "relevanceScore": 38.88,
-      "recommendationScore": 39.38,
-      "tags": [
-        "Controversy"
       ],
       "readingLevel": "advanced"
     },
@@ -566,8 +498,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T12:45:01.000Z",
-      "relevanceScore": 32.7,
-      "recommendationScore": 33.2,
+      "relevanceScore": 32.62,
+      "recommendationScore": 33.12,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -577,8 +509,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-23T12:30:59.000Z",
-      "relevanceScore": 32.65,
-      "recommendationScore": 33.15,
+      "relevanceScore": 32.58,
+      "recommendationScore": 33.08,
       "tags": [
         "Analysis"
       ],
@@ -590,8 +522,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2025-10-23T09:00:00.000Z",
-      "relevanceScore": 27.95,
-      "recommendationScore": 28.45,
+      "relevanceScore": 27.87,
+      "recommendationScore": 28.37,
       "tags": [
         "Business",
         "Exclusive"
@@ -599,17 +531,28 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Leica&#8217;s new M camera drops its iconic rangefinder for an EVF",
-      "link": "https://www.theverge.com/news/804840/leica-m-ev1-mirrorless-evf-camera-rangefinder-price-specs",
+      "title": "14 Best Tablets (2025), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/the-best-tablets/",
+      "source": "Wired",
+      "category": "mobile",
+      "pubDate": "2025-10-23T13:00:00.000Z",
+      "relevanceScore": 26.67,
+      "recommendationScore": 27.67,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Fujifilm updates its entry-level X-T30 with 6K video and a film simulation dial",
+      "link": "https://www.theverge.com/news/805200/fujifilm-x-t30-iii-digital-camera-film-simulation-6k-ai-subject-detection",
       "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 25.75,
-      "recommendationScore": 28.25,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
+      "pubDate": "2025-10-23T14:16:43.000Z",
+      "relevanceScore": 25.93,
+      "recommendationScore": 26.43,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Wyze’s budget-friendly video doorbell gets a six-month battery",
@@ -617,21 +560,10 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 25.75,
-      "recommendationScore": 26.25,
+      "relevanceScore": 25.67,
+      "recommendationScore": 26.17,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Nike’s Robotic Shoe Gets Humans One Step Closer to Cyborg",
-      "link": "https://www.wired.com/story/nike-project-amplify/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-23T13:00:00.000Z",
-      "relevanceScore": 25.75,
-      "recommendationScore": 26.25,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Wedding etiquette includes being mindful of how much it costs guests to attend",
@@ -639,8 +571,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-23T11:57:57.000Z",
-      "relevanceScore": 25.54,
-      "recommendationScore": 27.54,
+      "relevanceScore": 25.47,
+      "recommendationScore": 27.47,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -650,22 +582,72 @@
       "source": "Ars Technica",
       "category": "startup",
       "pubDate": "2025-10-23T11:15:12.000Z",
-      "relevanceScore": 25.4,
-      "recommendationScore": 25.9,
+      "relevanceScore": 25.32,
+      "recommendationScore": 25.82,
       "tags": [
         "Startup"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Cache poisoning vulnerabilities found in 2 DNS resolving apps",
-      "link": "https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-10-22T22:35:41.000Z",
-      "relevanceScore": 23.87,
-      "recommendationScore": 24.37,
+      "title": "Mastering Soft Skills for Software Engineers: A Practical Guide",
+      "link": "https://dev.to/stormdjent/mastering-soft-skills-for-software-engineers-a-practical-guide-i0e",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-10-23T14:25:51.000Z",
+      "relevanceScore": 24.96,
+      "recommendationScore": 25.46,
+      "tags": [
+        "Tech",
+        "Tutorial",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla profits slide despite record revenue",
+      "link": "https://www.bbc.com/news/articles/cql9yqxllqdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-10-23T02:14:21.000Z",
+      "relevanceScore": 23.52,
+      "recommendationScore": 23.52,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Prime Minister Mark Carney says Canada will double its non-US exports as Canadians can't rely on US",
+      "link": "https://www.reddit.com/r/worldnews/comments/1odyvtg/prime_minister_mark_carney_says_canada_will/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-23T09:38:44.000Z",
+      "relevanceScore": 23,
+      "recommendationScore": 23.5,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Putin to skip G20 summit in South Africa over arrest fears",
+      "link": "https://www.reddit.com/r/worldnews/comments/1odyl7q/putin_to_skip_g20_summit_in_south_africa_over/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-23T09:19:13.000Z",
+      "relevanceScore": 22.94,
+      "recommendationScore": 23.44,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Valve Just Crashed The High End ‘Counter-Strike’ Skins Market",
+      "link": "https://www.reddit.com/r/technology/comments/1oe0ikn/valve_just_crashed_the_high_end_counterstrike/",
+      "source": "Reddit Technology",
+      "category": "finance",
+      "pubDate": "2025-10-23T11:15:58.000Z",
+      "relevanceScore": 21.33,
+      "recommendationScore": 21.83,
+      "tags": [
+        "Business"
+      ],
       "readingLevel": "intermediate"
     }
   ],
@@ -676,17 +658,47 @@
         "link": "https://www.reddit.com/r/programming/comments/1odyyl0/scripts_i_wrote_that_i_use_all_the_time/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-23T09:43:33.000Z",
-        "relevanceScore": 2063.1,
+        "relevanceScore": 2085.02,
         "tags": []
       },
       {
-        "title": "CinemaSins: Everything Wrong With M3GAN 2.0 In 25 Minutes Or Less",
-        "link": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-m3gan-20-in-25-minutes-or-less-39oe",
+        "title": "Building Features Won't Save Your Product (But This Will)",
+        "link": "https://dev.to/shayy/building-features-wont-save-your-product-but-this-will-3hf9",
         "source": "Dev.to",
-        "pubDate": "2025-10-23T14:11:44.000Z",
-        "relevanceScore": 244.99,
+        "pubDate": "2025-10-23T14:28:56.000Z",
+        "relevanceScore": 157.97,
+        "tags": []
+      },
+      {
+        "title": "From Code to Campaign: Turning Your Open‑Source Project into a Marketing Powerhouse",
+        "link": "https://dev.to/stormdjent/from-code-to-campaign-turning-your-open-source-project-into-a-marketing-powerhouse-455p",
+        "source": "Dev.to",
+        "pubDate": "2025-10-23T14:30:34.000Z",
+        "relevanceScore": 110.47,
+        "tags": []
+      },
+      {
+        "title": "Mastering Soft Skills for Software Engineers: A Practical Guide",
+        "link": "https://dev.to/stormdjent/mastering-soft-skills-for-software-engineers-a-practical-guide-i0e",
+        "source": "Dev.to",
+        "pubDate": "2025-10-23T14:25:51.000Z",
+        "relevanceScore": 24.96,
         "tags": [
-          "Web"
+          "Tech",
+          "Tutorial",
+          "Partnership"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Amazon apologises to customers impacted by huge AWS outage",
+        "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-23T12:08:51.000Z",
+        "relevanceScore": 1312,
+        "tags": [
+          "Cloud"
         ]
       }
     ],
@@ -696,7 +708,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1odvevs/i_built_a_mobile_game_in_godot_from_scratch_which/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-23T05:52:16.000Z",
-        "relevanceScore": 1212.33,
+        "relevanceScore": 1247.75,
         "tags": [
           "Mobile",
           "Launch"
@@ -707,7 +719,7 @@
         "link": "https://www.bbc.com/news/articles/c04gz1wx706o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-22T14:07:16.000Z",
-        "relevanceScore": 1133.18,
+        "relevanceScore": 1165.1,
         "tags": [
           "Tech",
           "Business",
@@ -719,182 +731,39 @@
         "link": "https://www.wired.com/gallery/the-best-tablets/",
         "source": "Wired",
         "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 42.25,
+        "relevanceScore": 26.67,
         "tags": [
           "Mobile"
         ]
       }
     ],
-    "tech": [
+    "entertainment": [
       {
-        "title": "We let OpenAI’s “Agent Mode” surf the web for us—here’s what happened",
-        "link": "https://arstechnica.com/features/2025/10/we-let-openais-agent-mode-surf-the-web-for-us-heres-what-happened/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-23T11:00:08.000Z",
-        "relevanceScore": 1211.85,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "As China’s 996 culture spreads, South Korea’s tech sector grapples with 52-hour limit",
-        "link": "https://techcrunch.com/2025/10/22/as-chinas-996-culture-spreads-south-koreas-tech-sector-grapples-with-52-hour-limit/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-23T06:00:02.000Z",
-        "relevanceScore": 157.35,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Female spies are waging ‘sex warfare’ to steal Silicon Valley secrets | China and Russia are sending attractive women to seduce tech workers - even marrying and having children with their targets",
-        "link": "https://www.reddit.com/r/technology/comments/1odq9z6/female_spies_are_waging_sex_warfare_to_steal/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-23T01:18:23.000Z",
-        "relevanceScore": 150.41,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Only 4 days until TechCrunch Disrupt 2025 kicks off in San Francisco and ticket rates increase",
-        "link": "https://techcrunch.com/2025/10/23/only-4-days-until-techcrunch-disrupt-2025-kicks-off-in-san-francisco-and-ticket-rates-increase/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-23T14:00:00.000Z",
-        "relevanceScore": 146.95,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "The Best Hearing Aids of 2025, Tested and Reviewed",
-        "link": "https://www.wired.com/gallery/best-hearing-aids/",
-        "source": "Wired",
-        "pubDate": "2025-10-23T14:00:00.000Z",
-        "relevanceScore": 88.95,
-        "tags": [
-          "Interview"
-        ]
-      },
-      {
-        "title": "GoPro Max 2 360 Camera Review: It’s Finally Here",
-        "link": "https://www.wired.com/review/gopro-max-2-360-camera/",
-        "source": "Wired",
-        "pubDate": "2025-10-23T12:00:00.000Z",
-        "relevanceScore": 73.05,
-        "tags": [
-          "Update"
-        ]
-      },
-      {
-        "title": "Mega Evolution is coming to Pokémon TCG Pocket",
-        "link": "https://www.theverge.com/entertainment/805244/pokemon-tcg-pocket-mega-rising",
+        "title": "The Stranger Things series finale is coming to theaters",
+        "link": "https://www.theverge.com/news/805261/netflix-stranger-things-5-finale-theaters",
         "source": "The Verge",
-        "pubDate": "2025-10-23T14:02:52.000Z",
-        "relevanceScore": 64.96,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Texas lawmakers double down on Discovery, call for DOJ investigation into Smithsonian",
-        "link": "https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-23T11:30:55.000Z",
-        "relevanceScore": 64.45,
-        "tags": [
-          "Science",
-          "Analysis"
-        ]
-      },
-      {
-        "title": "Leica&#8217;s new M camera drops its iconic rangefinder for an EVF",
-        "link": "https://www.theverge.com/news/804840/leica-m-ev1-mirrorless-evf-camera-rangefinder-price-specs",
-        "source": "The Verge",
-        "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 25.75,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Wyze’s budget-friendly video doorbell gets a six-month battery",
-        "link": "https://www.theverge.com/news/804394/wyze-battery-video-doorbell-security-camera",
-        "source": "The Verge",
-        "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 25.75,
+        "pubDate": "2025-10-23T13:44:35.000Z",
+        "relevanceScore": 615.82,
         "tags": []
       },
       {
-        "title": "Nike’s Robotic Shoe Gets Humans One Step Closer to Cyborg",
-        "link": "https://www.wired.com/story/nike-project-amplify/",
-        "source": "Wired",
-        "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 25.75,
+        "title": "Sports ticket prices are getting more expensive — and pricing out many fans",
+        "link": "https://www.npr.org/2025/10/23/nx-s1-5561909/ticket-prices-sports",
+        "source": "NPR Business",
+        "pubDate": "2025-10-23T09:00:00.000Z",
+        "relevanceScore": 344.37,
         "tags": []
-      },
-      {
-        "title": "Cache poisoning vulnerabilities found in 2 DNS resolving apps",
-        "link": "https://arstechnica.com/security/2025/10/bind-warns-of-bugs-that-could-bring-dns-cache-attack-back-from-the-dead/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-22T22:35:41.000Z",
-        "relevanceScore": 23.87,
-        "tags": []
-      },
-      {
-        "title": "Letitia James launches portal for New Yorkers to submit photos, videos of ICE",
-        "link": "https://www.reddit.com/r/technology/comments/1odx5wh/letitia_james_launches_portal_for_new_yorkers_to/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-10-23T07:45:18.000Z",
-        "relevanceScore": 20.7,
-        "tags": []
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Amazon apologises to customers impacted by huge AWS outage",
-        "link": "https://www.bbc.com/news/articles/cvgvnp77dy9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-23T12:08:51.000Z",
-        "relevanceScore": 1205.08,
-        "tags": [
-          "Cloud"
-        ]
       }
     ],
     "ai-ml": [
       {
-        "title": "Dropbox is bringing its Dash AI features into the main app",
-        "link": "https://www.engadget.com/ai/dropbox-is-bringing-its-dash-ai-features-into-the-main-app-130013854.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T13:00:13.000Z",
-        "relevanceScore": 746.75,
+        "title": "Get hands-on: The full lineup of interactive roundtables at TechCrunch Disrupt 2025",
+        "link": "https://techcrunch.com/2025/10/23/get-hands-on-the-full-techcrunch-disrupt-2025-roundtable-agenda/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-23T14:30:00.000Z",
+        "relevanceScore": 289.47,
         "tags": [
-          "AI",
-          "Mobile"
-        ]
-      },
-      {
-        "title": "T-Shaped engineers: the blueprint for building with AI",
-        "link": "https://dev.to/rockandnull/t-shaped-engineers-the-blueprint-for-building-with-ai-2d2a",
-        "source": "Dev.to",
-        "pubDate": "2025-10-23T14:11:21.000Z",
-        "relevanceScore": 425.49,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "How to update community health files with AI",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-21T16:00:00.000Z",
-        "relevanceScore": 417.25,
-        "tags": [
-          "AI",
-          "Tutorial",
-          "Update"
+          "AI"
         ]
       },
       {
@@ -902,7 +771,7 @@
         "link": "https://www.npr.org/2025/10/22/nx-s1-5581578/confused-by-the-u-s-economy-youre-not-alone",
         "source": "NPR Business",
         "pubDate": "2025-10-22T15:46:35.000Z",
-        "relevanceScore": 139.01,
+        "relevanceScore": 211.43,
         "tags": [
           "AI",
           "Business",
@@ -914,7 +783,7 @@
         "link": "https://github.blog/open-source/from-karaoke-terminals-to-ai-resumes-the-winners-of-githubs-for-the-love-of-code-challenge/",
         "source": "GitHub Blog",
         "pubDate": "2025-10-22T20:30:35.000Z",
-        "relevanceScore": 118.95,
+        "relevanceScore": 186.37,
         "tags": [
           "AI",
           "Exclusive"
@@ -925,7 +794,7 @@
         "link": "https://www.technologyreview.com/2025/10/23/1125651/redefining-data-engineering-in-the-age-of-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 116.25,
+        "relevanceScore": 120.17,
         "tags": [
           "AI",
           "Report"
@@ -936,7 +805,7 @@
         "link": "https://www.bbc.com/news/articles/c0rpzrrgqvlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-23T03:18:34.000Z",
-        "relevanceScore": 104.81,
+        "relevanceScore": 108.23,
         "tags": [
           "AI",
           "Tech"
@@ -947,32 +816,9 @@
         "link": "https://techcrunch.com/2025/10/23/amazons-new-ai-shopping-tool-tells-you-why-you-should-buy-a-recommended-product/",
         "source": "TechCrunch",
         "pubDate": "2025-10-23T13:00:00.000Z",
-        "relevanceScore": 88.75,
+        "relevanceScore": 86.67,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "Meta removes AI deepfake video of Irish presidential candidate",
-        "link": "https://www.engadget.com/ai/meta-removes-ai-deepfake-video-of-irish-presidential-candidate-130059996.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T13:00:59.000Z",
-        "relevanceScore": 72.25,
-        "tags": [
-          "AI",
-          "Social"
-        ]
-      },
-      {
-        "title": "Transforming AI Monetization: The Future of LLM-Powered Applications",
-        "link": "https://dev.to/monetzly/transforming-ai-monetization-the-future-of-llm-powered-applications-4jpf",
-        "source": "Dev.to",
-        "pubDate": "2025-10-23T14:11:14.000Z",
-        "relevanceScore": 71.49,
-        "tags": [
-          "AI",
-          "Exclusive",
-          "Tutorial"
         ]
       },
       {
@@ -980,56 +826,133 @@
         "link": "https://stackoverflow.blog/2025/10/23/what-leaders-need-to-know-from-the-2025-stack-overflow-developer-survey/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-10-23T07:40:00.000Z",
-        "relevanceScore": 70.18,
+        "relevanceScore": 67.61,
         "tags": [
           "AI",
           "Report"
         ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "The Stranger Things series finale is coming to theaters",
-        "link": "https://www.theverge.com/news/805261/netflix-stranger-things-5-finale-theaters",
-        "source": "The Verge",
-        "pubDate": "2025-10-23T13:44:35.000Z",
-        "relevanceScore": 612.9,
-        "tags": []
       },
       {
-        "title": "Sports ticket prices are getting more expensive — and pricing out many fans",
-        "link": "https://www.npr.org/2025/10/23/nx-s1-5561909/ticket-prices-sports",
-        "source": "NPR Business",
-        "pubDate": "2025-10-23T09:00:00.000Z",
-        "relevanceScore": 327.95,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Elon Musk frets over controlling Tesla’s ‘robot army’ as car biz rebounds slightly",
-        "link": "https://techcrunch.com/2025/10/22/elon-musk-frets-over-controlling-teslas-robot-army-as-car-biz-rebounds/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-22T23:05:00.000Z",
-        "relevanceScore": 515.97,
-        "tags": []
-      },
-      {
-        "title": "Tesla's profits plunge despite record revenue and deliveries",
-        "link": "https://www.engadget.com/transportation/evs/teslas-profits-plunge-despite-record-revenue-and-deliveries-133004231.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T13:30:04.000Z",
-        "relevanceScore": 228.35,
+        "title": "How to update community health files with AI",
+        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-update-community-health-files-with-ai/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-21T16:00:00.000Z",
+        "relevanceScore": 61.67,
         "tags": [
-          "Breaking"
+          "AI",
+          "Tutorial",
+          "Update"
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Only 4 days until TechCrunch Disrupt 2025 kicks off in San Francisco and ticket rates increase",
+        "link": "https://techcrunch.com/2025/10/23/only-4-days-until-techcrunch-disrupt-2025-kicks-off-in-san-francisco-and-ticket-rates-increase/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-23T14:00:00.000Z",
+        "relevanceScore": 186.37,
+        "tags": [
+          "Tech"
         ]
       },
       {
-        "title": "Tesla profits slide despite record revenue",
-        "link": "https://www.bbc.com/news/articles/cql9yqxllqdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-10-23T02:14:21.000Z",
-        "relevanceScore": 23.6,
+        "title": "Female spies are waging ‘sex warfare’ to steal Silicon Valley secrets | China and Russia are sending attractive women to seduce tech workers - even marrying and having children with their targets",
+        "link": "https://www.reddit.com/r/technology/comments/1odq9z6/female_spies_are_waging_sex_warfare_to_steal/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-23T01:18:23.000Z",
+        "relevanceScore": 154.33,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "Mega Evolution is coming to Pokémon TCG Pocket",
+        "link": "https://www.theverge.com/entertainment/805244/pokemon-tcg-pocket-mega-rising",
+        "source": "The Verge",
+        "pubDate": "2025-10-23T14:02:52.000Z",
+        "relevanceScore": 71.38,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Texas lawmakers double down on Discovery, call for DOJ investigation into Smithsonian",
+        "link": "https://arstechnica.com/space/2025/10/texas-lawmakers-double-down-on-discovery-call-for-doj-investigation-into-smithsonian/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-23T11:30:55.000Z",
+        "relevanceScore": 70.88,
+        "tags": [
+          "Science",
+          "Analysis"
+        ]
+      },
+      {
+        "title": "The Best Hearing Aids of 2025, Tested and Reviewed",
+        "link": "https://www.wired.com/gallery/best-hearing-aids/",
+        "source": "Wired",
+        "pubDate": "2025-10-23T14:00:00.000Z",
+        "relevanceScore": 70.87,
+        "tags": [
+          "Interview"
+        ]
+      },
+      {
+        "title": "GoPro Max 2 360 Camera Review: It’s Finally Here",
+        "link": "https://www.wired.com/review/gopro-max-2-360-camera/",
+        "source": "Wired",
+        "pubDate": "2025-10-23T12:00:00.000Z",
+        "relevanceScore": 70.47,
+        "tags": [
+          "Update"
+        ]
+      },
+      {
+        "title": "An outcast faces a deadly alien world in Predator: Badlands trailer",
+        "link": "https://arstechnica.com/culture/2025/10/an-outcast-faces-a-deadly-alien-world-in-predator-badlands-trailer/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-23T13:58:46.000Z",
+        "relevanceScore": 70.37,
+        "tags": []
+      },
+      {
+        "title": "Nike’s Robotic Shoe Gets Humans One Step Closer to Cyborg",
+        "link": "https://www.wired.com/story/nike-project-amplify/",
+        "source": "Wired",
+        "pubDate": "2025-10-23T13:00:00.000Z",
+        "relevanceScore": 61.17,
+        "tags": []
+      },
+      {
+        "title": "Porsche does U-turn on electric vehicles, will focus on gas engines",
+        "link": "https://arstechnica.com/cars/2025/10/porsche-does-u-turn-on-electric-vehicles-will-focus-on-gas-engines/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-23T13:42:41.000Z",
+        "relevanceScore": 50.82,
+        "tags": []
+      },
+      {
+        "title": "Fujifilm updates its entry-level X-T30 with 6K video and a film simulation dial",
+        "link": "https://www.theverge.com/news/805200/fujifilm-x-t30-iii-digital-camera-film-simulation-6k-ai-subject-detection",
+        "source": "The Verge",
+        "pubDate": "2025-10-23T14:16:43.000Z",
+        "relevanceScore": 25.93,
+        "tags": []
+      },
+      {
+        "title": "Wyze’s budget-friendly video doorbell gets a six-month battery",
+        "link": "https://www.theverge.com/news/804394/wyze-battery-video-doorbell-security-camera",
+        "source": "The Verge",
+        "pubDate": "2025-10-23T13:00:00.000Z",
+        "relevanceScore": 25.67,
+        "tags": []
+      },
+      {
+        "title": "Letitia James launches portal for New Yorkers to submit photos, videos of ICE",
+        "link": "https://www.reddit.com/r/technology/comments/1odx5wh/letitia_james_launches_portal_for_new_yorkers_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-10-23T07:45:18.000Z",
+        "relevanceScore": 20.62,
         "tags": []
       }
     ],
@@ -1039,19 +962,52 @@
         "link": "https://www.reddit.com/r/programming/comments/1odhklb/my_snake_game_is_now_54_bytes/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-22T19:13:30.000Z",
-        "relevanceScore": 137.2,
+        "relevanceScore": 147.12,
         "tags": [
           "Update"
         ]
       },
       {
-        "title": "Baby Steps isn't done with Maxi Boch",
-        "link": "https://www.engadget.com/baby-steps-isnt-done-with-maxi-boch-140000613.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-10-23T14:00:00.000Z",
-        "relevanceScore": 56.45,
+        "title": "Amazon launches revamped Luna game streaming service",
+        "link": "https://techcrunch.com/2025/10/23/amazon-launches-revamped-luna-game-streaming-service/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-23T14:18:47.000Z",
+        "relevanceScore": 81.44,
+        "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "Redwood Materials raises another $350M to power up its energy storage business",
+        "link": "https://techcrunch.com/2025/10/23/redwood-materials-raises-another-350-million-to-power-up-its-energy-storage-business/",
+        "source": "TechCrunch",
+        "pubDate": "2025-10-23T12:00:00.000Z",
+        "relevanceScore": 101.97,
         "tags": [
-          "Launch"
+          "Business",
+          "Startup",
+          "Funding"
+        ]
+      },
+      {
+        "title": "The Download: aluminium’s potential as a zero-carbon fuel, and what’s next for energy storage",
+        "link": "https://www.technologyreview.com/2025/10/23/1126428/the-download-aluminiums-potential-as-a-zero-carbon-fuel-and-whats-next-for-energy-storage/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-23T12:10:00.000Z",
+        "relevanceScore": 74.51,
+        "tags": [
+          "Tech",
+          "Startup"
+        ]
+      },
+      {
+        "title": "California startup to demonstrate space weapon on its own dime",
+        "link": "https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/",
+        "source": "Ars Technica",
+        "pubDate": "2025-10-23T11:15:12.000Z",
+        "relevanceScore": 25.32,
+        "tags": [
+          "Startup"
         ]
       }
     ],
@@ -1061,7 +1017,7 @@
         "link": "https://www.bbc.com/news/articles/cz0x1lr7j92o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T08:57:02.000Z",
-        "relevanceScore": 92.94,
+        "relevanceScore": 90.86,
         "tags": []
       },
       {
@@ -1069,7 +1025,7 @@
         "link": "https://www.bbc.com/news/articles/cx2y00g4x29o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T13:35:35.000Z",
-        "relevanceScore": 79.37,
+        "relevanceScore": 76.79,
         "tags": [
           "Partnership"
         ]
@@ -1079,7 +1035,7 @@
         "link": "https://www.bbc.com/news/articles/c98n53dpzx6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T10:34:31.000Z",
-        "relevanceScore": 78.77,
+        "relevanceScore": 76.19,
         "tags": []
       },
       {
@@ -1087,7 +1043,7 @@
         "link": "https://www.bbc.com/news/articles/cly285e5ljyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T12:45:01.000Z",
-        "relevanceScore": 32.7,
+        "relevanceScore": 32.62,
         "tags": []
       },
       {
@@ -1095,44 +1051,9 @@
         "link": "https://www.bbc.com/news/articles/cy0kynx59v0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-10-23T12:30:59.000Z",
-        "relevanceScore": 32.65,
+        "relevanceScore": 32.58,
         "tags": [
           "Analysis"
-        ]
-      }
-    ],
-    "startup": [
-      {
-        "title": "The Download: aluminium’s potential as a zero-carbon fuel, and what’s next for energy storage",
-        "link": "https://www.technologyreview.com/2025/10/23/1126428/the-download-aluminiums-potential-as-a-zero-carbon-fuel-and-whats-next-for-energy-storage/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-23T12:10:00.000Z",
-        "relevanceScore": 77.08,
-        "tags": [
-          "Tech",
-          "Startup"
-        ]
-      },
-      {
-        "title": "Redwood Materials raises another $350M to power up its energy storage business",
-        "link": "https://techcrunch.com/2025/10/23/redwood-materials-raises-another-350-million-to-power-up-its-energy-storage-business/",
-        "source": "TechCrunch",
-        "pubDate": "2025-10-23T12:00:00.000Z",
-        "relevanceScore": 75.05,
-        "tags": [
-          "Business",
-          "Startup",
-          "Funding"
-        ]
-      },
-      {
-        "title": "California startup to demonstrate space weapon on its own dime",
-        "link": "https://arstechnica.com/space/2025/10/california-startup-to-demonstrate-space-weapon-on-its-own-dime/",
-        "source": "Ars Technica",
-        "pubDate": "2025-10-23T11:15:12.000Z",
-        "relevanceScore": 25.4,
-        "tags": [
-          "Startup"
         ]
       }
     ],
@@ -1142,7 +1063,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/union-pacific-reports-7-higher-profits-ceo-makes-126791215",
         "source": "ABC News Business",
         "pubDate": "2025-10-23T12:45:46.000Z",
-        "relevanceScore": 74.2,
+        "relevanceScore": 71.63,
         "tags": [
           "Acquisition"
         ]
@@ -1152,80 +1073,27 @@
         "link": "https://abcnews.go.com/Business/wireStory/wedding-etiquette-includes-mindful-costs-guests-attend-126788919",
         "source": "ABC News Business",
         "pubDate": "2025-10-23T11:57:57.000Z",
-        "relevanceScore": 25.54,
+        "relevanceScore": 25.47,
         "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T04:02:29.000Z",
-        "relevanceScore": 69.46,
-        "tags": []
-      },
-      {
-        "title": "Prime Minister Mark Carney says Canada will double its non-US exports as Canadians can't rely on US",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odyvtg/prime_minister_mark_carney_says_canada_will/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T09:38:44.000Z",
-        "relevanceScore": 23.08,
-        "tags": []
-      },
-      {
-        "title": "Putin to skip G20 summit in South Africa over arrest fears",
-        "link": "https://www.reddit.com/r/worldnews/comments/1odyl7q/putin_to_skip_g20_summit_in_south_africa_over/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-23T09:19:13.000Z",
-        "relevanceScore": 23.02,
-        "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Top security researcher shares their bug bounty process",
-        "link": "https://github.blog/security/top-security-researcher-shares-their-bug-bounty-process/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-10-22T16:00:00.000Z",
-        "relevanceScore": 60.55,
-        "tags": [
-          "Security",
-          "Exclusive"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "What a massive thermal battery means for energy storage",
-        "link": "https://www.technologyreview.com/2025/10/23/1126419/thermal-batteries-energy-storage/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-10-23T10:00:00.000Z",
-        "relevanceScore": 42.65,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
-    "health": [
-      {
-        "title": "Health care compromise appears far off as the government shutdown stalemate persists",
-        "link": "https://abcnews.go.com/Business/wireStory/health-care-compromise-appears-off-government-shutdown-stalemate-126786717",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-23T11:09:39.000Z",
-        "relevanceScore": 38.88,
-        "tags": [
-          "Controversy"
-        ]
       }
     ],
     "finance": [
+      {
+        "title": "US home sales accelerated in September to their fastest pace since February",
+        "link": "https://abcnews.go.com/Business/wireStory/us-home-sales-accelerated-september-fastest-pace-february-126795842",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-23T14:31:00.000Z",
+        "relevanceScore": 70.98,
+        "tags": [
+          "Business"
+        ]
+      },
       {
         "title": "Starter homes are scarce. But homebuyers can improve their odds",
         "link": "https://www.npr.org/2025/10/23/nx-s1-5582442/starter-homes-housing-mortgage-rates",
         "source": "NPR Business",
         "pubDate": "2025-10-23T09:00:00.000Z",
-        "relevanceScore": 27.95,
+        "relevanceScore": 27.87,
         "tags": [
           "Business",
           "Exclusive"
@@ -1236,36 +1104,97 @@
         "link": "https://www.reddit.com/r/technology/comments/1oe0ikn/valve_just_crashed_the_high_end_counterstrike/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-23T11:15:58.000Z",
-        "relevanceScore": 21.4,
+        "relevanceScore": 21.33,
         "tags": [
           "Business"
         ]
       }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Top security researcher shares their bug bounty process",
+        "link": "https://github.blog/security/top-security-researcher-shares-their-bug-bounty-process/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-10-22T16:00:00.000Z",
+        "relevanceScore": 66.97,
+        "tags": [
+          "Security",
+          "Exclusive"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1337, Part 1 (Thread #1484)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odtj7y/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T04:02:29.000Z",
+        "relevanceScore": 66.88,
+        "tags": []
+      },
+      {
+        "title": "Prime Minister Mark Carney says Canada will double its non-US exports as Canadians can't rely on US",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odyvtg/prime_minister_mark_carney_says_canada_will/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T09:38:44.000Z",
+        "relevanceScore": 23,
+        "tags": []
+      },
+      {
+        "title": "Putin to skip G20 summit in South Africa over arrest fears",
+        "link": "https://www.reddit.com/r/worldnews/comments/1odyl7q/putin_to_skip_g20_summit_in_south_africa_over/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-23T09:19:13.000Z",
+        "relevanceScore": 22.94,
+        "tags": []
+      }
+    ],
+    "science": [
+      {
+        "title": "What a massive thermal battery means for energy storage",
+        "link": "https://www.technologyreview.com/2025/10/23/1126419/thermal-batteries-energy-storage/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-10-23T10:00:00.000Z",
+        "relevanceScore": 43.07,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Tesla profits slide despite record revenue",
+        "link": "https://www.bbc.com/news/articles/cql9yqxllqdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-10-23T02:14:21.000Z",
+        "relevanceScore": 23.52,
+        "tags": []
+      }
     ]
   },
   "stats": {
-    "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 239.1820000000001,
+    "totalSources": 15,
+    "totalCategories": 15,
+    "avgRelevanceScore": 202.03313725490196,
     "topCategories": [
       {
         "category": "tech",
-        "count": 13
+        "count": 12
       },
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 8
       },
       {
         "category": "general",
         "count": 5
       },
       {
-        "category": "mobile",
-        "count": 3
+        "category": "development",
+        "count": 4
       },
       {
-        "category": "automotive",
+        "category": "mobile",
         "count": 3
       }
     ]
