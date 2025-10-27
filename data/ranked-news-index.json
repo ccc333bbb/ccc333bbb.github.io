@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2025-10-27T10:43:55.563Z",
+  "lastUpdated": "2025-10-27T10:53:30.310Z",
   "totalArticles": 42,
   "categories": [
     "tech",
     "ai-ml",
     "health",
-    "world",
     "mobile",
     "climate",
-    "gaming",
+    "world",
+    "cloud",
     "development",
+    "gaming",
+    "education",
+    "cybersecurity",
     "general",
     "business",
-    "cybersecurity",
-    "education",
     "social"
   ],
   "topArticles": [
@@ -23,8 +24,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-10-27T09:17:37.000Z",
-      "relevanceScore": 887.71,
-      "recommendationScore": 888.21,
+      "relevanceScore": 896.68,
+      "recommendationScore": 897.18,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -34,8 +35,8 @@
       "source": "Dev.to",
       "category": "ai-ml",
       "pubDate": "2025-10-27T10:39:13.000Z",
-      "relevanceScore": 720.98,
-      "recommendationScore": 721.48,
+      "relevanceScore": 640.95,
+      "recommendationScore": 641.45,
       "tags": [
         "AI",
         "Tech"
@@ -48,8 +49,8 @@
       "source": "Reddit Technology",
       "category": "health",
       "pubDate": "2025-10-27T00:53:58.000Z",
-      "relevanceScore": 446.03,
-      "recommendationScore": 446.53,
+      "relevanceScore": 447,
+      "recommendationScore": 447.5,
       "tags": [
         "Science",
         "Report"
@@ -57,13 +58,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Adobe’s Project Indigo camera finally adds iPhone 17 support",
+      "link": "https://www.theverge.com/news/806779/adobes-project-indigo-camera-finally-adds-iphone-17-support",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-10-26T15:17:22.000Z",
+      "relevanceScore": 271.08,
+      "recommendationScore": 271.58,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Rise of the Killer Chatbots",
       "link": "https://www.wired.com/story/ai-weapon-anduril-llms-drones/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-10-27T10:00:00.000Z",
-      "relevanceScore": 350.85,
-      "recommendationScore": 350.85,
+      "relevanceScore": 258.82,
+      "recommendationScore": 258.82,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -73,8 +87,19 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-10-27T09:00:37.000Z",
-      "relevanceScore": 348.66,
-      "recommendationScore": 349.66,
+      "relevanceScore": 256.62,
+      "recommendationScore": 257.62,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Whale and dolphin migrations are being disrupted by climate change",
+      "link": "https://arstechnica.com/science/2025/10/whale-and-dolphin-migrations-are-being-disrupted-by-climate-change/",
+      "source": "Ars Technica",
+      "category": "climate",
+      "pubDate": "2025-10-25T11:00:09.000Z",
+      "relevanceScore": 249.42,
+      "recommendationScore": 249.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -84,8 +109,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-10-27T09:40:08.000Z",
-      "relevanceScore": 307.29,
-      "recommendationScore": 311.29,
+      "relevanceScore": 225.76,
+      "recommendationScore": 229.76,
       "tags": [
         "Web"
       ],
@@ -97,45 +122,23 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-10-27T06:32:43.000Z",
-      "relevanceScore": 307.16,
-      "recommendationScore": 307.66,
+      "relevanceScore": 216.13,
+      "recommendationScore": 216.63,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Adobe’s Project Indigo camera finally adds iPhone 17 support",
-      "link": "https://www.theverge.com/news/806779/adobes-project-indigo-camera-finally-adds-iphone-17-support",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-10-26T15:17:22.000Z",
-      "relevanceScore": 266.11,
-      "recommendationScore": 266.61,
+      "title": "Your data, their rules: The growing risks of hosting EU data in the US cloud",
+      "link": "https://www.reddit.com/r/programming/comments/1ohapof/your_data_their_rules_the_growing_risks_of/",
+      "source": "Reddit Programming",
+      "category": "cloud",
+      "pubDate": "2025-10-27T10:22:42.000Z",
+      "relevanceScore": 207.4,
+      "recommendationScore": 207.9,
       "tags": [
-        "Mobile"
+        "Cloud"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Whale and dolphin migrations are being disrupted by climate change",
-      "link": "https://arstechnica.com/science/2025/10/whale-and-dolphin-migrations-are-being-disrupted-by-climate-change/",
-      "source": "Ars Technica",
-      "category": "climate",
-      "pubDate": "2025-10-25T11:00:09.000Z",
-      "relevanceScore": 249.45,
-      "recommendationScore": 249.95,
-      "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump threatens Canada with 10% extra import tax over anti-tariffs ad",
-      "link": "https://www.npr.org/2025/10/25/g-s1-95116/trump-canada-anti-tariffs-ad-import-tax",
-      "source": "NPR Business",
-      "category": "gaming",
-      "pubDate": "2025-10-25T22:07:35.000Z",
-      "relevanceScore": 239.18,
-      "recommendationScore": 239.68,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "Here’s what ads on your $2,000 Samsung smart fridge will look like",
@@ -143,8 +146,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2025-10-27T10:00:00.000Z",
-      "relevanceScore": 198.35,
-      "recommendationScore": 200.35,
+      "relevanceScore": 207.32,
+      "recommendationScore": 209.32,
       "tags": [
         "Mobile",
         "Exclusive"
@@ -157,8 +160,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-26T16:05:00.000Z",
-      "relevanceScore": 171.27,
-      "recommendationScore": 171.27,
+      "relevanceScore": 178.24,
+      "recommendationScore": 178.24,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -168,151 +171,23 @@
       "source": "Dev.to",
       "category": "development",
       "pubDate": "2025-10-27T10:39:56.000Z",
-      "relevanceScore": 170.99,
-      "recommendationScore": 172.99,
+      "relevanceScore": 177.95,
+      "recommendationScore": 179.95,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Hundreds of People With ‘Top Secret’ Clearance Exposed by House Democrats’ Website",
-      "link": "https://www.wired.com/story/hundreds-of-people-with-top-secret-clearance-exposed-by-house-democrats-website/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-10-27T10:30:00.000Z",
-      "relevanceScore": 160.45,
-      "recommendationScore": 161.95,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI is reportedly working on an AI music-generation tool",
-      "link": "https://www.engadget.com/openai-is-reportedly-working-on-an-ai-music-generation-tool-204208186.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-10-26T20:42:08.000Z",
-      "relevanceScore": 151.69,
-      "recommendationScore": 152.19,
-      "tags": [
-        "AI",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI’s Next Frontier? An Algorithm for Consciousness",
-      "link": "https://www.wired.com/story/ai-sentient-consciousness-algorithm/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-10-27T10:00:00.000Z",
-      "relevanceScore": 143.35,
-      "recommendationScore": 143.35,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How Guitar Hero made everybody a rock star",
-      "link": "https://www.theverge.com/podcast/806168/guitar-hero-game-version-history",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-10-26T14:41:11.000Z",
-      "relevanceScore": 140.49,
-      "recommendationScore": 141.99,
+      "title": "Trump threatens Canada with 10% extra import tax over anti-tariffs ad",
+      "link": "https://www.npr.org/2025/10/25/g-s1-95116/trump-canada-anti-tariffs-ad-import-tax",
+      "source": "NPR Business",
+      "category": "gaming",
+      "pubDate": "2025-10-25T22:07:35.000Z",
+      "relevanceScore": 148.65,
+      "recommendationScore": 149.15,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "ChatGPT's new browser has potential, if you're willing to pay",
-      "link": "https://www.bbc.com/news/articles/c20pdy1exxvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-10-25T23:24:03.000Z",
-      "relevanceScore": 123.93,
-      "recommendationScore": 126.43,
-      "tags": [
-        "Business",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Inside Syria's jail for IS suspects as officials say attacks by group are rising",
-      "link": "https://www.bbc.com/news/articles/cze6y5x8np8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-26T22:04:29.000Z",
-      "relevanceScore": 121.47,
-      "recommendationScore": 121.97,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why so many UK homes are still dangerously mouldy - years after this toddler was killed",
-      "link": "https://www.bbc.com/news/articles/cpwvzxzzxrxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-27T00:01:37.000Z",
-      "relevanceScore": 121.36,
-      "recommendationScore": 123.36,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "AI and the End of Accents",
-      "link": "https://www.wired.com/story/ai-americanizer-end-accents/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-10-27T10:00:00.000Z",
-      "relevanceScore": 117.85,
-      "recommendationScore": 117.85,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Asian shares gain Japan's Nikkei tops 50,000 level, as Trump seeks trade deals",
-      "link": "https://abcnews.go.com/Business/wireStory/asian-shares-gain-japans-nikkei-tops-50000-level-126889753",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-10-27T05:57:47.000Z",
-      "relevanceScore": 117.05,
-      "recommendationScore": 118.55,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1341, Part 1 (Thread #1488)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1oh4uo9/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-27T04:02:33.000Z",
-      "relevanceScore": 114.66,
-      "recommendationScore": 117.16,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "CBP will photograph non-citizens entering and exiting the US for its facial recognition database",
-      "link": "https://www.engadget.com/cybersecurity/cbp-will-photograph-non-citizens-entering-and-exiting-the-us-for-its-facial-recognition-database-184557905.html?src=rss",
-      "source": "Engadget",
-      "category": "cybersecurity",
-      "pubDate": "2025-10-26T18:45:57.000Z",
-      "relevanceScore": 76.31,
-      "recommendationScore": 76.81,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Extremely fast data compression library",
@@ -320,20 +195,50 @@
       "source": "Reddit Programming",
       "category": "education",
       "pubDate": "2025-10-27T09:46:09.000Z",
-      "relevanceScore": 68.31,
-      "recommendationScore": 68.31,
+      "relevanceScore": 103.28,
+      "recommendationScore": 103.28,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Explosions shake Moscow streets as drones spread chaos across Russia's capital",
-      "link": "https://www.reddit.com/r/worldnews/comments/1oh0koc/explosions_shake_moscow_streets_as_drones_spread/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-10-27T00:29:33.000Z",
-      "relevanceScore": 52.45,
-      "recommendationScore": 52.95,
-      "tags": [],
+      "title": "OpenAI is reportedly working on an AI music-generation tool",
+      "link": "https://www.engadget.com/openai-is-reportedly-working-on-an-ai-music-generation-tool-204208186.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-10-26T20:42:08.000Z",
+      "relevanceScore": 94.66,
+      "recommendationScore": 95.16,
+      "tags": [
+        "AI",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "5 Weeks of Learning: Week4",
+      "link": "https://dev.to/akshitaexe/5-weeks-of-learning-week4-1gf6",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2025-10-27T10:36:00.000Z",
+      "relevanceScore": 82.94,
+      "recommendationScore": 82.94,
+      "tags": [
+        "Report",
+        "Update"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI’s Next Frontier? An Algorithm for Consciousness",
+      "link": "https://www.wired.com/story/ai-sentient-consciousness-algorithm/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-10-27T10:00:00.000Z",
+      "relevanceScore": 53.32,
+      "recommendationScore": 53.32,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -342,37 +247,72 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-26T18:57:28.000Z",
-      "relevanceScore": 50.35,
-      "recommendationScore": 50.85,
+      "relevanceScore": 52.31,
+      "recommendationScore": 52.81,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "5 Weeks of Learning: Week4",
-      "link": "https://dev.to/akshitaexe/5-weeks-of-learning-week4-1gf6",
-      "source": "Dev.to",
-      "category": "education",
-      "pubDate": "2025-10-27T10:36:00.000Z",
-      "relevanceScore": 49.47,
-      "recommendationScore": 49.47,
-      "tags": [
-        "Report",
-        "Update"
-      ],
-      "readingLevel": "intermediate"
+      "title": "How Guitar Hero made everybody a rock star",
+      "link": "https://www.theverge.com/podcast/806168/guitar-hero-game-version-history",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-10-26T14:41:11.000Z",
+      "relevanceScore": 50.46,
+      "recommendationScore": 51.96,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
-      "title": "Home Office squandered billions on asylum hotels, MPs say",
-      "link": "https://www.bbc.com/news/articles/cr43ww32xx0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-10-27T09:46:22.000Z",
-      "relevanceScore": 31.81,
-      "recommendationScore": 32.31,
+      "title": "CBP will photograph non-citizens entering and exiting the US for its facial recognition database",
+      "link": "https://www.engadget.com/cybersecurity/cbp-will-photograph-non-citizens-entering-and-exiting-the-us-for-its-facial-recognition-database-184557905.html?src=rss",
+      "source": "Engadget",
+      "category": "cybersecurity",
+      "pubDate": "2025-10-26T18:45:57.000Z",
+      "relevanceScore": 49.77,
+      "recommendationScore": 50.27,
       "tags": [
-        "Report"
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Explosions shake Moscow streets as drones spread chaos across Russia's capital",
+      "link": "https://www.reddit.com/r/worldnews/comments/1oh0koc/explosions_shake_moscow_streets_as_drones_spread/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-27T00:29:33.000Z",
+      "relevanceScore": 43.42,
+      "recommendationScore": 43.92,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Hundreds of People With ‘Top Secret’ Clearance Exposed by House Democrats’ Website",
+      "link": "https://www.wired.com/story/hundreds-of-people-with-top-secret-clearance-exposed-by-house-democrats-website/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-10-27T10:30:00.000Z",
+      "relevanceScore": 40.42,
+      "recommendationScore": 41.92,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "ChatGPT's new browser has potential, if you're willing to pay",
+      "link": "https://www.bbc.com/news/articles/c20pdy1exxvo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-10-25T23:24:03.000Z",
+      "relevanceScore": 33.4,
+      "recommendationScore": 35.9,
+      "tags": [
+        "Business",
+        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -381,11 +321,24 @@
       "link": "https://www.bbc.com/news/articles/c70jrrgjp9xo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-10-27T08:03:59.000Z",
-      "relevanceScore": 31.47,
-      "recommendationScore": 31.97,
+      "pubDate": "2025-10-27T10:46:20.000Z",
+      "relevanceScore": 31.98,
+      "recommendationScore": 32.48,
       "tags": [
         "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Home Office squandered billions on asylum hotels, MPs say",
+      "link": "https://www.bbc.com/news/articles/cr43ww32xx0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-27T09:46:22.000Z",
+      "relevanceScore": 31.78,
+      "recommendationScore": 32.28,
+      "tags": [
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -395,8 +348,32 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-10-27T06:01:02.000Z",
-      "relevanceScore": 31.06,
-      "recommendationScore": 31.56,
+      "relevanceScore": 31.03,
+      "recommendationScore": 31.53,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why so many UK homes are still dangerously mouldy - years after this toddler was killed",
+      "link": "https://www.bbc.com/news/articles/cpwvzxzzxrxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-27T00:01:37.000Z",
+      "relevanceScore": 29.33,
+      "recommendationScore": 31.33,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Boy thrown from Tate Modern can now run, jump and swim",
+      "link": "https://www.bbc.com/news/articles/cdx4598el5eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-10-26T19:24:58.000Z",
+      "relevanceScore": 28.9,
+      "recommendationScore": 29.4,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -406,10 +383,23 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-10-27T10:26:54.000Z",
-      "relevanceScore": 27.94,
-      "recommendationScore": 29.94,
+      "relevanceScore": 27.91,
+      "recommendationScore": 29.91,
       "tags": [
         "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI and the End of Accents",
+      "link": "https://www.wired.com/story/ai-americanizer-end-accents/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-10-27T10:00:00.000Z",
+      "relevanceScore": 25.82,
+      "recommendationScore": 25.82,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "intermediate"
     },
@@ -419,8 +409,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-10-26T23:30:00.000Z",
-      "relevanceScore": 25.75,
-      "recommendationScore": 26.25,
+      "relevanceScore": 25.72,
+      "recommendationScore": 26.22,
       "tags": [
         "Business",
         "Funding",
@@ -434,12 +424,25 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-27T06:45:41.000Z",
-      "relevanceScore": 25.21,
-      "recommendationScore": 25.71,
+      "relevanceScore": 25.17,
+      "recommendationScore": 25.67,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Asian shares gain Japan's Nikkei tops 50,000 level, as Trump seeks trade deals",
+      "link": "https://abcnews.go.com/Business/wireStory/asian-shares-gain-japans-nikkei-tops-50000-level-126889753",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-10-27T05:57:47.000Z",
+      "relevanceScore": 25.01,
+      "recommendationScore": 26.51,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Brazilian farmers beef up soybean production as China halts business with US during trade fight",
@@ -447,8 +450,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-10-27T05:57:54.000Z",
-      "relevanceScore": 25.05,
-      "recommendationScore": 25.55,
+      "relevanceScore": 25.01,
+      "recommendationScore": 25.51,
       "tags": [
         "Business"
       ],
@@ -460,8 +463,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-10-26T19:38:39.000Z",
-      "relevanceScore": 24.98,
-      "recommendationScore": 24.98,
+      "relevanceScore": 24.95,
+      "recommendationScore": 24.95,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -471,8 +474,8 @@
       "source": "TechCrunch",
       "category": "social",
       "pubDate": "2025-10-26T17:29:27.000Z",
-      "relevanceScore": 24.55,
-      "recommendationScore": 25.05,
+      "relevanceScore": 24.52,
+      "recommendationScore": 25.02,
       "tags": [
         "Social",
         "Partnership"
@@ -480,13 +483,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1341, Part 1 (Thread #1488)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1oh4uo9/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-10-27T04:02:33.000Z",
+      "relevanceScore": 22.63,
+      "recommendationScore": 25.13,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "You need to listen to the brutally oppressive I’ve Seen All I Need to See",
       "link": "https://www.theverge.com/column/806767/you-need-to-listen-to-the-body-ive-seen-all-i-need-to-see",
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-10-26T16:00:00.000Z",
-      "relevanceScore": 21.25,
-      "recommendationScore": 21.75,
+      "relevanceScore": 21.22,
+      "recommendationScore": 21.72,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -496,8 +510,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-10-26T23:31:12.000Z",
-      "relevanceScore": 19.76,
-      "recommendationScore": 20.26,
+      "relevanceScore": 19.73,
+      "recommendationScore": 20.23,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -507,8 +521,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-10-26T22:58:14.000Z",
-      "relevanceScore": 19.65,
-      "recommendationScore": 20.15,
+      "relevanceScore": 19.62,
+      "recommendationScore": 20.12,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -518,21 +532,10 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-10-26T16:59:09.000Z",
-      "relevanceScore": 18.45,
-      "recommendationScore": 18.45,
+      "relevanceScore": 18.42,
+      "recommendationScore": 18.42,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Maybe the 9-5 Isn’t So Bad After All",
-      "link": "https://www.reddit.com/r/programming/comments/1ogp3v1/maybe_the_95_isnt_so_bad_after_all/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-10-26T16:33:39.000Z",
-      "relevanceScore": 17.87,
-      "recommendationScore": 17.87,
-      "tags": [],
-      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
@@ -542,7 +545,7 @@
         "link": "https://www.engadget.com/our-favorite-2025-advent-calendars-from-pokemon-lego-magna-tiles-funko-pop-and-more-120042823.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-27T09:17:37.000Z",
-        "relevanceScore": 887.71,
+        "relevanceScore": 896.68,
         "tags": []
       },
       {
@@ -550,7 +553,7 @@
         "link": "https://www.wired.com/story/ai-weapon-anduril-llms-drones/",
         "source": "Wired",
         "pubDate": "2025-10-27T10:00:00.000Z",
-        "relevanceScore": 350.85,
+        "relevanceScore": 258.82,
         "tags": []
       },
       {
@@ -558,7 +561,7 @@
         "link": "https://www.engadget.com/audio/headphones/best-wireless-workout-headphones-191517835.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-27T09:00:37.000Z",
-        "relevanceScore": 348.66,
+        "relevanceScore": 256.62,
         "tags": []
       },
       {
@@ -566,25 +569,7 @@
         "link": "https://techcrunch.com/2025/10/26/techcrunch-mobility-the-robot-army-argument/",
         "source": "TechCrunch",
         "pubDate": "2025-10-26T16:05:00.000Z",
-        "relevanceScore": 171.27,
-        "tags": []
-      },
-      {
-        "title": "Hundreds of People With ‘Top Secret’ Clearance Exposed by House Democrats’ Website",
-        "link": "https://www.wired.com/story/hundreds-of-people-with-top-secret-clearance-exposed-by-house-democrats-website/",
-        "source": "Wired",
-        "pubDate": "2025-10-27T10:30:00.000Z",
-        "relevanceScore": 160.45,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "How Guitar Hero made everybody a rock star",
-        "link": "https://www.theverge.com/podcast/806168/guitar-hero-game-version-history",
-        "source": "The Verge",
-        "pubDate": "2025-10-26T14:41:11.000Z",
-        "relevanceScore": 140.49,
+        "relevanceScore": 178.24,
         "tags": []
       },
       {
@@ -592,9 +577,27 @@
         "link": "https://techcrunch.com/2025/10/26/techcrunch-disrupt-2025-begins-in-less-than-24-hours-catch-our-last-ticket-deals/",
         "source": "TechCrunch",
         "pubDate": "2025-10-26T18:57:28.000Z",
-        "relevanceScore": 50.35,
+        "relevanceScore": 52.31,
         "tags": [
           "Partnership"
+        ]
+      },
+      {
+        "title": "How Guitar Hero made everybody a rock star",
+        "link": "https://www.theverge.com/podcast/806168/guitar-hero-game-version-history",
+        "source": "The Verge",
+        "pubDate": "2025-10-26T14:41:11.000Z",
+        "relevanceScore": 50.46,
+        "tags": []
+      },
+      {
+        "title": "Hundreds of People With ‘Top Secret’ Clearance Exposed by House Democrats’ Website",
+        "link": "https://www.wired.com/story/hundreds-of-people-with-top-secret-clearance-exposed-by-house-democrats-website/",
+        "source": "Wired",
+        "pubDate": "2025-10-27T10:30:00.000Z",
+        "relevanceScore": 40.42,
+        "tags": [
+          "Web"
         ]
       },
       {
@@ -602,7 +605,7 @@
         "link": "https://techcrunch.com/2025/10/26/accel-and-prosus-team-up-to-back-early-stage-indian-startups-building-for-1-4b-people/",
         "source": "TechCrunch",
         "pubDate": "2025-10-26T23:30:00.000Z",
-        "relevanceScore": 25.75,
+        "relevanceScore": 25.72,
         "tags": [
           "Business",
           "Funding",
@@ -614,7 +617,7 @@
         "link": "https://www.theverge.com/column/806767/you-need-to-listen-to-the-body-ive-seen-all-i-need-to-see",
         "source": "The Verge",
         "pubDate": "2025-10-26T16:00:00.000Z",
-        "relevanceScore": 21.25,
+        "relevanceScore": 21.22,
         "tags": []
       },
       {
@@ -622,7 +625,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1ogzbtg/youtuber_mr_crafty_pants_arrested_for_alleged/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-26T23:31:12.000Z",
-        "relevanceScore": 19.76,
+        "relevanceScore": 19.73,
         "tags": []
       },
       {
@@ -630,7 +633,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1ogyl0q/australia_takes_microsoft_to_court_says_it_misled/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-26T22:58:14.000Z",
-        "relevanceScore": 19.65,
+        "relevanceScore": 19.62,
         "tags": []
       }
     ],
@@ -640,7 +643,7 @@
         "link": "https://dev.to/braimer/farmsmart-maintainer-spotlight-your-ai-powered-farming-companion-5725",
         "source": "Dev.to",
         "pubDate": "2025-10-27T10:39:13.000Z",
-        "relevanceScore": 720.98,
+        "relevanceScore": 640.95,
         "tags": [
           "AI",
           "Tech"
@@ -651,7 +654,7 @@
         "link": "https://www.technologyreview.com/2025/10/27/1126673/openai-new-atlas-browser/",
         "source": "MIT Technology Review",
         "pubDate": "2025-10-27T09:40:08.000Z",
-        "relevanceScore": 307.29,
+        "relevanceScore": 225.76,
         "tags": [
           "Web"
         ]
@@ -661,7 +664,7 @@
         "link": "https://www.engadget.com/openai-is-reportedly-working-on-an-ai-music-generation-tool-204208186.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-26T20:42:08.000Z",
-        "relevanceScore": 151.69,
+        "relevanceScore": 94.66,
         "tags": [
           "AI",
           "Report"
@@ -672,7 +675,7 @@
         "link": "https://www.wired.com/story/ai-sentient-consciousness-algorithm/",
         "source": "Wired",
         "pubDate": "2025-10-27T10:00:00.000Z",
-        "relevanceScore": 143.35,
+        "relevanceScore": 53.32,
         "tags": [
           "AI"
         ]
@@ -682,7 +685,7 @@
         "link": "https://www.bbc.com/news/articles/c20pdy1exxvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-10-25T23:24:03.000Z",
-        "relevanceScore": 123.93,
+        "relevanceScore": 33.4,
         "tags": [
           "Business",
           "Web"
@@ -693,7 +696,7 @@
         "link": "https://www.wired.com/story/ai-americanizer-end-accents/",
         "source": "Wired",
         "pubDate": "2025-10-27T10:00:00.000Z",
-        "relevanceScore": 117.85,
+        "relevanceScore": 25.82,
         "tags": [
           "AI"
         ]
@@ -705,37 +708,11 @@
         "link": "https://www.reddit.com/r/technology/comments/1oh13rv/covid19_mrna_vaccines_can_trigger_the_immune/",
         "source": "Reddit Technology",
         "pubDate": "2025-10-27T00:53:58.000Z",
-        "relevanceScore": 446.03,
+        "relevanceScore": 447,
         "tags": [
           "Science",
           "Report"
         ]
-      }
-    ],
-    "world": [
-      {
-        "title": "Ukraine destroys Russian Buk air defense system worth $45 million, military says",
-        "link": "https://www.reddit.com/r/worldnews/comments/1oh7aua/ukraine_destroys_russian_buk_air_defense_system/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-27T06:32:43.000Z",
-        "relevanceScore": 307.16,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1341, Part 1 (Thread #1488)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1oh4uo9/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-27T04:02:33.000Z",
-        "relevanceScore": 114.66,
-        "tags": []
-      },
-      {
-        "title": "Explosions shake Moscow streets as drones spread chaos across Russia's capital",
-        "link": "https://www.reddit.com/r/worldnews/comments/1oh0koc/explosions_shake_moscow_streets_as_drones_spread/",
-        "source": "Reddit World News",
-        "pubDate": "2025-10-27T00:29:33.000Z",
-        "relevanceScore": 52.45,
-        "tags": []
       }
     ],
     "mobile": [
@@ -744,7 +721,7 @@
         "link": "https://www.theverge.com/news/806779/adobes-project-indigo-camera-finally-adds-iphone-17-support",
         "source": "The Verge",
         "pubDate": "2025-10-26T15:17:22.000Z",
-        "relevanceScore": 266.11,
+        "relevanceScore": 271.08,
         "tags": [
           "Mobile"
         ]
@@ -754,7 +731,7 @@
         "link": "https://www.theverge.com/report/806797/samsung-family-hub-smart-fridge-ads-opt-out",
         "source": "The Verge",
         "pubDate": "2025-10-27T10:00:00.000Z",
-        "relevanceScore": 198.35,
+        "relevanceScore": 207.32,
         "tags": [
           "Mobile",
           "Exclusive"
@@ -765,7 +742,7 @@
         "link": "https://techcrunch.com/2025/10/26/ads-might-be-coming-to-apple-maps-next-year/",
         "source": "TechCrunch",
         "pubDate": "2025-10-26T19:38:39.000Z",
-        "relevanceScore": 24.98,
+        "relevanceScore": 24.95,
         "tags": []
       }
     ],
@@ -775,18 +752,46 @@
         "link": "https://arstechnica.com/science/2025/10/whale-and-dolphin-migrations-are-being-disrupted-by-climate-change/",
         "source": "Ars Technica",
         "pubDate": "2025-10-25T11:00:09.000Z",
-        "relevanceScore": 249.45,
+        "relevanceScore": 249.42,
         "tags": []
       }
     ],
-    "gaming": [
+    "world": [
       {
-        "title": "Trump threatens Canada with 10% extra import tax over anti-tariffs ad",
-        "link": "https://www.npr.org/2025/10/25/g-s1-95116/trump-canada-anti-tariffs-ad-import-tax",
-        "source": "NPR Business",
-        "pubDate": "2025-10-25T22:07:35.000Z",
-        "relevanceScore": 239.18,
+        "title": "Ukraine destroys Russian Buk air defense system worth $45 million, military says",
+        "link": "https://www.reddit.com/r/worldnews/comments/1oh7aua/ukraine_destroys_russian_buk_air_defense_system/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-27T06:32:43.000Z",
+        "relevanceScore": 216.13,
         "tags": []
+      },
+      {
+        "title": "Explosions shake Moscow streets as drones spread chaos across Russia's capital",
+        "link": "https://www.reddit.com/r/worldnews/comments/1oh0koc/explosions_shake_moscow_streets_as_drones_spread/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-27T00:29:33.000Z",
+        "relevanceScore": 43.42,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1341, Part 1 (Thread #1488)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1oh4uo9/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-10-27T04:02:33.000Z",
+        "relevanceScore": 22.63,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Your data, their rules: The growing risks of hosting EU data in the US cloud",
+        "link": "https://www.reddit.com/r/programming/comments/1ohapof/your_data_their_rules_the_growing_risks_of/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-27T10:22:42.000Z",
+        "relevanceScore": 207.4,
+        "tags": [
+          "Cloud"
+        ]
       }
     ],
     "development": [
@@ -795,7 +800,7 @@
         "link": "https://dev.to/leo_johnson_e34af4a6d9bd9/how-to-use-behavioral-scoring-in-b2b-outbound-strategies-1je6",
         "source": "Dev.to",
         "pubDate": "2025-10-27T10:39:56.000Z",
-        "relevanceScore": 170.99,
+        "relevanceScore": 177.95,
         "tags": [
           "Tutorial"
         ]
@@ -805,105 +810,38 @@
         "link": "https://www.reddit.com/r/programming/comments/1ogpqoh/lists_are_geometric_series/",
         "source": "Reddit Programming",
         "pubDate": "2025-10-26T16:59:09.000Z",
-        "relevanceScore": 18.45,
-        "tags": []
-      },
-      {
-        "title": "Maybe the 9-5 Isn’t So Bad After All",
-        "link": "https://www.reddit.com/r/programming/comments/1ogp3v1/maybe_the_95_isnt_so_bad_after_all/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-26T16:33:39.000Z",
-        "relevanceScore": 17.87,
+        "relevanceScore": 18.42,
         "tags": []
       }
     ],
-    "general": [
+    "gaming": [
       {
-        "title": "Inside Syria's jail for IS suspects as officials say attacks by group are rising",
-        "link": "https://www.bbc.com/news/articles/cze6y5x8np8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-26T22:04:29.000Z",
-        "relevanceScore": 121.47,
-        "tags": []
-      },
-      {
-        "title": "Why so many UK homes are still dangerously mouldy - years after this toddler was killed",
-        "link": "https://www.bbc.com/news/articles/cpwvzxzzxrxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-27T00:01:37.000Z",
-        "relevanceScore": 121.36,
-        "tags": [
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Home Office squandered billions on asylum hotels, MPs say",
-        "link": "https://www.bbc.com/news/articles/cr43ww32xx0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-27T09:46:22.000Z",
-        "relevanceScore": 31.81,
-        "tags": [
-          "Report"
-        ]
-      },
-      {
-        "title": "Prisons begin extra checks after migrant sex offender released in error",
-        "link": "https://www.bbc.com/news/articles/c70jrrgjp9xo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-27T08:03:59.000Z",
-        "relevanceScore": 31.47,
-        "tags": [
-          "Launch"
-        ]
-      },
-      {
-        "title": "International troops won't want to enforce Gaza peace, says King of Jordan",
-        "link": "https://www.bbc.com/news/articles/cge5ngz11xpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-10-27T06:01:02.000Z",
-        "relevanceScore": 31.06,
-        "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "Asian shares gain Japan's Nikkei tops 50,000 level, as Trump seeks trade deals",
-        "link": "https://abcnews.go.com/Business/wireStory/asian-shares-gain-japans-nikkei-tops-50000-level-126889753",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-27T05:57:47.000Z",
-        "relevanceScore": 117.05,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Why public media giants NPR and CPB are fighting in court this week",
-        "link": "https://www.npr.org/2025/10/27/nx-s1-5586147/npr-cpb-lawsuit-political-pressure",
+        "title": "Trump threatens Canada with 10% extra import tax over anti-tariffs ad",
+        "link": "https://www.npr.org/2025/10/25/g-s1-95116/trump-canada-anti-tariffs-ad-import-tax",
         "source": "NPR Business",
-        "pubDate": "2025-10-27T10:26:54.000Z",
-        "relevanceScore": 27.94,
-        "tags": [
-          "IPO"
-        ]
+        "pubDate": "2025-10-25T22:07:35.000Z",
+        "relevanceScore": 148.65,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Extremely fast data compression library",
+        "link": "https://www.reddit.com/r/programming/comments/1oha4zd/extremely_fast_data_compression_library/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-10-27T09:46:09.000Z",
+        "relevanceScore": 103.28,
+        "tags": []
       },
       {
-        "title": "Lula is optimistic there will be a US-Brazil trade deal after meeting with Trump in Malaysia",
-        "link": "https://abcnews.go.com/Business/wireStory/lula-optimistic-us-brazil-trade-deal-after-meeting-126890340",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-27T06:45:41.000Z",
-        "relevanceScore": 25.21,
+        "title": "5 Weeks of Learning: Week4",
+        "link": "https://dev.to/akshitaexe/5-weeks-of-learning-week4-1gf6",
+        "source": "Dev.to",
+        "pubDate": "2025-10-27T10:36:00.000Z",
+        "relevanceScore": 82.94,
         "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Brazilian farmers beef up soybean production as China halts business with US during trade fight",
-        "link": "https://abcnews.go.com/Business/wireStory/brazilian-farmers-beef-soybean-production-china-halts-business-126889791",
-        "source": "ABC News Business",
-        "pubDate": "2025-10-27T05:57:54.000Z",
-        "relevanceScore": 25.05,
-        "tags": [
-          "Business"
+          "Report",
+          "Update"
         ]
       }
     ],
@@ -913,30 +851,99 @@
         "link": "https://www.engadget.com/cybersecurity/cbp-will-photograph-non-citizens-entering-and-exiting-the-us-for-its-facial-recognition-database-184557905.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-10-26T18:45:57.000Z",
-        "relevanceScore": 76.31,
+        "relevanceScore": 49.77,
         "tags": [
           "Security"
         ]
       }
     ],
-    "education": [
+    "general": [
       {
-        "title": "Extremely fast data compression library",
-        "link": "https://www.reddit.com/r/programming/comments/1oha4zd/extremely_fast_data_compression_library/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-10-27T09:46:09.000Z",
-        "relevanceScore": 68.31,
+        "title": "Prisons begin extra checks after migrant sex offender released in error",
+        "link": "https://www.bbc.com/news/articles/c70jrrgjp9xo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-27T10:46:20.000Z",
+        "relevanceScore": 31.98,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "Home Office squandered billions on asylum hotels, MPs say",
+        "link": "https://www.bbc.com/news/articles/cr43ww32xx0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-27T09:46:22.000Z",
+        "relevanceScore": 31.78,
+        "tags": [
+          "Report"
+        ]
+      },
+      {
+        "title": "International troops won't want to enforce Gaza peace, says King of Jordan",
+        "link": "https://www.bbc.com/news/articles/cge5ngz11xpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-27T06:01:02.000Z",
+        "relevanceScore": 31.03,
         "tags": []
       },
       {
-        "title": "5 Weeks of Learning: Week4",
-        "link": "https://dev.to/akshitaexe/5-weeks-of-learning-week4-1gf6",
-        "source": "Dev.to",
-        "pubDate": "2025-10-27T10:36:00.000Z",
-        "relevanceScore": 49.47,
+        "title": "Why so many UK homes are still dangerously mouldy - years after this toddler was killed",
+        "link": "https://www.bbc.com/news/articles/cpwvzxzzxrxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-27T00:01:37.000Z",
+        "relevanceScore": 29.33,
         "tags": [
-          "Report",
-          "Update"
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Boy thrown from Tate Modern can now run, jump and swim",
+        "link": "https://www.bbc.com/news/articles/cdx4598el5eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-10-26T19:24:58.000Z",
+        "relevanceScore": 28.9,
+        "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "Why public media giants NPR and CPB are fighting in court this week",
+        "link": "https://www.npr.org/2025/10/27/nx-s1-5586147/npr-cpb-lawsuit-political-pressure",
+        "source": "NPR Business",
+        "pubDate": "2025-10-27T10:26:54.000Z",
+        "relevanceScore": 27.91,
+        "tags": [
+          "IPO"
+        ]
+      },
+      {
+        "title": "Lula is optimistic there will be a US-Brazil trade deal after meeting with Trump in Malaysia",
+        "link": "https://abcnews.go.com/Business/wireStory/lula-optimistic-us-brazil-trade-deal-after-meeting-126890340",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-27T06:45:41.000Z",
+        "relevanceScore": 25.17,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Asian shares gain Japan's Nikkei tops 50,000 level, as Trump seeks trade deals",
+        "link": "https://abcnews.go.com/Business/wireStory/asian-shares-gain-japans-nikkei-tops-50000-level-126889753",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-27T05:57:47.000Z",
+        "relevanceScore": 25.01,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Brazilian farmers beef up soybean production as China halts business with US during trade fight",
+        "link": "https://abcnews.go.com/Business/wireStory/brazilian-farmers-beef-soybean-production-china-halts-business-126889791",
+        "source": "ABC News Business",
+        "pubDate": "2025-10-27T05:57:54.000Z",
+        "relevanceScore": 25.01,
+        "tags": [
+          "Business"
         ]
       }
     ],
@@ -946,7 +953,7 @@
         "link": "https://techcrunch.com/2025/10/26/trump-and-xi-will-consummate-tiktok-deal-on-thursday-treasury-secretary-says/",
         "source": "TechCrunch",
         "pubDate": "2025-10-26T17:29:27.000Z",
-        "relevanceScore": 24.55,
+        "relevanceScore": 24.52,
         "tags": [
           "Social",
           "Partnership"
@@ -956,8 +963,8 @@
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 13,
-    "avgRelevanceScore": 157.57190476190482,
+    "totalCategories": 14,
+    "avgRelevanceScore": 129.63690476190473,
     "topCategories": [
       {
         "category": "tech",
@@ -976,7 +983,7 @@
         "count": 4
       },
       {
-        "category": "world",
+        "category": "mobile",
         "count": 3
       }
     ]
