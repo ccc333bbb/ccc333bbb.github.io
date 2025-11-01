@@ -1,7 +1,7 @@
 {
   "date": "2025-11-01",
-  "lastUpdated": "2025-11-01T07:26:49.303Z",
-  "totalArticles": 54,
+  "lastUpdated": "2025-11-01T07:35:57.676Z",
+  "totalArticles": 53,
   "articles": [
     {
       "id": "U2VjdXJpdHkgY29u",
@@ -23,9 +23,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 501.32,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 501.82,
+      "relevanceScore": 503.29,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 503.79,
       "readingLevel": "advanced"
     },
     {
@@ -45,9 +45,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 399.59,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 399.59,
+      "relevanceScore": 450.06,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 450.06,
       "readingLevel": "advanced"
     },
     {
@@ -67,9 +67,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 329.86,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 330.36,
+      "relevanceScore": 330.83,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 331.33,
       "readingLevel": "intermediate"
     },
     {
@@ -89,80 +89,31 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 300.42,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 300.92,
+      "relevanceScore": 294.89,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 295.39,
       "readingLevel": "advanced"
     },
     {
-      "id": "8J+TnSBVbmRlcnN0",
-      "title": "📝 Understanding Transactions, Deadlocks & Log-Based Recovery in SQL 💾",
-      "link": "https://dev.to/bharanika_d24cb005_97900/understanding-transactions-deadlocks-log-based-recovery-in-sql-3cd1",
-      "description": "👋 Introduction Have you ever wondered what happens when two people try to withdraw money from the same bank account at the same time? Databases handle such cases using transactions , locks , and recovery logs to make sure data always stays consistent. In this blog, we’ll explore: How transactions m",
-      "pubDate": "2025-11-01T07:17:56.000Z",
+      "id": "V2h5IFNvbHZpbmcg",
+      "title": "Why Solving Coding Exercises Daily Improves Logic Building",
+      "link": "https://dev.to/quipoin_a9cb84280f6225b1e/why-solving-coding-exercises-daily-improves-logic-building-48i5",
+      "description": "In programming, writing code is not just about syntax — it’s about logic building, problem-solving, and structured thinking. You might read hundreds of tutorials or watch dozens of coding videos, but your real growth begins only when you start solving coding exercises daily. 1. Logic Building Starts",
+      "pubDate": "2025-11-01T07:26:00.000Z",
       "source": "Dev.to",
-      "category": "finance",
+      "category": "development",
       "weight": 6,
-      "content": "👋 Introduction Have you ever wondered what happens when two people try to withdraw money from the same bank account at the same time? Databases handle such cases using transactions , locks , and recovery logs to make sure data always stays consistent. In this blog, we’ll explore: How transactions maintain atomicity What a deadlock is and how it’s detected How log-based recovery ensures data safety after a crash CREATE TABLE Accounts ( acc_no INT PRIMARY KEY, name VARCHAR(50), balance INT ); INS",
-      "author": "BHARANIKA D 24CB005",
+      "content": "In programming, writing code is not just about syntax — it’s about logic building, problem-solving, and structured thinking. You might read hundreds of tutorials or watch dozens of coding videos, but your real growth begins only when you start solving coding exercises daily. 1. Logic Building Starts with Practice Coding is like learning a new language — you don’t become fluent just by reading grammar rules. Similarly, you can’t become a good programmer by only reading code — you need to write, d",
+      "author": "Quipoin",
       "readTime": 1,
-      "importance": 6,
+      "importance": 8,
       "tags": [],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 238.97,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 239.47,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "Rmlyc3QgVUsgcGhv",
-      "title": "First UK phones to get satellite connectivity in signal blackspots announced",
-      "link": "https://www.bbc.com/news/articles/c993m88jer9o?at_medium=RSS&at_campaign=rss",
-      "description": "Virgin Media O2 has partnered with Elon Musk firm Starlink to offer the service.",
-      "pubDate": "2025-10-30T07:31:02.000Z",
-      "source": "BBC Technology",
-      "category": "space",
-      "weight": 9,
-      "content": "Virgin Media O2 has partnered with Elon Musk firm Starlink to offer the service.",
-      "author": "BBC Technology",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Exclusive"
-      ],
-      "sentiment": "neutral",
+      "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 277.41,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 279.91,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "UmVmbGVjdGlvbnMg",
-      "title": "Reflections on the AWS & Azure Outages",
-      "link": "https://dev.to/this-is-learning/reflections-on-the-aws-azure-outages-4iok",
-      "description": "AWS and Azure, two of the largest cloud providers having a market share of ~30% and ~23% respectively (as of 2025), experienced large scale outages recently. These outages affected multiple interdependent services. In this post, I will explore what are the implications of these outages, what can be ",
-      "pubDate": "2025-11-01T07:19:35.000Z",
-      "source": "Dev.to",
-      "category": "cloud",
-      "weight": 6,
-      "content": "AWS and Azure, two of the largest cloud providers having a market share of ~30% and ~23% respectively (as of 2025), experienced large scale outages recently. These outages affected multiple interdependent services. In this post, I will explore what are the implications of these outages, what can be done about them, and how fragile the web really is. AWS Outage - October 19, 2025 The AWS Outage on October 19, 2025 began with Amazon's Dynamo DB service — a serverless, managed, NoSQL database servi",
-      "author": "Murtuzaali Surti",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Business",
-        "Cloud"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 241.48,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 241.48,
+      "relevanceScore": 200.97,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 202.97,
       "readingLevel": "intermediate"
     },
     {
@@ -188,9 +139,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 208.6,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 209.1,
+      "relevanceScore": 211.57,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 212.07,
       "readingLevel": "advanced"
     },
     {
@@ -210,9 +161,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 203.51,
-      "calculatedAt": "2025-11-01T07:26:49.392Z",
-      "recommendationScore": 204.01,
+      "relevanceScore": 206.48,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 206.98,
       "readingLevel": "advanced"
     },
     {
@@ -234,10 +185,34 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "review",
-      "relevanceScore": 103.76,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 105.76,
+      "relevanceScore": 106.73,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 108.73,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "TXkgSGFja3RvYmVy",
+      "title": "My Hacktoberfest 2025",
+      "link": "https://dev.to/xthasunil/my-hacktoberfest-2025-1j22",
+      "description": "My Hacktoberfest 2025 Chronicles: From First PR to Forest When October started, I made a simple promise to myself: I would not just scroll through Hacktoberfest posts this year, I would actively participate. I had participated before, but 2025 felt different. The community was vibrant, issues were a",
+      "pubDate": "2025-11-01T07:29:05.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "My Hacktoberfest 2025 Chronicles: From First PR to Forest When October started, I made a simple promise to myself: I would not just scroll through Hacktoberfest posts this year, I would actively participate. I had participated before, but 2025 felt different. The community was vibrant, issues were abundant, and I wanted to make meaningful contributions. Looking back now, I am proud to say I completed 18 merged pull requests across three repositories, collected several Holopin badges, and earned ",
+      "author": "Sunil Xtha",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Exclusive"
+      ],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 106.98,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 106.98,
+      "readingLevel": "advanced"
     },
     {
       "id": "TWV0YSBib3VnaHQg",
@@ -258,9 +233,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 194.6,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 194.6,
+      "relevanceScore": 195.57,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 195.57,
       "readingLevel": "beginner"
     },
     {
@@ -282,9 +257,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 178.58,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 180.58,
+      "relevanceScore": 169.05,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 171.05,
       "readingLevel": "intermediate"
     },
     {
@@ -307,10 +282,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 100.24,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 100.24,
+      "relevanceScore": 149.71,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 149.71,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "TmV4dC5qcyBpbiAy",
+      "title": "Next.js in 2025: Why It's the Best React Framework",
+      "link": "https://dev.to/devraj_singh_a58b5b5589de/nextjs-in-2025-why-its-the-best-react-framework-3a0c",
+      "description": "Next.js in 2025: Why It's the Best React Framework If you're still using Create React App in 2025, you're missing out. Next.js has become the industry standard for building modern React applications. Here's why. What is Next.js? Next.js is a React framework by Vercel that provides SSR, SSG, API rout",
+      "pubDate": "2025-11-01T07:30:31.000Z",
+      "source": "Dev.to",
+      "category": "mobile",
+      "weight": 6,
+      "content": "Next.js in 2025: Why It's the Best React Framework If you're still using Create React App in 2025, you're missing out. Next.js has become the industry standard for building modern React applications. Here's why. What is Next.js? Next.js is a React framework by Vercel that provides SSR, SSG, API routes, file-based routing, and automatic optimizations—all out of the box. Simple: React with superpowers. Why Next.js Over Plain React? 1. File-Based Routing (No React Router) // React - Complex setup w",
+      "author": "Devraj Singh",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Mobile"
+      ],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 91.98,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 94.48,
+      "readingLevel": "intermediate"
     },
     {
       "id": "R1RBIFZJIGRldmVs",
@@ -329,9 +328,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 99.2,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 99.7,
+      "relevanceScore": 148.67,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 149.17,
       "readingLevel": "advanced"
     },
     {
@@ -351,9 +350,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 97.14,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 97.14,
+      "relevanceScore": 146.61,
+      "calculatedAt": "2025-11-01T07:35:57.765Z",
+      "recommendationScore": 146.61,
       "readingLevel": "advanced"
     },
     {
@@ -376,9 +375,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 86.62,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 87.12,
+      "relevanceScore": 76.59,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 77.09,
       "readingLevel": "advanced"
     },
     {
@@ -401,9 +400,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.99,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 69.49,
+      "relevanceScore": 70.96,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 71.46,
       "readingLevel": "intermediate"
     },
     {
@@ -423,9 +422,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 52.42,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 52.92,
+      "relevanceScore": 52.89,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 53.39,
       "readingLevel": "advanced"
     },
     {
@@ -445,10 +444,32 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 52.15,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 54.65,
+      "relevanceScore": 54.12,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 56.62,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "SGVyZeKAmXMgd2h5",
+      "title": "Here’s why we don’t have a cold vaccine. Yet.",
+      "link": "https://www.technologyreview.com/2025/10/31/1127408/heres-why-we-dont-have-a-cold-vaccine-yet/",
+      "description": "For those of us in the Northern Hemisphere, it’s the season of the sniffles. As the weather turns, we’re all spending more time indoors. The kids have been back at school for a couple of months. And cold germs are everywhere. My youngest started school this year, and along with artwork and seedlings",
+      "pubDate": "2025-10-31T09:00:00.000Z",
+      "source": "MIT Technology Review",
+      "category": "health",
+      "weight": 9,
+      "content": "For those of us in the Northern Hemisphere, it’s the season of the sniffles. As the weather turns, we’re all spending more time indoors. The kids have been back at school for a couple of months. And cold germs are everywhere. My youngest started school this year, and along with artwork and seedlings, she has also been bringing home lots of lovely bugs to share with the rest of her family. As she coughed directly into my face for what felt like the hundredth time, I started to wonder if there was",
+      "author": "Jessica Hamzelou",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 33.48,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 34.98,
+      "readingLevel": "intermediate"
     },
     {
       "id": "U2FtaWEgd2lucyBU",
@@ -467,9 +488,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 47.87,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 48.37,
+      "relevanceScore": 37.34,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 37.84,
       "readingLevel": "advanced"
     },
     {
@@ -489,34 +510,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.32,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 40.82,
+      "relevanceScore": 27.79,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 30.29,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "U3lzdGVtIERlc2ln",
-      "title": "System Design Explained Like a Human — 25 Core Concepts with Real Examples and Tools Part -1",
-      "link": "https://dev.to/adityathearchitect/system-design-explained-like-a-human-25-core-concepts-with-real-examples-and-tools-part-1-51h3",
-      "description": "Real-world system design explained like a human, not a whiteboard diagram. Every massive online platform — Flipkart, Netflix, Swiggy — runs on systems that handle millions of requests per second without collapsing. But how? What’s happening behind those smooth UI clicks? This series breaks down 26 e",
-      "pubDate": "2025-11-01T07:19:54.000Z",
-      "source": "Dev.to",
-      "category": "entertainment",
-      "weight": 6,
-      "content": "Real-world system design explained like a human, not a whiteboard diagram. Every massive online platform — Flipkart, Netflix, Swiggy — runs on systems that handle millions of requests per second without collapsing. But how? What’s happening behind those smooth UI clicks? This series breaks down 26 essential system-design concepts in simple, relatable terms. Part 1 focuses on how large systems scale, balance, cache, and monitor themselves. Part 2 dives into resilience, recovery, and reliability. ",
-      "author": "Aditya Rawal",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Web"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 38.98,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 39.48,
-      "readingLevel": "intermediate"
     },
     {
       "id": "J1dlIG5lZWQgZm9v",
@@ -535,9 +532,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.94,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 46.44,
+      "relevanceScore": 35.41,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 35.91,
       "readingLevel": "intermediate"
     },
     {
@@ -557,9 +554,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 41.75,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 43.75,
+      "relevanceScore": 31.22,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 33.22,
       "readingLevel": "advanced"
     },
     {
@@ -579,9 +576,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.98,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 32.98,
+      "relevanceScore": 22.45,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 22.45,
       "readingLevel": "intermediate"
     },
     {
@@ -603,9 +600,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.23,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 40.73,
+      "relevanceScore": 29.7,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 30.2,
       "readingLevel": "advanced"
     },
     {
@@ -627,9 +624,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.42,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 38.92,
+      "relevanceScore": 27.89,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 28.39,
       "readingLevel": "intermediate"
     },
     {
@@ -649,9 +646,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.73,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 41.23,
+      "relevanceScore": 30.2,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 30.7,
       "readingLevel": "advanced"
     },
     {
@@ -673,9 +670,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 40.14,
-      "calculatedAt": "2025-11-01T07:26:49.393Z",
-      "recommendationScore": 40.64,
+      "relevanceScore": 29.61,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 30.11,
       "readingLevel": "intermediate"
     },
     {
@@ -695,9 +692,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 37.48,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 37.98,
+      "relevanceScore": 26.95,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 27.45,
       "readingLevel": "advanced"
     },
     {
@@ -717,9 +714,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.71,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 39.21,
+      "relevanceScore": 28.18,
+      "calculatedAt": "2025-11-01T07:35:57.766Z",
+      "recommendationScore": 28.68,
       "readingLevel": "advanced"
     },
     {
@@ -741,9 +738,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.86,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 39.36,
+      "relevanceScore": 28.33,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 28.83,
       "readingLevel": "advanced"
     },
     {
@@ -765,9 +762,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.34,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 38.34,
+      "relevanceScore": 27.81,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 27.81,
       "readingLevel": "intermediate"
     },
     {
@@ -789,9 +786,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 37.33,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 40.33,
+      "relevanceScore": 26.8,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 29.8,
       "readingLevel": "intermediate"
     },
     {
@@ -813,9 +810,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.77,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 31.27,
+      "relevanceScore": 20.24,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 20.74,
       "readingLevel": "intermediate"
     },
     {
@@ -835,9 +832,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 35.18,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 35.18,
+      "relevanceScore": 24.65,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 24.65,
       "readingLevel": "advanced"
     },
     {
@@ -857,9 +854,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 33.18,
-      "calculatedAt": "2025-11-01T07:26:49.394Z",
-      "recommendationScore": 33.18,
+      "relevanceScore": 22.65,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 22.65,
       "readingLevel": "intermediate"
     },
     {
@@ -881,31 +878,9 @@
       "sentiment": "negative",
       "complexity": "medium",
       "type": "opinion",
-      "relevanceScore": 32.07,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 32.57,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "SGVyZeKAmXMgd2h5",
-      "title": "Here’s why we don’t have a cold vaccine. Yet.",
-      "link": "https://www.technologyreview.com/2025/10/31/1127408/heres-why-we-dont-have-a-cold-vaccine-yet/",
-      "description": "For those of us in the Northern Hemisphere, it’s the season of the sniffles. As the weather turns, we’re all spending more time indoors. The kids have been back at school for a couple of months. And cold germs are everywhere. My youngest started school this year, and along with artwork and seedlings",
-      "pubDate": "2025-10-31T09:00:00.000Z",
-      "source": "MIT Technology Review",
-      "category": "health",
-      "weight": 9,
-      "content": "For those of us in the Northern Hemisphere, it’s the season of the sniffles. As the weather turns, we’re all spending more time indoors. The kids have been back at school for a couple of months. And cold germs are everywhere. My youngest started school this year, and along with artwork and seedlings, she has also been bringing home lots of lovely bugs to share with the rest of her family. As she coughed directly into my face for what felt like the hundredth time, I started to wonder if there was",
-      "author": "Jessica Hamzelou",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 33.01,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 34.51,
+      "relevanceScore": 21.54,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 22.04,
       "readingLevel": "intermediate"
     },
     {
@@ -925,9 +900,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.61,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 33.11,
+      "relevanceScore": 32.58,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 33.08,
       "readingLevel": "beginner"
     },
     {
@@ -947,9 +922,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.91,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 25.41,
+      "relevanceScore": 23.88,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 25.38,
       "readingLevel": "advanced"
     },
     {
@@ -969,9 +944,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.48,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 24.98,
+      "relevanceScore": 24.45,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 24.95,
       "readingLevel": "advanced"
     },
     {
@@ -994,9 +969,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 23.11,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 25.11,
+      "relevanceScore": 23.08,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 25.08,
       "readingLevel": "advanced"
     },
     {
@@ -1016,9 +991,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 25.76,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 26.26,
+      "relevanceScore": 25.73,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 26.23,
       "readingLevel": "beginner"
     },
     {
@@ -1038,9 +1013,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.11,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 23.61,
+      "relevanceScore": 23.08,
+      "calculatedAt": "2025-11-01T07:35:57.767Z",
+      "recommendationScore": 23.58,
       "readingLevel": "intermediate"
     },
     {
@@ -1060,9 +1035,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.23,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 24.73,
+      "relevanceScore": 24.2,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 24.7,
       "readingLevel": "beginner"
     },
     {
@@ -1082,9 +1057,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.19,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 25.69,
+      "relevanceScore": 24.16,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 25.66,
       "readingLevel": "advanced"
     },
     {
@@ -1104,9 +1079,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.02,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 24.52,
+      "relevanceScore": 23.99,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 24.49,
       "readingLevel": "advanced"
     },
     {
@@ -1126,9 +1101,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.25,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 24.25,
+      "relevanceScore": 24.22,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 24.22,
       "readingLevel": "intermediate"
     },
     {
@@ -1150,9 +1125,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.9,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 24.4,
+      "relevanceScore": 23.87,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 24.37,
       "readingLevel": "advanced"
     },
     {
@@ -1172,9 +1147,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.49,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 22.99,
+      "relevanceScore": 22.46,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 22.96,
       "readingLevel": "intermediate"
     },
     {
@@ -1196,9 +1171,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.67,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 21.17,
+      "relevanceScore": 20.64,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 21.14,
       "readingLevel": "intermediate"
     },
     {
@@ -1218,9 +1193,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.69,
-      "calculatedAt": "2025-11-01T07:26:49.395Z",
-      "recommendationScore": 21.69,
+      "relevanceScore": 21.66,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 21.66,
       "readingLevel": "advanced"
     },
     {
@@ -1242,9 +1217,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.53,
-      "calculatedAt": "2025-11-01T07:26:49.396Z",
-      "recommendationScore": 18.53,
+      "relevanceScore": 18.5,
+      "calculatedAt": "2025-11-01T07:35:57.768Z",
+      "recommendationScore": 18.5,
       "readingLevel": "advanced"
     }
   ],
@@ -1274,6 +1249,6 @@
     "general",
     "world"
   ],
-  "processedAt": "2025-11-01T07:26:49.406Z",
+  "processedAt": "2025-11-01T07:35:57.778Z",
   "processingVersion": "2.0"
 }
