@@ -1,32 +1,8 @@
 {
   "date": "2025-11-01",
-  "lastUpdated": "2025-11-01T07:12:53.887Z",
-  "totalArticles": 53,
+  "lastUpdated": "2025-11-01T07:26:49.303Z",
+  "totalArticles": 54,
   "articles": [
-    {
-      "id": "QSBDb21wbGV0ZSBH",
-      "title": "A Complete Guide to Rust Variables, Ownership, Lifetimes, and Memory Management",
-      "link": "https://dev.to/amritsingh183/a-complete-guide-to-rust-ownership-lifetimes-and-memory-management-4j2a",
-      "description": "A Complete Guide to Rust Variables, Ownership, Lifetimes, and Memory Management Index Foundation: Mental Model Aliasing XOR mutability principle Prerequisites and goals Variables in Rust Immutability by default Mutable variables Variable shadowing Scope and dropping Constants Declaring constants Nam",
-      "pubDate": "2025-11-01T06:44:56.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "A Complete Guide to Rust Variables, Ownership, Lifetimes, and Memory Management Index Foundation: Mental Model Aliasing XOR mutability principle Prerequisites and goals Variables in Rust Immutability by default Mutable variables Variable shadowing Scope and dropping Constants Declaring constants Naming conventions When to use constants Constants vs variables Ownership Fundamentals The three ownership rules Memory and allocation Move semantics Clone and Copy traits Stack-only data and Copy Borrow",
-      "author": "Amrit Singh",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Tutorial"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 600.91,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 601.41,
-      "readingLevel": "advanced"
-    },
     {
       "id": "U2VjdXJpdHkgY29u",
       "title": "Security concerns over system at heart of digital ID",
@@ -47,9 +23,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 500.37,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 500.87,
+      "relevanceScore": 501.32,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 501.82,
       "readingLevel": "advanced"
     },
     {
@@ -69,32 +45,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 402.64,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 402.64,
+      "relevanceScore": 399.59,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 399.59,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "TWFzdGVyaW5nIGBD",
-      "title": "Mastering `Copy` and `Clone` traits in Rust",
-      "link": "https://dev.to/amritsingh183/mastering-copy-and-clone-traits-in-rust-5be0",
-      "description": "Mastering Copy and Clone traits in Rust Introduction In Rust, the Copy and Clone traits are fundamental to managing value duplication. While they may seem similar, they represent two distinct concepts that are central to Rust's ownership model. #[derive(Copy, Clone)] is a common sight in Rust code, ",
-      "pubDate": "2025-11-01T06:47:43.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Mastering Copy and Clone traits in Rust Introduction In Rust, the Copy and Clone traits are fundamental to managing value duplication. While they may seem similar, they represent two distinct concepts that are central to Rust's ownership model. #[derive(Copy, Clone)] is a common sight in Rust code, but understanding why both are needed and what they do is crucial for writing efficient and correct programs. This document provides a comprehensive guide to Copy , Clone , and the #[derive] macro tha",
-      "author": "Amrit Singh",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 359.92,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 359.92,
-      "readingLevel": "intermediate"
     },
     {
       "id": "UG9ybmh1YiBzYXlz",
@@ -113,9 +67,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 328.9,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 329.4,
+      "relevanceScore": 329.86,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 330.36,
       "readingLevel": "intermediate"
     },
     {
@@ -135,9 +89,31 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 299.47,
-      "calculatedAt": "2025-11-01T07:12:53.977Z",
-      "recommendationScore": 299.97,
+      "relevanceScore": 300.42,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 300.92,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "8J+TnSBVbmRlcnN0",
+      "title": "📝 Understanding Transactions, Deadlocks & Log-Based Recovery in SQL 💾",
+      "link": "https://dev.to/bharanika_d24cb005_97900/understanding-transactions-deadlocks-log-based-recovery-in-sql-3cd1",
+      "description": "👋 Introduction Have you ever wondered what happens when two people try to withdraw money from the same bank account at the same time? Databases handle such cases using transactions , locks , and recovery logs to make sure data always stays consistent. In this blog, we’ll explore: How transactions m",
+      "pubDate": "2025-11-01T07:17:56.000Z",
+      "source": "Dev.to",
+      "category": "finance",
+      "weight": 6,
+      "content": "👋 Introduction Have you ever wondered what happens when two people try to withdraw money from the same bank account at the same time? Databases handle such cases using transactions , locks , and recovery logs to make sure data always stays consistent. In this blog, we’ll explore: How transactions maintain atomicity What a deadlock is and how it’s detected How log-based recovery ensures data safety after a crash CREATE TABLE Accounts ( acc_no INT PRIMARY KEY, name VARCHAR(50), balance INT ); INS",
+      "author": "BHARANIKA D 24CB005",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 238.97,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 239.47,
       "readingLevel": "advanced"
     },
     {
@@ -159,9 +135,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 271.46,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 273.96,
+      "relevanceScore": 277.41,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 279.91,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "UmVmbGVjdGlvbnMg",
+      "title": "Reflections on the AWS & Azure Outages",
+      "link": "https://dev.to/this-is-learning/reflections-on-the-aws-azure-outages-4iok",
+      "description": "AWS and Azure, two of the largest cloud providers having a market share of ~30% and ~23% respectively (as of 2025), experienced large scale outages recently. These outages affected multiple interdependent services. In this post, I will explore what are the implications of these outages, what can be ",
+      "pubDate": "2025-11-01T07:19:35.000Z",
+      "source": "Dev.to",
+      "category": "cloud",
+      "weight": 6,
+      "content": "AWS and Azure, two of the largest cloud providers having a market share of ~30% and ~23% respectively (as of 2025), experienced large scale outages recently. These outages affected multiple interdependent services. In this post, I will explore what are the implications of these outages, what can be done about them, and how fragile the web really is. AWS Outage - October 19, 2025 The AWS Outage on October 19, 2025 began with Amazon's Dynamo DB service — a serverless, managed, NoSQL database servi",
+      "author": "Murtuzaali Surti",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Business",
+        "Cloud"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 241.48,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 241.48,
       "readingLevel": "intermediate"
     },
     {
@@ -187,9 +188,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 207.65,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 208.15,
+      "relevanceScore": 208.6,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 209.1,
       "readingLevel": "advanced"
     },
     {
@@ -209,10 +210,58 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 202.56,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 203.06,
+      "relevanceScore": 203.51,
+      "calculatedAt": "2025-11-01T07:26:49.392Z",
+      "recommendationScore": 204.01,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "TWVhc3VyaW5nIHdo",
+      "title": "Measuring what matters: How offline evaluation of GitHub MCP Server works",
+      "link": "https://github.blog/ai-and-ml/generative-ai/measuring-what-matters-how-offline-evaluation-of-github-mcp-server-works/",
+      "description": "Take a look inside our automated pipeline for rapid, rigorous evaluation for the GitHub MCP Server. The post Measuring what matters: How offline evaluation of GitHub MCP Server works appeared first on The GitHub Blog .",
+      "pubDate": "2025-10-30T21:46:07.000Z",
+      "source": "GitHub Blog",
+      "category": "development",
+      "weight": 7,
+      "content": "MCP (Model Context Protocol) is a simple, common way for AI models (LLMs) to talk to APIs and data. Think of it like a universal plug: if both sides support MCP, they can connect and work together. An MCP server is any service or app that &ldquo;speaks MCP&rdquo; and offers tools the model can use, publishing a list of tools, what each tool does, and what inputs (parameters) each tool needs. The GitHub MCP Server is the foundation for many GitHub Copilot workflows, both inside and outside of Git",
+      "author": "Ksenia Bobrova",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [
+        "Exclusive"
+      ],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "review",
+      "relevanceScore": 103.76,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 105.76,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "TWV0YSBib3VnaHQg",
+      "title": "Meta bought 1 GW of solar this week",
+      "link": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
+      "description": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+      "pubDate": "2025-10-31T19:26:30.000Z",
+      "source": "TechCrunch",
+      "category": "social",
+      "weight": 8,
+      "content": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
+      "author": "Tim De Chant",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Social"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 194.6,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 194.6,
+      "readingLevel": "beginner"
     },
     {
       "id": "V2h5IFNhcmFoIEZl",
@@ -233,9 +282,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 183.63,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 185.63,
+      "relevanceScore": 178.58,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 180.58,
       "readingLevel": "intermediate"
     },
     {
@@ -258,34 +307,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 104.29,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 104.29,
+      "relevanceScore": 100.24,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 100.24,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "TWV0YSBib3VnaHQg",
-      "title": "Meta bought 1 GW of solar this week",
-      "link": "https://techcrunch.com/2025/10/31/meta-bought-1-gw-of-solar-this-week/",
-      "description": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
-      "pubDate": "2025-10-31T19:26:30.000Z",
-      "source": "TechCrunch",
-      "category": "social",
-      "weight": 8,
-      "content": "The social media company inked three deals in the U.S. to power its data centers and offset its carbon footprint.",
-      "author": "Tim De Chant",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Social"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 194.65,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 194.65,
-      "readingLevel": "beginner"
     },
     {
       "id": "R1RBIFZJIGRldmVs",
@@ -304,9 +329,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 103.24,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 103.74,
+      "relevanceScore": 99.2,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 99.7,
       "readingLevel": "advanced"
     },
     {
@@ -326,9 +351,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 101.19,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 101.19,
+      "relevanceScore": 97.14,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 97.14,
       "readingLevel": "advanced"
     },
     {
@@ -351,34 +376,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 91.16,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 91.66,
+      "relevanceScore": 86.62,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 87.12,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "TWVhc3VyaW5nIHdo",
-      "title": "Measuring what matters: How offline evaluation of GitHub MCP Server works",
-      "link": "https://github.blog/ai-and-ml/generative-ai/measuring-what-matters-how-offline-evaluation-of-github-mcp-server-works/",
-      "description": "Take a look inside our automated pipeline for rapid, rigorous evaluation for the GitHub MCP Server. The post Measuring what matters: How offline evaluation of GitHub MCP Server works appeared first on The GitHub Blog .",
-      "pubDate": "2025-10-30T21:46:07.000Z",
-      "source": "GitHub Blog",
-      "category": "development",
-      "weight": 7,
-      "content": "MCP (Model Context Protocol) is a simple, common way for AI models (LLMs) to talk to APIs and data. Think of it like a universal plug: if both sides support MCP, they can connect and work together. An MCP server is any service or app that &ldquo;speaks MCP&rdquo; and offers tools the model can use, publishing a list of tools, what each tool does, and what inputs (parameters) each tool needs. The GitHub MCP Server is the foundation for many GitHub Copilot workflows, both inside and outside of Git",
-      "author": "Ksenia Bobrova",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [
-        "Exclusive"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "review",
-      "relevanceScore": 85.81,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 87.81,
-      "readingLevel": "intermediate"
     },
     {
       "id": "QUkgbWFuaWEgdGFu",
@@ -400,9 +401,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 86.54,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 87.04,
+      "relevanceScore": 68.99,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 69.49,
       "readingLevel": "intermediate"
     },
     {
@@ -422,10 +423,32 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.97,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 51.47,
+      "relevanceScore": 52.42,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 52.92,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "QW5kcmV3J3MgbW92",
+      "title": "Andrew's move out of Royal Lodge may not happen until new year",
+      "link": "https://www.bbc.com/news/articles/c2emmdnw82yo?at_medium=RSS&at_campaign=rss",
+      "description": "There are also no plans to formally remove Andrew from the line of succession, the government says.",
+      "pubDate": "2025-11-01T05:42:11.000Z",
+      "source": "BBC News",
+      "category": "general",
+      "weight": 10,
+      "content": "There are also no plans to formally remove Andrew from the line of succession, the government says.",
+      "author": "BBC News",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 52.15,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 54.65,
+      "readingLevel": "beginner"
     },
     {
       "id": "U2FtaWEgd2lucyBU",
@@ -444,9 +467,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 52.92,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 53.42,
+      "relevanceScore": 47.87,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 48.37,
       "readingLevel": "advanced"
     },
     {
@@ -466,10 +489,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.37,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 45.87,
+      "relevanceScore": 38.32,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 40.82,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "U3lzdGVtIERlc2ln",
+      "title": "System Design Explained Like a Human — 25 Core Concepts with Real Examples and Tools Part -1",
+      "link": "https://dev.to/adityathearchitect/system-design-explained-like-a-human-25-core-concepts-with-real-examples-and-tools-part-1-51h3",
+      "description": "Real-world system design explained like a human, not a whiteboard diagram. Every massive online platform — Flipkart, Netflix, Swiggy — runs on systems that handle millions of requests per second without collapsing. But how? What’s happening behind those smooth UI clicks? This series breaks down 26 e",
+      "pubDate": "2025-11-01T07:19:54.000Z",
+      "source": "Dev.to",
+      "category": "entertainment",
+      "weight": 6,
+      "content": "Real-world system design explained like a human, not a whiteboard diagram. Every massive online platform — Flipkart, Netflix, Swiggy — runs on systems that handle millions of requests per second without collapsing. But how? What’s happening behind those smooth UI clicks? This series breaks down 26 essential system-design concepts in simple, relatable terms. Part 1 focuses on how large systems scale, balance, cache, and monitor themselves. Part 2 dives into resilience, recovery, and reliability. ",
+      "author": "Aditya Rawal",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Web"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 38.98,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 39.48,
+      "readingLevel": "intermediate"
     },
     {
       "id": "J1dlIG5lZWQgZm9v",
@@ -488,9 +535,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.99,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 51.49,
+      "relevanceScore": 45.94,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 46.44,
       "readingLevel": "intermediate"
     },
     {
@@ -510,9 +557,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.8,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 48.8,
+      "relevanceScore": 41.75,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 43.75,
       "readingLevel": "advanced"
     },
     {
@@ -532,9 +579,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.03,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 38.03,
+      "relevanceScore": 32.98,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 32.98,
       "readingLevel": "intermediate"
     },
     {
@@ -556,9 +603,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.28,
-      "calculatedAt": "2025-11-01T07:12:53.978Z",
-      "recommendationScore": 45.78,
+      "relevanceScore": 40.23,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 40.73,
       "readingLevel": "advanced"
     },
     {
@@ -580,9 +627,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.47,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 43.97,
+      "relevanceScore": 38.42,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 38.92,
       "readingLevel": "intermediate"
     },
     {
@@ -602,9 +649,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.77,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 46.27,
+      "relevanceScore": 40.73,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 41.23,
       "readingLevel": "advanced"
     },
     {
@@ -626,9 +673,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 45.19,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 45.69,
+      "relevanceScore": 40.14,
+      "calculatedAt": "2025-11-01T07:26:49.393Z",
+      "recommendationScore": 40.64,
       "readingLevel": "intermediate"
     },
     {
@@ -648,9 +695,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.52,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 43.02,
+      "relevanceScore": 37.48,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 37.98,
       "readingLevel": "advanced"
     },
     {
@@ -670,9 +717,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.76,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 44.26,
+      "relevanceScore": 38.71,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 39.21,
       "readingLevel": "advanced"
     },
     {
@@ -694,9 +741,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.91,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 44.41,
+      "relevanceScore": 38.86,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 39.36,
       "readingLevel": "advanced"
     },
     {
@@ -718,9 +765,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.38,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 43.38,
+      "relevanceScore": 38.34,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 38.34,
       "readingLevel": "intermediate"
     },
     {
@@ -742,32 +789,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 42.38,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 45.38,
+      "relevanceScore": 37.33,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 40.33,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "QW5kcmV3J3MgbW92",
-      "title": "Andrew's move out of Royal Lodge may not happen until new year",
-      "link": "https://www.bbc.com/news/articles/c2emmdnw82yo?at_medium=RSS&at_campaign=rss",
-      "description": "There are also no plans to formally remove Andrew from the line of succession, the government says.",
-      "pubDate": "2025-11-01T05:42:11.000Z",
-      "source": "BBC News",
-      "category": "general",
-      "weight": 10,
-      "content": "There are also no plans to formally remove Andrew from the line of succession, the government says.",
-      "author": "BBC News",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 49.7,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 52.2,
-      "readingLevel": "beginner"
     },
     {
       "id": "TGl2ZSBmcm9tIHRo",
@@ -788,9 +813,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 35.82,
-      "calculatedAt": "2025-11-01T07:12:53.979Z",
-      "recommendationScore": 36.32,
+      "relevanceScore": 30.77,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 31.27,
       "readingLevel": "intermediate"
     },
     {
@@ -810,9 +835,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.22,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 40.22,
+      "relevanceScore": 35.18,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 35.18,
       "readingLevel": "advanced"
     },
     {
@@ -832,9 +857,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.23,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 38.23,
+      "relevanceScore": 33.18,
+      "calculatedAt": "2025-11-01T07:26:49.394Z",
+      "recommendationScore": 33.18,
       "readingLevel": "intermediate"
     },
     {
@@ -856,9 +881,9 @@
       "sentiment": "negative",
       "complexity": "medium",
       "type": "opinion",
-      "relevanceScore": 37.12,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 37.62,
+      "relevanceScore": 32.07,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 32.57,
       "readingLevel": "intermediate"
     },
     {
@@ -878,9 +903,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.56,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 34.06,
+      "relevanceScore": 33.01,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 34.51,
       "readingLevel": "intermediate"
     },
     {
@@ -900,9 +925,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.66,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 33.16,
+      "relevanceScore": 32.61,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 33.11,
       "readingLevel": "beginner"
     },
     {
@@ -922,9 +947,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.96,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 25.46,
+      "relevanceScore": 23.91,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 25.41,
       "readingLevel": "advanced"
     },
     {
@@ -944,9 +969,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.53,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 25.03,
+      "relevanceScore": 24.48,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 24.98,
       "readingLevel": "advanced"
     },
     {
@@ -969,9 +994,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 23.16,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 25.16,
+      "relevanceScore": 23.11,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 25.11,
       "readingLevel": "advanced"
     },
     {
@@ -991,9 +1016,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 25.8,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 26.3,
+      "relevanceScore": 25.76,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 26.26,
       "readingLevel": "beginner"
     },
     {
@@ -1013,9 +1038,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.16,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 23.66,
+      "relevanceScore": 23.11,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 23.61,
       "readingLevel": "intermediate"
     },
     {
@@ -1035,9 +1060,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.28,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 24.78,
+      "relevanceScore": 24.23,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 24.73,
       "readingLevel": "beginner"
     },
     {
@@ -1057,9 +1082,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.24,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 25.74,
+      "relevanceScore": 24.19,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 25.69,
       "readingLevel": "advanced"
     },
     {
@@ -1079,9 +1104,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.07,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 24.57,
+      "relevanceScore": 24.02,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 24.52,
       "readingLevel": "advanced"
     },
     {
@@ -1101,9 +1126,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.3,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 24.3,
+      "relevanceScore": 24.25,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 24.25,
       "readingLevel": "intermediate"
     },
     {
@@ -1125,9 +1150,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.95,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 24.45,
+      "relevanceScore": 23.9,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 24.4,
       "readingLevel": "advanced"
     },
     {
@@ -1147,9 +1172,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.54,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 23.04,
+      "relevanceScore": 22.49,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 22.99,
       "readingLevel": "intermediate"
     },
     {
@@ -1171,9 +1196,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.72,
-      "calculatedAt": "2025-11-01T07:12:53.980Z",
-      "recommendationScore": 21.22,
+      "relevanceScore": 20.67,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 21.17,
       "readingLevel": "intermediate"
     },
     {
@@ -1193,9 +1218,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.73,
-      "calculatedAt": "2025-11-01T07:12:53.981Z",
-      "recommendationScore": 21.73,
+      "relevanceScore": 21.69,
+      "calculatedAt": "2025-11-01T07:26:49.395Z",
+      "recommendationScore": 21.69,
       "readingLevel": "advanced"
     },
     {
@@ -1217,38 +1242,38 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.58,
-      "calculatedAt": "2025-11-01T07:12:53.981Z",
-      "recommendationScore": 18.58,
+      "relevanceScore": 18.53,
+      "calculatedAt": "2025-11-01T07:26:49.396Z",
+      "recommendationScore": 18.53,
       "readingLevel": "advanced"
     }
   ],
   "sources": [
-    "Dev.to",
     "BBC Technology",
     "Reddit Programming",
     "The Verge",
+    "Dev.to",
     "MIT Technology Review",
     "NPR Business",
+    "GitHub Blog",
+    "TechCrunch",
     "BBC News",
     "Stack Overflow Blog",
-    "TechCrunch",
     "Engadget",
     "Ars Technica",
-    "GitHub Blog",
     "Reddit World News",
     "Wired",
     "Reddit Technology",
     "ABC News Business"
   ],
   "categories": [
-    "development",
     "tech",
+    "development",
     "science",
     "business",
     "general",
     "world"
   ],
-  "processedAt": "2025-11-01T07:12:53.991Z",
+  "processedAt": "2025-11-01T07:26:49.406Z",
   "processingVersion": "2.0"
 }
