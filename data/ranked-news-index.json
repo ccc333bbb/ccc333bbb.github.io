@@ -1,21 +1,22 @@
 {
-  "lastUpdated": "2025-11-03T04:23:28.941Z",
+  "lastUpdated": "2025-11-03T04:46:30.187Z",
   "totalArticles": 42,
   "categories": [
     "development",
     "gaming",
     "tech",
     "business",
-    "health",
-    "automotive",
     "ai-ml",
     "general",
-    "cloud",
+    "automotive",
+    "health",
+    "cybersecurity",
     "entertainment",
-    "mobile",
-    "climate",
+    "finance",
     "world",
-    "space"
+    "mobile",
+    "space",
+    "climate"
   ],
   "topArticles": [
     {
@@ -24,8 +25,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-02T22:49:41.000Z",
-      "relevanceScore": 1261.89,
-      "recommendationScore": 1261.89,
+      "relevanceScore": 1275.81,
+      "recommendationScore": 1275.81,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -35,8 +36,8 @@
       "source": "Reddit Technology",
       "category": "gaming",
       "pubDate": "2025-11-02T20:56:29.000Z",
-      "relevanceScore": 1098.51,
-      "recommendationScore": 1100.01,
+      "relevanceScore": 1146.43,
+      "recommendationScore": 1147.93,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -46,8 +47,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-02T17:15:26.000Z",
-      "relevanceScore": 901.77,
-      "recommendationScore": 902.27,
+      "relevanceScore": 1002.7,
+      "recommendationScore": 1003.2,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -57,34 +58,10 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-02T13:53:16.000Z",
-      "relevanceScore": 671.1,
-      "recommendationScore": 673.1,
+      "relevanceScore": 733.02,
+      "recommendationScore": 735.02,
       "tags": [
         "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Inside the marketplace for vaccine medical exemptions",
-      "link": "https://arstechnica.com/health/2025/11/inside-the-marketplace-for-vaccine-medical-exemptions/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2025-11-01T11:15:57.000Z",
-      "relevanceScore": 464.77,
-      "recommendationScore": 465.27,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "China to ease chip export ban in new trade deal, White House says",
-      "link": "https://www.bbc.com/news/articles/cy5qgy93w9go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "automotive",
-      "pubDate": "2025-11-02T17:59:38.000Z",
-      "relevanceScore": 411.92,
-      "recommendationScore": 414.42,
-      "tags": [
-        "Partnership"
       ],
       "readingLevel": "intermediate"
     },
@@ -94,21 +71,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-11-02T23:20:59.000Z",
-      "relevanceScore": 391.99,
-      "recommendationScore": 391.99,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google pulls Gemma from AI Studio after Senator Blackburn accuses model of defamation",
-      "link": "https://techcrunch.com/2025/11/02/google-pulls-gemma-from-ai-studio-after-senator-blackburn-accuses-model-of-defamation/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-11-02T21:13:17.000Z",
-      "relevanceScore": 391.57,
-      "recommendationScore": 392.07,
+      "relevanceScore": 490.41,
+      "recommendationScore": 490.41,
       "tags": [
         "AI"
       ],
@@ -120,11 +84,35 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-02T21:56:58.000Z",
-      "relevanceScore": 378.71,
-      "recommendationScore": 380.71,
+      "relevanceScore": 475.63,
+      "recommendationScore": 477.63,
       "tags": [
         "Analysis"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "China to ease chip export ban in new trade deal, White House says",
+      "link": "https://www.bbc.com/news/articles/cy5qgy93w9go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-11-02T17:59:38.000Z",
+      "relevanceScore": 472.84,
+      "recommendationScore": 475.34,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Inside the marketplace for vaccine medical exemptions",
+      "link": "https://arstechnica.com/health/2025/11/inside-the-marketplace-for-vaccine-medical-exemptions/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2025-11-01T11:15:57.000Z",
+      "relevanceScore": 468.7,
+      "recommendationScore": 469.2,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -133,23 +121,23 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-02T23:54:03.000Z",
-      "relevanceScore": 375.1,
-      "recommendationScore": 375.1,
+      "relevanceScore": 435.03,
+      "recommendationScore": 435.03,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Understanding the Design of Optimizers with me",
-      "link": "https://dev.to/tri_vo/understanding-the-design-of-optimizers-with-me-18f",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-03T04:16:30.000Z",
-      "relevanceScore": 371.98,
-      "recommendationScore": 371.98,
+      "title": "Google pulls Gemma from AI Studio after Senator Blackburn accuses model of defamation",
+      "link": "https://techcrunch.com/2025/11/02/google-pulls-gemma-from-ai-studio-after-senator-blackburn-accuses-model-of-defamation/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-11-02T21:13:17.000Z",
+      "relevanceScore": 432.49,
+      "recommendationScore": 432.99,
       "tags": [
-        "Exclusive"
+        "AI"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "advanced"
     },
     {
       "title": "Why the Zune never killed the iPod",
@@ -157,23 +145,24 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-02T14:30:00.000Z",
-      "relevanceScore": 371.22,
-      "recommendationScore": 372.72,
+      "relevanceScore": 431.14,
+      "recommendationScore": 432.64,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "🧱 Lesson 5  - Working with PostgreSQL (Multi-Database Setup)",
-      "link": "https://dev.to/farrukh_rehman/lesson-5-working-with-postgresql-multi-database-setup-3ngg",
+      "title": "Boosting Security Excellence: How OKRs Drive Results in Application Security and DevSecOps",
+      "link": "https://dev.to/d3one/boosting-security-excellence-how-okrs-drive-results-in-application-security-and-devsecops-1ael",
       "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-03T04:17:22.000Z",
-      "relevanceScore": 351.98,
-      "recommendationScore": 352.48,
+      "category": "cybersecurity",
+      "pubDate": "2025-11-03T04:40:00.000Z",
+      "relevanceScore": 323.98,
+      "recommendationScore": 326.98,
       "tags": [
-        "Cloud"
+        "Tech",
+        "Security"
       ],
       "readingLevel": "advanced"
     },
@@ -183,8 +172,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-11-01T23:55:14.000Z",
-      "relevanceScore": 281.31,
-      "recommendationScore": 284.31,
+      "relevanceScore": 322.73,
+      "recommendationScore": 325.73,
       "tags": [
         "Tutorial"
       ],
@@ -196,8 +185,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-02T16:34:04.000Z",
-      "relevanceScore": 240.64,
-      "recommendationScore": 241.14,
+      "relevanceScore": 243.56,
+      "recommendationScore": 244.06,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -207,8 +196,8 @@
       "source": "TechCrunch",
       "category": "gaming",
       "pubDate": "2025-11-03T01:02:25.000Z",
-      "relevanceScore": 221.33,
-      "recommendationScore": 225.33,
+      "relevanceScore": 222.25,
+      "recommendationScore": 226.25,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -218,22 +207,9 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-11-03T03:00:47.000Z",
-      "relevanceScore": 124.72,
-      "recommendationScore": 124.72,
+      "relevanceScore": 163.65,
+      "recommendationScore": 163.65,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Building the Classic 2048 Game with HTML5 and JavaScript",
-      "link": "https://dev.to/gamh5games/building-the-classic-2048-game-with-html5-and-javascript-fk7",
-      "source": "Dev.to",
-      "category": "gaming",
-      "pubDate": "2025-11-03T04:15:15.000Z",
-      "relevanceScore": 93.47,
-      "recommendationScore": 93.97,
-      "tags": [
-        "Web"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -242,8 +218,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-03T01:54:17.000Z",
-      "relevanceScore": 84,
-      "recommendationScore": 84,
+      "relevanceScore": 132.93,
+      "recommendationScore": 132.93,
       "tags": [
         "AI",
         "Tech",
@@ -252,95 +228,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Man, 32, only suspect in train stabbing as staff member in life-threatening condition, police say",
+      "title": "'Heroic' train worker saved lives, police say, as man, 32, only suspect in stabbing",
       "link": "https://www.bbc.com/news/articles/c797x8v0nvno?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-11-02T20:11:00.000Z",
-      "relevanceScore": 80.86,
-      "recommendationScore": 81.36,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What to read this weekend: A deep dive into humankind's search for alien life",
-      "link": "https://www.engadget.com/entertainment/what-to-read-this-weekend-a-deep-dive-into-humankinds-search-for-alien-life-201422007.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-11-01T20:14:22.000Z",
-      "relevanceScore": 76.07,
-      "recommendationScore": 78.07,
-      "tags": [
-        "Exclusive",
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best new movies to stream this week",
-      "link": "https://www.theverge.com/entertainment/812193/the-best-new-movies-to-stream-this-week",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-11-03T00:30:00.000Z",
-      "relevanceScore": 53.22,
-      "recommendationScore": 56.22,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The perfect grocery list-making app doesn’t exist",
-      "link": "https://www.theverge.com/tech/809152/grocery-list-app-paprika-better-meal-google-keep",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-11-02T14:00:00.000Z",
-      "relevanceScore": 51.12,
-      "recommendationScore": 51.12,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "You need to watch the found footage classic, Lake Mungo",
-      "link": "https://www.theverge.com/column/812150/watch-the-found-footage-classic-horror-mokumentary-lake-mungo",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-11-02T18:00:00.000Z",
-      "relevanceScore": 42.92,
-      "recommendationScore": 43.42,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Reddit CEO Steve Huffman becomes a billionaire after a highly profitable quarter",
-      "link": "https://www.reddit.com/r/technology/comments/1omsbe6/reddit_ceo_steve_huffman_becomes_a_billionaire/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-11-02T20:43:17.000Z",
-      "relevanceScore": 39.47,
-      "recommendationScore": 39.97,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Firms ordered to reduce forever chemicals in drinking water for 6m people",
-      "link": "https://www.bbc.com/news/articles/c9q1nzyzyjeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "climate",
-      "pubDate": "2025-11-03T00:32:19.000Z",
-      "relevanceScore": 31.23,
-      "recommendationScore": 31.73,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "'No help, no food, no water': Hurricane-hit Jamaican towns desperately wait for aid",
-      "link": "https://www.bbc.com/news/articles/cpv11w8ez10o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-02T16:11:31.000Z",
-      "relevanceScore": 29.56,
-      "recommendationScore": 30.06,
+      "pubDate": "2025-11-03T04:40:39.000Z",
+      "relevanceScore": 120.48,
+      "recommendationScore": 120.98,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -350,11 +244,72 @@
       "source": "BBC Technology",
       "category": "entertainment",
       "pubDate": "2025-11-02T23:19:38.000Z",
-      "relevanceScore": 24.99,
-      "recommendationScore": 25.49,
+      "relevanceScore": 106.41,
+      "recommendationScore": 106.91,
       "tags": [
         "Interview"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "You need to watch the found footage classic, Lake Mungo",
+      "link": "https://www.theverge.com/column/812150/watch-the-found-footage-classic-horror-mokumentary-lake-mungo",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-02T18:00:00.000Z",
+      "relevanceScore": 81.34,
+      "recommendationScore": 81.84,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Reddit CEO Steve Huffman becomes a billionaire after a highly profitable quarter",
+      "link": "https://www.reddit.com/r/technology/comments/1omsbe6/reddit_ceo_steve_huffman_becomes_a_billionaire/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-11-02T20:43:17.000Z",
+      "relevanceScore": 77.89,
+      "recommendationScore": 78.39,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What to read this weekend: A deep dive into humankind's search for alien life",
+      "link": "https://www.engadget.com/entertainment/what-to-read-this-weekend-a-deep-dive-into-humankinds-search-for-alien-life-201422007.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-11-01T20:14:22.000Z",
+      "relevanceScore": 77.49,
+      "recommendationScore": 79.49,
+      "tags": [
+        "Exclusive",
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bonds in capital market",
+      "link": "https://dev.to/sateesh_biradar_4febb99cd/bonds-in-capital-market-j8",
+      "source": "Dev.to",
+      "category": "finance",
+      "pubDate": "2025-11-03T04:28:57.000Z",
+      "relevanceScore": 70.94,
+      "recommendationScore": 70.94,
+      "tags": [
+        "Business",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "'No help, no food, no water': Hurricane-hit Jamaican towns desperately wait for aid",
+      "link": "https://www.bbc.com/news/articles/cpv11w8ez10o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-02T16:11:31.000Z",
+      "relevanceScore": 66.48,
+      "recommendationScore": 66.98,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -363,32 +318,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-03T04:03:00.000Z",
-      "relevanceScore": 23.93,
-      "recommendationScore": 26.43,
+      "relevanceScore": 60.85,
+      "recommendationScore": 63.35,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Drinking water in Tehran could run dry in two weeks, Iranian official says",
-      "link": "https://www.reddit.com/r/worldnews/comments/1omymcb/drinking_water_in_tehran_could_run_dry_in_two/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-11-03T01:14:42.000Z",
-      "relevanceScore": 23.37,
-      "recommendationScore": 23.87,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "5 Best Live TV Streaming Services (2025), Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-live-tv-streaming-services/",
-      "source": "Wired",
-      "category": "entertainment",
-      "pubDate": "2025-11-02T15:00:00.000Z",
-      "relevanceScore": 23.32,
-      "recommendationScore": 24.82,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "LiberNovo Omni Review: A Motorized Office Chair",
@@ -396,8 +329,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-02T14:00:00.000Z",
-      "relevanceScore": 23.12,
-      "recommendationScore": 23.12,
+      "relevanceScore": 60.04,
+      "recommendationScore": 60.04,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -407,23 +340,23 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-02T13:08:00.000Z",
-      "relevanceScore": 22.95,
-      "recommendationScore": 24.45,
+      "relevanceScore": 59.87,
+      "recommendationScore": 61.37,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Aura Ink Review (2025): Newspaper-Style Realism",
-      "link": "https://www.wired.com/review/aura-ink/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2025-11-02T12:31:00.000Z",
-      "relevanceScore": 22.83,
-      "recommendationScore": 24.83,
+      "title": "The perfect grocery list-making app doesn’t exist",
+      "link": "https://www.theverge.com/tech/809152/grocery-list-app-paprika-better-meal-google-keep",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-11-02T14:00:00.000Z",
+      "relevanceScore": 59.54,
+      "recommendationScore": 59.54,
       "tags": [
-        "Tech"
+        "Mobile"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Trump says China's Xi told him he won't move on Taiwan during Republican's term",
@@ -431,9 +364,122 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-02T17:50:01.000Z",
-      "relevanceScore": 21.89,
-      "recommendationScore": 22.39,
+      "relevanceScore": 58.81,
+      "recommendationScore": 59.31,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI Broke Interviews",
+      "link": "https://www.reddit.com/r/programming/comments/1omf635/ai_broke_interviews/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2025-11-02T11:43:40.000Z",
+      "relevanceScore": 55.59,
+      "recommendationScore": 55.59,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Pentagon will reportedly award SpaceX a $2 billion contract to help develop the 'Golden Dome'",
+      "link": "https://www.engadget.com/science/space/pentagon-will-reportedly-award-spacex-a-2-billion-contract-to-help-develop-the-golden-dome-210019325.html?src=rss",
+      "source": "Engadget",
+      "category": "space",
+      "pubDate": "2025-11-01T21:00:19.000Z",
+      "relevanceScore": 54.65,
+      "recommendationScore": 55.15,
+      "tags": [
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Ayaneo's first smartphone could have physical shoulder buttons",
+      "link": "https://www.engadget.com/mobile/smartphones/ayaneos-first-smartphone-could-have-physical-shoulder-buttons-182033773.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-11-01T18:20:33.000Z",
+      "relevanceScore": 54.11,
+      "recommendationScore": 56.61,
+      "tags": [
+        "Business",
+        "Mobile",
+        "Breaking",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The best new movies to stream this week",
+      "link": "https://www.theverge.com/entertainment/812193/the-best-new-movies-to-stream-this-week",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2025-11-03T00:30:00.000Z",
+      "relevanceScore": 53.64,
+      "recommendationScore": 56.64,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Firms ordered to reduce forever chemicals in drinking water for 6m people",
+      "link": "https://www.bbc.com/news/articles/c9q1nzyzyjeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "climate",
+      "pubDate": "2025-11-03T00:32:19.000Z",
+      "relevanceScore": 31.15,
+      "recommendationScore": 31.65,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Drinking water in Tehran could run dry in two weeks, Iranian official says",
+      "link": "https://www.reddit.com/r/worldnews/comments/1omymcb/drinking_water_in_tehran_could_run_dry_in_two/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-11-03T01:14:42.000Z",
+      "relevanceScore": 23.29,
+      "recommendationScore": 23.79,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "5 Best Live TV Streaming Services (2025), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-live-tv-streaming-services/",
+      "source": "Wired",
+      "category": "entertainment",
+      "pubDate": "2025-11-02T15:00:00.000Z",
+      "relevanceScore": 23.24,
+      "recommendationScore": 24.74,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Complete Guide to ElevenLabs v3: Master Interactive Voice Experiences with Audio Tags",
+      "link": "https://dev.to/yigit-konur/the-complete-guide-to-elevenlabs-v3-master-interactive-voice-experiences-with-audio-tags-3bn2",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-03T04:33:12.000Z",
+      "relevanceScore": 22.96,
+      "recommendationScore": 23.46,
+      "tags": [
+        "Tech",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Aura Ink Review (2025): Newspaper-Style Realism",
+      "link": "https://www.wired.com/review/aura-ink/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2025-11-02T12:31:00.000Z",
+      "relevanceScore": 22.75,
+      "recommendationScore": 24.75,
+      "tags": [
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -442,8 +488,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-01T16:38:09.000Z",
-      "relevanceScore": 19.85,
-      "recommendationScore": 20.35,
+      "relevanceScore": 19.77,
+      "recommendationScore": 20.27,
       "tags": [
         "Science",
         "Report"
@@ -456,8 +502,8 @@
       "source": "GitHub Blog",
       "category": "gaming",
       "pubDate": "2025-11-01T20:37:00.000Z",
-      "relevanceScore": 19.65,
-      "recommendationScore": 19.65,
+      "relevanceScore": 19.57,
+      "recommendationScore": 19.57,
       "tags": [
         "Tech",
         "Exclusive"
@@ -470,8 +516,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-01T15:14:08.000Z",
-      "relevanceScore": 19.57,
-      "recommendationScore": 20.07,
+      "relevanceScore": 19.49,
+      "recommendationScore": 19.99,
       "tags": [
         "Business",
         "Funding"
@@ -484,54 +530,12 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-02T15:16:28.000Z",
-      "relevanceScore": 19.38,
-      "recommendationScore": 20.88,
+      "relevanceScore": 19.3,
+      "recommendationScore": 20.8,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "AI Broke Interviews",
-      "link": "https://www.reddit.com/r/programming/comments/1omf635/ai_broke_interviews/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2025-11-02T11:43:40.000Z",
-      "relevanceScore": 18.67,
-      "recommendationScore": 18.67,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Pentagon will reportedly award SpaceX a $2 billion contract to help develop the 'Golden Dome'",
-      "link": "https://www.engadget.com/science/space/pentagon-will-reportedly-award-spacex-a-2-billion-contract-to-help-develop-the-golden-dome-210019325.html?src=rss",
-      "source": "Engadget",
-      "category": "space",
-      "pubDate": "2025-11-01T21:00:19.000Z",
-      "relevanceScore": 17.72,
-      "recommendationScore": 18.22,
-      "tags": [
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Ayaneo's first smartphone could have physical shoulder buttons",
-      "link": "https://www.engadget.com/mobile/smartphones/ayaneos-first-smartphone-could-have-physical-shoulder-buttons-182033773.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-11-01T18:20:33.000Z",
-      "relevanceScore": 17.19,
-      "recommendationScore": 19.69,
-      "tags": [
-        "Business",
-        "Mobile",
-        "Breaking",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
@@ -541,17 +545,18 @@
         "link": "https://www.reddit.com/r/programming/comments/1omveca/notes_by_djb_on_using_filc_2025/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-02T22:49:41.000Z",
-        "relevanceScore": 1261.89,
+        "relevanceScore": 1275.81,
         "tags": []
       },
       {
-        "title": "Understanding the Design of Optimizers with me",
-        "link": "https://dev.to/tri_vo/understanding-the-design-of-optimizers-with-me-18f",
+        "title": "The Complete Guide to ElevenLabs v3: Master Interactive Voice Experiences with Audio Tags",
+        "link": "https://dev.to/yigit-konur/the-complete-guide-to-elevenlabs-v3-master-interactive-voice-experiences-with-audio-tags-3bn2",
         "source": "Dev.to",
-        "pubDate": "2025-11-03T04:16:30.000Z",
-        "relevanceScore": 371.98,
+        "pubDate": "2025-11-03T04:33:12.000Z",
+        "relevanceScore": 22.96,
         "tags": [
-          "Exclusive"
+          "Tech",
+          "Tutorial"
         ]
       },
       {
@@ -559,7 +564,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1omjvxr/silent_disagreements_are_worst_in_software/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-02T15:16:28.000Z",
-        "relevanceScore": 19.38,
+        "relevanceScore": 19.3,
         "tags": [
           "Tech"
         ]
@@ -571,7 +576,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1omsnao/studio_ghibli_and_japanese_game_publishers_demand/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-02T20:56:29.000Z",
-        "relevanceScore": 1098.51,
+        "relevanceScore": 1146.43,
         "tags": []
       },
       {
@@ -579,7 +584,7 @@
         "link": "https://www.engadget.com/entertainment/streaming/dodgers-vs-blue-jays-game-7-tonight-how-to-watch-the-2025-mlb-world-series-without-cable-102530975.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-01T23:55:14.000Z",
-        "relevanceScore": 281.31,
+        "relevanceScore": 322.73,
         "tags": [
           "Tutorial"
         ]
@@ -589,25 +594,15 @@
         "link": "https://techcrunch.com/2025/11/02/alphabet-is-increasingly-launching-moonshot-projects-as-independent-companies-heres-why/",
         "source": "TechCrunch",
         "pubDate": "2025-11-03T01:02:25.000Z",
-        "relevanceScore": 221.33,
+        "relevanceScore": 222.25,
         "tags": []
-      },
-      {
-        "title": "Building the Classic 2048 Game with HTML5 and JavaScript",
-        "link": "https://dev.to/gamh5games/building-the-classic-2048-game-with-html5-and-javascript-fk7",
-        "source": "Dev.to",
-        "pubDate": "2025-11-03T04:15:15.000Z",
-        "relevanceScore": 93.47,
-        "tags": [
-          "Web"
-        ]
       },
       {
         "title": "Aura Ink Review (2025): Newspaper-Style Realism",
         "link": "https://www.wired.com/review/aura-ink/",
         "source": "Wired",
         "pubDate": "2025-11-02T12:31:00.000Z",
-        "relevanceScore": 22.83,
+        "relevanceScore": 22.75,
         "tags": [
           "Tech"
         ]
@@ -617,7 +612,7 @@
         "link": "https://github.blog/company/github-game-off-2025-theme-announcement/",
         "source": "GitHub Blog",
         "pubDate": "2025-11-01T20:37:00.000Z",
-        "relevanceScore": 19.65,
+        "relevanceScore": 19.57,
         "tags": [
           "Tech",
           "Exclusive"
@@ -630,7 +625,7 @@
         "link": "https://techcrunch.com/2025/11/02/sam-altman-says-enough-to-questions-about-openais-revenue/",
         "source": "TechCrunch",
         "pubDate": "2025-11-02T17:15:26.000Z",
-        "relevanceScore": 901.77,
+        "relevanceScore": 1002.7,
         "tags": []
       },
       {
@@ -638,7 +633,7 @@
         "link": "https://techcrunch.com/2025/11/02/sequoias-roelof-botha-warns-founders-about-chasing-sky-high-valuations-as-the-firm-doubles-down-on-its-selective-approach/",
         "source": "TechCrunch",
         "pubDate": "2025-11-02T23:54:03.000Z",
-        "relevanceScore": 375.1,
+        "relevanceScore": 435.03,
         "tags": []
       },
       {
@@ -646,7 +641,7 @@
         "link": "https://www.theverge.com/podcast/811595/microsoft-zune-version-history",
         "source": "The Verge",
         "pubDate": "2025-11-02T14:30:00.000Z",
-        "relevanceScore": 371.22,
+        "relevanceScore": 431.14,
         "tags": [
           "Tech"
         ]
@@ -656,26 +651,15 @@
         "link": "https://www.reddit.com/r/technology/comments/1on0u8v/republicans_claimed_biden_censored_youtube_20/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-03T03:00:47.000Z",
-        "relevanceScore": 124.72,
+        "relevanceScore": 163.65,
         "tags": []
-      },
-      {
-        "title": "What to read this weekend: A deep dive into humankind's search for alien life",
-        "link": "https://www.engadget.com/entertainment/what-to-read-this-weekend-a-deep-dive-into-humankinds-search-for-alien-life-201422007.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-01T20:14:22.000Z",
-        "relevanceScore": 76.07,
-        "tags": [
-          "Exclusive",
-          "Analysis"
-        ]
       },
       {
         "title": "You need to watch the found footage classic, Lake Mungo",
         "link": "https://www.theverge.com/column/812150/watch-the-found-footage-classic-horror-mokumentary-lake-mungo",
         "source": "The Verge",
         "pubDate": "2025-11-02T18:00:00.000Z",
-        "relevanceScore": 42.92,
+        "relevanceScore": 81.34,
         "tags": []
       },
       {
@@ -683,15 +667,26 @@
         "link": "https://www.reddit.com/r/technology/comments/1omsbe6/reddit_ceo_steve_huffman_becomes_a_billionaire/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-02T20:43:17.000Z",
-        "relevanceScore": 39.47,
+        "relevanceScore": 77.89,
         "tags": []
+      },
+      {
+        "title": "What to read this weekend: A deep dive into humankind's search for alien life",
+        "link": "https://www.engadget.com/entertainment/what-to-read-this-weekend-a-deep-dive-into-humankinds-search-for-alien-life-201422007.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-01T20:14:22.000Z",
+        "relevanceScore": 77.49,
+        "tags": [
+          "Exclusive",
+          "Analysis"
+        ]
       },
       {
         "title": "LiberNovo Omni Review: A Motorized Office Chair",
         "link": "https://www.wired.com/review/libernovo-omni/",
         "source": "Wired",
         "pubDate": "2025-11-02T14:00:00.000Z",
-        "relevanceScore": 23.12,
+        "relevanceScore": 60.04,
         "tags": []
       },
       {
@@ -699,7 +694,7 @@
         "link": "https://www.wired.com/gallery/best-hybrid-mattress/",
         "source": "Wired",
         "pubDate": "2025-11-02T13:08:00.000Z",
-        "relevanceScore": 22.95,
+        "relevanceScore": 59.87,
         "tags": []
       },
       {
@@ -707,7 +702,7 @@
         "link": "https://arstechnica.com/science/2025/11/research-roundup-6-cool-science-stories-we-almost-missed-3/",
         "source": "Ars Technica",
         "pubDate": "2025-11-01T16:38:09.000Z",
-        "relevanceScore": 19.85,
+        "relevanceScore": 19.77,
         "tags": [
           "Science",
           "Report"
@@ -720,7 +715,7 @@
         "link": "https://www.npr.org/2025/11/02/nx-s1-5591302/ghost-jobs-are-everywhere-heres-how-to-avoid-falling-for-them",
         "source": "NPR Business",
         "pubDate": "2025-11-02T13:53:16.000Z",
-        "relevanceScore": 671.1,
+        "relevanceScore": 733.02,
         "tags": [
           "Tutorial"
         ]
@@ -730,32 +725,10 @@
         "link": "https://abcnews.go.com/Business/wireStory/berkshire-hathaways-profits-rise-17-warren-buffett-prepares-127086359",
         "source": "ABC News Business",
         "pubDate": "2025-11-01T15:14:08.000Z",
-        "relevanceScore": 19.57,
+        "relevanceScore": 19.49,
         "tags": [
           "Business",
           "Funding"
-        ]
-      }
-    ],
-    "health": [
-      {
-        "title": "Inside the marketplace for vaccine medical exemptions",
-        "link": "https://arstechnica.com/health/2025/11/inside-the-marketplace-for-vaccine-medical-exemptions/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-01T11:15:57.000Z",
-        "relevanceScore": 464.77,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "China to ease chip export ban in new trade deal, White House says",
-        "link": "https://www.bbc.com/news/articles/cy5qgy93w9go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-11-02T17:59:38.000Z",
-        "relevanceScore": 411.92,
-        "tags": [
-          "Partnership"
         ]
       }
     ],
@@ -765,7 +738,7 @@
         "link": "https://www.bbc.com/news/articles/cz913ylq3k3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-02T23:20:59.000Z",
-        "relevanceScore": 391.99,
+        "relevanceScore": 490.41,
         "tags": [
           "AI"
         ]
@@ -775,7 +748,7 @@
         "link": "https://techcrunch.com/2025/11/02/google-pulls-gemma-from-ai-studio-after-senator-blackburn-accuses-model-of-defamation/",
         "source": "TechCrunch",
         "pubDate": "2025-11-02T21:13:17.000Z",
-        "relevanceScore": 391.57,
+        "relevanceScore": 432.49,
         "tags": [
           "AI"
         ]
@@ -785,7 +758,7 @@
         "link": "https://techcrunch.com/2025/11/02/kevin-roses-simple-test-for-ai-hardware-would-you-want-to-punch-someone-in-the-face-whos-wearing-it/",
         "source": "TechCrunch",
         "pubDate": "2025-11-03T01:54:17.000Z",
-        "relevanceScore": 84,
+        "relevanceScore": 132.93,
         "tags": [
           "AI",
           "Tech",
@@ -797,7 +770,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1omf635/ai_broke_interviews/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-02T11:43:40.000Z",
-        "relevanceScore": 18.67,
+        "relevanceScore": 55.59,
         "tags": [
           "AI"
         ]
@@ -809,7 +782,7 @@
         "link": "https://www.bbc.com/news/articles/c8r007d4kk2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-02T21:56:58.000Z",
-        "relevanceScore": 378.71,
+        "relevanceScore": 475.63,
         "tags": [
           "Analysis"
         ]
@@ -819,15 +792,15 @@
         "link": "https://www.bbc.com/news/articles/c4gw42j29lqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-02T16:34:04.000Z",
-        "relevanceScore": 240.64,
+        "relevanceScore": 243.56,
         "tags": []
       },
       {
-        "title": "Man, 32, only suspect in train stabbing as staff member in life-threatening condition, police say",
+        "title": "'Heroic' train worker saved lives, police say, as man, 32, only suspect in stabbing",
         "link": "https://www.bbc.com/news/articles/c797x8v0nvno?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-11-02T20:11:00.000Z",
-        "relevanceScore": 80.86,
+        "pubDate": "2025-11-03T04:40:39.000Z",
+        "relevanceScore": 120.48,
         "tags": []
       },
       {
@@ -835,47 +808,109 @@
         "link": "https://www.bbc.com/news/articles/cpv11w8ez10o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-02T16:11:31.000Z",
-        "relevanceScore": 29.56,
+        "relevanceScore": 66.48,
         "tags": []
       }
     ],
-    "cloud": [
+    "automotive": [
       {
-        "title": "🧱 Lesson 5  - Working with PostgreSQL (Multi-Database Setup)",
-        "link": "https://dev.to/farrukh_rehman/lesson-5-working-with-postgresql-multi-database-setup-3ngg",
-        "source": "Dev.to",
-        "pubDate": "2025-11-03T04:17:22.000Z",
-        "relevanceScore": 351.98,
+        "title": "China to ease chip export ban in new trade deal, White House says",
+        "link": "https://www.bbc.com/news/articles/cy5qgy93w9go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-11-02T17:59:38.000Z",
+        "relevanceScore": 472.84,
         "tags": [
-          "Cloud"
+          "Partnership"
+        ]
+      }
+    ],
+    "health": [
+      {
+        "title": "Inside the marketplace for vaccine medical exemptions",
+        "link": "https://arstechnica.com/health/2025/11/inside-the-marketplace-for-vaccine-medical-exemptions/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-01T11:15:57.000Z",
+        "relevanceScore": 468.7,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Boosting Security Excellence: How OKRs Drive Results in Application Security and DevSecOps",
+        "link": "https://dev.to/d3one/boosting-security-excellence-how-okrs-drive-results-in-application-security-and-devsecops-1ael",
+        "source": "Dev.to",
+        "pubDate": "2025-11-03T04:40:00.000Z",
+        "relevanceScore": 323.98,
+        "tags": [
+          "Tech",
+          "Security"
         ]
       }
     ],
     "entertainment": [
       {
-        "title": "The best new movies to stream this week",
-        "link": "https://www.theverge.com/entertainment/812193/the-best-new-movies-to-stream-this-week",
-        "source": "The Verge",
-        "pubDate": "2025-11-03T00:30:00.000Z",
-        "relevanceScore": 53.22,
-        "tags": []
-      },
-      {
         "title": "Vue cinema boss: I don't see streaming as the competition",
         "link": "https://www.bbc.com/news/articles/c986d9jjv87o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-02T23:19:38.000Z",
-        "relevanceScore": 24.99,
+        "relevanceScore": 106.41,
         "tags": [
           "Interview"
         ]
+      },
+      {
+        "title": "The best new movies to stream this week",
+        "link": "https://www.theverge.com/entertainment/812193/the-best-new-movies-to-stream-this-week",
+        "source": "The Verge",
+        "pubDate": "2025-11-03T00:30:00.000Z",
+        "relevanceScore": 53.64,
+        "tags": []
       },
       {
         "title": "5 Best Live TV Streaming Services (2025), Tested and Reviewed",
         "link": "https://www.wired.com/gallery/best-live-tv-streaming-services/",
         "source": "Wired",
         "pubDate": "2025-11-02T15:00:00.000Z",
-        "relevanceScore": 23.32,
+        "relevanceScore": 23.24,
+        "tags": []
+      }
+    ],
+    "finance": [
+      {
+        "title": "Bonds in capital market",
+        "link": "https://dev.to/sateesh_biradar_4febb99cd/bonds-in-capital-market-j8",
+        "source": "Dev.to",
+        "pubDate": "2025-11-03T04:28:57.000Z",
+        "relevanceScore": 70.94,
+        "tags": [
+          "Business",
+          "Startup"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1348, Part 1 (Thread #1495)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1on22gv/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-03T04:03:00.000Z",
+        "relevanceScore": 60.85,
+        "tags": []
+      },
+      {
+        "title": "Trump says China's Xi told him he won't move on Taiwan during Republican's term",
+        "link": "https://www.reddit.com/r/worldnews/comments/1omnvmn/trump_says_chinas_xi_told_him_he_wont_move_on/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-02T17:50:01.000Z",
+        "relevanceScore": 58.81,
+        "tags": []
+      },
+      {
+        "title": "Drinking water in Tehran could run dry in two weeks, Iranian official says",
+        "link": "https://www.reddit.com/r/worldnews/comments/1omymcb/drinking_water_in_tehran_could_run_dry_in_two/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-03T01:14:42.000Z",
+        "relevanceScore": 23.29,
         "tags": []
       }
     ],
@@ -885,7 +920,7 @@
         "link": "https://www.theverge.com/tech/809152/grocery-list-app-paprika-better-meal-google-keep",
         "source": "The Verge",
         "pubDate": "2025-11-02T14:00:00.000Z",
-        "relevanceScore": 51.12,
+        "relevanceScore": 59.54,
         "tags": [
           "Mobile"
         ]
@@ -895,12 +930,24 @@
         "link": "https://www.engadget.com/mobile/smartphones/ayaneos-first-smartphone-could-have-physical-shoulder-buttons-182033773.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-01T18:20:33.000Z",
-        "relevanceScore": 17.19,
+        "relevanceScore": 54.11,
         "tags": [
           "Business",
           "Mobile",
           "Breaking",
           "Exclusive"
+        ]
+      }
+    ],
+    "space": [
+      {
+        "title": "Pentagon will reportedly award SpaceX a $2 billion contract to help develop the 'Golden Dome'",
+        "link": "https://www.engadget.com/science/space/pentagon-will-reportedly-award-spacex-a-2-billion-contract-to-help-develop-the-golden-dome-210019325.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-01T21:00:19.000Z",
+        "relevanceScore": 54.65,
+        "tags": [
+          "Report"
         ]
       }
     ],
@@ -910,53 +957,15 @@
         "link": "https://www.bbc.com/news/articles/c9q1nzyzyjeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-03T00:32:19.000Z",
-        "relevanceScore": 31.23,
+        "relevanceScore": 31.15,
         "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1348, Part 1 (Thread #1495)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1on22gv/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-03T04:03:00.000Z",
-        "relevanceScore": 23.93,
-        "tags": []
-      },
-      {
-        "title": "Drinking water in Tehran could run dry in two weeks, Iranian official says",
-        "link": "https://www.reddit.com/r/worldnews/comments/1omymcb/drinking_water_in_tehran_could_run_dry_in_two/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-03T01:14:42.000Z",
-        "relevanceScore": 23.37,
-        "tags": []
-      },
-      {
-        "title": "Trump says China's Xi told him he won't move on Taiwan during Republican's term",
-        "link": "https://www.reddit.com/r/worldnews/comments/1omnvmn/trump_says_chinas_xi_told_him_he_wont_move_on/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-02T17:50:01.000Z",
-        "relevanceScore": 21.89,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Pentagon will reportedly award SpaceX a $2 billion contract to help develop the 'Golden Dome'",
-        "link": "https://www.engadget.com/science/space/pentagon-will-reportedly-award-spacex-a-2-billion-contract-to-help-develop-the-golden-dome-210019325.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-01T21:00:19.000Z",
-        "relevanceScore": 17.72,
-        "tags": [
-          "Report"
-        ]
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 14,
-    "avgRelevanceScore": 219.30619047619044,
+    "totalCategories": 15,
+    "avgRelevanceScore": 240.30833333333325,
     "topCategories": [
       {
         "category": "tech",
@@ -964,7 +973,7 @@
       },
       {
         "category": "gaming",
-        "count": 6
+        "count": 5
       },
       {
         "category": "ai-ml",
