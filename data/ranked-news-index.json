@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T05:49:29.188Z",
+  "lastUpdated": "2025-11-05T06:22:18.133Z",
   "totalArticles": 53,
   "categories": [
     "development",
@@ -10,12 +10,12 @@
     "startup",
     "world",
     "business",
-    "cloud",
-    "social",
     "health",
-    "space",
     "automotive",
-    "education"
+    "education",
+    "social",
+    "mobile",
+    "space"
   ],
   "topArticles": [
     {
@@ -24,8 +24,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-04T16:20:37.000Z",
-      "relevanceScore": 1635.3,
-      "recommendationScore": 1635.8,
+      "relevanceScore": 1712.69,
+      "recommendationScore": 1713.19,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -35,8 +35,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-05T03:50:15.000Z",
-      "relevanceScore": 835.1,
-      "recommendationScore": 835.6,
+      "relevanceScore": 982.49,
+      "recommendationScore": 982.99,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -46,8 +46,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-11-03T15:46:26.000Z",
-      "relevanceScore": 651.39,
-      "recommendationScore": 651.39,
+      "relevanceScore": 731.78,
+      "recommendationScore": 731.78,
       "tags": [
         "AI",
         "Tech",
@@ -57,13 +57,27 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "To write secure code, be less gullible than your AI",
+      "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T08:40:00.000Z",
+      "relevanceScore": 711.16,
+      "recommendationScore": 711.66,
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Google has a ‘moonshot’ plan for AI data centers in space",
       "link": "https://www.theverge.com/news/813894/google-project-suncatcher-ai-datacenter-satellites",
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-11-04T23:51:44.000Z",
-      "relevanceScore": 650.81,
-      "recommendationScore": 651.31,
+      "relevanceScore": 703.2,
+      "recommendationScore": 703.7,
       "tags": [
         "AI",
         "Science",
@@ -72,27 +86,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "To write secure code, be less gullible than your AI",
-      "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-11-04T08:40:00.000Z",
-      "relevanceScore": 635.77,
-      "recommendationScore": 636.27,
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Valve will finally turn off the Steam Deck&#8217;s screen while it&#8217;s downloading games",
       "link": "https://www.theverge.com/news/813864/valve-steam-deck-screen-download-games-low-power-screen-off",
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-11-04T23:02:03.000Z",
-      "relevanceScore": 613.14,
-      "recommendationScore": 613.64,
+      "relevanceScore": 649.53,
+      "recommendationScore": 650.03,
       "tags": [
         "Update"
       ],
@@ -104,23 +104,9 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-11-05T03:25:15.000Z",
-      "relevanceScore": 528.52,
-      "recommendationScore": 529.02,
+      "relevanceScore": 586.91,
+      "recommendationScore": 587.41,
       "tags": [
-        "Controversy"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "FDA described as a “clown show” amid latest scandal; top drug regulator is out",
-      "link": "https://arstechnica.com/health/2025/11/fda-described-as-a-clown-show-amid-latest-scandal-top-drug-regulator-is-out/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-11-04T23:24:50.000Z",
-      "relevanceScore": 525.72,
-      "recommendationScore": 528.72,
-      "tags": [
-        "Business",
         "Controversy"
       ],
       "readingLevel": "advanced"
@@ -131,8 +117,8 @@
       "source": "MIT Technology Review",
       "category": "startup",
       "pubDate": "2025-11-04T14:47:25.000Z",
-      "relevanceScore": 509.49,
-      "recommendationScore": 511.49,
+      "relevanceScore": 585.88,
+      "recommendationScore": 587.88,
       "tags": [
         "Tech",
         "Science",
@@ -143,27 +129,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Mini Java Collection",
-      "link": "https://www.reddit.com/r/programming/comments/1oou0zh/mini_java_collection/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-11-05T04:57:23.000Z",
-      "relevanceScore": 439.33,
-      "recommendationScore": 439.33,
-      "tags": [
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Apple Podcasts is generating automatic links and chapters",
-      "link": "https://www.theverge.com/news/813817/apple-podcasts-automatic-links-and-chapters",
-      "source": "The Verge",
+      "title": "FDA described as a “clown show” amid latest scandal; top drug regulator is out",
+      "link": "https://arstechnica.com/health/2025/11/fda-described-as-a-clown-show-amid-latest-scandal-top-drug-regulator-is-out/",
+      "source": "Ars Technica",
       "category": "tech",
-      "pubDate": "2025-11-04T22:34:28.000Z",
-      "relevanceScore": 422.55,
-      "recommendationScore": 423.05,
-      "tags": [],
+      "pubDate": "2025-11-04T23:24:50.000Z",
+      "relevanceScore": 542.61,
+      "recommendationScore": 545.61,
+      "tags": [
+        "Business",
+        "Controversy"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -172,8 +148,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-05T00:18:35.000Z",
-      "relevanceScore": 420.9,
-      "recommendationScore": 421.9,
+      "relevanceScore": 490.29,
+      "recommendationScore": 491.29,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -183,8 +159,32 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-04T23:54:14.000Z",
-      "relevanceScore": 417.82,
-      "recommendationScore": 418.32,
+      "relevanceScore": 487.21,
+      "recommendationScore": 487.71,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Ways to Create Groups Efficiently in Tableau",
+      "link": "https://dev.to/anshuman_816f8012be0c9b6c/ways-to-create-groups-efficiently-in-tableau-15oa",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-05T06:20:47.000Z",
+      "relevanceScore": 454.49,
+      "recommendationScore": 454.49,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Linux Troubleshooting: The Hidden Stories Behind CPU, Memory, and I/O Metrics",
+      "link": "https://www.reddit.com/r/programming/comments/1oooikq/linux_troubleshooting_the_hidden_stories_behind/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-11-05T00:35:00.000Z",
+      "relevanceScore": 345.34,
+      "recommendationScore": 345.84,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -194,8 +194,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-05T00:02:08.000Z",
-      "relevanceScore": 333.84,
-      "recommendationScore": 335.84,
+      "relevanceScore": 337.73,
+      "recommendationScore": 339.73,
       "tags": [
         "Exclusive"
       ],
@@ -207,21 +207,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-04T20:00:00.000Z",
-      "relevanceScore": 327.04,
-      "recommendationScore": 330.04,
+      "relevanceScore": 330.93,
+      "recommendationScore": 333.93,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Linux Troubleshooting: The Hidden Stories Behind CPU, Memory, and I/O Metrics",
-      "link": "https://www.reddit.com/r/programming/comments/1oooikq/linux_troubleshooting_the_hidden_stories_behind/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-11-05T00:35:00.000Z",
-      "relevanceScore": 326.45,
-      "recommendationScore": 326.95,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Oldest victim of Post Office scandal, 92, receives final payout",
@@ -229,26 +218,36 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-05T00:05:04.000Z",
-      "relevanceScore": 228.85,
-      "recommendationScore": 229.35,
+      "relevanceScore": 285.24,
+      "recommendationScore": 285.74,
       "tags": [
         "Controversy"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "NVIDIA, Qualcomm join U.S., Indian VCs to help build India’s next deep tech startups",
-      "link": "https://techcrunch.com/2025/11/04/nvidia-qualcomm-join-u-s-indian-vcs-to-help-build-indias-next-deep-tech-startups/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-11-05T03:30:00.000Z",
-      "relevanceScore": 225.54,
-      "recommendationScore": 226.04,
+      "title": "Canon Promo Codes: 10% Off | November 2025",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-05T06:00:00.000Z",
+      "relevanceScore": 251.93,
+      "recommendationScore": 251.93,
       "tags": [
-        "Tech",
-        "Startup"
+        "Tech"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Understanding the Rake Roof: Design, Function, and Modern Applications",
+      "link": "https://dev.to/seo-dipak-2312/understanding-the-rake-roof-design-function-and-modern-applications-13a0",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-05T06:08:08.000Z",
+      "relevanceScore": 249.95,
+      "recommendationScore": 250.45,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Trump admin proceeds against congressional War Powers restrictions; announces Mexico campaign",
@@ -256,9 +255,36 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-05T03:11:15.000Z",
-      "relevanceScore": 194.47,
-      "recommendationScore": 194.97,
+      "relevanceScore": 243.36,
+      "recommendationScore": 243.86,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "NVIDIA, Qualcomm join U.S., Indian VCs to help build India’s next deep tech startups",
+      "link": "https://techcrunch.com/2025/11/04/nvidia-qualcomm-join-u-s-indian-vcs-to-help-build-indias-next-deep-tech-startups/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-11-05T03:30:00.000Z",
+      "relevanceScore": 238.43,
+      "recommendationScore": 238.93,
+      "tags": [
+        "Tech",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US Steel details plans to invest $11B by 2028 across all business segments",
+      "link": "https://abcnews.go.com/Business/wireStory/us-steel-details-plans-invest-11-billion-2028-127184791",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-04T19:11:23.000Z",
+      "relevanceScore": 215.26,
+      "recommendationScore": 215.76,
+      "tags": [
+        "Business"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -267,48 +293,10 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-11-04T23:03:34.000Z",
-      "relevanceScore": 193.65,
-      "recommendationScore": 194.15,
+      "relevanceScore": 199.04,
+      "recommendationScore": 199.54,
       "tags": [
         "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "US Steel details plans to invest $11B by 2028 across all business segments",
-      "link": "https://abcnews.go.com/Business/wireStory/us-steel-details-plans-invest-11-billion-2028-127184791",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-04T19:11:23.000Z",
-      "relevanceScore": 158.87,
-      "recommendationScore": 159.37,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What’s new at Stack Overflow: November 2025",
-      "link": "https://stackoverflow.blog/2025/11/03/what-s-new-at-stack-overflow-november-2025/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-11-03T15:00:00.000Z",
-      "relevanceScore": 150.24,
-      "recommendationScore": 153.74,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: the AGI myth, and US/China AI competition",
-      "link": "https://www.technologyreview.com/2025/11/04/1127547/the-download-the-agi-myth-and-us-china-ai-competition/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2025-11-04T13:10:00.000Z",
-      "relevanceScore": 121.67,
-      "recommendationScore": 122.17,
-      "tags": [
-        "AI",
-        "Tech"
       ],
       "readingLevel": "intermediate"
     },
@@ -318,50 +306,37 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-04T19:30:23.000Z",
-      "relevanceScore": 118.94,
-      "recommendationScore": 119.44,
+      "relevanceScore": 168.33,
+      "recommendationScore": 168.83,
       "tags": [
         "Regulation"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Appeals judges react skeptically to Sam Bankman-Fried's bid to overturn fraud conviction",
-      "link": "https://abcnews.go.com/Business/wireStory/appeals-judges-react-skeptically-sam-bankman-frieds-bid-127183540",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-04T19:01:54.000Z",
-      "relevanceScore": 71.34,
-      "recommendationScore": 71.84,
+      "title": "What’s new at Stack Overflow: November 2025",
+      "link": "https://stackoverflow.blog/2025/11/03/what-s-new-at-stack-overflow-november-2025/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2025-11-03T15:00:00.000Z",
+      "relevanceScore": 163.13,
+      "recommendationScore": 166.63,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Europe just dropped a cloud rulebook (and it’s actually good)",
-      "link": "https://dev.to/dev_tips/europe-just-dropped-a-cloud-rulebook-and-its-actually-good-7m6",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-05T05:31:23.000Z",
-      "relevanceScore": 65.44,
-      "recommendationScore": 65.94,
-      "tags": [
-        "Tech",
-        "Cloud"
-      ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Reddit added to Australia's social media ban on under-16s",
-      "link": "https://www.bbc.com/news/articles/cn0gkg7x59go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2025-11-05T00:44:42.000Z",
-      "relevanceScore": 61.48,
-      "recommendationScore": 61.98,
+      "title": "The Download: the AGI myth, and US/China AI competition",
+      "link": "https://www.technologyreview.com/2025/11/04/1127547/the-download-the-agi-myth-and-us-china-ai-competition/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T13:10:00.000Z",
+      "relevanceScore": 120.56,
+      "recommendationScore": 121.06,
       "tags": [
-        "Social"
+        "AI",
+        "Tech"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Worsening listeria outbreak tied to pasta products kills 6, hospitalizes 25",
@@ -369,8 +344,8 @@
       "source": "NPR Business",
       "category": "health",
       "pubDate": "2025-11-04T19:28:38.000Z",
-      "relevanceScore": 51.93,
-      "recommendationScore": 52.43,
+      "relevanceScore": 96.82,
+      "recommendationScore": 97.32,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -380,8 +355,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-05T02:18:58.000Z",
-      "relevanceScore": 51.3,
-      "recommendationScore": 51.8,
+      "relevanceScore": 96.19,
+      "recommendationScore": 96.69,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -391,19 +366,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-04T21:53:41.000Z",
-      "relevanceScore": 41.91,
-      "recommendationScore": 43.41,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Crime network behind UK mini-marts is enabling migrants to work illegally, BBC finds",
-      "link": "https://www.bbc.com/news/articles/c0mx99ple17o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-04T22:00:52.000Z",
-      "relevanceScore": 30.44,
-      "recommendationScore": 30.94,
+      "relevanceScore": 91.8,
+      "recommendationScore": 93.3,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -413,10 +377,174 @@
       "source": "BBC News",
       "category": "health",
       "pubDate": "2025-11-05T00:13:35.000Z",
-      "relevanceScore": 30.38,
-      "recommendationScore": 30.88,
+      "relevanceScore": 73.77,
+      "recommendationScore": 74.27,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "People Inc. forges AI licensing deal with Microsoft as Google traffic drops",
+      "link": "https://techcrunch.com/2025/11/04/people-inc-forges-ai-licensing-deal-with-microsoft-as-google-traffic-drops/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T22:30:28.000Z",
+      "relevanceScore": 69.43,
+      "recommendationScore": 69.93,
+      "tags": [
+        "AI",
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Appeals judges react skeptically to Sam Bankman-Fried's bid to overturn fraud conviction",
+      "link": "https://abcnews.go.com/Business/wireStory/appeals-judges-react-skeptically-sam-bankman-frieds-bid-127183540",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-04T19:01:54.000Z",
+      "relevanceScore": 69.23,
+      "recommendationScore": 69.73,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "'Teen Vogue' is moving under Vogue.com — and staffers are being laid off",
+      "link": "https://www.npr.org/2025/11/04/nx-s1-5598290/teen-vogue-layoffs",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-11-04T19:56:36.000Z",
+      "relevanceScore": 68.91,
+      "recommendationScore": 69.41,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Tesla says Musk should be paid $1tn - will shareholders agree?",
+      "link": "https://www.bbc.com/news/articles/cn4j0yg1drgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-11-05T00:46:50.000Z",
+      "relevanceScore": 68.38,
+      "recommendationScore": 68.88,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "AI 'godmother' Fei-Fei Li says she is 'proud to be different'",
+      "link": "https://www.bbc.com/news/articles/c5yp2vj92e9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-11-05T00:18:15.000Z",
+      "relevanceScore": 68.29,
+      "recommendationScore": 68.79,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Teachers Get Death Threats After MAGA Claims Their Halloween Costumes Mocked Charlie Kirk",
+      "link": "https://www.wired.com/story/arizona-teachers-death-threats-charlie-kirk/",
+      "source": "Wired",
+      "category": "education",
+      "pubDate": "2025-11-04T19:35:49.000Z",
+      "relevanceScore": 67.35,
+      "recommendationScore": 67.85,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1350, Part 1 (Thread #1497)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1ooszb6/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-11-05T04:02:31.000Z",
+      "relevanceScore": 67.03,
+      "recommendationScore": 69.53,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon and Perplexity are fighting over the future of AI shopping",
+      "link": "https://www.engadget.com/ai/amazon-and-perplexity-are-fighting-over-the-future-of-ai-shopping-215445479.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T21:54:45.000Z",
+      "relevanceScore": 65.81,
+      "recommendationScore": 66.31,
+      "tags": [
+        "AI",
+        "Web",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Reddit added to Australia's social media ban on under-16s",
+      "link": "https://www.bbc.com/news/articles/cn0gkg7x59go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2025-11-05T00:44:42.000Z",
+      "relevanceScore": 65.37,
+      "recommendationScore": 65.87,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "'Big Short' Michael Burry bets $1bn on AI bubble bursting",
+      "link": "https://www.reddit.com/r/technology/comments/1oofbht/big_short_michael_burry_bets_1bn_on_ai_bubble/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T18:36:40.000Z",
+      "relevanceScore": 63.15,
+      "recommendationScore": 63.65,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Fox News Falls for AI-Generated Footage of Poor People Raging About Food Stamps Being Shut Down, Runs False Story That Has to Be Updated With Huge Correction",
+      "link": "https://www.reddit.com/r/technology/comments/1oo3yz7/fox_news_falls_for_aigenerated_footage_of_poor/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-11-04T10:29:23.000Z",
+      "relevanceScore": 62.52,
+      "recommendationScore": 64.52,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Epic and Google agree to settle their lawsuit and change Android’s fate globally",
+      "link": "https://www.theverge.com/policy/813991/epic-google-proposed-settlement",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-11-05T05:48:48.000Z",
+      "relevanceScore": 52.39,
+      "recommendationScore": 52.89,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Crime network behind UK mini-marts is enabling migrants to work illegally, BBC finds",
+      "link": "https://www.bbc.com/news/articles/c0mx99ple17o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-05T06:00:51.000Z",
+      "relevanceScore": 31.93,
+      "recommendationScore": 32.43,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Goldman Sachs doubles down on MoEngage in new round to fuel global expansion",
@@ -424,8 +552,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-05T05:20:00.000Z",
-      "relevanceScore": 27.9,
-      "recommendationScore": 30.4,
+      "relevanceScore": 27.79,
+      "recommendationScore": 30.29,
       "tags": [
         "Business",
         "Funding"
@@ -438,8 +566,8 @@
       "source": "TechCrunch",
       "category": "space",
       "pubDate": "2025-11-05T01:23:06.000Z",
-      "relevanceScore": 27.11,
-      "recommendationScore": 27.61,
+      "relevanceScore": 27,
+      "recommendationScore": 27.5,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -449,24 +577,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-04T23:05:04.000Z",
-      "relevanceScore": 26.65,
-      "recommendationScore": 27.15,
+      "relevanceScore": 26.54,
+      "recommendationScore": 27.04,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "People Inc. forges AI licensing deal with Microsoft as Google traffic drops",
-      "link": "https://techcrunch.com/2025/11/04/people-inc-forges-ai-licensing-deal-with-microsoft-as-google-traffic-drops/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-11-04T22:30:28.000Z",
-      "relevanceScore": 26.04,
-      "recommendationScore": 26.54,
-      "tags": [
-        "AI",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Google’s new hurricane model was breathtakingly good this season",
@@ -474,23 +588,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-04T22:50:29.000Z",
-      "relevanceScore": 25.6,
-      "recommendationScore": 28.1,
+      "relevanceScore": 25.49,
+      "recommendationScore": 27.99,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "'Teen Vogue' is moving under Vogue.com — and staffers are being laid off",
-      "link": "https://www.npr.org/2025/11/04/nx-s1-5598290/teen-vogue-layoffs",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-11-04T19:56:36.000Z",
-      "relevanceScore": 25.52,
-      "recommendationScore": 26.02,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "In a stunning comeback, Jared Isaacman is renominated to lead NASA",
@@ -498,33 +599,9 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-11-05T00:50:43.000Z",
-      "relevanceScore": 25,
-      "recommendationScore": 25.5,
+      "relevanceScore": 24.89,
+      "recommendationScore": 25.39,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Tesla says Musk should be paid $1tn - will shareholders agree?",
-      "link": "https://www.bbc.com/news/articles/cn4j0yg1drgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "automotive",
-      "pubDate": "2025-11-05T00:46:50.000Z",
-      "relevanceScore": 24.99,
-      "recommendationScore": 25.49,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "AI 'godmother' Fei-Fei Li says she is 'proud to be different'",
-      "link": "https://www.bbc.com/news/articles/c5yp2vj92e9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-11-05T00:18:15.000Z",
-      "relevanceScore": 24.9,
-      "recommendationScore": 25.4,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -533,8 +610,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-04T22:14:24.000Z",
-      "relevanceScore": 24.48,
-      "recommendationScore": 26.98,
+      "relevanceScore": 24.37,
+      "recommendationScore": 26.87,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -544,8 +621,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-04T11:30:00.000Z",
-      "relevanceScore": 24.34,
-      "recommendationScore": 24.84,
+      "relevanceScore": 24.23,
+      "recommendationScore": 24.73,
       "tags": [
         "Tutorial"
       ],
@@ -557,83 +634,9 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-05T02:00:03.000Z",
-      "relevanceScore": 24.24,
-      "recommendationScore": 24.74,
+      "relevanceScore": 24.13,
+      "recommendationScore": 24.63,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Teachers Get Death Threats After MAGA Claims Their Halloween Costumes Mocked Charlie Kirk",
-      "link": "https://www.wired.com/story/arizona-teachers-death-threats-charlie-kirk/",
-      "source": "Wired",
-      "category": "education",
-      "pubDate": "2025-11-04T19:35:49.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 24.45,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Sin Containers no hay paraíso.",
-      "link": "https://dev.to/jose_muoz_7408dd1b5bd4c9/sin-containers-no-hay-paraiso-3c7c",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-05T05:30:13.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 23.94,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Podcastle Podcast: The Ultimate All-in-One Platform for Podcasters",
-      "link": "https://dev.to/seo-dipak-2312/podcastle-podcast-the-ultimate-all-in-one-platform-for-podcasters-2j5e",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-05T05:30:02.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 24.44,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Our Favorite Gaming Headset for Xbox Owners Is Discounted",
-      "link": "https://www.wired.com/story/xbox-wireless-headset-deal-1125/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2025-11-04T18:46:01.000Z",
-      "relevanceScore": 23.79,
-      "recommendationScore": 24.29,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1350, Part 1 (Thread #1497)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1ooszb6/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-11-05T04:02:31.000Z",
-      "relevanceScore": 23.64,
-      "recommendationScore": 26.14,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon and Perplexity are fighting over the future of AI shopping",
-      "link": "https://www.engadget.com/ai/amazon-and-perplexity-are-fighting-over-the-future-of-ai-shopping-215445479.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-11-04T21:54:45.000Z",
-      "relevanceScore": 22.42,
-      "recommendationScore": 22.92,
-      "tags": [
-        "AI",
-        "Web",
-        "Startup"
-      ],
       "readingLevel": "advanced"
     }
   ],
@@ -644,17 +647,17 @@
         "link": "https://www.reddit.com/r/programming/comments/1oobjtg/introducing_pg_lake_integrate_your_data_lakehouse/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-04T16:20:37.000Z",
-        "relevanceScore": 1635.3,
+        "relevanceScore": 1712.69,
         "tags": []
       },
       {
-        "title": "Mini Java Collection",
-        "link": "https://www.reddit.com/r/programming/comments/1oou0zh/mini_java_collection/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-05T04:57:23.000Z",
-        "relevanceScore": 439.33,
+        "title": "Ways to Create Groups Efficiently in Tableau",
+        "link": "https://dev.to/anshuman_816f8012be0c9b6c/ways-to-create-groups-efficiently-in-tableau-15oa",
+        "source": "Dev.to",
+        "pubDate": "2025-11-05T06:20:47.000Z",
+        "relevanceScore": 454.49,
         "tags": [
-          "IPO"
+          "Social"
         ]
       },
       {
@@ -662,7 +665,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1oooikq/linux_troubleshooting_the_hidden_stories_behind/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-05T00:35:00.000Z",
-        "relevanceScore": 326.45,
+        "relevanceScore": 345.34,
+        "tags": []
+      },
+      {
+        "title": "Understanding the Rake Roof: Design, Function, and Modern Applications",
+        "link": "https://dev.to/seo-dipak-2312/understanding-the-rake-roof-design-function-and-modern-applications-13a0",
+        "source": "Dev.to",
+        "pubDate": "2025-11-05T06:08:08.000Z",
+        "relevanceScore": 249.95,
         "tags": []
       },
       {
@@ -670,15 +681,15 @@
         "link": "https://stackoverflow.blog/2025/11/03/what-s-new-at-stack-overflow-november-2025/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-11-03T15:00:00.000Z",
-        "relevanceScore": 150.24,
+        "relevanceScore": 163.13,
         "tags": []
       },
       {
-        "title": "Podcastle Podcast: The Ultimate All-in-One Platform for Podcasters",
-        "link": "https://dev.to/seo-dipak-2312/podcastle-podcast-the-ultimate-all-in-one-platform-for-podcasters-2j5e",
-        "source": "Dev.to",
-        "pubDate": "2025-11-05T05:30:02.000Z",
-        "relevanceScore": 23.94,
+        "title": "Benchmarking the cost of Java's EnumSet - A Second Look",
+        "link": "https://www.reddit.com/r/programming/comments/1oogu82/benchmarking_the_cost_of_javas_enumset_a_second/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-04T19:31:56.000Z",
+        "relevanceScore": 19.83,
         "tags": []
       }
     ],
@@ -688,7 +699,7 @@
         "link": "https://www.bbc.com/news/articles/cly4kr8gzr2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-05T03:50:15.000Z",
-        "relevanceScore": 835.1,
+        "relevanceScore": 982.49,
         "tags": []
       },
       {
@@ -696,7 +707,7 @@
         "link": "https://www.bbc.com/news/articles/cm2kyjrg77eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-05T00:02:08.000Z",
-        "relevanceScore": 333.84,
+        "relevanceScore": 337.73,
         "tags": [
           "Exclusive"
         ]
@@ -706,7 +717,7 @@
         "link": "https://www.bbc.com/news/articles/c74jvd0drvvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-05T00:05:04.000Z",
-        "relevanceScore": 228.85,
+        "relevanceScore": 285.24,
         "tags": [
           "Controversy"
         ]
@@ -715,8 +726,8 @@
         "title": "Crime network behind UK mini-marts is enabling migrants to work illegally, BBC finds",
         "link": "https://www.bbc.com/news/articles/c0mx99ple17o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-11-04T22:00:52.000Z",
-        "relevanceScore": 30.44,
+        "pubDate": "2025-11-05T06:00:51.000Z",
+        "relevanceScore": 31.93,
         "tags": []
       }
     ],
@@ -726,7 +737,7 @@
         "link": "https://www.technologyreview.com/2025/11/03/1126780/the-state-of-ai-is-china-about-to-win-the-race/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-03T15:46:26.000Z",
-        "relevanceScore": 651.39,
+        "relevanceScore": 731.78,
         "tags": [
           "AI",
           "Tech",
@@ -735,11 +746,22 @@
         ]
       },
       {
+        "title": "To write secure code, be less gullible than your AI",
+        "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-11-04T08:40:00.000Z",
+        "relevanceScore": 711.16,
+        "tags": [
+          "AI",
+          "Security"
+        ]
+      },
+      {
         "title": "Google has a ‘moonshot’ plan for AI data centers in space",
         "link": "https://www.theverge.com/news/813894/google-project-suncatcher-ai-datacenter-satellites",
         "source": "The Verge",
         "pubDate": "2025-11-04T23:51:44.000Z",
-        "relevanceScore": 650.81,
+        "relevanceScore": 703.2,
         "tags": [
           "AI",
           "Science",
@@ -747,22 +769,11 @@
         ]
       },
       {
-        "title": "To write secure code, be less gullible than your AI",
-        "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-11-04T08:40:00.000Z",
-        "relevanceScore": 635.77,
-        "tags": [
-          "AI",
-          "Security"
-        ]
-      },
-      {
         "title": "The Download: the AGI myth, and US/China AI competition",
         "link": "https://www.technologyreview.com/2025/11/04/1127547/the-download-the-agi-myth-and-us-china-ai-competition/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-04T13:10:00.000Z",
-        "relevanceScore": 121.67,
+        "relevanceScore": 120.56,
         "tags": [
           "AI",
           "Tech"
@@ -773,7 +784,7 @@
         "link": "https://techcrunch.com/2025/11/04/people-inc-forges-ai-licensing-deal-with-microsoft-as-google-traffic-drops/",
         "source": "TechCrunch",
         "pubDate": "2025-11-04T22:30:28.000Z",
-        "relevanceScore": 26.04,
+        "relevanceScore": 69.43,
         "tags": [
           "AI",
           "Partnership"
@@ -784,7 +795,7 @@
         "link": "https://www.bbc.com/news/articles/c5yp2vj92e9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-05T00:18:15.000Z",
-        "relevanceScore": 24.9,
+        "relevanceScore": 68.29,
         "tags": [
           "AI"
         ]
@@ -794,7 +805,7 @@
         "link": "https://www.engadget.com/ai/amazon-and-perplexity-are-fighting-over-the-future-of-ai-shopping-215445479.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-04T21:54:45.000Z",
-        "relevanceScore": 22.42,
+        "relevanceScore": 65.81,
         "tags": [
           "AI",
           "Web",
@@ -806,7 +817,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1oofbht/big_short_michael_burry_bets_1bn_on_ai_bubble/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-04T18:36:40.000Z",
-        "relevanceScore": 19.76,
+        "relevanceScore": 63.15,
         "tags": [
           "AI"
         ]
@@ -816,7 +827,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1oo3yz7/fox_news_falls_for_aigenerated_footage_of_poor/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-04T10:29:23.000Z",
-        "relevanceScore": 19.13,
+        "relevanceScore": 62.52,
         "tags": [
           "AI"
         ]
@@ -828,7 +839,7 @@
         "link": "https://www.theverge.com/news/813864/valve-steam-deck-screen-download-games-low-power-screen-off",
         "source": "The Verge",
         "pubDate": "2025-11-04T23:02:03.000Z",
-        "relevanceScore": 613.14,
+        "relevanceScore": 649.53,
         "tags": [
           "Update"
         ]
@@ -838,19 +849,9 @@
         "link": "https://www.engadget.com/steam-deck-adds-a-standby-mode-for-screen-off-downloads-230334579.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-04T23:03:34.000Z",
-        "relevanceScore": 193.65,
+        "relevanceScore": 199.04,
         "tags": [
           "Update"
-        ]
-      },
-      {
-        "title": "Our Favorite Gaming Headset for Xbox Owners Is Discounted",
-        "link": "https://www.wired.com/story/xbox-wireless-headset-deal-1125/",
-        "source": "Wired",
-        "pubDate": "2025-11-04T18:46:01.000Z",
-        "relevanceScore": 23.79,
-        "tags": [
-          "Exclusive"
         ]
       }
     ],
@@ -860,7 +861,7 @@
         "link": "https://www.bbc.com/news/articles/cx2lppx2jm7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-05T03:25:15.000Z",
-        "relevanceScore": 528.52,
+        "relevanceScore": 586.91,
         "tags": [
           "Controversy"
         ]
@@ -870,26 +871,18 @@
         "link": "https://arstechnica.com/health/2025/11/fda-described-as-a-clown-show-amid-latest-scandal-top-drug-regulator-is-out/",
         "source": "Ars Technica",
         "pubDate": "2025-11-04T23:24:50.000Z",
-        "relevanceScore": 525.72,
+        "relevanceScore": 542.61,
         "tags": [
           "Business",
           "Controversy"
         ]
       },
       {
-        "title": "Apple Podcasts is generating automatic links and chapters",
-        "link": "https://www.theverge.com/news/813817/apple-podcasts-automatic-links-and-chapters",
-        "source": "The Verge",
-        "pubDate": "2025-11-04T22:34:28.000Z",
-        "relevanceScore": 422.55,
-        "tags": []
-      },
-      {
         "title": "The best robot vacuums we&#8217;ve tested for 2025",
         "link": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
         "source": "The Verge",
         "pubDate": "2025-11-05T00:18:35.000Z",
-        "relevanceScore": 420.9,
+        "relevanceScore": 490.29,
         "tags": []
       },
       {
@@ -897,7 +890,7 @@
         "link": "https://www.engadget.com/science/space/scientists-observed-a-black-hole-flare-that-shined-with-the-light-of-10-trillion-suns-235414438.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-04T23:54:14.000Z",
-        "relevanceScore": 417.82,
+        "relevanceScore": 487.21,
         "tags": []
       },
       {
@@ -905,15 +898,25 @@
         "link": "https://www.wired.com/story/best-shows-disney-plus/",
         "source": "Wired",
         "pubDate": "2025-11-04T20:00:00.000Z",
-        "relevanceScore": 327.04,
+        "relevanceScore": 330.93,
         "tags": []
+      },
+      {
+        "title": "Canon Promo Codes: 10% Off | November 2025",
+        "link": "https://www.wired.com/story/canon-promo-code/",
+        "source": "Wired",
+        "pubDate": "2025-11-05T06:00:00.000Z",
+        "relevanceScore": 251.93,
+        "tags": [
+          "Tech"
+        ]
       },
       {
         "title": "FBI Warns of Criminals Posing as ICE, Urges Agents to ID Themselves",
         "link": "https://www.wired.com/story/fbi-warns-of-criminals-posing-as-ice-urges-agents-to-id-themselves/",
         "source": "Wired",
         "pubDate": "2025-11-04T19:30:23.000Z",
-        "relevanceScore": 118.94,
+        "relevanceScore": 168.33,
         "tags": [
           "Regulation"
         ]
@@ -923,7 +926,7 @@
         "link": "https://www.engadget.com/stellantis-recalls-more-than-375000-jeep-hybrid-suvs-for-fire-risk-215341226.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-04T21:53:41.000Z",
-        "relevanceScore": 41.91,
+        "relevanceScore": 91.8,
         "tags": []
       },
       {
@@ -931,7 +934,7 @@
         "link": "https://techcrunch.com/2025/11/04/goldman-sachs-doubles-down-on-moengage-in-100m-round-to-fuel-global-expansion/",
         "source": "TechCrunch",
         "pubDate": "2025-11-05T05:20:00.000Z",
-        "relevanceScore": 27.9,
+        "relevanceScore": 27.79,
         "tags": [
           "Business",
           "Funding"
@@ -942,7 +945,7 @@
         "link": "https://techcrunch.com/2025/11/04/amazon-sends-legal-threats-to-perplexity-over-agentic-browsing/",
         "source": "TechCrunch",
         "pubDate": "2025-11-04T23:05:04.000Z",
-        "relevanceScore": 26.65,
+        "relevanceScore": 26.54,
         "tags": []
       },
       {
@@ -950,7 +953,7 @@
         "link": "https://arstechnica.com/science/2025/11/googles-new-weather-model-impressed-during-its-first-hurricane-season/",
         "source": "Ars Technica",
         "pubDate": "2025-11-04T22:50:29.000Z",
-        "relevanceScore": 25.6,
+        "relevanceScore": 25.49,
         "tags": []
       },
       {
@@ -958,7 +961,7 @@
         "link": "https://arstechnica.com/gadgets/2025/11/hdr10-advanced-joins-dolby-vision-2-in-trying-to-make-you-like-motion-smoothing/",
         "source": "Ars Technica",
         "pubDate": "2025-11-04T22:14:24.000Z",
-        "relevanceScore": 24.48,
+        "relevanceScore": 24.37,
         "tags": []
       },
       {
@@ -966,7 +969,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1ookd16/postheist_reports_reveal_the_password_for_the/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-04T21:46:54.000Z",
-        "relevanceScore": 20.39,
+        "relevanceScore": 20.28,
         "tags": []
       }
     ],
@@ -976,7 +979,7 @@
         "link": "https://www.technologyreview.com/2025/11/04/1127532/why-the-for-profit-race-into-solar-geoengineering-is-bad-for-science-and-public-trust/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-04T14:47:25.000Z",
-        "relevanceScore": 509.49,
+        "relevanceScore": 585.88,
         "tags": [
           "Tech",
           "Science",
@@ -990,7 +993,7 @@
         "link": "https://techcrunch.com/2025/11/04/nvidia-qualcomm-join-u-s-indian-vcs-to-help-build-indias-next-deep-tech-startups/",
         "source": "TechCrunch",
         "pubDate": "2025-11-05T03:30:00.000Z",
-        "relevanceScore": 225.54,
+        "relevanceScore": 238.43,
         "tags": [
           "Tech",
           "Startup"
@@ -1003,15 +1006,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1oorxnl/trump_admin_proceeds_against_congressional_war/",
         "source": "Reddit World News",
         "pubDate": "2025-11-05T03:11:15.000Z",
-        "relevanceScore": 194.47,
-        "tags": []
-      },
-      {
-        "title": "Pope Leo slams US military deployment off Venezuela: \"With violence, we don't win\"",
-        "link": "https://www.reddit.com/r/worldnews/comments/1ooqert/pope_leo_slams_us_military_deployment_off/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-05T02:00:03.000Z",
-        "relevanceScore": 24.24,
+        "relevanceScore": 243.36,
         "tags": []
       },
       {
@@ -1019,7 +1014,15 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1ooszb6/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-11-05T04:02:31.000Z",
-        "relevanceScore": 23.64,
+        "relevanceScore": 67.03,
+        "tags": []
+      },
+      {
+        "title": "Pope Leo slams US military deployment off Venezuela: \"With violence, we don't win\"",
+        "link": "https://www.reddit.com/r/worldnews/comments/1ooqert/pope_leo_slams_us_military_deployment_off/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-05T02:00:03.000Z",
+        "relevanceScore": 24.13,
         "tags": []
       }
     ],
@@ -1029,25 +1032,25 @@
         "link": "https://abcnews.go.com/Business/wireStory/us-steel-details-plans-invest-11-billion-2028-127184791",
         "source": "ABC News Business",
         "pubDate": "2025-11-04T19:11:23.000Z",
-        "relevanceScore": 158.87,
+        "relevanceScore": 215.26,
         "tags": [
           "Business"
         ]
-      },
-      {
-        "title": "Appeals judges react skeptically to Sam Bankman-Fried's bid to overturn fraud conviction",
-        "link": "https://abcnews.go.com/Business/wireStory/appeals-judges-react-skeptically-sam-bankman-frieds-bid-127183540",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-04T19:01:54.000Z",
-        "relevanceScore": 71.34,
-        "tags": []
       },
       {
         "title": "American Airlines announces cuts to management at its Texas headquarters",
         "link": "https://abcnews.go.com/Business/wireStory/american-airlines-announces-cuts-management-texas-headquarters-127192278",
         "source": "ABC News Business",
         "pubDate": "2025-11-05T02:18:58.000Z",
-        "relevanceScore": 51.3,
+        "relevanceScore": 96.19,
+        "tags": []
+      },
+      {
+        "title": "Appeals judges react skeptically to Sam Bankman-Fried's bid to overturn fraud conviction",
+        "link": "https://abcnews.go.com/Business/wireStory/appeals-judges-react-skeptically-sam-bankman-frieds-bid-127183540",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-04T19:01:54.000Z",
+        "relevanceScore": 69.23,
         "tags": []
       },
       {
@@ -1055,7 +1058,7 @@
         "link": "https://www.npr.org/2025/11/04/nx-s1-5598290/teen-vogue-layoffs",
         "source": "NPR Business",
         "pubDate": "2025-11-04T19:56:36.000Z",
-        "relevanceScore": 25.52,
+        "relevanceScore": 68.91,
         "tags": [
           "Social"
         ]
@@ -1065,42 +1068,9 @@
         "link": "https://www.npr.org/sections/planet-money/2025/11/04/g-s1-96043/a-planet-money-guide-to-five-fascinating-economic-studies",
         "source": "NPR Business",
         "pubDate": "2025-11-04T11:30:00.000Z",
-        "relevanceScore": 24.34,
+        "relevanceScore": 24.23,
         "tags": [
           "Tutorial"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Europe just dropped a cloud rulebook (and it’s actually good)",
-        "link": "https://dev.to/dev_tips/europe-just-dropped-a-cloud-rulebook-and-its-actually-good-7m6",
-        "source": "Dev.to",
-        "pubDate": "2025-11-05T05:31:23.000Z",
-        "relevanceScore": 65.44,
-        "tags": [
-          "Tech",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "Sin Containers no hay paraíso.",
-        "link": "https://dev.to/jose_muoz_7408dd1b5bd4c9/sin-containers-no-hay-paraiso-3c7c",
-        "source": "Dev.to",
-        "pubDate": "2025-11-05T05:30:13.000Z",
-        "relevanceScore": 23.94,
-        "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "Reddit added to Australia's social media ban on under-16s",
-        "link": "https://www.bbc.com/news/articles/cn0gkg7x59go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-11-05T00:44:42.000Z",
-        "relevanceScore": 61.48,
-        "tags": [
-          "Social"
         ]
       }
     ],
@@ -1110,7 +1080,7 @@
         "link": "https://www.npr.org/2025/11/04/nx-s1-5598279/listeria-outbreak-prepared-pasta",
         "source": "NPR Business",
         "pubDate": "2025-11-04T19:28:38.000Z",
-        "relevanceScore": 51.93,
+        "relevanceScore": 96.82,
         "tags": []
       },
       {
@@ -1118,25 +1088,7 @@
         "link": "https://www.bbc.com/news/articles/c7v80n7mz2jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-05T00:13:35.000Z",
-        "relevanceScore": 30.38,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Trump flips and re-nominates Jared Isaacman to lead NASA",
-        "link": "https://techcrunch.com/2025/11/04/trump-flips-and-re-nominates-jared-isaacman-to-lead-nasa/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-05T01:23:06.000Z",
-        "relevanceScore": 27.11,
-        "tags": []
-      },
-      {
-        "title": "In a stunning comeback, Jared Isaacman is renominated to lead NASA",
-        "link": "https://arstechnica.com/space/2025/11/in-a-stunning-comeback-jared-isaacman-is-renominated-to-lead-nasa/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-05T00:50:43.000Z",
-        "relevanceScore": 25,
+        "relevanceScore": 73.77,
         "tags": []
       }
     ],
@@ -1146,7 +1098,7 @@
         "link": "https://www.bbc.com/news/articles/cn4j0yg1drgo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-05T00:46:50.000Z",
-        "relevanceScore": 24.99,
+        "relevanceScore": 68.38,
         "tags": []
       }
     ],
@@ -1156,17 +1108,67 @@
         "link": "https://www.wired.com/story/arizona-teachers-death-threats-charlie-kirk/",
         "source": "Wired",
         "pubDate": "2025-11-04T19:35:49.000Z",
-        "relevanceScore": 23.95,
+        "relevanceScore": 67.35,
         "tags": [
           "Web"
         ]
+      },
+      {
+        "title": "Learning patience, not skills",
+        "link": "https://dev.to/dshaw0004/learning-patience-not-skills-l5o",
+        "source": "Dev.to",
+        "pubDate": "2025-11-05T06:08:21.000Z",
+        "relevanceScore": 23.95,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Reddit added to Australia's social media ban on under-16s",
+        "link": "https://www.bbc.com/news/articles/cn0gkg7x59go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-11-05T00:44:42.000Z",
+        "relevanceScore": 65.37,
+        "tags": [
+          "Social"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Epic and Google agree to settle their lawsuit and change Android’s fate globally",
+        "link": "https://www.theverge.com/policy/813991/epic-google-proposed-settlement",
+        "source": "The Verge",
+        "pubDate": "2025-11-05T05:48:48.000Z",
+        "relevanceScore": 52.39,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "space": [
+      {
+        "title": "Trump flips and re-nominates Jared Isaacman to lead NASA",
+        "link": "https://techcrunch.com/2025/11/04/trump-flips-and-re-nominates-jared-isaacman-to-lead-nasa/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-05T01:23:06.000Z",
+        "relevanceScore": 27,
+        "tags": []
+      },
+      {
+        "title": "In a stunning comeback, Jared Isaacman is renominated to lead NASA",
+        "link": "https://arstechnica.com/space/2025/11/in-a-stunning-comeback-jared-isaacman-is-renominated-to-lead-nasa/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-05T00:50:43.000Z",
+        "relevanceScore": 24.89,
+        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 15,
     "totalCategories": 14,
-    "avgRelevanceScore": 218.44056603773592,
+    "avgRelevanceScore": 249.70452830188685,
     "topCategories": [
       {
         "category": "tech",
@@ -1178,7 +1180,7 @@
       },
       {
         "category": "development",
-        "count": 5
+        "count": 6
       },
       {
         "category": "business",
