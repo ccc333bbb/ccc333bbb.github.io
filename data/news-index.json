@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2025-11-04T23:48:45.345Z",
+  "lastUpdated": "2025-11-05T01:09:20.856Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2025-11-05",
+      "file": "2025-11-05.json",
+      "totalArticles": 53,
+      "lastUpdated": "2025-11-05T01:09:20.835Z",
+      "sources": [
+        "Reddit Programming",
+        "The Verge",
+        "Dev.to",
+        "Stack Overflow Blog",
+        "Ars Technica",
+        "Wired",
+        "BBC Technology",
+        "MIT Technology Review",
+        "TechCrunch",
+        "Engadget",
+        "NPR Business",
+        "Reddit World News",
+        "BBC News",
+        "ABC News Business",
+        "Reddit Technology"
+      ],
+      "categories": [
+        "development",
+        "tech",
+        "science",
+        "business",
+        "world",
+        "general"
+      ],
+      "topArticles": [
+        {
+          "title": "Introducing pg_lake: Integrate Your Data Lakehouse with Postgres",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1oobjtg/introducing_pg_lake_integrate_your_data_lakehouse/",
+          "relevanceScore": 1316.5939119444445
+        },
+        {
+          "title": "Google has a ‘moonshot’ plan for AI data centers in space",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/813894/google-project-suncatcher-ai-datacenter-satellites",
+          "relevanceScore": 664.3532176388889
+        },
+        {
+          "title": "Spiking Neural Networks: The Next Leap in AI Power Efficiency by Arvind Sundararajan",
+          "source": "Dev.to",
+          "link": "https://dev.to/arvind_sundararajan/spiking-neural-networks-the-next-leap-in-ai-power-efficiency-by-arvind-sundararajan-45n8",
+          "relevanceScore": 551.9396063888889
+        },
+        {
+          "title": "To write secure code, be less gullible than your AI",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
+          "relevanceScore": 478
+        },
+        {
+          "title": "Built my own 36 compiler agentic IDE",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1oop885/built_my_own_36_compiler_agentic_ide/",
+          "relevanceScore": 411.97557861111113
+        }
+      ]
+    },
     {
       "date": "2025-11-04",
       "file": "2025-11-04.json",
@@ -37,31 +100,31 @@
           "title": "Introducing pg_lake: Integrate Your Data Lakehouse with Postgres",
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1oobjtg/introducing_pg_lake_integrate_your_data_lakehouse/",
-          "relevanceScore": 1630.2655104166668
+          "relevanceScore": 1605.01
         },
         {
           "title": "ChatGPT owner OpenAI signs $38bn cloud computing deal with Amazon",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/cgqlzje32pjo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1020
+          "relevanceScore": 997.99
         },
         {
           "title": "To write secure code, be less gullible than your AI",
           "source": "Stack Overflow Blog",
           "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
-          "relevanceScore": 814
+          "relevanceScore": 789.47
         },
         {
           "title": "Apple Podcasts is generating automatic links and chapters",
           "source": "The Verge",
           "link": "https://www.theverge.com/news/813817/apple-podcasts-automatic-links-and-chapters",
-          "relevanceScore": 809.3809272222222
+          "relevanceScore": 823.75
         },
         {
           "title": "Stellantis recalls more than 375,000 Jeep hybrid SUVs for fire risk",
           "source": "Engadget",
           "link": "https://www.engadget.com/stellantis-recalls-more-than-375000-jeep-hybrid-suvs-for-fire-risk-215341226.html?src=rss",
-          "relevanceScore": 611.0410661111111
+          "relevanceScore": 590.12
         }
       ]
     },
@@ -1833,70 +1896,6 @@
           "source": "NPR Business",
           "link": "https://www.npr.org/2025/10/07/nx-s1-5563872/government-shutdown-federal-workers-layoffs-rifs",
           "relevanceScore": 840.04
-        }
-      ]
-    },
-    {
-      "date": "2025-10-06",
-      "file": "2025-10-06.json",
-      "totalArticles": 53,
-      "lastUpdated": "2025-10-06T23:48:37.183Z",
-      "sources": [
-        "Wired",
-        "The Verge",
-        "TechCrunch",
-        "Engadget",
-        "Ars Technica",
-        "BBC Technology",
-        "Stack Overflow Blog",
-        "MIT Technology Review",
-        "BBC News",
-        "Dev.to",
-        "NPR Business",
-        "GitHub Blog",
-        "ABC News Business",
-        "Reddit World News",
-        "Reddit Technology",
-        "Reddit Programming"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "science",
-        "general",
-        "business",
-        "world"
-      ],
-      "topArticles": [
-        {
-          "title": "OpenAI Wants ChatGPT to Be Your Future Operating System",
-          "source": "Wired",
-          "link": "https://www.wired.com/story/openai-dev-day-sam-altman-chatgpt-apps/",
-          "relevanceScore": 1337.15
-        },
-        {
-          "title": "ChatGPT apps are live: Here are the first ones you can try",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/news/793081/chagpt-apps-sdk-spotify-zillow-openai",
-          "relevanceScore": 1197.61
-        },
-        {
-          "title": "OpenAI ramps up developer push with more powerful models in its API",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2025/10/06/openai-ramps-up-developer-push-with-more-powerful-models-in-its-api/",
-          "relevanceScore": 774.57
-        },
-        {
-          "title": "Apple is bringing back Slide Over in iPadOS 26.1",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/mobile/tablets/apple-is-bringing-back-slide-over-in-ipados-261-190036025.html?src=rss",
-          "relevanceScore": 756.04
-        },
-        {
-          "title": "Ted Cruz picks a fight with Wikipedia, accusing platform of left-wing bias",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2025/10/ted-cruz-picks-a-fight-with-wikipedia-accusing-platform-of-left-wing-bias/",
-          "relevanceScore": 676.39
         }
       ]
     }
