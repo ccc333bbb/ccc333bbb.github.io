@@ -1,64 +1,68 @@
 {
-  "lastUpdated": "2025-11-07T15:49:07.729Z",
+  "lastUpdated": "2025-11-07T16:15:25.598Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2025-11-07",
       "file": "2025-11-07.json",
-      "totalArticles": 47,
-      "lastUpdated": "2025-11-07T15:49:07.708Z",
+      "totalArticles": 55,
+      "lastUpdated": "2025-11-07T16:15:25.578Z",
       "sources": [
+        "Reddit Programming",
         "NPR Business",
         "BBC Technology",
+        "GitHub Blog",
         "The Verge",
         "Dev.to",
         "Wired",
         "Ars Technica",
-        "GitHub Blog",
         "Stack Overflow Blog",
         "TechCrunch",
         "Engadget",
         "MIT Technology Review",
         "BBC News",
-        "ABC News Business"
+        "ABC News Business",
+        "Reddit World News",
+        "Reddit Technology"
       ],
       "categories": [
+        "development",
         "business",
         "tech",
-        "development",
         "science",
-        "general"
+        "general",
+        "world"
       ],
       "topArticles": [
+        {
+          "title": "Why we chose OCaml to write Stategraph",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1oqtnb2/why_we_chose_ocaml_to_write_stategraph/",
+          "relevanceScore": 1187.3292252777778
+        },
         {
           "title": "Boeing won't face criminal charge over 737 Max crashes that killed hundreds of people",
           "source": "NPR Business",
           "link": "https://www.npr.org/2025/11/07/nx-s1-5601593/boeing-737-max-crashes",
-          "relevanceScore": 649.3811516666667
+          "relevanceScore": 661.1620031944444
         },
         {
           "title": "Why human-shaped robots loom large in Musk's Tesla plans",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/cdrz2rdlykdo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 577.2161518055556
+          "relevanceScore": 602.9970033333333
+        },
+        {
+          "title": "What 986 million code pushes say about the developer workflow in 2025",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/news-insights/octoverse/what-986-million-code-pushes-say-about-the-developer-workflow-in-2025/",
+          "relevanceScore": 561.8714476388889
         },
         {
           "title": "Big Tech tax breaks could’ve funded benefits for millions, Senator Warren finds",
           "source": "The Verge",
           "link": "https://www.theverge.com/news/816267/senator-elizabeth-warren-tax-break-microsoft-amazon",
-          "relevanceScore": 553.59059625
-        },
-        {
-          "title": "Mastering CSS Container Queries: Break Free from Viewport Tyranny 👨‍💻",
-          "source": "Dev.to",
-          "link": "https://dev.to/krish_kakadiya_5f0eaf6342/mastering-css-container-queries-break-free-from-viewport-tyranny-2lgo",
-          "relevanceScore": 545.9518461111111
-        },
-        {
-          "title": "First steps with Caddy",
-          "source": "Dev.to",
-          "link": "https://dev.to/migsarnavarro/first-steps-with-caddy-3bmc",
-          "relevanceScore": 501.9083738888889
+          "relevanceScore": 561.3714477777778
         }
       ]
     },
