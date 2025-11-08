@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2025-11-08T10:32:38.468Z",
+  "lastUpdated": "2025-11-08T10:48:34.810Z",
   "totalArticles": 54,
   "categories": [
     "business",
     "tech",
-    "ai-ml",
     "development",
-    "science",
     "mobile",
+    "science",
+    "ai-ml",
     "startup",
     "cybersecurity",
     "gaming",
@@ -15,8 +15,9 @@
     "automotive",
     "world",
     "general",
+    "finance",
     "entertainment",
-    "finance"
+    "social"
   ],
   "topArticles": [
     {
@@ -25,8 +26,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-07T11:25:53.000Z",
-      "relevanceScore": 807.38,
-      "recommendationScore": 807.88,
+      "relevanceScore": 813.82,
+      "recommendationScore": 814.32,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -36,26 +37,12 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-07T20:32:53.000Z",
-      "relevanceScore": 676.7,
-      "recommendationScore": 678.7,
+      "relevanceScore": 683.15,
+      "recommendationScore": 685.15,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Revealing the unknown unknowns in your software",
-      "link": "https://stackoverflow.blog/2025/11/07/revealing-the-unknown-unknowns-in-your-software/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-11-07T08:40:00.000Z",
-      "relevanceScore": 435.82,
-      "recommendationScore": 435.82,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "I built a Turing Machine with GUI in Python and implemented Sieve of Eratosthenes on it!",
@@ -63,33 +50,9 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-08T06:40:56.000Z",
-      "relevanceScore": 395.73,
-      "recommendationScore": 396.23,
+      "relevanceScore": 479.67,
+      "recommendationScore": 480.17,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Cloning isn’t just for celebrity pets like Tom Brady’s dog",
-      "link": "https://www.technologyreview.com/2025/11/07/1127692/cloning-celebrity-pets-tom-brady-dog-conservation/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-11-07T10:00:00.000Z",
-      "relevanceScore": 357.09,
-      "recommendationScore": 357.59,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The redesigned Disney+ app is rolling out to more users in the US",
-      "link": "https://www.engadget.com/entertainment/streaming/the-redesigned-disney-app-is-rolling-out-to-more-users-in-the-us-204759533.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-11-07T20:47:59.000Z",
-      "relevanceScore": 345.75,
-      "recommendationScore": 346.25,
-      "tags": [
-        "Mobile"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -98,23 +61,48 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-07T18:50:53.000Z",
-      "relevanceScore": 341.36,
-      "recommendationScore": 341.36,
+      "relevanceScore": 401.81,
+      "recommendationScore": 401.81,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions",
-      "link": "https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-11-07T20:56:18.000Z",
-      "relevanceScore": 330.78,
-      "recommendationScore": 331.28,
+      "title": "The redesigned Disney+ app is rolling out to more users in the US",
+      "link": "https://www.engadget.com/entertainment/streaming/the-redesigned-disney-app-is-rolling-out-to-more-users-in-the-us-204759533.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-11-07T20:47:59.000Z",
+      "relevanceScore": 398.2,
+      "recommendationScore": 398.7,
       "tags": [
-        "Interview"
+        "Mobile"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Cloning isn’t just for celebrity pets like Tom Brady’s dog",
+      "link": "https://www.technologyreview.com/2025/11/07/1127692/cloning-celebrity-pets-tom-brady-dog-conservation/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-11-07T10:00:00.000Z",
+      "relevanceScore": 357.04,
+      "recommendationScore": 357.54,
+      "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Revealing the unknown unknowns in your software",
+      "link": "https://stackoverflow.blog/2025/11/07/revealing-the-unknown-unknowns-in-your-software/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-11-07T08:40:00.000Z",
+      "relevanceScore": 346.27,
+      "recommendationScore": 346.27,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "GitHub Copilot CLI 101: How to use GitHub Copilot from the command line",
@@ -122,8 +110,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-11-06T20:30:00.000Z",
-      "relevanceScore": 314.39,
-      "recommendationScore": 316.39,
+      "relevanceScore": 317.34,
+      "recommendationScore": 319.34,
       "tags": [
         "Exclusive",
         "Tutorial"
@@ -131,26 +119,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "A pattern matching DSL for modern C++",
-      "link": "https://dev.to/byebyyanogawa/a-pattern-matching-dsl-for-modern-c-2fo1",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-08T10:11:31.000Z",
-      "relevanceScore": 303.93,
-      "recommendationScore": 303.93,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "The Lisbon Airport is turning away private jets inbound for the Web Summit",
       "link": "https://www.engadget.com/big-tech/the-lisbon-airport-is-turning-away-private-jets-inbound-for-the-web-summit-222136161.html?src=rss",
       "source": "Engadget",
       "category": "startup",
       "pubDate": "2025-11-07T22:21:36.000Z",
-      "relevanceScore": 303.56,
-      "recommendationScore": 304.06,
+      "relevanceScore": 304.01,
+      "recommendationScore": 304.51,
       "tags": [
         "Web",
         "Startup",
@@ -164,8 +139,8 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-11-08T05:00:25.000Z",
-      "relevanceScore": 283.39,
-      "recommendationScore": 285.89,
+      "relevanceScore": 282.84,
+      "recommendationScore": 285.34,
       "tags": [
         "AI"
       ],
@@ -177,8 +152,8 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2025-11-07T19:22:35.000Z",
-      "relevanceScore": 231.47,
-      "recommendationScore": 231.97,
+      "relevanceScore": 235.91,
+      "recommendationScore": 236.41,
       "tags": [
         "Tech",
         "Security"
@@ -191,8 +166,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-11-07T20:10:41.000Z",
-      "relevanceScore": 212.63,
-      "recommendationScore": 215.13,
+      "relevanceScore": 213.07,
+      "recommendationScore": 215.57,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -202,8 +177,8 @@
       "source": "The Verge",
       "category": "health",
       "pubDate": "2025-11-07T21:00:00.000Z",
-      "relevanceScore": 174.79,
-      "recommendationScore": 175.79,
+      "relevanceScore": 174.24,
+      "recommendationScore": 175.24,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -213,8 +188,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-08T09:08:45.000Z",
-      "relevanceScore": 148.22,
-      "recommendationScore": 150.22,
+      "relevanceScore": 154.17,
+      "recommendationScore": 156.17,
       "tags": [
         "Tutorial"
       ],
@@ -226,8 +201,8 @@
       "source": "Wired",
       "category": "automotive",
       "pubDate": "2025-11-08T10:00:00.000Z",
-      "relevanceScore": 140.89,
-      "recommendationScore": 142.39,
+      "relevanceScore": 142.84,
+      "recommendationScore": 144.34,
       "tags": [
         "Tech"
       ],
@@ -239,8 +214,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-08T07:10:00.000Z",
-      "relevanceScore": 140.32,
-      "recommendationScore": 140.82,
+      "relevanceScore": 142.27,
+      "recommendationScore": 142.77,
       "tags": [
         "Web",
         "Update"
@@ -253,25 +228,34 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-11-07T20:16:32.000Z",
-      "relevanceScore": 82.15,
-      "recommendationScore": 82.65,
+      "relevanceScore": 137.59,
+      "recommendationScore": 138.09,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Maybe Peloton is its own worst enemy",
-      "link": "https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitness",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-11-07T21:37:45.000Z",
-      "relevanceScore": 80.42,
-      "recommendationScore": 81.42,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
+      "title": "CheatSheet: Python for DSA",
+      "link": "https://dev.to/itzsrikanth/cheatsheet-python-for-dsa-2g3f",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-08T10:36:35.000Z",
+      "relevanceScore": 119.96,
+      "recommendationScore": 119.96,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Majority of Brazil's Supreme Court votes to reject Bolsonaro's appeal, upholding 27-year sentence",
+      "link": "https://www.reddit.com/r/worldnews/comments/1or7ima/majority_of_brazils_supreme_court_votes_to_reject/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-11-07T21:54:54.000Z",
+      "relevanceScore": 119.42,
+      "recommendationScore": 119.92,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg",
@@ -279,8 +263,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-11-06T17:00:00.000Z",
-      "relevanceScore": 79.19,
-      "recommendationScore": 79.69,
+      "relevanceScore": 80.14,
+      "recommendationScore": 80.64,
       "tags": [
         "AI",
         "Exclusive"
@@ -288,13 +272,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Maybe Peloton is its own worst enemy",
+      "link": "https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitness",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-07T21:37:45.000Z",
+      "relevanceScore": 78.86,
+      "recommendationScore": 79.86,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Rightmove shares plummet over AI investment plans",
       "link": "https://www.bbc.com/news/articles/cly97lj0nddo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-11-07T13:01:03.000Z",
-      "relevanceScore": 79.19,
-      "recommendationScore": 79.19,
+      "relevanceScore": 77.64,
+      "recommendationScore": 77.64,
       "tags": [
         "AI",
         "Business",
@@ -304,48 +301,26 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Majority of Brazil's Supreme Court votes to reject Bolsonaro's appeal, upholding 27-year sentence",
-      "link": "https://www.reddit.com/r/worldnews/comments/1or7ima/majority_of_brazils_supreme_court_votes_to_reject/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-11-07T21:54:54.000Z",
-      "relevanceScore": 67.97,
-      "recommendationScore": 68.47,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "UPS and FedEx ground some cargo planes after Kentucky air disaster",
       "link": "https://www.bbc.com/news/articles/cx2pr5y7p90o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-08T07:16:50.000Z",
-      "relevanceScore": 66.85,
-      "recommendationScore": 67.35,
+      "relevanceScore": 64.29,
+      "recommendationScore": 64.79,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Lab: Exploiting LLM APIs with excessive agency",
-      "link": "https://dev.to/travondatrack/lab-exploiting-llm-apis-with-excessive-agency-2nmp",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-11-08T10:11:22.000Z",
-      "relevanceScore": 65.93,
-      "recommendationScore": 65.93,
+      "title": "Blame game over Air India crash goes on",
+      "link": "https://www.bbc.com/news/articles/c33pzypkkdzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "gaming",
+      "pubDate": "2025-11-07T22:34:27.000Z",
+      "relevanceScore": 62.55,
+      "recommendationScore": 62.55,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Weapons cache linked to Hamas found in Vienna by Austria's intelligence service",
-      "link": "https://www.reddit.com/r/worldnews/comments/1orex4h/weapons_cache_linked_to_hamas_found_in_vienna_by/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-11-08T03:26:43.000Z",
-      "relevanceScore": 64.58,
-      "recommendationScore": 65.08,
-      "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "New licensing deal highlights the growing trend of media giants embracing AI",
@@ -353,8 +328,8 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2025-11-07T21:31:45.000Z",
-      "relevanceScore": 61.9,
-      "recommendationScore": 64.4,
+      "relevanceScore": 59.34,
+      "recommendationScore": 61.84,
       "tags": [
         "AI",
         "Partnership"
@@ -367,8 +342,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-11-07T13:10:00.000Z",
-      "relevanceScore": 61.22,
-      "recommendationScore": 63.72,
+      "relevanceScore": 58.67,
+      "recommendationScore": 61.17,
       "tags": [
         "Tech",
         "Exclusive",
@@ -377,13 +352,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions",
+      "link": "https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-11-07T20:56:18.000Z",
+      "relevanceScore": 58.23,
+      "recommendationScore": 58.73,
+      "tags": [
+        "Interview"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Flight cancellations begin at certain airports",
       "link": "https://www.npr.org/2025/11/07/nx-s1-5601886/flight-cancellations-begin-at-certain-airports",
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-07T20:52:38.000Z",
-      "relevanceScore": 60.77,
-      "recommendationScore": 60.77,
+      "relevanceScore": 58.21,
+      "recommendationScore": 58.21,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -393,8 +381,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-07T20:31:46.000Z",
-      "relevanceScore": 60.7,
-      "recommendationScore": 62.7,
+      "relevanceScore": 58.14,
+      "recommendationScore": 60.14,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -404,8 +392,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-11-07T10:00:00.000Z",
-      "relevanceScore": 60.59,
-      "recommendationScore": 63.09,
+      "relevanceScore": 58.04,
+      "recommendationScore": 60.54,
       "tags": [
         "Exclusive",
         "Launch"
@@ -418,8 +406,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-11-07T20:15:33.000Z",
-      "relevanceScore": 58.64,
-      "recommendationScore": 59.14,
+      "relevanceScore": 56.09,
+      "recommendationScore": 56.59,
       "tags": [
         "AI"
       ],
@@ -431,8 +419,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-08T04:02:33.000Z",
-      "relevanceScore": 58.2,
-      "recommendationScore": 60.7,
+      "relevanceScore": 55.65,
+      "recommendationScore": 58.15,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -442,8 +430,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-07T19:16:16.000Z",
-      "relevanceScore": 57.95,
-      "recommendationScore": 58.45,
+      "relevanceScore": 55.39,
+      "recommendationScore": 55.89,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -453,8 +441,8 @@
       "source": "BBC Technology",
       "category": "automotive",
       "pubDate": "2025-11-07T12:15:04.000Z",
-      "relevanceScore": 57.04,
-      "recommendationScore": 59.04,
+      "relevanceScore": 54.49,
+      "recommendationScore": 56.49,
       "tags": [
         "Tech"
       ],
@@ -466,12 +454,36 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-11-08T00:52:37.000Z",
-      "relevanceScore": 56.57,
-      "recommendationScore": 57.07,
+      "relevanceScore": 54.01,
+      "recommendationScore": 54.51,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Weapons cache linked to Hamas found in Vienna by Austria's intelligence service",
+      "link": "https://www.reddit.com/r/worldnews/comments/1orex4h/weapons_cache_linked_to_hamas_found_in_vienna_by/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-11-08T03:26:43.000Z",
+      "relevanceScore": 51.03,
+      "recommendationScore": 51.53,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bug fix release 2.07 for the Perl Distribution Workflow",
+      "link": "https://dev.to/jonasbn/bug-fix-release-207-for-the-perl-distribution-workflow-2i86",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-08T10:35:26.000Z",
+      "relevanceScore": 38.46,
+      "recommendationScore": 38.96,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "James Watson, who helped unravel DNA’s double-helix, has died",
@@ -479,8 +491,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-07T23:30:51.000Z",
-      "relevanceScore": 34.29,
-      "recommendationScore": 34.79,
+      "relevanceScore": 38.24,
+      "recommendationScore": 38.74,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -490,8 +502,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-11-07T16:00:00.000Z",
-      "relevanceScore": 33.79,
-      "recommendationScore": 35.79,
+      "relevanceScore": 37.74,
+      "recommendationScore": 39.74,
       "tags": [
         "Exclusive"
       ],
@@ -503,8 +515,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-08T08:52:49.000Z",
-      "relevanceScore": 31.67,
-      "recommendationScore": 32.17,
+      "relevanceScore": 31.61,
+      "recommendationScore": 32.11,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -514,8 +526,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-08T05:16:33.000Z",
-      "relevanceScore": 30.95,
-      "recommendationScore": 31.45,
+      "relevanceScore": 30.89,
+      "recommendationScore": 31.39,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -525,21 +537,34 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-08T01:14:55.000Z",
-      "relevanceScore": 30.14,
-      "recommendationScore": 30.64,
+      "relevanceScore": 30.09,
+      "recommendationScore": 30.59,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "'Tesla without Musk is like pizza without cheese' - why they're willing to pay him $1tn",
-      "link": "https://www.bbc.com/news/articles/c5yp8w5k5q9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "automotive",
-      "pubDate": "2025-11-07T22:31:55.000Z",
-      "relevanceScore": 29.6,
-      "recommendationScore": 31.6,
+      "title": "How major US stock indexes fared Friday, 11/7/2025",
+      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1172025-127314534",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2025-11-07T21:41:44.000Z",
+      "relevanceScore": 26.38,
+      "recommendationScore": 27.88,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What does Elon Musk do with all his money?",
+      "link": "https://www.bbc.com/news/articles/c1wl5wj39zjo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-11-07T17:29:23.000Z",
+      "relevanceScore": 25.54,
+      "recommendationScore": 27.04,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "beginner"
     },
     {
       "title": "Rivian gives RJ Scaringe a new pay package worth up to $5B",
@@ -547,8 +572,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-07T21:02:22.000Z",
-      "relevanceScore": 25.3,
-      "recommendationScore": 27.8,
+      "relevanceScore": 25.25,
+      "recommendationScore": 27.75,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -558,8 +583,8 @@
       "source": "Wired",
       "category": "entertainment",
       "pubDate": "2025-11-08T06:30:00.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 25.69,
+      "relevanceScore": 25.14,
+      "recommendationScore": 25.64,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -569,20 +594,35 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-08T06:00:00.000Z",
-      "relevanceScore": 25.09,
-      "recommendationScore": 25.59,
+      "relevanceScore": 25.04,
+      "recommendationScore": 25.54,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "NPR Music: Nova Twins: Tiny Desk Concert",
-      "link": "https://dev.to/music_youtube/npr-music-nova-twins-tiny-desk-concert-52a7",
+      "title": "How Do I Balance It All?",
+      "link": "https://dev.to/flexi_dev_4c0ce990523a164/how-do-i-balance-it-all-33bf",
       "source": "Dev.to",
-      "category": "entertainment",
-      "pubDate": "2025-11-08T10:09:21.000Z",
-      "relevanceScore": 24.92,
-      "recommendationScore": 24.92,
-      "tags": [],
+      "category": "social",
+      "pubDate": "2025-11-08T10:36:13.000Z",
+      "relevanceScore": 24.96,
+      "recommendationScore": 26.46,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Elon Musk's $1tn pay deal approved by Tesla shareholders",
+      "link": "https://www.bbc.com/news/articles/cwyk6kvyxvzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-11-07T10:03:09.000Z",
+      "relevanceScore": 24.05,
+      "recommendationScore": 24.55,
+      "tags": [
+        "Partnership"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -591,47 +631,12 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-11-07T23:26:31.000Z",
-      "relevanceScore": 23.78,
-      "recommendationScore": 24.28,
+      "relevanceScore": 23.73,
+      "recommendationScore": 24.23,
       "tags": [
         "Update"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "How major US stock indexes fared Friday, 11/7/2025",
-      "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1172025-127314534",
-      "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2025-11-07T21:41:44.000Z",
-      "relevanceScore": 23.43,
-      "recommendationScore": 24.93,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Commercial spyware “Landfall” ran rampant on Samsung phones for almost a year",
-      "link": "https://arstechnica.com/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-11-07T19:33:20.000Z",
-      "relevanceScore": 23,
-      "recommendationScore": 23.5,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What does Elon Musk do with all his money?",
-      "link": "https://www.bbc.com/news/articles/c1wl5wj39zjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-11-07T17:29:23.000Z",
-      "relevanceScore": 22.59,
-      "recommendationScore": 24.09,
-      "tags": [],
-      "readingLevel": "beginner"
     }
   ],
   "categoryIndex": {
@@ -641,7 +646,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/trading-firm-gunvor-accused-us-kremlins-puppet-drops-127287533",
         "source": "ABC News Business",
         "pubDate": "2025-11-07T11:25:53.000Z",
-        "relevanceScore": 807.38,
+        "relevanceScore": 813.82,
         "tags": []
       },
       {
@@ -649,7 +654,7 @@
         "link": "https://www.npr.org/2025/11/07/nx-s1-5601886/flight-cancellations-begin-at-certain-airports",
         "source": "NPR Business",
         "pubDate": "2025-11-07T20:52:38.000Z",
-        "relevanceScore": 60.77,
+        "relevanceScore": 58.21,
         "tags": []
       },
       {
@@ -657,7 +662,7 @@
         "link": "https://www.npr.org/2025/11/07/nx-s1-5601666/flights-faa-reductions-cancellations-government-shutdown-travel-tips",
         "source": "NPR Business",
         "pubDate": "2025-11-07T20:31:46.000Z",
-        "relevanceScore": 60.7,
+        "relevanceScore": 58.14,
         "tags": []
       },
       {
@@ -665,7 +670,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/consumer-sentiment-tumbles-close-record-lows-latest-michigan-127304400",
         "source": "ABC News Business",
         "pubDate": "2025-11-07T18:30:00.000Z",
-        "relevanceScore": 22.29,
+        "relevanceScore": 22.24,
         "tags": [
           "Business",
           "Report"
@@ -678,7 +683,7 @@
         "link": "https://www.engadget.com/entertainment/streaming/the-youtube-tv-disney-blackout-continues-how-to-watch-college-football-on-espn-abc-and-more-173330237.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-07T20:32:53.000Z",
-        "relevanceScore": 676.7,
+        "relevanceScore": 683.15,
         "tags": [
           "Tutorial"
         ]
@@ -688,7 +693,7 @@
         "link": "https://techcrunch.com/2025/11/07/i-tried-the-apple-crossbody-strap-its-convenient-but-the-phone-looks-silly-when-the-strap-is-removed/",
         "source": "TechCrunch",
         "pubDate": "2025-11-07T18:50:53.000Z",
-        "relevanceScore": 341.36,
+        "relevanceScore": 401.81,
         "tags": []
       },
       {
@@ -696,7 +701,7 @@
         "link": "https://www.wired.com/story/att-promo-code/",
         "source": "Wired",
         "pubDate": "2025-11-08T07:10:00.000Z",
-        "relevanceScore": 140.32,
+        "relevanceScore": 142.27,
         "tags": [
           "Web",
           "Update"
@@ -707,7 +712,7 @@
         "link": "https://www.theverge.com/gadgets/816352/peloton-q1-2026-earnings-fitness",
         "source": "The Verge",
         "pubDate": "2025-11-07T21:37:45.000Z",
-        "relevanceScore": 80.42,
+        "relevanceScore": 78.86,
         "tags": [
           "Exclusive"
         ]
@@ -717,7 +722,7 @@
         "link": "https://arstechnica.com/space/2025/11/faa-says-commercial-rockets-must-launch-at-night-citing-government-shutdown/",
         "source": "Ars Technica",
         "pubDate": "2025-11-07T19:16:16.000Z",
-        "relevanceScore": 57.95,
+        "relevanceScore": 55.39,
         "tags": []
       },
       {
@@ -725,31 +730,7 @@
         "link": "https://arstechnica.com/health/2025/11/james-watson-who-helped-unravel-dnas-double-helix-has-died/",
         "source": "Ars Technica",
         "pubDate": "2025-11-07T23:30:51.000Z",
-        "relevanceScore": 34.29,
-        "tags": []
-      },
-      {
-        "title": "Rivian gives RJ Scaringe a new pay package worth up to $5B",
-        "link": "https://techcrunch.com/2025/11/07/rivian-gives-rj-scaringe-a-new-pay-package-worth-up-to-5b/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-07T21:02:22.000Z",
-        "relevanceScore": 25.3,
-        "tags": []
-      },
-      {
-        "title": "NordVPN Coupons and Deals: 77% Off in November 2025",
-        "link": "https://www.wired.com/story/nordvpn-coupon/",
-        "source": "Wired",
-        "pubDate": "2025-11-08T06:00:00.000Z",
-        "relevanceScore": 25.09,
-        "tags": []
-      },
-      {
-        "title": "Commercial spyware “Landfall” ran rampant on Samsung phones for almost a year",
-        "link": "https://arstechnica.com/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-07T19:33:20.000Z",
-        "relevanceScore": 23,
+        "relevanceScore": 38.24,
         "tags": []
       },
       {
@@ -757,7 +738,31 @@
         "link": "https://www.bbc.com/news/articles/c1wl5wj39zjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-07T17:29:23.000Z",
-        "relevanceScore": 22.59,
+        "relevanceScore": 25.54,
+        "tags": []
+      },
+      {
+        "title": "Rivian gives RJ Scaringe a new pay package worth up to $5B",
+        "link": "https://techcrunch.com/2025/11/07/rivian-gives-rj-scaringe-a-new-pay-package-worth-up-to-5b/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-07T21:02:22.000Z",
+        "relevanceScore": 25.25,
+        "tags": []
+      },
+      {
+        "title": "NordVPN Coupons and Deals: 77% Off in November 2025",
+        "link": "https://www.wired.com/story/nordvpn-coupon/",
+        "source": "Wired",
+        "pubDate": "2025-11-08T06:00:00.000Z",
+        "relevanceScore": 25.04,
+        "tags": []
+      },
+      {
+        "title": "Commercial spyware “Landfall” ran rampant on Samsung phones for almost a year",
+        "link": "https://arstechnica.com/gadgets/2025/11/commercial-spyware-landfall-ran-rampant-on-samsung-phones-for-almost-a-year/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-07T19:33:20.000Z",
+        "relevanceScore": 22.95,
         "tags": []
       },
       {
@@ -765,7 +770,7 @@
         "link": "https://www.engadget.com/home/smart-home/ikea-announces-new-matter-compatible-smart-home-products-120013040.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-07T20:56:34.000Z",
-        "relevanceScore": 21.28,
+        "relevanceScore": 21.23,
         "tags": []
       },
       {
@@ -773,104 +778,8 @@
         "link": "https://www.reddit.com/r/technology/comments/1oqyfjt/direct_file_wont_happen_in_2026_irs_tells_states/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-07T16:07:48.000Z",
-        "relevanceScore": 18.32,
+        "relevanceScore": 18.26,
         "tags": []
-      }
-    ],
-    "ai-ml": [
-      {
-        "title": "Revealing the unknown unknowns in your software",
-        "link": "https://stackoverflow.blog/2025/11/07/revealing-the-unknown-unknowns-in-your-software/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-11-07T08:40:00.000Z",
-        "relevanceScore": 435.82,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions",
-        "link": "https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-07T20:56:18.000Z",
-        "relevanceScore": 330.78,
-        "tags": [
-          "Interview"
-        ]
-      },
-      {
-        "title": "800% jump in postings for a new kind of AI role: forward-deployed engineers",
-        "link": "https://www.reddit.com/r/programming/comments/1orgpou/800_jump_in_postings_for_a_new_kind_of_ai_role/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-08T05:00:25.000Z",
-        "relevanceScore": 283.39,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg",
-        "link": "https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-11-06T17:00:00.000Z",
-        "relevanceScore": 79.19,
-        "tags": [
-          "AI",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Rightmove shares plummet over AI investment plans",
-        "link": "https://www.bbc.com/news/articles/cly97lj0nddo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-11-07T13:01:03.000Z",
-        "relevanceScore": 79.19,
-        "tags": [
-          "AI",
-          "Business",
-          "Web",
-          "Funding"
-        ]
-      },
-      {
-        "title": "Lab: Exploiting LLM APIs with excessive agency",
-        "link": "https://dev.to/travondatrack/lab-exploiting-llm-apis-with-excessive-agency-2nmp",
-        "source": "Dev.to",
-        "pubDate": "2025-11-08T10:11:22.000Z",
-        "relevanceScore": 65.93,
-        "tags": []
-      },
-      {
-        "title": "New licensing deal highlights the growing trend of media giants embracing AI",
-        "link": "https://www.npr.org/2025/11/07/nx-s1-5598492/new-licensing-deal-highlights-the-growing-trend-of-media-giants-embracing-ai",
-        "source": "NPR Business",
-        "pubDate": "2025-11-07T21:31:45.000Z",
-        "relevanceScore": 61.9,
-        "tags": [
-          "AI",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Researchers surprised that with AI, toxicity is harder to fake than intelligence",
-        "link": "https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-07T20:15:33.000Z",
-        "relevanceScore": 58.64,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Palantir CEO Says a Surveillance State Is Preferable to China Winning the AI Race",
-        "link": "https://www.reddit.com/r/technology/comments/1orbpro/palantir_ceo_says_a_surveillance_state_is/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-11-08T00:52:37.000Z",
-        "relevanceScore": 56.57,
-        "tags": [
-          "AI"
-        ]
       }
     ],
     "development": [
@@ -879,7 +788,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1orihsv/i_built_a_turing_machine_with_gui_in_python_and/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-08T06:40:56.000Z",
-        "relevanceScore": 395.73,
+        "relevanceScore": 479.67,
         "tags": []
       },
       {
@@ -887,20 +796,10 @@
         "link": "https://github.blog/ai-and-ml/github-copilot-cli-101-how-to-use-github-copilot-from-the-command-line/",
         "source": "GitHub Blog",
         "pubDate": "2025-11-06T20:30:00.000Z",
-        "relevanceScore": 314.39,
+        "relevanceScore": 317.34,
         "tags": [
           "Exclusive",
           "Tutorial"
-        ]
-      },
-      {
-        "title": "A pattern matching DSL for modern C++",
-        "link": "https://dev.to/byebyyanogawa/a-pattern-matching-dsl-for-modern-c-2fo1",
-        "source": "Dev.to",
-        "pubDate": "2025-11-08T10:11:31.000Z",
-        "relevanceScore": 303.93,
-        "tags": [
-          "Exclusive"
         ]
       },
       {
@@ -908,9 +807,27 @@
         "link": "https://www.reddit.com/r/programming/comments/1orkvab/if_youve_ever_wanted_to_make_a_voxel_engine_heres/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-08T09:08:45.000Z",
-        "relevanceScore": 148.22,
+        "relevanceScore": 154.17,
         "tags": [
           "Tutorial"
+        ]
+      },
+      {
+        "title": "CheatSheet: Python for DSA",
+        "link": "https://dev.to/itzsrikanth/cheatsheet-python-for-dsa-2g3f",
+        "source": "Dev.to",
+        "pubDate": "2025-11-08T10:36:35.000Z",
+        "relevanceScore": 119.96,
+        "tags": []
+      },
+      {
+        "title": "Bug fix release 2.07 for the Perl Distribution Workflow",
+        "link": "https://dev.to/jonasbn/bug-fix-release-207-for-the-perl-distribution-workflow-2i86",
+        "source": "Dev.to",
+        "pubDate": "2025-11-08T10:35:26.000Z",
+        "relevanceScore": 38.46,
+        "tags": [
+          "Launch"
         ]
       },
       {
@@ -918,9 +835,31 @@
         "link": "https://github.blog/news-insights/octoverse/what-986-million-code-pushes-say-about-the-developer-workflow-in-2025/",
         "source": "GitHub Blog",
         "pubDate": "2025-11-07T16:00:00.000Z",
-        "relevanceScore": 33.79,
+        "relevanceScore": 37.74,
         "tags": [
           "Exclusive"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "The redesigned Disney+ app is rolling out to more users in the US",
+        "link": "https://www.engadget.com/entertainment/streaming/the-redesigned-disney-app-is-rolling-out-to-more-users-in-the-us-204759533.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-07T20:47:59.000Z",
+        "relevanceScore": 398.2,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "GoWish’s shopping and wish list app is having its biggest year yet",
+        "link": "https://techcrunch.com/2025/11/07/gowishs-shopping-and-wishlist-app-is-having-its-biggest-year-yet/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-07T20:16:32.000Z",
+        "relevanceScore": 137.59,
+        "tags": [
+          "Mobile"
         ]
       }
     ],
@@ -930,7 +869,7 @@
         "link": "https://www.technologyreview.com/2025/11/07/1127692/cloning-celebrity-pets-tom-brady-dog-conservation/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-07T10:00:00.000Z",
-        "relevanceScore": 357.09,
+        "relevanceScore": 357.04,
         "tags": []
       },
       {
@@ -938,7 +877,7 @@
         "link": "https://www.technologyreview.com/2025/11/07/1127765/the-download-a-new-home-under-the-sea-and-cloning-pets/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-07T13:10:00.000Z",
-        "relevanceScore": 61.22,
+        "relevanceScore": 58.67,
         "tags": [
           "Tech",
           "Exclusive",
@@ -950,32 +889,98 @@
         "link": "https://www.technologyreview.com/2025/11/07/1127682/vanguard-deep-subsea-habitat-launch/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-07T10:00:00.000Z",
-        "relevanceScore": 60.59,
+        "relevanceScore": 58.04,
         "tags": [
           "Exclusive",
           "Launch"
         ]
       }
     ],
-    "mobile": [
+    "ai-ml": [
       {
-        "title": "The redesigned Disney+ app is rolling out to more users in the US",
-        "link": "https://www.engadget.com/entertainment/streaming/the-redesigned-disney-app-is-rolling-out-to-more-users-in-the-us-204759533.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-07T20:47:59.000Z",
-        "relevanceScore": 345.75,
+        "title": "Revealing the unknown unknowns in your software",
+        "link": "https://stackoverflow.blog/2025/11/07/revealing-the-unknown-unknowns-in-your-software/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-11-07T08:40:00.000Z",
+        "relevanceScore": 346.27,
         "tags": [
-          "Mobile"
+          "AI",
+          "Tech"
         ]
       },
       {
-        "title": "GoWish’s shopping and wish list app is having its biggest year yet",
-        "link": "https://techcrunch.com/2025/11/07/gowishs-shopping-and-wishlist-app-is-having-its-biggest-year-yet/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-07T20:16:32.000Z",
-        "relevanceScore": 82.15,
+        "title": "800% jump in postings for a new kind of AI role: forward-deployed engineers",
+        "link": "https://www.reddit.com/r/programming/comments/1orgpou/800_jump_in_postings_for_a_new_kind_of_ai_role/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-08T05:00:25.000Z",
+        "relevanceScore": 282.84,
         "tags": [
-          "Mobile"
+          "AI"
+        ]
+      },
+      {
+        "title": "TypeScript’s rise in the AI era: Insights from Lead Architect, Anders Hejlsberg",
+        "link": "https://github.blog/developer-skills/programming-languages-and-frameworks/typescripts-rise-in-the-ai-era-insights-from-lead-architect-anders-hejlsberg/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-11-06T17:00:00.000Z",
+        "relevanceScore": 80.14,
+        "tags": [
+          "AI",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Rightmove shares plummet over AI investment plans",
+        "link": "https://www.bbc.com/news/articles/cly97lj0nddo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-11-07T13:01:03.000Z",
+        "relevanceScore": 77.64,
+        "tags": [
+          "AI",
+          "Business",
+          "Web",
+          "Funding"
+        ]
+      },
+      {
+        "title": "New licensing deal highlights the growing trend of media giants embracing AI",
+        "link": "https://www.npr.org/2025/11/07/nx-s1-5598492/new-licensing-deal-highlights-the-growing-trend-of-media-giants-embracing-ai",
+        "source": "NPR Business",
+        "pubDate": "2025-11-07T21:31:45.000Z",
+        "relevanceScore": 59.34,
+        "tags": [
+          "AI",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Seven more families are now suing OpenAI over ChatGPT’s role in suicides, delusions",
+        "link": "https://techcrunch.com/2025/11/07/seven-more-families-are-now-suing-openai-over-chatgpts-role-in-suicides-delusions/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-07T20:56:18.000Z",
+        "relevanceScore": 58.23,
+        "tags": [
+          "Interview"
+        ]
+      },
+      {
+        "title": "Researchers surprised that with AI, toxicity is harder to fake than intelligence",
+        "link": "https://arstechnica.com/information-technology/2025/11/being-too-nice-online-is-a-dead-giveaway-for-ai-bots-study-suggests/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-07T20:15:33.000Z",
+        "relevanceScore": 56.09,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Palantir CEO Says a Surveillance State Is Preferable to China Winning the AI Race",
+        "link": "https://www.reddit.com/r/technology/comments/1orbpro/palantir_ceo_says_a_surveillance_state_is/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-11-08T00:52:37.000Z",
+        "relevanceScore": 54.01,
+        "tags": [
+          "AI"
         ]
       }
     ],
@@ -985,7 +990,7 @@
         "link": "https://www.engadget.com/big-tech/the-lisbon-airport-is-turning-away-private-jets-inbound-for-the-web-summit-222136161.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-07T22:21:36.000Z",
-        "relevanceScore": 303.56,
+        "relevanceScore": 304.01,
         "tags": [
           "Web",
           "Startup",
@@ -999,7 +1004,7 @@
         "link": "https://techcrunch.com/2025/11/07/washington-post-confirms-data-breach-linked-to-oracle-hacks/",
         "source": "TechCrunch",
         "pubDate": "2025-11-07T19:22:35.000Z",
-        "relevanceScore": 231.47,
+        "relevanceScore": 235.91,
         "tags": [
           "Tech",
           "Security"
@@ -1012,7 +1017,15 @@
         "link": "https://www.theverge.com/news/816714/world-of-warcraft-player-housing-hearthsteel-currency",
         "source": "The Verge",
         "pubDate": "2025-11-07T20:10:41.000Z",
-        "relevanceScore": 212.63,
+        "relevanceScore": 213.07,
+        "tags": []
+      },
+      {
+        "title": "Blame game over Air India crash goes on",
+        "link": "https://www.bbc.com/news/articles/c33pzypkkdzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-11-07T22:34:27.000Z",
+        "relevanceScore": 62.55,
         "tags": []
       },
       {
@@ -1020,7 +1033,7 @@
         "link": "https://www.theverge.com/news/816960/halo-infinite-end",
         "source": "The Verge",
         "pubDate": "2025-11-07T23:26:31.000Z",
-        "relevanceScore": 23.78,
+        "relevanceScore": 23.73,
         "tags": [
           "Update"
         ]
@@ -1032,7 +1045,7 @@
         "link": "https://www.theverge.com/22982833/best-fitbit-watch-fitness-tracker",
         "source": "The Verge",
         "pubDate": "2025-11-07T21:00:00.000Z",
-        "relevanceScore": 174.79,
+        "relevanceScore": 174.24,
         "tags": []
       }
     ],
@@ -1042,7 +1055,7 @@
         "link": "https://www.wired.com/story/why-are-we-all-still-carrying-around-car-keys/",
         "source": "Wired",
         "pubDate": "2025-11-08T10:00:00.000Z",
-        "relevanceScore": 140.89,
+        "relevanceScore": 142.84,
         "tags": [
           "Tech"
         ]
@@ -1052,25 +1065,17 @@
         "link": "https://www.bbc.com/news/articles/cdrz2rdlykdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-07T12:15:04.000Z",
-        "relevanceScore": 57.04,
+        "relevanceScore": 54.49,
         "tags": [
           "Tech"
         ]
-      },
-      {
-        "title": "'Tesla without Musk is like pizza without cheese' - why they're willing to pay him $1tn",
-        "link": "https://www.bbc.com/news/articles/c5yp8w5k5q9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-11-07T22:31:55.000Z",
-        "relevanceScore": 29.6,
-        "tags": []
       },
       {
         "title": "Elon Musk's $1tn pay deal approved by Tesla shareholders",
         "link": "https://www.bbc.com/news/articles/cwyk6kvyxvzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-07T10:03:09.000Z",
-        "relevanceScore": 21.1,
+        "relevanceScore": 24.05,
         "tags": [
           "Partnership"
         ]
@@ -1082,15 +1087,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1or7ima/majority_of_brazils_supreme_court_votes_to_reject/",
         "source": "Reddit World News",
         "pubDate": "2025-11-07T21:54:54.000Z",
-        "relevanceScore": 67.97,
-        "tags": []
-      },
-      {
-        "title": "Weapons cache linked to Hamas found in Vienna by Austria's intelligence service",
-        "link": "https://www.reddit.com/r/worldnews/comments/1orex4h/weapons_cache_linked_to_hamas_found_in_vienna_by/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-08T03:26:43.000Z",
-        "relevanceScore": 64.58,
+        "relevanceScore": 119.42,
         "tags": []
       },
       {
@@ -1098,7 +1095,15 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1orfmk6/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-11-08T04:02:33.000Z",
-        "relevanceScore": 58.2,
+        "relevanceScore": 55.65,
+        "tags": []
+      },
+      {
+        "title": "Weapons cache linked to Hamas found in Vienna by Austria's intelligence service",
+        "link": "https://www.reddit.com/r/worldnews/comments/1orex4h/weapons_cache_linked_to_hamas_found_in_vienna_by/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-08T03:26:43.000Z",
+        "relevanceScore": 51.03,
         "tags": []
       }
     ],
@@ -1108,7 +1113,7 @@
         "link": "https://www.bbc.com/news/articles/cx2pr5y7p90o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-08T07:16:50.000Z",
-        "relevanceScore": 66.85,
+        "relevanceScore": 64.29,
         "tags": []
       },
       {
@@ -1116,7 +1121,7 @@
         "link": "https://www.bbc.com/news/articles/cm2lknr2d3go?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-08T08:52:49.000Z",
-        "relevanceScore": 31.67,
+        "relevanceScore": 31.61,
         "tags": []
       },
       {
@@ -1124,7 +1129,7 @@
         "link": "https://www.bbc.com/news/articles/cp85dvnkpv4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-08T05:16:33.000Z",
-        "relevanceScore": 30.95,
+        "relevanceScore": 30.89,
         "tags": []
       },
       {
@@ -1132,25 +1137,7 @@
         "link": "https://www.bbc.com/news/articles/cn51329exkqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-08T01:14:55.000Z",
-        "relevanceScore": 30.14,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Paramount Plus Coupon Codes and Deals: Up to 50% Off",
-        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
-        "source": "Wired",
-        "pubDate": "2025-11-08T06:30:00.000Z",
-        "relevanceScore": 25.19,
-        "tags": []
-      },
-      {
-        "title": "NPR Music: Nova Twins: Tiny Desk Concert",
-        "link": "https://dev.to/music_youtube/npr-music-nova-twins-tiny-desk-concert-52a7",
-        "source": "Dev.to",
-        "pubDate": "2025-11-08T10:09:21.000Z",
-        "relevanceScore": 24.92,
+        "relevanceScore": 30.09,
         "tags": []
       }
     ],
@@ -1160,17 +1147,39 @@
         "link": "https://abcnews.go.com/Business/wireStory/major-us-stock-indexes-fared-friday-1172025-127314534",
         "source": "ABC News Business",
         "pubDate": "2025-11-07T21:41:44.000Z",
-        "relevanceScore": 23.43,
+        "relevanceScore": 26.38,
         "tags": [
           "Exclusive"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Paramount Plus Coupon Codes and Deals: Up to 50% Off",
+        "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+        "source": "Wired",
+        "pubDate": "2025-11-08T06:30:00.000Z",
+        "relevanceScore": 25.14,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "How Do I Balance It All?",
+        "link": "https://dev.to/flexi_dev_4c0ce990523a164/how-do-i-balance-it-all-33bf",
+        "source": "Dev.to",
+        "pubDate": "2025-11-08T10:36:13.000Z",
+        "relevanceScore": 24.96,
+        "tags": [
+          "Social"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 15,
-    "avgRelevanceScore": 140.5701851851852,
+    "totalCategories": 16,
+    "avgRelevanceScore": 136.22574074074075,
     "topCategories": [
       {
         "category": "tech",
@@ -1178,18 +1187,18 @@
       },
       {
         "category": "ai-ml",
-        "count": 9
+        "count": 8
       },
       {
         "category": "development",
-        "count": 5
+        "count": 6
       },
       {
         "category": "business",
         "count": 4
       },
       {
-        "category": "automotive",
+        "category": "general",
         "count": 4
       }
     ]
