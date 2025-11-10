@@ -1,6 +1,6 @@
 {
   "date": "2025-11-10",
-  "lastUpdated": "2025-11-10T15:41:18.317Z",
+  "lastUpdated": "2025-11-10T15:51:12.138Z",
   "totalArticles": 47,
   "articles": [
     {
@@ -22,9 +22,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 873.86,
-      "calculatedAt": "2025-11-10T15:41:18.403Z",
-      "recommendationScore": 874.86,
+      "relevanceScore": 916.33,
+      "calculatedAt": "2025-11-10T15:51:12.224Z",
+      "recommendationScore": 917.33,
       "readingLevel": "advanced"
     },
     {
@@ -47,9 +47,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 858.5,
-      "calculatedAt": "2025-11-10T15:41:18.403Z",
-      "recommendationScore": 859,
+      "relevanceScore": 902.46,
+      "calculatedAt": "2025-11-10T15:51:12.224Z",
+      "recommendationScore": 902.96,
       "readingLevel": "advanced"
     },
     {
@@ -74,34 +74,10 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "review",
-      "relevanceScore": 664.36,
-      "calculatedAt": "2025-11-10T15:41:18.403Z",
-      "recommendationScore": 664.86,
+      "relevanceScore": 778.33,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 778.83,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "WW91ciAiQmVzdCBQ",
-      "title": "Your \"Best Practice\" is Someone Else's Tradeoff",
-      "link": "https://dev.to/dchueri/your-best-practice-is-someone-elses-tradeoff-1k87",
-      "description": "Versão em Português Let's be honest. How many hours have you spent Googling the \"best way\" to do something? \"What's the best database for an e-commerce site?\" \"Should I use Microservices or a Monolith?\" \"What's the 'best practice' for managing state in React?\" The software development ecosystem seem",
-      "pubDate": "2025-11-10T15:21:07.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Versão em Português Let's be honest. How many hours have you spent Googling the \"best way\" to do something? \"What's the best database for an e-commerce site?\" \"Should I use Microservices or a Monolith?\" \"What's the 'best practice' for managing state in React?\" The software development ecosystem seems somewhat obsessed with the idea of \"Best Practices.\" They are sold as golden rules, infallible paths to clean, scalable, and easy-to-maintain software. In code reviews , in blog articles, in confere",
-      "author": "Diego Chueri",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Tech"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 613.93,
-      "calculatedAt": "2025-11-10T15:41:18.403Z",
-      "recommendationScore": 614.93,
-      "readingLevel": "advanced"
     },
     {
       "id": "SG93IHRvIHdhdGNo",
@@ -123,9 +99,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 530.18,
-      "calculatedAt": "2025-11-10T15:41:18.403Z",
-      "recommendationScore": 532.18,
+      "relevanceScore": 538.15,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 540.15,
       "readingLevel": "advanced"
     },
     {
@@ -145,9 +121,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 540.69,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 540.69,
+      "relevanceScore": 546.66,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 546.66,
       "readingLevel": "intermediate"
     },
     {
@@ -169,9 +145,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 514.66,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 514.66,
+      "relevanceScore": 519.63,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 519.63,
       "readingLevel": "advanced"
     },
     {
@@ -195,10 +171,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 312.06,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 312.56,
+      "relevanceScore": 320.03,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 320.53,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "UkVTVGZ1bCAtIFDD",
+      "title": "RESTful - Pílula 1 – URLs devem representar recursos e não ações",
+      "link": "https://dev.to/andersoncontreira/restful-pilula-1-urls-devem-representar-recursos-nao-acoes-4lng",
+      "description": "Um dos princípios fundamentais do REST é que sua API deve trabalhar com recursos , e não com ações . Pense que cada recurso é uma entidade do domínio que sua aplicação gerencia — como users , posts , orders , products , etc. Essas coleções representam conjuntos de instâncias . Por exemplo: GET /user",
+      "pubDate": "2025-11-10T15:33:16.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Um dos princípios fundamentais do REST é que sua API deve trabalhar com recursos , e não com ações . Pense que cada recurso é uma entidade do domínio que sua aplicação gerencia — como users , posts , orders , products , etc. Essas coleções representam conjuntos de instâncias . Por exemplo: GET /users → lista de usuários (coleção) GET /users/10 → um usuário específico GET /users/<uuid> → um usuário específico com identificador global Cada instância dentro da coleção ( /users/10 ) é um recurso ind",
+      "author": "Anderson Contreira",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 317.94,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 318.44,
+      "readingLevel": "intermediate"
     },
     {
       "id": "U2Vjb25kIG1pZ3Jh",
@@ -217,9 +215,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 229.97,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 229.97,
+      "relevanceScore": 268.93,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 268.93,
       "readingLevel": "intermediate"
     },
     {
@@ -242,9 +240,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 221.86,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 222.36,
+      "relevanceScore": 260.83,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 261.33,
       "readingLevel": "advanced"
     },
     {
@@ -264,9 +262,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 220.67,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 223.17,
+      "relevanceScore": 255.64,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 258.14,
       "readingLevel": "advanced"
     },
     {
@@ -289,9 +287,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "opinion",
-      "relevanceScore": 186.86,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 187.36,
+      "relevanceScore": 229.83,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 230.33,
       "readingLevel": "advanced"
     },
     {
@@ -311,34 +309,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 164.27,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 164.77,
+      "relevanceScore": 204.24,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 204.74,
       "readingLevel": "intermediate"
     },
     {
-      "id": "UmVkdWNpbmcgQ29u",
-      "title": "Reducing Consumer Lag in Apache Kafka",
-      "link": "https://dev.to/aineahsimiyu/reducing-consumer-lag-in-apache-kafka-2d50",
-      "description": "A simple guide to keeping your consumers awake and your pipeline smooth Consumer lag happens to everyone. You fire up Kafka, messages rush in like they’ve got places to be, and suddenly your consumer group starts crawling. The good news: lag usually comes from a few predictable issues, and most are ",
-      "pubDate": "2025-11-10T15:28:42.000Z",
+      "id": "8J+agCBDb250YWlu",
+      "title": "🚀 Container Hardening: 12 Essential Rules for Secure and Optimized Docker Builds",
+      "link": "https://dev.to/it-wibrc/container-hardening-12-essential-rules-for-secure-and-optimized-docker-builds-5b0",
+      "description": "Building containers that are secure, stable, and lean requires diligence in your Dockerfile practices. By reducing the attack surface and leveraging container isolation features, you can significantly enhance the integrity of your deployment pipeline. Here are 12 essential rules for building robust ",
+      "pubDate": "2025-11-10T15:47:15.000Z",
       "source": "Dev.to",
-      "category": "development",
+      "category": "cloud",
       "weight": 6,
-      "content": "A simple guide to keeping your consumers awake and your pipeline smooth Consumer lag happens to everyone. You fire up Kafka, messages rush in like they’ve got places to be, and suddenly your consumer group starts crawling. The good news: lag usually comes from a few predictable issues, and most are easy to fix with a bit of tuning. Let’s walk through the changes that actually make a difference in real Python setups. 1. Match Your Consumers to Your Partitions Kafka assigns one consumer per partit",
-      "author": "Aineah Simiyu",
+      "content": "Building containers that are secure, stable, and lean requires diligence in your Dockerfile practices. By reducing the attack surface and leveraging container isolation features, you can significantly enhance the integrity of your deployment pipeline. Here are 12 essential rules for building robust containers, categorized for clarity. 🔒 Security & Least Privilege These rules minimize the potential damage if a container is compromised. 1. Avoid Running as Root (Principle of Least Privilege) 🧑 B",
+      "author": "Waffeu Rayn",
       "readTime": 1,
       "importance": 8,
-      "tags": [
-        "Tutorial"
-      ],
+      "tags": [],
       "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 191.96,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 191.96,
-      "readingLevel": "intermediate"
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 146.49,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 146.99,
+      "readingLevel": "advanced"
     },
     {
       "id": "QW1hem9uIE11c2lj",
@@ -357,9 +353,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 188.86,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 189.36,
+      "relevanceScore": 195.83,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 196.33,
       "readingLevel": "intermediate"
     },
     {
@@ -381,9 +377,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 149.11,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 151.61,
+      "relevanceScore": 157.08,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 159.58,
       "readingLevel": "advanced"
     },
     {
@@ -407,9 +403,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 133.88,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 136.38,
+      "relevanceScore": 138.85,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 141.35,
       "readingLevel": "advanced"
     },
     {
@@ -432,9 +428,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 83.23,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 83.73,
+      "relevanceScore": 121.19,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 121.69,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "RXhlcmNpc2UgLSBQ",
+      "title": "Exercise - Provide private storage for internal company documents",
+      "link": "https://dev.to/adebayo_ganiyatoladunjoy/exercise-provide-private-storage-for-internal-company-documents-1850",
+      "description": "Introduction In this exercise, I worked on creating a secure and resilient storage solution for company-wide documents. The goal was to ensure privacy, high availability, and efficient lifecycle management. Since the storage would hold sensitive internal files, access control and redundancy were key",
+      "pubDate": "2025-11-10T15:30:36.000Z",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "weight": 6,
+      "content": "Introduction In this exercise, I worked on creating a secure and resilient storage solution for company-wide documents. The goal was to ensure privacy, high availability, and efficient lifecycle management. Since the storage would hold sensitive internal files, access control and redundancy were key priorities. Additionally, the company wanted a reliable backup for its public website content and a cost-effective way to manage data as it becomes less frequently used. Architecture Overview The set",
+      "author": "Adebayo Ganiyat Olagoke ",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Security"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 115.43,
+      "calculatedAt": "2025-11-10T15:51:12.225Z",
+      "recommendationScore": 115.93,
       "readingLevel": "advanced"
     },
     {
@@ -454,9 +474,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 124.83,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 125.33,
+      "relevanceScore": 131.8,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 132.3,
       "readingLevel": "advanced"
     },
     {
@@ -479,9 +499,31 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 125.28,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 125.78,
+      "relevanceScore": 130.24,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 130.74,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "U2FwcGhpcmUgU3Bv",
+      "title": "Sapphire Sport spins out, rebrands as 359 Capital with $300M AUM",
+      "link": "https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/",
+      "description": "The newly independent 359 Capital is half-way through investing from $181 million second fund.",
+      "pubDate": "2025-11-10T14:57:06.000Z",
+      "source": "TechCrunch",
+      "category": "tech",
+      "weight": 8,
+      "content": "The newly independent 359 Capital is half-way through investing from $181 million second fund.",
+      "author": "Marina Temkin",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 105.82,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 106.32,
       "readingLevel": "advanced"
     },
     {
@@ -501,10 +543,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 65.86,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 65.86,
+      "relevanceScore": 100.83,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 100.83,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "RmxpZ2h0IGNhbmNl",
+      "title": "Flight cancellations and delays worsen as government shutdown drags on",
+      "link": "https://abcnews.go.com/Business/wireStory/flight-cancellations-delays-worsen-government-shutdown-drags-127369525",
+      "description": "Airports across the U.S. are experiencing significant disruptions due to the ongoing government shutdown",
+      "pubDate": "2025-11-10T13:17:36.000Z",
+      "source": "ABC News Business",
+      "category": "business",
+      "weight": 7,
+      "content": "Airports across the U.S. are experiencing significant disruptions due to the ongoing government shutdown",
+      "author": "ABC News Business",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 100.49,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 100.99,
+      "readingLevel": "advanced"
     },
     {
       "id": "QSBqYWlsZWQgaGFj",
@@ -527,9 +591,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 64.07,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 64.57,
+      "relevanceScore": 99.03,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 99.53,
       "readingLevel": "intermediate"
     },
     {
@@ -549,9 +613,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.9,
-      "calculatedAt": "2025-11-10T15:41:18.404Z",
-      "recommendationScore": 69.4,
+      "relevanceScore": 103.87,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 104.37,
       "readingLevel": "advanced"
     },
     {
@@ -573,9 +637,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 69.68,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 70.18,
+      "relevanceScore": 104.65,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 105.15,
       "readingLevel": "intermediate"
     },
     {
@@ -595,32 +659,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 62.99,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 62.99,
+      "relevanceScore": 97.95,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 97.95,
       "readingLevel": "beginner"
-    },
-    {
-      "id": "RmxpZ2h0IGNhbmNl",
-      "title": "Flight cancellations and delays worsen as government shutdown drags on",
-      "link": "https://abcnews.go.com/Business/wireStory/flight-cancellations-delays-worsen-government-shutdown-drags-127369525",
-      "description": "Airports across the U.S. are experiencing significant disruptions due to the ongoing government shutdown",
-      "pubDate": "2025-11-10T13:17:36.000Z",
-      "source": "ABC News Business",
-      "category": "business",
-      "weight": 7,
-      "content": "Airports across the U.S. are experiencing significant disruptions due to the ongoing government shutdown",
-      "author": "ABC News Business",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 62.52,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 63.02,
-      "readingLevel": "advanced"
     },
     {
       "id": "QW4gQUktR2VuZXJh",
@@ -641,9 +683,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 59.4,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 60.9,
+      "relevanceScore": 94.36,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 95.86,
       "readingLevel": "advanced"
     },
     {
@@ -667,9 +709,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 67.07,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 69.07,
+      "relevanceScore": 102.03,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 104.03,
       "readingLevel": "advanced"
     },
     {
@@ -689,56 +731,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 61.57,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 63.57,
+      "relevanceScore": 96.53,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 98.53,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "U2FwcGhpcmUgU3Bv",
-      "title": "Sapphire Sport spins out, rebrands as 359 Capital with $300M AUM",
-      "link": "https://techcrunch.com/2025/11/10/sapphire-sport-spins-out-rebrands-as-359-capital-with-300m-aum/",
-      "description": "The newly independent 359 Capital is half-way through investing from $181 million second fund.",
-      "pubDate": "2025-11-10T14:57:06.000Z",
-      "source": "TechCrunch",
-      "category": "tech",
-      "weight": 8,
-      "content": "The newly independent 359 Capital is half-way through investing from $181 million second fund.",
-      "author": "Marina Temkin",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 36.85,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 37.35,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "V2hhdCBhcmUgeW91",
-      "title": "What are your goals for the week? #152",
-      "link": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-152-134f",
-      "description": "It's cold here. Today we've had our first frost of the season. There's was the possibility of some flurries east of here. In a couple days it will be back to the 60s. Tomorrow 11/11 is Veteran's Day. Thanks to all those that have served. What are your goals for the week? What are you building this w",
-      "pubDate": "2025-11-10T15:23:42.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "It's cold here. Today we've had our first frost of the season. There's was the possibility of some flurries east of here. In a couple days it will be back to the 60s. Tomorrow 11/11 is Veteran's Day. Thanks to all those that have served. What are your goals for the week? What are you building this week? What are you working on this week? Are you attending any events this week? This Week's Goals. Continue Job Search. Network, Send emails. Redo resume Project work. Content for side project. Work o",
-      "author": "Chris Jarvis",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Exclusive"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 29.94,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 31.44,
-      "readingLevel": "beginner"
     },
     {
       "id": "VGhlIEZpcnN0IFJh",
@@ -760,10 +756,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 28.92,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 31.42,
+      "relevanceScore": 28.89,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 31.39,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "VGhlIGxhdGVzdCBE",
+      "title": "The latest Death Stranding collab is an actual exoskeleton",
+      "link": "https://www.engadget.com/gaming/the-latest-death-stranding-collab-is-an-actual-exoskeleton-151215509.html?src=rss",
+      "description": "It&#39;s arriving too late to be part of a Sam Porter Bridges Halloween costume this year, but Kojima Productions has a new collaboration lined up that could be just the ticket for cosplayers or anyone who may wish to enhance their lower-body strength and stability. The studio has teamed up with exo",
+      "pubDate": "2025-11-10T15:12:15.000Z",
+      "source": "Engadget",
+      "category": "tech",
+      "weight": 6,
+      "content": "It&#39;s arriving too late to be part of a Sam Porter Bridges Halloween costume this year, but Kojima Productions has a new collaboration lined up that could be just the ticket for cosplayers or anyone who may wish to enhance their lower-body strength and stability. The studio has teamed up with exoskeleton maker Dnsys for a limited run of a model based on Death Stranding 2: On The Beach . Dnsys claimed this was the first collaboration between an exoskeleton maker and a game studio. Kojima Produ",
+      "author": "Engadget",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Partnership"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 26.87,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 27.37,
+      "readingLevel": "advanced"
     },
     {
       "id": "QXN1cyBQcm9BcnQg",
@@ -784,9 +804,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 29.46,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 30.46,
+      "relevanceScore": 29.43,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 30.43,
       "readingLevel": "intermediate"
     },
     {
@@ -806,9 +826,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.46,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 29.96,
+      "relevanceScore": 27.43,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 29.93,
       "readingLevel": "intermediate"
     },
     {
@@ -831,9 +851,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.76,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 27.26,
+      "relevanceScore": 26.73,
+      "calculatedAt": "2025-11-10T15:51:12.226Z",
+      "recommendationScore": 27.23,
       "readingLevel": "advanced"
     },
     {
@@ -853,34 +873,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.33,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 32.83,
+      "relevanceScore": 31.3,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 32.8,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "VGhlIGxhdGVzdCBE",
-      "title": "The latest Death Stranding collab is an actual exoskeleton",
-      "link": "https://www.engadget.com/gaming/the-latest-death-stranding-collab-is-an-actual-exoskeleton-151215509.html?src=rss",
-      "description": "It&#39;s arriving too late to be part of a Sam Porter Bridges Halloween costume this year, but Kojima Productions has a new collaboration lined up that could be just the ticket for cosplayers or anyone who may wish to enhance their lower-body strength and stability. The studio has teamed up with exo",
-      "pubDate": "2025-11-10T15:12:15.000Z",
-      "source": "Engadget",
-      "category": "tech",
-      "weight": 6,
-      "content": "It&#39;s arriving too late to be part of a Sam Porter Bridges Halloween costume this year, but Kojima Productions has a new collaboration lined up that could be just the ticket for cosplayers or anyone who may wish to enhance their lower-body strength and stability. The studio has teamed up with exoskeleton maker Dnsys for a limited run of a model based on Death Stranding 2: On The Beach . Dnsys claimed this was the first collaboration between an exoskeleton maker and a game studio. Kojima Produ",
-      "author": "Engadget",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Partnership"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 23.9,
-      "calculatedAt": "2025-11-10T15:41:18.405Z",
-      "recommendationScore": 24.4,
-      "readingLevel": "advanced"
     },
     {
       "id": "TkFTQSBpcyBraW5k",
@@ -899,9 +895,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.26,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 28.76,
+      "relevanceScore": 25.23,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 28.73,
       "readingLevel": "beginner"
     },
     {
@@ -926,9 +922,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.64,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 28.14,
+      "relevanceScore": 27.61,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 28.11,
       "readingLevel": "advanced"
     },
     {
@@ -950,9 +946,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.57,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 26.07,
+      "relevanceScore": 25.54,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 26.04,
       "readingLevel": "advanced"
     },
     {
@@ -972,9 +968,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.31,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 23.81,
+      "relevanceScore": 23.28,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 23.78,
       "readingLevel": "advanced"
     },
     {
@@ -994,9 +990,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.39,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 27.39,
+      "relevanceScore": 25.36,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 27.36,
       "readingLevel": "advanced"
     },
     {
@@ -1018,9 +1014,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.18,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 23.18,
+      "relevanceScore": 21.15,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 23.15,
       "readingLevel": "intermediate"
     },
     {
@@ -1040,9 +1036,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.16,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 25.16,
+      "relevanceScore": 25.13,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 25.13,
       "readingLevel": "advanced"
     },
     {
@@ -1062,9 +1058,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.65,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 22.15,
+      "relevanceScore": 21.61,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 22.11,
       "readingLevel": "advanced"
     },
     {
@@ -1084,9 +1080,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 16.55,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 17.05,
+      "relevanceScore": 16.52,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 17.02,
       "readingLevel": "beginner"
     },
     {
@@ -1108,26 +1104,26 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.56,
-      "calculatedAt": "2025-11-10T15:41:18.406Z",
-      "recommendationScore": 21.06,
+      "relevanceScore": 19.52,
+      "calculatedAt": "2025-11-10T15:51:12.227Z",
+      "recommendationScore": 21.02,
       "readingLevel": "advanced"
     }
   ],
   "sources": [
     "Engadget",
     "MIT Technology Review",
-    "Dev.to",
     "Reddit Programming",
     "The Verge",
     "NPR Business",
+    "Dev.to",
     "BBC News",
     "Reddit World News",
     "BBC Technology",
     "TechCrunch",
     "Reddit Technology",
-    "Wired",
     "ABC News Business",
+    "Wired",
     "Ars Technica"
   ],
   "categories": [
@@ -1138,6 +1134,6 @@
     "general",
     "world"
   ],
-  "processedAt": "2025-11-10T15:41:18.417Z",
+  "processedAt": "2025-11-10T15:51:12.238Z",
   "processingVersion": "2.0"
 }
