@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2025-11-10T11:48:43.927Z",
+  "lastUpdated": "2025-11-10T12:29:57.291Z",
   "totalArticles": 36,
   "categories": [
     "tech",
-    "ai-ml",
-    "development",
-    "entertainment",
     "mobile",
+    "ai-ml",
     "education",
+    "gaming",
     "general",
     "business",
-    "gaming",
-    "space",
-    "cybersecurity",
-    "automotive",
     "social",
-    "finance"
+    "entertainment",
+    "finance",
+    "automotive",
+    "cybersecurity",
+    "space",
+    "startup"
   ],
   "topArticles": [
     {
@@ -24,9 +24,25 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-10T09:23:30.000Z",
-      "relevanceScore": 1198.02,
-      "recommendationScore": 1198.52,
+      "relevanceScore": 1232.38,
+      "recommendationScore": 1232.88,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Building a Cloud-Native App to Match Founders with the Right Hackathon",
+      "link": "https://dev.to/abishek_muthian/building-a-cloud-native-app-to-match-founders-with-the-right-hackathon-14ae",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-11-10T12:19:19.000Z",
+      "relevanceScore": 832.96,
+      "recommendationScore": 833.46,
+      "tags": [
+        "Mobile",
+        "Cloud",
+        "Startup",
+        "Funding"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -35,8 +51,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-11-09T16:30:00.000Z",
-      "relevanceScore": 886.14,
-      "recommendationScore": 886.64,
+      "relevanceScore": 760,
+      "recommendationScore": 760.5,
       "tags": [
         "AI",
         "Tech",
@@ -46,42 +62,14 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Understanding JavaScript Scope and Closures: A Deep Dive into Lexical Environments",
-      "link": "https://dev.to/samuel_ochaba_eb9c875fa89/understanding-javascript-scope-and-closures-a-deep-dive-into-lexical-environments-4io8",
+      "title": "Jeff Su: 4 ChatGPT Hacks that Cut My Workload in Half",
+      "link": "https://dev.to/future_ai/jeff-su-4-chatgpt-hacks-that-cut-my-workload-in-half-40f5",
       "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-10T11:37:35.000Z",
-      "relevanceScore": 687.46,
-      "recommendationScore": 687.96,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Arturia&#8217;s KeyStep mk2 MIDI controller is a shortcut to flow state",
-      "link": "https://www.theverge.com/tech/817387/arturia-keystep-mk2-midi-controller-generative-sequencing-writers-block",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-11-09T18:30:00.000Z",
-      "relevanceScore": 679.54,
-      "recommendationScore": 680.04,
+      "category": "ai-ml",
+      "pubDate": "2025-11-10T12:06:45.000Z",
+      "relevanceScore": 690.92,
+      "recommendationScore": 691.42,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Solar-App Deployment: From Node.js to Multi-Cloud CI/CD",
-      "link": "https://dev.to/nimesh_kulkarni_2f7a2057e/solar-app-deployment-from-nodejs-to-multi-cloud-cicd-4g9",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2025-11-10T11:37:19.000Z",
-      "relevanceScore": 638.96,
-      "recommendationScore": 639.46,
-      "tags": [
-        "Security",
-        "Mobile",
-        "Cloud"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -90,8 +78,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-09T21:40:00.000Z",
-      "relevanceScore": 508.17,
-      "recommendationScore": 508.67,
+      "relevanceScore": 584.53,
+      "recommendationScore": 585.03,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -101,8 +89,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-10T11:00:00.000Z",
-      "relevanceScore": 477.84,
-      "recommendationScore": 477.84,
+      "relevanceScore": 482.7,
+      "recommendationScore": 482.7,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -112,25 +100,48 @@
       "source": "Wired",
       "category": "education",
       "pubDate": "2025-11-10T10:30:00.000Z",
-      "relevanceScore": 476.74,
-      "recommendationScore": 477.24,
+      "relevanceScore": 481.6,
+      "recommendationScore": 482.1,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Apple reportedly plans ambitious satellite-powered iPhone features",
-      "link": "https://techcrunch.com/2025/11/09/apple-reportedly-plans-ambitious-satellite-powered-iphone-features/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2025-11-09T17:42:00.000Z",
-      "relevanceScore": 366.38,
-      "recommendationScore": 366.88,
+      "title": "Black Friday Apple deals include the AirPods 4 for $85",
+      "link": "https://www.engadget.com/deals/black-friday-apple-deals-include-the-airpods-4-for-90-162917761.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-11-10T11:45:44.000Z",
+      "relevanceScore": 349.35,
+      "recommendationScore": 349.85,
       "tags": [
-        "Mobile",
-        "Breaking"
+        "Partnership"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best record players for 2025",
+      "link": "https://www.engadget.com/audio/best-record-player-120000239.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-11-10T12:00:00.000Z",
+      "relevanceScore": 340.9,
+      "recommendationScore": 341.9,
+      "tags": [
+        "Update"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best keyboards for 2025",
+      "link": "https://www.engadget.com/computing/accessories/best-keyboard-120000018.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-11-10T10:00:38.000Z",
+      "relevanceScore": 304.5,
+      "recommendationScore": 305.5,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -138,9 +149,9 @@
       "link": "https://www.bbc.com/news/articles/cpd2p2eddnzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-11-10T05:56:44.000Z",
-      "relevanceScore": 328.83,
-      "recommendationScore": 329.33,
+      "pubDate": "2025-11-10T12:07:12.000Z",
+      "relevanceScore": 266.92,
+      "recommendationScore": 267.42,
       "tags": [
         "Science",
         "Partnership",
@@ -149,38 +160,24 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Flight cancellations and delays worsen as government shutdown drags on",
-      "link": "https://abcnews.go.com/Business/wireStory/flight-cancellations-delays-worsen-government-shutdown-drags-127369525",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-10T09:57:45.000Z",
-      "relevanceScore": 322.63,
-      "recommendationScore": 323.13,
+      "title": "YouTube TV, ESPN, and Disney: the latest on the blackout",
+      "link": "https://www.theverge.com/news/817403/youtube-tv-disney-espn-blackout-updates",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-09T19:31:59.000Z",
+      "relevanceScore": 263.61,
+      "recommendationScore": 264.11,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The best tech gifts and cool gadgets for 2025",
-      "link": "https://www.engadget.com/computing/the-best-tech-gifts-and-cool-gadgets-for-2025-140052697.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-11-10T08:01:26.000Z",
-      "relevanceScore": 296.24,
-      "recommendationScore": 297.24,
-      "tags": [
-        "Tech",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The best keyboards for 2025",
-      "link": "https://www.engadget.com/computing/accessories/best-keyboard-120000018.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-11-10T10:00:38.000Z",
-      "relevanceScore": 295.64,
-      "recommendationScore": 296.64,
+      "title": "Flight cancellations and delays worsen as government shutdown drags on",
+      "link": "https://abcnews.go.com/Business/wireStory/flight-cancellations-delays-worsen-government-shutdown-drags-127369525",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-10T10:37:53.000Z",
+      "relevanceScore": 259.63,
+      "recommendationScore": 260.13,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -189,47 +186,60 @@
       "link": "https://abcnews.go.com/Business/wireStory/asian-shares-advance-tech-shares-rebound-ai-jitters-127368346",
       "source": "ABC News Business",
       "category": "business",
-      "pubDate": "2025-11-10T09:01:57.000Z",
-      "relevanceScore": 266.44,
-      "recommendationScore": 266.94,
+      "pubDate": "2025-11-10T11:09:32.000Z",
+      "relevanceScore": 248.23,
+      "recommendationScore": 248.73,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "YouTube TV, ESPN, and Disney: the latest on the blackout",
-      "link": "https://www.theverge.com/news/817403/youtube-tv-disney-espn-blackout-updates",
+      "title": "Katie Razzall: A seismic moment that shows rift at top of BBC",
+      "link": "https://www.bbc.com/news/articles/c07m2v1z4evo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-09T23:30:53.000Z",
+      "relevanceScore": 152.4,
+      "recommendationScore": 155.4,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Elon Musk uses Grok to imagine the possibility of love",
+      "link": "https://techcrunch.com/2025/11/09/elon-musk-uses-grok-to-imagine-the-possibility-of-love/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2025-11-09T20:12:12.000Z",
+      "relevanceScore": 117.74,
+      "recommendationScore": 118.24,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "You need to listen to this compilation of ‘80s Spanish ambient and electronic music",
+      "link": "https://www.theverge.com/column/817417/la-ola-interior-compilation-80s-spanish-ambient-and-electronic-music",
       "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-11-09T19:31:59.000Z",
-      "relevanceScore": 257.74,
-      "recommendationScore": 258.24,
+      "category": "entertainment",
+      "pubDate": "2025-11-09T21:30:00.000Z",
+      "relevanceScore": 116,
+      "recommendationScore": 116.5,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "LeetCode #141. Linked List Cycle",
-      "link": "https://dev.to/desiato/leetcode-141-linked-list-cycle-1h47",
+      "title": "The Next Frontier in NLP: Smarter Agents, Not Just Bigger Models",
+      "link": "https://dev.to/capestart/the-next-frontier-in-nlp-smarter-agents-not-just-bigger-models-5ddc",
       "source": "Dev.to",
-      "category": "space",
-      "pubDate": "2025-11-10T11:39:54.000Z",
-      "relevanceScore": 254.97,
-      "recommendationScore": 254.97,
+      "category": "ai-ml",
+      "pubDate": "2025-11-10T12:15:01.000Z",
+      "relevanceScore": 92.95,
+      "recommendationScore": 93.45,
       "tags": [
-        "IPO"
+        "AI"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "YouTube TV is giving subscribers a $20 credit as consolation for the Disney blackout",
-      "link": "https://www.engadget.com/youtube-tv-is-giving-subscribers-a-20-credit-as-consolation-for-the-disney-blackout-231000002.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-11-09T23:10:00.000Z",
-      "relevanceScore": 156.97,
-      "recommendationScore": 157.47,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -238,12 +248,49 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2025-11-10T10:00:00.000Z",
-      "relevanceScore": 129.14,
-      "recommendationScore": 129.64,
+      "relevanceScore": 78.5,
+      "recommendationScore": 79,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Many would-be buyers are frozen out of the housing market",
+      "link": "https://www.npr.org/2025/11/09/nx-s1-5600733/many-would-be-buyers-are-frozen-out-of-the-housing-market",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-11-09T10:00:00.000Z",
+      "relevanceScore": 73.7,
+      "recommendationScore": 74.2,
+      "tags": [
+        "Business",
+        "Exclusive",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "China exempts chips used by carmakers from export curbs",
+      "link": "https://www.bbc.com/news/articles/c0rp2514g4qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2025-11-10T07:02:17.000Z",
+      "relevanceScore": 59.41,
+      "recommendationScore": 59.91,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Mexican art historians weigh in on upcoming Kahlo's auction that could fetch up to $60 million",
+      "link": "https://abcnews.go.com/Business/wireStory/mexican-art-historians-weigh-upcoming-kahlos-auction-fetch-127368165",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-10T07:02:02.000Z",
+      "relevanceScore": 59.41,
+      "recommendationScore": 59.91,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Jailed hacking kingpin tells how his gang stole millions",
@@ -251,8 +298,8 @@
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2025-11-10T06:01:04.000Z",
-      "relevanceScore": 118.84,
-      "recommendationScore": 120.84,
+      "relevanceScore": 53.7,
+      "recommendationScore": 55.7,
       "tags": [
         "Security",
         "Exclusive",
@@ -266,8 +313,8 @@
       "source": "TechCrunch",
       "category": "space",
       "pubDate": "2025-11-10T00:17:00.000Z",
-      "relevanceScore": 113.69,
-      "recommendationScore": 116.19,
+      "relevanceScore": 48.56,
+      "recommendationScore": 51.06,
       "tags": [
         "Exclusive",
         "Launch"
@@ -280,32 +327,10 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-09T22:31:41.000Z",
-      "relevanceScore": 113.34,
-      "recommendationScore": 115.34,
+      "relevanceScore": 48.21,
+      "recommendationScore": 50.21,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "China exempts chips used by carmakers from export curbs",
-      "link": "https://www.bbc.com/news/articles/c0rp2514g4qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "automotive",
-      "pubDate": "2025-11-10T07:02:17.000Z",
-      "relevanceScore": 113.05,
-      "recommendationScore": 113.55,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Mexican art historians weigh in on upcoming Kahlo's auction that could fetch up to $60 million",
-      "link": "https://abcnews.go.com/Business/wireStory/mexican-art-historians-weigh-upcoming-kahlos-auction-fetch-127368165",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-10T06:38:00.000Z",
-      "relevanceScore": 112.96,
-      "recommendationScore": 113.46,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "A jailed hacking kingpin reveals all about the gang that left a trail of destruction",
@@ -313,8 +338,8 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-11-10T06:01:04.000Z",
-      "relevanceScore": 112.84,
-      "recommendationScore": 113.34,
+      "relevanceScore": 47.7,
+      "recommendationScore": 48.2,
       "tags": [
         "Security",
         "Exclusive",
@@ -323,76 +348,28 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "You need to listen to this compilation of ‘80s Spanish ambient and electronic music",
-      "link": "https://www.theverge.com/column/817417/la-ola-interior-compilation-80s-spanish-ambient-and-electronic-music",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-11-09T21:30:00.000Z",
-      "relevanceScore": 101.14,
-      "recommendationScore": 101.64,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Katie Razzall: A seismic moment that shows rift at top of BBC",
-      "link": "https://www.bbc.com/news/articles/c07m2v1z4evo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-09T23:30:53.000Z",
-      "relevanceScore": 84.04,
-      "recommendationScore": 87.04,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Elon Musk uses Grok to imagine the possibility of love",
-      "link": "https://techcrunch.com/2025/11/09/elon-musk-uses-grok-to-imagine-the-possibility-of-love/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-11-09T20:12:12.000Z",
-      "relevanceScore": 63.88,
-      "recommendationScore": 64.38,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Mysterious Math Behind the Brazilian Butt Lift",
-      "link": "https://www.wired.com/story/book-excerpt-replaceable-you-mary-roach-butt-implants/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-11-10T11:30:00.000Z",
-      "relevanceScore": 57.94,
-      "recommendationScore": 57.94,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Many would-be buyers are frozen out of the housing market",
-      "link": "https://www.npr.org/2025/11/09/nx-s1-5600733/many-would-be-buyers-are-frozen-out-of-the-housing-market",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-11-09T10:00:00.000Z",
-      "relevanceScore": 52.84,
-      "recommendationScore": 53.34,
-      "tags": [
-        "Business",
-        "Exclusive",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Dundee and US surgeons achieve world-first stroke surgery using robot",
       "link": "https://www.bbc.com/news/articles/cjw983pvz6lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-11-10T06:14:55.000Z",
-      "relevanceScore": 39.39,
-      "recommendationScore": 41.89,
+      "relevanceScore": 45.75,
+      "recommendationScore": 48.25,
       "tags": [
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Cleveland Guardians&#8217; pitchers indicted for rigging online bets",
+      "link": "https://www.theverge.com/news/817425/cleveland-guardians-pitchers-indicted-for-rigging-online-bets",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-09T23:22:44.000Z",
+      "relevanceScore": 36.88,
+      "recommendationScore": 37.38,
+      "tags": [
+        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -401,9 +378,9 @@
       "link": "https://www.bbc.com/news/articles/c3rj33dg22vo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2025-11-10T11:19:55.000Z",
-      "relevanceScore": 31.9,
-      "recommendationScore": 33.4,
+      "pubDate": "2025-11-10T12:21:00.000Z",
+      "relevanceScore": 31.97,
+      "recommendationScore": 33.47,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -413,22 +390,50 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-10T06:06:14.000Z",
-      "relevanceScore": 30.86,
-      "recommendationScore": 31.36,
+      "relevanceScore": 30.72,
+      "recommendationScore": 31.22,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Slow Ventures holds a ‘finishing school’ to help founders learn to be fancy",
-      "link": "https://techcrunch.com/2025/11/09/slow-ventures-holds-a-finishing-school-to-help-founders-learn-to-be-fancy/",
+      "title": "Lenskart recovers from tepid open to close first day slightly above IPO price",
+      "link": "https://techcrunch.com/2025/11/10/lenskart-recovers-from-tepid-open-to-close-first-day-slightly-above-ipo-price/",
       "source": "TechCrunch",
-      "category": "education",
-      "pubDate": "2025-11-09T21:58:31.000Z",
-      "relevanceScore": 25.23,
-      "recommendationScore": 25.73,
+      "category": "startup",
+      "pubDate": "2025-11-10T12:06:40.000Z",
+      "relevanceScore": 27.92,
+      "recommendationScore": 30.42,
       "tags": [
-        "IPO"
+        "Startup",
+        "Exclusive",
+        "IPO",
+        "Funding",
+        "Controversy"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Blue Origin scrubs second New Glenn launch",
+      "link": "https://www.theverge.com/news/817466/blue-origin-new-glenn-second-launch-scrubbed",
+      "source": "The Verge",
+      "category": "space",
+      "pubDate": "2025-11-10T12:16:52.000Z",
+      "relevanceScore": 26.96,
+      "recommendationScore": 28.96,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Mysterious Math Behind the Brazilian Butt Lift",
+      "link": "https://www.wired.com/story/book-excerpt-replaceable-you-mary-roach-butt-implants/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-10T11:30:00.000Z",
+      "relevanceScore": 25.8,
+      "recommendationScore": 25.8,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -437,21 +442,21 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-11-08T21:27:42.000Z",
-      "relevanceScore": 24.33,
-      "recommendationScore": 24.83,
+      "relevanceScore": 25.19,
+      "recommendationScore": 25.69,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Cleveland Guardians&#8217; pitchers indicted for rigging online bets",
-      "link": "https://www.theverge.com/news/817425/cleveland-guardians-pitchers-indicted-for-rigging-online-bets",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-11-09T23:22:44.000Z",
-      "relevanceScore": 23.51,
-      "recommendationScore": 24.01,
+      "title": "Slow Ventures holds a ‘finishing school’ to help founders learn to be fancy",
+      "link": "https://techcrunch.com/2025/11/09/slow-ventures-holds-a-finishing-school-to-help-founders-learn-to-be-fancy/",
+      "source": "TechCrunch",
+      "category": "education",
+      "pubDate": "2025-11-09T21:58:31.000Z",
+      "relevanceScore": 25.1,
+      "recommendationScore": 25.6,
       "tags": [
-        "Web"
+        "IPO"
       ],
       "readingLevel": "advanced"
     },
@@ -461,8 +466,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-11-09T15:34:52.000Z",
-      "relevanceScore": 21.95,
-      "recommendationScore": 23.95,
+      "relevanceScore": 21.82,
+      "recommendationScore": 23.82,
       "tags": [
         "Launch"
       ],
@@ -476,7 +481,7 @@
         "link": "https://www.engadget.com/advent-calendars-for-2025-our-favorites-from-pokemon-lego-funko-pop-magna-tiles-and-more-120042234.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-10T09:23:30.000Z",
-        "relevanceScore": 1198.02,
+        "relevanceScore": 1232.38,
         "tags": []
       },
       {
@@ -484,7 +489,7 @@
         "link": "https://techcrunch.com/2025/11/09/youtube-tv-is-giving-customers-a-20-credit-for-disney-blackout/",
         "source": "TechCrunch",
         "pubDate": "2025-11-09T21:40:00.000Z",
-        "relevanceScore": 508.17,
+        "relevanceScore": 584.53,
         "tags": []
       },
       {
@@ -492,18 +497,27 @@
         "link": "https://www.wired.com/story/alex-karp-goes-to-war-palantir-big-interview/",
         "source": "Wired",
         "pubDate": "2025-11-10T11:00:00.000Z",
-        "relevanceScore": 477.84,
+        "relevanceScore": 482.7,
         "tags": []
       },
       {
-        "title": "The best tech gifts and cool gadgets for 2025",
-        "link": "https://www.engadget.com/computing/the-best-tech-gifts-and-cool-gadgets-for-2025-140052697.html?src=rss",
+        "title": "Black Friday Apple deals include the AirPods 4 for $85",
+        "link": "https://www.engadget.com/deals/black-friday-apple-deals-include-the-airpods-4-for-90-162917761.html?src=rss",
         "source": "Engadget",
-        "pubDate": "2025-11-10T08:01:26.000Z",
-        "relevanceScore": 296.24,
+        "pubDate": "2025-11-10T11:45:44.000Z",
+        "relevanceScore": 349.35,
         "tags": [
-          "Tech",
-          "Launch"
+          "Partnership"
+        ]
+      },
+      {
+        "title": "The best record players for 2025",
+        "link": "https://www.engadget.com/audio/best-record-player-120000239.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-10T12:00:00.000Z",
+        "relevanceScore": 340.9,
+        "tags": [
+          "Update"
         ]
       },
       {
@@ -511,23 +525,7 @@
         "link": "https://www.theverge.com/news/817403/youtube-tv-disney-espn-blackout-updates",
         "source": "The Verge",
         "pubDate": "2025-11-09T19:31:59.000Z",
-        "relevanceScore": 257.74,
-        "tags": []
-      },
-      {
-        "title": "YouTube TV is giving subscribers a $20 credit as consolation for the Disney blackout",
-        "link": "https://www.engadget.com/youtube-tv-is-giving-subscribers-a-20-credit-as-consolation-for-the-disney-blackout-231000002.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-09T23:10:00.000Z",
-        "relevanceScore": 156.97,
-        "tags": []
-      },
-      {
-        "title": "The Mysterious Math Behind the Brazilian Butt Lift",
-        "link": "https://www.wired.com/story/book-excerpt-replaceable-you-mary-roach-butt-implants/",
-        "source": "Wired",
-        "pubDate": "2025-11-10T11:30:00.000Z",
-        "relevanceScore": 57.94,
+        "relevanceScore": 263.61,
         "tags": []
       },
       {
@@ -535,7 +533,7 @@
         "link": "https://www.bbc.com/news/articles/cjw983pvz6lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-10T06:14:55.000Z",
-        "relevanceScore": 39.39,
+        "relevanceScore": 45.75,
         "tags": [
           "Exclusive"
         ]
@@ -545,9 +543,32 @@
         "link": "https://www.theverge.com/news/817425/cleveland-guardians-pitchers-indicted-for-rigging-online-bets",
         "source": "The Verge",
         "pubDate": "2025-11-09T23:22:44.000Z",
-        "relevanceScore": 23.51,
+        "relevanceScore": 36.88,
         "tags": [
           "Web"
+        ]
+      },
+      {
+        "title": "The Mysterious Math Behind the Brazilian Butt Lift",
+        "link": "https://www.wired.com/story/book-excerpt-replaceable-you-mary-roach-butt-implants/",
+        "source": "Wired",
+        "pubDate": "2025-11-10T11:30:00.000Z",
+        "relevanceScore": 25.8,
+        "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Building a Cloud-Native App to Match Founders with the Right Hackathon",
+        "link": "https://dev.to/abishek_muthian/building-a-cloud-native-app-to-match-founders-with-the-right-hackathon-14ae",
+        "source": "Dev.to",
+        "pubDate": "2025-11-10T12:19:19.000Z",
+        "relevanceScore": 832.96,
+        "tags": [
+          "Mobile",
+          "Cloud",
+          "Startup",
+          "Funding"
         ]
       }
     ],
@@ -557,7 +578,7 @@
         "link": "https://www.technologyreview.com/2025/11/09/1126805/the-state-of-ai-energy-is-king-and-the-us-is-falling-behind/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-09T16:30:00.000Z",
-        "relevanceScore": 886.14,
+        "relevanceScore": 760,
         "tags": [
           "AI",
           "Tech",
@@ -566,68 +587,31 @@
         ]
       },
       {
+        "title": "Jeff Su: 4 ChatGPT Hacks that Cut My Workload in Half",
+        "link": "https://dev.to/future_ai/jeff-su-4-chatgpt-hacks-that-cut-my-workload-in-half-40f5",
+        "source": "Dev.to",
+        "pubDate": "2025-11-10T12:06:45.000Z",
+        "relevanceScore": 690.92,
+        "tags": []
+      },
+      {
+        "title": "The Next Frontier in NLP: Smarter Agents, Not Just Bigger Models",
+        "link": "https://dev.to/capestart/the-next-frontier-in-nlp-smarter-agents-not-just-bigger-models-5ddc",
+        "source": "Dev.to",
+        "pubDate": "2025-11-10T12:15:01.000Z",
+        "relevanceScore": 92.95,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "Amazon’s ‘House of David’ Used Over 350 AI Shots in Season 2. Its Creator Isn’t Sorry",
         "link": "https://www.wired.com/story/amazons-house-of-david-used-over-350-ai-shots-in-season-2-its-creator-isnt-sorry/",
         "source": "Wired",
         "pubDate": "2025-11-10T10:00:00.000Z",
-        "relevanceScore": 129.14,
+        "relevanceScore": 78.5,
         "tags": [
           "AI"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Understanding JavaScript Scope and Closures: A Deep Dive into Lexical Environments",
-        "link": "https://dev.to/samuel_ochaba_eb9c875fa89/understanding-javascript-scope-and-closures-a-deep-dive-into-lexical-environments-4io8",
-        "source": "Dev.to",
-        "pubDate": "2025-11-10T11:37:35.000Z",
-        "relevanceScore": 687.46,
-        "tags": [
-          "Analysis"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Arturia&#8217;s KeyStep mk2 MIDI controller is a shortcut to flow state",
-        "link": "https://www.theverge.com/tech/817387/arturia-keystep-mk2-midi-controller-generative-sequencing-writers-block",
-        "source": "The Verge",
-        "pubDate": "2025-11-09T18:30:00.000Z",
-        "relevanceScore": 679.54,
-        "tags": []
-      },
-      {
-        "title": "You need to listen to this compilation of ‘80s Spanish ambient and electronic music",
-        "link": "https://www.theverge.com/column/817417/la-ola-interior-compilation-80s-spanish-ambient-and-electronic-music",
-        "source": "The Verge",
-        "pubDate": "2025-11-09T21:30:00.000Z",
-        "relevanceScore": 101.14,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Solar-App Deployment: From Node.js to Multi-Cloud CI/CD",
-        "link": "https://dev.to/nimesh_kulkarni_2f7a2057e/solar-app-deployment-from-nodejs-to-multi-cloud-cicd-4g9",
-        "source": "Dev.to",
-        "pubDate": "2025-11-10T11:37:19.000Z",
-        "relevanceScore": 638.96,
-        "tags": [
-          "Security",
-          "Mobile",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "Apple reportedly plans ambitious satellite-powered iPhone features",
-        "link": "https://techcrunch.com/2025/11/09/apple-reportedly-plans-ambitious-satellite-powered-iphone-features/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-09T17:42:00.000Z",
-        "relevanceScore": 366.38,
-        "tags": [
-          "Mobile",
-          "Breaking"
         ]
       }
     ],
@@ -637,7 +621,7 @@
         "link": "https://www.wired.com/story/lice-checks-crafts-and-being-touched-by-strangers-inside-a-roleplaying-asmr-spa/",
         "source": "Wired",
         "pubDate": "2025-11-10T10:30:00.000Z",
-        "relevanceScore": 476.74,
+        "relevanceScore": 481.6,
         "tags": [
           "Social"
         ]
@@ -647,10 +631,20 @@
         "link": "https://techcrunch.com/2025/11/09/slow-ventures-holds-a-finishing-school-to-help-founders-learn-to-be-fancy/",
         "source": "TechCrunch",
         "pubDate": "2025-11-09T21:58:31.000Z",
-        "relevanceScore": 25.23,
+        "relevanceScore": 25.1,
         "tags": [
           "IPO"
         ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "The best keyboards for 2025",
+        "link": "https://www.engadget.com/computing/accessories/best-keyboard-120000018.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-10T10:00:38.000Z",
+        "relevanceScore": 304.5,
+        "tags": []
       }
     ],
     "general": [
@@ -658,8 +652,8 @@
         "title": "US Senate passes deal aimed at ending longest ever government shutdown",
         "link": "https://www.bbc.com/news/articles/cpd2p2eddnzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-11-10T05:56:44.000Z",
-        "relevanceScore": 328.83,
+        "pubDate": "2025-11-10T12:07:12.000Z",
+        "relevanceScore": 266.92,
         "tags": [
           "Science",
           "Partnership",
@@ -671,15 +665,15 @@
         "link": "https://www.bbc.com/news/articles/c07m2v1z4evo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-09T23:30:53.000Z",
-        "relevanceScore": 84.04,
+        "relevanceScore": 152.4,
         "tags": []
       },
       {
         "title": "Woman stabbed in neck in unprovoked attack at Birmingham bus stop dies",
         "link": "https://www.bbc.com/news/articles/c3rj33dg22vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-11-10T11:19:55.000Z",
-        "relevanceScore": 31.9,
+        "pubDate": "2025-11-10T12:21:00.000Z",
+        "relevanceScore": 31.97,
         "tags": []
       },
       {
@@ -687,7 +681,7 @@
         "link": "https://www.bbc.com/news/articles/crex1zp3213o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-10T06:06:14.000Z",
-        "relevanceScore": 30.86,
+        "relevanceScore": 30.72,
         "tags": []
       }
     ],
@@ -696,86 +690,81 @@
         "title": "Flight cancellations and delays worsen as government shutdown drags on",
         "link": "https://abcnews.go.com/Business/wireStory/flight-cancellations-delays-worsen-government-shutdown-drags-127369525",
         "source": "ABC News Business",
-        "pubDate": "2025-11-10T09:57:45.000Z",
-        "relevanceScore": 322.63,
+        "pubDate": "2025-11-10T10:37:53.000Z",
+        "relevanceScore": 259.63,
         "tags": []
       },
       {
         "title": "World shares advance as tech shares rebound and the Senate takes steps to end the shutdown",
         "link": "https://abcnews.go.com/Business/wireStory/asian-shares-advance-tech-shares-rebound-ai-jitters-127368346",
         "source": "ABC News Business",
-        "pubDate": "2025-11-10T09:01:57.000Z",
-        "relevanceScore": 266.44,
+        "pubDate": "2025-11-10T11:09:32.000Z",
+        "relevanceScore": 248.23,
         "tags": [
           "Tech"
         ]
+      },
+      {
+        "title": "Mexican art historians weigh in on upcoming Kahlo's auction that could fetch up to $60 million",
+        "link": "https://abcnews.go.com/Business/wireStory/mexican-art-historians-weigh-upcoming-kahlos-auction-fetch-127368165",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-10T07:02:02.000Z",
+        "relevanceScore": 59.41,
+        "tags": []
       },
       {
         "title": "Some UPS and FedEx planes are grounded. What does that mean for holiday shipping?",
         "link": "https://www.npr.org/2025/11/09/nx-s1-5602930/ups-fedex-md11-aircraft-holiday-shipping",
         "source": "NPR Business",
         "pubDate": "2025-11-09T22:31:41.000Z",
-        "relevanceScore": 113.34,
-        "tags": []
-      },
-      {
-        "title": "Mexican art historians weigh in on upcoming Kahlo's auction that could fetch up to $60 million",
-        "link": "https://abcnews.go.com/Business/wireStory/mexican-art-historians-weigh-upcoming-kahlos-auction-fetch-127368165",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-10T06:38:00.000Z",
-        "relevanceScore": 112.96,
+        "relevanceScore": 48.21,
         "tags": []
       }
     ],
-    "gaming": [
+    "social": [
       {
-        "title": "The best keyboards for 2025",
-        "link": "https://www.engadget.com/computing/accessories/best-keyboard-120000018.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-10T10:00:38.000Z",
-        "relevanceScore": 295.64,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "LeetCode #141. Linked List Cycle",
-        "link": "https://dev.to/desiato/leetcode-141-linked-list-cycle-1h47",
-        "source": "Dev.to",
-        "pubDate": "2025-11-10T11:39:54.000Z",
-        "relevanceScore": 254.97,
-        "tags": [
-          "IPO"
-        ]
-      },
-      {
-        "title": "Blue Origin scrubs second New Glenn launch, will try again November 12",
-        "link": "https://techcrunch.com/2025/11/09/blue-origin-scrubs-second-new-glenn-launch-will-try-again-november-12/",
+        "title": "Elon Musk uses Grok to imagine the possibility of love",
+        "link": "https://techcrunch.com/2025/11/09/elon-musk-uses-grok-to-imagine-the-possibility-of-love/",
         "source": "TechCrunch",
-        "pubDate": "2025-11-10T00:17:00.000Z",
-        "relevanceScore": 113.69,
+        "pubDate": "2025-11-09T20:12:12.000Z",
+        "relevanceScore": 117.74,
         "tags": [
-          "Exclusive",
-          "Launch"
+          "Social"
         ]
-      },
+      }
+    ],
+    "entertainment": [
       {
-        "title": "Blue Origin will ‘move heaven and Earth’ to help NASA reach the Moon faster, CEO says",
-        "link": "https://arstechnica.com/space/2025/11/blue-origin-will-move-heaven-and-earth-to-help-nasa-reach-the-moon-faster-ceo-says/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-08T21:27:42.000Z",
-        "relevanceScore": 24.33,
+        "title": "You need to listen to this compilation of ‘80s Spanish ambient and electronic music",
+        "link": "https://www.theverge.com/column/817417/la-ola-interior-compilation-80s-spanish-ambient-and-electronic-music",
+        "source": "The Verge",
+        "pubDate": "2025-11-09T21:30:00.000Z",
+        "relevanceScore": 116,
         "tags": []
-      },
+      }
+    ],
+    "finance": [
       {
-        "title": "Here’s how orbital dynamics wizardry helped save NASA’s next Mars mission",
-        "link": "https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-09T15:34:52.000Z",
-        "relevanceScore": 21.95,
+        "title": "Many would-be buyers are frozen out of the housing market",
+        "link": "https://www.npr.org/2025/11/09/nx-s1-5600733/many-would-be-buyers-are-frozen-out-of-the-housing-market",
+        "source": "NPR Business",
+        "pubDate": "2025-11-09T10:00:00.000Z",
+        "relevanceScore": 73.7,
         "tags": [
-          "Launch"
+          "Business",
+          "Exclusive",
+          "Report"
         ]
+      }
+    ],
+    "automotive": [
+      {
+        "title": "China exempts chips used by carmakers from export curbs",
+        "link": "https://www.bbc.com/news/articles/c0rp2514g4qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-11-10T07:02:17.000Z",
+        "relevanceScore": 59.41,
+        "tags": []
       }
     ],
     "cybersecurity": [
@@ -784,7 +773,7 @@
         "link": "https://www.bbc.com/news/articles/cm2w0pvg4wko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-10T06:01:04.000Z",
-        "relevanceScore": 118.84,
+        "relevanceScore": 53.7,
         "tags": [
           "Security",
           "Exclusive",
@@ -796,7 +785,7 @@
         "link": "https://www.bbc.com/news/articles/cm2w0pvg4wko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-10T06:01:04.000Z",
-        "relevanceScore": 112.84,
+        "relevanceScore": 47.7,
         "tags": [
           "Security",
           "Exclusive",
@@ -804,39 +793,60 @@
         ]
       }
     ],
-    "automotive": [
+    "space": [
       {
-        "title": "China exempts chips used by carmakers from export curbs",
-        "link": "https://www.bbc.com/news/articles/c0rp2514g4qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-11-10T07:02:17.000Z",
-        "relevanceScore": 113.05,
-        "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "Elon Musk uses Grok to imagine the possibility of love",
-        "link": "https://techcrunch.com/2025/11/09/elon-musk-uses-grok-to-imagine-the-possibility-of-love/",
+        "title": "Blue Origin scrubs second New Glenn launch, will try again November 12",
+        "link": "https://techcrunch.com/2025/11/09/blue-origin-scrubs-second-new-glenn-launch-will-try-again-november-12/",
         "source": "TechCrunch",
-        "pubDate": "2025-11-09T20:12:12.000Z",
-        "relevanceScore": 63.88,
+        "pubDate": "2025-11-10T00:17:00.000Z",
+        "relevanceScore": 48.56,
         "tags": [
-          "Social"
+          "Exclusive",
+          "Launch"
+        ]
+      },
+      {
+        "title": "Blue Origin scrubs second New Glenn launch",
+        "link": "https://www.theverge.com/news/817466/blue-origin-new-glenn-second-launch-scrubbed",
+        "source": "The Verge",
+        "pubDate": "2025-11-10T12:16:52.000Z",
+        "relevanceScore": 26.96,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "Blue Origin will ‘move heaven and Earth’ to help NASA reach the Moon faster, CEO says",
+        "link": "https://arstechnica.com/space/2025/11/blue-origin-will-move-heaven-and-earth-to-help-nasa-reach-the-moon-faster-ceo-says/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-08T21:27:42.000Z",
+        "relevanceScore": 25.19,
+        "tags": []
+      },
+      {
+        "title": "Here’s how orbital dynamics wizardry helped save NASA’s next Mars mission",
+        "link": "https://arstechnica.com/space/2025/11/heres-how-orbital-dynamics-wizardry-helped-save-nasas-next-mars-mission/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-09T15:34:52.000Z",
+        "relevanceScore": 21.82,
+        "tags": [
+          "Launch"
         ]
       }
     ],
-    "finance": [
+    "startup": [
       {
-        "title": "Many would-be buyers are frozen out of the housing market",
-        "link": "https://www.npr.org/2025/11/09/nx-s1-5600733/many-would-be-buyers-are-frozen-out-of-the-housing-market",
-        "source": "NPR Business",
-        "pubDate": "2025-11-09T10:00:00.000Z",
-        "relevanceScore": 52.84,
+        "title": "Lenskart recovers from tepid open to close first day slightly above IPO price",
+        "link": "https://techcrunch.com/2025/11/10/lenskart-recovers-from-tepid-open-to-close-first-day-slightly-above-ipo-price/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-10T12:06:40.000Z",
+        "relevanceScore": 27.92,
         "tags": [
-          "Business",
+          "Startup",
           "Exclusive",
-          "Report"
+          "IPO",
+          "Funding",
+          "Controversy"
         ]
       }
     ]
@@ -844,11 +854,15 @@
   "stats": {
     "totalSources": 11,
     "totalCategories": 14,
-    "avgRelevanceScore": 263.0438888888889,
+    "avgRelevanceScore": 231.79499999999993,
     "topCategories": [
       {
         "category": "tech",
         "count": 9
+      },
+      {
+        "category": "ai-ml",
+        "count": 4
       },
       {
         "category": "general",
@@ -861,10 +875,6 @@
       {
         "category": "space",
         "count": 4
-      },
-      {
-        "category": "ai-ml",
-        "count": 2
       }
     ]
   }
