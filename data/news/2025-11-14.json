@@ -1,6 +1,6 @@
 {
   "date": "2025-11-14",
-  "lastUpdated": "2025-11-14T19:25:52.378Z",
+  "lastUpdated": "2025-11-14T19:35:28.984Z",
   "totalArticles": 54,
   "articles": [
     {
@@ -25,9 +25,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 349.01,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 349.51,
+      "relevanceScore": 501.48,
+      "calculatedAt": "2025-11-14T19:35:29.069Z",
+      "recommendationScore": 501.98,
       "readingLevel": "advanced"
     },
     {
@@ -50,9 +50,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 308.75,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 310.75,
+      "relevanceScore": 397.22,
+      "calculatedAt": "2025-11-14T19:35:29.069Z",
+      "recommendationScore": 399.22,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VHJpZ2dlciBBV1Mg",
+      "title": "Trigger AWS CodePipeline from a Cross-Account S3 Upload (Using EventBridge + IAM Roles)",
+      "link": "https://dev.to/santanu_das/trigger-aws-codepipeline-from-a-cross-account-s3-upload-using-eventbridge-iam-roles-185d",
+      "description": "Being in a multi-account AWS environment, you quickly realize that while business domains are neatly isolated into separate accounts, real-world workloads often need to interact across those boundaries. Recently, one of our app teams needed to trigger a platform pipeline whenever their EKS app uploa",
+      "pubDate": "2025-11-14T19:20:15.000Z",
+      "source": "Dev.to",
+      "category": "mobile",
+      "weight": 6,
+      "content": "Being in a multi-account AWS environment, you quickly realize that while business domains are neatly isolated into separate accounts, real-world workloads often need to interact across those boundaries. Recently, one of our app teams needed to trigger a platform pipeline whenever their EKS app uploaded a file to an S3 bucket. A simple ask - right? But in our world, that means messaging platform-team and waiting for them to push the magic “Run Pipeline” button, as there was no seamless way to tri",
+      "author": "Santanu Das",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Business",
+        "Mobile",
+        "Cloud"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 376.45,
+      "calculatedAt": "2025-11-14T19:35:29.069Z",
+      "recommendationScore": 376.95,
       "readingLevel": "advanced"
     },
     {
@@ -74,9 +100,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 230.55,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 231.05,
+      "relevanceScore": 306.52,
+      "calculatedAt": "2025-11-14T19:35:29.069Z",
+      "recommendationScore": 307.02,
       "readingLevel": "advanced"
     },
     {
@@ -98,9 +124,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 231.37,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 231.87,
+      "relevanceScore": 309.83,
+      "calculatedAt": "2025-11-14T19:35:29.069Z",
+      "recommendationScore": 310.33,
       "readingLevel": "advanced"
     },
     {
@@ -123,9 +149,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 225.11,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 225.61,
+      "relevanceScore": 302.58,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 303.08,
       "readingLevel": "advanced"
     },
     {
@@ -145,9 +171,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 212.71,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 212.71,
+      "relevanceScore": 288.18,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 288.18,
       "readingLevel": "intermediate"
     },
     {
@@ -167,9 +193,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 217.05,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 217.55,
+      "relevanceScore": 292.52,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 293.02,
       "readingLevel": "beginner"
     },
     {
@@ -192,9 +218,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 209.42,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 209.92,
+      "relevanceScore": 284.88,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 285.38,
       "readingLevel": "advanced"
     },
     {
@@ -214,9 +240,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 237.38,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 237.88,
+      "relevanceScore": 260.35,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 260.85,
       "readingLevel": "intermediate"
     },
     {
@@ -236,10 +262,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 230.27,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 230.77,
+      "relevanceScore": 253.24,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 253.74,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "J0RpdmluZScgaXMg",
+      "title": "'Divine' is a Jack Dorsey-backed Vine reboot for 2025",
+      "link": "https://www.engadget.com/social-media/divine-is-a-jack-dorsey-backed-vine-reboot-for-2025-192307190.html?src=rss",
+      "description": "Nearly a decade after going offline, Vine is (sort of) back and, in a truly bizarre twist, Jack Dorsey is at least partially responsible. An early Twitter employee has released a beta version of a rebooted Vine — now called \"Divine\" — that revives the app&#39;s six-second videos and includes a porti",
+      "pubDate": "2025-11-14T19:23:07.000Z",
+      "source": "Engadget",
+      "category": "mobile",
+      "weight": 6,
+      "content": "Nearly a decade after going offline, Vine is (sort of) back and, in a truly bizarre twist, Jack Dorsey is at least partially responsible. An early Twitter employee has released a beta version of a rebooted Vine — now called \"Divine\" — that revives the app&#39;s six-second videos and includes a portion of the original app&#39;s archive. The project comes from Evan Henshaw-Plath, a former Twitter employee who goes by \"Rabble,\" and has backing from Dorsey&#39;s nonprofit \" and Other Stuff ,\" which ",
+      "author": "Engadget",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Mobile",
+        "Social"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 251.96,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 252.46,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhyZWUgYXN0cm9u",
@@ -260,9 +311,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 213.9,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 214.4,
+      "relevanceScore": 229.87,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 230.37,
       "readingLevel": "intermediate"
     },
     {
@@ -284,9 +335,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 183.22,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 187.22,
+      "relevanceScore": 206.19,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 210.19,
       "readingLevel": "intermediate"
     },
     {
@@ -309,9 +360,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 145.34,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 145.34,
+      "relevanceScore": 198.81,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 198.81,
       "readingLevel": "advanced"
     },
     {
@@ -331,21 +382,21 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 151.17,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 151.67,
+      "relevanceScore": 204.64,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 205.14,
       "readingLevel": "intermediate"
     },
     {
       "id": "QkJDIGFwb2xvZ2l6",
       "title": "BBC apologizes for edit of Trump speech but says it won't provide legal compensation",
       "link": "https://www.npr.org/2025/11/14/nx-s1-5608004/bbc-apology-trump-speech",
-      "description": "The BBC has apologized to President Trump for the way it edited his Jan. 6, 2021 speech but says it won't pay compensation. Trump has threatened a $1 billion lawsuit against the British broadcaster.",
+      "description": "The BBC has apologized to President Trump for the way it edited his Jan. 6, 2021, speech but says it won't pay compensation. Trump has threatened a $1 billion lawsuit against the British broadcaster.",
       "pubDate": "2025-11-14T11:41:47.000Z",
       "source": "NPR Business",
       "category": "business",
       "weight": 8,
-      "content": "The BBC has apologized to President Trump for the way it edited his Jan. 6, 2021 speech but says it won't pay compensation. Trump has threatened a $1 billion lawsuit against the British broadcaster. (Image credit: Kin Cheung)",
+      "content": "The BBC has apologized to President Trump for the way it edited his Jan. 6, 2021, speech but says it won't pay compensation. Trump has threatened a $1 billion lawsuit against the British broadcaster. (Image credit: Kin Cheung)",
       "author": "Willem Marx",
       "readTime": 1,
       "importance": 10,
@@ -353,9 +404,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 145.95,
-      "calculatedAt": "2025-11-14T19:25:52.461Z",
-      "recommendationScore": 146.45,
+      "relevanceScore": 199.42,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 199.92,
       "readingLevel": "intermediate"
     },
     {
@@ -377,9 +428,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 135.35,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 136.35,
+      "relevanceScore": 194.82,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 195.82,
       "readingLevel": "advanced"
     },
     {
@@ -399,62 +450,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 126.42,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 128.92,
+      "relevanceScore": 188.89,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 191.39,
       "readingLevel": "advanced"
     },
     {
-      "id": "QSBuZXcgTmludGVu",
-      "title": "A new Nintendo Switch 2 system update just bricked many third-party docks",
-      "link": "https://www.engadget.com/gaming/nintendo/a-new-nintendo-switch-2-system-update-just-bricked-many-third-party-docks-194551477.html?src=rss",
-      "description": "The most recent Switch 2 software update looks to have bricked many third-party docks and related accessories, according to users across the internet and a report by Kotaku . We don&#39;t know if this was an intentional move by Nintendo or simply an accident. Engadget has reached out to the company ",
-      "pubDate": "2025-11-14T17:51:05.000Z",
-      "source": "Engadget",
-      "category": "tech",
-      "weight": 6,
-      "content": "The most recent Switch 2 software update looks to have bricked many third-party docks and related accessories, according to users across the internet and a report by Kotaku . We don&#39;t know if this was an intentional move by Nintendo or simply an accident. Engadget has reached out to the company for clarification. The Switch 2 update 21.0.0 brings some much-needed quality-of-life features, like the ability to turn off autoplaying videos in the eShop and new icons that indicate whether a game ",
-      "author": "Lawrence Bonk",
+      "id": "VVMgaW52ZXN0bWVu",
+      "title": "US investment firm RedBird pulls out of buying Britain’s Telegraph newspaper",
+      "link": "https://abcnews.go.com/Business/wireStory/us-investment-firm-redbird-pulls-buying-britains-telegraph-127522284",
+      "description": "U.S. investment firm RedBird Capital has dropped its offer to buy the publisher of Britain&rsquo;s 170-year-old conservative-leaning Daily Telegraph newspaper for about 500 million pounds ($660 million)",
+      "pubDate": "2025-11-14T13:59:52.000Z",
+      "source": "ABC News Business",
+      "category": "business",
+      "weight": 7,
+      "content": "U.S. investment firm RedBird Capital has dropped its offer to buy the publisher of Britain&rsquo;s 170-year-old conservative-leaning Daily Telegraph newspaper for about 500 million pounds ($660 million)",
+      "author": "ABC News Business",
       "readTime": 1,
-      "importance": 8,
+      "importance": 10,
       "tags": [
-        "Tech",
-        "Web",
-        "Report",
-        "Update"
+        "Business",
+        "Funding"
       ],
-      "sentiment": "neutral",
-      "complexity": "low",
+      "sentiment": "negative",
+      "complexity": "medium",
       "type": "news",
-      "relevanceScore": 127.68,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 130.18,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "VGhlIENvbXBsZXRl",
-      "title": "The Complete Google Cloud Learning Roadmap for 2026: Certifications, Courses & Skills You Need",
-      "link": "https://dev.to/rohan_jee_085655230/the-complete-google-cloud-learning-roadmap-for-2026-certifications-courses-skills-you-need-2095",
-      "description": "As cloud adoption accelerates across every industry, Google Cloud continues to stand out for its scalability, security, AI readiness, and enterprise-grade performance. For professionals aiming to build or advance a cloud career in 2026, the most strategic move is to follow a structured learning road",
-      "pubDate": "2025-11-14T18:56:54.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "As cloud adoption accelerates across every industry, Google Cloud continues to stand out for its scalability, security, AI readiness, and enterprise-grade performance. For professionals aiming to build or advance a cloud career in 2026, the most strategic move is to follow a structured learning roadmap. This includes foundational knowledge, hands-on skills, and role-specific certifications that validate expertise. To help you plan your journey, this guide brings together the most impactful Googl",
-      "author": "Skill Tester Techy",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI",
-        "Security",
-        "Cloud"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 73.4,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 73.9,
+      "relevanceScore": 186.38,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 188.88,
       "readingLevel": "advanced"
     },
     {
@@ -477,9 +500,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 69.01,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 69.51,
+      "relevanceScore": 123.48,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 123.98,
       "readingLevel": "advanced"
     },
     {
@@ -504,9 +527,36 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.07,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 68.57,
+      "relevanceScore": 122.54,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 123.04,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QSBuZXcgTmludGVu",
+      "title": "A new Nintendo Switch 2 system update just bricked many third-party docks",
+      "link": "https://www.engadget.com/gaming/nintendo/a-new-nintendo-switch-2-system-update-just-bricked-many-third-party-docks-194551477.html?src=rss",
+      "description": "The most recent Switch 2 software update looks to have bricked many third-party docks and related accessories, according to users across the internet and a report by Kotaku . We don&#39;t know if this was an intentional move by Nintendo or simply an accident. Engadget has reached out to the company ",
+      "pubDate": "2025-11-14T17:51:05.000Z",
+      "source": "Engadget",
+      "category": "tech",
+      "weight": 6,
+      "content": "The most recent Switch 2 software update looks to have bricked many third-party docks and related accessories, according to users across the internet and a report by Kotaku . We don&#39;t know if this was an intentional move by Nintendo or simply an accident. Engadget has reached out to the company for clarification. The Switch 2 update 21.0.0 brings some much-needed quality-of-life features, like the ability to turn off autoplaying videos in the eShop and new icons that indicate whether a game ",
+      "author": "Lawrence Bonk",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Tech",
+        "Web",
+        "Report",
+        "Update"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 136.65,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 139.15,
       "readingLevel": "advanced"
     },
     {
@@ -529,9 +579,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.53,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 70.03,
+      "relevanceScore": 122.99,
+      "calculatedAt": "2025-11-14T19:35:29.070Z",
+      "recommendationScore": 124.49,
       "readingLevel": "intermediate"
     },
     {
@@ -551,35 +601,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 109.35,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 109.85,
+      "relevanceScore": 116.32,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 116.82,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "VGhlIGJlc3QgaVBh",
-      "title": "The best iPad deals right now: Get $100 off the 13-inch iPad Air",
-      "link": "https://www.engadget.com/deals/the-best-ipad-deals-right-now-get-100-off-the-13-inch-ipad-air-150020837.html?src=rss",
-      "description": "Each week, we check major retailers looking for notable discounts on iPads. Those deals almost never show up on Apple&#39;s own website, but Target, Walmart and, of course, Amazon tend to have at least a few worthy discounts on Apple&#39;s slates. We update this list at least once per week and, whil",
-      "pubDate": "2025-11-14T17:37:33.000Z",
-      "source": "Engadget",
-      "category": "education",
-      "weight": 6,
-      "content": "Each week, we check major retailers looking for notable discounts on iPads. Those deals almost never show up on Apple&#39;s own website, but Target, Walmart and, of course, Amazon tend to have at least a few worthy discounts on Apple&#39;s slates. We update this list at least once per week and, while we&#39;re at it, we add standout discounts on other Apple gear, from the wearable Apple Watch to the portable MacBook. Why all the focus on Apple devices? The company&#39;s gear consistently ranks a",
-      "author": "Valentina Palladino,Amy Skorheim,Jeff Dunn",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Web",
-        "Update"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 63.14,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 64.64,
-      "readingLevel": "advanced"
     },
     {
       "id": "V29ybGTigJlzIG9s",
@@ -598,34 +623,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 102.74,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 103.24,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "VVMgaW52ZXN0bWVu",
-      "title": "US investment firm RedBird pulls out of buying Britain’s Telegraph newspaper",
-      "link": "https://abcnews.go.com/Business/wireStory/us-investment-firm-redbird-pulls-buying-britains-telegraph-127522284",
-      "description": "U.S. investment firm RedBird Capital has dropped its offer to buy the publisher of Britain&rsquo;s 170-year-old conservative-leaning Daily Telegraph newspaper for about 500 million pounds ($660 million)",
-      "pubDate": "2025-11-14T13:59:52.000Z",
-      "source": "ABC News Business",
-      "category": "business",
-      "weight": 7,
-      "content": "U.S. investment firm RedBird Capital has dropped its offer to buy the publisher of Britain&rsquo;s 170-year-old conservative-leaning Daily Telegraph newspaper for about 500 million pounds ($660 million)",
-      "author": "ABC News Business",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Business",
-        "Funding"
-      ],
-      "sentiment": "negative",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 62.91,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 65.41,
+      "relevanceScore": 112.7,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 113.2,
       "readingLevel": "advanced"
     },
     {
@@ -648,9 +648,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 61.45,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 61.95,
+      "relevanceScore": 113.91,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 114.41,
       "readingLevel": "intermediate"
     },
     {
@@ -675,9 +675,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.25,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 55.75,
+      "relevanceScore": 105.72,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 108.22,
       "readingLevel": "advanced"
     },
     {
@@ -697,9 +697,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 58.06,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 58.56,
+      "relevanceScore": 110.53,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 111.03,
       "readingLevel": "intermediate"
     },
     {
@@ -719,9 +719,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.96,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 55.46,
+      "relevanceScore": 107.42,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 107.92,
       "readingLevel": "intermediate"
     },
     {
@@ -741,9 +741,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.18,
-      "calculatedAt": "2025-11-14T19:25:52.462Z",
-      "recommendationScore": 53.18,
+      "relevanceScore": 105.65,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 105.65,
       "readingLevel": "advanced"
     },
     {
@@ -763,9 +763,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 51.4,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 52.9,
+      "relevanceScore": 103.87,
+      "calculatedAt": "2025-11-14T19:35:29.071Z",
+      "recommendationScore": 105.37,
       "readingLevel": "beginner"
     },
     {
@@ -787,9 +787,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.96,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 51.46,
+      "relevanceScore": 103.42,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 103.92,
       "readingLevel": "intermediate"
     },
     {
@@ -811,10 +811,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.85,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 52.35,
+      "relevanceScore": 103.32,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 104.82,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "J0FzdG9uaXNoaW5n",
+      "title": "'Astonishingly lethal': BBC reports from site of Russian strike in Kyiv",
+      "link": "https://www.bbc.com/news/videos/c3w9je1d3jno?at_medium=RSS&at_campaign=rss",
+      "description": "The BBC's James Landale reports from the east of the capital where a drone struck a multi-storey residential building.",
+      "pubDate": "2025-11-14T14:04:30.000Z",
+      "source": "BBC News",
+      "category": "general",
+      "weight": 10,
+      "content": "The BBC's James Landale reports from the east of the capital where a drone struck a multi-storey residential building.",
+      "author": "BBC News",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 110.9,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 111.4,
+      "readingLevel": "advanced"
     },
     {
       "id": "R2l0SHViIEF2YWls",
@@ -836,9 +858,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.31,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 50.31,
+      "relevanceScore": 102.78,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 102.78,
       "readingLevel": "advanced"
     },
     {
@@ -861,10 +883,32 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 49.95,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 49.95,
+      "relevanceScore": 50.92,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 50.92,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "UGFyYW1vdW50IFNr",
+      "title": "Paramount Skydance is working on a new Stret Trek movie",
+      "link": "https://www.theverge.com/entertainment/821219/paramount-skydance-star-trak-movie-jonathan-goldstein-john-francis-daley",
+      "description": "Paramount Skydance head David Ellison made it very clear that he was interested in restarting the studio’s Star Trek movie franchise with some new blood, and it seems like that plan is moving forward. Deadline reports that Dungeons &#38; Dragons: Honor Among Thieves co-directors Jonathan Goldstein a",
+      "pubDate": "2025-11-14T19:32:06.000Z",
+      "source": "The Verge",
+      "category": "entertainment",
+      "weight": 7,
+      "content": "Paramount Skydance head David Ellison made it very clear that he was interested in restarting the studio’s Star Trek movie franchise with some new blood, and it seems like that plan is moving forward. Deadline reports that Dungeons & Dragons: Honor Among Thieve s co-directors Jonathan Goldstein and John Francis Daley have signed on to an all-new Star Trek feature that will be “a completely new take” on the IP with no direct connections to any past series or films. There’s no word yet on a produc",
+      "author": "Charles Pulliam-Moore",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 50.49,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 52.99,
+      "readingLevel": "advanced"
     },
     {
       "id": "T3VyIEZhdm9yaXRl",
@@ -883,9 +927,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 39.87,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 39.87,
+      "relevanceScore": 41.83,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 41.83,
       "readingLevel": "intermediate"
     },
     {
@@ -907,9 +951,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 41.25,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 41.75,
+      "relevanceScore": 43.22,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 43.72,
       "readingLevel": "intermediate"
     },
     {
@@ -931,9 +975,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.11,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 43.61,
+      "relevanceScore": 44.08,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 45.58,
       "readingLevel": "advanced"
     },
     {
@@ -953,31 +997,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 35.97,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 37.97,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "J0FzdG9uaXNoaW5n",
-      "title": "'Astonishingly lethal': BBC reports from site of Russian strike in Kyiv",
-      "link": "https://www.bbc.com/news/videos/c3w9je1d3jno?at_medium=RSS&at_campaign=rss",
-      "description": "The BBC's James Landale reports from the east of the capital where a drone struck a multi-storey residential building.",
-      "pubDate": "2025-11-14T14:04:30.000Z",
-      "source": "BBC News",
-      "category": "general",
-      "weight": 10,
-      "content": "The BBC's James Landale reports from the east of the capital where a drone struck a multi-storey residential building.",
-      "author": "BBC News",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 39.93,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 40.43,
+      "relevanceScore": 36.93,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 38.93,
       "readingLevel": "advanced"
     },
     {
@@ -999,9 +1021,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 30.01,
-      "calculatedAt": "2025-11-14T19:25:52.463Z",
-      "recommendationScore": 30.51,
+      "relevanceScore": 30.98,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 31.48,
       "readingLevel": "advanced"
     },
     {
@@ -1021,9 +1043,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.71,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 31.21,
+      "relevanceScore": 30.68,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 31.18,
       "readingLevel": "intermediate"
     },
     {
@@ -1045,9 +1067,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.46,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 25.46,
+      "relevanceScore": 25.43,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 25.43,
       "readingLevel": "intermediate"
     },
     {
@@ -1070,9 +1092,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.88,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 27.38,
+      "relevanceScore": 26.85,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 27.35,
       "readingLevel": "intermediate"
     },
     {
@@ -1094,9 +1116,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.97,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 26.47,
+      "relevanceScore": 25.94,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 26.44,
       "readingLevel": "advanced"
     },
     {
@@ -1119,9 +1141,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.03,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 27.53,
+      "relevanceScore": 27,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 27.5,
       "readingLevel": "advanced"
     },
     {
@@ -1141,34 +1163,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.68,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 26.18,
+      "relevanceScore": 25.65,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 26.15,
       "readingLevel": "beginner"
-    },
-    {
-      "id": "QmVsa2luIGlzIHJl",
-      "title": "Belkin is recalling its iPhone tracking stand and two power banks due to fire risks",
-      "link": "https://www.theverge.com/news/821016/belkin-recall-auto-tracking-iphone-stand-pro-boostcharge-power-bank",
-      "description": "Belkin has issued a recall for its Auto-Tracking Stand Pro for the iPhone and two versions of its 20,000mAh BoostCharge USB-C PD Power Bank because a “manufacturing defect may cause the products’ lithium-ion cell components to overheat,” posing a fire and burn risk to users. While there’s been just ",
-      "pubDate": "2025-11-14T16:39:05.000Z",
-      "source": "The Verge",
-      "category": "mobile",
-      "weight": 7,
-      "content": "If you have any of the three recalled products you should stop using them immediately. | Image: Belkin Belkin has issued a recall for its Auto-Tracking Stand Pro for the iPhone and two versions of its 20,000mAh BoostCharge USB-C PD Power Bank because a “manufacturing defect may cause the products’ lithium-ion cell components to overheat,” posing a fire and burn risk to users. While there’s been just one report of a fire in the US, there have been 15 reports in other countries including two minor",
-      "author": "Andrew Liszewski",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [
-        "Mobile"
-      ],
-      "sentiment": "negative",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 24.94,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 25.44,
-      "readingLevel": "advanced"
     },
     {
       "id": "UEMgZ2FtaW5nIGdp",
@@ -1187,9 +1185,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.53,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 22.03,
+      "relevanceScore": 19.5,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 22,
       "readingLevel": "intermediate"
     },
     {
@@ -1211,9 +1209,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.7,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 22.2,
+      "relevanceScore": 21.67,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 22.17,
       "readingLevel": "advanced"
     },
     {
@@ -1233,9 +1231,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.67,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 23.17,
+      "relevanceScore": 22.64,
+      "calculatedAt": "2025-11-14T19:35:29.072Z",
+      "recommendationScore": 23.14,
       "readingLevel": "advanced"
     },
     {
@@ -1255,9 +1253,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.99,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 20.99,
+      "relevanceScore": 20.95,
+      "calculatedAt": "2025-11-14T19:35:29.073Z",
+      "recommendationScore": 20.95,
       "readingLevel": "advanced"
     },
     {
@@ -1277,27 +1275,27 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.95,
-      "calculatedAt": "2025-11-14T19:25:52.464Z",
-      "recommendationScore": 21.45,
+      "relevanceScore": 20.92,
+      "calculatedAt": "2025-11-14T19:35:29.073Z",
+      "recommendationScore": 21.42,
       "readingLevel": "advanced"
     }
   ],
   "sources": [
     "GitHub Blog",
     "MIT Technology Review",
+    "Dev.to",
     "Stack Overflow Blog",
     "Ars Technica",
     "NPR Business",
     "TechCrunch",
     "BBC News",
-    "Dev.to",
     "BBC Technology",
+    "Engadget",
     "The Verge",
     "Reddit World News",
-    "Engadget",
-    "Wired",
     "ABC News Business",
+    "Wired",
     "Reddit Technology",
     "Reddit Programming"
   ],
@@ -1309,6 +1307,6 @@
     "general",
     "world"
   ],
-  "processedAt": "2025-11-14T19:25:52.474Z",
+  "processedAt": "2025-11-14T19:35:29.083Z",
   "processingVersion": "2.0"
 }
