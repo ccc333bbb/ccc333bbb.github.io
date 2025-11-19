@@ -1,33 +1,59 @@
 {
-  "lastUpdated": "2025-11-19T21:35:16.737Z",
+  "lastUpdated": "2025-11-19T21:48:47.003Z",
   "totalArticles": 54,
   "categories": [
+    "cloud",
+    "development",
     "science",
     "ai-ml",
     "tech",
-    "cybersecurity",
     "general",
     "business",
-    "development",
     "entertainment",
     "finance",
     "social",
     "startup",
+    "mobile",
     "health",
     "gaming",
-    "climate",
     "world",
-    "mobile"
+    "climate"
   ],
   "topArticles": [
+    {
+      "title": "The Hidden Failure Pattern Behind the AWS, Azure and Cloudflare Outages of 2025",
+      "link": "https://dev.to/codedetech/the-hidden-failure-pattern-behind-the-aws-azure-and-cloudflare-outages-of-2025-462n",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-11-19T21:46:53.000Z",
+      "relevanceScore": 1429.49,
+      "recommendationScore": 1429.99,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Cloudflare went down yesterday. My monitoring lied. So I built this.",
+      "link": "https://dev.to/yibnum_e28bd788205e815a92/cloudflare-went-down-yesterday-my-monitoring-lied-so-i-built-this-520o",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-19T21:44:34.000Z",
+      "relevanceScore": 1205.99,
+      "recommendationScore": 1206.49,
+      "tags": [
+        "Breaking"
+      ],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "The Download: de-censoring DeepSeek, and Gemini 3",
       "link": "https://www.technologyreview.com/2025/11/19/1128131/the-download-de-censoring-deepseek-and-gemini-3/",
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-11-19T13:10:00.000Z",
-      "relevanceScore": 1065.32,
-      "recommendationScore": 1065.32,
+      "relevanceScore": 1149.27,
+      "recommendationScore": 1149.27,
       "tags": [
         "Tech"
       ],
@@ -39,8 +65,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-11-18T15:00:00.000Z",
-      "relevanceScore": 1044.88,
-      "recommendationScore": 1045.38,
+      "relevanceScore": 1058.84,
+      "recommendationScore": 1059.34,
       "tags": [
         "AI"
       ],
@@ -52,10 +78,24 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-19T21:05:44.000Z",
-      "relevanceScore": 915.9,
-      "recommendationScore": 917.4,
+      "relevanceScore": 924.86,
+      "recommendationScore": 926.36,
       "tags": [
         "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Warner signs AI music licensing deal with Udio",
+      "link": "https://www.engadget.com/ai/warner-signs-ai-music-licensing-deal-with-udio-213433325.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2025-11-19T21:34:33.000Z",
+      "relevanceScore": 839.95,
+      "recommendationScore": 839.95,
+      "tags": [
+        "AI",
+        "Partnership"
       ],
       "readingLevel": "advanced"
     },
@@ -65,35 +105,22 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-11-19T17:11:10.000Z",
-      "relevanceScore": 812.12,
-      "recommendationScore": 812.12,
+      "relevanceScore": 725.07,
+      "recommendationScore": 725.07,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Testing shows Apple N1 Wi-Fi chip improves on older Broadcom chips in every way",
-      "link": "https://arstechnica.com/gadgets/2025/11/testing-shows-apple-n1-wi-fi-chip-improves-on-older-broadcom-chips-in-every-way/",
-      "source": "Ars Technica",
+      "title": "Larry Summers resigns from OpenAI board amid Epstein revelations",
+      "link": "https://www.reddit.com/r/technology/comments/1p163bn/larry_summers_resigns_from_openai_board_amid/",
+      "source": "Reddit Technology",
       "category": "tech",
-      "pubDate": "2025-11-19T19:33:22.000Z",
-      "relevanceScore": 665.59,
-      "recommendationScore": 667.59,
+      "pubDate": "2025-11-19T12:13:52.000Z",
+      "relevanceScore": 678.08,
+      "recommendationScore": 678.58,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI made a free version of ChatGPT for teachers",
-      "link": "https://www.engadget.com/ai/openai-made-a-free-version-of-chatgpt-for-teachers-202937994.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2025-11-19T20:29:37.000Z",
-      "relevanceScore": 635.78,
-      "recommendationScore": 635.78,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -102,21 +129,36 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-19T20:57:24.000Z",
-      "relevanceScore": 576.87,
-      "recommendationScore": 576.87,
+      "relevanceScore": 675.83,
+      "recommendationScore": 675.83,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "🚀 ElasticSecOpsCoPilot — Autonomous IOC Enrichment for Elastic Security",
-      "link": "https://dev.to/secbyshresth/elasticsecopscopilot-autonomous-ioc-enrichment-for-elastic-security-40m3",
-      "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2025-11-19T21:20:32.000Z",
-      "relevanceScore": 490.95,
-      "recommendationScore": 491.45,
+      "title": "Testing shows Apple N1 Wi-Fi chip improves on older Broadcom chips in every way",
+      "link": "https://arstechnica.com/gadgets/2025/11/testing-shows-apple-n1-wi-fi-chip-improves-on-older-broadcom-chips-in-every-way/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-11-19T19:33:22.000Z",
+      "relevanceScore": 674.55,
+      "recommendationScore": 676.55,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Scaling innovation in manufacturing with AI",
+      "link": "https://www.technologyreview.com/2025/11/19/1128067/scaling-innovation-in-manufacturing-with-ai/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2025-11-19T16:54:55.000Z",
+      "relevanceScore": 601.02,
+      "recommendationScore": 601.02,
       "tags": [
-        "Security"
+        "AI",
+        "Tech",
+        "Web",
+        "Update",
+        "Innovation"
       ],
       "readingLevel": "advanced"
     },
@@ -126,8 +168,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-19T19:57:09.000Z",
-      "relevanceScore": 463.67,
-      "recommendationScore": 464.17,
+      "relevanceScore": 570.63,
+      "recommendationScore": 571.13,
       "tags": [
         "AI",
         "Partnership"
@@ -140,39 +182,9 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-19T18:51:06.000Z",
-      "relevanceScore": 449.45,
-      "recommendationScore": 449.95,
+      "relevanceScore": 474.41,
+      "recommendationScore": 474.91,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump administration revives rollbacks of species protections from first term",
-      "link": "https://abcnews.go.com/Business/wireStory/trump-administration-revives-rollbacks-species-protections-term-127682867",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-19T20:44:14.000Z",
-      "relevanceScore": 392.83,
-      "recommendationScore": 395.33,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Scaling innovation in manufacturing with AI",
-      "link": "https://www.technologyreview.com/2025/11/19/1128067/scaling-innovation-in-manufacturing-with-ai/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2025-11-19T16:54:55.000Z",
-      "relevanceScore": 391.57,
-      "recommendationScore": 391.57,
-      "tags": [
-        "AI",
-        "Tech",
-        "Web",
-        "Update",
-        "Innovation"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -181,46 +193,10 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-11-19T20:25:46.000Z",
-      "relevanceScore": 371.77,
-      "recommendationScore": 372.27,
+      "relevanceScore": 380.72,
+      "recommendationScore": 381.22,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Largest US landlord to pay $7 million to settle rent‑setting algorithm lawsuit",
-      "link": "https://abcnews.go.com/Business/wireStory/largest-us-landlord-pay-7-million-settle-rentsetting-127683341",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-19T20:40:38.000Z",
-      "relevanceScore": 353.82,
-      "recommendationScore": 354.32,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "🚀Understanding JavaScript Strict Mode: Why You Should Always Use It",
-      "link": "https://dev.to/m0slah/understanding-javascript-strict-mode-why-you-should-always-use-it-p74",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-19T21:19:23.000Z",
-      "relevanceScore": 339.95,
-      "recommendationScore": 341.95,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Spotify acquires music database WhoSampled",
-      "link": "https://techcrunch.com/2025/11/19/spotify-acquires-music-database-whosampled/",
-      "source": "TechCrunch",
-      "category": "entertainment",
-      "pubDate": "2025-11-19T19:59:28.000Z",
-      "relevanceScore": 325.18,
-      "recommendationScore": 325.18,
-      "tags": [
-        "Science",
-        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -230,8 +206,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-11-18T08:40:00.000Z",
-      "relevanceScore": 291.62,
-      "recommendationScore": 293.62,
+      "relevanceScore": 378.07,
+      "recommendationScore": 380.07,
       "tags": [
         "AI",
         "Tutorial"
@@ -239,15 +215,28 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "40 Best Early Black Friday Deals on WIRED-Tested Gear (2025)",
-      "link": "https://www.wired.com/story/early-black-friday-deals-2025-1/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-11-19T19:48:24.000Z",
-      "relevanceScore": 290.64,
-      "recommendationScore": 292.14,
+      "title": "Trump administration revives rollbacks of species protections from first term",
+      "link": "https://abcnews.go.com/Business/wireStory/trump-administration-revives-rollbacks-species-protections-term-127682867",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-19T20:44:14.000Z",
+      "relevanceScore": 374.78,
+      "recommendationScore": 377.28,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Largest US landlord to pay $7 million to settle rent‑setting algorithm lawsuit",
+      "link": "https://abcnews.go.com/Business/wireStory/largest-us-landlord-pay-7-million-settle-rentsetting-127683341",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-19T20:40:38.000Z",
+      "relevanceScore": 374.77,
+      "recommendationScore": 375.27,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "advanced"
     },
     {
       "title": "VC Jennifer Neundorfer explains how founders can stand out in a crowded AI market",
@@ -255,11 +244,36 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-19T20:30:00.000Z",
-      "relevanceScore": 286.78,
-      "recommendationScore": 288.78,
+      "relevanceScore": 372.74,
+      "recommendationScore": 374.74,
       "tags": [
         "AI",
         "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "40 Best Early Black Friday Deals on WIRED-Tested Gear (2025)",
+      "link": "https://www.wired.com/story/early-black-friday-deals-2025-1/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-19T19:48:24.000Z",
+      "relevanceScore": 304.6,
+      "recommendationScore": 306.1,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Spotify acquires music database WhoSampled",
+      "link": "https://techcrunch.com/2025/11/19/spotify-acquires-music-database-whosampled/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2025-11-19T19:59:28.000Z",
+      "relevanceScore": 303.64,
+      "recommendationScore": 303.64,
+      "tags": [
+        "Science",
+        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -269,8 +283,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-19T20:22:41.000Z",
-      "relevanceScore": 272.76,
-      "recommendationScore": 273.76,
+      "relevanceScore": 278.71,
+      "recommendationScore": 279.71,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -280,8 +294,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-19T10:00:00.000Z",
-      "relevanceScore": 271.68,
-      "recommendationScore": 273.68,
+      "relevanceScore": 277.64,
+      "recommendationScore": 279.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -291,8 +305,8 @@
       "source": "BBC Technology",
       "category": "finance",
       "pubDate": "2025-11-18T23:00:46.000Z",
-      "relevanceScore": 267.48,
-      "recommendationScore": 269.48,
+      "relevanceScore": 273.44,
+      "recommendationScore": 275.44,
       "tags": [
         "Business",
         "IPO"
@@ -305,25 +319,12 @@
       "source": "BBC News",
       "category": "social",
       "pubDate": "2025-11-19T17:31:45.000Z",
-      "relevanceScore": 213.19,
-      "recommendationScore": 213.69,
+      "relevanceScore": 234.14,
+      "recommendationScore": 234.64,
       "tags": [
         "Social"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Function Health raises $298M Series B at $2.5B valuation",
-      "link": "https://techcrunch.com/2025/11/19/function-health-closes-298m-series-b-at-a-2-5b-valuation-launches-medical-intelligence/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-11-19T20:30:00.000Z",
-      "relevanceScore": 155.28,
-      "recommendationScore": 155.78,
-      "tags": [
-        "Funding"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Meta beats FTC case, won't have to spin off WhatsApp, Instagram",
@@ -331,8 +332,8 @@
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2025-11-18T23:56:57.000Z",
-      "relevanceScore": 143.17,
-      "recommendationScore": 145.17,
+      "relevanceScore": 226.13,
+      "recommendationScore": 228.13,
       "tags": [
         "Social"
       ],
@@ -344,124 +345,38 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-11-19T10:00:00.000Z",
-      "relevanceScore": 133.68,
-      "recommendationScore": 134.18,
+      "relevanceScore": 222.64,
+      "recommendationScore": 223.14,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Ultra-processed food is global health threat, experts warn",
-      "link": "https://www.bbc.com/news/articles/cy4pjjzd784o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2025-11-19T12:53:04.000Z",
-      "relevanceScore": 124.76,
-      "recommendationScore": 125.26,
-      "tags": [],
+      "title": "Function Health raises $298M Series B at $2.5B valuation",
+      "link": "https://techcrunch.com/2025/11/19/function-health-closes-298m-series-b-at-a-2-5b-valuation-launches-medical-intelligence/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-11-19T20:30:00.000Z",
+      "relevanceScore": 221.74,
+      "recommendationScore": 222.24,
+      "tags": [
+        "Funding"
+      ],
       "readingLevel": "advanced"
     },
     {
-      "title": "This Ninja dual-zone air fryer is 22 percent off for Black Friday",
-      "link": "https://www.engadget.com/deals/this-ninja-dual-zone-air-fryer-is-22-percent-off-for-black-friday-170959965.html?src=rss",
+      "title": "Netflix lands a deal with MLB to air select live baseball games",
+      "link": "https://www.engadget.com/entertainment/streaming/netflix-lands-a-deal-with-mlb-to-air-select-live-baseball-games-213336003.html?src=rss",
       "source": "Engadget",
-      "category": "finance",
-      "pubDate": "2025-11-19T20:35:42.000Z",
-      "relevanceScore": 123.8,
-      "recommendationScore": 124.3,
+      "category": "mobile",
+      "pubDate": "2025-11-19T21:33:36.000Z",
+      "relevanceScore": 155.95,
+      "recommendationScore": 156.45,
       "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Roblox blocks children from chatting to adult strangers",
-      "link": "https://www.bbc.com/news/articles/c2lp5pn9e1qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "gaming",
-      "pubDate": "2025-11-19T01:16:47.000Z",
-      "relevanceScore": 116.94,
-      "recommendationScore": 117.44,
-      "tags": [
-        "Controversy"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Simply Order (Part 7) – Querying Orders with Details: API Composition Pattern",
-      "link": "https://dev.to/hassan314159/simply-order-part-7-querying-orders-with-details-api-composition-pattern-20",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-19T21:24:06.000Z",
-      "relevanceScore": 113.96,
-      "recommendationScore": 114.46,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Judge rules Meta doesn't have monopoly after Instagram, WhatsApp acquisitions",
-      "link": "https://www.bbc.com/news/articles/crklgrpdke8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2025-11-18T20:58:19.000Z",
-      "relevanceScore": 108.08,
-      "recommendationScore": 110.08,
-      "tags": [
-        "Social",
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Linus Torvalds: Vibe coding is fine, but not for production",
-      "link": "https://www.reddit.com/r/programming/comments/1p1g9ni/linus_torvalds_vibe_coding_is_fine_but_not_for/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-11-19T18:52:41.000Z",
-      "relevanceScore": 97.46,
-      "recommendationScore": 97.96,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Linus \"my first, and hopefully last flamefest\" Torvalds [1992]",
-      "link": "https://www.reddit.com/r/programming/comments/1p1aywt/linus_my_first_and_hopefully_last_flamefest/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-11-19T15:40:16.000Z",
-      "relevanceScore": 96.82,
-      "recommendationScore": 99.32,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Level up design-to-code collaboration with GitHub’s open source Annotation Toolkit",
-      "link": "https://github.blog/enterprise-software/collaboration/level-up-design-to-code-collaboration-with-githubs-open-source-annotation-toolkit/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-11-18T18:05:17.000Z",
-      "relevanceScore": 56,
-      "recommendationScore": 56.5,
-      "tags": [
+        "Mobile",
         "Exclusive",
-        "Partnership",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Future Google TV devices might come with a solar-powered remote",
-      "link": "https://www.theverge.com/news/824255/google-tv-reference-remote-solar-power-epishine-ohsung-electronics",
-      "source": "The Verge",
-      "category": "climate",
-      "pubDate": "2025-11-19T18:56:30.000Z",
-      "relevanceScore": 51.47,
-      "recommendationScore": 51.97,
-      "tags": [
-        "Tech"
+        "Partnership"
       ],
       "readingLevel": "advanced"
     },
@@ -471,23 +386,61 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-18T22:13:51.000Z",
-      "relevanceScore": 42.83,
-      "recommendationScore": 44.83,
+      "relevanceScore": 136.28,
+      "recommendationScore": 138.28,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "How we’re making GitHub Copilot smarter with fewer tools",
-      "link": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2025-11-19T20:00:00.000Z",
-      "relevanceScore": 41.68,
-      "recommendationScore": 43.68,
+      "title": "Ultra-processed food is global health threat, experts warn",
+      "link": "https://www.bbc.com/news/articles/cy4pjjzd784o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2025-11-19T12:53:04.000Z",
+      "relevanceScore": 130.71,
+      "recommendationScore": 131.21,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Judge rules Meta doesn't have monopoly after Instagram, WhatsApp acquisitions",
+      "link": "https://www.bbc.com/news/articles/crklgrpdke8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2025-11-18T20:58:19.000Z",
+      "relevanceScore": 130.53,
+      "recommendationScore": 132.53,
       "tags": [
-        "Exclusive"
+        "Social",
+        "Breaking"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Biggest AI Companies Met to Find a Better Path for Chatbot Companions",
+      "link": "https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2025-11-19T19:01:20.000Z",
+      "relevanceScore": 125.94,
+      "recommendationScore": 127.44,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Roblox blocks children from chatting to adult strangers",
+      "link": "https://www.bbc.com/news/articles/c2lp5pn9e1qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "gaming",
+      "pubDate": "2025-11-19T01:16:47.000Z",
+      "relevanceScore": 122.89,
+      "recommendationScore": 123.39,
+      "tags": [
+        "Controversy"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Cavela lands $6.6M to help brands beat pre-tariff manufacturing costs",
@@ -495,8 +448,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-19T21:28:09.000Z",
-      "relevanceScore": 40.98,
-      "recommendationScore": 41.48,
+      "relevanceScore": 120.93,
+      "recommendationScore": 121.43,
       "tags": [
         "AI",
         "Startup"
@@ -509,8 +462,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-19T21:00:45.000Z",
-      "relevanceScore": 38.88,
-      "recommendationScore": 38.88,
+      "relevanceScore": 118.84,
+      "recommendationScore": 118.84,
       "tags": [
         "Tutorial"
       ],
@@ -522,8 +475,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-19T20:51:09.000Z",
-      "relevanceScore": 38.85,
-      "recommendationScore": 39.35,
+      "relevanceScore": 118.81,
+      "recommendationScore": 119.31,
       "tags": [
         "IPO",
         "Partnership"
@@ -531,26 +484,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "The Biggest AI Companies Met to Find a Better Path for Chatbot Companions",
-      "link": "https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2025-11-19T19:01:20.000Z",
-      "relevanceScore": 38.49,
-      "recommendationScore": 39.99,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "DeepMind’s latest: An AI for handling mathematical proofs",
       "link": "https://arstechnica.com/ai/2025/11/deepminds-latest-an-ai-for-handling-mathematical-proofs/",
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-11-19T15:57:30.000Z",
-      "relevanceScore": 37.87,
-      "recommendationScore": 38.37,
+      "relevanceScore": 117.83,
+      "recommendationScore": 118.33,
       "tags": [
         "AI"
       ],
@@ -562,21 +502,24 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-19T16:37:58.000Z",
-      "relevanceScore": 37.51,
-      "recommendationScore": 38.01,
+      "relevanceScore": 117.46,
+      "recommendationScore": 117.96,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Russian spy ship pointed lasers at RAF pilots tracking it, says defence secretary",
-      "link": "https://www.bbc.com/news/articles/cx24028k7edo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-19T19:07:00.000Z",
-      "relevanceScore": 37.51,
-      "recommendationScore": 38.01,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "Despliegue de una aplicación en AWS usando ECS + ECR",
+      "link": "https://dev.to/robertdev/despliegue-de-una-aplicacion-en-aws-usando-ecs-ecr-j9p",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-11-19T21:40:16.000Z",
+      "relevanceScore": 116.97,
+      "recommendationScore": 117.47,
+      "tags": [
+        "Mobile",
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "US proposals to end Russia's war involve Ukraine giving up land, some weapons, sources say",
@@ -584,8 +527,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-19T17:38:45.000Z",
-      "relevanceScore": 36.21,
-      "recommendationScore": 36.71,
+      "relevanceScore": 116.17,
+      "recommendationScore": 116.67,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -595,45 +538,49 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-19T04:02:37.000Z",
-      "relevanceScore": 33.49,
-      "recommendationScore": 35.99,
+      "relevanceScore": 113.45,
+      "recommendationScore": 115.95,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Larry Summers resigns from OpenAI board amid Epstein revelations",
-      "link": "https://www.reddit.com/r/technology/comments/1p163bn/larry_summers_resigns_from_openai_board_amid/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-11-19T12:13:52.000Z",
-      "relevanceScore": 33.13,
-      "recommendationScore": 33.63,
+      "title": "Linus Torvalds: Vibe coding is fine, but not for production",
+      "link": "https://www.reddit.com/r/programming/comments/1p1g9ni/linus_torvalds_vibe_coding_is_fine_but_not_for/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-11-19T18:52:41.000Z",
+      "relevanceScore": 60.41,
+      "recommendationScore": 60.91,
       "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
-      "title": "The best Bluetooth trackers for Apple and Android phones",
-      "link": "https://www.theverge.com/23769840/best-bluetooth-trackers",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-11-19T19:30:13.000Z",
-      "relevanceScore": 31.58,
-      "recommendationScore": 33.08,
+      "title": "Linus \"my first, and hopefully last flamefest\" Torvalds [1992]",
+      "link": "https://www.reddit.com/r/programming/comments/1p1aywt/linus_my_first_and_hopefully_last_flamefest/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-11-19T15:40:16.000Z",
+      "relevanceScore": 59.77,
+      "recommendationScore": 62.27,
       "tags": [
-        "Mobile"
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Snow and ice hit parts of UK as some schools closed and travel disrupted",
-      "link": "https://www.bbc.com/weather/articles/cr43gv9zveyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-19T13:13:39.000Z",
-      "relevanceScore": 30.33,
-      "recommendationScore": 30.83,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "Level up design-to-code collaboration with GitHub’s open source Annotation Toolkit",
+      "link": "https://github.blog/enterprise-software/collaboration/level-up-design-to-code-collaboration-with-githubs-open-source-annotation-toolkit/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-11-18T18:05:17.000Z",
+      "relevanceScore": 56.96,
+      "recommendationScore": 57.46,
+      "tags": [
+        "Exclusive",
+        "Partnership",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Cloudflare outage on November 18, 2025 - official response",
@@ -641,20 +588,162 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-19T00:20:20.000Z",
-      "relevanceScore": 28.25,
-      "recommendationScore": 28.75,
+      "relevanceScore": 50.71,
+      "recommendationScore": 51.21,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Future Google TV devices might come with a solar-powered remote",
+      "link": "https://www.theverge.com/news/824255/google-tv-reference-remote-solar-power-epishine-ohsung-electronics",
+      "source": "The Verge",
+      "category": "climate",
+      "pubDate": "2025-11-19T18:56:30.000Z",
+      "relevanceScore": 45.93,
+      "recommendationScore": 46.43,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How we’re making GitHub Copilot smarter with fewer tools",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2025-11-19T20:00:00.000Z",
+      "relevanceScore": 42.14,
+      "recommendationScore": 44.14,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Russian spy ship pointed lasers at RAF pilots tracking it, says defence secretary",
+      "link": "https://www.bbc.com/news/articles/cx24028k7edo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-19T19:07:00.000Z",
+      "relevanceScore": 31.46,
+      "recommendationScore": 31.96,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Snow and ice hit parts of UK as some schools closed and travel disrupted",
+      "link": "https://www.bbc.com/weather/articles/cr43gv9zveyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-19T13:13:39.000Z",
+      "relevanceScore": 30.28,
+      "recommendationScore": 30.78,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "This Excellent LG OLED Is Deeply Discounted Before Black Friday",
+      "link": "https://www.wired.com/story/lg-b5-oled-deal-1125/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-19T20:27:56.000Z",
+      "relevanceScore": 26.73,
+      "recommendationScore": 27.23,
+      "tags": [],
+      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
+    "cloud": [
+      {
+        "title": "The Hidden Failure Pattern Behind the AWS, Azure and Cloudflare Outages of 2025",
+        "link": "https://dev.to/codedetech/the-hidden-failure-pattern-behind-the-aws-azure-and-cloudflare-outages-of-2025-462n",
+        "source": "Dev.to",
+        "pubDate": "2025-11-19T21:46:53.000Z",
+        "relevanceScore": 1429.49,
+        "tags": [
+          "Cloud"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "Cloudflare went down yesterday. My monitoring lied. So I built this.",
+        "link": "https://dev.to/yibnum_e28bd788205e815a92/cloudflare-went-down-yesterday-my-monitoring-lied-so-i-built-this-520o",
+        "source": "Dev.to",
+        "pubDate": "2025-11-19T21:44:34.000Z",
+        "relevanceScore": 1205.99,
+        "tags": [
+          "Breaking"
+        ]
+      },
+      {
+        "title": "Linus Torvalds: Vibe coding is fine, but not for production",
+        "link": "https://www.reddit.com/r/programming/comments/1p1g9ni/linus_torvalds_vibe_coding_is_fine_but_not_for/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-19T18:52:41.000Z",
+        "relevanceScore": 60.41,
+        "tags": []
+      },
+      {
+        "title": "Linus \"my first, and hopefully last flamefest\" Torvalds [1992]",
+        "link": "https://www.reddit.com/r/programming/comments/1p1aywt/linus_my_first_and_hopefully_last_flamefest/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-19T15:40:16.000Z",
+        "relevanceScore": 59.77,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Level up design-to-code collaboration with GitHub’s open source Annotation Toolkit",
+        "link": "https://github.blog/enterprise-software/collaboration/level-up-design-to-code-collaboration-with-githubs-open-source-annotation-toolkit/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-11-18T18:05:17.000Z",
+        "relevanceScore": 56.96,
+        "tags": [
+          "Exclusive",
+          "Partnership",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Cloudflare outage on November 18, 2025 - official response",
+        "link": "https://www.reddit.com/r/programming/comments/1p0srgs/cloudflare_outage_on_november_18_2025_official/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-19T00:20:20.000Z",
+        "relevanceScore": 50.71,
+        "tags": []
+      },
+      {
+        "title": "How we’re making GitHub Copilot smarter with fewer tools",
+        "link": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-11-19T20:00:00.000Z",
+        "relevanceScore": 42.14,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "How to write a great agents.md: Lessons from over 2,500 repositories",
+        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-11-19T17:00:00.000Z",
+        "relevanceScore": 26.04,
+        "tags": [
+          "Exclusive",
+          "Tutorial"
+        ]
+      }
+    ],
     "science": [
       {
         "title": "The Download: de-censoring DeepSeek, and Gemini 3",
         "link": "https://www.technologyreview.com/2025/11/19/1128131/the-download-de-censoring-deepseek-and-gemini-3/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-19T13:10:00.000Z",
-        "relevanceScore": 1065.32,
+        "relevanceScore": 1149.27,
         "tags": [
           "Tech"
         ]
@@ -666,9 +755,20 @@
         "link": "https://stackoverflow.blog/2025/11/18/introducing-stack-internal-powering-the-human-intelligence-layer-of-enterprise-ai/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-11-18T15:00:00.000Z",
-        "relevanceScore": 1044.88,
+        "relevanceScore": 1058.84,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Warner signs AI music licensing deal with Udio",
+        "link": "https://www.engadget.com/ai/warner-signs-ai-music-licensing-deal-with-udio-213433325.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-19T21:34:33.000Z",
+        "relevanceScore": 839.95,
+        "tags": [
+          "AI",
+          "Partnership"
         ]
       },
       {
@@ -676,30 +776,9 @@
         "link": "https://www.reddit.com/r/technology/comments/1p1dfvl/microsoft_ai_ceo_pushes_back_against_critics/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-19T17:11:10.000Z",
-        "relevanceScore": 812.12,
+        "relevanceScore": 725.07,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "OpenAI made a free version of ChatGPT for teachers",
-        "link": "https://www.engadget.com/ai/openai-made-a-free-version-of-chatgpt-for-teachers-202937994.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-19T20:29:37.000Z",
-        "relevanceScore": 635.78,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Warner Music settles copyright lawsuit with Udio, signs deal for AI music platform",
-        "link": "https://techcrunch.com/2025/11/19/warner-music-settles-copyright-lawsuit-with-udio-signs-deal-for-ai-music-platform/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-19T19:57:09.000Z",
-        "relevanceScore": 463.67,
-        "tags": [
-          "AI",
-          "Partnership"
         ]
       },
       {
@@ -707,7 +786,7 @@
         "link": "https://www.technologyreview.com/2025/11/19/1128067/scaling-innovation-in-manufacturing-with-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-19T16:54:55.000Z",
-        "relevanceScore": 391.57,
+        "relevanceScore": 601.02,
         "tags": [
           "AI",
           "Tech",
@@ -717,11 +796,22 @@
         ]
       },
       {
+        "title": "Warner Music settles copyright lawsuit with Udio, signs deal for AI music platform",
+        "link": "https://techcrunch.com/2025/11/19/warner-music-settles-copyright-lawsuit-with-udio-signs-deal-for-ai-music-platform/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-19T19:57:09.000Z",
+        "relevanceScore": 570.63,
+        "tags": [
+          "AI",
+          "Partnership"
+        ]
+      },
+      {
         "title": "Critics scoff after Microsoft warns AI feature can infect machines and pilfer data",
         "link": "https://arstechnica.com/security/2025/11/critics-scoff-after-microsoft-warns-ai-feature-can-infect-machines-and-pilfer-data/",
         "source": "Ars Technica",
         "pubDate": "2025-11-19T20:25:46.000Z",
-        "relevanceScore": 371.77,
+        "relevanceScore": 380.72,
         "tags": [
           "AI"
         ]
@@ -731,7 +821,7 @@
         "link": "https://stackoverflow.blog/2025/11/18/how-to-create-agents-that-people-actually-want-to-use/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-11-18T08:40:00.000Z",
-        "relevanceScore": 291.62,
+        "relevanceScore": 378.07,
         "tags": [
           "AI",
           "Tutorial"
@@ -742,7 +832,7 @@
         "link": "https://techcrunch.com/2025/11/19/vc-jennifer-neundorfer-explains-how-founders-can-stand-out-in-a-crowded-ai-market/",
         "source": "TechCrunch",
         "pubDate": "2025-11-19T20:30:00.000Z",
-        "relevanceScore": 286.78,
+        "relevanceScore": 372.74,
         "tags": [
           "AI",
           "Business"
@@ -753,7 +843,17 @@
         "link": "https://www.technologyreview.com/2025/11/19/1128119/quantum-physicists-compress-and-deconsor-deepseekr1/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-19T10:00:00.000Z",
-        "relevanceScore": 133.68,
+        "relevanceScore": 222.64,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "The Biggest AI Companies Met to Find a Better Path for Chatbot Companions",
+        "link": "https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/",
+        "source": "Wired",
+        "pubDate": "2025-11-19T19:01:20.000Z",
+        "relevanceScore": 125.94,
         "tags": [
           "AI"
         ]
@@ -763,20 +863,10 @@
         "link": "https://techcrunch.com/2025/11/19/cavela-lands-6-6m-to-help-brands-beat-pre-tariff-manufacturing-costs/",
         "source": "TechCrunch",
         "pubDate": "2025-11-19T21:28:09.000Z",
-        "relevanceScore": 40.98,
+        "relevanceScore": 120.93,
         "tags": [
           "AI",
           "Startup"
-        ]
-      },
-      {
-        "title": "The Biggest AI Companies Met to Find a Better Path for Chatbot Companions",
-        "link": "https://www.wired.com/story/the-biggest-ai-companies-met-to-find-a-better-path-for-chatbot-companions/",
-        "source": "Wired",
-        "pubDate": "2025-11-19T19:01:20.000Z",
-        "relevanceScore": 38.49,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -784,7 +874,7 @@
         "link": "https://arstechnica.com/ai/2025/11/deepminds-latest-an-ai-for-handling-mathematical-proofs/",
         "source": "Ars Technica",
         "pubDate": "2025-11-19T15:57:30.000Z",
-        "relevanceScore": 37.87,
+        "relevanceScore": 117.83,
         "tags": [
           "AI"
         ]
@@ -796,17 +886,17 @@
         "link": "https://www.engadget.com/deals/the-best-vpn-deals-up-to-88-percent-off-protonvpn-surfshark-expressvpn-nordvpn-and-more-120056445.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-19T21:05:44.000Z",
-        "relevanceScore": 915.9,
+        "relevanceScore": 924.86,
         "tags": [
           "Web"
         ]
       },
       {
-        "title": "Testing shows Apple N1 Wi-Fi chip improves on older Broadcom chips in every way",
-        "link": "https://arstechnica.com/gadgets/2025/11/testing-shows-apple-n1-wi-fi-chip-improves-on-older-broadcom-chips-in-every-way/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-19T19:33:22.000Z",
-        "relevanceScore": 665.59,
+        "title": "Larry Summers resigns from OpenAI board amid Epstein revelations",
+        "link": "https://www.reddit.com/r/technology/comments/1p163bn/larry_summers_resigns_from_openai_board_amid/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-11-19T12:13:52.000Z",
+        "relevanceScore": 678.08,
         "tags": []
       },
       {
@@ -814,7 +904,15 @@
         "link": "https://www.engadget.com/entertainment/youtube/youtube-is-once-again-trying-to-make-dms-happen-205724221.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-19T20:57:24.000Z",
-        "relevanceScore": 576.87,
+        "relevanceScore": 675.83,
+        "tags": []
+      },
+      {
+        "title": "Testing shows Apple N1 Wi-Fi chip improves on older Broadcom chips in every way",
+        "link": "https://arstechnica.com/gadgets/2025/11/testing-shows-apple-n1-wi-fi-chip-improves-on-older-broadcom-chips-in-every-way/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-19T19:33:22.000Z",
+        "relevanceScore": 674.55,
         "tags": []
       },
       {
@@ -822,7 +920,7 @@
         "link": "https://www.wired.com/story/early-black-friday-deals-2025-1/",
         "source": "Wired",
         "pubDate": "2025-11-19T19:48:24.000Z",
-        "relevanceScore": 290.64,
+        "relevanceScore": 304.6,
         "tags": []
       },
       {
@@ -830,7 +928,7 @@
         "link": "https://www.wired.com/story/rei-holiday-sale-nov-2025/",
         "source": "Wired",
         "pubDate": "2025-11-19T20:22:41.000Z",
-        "relevanceScore": 272.76,
+        "relevanceScore": 278.71,
         "tags": []
       },
       {
@@ -838,7 +936,7 @@
         "link": "https://www.theverge.com/tech/809421/holiday-gift-guide-2025",
         "source": "The Verge",
         "pubDate": "2025-11-19T21:00:45.000Z",
-        "relevanceScore": 38.88,
+        "relevanceScore": 118.84,
         "tags": [
           "Tutorial"
         ]
@@ -848,39 +946,19 @@
         "link": "https://www.theverge.com/gadgets/824237/m4-macbook-air-apple-m1-laptop-black-friday-deal-sale",
         "source": "The Verge",
         "pubDate": "2025-11-19T20:51:09.000Z",
-        "relevanceScore": 38.85,
+        "relevanceScore": 118.81,
         "tags": [
           "IPO",
           "Partnership"
         ]
       },
       {
-        "title": "Larry Summers resigns from OpenAI board amid Epstein revelations",
-        "link": "https://www.reddit.com/r/technology/comments/1p163bn/larry_summers_resigns_from_openai_board_amid/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-11-19T12:13:52.000Z",
-        "relevanceScore": 33.13,
-        "tags": []
-      },
-      {
         "title": "This Excellent LG OLED Is Deeply Discounted Before Black Friday",
         "link": "https://www.wired.com/story/lg-b5-oled-deal-1125/",
         "source": "Wired",
         "pubDate": "2025-11-19T20:27:56.000Z",
-        "relevanceScore": 26.78,
+        "relevanceScore": 26.73,
         "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "🚀 ElasticSecOpsCoPilot — Autonomous IOC Enrichment for Elastic Security",
-        "link": "https://dev.to/secbyshresth/elasticsecopscopilot-autonomous-ioc-enrichment-for-elastic-security-40m3",
-        "source": "Dev.to",
-        "pubDate": "2025-11-19T21:20:32.000Z",
-        "relevanceScore": 490.95,
-        "tags": [
-          "Security"
-        ]
       }
     ],
     "general": [
@@ -889,7 +967,7 @@
         "link": "https://www.bbc.com/news/articles/cj3zkl11jm3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-19T18:51:06.000Z",
-        "relevanceScore": 449.45,
+        "relevanceScore": 474.41,
         "tags": []
       },
       {
@@ -897,7 +975,7 @@
         "link": "https://www.bbc.com/news/articles/cx24028k7edo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-19T19:07:00.000Z",
-        "relevanceScore": 37.51,
+        "relevanceScore": 31.46,
         "tags": []
       },
       {
@@ -905,7 +983,7 @@
         "link": "https://www.bbc.com/weather/articles/cr43gv9zveyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-19T13:13:39.000Z",
-        "relevanceScore": 30.33,
+        "relevanceScore": 30.28,
         "tags": []
       }
     ],
@@ -915,7 +993,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/trump-administration-revives-rollbacks-species-protections-term-127682867",
         "source": "ABC News Business",
         "pubDate": "2025-11-19T20:44:14.000Z",
-        "relevanceScore": 392.83,
+        "relevanceScore": 374.78,
         "tags": [
           "Exclusive"
         ]
@@ -925,7 +1003,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/largest-us-landlord-pay-7-million-settle-rentsetting-127683341",
         "source": "ABC News Business",
         "pubDate": "2025-11-19T20:40:38.000Z",
-        "relevanceScore": 353.82,
+        "relevanceScore": 374.77,
         "tags": []
       },
       {
@@ -933,7 +1011,7 @@
         "link": "https://www.npr.org/2025/11/19/nx-s1-5611496/trump-dei-women-construction-jobs",
         "source": "NPR Business",
         "pubDate": "2025-11-19T10:00:00.000Z",
-        "relevanceScore": 271.68,
+        "relevanceScore": 277.64,
         "tags": []
       },
       {
@@ -941,7 +1019,7 @@
         "link": "https://www.npr.org/2025/11/18/nx-s1-5606082/what-does-it-take-to-work-in-the-same-job-for-decades",
         "source": "NPR Business",
         "pubDate": "2025-11-18T22:13:51.000Z",
-        "relevanceScore": 42.83,
+        "relevanceScore": 136.28,
         "tags": []
       },
       {
@@ -949,85 +1027,8 @@
         "link": "https://abcnews.go.com/Business/wireStory/kosovo-heading-early-vote-after-lawmakers-fail-elect-127672089",
         "source": "ABC News Business",
         "pubDate": "2025-11-19T16:37:58.000Z",
-        "relevanceScore": 37.51,
+        "relevanceScore": 117.46,
         "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "🚀Understanding JavaScript Strict Mode: Why You Should Always Use It",
-        "link": "https://dev.to/m0slah/understanding-javascript-strict-mode-why-you-should-always-use-it-p74",
-        "source": "Dev.to",
-        "pubDate": "2025-11-19T21:19:23.000Z",
-        "relevanceScore": 339.95,
-        "tags": []
-      },
-      {
-        "title": "Simply Order (Part 7) – Querying Orders with Details: API Composition Pattern",
-        "link": "https://dev.to/hassan314159/simply-order-part-7-querying-orders-with-details-api-composition-pattern-20",
-        "source": "Dev.to",
-        "pubDate": "2025-11-19T21:24:06.000Z",
-        "relevanceScore": 113.96,
-        "tags": []
-      },
-      {
-        "title": "Linus Torvalds: Vibe coding is fine, but not for production",
-        "link": "https://www.reddit.com/r/programming/comments/1p1g9ni/linus_torvalds_vibe_coding_is_fine_but_not_for/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-19T18:52:41.000Z",
-        "relevanceScore": 97.46,
-        "tags": []
-      },
-      {
-        "title": "Linus \"my first, and hopefully last flamefest\" Torvalds [1992]",
-        "link": "https://www.reddit.com/r/programming/comments/1p1aywt/linus_my_first_and_hopefully_last_flamefest/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-19T15:40:16.000Z",
-        "relevanceScore": 96.82,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Level up design-to-code collaboration with GitHub’s open source Annotation Toolkit",
-        "link": "https://github.blog/enterprise-software/collaboration/level-up-design-to-code-collaboration-with-githubs-open-source-annotation-toolkit/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-11-18T18:05:17.000Z",
-        "relevanceScore": 56,
-        "tags": [
-          "Exclusive",
-          "Partnership",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "How we’re making GitHub Copilot smarter with fewer tools",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-11-19T20:00:00.000Z",
-        "relevanceScore": 41.68,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Cloudflare outage on November 18, 2025 - official response",
-        "link": "https://www.reddit.com/r/programming/comments/1p0srgs/cloudflare_outage_on_november_18_2025_official/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-19T00:20:20.000Z",
-        "relevanceScore": 28.25,
-        "tags": []
-      },
-      {
-        "title": "How to write a great agents.md: Lessons from over 2,500 repositories",
-        "link": "https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-11-19T17:00:00.000Z",
-        "relevanceScore": 26.08,
-        "tags": [
-          "Exclusive",
-          "Tutorial"
-        ]
       }
     ],
     "entertainment": [
@@ -1036,7 +1037,7 @@
         "link": "https://techcrunch.com/2025/11/19/spotify-acquires-music-database-whosampled/",
         "source": "TechCrunch",
         "pubDate": "2025-11-19T19:59:28.000Z",
-        "relevanceScore": 325.18,
+        "relevanceScore": 303.64,
         "tags": [
           "Science",
           "Web"
@@ -1049,20 +1050,10 @@
         "link": "https://www.bbc.com/news/articles/cn8xzgw623go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-18T23:00:46.000Z",
-        "relevanceScore": 267.48,
+        "relevanceScore": 273.44,
         "tags": [
           "Business",
           "IPO"
-        ]
-      },
-      {
-        "title": "This Ninja dual-zone air fryer is 22 percent off for Black Friday",
-        "link": "https://www.engadget.com/deals/this-ninja-dual-zone-air-fryer-is-22-percent-off-for-black-friday-170959965.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-19T20:35:42.000Z",
-        "relevanceScore": 123.8,
-        "tags": [
-          "Business"
         ]
       }
     ],
@@ -1072,7 +1063,7 @@
         "link": "https://www.bbc.com/news/articles/cz919xyx7weo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-19T17:31:45.000Z",
-        "relevanceScore": 213.19,
+        "relevanceScore": 234.14,
         "tags": [
           "Social"
         ]
@@ -1082,7 +1073,7 @@
         "link": "https://www.npr.org/2025/11/18/nx-s1-5612785/meta-beats-ftc-case-wont-have-to-spin-off-whatsapp-instagram",
         "source": "NPR Business",
         "pubDate": "2025-11-18T23:56:57.000Z",
-        "relevanceScore": 143.17,
+        "relevanceScore": 226.13,
         "tags": [
           "Social"
         ]
@@ -1092,7 +1083,7 @@
         "link": "https://www.bbc.com/news/articles/crklgrpdke8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-18T20:58:19.000Z",
-        "relevanceScore": 108.08,
+        "relevanceScore": 130.53,
         "tags": [
           "Social",
           "Breaking"
@@ -1105,9 +1096,44 @@
         "link": "https://techcrunch.com/2025/11/19/function-health-closes-298m-series-b-at-a-2-5b-valuation-launches-medical-intelligence/",
         "source": "TechCrunch",
         "pubDate": "2025-11-19T20:30:00.000Z",
-        "relevanceScore": 155.28,
+        "relevanceScore": 221.74,
         "tags": [
           "Funding"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Netflix lands a deal with MLB to air select live baseball games",
+        "link": "https://www.engadget.com/entertainment/streaming/netflix-lands-a-deal-with-mlb-to-air-select-live-baseball-games-213336003.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-19T21:33:36.000Z",
+        "relevanceScore": 155.95,
+        "tags": [
+          "Mobile",
+          "Exclusive",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Despliegue de una aplicación en AWS usando ECS + ECR",
+        "link": "https://dev.to/robertdev/despliegue-de-una-aplicacion-en-aws-usando-ecs-ecr-j9p",
+        "source": "Dev.to",
+        "pubDate": "2025-11-19T21:40:16.000Z",
+        "relevanceScore": 116.97,
+        "tags": [
+          "Mobile",
+          "Cloud"
+        ]
+      },
+      {
+        "title": "The best Bluetooth trackers for Apple and Android phones",
+        "link": "https://www.theverge.com/23769840/best-bluetooth-trackers",
+        "source": "The Verge",
+        "pubDate": "2025-11-19T19:30:13.000Z",
+        "relevanceScore": 25.54,
+        "tags": [
+          "Mobile"
         ]
       }
     ],
@@ -1117,7 +1143,7 @@
         "link": "https://www.bbc.com/news/articles/cy4pjjzd784o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-19T12:53:04.000Z",
-        "relevanceScore": 124.76,
+        "relevanceScore": 130.71,
         "tags": []
       }
     ],
@@ -1127,7 +1153,7 @@
         "link": "https://www.bbc.com/news/articles/c2lp5pn9e1qo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-19T01:16:47.000Z",
-        "relevanceScore": 116.94,
+        "relevanceScore": 122.89,
         "tags": [
           "Controversy"
         ]
@@ -1137,7 +1163,33 @@
         "link": "https://arstechnica.com/gadgets/2025/11/interplay-co-founder-and-pioneering-game-developer-rebecca-heineman-dies-at-62/",
         "source": "Ars Technica",
         "pubDate": "2025-11-19T16:26:18.000Z",
-        "relevanceScore": 24.97,
+        "relevanceScore": 24.93,
+        "tags": []
+      }
+    ],
+    "world": [
+      {
+        "title": "US proposals to end Russia's war involve Ukraine giving up land, some weapons, sources say",
+        "link": "https://www.reddit.com/r/worldnews/comments/1p1e72b/us_proposals_to_end_russias_war_involve_ukraine/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-19T17:38:45.000Z",
+        "relevanceScore": 116.17,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1364, Part 1 (Thread #1511)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1p0xj0h/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-19T04:02:37.000Z",
+        "relevanceScore": 113.45,
+        "tags": []
+      },
+      {
+        "title": "Quantum teleportation between photons from two distant light sources achieved",
+        "link": "https://www.reddit.com/r/worldnews/comments/1p14zak/quantum_teleportation_between_photons_from_two/",
+        "source": "Reddit World News",
+        "pubDate": "2025-11-19T11:17:10.000Z",
+        "relevanceScore": 21.89,
         "tags": []
       }
     ],
@@ -1147,47 +1199,9 @@
         "link": "https://www.theverge.com/news/824255/google-tv-reference-remote-solar-power-epishine-ohsung-electronics",
         "source": "The Verge",
         "pubDate": "2025-11-19T18:56:30.000Z",
-        "relevanceScore": 51.47,
+        "relevanceScore": 45.93,
         "tags": [
           "Tech"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "US proposals to end Russia's war involve Ukraine giving up land, some weapons, sources say",
-        "link": "https://www.reddit.com/r/worldnews/comments/1p1e72b/us_proposals_to_end_russias_war_involve_ukraine/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-19T17:38:45.000Z",
-        "relevanceScore": 36.21,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1364, Part 1 (Thread #1511)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1p0xj0h/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-19T04:02:37.000Z",
-        "relevanceScore": 33.49,
-        "tags": []
-      },
-      {
-        "title": "Quantum teleportation between photons from two distant light sources achieved",
-        "link": "https://www.reddit.com/r/worldnews/comments/1p14zak/quantum_teleportation_between_photons_from_two/",
-        "source": "Reddit World News",
-        "pubDate": "2025-11-19T11:17:10.000Z",
-        "relevanceScore": 21.94,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "The best Bluetooth trackers for Apple and Android phones",
-        "link": "https://www.theverge.com/23769840/best-bluetooth-trackers",
-        "source": "The Verge",
-        "pubDate": "2025-11-19T19:30:13.000Z",
-        "relevanceScore": 31.58,
-        "tags": [
-          "Mobile"
         ]
       }
     ]
@@ -1195,7 +1209,7 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 16,
-    "avgRelevanceScore": 243.67740740740737,
+    "avgRelevanceScore": 323.6537037037036,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1207,7 +1221,7 @@
       },
       {
         "category": "development",
-        "count": 8
+        "count": 7
       },
       {
         "category": "business",
