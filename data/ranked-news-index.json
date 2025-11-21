@@ -1,13 +1,11 @@
 {
-  "lastUpdated": "2025-11-21T19:12:45.472Z",
+  "lastUpdated": "2025-11-21T19:26:42.742Z",
   "totalArticles": 54,
   "categories": [
     "education",
     "mobile",
-    "cybersecurity",
     "development",
-    "cloud",
-    "climate",
+    "cybersecurity",
     "general",
     "ai-ml",
     "tech",
@@ -15,9 +13,11 @@
     "business",
     "finance",
     "gaming",
+    "climate",
     "space",
     "world",
     "science",
+    "startup",
     "social"
   ],
   "topArticles": [
@@ -27,8 +27,8 @@
       "source": "GitHub Blog",
       "category": "education",
       "pubDate": "2025-11-20T18:02:21.000Z",
-      "relevanceScore": 1085.97,
-      "recommendationScore": 1086.47,
+      "relevanceScore": 1017.92,
+      "recommendationScore": 1018.42,
       "tags": [
         "Exclusive"
       ],
@@ -40,25 +40,12 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-11-21T18:26:37.000Z",
-      "relevanceScore": 858.85,
-      "recommendationScore": 858.85,
+      "relevanceScore": 820.3,
+      "recommendationScore": 820.3,
       "tags": [
         "Tech",
         "Mobile",
         "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Teens plead not guilty over TfL cyber-attack",
-      "link": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2025-11-21T14:09:56.000Z",
-      "relevanceScore": 752.99,
-      "recommendationScore": 752.99,
-      "tags": [
-        "Security"
       ],
       "readingLevel": "intermediate"
     },
@@ -68,58 +55,21 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-21T16:57:23.000Z",
-      "relevanceScore": 727.05,
-      "recommendationScore": 727.55,
+      "relevanceScore": 687.5,
+      "recommendationScore": 688,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Building Real-Time Lakehouse with S3 Tables, AWS Glue, and Apache Doris",
-      "link": "https://dev.to/apachedoris/building-real-time-lakehouse-with-s3-tables-aws-glue-and-apache-doris-5am0",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-21T18:45:38.000Z",
-      "relevanceScore": 720.41,
-      "recommendationScore": 720.91,
-      "tags": [
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "At UN climate conference, some activists and scientists want more talk on reforming agriculture",
-      "link": "https://abcnews.go.com/Business/wireStory/climate-conference-activists-scientists-talk-reforming-agriculture-127748576",
-      "source": "ABC News Business",
-      "category": "climate",
-      "pubDate": "2025-11-21T14:45:34.000Z",
-      "relevanceScore": 509.61,
-      "recommendationScore": 510.11,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Peers trying to block assisted dying, claims MP behind bill",
-      "link": "https://www.bbc.com/news/articles/c5yqdpxzzxlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-21T18:18:38.000Z",
-      "relevanceScore": 452.32,
-      "recommendationScore": 452.82,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Graduate jobs under threat from AI, PwC boss says",
-      "link": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
+      "title": "Teens plead not guilty over TfL cyber-attack",
+      "link": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-11-21T02:34:57.000Z",
-      "relevanceScore": 433.67,
-      "recommendationScore": 433.67,
+      "category": "cybersecurity",
+      "pubDate": "2025-11-21T14:09:56.000Z",
+      "relevanceScore": 680.44,
+      "recommendationScore": 680.44,
       "tags": [
-        "AI"
+        "Security"
       ],
       "readingLevel": "intermediate"
     },
@@ -129,12 +79,67 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2025-11-21T16:47:03.000Z",
-      "relevanceScore": 403.51,
-      "recommendationScore": 407.51,
+      "relevanceScore": 427.47,
+      "recommendationScore": 431.47,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Peers trying to block assisted dying, claims MP behind bill",
+      "link": "https://www.bbc.com/news/articles/c5yqdpxzzxlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-21T18:18:38.000Z",
+      "relevanceScore": 379.77,
+      "recommendationScore": 380.27,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Building AI Agents: Architecture, Tools & Implementation Guide",
+      "link": "https://dev.to/vanshsaxena/building-ai-agents-architecture-tools-implementation-guide-5bac",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-11-21T19:08:14.000Z",
+      "relevanceScore": 369.44,
+      "recommendationScore": 369.94,
+      "tags": [
+        "AI",
+        "Tech",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "This week's best iPad deals include the base-model Apple iPad for $279",
+      "link": "https://www.engadget.com/deals/this-weeks-best-ipad-deals-include-the-base-model-apple-ipad-for-279-150020086.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-11-21T19:13:04.000Z",
+      "relevanceScore": 359.45,
+      "recommendationScore": 360.95,
+      "tags": [
+        "Web",
+        "Funding"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Graduate jobs under threat from AI, PwC boss says",
+      "link": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-11-21T02:34:57.000Z",
+      "relevanceScore": 359.13,
+      "recommendationScore": 359.13,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Impersonators are (still) targeting companies with fake TechCrunch outreach",
@@ -142,8 +147,19 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-21T17:00:00.000Z",
-      "relevanceScore": 354.06,
-      "recommendationScore": 354.56,
+      "relevanceScore": 358.01,
+      "recommendationScore": 358.51,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Symmetry Solved: Lightning-Fast Algorithms Unlock New Optimization Possibilities",
+      "link": "https://dev.to/arvind_sundararajan/symmetry-solved-lightning-fast-algorithms-unlock-new-optimization-possibilities-3bl0",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-21T19:02:05.000Z",
+      "relevanceScore": 355.92,
+      "recommendationScore": 358.42,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -153,8 +169,8 @@
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2025-11-21T19:07:41.000Z",
-      "relevanceScore": 351.48,
-      "recommendationScore": 351.98,
+      "relevanceScore": 355.44,
+      "recommendationScore": 355.94,
       "tags": [
         "Partnership"
       ],
@@ -166,21 +182,35 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-21T18:25:59.000Z",
-      "relevanceScore": 348.84,
-      "recommendationScore": 349.34,
+      "relevanceScore": 350.8,
+      "recommendationScore": 351.3,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Philippine police will arrest 18 suspects in a major corruption scandal, president says",
-      "link": "https://abcnews.go.com/Business/wireStory/philippine-police-arrest-18-suspects-major-corruption-scandal-127743374",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-21T12:45:42.000Z",
-      "relevanceScore": 341.71,
-      "recommendationScore": 342.21,
+      "title": "Press a button and this SSD will self-destruct with all your data",
+      "link": "https://www.theverge.com/news/826338/teamgroup-t-create-expert-p35s-externa-ssd-self-destruct-button",
+      "source": "The Verge",
+      "category": "cybersecurity",
+      "pubDate": "2025-11-21T19:19:56.000Z",
+      "relevanceScore": 292.48,
+      "recommendationScore": 292.98,
       "tags": [
-        "Controversy"
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Only you can stop AI database drops",
+      "link": "https://stackoverflow.blog/2025/11/21/only-you-can-stop-ai-database-drops/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2025-11-21T08:40:00.000Z",
+      "relevanceScore": 268.84,
+      "recommendationScore": 269.84,
+      "tags": [
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -190,51 +220,12 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-11-21T18:02:01.000Z",
-      "relevanceScore": 317.26,
-      "recommendationScore": 317.26,
+      "relevanceScore": 254.72,
+      "recommendationScore": 254.72,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "A struggling lumber industry wants to join farmers in government bailout package",
-      "link": "https://www.npr.org/2025/11/20/nx-s1-5608999/a-struggling-lumber-industry-wants-to-join-farmers-in-government-bailout-package",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-11-20T20:59:09.000Z",
-      "relevanceScore": 297.55,
-      "recommendationScore": 298.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China",
-      "link": "https://www.npr.org/2025/11/21/nx-s1-5601696/rare-earths-china-trump-pentagon",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2025-11-21T10:01:00.000Z",
-      "relevanceScore": 278.16,
-      "recommendationScore": 278.66,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Only you can stop AI database drops",
-      "link": "https://stackoverflow.blog/2025/11/21/only-you-can-stop-ai-database-drops/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2025-11-21T08:40:00.000Z",
-      "relevanceScore": 262.89,
-      "recommendationScore": 263.89,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "How we’re making GitHub Copilot smarter with fewer tools",
@@ -242,8 +233,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-11-19T20:00:00.000Z",
-      "relevanceScore": 226.56,
-      "recommendationScore": 228.56,
+      "relevanceScore": 244.51,
+      "recommendationScore": 246.51,
       "tags": [
         "Exclusive"
       ],
@@ -255,10 +246,46 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-21T18:12:57.000Z",
-      "relevanceScore": 225.3,
-      "recommendationScore": 225.8,
+      "relevanceScore": 239.25,
+      "recommendationScore": 239.75,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The 36 best gift ideas for mom this holiday season",
+      "link": "https://www.theverge.com/gadgets/802964/best-mom-gift-ideas",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-21T19:13:16.000Z",
+      "relevanceScore": 238.46,
+      "recommendationScore": 239.46,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A struggling lumber industry wants to join farmers in government bailout package",
+      "link": "https://www.npr.org/2025/11/20/nx-s1-5608999/a-struggling-lumber-industry-wants-to-join-farmers-in-government-bailout-package",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-11-20T20:59:09.000Z",
+      "relevanceScore": 224.01,
+      "recommendationScore": 224.51,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Rare earths: Federal backing and tech advances aim to help the U.S. catch up to China",
+      "link": "https://www.npr.org/2025/11/21/nx-s1-5601696/rare-earths-china-trump-pentagon",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2025-11-21T10:01:00.000Z",
+      "relevanceScore": 202.61,
+      "recommendationScore": 203.11,
+      "tags": [
+        "Tech",
+        "Business"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Git 3.0 is using the default branch name of \"main\" rather than the current default of \"master\"",
@@ -266,30 +293,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-21T13:52:59.000Z",
-      "relevanceScore": 222.93,
-      "recommendationScore": 223.43,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "These Beats Headphones Are Marked Down to $150 for Black Friday",
-      "link": "https://www.wired.com/story/beats-studio-pro-deal-1125/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-11-21T18:31:00.000Z",
-      "relevanceScore": 154.86,
-      "recommendationScore": 155.36,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "What we know about leaked US draft plan to end Russia's Ukraine war",
-      "link": "https://www.bbc.com/news/articles/cde6yld78d6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-21T15:21:53.000Z",
-      "relevanceScore": 146.73,
-      "recommendationScore": 148.73,
+      "relevanceScore": 159.39,
+      "recommendationScore": 159.89,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -299,11 +304,46 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-21T18:02:26.000Z",
-      "relevanceScore": 143.27,
-      "recommendationScore": 143.77,
+      "relevanceScore": 158.22,
+      "recommendationScore": 158.72,
       "tags": [
         "Tech"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "These Beats Headphones Are Marked Down to $150 for Black Friday",
+      "link": "https://www.wired.com/story/beats-studio-pro-deal-1125/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-21T18:31:00.000Z",
+      "relevanceScore": 155.81,
+      "recommendationScore": 156.31,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Sony&#8217;s PlayStation Portal just got a rare discount for Black Friday",
+      "link": "https://www.theverge.com/gadgets/825985/sony-playstation-portal-black-friday-deal-sale-2025",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2025-11-21T19:00:00.000Z",
+      "relevanceScore": 148.41,
+      "recommendationScore": 148.91,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What we know about leaked US draft plan to end Russia's Ukraine war",
+      "link": "https://www.bbc.com/news/articles/cde6yld78d6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-21T15:21:53.000Z",
+      "relevanceScore": 75.18,
+      "recommendationScore": 77.18,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -312,8 +352,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-11-21T13:10:00.000Z",
-      "relevanceScore": 141.79,
-      "recommendationScore": 142.29,
+      "relevanceScore": 69.24,
+      "recommendationScore": 69.74,
       "tags": [
         "AI",
         "Tech"
@@ -321,41 +361,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Sony&#8217;s PlayStation Portal just got a rare discount for Black Friday",
-      "link": "https://www.theverge.com/gadgets/825985/sony-playstation-portal-black-friday-deal-sale-2025",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-11-21T19:00:00.000Z",
-      "relevanceScore": 139.46,
-      "recommendationScore": 139.96,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Hoto’s slick new leaf blower looks ready to blast away leaves or alien invaders",
-      "link": "https://www.theverge.com/news/826189/hoto-cordless-leaf-blower-720-cfm-120-mph",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-11-21T17:05:49.000Z",
-      "relevanceScore": 134.58,
-      "recommendationScore": 137.08,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "ClausTk - A Tkinter library for creating New Year's and Christmas-themed interfaces",
-      "link": "https://dev.to/limafresh/claustk-a-tkinter-library-for-creating-new-years-and-christmas-themed-interfaces-od9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-21T18:45:22.000Z",
-      "relevanceScore": 131.91,
-      "recommendationScore": 134.41,
+      "title": "Superman copy found in mum's attic is most valuable comic ever at $9.12m",
+      "link": "https://www.bbc.com/news/articles/c8e9rp0knj6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-21T17:30:47.000Z",
+      "relevanceScore": 66.11,
+      "recommendationScore": 66.61,
       "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
     },
     {
       "title": "Senators Want Extremism Researchers to Surrender Documents Linked to Right-Wing Grudges",
@@ -363,23 +377,23 @@
       "source": "Wired",
       "category": "cybersecurity",
       "pubDate": "2025-11-21T17:06:49.000Z",
-      "relevanceScore": 130.08,
-      "recommendationScore": 130.58,
+      "relevanceScore": 55.53,
+      "recommendationScore": 56.03,
       "tags": [
         "Security"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Apple’s cheapest iPad is already $70 off for Black Friday",
-      "link": "https://www.theverge.com/tech/825254/ipad-a16-black-friday-deal-sale-2025",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2025-11-21T17:00:00.000Z",
-      "relevanceScore": 128.06,
-      "recommendationScore": 128.56,
+      "title": "We’re learning more about what vitamin D does to our bodies",
+      "link": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
+      "source": "MIT Technology Review",
+      "category": "climate",
+      "pubDate": "2025-11-21T10:00:00.000Z",
+      "relevanceScore": 52.11,
+      "recommendationScore": 54.11,
       "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "CrowdStrike fires ‘suspicious insider’ who passed information to hackers",
@@ -387,8 +401,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-21T18:55:53.000Z",
-      "relevanceScore": 122.94,
-      "recommendationScore": 123.44,
+      "relevanceScore": 46.4,
+      "recommendationScore": 46.9,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -398,21 +412,8 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2025-11-21T18:30:27.000Z",
-      "relevanceScore": 122.86,
-      "recommendationScore": 123.36,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Eurovision plans voting, security changes after allegations of Israel 'interference'",
-      "link": "https://abcnews.go.com/Business/wireStory/eurovision-plans-voting-security-after-allegations-israeli-government-127745190",
-      "source": "ABC News Business",
-      "category": "cybersecurity",
-      "pubDate": "2025-11-21T14:10:29.000Z",
-      "relevanceScore": 118.99,
-      "recommendationScore": 119.49,
+      "relevanceScore": 46.31,
+      "recommendationScore": 46.81,
       "tags": [
         "Security"
       ],
@@ -424,24 +425,11 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2025-11-21T13:31:30.000Z",
-      "relevanceScore": 118.36,
-      "recommendationScore": 118.86,
+      "relevanceScore": 41.82,
+      "recommendationScore": 42.32,
       "tags": [
         "Report",
         "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The booster for SpaceX's Starship V3 suffered a gas system failure during testing",
-      "link": "https://www.engadget.com/science/space/the-booster-for-spacexs-starship-v3-suffered-a-gas-system-failure-during-testing-181459063.html?src=rss",
-      "source": "Engadget",
-      "category": "space",
-      "pubDate": "2025-11-21T18:14:59.000Z",
-      "relevanceScore": 117.31,
-      "recommendationScore": 117.81,
-      "tags": [
-        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -451,9 +439,36 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-21T15:25:52.000Z",
-      "relevanceScore": 117.24,
-      "recommendationScore": 117.74,
+      "relevanceScore": 40.7,
+      "recommendationScore": 41.2,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Roundtables: Surviving the New Age of Conspiracies",
+      "link": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2025-11-20T18:03:17.000Z",
+      "relevanceScore": 40.42,
+      "recommendationScore": 42.42,
+      "tags": [
+        "Tech",
+        "Science"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Treasury plans to change tax credit eligibility in a move critics say will hurt immigrant taxpayers",
+      "link": "https://abcnews.go.com/Business/wireStory/treasury-plans-change-tax-credit-eligibility-move-critics-127733546",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-21T02:21:53.000Z",
+      "relevanceScore": 40.08,
+      "recommendationScore": 40.58,
+      "tags": [
+        "IPO"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -462,8 +477,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-11-20T18:10:50.000Z",
-      "relevanceScore": 114.99,
-      "recommendationScore": 114.99,
+      "relevanceScore": 38.45,
+      "recommendationScore": 38.45,
       "tags": [
         "Web"
       ],
@@ -475,8 +490,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-21T04:02:32.000Z",
-      "relevanceScore": 114.97,
-      "recommendationScore": 117.47,
+      "relevanceScore": 38.42,
+      "recommendationScore": 40.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -486,68 +501,10 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-11-21T10:42:39.000Z",
-      "relevanceScore": 114.3,
-      "recommendationScore": 114.8,
+      "relevanceScore": 37.75,
+      "recommendationScore": 38.25,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Superman copy found in mum's attic is most valuable comic ever at $9.12m",
-      "link": "https://www.bbc.com/news/articles/c8e9rp0knj6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-21T17:30:47.000Z",
-      "relevanceScore": 64.66,
-      "recommendationScore": 65.16,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Dear Developer: Your Database Isn't a File Cabinet!",
-      "link": "https://dev.to/taurean04_14/dear-developer-your-database-isnt-a-file-cabinet-39ng",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-21T18:55:32.000Z",
-      "relevanceScore": 51.94,
-      "recommendationScore": 52.44,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "We’re learning more about what vitamin D does to our bodies",
-      "link": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
-      "source": "MIT Technology Review",
-      "category": "climate",
-      "pubDate": "2025-11-21T10:00:00.000Z",
-      "relevanceScore": 48.16,
-      "recommendationScore": 50.16,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Recalled baby formula linked to a botulism outbreak may still be in some stores",
-      "link": "https://www.npr.org/2025/11/20/nx-s1-5615060/byheart-baby-formula-botulism-recall",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2025-11-20T19:08:02.000Z",
-      "relevanceScore": 42.18,
-      "recommendationScore": 42.68,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Roundtables: Surviving the New Age of Conspiracies",
-      "link": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2025-11-20T18:03:17.000Z",
-      "relevanceScore": 35.97,
-      "recommendationScore": 37.97,
-      "tags": [
-        "Tech",
-        "Science"
       ],
       "readingLevel": "advanced"
     },
@@ -557,8 +514,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-21T17:58:32.000Z",
-      "relevanceScore": 35.25,
-      "recommendationScore": 35.75,
+      "relevanceScore": 37.21,
+      "recommendationScore": 37.71,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -568,10 +525,32 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-21T18:09:18.000Z",
-      "relevanceScore": 31.29,
-      "recommendationScore": 32.79,
+      "relevanceScore": 31.24,
+      "recommendationScore": 32.74,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Solving Fizz Buzz with Cosines",
+      "link": "https://www.reddit.com/r/programming/comments/1p2su50/solving_fizz_buzz_with_cosines/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-11-21T07:57:58.000Z",
+      "relevanceScore": 28.2,
+      "recommendationScore": 28.2,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The female crash test dummy has been a long time coming — but she isn't here yet",
+      "link": "https://www.npr.org/2025/11/21/nx-s1-5616284/female-crash-test-dummy-design-approval",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2025-11-21T19:13:10.000Z",
+      "relevanceScore": 27.95,
+      "recommendationScore": 28.45,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Best Black Friday Google Pixel Deals (2025)",
@@ -579,8 +558,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-21T18:08:49.000Z",
-      "relevanceScore": 25.79,
-      "recommendationScore": 26.79,
+      "relevanceScore": 25.74,
+      "recommendationScore": 26.74,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -590,8 +569,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-21T12:15:37.000Z",
-      "relevanceScore": 25.61,
-      "recommendationScore": 26.11,
+      "relevanceScore": 25.56,
+      "recommendationScore": 26.06,
       "tags": [
         "Tech"
       ],
@@ -603,8 +582,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-21T15:07:04.000Z",
-      "relevanceScore": 25.18,
-      "recommendationScore": 27.68,
+      "relevanceScore": 25.13,
+      "recommendationScore": 27.63,
       "tags": [
         "Exclusive"
       ],
@@ -616,8 +595,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-21T19:05:26.000Z",
-      "relevanceScore": 24.98,
-      "recommendationScore": 25.48,
+      "relevanceScore": 24.93,
+      "recommendationScore": 25.43,
       "tags": [
         "Tech",
         "Web"
@@ -625,16 +604,39 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Streaming platform Twitch added to Australia's teen social media ban",
-      "link": "https://www.bbc.com/news/articles/cx2n2955g10o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2025-11-21T02:33:49.000Z",
-      "relevanceScore": 22.67,
-      "recommendationScore": 23.17,
+      "title": "Radio Free Europe's Hungarian service shuts down after Trump funding cuts",
+      "link": "https://abcnews.go.com/Business/wireStory/radio-free-europes-hungarian-service-shuts-after-trump-127741530",
+      "source": "ABC News Business",
+      "category": "startup",
+      "pubDate": "2025-11-21T11:57:32.000Z",
+      "relevanceScore": 24,
+      "recommendationScore": 24.5,
       "tags": [
-        "Social"
+        "Startup",
+        "Funding"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Halloween CSS",
+      "link": "https://dev.to/stefan_donosa/halloween-css-jlp",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-21T19:10:49.000Z",
+      "relevanceScore": 23.95,
+      "recommendationScore": 23.95,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Japan's exports to the world rise, but Trump's tariffs dent its shipments to the US",
+      "link": "https://abcnews.go.com/Business/wireStory/japans-exports-world-rise-trumps-tariffs-dent-shipments-127736498",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-21T05:49:32.000Z",
+      "relevanceScore": 23.28,
+      "recommendationScore": 23.78,
+      "tags": [],
       "readingLevel": "intermediate"
     }
   ],
@@ -645,7 +647,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/evolving-github-copilots-next-edit-suggestions-through-custom-model-training/",
         "source": "GitHub Blog",
         "pubDate": "2025-11-20T18:02:21.000Z",
-        "relevanceScore": 1085.97,
+        "relevanceScore": 1017.92,
         "tags": [
           "Exclusive"
         ]
@@ -657,7 +659,7 @@
         "link": "https://www.engadget.com/mobile/smartphones/android-16-starts-rolling-out-to-nothing-phones-182637951.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-21T18:26:37.000Z",
-        "relevanceScore": 858.85,
+        "relevanceScore": 820.3,
         "tags": [
           "Tech",
           "Mobile",
@@ -669,51 +671,9 @@
         "link": "https://techcrunch.com/2025/11/21/phictlys-new-app-brings-people-together-over-their-favorite-books-and-tv-shows/",
         "source": "TechCrunch",
         "pubDate": "2025-11-21T16:47:03.000Z",
-        "relevanceScore": 403.51,
+        "relevanceScore": 427.47,
         "tags": [
           "Mobile"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Teens plead not guilty over TfL cyber-attack",
-        "link": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-11-21T14:09:56.000Z",
-        "relevanceScore": 752.99,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "Senators Want Extremism Researchers to Surrender Documents Linked to Right-Wing Grudges",
-        "link": "https://www.wired.com/story/senators-want-extremism-researchers-to-surrender-documents-linked-to-right-wing-grudges/",
-        "source": "Wired",
-        "pubDate": "2025-11-21T17:06:49.000Z",
-        "relevanceScore": 130.08,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "Google says hackers stole data from 200 companies following Gainsight breach",
-        "link": "https://techcrunch.com/2025/11/21/google-says-hackers-stole-data-from-200-companies-following-gainsight-breach/",
-        "source": "TechCrunch",
-        "pubDate": "2025-11-21T18:30:27.000Z",
-        "relevanceScore": 122.86,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "Eurovision plans voting, security changes after allegations of Israel 'interference'",
-        "link": "https://abcnews.go.com/Business/wireStory/eurovision-plans-voting-security-after-allegations-israeli-government-127745190",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-21T14:10:29.000Z",
-        "relevanceScore": 118.99,
-        "tags": [
-          "Security"
         ]
       }
     ],
@@ -723,7 +683,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1p33wev/openai_demod_fixing_issue_2472_live_its_still_open/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-21T16:57:23.000Z",
-        "relevanceScore": 727.05,
+        "relevanceScore": 687.5,
+        "tags": []
+      },
+      {
+        "title": "Symmetry Solved: Lightning-Fast Algorithms Unlock New Optimization Possibilities",
+        "link": "https://dev.to/arvind_sundararajan/symmetry-solved-lightning-fast-algorithms-unlock-new-optimization-possibilities-3bl0",
+        "source": "Dev.to",
+        "pubDate": "2025-11-21T19:02:05.000Z",
+        "relevanceScore": 355.92,
         "tags": []
       },
       {
@@ -731,7 +699,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/how-were-making-github-copilot-smarter-with-fewer-tools/",
         "source": "GitHub Blog",
         "pubDate": "2025-11-19T20:00:00.000Z",
-        "relevanceScore": 226.56,
+        "relevanceScore": 244.51,
         "tags": [
           "Exclusive"
         ]
@@ -741,23 +709,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1p2z6ka/git_30_is_using_the_default_branch_name_of_main/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-21T13:52:59.000Z",
-        "relevanceScore": 222.93,
-        "tags": []
-      },
-      {
-        "title": "ClausTk - A Tkinter library for creating New Year's and Christmas-themed interfaces",
-        "link": "https://dev.to/limafresh/claustk-a-tkinter-library-for-creating-new-years-and-christmas-themed-interfaces-od9",
-        "source": "Dev.to",
-        "pubDate": "2025-11-21T18:45:22.000Z",
-        "relevanceScore": 131.91,
-        "tags": []
-      },
-      {
-        "title": "Dear Developer: Your Database Isn't a File Cabinet!",
-        "link": "https://dev.to/taurean04_14/dear-developer-your-database-isnt-a-file-cabinet-39ng",
-        "source": "Dev.to",
-        "pubDate": "2025-11-21T18:55:32.000Z",
-        "relevanceScore": 51.94,
+        "relevanceScore": 159.39,
         "tags": []
       },
       {
@@ -765,7 +717,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1p2su50/solving_fizz_buzz_with_cosines/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-21T07:57:58.000Z",
-        "relevanceScore": 19.75,
+        "relevanceScore": 28.2,
+        "tags": []
+      },
+      {
+        "title": "Halloween CSS",
+        "link": "https://dev.to/stefan_donosa/halloween-css-jlp",
+        "source": "Dev.to",
+        "pubDate": "2025-11-21T19:10:49.000Z",
+        "relevanceScore": 23.95,
         "tags": []
       },
       {
@@ -773,40 +733,52 @@
         "link": "https://stackoverflow.blog/2025/11/20/community-products-roadmap-update-november-2025/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-11-20T16:00:00.000Z",
-        "relevanceScore": 18.56,
+        "relevanceScore": 18.51,
         "tags": [
           "Update"
         ]
       }
     ],
-    "cloud": [
+    "cybersecurity": [
       {
-        "title": "Building Real-Time Lakehouse with S3 Tables, AWS Glue, and Apache Doris",
-        "link": "https://dev.to/apachedoris/building-real-time-lakehouse-with-s3-tables-aws-glue-and-apache-doris-5am0",
-        "source": "Dev.to",
-        "pubDate": "2025-11-21T18:45:38.000Z",
-        "relevanceScore": 720.41,
+        "title": "Teens plead not guilty over TfL cyber-attack",
+        "link": "https://www.bbc.com/news/articles/cvgjxlgyx87o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-11-21T14:09:56.000Z",
+        "relevanceScore": 680.44,
         "tags": [
-          "Cloud"
+          "Security"
         ]
-      }
-    ],
-    "climate": [
-      {
-        "title": "At UN climate conference, some activists and scientists want more talk on reforming agriculture",
-        "link": "https://abcnews.go.com/Business/wireStory/climate-conference-activists-scientists-talk-reforming-agriculture-127748576",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-21T14:45:34.000Z",
-        "relevanceScore": 509.61,
-        "tags": []
       },
       {
-        "title": "We’re learning more about what vitamin D does to our bodies",
-        "link": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-11-21T10:00:00.000Z",
-        "relevanceScore": 48.16,
-        "tags": []
+        "title": "Press a button and this SSD will self-destruct with all your data",
+        "link": "https://www.theverge.com/news/826338/teamgroup-t-create-expert-p35s-externa-ssd-self-destruct-button",
+        "source": "The Verge",
+        "pubDate": "2025-11-21T19:19:56.000Z",
+        "relevanceScore": 292.48,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Senators Want Extremism Researchers to Surrender Documents Linked to Right-Wing Grudges",
+        "link": "https://www.wired.com/story/senators-want-extremism-researchers-to-surrender-documents-linked-to-right-wing-grudges/",
+        "source": "Wired",
+        "pubDate": "2025-11-21T17:06:49.000Z",
+        "relevanceScore": 55.53,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Google says hackers stole data from 200 companies following Gainsight breach",
+        "link": "https://techcrunch.com/2025/11/21/google-says-hackers-stole-data-from-200-companies-following-gainsight-breach/",
+        "source": "TechCrunch",
+        "pubDate": "2025-11-21T18:30:27.000Z",
+        "relevanceScore": 46.31,
+        "tags": [
+          "Security"
+        ]
       }
     ],
     "general": [
@@ -815,7 +787,7 @@
         "link": "https://www.bbc.com/news/articles/c5yqdpxzzxlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-21T18:18:38.000Z",
-        "relevanceScore": 452.32,
+        "relevanceScore": 379.77,
         "tags": [
           "Regulation"
         ]
@@ -825,7 +797,7 @@
         "link": "https://www.bbc.com/news/articles/c5yd878ejqko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-21T18:25:59.000Z",
-        "relevanceScore": 348.84,
+        "relevanceScore": 350.8,
         "tags": []
       },
       {
@@ -833,7 +805,7 @@
         "link": "https://www.bbc.com/news/articles/cde6yld78d6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-21T15:21:53.000Z",
-        "relevanceScore": 146.73,
+        "relevanceScore": 75.18,
         "tags": []
       },
       {
@@ -841,7 +813,7 @@
         "link": "https://www.bbc.com/news/articles/c8e9rp0knj6o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-21T17:30:47.000Z",
-        "relevanceScore": 64.66,
+        "relevanceScore": 66.11,
         "tags": []
       },
       {
@@ -849,27 +821,29 @@
         "link": "https://www.bbc.com/news/articles/cly5n8x1vedo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-21T18:09:18.000Z",
-        "relevanceScore": 31.29,
+        "relevanceScore": 31.24,
         "tags": []
       }
     ],
     "ai-ml": [
       {
+        "title": "Building AI Agents: Architecture, Tools & Implementation Guide",
+        "link": "https://dev.to/vanshsaxena/building-ai-agents-architecture-tools-implementation-guide-5bac",
+        "source": "Dev.to",
+        "pubDate": "2025-11-21T19:08:14.000Z",
+        "relevanceScore": 369.44,
+        "tags": [
+          "AI",
+          "Tech",
+          "Tutorial"
+        ]
+      },
+      {
         "title": "Graduate jobs under threat from AI, PwC boss says",
         "link": "https://www.bbc.com/news/articles/cm272510e6jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-21T02:34:57.000Z",
-        "relevanceScore": 433.67,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Who is AI nostalgia slop even for?",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/825498/openai-sora-video-slop-nostalgia-mister-rogers",
-        "source": "The Verge",
-        "pubDate": "2025-11-21T18:02:01.000Z",
-        "relevanceScore": 317.26,
+        "relevanceScore": 359.13,
         "tags": [
           "AI"
         ]
@@ -879,10 +853,20 @@
         "link": "https://stackoverflow.blog/2025/11/21/only-you-can-stop-ai-database-drops/",
         "source": "Stack Overflow Blog",
         "pubDate": "2025-11-21T08:40:00.000Z",
-        "relevanceScore": 262.89,
+        "relevanceScore": 268.84,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "Who is AI nostalgia slop even for?",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/825498/openai-sora-video-slop-nostalgia-mister-rogers",
+        "source": "The Verge",
+        "pubDate": "2025-11-21T18:02:01.000Z",
+        "relevanceScore": 254.72,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -890,7 +874,7 @@
         "link": "https://www.technologyreview.com/2025/11/21/1128232/the-download-the-secrets-of-vitamin-d-and-an-ai-party-in-africa/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-21T13:10:00.000Z",
-        "relevanceScore": 141.79,
+        "relevanceScore": 69.24,
         "tags": [
           "AI",
           "Tech"
@@ -901,7 +885,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1p2vfdh/gmail_can_read_your_emails_and_attachments_to/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-21T10:42:39.000Z",
-        "relevanceScore": 114.3,
+        "relevanceScore": 37.75,
         "tags": [
           "AI"
         ]
@@ -909,11 +893,22 @@
     ],
     "tech": [
       {
+        "title": "This week's best iPad deals include the base-model Apple iPad for $279",
+        "link": "https://www.engadget.com/deals/this-weeks-best-ipad-deals-include-the-base-model-apple-ipad-for-279-150020086.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-21T19:13:04.000Z",
+        "relevanceScore": 359.45,
+        "tags": [
+          "Web",
+          "Funding"
+        ]
+      },
+      {
         "title": "Impersonators are (still) targeting companies with fake TechCrunch outreach",
         "link": "https://techcrunch.com/2025/11/21/impersonators-are-targeting-companies-with-fake-techcrunch-outreach/",
         "source": "TechCrunch",
         "pubDate": "2025-11-21T17:00:00.000Z",
-        "relevanceScore": 354.06,
+        "relevanceScore": 358.01,
         "tags": []
       },
       {
@@ -921,15 +916,15 @@
         "link": "https://techcrunch.com/2025/11/21/x-begins-rolling-out-the-about-this-account-feature-to-users-profiles/",
         "source": "TechCrunch",
         "pubDate": "2025-11-21T18:12:57.000Z",
-        "relevanceScore": 225.3,
+        "relevanceScore": 239.25,
         "tags": []
       },
       {
-        "title": "These Beats Headphones Are Marked Down to $150 for Black Friday",
-        "link": "https://www.wired.com/story/beats-studio-pro-deal-1125/",
-        "source": "Wired",
-        "pubDate": "2025-11-21T18:31:00.000Z",
-        "relevanceScore": 154.86,
+        "title": "The 36 best gift ideas for mom this holiday season",
+        "link": "https://www.theverge.com/gadgets/802964/best-mom-gift-ideas",
+        "source": "The Verge",
+        "pubDate": "2025-11-21T19:13:16.000Z",
+        "relevanceScore": 238.46,
         "tags": []
       },
       {
@@ -937,17 +932,25 @@
         "link": "https://www.wired.com/story/kids-in-china-are-scheming-and-buying-bots-to-win-clout-on-their-watches/",
         "source": "Wired",
         "pubDate": "2025-11-21T18:02:26.000Z",
-        "relevanceScore": 143.27,
+        "relevanceScore": 158.22,
         "tags": [
           "Tech"
         ]
+      },
+      {
+        "title": "These Beats Headphones Are Marked Down to $150 for Black Friday",
+        "link": "https://www.wired.com/story/beats-studio-pro-deal-1125/",
+        "source": "Wired",
+        "pubDate": "2025-11-21T18:31:00.000Z",
+        "relevanceScore": 155.81,
+        "tags": []
       },
       {
         "title": "CrowdStrike fires ‘suspicious insider’ who passed information to hackers",
         "link": "https://techcrunch.com/2025/11/21/crowdstrike-fires-suspicious-insider-who-passed-information-to-hackers/",
         "source": "TechCrunch",
         "pubDate": "2025-11-21T18:55:53.000Z",
-        "relevanceScore": 122.94,
+        "relevanceScore": 46.4,
         "tags": []
       },
       {
@@ -955,7 +958,7 @@
         "link": "https://www.bbc.com/news/articles/cn515p22nxno?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-20T18:10:50.000Z",
-        "relevanceScore": 114.99,
+        "relevanceScore": 38.45,
         "tags": [
           "Web"
         ]
@@ -965,7 +968,7 @@
         "link": "https://arstechnica.com/science/2025/11/chris-hemsworth-and-dad-fight-alzheimers-with-a-trip-down-memory-lane/",
         "source": "Ars Technica",
         "pubDate": "2025-11-21T17:58:32.000Z",
-        "relevanceScore": 35.25,
+        "relevanceScore": 37.21,
         "tags": []
       },
       {
@@ -973,7 +976,7 @@
         "link": "https://www.wired.com/story/best-black-friday-google-pixel-deals-2025/",
         "source": "Wired",
         "pubDate": "2025-11-21T18:08:49.000Z",
-        "relevanceScore": 25.79,
+        "relevanceScore": 25.74,
         "tags": []
       },
       {
@@ -981,7 +984,7 @@
         "link": "https://arstechnica.com/tech-policy/2025/11/pornhub-is-urging-tech-giants-to-enact-device-based-age-verification/",
         "source": "Ars Technica",
         "pubDate": "2025-11-21T12:15:37.000Z",
-        "relevanceScore": 25.61,
+        "relevanceScore": 25.56,
         "tags": [
           "Tech"
         ]
@@ -991,7 +994,7 @@
         "link": "https://arstechnica.com/science/2025/11/archaeologists-find-ruins-of-a-bronze-age-city-on-the-kazakh-steppe/",
         "source": "Ars Technica",
         "pubDate": "2025-11-21T15:07:04.000Z",
-        "relevanceScore": 25.18,
+        "relevanceScore": 25.13,
         "tags": [
           "Exclusive"
         ]
@@ -1001,7 +1004,7 @@
         "link": "https://www.engadget.com/deals/the-most-effective-anti-spam-tool-ive-ever-used-is-on-sale-for-black-friday-190526952.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-21T19:05:26.000Z",
-        "relevanceScore": 24.98,
+        "relevanceScore": 24.93,
         "tags": [
           "Tech",
           "Web"
@@ -1012,7 +1015,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1p32mrr/microsoft_finally_admits_almost_all_major_windows/",
         "source": "Reddit Technology",
         "pubDate": "2025-11-21T16:08:59.000Z",
-        "relevanceScore": 22.39,
+        "relevanceScore": 22.34,
         "tags": []
       }
     ],
@@ -1022,55 +1025,45 @@
         "link": "https://www.engadget.com/deals/black-friday-subscription-deals-2025-early-sales-on-fubo-rosetta-stone-headspace-and-more-180000874.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-21T19:07:41.000Z",
-        "relevanceScore": 351.48,
+        "relevanceScore": 355.44,
         "tags": [
           "Partnership"
         ]
-      },
-      {
-        "title": "Hoto’s slick new leaf blower looks ready to blast away leaves or alien invaders",
-        "link": "https://www.theverge.com/news/826189/hoto-cordless-leaf-blower-720-cfm-120-mph",
-        "source": "The Verge",
-        "pubDate": "2025-11-21T17:05:49.000Z",
-        "relevanceScore": 134.58,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Apple’s cheapest iPad is already $70 off for Black Friday",
-        "link": "https://www.theverge.com/tech/825254/ipad-a16-black-friday-deal-sale-2025",
-        "source": "The Verge",
-        "pubDate": "2025-11-21T17:00:00.000Z",
-        "relevanceScore": 128.06,
-        "tags": []
       }
     ],
     "business": [
-      {
-        "title": "Philippine police will arrest 18 suspects in a major corruption scandal, president says",
-        "link": "https://abcnews.go.com/Business/wireStory/philippine-police-arrest-18-suspects-major-corruption-scandal-127743374",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-21T12:45:42.000Z",
-        "relevanceScore": 341.71,
-        "tags": [
-          "Controversy"
-        ]
-      },
       {
         "title": "A struggling lumber industry wants to join farmers in government bailout package",
         "link": "https://www.npr.org/2025/11/20/nx-s1-5608999/a-struggling-lumber-industry-wants-to-join-farmers-in-government-bailout-package",
         "source": "NPR Business",
         "pubDate": "2025-11-20T20:59:09.000Z",
-        "relevanceScore": 297.55,
+        "relevanceScore": 224.01,
         "tags": []
       },
       {
-        "title": "Recalled baby formula linked to a botulism outbreak may still be in some stores",
-        "link": "https://www.npr.org/2025/11/20/nx-s1-5615060/byheart-baby-formula-botulism-recall",
+        "title": "Treasury plans to change tax credit eligibility in a move critics say will hurt immigrant taxpayers",
+        "link": "https://abcnews.go.com/Business/wireStory/treasury-plans-change-tax-credit-eligibility-move-critics-127733546",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-21T02:21:53.000Z",
+        "relevanceScore": 40.08,
+        "tags": [
+          "IPO"
+        ]
+      },
+      {
+        "title": "The female crash test dummy has been a long time coming — but she isn't here yet",
+        "link": "https://www.npr.org/2025/11/21/nx-s1-5616284/female-crash-test-dummy-design-approval",
         "source": "NPR Business",
-        "pubDate": "2025-11-20T19:08:02.000Z",
-        "relevanceScore": 42.18,
+        "pubDate": "2025-11-21T19:13:10.000Z",
+        "relevanceScore": 27.95,
+        "tags": []
+      },
+      {
+        "title": "Japan's exports to the world rise, but Trump's tariffs dent its shipments to the US",
+        "link": "https://abcnews.go.com/Business/wireStory/japans-exports-world-rise-trumps-tariffs-dent-shipments-127736498",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-21T05:49:32.000Z",
+        "relevanceScore": 23.28,
         "tags": []
       }
     ],
@@ -1080,7 +1073,7 @@
         "link": "https://www.npr.org/2025/11/21/nx-s1-5601696/rare-earths-china-trump-pentagon",
         "source": "NPR Business",
         "pubDate": "2025-11-21T10:01:00.000Z",
-        "relevanceScore": 278.16,
+        "relevanceScore": 202.61,
         "tags": [
           "Tech",
           "Business"
@@ -1093,10 +1086,20 @@
         "link": "https://www.theverge.com/gadgets/825985/sony-playstation-portal-black-friday-deal-sale-2025",
         "source": "The Verge",
         "pubDate": "2025-11-21T19:00:00.000Z",
-        "relevanceScore": 139.46,
+        "relevanceScore": 148.41,
         "tags": [
           "Exclusive"
         ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "We’re learning more about what vitamin D does to our bodies",
+        "link": "https://www.technologyreview.com/2025/11/21/1128206/vitamin-d-bodies-bone-health-immune/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-11-21T10:00:00.000Z",
+        "relevanceScore": 52.11,
+        "tags": []
       }
     ],
     "space": [
@@ -1105,20 +1108,10 @@
         "link": "https://arstechnica.com/space/2025/11/rocket-report-spacexs-next-gen-booster-fails-pegasus-will-fly-again/",
         "source": "Ars Technica",
         "pubDate": "2025-11-21T13:31:30.000Z",
-        "relevanceScore": 118.36,
+        "relevanceScore": 41.82,
         "tags": [
           "Report",
           "Launch"
-        ]
-      },
-      {
-        "title": "The booster for SpaceX's Starship V3 suffered a gas system failure during testing",
-        "link": "https://www.engadget.com/science/space/the-booster-for-spacexs-starship-v3-suffered-a-gas-system-failure-during-testing-181459063.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-21T18:14:59.000Z",
-        "relevanceScore": 117.31,
-        "tags": [
-          "Exclusive"
         ]
       }
     ],
@@ -1128,7 +1121,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p31hy6/ukraine_faces_losing_dignity_or_us_support_with/",
         "source": "Reddit World News",
         "pubDate": "2025-11-21T15:25:52.000Z",
-        "relevanceScore": 117.24,
+        "relevanceScore": 40.7,
         "tags": []
       },
       {
@@ -1136,7 +1129,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p2os82/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-11-21T04:02:32.000Z",
-        "relevanceScore": 114.97,
+        "relevanceScore": 38.42,
         "tags": []
       },
       {
@@ -1144,7 +1137,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p2x4fu/european_officials_reject_us_peace_plan_that/",
         "source": "Reddit World News",
         "pubDate": "2025-11-21T12:17:59.000Z",
-        "relevanceScore": 22.62,
+        "relevanceScore": 22.57,
         "tags": []
       }
     ],
@@ -1154,10 +1147,23 @@
         "link": "https://www.technologyreview.com/2025/11/20/1127749/roundtables-surviving-the-new-age-of-conspiracies/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-20T18:03:17.000Z",
-        "relevanceScore": 35.97,
+        "relevanceScore": 40.42,
         "tags": [
           "Tech",
           "Science"
+        ]
+      }
+    ],
+    "startup": [
+      {
+        "title": "Radio Free Europe's Hungarian service shuts down after Trump funding cuts",
+        "link": "https://abcnews.go.com/Business/wireStory/radio-free-europes-hungarian-service-shuts-after-trump-127741530",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-21T11:57:32.000Z",
+        "relevanceScore": 24,
+        "tags": [
+          "Startup",
+          "Funding"
         ]
       }
     ],
@@ -1167,7 +1173,7 @@
         "link": "https://www.bbc.com/news/articles/cx2n2955g10o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-21T02:33:49.000Z",
-        "relevanceScore": 22.67,
+        "relevanceScore": 22.62,
         "tags": [
           "Social"
         ]
@@ -1177,22 +1183,22 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 17,
-    "avgRelevanceScore": 222.2374074074074,
+    "avgRelevanceScore": 188.5194444444445,
     "topCategories": [
       {
         "category": "tech",
-        "count": 12
+        "count": 14
       },
       {
         "category": "development",
         "count": 7
       },
       {
-        "category": "general",
-        "count": 5
+        "category": "ai-ml",
+        "count": 6
       },
       {
-        "category": "ai-ml",
+        "category": "general",
         "count": 5
       },
       {
