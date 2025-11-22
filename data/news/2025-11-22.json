@@ -1,6 +1,6 @@
 {
   "date": "2025-11-22",
-  "lastUpdated": "2025-11-22T19:25:15.789Z",
+  "lastUpdated": "2025-11-22T19:36:05.419Z",
   "totalArticles": 45,
   "articles": [
     {
@@ -23,9 +23,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "analysis",
-      "relevanceScore": 1535.93,
-      "calculatedAt": "2025-11-22T19:25:46.207Z",
-      "recommendationScore": 1536.43,
+      "relevanceScore": 1543.9,
+      "calculatedAt": "2025-11-22T19:36:36.460Z",
+      "recommendationScore": 1544.4,
       "readingLevel": "advanced"
     },
     {
@@ -48,9 +48,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1381.31,
-      "calculatedAt": "2025-11-22T19:25:46.207Z",
-      "recommendationScore": 1383.31,
+      "relevanceScore": 1385.28,
+      "calculatedAt": "2025-11-22T19:36:36.460Z",
+      "recommendationScore": 1387.28,
       "readingLevel": "intermediate"
     },
     {
@@ -70,9 +70,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1234.8,
-      "calculatedAt": "2025-11-22T19:25:46.207Z",
-      "recommendationScore": 1235.3,
+      "relevanceScore": 1239.76,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 1240.26,
       "readingLevel": "intermediate"
     },
     {
@@ -94,9 +94,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 929.11,
-      "calculatedAt": "2025-11-22T19:25:46.207Z",
-      "recommendationScore": 930.61,
+      "relevanceScore": 933.08,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 934.58,
       "readingLevel": "advanced"
     },
     {
@@ -118,9 +118,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 829.31,
-      "calculatedAt": "2025-11-22T19:25:46.207Z",
-      "recommendationScore": 831.81,
+      "relevanceScore": 835.28,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 837.78,
       "readingLevel": "advanced"
     },
     {
@@ -142,10 +142,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 774.6,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 775.1,
+      "relevanceScore": 799.07,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 799.57,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "VW5sb2NrIHRoZSBQ",
+      "title": "Unlock the Power of Lookalike Modeling in Advertisements",
+      "link": "https://dev.to/drcarlosruizviquez/unlock-the-power-of-lookalike-modeling-in-advertisements-14b7",
+      "description": "Unlock the Power of Lookalike Modeling in Advertisements As a seasoned ML practitioner, you're likely familiar with the concept of lookalike audiences. However, have you considered leveraging this approach to optimize your ad spend and improve campaign performance? Here's a practical tip on how to d",
+      "pubDate": "2025-11-22T19:16:34.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Unlock the Power of Lookalike Modeling in Advertisements As a seasoned ML practitioner, you're likely familiar with the concept of lookalike audiences. However, have you considered leveraging this approach to optimize your ad spend and improve campaign performance? Here's a practical tip on how to do it: Identify High-Value Lookalikes Using Recurrent Neural Networks (RNNs) When targeting online ad campaigns, it's essential to identify high-value lookalikes with similar characteristics as your ex",
+      "author": "Dr. Carlos Ruiz Viquez",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Tutorial"
+      ],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "tutorial",
+      "relevanceScore": 774.93,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 775.43,
+      "readingLevel": "advanced"
     },
     {
       "id": "QW1hem9uJ3MgRmly",
@@ -164,32 +188,10 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 770.32,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 770.82,
+      "relevanceScore": 773.28,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 773.78,
       "readingLevel": "beginner"
-    },
-    {
-      "id": "QnVpbGQgYSBEb2N1",
-      "title": "Build a Docusaurus-like Site with FastAPI: Step 6 - Sidebar Generation",
-      "link": "https://dev.to/leapcell/build-a-docusaurus-like-site-with-fastapi-step-6-sidebar-generation-4i7b",
-      "description": "In the previous article , we solved the issue of loading static resources (like images) within Markdown. Up to this point, our documentation pages can display content, code highlighting, and images nicely. However, readers still face difficulties navigating the documentation. The pages are isolated ",
-      "pubDate": "2025-11-22T18:53:53.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "In the previous article , we solved the issue of loading static resources (like images) within Markdown. Up to this point, our documentation pages can display content, code highlighting, and images nicely. However, readers still face difficulties navigating the documentation. The pages are isolated islands: without manually typing the URL, you cannot jump from one article to another. Documentation sites like Docusaurus typically use a \"Left Sidebar + Right Content\" layout. In this article, we wi",
-      "author": "Leapcell",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "negative",
-      "complexity": "medium",
-      "type": "tutorial",
-      "relevanceScore": 662.39,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 662.89,
-      "readingLevel": "advanced"
     },
     {
       "id": "UmFyZSBlYXJ0aHM6",
@@ -211,9 +213,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 594.82,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 595.32,
+      "relevanceScore": 623.78,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 624.28,
       "readingLevel": "beginner"
     },
     {
@@ -235,9 +237,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 630.92,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 630.92,
+      "relevanceScore": 631.88,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 631.88,
       "readingLevel": "advanced"
     },
     {
@@ -260,9 +262,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 628.87,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 632.87,
+      "relevanceScore": 629.84,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 633.84,
       "readingLevel": "advanced"
     },
     {
@@ -284,9 +286,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 544.83,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 545.33,
+      "relevanceScore": 549.79,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 550.29,
       "readingLevel": "intermediate"
     },
     {
@@ -308,9 +310,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 551.8,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 553.8,
+      "relevanceScore": 556.77,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 558.77,
       "readingLevel": "advanced"
     },
     {
@@ -330,9 +332,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 410.45,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 410.95,
+      "relevanceScore": 397.92,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 398.42,
       "readingLevel": "advanced"
     },
     {
@@ -352,54 +354,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 445.09,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 445.59,
+      "relevanceScore": 446.05,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 446.55,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "UnVzc2lhIENhbuKA",
-      "title": "Russia Can’t Pay Its Soldiers: Yakutia Freezes Military Bonuses Over Budget Crisis",
-      "link": "https://www.reddit.com/r/worldnews/comments/1p3ygib/russia_cant_pay_its_soldiers_yakutia_freezes/",
-      "description": "&#32; submitted by &#32; /u/LetsGoBrandon4256 [link] &#32; [comments]",
-      "pubDate": "2025-11-22T17:09:09.000Z",
-      "source": "Reddit World News",
-      "category": "world",
-      "weight": 6,
-      "content": "&#32; submitted by &#32; /u/LetsGoBrandon4256 [link] &#32; [comments]",
-      "author": "/u/LetsGoBrandon4256",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "negative",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 257.04,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 257.54,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "SW5mbHVlbmNlcnMg",
-      "title": "Influencers made millions pushing ‘wild’ births – now the Free Birth Society is linked to baby deaths around the world",
-      "link": "https://www.reddit.com/r/technology/comments/1p3yhcj/influencers_made_millions_pushing_wild_births_now/",
-      "description": "&#32; submitted by &#32; /u/rezwenn [link] &#32; [comments]",
-      "pubDate": "2025-11-22T17:10:00.000Z",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "weight": 5,
-      "content": "&#32; submitted by &#32; /u/rezwenn [link] &#32; [comments]",
-      "author": "/u/rezwenn",
-      "readTime": 1,
-      "importance": 5,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 255.55,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 255.55,
-      "readingLevel": "advanced"
     },
     {
       "id": "T25seSB5b3UgY2Fu",
@@ -421,9 +379,53 @@
       "sentiment": "negative",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 189.55,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 190.55,
+      "relevanceScore": 222.01,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 223.01,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "UnVzc2lhIENhbuKA",
+      "title": "Russia Can’t Pay Its Soldiers: Yakutia Freezes Military Bonuses Over Budget Crisis",
+      "link": "https://www.reddit.com/r/worldnews/comments/1p3ygib/russia_cant_pay_its_soldiers_yakutia_freezes/",
+      "description": "&#32; submitted by &#32; /u/LetsGoBrandon4256 [link] &#32; [comments]",
+      "pubDate": "2025-11-22T17:09:09.000Z",
+      "source": "Reddit World News",
+      "category": "world",
+      "weight": 6,
+      "content": "&#32; submitted by &#32; /u/LetsGoBrandon4256 [link] &#32; [comments]",
+      "author": "/u/LetsGoBrandon4256",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 263.01,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 263.51,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "SW5mbHVlbmNlcnMg",
+      "title": "Influencers made millions pushing ‘wild’ births – now the Free Birth Society is linked to baby deaths around the world",
+      "link": "https://www.reddit.com/r/technology/comments/1p3yhcj/influencers_made_millions_pushing_wild_births_now/",
+      "description": "&#32; submitted by &#32; /u/rezwenn [link] &#32; [comments]",
+      "pubDate": "2025-11-22T17:10:00.000Z",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "weight": 5,
+      "content": "&#32; submitted by &#32; /u/rezwenn [link] &#32; [comments]",
+      "author": "/u/rezwenn",
+      "readTime": 1,
+      "importance": 5,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 261.51,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 261.51,
       "readingLevel": "advanced"
     },
     {
@@ -443,9 +445,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 93.99,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 94.49,
+      "relevanceScore": 94.45,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 94.95,
       "readingLevel": "advanced"
     },
     {
@@ -467,9 +469,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 70.22,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 70.72,
+      "relevanceScore": 72.68,
+      "calculatedAt": "2025-11-22T19:36:36.461Z",
+      "recommendationScore": 73.18,
       "readingLevel": "beginner"
     },
     {
@@ -492,9 +494,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 59.18,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 59.68,
+      "relevanceScore": 59.64,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 60.14,
       "readingLevel": "advanced"
     },
     {
@@ -514,9 +516,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.55,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 51.05,
+      "relevanceScore": 51.51,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 52.01,
       "readingLevel": "advanced"
     },
     {
@@ -536,9 +538,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 54.39,
-      "calculatedAt": "2025-11-22T19:25:46.208Z",
-      "recommendationScore": 54.89,
+      "relevanceScore": 55.36,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 55.86,
       "readingLevel": "intermediate"
     },
     {
@@ -558,9 +560,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.48,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 31.98,
+      "relevanceScore": 31.45,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 31.95,
       "readingLevel": "advanced"
     },
     {
@@ -584,9 +586,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.86,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 24.36,
+      "relevanceScore": 23.83,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 24.33,
       "readingLevel": "advanced"
     },
     {
@@ -606,9 +608,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.46,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 27.96,
+      "relevanceScore": 26.42,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 27.92,
       "readingLevel": "advanced"
     },
     {
@@ -628,9 +630,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.11,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 32.11,
+      "relevanceScore": 32.08,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 32.08,
       "readingLevel": "intermediate"
     },
     {
@@ -650,9 +652,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 25.71,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 25.71,
+      "relevanceScore": 25.68,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 25.68,
       "readingLevel": "advanced"
     },
     {
@@ -672,9 +674,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.7,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 31.2,
+      "relevanceScore": 30.66,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 31.16,
       "readingLevel": "intermediate"
     },
     {
@@ -694,9 +696,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.37,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 27.87,
+      "relevanceScore": 27.34,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 27.84,
       "readingLevel": "intermediate"
     },
     {
@@ -716,9 +718,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.71,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 27.21,
+      "relevanceScore": 26.68,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 27.18,
       "readingLevel": "advanced"
     },
     {
@@ -738,9 +740,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 29.56,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 30.06,
+      "relevanceScore": 29.52,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 30.02,
       "readingLevel": "advanced"
     },
     {
@@ -762,9 +764,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.15,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 20.15,
+      "relevanceScore": 20.11,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 20.11,
       "readingLevel": "intermediate"
     },
     {
@@ -786,9 +788,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 17.83,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 17.83,
+      "relevanceScore": 17.79,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 17.79,
       "readingLevel": "intermediate"
     },
     {
@@ -811,9 +813,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.95,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 24.45,
+      "relevanceScore": 23.91,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 24.41,
       "readingLevel": "advanced"
     },
     {
@@ -833,35 +835,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.92,
-      "calculatedAt": "2025-11-22T19:25:46.209Z",
-      "recommendationScore": 23.42,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "SVBPIG1hcmtldCdz",
-      "title": "IPO market's red-hot year has been cooled by the shutdown and more caution among investors",
-      "link": "https://abcnews.go.com/Business/wireStory/ipo-markets-red-hot-year-cooled-shutdown-caution-127779336",
-      "description": "A strong year for initial public offerings on Wall Street has fizzled out due to the government shutdown and a cautious turn by investors",
-      "pubDate": "2025-11-22T13:33:50.000Z",
-      "source": "ABC News Business",
-      "category": "startup",
-      "weight": 7,
-      "content": "A strong year for initial public offerings on Wall Street has fizzled out due to the government shutdown and a cautious turn by investors",
-      "author": "ABC News Business",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [
-        "Business",
-        "Startup",
-        "IPO"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 24.83,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 25.33,
+      "relevanceScore": 20.89,
+      "calculatedAt": "2025-11-22T19:36:36.462Z",
+      "recommendationScore": 23.39,
       "readingLevel": "advanced"
     },
     {
@@ -884,9 +860,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.92,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 22.42,
+      "relevanceScore": 21.88,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 22.38,
       "readingLevel": "advanced"
     },
     {
@@ -906,10 +882,36 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.31,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 26.31,
+      "relevanceScore": 24.28,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 26.28,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "SVBPIG1hcmtldCdz",
+      "title": "IPO market's red-hot year has been cooled by the shutdown and more caution among investors",
+      "link": "https://abcnews.go.com/Business/wireStory/ipo-markets-red-hot-year-cooled-shutdown-caution-127779336",
+      "description": "A strong year for initial public offerings on Wall Street has fizzled out due to the government shutdown and a cautious turn by investors",
+      "pubDate": "2025-11-22T13:33:50.000Z",
+      "source": "ABC News Business",
+      "category": "startup",
+      "weight": 7,
+      "content": "A strong year for initial public offerings on Wall Street has fizzled out due to the government shutdown and a cautious turn by investors",
+      "author": "ABC News Business",
+      "readTime": 1,
+      "importance": 7,
+      "tags": [
+        "Business",
+        "Startup",
+        "IPO"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 24.79,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 25.29,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhpcyBoYWNrZXIg",
@@ -928,9 +930,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.52,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 25.02,
+      "relevanceScore": 24.48,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 24.98,
       "readingLevel": "advanced"
     },
     {
@@ -950,9 +952,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 23.16,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 23.66,
+      "relevanceScore": 23.12,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 23.62,
       "readingLevel": "beginner"
     },
     {
@@ -972,9 +974,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.48,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 22.98,
+      "relevanceScore": 22.45,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 22.95,
       "readingLevel": "advanced"
     },
     {
@@ -994,9 +996,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.35,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 20.85,
+      "relevanceScore": 20.31,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 20.81,
       "readingLevel": "advanced"
     },
     {
@@ -1016,9 +1018,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.17,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 22.67,
+      "relevanceScore": 22.13,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 22.63,
       "readingLevel": "intermediate"
     },
     {
@@ -1038,9 +1040,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.96,
-      "calculatedAt": "2025-11-22T19:25:46.210Z",
-      "recommendationScore": 23.96,
+      "relevanceScore": 21.93,
+      "calculatedAt": "2025-11-22T19:36:36.463Z",
+      "recommendationScore": 23.93,
       "readingLevel": "beginner"
     }
   ],
@@ -1053,8 +1055,8 @@
     "NPR Business",
     "Reddit Technology",
     "BBC Technology",
-    "Reddit World News",
     "Stack Overflow Blog",
+    "Reddit World News",
     "ABC News Business",
     "BBC News",
     "MIT Technology Review",
@@ -1068,6 +1070,6 @@
     "general",
     "science"
   ],
-  "processedAt": "2025-11-22T19:25:46.221Z",
+  "processedAt": "2025-11-22T19:36:36.474Z",
   "processingVersion": "2.0"
 }
