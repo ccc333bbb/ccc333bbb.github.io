@@ -1,7 +1,8 @@
 {
-  "lastUpdated": "2025-11-24T07:32:17.008Z",
-  "totalArticles": 31,
+  "lastUpdated": "2025-11-24T07:48:47.933Z",
+  "totalArticles": 30,
   "categories": [
+    "business",
     "development",
     "general",
     "tech",
@@ -9,21 +10,31 @@
     "cybersecurity",
     "gaming",
     "ai-ml",
-    "social",
-    "business"
+    "startup",
+    "social"
   ],
   "topArticles": [
     {
-      "title": "How SuburbStory Uses Asyncio to Pull Multi-Source Government Data in Parallel",
-      "link": "https://dev.to/roberttidball/how-suburbstory-uses-asyncio-to-pull-multi-source-government-data-in-parallel-28d8",
+      "title": "Stores keep prices down in a tough year for turkeys. Other Thanksgiving foods may cost more",
+      "link": "https://abcnews.go.com/Business/wireStory/stores-prices-tough-year-turkeys-thanksgiving-foods-cost-127814619",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-11-24T07:01:51.000Z",
+      "relevanceScore": 395.84,
+      "recommendationScore": 396.34,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Multithreading Demystified: The Real Difference Between Concurrency and Parallelism",
+      "link": "https://dev.to/mohammed_27c42362d82e94dd/multithreading-demystified-the-real-difference-between-concurrency-and-parallelism-58a7",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2025-11-24T07:16:16.000Z",
-      "relevanceScore": 182.95,
-      "recommendationScore": 184.95,
+      "pubDate": "2025-11-24T07:37:47.000Z",
+      "relevanceScore": 257.96,
+      "recommendationScore": 258.46,
       "tags": [
-        "Update",
-        "IPO"
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -33,8 +44,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-24T01:35:26.000Z",
-      "relevanceScore": 173.81,
-      "recommendationScore": 174.31,
+      "relevanceScore": 177.76,
+      "recommendationScore": 178.26,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -44,8 +55,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-11-23T23:25:16.000Z",
-      "relevanceScore": 166.38,
-      "recommendationScore": 166.88,
+      "relevanceScore": 170.32,
+      "recommendationScore": 170.82,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -55,8 +66,8 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2025-11-23T14:00:00.000Z",
-      "relevanceScore": 144.49,
-      "recommendationScore": 145.99,
+      "relevanceScore": 146.44,
+      "recommendationScore": 147.94,
       "tags": [
         "Mobile"
       ],
@@ -68,11 +79,24 @@
       "source": "Engadget",
       "category": "cybersecurity",
       "pubDate": "2025-11-23T21:00:37.000Z",
-      "relevanceScore": 129.89,
-      "recommendationScore": 129.89,
+      "relevanceScore": 134.84,
+      "recommendationScore": 134.84,
       "tags": [
         "Security",
         "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Roblox CEO interview gets heated over child safety",
+      "link": "https://techcrunch.com/2025/11/23/roblox-ceo-interview-gets-heated-over-child-safety/",
+      "source": "TechCrunch",
+      "category": "gaming",
+      "pubDate": "2025-11-23T21:58:04.000Z",
+      "relevanceScore": 69.03,
+      "recommendationScore": 69.03,
+      "tags": [
+        "Interview"
       ],
       "readingLevel": "advanced"
     },
@@ -82,8 +106,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-24T00:24:45.000Z",
-      "relevanceScore": 69.57,
-      "recommendationScore": 72.07,
+      "relevanceScore": 62.02,
+      "recommendationScore": 64.52,
       "tags": [
         "Exclusive"
       ],
@@ -95,25 +119,12 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-24T00:01:18.000Z",
-      "relevanceScore": 69.5,
-      "recommendationScore": 71.5,
+      "relevanceScore": 61.94,
+      "recommendationScore": 63.94,
       "tags": [
         "Business"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Roblox CEO interview gets heated over child safety",
-      "link": "https://techcrunch.com/2025/11/23/roblox-ceo-interview-gets-heated-over-child-safety/",
-      "source": "TechCrunch",
-      "category": "gaming",
-      "pubDate": "2025-11-23T21:58:04.000Z",
-      "relevanceScore": 67.09,
-      "recommendationScore": 67.09,
-      "tags": [
-        "Interview"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "AI is too risky to insure, say people whose job is insuring risk",
@@ -121,23 +132,25 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-23T17:45:00.000Z",
-      "relevanceScore": 64.24,
-      "recommendationScore": 64.74,
+      "relevanceScore": 56.69,
+      "recommendationScore": 57.19,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Emergent Mind - Philosophy & Architecture",
-      "link": "https://dev.to/vaticnz/emergent-mind-philosophy-architecture-3km7",
+      "title": "I Built an Automated Payment Recovery System That Recovers 3x More Failed Payments",
+      "link": "https://dev.to/etherlabsdev/i-built-an-automated-payment-recovery-system-that-recovers-3x-more-failed-payments-epg",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-11-24T07:20:24.000Z",
-      "relevanceScore": 62.96,
-      "recommendationScore": 62.96,
+      "category": "startup",
+      "pubDate": "2025-11-24T07:40:47.000Z",
+      "relevanceScore": 55.97,
+      "recommendationScore": 56.47,
       "tags": [
-        "AI"
+        "Science",
+        "Startup",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -147,8 +160,8 @@
       "source": "The Verge",
       "category": "social",
       "pubDate": "2025-11-23T21:36:32.000Z",
-      "relevanceScore": 62.51,
-      "recommendationScore": 63.01,
+      "relevanceScore": 54.96,
+      "recommendationScore": 55.46,
       "tags": [
         "Social",
         "Launch"
@@ -161,8 +174,8 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2025-11-23T10:00:00.000Z",
-      "relevanceScore": 62.19,
-      "recommendationScore": 64.19,
+      "relevanceScore": 54.64,
+      "recommendationScore": 56.64,
       "tags": [
         "AI",
         "Tech"
@@ -175,23 +188,9 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-23T15:04:00.000Z",
-      "relevanceScore": 61.71,
-      "recommendationScore": 63.21,
+      "relevanceScore": 54.15,
+      "recommendationScore": 55.65,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Britain's Daily Mail publisher enters exclusive talks to buy Telegraph Media Group for $654 million",
-      "link": "https://abcnews.go.com/Business/wireStory/britains-daily-mail-publisher-enters-exclusive-talks-buy-127779072",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-22T12:49:55.000Z",
-      "relevanceScore": 56.46,
-      "recommendationScore": 56.96,
-      "tags": [
-        "Exclusive",
-        "Partnership"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -200,12 +199,25 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-11-24T06:01:27.000Z",
-      "relevanceScore": 48.7,
-      "recommendationScore": 49.2,
+      "relevanceScore": 51.14,
+      "recommendationScore": 51.64,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The Delete Button Dilemma: When to Soft Delete vs Hard Delete",
+      "link": "https://dev.to/akarshan/the-delete-button-dilemma-when-to-soft-delete-vs-hard-delete-3a0i",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2025-11-24T07:33:15.000Z",
+      "relevanceScore": 46.95,
+      "recommendationScore": 48.45,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Europe Is Bending the Knee to the US on Tech Policy",
@@ -213,8 +225,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-24T07:00:00.000Z",
-      "relevanceScore": 37.89,
-      "recommendationScore": 38.39,
+      "relevanceScore": 37.84,
+      "recommendationScore": 38.34,
       "tags": [
         "Tech",
         "Regulation"
@@ -222,43 +234,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "What to use for data preparation in report, query or analysis business?",
-      "link": "https://dev.to/esproc_spl/what-to-use-for-data-preparation-in-report-query-or-analysis-business-17c0",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-11-24T07:21:57.000Z",
-      "relevanceScore": 35.97,
-      "recommendationScore": 37.97,
-      "tags": [
-        "Business",
-        "Analysis",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "The 73 Best Deals From REI’s 2025 Holiday Sale",
       "link": "https://www.wired.com/story/rei-holiday-sale-nov-2025/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-23T14:31:44.000Z",
-      "relevanceScore": 35.6,
-      "recommendationScore": 36.6,
+      "relevanceScore": 35.54,
+      "recommendationScore": 36.54,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "MPs to question senior BBC figures after resignations and Trump row",
-      "link": "https://www.bbc.com/news/articles/c0jepgyl2jwo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-24T07:14:23.000Z",
-      "relevanceScore": 31.94,
-      "recommendationScore": 32.44,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Some of the best Nintendo Switch games are up to $30 off for Black Friday",
@@ -266,10 +250,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-23T19:00:00.000Z",
-      "relevanceScore": 31.49,
-      "recommendationScore": 32.99,
+      "relevanceScore": 33.94,
+      "recommendationScore": 35.44,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "MPs to question senior BBC figures after resignations and Trump row",
+      "link": "https://www.bbc.com/news/articles/c0jepgyl2jwo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-24T07:14:23.000Z",
+      "relevanceScore": 31.89,
+      "recommendationScore": 32.39,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Lord Cameron reveals he had prostate cancer",
@@ -277,8 +274,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-24T04:41:40.000Z",
-      "relevanceScore": 31.43,
-      "recommendationScore": 31.43,
+      "relevanceScore": 31.38,
+      "recommendationScore": 31.38,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -288,8 +285,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-23T21:11:05.000Z",
-      "relevanceScore": 26.93,
-      "recommendationScore": 28.93,
+      "relevanceScore": 26.87,
+      "recommendationScore": 28.87,
       "tags": [
         "Exclusive"
       ],
@@ -301,8 +298,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-24T03:41:49.000Z",
-      "relevanceScore": 25.23,
-      "recommendationScore": 25.23,
+      "relevanceScore": 25.18,
+      "recommendationScore": 25.18,
       "tags": [
         "Business"
       ],
@@ -314,8 +311,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-23T17:00:00.000Z",
-      "relevanceScore": 25.09,
-      "recommendationScore": 25.59,
+      "relevanceScore": 25.04,
+      "recommendationScore": 25.54,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -325,8 +322,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-23T16:53:45.000Z",
-      "relevanceScore": 25.07,
-      "recommendationScore": 27.57,
+      "relevanceScore": 25.02,
+      "recommendationScore": 27.52,
       "tags": [
         "Business"
       ],
@@ -338,8 +335,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-24T00:08:59.000Z",
-      "relevanceScore": 24.52,
-      "recommendationScore": 24.52,
+      "relevanceScore": 24.47,
+      "recommendationScore": 24.47,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -349,8 +346,8 @@
       "source": "Engadget",
       "category": "cybersecurity",
       "pubDate": "2025-11-24T07:00:36.000Z",
-      "relevanceScore": 23.89,
-      "recommendationScore": 24.39,
+      "relevanceScore": 23.84,
+      "recommendationScore": 24.34,
       "tags": [
         "Security",
         "Exclusive",
@@ -364,8 +361,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-11-23T18:55:41.000Z",
-      "relevanceScore": 23.48,
-      "recommendationScore": 23.98,
+      "relevanceScore": 23.42,
+      "recommendationScore": 23.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -375,19 +372,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-22T13:00:00.000Z",
-      "relevanceScore": 18.49,
-      "recommendationScore": 18.49,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Babies who drank ByHeart formula got sick months before botulism outbreak, parents say",
-      "link": "https://abcnews.go.com/Business/wireStory/babies-drank-byheart-formula-sick-months-botulism-outbreak-127779823",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-11-22T14:21:22.000Z",
-      "relevanceScore": 17.76,
-      "recommendationScore": 18.26,
+      "relevanceScore": 18.44,
+      "recommendationScore": 18.44,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -397,35 +383,50 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-22T12:00:20.000Z",
-      "relevanceScore": 17.29,
-      "recommendationScore": 17.79,
+      "relevanceScore": 17.24,
+      "recommendationScore": 17.74,
       "tags": [],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
-    "development": [
+    "business": [
       {
-        "title": "How SuburbStory Uses Asyncio to Pull Multi-Source Government Data in Parallel",
-        "link": "https://dev.to/roberttidball/how-suburbstory-uses-asyncio-to-pull-multi-source-government-data-in-parallel-28d8",
-        "source": "Dev.to",
-        "pubDate": "2025-11-24T07:16:16.000Z",
-        "relevanceScore": 182.95,
+        "title": "Stores keep prices down in a tough year for turkeys. Other Thanksgiving foods may cost more",
+        "link": "https://abcnews.go.com/Business/wireStory/stores-prices-tough-year-turkeys-thanksgiving-foods-cost-127814619",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-24T07:01:51.000Z",
+        "relevanceScore": 395.84,
+        "tags": []
+      },
+      {
+        "title": "Takeoff of China's flying taxis hits turbulence",
+        "link": "https://abcnews.go.com/Business/wireStory/takeoff-chinas-flying-taxis-hits-turbulence-127811398",
+        "source": "ABC News Business",
+        "pubDate": "2025-11-24T03:41:49.000Z",
+        "relevanceScore": 25.18,
         "tags": [
-          "Update",
-          "IPO"
+          "Business"
         ]
       },
       {
-        "title": "What to use for data preparation in report, query or analysis business?",
-        "link": "https://dev.to/esproc_spl/what-to-use-for-data-preparation-in-report-query-or-analysis-business-17c0",
+        "title": "Opinion: Jamal Khashoggi's words live forever",
+        "link": "https://www.npr.org/2025/11/22/nx-s1-5610434/opinion-jamal-khashoggis-words-live-forever",
+        "source": "NPR Business",
+        "pubDate": "2025-11-22T13:00:00.000Z",
+        "relevanceScore": 18.44,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "Multithreading Demystified: The Real Difference Between Concurrency and Parallelism",
+        "link": "https://dev.to/mohammed_27c42362d82e94dd/multithreading-demystified-the-real-difference-between-concurrency-and-parallelism-58a7",
         "source": "Dev.to",
-        "pubDate": "2025-11-24T07:21:57.000Z",
-        "relevanceScore": 35.97,
+        "pubDate": "2025-11-24T07:37:47.000Z",
+        "relevanceScore": 257.96,
         "tags": [
-          "Business",
-          "Analysis",
-          "Report"
+          "Tech"
         ]
       }
     ],
@@ -435,7 +436,7 @@
         "link": "https://www.bbc.com/news/articles/c8e9l1p42z8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-24T01:35:26.000Z",
-        "relevanceScore": 173.81,
+        "relevanceScore": 177.76,
         "tags": []
       },
       {
@@ -443,7 +444,7 @@
         "link": "https://www.bbc.com/news/articles/c5y0y56x6veo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-24T00:24:45.000Z",
-        "relevanceScore": 69.57,
+        "relevanceScore": 62.02,
         "tags": [
           "Exclusive"
         ]
@@ -453,7 +454,7 @@
         "link": "https://www.bbc.com/news/articles/c1dz7gr042no?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-24T00:01:18.000Z",
-        "relevanceScore": 69.5,
+        "relevanceScore": 61.94,
         "tags": [
           "Business"
         ]
@@ -463,7 +464,7 @@
         "link": "https://www.bbc.com/news/articles/c0jepgyl2jwo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-24T07:14:23.000Z",
-        "relevanceScore": 31.94,
+        "relevanceScore": 31.89,
         "tags": [
           "Exclusive"
         ]
@@ -473,7 +474,7 @@
         "link": "https://www.bbc.com/news/articles/cvgkwn0l771o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-24T04:41:40.000Z",
-        "relevanceScore": 31.43,
+        "relevanceScore": 31.38,
         "tags": []
       }
     ],
@@ -483,7 +484,7 @@
         "link": "https://www.engadget.com/gaming/two-playdate-games-about-cheese-and-spooky-campfire-stories-with-a-twist-232516706.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-23T23:25:16.000Z",
-        "relevanceScore": 166.38,
+        "relevanceScore": 170.32,
         "tags": []
       },
       {
@@ -491,7 +492,7 @@
         "link": "https://www.wired.com/gallery/best-air-purifiers/",
         "source": "Wired",
         "pubDate": "2025-11-23T15:04:00.000Z",
-        "relevanceScore": 61.71,
+        "relevanceScore": 54.15,
         "tags": []
       },
       {
@@ -499,7 +500,7 @@
         "link": "https://www.wired.com/story/europe-bends-us-digital-policies-eu-ai-act/",
         "source": "Wired",
         "pubDate": "2025-11-24T07:00:00.000Z",
-        "relevanceScore": 37.89,
+        "relevanceScore": 37.84,
         "tags": [
           "Tech",
           "Regulation"
@@ -510,7 +511,7 @@
         "link": "https://www.wired.com/story/rei-holiday-sale-nov-2025/",
         "source": "Wired",
         "pubDate": "2025-11-23T14:31:44.000Z",
-        "relevanceScore": 35.6,
+        "relevanceScore": 35.54,
         "tags": []
       },
       {
@@ -518,7 +519,7 @@
         "link": "https://www.theverge.com/gadgets/826416/best-nintendo-black-friday-deals-switch-games-amiibo-sale-2025",
         "source": "The Verge",
         "pubDate": "2025-11-23T19:00:00.000Z",
-        "relevanceScore": 31.49,
+        "relevanceScore": 33.94,
         "tags": []
       },
       {
@@ -526,7 +527,7 @@
         "link": "https://techcrunch.com/2025/11/23/xs-new-about-this-account-feature-is-going-great/",
         "source": "TechCrunch",
         "pubDate": "2025-11-23T21:11:05.000Z",
-        "relevanceScore": 26.93,
+        "relevanceScore": 26.87,
         "tags": [
           "Exclusive"
         ]
@@ -536,7 +537,7 @@
         "link": "https://techcrunch.com/2025/11/23/techcrunch-mobility-searching-for-the-robotaxi-tipping-point/",
         "source": "TechCrunch",
         "pubDate": "2025-11-23T17:00:00.000Z",
-        "relevanceScore": 25.09,
+        "relevanceScore": 25.04,
         "tags": []
       },
       {
@@ -544,7 +545,7 @@
         "link": "https://techcrunch.com/2025/11/23/beehiivs-ceo-isnt-worried-about-newsletter-saturation/",
         "source": "TechCrunch",
         "pubDate": "2025-11-23T16:53:45.000Z",
-        "relevanceScore": 25.07,
+        "relevanceScore": 25.02,
         "tags": [
           "Business"
         ]
@@ -554,7 +555,7 @@
         "link": "https://www.theverge.com/news/827390/doge-is-no-more-and-in-its-wake-only-chaos",
         "source": "The Verge",
         "pubDate": "2025-11-24T00:08:59.000Z",
-        "relevanceScore": 24.52,
+        "relevanceScore": 24.47,
         "tags": []
       },
       {
@@ -562,7 +563,7 @@
         "link": "https://www.theverge.com/news/827279/xs-messy-about-this-account-rollout-has-caused-utter-chaos",
         "source": "The Verge",
         "pubDate": "2025-11-23T18:55:41.000Z",
-        "relevanceScore": 23.48,
+        "relevanceScore": 23.42,
         "tags": []
       },
       {
@@ -570,7 +571,7 @@
         "link": "https://arstechnica.com/security/2025/11/this-hacker-conference-installed-a-literal-antivirus-monitoring-system/",
         "source": "Ars Technica",
         "pubDate": "2025-11-22T12:00:20.000Z",
-        "relevanceScore": 17.29,
+        "relevanceScore": 17.24,
         "tags": []
       }
     ],
@@ -580,7 +581,7 @@
         "link": "https://www.wired.com/gallery/best-magsafe-wallets/",
         "source": "Wired",
         "pubDate": "2025-11-23T14:00:00.000Z",
-        "relevanceScore": 144.49,
+        "relevanceScore": 146.44,
         "tags": [
           "Mobile"
         ]
@@ -590,7 +591,7 @@
         "link": "https://www.engadget.com/deals/one-year-of-headspace-drops-to-35-for-black-friday-163051394.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-24T06:01:27.000Z",
-        "relevanceScore": 48.7,
+        "relevanceScore": 51.14,
         "tags": [
           "Mobile"
         ]
@@ -602,10 +603,20 @@
         "link": "https://www.engadget.com/deals/black-friday-subscription-deals-2025-early-sales-on-apple-tv-masterclass-fubo-rosetta-stone-and-more-180000334.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-23T21:00:37.000Z",
-        "relevanceScore": 129.89,
+        "relevanceScore": 134.84,
         "tags": [
           "Security",
           "Partnership"
+        ]
+      },
+      {
+        "title": "The Delete Button Dilemma: When to Soft Delete vs Hard Delete",
+        "link": "https://dev.to/akarshan/the-delete-button-dilemma-when-to-soft-delete-vs-hard-delete-3a0i",
+        "source": "Dev.to",
+        "pubDate": "2025-11-24T07:33:15.000Z",
+        "relevanceScore": 46.95,
+        "tags": [
+          "Security"
         ]
       },
       {
@@ -613,7 +624,7 @@
         "link": "https://www.engadget.com/deals/get-one-year-of-peacock-for-49-for-black-friday-with-this-hack-192739785.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-24T07:00:36.000Z",
-        "relevanceScore": 23.89,
+        "relevanceScore": 23.84,
         "tags": [
           "Security",
           "Exclusive",
@@ -627,7 +638,7 @@
         "link": "https://techcrunch.com/2025/11/23/roblox-ceo-interview-gets-heated-over-child-safety/",
         "source": "TechCrunch",
         "pubDate": "2025-11-23T21:58:04.000Z",
-        "relevanceScore": 67.09,
+        "relevanceScore": 69.03,
         "tags": [
           "Interview"
         ]
@@ -639,17 +650,7 @@
         "link": "https://techcrunch.com/2025/11/23/ai-is-too-risky-to-insure-say-people-whose-job-is-insuring-risk/",
         "source": "TechCrunch",
         "pubDate": "2025-11-23T17:45:00.000Z",
-        "relevanceScore": 64.24,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Emergent Mind - Philosophy & Architecture",
-        "link": "https://dev.to/vaticnz/emergent-mind-philosophy-architecture-3km7",
-        "source": "Dev.to",
-        "pubDate": "2025-11-24T07:20:24.000Z",
-        "relevanceScore": 62.96,
+        "relevanceScore": 56.69,
         "tags": [
           "AI"
         ]
@@ -659,10 +660,24 @@
         "link": "https://www.npr.org/2025/11/23/nx-s1-5615410/ai-bubble-nvidia-openai-revenue-bust-data-centers",
         "source": "NPR Business",
         "pubDate": "2025-11-23T10:00:00.000Z",
-        "relevanceScore": 62.19,
+        "relevanceScore": 54.64,
         "tags": [
           "AI",
           "Tech"
+        ]
+      }
+    ],
+    "startup": [
+      {
+        "title": "I Built an Automated Payment Recovery System That Recovers 3x More Failed Payments",
+        "link": "https://dev.to/etherlabsdev/i-built-an-automated-payment-recovery-system-that-recovers-3x-more-failed-payments-epg",
+        "source": "Dev.to",
+        "pubDate": "2025-11-24T07:40:47.000Z",
+        "relevanceScore": 55.97,
+        "tags": [
+          "Science",
+          "Startup",
+          "Report"
         ]
       }
     ],
@@ -672,57 +687,18 @@
         "link": "https://www.theverge.com/news/827298/about-this-account-reveals-the-scale-of-xs-foreign-troll-problem",
         "source": "The Verge",
         "pubDate": "2025-11-23T21:36:32.000Z",
-        "relevanceScore": 62.51,
+        "relevanceScore": 54.96,
         "tags": [
           "Social",
           "Launch"
         ]
       }
-    ],
-    "business": [
-      {
-        "title": "Britain's Daily Mail publisher enters exclusive talks to buy Telegraph Media Group for $654 million",
-        "link": "https://abcnews.go.com/Business/wireStory/britains-daily-mail-publisher-enters-exclusive-talks-buy-127779072",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-22T12:49:55.000Z",
-        "relevanceScore": 56.46,
-        "tags": [
-          "Exclusive",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Takeoff of China's flying taxis hits turbulence",
-        "link": "https://abcnews.go.com/Business/wireStory/takeoff-chinas-flying-taxis-hits-turbulence-127811398",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-24T03:41:49.000Z",
-        "relevanceScore": 25.23,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Opinion: Jamal Khashoggi's words live forever",
-        "link": "https://www.npr.org/2025/11/22/nx-s1-5610434/opinion-jamal-khashoggis-words-live-forever",
-        "source": "NPR Business",
-        "pubDate": "2025-11-22T13:00:00.000Z",
-        "relevanceScore": 18.49,
-        "tags": []
-      },
-      {
-        "title": "Babies who drank ByHeart formula got sick months before botulism outbreak, parents say",
-        "link": "https://abcnews.go.com/Business/wireStory/babies-drank-byheart-formula-sick-months-botulism-outbreak-127779823",
-        "source": "ABC News Business",
-        "pubDate": "2025-11-22T14:21:22.000Z",
-        "relevanceScore": 17.76,
-        "tags": []
-      }
     ]
   },
   "stats": {
     "totalSources": 9,
-    "totalCategories": 9,
-    "avgRelevanceScore": 59.82322580645162,
+    "totalCategories": 10,
+    "avgRelevanceScore": 74.35866666666668,
     "topCategories": [
       {
         "category": "tech",
@@ -734,14 +710,14 @@
       },
       {
         "category": "business",
-        "count": 4
-      },
-      {
-        "category": "ai-ml",
         "count": 3
       },
       {
-        "category": "development",
+        "category": "cybersecurity",
+        "count": 3
+      },
+      {
+        "category": "mobile",
         "count": 2
       }
     ]
