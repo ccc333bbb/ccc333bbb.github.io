@@ -1,49 +1,35 @@
 {
-  "lastUpdated": "2025-11-28T17:13:12.068Z",
+  "lastUpdated": "2025-11-28T17:31:16.011Z",
   "totalArticles": 50,
   "categories": [
-    "gaming",
-    "ai-ml",
     "development",
+    "ai-ml",
     "cybersecurity",
-    "startup",
     "science",
-    "cloud",
+    "startup",
     "tech",
     "health",
     "climate",
+    "social",
     "business",
     "general",
-    "finance",
-    "world",
+    "gaming",
     "mobile",
+    "world",
+    "finance",
     "entertainment"
   ],
   "topArticles": [
     {
-      "title": "12 Best Black Friday Gaming Deals (2025): PS5 Pro, Viture Glasses, and More",
-      "link": "https://www.wired.com/story/best-black-friday-gaming-deals/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2025-11-28T15:50:13.000Z",
-      "relevanceScore": 1228.72,
-      "recommendationScore": 1230.22,
+      "title": "Day 4 : Terraform State File and Remote Backend",
+      "link": "https://dev.to/alafiz/day-4-terraform-state-file-and-remote-backend-2mji",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-28T17:21:38.000Z",
+      "relevanceScore": 1144.47,
+      "recommendationScore": 1144.47,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "How OpenAI and Google see AI changing go-to-market strategies",
-      "link": "https://techcrunch.com/2025/11/28/how-openai-and-google-see-ai-changing-go-to-market-strategies/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-11-28T16:00:00.000Z",
-      "relevanceScore": 1023.26,
-      "recommendationScore": 1025.26,
-      "tags": [
-        "AI",
-        "Business"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Lightning-as-a-service for agriculture",
@@ -51,9 +37,23 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2025-11-28T08:40:00.000Z",
-      "relevanceScore": 998.79,
-      "recommendationScore": 998.79,
+      "relevanceScore": 1054.73,
+      "recommendationScore": 1054.73,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How OpenAI and Google see AI changing go-to-market strategies",
+      "link": "https://techcrunch.com/2025/11/28/how-openai-and-google-see-ai-changing-go-to-market-strategies/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-11-28T16:00:00.000Z",
+      "relevanceScore": 1053.2,
+      "recommendationScore": 1055.2,
+      "tags": [
+        "AI",
+        "Business"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -62,8 +62,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-11-28T15:00:00.000Z",
-      "relevanceScore": 841.06,
-      "recommendationScore": 844.06,
+      "relevanceScore": 869,
+      "recommendationScore": 872,
       "tags": [
         "AI",
         "Tech",
@@ -77,39 +77,12 @@
       "source": "Engadget",
       "category": "cybersecurity",
       "pubDate": "2025-11-28T16:59:16.000Z",
-      "relevanceScore": 825.95,
-      "recommendationScore": 825.95,
+      "relevanceScore": 841.89,
+      "recommendationScore": 841.89,
       "tags": [
         "Business",
         "Security",
         "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Windows 11 will allow AI apps to access your personal files or folders using File Explorer integration",
-      "link": "https://www.reddit.com/r/technology/comments/1p8qlu8/windows_11_will_allow_ai_apps_to_access_your/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-11-28T09:23:25.000Z",
-      "relevanceScore": 735.93,
-      "recommendationScore": 735.93,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Anduril’s autonomous weapons stumble in tests and combat, WSJ reports",
-      "link": "https://techcrunch.com/2025/11/27/andurils-autonomous-weapons-stumble-in-tests-and-combat-wsj-reports/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-11-28T05:07:47.000Z",
-      "relevanceScore": 733.58,
-      "recommendationScore": 734.08,
-      "tags": [
-        "Tech",
-        "Startup"
       ],
       "readingLevel": "advanced"
     },
@@ -119,8 +92,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2025-11-28T13:10:00.000Z",
-      "relevanceScore": 708.69,
-      "recommendationScore": 709.19,
+      "relevanceScore": 743.63,
+      "recommendationScore": 744.13,
       "tags": [
         "AI",
         "Tech",
@@ -134,8 +107,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-11-28T10:00:00.000Z",
-      "relevanceScore": 708.06,
-      "recommendationScore": 709.56,
+      "relevanceScore": 743,
+      "recommendationScore": 744.5,
       "tags": [
         "Tech",
         "Exclusive"
@@ -143,17 +116,31 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Stop Waiting for the Cloud: Building a Hybrid SQL+Python Data Pipeline Locally with DuckDB",
-      "link": "https://dev.to/markolekic/stop-waiting-for-the-cloud-building-a-hybrid-sqlpython-data-pipeline-locally-with-duckdb-438j",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-28T16:59:05.000Z",
-      "relevanceScore": 628.95,
-      "recommendationScore": 630.45,
+      "title": "Anduril’s autonomous weapons stumble in tests and combat, WSJ reports",
+      "link": "https://techcrunch.com/2025/11/27/andurils-autonomous-weapons-stumble-in-tests-and-combat-wsj-reports/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-11-28T05:07:47.000Z",
+      "relevanceScore": 739.52,
+      "recommendationScore": 740.02,
       "tags": [
-        "Cloud"
+        "Tech",
+        "Startup"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Windows 11 will allow AI apps to access your personal files or folders using File Explorer integration",
+      "link": "https://www.reddit.com/r/technology/comments/1p8qlu8/windows_11_will_allow_ai_apps_to_access_your/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-11-28T09:23:25.000Z",
+      "relevanceScore": 714.87,
+      "recommendationScore": 714.87,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "JEP draft: Windows/gcc Port",
@@ -161,8 +148,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-11-28T08:21:24.000Z",
-      "relevanceScore": 569.73,
-      "recommendationScore": 569.73,
+      "relevanceScore": 597.67,
+      "recommendationScore": 597.67,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -172,8 +159,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2025-11-28T14:02:44.000Z",
-      "relevanceScore": 551.87,
-      "recommendationScore": 552.37,
+      "relevanceScore": 580.8,
+      "recommendationScore": 581.3,
       "tags": [
         "Partnership"
       ],
@@ -185,25 +172,10 @@
       "source": "NPR Business",
       "category": "health",
       "pubDate": "2025-11-26T21:05:50.000Z",
-      "relevanceScore": 547.18,
-      "recommendationScore": 549.18,
+      "relevanceScore": 576.12,
+      "recommendationScore": 578.12,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Console.log(Paper): Mengapa Developer & Startup Masih Butuh 'Physical Stack' di Era Digital",
-      "link": "https://dev.to/mightyblue/consolelogpaper-mengapa-developer-startup-masih-butuh-physical-stack-di-era-digital-1i63",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-11-28T17:00:00.000Z",
-      "relevanceScore": 395.46,
-      "recommendationScore": 395.96,
-      "tags": [
-        "Tech",
-        "Web",
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Google CEO Pushes ‘Vibe Coding’ — But Real Developers Know It's Not Magic",
@@ -211,10 +183,23 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2025-11-28T17:06:44.000Z",
-      "relevanceScore": 385.48,
-      "recommendationScore": 385.98,
+      "relevanceScore": 401.42,
+      "recommendationScore": 401.92,
       "tags": [
         "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Now live: U.S. Network APIs + Video API updates",
+      "link": "https://dev.to/vonagedev/now-live-us-network-apis-video-api-updates-4fk0",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-11-28T17:19:10.000Z",
+      "relevanceScore": 387.46,
+      "recommendationScore": 387.46,
+      "tags": [
+        "Launch"
       ],
       "readingLevel": "intermediate"
     },
@@ -224,8 +209,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-11-28T16:16:48.000Z",
-      "relevanceScore": 341.81,
-      "recommendationScore": 344.31,
+      "relevanceScore": 361.75,
+      "recommendationScore": 364.25,
       "tags": [
         "Launch"
       ],
@@ -237,10 +222,36 @@
       "source": "MIT Technology Review",
       "category": "climate",
       "pubDate": "2025-11-27T13:10:00.000Z",
-      "relevanceScore": 321.89,
-      "recommendationScore": 323.39,
+      "relevanceScore": 346.83,
+      "recommendationScore": 348.33,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best robot vacuums",
+      "link": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-11-28T17:19:32.000Z",
+      "relevanceScore": 211.46,
+      "recommendationScore": 212.46,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Okay, which of you are still using Facebook?",
+      "link": "https://www.theverge.com/news/832132/pew-social-media-landscape-2025",
+      "source": "The Verge",
+      "category": "social",
+      "pubDate": "2025-11-28T17:29:56.000Z",
+      "relevanceScore": 189.5,
+      "recommendationScore": 189.5,
+      "tags": [
+        "Science",
+        "Social",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -250,8 +261,8 @@
       "source": "NPR Business",
       "category": "health",
       "pubDate": "2025-11-26T21:05:28.000Z",
-      "relevanceScore": 173.67,
-      "recommendationScore": 174.17,
+      "relevanceScore": 179.61,
+      "recommendationScore": 180.11,
       "tags": [
         "Science",
         "Report"
@@ -264,45 +275,31 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-28T07:44:33.000Z",
-      "relevanceScore": 154.1,
-      "recommendationScore": 154.6,
+      "relevanceScore": 161.04,
+      "recommendationScore": 161.54,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The best Black Friday deals on AirPods, AirTags, and other Apple gear",
-      "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+      "title": "Black Friday deals on chargers and power banks we love from Anker and more",
+      "link": "https://www.theverge.com/gadgets/831598/black-friday-2025-chargers-power-banks-batteries-deal-sale",
       "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-11-28T17:11:18.000Z",
-      "relevanceScore": 56.49,
-      "recommendationScore": 57.99,
+      "pubDate": "2025-11-28T17:15:00.000Z",
+      "relevanceScore": 160.95,
+      "recommendationScore": 161.45,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Zelensky's chief of staff resigns after Ukrainian anti-corruption raid on his home",
-      "link": "https://www.bbc.com/news/articles/ckg9nd2wddno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-11-28T17:10:26.000Z",
-      "relevanceScore": 54.49,
-      "recommendationScore": 54.99,
+      "title": "The Best Black Friday Pod Coffee Maker Deals, According to a Daily User (2025)",
+      "link": "https://www.wired.com/story/best-pod-coffee-maker-black-friday-deals-2025/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-28T16:56:40.000Z",
+      "relevanceScore": 65.38,
+      "recommendationScore": 66.88,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Training LLMs on Mixed GPUs: My Experiments and What I Learnt",
-      "link": "https://dev.to/rushichaudhari/training-llms-on-mixed-gpus-my-experiments-and-what-i-learnt-1k7n",
-      "source": "Dev.to",
-      "category": "finance",
-      "pubDate": "2025-11-28T16:59:38.000Z",
-      "relevanceScore": 54.45,
-      "recommendationScore": 56.45,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -311,21 +308,35 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-28T15:10:49.000Z",
-      "relevanceScore": 54.09,
-      "recommendationScore": 54.59,
+      "relevanceScore": 62.53,
+      "recommendationScore": 63.03,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "The Best Black Friday Pod Coffee Maker Deals, According to a Daily User (2025)",
-      "link": "https://www.wired.com/story/best-pod-coffee-maker-black-friday-deals-2025/",
-      "source": "Wired",
+      "title": "Black Friday PS5 deals: Sony takes $100 off consoles, plus discounts on PlayStation games, accessories and more",
+      "link": "https://www.engadget.com/deals/black-friday-ps5-deals-sony-takes-100-off-consoles-plus-discounts-on-playstation-games-accessories-and-more-145622822.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-11-28T17:00:27.000Z",
+      "relevanceScore": 61.9,
+      "recommendationScore": 61.9,
+      "tags": [
+        "Tech",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The best Black Friday deals on AirPods, AirTags, and other Apple gear",
+      "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+      "source": "The Verge",
       "category": "tech",
-      "pubDate": "2025-11-28T16:56:40.000Z",
-      "relevanceScore": 49.44,
-      "recommendationScore": 50.94,
+      "pubDate": "2025-11-28T17:11:18.000Z",
+      "relevanceScore": 56.93,
+      "recommendationScore": 58.43,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "This expert watches shoppers like a hawk. Here's her holiday forecast",
@@ -333,11 +344,22 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-11-28T10:00:00.000Z",
-      "relevanceScore": 49.06,
-      "recommendationScore": 49.56,
+      "relevanceScore": 54,
+      "recommendationScore": 54.5,
       "tags": [
         "Business"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zelensky's chief of staff resigns after Ukrainian anti-corruption raid on his home",
+      "link": "https://www.bbc.com/news/articles/ckg9nd2wddno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-11-28T17:30:18.000Z",
+      "relevanceScore": 53.5,
+      "recommendationScore": 54,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -346,23 +368,20 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-28T07:33:01.000Z",
-      "relevanceScore": 46.57,
-      "recommendationScore": 47.07,
+      "relevanceScore": 45.51,
+      "recommendationScore": 46.01,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Black Friday PS5 deals: Sony takes $100 off consoles, plus discounts on PlayStation games, accessories and more",
-      "link": "https://www.engadget.com/deals/black-friday-ps5-deals-sony-takes-100-off-consoles-plus-discounts-on-playstation-games-accessories-and-more-145622822.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-11-28T17:00:27.000Z",
-      "relevanceScore": 45.96,
-      "recommendationScore": 45.96,
-      "tags": [
-        "Tech",
-        "Partnership"
-      ],
+      "title": "Safely Migrating Singletons to Swift 6",
+      "link": "https://dev.to/arshtechpro/safely-migrating-singletons-to-swift-6-4nm8",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2025-11-28T17:25:19.000Z",
+      "relevanceScore": 45.48,
+      "recommendationScore": 45.48,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -371,8 +390,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-28T13:50:31.000Z",
-      "relevanceScore": 45.82,
-      "recommendationScore": 46.32,
+      "relevanceScore": 44.76,
+      "recommendationScore": 45.26,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -382,8 +401,8 @@
       "source": "Reddit Programming",
       "category": "mobile",
       "pubDate": "2025-11-28T15:36:09.000Z",
-      "relevanceScore": 44.18,
-      "recommendationScore": 44.18,
+      "relevanceScore": 43.12,
+      "recommendationScore": 43.12,
       "tags": [
         "Mobile",
         "Tutorial"
@@ -396,10 +415,37 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-28T04:02:29.000Z",
-      "relevanceScore": 43.86,
-      "recommendationScore": 46.36,
+      "relevanceScore": 42.8,
+      "recommendationScore": 45.3,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Black Friday TV deals 2025: Sets from Samsung, LG, Sony and more are at all-time low prices for the biggest sales event of the year",
+      "link": "https://www.engadget.com/deals/black-friday-tv-deals-2025-sets-from-samsung-lg-sony-and-more-are-at-all-time-low-prices-for-the-biggest-sales-event-of-the-year-181143634.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-11-28T17:15:49.000Z",
+      "relevanceScore": 40.95,
+      "recommendationScore": 40.95,
+      "tags": [
+        "Web",
+        "Update"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "125 Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
+      "link": "https://www.wired.com/story/black-friday-deals-2025-1/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-11-28T16:34:44.000Z",
+      "relevanceScore": 35.31,
+      "recommendationScore": 36.81,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "No 10 denies Reeves misled public in run-up to Budget",
@@ -407,8 +453,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-28T16:59:57.000Z",
-      "relevanceScore": 31.96,
-      "recommendationScore": 32.46,
+      "relevanceScore": 31.9,
+      "recommendationScore": 32.4,
       "tags": [
         "IPO"
       ],
@@ -420,9 +466,35 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-28T15:56:36.000Z",
-      "relevanceScore": 31.24,
-      "recommendationScore": 31.74,
+      "relevanceScore": 31.18,
+      "recommendationScore": 31.68,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Supreme Court Is About to Hear a Case That Could Rewrite Internet Access",
+      "link": "https://www.reddit.com/r/technology/comments/1p8wdcj/the_supreme_court_is_about_to_hear_a_case_that/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2025-11-28T14:36:20.000Z",
+      "relevanceScore": 30.92,
+      "recommendationScore": 31.42,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "We put the new pocket-size vinyl format to the test—with mixed results",
+      "link": "https://arstechnica.com/gadgets/2025/11/we-put-the-new-pocket-sized-vinyl-format-to-the-test-with-mixed-results/",
+      "source": "Ars Technica",
+      "category": "finance",
+      "pubDate": "2025-11-28T12:00:04.000Z",
+      "relevanceScore": 30.9,
+      "recommendationScore": 33.4,
+      "tags": [
+        "Business"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -431,12 +503,23 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2025-11-28T11:23:32.000Z",
-      "relevanceScore": 30.83,
-      "recommendationScore": 31.33,
+      "relevanceScore": 30.77,
+      "recommendationScore": 31.27,
       "tags": [
         "Regulation"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "ModRetro launches its take on the Nintendo 64",
+      "link": "https://www.engadget.com/gaming/nintendo/modretro-launches-its-take-on-the-nintendo-64-170000967.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-11-28T17:00:00.000Z",
+      "relevanceScore": 29.9,
+      "recommendationScore": 31.9,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "SoftBank stays in as Meesho $606M IPO becomes India’s first major e-commerce listing",
@@ -444,8 +527,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-11-28T16:09:00.000Z",
-      "relevanceScore": 27.79,
-      "recommendationScore": 30.29,
+      "relevanceScore": 27.73,
+      "recommendationScore": 30.23,
       "tags": [
         "Startup",
         "Exclusive",
@@ -459,23 +542,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-11-28T14:41:51.000Z",
-      "relevanceScore": 27.5,
-      "recommendationScore": 29,
+      "relevanceScore": 27.44,
+      "recommendationScore": 28.94,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "ModRetro recreated the N64 controller for its M64 console",
-      "link": "https://www.theverge.com/news/831498/modretro-m64-console-4k-fpga-nintendo-64-clone",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-11-28T17:00:00.000Z",
-      "relevanceScore": 26.96,
-      "recommendationScore": 27.46,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "10 Best Black Friday Phone Deals (2025)",
@@ -483,8 +553,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-11-28T15:54:08.000Z",
-      "relevanceScore": 26.74,
-      "recommendationScore": 27.74,
+      "relevanceScore": 26.68,
+      "recommendationScore": 27.68,
       "tags": [
         "Update"
       ],
@@ -496,19 +566,19 @@
       "source": "Ars Technica",
       "category": "entertainment",
       "pubDate": "2025-11-28T12:41:31.000Z",
-      "relevanceScore": 26.09,
-      "recommendationScore": 27.09,
+      "relevanceScore": 26.03,
+      "recommendationScore": 27.03,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "These Lego kits for kids and adults are up to 50% off for Black Friday",
-      "link": "https://www.theverge.com/gadgets/831898/these-lego-kits-for-kids-and-adults-are-up-to-50-off-for-black-friday",
-      "source": "The Verge",
+      "title": "Black Friday Protein Powder Deals and Supplement Steals (2025)",
+      "link": "https://www.wired.com/story/protein-powder-black-friday-deals-2025/",
+      "source": "Wired",
       "category": "tech",
-      "pubDate": "2025-11-28T17:03:25.000Z",
-      "relevanceScore": 25.97,
-      "recommendationScore": 26.47,
+      "pubDate": "2025-11-28T17:27:25.000Z",
+      "relevanceScore": 25.99,
+      "recommendationScore": 26.49,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -518,34 +588,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-11-28T16:45:45.000Z",
-      "relevanceScore": 25.91,
-      "recommendationScore": 26.41,
+      "relevanceScore": 25.85,
+      "recommendationScore": 26.35,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Deck out your tree with ornaments of retro consoles, movie moments, and more",
-      "link": "https://www.theverge.com/tech/811614/best-christmas-ornaments-2025",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-11-28T16:40:55.000Z",
-      "relevanceScore": 25.89,
-      "recommendationScore": 26.39,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "125 Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
-      "link": "https://www.wired.com/story/black-friday-deals-2025-1/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-11-28T16:34:44.000Z",
-      "relevanceScore": 25.87,
-      "recommendationScore": 27.37,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "The ultimate gift guide for the developer in your life",
@@ -553,8 +599,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-11-28T13:08:56.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 25.69,
+      "relevanceScore": 25.13,
+      "recommendationScore": 25.63,
       "tags": [
         "Exclusive",
         "Tutorial"
@@ -567,43 +613,8 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2025-11-28T12:15:21.000Z",
-      "relevanceScore": 25.01,
-      "recommendationScore": 25.51,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "We put the new pocket-size vinyl format to the test—with mixed results",
-      "link": "https://arstechnica.com/gadgets/2025/11/we-put-the-new-pocket-sized-vinyl-format-to-the-test-with-mixed-results/",
-      "source": "Ars Technica",
-      "category": "finance",
-      "pubDate": "2025-11-28T12:00:04.000Z",
-      "relevanceScore": 24.96,
-      "recommendationScore": 27.46,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "ModRetro launches its take on the Nintendo 64",
-      "link": "https://www.engadget.com/gaming/nintendo/modretro-launches-its-take-on-the-nintendo-64-170000967.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-11-28T17:00:00.000Z",
-      "relevanceScore": 23.96,
-      "recommendationScore": 25.96,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Lego Black Friday deals are live: Save up to 44 percent on Star Wars, Disney, Harry Potter and other sets during the biggest holiday sale",
-      "link": "https://www.engadget.com/deals/lego-black-friday-deals-are-live-save-up-to-44-percent-on-star-wars-disney-harry-potter-and-other-sets-during-the-biggest-holiday-sale-155007005.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-11-28T16:47:43.000Z",
-      "relevanceScore": 23.92,
-      "recommendationScore": 23.92,
+      "relevanceScore": 24.95,
+      "recommendationScore": 25.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -613,22 +624,9 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-11-28T04:55:04.000Z",
-      "relevanceScore": 21.54,
-      "recommendationScore": 22.04,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Supreme Court Is About to Hear a Case That Could Rewrite Internet Access",
-      "link": "https://www.reddit.com/r/technology/comments/1p8wdcj/the_supreme_court_is_about_to_hear_a_case_that/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-11-28T14:36:20.000Z",
       "relevanceScore": 21.48,
       "recommendationScore": 21.98,
-      "tags": [
-        "Web"
-      ],
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -637,8 +635,8 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2025-11-27T13:19:51.000Z",
-      "relevanceScore": 20.42,
-      "recommendationScore": 20.92,
+      "relevanceScore": 20.36,
+      "recommendationScore": 20.86,
       "tags": [
         "Security",
         "Analysis",
@@ -648,51 +646,51 @@
     }
   ],
   "categoryIndex": {
-    "gaming": [
+    "development": [
       {
-        "title": "12 Best Black Friday Gaming Deals (2025): PS5 Pro, Viture Glasses, and More",
-        "link": "https://www.wired.com/story/best-black-friday-gaming-deals/",
-        "source": "Wired",
-        "pubDate": "2025-11-28T15:50:13.000Z",
-        "relevanceScore": 1228.72,
+        "title": "Day 4 : Terraform State File and Remote Backend",
+        "link": "https://dev.to/alafiz/day-4-terraform-state-file-and-remote-backend-2mji",
+        "source": "Dev.to",
+        "pubDate": "2025-11-28T17:21:38.000Z",
+        "relevanceScore": 1144.47,
         "tags": []
       },
       {
-        "title": "Black Friday PS5 deals: Sony takes $100 off consoles, plus discounts on PlayStation games, accessories and more",
-        "link": "https://www.engadget.com/deals/black-friday-ps5-deals-sony-takes-100-off-consoles-plus-discounts-on-playstation-games-accessories-and-more-145622822.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-28T17:00:27.000Z",
-        "relevanceScore": 45.96,
-        "tags": [
-          "Tech",
-          "Partnership"
-        ]
+        "title": "Lightning-as-a-service for agriculture",
+        "link": "https://stackoverflow.blog/2025/11/28/lightning-as-a-service-for-agriculture/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-11-28T08:40:00.000Z",
+        "relevanceScore": 1054.73,
+        "tags": []
       },
       {
-        "title": "ModRetro recreated the N64 controller for its M64 console",
-        "link": "https://www.theverge.com/news/831498/modretro-m64-console-4k-fpga-nintendo-64-clone",
-        "source": "The Verge",
-        "pubDate": "2025-11-28T17:00:00.000Z",
-        "relevanceScore": 26.96,
+        "title": "JEP draft: Windows/gcc Port",
+        "link": "https://www.reddit.com/r/programming/comments/1p8pnfr/jep_draft_windowsgcc_port/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-28T08:21:24.000Z",
+        "relevanceScore": 597.67,
+        "tags": []
+      },
+      {
+        "title": "Now live: U.S. Network APIs + Video API updates",
+        "link": "https://dev.to/vonagedev/now-live-us-network-apis-video-api-updates-4fk0",
+        "source": "Dev.to",
+        "pubDate": "2025-11-28T17:19:10.000Z",
+        "relevanceScore": 387.46,
         "tags": [
           "Launch"
         ]
       },
       {
-        "title": "Deck out your tree with ornaments of retro consoles, movie moments, and more",
-        "link": "https://www.theverge.com/tech/811614/best-christmas-ornaments-2025",
-        "source": "The Verge",
-        "pubDate": "2025-11-28T16:40:55.000Z",
-        "relevanceScore": 25.89,
-        "tags": []
-      },
-      {
-        "title": "ModRetro launches its take on the Nintendo 64",
-        "link": "https://www.engadget.com/gaming/nintendo/modretro-launches-its-take-on-the-nintendo-64-170000967.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-28T17:00:00.000Z",
-        "relevanceScore": 23.96,
-        "tags": []
+        "title": "The ultimate gift guide for the developer in your life",
+        "link": "https://github.blog/news-insights/company-news/the-ultimate-gift-guide-for-the-developer-in-your-life/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-11-28T13:08:56.000Z",
+        "relevanceScore": 25.13,
+        "tags": [
+          "Exclusive",
+          "Tutorial"
+        ]
       }
     ],
     "ai-ml": [
@@ -701,7 +699,7 @@
         "link": "https://techcrunch.com/2025/11/28/how-openai-and-google-see-ai-changing-go-to-market-strategies/",
         "source": "TechCrunch",
         "pubDate": "2025-11-28T16:00:00.000Z",
-        "relevanceScore": 1023.26,
+        "relevanceScore": 1053.2,
         "tags": [
           "AI",
           "Business"
@@ -712,7 +710,7 @@
         "link": "https://techcrunch.com/2025/11/28/the-race-to-regulate-ai-has-sparked-a-federal-vs-state-showdown/",
         "source": "TechCrunch",
         "pubDate": "2025-11-28T15:00:00.000Z",
-        "relevanceScore": 841.06,
+        "relevanceScore": 869,
         "tags": [
           "AI",
           "Tech",
@@ -720,21 +718,11 @@
         ]
       },
       {
-        "title": "Windows 11 will allow AI apps to access your personal files or folders using File Explorer integration",
-        "link": "https://www.reddit.com/r/technology/comments/1p8qlu8/windows_11_will_allow_ai_apps_to_access_your/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-11-28T09:23:25.000Z",
-        "relevanceScore": 735.93,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
         "title": "The Download: the mysteries surrounding weight-loss drugs, and the economic effects of AI",
         "link": "https://www.technologyreview.com/2025/11/28/1128516/the-download-the-mysteries-surrounding-weight-loss-drugs-and-the-economic-effects-of-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-28T13:10:00.000Z",
-        "relevanceScore": 708.69,
+        "relevanceScore": 743.63,
         "tags": [
           "AI",
           "Tech",
@@ -742,42 +730,23 @@
         ]
       },
       {
+        "title": "Windows 11 will allow AI apps to access your personal files or folders using File Explorer integration",
+        "link": "https://www.reddit.com/r/technology/comments/1p8qlu8/windows_11_will_allow_ai_apps_to_access_your/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-11-28T09:23:25.000Z",
+        "relevanceScore": 714.87,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "Google CEO Pushes ‘Vibe Coding’ — But Real Developers Know It's Not Magic",
         "link": "https://www.reddit.com/r/programming/comments/1p904p5/google_ceo_pushes_vibe_coding_but_real_developers/",
         "source": "Reddit Programming",
         "pubDate": "2025-11-28T17:06:44.000Z",
-        "relevanceScore": 385.48,
+        "relevanceScore": 401.42,
         "tags": [
           "AI"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Lightning-as-a-service for agriculture",
-        "link": "https://stackoverflow.blog/2025/11/28/lightning-as-a-service-for-agriculture/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-11-28T08:40:00.000Z",
-        "relevanceScore": 998.79,
-        "tags": []
-      },
-      {
-        "title": "JEP draft: Windows/gcc Port",
-        "link": "https://www.reddit.com/r/programming/comments/1p8pnfr/jep_draft_windowsgcc_port/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-28T08:21:24.000Z",
-        "relevanceScore": 569.73,
-        "tags": []
-      },
-      {
-        "title": "The ultimate gift guide for the developer in your life",
-        "link": "https://github.blog/news-insights/company-news/the-ultimate-gift-guide-for-the-developer-in-your-life/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-11-28T13:08:56.000Z",
-        "relevanceScore": 25.19,
-        "tags": [
-          "Exclusive",
-          "Tutorial"
         ]
       }
     ],
@@ -787,7 +756,7 @@
         "link": "https://www.engadget.com/deals/black-friday-speaker-deals-2025-save-up-to-50-percent-on-bluetooth-speakers-smart-speakers-and-soundbars-091904603.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-11-28T16:59:16.000Z",
-        "relevanceScore": 825.95,
+        "relevanceScore": 841.89,
         "tags": [
           "Business",
           "Security",
@@ -799,11 +768,24 @@
         "link": "https://www.bbc.com/news/articles/cgmn991pz9jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-27T13:19:51.000Z",
-        "relevanceScore": 20.42,
+        "relevanceScore": 20.36,
         "tags": [
           "Security",
           "Analysis",
           "Launch"
+        ]
+      }
+    ],
+    "science": [
+      {
+        "title": "What we still don’t know about weight-loss drugs",
+        "link": "https://www.technologyreview.com/2025/11/28/1128511/what-we-still-dont-know-about-weight-loss-drugs/",
+        "source": "MIT Technology Review",
+        "pubDate": "2025-11-28T10:00:00.000Z",
+        "relevanceScore": 743,
+        "tags": [
+          "Tech",
+          "Exclusive"
         ]
       }
     ],
@@ -813,7 +795,7 @@
         "link": "https://techcrunch.com/2025/11/27/andurils-autonomous-weapons-stumble-in-tests-and-combat-wsj-reports/",
         "source": "TechCrunch",
         "pubDate": "2025-11-28T05:07:47.000Z",
-        "relevanceScore": 733.58,
+        "relevanceScore": 739.52,
         "tags": [
           "Tech",
           "Startup"
@@ -824,48 +806,11 @@
         "link": "https://techcrunch.com/2025/11/28/softbank-stays-in-as-meesho-606m-ipo-becomes-indias-first-major-e-commerce-listing/",
         "source": "TechCrunch",
         "pubDate": "2025-11-28T16:09:00.000Z",
-        "relevanceScore": 27.79,
+        "relevanceScore": 27.73,
         "tags": [
           "Startup",
           "Exclusive",
           "IPO"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "What we still don’t know about weight-loss drugs",
-        "link": "https://www.technologyreview.com/2025/11/28/1128511/what-we-still-dont-know-about-weight-loss-drugs/",
-        "source": "MIT Technology Review",
-        "pubDate": "2025-11-28T10:00:00.000Z",
-        "relevanceScore": 708.06,
-        "tags": [
-          "Tech",
-          "Exclusive"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Stop Waiting for the Cloud: Building a Hybrid SQL+Python Data Pipeline Locally with DuckDB",
-        "link": "https://dev.to/markolekic/stop-waiting-for-the-cloud-building-a-hybrid-sqlpython-data-pipeline-locally-with-duckdb-438j",
-        "source": "Dev.to",
-        "pubDate": "2025-11-28T16:59:05.000Z",
-        "relevanceScore": 628.95,
-        "tags": [
-          "Cloud"
-        ]
-      },
-      {
-        "title": "Console.log(Paper): Mengapa Developer & Startup Masih Butuh 'Physical Stack' di Era Digital",
-        "link": "https://dev.to/mightyblue/consolelogpaper-mengapa-developer-startup-masih-butuh-physical-stack-di-era-digital-1i63",
-        "source": "Dev.to",
-        "pubDate": "2025-11-28T17:00:00.000Z",
-        "relevanceScore": 395.46,
-        "tags": [
-          "Tech",
-          "Web",
-          "Cloud"
         ]
       }
     ],
@@ -875,7 +820,7 @@
         "link": "https://www.bbc.com/news/articles/c20gkkl1546o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-11-28T14:02:44.000Z",
-        "relevanceScore": 551.87,
+        "relevanceScore": 580.8,
         "tags": [
           "Partnership"
         ]
@@ -885,17 +830,25 @@
         "link": "https://arstechnica.com/space/2025/11/russian-launch-pad-incident-raises-concerns-about-future-of-space-station/",
         "source": "Ars Technica",
         "pubDate": "2025-11-28T16:16:48.000Z",
-        "relevanceScore": 341.81,
+        "relevanceScore": 361.75,
         "tags": [
           "Launch"
         ]
       },
       {
-        "title": "The best Black Friday deals on AirPods, AirTags, and other Apple gear",
-        "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+        "title": "The best robot vacuums",
+        "link": "https://www.theverge.com/22997597/best-robot-vacuum-cleaner",
         "source": "The Verge",
-        "pubDate": "2025-11-28T17:11:18.000Z",
-        "relevanceScore": 56.49,
+        "pubDate": "2025-11-28T17:19:32.000Z",
+        "relevanceScore": 211.46,
+        "tags": []
+      },
+      {
+        "title": "Black Friday deals on chargers and power banks we love from Anker and more",
+        "link": "https://www.theverge.com/gadgets/831598/black-friday-2025-chargers-power-banks-batteries-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2025-11-28T17:15:00.000Z",
+        "relevanceScore": 160.95,
         "tags": []
       },
       {
@@ -903,15 +856,54 @@
         "link": "https://www.wired.com/story/best-pod-coffee-maker-black-friday-deals-2025/",
         "source": "Wired",
         "pubDate": "2025-11-28T16:56:40.000Z",
-        "relevanceScore": 49.44,
+        "relevanceScore": 65.38,
         "tags": []
+      },
+      {
+        "title": "The best Black Friday deals on AirPods, AirTags, and other Apple gear",
+        "link": "https://www.theverge.com/gadgets/827826/best-black-friday-apple-deals-sale-2025",
+        "source": "The Verge",
+        "pubDate": "2025-11-28T17:11:18.000Z",
+        "relevanceScore": 56.93,
+        "tags": []
+      },
+      {
+        "title": "Black Friday TV deals 2025: Sets from Samsung, LG, Sony and more are at all-time low prices for the biggest sales event of the year",
+        "link": "https://www.engadget.com/deals/black-friday-tv-deals-2025-sets-from-samsung-lg-sony-and-more-are-at-all-time-low-prices-for-the-biggest-sales-event-of-the-year-181143634.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-28T17:15:49.000Z",
+        "relevanceScore": 40.95,
+        "tags": [
+          "Web",
+          "Update"
+        ]
+      },
+      {
+        "title": "125 Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
+        "link": "https://www.wired.com/story/black-friday-deals-2025-1/",
+        "source": "Wired",
+        "pubDate": "2025-11-28T16:34:44.000Z",
+        "relevanceScore": 35.31,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "The Supreme Court Is About to Hear a Case That Could Rewrite Internet Access",
+        "link": "https://www.reddit.com/r/technology/comments/1p8wdcj/the_supreme_court_is_about_to_hear_a_case_that/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-11-28T14:36:20.000Z",
+        "relevanceScore": 30.92,
+        "tags": [
+          "Web"
+        ]
       },
       {
         "title": "Best iPad apps to boost productivity and make your life easier",
         "link": "https://techcrunch.com/2025/11/28/best-ipad-apps-to-boost-productivity-and-make-your-life-easier/",
         "source": "TechCrunch",
         "pubDate": "2025-11-28T14:41:51.000Z",
-        "relevanceScore": 27.5,
+        "relevanceScore": 27.44,
         "tags": []
       },
       {
@@ -919,46 +911,18 @@
         "link": "https://www.wired.com/story/black-friday-phone-deals-2025/",
         "source": "Wired",
         "pubDate": "2025-11-28T15:54:08.000Z",
-        "relevanceScore": 26.74,
+        "relevanceScore": 26.68,
         "tags": [
           "Update"
         ]
       },
       {
-        "title": "These Lego kits for kids and adults are up to 50% off for Black Friday",
-        "link": "https://www.theverge.com/gadgets/831898/these-lego-kits-for-kids-and-adults-are-up-to-50-off-for-black-friday",
-        "source": "The Verge",
-        "pubDate": "2025-11-28T17:03:25.000Z",
-        "relevanceScore": 25.97,
-        "tags": []
-      },
-      {
-        "title": "125 Best Black Friday Deals 2025: We've Tested Every Item and Tracked Every Price",
-        "link": "https://www.wired.com/story/black-friday-deals-2025-1/",
+        "title": "Black Friday Protein Powder Deals and Supplement Steals (2025)",
+        "link": "https://www.wired.com/story/protein-powder-black-friday-deals-2025/",
         "source": "Wired",
-        "pubDate": "2025-11-28T16:34:44.000Z",
-        "relevanceScore": 25.87,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Lego Black Friday deals are live: Save up to 44 percent on Star Wars, Disney, Harry Potter and other sets during the biggest holiday sale",
-        "link": "https://www.engadget.com/deals/lego-black-friday-deals-are-live-save-up-to-44-percent-on-star-wars-disney-harry-potter-and-other-sets-during-the-biggest-holiday-sale-155007005.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-11-28T16:47:43.000Z",
-        "relevanceScore": 23.92,
+        "pubDate": "2025-11-28T17:27:25.000Z",
+        "relevanceScore": 25.99,
         "tags": []
-      },
-      {
-        "title": "The Supreme Court Is About to Hear a Case That Could Rewrite Internet Access",
-        "link": "https://www.reddit.com/r/technology/comments/1p8wdcj/the_supreme_court_is_about_to_hear_a_case_that/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-11-28T14:36:20.000Z",
-        "relevanceScore": 21.48,
-        "tags": [
-          "Web"
-        ]
       }
     ],
     "health": [
@@ -967,7 +931,7 @@
         "link": "https://www.npr.org/2025/11/26/nx-s1-5619220/why-kids-are-leading-the-charge-back-to-movie-theatres",
         "source": "NPR Business",
         "pubDate": "2025-11-26T21:05:50.000Z",
-        "relevanceScore": 547.18,
+        "relevanceScore": 576.12,
         "tags": []
       },
       {
@@ -975,7 +939,7 @@
         "link": "https://www.npr.org/2025/11/26/nx-s1-5612610/federal-cuts-and-uncertainty-threaten-marylands-biotech-industry",
         "source": "NPR Business",
         "pubDate": "2025-11-26T21:05:28.000Z",
-        "relevanceScore": 173.67,
+        "relevanceScore": 179.61,
         "tags": [
           "Science",
           "Report"
@@ -988,7 +952,7 @@
         "link": "https://www.technologyreview.com/2025/11/27/1128505/the-download-the-fossil-fuel-elephant-in-the-room-and-better-tests-for-endometriosis/",
         "source": "MIT Technology Review",
         "pubDate": "2025-11-27T13:10:00.000Z",
-        "relevanceScore": 321.89,
+        "relevanceScore": 346.83,
         "tags": [
           "Tech"
         ]
@@ -998,8 +962,22 @@
         "link": "https://arstechnica.com/science/2025/11/reintroduced-carnivores-impacts-on-ecosystems-are-still-coming-into-focus/",
         "source": "Ars Technica",
         "pubDate": "2025-11-28T12:15:21.000Z",
-        "relevanceScore": 25.01,
+        "relevanceScore": 24.95,
         "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Okay, which of you are still using Facebook?",
+        "link": "https://www.theverge.com/news/832132/pew-social-media-landscape-2025",
+        "source": "The Verge",
+        "pubDate": "2025-11-28T17:29:56.000Z",
+        "relevanceScore": 189.5,
+        "tags": [
+          "Science",
+          "Social",
+          "Report"
+        ]
       }
     ],
     "business": [
@@ -1008,7 +986,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/hong-kong-firefighters-make-final-search-survivors-after-127936777",
         "source": "ABC News Business",
         "pubDate": "2025-11-28T07:44:33.000Z",
-        "relevanceScore": 154.1,
+        "relevanceScore": 161.04,
         "tags": []
       },
       {
@@ -1016,7 +994,7 @@
         "link": "https://www.npr.org/2025/11/28/nx-s1-5604862/black-friday-sales-forecast",
         "source": "NPR Business",
         "pubDate": "2025-11-28T10:00:00.000Z",
-        "relevanceScore": 49.06,
+        "relevanceScore": 54,
         "tags": [
           "Business"
         ]
@@ -1026,7 +1004,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/us-retailers-black-friday-benefits-holiday-halo-effect-127939052",
         "source": "ABC News Business",
         "pubDate": "2025-11-28T07:33:01.000Z",
-        "relevanceScore": 46.57,
+        "relevanceScore": 45.51,
         "tags": []
       },
       {
@@ -1034,25 +1012,25 @@
         "link": "https://abcnews.go.com/Business/wireStory/gambian-flagged-tanker-catches-fire-black-sea-crew-127947187",
         "source": "ABC News Business",
         "pubDate": "2025-11-28T16:45:45.000Z",
-        "relevanceScore": 25.91,
+        "relevanceScore": 25.85,
         "tags": []
       }
     ],
     "general": [
       {
-        "title": "Zelensky's chief of staff resigns after Ukrainian anti-corruption raid on his home",
-        "link": "https://www.bbc.com/news/articles/ckg9nd2wddno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-11-28T17:10:26.000Z",
-        "relevanceScore": 54.49,
-        "tags": []
-      },
-      {
         "title": "Eight more arrested over fire in Hong Kong that killed at least 128 people",
         "link": "https://www.bbc.com/news/articles/c79xd17dre3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-28T15:10:49.000Z",
-        "relevanceScore": 54.09,
+        "relevanceScore": 62.53,
+        "tags": []
+      },
+      {
+        "title": "Zelensky's chief of staff resigns after Ukrainian anti-corruption raid on his home",
+        "link": "https://www.bbc.com/news/articles/ckg9nd2wddno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-11-28T17:30:18.000Z",
+        "relevanceScore": 53.5,
         "tags": []
       },
       {
@@ -1060,7 +1038,7 @@
         "link": "https://www.bbc.com/news/articles/c4gex225p5jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-28T16:59:57.000Z",
-        "relevanceScore": 31.96,
+        "relevanceScore": 31.9,
         "tags": [
           "IPO"
         ]
@@ -1070,7 +1048,7 @@
         "link": "https://www.bbc.com/news/articles/crl9kd2pne2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-28T15:56:36.000Z",
-        "relevanceScore": 31.24,
+        "relevanceScore": 31.18,
         "tags": []
       },
       {
@@ -1078,32 +1056,51 @@
         "link": "https://www.bbc.com/news/articles/c1kpmm20zwwo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-11-28T11:23:32.000Z",
-        "relevanceScore": 30.83,
+        "relevanceScore": 30.77,
         "tags": [
           "Regulation"
         ]
       }
     ],
-    "finance": [
+    "gaming": [
       {
-        "title": "Training LLMs on Mixed GPUs: My Experiments and What I Learnt",
-        "link": "https://dev.to/rushichaudhari/training-llms-on-mixed-gpus-my-experiments-and-what-i-learnt-1k7n",
-        "source": "Dev.to",
-        "pubDate": "2025-11-28T16:59:38.000Z",
-        "relevanceScore": 54.45,
+        "title": "Black Friday PS5 deals: Sony takes $100 off consoles, plus discounts on PlayStation games, accessories and more",
+        "link": "https://www.engadget.com/deals/black-friday-ps5-deals-sony-takes-100-off-consoles-plus-discounts-on-playstation-games-accessories-and-more-145622822.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-28T17:00:27.000Z",
+        "relevanceScore": 61.9,
         "tags": [
           "Tech",
-          "Business"
+          "Partnership"
         ]
       },
       {
-        "title": "We put the new pocket-size vinyl format to the test—with mixed results",
-        "link": "https://arstechnica.com/gadgets/2025/11/we-put-the-new-pocket-sized-vinyl-format-to-the-test-with-mixed-results/",
-        "source": "Ars Technica",
-        "pubDate": "2025-11-28T12:00:04.000Z",
-        "relevanceScore": 24.96,
+        "title": "ModRetro launches its take on the Nintendo 64",
+        "link": "https://www.engadget.com/gaming/nintendo/modretro-launches-its-take-on-the-nintendo-64-170000967.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-11-28T17:00:00.000Z",
+        "relevanceScore": 29.9,
+        "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Safely Migrating Singletons to Swift 6",
+        "link": "https://dev.to/arshtechpro/safely-migrating-singletons-to-swift-6-4nm8",
+        "source": "Dev.to",
+        "pubDate": "2025-11-28T17:25:19.000Z",
+        "relevanceScore": 45.48,
+        "tags": []
+      },
+      {
+        "title": "Thinning layers",
+        "link": "https://www.reddit.com/r/programming/comments/1p8xtfy/thinning_layers/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-11-28T15:36:09.000Z",
+        "relevanceScore": 43.12,
         "tags": [
-          "Business"
+          "Mobile",
+          "Tutorial"
         ]
       }
     ],
@@ -1113,7 +1110,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p8vbht/telegraph_trump_prepares_to_recognise_russias/",
         "source": "Reddit World News",
         "pubDate": "2025-11-28T13:50:31.000Z",
-        "relevanceScore": 45.82,
+        "relevanceScore": 44.76,
         "tags": []
       },
       {
@@ -1121,7 +1118,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p8l92b/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-11-28T04:02:29.000Z",
-        "relevanceScore": 43.86,
+        "relevanceScore": 42.8,
         "tags": []
       },
       {
@@ -1129,20 +1126,19 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1p8m7c9/trump_says_us_will_permanently_pause_migration/",
         "source": "Reddit World News",
         "pubDate": "2025-11-28T04:55:04.000Z",
-        "relevanceScore": 21.54,
+        "relevanceScore": 21.48,
         "tags": []
       }
     ],
-    "mobile": [
+    "finance": [
       {
-        "title": "Thinning layers",
-        "link": "https://www.reddit.com/r/programming/comments/1p8xtfy/thinning_layers/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-11-28T15:36:09.000Z",
-        "relevanceScore": 44.18,
+        "title": "We put the new pocket-size vinyl format to the test—with mixed results",
+        "link": "https://arstechnica.com/gadgets/2025/11/we-put-the-new-pocket-sized-vinyl-format-to-the-test-with-mixed-results/",
+        "source": "Ars Technica",
+        "pubDate": "2025-11-28T12:00:04.000Z",
+        "relevanceScore": 30.9,
         "tags": [
-          "Mobile",
-          "Tutorial"
+          "Business"
         ]
       }
     ],
@@ -1152,7 +1148,7 @@
         "link": "https://arstechnica.com/shopping/2025/11/here-are-the-best-black-friday-deals-we-can-find/",
         "source": "Ars Technica",
         "pubDate": "2025-11-28T12:41:31.000Z",
-        "relevanceScore": 26.09,
+        "relevanceScore": 26.03,
         "tags": []
       }
     ]
@@ -1160,14 +1156,14 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 16,
-    "avgRelevanceScore": 258.7563999999999,
+    "avgRelevanceScore": 262.966,
     "topCategories": [
       {
         "category": "tech",
-        "count": 10
+        "count": 12
       },
       {
-        "category": "gaming",
+        "category": "development",
         "count": 5
       },
       {
