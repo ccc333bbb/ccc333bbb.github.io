@@ -1,7 +1,71 @@
 {
-  "lastUpdated": "2025-12-03T23:49:10.358Z",
+  "lastUpdated": "2025-12-04T01:10:46.494Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2025-12-04",
+      "file": "2025-12-04.json",
+      "totalArticles": 55,
+      "lastUpdated": "2025-12-04T01:10:46.475Z",
+      "sources": [
+        "Reddit Programming",
+        "Stack Overflow Blog",
+        "Engadget",
+        "Dev.to",
+        "The Verge",
+        "TechCrunch",
+        "MIT Technology Review",
+        "Reddit Technology",
+        "Ars Technica",
+        "GitHub Blog",
+        "Wired",
+        "BBC Technology",
+        "NPR Business",
+        "BBC News",
+        "ABC News Business",
+        "Reddit World News"
+      ],
+      "categories": [
+        "development",
+        "tech",
+        "science",
+        "business",
+        "general",
+        "world"
+      ],
+      "topArticles": [
+        {
+          "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1pddgdw/reverse_engineering_a_1b_legal_ai_tool_exposed/",
+          "relevanceScore": 3856.0120173611112
+        },
+        {
+          "title": "Introducing Stack Overflow AI Assist—a tool for the modern developer",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2025/12/02/introducing-stack-overflow-ai-assist-a-tool-for-the-modern-developer/",
+          "relevanceScore": 1002
+        },
+        {
+          "title": "US Department of Transportation doubles down on gas, cuts fuel efficiency standards",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/transportation/us-department-of-transportation-doubles-down-on-gas-cuts-fuel-efficiency-standards-234542939.html?src=rss",
+          "relevanceScore": 1000.2910452777778
+        },
+        {
+          "title": "Kling AI Launches VIDEO 2.6: First Model with Native Audio for EnhancedMultimedia Experience",
+          "source": "Dev.to",
+          "link": "https://dev.to/ytosko/kling-ai-launches-video-26-first-model-with-native-audio-for-enhancedmultimedia-experience-41go",
+          "relevanceScore": 964.9225729166667
+        },
+        {
+          "title": "BMW iX3 first drive: a ‘New Class’ is in session",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/transportation/837394/bmw-ix3-first-drive-neue-klasse-specs-price",
+          "relevanceScore": 963.9185452777778
+        }
+      ]
+    },
     {
       "date": "2025-12-03",
       "file": "2025-12-03.json",
@@ -38,31 +102,31 @@
           "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1pddgdw/reverse_engineering_a_1b_legal_ai_tool_exposed/",
-          "relevanceScore": 3476.692036388889
+          "relevanceScore": 3488.08
         },
         {
           "title": "US Department of Transportation doubles down on gas, cuts fuel efficiency standards",
           "source": "Engadget",
           "link": "https://www.engadget.com/transportation/us-department-of-transportation-doubles-down-on-gas-cuts-fuel-efficiency-standards-234542939.html?src=rss",
-          "relevanceScore": 904.9710643055555
+          "relevanceScore": 871.99
         },
         {
           "title": "Introducing Stack Overflow AI Assist—a tool for the modern developer",
           "source": "Stack Overflow Blog",
           "link": "https://stackoverflow.blog/2025/12/02/introducing-stack-overflow-ai-assist-a-tool-for-the-modern-developer/",
-          "relevanceScore": 903
+          "relevanceScore": 911.04
         },
         {
           "title": "BMW iX3 first drive: a ‘New Class’ is in session",
           "source": "The Verge",
           "link": "https://www.theverge.com/transportation/837394/bmw-ix3-first-drive-neue-klasse-specs-price",
-          "relevanceScore": 843.5985643055556
+          "relevanceScore": 826.84
         },
         {
           "title": "Maximum-severity vulnerability threatens 6% of all websites",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/security/2025/12/admins-and-defenders-gird-themselves-against-maximum-severity-server-vulnerability/",
-          "relevanceScore": 783.7239809722222
+          "relevanceScore": 797.89
         }
       ]
     },
@@ -1827,69 +1891,6 @@
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/c9d6vwg80qyo?at_medium=RSS&at_campaign=rss",
           "relevanceScore": 372.68
-        }
-      ]
-    },
-    {
-      "date": "2025-11-04",
-      "file": "2025-11-04.json",
-      "totalArticles": 53,
-      "lastUpdated": "2025-11-04T23:48:45.325Z",
-      "sources": [
-        "Reddit Programming",
-        "BBC Technology",
-        "Stack Overflow Blog",
-        "The Verge",
-        "Engadget",
-        "Reddit Technology",
-        "Reddit World News",
-        "Ars Technica",
-        "Wired",
-        "TechCrunch",
-        "Dev.to",
-        "BBC News",
-        "MIT Technology Review",
-        "ABC News Business",
-        "NPR Business"
-      ],
-      "categories": [
-        "development",
-        "tech",
-        "world",
-        "general",
-        "science",
-        "business"
-      ],
-      "topArticles": [
-        {
-          "title": "Introducing pg_lake: Integrate Your Data Lakehouse with Postgres",
-          "source": "Reddit Programming",
-          "link": "https://www.reddit.com/r/programming/comments/1oobjtg/introducing_pg_lake_integrate_your_data_lakehouse/",
-          "relevanceScore": 1605.01
-        },
-        {
-          "title": "ChatGPT owner OpenAI signs $38bn cloud computing deal with Amazon",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.com/news/articles/cgqlzje32pjo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 997.99
-        },
-        {
-          "title": "To write secure code, be less gullible than your AI",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2025/11/04/to-write-secure-code-be-less-gullible-than-your-ai/",
-          "relevanceScore": 789.47
-        },
-        {
-          "title": "Apple Podcasts is generating automatic links and chapters",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/news/813817/apple-podcasts-automatic-links-and-chapters",
-          "relevanceScore": 823.75
-        },
-        {
-          "title": "Stellantis recalls more than 375,000 Jeep hybrid SUVs for fire risk",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/stellantis-recalls-more-than-375000-jeep-hybrid-suvs-for-fire-risk-215341226.html?src=rss",
-          "relevanceScore": 590.12
         }
       ]
     }
