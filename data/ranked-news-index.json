@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2025-12-14T15:48:43.123Z",
+  "lastUpdated": "2025-12-14T16:17:01.490Z",
   "totalArticles": 49,
   "categories": [
     "mobile",
-    "tech",
+    "development",
     "ai-ml",
+    "tech",
     "gaming",
     "world",
     "social",
-    "startup",
-    "development",
     "general",
-    "automotive",
     "business",
-    "education",
-    "finance"
+    "startup",
+    "automotive",
+    "cloud",
+    "education"
   ],
   "topArticles": [
     {
@@ -23,8 +23,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2025-12-13T18:10:20.000Z",
-      "relevanceScore": 679.67,
-      "recommendationScore": 682.17,
+      "relevanceScore": 808.08,
+      "recommendationScore": 810.58,
       "tags": [
         "Security",
         "Mobile",
@@ -33,15 +33,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Nanit Home Display Review: A Transformative Tablet",
-      "link": "https://www.wired.com/review/nanit-home-display/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-14T14:04:00.000Z",
-      "relevanceScore": 425.65,
-      "recommendationScore": 425.65,
+      "title": "Use your debugger less and learn more from debugging instead",
+      "link": "https://dev.to/andreas_mller_2fd27cf578/use-your-debugger-less-and-learn-more-from-debugging-instead-46ac",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-12-14T16:05:02.000Z",
+      "relevanceScore": 546.96,
+      "recommendationScore": 547.46,
       "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "The future of AI-powered software optimization (and how it can help your team)",
@@ -49,8 +49,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2025-12-12T20:43:37.000Z",
-      "relevanceScore": 367.38,
-      "recommendationScore": 369.38,
+      "relevanceScore": 503.29,
+      "recommendationScore": 505.29,
       "tags": [
         "AI",
         "Tech",
@@ -64,32 +64,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-12-12T22:16:42.000Z",
-      "relevanceScore": 351.69,
-      "recommendationScore": 352.19,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "I&#8217;m finally beginning to trust Microsoft&#8217;s handheld Xbox",
-      "link": "https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2025-12-14T14:00:00.000Z",
-      "relevanceScore": 292.64,
-      "recommendationScore": 293.14,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon pulls AI recap from Fallout TV show after it made several mistakes",
-      "link": "https://www.bbc.com/news/articles/c3r77j5nze5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-12-12T18:04:47.000Z",
-      "relevanceScore": 291.35,
-      "recommendationScore": 293.35,
+      "relevanceScore": 446.6,
+      "recommendationScore": 447.1,
       "tags": [
         "AI"
       ],
@@ -101,12 +77,61 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-12-13T19:37:47.000Z",
-      "relevanceScore": 289.46,
-      "recommendationScore": 291.96,
+      "relevanceScore": 433.87,
+      "recommendationScore": 436.37,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Nanit Home Display Review: A Transformative Tablet",
+      "link": "https://www.wired.com/review/nanit-home-display/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-14T14:04:00.000Z",
+      "relevanceScore": 429.56,
+      "recommendationScore": 429.56,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon pulls AI recap from Fallout TV show after it made several mistakes",
+      "link": "https://www.bbc.com/news/articles/c3r77j5nze5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-12-12T18:04:47.000Z",
+      "relevanceScore": 390.76,
+      "recommendationScore": 392.76,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "I&#8217;m finally beginning to trust Microsoft&#8217;s handheld Xbox",
+      "link": "https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2025-12-14T14:00:00.000Z",
+      "relevanceScore": 350.54,
+      "recommendationScore": 351.04,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Orchestrating Creativity with Agentic AI: How I Built a Real Business Using Autonomous Agents",
+      "link": "https://dev.to/vishwajeet_singh_be18eefb/orchestrating-creativity-with-agentic-ai-how-i-built-a-real-business-using-autonomous-agents-545c",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-12-14T16:02:19.000Z",
+      "relevanceScore": 321.95,
+      "recommendationScore": 323.95,
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1389, Part 1 (Thread #1536)",
@@ -114,23 +139,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-14T04:02:29.000Z",
-      "relevanceScore": 101.15,
-      "recommendationScore": 103.65,
+      "relevanceScore": 205.55,
+      "recommendationScore": 208.05,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Inside the high drama of the iPhone 4",
-      "link": "https://www.theverge.com/podcast/844408/inside-the-high-drama-of-the-iphone-4",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2025-12-14T15:30:00.000Z",
-      "relevanceScore": 96.94,
-      "recommendationScore": 96.94,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "US TikTok investors in limbo as deal set to be delayed again",
@@ -138,11 +150,24 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2025-12-13T00:32:28.000Z",
-      "relevanceScore": 95.65,
-      "recommendationScore": 96.15,
+      "relevanceScore": 198.05,
+      "recommendationScore": 198.55,
       "tags": [
         "Social",
         "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "\"I was forced to use AI until the day I was laid off.\" Copywriters reveal how AI has decimated their industry",
+      "link": "https://www.reddit.com/r/technology/comments/1pmcpx1/i_was_forced_to_use_ai_until_the_day_i_was_laid/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-12-14T12:16:00.000Z",
+      "relevanceScore": 174.2,
+      "recommendationScore": 175.7,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "intermediate"
     },
@@ -152,66 +177,12 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2025-12-13T11:01:00.000Z",
-      "relevanceScore": 62.74,
-      "recommendationScore": 63.24,
+      "relevanceScore": 158.15,
+      "recommendationScore": 158.65,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "SecureScript-AI System",
-      "link": "https://dev.to/likhithanagasri/securescript-ai-system-56fk",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-12-14T15:41:48.000Z",
-      "relevanceScore": 56.48,
-      "recommendationScore": 56.48,
-      "tags": [
-        "AI",
-        "Tech",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "DoorDash driver faces felony charges after allegedly spraying customers’ food",
-      "link": "https://techcrunch.com/2025/12/13/doordash-driver-faces-felony-charges-after-allegedly-spraying-customers-food/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-12-13T21:06:51.000Z",
-      "relevanceScore": 50.26,
-      "recommendationScore": 50.76,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "India’s Spinny lines up $160M funding to acquire GoMechanic, sources say",
-      "link": "https://techcrunch.com/2025/12/13/indias-spinny-lines-up-160m-funding-to-acquire-gomechanic-sources-say/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2025-12-14T04:30:07.000Z",
-      "relevanceScore": 47.74,
-      "recommendationScore": 48.24,
-      "tags": [
-        "Startup",
-        "Funding"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How Stack Overflow’s MCP Server is helping HP modernize the software development lifecycle",
-      "link": "https://stackoverflow.blog/2025/12/12/how-stack-overflow-s-mcp-server-is-helping-hp-modernize-the-software-development-lifecycle/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2025-12-12T18:00:00.000Z",
-      "relevanceScore": 47.34,
-      "recommendationScore": 49.34,
-      "tags": [
-        "Tech",
-        "Interview"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "AI image generators are getting better by getting worse",
@@ -219,8 +190,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-12-14T13:00:00.000Z",
-      "relevanceScore": 46.94,
-      "recommendationScore": 48.44,
+      "relevanceScore": 139.34,
+      "recommendationScore": 140.84,
       "tags": [
         "AI",
         "Tech",
@@ -234,45 +205,48 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-12-13T19:30:29.000Z",
-      "relevanceScore": 46.44,
-      "recommendationScore": 48.94,
+      "relevanceScore": 137.84,
+      "recommendationScore": 140.34,
       "tags": [
         "Launch"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Valhalla? Python? Withers? Lombok? - Ask the Architects at JavaOne'25",
-      "link": "https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-12-14T09:24:54.000Z",
-      "relevanceScore": 43.72,
-      "recommendationScore": 44.22,
-      "tags": [],
+      "title": "A Florida school went into lockdown after AI flagged a clarinet as a gun",
+      "link": "https://www.reddit.com/r/technology/comments/1pmf3uj/a_florida_school_went_into_lockdown_after_ai/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-12-14T14:17:42.000Z",
+      "relevanceScore": 135.6,
+      "recommendationScore": 136.1,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Video appears to show alleged gunmen on bridge connected to beach",
-      "link": "https://www.bbc.com/news/videos/c5y9446grw1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-14T11:57:57.000Z",
-      "relevanceScore": 40.23,
-      "recommendationScore": 42.23,
+      "title": "The Best Bike Gear for Your Brisk, Wintry Commute (2025)",
+      "link": "https://www.wired.com/gallery/bike-gear-winter-commute/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-14T13:00:00.000Z",
+      "relevanceScore": 128.34,
+      "recommendationScore": 129.84,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Mass shooting at Bondi Beach with ten dead and one suspect killed, NSW Police urge public to 'avoid the area' | Sky News Australia",
-      "link": "https://www.reddit.com/r/worldnews/comments/1pma16z/mass_shooting_at_bondi_beach_with_ten_dead_and/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-12-14T09:25:34.000Z",
-      "relevanceScore": 36.72,
-      "recommendationScore": 38.72,
+      "title": "Violence against women is a national emergency, Mahmood says",
+      "link": "https://www.bbc.com/news/articles/cj69w7kezdzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-14T11:37:54.000Z",
+      "relevanceScore": 127.07,
+      "recommendationScore": 127.57,
       "tags": [
-        "IPO"
+        "Breaking",
+        "Analysis"
       ],
       "readingLevel": "advanced"
     },
@@ -282,34 +256,12 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-12-12T21:44:50.000Z",
-      "relevanceScore": 36.09,
-      "recommendationScore": 36.09,
+      "relevanceScore": 126.49,
+      "recommendationScore": 126.49,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Best Bike Gear for Your Brisk, Wintry Commute (2025)",
-      "link": "https://www.wired.com/gallery/bike-gear-winter-commute/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-14T13:00:00.000Z",
-      "relevanceScore": 35.94,
-      "recommendationScore": 37.44,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What we know so far about Bondi Beach Hanukkah shooting",
-      "link": "https://www.bbc.com/news/articles/cqjg22rey0lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-14T13:41:33.000Z",
-      "relevanceScore": 34.58,
-      "recommendationScore": 36.58,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "10 Best Portable Power Stations (2025): Power Capacity, Portability, Camping, and More",
@@ -317,8 +269,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-12-14T14:30:00.000Z",
-      "relevanceScore": 33.24,
-      "recommendationScore": 34.74,
+      "relevanceScore": 121.64,
+      "recommendationScore": 123.14,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -328,67 +280,21 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2025-12-14T14:29:18.000Z",
-      "relevanceScore": 33.24,
-      "recommendationScore": 33.24,
+      "relevanceScore": 121.64,
+      "recommendationScore": 121.64,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "King 'appalled and saddened' by Bondi attack on Jewish community",
-      "link": "https://www.bbc.com/news/articles/c8e95gkl5r3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-14T15:25:12.000Z",
-      "relevanceScore": 31.92,
-      "recommendationScore": 32.42,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "'It was pandemonium': Jewish community targeted in Australia's deadliest shooting in decades",
-      "link": "https://www.bbc.com/news/articles/c3r711lnr8zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-14T14:57:34.000Z",
-      "relevanceScore": 31.83,
-      "recommendationScore": 32.33,
+      "title": "Germany's Merz says Putin seeks to restore USSR and will not stop at Ukraine",
+      "link": "https://www.reddit.com/r/worldnews/comments/1pmdhjn/germanys_merz_says_putin_seeks_to_restore_ussr/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-12-14T12:59:19.000Z",
+      "relevanceScore": 119.34,
+      "recommendationScore": 120.84,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Eyewitness captures moment man tackles and disarms shooter",
-      "link": "https://www.bbc.com/news/videos/c62l00q1v88o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-14T11:24:21.000Z",
-      "relevanceScore": 31.12,
-      "recommendationScore": 31.62,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Car prices hit a record high",
-      "link": "https://www.npr.org/2025/12/14/nx-s1-5639955/car-prices-hit-a-record-high",
-      "source": "NPR Business",
-      "category": "automotive",
-      "pubDate": "2025-12-14T13:39:59.000Z",
-      "relevanceScore": 30.57,
-      "recommendationScore": 30.57,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "\"I was forced to use AI until the day I was laid off.\" Copywriters reveal how AI has decimated their industry",
-      "link": "https://www.reddit.com/r/technology/comments/1pmcpx1/i_was_forced_to_use_ai_until_the_day_i_was_laid/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-12-14T12:16:00.000Z",
-      "relevanceScore": 29.79,
-      "recommendationScore": 31.29,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Jury says Johnson & Johnson owes $40M to 2 cancer patients who used talcum powders",
@@ -396,8 +302,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-12-13T20:40:31.000Z",
-      "relevanceScore": 29.67,
-      "recommendationScore": 30.17,
+      "relevanceScore": 118.08,
+      "recommendationScore": 118.58,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -407,22 +313,11 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-12-14T14:15:01.000Z",
-      "relevanceScore": 29.19,
-      "recommendationScore": 29.69,
+      "relevanceScore": 117.59,
+      "recommendationScore": 118.09,
       "tags": [
         "AI"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Best Tested Walking Pads (2025): Urevo, WalkingPad, Sperax",
-      "link": "https://www.wired.com/story/best-walking-pads/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-14T15:00:00.000Z",
-      "relevanceScore": 28.84,
-      "recommendationScore": 30.34,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -431,8 +326,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-12-14T01:48:22.000Z",
-      "relevanceScore": 28.7,
-      "recommendationScore": 30.7,
+      "relevanceScore": 117.1,
+      "recommendationScore": 119.1,
       "tags": [
         "Tutorial"
       ],
@@ -444,8 +339,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-12-13T12:00:06.000Z",
-      "relevanceScore": 27.94,
-      "recommendationScore": 28.44,
+      "relevanceScore": 116.34,
+      "recommendationScore": 116.84,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -455,23 +350,151 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-12-12T21:35:44.000Z",
-      "relevanceScore": 26.06,
-      "recommendationScore": 26.56,
+      "relevanceScore": 114.46,
+      "recommendationScore": 114.96,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Best Web Frameworks for Indian Developers",
-      "link": "https://dev.to/techcontributors/best-web-frameworks-for-indian-developers-1ejl",
-      "source": "Dev.to",
-      "category": "startup",
-      "pubDate": "2025-12-14T15:39:27.000Z",
-      "relevanceScore": 24.97,
-      "recommendationScore": 25.97,
+      "title": "Inside the high drama of the iPhone 4",
+      "link": "https://www.theverge.com/podcast/844408/inside-the-high-drama-of-the-iphone-4",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2025-12-14T15:30:00.000Z",
+      "relevanceScore": 110.84,
+      "recommendationScore": 110.84,
       "tags": [
-        "Web",
-        "Startup"
+        "Mobile"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Valhalla? Python? Withers? Lombok? - Ask the Architects at JavaOne'25",
+      "link": "https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-12-14T09:24:54.000Z",
+      "relevanceScore": 99.63,
+      "recommendationScore": 100.13,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "DoorDash driver faces felony charges after allegedly spraying customers’ food",
+      "link": "https://techcrunch.com/2025/12/13/doordash-driver-faces-felony-charges-after-allegedly-spraying-customers-food/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-12-13T21:06:51.000Z",
+      "relevanceScore": 78.17,
+      "recommendationScore": 78.67,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How Stack Overflow’s MCP Server is helping HP modernize the software development lifecycle",
+      "link": "https://stackoverflow.blog/2025/12/12/how-stack-overflow-s-mcp-server-is-helping-hp-modernize-the-software-development-lifecycle/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2025-12-12T18:00:00.000Z",
+      "relevanceScore": 77.74,
+      "recommendationScore": 79.74,
+      "tags": [
+        "Tech",
+        "Interview"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "India’s Spinny lines up $160M funding to acquire GoMechanic, sources say",
+      "link": "https://techcrunch.com/2025/12/13/indias-spinny-lines-up-160m-funding-to-acquire-gomechanic-sources-say/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2025-12-14T04:30:07.000Z",
+      "relevanceScore": 54.64,
+      "recommendationScore": 55.14,
+      "tags": [
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Mass shooting at Bondi Beach with ten dead and one suspect killed, NSW Police urge public to 'avoid the area' | Sky News Australia",
+      "link": "https://www.reddit.com/r/worldnews/comments/1pma16z/mass_shooting_at_bondi_beach_with_ten_dead_and/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-12-14T09:25:34.000Z",
+      "relevanceScore": 40.63,
+      "recommendationScore": 42.63,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What we know so far about Bondi Beach Hanukkah shooting",
+      "link": "https://www.bbc.com/news/articles/cqjg22rey0lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-14T13:41:33.000Z",
+      "relevanceScore": 38.48,
+      "recommendationScore": 40.48,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Car prices hit a record high",
+      "link": "https://www.npr.org/2025/12/14/nx-s1-5639955/car-prices-hit-a-record-high",
+      "source": "NPR Business",
+      "category": "automotive",
+      "pubDate": "2025-12-14T13:39:59.000Z",
+      "relevanceScore": 34.48,
+      "recommendationScore": 34.48,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Best Tested Walking Pads (2025): Urevo, WalkingPad, Sperax",
+      "link": "https://www.wired.com/story/best-walking-pads/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-14T15:00:00.000Z",
+      "relevanceScore": 32.74,
+      "recommendationScore": 34.24,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "King 'appalled and saddened' by Bondi attack on Jewish community",
+      "link": "https://www.bbc.com/news/articles/c8e95gkl5r3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-14T15:50:08.000Z",
+      "relevanceScore": 31.91,
+      "recommendationScore": 32.41,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'It was pandemonium': Jewish community targeted in Australia's deadliest shooting in decades",
+      "link": "https://www.bbc.com/news/articles/c3r711lnr8zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-14T14:57:34.000Z",
+      "relevanceScore": 31.74,
+      "recommendationScore": 32.24,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Eyewitness captures moment man tackles and disarms shooter",
+      "link": "https://www.bbc.com/news/videos/c62l00q1v88o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-14T11:24:21.000Z",
+      "relevanceScore": 31.02,
+      "recommendationScore": 31.52,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -480,23 +503,26 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2025-12-13T20:44:01.000Z",
-      "relevanceScore": 24.18,
-      "recommendationScore": 26.18,
+      "relevanceScore": 28.09,
+      "recommendationScore": 30.09,
       "tags": [
         "Report"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "DAT ONE RECAP: 2025",
-      "link": "https://dev.to/kartik_patel/dat-one-recap-2025-3g42",
+      "title": "New AWS Lambda Durable Functions – Do they replace Step Functions?",
+      "link": "https://dev.to/ian_carlson_0c77f977f7790/new-aws-lambda-durable-functions-do-they-replace-step-functions-2c5i",
       "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-12-14T15:42:49.000Z",
-      "relevanceScore": 23.98,
-      "recommendationScore": 23.98,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "category": "cloud",
+      "pubDate": "2025-12-14T16:06:37.000Z",
+      "relevanceScore": 23.97,
+      "recommendationScore": 26.47,
+      "tags": [
+        "Cloud",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Exploring the underlying causes of corporate bankruptcies in the U.S.",
@@ -504,8 +530,8 @@
       "source": "NPR Business",
       "category": "education",
       "pubDate": "2025-12-13T12:43:00.000Z",
-      "relevanceScore": 22.58,
-      "recommendationScore": 23.08,
+      "relevanceScore": 22.49,
+      "recommendationScore": 22.99,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -515,8 +541,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-12-13T19:49:48.000Z",
-      "relevanceScore": 22,
-      "recommendationScore": 24,
+      "relevanceScore": 21.91,
+      "recommendationScore": 23.91,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -526,22 +552,9 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-12-14T14:00:42.000Z",
-      "relevanceScore": 21.64,
-      "recommendationScore": 22.14,
+      "relevanceScore": 21.55,
+      "recommendationScore": 22.05,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "German authorities foil Christmas market terror attack",
-      "link": "https://www.reddit.com/r/worldnews/comments/1pm4m7h/german_authorities_foil_christmas_market_terror/",
-      "source": "Reddit World News",
-      "category": "finance",
-      "pubDate": "2025-12-14T03:57:48.000Z",
-      "relevanceScore": 21.63,
-      "recommendationScore": 22.13,
-      "tags": [
-        "Business"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -550,21 +563,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-12-13T00:11:09.000Z",
-      "relevanceScore": 20.07,
-      "recommendationScore": 20.07,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How a US Citizen Was Scanned With ICE's Facial Recognition Tech | Jesus Gutiérrez told immigration agents he was a U.S. citizen. Only after they scanned his face, did the agents let him go",
-      "link": "https://www.reddit.com/r/technology/comments/1pm0y99/how_a_us_citizen_was_scanned_with_ices_facial/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2025-12-14T00:51:50.000Z",
-      "relevanceScore": 19.01,
-      "recommendationScore": 20.51,
+      "relevanceScore": 19.98,
+      "recommendationScore": 19.98,
       "tags": [
         "Tech"
       ],
@@ -576,8 +576,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-12-13T01:43:27.000Z",
-      "relevanceScore": 17.88,
-      "recommendationScore": 18.38,
+      "relevanceScore": 17.79,
+      "recommendationScore": 18.29,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -587,8 +587,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-12-13T18:03:28.000Z",
-      "relevanceScore": 17.65,
-      "recommendationScore": 19.65,
+      "relevanceScore": 17.55,
+      "recommendationScore": 19.55,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -598,8 +598,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2025-12-12T20:44:35.000Z",
-      "relevanceScore": 17.39,
-      "recommendationScore": 17.89,
+      "relevanceScore": 17.29,
+      "recommendationScore": 17.79,
       "tags": [
         "Mobile"
       ],
@@ -611,8 +611,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2025-12-12T20:45:06.000Z",
-      "relevanceScore": 16.89,
-      "recommendationScore": 17.39,
+      "relevanceScore": 16.79,
+      "recommendationScore": 17.29,
       "tags": [
         "Web",
         "Social"
@@ -627,7 +627,7 @@
         "link": "https://www.engadget.com/mobile/ios-262-is-here-with-another-liquid-glass-tweak-new-podcasts-features-and-more-181020133.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-13T18:10:20.000Z",
-        "relevanceScore": 679.67,
+        "relevanceScore": 808.08,
         "tags": [
           "Security",
           "Mobile",
@@ -639,7 +639,7 @@
         "link": "https://www.theverge.com/podcast/844408/inside-the-high-drama-of-the-iphone-4",
         "source": "The Verge",
         "pubDate": "2025-12-14T15:30:00.000Z",
-        "relevanceScore": 96.94,
+        "relevanceScore": 110.84,
         "tags": [
           "Mobile"
         ]
@@ -649,106 +649,55 @@
         "link": "https://arstechnica.com/google/2025/12/google-translate-learns-slang-and-idioms-expands-live-translation-beyond-pixel-buds/",
         "source": "Ars Technica",
         "pubDate": "2025-12-12T20:44:35.000Z",
-        "relevanceScore": 17.39,
+        "relevanceScore": 17.29,
         "tags": [
           "Mobile"
         ]
       }
     ],
-    "tech": [
+    "development": [
       {
-        "title": "Nanit Home Display Review: A Transformative Tablet",
-        "link": "https://www.wired.com/review/nanit-home-display/",
-        "source": "Wired",
-        "pubDate": "2025-12-14T14:04:00.000Z",
-        "relevanceScore": 425.65,
+        "title": "Use your debugger less and learn more from debugging instead",
+        "link": "https://dev.to/andreas_mller_2fd27cf578/use-your-debugger-less-and-learn-more-from-debugging-instead-46ac",
+        "source": "Dev.to",
+        "pubDate": "2025-12-14T16:05:02.000Z",
+        "relevanceScore": 546.96,
         "tags": []
       },
       {
-        "title": "DoorDash driver faces felony charges after allegedly spraying customers’ food",
-        "link": "https://techcrunch.com/2025/12/13/doordash-driver-faces-felony-charges-after-allegedly-spraying-customers-food/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-13T21:06:51.000Z",
-        "relevanceScore": 50.26,
+        "title": "Valhalla? Python? Withers? Lombok? - Ask the Architects at JavaOne'25",
+        "link": "https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-14T09:24:54.000Z",
+        "relevanceScore": 99.63,
         "tags": []
       },
       {
-        "title": "The Best Bike Gear for Your Brisk, Wintry Commute (2025)",
-        "link": "https://www.wired.com/gallery/bike-gear-winter-commute/",
-        "source": "Wired",
-        "pubDate": "2025-12-14T13:00:00.000Z",
-        "relevanceScore": 35.94,
-        "tags": []
-      },
-      {
-        "title": "10 Best Portable Power Stations (2025): Power Capacity, Portability, Camping, and More",
-        "link": "https://www.wired.com/gallery/best-portable-power-stations/",
-        "source": "Wired",
-        "pubDate": "2025-12-14T14:30:00.000Z",
-        "relevanceScore": 33.24,
-        "tags": []
-      },
-      {
-        "title": "The end of OpenAI, and other 2026 predictions",
-        "link": "https://www.theverge.com/podcast/844401/tech-industry-2026-predictions-openai-apple",
-        "source": "The Verge",
-        "pubDate": "2025-12-14T14:29:18.000Z",
-        "relevanceScore": 33.24,
-        "tags": []
-      },
-      {
-        "title": "Best Tested Walking Pads (2025): Urevo, WalkingPad, Sperax",
-        "link": "https://www.wired.com/story/best-walking-pads/",
-        "source": "Wired",
-        "pubDate": "2025-12-14T15:00:00.000Z",
-        "relevanceScore": 28.84,
-        "tags": []
-      },
-      {
-        "title": "WWE Saturday Night's Main Event: How to watch John Cena's final match for free",
-        "link": "https://www.engadget.com/entertainment/streaming/wwe-saturday-nights-main-event-how-to-watch-john-cenas-final-match-for-free-235537779.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-12-14T01:48:22.000Z",
-        "relevanceScore": 28.7,
+        "title": "How Stack Overflow’s MCP Server is helping HP modernize the software development lifecycle",
+        "link": "https://stackoverflow.blog/2025/12/12/how-stack-overflow-s-mcp-server-is-helping-hp-modernize-the-software-development-lifecycle/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-12-12T18:00:00.000Z",
+        "relevanceScore": 77.74,
         "tags": [
-          "Tutorial"
+          "Tech",
+          "Interview"
         ]
       },
       {
-        "title": "Sharks and rays gain landmark protections as nations move to curb international trade",
-        "link": "https://arstechnica.com/science/2025/12/sharks-and-rays-gain-landmark-protections-as-nations-move-to-curb-international-trade/",
-        "source": "Ars Technica",
-        "pubDate": "2025-12-13T12:00:06.000Z",
-        "relevanceScore": 27.94,
+        "title": "The strangest programming languages you've ever heard of!!",
+        "link": "https://www.reddit.com/r/programming/comments/1pmeq58/the_strangest_programming_languages_youve_ever/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-14T14:00:42.000Z",
+        "relevanceScore": 21.55,
         "tags": []
       },
       {
-        "title": "Reminder: Donate to win swag in our annual Charity Drive sweepstakes",
-        "link": "https://arstechnica.com/gaming/2025/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-17/",
-        "source": "Ars Technica",
-        "pubDate": "2025-12-12T21:35:44.000Z",
-        "relevanceScore": 26.06,
+        "title": "Why Twilio Segment Moved from Microservices Back to a Monolith",
+        "link": "https://www.reddit.com/r/programming/comments/1plrq5e/why_twilio_segment_moved_from_microservices_back/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-13T18:03:28.000Z",
+        "relevanceScore": 17.55,
         "tags": []
-      },
-      {
-        "title": "A comprehensive list of 2025 tech layoffs",
-        "link": "https://techcrunch.com/2025/12/12/tech-layoffs-2025-list/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-13T00:11:09.000Z",
-        "relevanceScore": 20.07,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "How a US Citizen Was Scanned With ICE's Facial Recognition Tech | Jesus Gutiérrez told immigration agents he was a U.S. citizen. Only after they scanned his face, did the agents let him go",
-        "link": "https://www.reddit.com/r/technology/comments/1pm0y99/how_a_us_citizen_was_scanned_with_ices_facial/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-14T00:51:50.000Z",
-        "relevanceScore": 19.01,
-        "tags": [
-          "Tech"
-        ]
       }
     ],
     "ai-ml": [
@@ -757,7 +706,7 @@
         "link": "https://github.blog/news-insights/policy-news-and-insights/the-future-of-ai-powered-software-optimization-and-how-it-can-help-your-team/",
         "source": "GitHub Blog",
         "pubDate": "2025-12-12T20:43:37.000Z",
-        "relevanceScore": 367.38,
+        "relevanceScore": 503.29,
         "tags": [
           "AI",
           "Tech",
@@ -769,17 +718,7 @@
         "link": "https://arstechnica.com/ai/2025/12/how-openai-is-using-gpt-5-codex-to-improve-the-ai-tool-itself/",
         "source": "Ars Technica",
         "pubDate": "2025-12-12T22:16:42.000Z",
-        "relevanceScore": 351.69,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Amazon pulls AI recap from Fallout TV show after it made several mistakes",
-        "link": "https://www.bbc.com/news/articles/c3r77j5nze5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-12-12T18:04:47.000Z",
-        "relevanceScore": 291.35,
+        "relevanceScore": 446.6,
         "tags": [
           "AI"
         ]
@@ -789,7 +728,38 @@
         "link": "https://techcrunch.com/2025/12/13/ai-data-center-boom-could-be-bad-news-for-other-infrastructure-projects/",
         "source": "TechCrunch",
         "pubDate": "2025-12-13T19:37:47.000Z",
-        "relevanceScore": 289.46,
+        "relevanceScore": 433.87,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Amazon pulls AI recap from Fallout TV show after it made several mistakes",
+        "link": "https://www.bbc.com/news/articles/c3r77j5nze5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-12-12T18:04:47.000Z",
+        "relevanceScore": 390.76,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Orchestrating Creativity with Agentic AI: How I Built a Real Business Using Autonomous Agents",
+        "link": "https://dev.to/vishwajeet_singh_be18eefb/orchestrating-creativity-with-agentic-ai-how-i-built-a-real-business-using-autonomous-agents-545c",
+        "source": "Dev.to",
+        "pubDate": "2025-12-14T16:02:19.000Z",
+        "relevanceScore": 321.95,
+        "tags": [
+          "AI",
+          "Business"
+        ]
+      },
+      {
+        "title": "\"I was forced to use AI until the day I was laid off.\" Copywriters reveal how AI has decimated their industry",
+        "link": "https://www.reddit.com/r/technology/comments/1pmcpx1/i_was_forced_to_use_ai_until_the_day_i_was_laid/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-14T12:16:00.000Z",
+        "relevanceScore": 174.2,
         "tags": [
           "AI"
         ]
@@ -799,21 +769,9 @@
         "link": "https://www.npr.org/2025/12/13/nx-s1-5641047/washington-posts-ai-podcast",
         "source": "NPR Business",
         "pubDate": "2025-12-13T11:01:00.000Z",
-        "relevanceScore": 62.74,
+        "relevanceScore": 158.15,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "SecureScript-AI System",
-        "link": "https://dev.to/likhithanagasri/securescript-ai-system-56fk",
-        "source": "Dev.to",
-        "pubDate": "2025-12-14T15:41:48.000Z",
-        "relevanceScore": 56.48,
-        "tags": [
-          "AI",
-          "Tech",
-          "Security"
         ]
       },
       {
@@ -821,7 +779,7 @@
         "link": "https://www.theverge.com/column/843883/ai-image-generators-better-worse",
         "source": "The Verge",
         "pubDate": "2025-12-14T13:00:00.000Z",
-        "relevanceScore": 46.94,
+        "relevanceScore": 139.34,
         "tags": [
           "AI",
           "Tech",
@@ -829,21 +787,21 @@
         ]
       },
       {
-        "title": "Inside Rivian’s big bet on AI-powered self-driving",
-        "link": "https://techcrunch.com/2025/12/12/inside-rivians-big-et-on-ai-powered-self-driving/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-12T21:44:50.000Z",
-        "relevanceScore": 36.09,
+        "title": "A Florida school went into lockdown after AI flagged a clarinet as a gun",
+        "link": "https://www.reddit.com/r/technology/comments/1pmf3uj/a_florida_school_went_into_lockdown_after_ai/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-14T14:17:42.000Z",
+        "relevanceScore": 135.6,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "\"I was forced to use AI until the day I was laid off.\" Copywriters reveal how AI has decimated their industry",
-        "link": "https://www.reddit.com/r/technology/comments/1pmcpx1/i_was_forced_to_use_ai_until_the_day_i_was_laid/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-14T12:16:00.000Z",
-        "relevanceScore": 29.79,
+        "title": "Inside Rivian’s big bet on AI-powered self-driving",
+        "link": "https://techcrunch.com/2025/12/12/inside-rivians-big-et-on-ai-powered-self-driving/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-12T21:44:50.000Z",
+        "relevanceScore": 126.49,
         "tags": [
           "AI"
         ]
@@ -853,9 +811,95 @@
         "link": "https://www.reddit.com/r/technology/comments/1pmf1qj/ai_superintelligence_is_a_silicon_valley_fantasy/",
         "source": "Reddit Technology",
         "pubDate": "2025-12-14T14:15:01.000Z",
-        "relevanceScore": 29.19,
+        "relevanceScore": 117.59,
         "tags": [
           "AI"
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Nanit Home Display Review: A Transformative Tablet",
+        "link": "https://www.wired.com/review/nanit-home-display/",
+        "source": "Wired",
+        "pubDate": "2025-12-14T14:04:00.000Z",
+        "relevanceScore": 429.56,
+        "tags": []
+      },
+      {
+        "title": "The Best Bike Gear for Your Brisk, Wintry Commute (2025)",
+        "link": "https://www.wired.com/gallery/bike-gear-winter-commute/",
+        "source": "Wired",
+        "pubDate": "2025-12-14T13:00:00.000Z",
+        "relevanceScore": 128.34,
+        "tags": []
+      },
+      {
+        "title": "10 Best Portable Power Stations (2025): Power Capacity, Portability, Camping, and More",
+        "link": "https://www.wired.com/gallery/best-portable-power-stations/",
+        "source": "Wired",
+        "pubDate": "2025-12-14T14:30:00.000Z",
+        "relevanceScore": 121.64,
+        "tags": []
+      },
+      {
+        "title": "The end of OpenAI, and other 2026 predictions",
+        "link": "https://www.theverge.com/podcast/844401/tech-industry-2026-predictions-openai-apple",
+        "source": "The Verge",
+        "pubDate": "2025-12-14T14:29:18.000Z",
+        "relevanceScore": 121.64,
+        "tags": []
+      },
+      {
+        "title": "WWE Saturday Night's Main Event: How to watch John Cena's final match for free",
+        "link": "https://www.engadget.com/entertainment/streaming/wwe-saturday-nights-main-event-how-to-watch-john-cenas-final-match-for-free-235537779.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-12-14T01:48:22.000Z",
+        "relevanceScore": 117.1,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Sharks and rays gain landmark protections as nations move to curb international trade",
+        "link": "https://arstechnica.com/science/2025/12/sharks-and-rays-gain-landmark-protections-as-nations-move-to-curb-international-trade/",
+        "source": "Ars Technica",
+        "pubDate": "2025-12-13T12:00:06.000Z",
+        "relevanceScore": 116.34,
+        "tags": []
+      },
+      {
+        "title": "Reminder: Donate to win swag in our annual Charity Drive sweepstakes",
+        "link": "https://arstechnica.com/gaming/2025/12/reminder-donate-to-win-swag-in-our-annual-charity-drive-sweepstakes-17/",
+        "source": "Ars Technica",
+        "pubDate": "2025-12-12T21:35:44.000Z",
+        "relevanceScore": 114.46,
+        "tags": []
+      },
+      {
+        "title": "DoorDash driver faces felony charges after allegedly spraying customers’ food",
+        "link": "https://techcrunch.com/2025/12/13/doordash-driver-faces-felony-charges-after-allegedly-spraying-customers-food/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-13T21:06:51.000Z",
+        "relevanceScore": 78.17,
+        "tags": []
+      },
+      {
+        "title": "Best Tested Walking Pads (2025): Urevo, WalkingPad, Sperax",
+        "link": "https://www.wired.com/story/best-walking-pads/",
+        "source": "Wired",
+        "pubDate": "2025-12-14T15:00:00.000Z",
+        "relevanceScore": 32.74,
+        "tags": []
+      },
+      {
+        "title": "A comprehensive list of 2025 tech layoffs",
+        "link": "https://techcrunch.com/2025/12/12/tech-layoffs-2025-list/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-13T00:11:09.000Z",
+        "relevanceScore": 19.98,
+        "tags": [
+          "Tech"
         ]
       }
     ],
@@ -865,7 +909,7 @@
         "link": "https://www.theverge.com/games/843010/xbox-ally-x-sleep-battery-drain-two-months-later",
         "source": "The Verge",
         "pubDate": "2025-12-14T14:00:00.000Z",
-        "relevanceScore": 292.64,
+        "relevanceScore": 350.54,
         "tags": []
       },
       {
@@ -873,7 +917,7 @@
         "link": "https://www.engadget.com/gaming/half-life-3-is-rumored-to-be-a-steam-machine-launch-title-and-could-arrive-in-spring-2026-193029413.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-13T19:30:29.000Z",
-        "relevanceScore": 46.44,
+        "relevanceScore": 137.84,
         "tags": [
           "Launch"
         ]
@@ -883,7 +927,7 @@
         "link": "https://www.engadget.com/gaming/a-aaa-game-for-the-alien-franchise-is-back-in-the-works-204401214.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-13T20:44:01.000Z",
-        "relevanceScore": 24.18,
+        "relevanceScore": 28.09,
         "tags": [
           "Report"
         ]
@@ -895,7 +939,15 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pm4pl2/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-12-14T04:02:29.000Z",
-        "relevanceScore": 101.15,
+        "relevanceScore": 205.55,
+        "tags": []
+      },
+      {
+        "title": "Germany's Merz says Putin seeks to restore USSR and will not stop at Ukraine",
+        "link": "https://www.reddit.com/r/worldnews/comments/1pmdhjn/germanys_merz_says_putin_seeks_to_restore_ussr/",
+        "source": "Reddit World News",
+        "pubDate": "2025-12-14T12:59:19.000Z",
+        "relevanceScore": 119.34,
         "tags": []
       },
       {
@@ -903,7 +955,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pma16z/mass_shooting_at_bondi_beach_with_ten_dead_and/",
         "source": "Reddit World News",
         "pubDate": "2025-12-14T09:25:34.000Z",
-        "relevanceScore": 36.72,
+        "relevanceScore": 40.63,
         "tags": [
           "IPO"
         ]
@@ -915,7 +967,7 @@
         "link": "https://www.bbc.com/news/articles/cp34442z25ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-12-13T00:32:28.000Z",
-        "relevanceScore": 95.65,
+        "relevanceScore": 198.05,
         "tags": [
           "Social",
           "Partnership"
@@ -926,105 +978,39 @@
         "link": "https://www.bbc.com/news/articles/c93w90kqgv9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-12-12T20:45:06.000Z",
-        "relevanceScore": 16.89,
+        "relevanceScore": 16.79,
         "tags": [
           "Web",
           "Social"
         ]
       }
     ],
-    "startup": [
-      {
-        "title": "India’s Spinny lines up $160M funding to acquire GoMechanic, sources say",
-        "link": "https://techcrunch.com/2025/12/13/indias-spinny-lines-up-160m-funding-to-acquire-gomechanic-sources-say/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-14T04:30:07.000Z",
-        "relevanceScore": 47.74,
-        "tags": [
-          "Startup",
-          "Funding"
-        ]
-      },
-      {
-        "title": "Best Web Frameworks for Indian Developers",
-        "link": "https://dev.to/techcontributors/best-web-frameworks-for-indian-developers-1ejl",
-        "source": "Dev.to",
-        "pubDate": "2025-12-14T15:39:27.000Z",
-        "relevanceScore": 24.97,
-        "tags": [
-          "Web",
-          "Startup"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "How Stack Overflow’s MCP Server is helping HP modernize the software development lifecycle",
-        "link": "https://stackoverflow.blog/2025/12/12/how-stack-overflow-s-mcp-server-is-helping-hp-modernize-the-software-development-lifecycle/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-12-12T18:00:00.000Z",
-        "relevanceScore": 47.34,
-        "tags": [
-          "Tech",
-          "Interview"
-        ]
-      },
-      {
-        "title": "Valhalla? Python? Withers? Lombok? - Ask the Architects at JavaOne'25",
-        "link": "https://www.reddit.com/r/programming/comments/1pma0uj/valhalla_python_withers_lombok_ask_the_architects/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-14T09:24:54.000Z",
-        "relevanceScore": 43.72,
-        "tags": []
-      },
-      {
-        "title": "DAT ONE RECAP: 2025",
-        "link": "https://dev.to/kartik_patel/dat-one-recap-2025-3g42",
-        "source": "Dev.to",
-        "pubDate": "2025-12-14T15:42:49.000Z",
-        "relevanceScore": 23.98,
-        "tags": []
-      },
-      {
-        "title": "The strangest programming languages you've ever heard of!!",
-        "link": "https://www.reddit.com/r/programming/comments/1pmeq58/the_strangest_programming_languages_youve_ever/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-14T14:00:42.000Z",
-        "relevanceScore": 21.64,
-        "tags": []
-      },
-      {
-        "title": "Why Twilio Segment Moved from Microservices Back to a Monolith",
-        "link": "https://www.reddit.com/r/programming/comments/1plrq5e/why_twilio_segment_moved_from_microservices_back/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-13T18:03:28.000Z",
-        "relevanceScore": 17.65,
-        "tags": []
-      }
-    ],
     "general": [
       {
-        "title": "Video appears to show alleged gunmen on bridge connected to beach",
-        "link": "https://www.bbc.com/news/videos/c5y9446grw1o?at_medium=RSS&at_campaign=rss",
+        "title": "Violence against women is a national emergency, Mahmood says",
+        "link": "https://www.bbc.com/news/articles/cj69w7kezdzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-12-14T11:57:57.000Z",
-        "relevanceScore": 40.23,
-        "tags": []
+        "pubDate": "2025-12-14T11:37:54.000Z",
+        "relevanceScore": 127.07,
+        "tags": [
+          "Breaking",
+          "Analysis"
+        ]
       },
       {
         "title": "What we know so far about Bondi Beach Hanukkah shooting",
         "link": "https://www.bbc.com/news/articles/cqjg22rey0lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-14T13:41:33.000Z",
-        "relevanceScore": 34.58,
+        "relevanceScore": 38.48,
         "tags": []
       },
       {
         "title": "King 'appalled and saddened' by Bondi attack on Jewish community",
         "link": "https://www.bbc.com/news/articles/c8e95gkl5r3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2025-12-14T15:25:12.000Z",
-        "relevanceScore": 31.92,
+        "pubDate": "2025-12-14T15:50:08.000Z",
+        "relevanceScore": 31.91,
         "tags": []
       },
       {
@@ -1032,7 +1018,7 @@
         "link": "https://www.bbc.com/news/articles/c3r711lnr8zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-14T14:57:34.000Z",
-        "relevanceScore": 31.83,
+        "relevanceScore": 31.74,
         "tags": []
       },
       {
@@ -1040,17 +1026,7 @@
         "link": "https://www.bbc.com/news/videos/c62l00q1v88o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-14T11:24:21.000Z",
-        "relevanceScore": 31.12,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Car prices hit a record high",
-        "link": "https://www.npr.org/2025/12/14/nx-s1-5639955/car-prices-hit-a-record-high",
-        "source": "NPR Business",
-        "pubDate": "2025-12-14T13:39:59.000Z",
-        "relevanceScore": 30.57,
+        "relevanceScore": 31.02,
         "tags": []
       }
     ],
@@ -1060,7 +1036,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/jury-johnson-johnson-owes-40-million-2-cancer-128377954",
         "source": "ABC News Business",
         "pubDate": "2025-12-13T20:40:31.000Z",
-        "relevanceScore": 29.67,
+        "relevanceScore": 118.08,
         "tags": []
       },
       {
@@ -1068,7 +1044,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/misunderstood-wolf-french-supermarket-ad-moving-viewers-worldwide-128377191",
         "source": "ABC News Business",
         "pubDate": "2025-12-13T19:49:48.000Z",
-        "relevanceScore": 22,
+        "relevanceScore": 21.91,
         "tags": []
       },
       {
@@ -1076,8 +1052,44 @@
         "link": "https://abcnews.go.com/Business/wireStory/problems-commercial-drivers-licenses-immigrants-found-8-states-128363424",
         "source": "ABC News Business",
         "pubDate": "2025-12-13T01:43:27.000Z",
-        "relevanceScore": 17.88,
+        "relevanceScore": 17.79,
         "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "India’s Spinny lines up $160M funding to acquire GoMechanic, sources say",
+        "link": "https://techcrunch.com/2025/12/13/indias-spinny-lines-up-160m-funding-to-acquire-gomechanic-sources-say/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-14T04:30:07.000Z",
+        "relevanceScore": 54.64,
+        "tags": [
+          "Startup",
+          "Funding"
+        ]
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Car prices hit a record high",
+        "link": "https://www.npr.org/2025/12/14/nx-s1-5639955/car-prices-hit-a-record-high",
+        "source": "NPR Business",
+        "pubDate": "2025-12-14T13:39:59.000Z",
+        "relevanceScore": 34.48,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "New AWS Lambda Durable Functions – Do they replace Step Functions?",
+        "link": "https://dev.to/ian_carlson_0c77f977f7790/new-aws-lambda-durable-functions-do-they-replace-step-functions-2c5i",
+        "source": "Dev.to",
+        "pubDate": "2025-12-14T16:06:37.000Z",
+        "relevanceScore": 23.97,
+        "tags": [
+          "Cloud",
+          "Launch"
+        ]
       }
     ],
     "education": [
@@ -1086,34 +1098,22 @@
         "link": "https://www.npr.org/2025/12/13/nx-s1-5640132/exploring-the-underlying-causes-of-corporate-bankruptcies-in-the-u-s",
         "source": "NPR Business",
         "pubDate": "2025-12-13T12:43:00.000Z",
-        "relevanceScore": 22.58,
+        "relevanceScore": 22.49,
         "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "German authorities foil Christmas market terror attack",
-        "link": "https://www.reddit.com/r/worldnews/comments/1pm4m7h/german_authorities_foil_christmas_market_terror/",
-        "source": "Reddit World News",
-        "pubDate": "2025-12-14T03:57:48.000Z",
-        "relevanceScore": 21.63,
-        "tags": [
-          "Business"
-        ]
       }
     ]
   },
   "stats": {
     "totalSources": 15,
     "totalCategories": 13,
-    "avgRelevanceScore": 86.50571428571428,
+    "avgRelevanceScore": 154.65020408163267,
     "topCategories": [
       {
-        "category": "tech",
+        "category": "ai-ml",
         "count": 11
       },
       {
-        "category": "ai-ml",
+        "category": "tech",
         "count": 10
       },
       {
