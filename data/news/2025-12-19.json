@@ -1,6 +1,6 @@
 {
   "date": "2025-12-19",
-  "lastUpdated": "2025-12-19T05:44:51.569Z",
+  "lastUpdated": "2025-12-19T05:54:21.528Z",
   "totalArticles": 53,
   "articles": [
     {
@@ -20,10 +20,35 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 3849.18,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 3849.68,
+      "relevanceScore": 3869.65,
+      "calculatedAt": "2025-12-19T05:54:21.608Z",
+      "recommendationScore": 3870.15,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "WW91ciBWZXJjZWwg",
+      "title": "Your Vercel AI SDK App Has a Prompt Injection Vulnerability",
+      "link": "https://dev.to/ofri-peretz/your-vercel-ai-sdk-app-has-a-prompt-injection-vulnerability-4g7p",
+      "description": "Prompt injection is the SQL injection of the AI era. And right now, most AI applications are wide open. The fix? A linter that understands your AI framework. I've audited dozens of Vercel AI SDK projects. The pattern is almost universal: developers pass user input directly to generateText() without ",
+      "pubDate": "2025-12-19T05:49:06.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "Prompt injection is the SQL injection of the AI era. And right now, most AI applications are wide open. The fix? A linter that understands your AI framework. I've audited dozens of Vercel AI SDK projects. The pattern is almost universal: developers pass user input directly to generateText() without any validation. It works. It ships. And it's a ticking time bomb. // ❌ This is in production apps right now await generateText ({ model : openai ( ' gpt-4 ' ), prompt : userMessage , // Direct user in",
+      "author": "Ofri Peretz",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "AI",
+        "Mobile"
+      ],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 2670.98,
+      "calculatedAt": "2025-12-19T05:54:21.608Z",
+      "recommendationScore": 2671.48,
+      "readingLevel": "intermediate"
     },
     {
       "id": "VGlrVG9rIGJhbjog",
@@ -47,9 +72,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1842.15,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 1844.65,
+      "relevanceScore": 1853.12,
+      "calculatedAt": "2025-12-19T05:54:21.608Z",
+      "recommendationScore": 1855.62,
       "readingLevel": "advanced"
     },
     {
@@ -69,9 +94,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1648.99,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 1649.49,
+      "relevanceScore": 1657.95,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 1658.45,
       "readingLevel": "intermediate"
     },
     {
@@ -95,9 +120,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 1569.64,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 1569.64,
+      "relevanceScore": 1578.6,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 1578.6,
       "readingLevel": "advanced"
     },
     {
@@ -121,9 +146,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1557.55,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 1558.05,
+      "relevanceScore": 1564.52,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 1565.02,
       "readingLevel": "intermediate"
     },
     {
@@ -146,9 +171,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1558.13,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 1560.63,
+      "relevanceScore": 1565.09,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 1567.59,
       "readingLevel": "advanced"
     },
     {
@@ -170,9 +195,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 827.35,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 828.85,
+      "relevanceScore": 838.81,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 840.31,
       "readingLevel": "advanced"
     },
     {
@@ -192,58 +217,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 973.05,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 974.55,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "TWljaGFlbCBTZWxp",
-      "title": "Michael Selig's CFTC Confirmation: A New Horizon for Crypto Regulation and Blockchain Innovation",
-      "link": "https://dev.to/nftsaz2025/michael-seligs-cftc-confirmation-a-new-horizon-for-crypto-regulation-and-blockchain-innovation-5d37",
-      "description": "Michael Selig's CFTC Confirmation: A New Horizon for Crypto Regulation and Blockchain Innovation The U.S. Senate's confirmation of Michael Selig as the new Chairman of the Commodity Futures Trading Commission (CFTC) marks a pivotal moment for the burgeoning cryptocurrency and blockchain industry. Th",
-      "pubDate": "2025-12-19T05:39:22.000Z",
-      "source": "Dev.to",
-      "category": "blockchain",
-      "weight": 6,
-      "content": "Michael Selig's CFTC Confirmation: A New Horizon for Crypto Regulation and Blockchain Innovation The U.S. Senate's confirmation of Michael Selig as the new Chairman of the Commodity Futures Trading Commission (CFTC) marks a pivotal moment for the burgeoning cryptocurrency and blockchain industry. This appointment is widely seen as a significant turning point in digital asset regulation, signaling a potential shift towards a more balanced and facilitative approach for blockchain companies operati",
-      "author": "nftsaz2025",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Regulation",
-        "Innovation"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 786.48,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 788.98,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "SSBUZXN0ZWQgQUkg",
-      "title": "I Tested AI on a Long Workflow and Context Collapse Killed It",
-      "link": "https://dev.to/leena_malhotra/i-tested-ai-on-a-long-workflow-and-context-collapse-killed-it-4p8p",
-      "description": "For six months, I ran every AI-generated code suggestion through a review process that would make a nuclear power plant jealous. Human approval before any AI output reached production. Manual verification of every function. Line-by-line review of generated tests. Three-person sign-off on architectur",
-      "pubDate": "2025-12-19T05:37:08.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "For six months, I ran every AI-generated code suggestion through a review process that would make a nuclear power plant jealous. Human approval before any AI output reached production. Manual verification of every function. Line-by-line review of generated tests. Three-person sign-off on architecture suggestions. We treated AI like a junior developer who couldn't be trusted with scissors. The results were predictable: our velocity was terrible, our team was frustrated, and we weren't actually ge",
-      "author": "Leena Malhotra",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "review",
-      "relevanceScore": 758.97,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 759.47,
+      "relevanceScore": 987.02,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 988.52,
       "readingLevel": "advanced"
     },
     {
@@ -265,32 +241,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 752.35,
-      "calculatedAt": "2025-12-19T05:44:51.658Z",
-      "recommendationScore": 752.85,
+      "relevanceScore": 756.32,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 756.82,
       "readingLevel": "intermediate"
     },
     {
-      "id": "QWN0dWFsaXphY2nD",
-      "title": "Actualización de Influent Package Maker a la v3.2.6-25.12-17.44",
-      "link": "https://dev.to/jesusquijada34/actualizacion-de-influent-package-maker-a-la-v326-2512--1fh0",
-      "description": "Packagemaker (Influent Package Maker - IPM) v3.2.5-25.12-17.44 Packagemaker is a comprehensive suite for creating, packaging, managing, and distributing Python applications within the Influent/Fluthin ecosystem. It streamlines the lifecycle of your apps, from initial project structure creation to fi",
-      "pubDate": "2025-12-19T05:34:51.000Z",
+      "id": "VGhlIEJpZyAyMDI1",
+      "title": "The Big 2025 AI Lesson: Stop Bolting Chatbots Onto Broken Workflows",
+      "link": "https://dev.to/aiwithapex/the-big-2025-ai-lesson-stop-bolting-chatbots-onto-broken-workflows-2cd3",
+      "description": "Most companies learned a brutal AI lesson in 2025. They tried to bolt chatbots onto broken workflows. And then wondered why nothing really changed. The truth: AI agents don’t magically fix bad systems. They make your existing system more obvious. If your data is messy, your processes are clunky, and",
+      "pubDate": "2025-12-19T05:50:08.000Z",
       "source": "Dev.to",
-      "category": "development",
+      "category": "ai-ml",
       "weight": 6,
-      "content": "Packagemaker (Influent Package Maker - IPM) v3.2.5-25.12-17.44 Packagemaker is a comprehensive suite for creating, packaging, managing, and distributing Python applications within the Influent/Fluthin ecosystem. It streamlines the lifecycle of your apps, from initial project structure creation to final .iflapp packaging and distribution. ✨ Key Features 🚀 Project Creation Automated Structuring : Generates complete project skeletons with app , assets , config , docs , source , and lib directories",
-      "author": "Jesús Quijada",
+      "content": "Most companies learned a brutal AI lesson in 2025. They tried to bolt chatbots onto broken workflows. And then wondered why nothing really changed. The truth: AI agents don’t magically fix bad systems. They make your existing system more obvious. If your data is messy, your processes are clunky, and your org is siloed, AI will only speed up the chaos. The companies that actually won with AI did something different. They stopped chasing cool demos. They rebuilt how work flows end-to-end. They tre",
+      "author": "Max aka Mosheh",
       "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "neutral",
+      "importance": 8,
+      "tags": [
+        "AI"
+      ],
+      "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 652.97,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 653.47,
-      "readingLevel": "advanced"
+      "relevanceScore": 211.49,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 212.99,
+      "readingLevel": "intermediate"
     },
     {
       "id": "R2l0SHViIHdhbGtz",
@@ -309,9 +287,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 203.89,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 204.39,
+      "relevanceScore": 207.86,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 208.36,
       "readingLevel": "intermediate"
     },
     {
@@ -333,9 +311,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 314.33,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 317.33,
+      "relevanceScore": 331.3,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 334.3,
       "readingLevel": "intermediate"
     },
     {
@@ -359,9 +337,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 278.06,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 280.06,
+      "relevanceScore": 279.02,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 281.02,
       "readingLevel": "intermediate"
     },
     {
@@ -381,9 +359,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 125.91,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 126.41,
+      "relevanceScore": 129.88,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 130.38,
       "readingLevel": "intermediate"
     },
     {
@@ -403,9 +381,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 123.64,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 124.14,
+      "relevanceScore": 125.6,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 126.1,
       "readingLevel": "intermediate"
     },
     {
@@ -425,9 +403,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 118.28,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 118.78,
+      "relevanceScore": 120.24,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 120.74,
       "readingLevel": "advanced"
     },
     {
@@ -449,9 +427,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 116.55,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 118.55,
+      "relevanceScore": 118.52,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 120.52,
       "readingLevel": "advanced"
     },
     {
@@ -476,34 +454,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 114.58,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 115.08,
+      "relevanceScore": 116.54,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 117.04,
       "readingLevel": "intermediate"
     },
     {
-      "id": "TGFzdCB3ZWVrIGlu",
-      "title": "Last week in AWS re:Invent with Corey Quinn",
-      "link": "https://stackoverflow.blog/2025/12/19/last-week-in-aws-re-invent-with-corey-quinn/",
-      "description": "Ryan sits down with Corey Quinn, Chief Cloud Economist at Duckbill, at AWS re:Invent to get Corey’s patented snarky take on all the happenings from the conference.",
-      "pubDate": "2025-12-19T08:40:00.000Z",
-      "source": "Stack Overflow Blog",
+      "id": "WmVybyBUcnVzdCBB",
+      "title": "Zero Trust Architecture: Why “Trust No One” Is the Future of Security 🔐",
+      "link": "https://dev.to/devarshi_2211/zero-trust-architecture-why-trust-no-one-is-the-future-of-security-4e78",
+      "description": "In today’s world of cloud-native apps, remote teams, APIs, and microservices, the old security model just doesn’t work anymore. The traditional idea was simple: “If you’re inside the network, you’re trusted.” But what happens when: Employees work remotely? Applications live across multiple clouds? A",
+      "pubDate": "2025-12-19T05:49:00.000Z",
+      "source": "Dev.to",
       "category": "cloud",
       "weight": 6,
-      "content": "Ryan sits down with Corey Quinn, Chief Cloud Economist at Duckbill, at AWS re:Invent to get Corey’s patented snarky take on all the happenings from the conference.",
-      "author": "Phoebe Sajor",
+      "content": "In today’s world of cloud-native apps, remote teams, APIs, and microservices, the old security model just doesn’t work anymore. The traditional idea was simple: “If you’re inside the network, you’re trusted.” But what happens when: Employees work remotely? Applications live across multiple clouds? Attackers breach the perimeter once and move freely inside? This is where Zero Trust Architecture (ZTA) comes in? What Is Zero Trust Architecture? Zero Trust Architecture is a security model based on o",
+      "author": "devarshi acharya",
       "readTime": 1,
       "importance": 6,
       "tags": [
+        "Security",
         "Cloud"
       ],
       "sentiment": "neutral",
-      "complexity": "low",
+      "complexity": "medium",
       "type": "news",
-      "relevanceScore": 65.08,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 65.08,
-      "readingLevel": "intermediate"
+      "relevanceScore": 85.48,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 87.48,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhlIFdoaXRlIEhv",
@@ -526,9 +505,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 60.96,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 61.46,
+      "relevanceScore": 63.43,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 63.93,
       "readingLevel": "advanced"
     },
     {
@@ -548,9 +527,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 53.17,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 53.67,
+      "relevanceScore": 47.64,
+      "calculatedAt": "2025-12-19T05:54:21.609Z",
+      "recommendationScore": 48.14,
       "readingLevel": "intermediate"
     },
     {
@@ -570,9 +549,31 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 39.51,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 40.01,
+      "relevanceScore": 41.48,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 41.98,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VGVycmlmeWluZyBO",
+      "title": "Terrifying New Photos Emerge From the Jeffrey Epstein Estate",
+      "link": "https://www.wired.com/story/house-oversight-jeffrey-epstein-photos-december-18-2025/",
+      "description": "The latest photo dump from Democrats in the House Oversight Committee includes more famous men and upsetting Lolita quotes written on a woman's body.",
+      "pubDate": "2025-12-18T22:23:31.000Z",
+      "source": "Wired",
+      "category": "tech",
+      "weight": 7,
+      "content": "The latest photo dump from Democrats in the House Oversight Committee includes more famous men and upsetting Lolita quotes written on a woman's body.",
+      "author": "Maddy Varner, Andrew Couts",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 37.5,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 40,
       "readingLevel": "advanced"
     },
     {
@@ -592,9 +593,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.73,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 32.23,
+      "relevanceScore": 31.7,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 32.2,
       "readingLevel": "intermediate"
     },
     {
@@ -614,9 +615,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.66,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 26.16,
+      "relevanceScore": 23.63,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 26.13,
       "readingLevel": "advanced"
     },
     {
@@ -638,10 +639,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.6,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 25.6,
+      "relevanceScore": 25.57,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 25.57,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "TGFzdCB3ZWVrIGlu",
+      "title": "Last week in AWS re:Invent with Corey Quinn",
+      "link": "https://stackoverflow.blog/2025/12/19/last-week-in-aws-re-invent-with-corey-quinn/",
+      "description": "Ryan sits down with Corey Quinn, Chief Cloud Economist at Duckbill, at AWS re:Invent to get Corey’s patented snarky take on all the happenings from the conference.",
+      "pubDate": "2025-12-19T08:40:00.000Z",
+      "source": "Stack Overflow Blog",
+      "category": "cloud",
+      "weight": 6,
+      "content": "Ryan sits down with Corey Quinn, Chief Cloud Economist at Duckbill, at AWS re:Invent to get Corey’s patented snarky take on all the happenings from the conference.",
+      "author": "Phoebe Sajor",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Cloud"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 24.55,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 24.55,
+      "readingLevel": "intermediate"
     },
     {
       "id": "U3RpZ21hIG9mIFVr",
@@ -660,9 +685,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.85,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 31.35,
+      "relevanceScore": 30.82,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 31.32,
       "readingLevel": "advanced"
     },
     {
@@ -684,9 +709,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.84,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 29.34,
+      "relevanceScore": 26.81,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 29.31,
       "readingLevel": "intermediate"
     },
     {
@@ -708,9 +733,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.33,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 23.33,
+      "relevanceScore": 23.3,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 23.3,
       "readingLevel": "advanced"
     },
     {
@@ -730,9 +755,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.87,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 24.87,
+      "relevanceScore": 24.83,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 24.83,
       "readingLevel": "advanced"
     },
     {
@@ -756,9 +781,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.81,
-      "calculatedAt": "2025-12-19T05:44:51.659Z",
-      "recommendationScore": 24.81,
+      "relevanceScore": 24.78,
+      "calculatedAt": "2025-12-19T05:54:21.610Z",
+      "recommendationScore": 24.78,
       "readingLevel": "advanced"
     },
     {
@@ -778,9 +803,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.38,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 26.88,
+      "relevanceScore": 26.35,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 26.85,
       "readingLevel": "advanced"
     },
     {
@@ -800,9 +825,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.28,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 31.78,
+      "relevanceScore": 31.25,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 31.75,
       "readingLevel": "intermediate"
     },
     {
@@ -827,9 +852,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.04,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 27.54,
+      "relevanceScore": 27.01,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 27.51,
       "readingLevel": "intermediate"
     },
     {
@@ -851,9 +876,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.58,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 25.08,
+      "relevanceScore": 24.55,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 25.05,
       "readingLevel": "advanced"
     },
     {
@@ -873,31 +898,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.95,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 26.95,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "VGVycmlmeWluZyBO",
-      "title": "Terrifying New Photos Emerge From the Jeffrey Epstein Estate",
-      "link": "https://www.wired.com/story/house-oversight-jeffrey-epstein-photos-december-18-2025/",
-      "description": "The latest photo dump from Democrats in the House Oversight Committee includes more famous men and upsetting Lolita quotes written on a woman's body.",
-      "pubDate": "2025-12-18T22:23:31.000Z",
-      "source": "Wired",
-      "category": "tech",
-      "weight": 7,
-      "content": "The latest photo dump from Democrats in the House Oversight Committee includes more famous men and upsetting Lolita quotes written on a woman's body.",
-      "author": "Maddy Varner, Andrew Couts",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 24.53,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 27.03,
+      "relevanceScore": 22.92,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 26.92,
       "readingLevel": "advanced"
     },
     {
@@ -919,9 +922,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.59,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 24.59,
+      "relevanceScore": 24.56,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 24.56,
       "readingLevel": "advanced"
     },
     {
@@ -941,9 +944,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.05,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 24.55,
+      "relevanceScore": 24.02,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 24.52,
       "readingLevel": "advanced"
     },
     {
@@ -965,9 +968,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.45,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 27.95,
+      "relevanceScore": 27.42,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 27.92,
       "readingLevel": "advanced"
     },
     {
@@ -990,9 +993,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.68,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 29.18,
+      "relevanceScore": 27.65,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 29.15,
       "readingLevel": "advanced"
     },
     {
@@ -1012,9 +1015,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.85,
-      "calculatedAt": "2025-12-19T05:44:51.660Z",
-      "recommendationScore": 24.85,
+      "relevanceScore": 24.82,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 24.82,
       "readingLevel": "advanced"
     },
     {
@@ -1037,9 +1040,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 24.9,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 26.4,
+      "relevanceScore": 24.87,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 26.37,
       "readingLevel": "advanced"
     },
     {
@@ -1061,9 +1064,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.4,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 22.9,
+      "relevanceScore": 22.36,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 22.86,
       "readingLevel": "intermediate"
     },
     {
@@ -1083,9 +1086,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.83,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 24.33,
+      "relevanceScore": 23.8,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 24.3,
       "readingLevel": "intermediate"
     },
     {
@@ -1110,9 +1113,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.71,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 24.71,
+      "relevanceScore": 24.68,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 24.68,
       "readingLevel": "advanced"
     },
     {
@@ -1132,9 +1135,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.1,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 23.1,
+      "relevanceScore": 23.07,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 23.07,
       "readingLevel": "advanced"
     },
     {
@@ -1158,9 +1161,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 22.91,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 23.41,
+      "relevanceScore": 22.88,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 23.38,
       "readingLevel": "advanced"
     },
     {
@@ -1182,9 +1185,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.85,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 25.35,
+      "relevanceScore": 24.82,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 25.32,
       "readingLevel": "intermediate"
     },
     {
@@ -1204,9 +1207,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.88,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 19.88,
+      "relevanceScore": 19.85,
+      "calculatedAt": "2025-12-19T05:54:21.611Z",
+      "recommendationScore": 19.85,
       "readingLevel": "advanced"
     },
     {
@@ -1226,9 +1229,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.78,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 21.28,
+      "relevanceScore": 20.75,
+      "calculatedAt": "2025-12-19T05:54:21.612Z",
+      "recommendationScore": 21.25,
       "readingLevel": "advanced"
     },
     {
@@ -1248,26 +1251,26 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 16.85,
-      "calculatedAt": "2025-12-19T05:44:51.661Z",
-      "recommendationScore": 18.35,
+      "relevanceScore": 16.82,
+      "calculatedAt": "2025-12-19T05:54:21.612Z",
+      "recommendationScore": 18.32,
       "readingLevel": "intermediate"
     }
   ],
   "sources": [
     "Engadget",
+    "Dev.to",
     "The Verge",
     "Wired",
     "TechCrunch",
     "Reddit Programming",
-    "Dev.to",
     "BBC News",
     "MIT Technology Review",
     "BBC Technology",
-    "Stack Overflow Blog",
     "Reddit Technology",
     "Ars Technica",
     "Reddit World News",
+    "Stack Overflow Blog",
     "ABC News Business",
     "NPR Business"
   ],
@@ -1279,6 +1282,6 @@
     "world",
     "business"
   ],
-  "processedAt": "2025-12-19T05:44:51.672Z",
+  "processedAt": "2025-12-19T05:54:21.622Z",
   "processingVersion": "2.0"
 }
