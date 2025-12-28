@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2025-12-28T23:14:21.550Z",
+  "lastUpdated": "2025-12-28T23:32:09.615Z",
   "totalArticles": 37,
   "categories": [
     "tech",
     "automotive",
     "development",
     "ai-ml",
-    "health",
-    "startup",
+    "mobile",
     "cybersecurity",
     "gaming",
-    "cloud",
-    "business",
-    "mobile",
     "general",
     "social",
-    "world"
+    "cloud",
+    "world",
+    "startup",
+    "health",
+    "business"
   ],
   "topArticles": [
     {
@@ -24,8 +24,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-12-28T18:00:00.000Z",
-      "relevanceScore": 887.95,
-      "recommendationScore": 889.95,
+      "relevanceScore": 900.89,
+      "recommendationScore": 902.89,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -35,8 +35,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-12-28T16:30:00.000Z",
-      "relevanceScore": 828.65,
-      "recommendationScore": 830.15,
+      "relevanceScore": 850.09,
+      "recommendationScore": 851.59,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -46,8 +46,8 @@
       "source": "Reddit Technology",
       "category": "automotive",
       "pubDate": "2025-12-28T10:24:17.000Z",
-      "relevanceScore": 671.93,
-      "recommendationScore": 672.43,
+      "relevanceScore": 680.87,
+      "recommendationScore": 681.37,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -57,9 +57,22 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2025-12-28T22:01:31.000Z",
-      "relevanceScore": 468.76,
-      "recommendationScore": 468.76,
+      "relevanceScore": 553.7,
+      "recommendationScore": 553.7,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Memory loss: As AI gobbles up chips, prices for devices may rise",
+      "link": "https://www.npr.org/2025/12/28/nx-s1-5656190/ai-chips-memory-prices-ram",
+      "source": "NPR Business",
+      "category": "ai-ml",
+      "pubDate": "2025-12-28T11:00:00.000Z",
+      "relevanceScore": 339.99,
+      "recommendationScore": 340.49,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -68,86 +81,35 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-12-28T15:49:55.000Z",
-      "relevanceScore": 317.52,
-      "recommendationScore": 318.02,
+      "relevanceScore": 329.46,
+      "recommendationScore": 329.96,
       "tags": [
         "Update"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Memory loss: As AI gobbles up chips, prices for devices may rise",
-      "link": "https://www.npr.org/2025/12/28/nx-s1-5656190/ai-chips-memory-prices-ram",
-      "source": "NPR Business",
-      "category": "ai-ml",
-      "pubDate": "2025-12-28T11:00:00.000Z",
-      "relevanceScore": 317.05,
-      "recommendationScore": 317.55,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "People Who Drink Bottled Water on a Daily Basis Ingest 90,000 More Microplastic Particles Each Year",
-      "link": "https://www.wired.com/story/people-who-drink-bottled-water-on-a-daily-basis-ingest-90000-more-microplastics-per-year/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-28T11:30:00.000Z",
-      "relevanceScore": 246.15,
-      "recommendationScore": 246.65,
-      "tags": [
-        "Science",
-        "Report"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Cold weather to ring in New Year as amber health alerts issued",
-      "link": "https://www.bbc.com/news/articles/cx25e9yr28go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2025-12-28T18:06:48.000Z",
-      "relevanceScore": 238.47,
-      "recommendationScore": 240.97,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "You need to read the subversive cosmic horror novella The Ballad of Black Tom",
-      "link": "https://www.theverge.com/column/850564/subversive-cosmic-horror-the-ballad-of-black-tom-victor-lavalle",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-12-28T19:45:00.000Z",
-      "relevanceScore": 233.3,
-      "recommendationScore": 233.8,
+      "title": "The tricky parts of building a reliable job scheduler: leases, idempotency, and timezone-aware cron",
+      "link": "https://www.reddit.com/r/programming/comments/1py4b4o/the_tricky_parts_of_building_a_reliable_job/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-12-28T22:19:45.000Z",
+      "relevanceScore": 327.76,
+      "recommendationScore": 328.26,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Compounding Engineering: Turn Your Repo into a Self-Improving DSPy Agent",
-      "link": "https://dev.to/dan-startegicauto/compounding-engineering-turn-your-repo-into-a-self-improving-dspy-agent-1e99",
+      "title": "Binary Sovereignty: Stop Uploading Your Unreleased App to Strangers",
+      "link": "https://dev.to/omnarayan/binary-sovereignty-stop-uploading-your-unreleased-app-to-strangers-4lfp",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-12-28T22:50:49.000Z",
-      "relevanceScore": 231.92,
-      "recommendationScore": 232.42,
+      "category": "mobile",
+      "pubDate": "2025-12-28T23:08:23.000Z",
+      "relevanceScore": 288.92,
+      "recommendationScore": 290.42,
       "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Star Citizen is on course to reach $1 billion in player funding in 2026, and still might not get to play its singleplayer campaign next year | Roberts Space Industries' sim keeps raking in the cash",
-      "link": "https://www.reddit.com/r/technology/comments/1pxz4lr/star_citizen_is_on_course_to_reach_1_billion_in/",
-      "source": "Reddit Technology",
-      "category": "startup",
-      "pubDate": "2025-12-28T18:52:08.000Z",
-      "relevanceScore": 229.13,
-      "recommendationScore": 229.13,
-      "tags": [
-        "Startup",
-        "Funding"
+        "Security",
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -157,8 +119,8 @@
       "source": "The Verge",
       "category": "cybersecurity",
       "pubDate": "2025-12-28T16:42:07.000Z",
-      "relevanceScore": 173.69,
-      "recommendationScore": 174.19,
+      "relevanceScore": 244.63,
+      "recommendationScore": 245.13,
       "tags": [
         "Security"
       ],
@@ -170,11 +132,33 @@
       "source": "Engadget",
       "category": "cybersecurity",
       "pubDate": "2025-12-28T19:10:49.000Z",
-      "relevanceScore": 172.19,
-      "recommendationScore": 172.69,
+      "relevanceScore": 243.13,
+      "recommendationScore": 243.63,
       "tags": [
         "Security"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "You need to read the subversive cosmic horror novella The Ballad of Black Tom",
+      "link": "https://www.theverge.com/column/850564/subversive-cosmic-horror-the-ballad-of-black-tom-victor-lavalle",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-12-28T19:45:00.000Z",
+      "relevanceScore": 237.24,
+      "recommendationScore": 237.74,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "MongoBleed vulnerability explained simply",
+      "link": "https://www.reddit.com/r/programming/comments/1py2c0w/mongobleed_vulnerability_explained_simply/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-12-28T20:59:51.000Z",
+      "relevanceScore": 229.49,
+      "recommendationScore": 229.49,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -183,96 +167,12 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-12-28T19:07:34.000Z",
-      "relevanceScore": 101.68,
-      "recommendationScore": 102.18,
+      "relevanceScore": 175.12,
+      "recommendationScore": 175.62,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "A guide to choosing the right Apple Watch",
-      "link": "https://techcrunch.com/2025/12/28/is-the-apple-watch-se-3-a-good-deal/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2025-12-28T20:00:00.000Z",
-      "relevanceScore": 88.35,
-      "recommendationScore": 88.35,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "MongoBleed vulnerability explained simply",
-      "link": "https://www.reddit.com/r/programming/comments/1py2c0w/mongobleed_vulnerability_explained_simply/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-12-28T20:59:51.000Z",
-      "relevanceScore": 86.05,
-      "recommendationScore": 86.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Optimizing AWS Lambda Performance: Balancing Power and Cost",
-      "link": "https://dev.to/morekiranp/optimizing-aws-lambda-performance-balancing-power-and-cost-57k2",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-12-28T22:58:58.000Z",
-      "relevanceScore": 84.95,
-      "recommendationScore": 85.45,
-      "tags": [
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "2025 Tech news in nutshell",
-      "link": "https://dev.to/vishthakkar/2025-tech-news-in-nutshell-3gp9",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2025-12-28T22:49:27.000Z",
-      "relevanceScore": 49.42,
-      "recommendationScore": 51.42,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "8 Best Plant-Based Meal Delivery Services and Kits (2025), Tested, Tasted, and Reviewed",
-      "link": "https://www.wired.com/gallery/best-plant-based-meal-kit-services/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-28T11:32:00.000Z",
-      "relevanceScore": 48.66,
-      "recommendationScore": 50.16,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Ayaneo's latest Game Boy remake will have an early bird starting price of $269",
-      "link": "https://www.engadget.com/gaming/ayaneos-latest-game-boy-remake-will-have-an-early-bird-starting-price-of-269-174553644.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2025-12-28T17:45:54.000Z",
-      "relevanceScore": 48.41,
-      "recommendationScore": 48.91,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Pilot dies in ultralight plane crash off Copacabana beach in Brazil",
-      "link": "https://abcnews.go.com/Business/wireStory/pilot-dies-ultralight-plane-crash-off-copacabana-beach-128723839",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-12-27T19:32:17.000Z",
-      "relevanceScore": 46.96,
-      "recommendationScore": 47.46,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "You may soon be able to change your Gmail address",
@@ -280,24 +180,24 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2025-12-28T21:29:59.000Z",
-      "relevanceScore": 44.15,
-      "recommendationScore": 44.15,
+      "relevanceScore": 111.59,
+      "recommendationScore": 111.59,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Apple escalates its appeal of a $2 billion fine from a UK antitrust lawsuit",
-      "link": "https://www.engadget.com/big-tech/apple-escalates-its-appeal-of-a-2-billion-fine-from-a-uk-antitrust-lawsuit-201922558.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2025-12-28T20:19:22.000Z",
-      "relevanceScore": 39.92,
-      "recommendationScore": 40.42,
+      "title": "People Who Drink Bottled Water on a Daily Basis Ingest 90,000 More Microplastic Particles Each Year",
+      "link": "https://www.wired.com/story/people-who-drink-bottled-water-on-a-daily-basis-ingest-90000-more-microplastics-per-year/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-28T11:30:00.000Z",
+      "relevanceScore": 110.59,
+      "recommendationScore": 111.09,
       "tags": [
-        "Mobile",
-        "Exclusive"
+        "Science",
+        "Report"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "OpenAI CEO Sam Altman just publicly admitted that AI agents are becoming a problem",
@@ -305,69 +205,12 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-12-28T16:59:07.000Z",
-      "relevanceScore": 35.75,
-      "recommendationScore": 36.25,
+      "relevanceScore": 103.19,
+      "recommendationScore": 103.69,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Egyptian dissident should be deported from UK, Tories say",
-      "link": "https://www.bbc.com/news/articles/cg5mr0gdnmeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-28T19:27:54.000Z",
-      "relevanceScore": 31.25,
-      "recommendationScore": 31.75,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "French cinema actress Brigitte Bardot dies aged 91",
-      "link": "https://www.bbc.com/news/articles/cly92pr8qryo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-28T13:34:26.000Z",
-      "relevanceScore": 30.07,
-      "recommendationScore": 30.07,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Late shopper rush drives Boxing Day sales traffic",
-      "link": "https://www.bbc.com/news/articles/c997e2vrzz7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-28T12:37:26.000Z",
-      "relevanceScore": 29.88,
-      "recommendationScore": 29.88,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Police charge driver who allegedly killed a pedestrian while livestreaming on TikTok",
-      "link": "https://techcrunch.com/2025/12/28/police-charge-driver-who-allegedly-killed-a-pedestrian-while-livestreaming-on-tiktok/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-12-28T21:52:52.000Z",
-      "relevanceScore": 27.73,
-      "recommendationScore": 28.23,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Film lookahead: 20 highlights to watch out for in 2026",
-      "link": "https://www.bbc.com/news/articles/cp8z60j7438o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-28T00:45:45.000Z",
-      "relevanceScore": 27.5,
-      "recommendationScore": 28,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "LG announces new UltraGear evo gaming monitors with AI upscaling",
@@ -375,23 +218,75 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2025-12-28T21:42:15.000Z",
-      "relevanceScore": 25.69,
-      "recommendationScore": 28.19,
+      "relevanceScore": 97.13,
+      "recommendationScore": 99.63,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Myanmar holds first election since military seized power but critics say the vote is a sham",
-      "link": "https://abcnews.go.com/Business/wireStory/myanmar-holds-election-military-seized-power-critics-vote-128731939",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2025-12-28T15:01:37.000Z",
-      "relevanceScore": 24.36,
-      "recommendationScore": 26.86,
+      "title": "Did Skills Kill MCP?",
+      "link": "https://dev.to/goose_oss/did-skills-kill-mcp-3lk1",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2025-12-28T23:09:32.000Z",
+      "relevanceScore": 95.42,
+      "recommendationScore": 95.42,
       "tags": [
-        "Exclusive"
+        "AI",
+        "Tech",
+        "Social"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Egyptian dissident should be deported from UK, Tories say",
+      "link": "https://www.bbc.com/news/articles/cg5mr0gdnmeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-28T19:27:54.000Z",
+      "relevanceScore": 95.19,
+      "recommendationScore": 95.69,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "A guide to choosing the right Apple Watch",
+      "link": "https://techcrunch.com/2025/12/28/is-the-apple-watch-se-3-a-good-deal/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2025-12-28T20:00:00.000Z",
+      "relevanceScore": 94.29,
+      "recommendationScore": 94.29,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Police charge driver who allegedly killed a pedestrian while livestreaming on TikTok",
+      "link": "https://techcrunch.com/2025/12/28/police-charge-driver-who-allegedly-killed-a-pedestrian-while-livestreaming-on-tiktok/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2025-12-28T21:52:52.000Z",
+      "relevanceScore": 91.67,
+      "recommendationScore": 92.17,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Optimizing AWS Lambda Performance: Balancing Power and Cost",
+      "link": "https://dev.to/morekiranp/optimizing-aws-lambda-performance-balancing-power-and-cost-57k2",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-12-28T22:58:58.000Z",
+      "relevanceScore": 90.89,
+      "recommendationScore": 91.39,
+      "tags": [
+        "Cloud"
       ],
       "readingLevel": "advanced"
     },
@@ -401,21 +296,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-12-28T13:09:00.000Z",
-      "relevanceScore": 23.98,
-      "recommendationScore": 25.48,
+      "relevanceScore": 87.92,
+      "recommendationScore": 89.42,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "10 Best Drones (2025): Flight-Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-drones/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-28T12:30:00.000Z",
-      "relevanceScore": 23.85,
-      "recommendationScore": 24.85,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Putin and Trump do not support European-Ukrainian temporary ceasefire idea, the Kremlin says",
@@ -423,8 +307,137 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-28T18:45:23.000Z",
-      "relevanceScore": 23.1,
-      "recommendationScore": 23.6,
+      "relevanceScore": 87.04,
+      "recommendationScore": 87.54,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Star Citizen is on course to reach $1 billion in player funding in 2026, and still might not get to play its singleplayer campaign next year | Roberts Space Industries' sim keeps raking in the cash",
+      "link": "https://www.reddit.com/r/technology/comments/1pxz4lr/star_citizen_is_on_course_to_reach_1_billion_in/",
+      "source": "Reddit Technology",
+      "category": "startup",
+      "pubDate": "2025-12-28T18:52:08.000Z",
+      "relevanceScore": 85.07,
+      "recommendationScore": 85.07,
+      "tags": [
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1403, Part 1 (Thread #1550)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1pxhn5n/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2025-12-28T04:02:40.000Z",
+      "relevanceScore": 84.1,
+      "recommendationScore": 86.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "8 Best Plant-Based Meal Delivery Services and Kits (2025), Tested, Tasted, and Reviewed",
+      "link": "https://www.wired.com/gallery/best-plant-based-meal-kit-services/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-28T11:32:00.000Z",
+      "relevanceScore": 54.1,
+      "recommendationScore": 55.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple escalates its appeal of a $2 billion fine from a UK antitrust lawsuit",
+      "link": "https://www.engadget.com/big-tech/apple-escalates-its-appeal-of-a-2-billion-fine-from-a-uk-antitrust-lawsuit-201922558.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2025-12-28T20:19:22.000Z",
+      "relevanceScore": 43.36,
+      "recommendationScore": 43.86,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "French cinema actress Brigitte Bardot dies aged 91",
+      "link": "https://www.bbc.com/news/articles/cly92pr8qryo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-28T13:34:26.000Z",
+      "relevanceScore": 37.51,
+      "recommendationScore": 37.51,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Cold weather to ring in New Year as amber health alerts issued",
+      "link": "https://www.bbc.com/news/articles/cx25e9yr28go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2025-12-28T18:06:48.000Z",
+      "relevanceScore": 30.42,
+      "recommendationScore": 32.92,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Late shopper rush drives Boxing Day sales traffic",
+      "link": "https://www.bbc.com/news/articles/c997e2vrzz7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-28T12:37:26.000Z",
+      "relevanceScore": 29.82,
+      "recommendationScore": 29.82,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Film lookahead: 20 highlights to watch out for in 2026",
+      "link": "https://www.bbc.com/news/articles/cp8z60j7438o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-28T00:45:45.000Z",
+      "relevanceScore": 27.45,
+      "recommendationScore": 27.95,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Myanmar holds first election since military seized power but critics say the vote is a sham",
+      "link": "https://abcnews.go.com/Business/wireStory/myanmar-holds-election-military-seized-power-critics-vote-128731939",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-12-28T15:01:37.000Z",
+      "relevanceScore": 24.3,
+      "recommendationScore": 26.8,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "10 Best Drones (2025): Flight-Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-drones/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-28T12:30:00.000Z",
+      "relevanceScore": 23.79,
+      "recommendationScore": 24.79,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Ayaneo's latest Game Boy remake will have an early bird starting price of $269",
+      "link": "https://www.engadget.com/gaming/ayaneos-latest-game-boy-remake-will-have-an-early-bird-starting-price-of-269-174553644.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2025-12-28T17:45:54.000Z",
+      "relevanceScore": 22.85,
+      "recommendationScore": 23.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -434,30 +447,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-28T17:22:04.000Z",
-      "relevanceScore": 22.83,
-      "recommendationScore": 23.33,
+      "relevanceScore": 22.77,
+      "recommendationScore": 23.27,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1403, Part 1 (Thread #1550)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1pxhn5n/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2025-12-28T04:02:40.000Z",
-      "relevanceScore": 20.16,
-      "recommendationScore": 22.66,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Kafka uses OS page buffer cache for optimisations instead of process caching",
-      "link": "https://www.reddit.com/r/programming/comments/1pxmf5l/kafka_uses_os_page_buffer_cache_for_optimisations/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-12-28T08:31:19.000Z",
-      "relevanceScore": 19.06,
-      "recommendationScore": 19.56,
+      "title": "Pilot dies in ultralight plane crash off Copacabana beach in Brazil",
+      "link": "https://abcnews.go.com/Business/wireStory/pilot-dies-ultralight-plane-crash-off-copacabana-beach-128723839",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2025-12-27T19:32:17.000Z",
+      "relevanceScore": 21.4,
+      "recommendationScore": 21.9,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -469,7 +471,7 @@
         "link": "https://techcrunch.com/2025/12/28/why-wetransfer-co-founder-is-building-another-file-transfer-service/",
         "source": "TechCrunch",
         "pubDate": "2025-12-28T18:00:00.000Z",
-        "relevanceScore": 887.95,
+        "relevanceScore": 900.89,
         "tags": []
       },
       {
@@ -477,7 +479,7 @@
         "link": "https://techcrunch.com/2025/12/28/mayimflow-wants-to-stop-data-center-leaks-before-they-happen/",
         "source": "TechCrunch",
         "pubDate": "2025-12-28T16:30:00.000Z",
-        "relevanceScore": 828.65,
+        "relevanceScore": 850.09,
         "tags": []
       },
       {
@@ -485,20 +487,9 @@
         "link": "https://www.engadget.com/gaming/nintendo/stardew-valley-players-on-the-nintendo-switch-2-get-a-free-upgrade-174849697.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-28T15:49:55.000Z",
-        "relevanceScore": 317.52,
+        "relevanceScore": 329.46,
         "tags": [
           "Update"
-        ]
-      },
-      {
-        "title": "People Who Drink Bottled Water on a Daily Basis Ingest 90,000 More Microplastic Particles Each Year",
-        "link": "https://www.wired.com/story/people-who-drink-bottled-water-on-a-daily-basis-ingest-90000-more-microplastics-per-year/",
-        "source": "Wired",
-        "pubDate": "2025-12-28T11:30:00.000Z",
-        "relevanceScore": 246.15,
-        "tags": [
-          "Science",
-          "Report"
         ]
       },
       {
@@ -506,25 +497,7 @@
         "link": "https://www.theverge.com/column/850564/subversive-cosmic-horror-the-ballad-of-black-tom-victor-lavalle",
         "source": "The Verge",
         "pubDate": "2025-12-28T19:45:00.000Z",
-        "relevanceScore": 233.3,
-        "tags": []
-      },
-      {
-        "title": "A guide to choosing the right Apple Watch",
-        "link": "https://techcrunch.com/2025/12/28/is-the-apple-watch-se-3-a-good-deal/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-28T20:00:00.000Z",
-        "relevanceScore": 88.35,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "8 Best Plant-Based Meal Delivery Services and Kits (2025), Tested, Tasted, and Reviewed",
-        "link": "https://www.wired.com/gallery/best-plant-based-meal-kit-services/",
-        "source": "Wired",
-        "pubDate": "2025-12-28T11:32:00.000Z",
-        "relevanceScore": 48.66,
+        "relevanceScore": 237.24,
         "tags": []
       },
       {
@@ -532,15 +505,44 @@
         "link": "https://techcrunch.com/2025/12/28/you-may-soon-be-able-to-change-your-gmail-address/",
         "source": "TechCrunch",
         "pubDate": "2025-12-28T21:29:59.000Z",
-        "relevanceScore": 44.15,
+        "relevanceScore": 111.59,
         "tags": []
+      },
+      {
+        "title": "People Who Drink Bottled Water on a Daily Basis Ingest 90,000 More Microplastic Particles Each Year",
+        "link": "https://www.wired.com/story/people-who-drink-bottled-water-on-a-daily-basis-ingest-90000-more-microplastics-per-year/",
+        "source": "Wired",
+        "pubDate": "2025-12-28T11:30:00.000Z",
+        "relevanceScore": 110.59,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      },
+      {
+        "title": "A guide to choosing the right Apple Watch",
+        "link": "https://techcrunch.com/2025/12/28/is-the-apple-watch-se-3-a-good-deal/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-28T20:00:00.000Z",
+        "relevanceScore": 94.29,
+        "tags": [
+          "Tutorial"
+        ]
       },
       {
         "title": "How Much Melatonin Should You Be Taking? (2026)",
         "link": "https://www.wired.com/story/how-much-melatonin-should-i-take-2026/",
         "source": "Wired",
         "pubDate": "2025-12-28T13:09:00.000Z",
-        "relevanceScore": 23.98,
+        "relevanceScore": 87.92,
+        "tags": []
+      },
+      {
+        "title": "8 Best Plant-Based Meal Delivery Services and Kits (2025), Tested, Tasted, and Reviewed",
+        "link": "https://www.wired.com/gallery/best-plant-based-meal-kit-services/",
+        "source": "Wired",
+        "pubDate": "2025-12-28T11:32:00.000Z",
+        "relevanceScore": 54.1,
         "tags": []
       },
       {
@@ -548,7 +550,7 @@
         "link": "https://www.wired.com/gallery/best-drones/",
         "source": "Wired",
         "pubDate": "2025-12-28T12:30:00.000Z",
-        "relevanceScore": 23.85,
+        "relevanceScore": 23.79,
         "tags": []
       }
     ],
@@ -558,7 +560,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1pxo61r/china_is_banning_teslastyle_retractable_door/",
         "source": "Reddit Technology",
         "pubDate": "2025-12-28T10:24:17.000Z",
-        "relevanceScore": 671.93,
+        "relevanceScore": 680.87,
         "tags": []
       }
     ],
@@ -568,7 +570,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1py3v4a/tim_van_der_lippe_steps_down_as_mockito_maintainer/",
         "source": "Reddit Programming",
         "pubDate": "2025-12-28T22:01:31.000Z",
-        "relevanceScore": 468.76,
+        "relevanceScore": 553.7,
+        "tags": []
+      },
+      {
+        "title": "The tricky parts of building a reliable job scheduler: leases, idempotency, and timezone-aware cron",
+        "link": "https://www.reddit.com/r/programming/comments/1py4b4o/the_tricky_parts_of_building_a_reliable_job/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-28T22:19:45.000Z",
+        "relevanceScore": 327.76,
         "tags": []
       },
       {
@@ -576,15 +586,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1py2c0w/mongobleed_vulnerability_explained_simply/",
         "source": "Reddit Programming",
         "pubDate": "2025-12-28T20:59:51.000Z",
-        "relevanceScore": 86.05,
-        "tags": []
-      },
-      {
-        "title": "Kafka uses OS page buffer cache for optimisations instead of process caching",
-        "link": "https://www.reddit.com/r/programming/comments/1pxmf5l/kafka_uses_os_page_buffer_cache_for_optimisations/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-28T08:31:19.000Z",
-        "relevanceScore": 19.06,
+        "relevanceScore": 229.49,
         "tags": []
       }
     ],
@@ -594,30 +596,9 @@
         "link": "https://www.npr.org/2025/12/28/nx-s1-5656190/ai-chips-memory-prices-ram",
         "source": "NPR Business",
         "pubDate": "2025-12-28T11:00:00.000Z",
-        "relevanceScore": 317.05,
+        "relevanceScore": 339.99,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "Compounding Engineering: Turn Your Repo into a Self-Improving DSPy Agent",
-        "link": "https://dev.to/dan-startegicauto/compounding-engineering-turn-your-repo-into-a-self-improving-dspy-agent-1e99",
-        "source": "Dev.to",
-        "pubDate": "2025-12-28T22:50:49.000Z",
-        "relevanceScore": 231.92,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "2025 Tech news in nutshell",
-        "link": "https://dev.to/vishthakkar/2025-tech-news-in-nutshell-3gp9",
-        "source": "Dev.to",
-        "pubDate": "2025-12-28T22:49:27.000Z",
-        "relevanceScore": 49.42,
-        "tags": [
-          "AI",
-          "Tech"
         ]
       },
       {
@@ -625,7 +606,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1pxw8em/openai_ceo_sam_altman_just_publicly_admitted_that/",
         "source": "Reddit Technology",
         "pubDate": "2025-12-28T16:59:07.000Z",
-        "relevanceScore": 35.75,
+        "relevanceScore": 103.19,
         "tags": [
           "AI"
         ]
@@ -635,32 +616,45 @@
         "link": "https://www.theverge.com/tech/850572/lg-announces-new-ultragear-evo-gaming-monitors-with-ai-upscaling",
         "source": "The Verge",
         "pubDate": "2025-12-28T21:42:15.000Z",
-        "relevanceScore": 25.69,
+        "relevanceScore": 97.13,
         "tags": [
           "AI"
         ]
-      }
-    ],
-    "health": [
+      },
       {
-        "title": "Cold weather to ring in New Year as amber health alerts issued",
-        "link": "https://www.bbc.com/news/articles/cx25e9yr28go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-12-28T18:06:48.000Z",
-        "relevanceScore": 238.47,
-        "tags": []
-      }
-    ],
-    "startup": [
-      {
-        "title": "Star Citizen is on course to reach $1 billion in player funding in 2026, and still might not get to play its singleplayer campaign next year | Roberts Space Industries' sim keeps raking in the cash",
-        "link": "https://www.reddit.com/r/technology/comments/1pxz4lr/star_citizen_is_on_course_to_reach_1_billion_in/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-28T18:52:08.000Z",
-        "relevanceScore": 229.13,
+        "title": "Did Skills Kill MCP?",
+        "link": "https://dev.to/goose_oss/did-skills-kill-mcp-3lk1",
+        "source": "Dev.to",
+        "pubDate": "2025-12-28T23:09:32.000Z",
+        "relevanceScore": 95.42,
         "tags": [
-          "Startup",
-          "Funding"
+          "AI",
+          "Tech",
+          "Social"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Binary Sovereignty: Stop Uploading Your Unreleased App to Strangers",
+        "link": "https://dev.to/omnarayan/binary-sovereignty-stop-uploading-your-unreleased-app-to-strangers-4lfp",
+        "source": "Dev.to",
+        "pubDate": "2025-12-28T23:08:23.000Z",
+        "relevanceScore": 288.92,
+        "tags": [
+          "Security",
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Apple escalates its appeal of a $2 billion fine from a UK antitrust lawsuit",
+        "link": "https://www.engadget.com/big-tech/apple-escalates-its-appeal-of-a-2-billion-fine-from-a-uk-antitrust-lawsuit-201922558.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-12-28T20:19:22.000Z",
+        "relevanceScore": 43.36,
+        "tags": [
+          "Mobile",
+          "Exclusive"
         ]
       }
     ],
@@ -670,7 +664,7 @@
         "link": "https://www.theverge.com/news/850551/ubisoft-shuts-down-rainbow-six-siege-servers-following-hack",
         "source": "The Verge",
         "pubDate": "2025-12-28T16:42:07.000Z",
-        "relevanceScore": 173.69,
+        "relevanceScore": 244.63,
         "tags": [
           "Security"
         ]
@@ -680,7 +674,7 @@
         "link": "https://www.engadget.com/gaming/ubisoft-is-rolling-back-rainbow-six-siege-servers-after-being-forced-to-shut-them-down-191049440.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-28T19:10:49.000Z",
-        "relevanceScore": 172.19,
+        "relevanceScore": 243.13,
         "tags": [
           "Security"
         ]
@@ -692,7 +686,7 @@
         "link": "https://www.theverge.com/podcast/850556/nintendo-power-glove-version-history",
         "source": "The Verge",
         "pubDate": "2025-12-28T19:07:34.000Z",
-        "relevanceScore": 101.68,
+        "relevanceScore": 175.12,
         "tags": [
           "Exclusive"
         ]
@@ -702,53 +696,8 @@
         "link": "https://www.engadget.com/gaming/ayaneos-latest-game-boy-remake-will-have-an-early-bird-starting-price-of-269-174553644.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-28T17:45:54.000Z",
-        "relevanceScore": 48.41,
+        "relevanceScore": 22.85,
         "tags": []
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Optimizing AWS Lambda Performance: Balancing Power and Cost",
-        "link": "https://dev.to/morekiranp/optimizing-aws-lambda-performance-balancing-power-and-cost-57k2",
-        "source": "Dev.to",
-        "pubDate": "2025-12-28T22:58:58.000Z",
-        "relevanceScore": 84.95,
-        "tags": [
-          "Cloud"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Pilot dies in ultralight plane crash off Copacabana beach in Brazil",
-        "link": "https://abcnews.go.com/Business/wireStory/pilot-dies-ultralight-plane-crash-off-copacabana-beach-128723839",
-        "source": "ABC News Business",
-        "pubDate": "2025-12-27T19:32:17.000Z",
-        "relevanceScore": 46.96,
-        "tags": []
-      },
-      {
-        "title": "Myanmar holds first election since military seized power but critics say the vote is a sham",
-        "link": "https://abcnews.go.com/Business/wireStory/myanmar-holds-election-military-seized-power-critics-vote-128731939",
-        "source": "ABC News Business",
-        "pubDate": "2025-12-28T15:01:37.000Z",
-        "relevanceScore": 24.36,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Apple escalates its appeal of a $2 billion fine from a UK antitrust lawsuit",
-        "link": "https://www.engadget.com/big-tech/apple-escalates-its-appeal-of-a-2-billion-fine-from-a-uk-antitrust-lawsuit-201922558.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-12-28T20:19:22.000Z",
-        "relevanceScore": 39.92,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
       }
     ],
     "general": [
@@ -757,7 +706,7 @@
         "link": "https://www.bbc.com/news/articles/cg5mr0gdnmeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-28T19:27:54.000Z",
-        "relevanceScore": 31.25,
+        "relevanceScore": 95.19,
         "tags": []
       },
       {
@@ -765,7 +714,7 @@
         "link": "https://www.bbc.com/news/articles/cly92pr8qryo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-28T13:34:26.000Z",
-        "relevanceScore": 30.07,
+        "relevanceScore": 37.51,
         "tags": []
       },
       {
@@ -773,7 +722,7 @@
         "link": "https://www.bbc.com/news/articles/c997e2vrzz7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-28T12:37:26.000Z",
-        "relevanceScore": 29.88,
+        "relevanceScore": 29.82,
         "tags": []
       },
       {
@@ -781,7 +730,7 @@
         "link": "https://www.bbc.com/news/articles/cp8z60j7438o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-28T00:45:45.000Z",
-        "relevanceScore": 27.5,
+        "relevanceScore": 27.45,
         "tags": []
       }
     ],
@@ -791,9 +740,21 @@
         "link": "https://techcrunch.com/2025/12/28/police-charge-driver-who-allegedly-killed-a-pedestrian-while-livestreaming-on-tiktok/",
         "source": "TechCrunch",
         "pubDate": "2025-12-28T21:52:52.000Z",
-        "relevanceScore": 27.73,
+        "relevanceScore": 91.67,
         "tags": [
           "Social"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Optimizing AWS Lambda Performance: Balancing Power and Cost",
+        "link": "https://dev.to/morekiranp/optimizing-aws-lambda-performance-balancing-power-and-cost-57k2",
+        "source": "Dev.to",
+        "pubDate": "2025-12-28T22:58:58.000Z",
+        "relevanceScore": 90.89,
+        "tags": [
+          "Cloud"
         ]
       }
     ],
@@ -803,15 +764,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pxyybv/putin_and_trump_do_not_support_europeanukrainian/",
         "source": "Reddit World News",
         "pubDate": "2025-12-28T18:45:23.000Z",
-        "relevanceScore": 23.1,
-        "tags": []
-      },
-      {
-        "title": "Trump says he had 'very productive' call with Putin ahead of Zelensky meeting",
-        "link": "https://www.reddit.com/r/worldnews/comments/1pxwtav/trump_says_he_had_very_productive_call_with_putin/",
-        "source": "Reddit World News",
-        "pubDate": "2025-12-28T17:22:04.000Z",
-        "relevanceScore": 22.83,
+        "relevanceScore": 87.04,
         "tags": []
       },
       {
@@ -819,7 +772,58 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pxhn5n/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-12-28T04:02:40.000Z",
-        "relevanceScore": 20.16,
+        "relevanceScore": 84.1,
+        "tags": []
+      },
+      {
+        "title": "Trump says he had 'very productive' call with Putin ahead of Zelensky meeting",
+        "link": "https://www.reddit.com/r/worldnews/comments/1pxwtav/trump_says_he_had_very_productive_call_with_putin/",
+        "source": "Reddit World News",
+        "pubDate": "2025-12-28T17:22:04.000Z",
+        "relevanceScore": 22.77,
+        "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "Star Citizen is on course to reach $1 billion in player funding in 2026, and still might not get to play its singleplayer campaign next year | Roberts Space Industries' sim keeps raking in the cash",
+        "link": "https://www.reddit.com/r/technology/comments/1pxz4lr/star_citizen_is_on_course_to_reach_1_billion_in/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-28T18:52:08.000Z",
+        "relevanceScore": 85.07,
+        "tags": [
+          "Startup",
+          "Funding"
+        ]
+      }
+    ],
+    "health": [
+      {
+        "title": "Cold weather to ring in New Year as amber health alerts issued",
+        "link": "https://www.bbc.com/news/articles/cx25e9yr28go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-12-28T18:06:48.000Z",
+        "relevanceScore": 30.42,
+        "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "Myanmar holds first election since military seized power but critics say the vote is a sham",
+        "link": "https://abcnews.go.com/Business/wireStory/myanmar-holds-election-military-seized-power-critics-vote-128731939",
+        "source": "ABC News Business",
+        "pubDate": "2025-12-28T15:01:37.000Z",
+        "relevanceScore": 24.3,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Pilot dies in ultralight plane crash off Copacabana beach in Brazil",
+        "link": "https://abcnews.go.com/Business/wireStory/pilot-dies-ultralight-plane-crash-off-copacabana-beach-128723839",
+        "source": "ABC News Business",
+        "pubDate": "2025-12-27T19:32:17.000Z",
+        "relevanceScore": 21.4,
         "tags": []
       }
     ]
@@ -827,7 +831,7 @@
   "stats": {
     "totalSources": 11,
     "totalCategories": 14,
-    "avgRelevanceScore": 162.71540540540536,
+    "avgRelevanceScore": 188.46351351351353,
     "topCategories": [
       {
         "category": "tech",
@@ -835,7 +839,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 5
+        "count": 4
       },
       {
         "category": "general",
