@@ -1,25 +1,24 @@
 {
-  "lastUpdated": "2025-12-30T10:18:30.566Z",
+  "lastUpdated": "2025-12-30T10:45:59.782Z",
   "totalArticles": 51,
   "categories": [
     "education",
     "gaming",
     "science",
     "business",
-    "startup",
     "cloud",
+    "startup",
+    "climate",
+    "ai-ml",
+    "finance",
     "social",
     "space",
-    "blockchain",
-    "ai-ml",
-    "tech",
-    "finance",
-    "general",
     "development",
-    "entertainment",
-    "climate",
+    "tech",
+    "general",
     "world",
-    "automotive"
+    "automotive",
+    "entertainment"
   ],
   "topArticles": [
     {
@@ -28,8 +27,8 @@
       "source": "Wired",
       "category": "education",
       "pubDate": "2025-12-29T12:00:00.000Z",
-      "relevanceScore": 1683.54,
-      "recommendationScore": 1684.54,
+      "relevanceScore": 1489.45,
+      "recommendationScore": 1490.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -39,8 +38,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2025-12-29T18:34:20.000Z",
-      "relevanceScore": 1445.35,
-      "recommendationScore": 1445.85,
+      "relevanceScore": 1462.76,
+      "recommendationScore": 1463.26,
       "tags": [
         "Tech",
         "Web",
@@ -54,8 +53,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2025-12-29T11:00:00.000Z",
-      "relevanceScore": 948.34,
-      "recommendationScore": 948.84,
+      "relevanceScore": 957.25,
+      "recommendationScore": 957.75,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -65,9 +64,22 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-12-29T21:09:17.000Z",
-      "relevanceScore": 913.37,
-      "recommendationScore": 913.87,
+      "relevanceScore": 950.28,
+      "recommendationScore": 950.78,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How We Migrated an AWS Amplify GraphQL Backend to CDK (Without a Rewrite)",
+      "link": "https://dev.to/stackops_ai_b57b69edea711/how-we-migrated-an-aws-amplify-graphql-backend-to-cdk-without-a-rewrite-2888",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2025-12-30T10:29:46.000Z",
+      "relevanceScore": 923.95,
+      "recommendationScore": 925.95,
+      "tags": [
+        "Cloud"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -76,8 +88,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2025-12-29T21:00:00.000Z",
-      "relevanceScore": 711.34,
-      "recommendationScore": 713.34,
+      "relevanceScore": 717.25,
+      "recommendationScore": 719.25,
       "tags": [
         "Business",
         "Startup",
@@ -86,69 +98,28 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Terraform: creating an AWS OpenSearch Service cluster and users",
-      "link": "https://dev.to/aws-heroes/terraform-creating-an-aws-opensearch-service-cluster-and-users-4786",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2025-12-30T10:00:00.000Z",
-      "relevanceScore": 709.94,
-      "recommendationScore": 710.44,
-      "tags": [
-        "Cloud",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "James Bond game 007 First Light delayed to May 2026",
       "link": "https://www.bbc.com/news/articles/c1lrlm9ydgno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "gaming",
       "pubDate": "2025-12-29T10:22:44.000Z",
-      "relevanceScore": 707.21,
-      "recommendationScore": 709.71,
+      "relevanceScore": 713.12,
+      "recommendationScore": 715.62,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Social media follower counts have never mattered less, creator economy execs say",
-      "link": "https://techcrunch.com/2025/12/29/social-media-follower-counts-have-never-mattered-less-creator-economy-execs-say/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2025-12-29T20:00:00.000Z",
-      "relevanceScore": 653.14,
-      "recommendationScore": 653.64,
-      "tags": [
-        "Business",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "NASA finally has a leader, but its future is no more certain",
-      "link": "https://www.engadget.com/science/space/nasa-finally-has-a-leader-but-its-future-is-no-more-certain-201109072.html?src=rss",
-      "source": "Engadget",
-      "category": "space",
-      "pubDate": "2025-12-29T20:11:09.000Z",
-      "relevanceScore": 524.18,
-      "recommendationScore": 524.68,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "After the Victory of Transparency: The DeFi Transformation of Financial Crime and the Next Regulatory Battlefield",
-      "link": "https://dev.to/apnews/after-the-victory-of-transparency-the-defi-transformation-of-financial-crime-and-the-next-2iio",
+      "title": "Ensure Manufacturing Compliance with Odoo ERP Software Development",
+      "link": "https://dev.to/aspire-softserv/ensure-manufacturing-compliance-with-odoo-erp-software-development-42oh",
       "source": "Dev.to",
-      "category": "blockchain",
-      "pubDate": "2025-12-30T10:00:00.000Z",
-      "relevanceScore": 521.44,
-      "recommendationScore": 521.44,
+      "category": "climate",
+      "pubDate": "2025-12-30T10:28:52.000Z",
+      "relevanceScore": 674.94,
+      "recommendationScore": 675.44,
       "tags": [
-        "Business",
+        "Tech",
         "Regulation"
       ],
       "readingLevel": "advanced"
@@ -159,8 +130,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2025-12-30T02:32:33.000Z",
-      "relevanceScore": 502.95,
-      "recommendationScore": 502.95,
+      "relevanceScore": 501.86,
+      "recommendationScore": 501.86,
       "tags": [
         "AI"
       ],
@@ -172,8 +143,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-12-30T05:39:08.000Z",
-      "relevanceScore": 485.07,
-      "recommendationScore": 485.57,
+      "relevanceScore": 481.98,
+      "recommendationScore": 482.48,
       "tags": [
         "AI",
         "Startup",
@@ -187,23 +158,12 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-12-30T08:40:00.000Z",
-      "relevanceScore": 470.67,
-      "recommendationScore": 473.17,
+      "relevanceScore": 471.58,
+      "recommendationScore": 474.08,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Turn your PC into a Super Nintendo with Epilogue&#8217;s new USB dock",
-      "link": "https://www.theverge.com/news/850793/epilogue-sn-operator-super-nintendo-snes-cartridge-slot-backup-emulator",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-12-29T17:22:05.000Z",
-      "relevanceScore": 460.61,
-      "recommendationScore": 463.11,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "What does the software engineering job market look like heading into 2026?",
@@ -211,8 +171,8 @@
       "source": "Reddit Programming",
       "category": "finance",
       "pubDate": "2025-12-29T14:15:36.000Z",
-      "relevanceScore": 439.99,
-      "recommendationScore": 441.99,
+      "relevanceScore": 451.9,
+      "recommendationScore": 453.9,
       "tags": [
         "Tech",
         "Business"
@@ -220,29 +180,18 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Ice skating duo Torvill and Dean to receive damehood and knighthood",
-      "link": "https://www.bbc.com/sport/articles/cy0p75qn0qqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-30T08:26:42.000Z",
-      "relevanceScore": 399.63,
-      "recommendationScore": 400.13,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "2025 was the year AI got a vibe check",
-      "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
+      "title": "Social media follower counts have never mattered less, creator economy execs say",
+      "link": "https://techcrunch.com/2025/12/29/social-media-follower-counts-have-never-mattered-less-creator-economy-execs-say/",
       "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2025-12-29T19:00:00.000Z",
-      "relevanceScore": 316.94,
-      "recommendationScore": 316.94,
+      "category": "social",
+      "pubDate": "2025-12-29T20:00:00.000Z",
+      "relevanceScore": 430.05,
+      "recommendationScore": 430.55,
       "tags": [
-        "AI",
-        "Business"
+        "Business",
+        "Social"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Developers remain willing but reluctant to use AI: The 2025 Developer Survey results are here",
@@ -250,8 +199,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2025-12-29T15:04:49.000Z",
-      "relevanceScore": 316.65,
-      "recommendationScore": 317.15,
+      "relevanceScore": 315.06,
+      "recommendationScore": 315.56,
       "tags": [
         "AI",
         "Report"
@@ -259,95 +208,30 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "What growing up in war does to a child's brain - and how it really affects them years later",
-      "link": "https://www.bbc.com/news/articles/cre3pdxde7vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-30T03:25:02.000Z",
-      "relevanceScore": 283.62,
-      "recommendationScore": 285.62,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Apple AirTag four-packs are on sale for $65 right now",
-      "link": "https://www.engadget.com/deals/apple-airtag-four-packs-are-on-sale-for-65-right-now-202333053.html?src=rss",
+      "title": "NASA finally has a leader, but its future is no more certain",
+      "link": "https://www.engadget.com/science/space/nasa-finally-has-a-leader-but-its-future-is-no-more-certain-201109072.html?src=rss",
       "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2025-12-29T20:47:52.000Z",
-      "relevanceScore": 273.3,
-      "recommendationScore": 273.8,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Apache Spark Isn’t “Fast” by Default; It’s Fast When You Use It Correctly",
-      "link": "https://www.reddit.com/r/programming/comments/1pyw5a2/apache_spark_isnt_fast_by_default_its_fast_when/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2025-12-29T19:48:34.000Z",
-      "relevanceScore": 251.1,
-      "recommendationScore": 251.6,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours",
-      "link": "https://www.bbc.com/news/articles/crrkgzy52keo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2025-12-30T03:07:27.000Z",
-      "relevanceScore": 248.56,
-      "recommendationScore": 251.06,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Who's releasing new music in 2026 and will Oasis play Knebworth?",
-      "link": "https://www.bbc.com/news/articles/cz68944djpqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "entertainment",
-      "pubDate": "2025-12-30T00:05:40.000Z",
-      "relevanceScore": 246.96,
-      "recommendationScore": 249.46,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "US can’t deport hate speech researcher for protected speech, lawsuit says",
-      "link": "https://arstechnica.com/tech-policy/2025/12/us-cant-deport-hate-speech-researcher-for-protected-speech-lawsuit-says/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2025-12-29T21:30:29.000Z",
-      "relevanceScore": 244.44,
-      "recommendationScore": 244.94,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "LG is announcing its own Frame-style TV at CES",
-      "link": "https://www.theverge.com/news/850876/lg-gallery-tv-ces-2026",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2025-12-30T01:00:00.000Z",
-      "relevanceScore": 242.14,
-      "recommendationScore": 242.14,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Leonardo DiCaprio Says AI Can Never Be Art Because It Lacks Humanity: Even ‘Brilliant’ Examples Just ‘Dissipate Into the Ether of Internet Junk’",
-      "link": "https://www.reddit.com/r/technology/comments/1pz389y/leonardo_dicaprio_says_ai_can_never_be_art/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2025-12-30T00:31:02.000Z",
-      "relevanceScore": 241.04,
-      "recommendationScore": 241.04,
+      "category": "space",
+      "pubDate": "2025-12-29T20:11:09.000Z",
+      "relevanceScore": 300.08,
+      "recommendationScore": 300.58,
       "tags": [
-        "AI",
-        "Web"
+        "Exclusive"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "2026 GOAL PLANNING GUIDE",
+      "link": "https://dev.to/msnmongare/2026-goal-planning-guide-lk0",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2025-12-30T10:34:38.000Z",
+      "relevanceScore": 294.96,
+      "recommendationScore": 294.96,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Beijing condemns the demolition of a monument honoring the Chinese community in Panama",
@@ -355,8 +239,41 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2025-12-30T01:33:53.000Z",
-      "relevanceScore": 235.25,
-      "recommendationScore": 235.75,
+      "relevanceScore": 241.16,
+      "recommendationScore": 241.66,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apache Spark Isn’t “Fast” by Default; It’s Fast When You Use It Correctly",
+      "link": "https://www.reddit.com/r/programming/comments/1pyw5a2/apache_spark_isnt_fast_by_default_its_fast_when/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2025-12-29T19:48:34.000Z",
+      "relevanceScore": 239.51,
+      "recommendationScore": 240.01,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US can’t deport hate speech researcher for protected speech, lawsuit says",
+      "link": "https://arstechnica.com/tech-policy/2025/12/us-cant-deport-hate-speech-researcher-for-protected-speech-lawsuit-says/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2025-12-29T21:30:29.000Z",
+      "relevanceScore": 238.35,
+      "recommendationScore": 238.85,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Turn your PC into a Super Nintendo with Epilogue&#8217;s new USB dock",
+      "link": "https://www.theverge.com/news/850793/epilogue-sn-operator-super-nintendo-snes-cartridge-slot-backup-emulator",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-12-29T17:22:05.000Z",
+      "relevanceScore": 237.52,
+      "recommendationScore": 240.02,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -366,9 +283,23 @@
       "source": "ABC News Business",
       "category": "climate",
       "pubDate": "2025-12-29T06:05:57.000Z",
-      "relevanceScore": 231.36,
-      "recommendationScore": 231.86,
+      "relevanceScore": 237.27,
+      "recommendationScore": 237.77,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Leonardo DiCaprio Says AI Can Never Be Art Because It Lacks Humanity: Even ‘Brilliant’ Examples Just ‘Dissipate Into the Ether of Internet Junk’",
+      "link": "https://www.reddit.com/r/technology/comments/1pz389y/leonardo_dicaprio_says_ai_can_never_be_art/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2025-12-30T00:31:02.000Z",
+      "relevanceScore": 234.95,
+      "recommendationScore": 234.95,
+      "tags": [
+        "AI",
+        "Web"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -377,10 +308,21 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-12-29T22:53:27.000Z",
-      "relevanceScore": 211.72,
-      "recommendationScore": 212.22,
+      "relevanceScore": 218.62,
+      "recommendationScore": 219.12,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Ice skating duo Torvill and Dean to receive damehood and knighthood",
+      "link": "https://www.bbc.com/sport/articles/cy0p75qn0qqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-30T08:26:42.000Z",
+      "relevanceScore": 195.54,
+      "recommendationScore": 196.04,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "The best iPad cases for 2026",
@@ -388,10 +330,46 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2025-12-30T10:00:36.000Z",
-      "relevanceScore": 121.94,
-      "recommendationScore": 122.94,
+      "relevanceScore": 174.85,
+      "recommendationScore": 175.85,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "2025 was the year AI got a vibe check",
+      "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2025-12-29T19:00:00.000Z",
+      "relevanceScore": 86.85,
+      "recommendationScore": 86.85,
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Many new UK drone users must take theory test before flying outside",
+      "link": "https://www.bbc.com/news/articles/cjrjpzdzeddo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2025-12-29T00:02:30.000Z",
+      "relevanceScore": 56.06,
+      "recommendationScore": 58.56,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What growing up in war does to a child's brain - and how it really affects them years later",
+      "link": "https://www.bbc.com/news/articles/cre3pdxde7vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-30T03:25:02.000Z",
+      "relevanceScore": 53.53,
+      "recommendationScore": 55.53,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Plaud Note Pro is an excellent AI-powered recorder that I carry everywhere",
@@ -399,8 +377,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2025-12-29T18:00:00.000Z",
-      "relevanceScore": 60.74,
-      "recommendationScore": 61.24,
+      "relevanceScore": 47.65,
+      "recommendationScore": 48.15,
       "tags": [
         "AI",
         "Exclusive"
@@ -408,15 +386,19 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "The Best Body Pillow, Tested and Reviewed (2025)",
-      "link": "https://www.wired.com/gallery/best-body-pillows/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2025-12-29T12:00:00.000Z",
-      "relevanceScore": 60.54,
-      "recommendationScore": 61.54,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "How to tweak your online platform algorithms",
+      "link": "https://www.theverge.com/tech/849742/how-to-tune-algorithms-recommendations-online-platforms",
+      "source": "The Verge",
+      "category": "social",
+      "pubDate": "2025-12-29T16:30:00.000Z",
+      "relevanceScore": 46.35,
+      "recommendationScore": 47.85,
+      "tags": [
+        "Web",
+        "Social",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Bugs that survive the heat of continuous fuzzing",
@@ -424,8 +406,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2025-12-29T22:01:14.000Z",
-      "relevanceScore": 58.54,
-      "recommendationScore": 58.54,
+      "relevanceScore": 45.45,
+      "recommendationScore": 45.45,
       "tags": [
         "Exclusive"
       ],
@@ -437,8 +419,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-30T04:02:27.000Z",
-      "relevanceScore": 57.75,
-      "recommendationScore": 60.25,
+      "relevanceScore": 44.65,
+      "recommendationScore": 47.15,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -448,8 +430,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2025-12-29T16:30:45.000Z",
-      "relevanceScore": 57.44,
-      "recommendationScore": 57.94,
+      "relevanceScore": 44.35,
+      "recommendationScore": 44.85,
       "tags": [
         "AI"
       ],
@@ -461,8 +443,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2025-12-30T01:00:24.000Z",
-      "relevanceScore": 57.14,
-      "recommendationScore": 57.14,
+      "relevanceScore": 44.05,
+      "recommendationScore": 44.05,
       "tags": [
         "AI",
         "Launch"
@@ -475,8 +457,19 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2025-12-29T12:02:00.000Z",
-      "relevanceScore": 56.54,
-      "recommendationScore": 58.04,
+      "relevanceScore": 43.45,
+      "recommendationScore": 44.95,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Apple AirTag four-packs are on sale for $65 right now",
+      "link": "https://www.engadget.com/deals/apple-airtag-four-packs-are-on-sale-for-65-right-now-202333053.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2025-12-29T20:47:52.000Z",
+      "relevanceScore": 43.21,
+      "recommendationScore": 43.71,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -486,19 +479,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2025-12-30T00:21:29.000Z",
-      "relevanceScore": 55.01,
-      "recommendationScore": 55.51,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Many new UK drone users must take theory test before flying outside",
-      "link": "https://www.bbc.com/news/articles/cjrjpzdzeddo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2025-12-29T00:02:30.000Z",
-      "relevanceScore": 54.15,
-      "recommendationScore": 56.65,
+      "relevanceScore": 41.92,
+      "recommendationScore": 42.42,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -508,8 +490,8 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2025-12-29T14:07:06.000Z",
-      "relevanceScore": 52.96,
-      "recommendationScore": 53.46,
+      "relevanceScore": 39.87,
+      "recommendationScore": 40.37,
       "tags": [
         "AI",
         "Report"
@@ -517,13 +499,46 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Idris Elba knighted as Sarina Wiegman and Lionesses lead New Year Honours",
+      "link": "https://www.bbc.com/news/articles/crrkgzy52keo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2025-12-30T03:07:27.000Z",
+      "relevanceScore": 31.47,
+      "recommendationScore": 33.97,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Anthony Joshua in stable condition after Nigeria car crash that killed two friends",
       "link": "https://www.bbc.com/news/articles/c8989e1wnj2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2025-12-30T07:45:55.000Z",
-      "relevanceScore": 31.49,
-      "recommendationScore": 31.99,
+      "relevanceScore": 31.4,
+      "recommendationScore": 31.9,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Who's releasing new music in 2026 and will Oasis play Knebworth?",
+      "link": "https://www.bbc.com/news/articles/cz68944djpqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "entertainment",
+      "pubDate": "2025-12-30T00:05:40.000Z",
+      "relevanceScore": 29.87,
+      "recommendationScore": 32.37,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "China Will Tax Contraceptives in a Bid to Improve Birth Rates",
+      "link": "https://www.wired.com/story/china-to-tax-contraceptives/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2025-12-30T10:30:00.000Z",
+      "relevanceScore": 26.95,
+      "recommendationScore": 27.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -533,12 +548,23 @@
       "source": "ABC News Business",
       "category": "ai-ml",
       "pubDate": "2025-12-30T06:05:40.000Z",
-      "relevanceScore": 26.16,
-      "recommendationScore": 26.66,
+      "relevanceScore": 26.07,
+      "recommendationScore": 26.57,
       "tags": [
         "AI",
         "Business"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "LG is announcing its own Frame-style TV at CES",
+      "link": "https://www.theverge.com/news/850876/lg-gallery-tv-ces-2026",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2025-12-30T01:00:00.000Z",
+      "relevanceScore": 25.05,
+      "recommendationScore": 25.05,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -547,23 +573,9 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2025-12-29T19:32:12.000Z",
-      "relevanceScore": 25.05,
-      "recommendationScore": 25.55,
+      "relevanceScore": 24.95,
+      "recommendationScore": 25.45,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Powerful and High-Performance: VTable Practice Sharing — The Ultimate Tool for Table Data Visualization",
-      "link": "https://dev.to/xuanhun/powerful-and-high-performance-vtable-practice-sharing-the-ultimate-tool-for-table-data-2ikc",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2025-12-30T09:59:27.000Z",
-      "relevanceScore": 24.94,
-      "recommendationScore": 24.94,
-      "tags": [
-        "Web",
-        "Analysis"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -572,8 +584,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-12-29T19:30:47.000Z",
-      "relevanceScore": 23.04,
-      "recommendationScore": 23.54,
+      "relevanceScore": 22.95,
+      "recommendationScore": 23.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -583,8 +595,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2025-12-29T19:00:42.000Z",
-      "relevanceScore": 22.94,
-      "recommendationScore": 23.44,
+      "relevanceScore": 22.85,
+      "recommendationScore": 23.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -594,25 +606,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-30T02:31:57.000Z",
-      "relevanceScore": 22.44,
-      "recommendationScore": 24.44,
+      "relevanceScore": 22.35,
+      "recommendationScore": 24.35,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to tweak your online platform algorithms",
-      "link": "https://www.theverge.com/tech/849742/how-to-tune-algorithms-recommendations-online-platforms",
-      "source": "The Verge",
-      "category": "social",
-      "pubDate": "2025-12-29T16:30:00.000Z",
-      "relevanceScore": 22.44,
-      "recommendationScore": 23.94,
-      "tags": [
-        "Web",
-        "Social",
-        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -622,8 +619,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2025-12-29T23:52:07.000Z",
-      "relevanceScore": 21.91,
-      "recommendationScore": 21.91,
+      "relevanceScore": 21.82,
+      "recommendationScore": 21.82,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -633,8 +630,8 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2025-12-29T13:00:00.000Z",
-      "relevanceScore": 21.74,
-      "recommendationScore": 22.24,
+      "relevanceScore": 21.65,
+      "recommendationScore": 22.15,
       "tags": [
         "Tech"
       ],
@@ -648,7 +645,7 @@
         "link": "https://www.wired.com/story/worst-hacks-of-2025/",
         "source": "Wired",
         "pubDate": "2025-12-29T12:00:00.000Z",
-        "relevanceScore": 1683.54,
+        "relevanceScore": 1489.45,
         "tags": []
       }
     ],
@@ -658,7 +655,7 @@
         "link": "https://www.theverge.com/news/850832/gog-cd-projekt-acquisition-steam",
         "source": "The Verge",
         "pubDate": "2025-12-29T18:34:20.000Z",
-        "relevanceScore": 1445.35,
+        "relevanceScore": 1462.76,
         "tags": [
           "Tech",
           "Web",
@@ -670,7 +667,7 @@
         "link": "https://www.bbc.com/news/articles/c1lrlm9ydgno?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-12-29T10:22:44.000Z",
-        "relevanceScore": 707.21,
+        "relevanceScore": 713.12,
         "tags": [
           "Exclusive"
         ]
@@ -680,7 +677,7 @@
         "link": "https://www.wired.com/review/imp-mini-arcade-pro/",
         "source": "Wired",
         "pubDate": "2025-12-29T13:00:00.000Z",
-        "relevanceScore": 21.74,
+        "relevanceScore": 21.65,
         "tags": [
           "Tech"
         ]
@@ -692,7 +689,7 @@
         "link": "https://www.technologyreview.com/2025/12/29/1129308/bangladesh-garment-sustainability-frugal-factories/",
         "source": "MIT Technology Review",
         "pubDate": "2025-12-29T11:00:00.000Z",
-        "relevanceScore": 948.34,
+        "relevanceScore": 957.25,
         "tags": []
       }
     ],
@@ -702,7 +699,7 @@
         "link": "https://www.npr.org/2025/12/29/nx-s1-5638892-e1/book-distributor-shutting-down-deals-logistical-blow-to-libraries",
         "source": "NPR Business",
         "pubDate": "2025-12-29T21:09:17.000Z",
-        "relevanceScore": 913.37,
+        "relevanceScore": 950.28,
         "tags": []
       },
       {
@@ -710,7 +707,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/beijing-condemns-demolition-monument-honoring-chinese-community-panama-128767280",
         "source": "ABC News Business",
         "pubDate": "2025-12-30T01:33:53.000Z",
-        "relevanceScore": 235.25,
+        "relevanceScore": 241.16,
         "tags": []
       },
       {
@@ -718,7 +715,7 @@
         "link": "https://www.npr.org/2025/12/29/nx-s1-5653368/warren-buffett-is-retiring-we-look-back-at-a-critical-turning-point-in-his-career",
         "source": "NPR Business",
         "pubDate": "2025-12-29T22:53:27.000Z",
-        "relevanceScore": 211.72,
+        "relevanceScore": 218.62,
         "tags": []
       },
       {
@@ -726,8 +723,20 @@
         "link": "https://www.npr.org/2025/12/29/nx-s1-5660767/fifa-gianni-infantino-world-cup-ticket-prices",
         "source": "NPR Business",
         "pubDate": "2025-12-29T19:32:12.000Z",
-        "relevanceScore": 25.05,
+        "relevanceScore": 24.95,
         "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "How We Migrated an AWS Amplify GraphQL Backend to CDK (Without a Rewrite)",
+        "link": "https://dev.to/stackops_ai_b57b69edea711/how-we-migrated-an-aws-amplify-graphql-backend-to-cdk-without-a-rewrite-2888",
+        "source": "Dev.to",
+        "pubDate": "2025-12-30T10:29:46.000Z",
+        "relevanceScore": 923.95,
+        "tags": [
+          "Cloud"
+        ]
       }
     ],
     "startup": [
@@ -736,7 +745,7 @@
         "link": "https://techcrunch.com/2025/12/29/vcs-spill-what-they-really-want-to-hear-in-a-founder-pitch/",
         "source": "TechCrunch",
         "pubDate": "2025-12-29T21:00:00.000Z",
-        "relevanceScore": 711.34,
+        "relevanceScore": 717.25,
         "tags": [
           "Business",
           "Startup",
@@ -744,16 +753,158 @@
         ]
       }
     ],
-    "cloud": [
+    "climate": [
       {
-        "title": "Terraform: creating an AWS OpenSearch Service cluster and users",
-        "link": "https://dev.to/aws-heroes/terraform-creating-an-aws-opensearch-service-cluster-and-users-4786",
+        "title": "Ensure Manufacturing Compliance with Odoo ERP Software Development",
+        "link": "https://dev.to/aspire-softserv/ensure-manufacturing-compliance-with-odoo-erp-software-development-42oh",
         "source": "Dev.to",
-        "pubDate": "2025-12-30T10:00:00.000Z",
-        "relevanceScore": 709.94,
+        "pubDate": "2025-12-30T10:28:52.000Z",
+        "relevanceScore": 674.94,
         "tags": [
-          "Cloud",
+          "Tech",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "South Korea’s climate pledge to cut coal, lower emissions clash with US push for LNG purchases",
+        "link": "https://abcnews.go.com/Business/wireStory/south-koreas-climate-pledge-cut-coal-lower-emissions-128744079",
+        "source": "ABC News Business",
+        "pubDate": "2025-12-29T06:05:57.000Z",
+        "relevanceScore": 237.27,
+        "tags": []
+      }
+    ],
+    "ai-ml": [
+      {
+        "title": "China to crack down on AI firms to protect kids",
+        "link": "https://www.bbc.com/news/articles/c8dydlmenvro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2025-12-30T02:32:33.000Z",
+        "relevanceScore": 501.86,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Meta just bought Manus, an AI startup everyone has been talking about",
+        "link": "https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-30T05:39:08.000Z",
+        "relevanceScore": 481.98,
+        "tags": [
+          "AI",
+          "Startup",
+          "Social"
+        ]
+      },
+      {
+        "title": "How AI is helping us build better communities",
+        "link": "https://stackoverflow.blog/2025/12/30/how-ai-is-helping-us-build-better-communities/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-12-30T08:40:00.000Z",
+        "relevanceScore": 471.58,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Developers remain willing but reluctant to use AI: The 2025 Developer Survey results are here",
+        "link": "https://stackoverflow.blog/2025/12/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2025-12-29T15:04:49.000Z",
+        "relevanceScore": 315.06,
+        "tags": [
+          "AI",
+          "Report"
+        ]
+      },
+      {
+        "title": "Leonardo DiCaprio Says AI Can Never Be Art Because It Lacks Humanity: Even ‘Brilliant’ Examples Just ‘Dissipate Into the Ether of Internet Junk’",
+        "link": "https://www.reddit.com/r/technology/comments/1pz389y/leonardo_dicaprio_says_ai_can_never_be_art/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-30T00:31:02.000Z",
+        "relevanceScore": 234.95,
+        "tags": [
+          "AI",
+          "Web"
+        ]
+      },
+      {
+        "title": "2025 was the year AI got a vibe check",
+        "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-29T19:00:00.000Z",
+        "relevanceScore": 86.85,
+        "tags": [
+          "AI",
+          "Business"
+        ]
+      },
+      {
+        "title": "Plaud Note Pro is an excellent AI-powered recorder that I carry everywhere",
+        "link": "https://techcrunch.com/2025/12/29/plaud-note-pro-is-an-excellent-ai-powered-recorder-that-i-carry-everywhere/",
+        "source": "TechCrunch",
+        "pubDate": "2025-12-29T18:00:00.000Z",
+        "relevanceScore": 47.65,
+        "tags": [
+          "AI",
           "Exclusive"
+        ]
+      },
+      {
+        "title": "China drafts world’s strictest rules to end AI-encouraged suicide, violence",
+        "link": "https://arstechnica.com/tech-policy/2025/12/china-drafts-worlds-strictest-rules-to-end-ai-encouraged-suicide-violence/",
+        "source": "Ars Technica",
+        "pubDate": "2025-12-29T16:30:45.000Z",
+        "relevanceScore": 44.35,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "LG to unveil a canvas-style TV at CES 2026",
+        "link": "https://www.engadget.com/home/home-theater/lg-to-unveil-a-canvas-style-tv-at-ces-2026-010024691.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-12-30T01:00:24.000Z",
+        "relevanceScore": 44.05,
+        "tags": [
+          "AI",
+          "Launch"
+        ]
+      },
+      {
+        "title": "More than 20% of YouTube's feed is now \"AI slop,\" report finds",
+        "link": "https://www.reddit.com/r/technology/comments/1pyn5ng/more_than_20_of_youtubes_feed_is_now_ai_slop/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-29T14:07:06.000Z",
+        "relevanceScore": 39.87,
+        "tags": [
+          "AI",
+          "Report"
+        ]
+      },
+      {
+        "title": "As a property slump drags on, China's economy looks more resilient than it feels",
+        "link": "https://abcnews.go.com/Business/wireStory/property-slump-drags-chinas-economy-resilient-feels-128773094",
+        "source": "ABC News Business",
+        "pubDate": "2025-12-30T06:05:40.000Z",
+        "relevanceScore": 26.07,
+        "tags": [
+          "AI",
+          "Business"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "What does the software engineering job market look like heading into 2026?",
+        "link": "https://www.reddit.com/r/programming/comments/1pyncfa/what_does_the_software_engineering_job_market/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-29T14:15:36.000Z",
+        "relevanceScore": 451.9,
+        "tags": [
+          "Tech",
+          "Business"
         ]
       }
     ],
@@ -763,7 +914,7 @@
         "link": "https://techcrunch.com/2025/12/29/social-media-follower-counts-have-never-mattered-less-creator-economy-execs-say/",
         "source": "TechCrunch",
         "pubDate": "2025-12-29T20:00:00.000Z",
-        "relevanceScore": 653.14,
+        "relevanceScore": 430.05,
         "tags": [
           "Business",
           "Social"
@@ -774,7 +925,7 @@
         "link": "https://www.theverge.com/tech/849742/how-to-tune-algorithms-recommendations-online-platforms",
         "source": "The Verge",
         "pubDate": "2025-12-29T16:30:00.000Z",
-        "relevanceScore": 22.44,
+        "relevanceScore": 46.35,
         "tags": [
           "Web",
           "Social",
@@ -788,177 +939,65 @@
         "link": "https://www.engadget.com/science/space/nasa-finally-has-a-leader-but-its-future-is-no-more-certain-201109072.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-29T20:11:09.000Z",
-        "relevanceScore": 524.18,
+        "relevanceScore": 300.08,
         "tags": [
           "Exclusive"
         ]
       }
     ],
-    "blockchain": [
+    "development": [
       {
-        "title": "After the Victory of Transparency: The DeFi Transformation of Financial Crime and the Next Regulatory Battlefield",
-        "link": "https://dev.to/apnews/after-the-victory-of-transparency-the-defi-transformation-of-financial-crime-and-the-next-2iio",
+        "title": "2026 GOAL PLANNING GUIDE",
+        "link": "https://dev.to/msnmongare/2026-goal-planning-guide-lk0",
         "source": "Dev.to",
-        "pubDate": "2025-12-30T10:00:00.000Z",
-        "relevanceScore": 521.44,
+        "pubDate": "2025-12-30T10:34:38.000Z",
+        "relevanceScore": 294.96,
         "tags": [
-          "Business",
-          "Regulation"
-        ]
-      }
-    ],
-    "ai-ml": [
-      {
-        "title": "China to crack down on AI firms to protect kids",
-        "link": "https://www.bbc.com/news/articles/c8dydlmenvro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2025-12-30T02:32:33.000Z",
-        "relevanceScore": 502.95,
-        "tags": [
-          "AI"
+          "Tutorial"
         ]
       },
       {
-        "title": "Meta just bought Manus, an AI startup everyone has been talking about",
-        "link": "https://techcrunch.com/2025/12/29/meta-just-bought-manus-an-ai-startup-everyone-has-been-talking-about/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-30T05:39:08.000Z",
-        "relevanceScore": 485.07,
-        "tags": [
-          "AI",
-          "Startup",
-          "Social"
-        ]
+        "title": "Apache Spark Isn’t “Fast” by Default; It’s Fast When You Use It Correctly",
+        "link": "https://www.reddit.com/r/programming/comments/1pyw5a2/apache_spark_isnt_fast_by_default_its_fast_when/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-29T19:48:34.000Z",
+        "relevanceScore": 239.51,
+        "tags": []
       },
       {
-        "title": "How AI is helping us build better communities",
-        "link": "https://stackoverflow.blog/2025/12/30/how-ai-is-helping-us-build-better-communities/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-12-30T08:40:00.000Z",
-        "relevanceScore": 470.67,
+        "title": "Bugs that survive the heat of continuous fuzzing",
+        "link": "https://github.blog/security/vulnerability-research/bugs-that-survive-the-heat-of-continuous-fuzzing/",
+        "source": "GitHub Blog",
+        "pubDate": "2025-12-29T22:01:14.000Z",
+        "relevanceScore": 45.45,
         "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "2025 was the year AI got a vibe check",
-        "link": "https://techcrunch.com/2025/12/29/2025-was-the-year-ai-got-a-vibe-check/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-29T19:00:00.000Z",
-        "relevanceScore": 316.94,
-        "tags": [
-          "AI",
-          "Business"
-        ]
-      },
-      {
-        "title": "Developers remain willing but reluctant to use AI: The 2025 Developer Survey results are here",
-        "link": "https://stackoverflow.blog/2025/12/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2025-12-29T15:04:49.000Z",
-        "relevanceScore": 316.65,
-        "tags": [
-          "AI",
-          "Report"
-        ]
-      },
-      {
-        "title": "Leonardo DiCaprio Says AI Can Never Be Art Because It Lacks Humanity: Even ‘Brilliant’ Examples Just ‘Dissipate Into the Ether of Internet Junk’",
-        "link": "https://www.reddit.com/r/technology/comments/1pz389y/leonardo_dicaprio_says_ai_can_never_be_art/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-30T00:31:02.000Z",
-        "relevanceScore": 241.04,
-        "tags": [
-          "AI",
-          "Web"
-        ]
-      },
-      {
-        "title": "Plaud Note Pro is an excellent AI-powered recorder that I carry everywhere",
-        "link": "https://techcrunch.com/2025/12/29/plaud-note-pro-is-an-excellent-ai-powered-recorder-that-i-carry-everywhere/",
-        "source": "TechCrunch",
-        "pubDate": "2025-12-29T18:00:00.000Z",
-        "relevanceScore": 60.74,
-        "tags": [
-          "AI",
           "Exclusive"
         ]
       },
       {
-        "title": "China drafts world’s strictest rules to end AI-encouraged suicide, violence",
-        "link": "https://arstechnica.com/tech-policy/2025/12/china-drafts-worlds-strictest-rules-to-end-ai-encouraged-suicide-violence/",
-        "source": "Ars Technica",
-        "pubDate": "2025-12-29T16:30:45.000Z",
-        "relevanceScore": 57.44,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "LG to unveil a canvas-style TV at CES 2026",
-        "link": "https://www.engadget.com/home/home-theater/lg-to-unveil-a-canvas-style-tv-at-ces-2026-010024691.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-12-30T01:00:24.000Z",
-        "relevanceScore": 57.14,
-        "tags": [
-          "AI",
-          "Launch"
-        ]
-      },
-      {
-        "title": "More than 20% of YouTube's feed is now \"AI slop,\" report finds",
-        "link": "https://www.reddit.com/r/technology/comments/1pyn5ng/more_than_20_of_youtubes_feed_is_now_ai_slop/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-29T14:07:06.000Z",
-        "relevanceScore": 52.96,
-        "tags": [
-          "AI",
-          "Report"
-        ]
-      },
-      {
-        "title": "As a property slump drags on, China's economy looks more resilient than it feels",
-        "link": "https://abcnews.go.com/Business/wireStory/property-slump-drags-chinas-economy-resilient-feels-128773094",
-        "source": "ABC News Business",
-        "pubDate": "2025-12-30T06:05:40.000Z",
-        "relevanceScore": 26.16,
-        "tags": [
-          "AI",
-          "Business"
-        ]
+        "title": "The rise and fall of robots.txt",
+        "link": "https://www.reddit.com/r/programming/comments/1pytqia/the_rise_and_fall_of_robotstxt/",
+        "source": "Reddit Programming",
+        "pubDate": "2025-12-29T18:19:39.000Z",
+        "relevanceScore": 18.71,
+        "tags": []
       }
     ],
     "tech": [
-      {
-        "title": "Turn your PC into a Super Nintendo with Epilogue&#8217;s new USB dock",
-        "link": "https://www.theverge.com/news/850793/epilogue-sn-operator-super-nintendo-snes-cartridge-slot-backup-emulator",
-        "source": "The Verge",
-        "pubDate": "2025-12-29T17:22:05.000Z",
-        "relevanceScore": 460.61,
-        "tags": []
-      },
-      {
-        "title": "Apple AirTag four-packs are on sale for $65 right now",
-        "link": "https://www.engadget.com/deals/apple-airtag-four-packs-are-on-sale-for-65-right-now-202333053.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2025-12-29T20:47:52.000Z",
-        "relevanceScore": 273.3,
-        "tags": []
-      },
       {
         "title": "US can’t deport hate speech researcher for protected speech, lawsuit says",
         "link": "https://arstechnica.com/tech-policy/2025/12/us-cant-deport-hate-speech-researcher-for-protected-speech-lawsuit-says/",
         "source": "Ars Technica",
         "pubDate": "2025-12-29T21:30:29.000Z",
-        "relevanceScore": 244.44,
+        "relevanceScore": 238.35,
         "tags": []
       },
       {
-        "title": "LG is announcing its own Frame-style TV at CES",
-        "link": "https://www.theverge.com/news/850876/lg-gallery-tv-ces-2026",
+        "title": "Turn your PC into a Super Nintendo with Epilogue&#8217;s new USB dock",
+        "link": "https://www.theverge.com/news/850793/epilogue-sn-operator-super-nintendo-snes-cartridge-slot-backup-emulator",
         "source": "The Verge",
-        "pubDate": "2025-12-30T01:00:00.000Z",
-        "relevanceScore": 242.14,
+        "pubDate": "2025-12-29T17:22:05.000Z",
+        "relevanceScore": 237.52,
         "tags": []
       },
       {
@@ -966,31 +1005,7 @@
         "link": "https://www.engadget.com/computing/accessories/best-ipad-cases-to-protect-your-tablet-130033533.html?src=rss",
         "source": "Engadget",
         "pubDate": "2025-12-30T10:00:36.000Z",
-        "relevanceScore": 121.94,
-        "tags": []
-      },
-      {
-        "title": "The Best Body Pillow, Tested and Reviewed (2025)",
-        "link": "https://www.wired.com/gallery/best-body-pillows/",
-        "source": "Wired",
-        "pubDate": "2025-12-29T12:00:00.000Z",
-        "relevanceScore": 60.54,
-        "tags": []
-      },
-      {
-        "title": "The Best Vacuum for Pet Hair—We Tested Many to Find Which Ones Work Best (2026)",
-        "link": "https://www.wired.com/gallery/best-pet-hair-vacuums/",
-        "source": "Wired",
-        "pubDate": "2025-12-29T12:02:00.000Z",
-        "relevanceScore": 56.54,
-        "tags": []
-      },
-      {
-        "title": "Nvidia spends $5B on Intel bailout, instantly gets $2.5B richer",
-        "link": "https://www.reddit.com/r/technology/comments/1pz307p/nvidia_spends_5b_on_intel_bailout_instantly_gets/",
-        "source": "Reddit Technology",
-        "pubDate": "2025-12-30T00:21:29.000Z",
-        "relevanceScore": 55.01,
+        "relevanceScore": 174.85,
         "tags": []
       },
       {
@@ -998,7 +1013,47 @@
         "link": "https://www.bbc.com/news/articles/cjrjpzdzeddo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2025-12-29T00:02:30.000Z",
-        "relevanceScore": 54.15,
+        "relevanceScore": 56.06,
+        "tags": []
+      },
+      {
+        "title": "The Best Vacuum for Pet Hair—We Tested Many to Find Which Ones Work Best (2026)",
+        "link": "https://www.wired.com/gallery/best-pet-hair-vacuums/",
+        "source": "Wired",
+        "pubDate": "2025-12-29T12:02:00.000Z",
+        "relevanceScore": 43.45,
+        "tags": []
+      },
+      {
+        "title": "Apple AirTag four-packs are on sale for $65 right now",
+        "link": "https://www.engadget.com/deals/apple-airtag-four-packs-are-on-sale-for-65-right-now-202333053.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2025-12-29T20:47:52.000Z",
+        "relevanceScore": 43.21,
+        "tags": []
+      },
+      {
+        "title": "Nvidia spends $5B on Intel bailout, instantly gets $2.5B richer",
+        "link": "https://www.reddit.com/r/technology/comments/1pz307p/nvidia_spends_5b_on_intel_bailout_instantly_gets/",
+        "source": "Reddit Technology",
+        "pubDate": "2025-12-30T00:21:29.000Z",
+        "relevanceScore": 41.92,
+        "tags": []
+      },
+      {
+        "title": "China Will Tax Contraceptives in a Bid to Improve Birth Rates",
+        "link": "https://www.wired.com/story/china-to-tax-contraceptives/",
+        "source": "Wired",
+        "pubDate": "2025-12-30T10:30:00.000Z",
+        "relevanceScore": 26.95,
+        "tags": []
+      },
+      {
+        "title": "LG is announcing its own Frame-style TV at CES",
+        "link": "https://www.theverge.com/news/850876/lg-gallery-tv-ces-2026",
+        "source": "The Verge",
+        "pubDate": "2025-12-30T01:00:00.000Z",
+        "relevanceScore": 25.05,
         "tags": []
       },
       {
@@ -1006,7 +1061,7 @@
         "link": "https://arstechnica.com/science/2025/12/did-one-line-in-a-leonardo-codex-anticipate-yakisugi/",
         "source": "Ars Technica",
         "pubDate": "2025-12-29T19:30:47.000Z",
-        "relevanceScore": 23.04,
+        "relevanceScore": 22.95,
         "tags": []
       },
       {
@@ -1014,21 +1069,8 @@
         "link": "https://arstechnica.com/science/2025/12/researchers-make-neuromorphic-artificial-skin-for-robots/",
         "source": "Ars Technica",
         "pubDate": "2025-12-29T19:00:42.000Z",
-        "relevanceScore": 22.94,
+        "relevanceScore": 22.85,
         "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "What does the software engineering job market look like heading into 2026?",
-        "link": "https://www.reddit.com/r/programming/comments/1pyncfa/what_does_the_software_engineering_job_market/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-29T14:15:36.000Z",
-        "relevanceScore": 439.99,
-        "tags": [
-          "Tech",
-          "Business"
-        ]
       }
     ],
     "general": [
@@ -1037,7 +1079,7 @@
         "link": "https://www.bbc.com/sport/articles/cy0p75qn0qqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-30T08:26:42.000Z",
-        "relevanceScore": 399.63,
+        "relevanceScore": 195.54,
         "tags": []
       },
       {
@@ -1045,7 +1087,7 @@
         "link": "https://www.bbc.com/news/articles/cre3pdxde7vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-30T03:25:02.000Z",
-        "relevanceScore": 283.62,
+        "relevanceScore": 53.53,
         "tags": []
       },
       {
@@ -1053,66 +1095,7 @@
         "link": "https://www.bbc.com/news/articles/crrkgzy52keo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-30T03:07:27.000Z",
-        "relevanceScore": 248.56,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Apache Spark Isn’t “Fast” by Default; It’s Fast When You Use It Correctly",
-        "link": "https://www.reddit.com/r/programming/comments/1pyw5a2/apache_spark_isnt_fast_by_default_its_fast_when/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-29T19:48:34.000Z",
-        "relevanceScore": 251.1,
-        "tags": []
-      },
-      {
-        "title": "Bugs that survive the heat of continuous fuzzing",
-        "link": "https://github.blog/security/vulnerability-research/bugs-that-survive-the-heat-of-continuous-fuzzing/",
-        "source": "GitHub Blog",
-        "pubDate": "2025-12-29T22:01:14.000Z",
-        "relevanceScore": 58.54,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Powerful and High-Performance: VTable Practice Sharing — The Ultimate Tool for Table Data Visualization",
-        "link": "https://dev.to/xuanhun/powerful-and-high-performance-vtable-practice-sharing-the-ultimate-tool-for-table-data-2ikc",
-        "source": "Dev.to",
-        "pubDate": "2025-12-30T09:59:27.000Z",
-        "relevanceScore": 24.94,
-        "tags": [
-          "Web",
-          "Analysis"
-        ]
-      },
-      {
-        "title": "The rise and fall of robots.txt",
-        "link": "https://www.reddit.com/r/programming/comments/1pytqia/the_rise_and_fall_of_robotstxt/",
-        "source": "Reddit Programming",
-        "pubDate": "2025-12-29T18:19:39.000Z",
-        "relevanceScore": 18.8,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Who's releasing new music in 2026 and will Oasis play Knebworth?",
-        "link": "https://www.bbc.com/news/articles/cz68944djpqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2025-12-30T00:05:40.000Z",
-        "relevanceScore": 246.96,
-        "tags": []
-      }
-    ],
-    "climate": [
-      {
-        "title": "South Korea’s climate pledge to cut coal, lower emissions clash with US push for LNG purchases",
-        "link": "https://abcnews.go.com/Business/wireStory/south-koreas-climate-pledge-cut-coal-lower-emissions-128744079",
-        "source": "ABC News Business",
-        "pubDate": "2025-12-29T06:05:57.000Z",
-        "relevanceScore": 231.36,
+        "relevanceScore": 31.47,
         "tags": []
       }
     ],
@@ -1122,7 +1105,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pz7wx6/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2025-12-30T04:02:27.000Z",
-        "relevanceScore": 57.75,
+        "relevanceScore": 44.65,
         "tags": []
       },
       {
@@ -1130,7 +1113,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pz5ywg/cia_carried_out_drone_strike_on_port_facility_in/",
         "source": "Reddit World News",
         "pubDate": "2025-12-30T02:31:57.000Z",
-        "relevanceScore": 22.44,
+        "relevanceScore": 22.35,
         "tags": [
           "Exclusive"
         ]
@@ -1140,7 +1123,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1pz2aup/us_strikes_vessel_in_eastern_pacific_killing_2/",
         "source": "Reddit World News",
         "pubDate": "2025-12-29T23:52:07.000Z",
-        "relevanceScore": 21.91,
+        "relevanceScore": 21.82,
         "tags": []
       }
     ],
@@ -1150,15 +1133,25 @@
         "link": "https://www.bbc.com/news/articles/c8989e1wnj2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2025-12-30T07:45:55.000Z",
-        "relevanceScore": 31.49,
+        "relevanceScore": 31.4,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Who's releasing new music in 2026 and will Oasis play Knebworth?",
+        "link": "https://www.bbc.com/news/articles/cz68944djpqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2025-12-30T00:05:40.000Z",
+        "relevanceScore": 29.87,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 18,
-    "avgRelevanceScore": 311.24607843137267,
+    "totalCategories": 17,
+    "avgRelevanceScore": 276.8180392156863,
     "topCategories": [
       {
         "category": "ai-ml",
