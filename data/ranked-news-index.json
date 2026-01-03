@@ -1,19 +1,21 @@
 {
-  "lastUpdated": "2026-01-03T23:14:17.675Z",
+  "lastUpdated": "2026-01-03T23:32:00.512Z",
   "totalArticles": 51,
   "categories": [
     "tech",
-    "ai-ml",
     "science",
-    "world",
     "cybersecurity",
     "social",
     "development",
+    "ai-ml",
+    "world",
+    "blockchain",
+    "gaming",
+    "startup",
     "general",
     "automotive",
-    "blockchain",
-    "startup",
-    "business"
+    "business",
+    "finance"
   ],
   "topArticles": [
     {
@@ -22,23 +24,10 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-01-02T01:04:07.000Z",
-      "relevanceScore": 1353.27,
-      "recommendationScore": 1355.27,
+      "relevanceScore": 1370.21,
+      "recommendationScore": 1372.21,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "How I Run LLM Agents in a Secure Nix Sandbox",
-      "link": "https://dev.to/andersonjoseph/how-i-run-llm-agents-in-a-secure-nix-sandbox-1899",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-03T23:06:58.000Z",
-      "relevanceScore": 1186.48,
-      "recommendationScore": 1187.98,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "3 things Will Douglas Heaven is into right now",
@@ -46,33 +35,11 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-02T11:00:00.000Z",
-      "relevanceScore": 1046.75,
-      "recommendationScore": 1046.75,
+      "relevanceScore": 1079.19,
+      "recommendationScore": 1079.19,
       "tags": [
         "Web"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-03T16:52:35.000Z",
-      "relevanceScore": 1045.73,
-      "recommendationScore": 1048.23,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1409, Part 1 (Thread #1556)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1q2kg9w/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-03T04:02:28.000Z",
-      "relevanceScore": 1045.16,
-      "recommendationScore": 1047.66,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -81,8 +48,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-03T17:31:02.000Z",
-      "relevanceScore": 1013.86,
-      "recommendationScore": 1015.36,
+      "relevanceScore": 1024.3,
+      "recommendationScore": 1025.8,
       "tags": [
         "Web"
       ],
@@ -94,38 +61,11 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2026-01-02T18:00:00.000Z",
-      "relevanceScore": 1013.65,
-      "recommendationScore": 1015.65,
+      "relevanceScore": 1024.09,
+      "recommendationScore": 1026.09,
       "tags": [
         "Security",
         "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "This smart home controller is literally a piece of wood",
-      "link": "https://www.theverge.com/tech/852598/mui-board-smart-home-controller-matter",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-03T14:00:00.000Z",
-      "relevanceScore": 1005.15,
-      "recommendationScore": 1005.65,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
-      "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-01-02T18:29:26.000Z",
-      "relevanceScore": 961.25,
-      "recommendationScore": 961.75,
-      "tags": [
-        "AI",
-        "Report"
       ],
       "readingLevel": "intermediate"
     },
@@ -135,8 +75,8 @@
       "source": "The Verge",
       "category": "social",
       "pubDate": "2026-01-03T17:00:00.000Z",
-      "relevanceScore": 847.75,
-      "recommendationScore": 848.25,
+      "relevanceScore": 773.69,
+      "recommendationScore": 774.19,
       "tags": [
         "Tech",
         "Acquisition"
@@ -144,114 +84,28 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
-      "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-01-02T14:43:45.000Z",
-      "relevanceScore": 759.5,
-      "recommendationScore": 763,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Thompson tells how he developed the Go language at Google.",
       "link": "https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/",
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-03T02:20:48.000Z",
-      "relevanceScore": 731.82,
-      "recommendationScore": 733.82,
+      "relevanceScore": 754.76,
+      "recommendationScore": 756.76,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "AI teachers and cybernetics - what could the world look like in 2050?",
-      "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
+      "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
+      "source": "Stack Overflow Blog",
       "category": "ai-ml",
-      "pubDate": "2026-01-02T22:15:48.000Z",
-      "relevanceScore": 697.01,
-      "recommendationScore": 699.01,
+      "pubDate": "2026-01-02T14:43:45.000Z",
+      "relevanceScore": 699.44,
+      "recommendationScore": 702.94,
       "tags": [
-        "AI",
-        "Tech"
+        "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Venezuela could now define Trump's legacy - and America's place in the world",
-      "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-03T21:11:44.000Z",
-      "relevanceScore": 616.59,
-      "recommendationScore": 617.09,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
-      "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
-      "source": "ABC News Business",
-      "category": "automotive",
-      "pubDate": "2026-01-02T14:27:35.000Z",
-      "relevanceScore": 605.44,
-      "recommendationScore": 605.94,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "China's BYD overtakes Tesla as world's top EV seller",
-      "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "automotive",
-      "pubDate": "2026-01-02T15:03:38.000Z",
-      "relevanceScore": 604.56,
-      "recommendationScore": 606.06,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Tesla annual sales decline 9% as it’s overtaken by BYD as global EV leader",
-      "link": "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9-as-its-overtaken-by-byd-as-global-ev-leader/",
-      "source": "TechCrunch",
-      "category": "automotive",
-      "pubDate": "2026-01-02T16:17:47.000Z",
-      "relevanceScore": 554.81,
-      "recommendationScore": 555.31,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Why has Trump attacked Venezuela and taken Maduro?",
-      "link": "https://www.bbc.com/news/articles/c93n4nx5yqro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-03T18:06:23.000Z",
-      "relevanceScore": 553.97,
-      "recommendationScore": 555.47,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "CES 2026: all the news, gadgets, and innovations from the biggest tech show",
-      "link": "https://www.theverge.com/tech/836627/ces-2026-news-gadgets-announcements",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-03T13:00:00.000Z",
-      "relevanceScore": 470.45,
-      "recommendationScore": 474.45,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "The US Invaded Venezuela and Captured Nicolás Maduro. ChatGPT Disagrees",
@@ -259,12 +113,34 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-01-03T16:03:15.000Z",
-      "relevanceScore": 465.56,
-      "recommendationScore": 466.06,
+      "relevanceScore": 396.5,
+      "recommendationScore": 397,
       "tags": [
         "AI",
         "Breaking"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1409, Part 1 (Thread #1556)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1q2kg9w/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-03T04:02:28.000Z",
+      "relevanceScore": 391.1,
+      "recommendationScore": 393.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-03T16:52:35.000Z",
+      "relevanceScore": 389.67,
+      "recommendationScore": 392.17,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -273,8 +149,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-02T08:40:00.000Z",
-      "relevanceScore": 456.29,
-      "recommendationScore": 456.29,
+      "relevanceScore": 387.23,
+      "recommendationScore": 387.23,
       "tags": [
         "AI",
         "Tech",
@@ -284,14 +160,64 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Bitfinex hacker Ilya Lichtenstein credits Trump for early release from prison",
+      "link": "https://techcrunch.com/2026/01/03/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
+      "source": "TechCrunch",
+      "category": "blockchain",
+      "pubDate": "2026-01-03T19:48:23.000Z",
+      "relevanceScore": 385.25,
+      "recommendationScore": 385.75,
+      "tags": [
+        "Security",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Surprise, surprise: Silksong wins Steam’s Game of the Year",
+      "link": "https://www.theverge.com/games/853786/hollow-knight-silksong-steamawards-game-of-the-year",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2026-01-03T23:04:09.000Z",
+      "relevanceScore": 384.91,
+      "recommendationScore": 385.41,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Creating a Reliable VS Code Task for New DEV.to Posts (Windows + PowerShell)",
+      "link": "https://dev.to/jankoweb/creating-a-reliable-vs-code-task-for-new-devto-posts-windows-powershell-dh9",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-03T23:09:03.000Z",
+      "relevanceScore": 383.42,
+      "recommendationScore": 386.92,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "What Happens Next in Venezuela—and the Rest of Latin America?",
       "link": "https://www.wired.com/story/what-happens-next-in-venezuela-and-the-rest-of-latin-america/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-03T22:10:35.000Z",
-      "relevanceScore": 441.79,
-      "recommendationScore": 443.79,
+      "relevanceScore": 372.73,
+      "recommendationScore": 374.73,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
+      "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-01-02T18:29:26.000Z",
+      "relevanceScore": 369.19,
+      "recommendationScore": 369.69,
+      "tags": [
+        "AI",
+        "Report"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -300,24 +226,10 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-02T17:12:25.000Z",
-      "relevanceScore": 435.99,
-      "recommendationScore": 436.49,
+      "relevanceScore": 366.93,
+      "recommendationScore": 367.43,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Bitfinex hacker Ilya Lichtenstein credits Trump for early release from prison",
-      "link": "https://techcrunch.com/2026/01/03/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
-      "source": "TechCrunch",
-      "category": "blockchain",
-      "pubDate": "2026-01-03T19:48:23.000Z",
-      "relevanceScore": 376.31,
-      "recommendationScore": 376.81,
-      "tags": [
-        "Security",
-        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -327,11 +239,131 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-03T13:45:00.000Z",
-      "relevanceScore": 353.6,
-      "recommendationScore": 355.6,
+      "relevanceScore": 365.54,
+      "recommendationScore": 367.54,
       "tags": [
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "CIA sources, drones and blowtorches: How the US captured Maduro",
+      "link": "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-03T22:55:42.000Z",
+      "relevanceScore": 48.88,
+      "recommendationScore": 50.88,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to watch the Hyundai CES 2026 presentation live",
+      "link": "https://www.engadget.com/transportation/how-to-watch-the-hyundai-ces-2026-presentation-live-190051072.html?src=rss",
+      "source": "Engadget",
+      "category": "startup",
+      "pubDate": "2026-01-03T19:00:37.000Z",
+      "relevanceScore": 46.6,
+      "recommendationScore": 48.6,
+      "tags": [
+        "Startup",
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Watch: How the US attack on Venezuela unfolded",
+      "link": "https://www.bbc.com/news/videos/cx2x7dqek9lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-03T21:00:44.000Z",
+      "relevanceScore": 44.5,
+      "recommendationScore": 46,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla annual sales decline 9% as it’s overtaken by BYD as global EV leader",
+      "link": "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9-as-its-overtaken-by-byd-as-global-ev-leader/",
+      "source": "TechCrunch",
+      "category": "automotive",
+      "pubDate": "2026-01-02T16:17:47.000Z",
+      "relevanceScore": 41.25,
+      "recommendationScore": 41.75,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Volkswagen is bringing physical buttons back to the dashboard with the ID. Polo EV",
+      "link": "https://www.engadget.com/transportation/evs/volkswagen-is-bringing-physical-buttons-back-to-the-dashboard-with-the-id-polo-ev-190246116.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-01-03T19:02:46.000Z",
+      "relevanceScore": 40.1,
+      "recommendationScore": 40.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Job titles of the future: Head-transplant surgeon",
+      "link": "https://www.technologyreview.com/2026/01/02/1129416/head-transplant-surgeon-sergio-canavero-future-job/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-01-02T11:00:00.000Z",
+      "relevanceScore": 39.69,
+      "recommendationScore": 39.69,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Small business owner shares how Trump's tariffs affected sales",
+      "link": "https://www.npr.org/2026/01/02/nx-s1-5664087/small-business-owner-shares-how-trumps-tariffs-affected-sales",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-02T09:49:59.000Z",
+      "relevanceScore": 38.96,
+      "recommendationScore": 40.96,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Saks CEO steps down as luxury retailer struggles under heavy debt load",
+      "link": "https://abcnews.go.com/Business/wireStory/saks-ceo-steps-luxury-retailer-struggles-heavy-debt-128850455",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-02T18:30:19.000Z",
+      "relevanceScore": 38.69,
+      "recommendationScore": 39.19,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Disinformation Floods Social Media After Nicolás Maduro’s Capture",
+      "link": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-01-03T18:14:47.000Z",
+      "relevanceScore": 37.94,
+      "recommendationScore": 38.44,
+      "tags": [
+        "AI",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Writing a SIMD-optimized Parquet library in pure C: lessons from implementing Thrift parsing, bit-packing, and runtime CPU dispatch",
+      "link": "https://www.reddit.com/r/programming/comments/1q3430e/writing_a_simdoptimized_parquet_library_in_pure_c/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-01-03T19:45:13.000Z",
+      "relevanceScore": 37.24,
+      "recommendationScore": 37.24,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -340,8 +372,44 @@
       "source": "Dev.to",
       "category": "ai-ml",
       "pubDate": "2026-01-03T23:07:35.000Z",
-      "relevanceScore": 200.98,
-      "recommendationScore": 201.48,
+      "relevanceScore": 36.92,
+      "recommendationScore": 37.42,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Is the whiskey industry in trouble?",
+      "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-02T21:51:52.000Z",
+      "relevanceScore": 35.87,
+      "recommendationScore": 35.87,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "No, Grok can’t really “apologize” for posting non-consensual sexual images",
+      "link": "https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-02T23:08:13.000Z",
+      "relevanceScore": 34.12,
+      "recommendationScore": 34.62,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI teachers and cybernetics - what could the world look like in 2050?",
+      "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-01-02T22:15:48.000Z",
+      "relevanceScore": 33.95,
+      "recommendationScore": 35.95,
       "tags": [
         "AI",
         "Tech"
@@ -354,8 +422,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-01-02T21:27:06.000Z",
-      "relevanceScore": 142.84,
-      "recommendationScore": 143.34,
+      "relevanceScore": 33.78,
+      "recommendationScore": 34.28,
       "tags": [
         "AI",
         "Tech"
@@ -363,155 +431,37 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Watch: How the US attack on Venezuela unfolded",
-      "link": "https://www.bbc.com/news/videos/cx2x7dqek9lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-03T21:00:44.000Z",
-      "relevanceScore": 122.55,
-      "recommendationScore": 124.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to watch the Hyundai CES 2026 presentation live",
-      "link": "https://www.engadget.com/transportation/how-to-watch-the-hyundai-ces-2026-presentation-live-190051072.html?src=rss",
-      "source": "Engadget",
-      "category": "startup",
-      "pubDate": "2026-01-03T19:00:37.000Z",
-      "relevanceScore": 121.65,
-      "recommendationScore": 123.65,
-      "tags": [
-        "Startup",
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Disinformation Floods Social Media After Nicolás Maduro’s Capture",
-      "link": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-01-03T18:14:47.000Z",
-      "relevanceScore": 116,
-      "recommendationScore": 116.5,
-      "tags": [
-        "AI",
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Volkswagen is bringing physical buttons back to the dashboard with the ID. Polo EV",
-      "link": "https://www.engadget.com/transportation/evs/volkswagen-is-bringing-physical-buttons-back-to-the-dashboard-with-the-id-polo-ev-190246116.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-01-03T19:02:46.000Z",
-      "relevanceScore": 114.16,
-      "recommendationScore": 114.66,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Is the whiskey industry in trouble?",
-      "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-02T21:51:52.000Z",
-      "relevanceScore": 113.93,
-      "recommendationScore": 113.93,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Job titles of the future: Head-transplant surgeon",
-      "link": "https://www.technologyreview.com/2026/01/02/1129416/head-transplant-surgeon-sergio-canavero-future-job/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-01-02T11:00:00.000Z",
-      "relevanceScore": 113.75,
-      "recommendationScore": 113.75,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "No, Grok can’t really “apologize” for posting non-consensual sexual images",
-      "link": "https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-02T23:08:13.000Z",
-      "relevanceScore": 112.18,
-      "recommendationScore": 112.68,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Small business owner shares how Trump's tariffs affected sales",
-      "link": "https://www.npr.org/2026/01/02/nx-s1-5664087/small-business-owner-shares-how-trumps-tariffs-affected-sales",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-02T09:49:59.000Z",
-      "relevanceScore": 111.52,
-      "recommendationScore": 113.52,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Saks CEO steps down as luxury retailer struggles under heavy debt load",
-      "link": "https://abcnews.go.com/Business/wireStory/saks-ceo-steps-luxury-retailer-struggles-heavy-debt-128850455",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-02T18:30:19.000Z",
-      "relevanceScore": 111.25,
-      "recommendationScore": 111.75,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Agentes de IA: Dominando 3 Patrones Esenciales (Tool Using). Parte 1 de 3",
-      "link": "https://dev.to/gabrielmrojas/agentes-de-ia-dominando-3-patrones-esenciales-tool-using-parte-1-de-3-244l",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-03T23:09:58.000Z",
-      "relevanceScore": 109.99,
-      "recommendationScore": 110.49,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "CIA sources, drones and blowtorches: How the US captured Maduro",
-      "link": "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-03T22:55:42.000Z",
-      "relevanceScore": 48.44,
-      "recommendationScore": 50.44,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Writing a SIMD-optimized Parquet library in pure C: lessons from implementing Thrift parsing, bit-packing, and runtime CPU dispatch",
-      "link": "https://www.reddit.com/r/programming/comments/1q3430e/writing_a_simdoptimized_parquet_library_in_pure_c/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-01-03T19:45:13.000Z",
-      "relevanceScore": 31.8,
-      "recommendationScore": 31.8,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Trump says US will 'run' Venezuela and 'fix oil infrastructure'",
       "link": "https://www.bbc.com/news/articles/cd9enjeey3go?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-03T21:28:55.000Z",
-      "relevanceScore": 31.65,
-      "recommendationScore": 32.15,
+      "relevanceScore": 31.59,
+      "recommendationScore": 32.09,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Venezuela could now define Trump's legacy - and America's place in the world",
+      "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-03T21:11:44.000Z",
+      "relevanceScore": 31.53,
+      "recommendationScore": 32.03,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why has Trump attacked Venezuela and taken Maduro?",
+      "link": "https://www.bbc.com/news/articles/c93n4nx5yqro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-03T18:06:23.000Z",
+      "relevanceScore": 30.91,
+      "recommendationScore": 32.41,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -521,10 +471,47 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-01-03T22:25:34.000Z",
-      "relevanceScore": 27.84,
-      "recommendationScore": 30.34,
+      "relevanceScore": 27.78,
+      "recommendationScore": 30.28,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "China's BYD overtakes Tesla as world's top EV seller",
+      "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2026-01-02T15:03:38.000Z",
+      "relevanceScore": 27.51,
+      "recommendationScore": 29.01,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Someone made a ton of money betting on Maduro’s capture",
+      "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2026-01-03T20:44:22.000Z",
+      "relevanceScore": 25.44,
+      "recommendationScore": 25.94,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
+      "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
+      "source": "ABC News Business",
+      "category": "automotive",
+      "pubDate": "2026-01-02T14:27:35.000Z",
+      "relevanceScore": 24.39,
+      "recommendationScore": 24.89,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "I went to the Stranger Things finale in theaters and the strangest thing happened",
@@ -532,12 +519,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-03T15:00:00.000Z",
-      "relevanceScore": 24.35,
-      "recommendationScore": 24.85,
+      "relevanceScore": 24.29,
+      "recommendationScore": 24.79,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Agentes de IA: Dominando 3 Patrones Esenciales (Tool Using). Parte 1 de 3",
+      "link": "https://dev.to/gabrielmrojas/agentes-de-ia-dominando-3-patrones-esenciales-tool-using-parte-1-de-3-244l",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-03T23:09:58.000Z",
+      "relevanceScore": 23.93,
+      "recommendationScore": 24.43,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Framework Laptop 16 (RTX 5070) Review: A Dream Come True",
@@ -545,8 +543,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-03T13:00:00.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 25.45,
+      "relevanceScore": 23.89,
+      "recommendationScore": 25.39,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -556,8 +554,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-03T17:32:56.000Z",
-      "relevanceScore": 22.86,
-      "recommendationScore": 23.36,
+      "relevanceScore": 22.8,
+      "recommendationScore": 23.3,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -567,8 +565,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-03T01:25:48.000Z",
-      "relevanceScore": 21.64,
-      "recommendationScore": 22.14,
+      "relevanceScore": 21.58,
+      "recommendationScore": 22.08,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -578,8 +576,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-02T22:36:26.000Z",
-      "relevanceScore": 21.07,
-      "recommendationScore": 21.57,
+      "relevanceScore": 21.01,
+      "recommendationScore": 21.51,
       "tags": [
         "Exclusive"
       ],
@@ -591,8 +589,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-01-03T17:36:36.000Z",
-      "relevanceScore": 20.87,
-      "recommendationScore": 20.87,
+      "relevanceScore": 20.82,
+      "recommendationScore": 20.82,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -602,8 +600,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-02T20:54:56.000Z",
-      "relevanceScore": 20.74,
-      "recommendationScore": 21.24,
+      "relevanceScore": 20.68,
+      "recommendationScore": 21.18,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -613,8 +611,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-03T15:56:54.000Z",
-      "relevanceScore": 20.54,
-      "recommendationScore": 22.04,
+      "relevanceScore": 20.48,
+      "recommendationScore": 21.98,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -624,8 +622,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-01-03T12:40:03.000Z",
-      "relevanceScore": 19.89,
-      "recommendationScore": 20.39,
+      "relevanceScore": 19.83,
+      "recommendationScore": 20.33,
       "tags": [],
       "readingLevel": "intermediate"
     }
@@ -637,7 +635,7 @@
         "link": "https://www.bbc.com/news/articles/c1dzdndzlxqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-02T01:04:07.000Z",
-        "relevanceScore": 1353.27,
+        "relevanceScore": 1370.21,
         "tags": []
       },
       {
@@ -645,29 +643,9 @@
         "link": "https://www.engadget.com/cybersecurity/california-introduces-a-one-stop-shop-to-delete-your-online-data-footprint-173102064.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-03T17:31:02.000Z",
-        "relevanceScore": 1013.86,
+        "relevanceScore": 1024.3,
         "tags": [
           "Web"
-        ]
-      },
-      {
-        "title": "This smart home controller is literally a piece of wood",
-        "link": "https://www.theverge.com/tech/852598/mui-board-smart-home-controller-matter",
-        "source": "The Verge",
-        "pubDate": "2026-01-03T14:00:00.000Z",
-        "relevanceScore": 1005.15,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "CES 2026: all the news, gadgets, and innovations from the biggest tech show",
-        "link": "https://www.theverge.com/tech/836627/ces-2026-news-gadgets-announcements",
-        "source": "The Verge",
-        "pubDate": "2026-01-03T13:00:00.000Z",
-        "relevanceScore": 470.45,
-        "tags": [
-          "Tech"
         ]
       },
       {
@@ -675,7 +653,7 @@
         "link": "https://www.wired.com/story/what-happens-next-in-venezuela-and-the-rest-of-latin-america/",
         "source": "Wired",
         "pubDate": "2026-01-03T22:10:35.000Z",
-        "relevanceScore": 441.79,
+        "relevanceScore": 372.73,
         "tags": []
       },
       {
@@ -683,7 +661,7 @@
         "link": "https://www.engadget.com/big-tech/ces-2026-what-to-expect-from-techs-big-january-conference-120000956.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-03T13:45:00.000Z",
-        "relevanceScore": 353.6,
+        "relevanceScore": 365.54,
         "tags": [
           "Tech"
         ]
@@ -693,7 +671,7 @@
         "link": "https://www.engadget.com/transportation/evs/volkswagen-is-bringing-physical-buttons-back-to-the-dashboard-with-the-id-polo-ev-190246116.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-03T19:02:46.000Z",
-        "relevanceScore": 114.16,
+        "relevanceScore": 40.1,
         "tags": []
       },
       {
@@ -701,7 +679,7 @@
         "link": "https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/",
         "source": "Ars Technica",
         "pubDate": "2026-01-02T23:08:13.000Z",
-        "relevanceScore": 112.18,
+        "relevanceScore": 34.12,
         "tags": []
       },
       {
@@ -709,7 +687,7 @@
         "link": "https://techcrunch.com/2026/01/03/california-residents-can-use-new-tool-to-demand-brokers-delete-their-personal-data/",
         "source": "TechCrunch",
         "pubDate": "2026-01-03T22:25:34.000Z",
-        "relevanceScore": 27.84,
+        "relevanceScore": 27.78,
         "tags": []
       },
       {
@@ -717,7 +695,7 @@
         "link": "https://www.theverge.com/streaming/853133/stranger-things-finale-theater-scene-report",
         "source": "The Verge",
         "pubDate": "2026-01-03T15:00:00.000Z",
-        "relevanceScore": 24.35,
+        "relevanceScore": 24.29,
         "tags": [
           "Exclusive"
         ]
@@ -727,7 +705,7 @@
         "link": "https://www.wired.com/review/framework-laptop-16/",
         "source": "Wired",
         "pubDate": "2026-01-03T13:00:00.000Z",
-        "relevanceScore": 23.95,
+        "relevanceScore": 23.89,
         "tags": []
       },
       {
@@ -735,7 +713,7 @@
         "link": "https://arstechnica.com/health/2026/01/anthrax-nearly-kills-healthy-18-year-old-welder-amid-puzzling-pattern/",
         "source": "Ars Technica",
         "pubDate": "2026-01-02T22:36:26.000Z",
-        "relevanceScore": 21.07,
+        "relevanceScore": 21.01,
         "tags": [
           "Exclusive"
         ]
@@ -745,7 +723,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1q30ocj/grok_is_undressing_anyone_including_minors/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-03T17:36:36.000Z",
-        "relevanceScore": 20.87,
+        "relevanceScore": 20.82,
         "tags": []
       },
       {
@@ -753,7 +731,7 @@
         "link": "https://arstechnica.com/science/2026/01/researchers-spot-saturn-sized-planet-in-the-einstein-desert/",
         "source": "Ars Technica",
         "pubDate": "2026-01-02T20:54:56.000Z",
-        "relevanceScore": 20.74,
+        "relevanceScore": 20.68,
         "tags": []
       },
       {
@@ -761,7 +739,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1q2tnk6/nyc_phone_ban_reveals_some_students_cant_read/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-03T12:40:03.000Z",
-        "relevanceScore": 19.89,
+        "relevanceScore": 19.83,
         "tags": []
       },
       {
@@ -769,119 +747,8 @@
         "link": "https://www.reddit.com/r/technology/comments/1q2shba/california_launched_a_free_tool_on_january_1_that/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-03T11:33:49.000Z",
-        "relevanceScore": 19.67,
+        "relevanceScore": 19.61,
         "tags": []
-      }
-    ],
-    "ai-ml": [
-      {
-        "title": "How I Run LLM Agents in a Secure Nix Sandbox",
-        "link": "https://dev.to/andersonjoseph/how-i-run-llm-agents-in-a-secure-nix-sandbox-1899",
-        "source": "Dev.to",
-        "pubDate": "2026-01-03T23:06:58.000Z",
-        "relevanceScore": 1186.48,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
-        "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-02T18:29:26.000Z",
-        "relevanceScore": 961.25,
-        "tags": [
-          "AI",
-          "Report"
-        ]
-      },
-      {
-        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
-        "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-02T14:43:45.000Z",
-        "relevanceScore": 759.5,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "AI teachers and cybernetics - what could the world look like in 2050?",
-        "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T22:15:48.000Z",
-        "relevanceScore": 697.01,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "The US Invaded Venezuela and Captured Nicolás Maduro. ChatGPT Disagrees",
-        "link": "https://www.wired.com/story/us-invaded-venezuela-and-captured-nicolas-maduro-chatgpt-disagrees/",
-        "source": "Wired",
-        "pubDate": "2026-01-03T16:03:15.000Z",
-        "relevanceScore": 465.56,
-        "tags": [
-          "AI",
-          "Breaking"
-        ]
-      },
-      {
-        "title": "The most dangerous shortcuts in software",
-        "link": "https://stackoverflow.blog/2026/01/02/the-most-dangerous-shortcuts-in-software/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-02T08:40:00.000Z",
-        "relevanceScore": 456.29,
-        "tags": [
-          "AI",
-          "Tech",
-          "Business",
-          "Launch"
-        ]
-      },
-      {
-        "title": "Woman felt 'dehumanised' after Musk's Grok AI used to digitally remove her clothes",
-        "link": "https://www.bbc.com/news/articles/c98p1r4e6m8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T17:12:25.000Z",
-        "relevanceScore": 435.99,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "AI Agents: Mastering 3 Essential Patterns (Tool Using). Part 1 of 3",
-        "link": "https://dev.to/gabrielmrojas/ai-agents-mastering-3-essential-patterns-tool-using-part-1-of-3-5d92",
-        "source": "Dev.to",
-        "pubDate": "2026-01-03T23:07:35.000Z",
-        "relevanceScore": 200.98,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
-        "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-02T21:27:06.000Z",
-        "relevanceScore": 142.84,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "Disinformation Floods Social Media After Nicolás Maduro’s Capture",
-        "link": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/",
-        "source": "Wired",
-        "pubDate": "2026-01-03T18:14:47.000Z",
-        "relevanceScore": 116,
-        "tags": [
-          "AI",
-          "Social"
-        ]
       }
     ],
     "science": [
@@ -890,7 +757,7 @@
         "link": "https://www.technologyreview.com/2026/01/02/1129409/will-douglas-heaven-el-estepario-siberiano-ed-atkins-laura-jean-mckay/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-02T11:00:00.000Z",
-        "relevanceScore": 1046.75,
+        "relevanceScore": 1079.19,
         "tags": [
           "Web"
         ]
@@ -900,33 +767,7 @@
         "link": "https://www.technologyreview.com/2026/01/02/1129416/head-transplant-surgeon-sergio-canavero-future-job/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-02T11:00:00.000Z",
-        "relevanceScore": 113.75,
-        "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-03T16:52:35.000Z",
-        "relevanceScore": 1045.73,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1409, Part 1 (Thread #1556)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1q2kg9w/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-03T04:02:28.000Z",
-        "relevanceScore": 1045.16,
-        "tags": []
-      },
-      {
-        "title": "After Venezuela Attack, Trump Says Something Must Be Done About Mexico",
-        "link": "https://www.reddit.com/r/worldnews/comments/1q30kxx/after_venezuela_attack_trump_says_something_must/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-03T17:32:56.000Z",
-        "relevanceScore": 22.86,
+        "relevanceScore": 39.69,
         "tags": []
       }
     ],
@@ -936,7 +777,7 @@
         "link": "https://techcrunch.com/2026/01/02/10-useful-gadgets-for-your-first-apartment/",
         "source": "TechCrunch",
         "pubDate": "2026-01-02T18:00:00.000Z",
-        "relevanceScore": 1013.65,
+        "relevanceScore": 1024.09,
         "tags": [
           "Security",
           "Exclusive"
@@ -947,7 +788,7 @@
         "link": "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-03T22:55:42.000Z",
-        "relevanceScore": 48.44,
+        "relevanceScore": 48.88,
         "tags": [
           "Security"
         ]
@@ -959,7 +800,7 @@
         "link": "https://www.theverge.com/gadgets/853151/meta-quest-3s-apple-airtag-steam-winter-sale-deal",
         "source": "The Verge",
         "pubDate": "2026-01-03T17:00:00.000Z",
-        "relevanceScore": 847.75,
+        "relevanceScore": 773.69,
         "tags": [
           "Tech",
           "Acquisition"
@@ -972,15 +813,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1q2i78v/thompson_tells_how_he_developed_the_go_language/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-03T02:20:48.000Z",
-        "relevanceScore": 731.82,
+        "relevanceScore": 754.76,
         "tags": []
       },
       {
-        "title": "Agentes de IA: Dominando 3 Patrones Esenciales (Tool Using). Parte 1 de 3",
-        "link": "https://dev.to/gabrielmrojas/agentes-de-ia-dominando-3-patrones-esenciales-tool-using-parte-1-de-3-244l",
+        "title": "Creating a Reliable VS Code Task for New DEV.to Posts (Windows + PowerShell)",
+        "link": "https://dev.to/jankoweb/creating-a-reliable-vs-code-task-for-new-devto-posts-windows-powershell-dh9",
         "source": "Dev.to",
-        "pubDate": "2026-01-03T23:09:58.000Z",
-        "relevanceScore": 109.99,
+        "pubDate": "2026-01-03T23:09:03.000Z",
+        "relevanceScore": 383.42,
         "tags": []
       },
       {
@@ -988,7 +829,15 @@
         "link": "https://www.reddit.com/r/programming/comments/1q3430e/writing_a_simdoptimized_parquet_library_in_pure_c/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-03T19:45:13.000Z",
-        "relevanceScore": 31.8,
+        "relevanceScore": 37.24,
+        "tags": []
+      },
+      {
+        "title": "Agentes de IA: Dominando 3 Patrones Esenciales (Tool Using). Parte 1 de 3",
+        "link": "https://dev.to/gabrielmrojas/agentes-de-ia-dominando-3-patrones-esenciales-tool-using-parte-1-de-3-244l",
+        "source": "Dev.to",
+        "pubDate": "2026-01-03T23:09:58.000Z",
+        "relevanceScore": 23.93,
         "tags": []
       },
       {
@@ -996,71 +845,134 @@
         "link": "https://www.reddit.com/r/programming/comments/1q2y2hc/who_owns_the_memory_part_1_what_is_an_object/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-03T15:56:54.000Z",
-        "relevanceScore": 20.54,
+        "relevanceScore": 20.48,
         "tags": []
       }
     ],
-    "general": [
+    "ai-ml": [
       {
-        "title": "Venezuela could now define Trump's legacy - and America's place in the world",
-        "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T21:11:44.000Z",
-        "relevanceScore": 616.59,
+        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
+        "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-02T14:43:45.000Z",
+        "relevanceScore": 699.44,
         "tags": [
-          "Exclusive"
+          "AI"
         ]
       },
       {
-        "title": "Why has Trump attacked Venezuela and taken Maduro?",
-        "link": "https://www.bbc.com/news/articles/c93n4nx5yqro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T18:06:23.000Z",
-        "relevanceScore": 553.97,
-        "tags": []
-      },
-      {
-        "title": "Watch: How the US attack on Venezuela unfolded",
-        "link": "https://www.bbc.com/news/videos/cx2x7dqek9lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T21:00:44.000Z",
-        "relevanceScore": 122.55,
-        "tags": []
-      },
-      {
-        "title": "Trump says US will 'run' Venezuela and 'fix oil infrastructure'",
-        "link": "https://www.bbc.com/news/articles/cd9enjeey3go?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T21:28:55.000Z",
-        "relevanceScore": 31.65,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
-        "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-02T14:27:35.000Z",
-        "relevanceScore": 605.44,
-        "tags": []
-      },
-      {
-        "title": "China's BYD overtakes Tesla as world's top EV seller",
-        "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T15:03:38.000Z",
-        "relevanceScore": 604.56,
+        "title": "The US Invaded Venezuela and Captured Nicolás Maduro. ChatGPT Disagrees",
+        "link": "https://www.wired.com/story/us-invaded-venezuela-and-captured-nicolas-maduro-chatgpt-disagrees/",
+        "source": "Wired",
+        "pubDate": "2026-01-03T16:03:15.000Z",
+        "relevanceScore": 396.5,
         "tags": [
-          "Exclusive"
+          "AI",
+          "Breaking"
         ]
       },
       {
-        "title": "Tesla annual sales decline 9% as it’s overtaken by BYD as global EV leader",
-        "link": "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9-as-its-overtaken-by-byd-as-global-ev-leader/",
+        "title": "The most dangerous shortcuts in software",
+        "link": "https://stackoverflow.blog/2026/01/02/the-most-dangerous-shortcuts-in-software/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-02T08:40:00.000Z",
+        "relevanceScore": 387.23,
+        "tags": [
+          "AI",
+          "Tech",
+          "Business",
+          "Launch"
+        ]
+      },
+      {
+        "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
+        "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
         "source": "TechCrunch",
-        "pubDate": "2026-01-02T16:17:47.000Z",
-        "relevanceScore": 554.81,
+        "pubDate": "2026-01-02T18:29:26.000Z",
+        "relevanceScore": 369.19,
+        "tags": [
+          "AI",
+          "Report"
+        ]
+      },
+      {
+        "title": "Woman felt 'dehumanised' after Musk's Grok AI used to digitally remove her clothes",
+        "link": "https://www.bbc.com/news/articles/c98p1r4e6m8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T17:12:25.000Z",
+        "relevanceScore": 366.93,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Disinformation Floods Social Media After Nicolás Maduro’s Capture",
+        "link": "https://www.wired.com/story/disinformation-floods-social-media-after-nicolas-maduros-capture/",
+        "source": "Wired",
+        "pubDate": "2026-01-03T18:14:47.000Z",
+        "relevanceScore": 37.94,
+        "tags": [
+          "AI",
+          "Social"
+        ]
+      },
+      {
+        "title": "AI Agents: Mastering 3 Essential Patterns (Tool Using). Part 1 of 3",
+        "link": "https://dev.to/gabrielmrojas/ai-agents-mastering-3-essential-patterns-tool-using-part-1-of-3-5d92",
+        "source": "Dev.to",
+        "pubDate": "2026-01-03T23:07:35.000Z",
+        "relevanceScore": 36.92,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "AI teachers and cybernetics - what could the world look like in 2050?",
+        "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T22:15:48.000Z",
+        "relevanceScore": 33.95,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
+        "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-02T21:27:06.000Z",
+        "relevanceScore": 33.78,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1409, Part 1 (Thread #1556)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1q2kg9w/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-03T04:02:28.000Z",
+        "relevanceScore": 391.1,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-03T16:52:35.000Z",
+        "relevanceScore": 389.67,
+        "tags": []
+      },
+      {
+        "title": "After Venezuela Attack, Trump Says Something Must Be Done About Mexico",
+        "link": "https://www.reddit.com/r/worldnews/comments/1q30kxx/after_venezuela_attack_trump_says_something_must/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-03T17:32:56.000Z",
+        "relevanceScore": 22.8,
         "tags": []
       }
     ],
@@ -1070,11 +982,21 @@
         "link": "https://techcrunch.com/2026/01/03/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
         "source": "TechCrunch",
         "pubDate": "2026-01-03T19:48:23.000Z",
-        "relevanceScore": 376.31,
+        "relevanceScore": 385.25,
         "tags": [
           "Security",
           "Launch"
         ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Surprise, surprise: Silksong wins Steam’s Game of the Year",
+        "link": "https://www.theverge.com/games/853786/hollow-knight-silksong-steamawards-game-of-the-year",
+        "source": "The Verge",
+        "pubDate": "2026-01-03T23:04:09.000Z",
+        "relevanceScore": 384.91,
+        "tags": []
       }
     ],
     "startup": [
@@ -1083,28 +1005,84 @@
         "link": "https://www.engadget.com/transportation/how-to-watch-the-hyundai-ces-2026-presentation-live-190051072.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-03T19:00:37.000Z",
-        "relevanceScore": 121.65,
+        "relevanceScore": 46.6,
         "tags": [
           "Startup",
           "Tutorial"
         ]
       }
     ],
-    "business": [
+    "general": [
       {
-        "title": "Is the whiskey industry in trouble?",
-        "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
-        "source": "NPR Business",
-        "pubDate": "2026-01-02T21:51:52.000Z",
-        "relevanceScore": 113.93,
+        "title": "Watch: How the US attack on Venezuela unfolded",
+        "link": "https://www.bbc.com/news/videos/cx2x7dqek9lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-03T21:00:44.000Z",
+        "relevanceScore": 44.5,
         "tags": []
       },
+      {
+        "title": "Trump says US will 'run' Venezuela and 'fix oil infrastructure'",
+        "link": "https://www.bbc.com/news/articles/cd9enjeey3go?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-03T21:28:55.000Z",
+        "relevanceScore": 31.59,
+        "tags": []
+      },
+      {
+        "title": "Venezuela could now define Trump's legacy - and America's place in the world",
+        "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-03T21:11:44.000Z",
+        "relevanceScore": 31.53,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Why has Trump attacked Venezuela and taken Maduro?",
+        "link": "https://www.bbc.com/news/articles/c93n4nx5yqro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-03T18:06:23.000Z",
+        "relevanceScore": 30.91,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Tesla annual sales decline 9% as it’s overtaken by BYD as global EV leader",
+        "link": "https://techcrunch.com/2026/01/02/tesla-annual-sales-decline-9-as-its-overtaken-by-byd-as-global-ev-leader/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-02T16:17:47.000Z",
+        "relevanceScore": 41.25,
+        "tags": []
+      },
+      {
+        "title": "China's BYD overtakes Tesla as world's top EV seller",
+        "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T15:03:38.000Z",
+        "relevanceScore": 27.51,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
+        "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-02T14:27:35.000Z",
+        "relevanceScore": 24.39,
+        "tags": []
+      }
+    ],
+    "business": [
       {
         "title": "Small business owner shares how Trump's tariffs affected sales",
         "link": "https://www.npr.org/2026/01/02/nx-s1-5664087/small-business-owner-shares-how-trumps-tariffs-affected-sales",
         "source": "NPR Business",
         "pubDate": "2026-01-02T09:49:59.000Z",
-        "relevanceScore": 111.52,
+        "relevanceScore": 38.96,
         "tags": [
           "Business"
         ]
@@ -1114,7 +1092,15 @@
         "link": "https://abcnews.go.com/Business/wireStory/saks-ceo-steps-luxury-retailer-struggles-heavy-debt-128850455",
         "source": "ABC News Business",
         "pubDate": "2026-01-02T18:30:19.000Z",
-        "relevanceScore": 111.25,
+        "relevanceScore": 38.69,
+        "tags": []
+      },
+      {
+        "title": "Is the whiskey industry in trouble?",
+        "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
+        "source": "NPR Business",
+        "pubDate": "2026-01-02T21:51:52.000Z",
+        "relevanceScore": 35.87,
         "tags": []
       },
       {
@@ -1122,27 +1108,39 @@
         "link": "https://abcnews.go.com/Business/wireStory/fans-mourn-closure-cupcake-vending-machine-company-sprinkles-128856180",
         "source": "ABC News Business",
         "pubDate": "2026-01-03T01:25:48.000Z",
-        "relevanceScore": 21.64,
+        "relevanceScore": 21.58,
         "tags": []
+      }
+    ],
+    "finance": [
+      {
+        "title": "Someone made a ton of money betting on Maduro’s capture",
+        "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
+        "source": "The Verge",
+        "pubDate": "2026-01-03T20:44:22.000Z",
+        "relevanceScore": 25.44,
+        "tags": [
+          "Business"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 15,
-    "totalCategories": 12,
-    "avgRelevanceScore": 401.74215686274516,
+    "totalCategories": 14,
+    "avgRelevanceScore": 234.21000000000012,
     "topCategories": [
       {
         "category": "tech",
-        "count": 16
+        "count": 14
       },
       {
         "category": "ai-ml",
-        "count": 10
+        "count": 9
       },
       {
         "category": "development",
-        "count": 4
+        "count": 5
       },
       {
         "category": "general",
