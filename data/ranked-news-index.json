@@ -1,21 +1,22 @@
 {
-  "lastUpdated": "2026-01-04T13:08:19.783Z",
-  "totalArticles": 48,
+  "lastUpdated": "2026-01-04T13:40:03.088Z",
+  "totalArticles": 47,
   "categories": [
     "development",
+    "ai-ml",
+    "general",
     "gaming",
     "world",
-    "tech",
     "mobile",
+    "tech",
     "blockchain",
     "startup",
-    "ai-ml",
-    "finance",
     "climate",
-    "general",
-    "cybersecurity",
+    "finance",
+    "automotive",
     "business",
-    "automotive"
+    "education",
+    "cybersecurity"
   ],
   "topArticles": [
     {
@@ -24,8 +25,33 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-04T08:59:20.000Z",
-      "relevanceScore": 2554.17,
-      "recommendationScore": 2554.67,
+      "relevanceScore": 2596.06,
+      "recommendationScore": 2596.56,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Running Mistral Vibe CLI with Local LLMs: A Complete Guide",
+      "link": "https://dev.to/chung_duy_51a346946b27a3d/running-mistral-vibe-with-local-llms-a-complete-guide-1mde",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-01-04T13:32:34.000Z",
+      "relevanceScore": 1353.48,
+      "recommendationScore": 1353.98,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'I can't believe it' - Joy and uncertainty in Florida's 'Little Venezuela'",
+      "link": "https://www.bbc.com/news/articles/clygv0pd26eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-04T10:35:43.000Z",
+      "relevanceScore": 1293.89,
+      "recommendationScore": 1294.39,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -35,19 +61,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-01-03T23:04:09.000Z",
-      "relevanceScore": 976.69,
-      "recommendationScore": 977.19,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-03T16:52:35.000Z",
-      "relevanceScore": 780.95,
-      "recommendationScore": 783.45,
+      "relevanceScore": 992.08,
+      "recommendationScore": 992.58,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -57,23 +72,21 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-04T04:02:43.000Z",
-      "relevanceScore": 720.18,
-      "recommendationScore": 722.68,
+      "relevanceScore": 733.58,
+      "recommendationScore": 736.08,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Tech billionaires cashed out $16 billion in 2025 as stocks soared",
-      "link": "https://techcrunch.com/2026/01/03/tech-billionaires-cashed-out-16-billion-in-2025-as-stocks-soared/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-03T23:45:07.000Z",
-      "relevanceScore": 657.82,
-      "recommendationScore": 658.32,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
+      "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-03T16:52:35.000Z",
+      "relevanceScore": 727.34,
+      "recommendationScore": 729.84,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "8 WhatsApp Features to Boost Your Security and Privacy",
@@ -81,12 +94,25 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-01-04T11:00:00.000Z",
-      "relevanceScore": 648.57,
-      "recommendationScore": 650.57,
+      "relevanceScore": 667.47,
+      "recommendationScore": 669.47,
       "tags": [
         "Security",
         "Mobile",
         "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Tech billionaires cashed out $16 billion in 2025 as stocks soared",
+      "link": "https://techcrunch.com/2026/01/03/tech-billionaires-cashed-out-16-billion-in-2025-as-stocks-soared/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-01-03T23:45:07.000Z",
+      "relevanceScore": 659.72,
+      "recommendationScore": 660.22,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "intermediate"
     },
@@ -96,12 +122,23 @@
       "source": "TechCrunch",
       "category": "blockchain",
       "pubDate": "2026-01-03T19:48:23.000Z",
-      "relevanceScore": 631.53,
-      "recommendationScore": 632.03,
+      "relevanceScore": 636.43,
+      "recommendationScore": 636.93,
       "tags": [
         "Security",
         "Launch"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I made a unique compiled programming language in Rust without LLVM",
+      "link": "https://dev.to/morcules/i-made-a-unique-compiled-programming-language-in-rust-without-llvm-2glb",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-04T13:26:06.000Z",
+      "relevanceScore": 468.95,
+      "recommendationScore": 469.45,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -110,8 +147,8 @@
       "source": "Engadget",
       "category": "startup",
       "pubDate": "2026-01-03T19:00:37.000Z",
-      "relevanceScore": 439.87,
-      "recommendationScore": 441.87,
+      "relevanceScore": 456.77,
+      "recommendationScore": 458.77,
       "tags": [
         "Startup",
         "Tutorial"
@@ -124,8 +161,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-04T13:00:40.000Z",
-      "relevanceScore": 362.97,
-      "recommendationScore": 366.47,
+      "relevanceScore": 384.87,
+      "recommendationScore": 388.37,
       "tags": [
         "AI",
         "Tutorial",
@@ -139,8 +176,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-04T13:00:00.000Z",
-      "relevanceScore": 296.47,
-      "recommendationScore": 296.97,
+      "relevanceScore": 311.87,
+      "recommendationScore": 312.37,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -150,8 +187,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-02T22:15:48.000Z",
-      "relevanceScore": 217.72,
-      "recommendationScore": 219.72,
+      "relevanceScore": 233.62,
+      "recommendationScore": 235.62,
       "tags": [
         "AI",
         "Tech"
@@ -164,8 +201,19 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-03T19:02:46.000Z",
-      "relevanceScore": 202.88,
-      "recommendationScore": 203.38,
+      "relevanceScore": 214.78,
+      "recommendationScore": 215.28,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Jackery’s solar-powered Gazebo is a good DIY idea",
+      "link": "https://www.theverge.com/tech/852600/jackerys-solar-powered-gazebo-is-a-good-diy-idea",
+      "source": "The Verge",
+      "category": "climate",
+      "pubDate": "2026-01-04T13:00:00.000Z",
+      "relevanceScore": 202.87,
+      "recommendationScore": 202.87,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -175,23 +223,12 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-01-04T12:56:51.000Z",
-      "relevanceScore": 200.46,
-      "recommendationScore": 200.96,
+      "relevanceScore": 202.36,
+      "recommendationScore": 202.86,
       "tags": [
         "Business"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Jackery’s solar-powered Gazebo is a good DIY idea",
-      "link": "https://www.theverge.com/tech/852600/jackerys-solar-powered-gazebo-is-a-good-diy-idea",
-      "source": "The Verge",
-      "category": "climate",
-      "pubDate": "2026-01-04T13:00:00.000Z",
-      "relevanceScore": 190.47,
-      "recommendationScore": 190.47,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "15 Best Electrolyte Powders (2026): Tasty and Effective",
@@ -199,8 +236,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-04T12:31:00.000Z",
-      "relevanceScore": 178.88,
-      "recommendationScore": 180.38,
+      "relevanceScore": 187.77,
+      "recommendationScore": 189.27,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -210,8 +247,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-04T11:30:00.000Z",
-      "relevanceScore": 178.67,
-      "recommendationScore": 179.17,
+      "relevanceScore": 187.57,
+      "recommendationScore": 188.07,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -221,8 +258,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-04T13:00:00.000Z",
-      "relevanceScore": 176.97,
-      "recommendationScore": 177.47,
+      "relevanceScore": 185.87,
+      "recommendationScore": 186.37,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -232,8 +269,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-02T18:29:26.000Z",
-      "relevanceScore": 145.97,
-      "recommendationScore": 146.47,
+      "relevanceScore": 141.86,
+      "recommendationScore": 142.36,
       "tags": [
         "AI",
         "Report"
@@ -241,53 +278,16 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Subtle releases ear buds with its noise cancelation models",
-      "link": "https://techcrunch.com/2026/01/04/subtle-releases-ear-buds-with-its-noise-cancelation-models/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-01-04T12:00:00.000Z",
-      "relevanceScore": 141.77,
-      "recommendationScore": 142.27,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Jack White Blasts Republican Congressman Tim Burchett for Sharing AI Video of the Singer Calling President Supporters \"Fascists\": \"It’s Sad How Embarrassing Our Leadership Has Become\"",
       "link": "https://www.reddit.com/r/technology/comments/1q3hbjf/jack_white_blasts_republican_congressman_tim/",
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-04T05:16:16.000Z",
-      "relevanceScore": 130.93,
-      "recommendationScore": 132.43,
+      "relevanceScore": 136.82,
+      "recommendationScore": 138.32,
       "tags": [
         "AI"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The basics of managing the database schema changes",
-      "link": "https://dev.to/tanin47/managing-the-database-schema-changes-for-your-app-14dn",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-04T12:51:09.000Z",
-      "relevanceScore": 126.94,
-      "recommendationScore": 126.94,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Venezuela's Supreme Court orders Delcy Rodriguez become interim president",
-      "link": "https://www.reddit.com/r/worldnews/comments/1q3hfsn/venezuelas_supreme_court_orders_delcy_rodriguez/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-04T05:22:19.000Z",
-      "relevanceScore": 97.45,
-      "recommendationScore": 97.95,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -296,24 +296,32 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-03T15:56:54.000Z",
-      "relevanceScore": 89.26,
-      "recommendationScore": 90.76,
+      "relevanceScore": 104.66,
+      "recommendationScore": 106.16,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
-      "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2026-01-02T21:27:06.000Z",
-      "relevanceScore": 86.06,
-      "recommendationScore": 86.56,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
+      "title": "Venezuela's Supreme Court orders Delcy Rodriguez become interim president",
+      "link": "https://www.reddit.com/r/worldnews/comments/1q3hfsn/venezuelas_supreme_court_orders_delcy_rodriguez/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-04T05:22:19.000Z",
+      "relevanceScore": 95.34,
+      "recommendationScore": 95.84,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Family blame Tesla’s ‘Autosteer’ feature for veering car into path of oncoming truck after four relatives killed: lawsuit",
+      "link": "https://www.reddit.com/r/technology/comments/1q3ouw4/family_blame_teslas_autosteer_feature_for_veering/",
+      "source": "Reddit Technology",
+      "category": "automotive",
+      "pubDate": "2026-01-04T12:33:13.000Z",
+      "relevanceScore": 94.78,
+      "recommendationScore": 94.78,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Anti-Aging Injection Regrows Knee Cartilage and Prevents Arthritis",
@@ -321,8 +329,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-01-04T04:04:47.000Z",
-      "relevanceScore": 81.19,
-      "recommendationScore": 81.69,
+      "relevanceScore": 93.08,
+      "recommendationScore": 93.58,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -332,35 +340,38 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-04T02:54:50.000Z",
-      "relevanceScore": 80.96,
-      "recommendationScore": 80.96,
+      "relevanceScore": 92.85,
+      "recommendationScore": 92.85,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Grok is undressing anyone, including minors",
-      "link": "https://www.reddit.com/r/technology/comments/1q30ocj/grok_is_undressing_anyone_including_minors/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-01-03T17:36:36.000Z",
-      "relevanceScore": 79.09,
-      "recommendationScore": 79.09,
-      "tags": [],
-      "readingLevel": "advanced"
+      "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
+      "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2026-01-02T21:27:06.000Z",
+      "relevanceScore": 70.46,
+      "recommendationScore": 70.96,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
-      "title": "Starmer tells me he'll survive - but can he keep this new year's resolution?",
-      "link": "https://www.bbc.com/news/articles/cly1lv92xrxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-04T11:17:51.000Z",
-      "relevanceScore": 59.63,
-      "recommendationScore": 62.13,
+      "title": "A New Bridge Links the Strange Math of Infinity to Computer Science",
+      "link": "https://www.wired.com/story/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-04T12:00:00.000Z",
+      "relevanceScore": 59.17,
+      "recommendationScore": 61.67,
       "tags": [
-        "Business",
-        "Interview"
+        "Science",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -370,23 +381,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-02T23:08:13.000Z",
-      "relevanceScore": 51.4,
-      "recommendationScore": 51.9,
+      "relevanceScore": 55.29,
+      "recommendationScore": 55.79,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Someone made a ton of money betting on Maduro’s capture",
-      "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
-      "source": "The Verge",
-      "category": "finance",
-      "pubDate": "2026-01-03T20:44:22.000Z",
-      "relevanceScore": 50.72,
-      "recommendationScore": 51.22,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Woman felt 'dehumanised' after Musk's Grok AI used to digitally remove her clothes",
@@ -394,10 +392,45 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-02T17:12:25.000Z",
-      "relevanceScore": 46.71,
-      "recommendationScore": 47.21,
+      "relevanceScore": 49.61,
+      "recommendationScore": 50.11,
       "tags": [
         "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "From Managed Threads to Independent Tasks (Part 2: Sharing Data — Locks, Atomics, and Ownership)",
+      "link": "https://dev.to/_akajuthi_/from-managed-threads-to-independent-taskspart-2-sharing-data-locks-atomics-and-ownership-3ke8",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-04T13:29:08.000Z",
+      "relevanceScore": 37.96,
+      "recommendationScore": 38.46,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Is the whiskey industry in trouble?",
+      "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-02T21:51:52.000Z",
+      "relevanceScore": 32.54,
+      "recommendationScore": 32.54,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Subtle releases ear buds with its noise cancelation models",
+      "link": "https://techcrunch.com/2026/01/04/subtle-releases-ear-buds-with-its-noise-cancelation-models/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-01-04T12:00:00.000Z",
+      "relevanceScore": 31.67,
+      "recommendationScore": 32.17,
+      "tags": [
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -407,12 +440,37 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-04T11:57:45.000Z",
-      "relevanceScore": 45.76,
-      "recommendationScore": 47.76,
+      "relevanceScore": 31.66,
+      "recommendationScore": 33.66,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Starmer tells me he'll survive - but can he keep this new year's resolution?",
+      "link": "https://www.bbc.com/news/articles/cly1lv92xrxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-04T11:17:51.000Z",
+      "relevanceScore": 31.53,
+      "recommendationScore": 34.03,
+      "tags": [
+        "Business",
+        "Interview"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Snow and ice warnings issued ahead of Monday return to work",
+      "link": "https://www.bbc.com/weather/articles/c89qvjwdk7jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "education",
+      "pubDate": "2026-01-04T12:40:29.000Z",
+      "relevanceScore": 31.3,
+      "recommendationScore": 31.8,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Spies, drones and blowtorches: How the US captured Maduro",
@@ -420,73 +478,10 @@
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2026-01-03T23:42:43.000Z",
-      "relevanceScore": 43.31,
-      "recommendationScore": 45.31,
+      "relevanceScore": 29.21,
+      "recommendationScore": 31.21,
       "tags": [
         "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Venezuela could now define Trump's legacy - and America's place in the world",
-      "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-03T21:11:44.000Z",
-      "relevanceScore": 42.81,
-      "recommendationScore": 43.31,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Will MCP become a standard? A look at what's coming",
-      "link": "https://dev.to/gantz/will-mcp-become-a-standard-a-look-at-whats-coming-2di1",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-04T12:49:48.000Z",
-      "relevanceScore": 41.94,
-      "recommendationScore": 43.94,
-      "tags": [
-        "AI",
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Is the whiskey industry in trouble?",
-      "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-02T21:51:52.000Z",
-      "relevanceScore": 39.65,
-      "recommendationScore": 39.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Saks CEO steps down as luxury retailer struggles under heavy debt load",
-      "link": "https://abcnews.go.com/Business/wireStory/saks-ceo-steps-luxury-retailer-struggles-heavy-debt-128850455",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-02T18:30:19.000Z",
-      "relevanceScore": 36.97,
-      "recommendationScore": 37.47,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A New Bridge Links the Strange Math of Infinity to Computer Science",
-      "link": "https://www.wired.com/story/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-04T12:00:00.000Z",
-      "relevanceScore": 36.27,
-      "recommendationScore": 38.77,
-      "tags": [
-        "Science",
-        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -496,22 +491,11 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-02T14:43:45.000Z",
-      "relevanceScore": 35.22,
-      "recommendationScore": 38.72,
+      "relevanceScore": 28.11,
+      "recommendationScore": 31.61,
       "tags": [
         "AI"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Police identify 16 more victims of Swiss bar fire",
-      "link": "https://www.bbc.com/news/articles/c3vel0xvlvgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-04T11:28:21.000Z",
-      "relevanceScore": 31.67,
-      "recommendationScore": 31.67,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -520,8 +504,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-04T12:57:16.000Z",
-      "relevanceScore": 27.96,
-      "recommendationScore": 29.46,
+      "relevanceScore": 27.86,
+      "recommendationScore": 29.36,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -531,23 +515,23 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-01-03T22:25:34.000Z",
-      "relevanceScore": 25.06,
-      "recommendationScore": 27.56,
+      "relevanceScore": 24.95,
+      "recommendationScore": 27.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Understanding How Applications Talk to SQLite Internally",
-      "link": "https://dev.to/lovestaco/understanding-how-applications-talk-to-sqlite-internally-4b9h",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-04T12:49:02.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 25.94,
+      "title": "Someone made a ton of money betting on Maduro’s capture",
+      "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2026-01-03T20:44:22.000Z",
+      "relevanceScore": 22.61,
+      "recommendationScore": 23.11,
       "tags": [
-        "Web"
+        "Business"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "Fans mourn closure of cupcake vending machine company Sprinkles Cupcakes",
@@ -555,8 +539,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-03T01:25:48.000Z",
-      "relevanceScore": 18.86,
-      "recommendationScore": 19.36,
+      "relevanceScore": 18.75,
+      "recommendationScore": 19.25,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -566,8 +550,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-02T22:36:26.000Z",
-      "relevanceScore": 18.29,
-      "recommendationScore": 18.79,
+      "relevanceScore": 18.19,
+      "recommendationScore": 18.69,
       "tags": [
         "Exclusive"
       ],
@@ -579,8 +563,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-02T20:54:56.000Z",
-      "relevanceScore": 17.96,
-      "recommendationScore": 18.46,
+      "relevanceScore": 17.85,
+      "recommendationScore": 18.35,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -590,8 +574,8 @@
       "source": "ABC News Business",
       "category": "automotive",
       "pubDate": "2026-01-02T14:27:35.000Z",
-      "relevanceScore": 17.66,
-      "recommendationScore": 18.16,
+      "relevanceScore": 17.56,
+      "recommendationScore": 18.06,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -601,8 +585,8 @@
       "source": "BBC Technology",
       "category": "automotive",
       "pubDate": "2026-01-02T15:03:38.000Z",
-      "relevanceScore": 16.78,
-      "recommendationScore": 18.28,
+      "relevanceScore": 16.68,
+      "recommendationScore": 18.18,
       "tags": [
         "Exclusive"
       ],
@@ -616,25 +600,23 @@
         "link": "https://www.reddit.com/r/programming/comments/1q3l83g/stackoverflow_questions_asked_per_month_over_time/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-04T08:59:20.000Z",
-        "relevanceScore": 2554.17,
+        "relevanceScore": 2596.06,
         "tags": []
       },
       {
-        "title": "The basics of managing the database schema changes",
-        "link": "https://dev.to/tanin47/managing-the-database-schema-changes-for-your-app-14dn",
+        "title": "I made a unique compiled programming language in Rust without LLVM",
+        "link": "https://dev.to/morcules/i-made-a-unique-compiled-programming-language-in-rust-without-llvm-2glb",
         "source": "Dev.to",
-        "pubDate": "2026-01-04T12:51:09.000Z",
-        "relevanceScore": 126.94,
-        "tags": [
-          "Update"
-        ]
+        "pubDate": "2026-01-04T13:26:06.000Z",
+        "relevanceScore": 468.95,
+        "tags": []
       },
       {
         "title": "Who Owns the Memory? Part 1: What is an Object?",
         "link": "https://www.reddit.com/r/programming/comments/1q2y2hc/who_owns_the_memory_part_1_what_is_an_object/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-03T15:56:54.000Z",
-        "relevanceScore": 89.26,
+        "relevanceScore": 104.66,
         "tags": []
       },
       {
@@ -642,19 +624,136 @@
         "link": "https://www.reddit.com/r/programming/comments/1q3ed1a/software_craftsmanship_is_dead/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-04T02:54:50.000Z",
-        "relevanceScore": 80.96,
+        "relevanceScore": 92.85,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "Understanding How Applications Talk to SQLite Internally",
-        "link": "https://dev.to/lovestaco/understanding-how-applications-talk-to-sqlite-internally-4b9h",
+        "title": "From Managed Threads to Independent Tasks (Part 2: Sharing Data — Locks, Atomics, and Ownership)",
+        "link": "https://dev.to/_akajuthi_/from-managed-threads-to-independent-taskspart-2-sharing-data-locks-atomics-and-ownership-3ke8",
         "source": "Dev.to",
-        "pubDate": "2026-01-04T12:49:02.000Z",
-        "relevanceScore": 23.94,
+        "pubDate": "2026-01-04T13:29:08.000Z",
+        "relevanceScore": 37.96,
+        "tags": []
+      }
+    ],
+    "ai-ml": [
+      {
+        "title": "Running Mistral Vibe CLI with Local LLMs: A Complete Guide",
+        "link": "https://dev.to/chung_duy_51a346946b27a3d/running-mistral-vibe-with-local-llms-a-complete-guide-1mde",
+        "source": "Dev.to",
+        "pubDate": "2026-01-04T13:32:34.000Z",
+        "relevanceScore": 1353.48,
         "tags": [
-          "Web"
+          "Cloud",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "How to watch the Intel CES 2026 launch event",
+        "link": "https://www.engadget.com/computing/how-to-watch-the-intel-ces-2026-launch-event-130040089.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-04T13:00:40.000Z",
+        "relevanceScore": 384.87,
+        "tags": [
+          "AI",
+          "Tutorial",
+          "Launch"
+        ]
+      },
+      {
+        "title": "AI teachers and cybernetics - what could the world look like in 2050?",
+        "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T22:15:48.000Z",
+        "relevanceScore": 233.62,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
+        "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-02T18:29:26.000Z",
+        "relevanceScore": 141.86,
+        "tags": [
+          "AI",
+          "Report"
+        ]
+      },
+      {
+        "title": "Jack White Blasts Republican Congressman Tim Burchett for Sharing AI Video of the Singer Calling President Supporters \"Fascists\": \"It’s Sad How Embarrassing Our Leadership Has Become\"",
+        "link": "https://www.reddit.com/r/technology/comments/1q3hbjf/jack_white_blasts_republican_congressman_tim/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-04T05:16:16.000Z",
+        "relevanceScore": 136.82,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
+        "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-02T21:27:06.000Z",
+        "relevanceScore": 70.46,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "Woman felt 'dehumanised' after Musk's Grok AI used to digitally remove her clothes",
+        "link": "https://www.bbc.com/news/articles/c98p1r4e6m8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T17:12:25.000Z",
+        "relevanceScore": 49.61,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
+        "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-02T14:43:45.000Z",
+        "relevanceScore": 28.11,
+        "tags": [
+          "AI"
+        ]
+      }
+    ],
+    "general": [
+      {
+        "title": "'I can't believe it' - Joy and uncertainty in Florida's 'Little Venezuela'",
+        "link": "https://www.bbc.com/news/articles/clygv0pd26eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-04T10:35:43.000Z",
+        "relevanceScore": 1293.89,
+        "tags": []
+      },
+      {
+        "title": "Who's in charge of Venezuela and what happens next?",
+        "link": "https://www.bbc.com/news/articles/crmlz7r0zrxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-04T11:57:45.000Z",
+        "relevanceScore": 31.66,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Starmer tells me he'll survive - but can he keep this new year's resolution?",
+        "link": "https://www.bbc.com/news/articles/cly1lv92xrxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-04T11:17:51.000Z",
+        "relevanceScore": 31.53,
+        "tags": [
+          "Business",
+          "Interview"
         ]
       }
     ],
@@ -664,25 +763,25 @@
         "link": "https://www.theverge.com/games/853786/hollow-knight-silksong-steamawards-game-of-the-year",
         "source": "The Verge",
         "pubDate": "2026-01-03T23:04:09.000Z",
-        "relevanceScore": 976.69,
+        "relevanceScore": 992.08,
         "tags": []
       }
     ],
     "world": [
       {
-        "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-03T16:52:35.000Z",
-        "relevanceScore": 780.95,
-        "tags": []
-      },
-      {
         "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1410, Part 1 (Thread #1557)",
         "link": "https://www.reddit.com/r/worldnews/comments/1q3ftjd/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-01-04T04:02:43.000Z",
-        "relevanceScore": 720.18,
+        "relevanceScore": 733.58,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Multiple Explosions in Venezuela’s Capital Caracas (Thread #2)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1q2ziek/rworldnews_live_thread_multiple_explosions_in/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-03T16:52:35.000Z",
+        "relevanceScore": 727.34,
         "tags": []
       },
       {
@@ -690,120 +789,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1q3hfsn/venezuelas_supreme_court_orders_delcy_rodriguez/",
         "source": "Reddit World News",
         "pubDate": "2026-01-04T05:22:19.000Z",
-        "relevanceScore": 97.45,
-        "tags": []
-      }
-    ],
-    "tech": [
-      {
-        "title": "Tech billionaires cashed out $16 billion in 2025 as stocks soared",
-        "link": "https://techcrunch.com/2026/01/03/tech-billionaires-cashed-out-16-billion-in-2025-as-stocks-soared/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-03T23:45:07.000Z",
-        "relevanceScore": 657.82,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Govee’s latest smart lights can make your ceiling more interesting",
-        "link": "https://www.theverge.com/tech/853006/govee-sky-ceiling-light-ultra-specs",
-        "source": "The Verge",
-        "pubDate": "2026-01-04T13:00:00.000Z",
-        "relevanceScore": 296.47,
-        "tags": []
-      },
-      {
-        "title": "Volkswagen is bringing physical buttons back to the dashboard with the ID. Polo EV",
-        "link": "https://www.engadget.com/transportation/evs/volkswagen-is-bringing-physical-buttons-back-to-the-dashboard-with-the-id-polo-ev-190246116.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-03T19:02:46.000Z",
-        "relevanceScore": 202.88,
-        "tags": []
-      },
-      {
-        "title": "15 Best Electrolyte Powders (2026): Tasty and Effective",
-        "link": "https://www.wired.com/gallery/best-electrolyte-powders/",
-        "source": "Wired",
-        "pubDate": "2026-01-04T12:31:00.000Z",
-        "relevanceScore": 178.88,
-        "tags": []
-      },
-      {
-        "title": "Protein Bars: Gluten-Free, Whole Foods, Fiber (2026)",
-        "link": "https://www.wired.com/story/best-protein-bars/",
-        "source": "Wired",
-        "pubDate": "2026-01-04T11:30:00.000Z",
-        "relevanceScore": 178.67,
-        "tags": []
-      },
-      {
-        "title": "Govee's CES lineup includes a ceiling lamp that simulates skylights",
-        "link": "https://www.engadget.com/home/smart-home/govees-ces-lineup-includes-a-ceiling-lamp-that-simulates-skylights-130000611.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-04T13:00:00.000Z",
-        "relevanceScore": 176.97,
-        "tags": []
-      },
-      {
-        "title": "Anti-Aging Injection Regrows Knee Cartilage and Prevents Arthritis",
-        "link": "https://www.reddit.com/r/technology/comments/1q3fv2z/antiaging_injection_regrows_knee_cartilage_and/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-04T04:04:47.000Z",
-        "relevanceScore": 81.19,
-        "tags": []
-      },
-      {
-        "title": "Grok is undressing anyone, including minors",
-        "link": "https://www.reddit.com/r/technology/comments/1q30ocj/grok_is_undressing_anyone_including_minors/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-03T17:36:36.000Z",
-        "relevanceScore": 79.09,
-        "tags": []
-      },
-      {
-        "title": "No, Grok can’t really “apologize” for posting non-consensual sexual images",
-        "link": "https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-02T23:08:13.000Z",
-        "relevanceScore": 51.4,
-        "tags": []
-      },
-      {
-        "title": "A New Bridge Links the Strange Math of Infinity to Computer Science",
-        "link": "https://www.wired.com/story/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science/",
-        "source": "Wired",
-        "pubDate": "2026-01-04T12:00:00.000Z",
-        "relevanceScore": 36.27,
-        "tags": [
-          "Science",
-          "Report"
-        ]
-      },
-      {
-        "title": "California residents can use new tool to demand brokers delete their personal data",
-        "link": "https://techcrunch.com/2026/01/03/california-residents-can-use-new-tool-to-demand-brokers-delete-their-personal-data/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-03T22:25:34.000Z",
-        "relevanceScore": 25.06,
-        "tags": []
-      },
-      {
-        "title": "Healthy 18-year-old welder nearly died of anthrax—the 9th such puzzling case",
-        "link": "https://arstechnica.com/health/2026/01/anthrax-nearly-kills-healthy-18-year-old-welder-amid-puzzling-pattern/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-02T22:36:26.000Z",
-        "relevanceScore": 18.29,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Researchers spot Saturn-sized planet in the “Einstein desert”",
-        "link": "https://arstechnica.com/science/2026/01/researchers-spot-saturn-sized-planet-in-the-einstein-desert/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-02T20:54:56.000Z",
-        "relevanceScore": 17.96,
+        "relevanceScore": 95.34,
         "tags": []
       }
     ],
@@ -813,7 +799,7 @@
         "link": "https://www.wired.com/story/5-features-that-boost-security-and-privacy-on-whatsapp/",
         "source": "Wired",
         "pubDate": "2026-01-04T11:00:00.000Z",
-        "relevanceScore": 648.57,
+        "relevanceScore": 667.47,
         "tags": [
           "Security",
           "Mobile",
@@ -825,10 +811,115 @@
         "link": "https://techcrunch.com/2026/01/04/subtle-releases-ear-buds-with-its-noise-cancelation-models/",
         "source": "TechCrunch",
         "pubDate": "2026-01-04T12:00:00.000Z",
-        "relevanceScore": 141.77,
+        "relevanceScore": 31.67,
         "tags": [
           "Mobile"
         ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Tech billionaires cashed out $16 billion in 2025 as stocks soared",
+        "link": "https://techcrunch.com/2026/01/03/tech-billionaires-cashed-out-16-billion-in-2025-as-stocks-soared/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-03T23:45:07.000Z",
+        "relevanceScore": 659.72,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "Govee’s latest smart lights can make your ceiling more interesting",
+        "link": "https://www.theverge.com/tech/853006/govee-sky-ceiling-light-ultra-specs",
+        "source": "The Verge",
+        "pubDate": "2026-01-04T13:00:00.000Z",
+        "relevanceScore": 311.87,
+        "tags": []
+      },
+      {
+        "title": "Volkswagen is bringing physical buttons back to the dashboard with the ID. Polo EV",
+        "link": "https://www.engadget.com/transportation/evs/volkswagen-is-bringing-physical-buttons-back-to-the-dashboard-with-the-id-polo-ev-190246116.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-03T19:02:46.000Z",
+        "relevanceScore": 214.78,
+        "tags": []
+      },
+      {
+        "title": "15 Best Electrolyte Powders (2026): Tasty and Effective",
+        "link": "https://www.wired.com/gallery/best-electrolyte-powders/",
+        "source": "Wired",
+        "pubDate": "2026-01-04T12:31:00.000Z",
+        "relevanceScore": 187.77,
+        "tags": []
+      },
+      {
+        "title": "Protein Bars: Gluten-Free, Whole Foods, Fiber (2026)",
+        "link": "https://www.wired.com/story/best-protein-bars/",
+        "source": "Wired",
+        "pubDate": "2026-01-04T11:30:00.000Z",
+        "relevanceScore": 187.57,
+        "tags": []
+      },
+      {
+        "title": "Govee's CES lineup includes a ceiling lamp that simulates skylights",
+        "link": "https://www.engadget.com/home/smart-home/govees-ces-lineup-includes-a-ceiling-lamp-that-simulates-skylights-130000611.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-04T13:00:00.000Z",
+        "relevanceScore": 185.87,
+        "tags": []
+      },
+      {
+        "title": "Anti-Aging Injection Regrows Knee Cartilage and Prevents Arthritis",
+        "link": "https://www.reddit.com/r/technology/comments/1q3fv2z/antiaging_injection_regrows_knee_cartilage_and/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-04T04:04:47.000Z",
+        "relevanceScore": 93.08,
+        "tags": []
+      },
+      {
+        "title": "A New Bridge Links the Strange Math of Infinity to Computer Science",
+        "link": "https://www.wired.com/story/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science/",
+        "source": "Wired",
+        "pubDate": "2026-01-04T12:00:00.000Z",
+        "relevanceScore": 59.17,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      },
+      {
+        "title": "No, Grok can’t really “apologize” for posting non-consensual sexual images",
+        "link": "https://arstechnica.com/ai/2026/01/no-grok-cant-really-apologize-for-posting-non-consensual-sexual-images/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-02T23:08:13.000Z",
+        "relevanceScore": 55.29,
+        "tags": []
+      },
+      {
+        "title": "California residents can use new tool to demand brokers delete their personal data",
+        "link": "https://techcrunch.com/2026/01/03/california-residents-can-use-new-tool-to-demand-brokers-delete-their-personal-data/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-03T22:25:34.000Z",
+        "relevanceScore": 24.95,
+        "tags": []
+      },
+      {
+        "title": "Healthy 18-year-old welder nearly died of anthrax—the 9th such puzzling case",
+        "link": "https://arstechnica.com/health/2026/01/anthrax-nearly-kills-healthy-18-year-old-welder-amid-puzzling-pattern/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-02T22:36:26.000Z",
+        "relevanceScore": 18.19,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Researchers spot Saturn-sized planet in the “Einstein desert”",
+        "link": "https://arstechnica.com/science/2026/01/researchers-spot-saturn-sized-planet-in-the-einstein-desert/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-02T20:54:56.000Z",
+        "relevanceScore": 17.85,
+        "tags": []
       }
     ],
     "blockchain": [
@@ -837,7 +928,7 @@
         "link": "https://techcrunch.com/2026/01/03/bitfinex-hacker-ilya-lichtenstein-credits-trump-for-early-release-from-prison/",
         "source": "TechCrunch",
         "pubDate": "2026-01-03T19:48:23.000Z",
-        "relevanceScore": 631.53,
+        "relevanceScore": 636.43,
         "tags": [
           "Security",
           "Launch"
@@ -850,120 +941,10 @@
         "link": "https://www.engadget.com/transportation/how-to-watch-the-hyundai-ces-2026-presentation-live-190051072.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-03T19:00:37.000Z",
-        "relevanceScore": 439.87,
+        "relevanceScore": 456.77,
         "tags": [
           "Startup",
           "Tutorial"
-        ]
-      }
-    ],
-    "ai-ml": [
-      {
-        "title": "How to watch the Intel CES 2026 launch event",
-        "link": "https://www.engadget.com/computing/how-to-watch-the-intel-ces-2026-launch-event-130040089.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-04T13:00:40.000Z",
-        "relevanceScore": 362.97,
-        "tags": [
-          "AI",
-          "Tutorial",
-          "Launch"
-        ]
-      },
-      {
-        "title": "AI teachers and cybernetics - what could the world look like in 2050?",
-        "link": "https://www.bbc.com/news/articles/c865n800d5jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T22:15:48.000Z",
-        "relevanceScore": 217.72,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "India orders Musk’s X to fix Grok over ‘obscene’ AI content",
-        "link": "https://techcrunch.com/2026/01/02/india-orders-musks-x-to-fix-grok-over-obscene-ai-content/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-02T18:29:26.000Z",
-        "relevanceScore": 145.97,
-        "tags": [
-          "AI",
-          "Report"
-        ]
-      },
-      {
-        "title": "Jack White Blasts Republican Congressman Tim Burchett for Sharing AI Video of the Singer Calling President Supporters \"Fascists\": \"It’s Sad How Embarrassing Our Leadership Has Become\"",
-        "link": "https://www.reddit.com/r/technology/comments/1q3hbjf/jack_white_blasts_republican_congressman_tim/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-04T05:16:16.000Z",
-        "relevanceScore": 130.93,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "OpenAI reorganizes some teams to build audio-based AI hardware products",
-        "link": "https://arstechnica.com/ai/2026/01/openai-plans-new-voice-model-in-early-2026-audio-based-hardware-in-2027/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-02T21:27:06.000Z",
-        "relevanceScore": 86.06,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "Woman felt 'dehumanised' after Musk's Grok AI used to digitally remove her clothes",
-        "link": "https://www.bbc.com/news/articles/c98p1r4e6m8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T17:12:25.000Z",
-        "relevanceScore": 46.71,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Will MCP become a standard? A look at what's coming",
-        "link": "https://dev.to/gantz/will-mcp-become-a-standard-a-look-at-whats-coming-2di1",
-        "source": "Dev.to",
-        "pubDate": "2026-01-04T12:49:48.000Z",
-        "relevanceScore": 41.94,
-        "tags": [
-          "AI",
-          "Mobile"
-        ]
-      },
-      {
-        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
-        "link": "https://stackoverflow.blog/2026/01/02/a-new-worst-coder-has-entered-the-chat-vibe-coding-without-code-knowledge/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-02T14:43:45.000Z",
-        "relevanceScore": 35.22,
-        "tags": [
-          "AI"
-        ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "The resale market for sneakers is tanking. Is 2026 the end of the sneakerhead era?",
-        "link": "https://www.npr.org/2026/01/04/nx-s1-5648609/the-resale-market-for-sneakers-is-tanking-is-2026-the-end-of-the-sneakerhead-era",
-        "source": "NPR Business",
-        "pubDate": "2026-01-04T12:56:51.000Z",
-        "relevanceScore": 200.46,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Someone made a ton of money betting on Maduro’s capture",
-        "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
-        "source": "The Verge",
-        "pubDate": "2026-01-03T20:44:22.000Z",
-        "relevanceScore": 50.72,
-        "tags": [
-          "Business"
         ]
       }
     ],
@@ -973,60 +954,57 @@
         "link": "https://www.theverge.com/tech/852600/jackerys-solar-powered-gazebo-is-a-good-diy-idea",
         "source": "The Verge",
         "pubDate": "2026-01-04T13:00:00.000Z",
-        "relevanceScore": 190.47,
+        "relevanceScore": 202.87,
         "tags": []
       }
     ],
-    "general": [
+    "finance": [
       {
-        "title": "Starmer tells me he'll survive - but can he keep this new year's resolution?",
-        "link": "https://www.bbc.com/news/articles/cly1lv92xrxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-04T11:17:51.000Z",
-        "relevanceScore": 59.63,
+        "title": "The resale market for sneakers is tanking. Is 2026 the end of the sneakerhead era?",
+        "link": "https://www.npr.org/2026/01/04/nx-s1-5648609/the-resale-market-for-sneakers-is-tanking-is-2026-the-end-of-the-sneakerhead-era",
+        "source": "NPR Business",
+        "pubDate": "2026-01-04T12:56:51.000Z",
+        "relevanceScore": 202.36,
         "tags": [
-          "Business",
-          "Interview"
+          "Business"
         ]
       },
       {
-        "title": "Who's in charge of Venezuela and what happens next?",
-        "link": "https://www.bbc.com/news/articles/crmlz7r0zrxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-04T11:57:45.000Z",
-        "relevanceScore": 45.76,
+        "title": "Someone made a ton of money betting on Maduro’s capture",
+        "link": "https://www.theverge.com/news/853765/someone-made-a-ton-of-money-betting-on-maduros-capture",
+        "source": "The Verge",
+        "pubDate": "2026-01-03T20:44:22.000Z",
+        "relevanceScore": 22.61,
         "tags": [
-          "Exclusive"
+          "Business"
         ]
-      },
-      {
-        "title": "Venezuela could now define Trump's legacy - and America's place in the world",
-        "link": "https://www.bbc.com/news/articles/cx2x70k2q26o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T21:11:44.000Z",
-        "relevanceScore": 42.81,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Police identify 16 more victims of Swiss bar fire",
-        "link": "https://www.bbc.com/news/articles/c3vel0xvlvgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-04T11:28:21.000Z",
-        "relevanceScore": 31.67,
-        "tags": []
       }
     ],
-    "cybersecurity": [
+    "automotive": [
       {
-        "title": "Spies, drones and blowtorches: How the US captured Maduro",
-        "link": "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-03T23:42:43.000Z",
-        "relevanceScore": 43.31,
+        "title": "Family blame Tesla’s ‘Autosteer’ feature for veering car into path of oncoming truck after four relatives killed: lawsuit",
+        "link": "https://www.reddit.com/r/technology/comments/1q3ouw4/family_blame_teslas_autosteer_feature_for_veering/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-04T12:33:13.000Z",
+        "relevanceScore": 94.78,
+        "tags": []
+      },
+      {
+        "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
+        "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-02T14:27:35.000Z",
+        "relevanceScore": 17.56,
+        "tags": []
+      },
+      {
+        "title": "China's BYD overtakes Tesla as world's top EV seller",
+        "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-02T15:03:38.000Z",
+        "relevanceScore": 16.68,
         "tags": [
-          "Security"
+          "Exclusive"
         ]
       }
     ],
@@ -1036,15 +1014,7 @@
         "link": "https://www.npr.org/2026/01/02/nx-s1-5662629/is-the-whiskey-industry-in-trouble",
         "source": "NPR Business",
         "pubDate": "2026-01-02T21:51:52.000Z",
-        "relevanceScore": 39.65,
-        "tags": []
-      },
-      {
-        "title": "Saks CEO steps down as luxury retailer struggles under heavy debt load",
-        "link": "https://abcnews.go.com/Business/wireStory/saks-ceo-steps-luxury-retailer-struggles-heavy-debt-128850455",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-02T18:30:19.000Z",
-        "relevanceScore": 36.97,
+        "relevanceScore": 32.54,
         "tags": []
       },
       {
@@ -1052,7 +1022,7 @@
         "link": "https://www.npr.org/2026/01/04/nx-s1-5665013/italian-pasta-brands-get-relief-from-trumps-tariffs-after-threatening-to-stop-exports",
         "source": "NPR Business",
         "pubDate": "2026-01-04T12:57:16.000Z",
-        "relevanceScore": 27.96,
+        "relevanceScore": 27.86,
         "tags": []
       },
       {
@@ -1060,39 +1030,41 @@
         "link": "https://abcnews.go.com/Business/wireStory/fans-mourn-closure-cupcake-vending-machine-company-sprinkles-128856180",
         "source": "ABC News Business",
         "pubDate": "2026-01-03T01:25:48.000Z",
-        "relevanceScore": 18.86,
+        "relevanceScore": 18.75,
         "tags": []
       }
     ],
-    "automotive": [
+    "education": [
       {
-        "title": "Tesla loses world's biggest electric vehicle maker title as sales fall for 2nd year",
-        "link": "https://abcnews.go.com/Business/wireStory/tesla-loses-title-worlds-biggest-electric-vehicle-maker-128845275",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-02T14:27:35.000Z",
-        "relevanceScore": 17.66,
+        "title": "Snow and ice warnings issued ahead of Monday return to work",
+        "link": "https://www.bbc.com/weather/articles/c89qvjwdk7jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-04T12:40:29.000Z",
+        "relevanceScore": 31.3,
         "tags": []
-      },
+      }
+    ],
+    "cybersecurity": [
       {
-        "title": "China's BYD overtakes Tesla as world's top EV seller",
-        "link": "https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-02T15:03:38.000Z",
-        "relevanceScore": 16.78,
+        "title": "Spies, drones and blowtorches: How the US captured Maduro",
+        "link": "https://www.bbc.com/news/articles/cdred61epg4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-03T23:42:43.000Z",
+        "relevanceScore": 29.21,
         "tags": [
-          "Exclusive"
+          "Security"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 14,
-    "avgRelevanceScore": 233.40541666666653,
+    "totalCategories": 15,
+    "avgRelevanceScore": 300.20638297872364,
     "topCategories": [
       {
         "category": "tech",
-        "count": 13
+        "count": 12
       },
       {
         "category": "ai-ml",
@@ -1104,11 +1076,11 @@
       },
       {
         "category": "general",
-        "count": 4
+        "count": 3
       },
       {
-        "category": "business",
-        "count": 4
+        "category": "world",
+        "count": 3
       }
     ]
   }
