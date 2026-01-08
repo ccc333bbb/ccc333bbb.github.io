@@ -1,18 +1,20 @@
 {
-  "lastUpdated": "2026-01-08T11:16:12.555Z",
+  "lastUpdated": "2026-01-08T11:40:12.765Z",
   "totalArticles": 51,
   "categories": [
     "ai-ml",
+    "entertainment",
     "tech",
     "space",
     "general",
     "business",
-    "finance",
+    "cloud",
     "development",
-    "automotive",
+    "finance",
     "science",
-    "entertainment",
-    "world"
+    "world",
+    "climate",
+    "automotive"
   ],
   "topArticles": [
     {
@@ -21,8 +23,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-01-08T10:00:00.000Z",
-      "relevanceScore": 1116.25,
-      "recommendationScore": 1116.25,
+      "relevanceScore": 1169.17,
+      "recommendationScore": 1169.17,
       "tags": [
         "AI",
         "Web"
@@ -30,16 +32,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Lego unveils tech-filled Smart Bricks - to play experts' unease",
-      "link": "https://www.bbc.com/news/articles/crmlnmnwzk2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-01-06T16:20:15.000Z",
-      "relevanceScore": 447.41,
-      "recommendationScore": 447.91,
+      "title": "Building the Next Generation of Voice Agents with Strands",
+      "link": "https://dev.to/rafael_rodriguez_0c5f2891/building-the-next-generation-of-voice-agents-with-strands-2lhk",
+      "source": "Dev.to",
+      "category": "entertainment",
+      "pubDate": "2026-01-08T11:35:28.000Z",
+      "relevanceScore": 926.98,
+      "recommendationScore": 927.48,
       "tags": [
         "Tech",
-        "Innovation"
+        "Analysis",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -49,10 +52,24 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-08T10:01:26.000Z",
-      "relevanceScore": 438.75,
-      "recommendationScore": 439.75,
+      "relevanceScore": 491.17,
+      "recommendationScore": 492.17,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Lego unveils tech-filled Smart Bricks - to play experts' unease",
+      "link": "https://www.bbc.com/news/articles/crmlnmnwzk2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-01-06T16:20:15.000Z",
+      "relevanceScore": 451.33,
+      "recommendationScore": 451.83,
+      "tags": [
+        "Tech",
+        "Innovation"
       ],
       "readingLevel": "advanced"
     },
@@ -62,34 +79,9 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-01-08T01:58:33.000Z",
-      "relevanceScore": 332.14,
-      "recommendationScore": 332.64,
+      "relevanceScore": 371.56,
+      "recommendationScore": 372.06,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "'We are not for sale': Greenlanders express fear and indignation as Trump eyes territory",
-      "link": "https://www.bbc.com/news/articles/cvgx8w4pgk0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-07T22:59:09.000Z",
-      "relevanceScore": 326.54,
-      "recommendationScore": 327.04,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Experienced software developers assumed AI would save them a chunk of time. But in one experiment, their tasks took 20% longer | Fortune",
-      "link": "https://www.reddit.com/r/programming/comments/1q6ff3y/experienced_software_developers_assumed_ai_would/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2026-01-07T13:31:25.000Z",
-      "relevanceScore": 315.15,
-      "recommendationScore": 315.15,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -98,8 +90,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-08T01:21:56.000Z",
-      "relevanceScore": 306.52,
-      "recommendationScore": 307.02,
+      "relevanceScore": 352.44,
+      "recommendationScore": 352.94,
       "tags": [
         "Science",
         "Report"
@@ -107,14 +99,53 @@
       "readingLevel": "beginner"
     },
     {
+      "title": "Experienced software developers assumed AI would save them a chunk of time. But in one experiment, their tasks took 20% longer | Fortune",
+      "link": "https://www.reddit.com/r/programming/comments/1q6ff3y/experienced_software_developers_assumed_ai_would/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-01-07T13:31:25.000Z",
+      "relevanceScore": 350.07,
+      "recommendationScore": 350.07,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'We are not for sale': Greenlanders express fear and indignation as Trump eyes territory",
+      "link": "https://www.bbc.com/news/articles/cvgx8w4pgk0o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-07T22:59:09.000Z",
+      "relevanceScore": 328.46,
+      "recommendationScore": 328.96,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "U.S. population growth is slowing. The immigration crackdown is a major factor",
       "link": "https://www.npr.org/2026/01/07/nx-s1-5670246/us-population-cbo-immigration-crackdown-birth-rates",
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-07T20:23:56.000Z",
-      "relevanceScore": 254.03,
-      "recommendationScore": 254.53,
+      "relevanceScore": 264.95,
+      "recommendationScore": 265.45,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Is your monitoring testing strategy chaos?",
+      "link": "https://dev.to/simon_hanmer/is-your-monitoring-testing-strategy-chaos-1knj",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-01-08T11:28:25.000Z",
+      "relevanceScore": 248.96,
+      "recommendationScore": 248.96,
+      "tags": [
+        "Business",
+        "Cloud"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -123,8 +154,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-08T10:30:00.000Z",
-      "relevanceScore": 202.35,
-      "recommendationScore": 202.85,
+      "relevanceScore": 239.27,
+      "recommendationScore": 239.77,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -134,12 +165,34 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-01-07T23:31:29.000Z",
-      "relevanceScore": 201.65,
-      "recommendationScore": 204.15,
+      "relevanceScore": 205.57,
+      "recommendationScore": 208.07,
       "tags": [
         "Startup"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The world has too much oil right now. Will companies want Venezuela's?",
+      "link": "https://www.npr.org/2026/01/07/nx-s1-5668491/venezuela-oil-global-markets",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-07T10:00:00.000Z",
+      "relevanceScore": 205.37,
+      "recommendationScore": 205.87,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The 3-Day Code Review Problem (And What It's Actually Costing You)",
+      "link": "https://dev.to/bjornbrynjarjonsson/the-3-day-code-review-problem-and-what-its-actually-costing-you-5m8",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-08T11:36:26.000Z",
+      "relevanceScore": 204.99,
+      "recommendationScore": 206.99,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "You won’t be able to buy Samsung’s household Ballie robot after all",
@@ -147,8 +200,8 @@
       "source": "Engadget",
       "category": "finance",
       "pubDate": "2026-01-08T10:45:29.000Z",
-      "relevanceScore": 200.9,
-      "recommendationScore": 201.4,
+      "relevanceScore": 204.82,
+      "recommendationScore": 205.32,
       "tags": [
         "Business",
         "Launch"
@@ -161,34 +214,12 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-07T22:50:10.000Z",
-      "relevanceScore": 199.51,
-      "recommendationScore": 200.01,
+      "relevanceScore": 203.43,
+      "recommendationScore": 203.93,
       "tags": [
         "Update"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "It's not just oil: How else Wall Street might benefit from Trump's Venezuela actions",
-      "link": "https://www.npr.org/2026/01/07/nx-s1-5668277/venezuela-maduro-big-oil-wall-street-stocks",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-07T17:23:05.000Z",
-      "relevanceScore": 164.42,
-      "recommendationScore": 166.42,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The world has too much oil right now. Will companies want Venezuela's?",
-      "link": "https://www.npr.org/2026/01/07/nx-s1-5668491/venezuela-oil-global-markets",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-07T10:00:00.000Z",
-      "relevanceScore": 163.45,
-      "recommendationScore": 163.95,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "You need quality engineers to turn AI into ROI",
@@ -196,21 +227,32 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-07T05:40:00.000Z",
-      "relevanceScore": 158.58,
-      "recommendationScore": 158.58,
+      "relevanceScore": 200.5,
+      "recommendationScore": 200.5,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
+      "title": "It's not just oil: How else Wall Street might benefit from Trump's Venezuela actions",
+      "link": "https://www.npr.org/2026/01/07/nx-s1-5668277/venezuela-maduro-big-oil-wall-street-stocks",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-07T17:23:05.000Z",
+      "relevanceScore": 173.34,
+      "recommendationScore": 175.34,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Two rapists among 130 Met officers and staff not properly vetted, review finds",
       "link": "https://www.bbc.com/news/articles/cn9z3qrvr3wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-01-08T02:07:48.000Z",
-      "relevanceScore": 101.17,
-      "recommendationScore": 101.67,
+      "pubDate": "2026-01-08T11:31:45.000Z",
+      "relevanceScore": 116.47,
+      "recommendationScore": 116.97,
       "tags": [
         "Report"
       ],
@@ -222,8 +264,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-07T14:00:00.000Z",
-      "relevanceScore": 72.25,
-      "recommendationScore": 72.25,
+      "relevanceScore": 89.17,
+      "recommendationScore": 89.17,
       "tags": [
         "AI",
         "Web",
@@ -232,27 +274,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Events & Event Handling in JavaScript – A Complete Beginner Guide",
-      "link": "https://dev.to/vyankateshbairagi/events-event-handling-in-javascript-a-complete-beginner-guide-4b1b",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-08T10:56:42.000Z",
-      "relevanceScore": 71.43,
-      "recommendationScore": 71.93,
-      "tags": [
-        "Web",
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Everything announced at CES 2026",
       "link": "https://www.engadget.com/general/everything-announced-at-ces-2026-130124802.html?src=rss",
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-08T11:05:01.000Z",
-      "relevanceScore": 68.96,
-      "recommendationScore": 68.96,
+      "relevanceScore": 72.38,
+      "recommendationScore": 72.38,
       "tags": [
         "Tech",
         "Exclusive"
@@ -260,50 +288,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Bose Promo Code: 40% Off Bose for January 2026",
-      "link": "https://www.wired.com/story/bose-coupon-code/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-08T07:30:00.000Z",
-      "relevanceScore": 33.25,
-      "recommendationScore": 33.25,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Andrew was paid millions for mansion by oligarch linked to bribery scheme",
       "link": "https://www.bbc.com/news/articles/c8d09qd6zn2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-08T06:03:24.000Z",
-      "relevanceScore": 31.46,
-      "recommendationScore": 31.96,
+      "relevanceScore": 64.38,
+      "recommendationScore": 64.88,
       "tags": [
         "Acquisition"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Video shows moment shooting happened",
-      "link": "https://www.bbc.com/news/videos/cx2ypz4zjvxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "automotive",
-      "pubDate": "2026-01-07T22:53:45.000Z",
-      "relevanceScore": 29.53,
-      "recommendationScore": 31.03,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "JPMorgan Chase becomes the new issuer of the Apple Card",
-      "link": "https://techcrunch.com/2026/01/07/jpmorgan-chase-becomes-the-new-issuer-of-the-apple-card/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-08T06:31:55.000Z",
-      "relevanceScore": 26.55,
-      "recommendationScore": 29.05,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Google and Character.AI negotiate first major settlements in teen chatbot death cases",
@@ -311,8 +306,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-08T01:32:00.000Z",
-      "relevanceScore": 26.55,
-      "recommendationScore": 29.05,
+      "relevanceScore": 59.47,
+      "recommendationScore": 61.97,
       "tags": [
         "AI",
         "Exclusive"
@@ -325,23 +320,12 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-08T11:00:00.000Z",
-      "relevanceScore": 26.45,
-      "recommendationScore": 28.45,
+      "relevanceScore": 59.37,
+      "recommendationScore": 61.37,
       "tags": [
         "Business"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Waymo is rebranding its Zeekr robotaxi",
-      "link": "https://techcrunch.com/2026/01/07/waymo-is-rebranding-its-zeekr-robotaxi/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-08T02:43:12.000Z",
-      "relevanceScore": 26.29,
-      "recommendationScore": 26.29,
-      "tags": [],
-      "readingLevel": "beginner"
     },
     {
       "title": "Ford has an AI assistant and new hands-free BlueCruise tech on the way",
@@ -349,8 +333,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-08T00:00:00.000Z",
-      "relevanceScore": 26.25,
-      "recommendationScore": 28.75,
+      "relevanceScore": 59.17,
+      "recommendationScore": 61.67,
       "tags": [
         "AI",
         "Tech"
@@ -363,8 +347,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-08T09:58:38.000Z",
-      "relevanceScore": 26.24,
-      "recommendationScore": 26.74,
+      "relevanceScore": 59.16,
+      "recommendationScore": 59.66,
       "tags": [
         "AI",
         "Web"
@@ -377,8 +361,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-08T09:25:40.000Z",
-      "relevanceScore": 26.13,
-      "recommendationScore": 26.63,
+      "relevanceScore": 59.05,
+      "recommendationScore": 59.55,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -388,8 +372,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-07T13:10:00.000Z",
-      "relevanceScore": 26.08,
-      "recommendationScore": 26.58,
+      "relevanceScore": 59,
+      "recommendationScore": 59.5,
       "tags": [
         "Tech"
       ],
@@ -401,8 +385,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-01-08T08:03:50.000Z",
-      "relevanceScore": 25.86,
-      "recommendationScore": 26.36,
+      "relevanceScore": 58.78,
+      "recommendationScore": 59.28,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -412,56 +396,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-08T08:00:00.000Z",
-      "relevanceScore": 25.85,
-      "recommendationScore": 26.35,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "French farmers force their way through Paris with tractors to protest free trade deal",
-      "link": "https://abcnews.go.com/Business/wireStory/french-farmers-force-paris-tractors-protest-free-trade-129010284",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-08T10:13:11.000Z",
-      "relevanceScore": 25.79,
-      "recommendationScore": 26.29,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "LLMs contain a LOT of parameters. But what’s a parameter?",
-      "link": "https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-01-07T11:23:47.000Z",
-      "relevanceScore": 25.73,
-      "recommendationScore": 27.73,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Volvo says new EX60 has 400-mile range, charges up to 400 kW",
-      "link": "https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-08T08:00:55.000Z",
-      "relevanceScore": 25.35,
-      "recommendationScore": 27.85,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Protests in Iran sparked by economic woes now nationwide, activists say",
-      "link": "https://abcnews.go.com/Business/wireStory/protests-iran-sparked-economic-woes-now-nationwide-activists-129010386",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-08T10:05:44.000Z",
-      "relevanceScore": 25.27,
-      "recommendationScore": 25.77,
+      "relevanceScore": 58.77,
+      "recommendationScore": 59.27,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -471,8 +407,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-08T00:01:00.000Z",
-      "relevanceScore": 25.25,
-      "recommendationScore": 26.25,
+      "relevanceScore": 58.17,
+      "recommendationScore": 59.17,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -482,24 +418,10 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-08T07:00:00.000Z",
-      "relevanceScore": 24.65,
-      "recommendationScore": 27.15,
+      "relevanceScore": 57.57,
+      "recommendationScore": 60.07,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "5 Patterns That Make AI Coding Assistants 10x More Effective",
-      "link": "https://dev.to/kiwibreaksme/5-patterns-that-make-ai-coding-assistants-10x-more-effective-55lj",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-08T11:07:32.000Z",
-      "relevanceScore": 24.47,
-      "recommendationScore": 24.97,
-      "tags": [
-        "AI",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Disney Plus is getting vertical video",
@@ -507,8 +429,8 @@
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2026-01-08T00:51:26.000Z",
-      "relevanceScore": 24.42,
-      "recommendationScore": 24.42,
+      "relevanceScore": 57.34,
+      "recommendationScore": 57.34,
       "tags": [
         "Tech",
         "Interview"
@@ -521,8 +443,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-01-08T00:00:00.000Z",
-      "relevanceScore": 24.25,
-      "recommendationScore": 24.75,
+      "relevanceScore": 57.17,
+      "recommendationScore": 57.67,
       "tags": [
         "AI",
         "Tech"
@@ -535,23 +457,10 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-01-08T00:00:33.000Z",
-      "relevanceScore": 24.25,
-      "recommendationScore": 24.75,
+      "relevanceScore": 57.17,
+      "recommendationScore": 57.67,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "CSS @property: advanced theming",
-      "link": "https://dev.to/effnd/css-property-advanced-theming-58na",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-08T11:05:04.000Z",
-      "relevanceScore": 23.96,
-      "recommendationScore": 23.96,
-      "tags": [
-        "Web"
       ],
       "readingLevel": "intermediate"
     },
@@ -561,8 +470,133 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-08T04:02:29.000Z",
-      "relevanceScore": 23.05,
-      "recommendationScore": 25.55,
+      "relevanceScore": 55.97,
+      "recommendationScore": 58.47,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nvidia’s Jensen Huang would have to pay about $8 billion in proposed billionaire tax—he says that’s ‘perfectly fine’ with him",
+      "link": "https://www.reddit.com/r/technology/comments/1q6w4xd/nvidias_jensen_huang_would_have_to_pay_about_8/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-01-07T23:59:54.000Z",
+      "relevanceScore": 53.17,
+      "recommendationScore": 53.17,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Government demands Musk's X deals with 'appalling' Grok AI deepfakes",
+      "link": "https://www.bbc.com/news/articles/crrn054nxe7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-01-06T17:01:46.000Z",
+      "relevanceScore": 50.97,
+      "recommendationScore": 51.47,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I got paid minimum wage to solve an impossible problem (and accidentally learned why most algorithms make life worse)",
+      "link": "https://www.reddit.com/r/programming/comments/1q6fyhf/i_got_paid_minimum_wage_to_solve_an_impossible/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-01-07T13:54:33.000Z",
+      "relevanceScore": 50.65,
+      "recommendationScore": 52.15,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What new legal challenges mean for the future of US offshore wind",
+      "link": "https://www.technologyreview.com/2026/01/08/1130868/legal-challenges-offshore-wind/",
+      "source": "MIT Technology Review",
+      "category": "climate",
+      "pubDate": "2026-01-08T11:00:00.000Z",
+      "relevanceScore": 30.87,
+      "recommendationScore": 34.87,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Video shows moment US immigration agent fatally shoots woman",
+      "link": "https://www.bbc.com/news/videos/cx2ypz4zjvxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "automotive",
+      "pubDate": "2026-01-07T22:53:45.000Z",
+      "relevanceScore": 29.45,
+      "recommendationScore": 31.45,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "JPMorgan Chase becomes the new issuer of the Apple Card",
+      "link": "https://techcrunch.com/2026/01/07/jpmorgan-chase-becomes-the-new-issuer-of-the-apple-card/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-01-08T06:31:55.000Z",
+      "relevanceScore": 26.47,
+      "recommendationScore": 28.97,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Waymo is rebranding its Zeekr robotaxi",
+      "link": "https://techcrunch.com/2026/01/07/waymo-is-rebranding-its-zeekr-robotaxi/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-01-08T02:43:12.000Z",
+      "relevanceScore": 26.21,
+      "recommendationScore": 26.21,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "French farmers force their way through Paris with tractors to protest free trade deal",
+      "link": "https://abcnews.go.com/Business/wireStory/french-farmers-force-paris-tractors-protest-free-trade-129010284",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-08T10:13:11.000Z",
+      "relevanceScore": 25.71,
+      "recommendationScore": 26.21,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Daring Attempt to End the Memory Shortage Crisis",
+      "link": "https://www.wired.com/story/solving-the-pc-memory-crisis/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-08T11:30:00.000Z",
+      "relevanceScore": 25.47,
+      "recommendationScore": 25.97,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Volvo says new EX60 has 400-mile range, charges up to 400 kW",
+      "link": "https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-08T08:00:55.000Z",
+      "relevanceScore": 25.27,
+      "recommendationScore": 27.77,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Protests in Iran sparked by economic woes now nationwide, activists say",
+      "link": "https://abcnews.go.com/Business/wireStory/protests-iran-sparked-economic-woes-now-nationwide-activists-129010386",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-08T10:05:44.000Z",
+      "relevanceScore": 25.19,
+      "recommendationScore": 25.69,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -572,8 +606,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-08T00:37:08.000Z",
-      "relevanceScore": 21.87,
-      "recommendationScore": 24.37,
+      "relevanceScore": 21.79,
+      "recommendationScore": 24.29,
       "tags": [
         "Exclusive"
       ],
@@ -585,19 +619,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-08T08:17:49.000Z",
-      "relevanceScore": 21.41,
-      "recommendationScore": 24.91,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Nvidia’s Jensen Huang would have to pay about $8 billion in proposed billionaire tax—he says that’s ‘perfectly fine’ with him",
-      "link": "https://www.reddit.com/r/technology/comments/1q6w4xd/nvidias_jensen_huang_would_have_to_pay_about_8/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-01-07T23:59:54.000Z",
-      "relevanceScore": 20.25,
-      "recommendationScore": 20.25,
+      "relevanceScore": 21.33,
+      "recommendationScore": 24.83,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -607,33 +630,9 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-01-07T23:50:19.000Z",
-      "relevanceScore": 19.71,
-      "recommendationScore": 20.21,
+      "relevanceScore": 19.63,
+      "recommendationScore": 20.13,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Stack Overflow in freefall: 78 percent drop in number of questions",
-      "link": "https://www.reddit.com/r/technology/comments/1q6mqsg/stack_overflow_in_freefall_78_percent_drop_in/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-01-07T18:07:25.000Z",
-      "relevanceScore": 18.07,
-      "recommendationScore": 18.57,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Government demands Musk's X deals with 'appalling' Grok AI deepfakes",
-      "link": "https://www.bbc.com/news/articles/crrn054nxe7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-01-06T17:01:46.000Z",
-      "relevanceScore": 18.05,
-      "recommendationScore": 18.55,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     }
   ],
@@ -644,7 +643,7 @@
         "link": "https://www.wired.com/story/is-craigslist-the-last-real-place-on-the-internet/",
         "source": "Wired",
         "pubDate": "2026-01-08T10:00:00.000Z",
-        "relevanceScore": 1116.25,
+        "relevanceScore": 1169.17,
         "tags": [
           "AI",
           "Web"
@@ -655,7 +654,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1q6ff3y/experienced_software_developers_assumed_ai_would/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-07T13:31:25.000Z",
-        "relevanceScore": 315.15,
+        "relevanceScore": 350.07,
         "tags": [
           "AI",
           "Tech"
@@ -666,7 +665,7 @@
         "link": "https://stackoverflow.blog/2026/01/07/you-need-quality-engineers-to-turn-ai-into-roi/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-07T05:40:00.000Z",
-        "relevanceScore": 158.58,
+        "relevanceScore": 200.5,
         "tags": [
           "AI"
         ]
@@ -676,7 +675,7 @@
         "link": "https://www.technologyreview.com/2026/01/07/1129490/deploying-a-hybrid-approach-to-web3-in-the-ai-era/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-07T14:00:00.000Z",
-        "relevanceScore": 72.25,
+        "relevanceScore": 89.17,
         "tags": [
           "AI",
           "Web",
@@ -688,7 +687,7 @@
         "link": "https://techcrunch.com/2026/01/07/google-and-character-ai-negotiate-first-major-settlements-in-teen-chatbot-death-cases/",
         "source": "TechCrunch",
         "pubDate": "2026-01-08T01:32:00.000Z",
-        "relevanceScore": 26.55,
+        "relevanceScore": 59.47,
         "tags": [
           "AI",
           "Exclusive"
@@ -699,7 +698,7 @@
         "link": "https://techcrunch.com/2026/01/07/ford-has-an-ai-assistant-and-new-hands-free-bluecruise-tech-on-the-way/",
         "source": "TechCrunch",
         "pubDate": "2026-01-08T00:00:00.000Z",
-        "relevanceScore": 26.25,
+        "relevanceScore": 59.17,
         "tags": [
           "AI",
           "Tech"
@@ -710,21 +709,10 @@
         "link": "https://www.bbc.com/news/articles/cvg1mzlryxeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-08T09:58:38.000Z",
-        "relevanceScore": 26.24,
+        "relevanceScore": 59.16,
         "tags": [
           "AI",
           "Web"
-        ]
-      },
-      {
-        "title": "5 Patterns That Make AI Coding Assistants 10x More Effective",
-        "link": "https://dev.to/kiwibreaksme/5-patterns-that-make-ai-coding-assistants-10x-more-effective-55lj",
-        "source": "Dev.to",
-        "pubDate": "2026-01-08T11:07:32.000Z",
-        "relevanceScore": 24.47,
-        "tags": [
-          "AI",
-          "Exclusive"
         ]
       },
       {
@@ -732,7 +720,7 @@
         "link": "https://www.theverge.com/transportation/857400/ford-ai-assistant-level-3-automation-ces-2026",
         "source": "The Verge",
         "pubDate": "2026-01-08T00:00:00.000Z",
-        "relevanceScore": 24.25,
+        "relevanceScore": 57.17,
         "tags": [
           "AI",
           "Tech"
@@ -743,7 +731,7 @@
         "link": "https://arstechnica.com/cars/2026/01/in-car-ai-assistant-coming-to-fords-and-lincolns-in-2027/",
         "source": "Ars Technica",
         "pubDate": "2026-01-08T00:00:33.000Z",
-        "relevanceScore": 24.25,
+        "relevanceScore": 57.17,
         "tags": [
           "AI"
         ]
@@ -753,32 +741,57 @@
         "link": "https://www.bbc.com/news/articles/crrn054nxe7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-06T17:01:46.000Z",
-        "relevanceScore": 18.05,
+        "relevanceScore": 50.97,
         "tags": [
           "AI"
         ]
       }
     ],
-    "tech": [
+    "entertainment": [
       {
-        "title": "Lego unveils tech-filled Smart Bricks - to play experts' unease",
-        "link": "https://www.bbc.com/news/articles/crmlnmnwzk2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-06T16:20:15.000Z",
-        "relevanceScore": 447.41,
+        "title": "Building the Next Generation of Voice Agents with Strands",
+        "link": "https://dev.to/rafael_rodriguez_0c5f2891/building-the-next-generation-of-voice-agents-with-strands-2lhk",
+        "source": "Dev.to",
+        "pubDate": "2026-01-08T11:35:28.000Z",
+        "relevanceScore": 926.98,
         "tags": [
           "Tech",
-          "Innovation"
+          "Analysis",
+          "Tutorial"
         ]
       },
+      {
+        "title": "Disney Plus is getting vertical video",
+        "link": "https://www.theverge.com/tech/858277/disney-plus-vertical-video",
+        "source": "The Verge",
+        "pubDate": "2026-01-08T00:51:26.000Z",
+        "relevanceScore": 57.34,
+        "tags": [
+          "Tech",
+          "Interview"
+        ]
+      }
+    ],
+    "tech": [
       {
         "title": "The best E Ink tablets for 2026",
         "link": "https://www.engadget.com/mobile/tablets/best-e-ink-tablet-130037939.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-08T10:01:26.000Z",
-        "relevanceScore": 438.75,
+        "relevanceScore": 491.17,
         "tags": [
           "Tech"
+        ]
+      },
+      {
+        "title": "Lego unveils tech-filled Smart Bricks - to play experts' unease",
+        "link": "https://www.bbc.com/news/articles/crmlnmnwzk2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-06T16:20:15.000Z",
+        "relevanceScore": 451.33,
+        "tags": [
+          "Tech",
+          "Innovation"
         ]
       },
       {
@@ -786,7 +799,7 @@
         "link": "https://www.wired.com/story/blood-glucose-monitor-preevnt-isaac/",
         "source": "Wired",
         "pubDate": "2026-01-08T10:30:00.000Z",
-        "relevanceScore": 202.35,
+        "relevanceScore": 239.27,
         "tags": []
       },
       {
@@ -794,7 +807,7 @@
         "link": "https://techcrunch.com/2026/01/07/discord-and-mercor-investor-niko-bonatsos-departs-general-catalyst-plans-new-vc-firm/",
         "source": "TechCrunch",
         "pubDate": "2026-01-07T23:31:29.000Z",
-        "relevanceScore": 201.65,
+        "relevanceScore": 205.57,
         "tags": [
           "Startup"
         ]
@@ -804,7 +817,7 @@
         "link": "https://arstechnica.com/gadgets/2026/01/samsung-squashes-hopes-that-it-will-release-its-ballie-home-robot/",
         "source": "Ars Technica",
         "pubDate": "2026-01-07T22:50:10.000Z",
-        "relevanceScore": 199.51,
+        "relevanceScore": 203.43,
         "tags": [
           "Update"
         ]
@@ -814,52 +827,28 @@
         "link": "https://www.engadget.com/general/everything-announced-at-ces-2026-130124802.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-08T11:05:01.000Z",
-        "relevanceScore": 68.96,
+        "relevanceScore": 72.38,
         "tags": [
           "Tech",
           "Exclusive"
         ]
       },
       {
-        "title": "Bose Promo Code: 40% Off Bose for January 2026",
-        "link": "https://www.wired.com/story/bose-coupon-code/",
-        "source": "Wired",
-        "pubDate": "2026-01-08T07:30:00.000Z",
-        "relevanceScore": 33.25,
-        "tags": []
-      },
-      {
-        "title": "JPMorgan Chase becomes the new issuer of the Apple Card",
-        "link": "https://techcrunch.com/2026/01/07/jpmorgan-chase-becomes-the-new-issuer-of-the-apple-card/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-08T06:31:55.000Z",
-        "relevanceScore": 26.55,
-        "tags": []
-      },
-      {
         "title": "How Mormons Helped Make America’s Prepping Industry Into Big Business",
         "link": "https://www.wired.com/story/true-patriots-are-cashing-in-on-the-apocalypse/",
         "source": "Wired",
         "pubDate": "2026-01-08T11:00:00.000Z",
-        "relevanceScore": 26.45,
+        "relevanceScore": 59.37,
         "tags": [
           "Business"
         ]
-      },
-      {
-        "title": "Waymo is rebranding its Zeekr robotaxi",
-        "link": "https://techcrunch.com/2026/01/07/waymo-is-rebranding-its-zeekr-robotaxi/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-08T02:43:12.000Z",
-        "relevanceScore": 26.29,
-        "tags": []
       },
       {
         "title": "Inside the sub-zero lair of the world's most powerful computer",
         "link": "https://www.bbc.com/news/articles/c62r6dvpl5ro?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-08T08:03:50.000Z",
-        "relevanceScore": 25.86,
+        "relevanceScore": 58.78,
         "tags": []
       },
       {
@@ -867,15 +856,7 @@
         "link": "https://www.theverge.com/transportation/857933/volvo-ex60-range-charging-speed-megacasting-battery",
         "source": "The Verge",
         "pubDate": "2026-01-08T08:00:00.000Z",
-        "relevanceScore": 25.85,
-        "tags": []
-      },
-      {
-        "title": "Volvo says new EX60 has 400-mile range, charges up to 400 kW",
-        "link": "https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-08T08:00:55.000Z",
-        "relevanceScore": 25.35,
+        "relevanceScore": 58.77,
         "tags": []
       },
       {
@@ -883,7 +864,7 @@
         "link": "https://www.theverge.com/21280354/best-ipad-deals-apple",
         "source": "The Verge",
         "pubDate": "2026-01-08T00:01:00.000Z",
-        "relevanceScore": 25.25,
+        "relevanceScore": 58.17,
         "tags": []
       },
       {
@@ -891,7 +872,7 @@
         "link": "https://www.engadget.com/computing/accessories/anker-unveils-a-new-lineup-of-chargers-docks-and-accessories-at-ces-2026-160021025.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-08T07:00:00.000Z",
-        "relevanceScore": 24.65,
+        "relevanceScore": 57.57,
         "tags": []
       },
       {
@@ -899,7 +880,39 @@
         "link": "https://www.reddit.com/r/technology/comments/1q6w4xd/nvidias_jensen_huang_would_have_to_pay_about_8/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-07T23:59:54.000Z",
-        "relevanceScore": 20.25,
+        "relevanceScore": 53.17,
+        "tags": []
+      },
+      {
+        "title": "JPMorgan Chase becomes the new issuer of the Apple Card",
+        "link": "https://techcrunch.com/2026/01/07/jpmorgan-chase-becomes-the-new-issuer-of-the-apple-card/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-08T06:31:55.000Z",
+        "relevanceScore": 26.47,
+        "tags": []
+      },
+      {
+        "title": "Waymo is rebranding its Zeekr robotaxi",
+        "link": "https://techcrunch.com/2026/01/07/waymo-is-rebranding-its-zeekr-robotaxi/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-08T02:43:12.000Z",
+        "relevanceScore": 26.21,
+        "tags": []
+      },
+      {
+        "title": "The Daring Attempt to End the Memory Shortage Crisis",
+        "link": "https://www.wired.com/story/solving-the-pc-memory-crisis/",
+        "source": "Wired",
+        "pubDate": "2026-01-08T11:30:00.000Z",
+        "relevanceScore": 25.47,
+        "tags": []
+      },
+      {
+        "title": "Volvo says new EX60 has 400-mile range, charges up to 400 kW",
+        "link": "https://arstechnica.com/cars/2026/01/volvo-says-new-ex60-has-400-mile-range-charges-up-to-400-kw/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-08T08:00:55.000Z",
+        "relevanceScore": 25.27,
         "tags": []
       },
       {
@@ -907,7 +920,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1q6vwl0/wifi_8_is_appearing_at_ces_before_most_of_us_have/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-07T23:50:19.000Z",
-        "relevanceScore": 19.71,
+        "relevanceScore": 19.63,
         "tags": []
       },
       {
@@ -915,7 +928,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1q6mqsg/stack_overflow_in_freefall_78_percent_drop_in/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-07T18:07:25.000Z",
-        "relevanceScore": 18.07,
+        "relevanceScore": 17.99,
         "tags": []
       }
     ],
@@ -925,36 +938,36 @@
         "link": "https://arstechnica.com/space/2026/01/nasa-postpones-space-station-spacewalk-due-to-crew-members-medical-concern/",
         "source": "Ars Technica",
         "pubDate": "2026-01-08T01:58:33.000Z",
-        "relevanceScore": 332.14,
+        "relevanceScore": 371.56,
         "tags": []
       }
     ],
     "general": [
       {
-        "title": "'We are not for sale': Greenlanders express fear and indignation as Trump eyes territory",
-        "link": "https://www.bbc.com/news/articles/cvgx8w4pgk0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-07T22:59:09.000Z",
-        "relevanceScore": 326.54,
-        "tags": []
-      },
-      {
         "title": "People who come off slimming jabs regain weight four times faster than dieters",
         "link": "https://www.bbc.com/news/articles/c050ljnrv2qo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-08T01:21:56.000Z",
-        "relevanceScore": 306.52,
+        "relevanceScore": 352.44,
         "tags": [
           "Science",
           "Report"
         ]
       },
       {
+        "title": "'We are not for sale': Greenlanders express fear and indignation as Trump eyes territory",
+        "link": "https://www.bbc.com/news/articles/cvgx8w4pgk0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-07T22:59:09.000Z",
+        "relevanceScore": 328.46,
+        "tags": []
+      },
+      {
         "title": "Two rapists among 130 Met officers and staff not properly vetted, review finds",
         "link": "https://www.bbc.com/news/articles/cn9z3qrvr3wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-01-08T02:07:48.000Z",
-        "relevanceScore": 101.17,
+        "pubDate": "2026-01-08T11:31:45.000Z",
+        "relevanceScore": 116.47,
         "tags": [
           "Report"
         ]
@@ -964,7 +977,7 @@
         "link": "https://www.bbc.com/news/articles/c8d09qd6zn2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-08T06:03:24.000Z",
-        "relevanceScore": 31.46,
+        "relevanceScore": 64.38,
         "tags": [
           "Acquisition"
         ]
@@ -976,15 +989,7 @@
         "link": "https://www.npr.org/2026/01/07/nx-s1-5670246/us-population-cbo-immigration-crackdown-birth-rates",
         "source": "NPR Business",
         "pubDate": "2026-01-07T20:23:56.000Z",
-        "relevanceScore": 254.03,
-        "tags": []
-      },
-      {
-        "title": "It's not just oil: How else Wall Street might benefit from Trump's Venezuela actions",
-        "link": "https://www.npr.org/2026/01/07/nx-s1-5668277/venezuela-maduro-big-oil-wall-street-stocks",
-        "source": "NPR Business",
-        "pubDate": "2026-01-07T17:23:05.000Z",
-        "relevanceScore": 164.42,
+        "relevanceScore": 264.95,
         "tags": []
       },
       {
@@ -992,7 +997,15 @@
         "link": "https://www.npr.org/2026/01/07/nx-s1-5668491/venezuela-oil-global-markets",
         "source": "NPR Business",
         "pubDate": "2026-01-07T10:00:00.000Z",
-        "relevanceScore": 163.45,
+        "relevanceScore": 205.37,
+        "tags": []
+      },
+      {
+        "title": "It's not just oil: How else Wall Street might benefit from Trump's Venezuela actions",
+        "link": "https://www.npr.org/2026/01/07/nx-s1-5668277/venezuela-maduro-big-oil-wall-street-stocks",
+        "source": "NPR Business",
+        "pubDate": "2026-01-07T17:23:05.000Z",
+        "relevanceScore": 173.34,
         "tags": []
       },
       {
@@ -1000,7 +1013,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/familiar-refrain-china-japan-uneasy-neighbors-east-asia-129010183",
         "source": "ABC News Business",
         "pubDate": "2026-01-08T09:25:40.000Z",
-        "relevanceScore": 26.13,
+        "relevanceScore": 59.05,
         "tags": []
       },
       {
@@ -1008,7 +1021,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/french-farmers-force-paris-tractors-protest-free-trade-129010284",
         "source": "ABC News Business",
         "pubDate": "2026-01-08T10:13:11.000Z",
-        "relevanceScore": 25.79,
+        "relevanceScore": 25.71,
         "tags": [
           "Partnership"
         ]
@@ -1018,7 +1031,46 @@
         "link": "https://abcnews.go.com/Business/wireStory/protests-iran-sparked-economic-woes-now-nationwide-activists-129010386",
         "source": "ABC News Business",
         "pubDate": "2026-01-08T10:05:44.000Z",
-        "relevanceScore": 25.27,
+        "relevanceScore": 25.19,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Is your monitoring testing strategy chaos?",
+        "link": "https://dev.to/simon_hanmer/is-your-monitoring-testing-strategy-chaos-1knj",
+        "source": "Dev.to",
+        "pubDate": "2026-01-08T11:28:25.000Z",
+        "relevanceScore": 248.96,
+        "tags": [
+          "Business",
+          "Cloud"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "The 3-Day Code Review Problem (And What It's Actually Costing You)",
+        "link": "https://dev.to/bjornbrynjarjonsson/the-3-day-code-review-problem-and-what-its-actually-costing-you-5m8",
+        "source": "Dev.to",
+        "pubDate": "2026-01-08T11:36:26.000Z",
+        "relevanceScore": 204.99,
+        "tags": []
+      },
+      {
+        "title": "I got paid minimum wage to solve an impossible problem (and accidentally learned why most algorithms make life worse)",
+        "link": "https://www.reddit.com/r/programming/comments/1q6fyhf/i_got_paid_minimum_wage_to_solve_an_impossible/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-07T13:54:33.000Z",
+        "relevanceScore": 50.65,
+        "tags": []
+      },
+      {
+        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
+        "link": "https://www.reddit.com/r/programming/comments/1q76au3/a_new_worst_coder_has_entered_the_chat_vibe/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-08T08:17:49.000Z",
+        "relevanceScore": 21.33,
         "tags": []
       }
     ],
@@ -1028,60 +1080,11 @@
         "link": "https://www.engadget.com/home/smart-home/you-wont-be-able-to-buy-samsungs-household-ballie-robot-after-all-104529942.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-08T10:45:29.000Z",
-        "relevanceScore": 200.9,
+        "relevanceScore": 204.82,
         "tags": [
           "Business",
           "Launch"
         ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Events & Event Handling in JavaScript – A Complete Beginner Guide",
-        "link": "https://dev.to/vyankateshbairagi/events-event-handling-in-javascript-a-complete-beginner-guide-4b1b",
-        "source": "Dev.to",
-        "pubDate": "2026-01-08T10:56:42.000Z",
-        "relevanceScore": 71.43,
-        "tags": [
-          "Web",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "CSS @property: advanced theming",
-        "link": "https://dev.to/effnd/css-property-advanced-theming-58na",
-        "source": "Dev.to",
-        "pubDate": "2026-01-08T11:05:04.000Z",
-        "relevanceScore": 23.96,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "A new worst coder has entered the chat: vibe coding without code knowledge",
-        "link": "https://www.reddit.com/r/programming/comments/1q76au3/a_new_worst_coder_has_entered_the_chat_vibe/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-08T08:17:49.000Z",
-        "relevanceScore": 21.41,
-        "tags": []
-      },
-      {
-        "title": "I got paid minimum wage to solve an impossible problem (and accidentally learned why most algorithms make life worse)",
-        "link": "https://www.reddit.com/r/programming/comments/1q6fyhf/i_got_paid_minimum_wage_to_solve_an_impossible/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-07T13:54:33.000Z",
-        "relevanceScore": 17.73,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Video shows moment shooting happened",
-        "link": "https://www.bbc.com/news/videos/cx2ypz4zjvxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-07T22:53:45.000Z",
-        "relevanceScore": 29.53,
-        "tags": []
       }
     ],
     "science": [
@@ -1090,32 +1093,9 @@
         "link": "https://www.technologyreview.com/2026/01/07/1130806/the-download-war-in-europe-and-the-company-that-wants-to-cool-the-planet/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-07T13:10:00.000Z",
-        "relevanceScore": 26.08,
+        "relevanceScore": 59,
         "tags": [
           "Tech"
-        ]
-      },
-      {
-        "title": "LLMs contain a LOT of parameters. But what’s a parameter?",
-        "link": "https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-01-07T11:23:47.000Z",
-        "relevanceScore": 25.73,
-        "tags": [
-          "Tech"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Disney Plus is getting vertical video",
-        "link": "https://www.theverge.com/tech/858277/disney-plus-vertical-video",
-        "source": "The Verge",
-        "pubDate": "2026-01-08T00:51:26.000Z",
-        "relevanceScore": 24.42,
-        "tags": [
-          "Tech",
-          "Interview"
         ]
       }
     ],
@@ -1125,7 +1105,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1q71nny/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-01-08T04:02:29.000Z",
-        "relevanceScore": 23.05,
+        "relevanceScore": 55.97,
         "tags": []
       },
       {
@@ -1133,17 +1113,37 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1q6x0wk/danish_troops_told_to_shoot_first_ask_questions/",
         "source": "Reddit World News",
         "pubDate": "2026-01-08T00:37:08.000Z",
-        "relevanceScore": 21.87,
+        "relevanceScore": 21.79,
         "tags": [
           "Exclusive"
         ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "What new legal challenges mean for the future of US offshore wind",
+        "link": "https://www.technologyreview.com/2026/01/08/1130868/legal-challenges-offshore-wind/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-01-08T11:00:00.000Z",
+        "relevanceScore": 30.87,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Video shows moment US immigration agent fatally shoots woman",
+        "link": "https://www.bbc.com/news/videos/cx2ypz4zjvxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-07T22:53:45.000Z",
+        "relevanceScore": 29.45,
+        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 15,
-    "totalCategories": 11,
-    "avgRelevanceScore": 116.30352941176471,
+    "totalCategories": 13,
+    "avgRelevanceScore": 160.80607843137258,
     "topCategories": [
       {
         "category": "tech",
@@ -1151,7 +1151,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 10
       },
       {
         "category": "business",
@@ -1163,7 +1163,7 @@
       },
       {
         "category": "development",
-        "count": 4
+        "count": 3
       }
     ]
   }
