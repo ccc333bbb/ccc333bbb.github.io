@@ -1,78 +1,8 @@
 {
   "date": "2026-01-10",
-  "lastUpdated": "2026-01-10T11:28:04.857Z",
+  "lastUpdated": "2026-01-10T11:39:00.236Z",
   "totalArticles": 51,
   "articles": [
-    {
-      "id": "QUkg7L2U65Sp7J20",
-      "title": "AI 코딩이 자꾸 내 아키텍처를 망가뜨린다면? (feat. CodeSyncer)",
-      "link": "https://dev.to/kiwibreaksme/ai-kodingi-jaggu-nae-akitegceoreul-manggaddeurindamyeon-feat-codesyncer-5b3d",
-      "description": "요즘 Claude Code나 Cursor 같은 AI 코딩 도구 많이 쓰시죠? 저도 생산성이 엄청 올라서 애용하고 있습니다. 그런데 프로젝트 규모가 조금만 커져도(특히 멀티 레포나 모노레포에서) 이런 경험, 다들 한 번쯤 있으실 겁니다. 나: \"사용자 프로필 수정 기능 좀 만들어줘.\" AI: (뚝딱뚝딱 코드를 만듦) \"여기 있습니다!\" 나: (코드를 확인하며) \"...???\" 🤯 분명히 돌아가는 코드긴 한데... 이미 있는 공통 유틸 함수를 안 쓰고 똑같은 걸 새로 만들어놨거나 , 비즈니스 로직을 UI 컴포넌트 안에 냅다 박아버렸거",
-      "pubDate": "2026-01-10T10:49:13.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "요즘 Claude Code나 Cursor 같은 AI 코딩 도구 많이 쓰시죠? 저도 생산성이 엄청 올라서 애용하고 있습니다. 그런데 프로젝트 규모가 조금만 커져도(특히 멀티 레포나 모노레포에서) 이런 경험, 다들 한 번쯤 있으실 겁니다. 나: \"사용자 프로필 수정 기능 좀 만들어줘.\" AI: (뚝딱뚝딱 코드를 만듦) \"여기 있습니다!\" 나: (코드를 확인하며) \"...???\" 🤯 분명히 돌아가는 코드긴 한데... 이미 있는 공통 유틸 함수를 안 쓰고 똑같은 걸 새로 만들어놨거나 , 비즈니스 로직을 UI 컴포넌트 안에 냅다 박아버렸거나, src/features/user 폴더에 넣어야 할 파일을 뜬금없이 src/shared 에 만들어놓는 등... 코드는 맞는데, 정작 중요한 프로젝트 아키텍처는 박살이 나 있는 상황 , 겪어보셨죠? 🤔 도대체 왜 이러는 걸까요? AI가 멍청해서가 아닙니다. AI에게는 '우리 프로젝트의 전체 지도(Context)'가 없기 때문 입니다. AI는 지금 열려있",
-      "author": "@kiwibreaksme",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 3059.87,
-      "calculatedAt": "2026-01-10T11:28:04.946Z",
-      "recommendationScore": 3059.87,
-      "readingLevel": "beginner"
-    },
-    {
-      "id": "TWFraW5nIFZTIENv",
-      "title": "Making VS Code \"Read My Mind\": Building Smart Context Awareness",
-      "link": "https://dev.to/freerave/making-vs-code-read-my-mind-building-smart-context-awareness-2pdi",
-      "description": "We've all been there. You open a project, and for a split second, you freeze. \"Wait, is this npm run dev, yarn start, or docker-compose up?\" Context switching is a productivity killer. As developers, we spend too much time remembering how to run the project instead of actually running it. The Soluti",
-      "pubDate": "2026-01-10T11:00:00.000Z",
-      "source": "Dev.to",
-      "category": "cloud",
-      "weight": 6,
-      "content": "We've all been there. You open a project, and for a split second, you freeze. \"Wait, is this npm run dev, yarn start, or docker-compose up?\" Context switching is a productivity killer. As developers, we spend too much time remembering how to run the project instead of actually running it. The Solution: Smart Context Awareness 🛠️ I've been building a VS Code extension called DotCommand, and today I finally cracked the code on its biggest feature yet: Smart Context Awareness. The goal was simple:",
-      "author": "freerave",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Tutorial"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "tutorial",
-      "relevanceScore": 2754.41,
-      "calculatedAt": "2026-01-10T11:28:04.946Z",
-      "recommendationScore": 2755.91,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "VG90YWwgV2lyZWxl",
-      "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
-      "link": "https://www.wired.com/story/total-wireless-promo-code/",
-      "description": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
-      "pubDate": "2026-01-10T06:10:00.000Z",
-      "source": "Wired",
-      "category": "tech",
-      "weight": 7,
-      "content": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
-      "author": "Molly Higgins",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 2784.94,
-      "calculatedAt": "2026-01-10T11:28:04.946Z",
-      "recommendationScore": 2785.44,
-      "readingLevel": "beginner"
-    },
     {
       "id": "UmVwbGl0IGJvc3M6",
       "title": "Replit boss: CEOs can vibe code their own prototypes and don't have to beg engineers for help anymore",
@@ -90,33 +20,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 2779.78,
-      "calculatedAt": "2026-01-10T11:28:04.946Z",
-      "recommendationScore": 2779.78,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "U3RvcCBCdWlsZGlu",
-      "title": "Stop Building Flaky AI Agents: Introducing Transactional AI",
-      "link": "https://dev.to/grafikui/stop-building-flaky-ai-agents-introducing-transactional-ai-2mij",
-      "description": "The Reality Check We need to talk about the elephant in the room: AI Agents are incredibly fragile. We see the demos agents booking flights, writing code, and ordering pizza. But in production, the reality is messy. APIs time out, LLMs hallucinate arguments, and Node.js processes crash. When you cha",
-      "pubDate": "2026-01-10T11:16:24.000Z",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "weight": 6,
-      "content": "The Reality Check We need to talk about the elephant in the room: AI Agents are incredibly fragile. We see the demos agents booking flights, writing code, and ordering pizza. But in production, the reality is messy. APIs time out, LLMs hallucinate arguments, and Node.js processes crash. When you chain five unreliable steps together, you don't get an agent; you get a probability multiplier for failure. If Step 4 fails, what happens to the database records created in Step 1? What about the API cha",
-      "author": "Grafikui",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 2617.96,
-      "calculatedAt": "2026-01-10T11:28:04.946Z",
-      "recommendationScore": 2619.46,
+      "relevanceScore": 2785.74,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 2785.74,
       "readingLevel": "advanced"
     },
     {
@@ -140,33 +46,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 2440.59,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 2442.59,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "S2l0Y2hlbkFpZCBQ",
-      "title": "KitchenAid Promo Code: 50% Off This Month",
-      "link": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
-      "description": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 50% off select countertop appliances.",
-      "pubDate": "2026-01-10T06:00:00.000Z",
-      "source": "Wired",
-      "category": "tech",
-      "weight": 7,
-      "content": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 50% off select countertop appliances.",
-      "author": "Molly Higgins",
-      "readTime": 1,
-      "importance": 9,
-      "tags": [
-        "Acquisition"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 2301.91,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 2301.91,
+      "relevanceScore": 2445.56,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 2447.56,
       "readingLevel": "intermediate"
     },
     {
@@ -190,9 +72,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 846.54,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 849.04,
+      "relevanceScore": 842.01,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 844.51,
       "readingLevel": "advanced"
     },
     {
@@ -215,9 +97,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 887.54,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 888.04,
+      "relevanceScore": 889.5,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 890,
       "readingLevel": "advanced"
     },
     {
@@ -239,10 +121,57 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 778.2,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 779.7,
+      "relevanceScore": 779.16,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 780.66,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "U2VjdXJpdHkgTmV3",
+      "title": "Security News This Week: ICE Can Now Spy on Every Phone in Your Neighborhood",
+      "link": "https://www.wired.com/story/security-news-this-week-ice-can-now-spy-on-every-phone-in-your-neighborhood/",
+      "description": "Plus: Iran shuts down its internet amid sweeping protests, an alleged scam boss gets extradited to China, and more.",
+      "pubDate": "2026-01-10T11:30:00.000Z",
+      "source": "Wired",
+      "category": "cybersecurity",
+      "weight": 7,
+      "content": "Plus: Iran shuts down its internet amid sweeping protests, an alleged scam boss gets extradited to China, and more.",
+      "author": "Lily Hay Newman",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [
+        "Security",
+        "Web"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 679.97,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 682.47,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "V2h5IHVzaW5nIEVs",
+      "title": "Why using Elasticsearch was bad because I needed real-time data retrieval, not just fast searching",
+      "link": "https://dev.to/saifullahusmani/why-using-elasticsearch-was-bad-because-i-needed-real-time-data-retrieval-not-just-fast-searching-1cn8",
+      "description": "For a long time, I thought Elasticsearch was the obvious answer. It was fast. It scaled. Everyone I respected was using it. So when our system started to feel slow, I added Elasticsearch without hesitation. That decision worked… until it didn’t. 🚧 The problem I was actually solving In production, o",
+      "pubDate": "2026-01-10T11:26:00.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "For a long time, I thought Elasticsearch was the obvious answer. It was fast. It scaled. Everyone I respected was using it. So when our system started to feel slow, I added Elasticsearch without hesitation. That decision worked… until it didn’t. 🚧 The problem I was actually solving In production, our pain wasn’t search speed. It was real-time correctness. We had workflows where: A user action needed to be reflected immediately State changes had to be visible within milliseconds “Eventually cons",
+      "author": "Saif Ullah Usmani",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 663.46,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 665.46,
+      "readingLevel": "advanced"
     },
     {
       "id": "QW1hem9uIGlzIGFw",
@@ -261,9 +190,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 641.22,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 641.72,
+      "relevanceScore": 649.19,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 649.69,
       "readingLevel": "advanced"
     },
     {
@@ -283,9 +212,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 642.01,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 642.51,
+      "relevanceScore": 649.97,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 650.47,
       "readingLevel": "advanced"
     },
     {
@@ -307,9 +236,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 566.33,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 568.33,
+      "relevanceScore": 569.79,
+      "calculatedAt": "2026-01-10T11:39:00.325Z",
+      "recommendationScore": 571.79,
       "readingLevel": "intermediate"
     },
     {
@@ -329,9 +258,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 602.95,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 603.45,
+      "relevanceScore": 612.91,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 613.41,
       "readingLevel": "intermediate"
     },
     {
@@ -354,9 +283,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 597.43,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 599.93,
+      "relevanceScore": 607.39,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 609.89,
       "readingLevel": "advanced"
     },
     {
@@ -378,9 +307,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 575.69,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 576.19,
+      "relevanceScore": 570.65,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 571.15,
       "readingLevel": "advanced"
     },
     {
@@ -403,9 +332,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 454.73,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 458.23,
+      "relevanceScore": 459.7,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 463.2,
       "readingLevel": "advanced"
     },
     {
@@ -425,9 +354,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 421.55,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 424.05,
+      "relevanceScore": 430.52,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 433.02,
       "readingLevel": "advanced"
     },
     {
@@ -447,9 +376,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 362.31,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 364.31,
+      "relevanceScore": 363.77,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 365.77,
       "readingLevel": "beginner"
     },
     {
@@ -471,36 +400,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 343.23,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 343.73,
+      "relevanceScore": 347.69,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 348.19,
       "readingLevel": "intermediate"
     },
     {
-      "id": "VGhpcyBjb21wYW55",
-      "title": "This company could help bring Auracast to an iPhone near you",
-      "link": "https://www.theverge.com/tech/860010/atitan-bluetooth-auracast-transceiver-ces-2026",
-      "description": "One of the issues holding Auracast back from wider mainstream use is some companies' lack of support for the Bluetooth technology - Apple being a prime example. With iOS having 58 percent of the market share in North America and nearly 28 percent worldwide, a decision by Apple to enable native Aurac",
-      "pubDate": "2026-01-09T22:56:41.000Z",
-      "source": "The Verge",
-      "category": "mobile",
+      "id": "U2hva3ogT3BlbkZp",
+      "title": "Shokz OpenFit Pro Review: ANC on Open Earbuds?",
+      "link": "https://www.wired.com/review/shokz-openfit-pro/",
+      "description": "True ANC on a set of open-ear earbuds would be a game changer. Shokz's OpenFit Pro give us a taste of what that might be like.",
+      "pubDate": "2026-01-10T11:30:00.000Z",
+      "source": "Wired",
+      "category": "gaming",
       "weight": 7,
-      "content": "The splitR Auracast transceiver can attach to an iPhone’s MagSafe spot. One of the issues holding Auracast back from wider mainstream use is some companies' lack of support for the Bluetooth technology - Apple being a prime example. With iOS having 58 percent of the market share in North America and nearly 28 percent worldwide, a decision by Apple to enable native Auracast support would potentially put millions of Auracast devices into the world with a firmware update. As of yet, Apple has made ",
-      "author": "John.Higgins",
+      "content": "True ANC on a set of open-ear earbuds would be a game changer. Shokz's OpenFit Pro give us a taste of what that might be like.",
+      "author": "Simon Cohen",
       "readTime": 1,
-      "importance": 9,
-      "tags": [
-        "Tech",
-        "Business",
-        "Mobile"
-      ],
-      "sentiment": "negative",
+      "importance": 7,
+      "tags": [],
+      "sentiment": "neutral",
       "complexity": "low",
-      "type": "news",
-      "relevanceScore": 306,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 306.5,
-      "readingLevel": "advanced"
+      "type": "review",
+      "relevanceScore": 400.97,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 400.97,
+      "readingLevel": "intermediate"
     },
     {
       "id": "L3IvV29ybGROZXdz",
@@ -519,9 +444,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 299.52,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 302.02,
+      "relevanceScore": 300.48,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 302.98,
       "readingLevel": "advanced"
     },
     {
@@ -544,9 +469,35 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 295.64,
-      "calculatedAt": "2026-01-10T11:28:04.947Z",
-      "recommendationScore": 295.64,
+      "relevanceScore": 296.6,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 296.6,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VGhpcyBjb21wYW55",
+      "title": "This company could help bring Auracast to an iPhone near you",
+      "link": "https://www.theverge.com/tech/860010/atitan-bluetooth-auracast-transceiver-ces-2026",
+      "description": "One of the issues holding Auracast back from wider mainstream use is some companies' lack of support for the Bluetooth technology - Apple being a prime example. With iOS having 58 percent of the market share in North America and nearly 28 percent worldwide, a decision by Apple to enable native Aurac",
+      "pubDate": "2026-01-09T22:56:41.000Z",
+      "source": "The Verge",
+      "category": "mobile",
+      "weight": 7,
+      "content": "The splitR Auracast transceiver can attach to an iPhone’s MagSafe spot. One of the issues holding Auracast back from wider mainstream use is some companies' lack of support for the Bluetooth technology - Apple being a prime example. With iOS having 58 percent of the market share in North America and nearly 28 percent worldwide, a decision by Apple to enable native Auracast support would potentially put millions of Auracast devices into the world with a firmware update. As of yet, Apple has made ",
+      "author": "John.Higgins",
+      "readTime": 1,
+      "importance": 9,
+      "tags": [
+        "Tech",
+        "Business",
+        "Mobile"
+      ],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 300.96,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 301.46,
       "readingLevel": "advanced"
     },
     {
@@ -571,9 +522,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 288.11,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 290.61,
+      "relevanceScore": 291.07,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 293.57,
       "readingLevel": "advanced"
     },
     {
@@ -593,33 +544,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 186.41,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 187.91,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "QmV0dGVybWVudCYj",
-      "title": "Betterment&#8217;s financial app sends customers a $10,000 crypto scam message",
-      "link": "https://www.theverge.com/news/860106/betterment-crypto-scam-notification",
-      "description": "Betterment, a financial app, sent a sketchy-looking notification on Friday asking users to send $10,000 to Bitcoin and Ethereum crypto wallets and promising to \"triple your crypto,\" according to a thread on Reddit. The Betterment account says in an X thread that this was an \"unauthorized message\" th",
-      "pubDate": "2026-01-10T01:14:20.000Z",
-      "source": "The Verge",
-      "category": "blockchain",
-      "weight": 7,
-      "content": "Betterment, a financial app, sent a sketchy-looking notification on Friday asking users to send $10,000 to Bitcoin and Ethereum crypto wallets and promising to \"triple your crypto,\" according to a thread on Reddit . The Betterment account says in an X thread that this was an \"unauthorized message\" that was sent via a \"third-party system.\" Here's the notification that some people got, per a screenshot in the Reddit thread (some reported getting a similar notification over email , too): We'll trip",
-      "author": "Jay Peters",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [
-        "Mobile"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 162.95,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 164.45,
+      "relevanceScore": 188.37,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 189.87,
       "readingLevel": "advanced"
     },
     {
@@ -642,9 +569,33 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 159.33,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 159.33,
+      "relevanceScore": 164.3,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 164.3,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QmV0dGVybWVudCYj",
+      "title": "Betterment&#8217;s financial app sends customers a $10,000 crypto scam message",
+      "link": "https://www.theverge.com/news/860106/betterment-crypto-scam-notification",
+      "description": "Betterment, a financial app, sent a sketchy-looking notification on Friday asking users to send $10,000 to Bitcoin and Ethereum crypto wallets and promising to \"triple your crypto,\" according to a thread on Reddit. The Betterment account says in an X thread that this was an \"unauthorized message\" th",
+      "pubDate": "2026-01-10T01:14:20.000Z",
+      "source": "The Verge",
+      "category": "blockchain",
+      "weight": 7,
+      "content": "Betterment, a financial app, sent a sketchy-looking notification on Friday asking users to send $10,000 to Bitcoin and Ethereum crypto wallets and promising to \"triple your crypto,\" according to a thread on Reddit . The Betterment account says in an X thread that this was an \"unauthorized message\" that was sent via a \"third-party system.\" Here's the notification that some people got, per a screenshot in the Reddit thread (some reported getting a similar notification over email , too): We'll trip",
+      "author": "Jay Peters",
+      "readTime": 1,
+      "importance": 7,
+      "tags": [
+        "Mobile"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 164.92,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 166.42,
       "readingLevel": "advanced"
     },
     {
@@ -666,9 +617,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 150.88,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 153.38,
+      "relevanceScore": 152.84,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 155.34,
       "readingLevel": "advanced"
     },
     {
@@ -688,9 +639,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 153.03,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 153.53,
+      "relevanceScore": 153.99,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 154.49,
       "readingLevel": "intermediate"
     },
     {
@@ -710,9 +661,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 145.41,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 145.91,
+      "relevanceScore": 146.37,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 146.87,
       "readingLevel": "advanced"
     },
     {
@@ -735,9 +686,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 76.92,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 77.42,
+      "relevanceScore": 77.38,
+      "calculatedAt": "2026-01-10T11:39:00.326Z",
+      "recommendationScore": 77.88,
       "readingLevel": "advanced"
     },
     {
@@ -759,9 +710,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 84.17,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 84.67,
+      "relevanceScore": 84.63,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 85.13,
       "readingLevel": "intermediate"
     },
     {
@@ -781,9 +732,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 68.29,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 69.79,
+      "relevanceScore": 48.75,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 50.25,
       "readingLevel": "advanced"
     },
     {
@@ -803,9 +754,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.68,
-      "calculatedAt": "2026-01-10T11:28:04.948Z",
-      "recommendationScore": 41.18,
+      "relevanceScore": 45.64,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 46.14,
       "readingLevel": "advanced"
     },
     {
@@ -825,10 +776,56 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.66,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 32.16,
+      "relevanceScore": 31.62,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 32.12,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "QmVzdCBTb2xhbmEg",
+      "title": "Best Solana Developer Tools (Web-Based) for 2026",
+      "link": "https://dev.to/jumpbit/best-solana-developer-tools-web-based-for-2026-1dbo",
+      "description": "1. 🔍 Explorers Tools to inspect transactions, accounts, programs, and on-chain data. Tool Link Best For Solana Explorer explorer.solana.com Official, detailed Solscan solscan.io Clean UI, token info SolanaFM solana.fm Analytics, labels OrbMarket orbmarkets.io Human-readable transactions 2. 👛 Walle",
+      "pubDate": "2026-01-10T11:36:44.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "1. 🔍 Explorers Tools to inspect transactions, accounts, programs, and on-chain data. Tool Link Best For Solana Explorer explorer.solana.com Official, detailed Solscan solscan.io Clean UI, token info SolanaFM solana.fm Analytics, labels OrbMarket orbmarkets.io Human-readable transactions 2. 👛 Wallets Browser extensions to store, send, and sign transactions on Solana. Wallet Link Notes Phantom phantom.app Popular browser wallet Solflare solflare.com Web & browser wallet Backpack backpack.app xNF",
+      "author": "JUMPBIT",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [
+        "Web"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 23.99,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 24.99,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "UnVzdCAyLjA6IEEg",
+      "title": "Rust 2.0: A Thought Experiment on Safe Specialization",
+      "link": "https://dev.to/simmypeet/rust-20-a-thought-experiment-on-safe-specialization-1fbl",
+      "description": "Specialization is a long-awaited feature in Rust that has never been stabilized. There have been many attempts to land this feature, but each comes with its own set of shortcomings and soundness holes. In this blog post, I want to share an idea for impl specialization that has been floating around i",
+      "pubDate": "2026-01-10T11:36:24.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "Specialization is a long-awaited feature in Rust that has never been stabilized. There have been many attempts to land this feature, but each comes with its own set of shortcomings and soundness holes. In this blog post, I want to share an idea for impl specialization that has been floating around in my mind. We will walk through the trade-offs and try to explain exactly why specialization is such a challenging feature to add to the language. Why Specialization? One of the most compelling use ca",
+      "author": "Simmypeet",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 23.99,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 24.49,
+      "readingLevel": "intermediate"
     },
     {
       "id": "VU4gY2l0ZXMgJ3dp",
@@ -849,9 +846,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.06,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 25.56,
+      "relevanceScore": 25.02,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 25.52,
       "readingLevel": "advanced"
     },
     {
@@ -873,9 +870,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.26,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 23.76,
+      "relevanceScore": 23.22,
+      "calculatedAt": "2026-01-10T11:39:00.327Z",
+      "recommendationScore": 23.72,
       "readingLevel": "advanced"
     },
     {
@@ -895,9 +892,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 30,
+      "relevanceScore": 29.96,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 29.96,
       "readingLevel": "intermediate"
     },
     {
@@ -917,9 +914,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.24,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 23.24,
+      "relevanceScore": 23.21,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 23.21,
       "readingLevel": "intermediate"
     },
     {
@@ -939,9 +936,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.83,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 26.33,
+      "relevanceScore": 25.8,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 26.3,
       "readingLevel": "advanced"
     },
     {
@@ -961,9 +958,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.57,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 25.07,
+      "relevanceScore": 24.53,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 25.03,
       "readingLevel": "advanced"
     },
     {
@@ -983,9 +980,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.42,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 25.92,
+      "relevanceScore": 23.38,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 25.88,
       "readingLevel": "intermediate"
     },
     {
@@ -1005,9 +1002,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.94,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 26.44,
+      "relevanceScore": 25.9,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 26.4,
       "readingLevel": "advanced"
     },
     {
@@ -1027,9 +1024,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.48,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 24.98,
+      "relevanceScore": 24.44,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 24.94,
       "readingLevel": "intermediate"
     },
     {
@@ -1049,9 +1046,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.47,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 22.47,
+      "relevanceScore": 20.43,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 22.43,
       "readingLevel": "advanced"
     },
     {
@@ -1071,9 +1068,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.5,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 24,
+      "relevanceScore": 23.47,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 23.97,
       "readingLevel": "advanced"
     },
     {
@@ -1093,9 +1090,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 23.5,
+      "relevanceScore": 22.96,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 23.46,
       "readingLevel": "intermediate"
     },
     {
@@ -1115,9 +1112,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.46,
-      "calculatedAt": "2026-01-10T11:28:04.949Z",
-      "recommendationScore": 22.96,
+      "relevanceScore": 22.42,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 22.92,
       "readingLevel": "intermediate"
     },
     {
@@ -1139,9 +1136,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.06,
-      "calculatedAt": "2026-01-10T11:28:04.950Z",
-      "recommendationScore": 19.56,
+      "relevanceScore": 19.02,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 19.52,
       "readingLevel": "intermediate"
     },
     {
@@ -1161,9 +1158,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.8,
-      "calculatedAt": "2026-01-10T11:28:04.950Z",
-      "recommendationScore": 21.3,
+      "relevanceScore": 20.76,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 21.26,
       "readingLevel": "advanced"
     },
     {
@@ -1186,19 +1183,19 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 20.69,
-      "calculatedAt": "2026-01-10T11:28:04.950Z",
-      "recommendationScore": 21.19,
+      "relevanceScore": 20.66,
+      "calculatedAt": "2026-01-10T11:39:00.328Z",
+      "recommendationScore": 21.16,
       "readingLevel": "advanced"
     }
   ],
   "sources": [
-    "Dev.to",
-    "Wired",
     "Reddit Programming",
     "GitHub Blog",
     "MIT Technology Review",
     "Reddit Technology",
+    "Wired",
+    "Dev.to",
     "Engadget",
     "Reddit World News",
     "TechCrunch",
@@ -1206,18 +1203,18 @@
     "ABC News Business",
     "BBC Technology",
     "Ars Technica",
-    "The Verge",
     "Stack Overflow Blog",
+    "The Verge",
     "NPR Business"
   ],
   "categories": [
     "development",
-    "tech",
     "science",
+    "tech",
     "world",
     "general",
     "business"
   ],
-  "processedAt": "2026-01-10T11:28:04.960Z",
+  "processedAt": "2026-01-10T11:39:00.339Z",
   "processingVersion": "2.0"
 }
