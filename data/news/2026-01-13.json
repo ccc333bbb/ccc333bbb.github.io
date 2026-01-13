@@ -1,6 +1,6 @@
 {
   "date": "2026-01-13",
-  "lastUpdated": "2026-01-13T09:23:11.958Z",
+  "lastUpdated": "2026-01-13T09:48:57.963Z",
   "totalArticles": 53,
   "articles": [
     {
@@ -20,9 +20,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 4332.06,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 4334.56,
+      "relevanceScore": 4413.98,
+      "calculatedAt": "2026-01-13T09:48:58.048Z",
+      "recommendationScore": 4416.48,
       "readingLevel": "intermediate"
     },
     {
@@ -44,53 +44,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 2700.78,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 2701.28,
+      "relevanceScore": 2752.7,
+      "calculatedAt": "2026-01-13T09:48:58.048Z",
+      "recommendationScore": 2753.2,
       "readingLevel": "advanced"
     },
     {
-      "id": "SmF2YVNjcmlwdCBN",
-      "title": "JavaScript Module System Explained (with Examples)",
-      "link": "https://dev.to/rayan2228/javascript-module-system-explained-with-examples-3l6o",
-      "description": "As JavaScript applications grow, putting everything into one file quickly becomes unmanageable. That’s where the JavaScript module system comes in. Modules allow us to split code into reusable files , control visibility, and load only what we need. Modern JavaScript uses ES Modules (ESM) , which are",
-      "pubDate": "2026-01-13T09:08:13.000Z",
+      "id": "SG93IHRvIENyZWF0",
+      "title": "How to Create an AI Chatbot with Google Gemini Using Node.js",
+      "link": "https://dev.to/ciphernutz/how-to-create-an-ai-chatbot-with-google-gemini-using-nodejs-255f",
+      "description": "AI chatbots aren’t impressive anymore. Useful ones are. If you’re building a chatbot today, your goal shouldn’t be “connect an LLM and return text, it should be: “How do I build a chatbot that understands users, remembers context, and scales cleanly?” In this guide, you’ll build a production-ready A",
+      "pubDate": "2026-01-13T09:36:44.000Z",
       "source": "Dev.to",
-      "category": "development",
+      "category": "ai-ml",
       "weight": 6,
-      "content": "As JavaScript applications grow, putting everything into one file quickly becomes unmanageable. That’s where the JavaScript module system comes in. Modules allow us to split code into reusable files , control visibility, and load only what we need. Modern JavaScript uses ES Modules (ESM) , which are now the standard for both browsers and Node.js. Topics Covered import and export Named exports & imports Default exports & imports Aliasing Namespace imports Combined imports Dynamic imports Multiple",
-      "author": "Rayan Hossain",
+      "content": "AI chatbots aren’t impressive anymore. Useful ones are. If you’re building a chatbot today, your goal shouldn’t be “connect an LLM and return text, it should be: “How do I build a chatbot that understands users, remembers context, and scales cleanly?” In this guide, you’ll build a production-ready AI chatbot using Google Gemini and Node.js, while learning why each step matters. Why Google Gemini? Gemini is well-suited for real-world chatbot use because it supports: Long context windows Fast resp",
+      "author": "Ciphernutz",
       "readTime": 1,
       "importance": 8,
-      "tags": [],
+      "tags": [
+        "AI",
+        "Tutorial"
+      ],
       "sentiment": "neutral",
       "complexity": "low",
-      "type": "news",
-      "relevanceScore": 1943.95,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1943.95,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "Q1VFIERvZXMgSXQg",
-      "title": "CUE Does It All, But Can It Literate?",
-      "link": "https://dev.to/exlee/cue-does-it-all-but-can-it-literate-5gmj",
-      "description": "CUE is the Swiss Army knife of file generation. It is the tool you grab when you need to generate complex JSON, validate YAML, or generally stop configuration files from ruining your life. It slices, it dices, it ensures your integers are actually integers. But guess what else it can be? It turns ou",
-      "pubDate": "2026-01-13T09:07:22.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "CUE is the Swiss Army knife of file generation. It is the tool you grab when you need to generate complex JSON, validate YAML, or generally stop configuration files from ruining your life. It slices, it dices, it ensures your integers are actually integers. But guess what else it can be? It turns out, it is also a surprisingly effective * Literate Programming * tool. This is important because, let’s be honest, the current king of this hill is org-mode . And while org-mode is powerful, it is also",
-      "author": "Alexander Przemysław Kamiński",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 1923.95,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1923.95,
+      "type": "tutorial",
+      "relevanceScore": 2471.46,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 2473.46,
       "readingLevel": "intermediate"
     },
     {
@@ -112,9 +93,31 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1773.68,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1774.18,
+      "relevanceScore": 1799.59,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1800.09,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "V2h5IG15IGNsZWFu",
+      "title": "Why my clean API abstraction collapsed under real traffic",
+      "link": "https://dev.to/leena_malhotra/why-my-clean-api-abstraction-collapsed-under-real-traffic-f0i",
+      "description": "The code review was glowing. \"Beautiful abstraction,\" one senior engineer commented. \"This is how you design APIs,\" said another. I had built a clean, elegant layer that unified three different payment processors behind a single interface. Every method was perfectly named. Every error was properly w",
+      "pubDate": "2026-01-13T09:33:19.000Z",
+      "source": "Dev.to",
+      "category": "finance",
+      "weight": 6,
+      "content": "The code review was glowing. \"Beautiful abstraction,\" one senior engineer commented. \"This is how you design APIs,\" said another. I had built a clean, elegant layer that unified three different payment processors behind a single interface. Every method was perfectly named. Every error was properly wrapped. Every edge case was handled with grace. Two weeks after launch, it was the bottleneck killing our checkout flow. Not because the code was wrong. Because the abstraction was too clean—optimized",
+      "author": "Leena Malhotra",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "medium",
+      "type": "review",
+      "relevanceScore": 1344.45,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1346.45,
       "readingLevel": "advanced"
     },
     {
@@ -136,9 +139,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1268.56,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1268.56,
+      "relevanceScore": 1291.47,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1291.47,
       "readingLevel": "advanced"
     },
     {
@@ -158,9 +161,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1268.59,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1268.59,
+      "relevanceScore": 1291.5,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1291.5,
       "readingLevel": "beginner"
     },
     {
@@ -182,9 +185,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1268.59,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1268.59,
+      "relevanceScore": 1291.5,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1291.5,
       "readingLevel": "beginner"
     },
     {
@@ -204,9 +207,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1268.52,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1268.52,
+      "relevanceScore": 1291.44,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1291.44,
       "readingLevel": "beginner"
     },
     {
@@ -226,9 +229,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 1266.86,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1266.86,
+      "relevanceScore": 1289.77,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1289.77,
       "readingLevel": "advanced"
     },
     {
@@ -248,9 +251,9 @@
       "sentiment": "negative",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 1057.08,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1058.58,
+      "relevanceScore": 1067.5,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1069,
       "readingLevel": "advanced"
     },
     {
@@ -274,9 +277,53 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 1129.23,
-      "calculatedAt": "2026-01-13T09:23:12.047Z",
-      "recommendationScore": 1131.23,
+      "relevanceScore": 1140.64,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1142.64,
+      "readingLevel": "intermediate"
+    },
+    {
+      "id": "QXN0cm8gKyBEZWNh",
+      "title": "Astro + Decap in 2026",
+      "link": "https://dev.to/migsarnavarro/astro-decap-in-2026-3mj3",
+      "description": "This morning I finally started working on a project I had been thinking about for a while, an easy to maintain portfolio blog for photography and architecture. I used this opportunity to explore Decap , which is a git-based CMS that I wanted to try for some time but never took the time to explore. S",
+      "pubDate": "2026-01-13T09:20:12.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "This morning I finally started working on a project I had been thinking about for a while, an easy to maintain portfolio blog for photography and architecture. I used this opportunity to explore Decap , which is a git-based CMS that I wanted to try for some time but never took the time to explore. Some years ago I discovered the project while I was thinking in doing something similar. I really enjoy working with Astro and one thing I've often wished for when writing for my personal blog is a vis",
+      "author": "Migsar Navarro",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 1012.9,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1012.9,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "T2Zmc2hvcmUgd2lu",
+      "title": "Offshore wind developer prevails in U.S. court as Trump calls wind farms 'losers'",
+      "link": "https://www.npr.org/2026/01/12/g-s1-105808/offshore-orsted-revolution-wind-trump-court-clean-energy",
+      "description": "A federal judge ruled Monday that work on a major offshore wind farm can resume, handing the industry at least a temporary victory as President Trump seeks to shut it down.",
+      "pubDate": "2026-01-13T00:12:14.000Z",
+      "source": "NPR Business",
+      "category": "climate",
+      "weight": 8,
+      "content": "A federal judge ruled Monday that work on a major offshore wind farm can resume, handing the industry at least a temporary victory as President Trump seeks to shut it down. (Image credit: Steve Helber)",
+      "author": "The Associated Press",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "positive",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 1003.08,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1003.58,
       "readingLevel": "intermediate"
     },
     {
@@ -298,32 +345,10 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 1021.62,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 1022.12,
+      "relevanceScore": 1027.04,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 1027.54,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "T2Zmc2hvcmUgd2lu",
-      "title": "Offshore wind developer prevails in U.S. court as Trump calls wind farms 'losers'",
-      "link": "https://www.npr.org/2026/01/12/g-s1-105808/offshore-orsted-revolution-wind-trump-court-clean-energy",
-      "description": "A federal judge ruled Monday that work on a major offshore wind farm can resume, handing the industry at least a temporary victory as President Trump seeks to shut it down.",
-      "pubDate": "2026-01-13T00:12:14.000Z",
-      "source": "NPR Business",
-      "category": "climate",
-      "weight": 8,
-      "content": "A federal judge ruled Monday that work on a major offshore wind farm can resume, handing the industry at least a temporary victory as President Trump seeks to shut it down. (Image credit: Steve Helber)",
-      "author": "The Associated Press",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 993.16,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 993.66,
-      "readingLevel": "intermediate"
     },
     {
       "id": "VHJ1bXAgY2FsbHMg",
@@ -342,9 +367,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 974.99,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 975.49,
+      "relevanceScore": 993.41,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 993.91,
       "readingLevel": "intermediate"
     },
     {
@@ -364,9 +389,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 966.64,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 967.64,
+      "relevanceScore": 976.05,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 977.05,
       "readingLevel": "advanced"
     },
     {
@@ -386,9 +411,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 966.31,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 966.81,
+      "relevanceScore": 975.72,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 976.22,
       "readingLevel": "advanced"
     },
     {
@@ -410,9 +435,9 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 966.31,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 967.81,
+      "relevanceScore": 975.72,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 977.22,
       "readingLevel": "advanced"
     },
     {
@@ -432,9 +457,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 947.14,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 949.14,
+      "relevanceScore": 965.05,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 967.05,
       "readingLevel": "advanced"
     },
     {
@@ -457,9 +482,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 867.12,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 867.62,
+      "relevanceScore": 866.54,
+      "calculatedAt": "2026-01-13T09:48:58.049Z",
+      "recommendationScore": 867.04,
       "readingLevel": "advanced"
     },
     {
@@ -479,9 +504,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 636.43,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 636.93,
+      "relevanceScore": 633.84,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 634.34,
       "readingLevel": "advanced"
     },
     {
@@ -503,9 +528,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 620.32,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 622.82,
+      "relevanceScore": 626.24,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 628.74,
       "readingLevel": "intermediate"
     },
     {
@@ -528,9 +553,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 411.01,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 413.51,
+      "relevanceScore": 407.42,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 409.92,
       "readingLevel": "advanced"
     },
     {
@@ -552,9 +577,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 338.94,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 341.44,
+      "relevanceScore": 343.85,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 346.35,
       "readingLevel": "advanced"
     },
     {
@@ -574,9 +599,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 308.41,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 309.91,
+      "relevanceScore": 313.32,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 314.82,
       "readingLevel": "advanced"
     },
     {
@@ -596,9 +621,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 190.79,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 191.29,
+      "relevanceScore": 192.71,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 193.21,
       "readingLevel": "intermediate"
     },
     {
@@ -621,9 +646,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 85.56,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 86.06,
+      "relevanceScore": 77.47,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 77.97,
       "readingLevel": "intermediate"
     },
     {
@@ -646,9 +671,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 70.22,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 71.22,
+      "relevanceScore": 67.64,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 68.64,
       "readingLevel": "advanced"
     },
     {
@@ -668,32 +693,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 71.75,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 72.25,
+      "relevanceScore": 63.67,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 64.17,
       "readingLevel": "advanced"
-    },
-    {
-      "id": "UXVpY2sgU29ydCBp",
-      "title": "Quick Sort in Javascript",
-      "link": "https://dev.to/thecoollearner/quick-sort-in-javascript-33da",
-      "description": "Quick Sort is one of the most important and widely used sorting algorithms. It’s fast, elegant, and a favorite in interviews — if you understand it properly . This post explains Quick Sort from basics to advanced , covering: Simple (functional) Quick Sort In-place Quick Sort Lomuto partition scheme ",
-      "pubDate": "2026-01-13T09:13:40.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "Quick Sort is one of the most important and widely used sorting algorithms. It’s fast, elegant, and a favorite in interviews — if you understand it properly . This post explains Quick Sort from basics to advanced , covering: Simple (functional) Quick Sort In-place Quick Sort Lomuto partition scheme Hoare partition scheme Pros & Cons Time and space complexity What is Quick Sort? Quick Sort is a divide-and-conquer algorithm. The idea is simple: Pick a pivot element Partition the array so: elements",
-      "author": "Alok Kumar",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 60.47,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 60.47,
-      "readingLevel": "intermediate"
     },
     {
       "id": "RG9uYWxkIFRydW1w",
@@ -712,9 +715,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.47,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 46.47,
+      "relevanceScore": 46.89,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 46.89,
       "readingLevel": "advanced"
     },
     {
@@ -734,9 +737,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.82,
-      "calculatedAt": "2026-01-13T09:23:12.048Z",
-      "recommendationScore": 48.82,
+      "relevanceScore": 47.24,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 49.24,
       "readingLevel": "intermediate"
     },
     {
@@ -758,9 +761,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 47.39,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 47.89,
+      "relevanceScore": 47.8,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 48.3,
       "readingLevel": "advanced"
     },
     {
@@ -780,9 +783,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 39.43,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 41.93,
+      "relevanceScore": 30.85,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 33.35,
       "readingLevel": "advanced"
     },
     {
@@ -804,9 +807,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 44.42,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 44.92,
+      "relevanceScore": 35.84,
+      "calculatedAt": "2026-01-13T09:48:58.050Z",
+      "recommendationScore": 36.34,
       "readingLevel": "advanced"
     },
     {
@@ -828,32 +831,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 41.34,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 41.84,
+      "relevanceScore": 32.75,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 33.25,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "VXNpbmcgQ09SUyAr",
-      "title": "Using CORS + Google Sheets is the cheapest way to implement a waitlist for landing pages",
-      "link": "https://www.reddit.com/r/programming/comments/1qbk58k/using_cors_google_sheets_is_the_cheapest_way_to/",
-      "description": "&#32; submitted by &#32; /u/tanin47 [link] &#32; [comments]",
-      "pubDate": "2026-01-13T06:31:51.000Z",
-      "source": "Reddit Programming",
-      "category": "development",
-      "weight": 5,
-      "content": "&#32; submitted by &#32; /u/tanin47 [link] &#32; [comments]",
-      "author": "/u/tanin47",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 37.93,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 38.43,
-      "readingLevel": "advanced"
     },
     {
       "id": "T3BlbkFJIGJ1eXMg",
@@ -876,9 +857,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.64,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 43.14,
+      "relevanceScore": 34.05,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 34.55,
       "readingLevel": "advanced"
     },
     {
@@ -900,9 +881,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.62,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 42.62,
+      "relevanceScore": 34.04,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 34.04,
       "readingLevel": "intermediate"
     },
     {
@@ -926,9 +907,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.75,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 49.75,
+      "relevanceScore": 37.17,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 41.17,
       "readingLevel": "intermediate"
     },
     {
@@ -950,9 +931,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.72,
-      "calculatedAt": "2026-01-13T09:23:12.049Z",
-      "recommendationScore": 39.22,
+      "relevanceScore": 30.13,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 30.63,
       "readingLevel": "advanced"
     },
     {
@@ -974,9 +955,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.21,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 43.71,
+      "relevanceScore": 33.62,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 35.12,
       "readingLevel": "beginner"
     },
     {
@@ -998,9 +979,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.27,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 40.77,
+      "relevanceScore": 31.69,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 32.19,
       "readingLevel": "advanced"
     },
     {
@@ -1022,9 +1003,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 40.44,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 40.94,
+      "relevanceScore": 31.85,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 32.35,
       "readingLevel": "beginner"
     },
     {
@@ -1048,9 +1029,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.46,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 43.96,
+      "relevanceScore": 34.87,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 35.37,
       "readingLevel": "advanced"
     },
     {
@@ -1072,9 +1053,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 35.55,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 36.05,
+      "relevanceScore": 26.97,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 27.47,
       "readingLevel": "advanced"
     },
     {
@@ -1094,9 +1075,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.14,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 33.14,
+      "relevanceScore": 31.05,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 33.05,
       "readingLevel": "advanced"
     },
     {
@@ -1116,9 +1097,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.19,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 32.19,
+      "relevanceScore": 30.11,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 32.11,
       "readingLevel": "intermediate"
     },
     {
@@ -1138,9 +1119,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.21,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 25.71,
+      "relevanceScore": 25.12,
+      "calculatedAt": "2026-01-13T09:48:58.051Z",
+      "recommendationScore": 25.62,
       "readingLevel": "advanced"
     },
     {
@@ -1160,9 +1141,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.82,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 24.32,
+      "relevanceScore": 23.73,
+      "calculatedAt": "2026-01-13T09:48:58.052Z",
+      "recommendationScore": 24.23,
       "readingLevel": "beginner"
     },
     {
@@ -1184,9 +1165,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 21.18,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 21.18,
+      "relevanceScore": 21.1,
+      "calculatedAt": "2026-01-13T09:48:58.052Z",
+      "recommendationScore": 21.1,
       "readingLevel": "advanced"
     },
     {
@@ -1206,9 +1187,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.36,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 21.36,
+      "relevanceScore": 19.27,
+      "calculatedAt": "2026-01-13T09:48:58.052Z",
+      "recommendationScore": 21.27,
       "readingLevel": "intermediate"
     },
     {
@@ -1228,9 +1209,31 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.95,
-      "calculatedAt": "2026-01-13T09:23:12.050Z",
-      "recommendationScore": 21.45,
+      "relevanceScore": 19.87,
+      "calculatedAt": "2026-01-13T09:48:58.052Z",
+      "recommendationScore": 21.37,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "WUFNTD8gVGhhdOKA",
+      "title": "YAML? That’s Norway problem",
+      "link": "https://www.reddit.com/r/programming/comments/1qaroyn/yaml_thats_norway_problem/",
+      "description": "&#32; submitted by &#32; /u/merelysounds [link] &#32; [comments]",
+      "pubDate": "2026-01-12T10:43:47.000Z",
+      "source": "Reddit Programming",
+      "category": "development",
+      "weight": 5,
+      "content": "&#32; submitted by &#32; /u/merelysounds [link] &#32; [comments]",
+      "author": "/u/merelysounds",
+      "readTime": 1,
+      "importance": 5,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 16.88,
+      "calculatedAt": "2026-01-13T09:48:58.052Z",
+      "recommendationScore": 16.88,
       "readingLevel": "advanced"
     }
   ],
@@ -1260,6 +1263,6 @@
     "world",
     "general"
   ],
-  "processedAt": "2026-01-13T09:23:12.062Z",
+  "processedAt": "2026-01-13T09:48:58.063Z",
   "processingVersion": "2.0"
 }
