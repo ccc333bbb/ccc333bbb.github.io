@@ -1,24 +1,27 @@
 {
-  "lastUpdated": "2026-01-14T09:49:55.066Z",
+  "lastUpdated": "2026-01-14T10:19:01.482Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-01-14",
       "file": "2026-01-14.json",
-      "totalArticles": 46,
-      "lastUpdated": "2026-01-14T09:49:55.047Z",
+      "totalArticles": 55,
+      "lastUpdated": "2026-01-14T10:19:01.463Z",
       "sources": [
+        "Reddit Programming",
         "GitHub Blog",
+        "Dev.to",
         "The Verge",
         "MIT Technology Review",
-        "Dev.to",
         "TechCrunch",
-        "Wired",
-        "Ars Technica",
         "Engadget",
-        "ABC News Business",
+        "Wired",
+        "Reddit Technology",
         "BBC News",
+        "Ars Technica",
+        "ABC News Business",
         "NPR Business",
+        "Reddit World News",
         "BBC Technology",
         "Stack Overflow Blog"
       ],
@@ -26,39 +29,40 @@
         "development",
         "tech",
         "science",
+        "general",
         "business",
-        "general"
+        "world"
       ],
       "topArticles": [
+        {
+          "title": "How a 40-Line Fix Eliminated a 400x Performance Gap",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1qcjd0w/how_a_40line_fix_eliminated_a_400x_performance_gap/",
+          "relevanceScore": 1069.802852361111
+        },
         {
           "title": "Want better AI outputs? Try context engineering.",
           "source": "GitHub Blog",
           "link": "https://github.blog/ai-and-ml/generative-ai/want-better-ai-outputs-try-context-engineering/",
-          "relevanceScore": 701
+          "relevanceScore": 759
+        },
+        {
+          "title": "The \"Dynamic Pipeline\" Pattern: A Mutable Method Chaining for Real-time Processing",
+          "source": "Dev.to",
+          "link": "https://dev.to/usapopopooon/the-dynamic-pipeline-pattern-a-mutable-method-chaining-for-real-time-processing-16e1",
+          "relevanceScore": 721.9213245833333
         },
         {
           "title": "Inside the White House shitposting machine",
           "source": "The Verge",
           "link": "https://www.theverge.com/column/861476/trump-memes-venezuela-ice-shooting",
-          "relevanceScore": 591
+          "relevanceScore": 718
         },
         {
           "title": "CES showed me why Chinese tech companies feel so optimistic",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/01/12/1131193/ces-showed-me-why-chinese-tech-companies-feel-so-optimistic/",
-          "relevanceScore": 564
-        },
-        {
-          "title": "Best AI Tools for Coding in 2026: A Practical Guide for Modern Developers",
-          "source": "Dev.to",
-          "link": "https://dev.to/lightningdev123/best-ai-tools-for-coding-in-2026-a-practical-guide-for-modern-developers-22hk",
-          "relevanceScore": 529.9204101388889
-        },
-        {
-          "title": "Microsoft announces glut of new data centers but says it won’t let your electricity bill go up",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2026/01/13/microsoft-announces-glut-of-new-data-centers-but-says-it-wont-let-your-electricity-bill-go-up/",
-          "relevanceScore": 389
+          "relevanceScore": 600
         }
       ]
     },
