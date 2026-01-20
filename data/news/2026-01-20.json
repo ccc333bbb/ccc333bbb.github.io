@@ -1,6 +1,6 @@
 {
   "date": "2026-01-20",
-  "lastUpdated": "2026-01-20T08:24:32.663Z",
+  "lastUpdated": "2026-01-20T08:56:25.688Z",
   "totalArticles": 37,
   "articles": [
     {
@@ -23,9 +23,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 993.92,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 994.42,
+      "relevanceScore": 1020.81,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 1021.31,
       "readingLevel": "intermediate"
     },
     {
@@ -47,32 +47,56 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 756.14,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 756.64,
+      "relevanceScore": 773.03,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 773.53,
       "readingLevel": "beginner"
     },
     {
-      "id": "QnVpbGRpbmcgYSBN",
-      "title": "Building a Modern LMS with Django, HTMX, and Tailwind CSS — Introducing JakIja",
-      "link": "https://dev.to/johan_santri_3ee25f4f7471/building-a-modern-lms-with-django-htmx-and-tailwind-css-introducing-jakija-4fkn",
-      "description": "What Is JakIja? Learning Management Systems (LMS) are everywhere, but building one that is JakIja is an open-source Learning Management System (LMS) designed to support multi-vendor learning platforms. It focuses on providing essential LMS features without unnecessary complexity, making it easier to",
-      "pubDate": "2026-01-20T08:00:31.000Z",
+      "id": "RGVzaWduaW5nIGEg",
+      "title": "Designing a Flight Search Engine: Architecture, Caching, and Trade-offs",
+      "link": "https://dev.to/rahmannugar/designing-a-flight-search-engine-architecture-caching-and-trade-offs-2jbn",
+      "description": "I was recently asked to design and build a flight search engine using the Amadeus API as part of a frontend assessment. While the visible requirement was to surface flight results and price trends through a user-facing interface, I chose to approach the problem as a complete system rather than a UI-",
+      "pubDate": "2026-01-20T08:31:38.000Z",
       "source": "Dev.to",
-      "category": "education",
+      "category": "development",
       "weight": 6,
-      "content": "What Is JakIja? Learning Management Systems (LMS) are everywhere, but building one that is JakIja is an open-source Learning Management System (LMS) designed to support multi-vendor learning platforms. It focuses on providing essential LMS features without unnecessary complexity, making it easier to extend and maintain. Instead of relying on heavy frontend frameworks, JakIja embraces a server-driven approach using Django and HTMX, which results in a simpler architecture and better performance. D",
-      "author": "Johan Santri",
+      "content": "I was recently asked to design and build a flight search engine using the Amadeus API as part of a frontend assessment. While the visible requirement was to surface flight results and price trends through a user-facing interface, I chose to approach the problem as a complete system rather than a UI-only task. To reflect how flight search products are built in practice, I introduced a server layer responsible for integrating a rate-limited external API, defining a stable internal data contract, a",
+      "author": "Rahman Nugar",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "medium",
+      "type": "news",
+      "relevanceScore": 751.92,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 752.42,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VG9wIDUgQ0xJIENv",
+      "title": "Top 5 CLI Coding Agents in 2026",
+      "link": "https://dev.to/lightningdev123/top-5-cli-coding-agents-in-2026-3pia",
+      "description": "The command line has always been home turf for developers who value speed, clarity, and control. By 2026, AI will have settled comfortably into that space. CLI coding agents are no longer just autocomplete helpers. They plan features, modify multiple files, run tests, and interact with Git, all with",
+      "pubDate": "2026-01-20T08:51:21.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "The command line has always been home turf for developers who value speed, clarity, and control. By 2026, AI will have settled comfortably into that space. CLI coding agents are no longer just autocomplete helpers. They plan features, modify multiple files, run tests, and interact with Git, all without pulling you away from the terminal. Instead of switching contexts between editors, dashboards, and chat windows, these tools live where many developers already spend most of their day. They unders",
+      "author": "Lightning Developer",
       "readTime": 1,
       "importance": 8,
-      "tags": [],
-      "sentiment": "positive",
+      "tags": [
+        "AI"
+      ],
+      "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 512.92,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 513.42,
-      "readingLevel": "advanced"
+      "relevanceScore": 620.98,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 621.98,
+      "readingLevel": "beginner"
     },
     {
       "id": "RG9u4oCZdCBsZXQg",
@@ -91,9 +115,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 402.05,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 402.55,
+      "relevanceScore": 412.95,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 413.45,
       "readingLevel": "advanced"
     },
     {
@@ -113,9 +137,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 433.16,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 433.66,
+      "relevanceScore": 439.06,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 439.56,
       "readingLevel": "advanced"
     },
     {
@@ -135,9 +159,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "opinion",
-      "relevanceScore": 333.32,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 333.32,
+      "relevanceScore": 342.71,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 342.71,
       "readingLevel": "beginner"
     },
     {
@@ -161,9 +185,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 373.25,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 373.75,
+      "relevanceScore": 384.14,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 384.64,
       "readingLevel": "advanced"
     },
     {
@@ -186,9 +210,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 372.52,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 374.52,
+      "relevanceScore": 383.41,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 385.41,
       "readingLevel": "advanced"
     },
     {
@@ -208,9 +232,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 370.44,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 370.44,
+      "relevanceScore": 381.33,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 381.33,
       "readingLevel": "advanced"
     },
     {
@@ -232,9 +256,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 368.23,
-      "calculatedAt": "2026-01-20T08:24:32.749Z",
-      "recommendationScore": 368.73,
+      "relevanceScore": 379.13,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 379.63,
       "readingLevel": "advanced"
     },
     {
@@ -254,9 +278,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 306.95,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 307.45,
+      "relevanceScore": 314.84,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 315.34,
       "readingLevel": "advanced"
     },
     {
@@ -279,9 +303,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 303.92,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 304.42,
+      "relevanceScore": 311.81,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 312.31,
       "readingLevel": "advanced"
     },
     {
@@ -301,9 +325,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 300.41,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 302.41,
+      "relevanceScore": 308.3,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 310.3,
       "readingLevel": "advanced"
     },
     {
@@ -323,32 +347,34 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 299.82,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 300.32,
+      "relevanceScore": 307.72,
+      "calculatedAt": "2026-01-20T08:56:25.777Z",
+      "recommendationScore": 308.22,
       "readingLevel": "intermediate"
     },
     {
-      "id": "SW50cm9kdWNpbmcg",
-      "title": "Introducing the GTranslate Bundle",
-      "link": "https://dev.to/addwebsolutionpvtltd/introducing-the-gtranslate-bundle-5dg6",
-      "description": "“Language is the road map of a culture. It tells you where its people come from and where they are going.” - Rita Mae Brown Index Introduction What is the GTranslate Bundle? Why Does It Matter? How It Works Default Behavior - Instant Setup Customizing the Widget Manual Placement Example Stats Key Ta",
-      "pubDate": "2026-01-20T07:59:11.000Z",
+      "id": "SSBCdWlsdCBhbiBP",
+      "title": "I Built an Open-Source Cowork in 24 Hours with ZERO Rust Experience — and the Agent Builts Itself",
+      "link": "https://dev.to/yuhaoxu/i-built-an-open-source-cowork-in-24-hours-with-zero-rust-experience-and-the-agent-builts-itself-2d06",
+      "description": "I walked into this with exactly zero Rust experience and a stubborn belief: building an agent shouldn’t require a megachurch of frameworks. Twenty-four hours later, I shipped a Rust-native AI Agent desktop for non-dev that compiled to a 16MB tiny binary, a simple while loop with Skills, MCPs support",
+      "pubDate": "2026-01-20T08:43:26.000Z",
       "source": "Dev.to",
-      "category": "development",
+      "category": "ai-ml",
       "weight": 6,
-      "content": "“Language is the road map of a culture. It tells you where its people come from and where they are going.” - Rita Mae Brown Index Introduction What is the GTranslate Bundle? Why Does It Matter? How It Works Default Behavior - Instant Setup Customizing the Widget Manual Placement Example Stats Key Takeaways Interesting Facts FAQs Conclusion Introduction In today’s global web, multilingual accessibility isn’t a luxury, it’s a necessity. However, using translations in contemporary frameworks might ",
-      "author": "Balasaranya Varadhalingam",
+      "content": "I walked into this with exactly zero Rust experience and a stubborn belief: building an agent shouldn’t require a megachurch of frameworks. Twenty-four hours later, I shipped a Rust-native AI Agent desktop for non-dev that compiled to a 16MB tiny binary, a simple while loop with Skills, MCPs supported. And the most important part: BYOK (Bring Your Own Key) and even local models! Call it technical minimalism. The Stack Rust (from zero to shipping in one day) Long term memory: File system as persi",
+      "author": "Yuhao Xu",
       "readTime": 1,
-      "importance": 6,
-      "tags": [],
+      "importance": 8,
+      "tags": [
+        "AI"
+      ],
       "sentiment": "neutral",
-      "complexity": "low",
+      "complexity": "medium",
       "type": "news",
-      "relevanceScore": 188.92,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 188.92,
-      "readingLevel": "intermediate"
+      "relevanceScore": 169.96,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 170.46,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhlIFNlYXJjaCBm",
@@ -370,32 +396,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 156.72,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 157.22,
+      "relevanceScore": 159.61,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 160.11,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "TWlncmF0ZSB2cyBJ",
-      "title": "Migrate vs Import in Unreal Engine Finally Made Sense",
-      "link": "https://dev.to/dinesh_04/migrate-vs-import-in-unreal-engine-finally-made-sense-31p9",
-      "description": "I thought moving assets was just copy-paste. Then everything broke when I opened the new project. Day 25 taught me why Unreal has its own way of doing this. This post is part of my daily learning journey in game development. I’m sharing what I learn each day — the basics, the confusion, and the real",
-      "pubDate": "2026-01-20T07:50:00.000Z",
-      "source": "Dev.to",
-      "category": "gaming",
-      "weight": 6,
-      "content": "I thought moving assets was just copy-paste. Then everything broke when I opened the new project. Day 25 taught me why Unreal has its own way of doing this. This post is part of my daily learning journey in game development. I’m sharing what I learn each day — the basics, the confusion, and the real progress — from the perspective of a beginner. On Day 25 of my game development journey, I learned how asset migration and importing work in Unreal Engine. What I tried / learned today I learned how ",
-      "author": "Dinesh",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 70.38,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 71.88,
-      "readingLevel": "beginner"
     },
     {
       "id": "SG93IGNyeXB0byBj",
@@ -414,9 +418,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 57.18,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 59.18,
+      "relevanceScore": 58.57,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 60.57,
       "readingLevel": "intermediate"
     },
     {
@@ -438,9 +442,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 26.54,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 29.04,
+      "relevanceScore": 26.43,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 28.93,
       "readingLevel": "advanced"
     },
     {
@@ -460,9 +464,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.62,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 31.12,
+      "relevanceScore": 30.52,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 31.02,
       "readingLevel": "intermediate"
     },
     {
@@ -482,9 +486,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.12,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 30.62,
+      "relevanceScore": 30.02,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 30.52,
       "readingLevel": "intermediate"
     },
     {
@@ -506,9 +510,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.02,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 30.02,
+      "relevanceScore": 29.91,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 29.91,
       "readingLevel": "intermediate"
     },
     {
@@ -530,9 +534,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.72,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 24.72,
+      "relevanceScore": 24.61,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 24.61,
       "readingLevel": "beginner"
     },
     {
@@ -557,9 +561,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.72,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 26.72,
+      "relevanceScore": 24.61,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 26.61,
       "readingLevel": "advanced"
     },
     {
@@ -582,9 +586,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.02,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 26.02,
+      "relevanceScore": 23.91,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 25.91,
       "readingLevel": "intermediate"
     },
     {
@@ -606,9 +610,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.92,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 24.42,
+      "relevanceScore": 23.82,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 24.32,
       "readingLevel": "advanced"
     },
     {
@@ -631,9 +635,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.74,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 26.24,
+      "relevanceScore": 23.64,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 26.14,
       "readingLevel": "advanced"
     },
     {
@@ -656,9 +660,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.82,
-      "calculatedAt": "2026-01-20T08:24:32.750Z",
-      "recommendationScore": 24.32,
+      "relevanceScore": 21.71,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 24.21,
       "readingLevel": "advanced"
     },
     {
@@ -681,9 +685,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.92,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 26.42,
+      "relevanceScore": 25.81,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 26.31,
       "readingLevel": "advanced"
     },
     {
@@ -705,9 +709,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.74,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 23.74,
+      "relevanceScore": 23.63,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 23.63,
       "readingLevel": "advanced"
     },
     {
@@ -727,9 +731,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.72,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 25.22,
+      "relevanceScore": 23.61,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 25.11,
       "readingLevel": "beginner"
     },
     {
@@ -749,9 +753,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.33,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 23.83,
+      "relevanceScore": 23.23,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 23.73,
       "readingLevel": "advanced"
     },
     {
@@ -771,9 +775,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.27,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 22.77,
+      "relevanceScore": 22.17,
+      "calculatedAt": "2026-01-20T08:56:25.778Z",
+      "recommendationScore": 22.67,
       "readingLevel": "intermediate"
     },
     {
@@ -795,9 +799,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.49,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 23.99,
+      "relevanceScore": 23.39,
+      "calculatedAt": "2026-01-20T08:56:25.779Z",
+      "recommendationScore": 23.89,
       "readingLevel": "advanced"
     },
     {
@@ -817,9 +821,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.12,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 22.12,
+      "relevanceScore": 22.01,
+      "calculatedAt": "2026-01-20T08:56:25.779Z",
+      "recommendationScore": 22.01,
       "readingLevel": "beginner"
     },
     {
@@ -841,9 +845,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 21.83,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 23.33,
+      "relevanceScore": 21.72,
+      "calculatedAt": "2026-01-20T08:56:25.779Z",
+      "recommendationScore": 23.22,
       "readingLevel": "beginner"
     },
     {
@@ -863,9 +867,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.68,
-      "calculatedAt": "2026-01-20T08:24:32.751Z",
-      "recommendationScore": 22.18,
+      "relevanceScore": 21.57,
+      "calculatedAt": "2026-01-20T08:56:25.779Z",
+      "recommendationScore": 22.07,
       "readingLevel": "advanced"
     }
   ],
@@ -889,6 +893,6 @@
     "science",
     "business"
   ],
-  "processedAt": "2026-01-20T08:24:32.762Z",
+  "processedAt": "2026-01-20T08:56:25.789Z",
   "processingVersion": "2.0"
 }
