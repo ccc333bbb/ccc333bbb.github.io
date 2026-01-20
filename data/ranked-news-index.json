@@ -1,43 +1,29 @@
 {
-  "lastUpdated": "2026-01-20T09:30:23.514Z",
-  "totalArticles": 38,
+  "lastUpdated": "2026-01-20T09:56:21.168Z",
+  "totalArticles": 39,
   "categories": [
-    "development",
     "mobile",
-    "climate",
-    "social",
     "ai-ml",
+    "climate",
+    "development",
     "science",
+    "social",
     "tech",
-    "general",
     "business",
+    "general",
+    "blockchain",
     "startup",
-    "gaming",
-    "blockchain"
+    "gaming"
   ],
   "topArticles": [
-    {
-      "title": "700 views vs 8% conversion: Why I redesigned my Next.js site to a Bento Grid (Day 3)",
-      "link": "https://dev.to/velox-web/700-views-vs-8-conversion-why-i-redesigned-my-nextjs-site-to-a-bento-grid-day-3-45o6",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-20T09:18:47.000Z",
-      "relevanceScore": 1091.96,
-      "recommendationScore": 1094.96,
-      "tags": [
-        "Update",
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
     {
       "title": "Roland’s Go:Mixer Studio turns your phone into a mobile music studio",
       "link": "https://www.theverge.com/entertainment/864095/roland-gomixer-studio-namm",
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-01-20T08:00:00.000Z",
-      "relevanceScore": 787.7,
-      "recommendationScore": 788.2,
+      "relevanceScore": 1062.61,
+      "recommendationScore": 1063.11,
       "tags": [
         "Mobile",
         "Launch"
@@ -45,13 +31,26 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
+      "link": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-01-19T18:06:34.000Z",
+      "relevanceScore": 830.83,
+      "recommendationScore": 831.33,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "Northern Lights illuminate UK skies in hues of pink and green",
       "link": "https://www.bbc.com/news/articles/c0q4pj5j729o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "climate",
       "pubDate": "2026-01-20T09:08:57.000Z",
-      "relevanceScore": 452.93,
-      "recommendationScore": 453.43,
+      "relevanceScore": 460.84,
+      "recommendationScore": 461.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -61,22 +60,9 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2026-01-20T08:40:00.000Z",
-      "relevanceScore": 434.33,
-      "recommendationScore": 434.83,
+      "relevanceScore": 435.75,
+      "recommendationScore": 436.25,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "UK agency questions Meta's policies for illegal gambling site ads",
-      "link": "https://www.engadget.com/social-media/uk-agency-questions-metas-policies-for-illegal-gambling-site-ads-210500714.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-01-19T21:05:00.000Z",
-      "relevanceScore": 399.52,
-      "recommendationScore": 400.02,
-      "tags": [
-        "Web"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -85,8 +71,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-19T13:39:00.000Z",
-      "relevanceScore": 397.03,
-      "recommendationScore": 397.53,
+      "relevanceScore": 431.94,
+      "recommendationScore": 432.44,
       "tags": [
         "AI",
         "Tech",
@@ -100,8 +86,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-19T10:00:00.000Z",
-      "relevanceScore": 396.3,
-      "recommendationScore": 398.3,
+      "relevanceScore": 431.21,
+      "recommendationScore": 433.21,
       "tags": [
         "Web",
         "Exclusive"
@@ -109,27 +95,110 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Data Engineering vs Data Science: What’s the Difference? (And Which Career Should You Choose?)",
-      "link": "https://dev.to/maina_murage/data-engineering-vs-data-science-whats-the-difference-and-which-career-should-you-choose-4c1e",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-20T09:08:37.000Z",
-      "relevanceScore": 393.93,
-      "recommendationScore": 396.93,
+      "title": "UK agency questions Meta's policies for illegal gambling site ads",
+      "link": "https://www.engadget.com/social-media/uk-agency-questions-metas-policies-for-illegal-gambling-site-ads-210500714.html?src=rss",
+      "source": "Engadget",
+      "category": "social",
+      "pubDate": "2026-01-19T21:05:00.000Z",
+      "relevanceScore": 426.93,
+      "recommendationScore": 427.43,
       "tags": [
-        "Tech",
-        "Science"
+        "Web"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
-      "link": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
+      "title": "How POSTGRES indexing is more efficient than MYSQL",
+      "link": "https://dev.to/khairul_basar_a2746d66c5f/how-postgres-indexing-is-more-efficient-than-mysql-2ohl",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-20T09:46:23.000Z",
+      "relevanceScore": 410.97,
+      "recommendationScore": 412.47,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I Built a Localhost Tunneling tool in TypeScript - Here's What Surprised Me",
+      "link": "https://dev.to/robbiecahill/i-built-a-localhost-tunneling-tool-in-typescript-heres-what-surprised-me-17eg",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-20T09:43:15.000Z",
+      "relevanceScore": 401.96,
+      "recommendationScore": 403.96,
+      "tags": [
+        "Tech",
+        "Web",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Dumbphone Owners Have Lost Their Minds",
+      "link": "https://www.wired.com/story/dumbphone-owners-have-literally-lost-their-minds/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-19T11:30:15.000Z",
+      "relevanceScore": 357.51,
+      "recommendationScore": 357.51,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Surrounded by billionaires in Davos, Trump plans to lay out how he'll make housing more affordable",
+      "link": "https://abcnews.go.com/Business/wireStory/surrounded-billionaires-davos-trump-plans-lay-hell-make-129371498",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-20T05:26:38.000Z",
+      "relevanceScore": 349.1,
+      "recommendationScore": 351.1,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Confronted over Greenland, Europe is ditching its softly-softly approach to Trump",
+      "link": "https://www.bbc.com/news/articles/c0lx7j1lrwro?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-20T08:09:03.000Z",
+      "relevanceScore": 327.64,
+      "recommendationScore": 328.14,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Everstone combines Wingify, AB Tasty for $100M+ digital experience optimization platform",
+      "link": "https://techcrunch.com/2026/01/20/everstone-combines-wingify-ab-tasty-for-100m-digital-experience-optimization-platform/",
       "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-01-20T08:00:00.000Z",
+      "relevanceScore": 324.61,
+      "recommendationScore": 325.11,
+      "tags": [
+        "Tech",
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Shares in Asia track European markets lower on concern over Trump's push on Greenland",
+      "link": "https://abcnews.go.com/Business/wireStory/shares-asia-track-european-markets-lower-concern-trumps-129369757",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-20T05:01:32.000Z",
+      "relevanceScore": 320.52,
+      "recommendationScore": 321.02,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "TL;DR: Code Reviews Break in the AI Era — Plans Fix Them",
+      "link": "https://dev.to/xhack/tldr-code-reviews-break-in-the-ai-era-plans-fix-them-3ge9",
+      "source": "Dev.to",
       "category": "ai-ml",
-      "pubDate": "2026-01-19T18:06:34.000Z",
-      "relevanceScore": 209.92,
-      "recommendationScore": 210.42,
+      "pubDate": "2026-01-20T09:43:26.000Z",
+      "relevanceScore": 110.96,
+      "recommendationScore": 111.46,
       "tags": [
         "AI"
       ],
@@ -141,8 +210,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-19T11:00:00.000Z",
-      "relevanceScore": 187,
-      "recommendationScore": 187.5,
+      "relevanceScore": 93.91,
+      "recommendationScore": 94.41,
       "tags": [
         "Tech",
         "Analysis"
@@ -150,25 +219,38 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "How much can a city take?",
-      "link": "https://www.theverge.com/policy/864195/minneapolis-ice-invasion-organizing-immigration",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-19T21:00:00.000Z",
-      "relevanceScore": 48,
-      "recommendationScore": 49.5,
+      "title": "How crypto criminals stole $700 million from people - often using age-old tricks",
+      "link": "https://www.bbc.com/news/articles/c93w30gl5jno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "blockchain",
+      "pubDate": "2026-01-19T00:48:24.000Z",
+      "relevanceScore": 60.37,
+      "recommendationScore": 62.37,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
     },
     {
-      "title": "Palestinian children's football pitch faces Israeli demolition ultimatum",
-      "link": "https://www.bbc.com/news/articles/cjrz0j9p5jqo?at_medium=RSS&at_campaign=rss",
+      "title": "The hospitals where waiting times are getting worse. Is yours one of them?",
+      "link": "https://www.bbc.com/news/articles/ckgjk89n2nyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-01-20T07:23:51.000Z",
-      "relevanceScore": 39.08,
-      "recommendationScore": 39.58,
+      "pubDate": "2026-01-20T01:31:46.000Z",
+      "relevanceScore": 58.32,
+      "recommendationScore": 58.82,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Deadly wreck is the first blight on Spain's leading high-speed rail service",
+      "link": "https://abcnews.go.com/Business/wireStory/deadly-wreck-blight-spains-leading-high-speed-rail-129371862",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-20T06:05:43.000Z",
+      "relevanceScore": 54.23,
+      "recommendationScore": 56.73,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -177,8 +259,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-19T11:59:33.000Z",
-      "relevanceScore": 36.2,
-      "recommendationScore": 36.7,
+      "relevanceScore": 53.61,
+      "recommendationScore": 54.11,
       "tags": [
         "AI",
         "Business"
@@ -186,119 +268,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Signs point to a sooner-rather-than-later M5 MacBook Pro refresh",
-      "link": "https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-19T19:52:22.000Z",
-      "relevanceScore": 33.77,
-      "recommendationScore": 34.27,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Confronted over Greenland, Europe is ditching its softly-softly approach to Trump",
-      "link": "https://www.bbc.com/news/articles/c0lx7j1lrwro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-20T08:09:03.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 32.23,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The hospitals where waiting times are getting worse. Is yours one of them?",
-      "link": "https://www.bbc.com/news/articles/ckgjk89n2nyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-20T01:31:46.000Z",
-      "relevanceScore": 30.4,
-      "recommendationScore": 30.9,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "I don't want to reconcile with family, says Brooklyn Peltz Beckham",
-      "link": "https://www.bbc.com/news/articles/ce3ekq4z5dyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-19T23:01:22.000Z",
-      "relevanceScore": 29.9,
-      "recommendationScore": 30.4,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Everstone combines Wingify, AB Tasty for $100M+ digital experience optimization platform",
-      "link": "https://techcrunch.com/2026/01/20/everstone-combines-wingify-ab-tasty-for-100m-digital-experience-optimization-platform/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-20T08:00:00.000Z",
-      "relevanceScore": 28.7,
-      "recommendationScore": 29.2,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Deadly wreck is the first blight on Spain's leading high-speed rail service",
-      "link": "https://abcnews.go.com/Business/wireStory/deadly-wreck-blight-spains-leading-high-speed-rail-129371862",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-20T06:05:43.000Z",
-      "relevanceScore": 26.32,
-      "recommendationScore": 28.82,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Surrounded by billionaires in Davos, Trump plans to lay out how he'll make housing more affordable",
-      "link": "https://abcnews.go.com/Business/wireStory/surrounded-billionaires-davos-trump-plans-lay-hell-make-129371498",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-20T05:26:38.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 27.19,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Realme promises days of battery from its 10,001mAh phone",
-      "link": "https://www.theverge.com/news/864254/realme-promises-days-of-battery-from-its-10001mah-phone",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-20T08:57:34.000Z",
-      "relevanceScore": 24.89,
-      "recommendationScore": 25.39,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Shares in Asia track European markets lower on concern over Trump's push on Greenland",
-      "link": "https://abcnews.go.com/Business/wireStory/shares-asia-track-european-markets-lower-concern-trumps-129369757",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-20T05:01:32.000Z",
-      "relevanceScore": 24.6,
-      "recommendationScore": 25.1,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Well, there goes the metaverse!",
       "link": "https://techcrunch.com/2026/01/19/well-there-goes-the-metaverse/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-19T16:00:00.000Z",
-      "relevanceScore": 24.5,
-      "recommendationScore": 24.5,
+      "relevanceScore": 52.41,
+      "recommendationScore": 52.41,
       "tags": [
         "AI"
       ],
@@ -310,8 +286,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-19T16:00:00.000Z",
-      "relevanceScore": 24.5,
-      "recommendationScore": 26.5,
+      "relevanceScore": 52.41,
+      "recommendationScore": 54.41,
       "tags": [
         "AI",
         "Security",
@@ -321,27 +297,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "4 causes of table bloat in PostgreSQL and how to address them",
-      "link": "https://dev.to/shinyakato_/4-causes-of-table-bloat-in-postgresql-and-how-to-address-them-3ec9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-20T08:55:13.000Z",
-      "relevanceScore": 23.88,
-      "recommendationScore": 25.88,
-      "tags": [
-        "Tutorial",
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "UK to consult on social media ban for under 16s",
       "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-01-19T22:30:00.000Z",
-      "relevanceScore": 23.8,
-      "recommendationScore": 23.8,
+      "relevanceScore": 51.71,
+      "recommendationScore": 51.71,
       "tags": [
         "Social"
       ],
@@ -353,8 +315,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-01-19T15:00:00.000Z",
-      "relevanceScore": 23.8,
-      "recommendationScore": 25.8,
+      "relevanceScore": 51.71,
+      "recommendationScore": 53.71,
       "tags": [
         "Startup",
         "Exclusive"
@@ -367,23 +329,9 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-19T22:01:52.000Z",
-      "relevanceScore": 23.7,
-      "recommendationScore": 24.2,
+      "relevanceScore": 51.62,
+      "recommendationScore": 52.12,
       "tags": [
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The first new Marathon game in decades will launch on March 5",
-      "link": "https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/",
-      "source": "Ars Technica",
-      "category": "gaming",
-      "pubDate": "2026-01-19T21:07:55.000Z",
-      "relevanceScore": 23.53,
-      "recommendationScore": 26.03,
-      "tags": [
-        "Exclusive",
         "Launch"
       ],
       "readingLevel": "advanced"
@@ -394,12 +342,23 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-01-19T21:05:30.000Z",
-      "relevanceScore": 23.52,
-      "recommendationScore": 23.52,
+      "relevanceScore": 51.43,
+      "recommendationScore": 51.43,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "How much can a city take?",
+      "link": "https://www.theverge.com/policy/864195/minneapolis-ice-invasion-organizing-immigration",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-01-19T21:00:00.000Z",
+      "relevanceScore": 51.41,
+      "recommendationScore": 52.91,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Elon Musk accused of making up math to squeeze $134B from OpenAI, Microsoft",
@@ -407,8 +366,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-01-19T19:04:18.000Z",
-      "relevanceScore": 23.11,
-      "recommendationScore": 23.61,
+      "relevanceScore": 51.03,
+      "recommendationScore": 51.53,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -418,10 +377,95 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-19T23:46:05.000Z",
-      "relevanceScore": 22.05,
-      "recommendationScore": 22.55,
+      "relevanceScore": 49.97,
+      "recommendationScore": 50.47,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "ASUS will not release any new smartphones this year",
+      "link": "https://www.engadget.com/mobile/smartphones/asus-will-not-release-any-new-smartphones-this-year-213043832.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-01-19T21:30:43.000Z",
+      "relevanceScore": 49.51,
+      "recommendationScore": 52.01,
+      "tags": [
+        "Business",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Palestinian children's football pitch faces Israeli demolition ultimatum",
+      "link": "https://www.bbc.com/news/articles/cjrz0j9p5jqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-20T07:23:51.000Z",
+      "relevanceScore": 31.49,
+      "recommendationScore": 31.99,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I don't want to reconcile with family, says Brooklyn Peltz Beckham",
+      "link": "https://www.bbc.com/news/articles/ce3ekq4z5dyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-19T23:01:22.000Z",
+      "relevanceScore": 29.82,
+      "recommendationScore": 30.32,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Stars and Stripes top editor talks about Pentagon's takeover of the newspaper",
+      "link": "https://www.npr.org/2026/01/20/nx-s1-5682045/stars-and-stripes-top-editor-talks-about-pentagons-takeover-of-the-newspaper",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-20T09:50:07.000Z",
+      "relevanceScore": 27.98,
+      "recommendationScore": 31.48,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Realme promises days of battery from its 10,001mAh phone",
+      "link": "https://www.theverge.com/news/864254/realme-promises-days-of-battery-from-its-10001mah-phone",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-01-20T08:57:34.000Z",
+      "relevanceScore": 24.8,
+      "recommendationScore": 25.3,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The first new Marathon game in decades will launch on March 5",
+      "link": "https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/",
+      "source": "Ars Technica",
+      "category": "gaming",
+      "pubDate": "2026-01-19T21:07:55.000Z",
+      "relevanceScore": 23.44,
+      "recommendationScore": 25.94,
+      "tags": [
+        "Exclusive",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Signs point to a sooner-rather-than-later M5 MacBook Pro refresh",
+      "link": "https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-19T19:52:22.000Z",
+      "relevanceScore": 23.19,
+      "recommendationScore": 23.69,
+      "tags": [
+        "Update"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Are DJI Drones Still Banned? (2026)",
@@ -429,8 +473,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-19T13:00:00.000Z",
-      "relevanceScore": 21.9,
-      "recommendationScore": 21.9,
+      "relevanceScore": 21.81,
+      "recommendationScore": 21.81,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -440,26 +484,12 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-19T11:33:00.000Z",
-      "relevanceScore": 21.61,
-      "recommendationScore": 23.11,
+      "relevanceScore": 21.52,
+      "recommendationScore": 23.02,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "ASUS will not release any new smartphones this year",
-      "link": "https://www.engadget.com/mobile/smartphones/asus-will-not-release-any-new-smartphones-this-year-213043832.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-01-19T21:30:43.000Z",
-      "relevanceScore": 21.6,
-      "recommendationScore": 24.1,
-      "tags": [
-        "Business",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "TurboTax Deluxe is on sale for $45 ahead of tax season",
@@ -467,130 +497,43 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-19T20:48:48.000Z",
-      "relevanceScore": 21.46,
-      "recommendationScore": 21.96,
+      "relevanceScore": 21.37,
+      "recommendationScore": 21.87,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Dumbphone Owners Have Lost Their Minds",
-      "link": "https://www.wired.com/story/dumbphone-owners-have-literally-lost-their-minds/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-19T11:30:15.000Z",
-      "relevanceScore": 20.6,
-      "recommendationScore": 20.6,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How crypto criminals stole $700 million from people - often using age-old tricks",
-      "link": "https://www.bbc.com/news/articles/c93w30gl5jno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "blockchain",
-      "pubDate": "2026-01-19T00:48:24.000Z",
-      "relevanceScore": 19.46,
-      "recommendationScore": 21.46,
-      "tags": [],
-      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
-    "development": [
-      {
-        "title": "700 views vs 8% conversion: Why I redesigned my Next.js site to a Bento Grid (Day 3)",
-        "link": "https://dev.to/velox-web/700-views-vs-8-conversion-why-i-redesigned-my-nextjs-site-to-a-bento-grid-day-3-45o6",
-        "source": "Dev.to",
-        "pubDate": "2026-01-20T09:18:47.000Z",
-        "relevanceScore": 1091.96,
-        "tags": [
-          "Update",
-          "IPO"
-        ]
-      },
-      {
-        "title": "Don’t let your backend write checks your frontend can’t cache",
-        "link": "https://stackoverflow.blog/2026/01/20/don-t-let-your-backend-write-checks-your-frontend-can-t-cache/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-20T08:40:00.000Z",
-        "relevanceScore": 434.33,
-        "tags": []
-      },
-      {
-        "title": "Data Engineering vs Data Science: What’s the Difference? (And Which Career Should You Choose?)",
-        "link": "https://dev.to/maina_murage/data-engineering-vs-data-science-whats-the-difference-and-which-career-should-you-choose-4c1e",
-        "source": "Dev.to",
-        "pubDate": "2026-01-20T09:08:37.000Z",
-        "relevanceScore": 393.93,
-        "tags": [
-          "Tech",
-          "Science"
-        ]
-      },
-      {
-        "title": "4 causes of table bloat in PostgreSQL and how to address them",
-        "link": "https://dev.to/shinyakato_/4-causes-of-table-bloat-in-postgresql-and-how-to-address-them-3ec9",
-        "source": "Dev.to",
-        "pubDate": "2026-01-20T08:55:13.000Z",
-        "relevanceScore": 23.88,
-        "tags": [
-          "Tutorial",
-          "Update"
-        ]
-      }
-    ],
     "mobile": [
       {
         "title": "Roland’s Go:Mixer Studio turns your phone into a mobile music studio",
         "link": "https://www.theverge.com/entertainment/864095/roland-gomixer-studio-namm",
         "source": "The Verge",
         "pubDate": "2026-01-20T08:00:00.000Z",
-        "relevanceScore": 787.7,
+        "relevanceScore": 1062.61,
         "tags": [
           "Mobile",
           "Launch"
         ]
       }
     ],
-    "climate": [
+    "ai-ml": [
       {
-        "title": "Northern Lights illuminate UK skies in hues of pink and green",
-        "link": "https://www.bbc.com/news/articles/c0q4pj5j729o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-20T09:08:57.000Z",
-        "relevanceScore": 452.93,
-        "tags": []
-      }
-    ],
-    "social": [
-      {
-        "title": "UK agency questions Meta's policies for illegal gambling site ads",
-        "link": "https://www.engadget.com/social-media/uk-agency-questions-metas-policies-for-illegal-gambling-site-ads-210500714.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-19T21:05:00.000Z",
-        "relevanceScore": 399.52,
+        "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
+        "link": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-19T18:06:34.000Z",
+        "relevanceScore": 830.83,
         "tags": [
-          "Web"
+          "AI"
         ]
       },
-      {
-        "title": "UK to consult on social media ban for under 16s",
-        "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-19T22:30:00.000Z",
-        "relevanceScore": 23.8,
-        "tags": [
-          "Social"
-        ]
-      }
-    ],
-    "ai-ml": [
       {
         "title": "The Download: the US digital rights crackdown, and AI companionship",
         "link": "https://www.technologyreview.com/2026/01/19/1131450/the-download-the-us-digital-rights-crackdown-and-ai-companionship/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-19T13:39:00.000Z",
-        "relevanceScore": 397.03,
+        "relevanceScore": 431.94,
         "tags": [
           "AI",
           "Tech",
@@ -598,11 +541,11 @@
         ]
       },
       {
-        "title": "Here are the 55 US AI startups that raised $100M or more in 2025",
-        "link": "https://techcrunch.com/2026/01/19/here-are-the-49-us-ai-startups-that-have-raised-100m-or-more-in-2025/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-19T18:06:34.000Z",
-        "relevanceScore": 209.92,
+        "title": "TL;DR: Code Reviews Break in the AI Era — Plans Fix Them",
+        "link": "https://dev.to/xhack/tldr-code-reviews-break-in-the-ai-era-plans-fix-them-3ge9",
+        "source": "Dev.to",
+        "pubDate": "2026-01-20T09:43:26.000Z",
+        "relevanceScore": 110.96,
         "tags": [
           "AI"
         ]
@@ -612,7 +555,7 @@
         "link": "https://www.technologyreview.com/2026/01/19/1131422/going-beyond-pilots-with-composable-and-sovereign-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-19T11:59:33.000Z",
-        "relevanceScore": 36.2,
+        "relevanceScore": 53.61,
         "tags": [
           "AI",
           "Business"
@@ -623,7 +566,7 @@
         "link": "https://techcrunch.com/2026/01/19/well-there-goes-the-metaverse/",
         "source": "TechCrunch",
         "pubDate": "2026-01-19T16:00:00.000Z",
-        "relevanceScore": 24.5,
+        "relevanceScore": 52.41,
         "tags": [
           "AI"
         ]
@@ -633,7 +576,7 @@
         "link": "https://techcrunch.com/2026/01/19/rogue-agents-and-shadow-ai-why-vcs-are-betting-big-on-ai-security/",
         "source": "TechCrunch",
         "pubDate": "2026-01-19T16:00:00.000Z",
-        "relevanceScore": 24.5,
+        "relevanceScore": 52.41,
         "tags": [
           "AI",
           "Security",
@@ -646,7 +589,7 @@
         "link": "https://www.theverge.com/news/864229/openai-focus-practical-adoption-sarah-friar",
         "source": "The Verge",
         "pubDate": "2026-01-19T21:05:30.000Z",
-        "relevanceScore": 23.52,
+        "relevanceScore": 51.43,
         "tags": [
           "AI"
         ]
@@ -656,8 +599,48 @@
         "link": "https://arstechnica.com/tech-policy/2026/01/elon-musk-accused-of-making-up-math-to-squeeze-134b-from-openai-microsoft/",
         "source": "Ars Technica",
         "pubDate": "2026-01-19T19:04:18.000Z",
-        "relevanceScore": 23.11,
+        "relevanceScore": 51.03,
         "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Northern Lights illuminate UK skies in hues of pink and green",
+        "link": "https://www.bbc.com/news/articles/c0q4pj5j729o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-20T09:08:57.000Z",
+        "relevanceScore": 460.84,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "Don’t let your backend write checks your frontend can’t cache",
+        "link": "https://stackoverflow.blog/2026/01/20/don-t-let-your-backend-write-checks-your-frontend-can-t-cache/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-20T08:40:00.000Z",
+        "relevanceScore": 435.75,
+        "tags": []
+      },
+      {
+        "title": "How POSTGRES indexing is more efficient than MYSQL",
+        "link": "https://dev.to/khairul_basar_a2746d66c5f/how-postgres-indexing-is-more-efficient-than-mysql-2ohl",
+        "source": "Dev.to",
+        "pubDate": "2026-01-20T09:46:23.000Z",
+        "relevanceScore": 410.97,
+        "tags": []
+      },
+      {
+        "title": "I Built a Localhost Tunneling tool in TypeScript - Here's What Surprised Me",
+        "link": "https://dev.to/robbiecahill/i-built-a-localhost-tunneling-tool-in-typescript-heres-what-surprised-me-17eg",
+        "source": "Dev.to",
+        "pubDate": "2026-01-20T09:43:15.000Z",
+        "relevanceScore": 401.96,
+        "tags": [
+          "Tech",
+          "Web",
+          "IPO"
+        ]
       }
     ],
     "science": [
@@ -666,23 +649,74 @@
         "link": "https://www.technologyreview.com/2026/01/19/1131384/what-its-like-to-be-banned-from-the-us-for-fighting-online-hate/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-19T10:00:00.000Z",
-        "relevanceScore": 396.3,
+        "relevanceScore": 431.21,
         "tags": [
           "Web",
           "Exclusive"
         ]
       }
     ],
+    "social": [
+      {
+        "title": "UK agency questions Meta's policies for illegal gambling site ads",
+        "link": "https://www.engadget.com/social-media/uk-agency-questions-metas-policies-for-illegal-gambling-site-ads-210500714.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-19T21:05:00.000Z",
+        "relevanceScore": 426.93,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "UK to consult on social media ban for under 16s",
+        "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-19T22:30:00.000Z",
+        "relevanceScore": 51.71,
+        "tags": [
+          "Social"
+        ]
+      }
+    ],
     "tech": [
+      {
+        "title": "Dumbphone Owners Have Lost Their Minds",
+        "link": "https://www.wired.com/story/dumbphone-owners-have-literally-lost-their-minds/",
+        "source": "Wired",
+        "pubDate": "2026-01-19T11:30:15.000Z",
+        "relevanceScore": 357.51,
+        "tags": []
+      },
+      {
+        "title": "Everstone combines Wingify, AB Tasty for $100M+ digital experience optimization platform",
+        "link": "https://techcrunch.com/2026/01/20/everstone-combines-wingify-ab-tasty-for-100m-digital-experience-optimization-platform/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-20T08:00:00.000Z",
+        "relevanceScore": 324.61,
+        "tags": [
+          "Tech",
+          "Business"
+        ]
+      },
       {
         "title": "The Search for Alien Artifacts Is Coming Into Focus",
         "link": "https://www.wired.com/story/the-search-for-alien-artifacts-is-coming-into-focus/",
         "source": "Wired",
         "pubDate": "2026-01-19T11:00:00.000Z",
-        "relevanceScore": 187,
+        "relevanceScore": 93.91,
         "tags": [
           "Tech",
           "Analysis"
+        ]
+      },
+      {
+        "title": "The fastest human spaceflight mission in history crawls closer to liftoff",
+        "link": "https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-19T22:01:52.000Z",
+        "relevanceScore": 51.62,
+        "tags": [
+          "Launch"
         ]
       },
       {
@@ -690,28 +724,26 @@
         "link": "https://www.theverge.com/policy/864195/minneapolis-ice-invasion-organizing-immigration",
         "source": "The Verge",
         "pubDate": "2026-01-19T21:00:00.000Z",
-        "relevanceScore": 48,
+        "relevanceScore": 51.41,
         "tags": []
       },
       {
-        "title": "Signs point to a sooner-rather-than-later M5 MacBook Pro refresh",
-        "link": "https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-19T19:52:22.000Z",
-        "relevanceScore": 33.77,
-        "tags": [
-          "Update"
-        ]
+        "title": "Dr. Gladys West, whose mathematical models inspired GPS, dies at 95",
+        "link": "https://www.engadget.com/science/dr-gladys-west-whose-mathematical-models-inspired-gps-dies-at-95-234605023.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-19T23:46:05.000Z",
+        "relevanceScore": 49.97,
+        "tags": []
       },
       {
-        "title": "Everstone combines Wingify, AB Tasty for $100M+ digital experience optimization platform",
-        "link": "https://techcrunch.com/2026/01/20/everstone-combines-wingify-ab-tasty-for-100m-digital-experience-optimization-platform/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-20T08:00:00.000Z",
-        "relevanceScore": 28.7,
+        "title": "ASUS will not release any new smartphones this year",
+        "link": "https://www.engadget.com/mobile/smartphones/asus-will-not-release-any-new-smartphones-this-year-213043832.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-19T21:30:43.000Z",
+        "relevanceScore": 49.51,
         "tags": [
-          "Tech",
-          "Business"
+          "Business",
+          "Launch"
         ]
       },
       {
@@ -719,33 +751,25 @@
         "link": "https://www.theverge.com/news/864254/realme-promises-days-of-battery-from-its-10001mah-phone",
         "source": "The Verge",
         "pubDate": "2026-01-20T08:57:34.000Z",
-        "relevanceScore": 24.89,
+        "relevanceScore": 24.8,
         "tags": []
       },
       {
-        "title": "The fastest human spaceflight mission in history crawls closer to liftoff",
-        "link": "https://arstechnica.com/space/2026/01/nasas-artemis-ii-rocket-rolls-to-launch-pad-but-key-test-looms-ahead/",
+        "title": "Signs point to a sooner-rather-than-later M5 MacBook Pro refresh",
+        "link": "https://arstechnica.com/gadgets/2026/01/signs-point-to-a-sooner-rather-than-later-m5-macbook-pro-refresh/",
         "source": "Ars Technica",
-        "pubDate": "2026-01-19T22:01:52.000Z",
-        "relevanceScore": 23.7,
+        "pubDate": "2026-01-19T19:52:22.000Z",
+        "relevanceScore": 23.19,
         "tags": [
-          "Launch"
+          "Update"
         ]
-      },
-      {
-        "title": "Dr. Gladys West, whose mathematical models inspired GPS, dies at 95",
-        "link": "https://www.engadget.com/science/dr-gladys-west-whose-mathematical-models-inspired-gps-dies-at-95-234605023.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-19T23:46:05.000Z",
-        "relevanceScore": 22.05,
-        "tags": []
       },
       {
         "title": "Are DJI Drones Still Banned? (2026)",
         "link": "https://www.wired.com/story/whats-going-on-with-the-dji-drone-ban/",
         "source": "Wired",
         "pubDate": "2026-01-19T13:00:00.000Z",
-        "relevanceScore": 21.9,
+        "relevanceScore": 21.81,
         "tags": []
       },
       {
@@ -753,20 +777,9 @@
         "link": "https://www.wired.com/story/how-to-clean-keurig/",
         "source": "Wired",
         "pubDate": "2026-01-19T11:33:00.000Z",
-        "relevanceScore": 21.61,
+        "relevanceScore": 21.52,
         "tags": [
           "Tutorial"
-        ]
-      },
-      {
-        "title": "ASUS will not release any new smartphones this year",
-        "link": "https://www.engadget.com/mobile/smartphones/asus-will-not-release-any-new-smartphones-this-year-213043832.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-19T21:30:43.000Z",
-        "relevanceScore": 21.6,
-        "tags": [
-          "Business",
-          "Launch"
         ]
       },
       {
@@ -774,69 +787,17 @@
         "link": "https://www.engadget.com/deals/turbotax-deluxe-is-on-sale-for-45-ahead-of-tax-season-204848571.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-19T20:48:48.000Z",
-        "relevanceScore": 21.46,
-        "tags": []
-      },
-      {
-        "title": "Dumbphone Owners Have Lost Their Minds",
-        "link": "https://www.wired.com/story/dumbphone-owners-have-literally-lost-their-minds/",
-        "source": "Wired",
-        "pubDate": "2026-01-19T11:30:15.000Z",
-        "relevanceScore": 20.6,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Palestinian children's football pitch faces Israeli demolition ultimatum",
-        "link": "https://www.bbc.com/news/articles/cjrz0j9p5jqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-20T07:23:51.000Z",
-        "relevanceScore": 39.08,
-        "tags": []
-      },
-      {
-        "title": "Confronted over Greenland, Europe is ditching its softly-softly approach to Trump",
-        "link": "https://www.bbc.com/news/articles/c0lx7j1lrwro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-20T08:09:03.000Z",
-        "relevanceScore": 31.73,
-        "tags": []
-      },
-      {
-        "title": "The hospitals where waiting times are getting worse. Is yours one of them?",
-        "link": "https://www.bbc.com/news/articles/ckgjk89n2nyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-20T01:31:46.000Z",
-        "relevanceScore": 30.4,
-        "tags": []
-      },
-      {
-        "title": "I don't want to reconcile with family, says Brooklyn Peltz Beckham",
-        "link": "https://www.bbc.com/news/articles/ce3ekq4z5dyo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-19T23:01:22.000Z",
-        "relevanceScore": 29.9,
+        "relevanceScore": 21.37,
         "tags": []
       }
     ],
     "business": [
       {
-        "title": "Deadly wreck is the first blight on Spain's leading high-speed rail service",
-        "link": "https://abcnews.go.com/Business/wireStory/deadly-wreck-blight-spains-leading-high-speed-rail-129371862",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-20T06:05:43.000Z",
-        "relevanceScore": 26.32,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
         "title": "Surrounded by billionaires in Davos, Trump plans to lay out how he'll make housing more affordable",
         "link": "https://abcnews.go.com/Business/wireStory/surrounded-billionaires-davos-trump-plans-lay-hell-make-129371498",
         "source": "ABC News Business",
         "pubDate": "2026-01-20T05:26:38.000Z",
-        "relevanceScore": 25.19,
+        "relevanceScore": 349.1,
         "tags": []
       },
       {
@@ -844,7 +805,69 @@
         "link": "https://abcnews.go.com/Business/wireStory/shares-asia-track-european-markets-lower-concern-trumps-129369757",
         "source": "ABC News Business",
         "pubDate": "2026-01-20T05:01:32.000Z",
-        "relevanceScore": 24.6,
+        "relevanceScore": 320.52,
+        "tags": []
+      },
+      {
+        "title": "Deadly wreck is the first blight on Spain's leading high-speed rail service",
+        "link": "https://abcnews.go.com/Business/wireStory/deadly-wreck-blight-spains-leading-high-speed-rail-129371862",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-20T06:05:43.000Z",
+        "relevanceScore": 54.23,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Stars and Stripes top editor talks about Pentagon's takeover of the newspaper",
+        "link": "https://www.npr.org/2026/01/20/nx-s1-5682045/stars-and-stripes-top-editor-talks-about-pentagons-takeover-of-the-newspaper",
+        "source": "NPR Business",
+        "pubDate": "2026-01-20T09:50:07.000Z",
+        "relevanceScore": 27.98,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Confronted over Greenland, Europe is ditching its softly-softly approach to Trump",
+        "link": "https://www.bbc.com/news/articles/c0lx7j1lrwro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-20T08:09:03.000Z",
+        "relevanceScore": 327.64,
+        "tags": []
+      },
+      {
+        "title": "The hospitals where waiting times are getting worse. Is yours one of them?",
+        "link": "https://www.bbc.com/news/articles/ckgjk89n2nyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-20T01:31:46.000Z",
+        "relevanceScore": 58.32,
+        "tags": []
+      },
+      {
+        "title": "Palestinian children's football pitch faces Israeli demolition ultimatum",
+        "link": "https://www.bbc.com/news/articles/cjrz0j9p5jqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-20T07:23:51.000Z",
+        "relevanceScore": 31.49,
+        "tags": []
+      },
+      {
+        "title": "I don't want to reconcile with family, says Brooklyn Peltz Beckham",
+        "link": "https://www.bbc.com/news/articles/ce3ekq4z5dyo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-19T23:01:22.000Z",
+        "relevanceScore": 29.82,
+        "tags": []
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "How crypto criminals stole $700 million from people - often using age-old tricks",
+        "link": "https://www.bbc.com/news/articles/c93w30gl5jno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-19T00:48:24.000Z",
+        "relevanceScore": 60.37,
         "tags": []
       }
     ],
@@ -854,7 +877,7 @@
         "link": "https://techcrunch.com/2026/01/19/looking-ahead-to-2026-whats-next-for-startup-battlefield-200/",
         "source": "TechCrunch",
         "pubDate": "2026-01-19T15:00:00.000Z",
-        "relevanceScore": 23.8,
+        "relevanceScore": 51.71,
         "tags": [
           "Startup",
           "Exclusive"
@@ -867,28 +890,18 @@
         "link": "https://arstechnica.com/gaming/2026/01/bungies-delayed-marathon-revival-will-finally-launch-march-5/",
         "source": "Ars Technica",
         "pubDate": "2026-01-19T21:07:55.000Z",
-        "relevanceScore": 23.53,
+        "relevanceScore": 23.44,
         "tags": [
           "Exclusive",
           "Launch"
         ]
       }
-    ],
-    "blockchain": [
-      {
-        "title": "How crypto criminals stole $700 million from people - often using age-old tricks",
-        "link": "https://www.bbc.com/news/articles/c93w30gl5jno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-19T00:48:24.000Z",
-        "relevanceScore": 19.46,
-        "tags": []
-      }
     ]
   },
   "stats": {
-    "totalSources": 11,
+    "totalSources": 12,
     "totalCategories": 12,
-    "avgRelevanceScore": 144.53736842105263,
+    "avgRelevanceScore": 198.52435897435893,
     "topCategories": [
       {
         "category": "tech",
@@ -896,10 +909,10 @@
       },
       {
         "category": "ai-ml",
-        "count": 7
+        "count": 8
       },
       {
-        "category": "development",
+        "category": "business",
         "count": 4
       },
       {
@@ -907,7 +920,7 @@
         "count": 4
       },
       {
-        "category": "business",
+        "category": "development",
         "count": 3
       }
     ]
