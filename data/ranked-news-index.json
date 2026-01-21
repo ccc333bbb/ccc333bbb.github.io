@@ -1,21 +1,22 @@
 {
-  "lastUpdated": "2026-01-21T20:00:25.379Z",
-  "totalArticles": 53,
+  "lastUpdated": "2026-01-21T20:39:25.501Z",
+  "totalArticles": 54,
   "categories": [
     "tech",
     "ai-ml",
-    "general",
     "development",
+    "general",
     "entertainment",
-    "mobile",
+    "space",
+    "cybersecurity",
     "startup",
-    "social",
+    "mobile",
     "gaming",
     "business",
-    "space",
-    "climate",
+    "social",
     "world",
-    "finance"
+    "finance",
+    "climate"
   ],
   "topArticles": [
     {
@@ -24,8 +25,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-21T18:11:41.000Z",
-      "relevanceScore": 772.64,
-      "recommendationScore": 773.14,
+      "relevanceScore": 848.51,
+      "recommendationScore": 849.01,
       "tags": [
         "Report",
         "Launch"
@@ -33,18 +34,31 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "I built myself a Portfolio to showcase my work",
-      "link": "https://dev.to/justondra/i-built-myself-a-portfolio-to-showcase-my-work-4c5b",
-      "source": "Dev.to",
+      "title": "Irony alert: Hallucinated citations found in papers from NeurIPS, the prestigious AI conference",
+      "link": "https://techcrunch.com/2026/01/21/irony-alert-hallucinated-citations-found-in-papers-from-neurips-the-prestigious-ai-conference/",
+      "source": "TechCrunch",
       "category": "ai-ml",
-      "pubDate": "2026-01-21T19:47:41.000Z",
-      "relevanceScore": 703.96,
-      "recommendationScore": 705.46,
+      "pubDate": "2026-01-21T20:34:42.000Z",
+      "relevanceScore": 793.98,
+      "recommendationScore": 794.48,
       "tags": [
         "AI",
-        "Tech",
-        "Web"
+        "Science",
+        "Startup",
+        "Breaking",
+        "Report"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Don’t let your backend write checks your frontend can’t cache",
+      "link": "https://stackoverflow.blog/2026/01/20/don-t-let-your-backend-write-checks-your-frontend-can-t-cache/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-01-20T08:40:00.000Z",
+      "relevanceScore": 679.3,
+      "recommendationScore": 679.8,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -53,21 +67,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-21T05:56:20.000Z",
-      "relevanceScore": 635.19,
-      "recommendationScore": 637.19,
+      "relevanceScore": 658.06,
+      "recommendationScore": 660.06,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Don’t let your backend write checks your frontend can’t cache",
-      "link": "https://stackoverflow.blog/2026/01/20/don-t-let-your-backend-write-checks-your-frontend-can-t-cache/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2026-01-20T08:40:00.000Z",
-      "relevanceScore": 604.93,
-      "recommendationScore": 605.43,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "The US and China Are Collaborating More Closely on AI Than You Think",
@@ -75,8 +78,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-01-21T19:00:00.000Z",
-      "relevanceScore": 570.8,
-      "recommendationScore": 571.3,
+      "relevanceScore": 642.17,
+      "recommendationScore": 642.67,
       "tags": [
         "AI",
         "Science",
@@ -85,26 +88,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "ElevenLabs made an AI album to plug its music generator",
-      "link": "https://www.theverge.com/news/864843/elevenlabs-ai-music-eleven-album-release",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T17:00:00.000Z",
-      "relevanceScore": 552.9,
-      "recommendationScore": 553.4,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "For All Mankind returns on March 27 for a fifth season",
       "link": "https://www.engadget.com/entertainment/tv-movies/for-all-mankind-returns-on-march-27-for-a-fifth-season-183212860.html?src=rss",
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2026-01-21T18:32:12.000Z",
-      "relevanceScore": 525.71,
-      "recommendationScore": 526.21,
+      "relevanceScore": 623.58,
+      "recommendationScore": 624.08,
       "tags": [
         "Exclusive"
       ],
@@ -116,9 +106,35 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-21T17:59:51.000Z",
-      "relevanceScore": 431.6,
-      "recommendationScore": 433.6,
+      "relevanceScore": 490.47,
+      "recommendationScore": 492.47,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Oldest cave painting of red claw hand could rewrite human creativity timeline",
+      "link": "https://www.bbc.com/news/articles/czx1pnlzer5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-21T16:00:07.000Z",
+      "relevanceScore": 433.57,
+      "recommendationScore": 434.07,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Four LLM Stress Tests",
+      "link": "https://dev.to/ben-santora/four-llm-stress-tests-2pnh",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T20:27:31.000Z",
+      "relevanceScore": 416.46,
+      "recommendationScore": 416.46,
+      "tags": [
+        "AI",
+        "Science",
+        "Report"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -127,12 +143,23 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-21T18:08:05.000Z",
-      "relevanceScore": 404.63,
-      "recommendationScore": 405.13,
+      "relevanceScore": 408.5,
+      "recommendationScore": 409,
       "tags": [
         "AI",
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Anthropic’s new Claude ‘constitution’: be helpful and honest, and don’t destroy humanity",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/865185/anthropic-claude-constitution-soul-doc",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-01-21T20:36:18.000Z",
+      "relevanceScore": 407.49,
+      "recommendationScore": 409.99,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -141,34 +168,9 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-21T17:30:00.000Z",
-      "relevanceScore": 391.5,
-      "recommendationScore": 394,
+      "relevanceScore": 389.87,
+      "recommendationScore": 392.37,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Oldest cave painting of red claw hand could rewrite human creativity timeline",
-      "link": "https://www.bbc.com/news/articles/czx1pnlzer5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-21T16:00:07.000Z",
-      "relevanceScore": 383.2,
-      "recommendationScore": 383.7,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
-      "link": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
-      "source": "GitHub Blog",
-      "category": "mobile",
-      "pubDate": "2026-01-20T17:00:00.000Z",
-      "relevanceScore": 304.6,
-      "recommendationScore": 306.6,
-      "tags": [
-        "Mobile",
-        "Exclusive"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -177,36 +179,39 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-01-21T17:09:10.000Z",
-      "relevanceScore": 300.43,
-      "recommendationScore": 300.93,
+      "relevanceScore": 361.8,
+      "recommendationScore": 362.3,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "TCL Knocks $1,000 Off One of Our Favorite Mid-Range TVs",
-      "link": "https://www.wired.com/story/tcl-qm8k-deal-126/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-21T18:18:10.000Z",
-      "relevanceScore": 272.66,
-      "recommendationScore": 274.16,
-      "tags": [],
+      "title": "Blue Origin’s satellite internet network TeraWave will move data at 6 Tbps",
+      "link": "https://techcrunch.com/2026/01/21/blue-origins-satellite-internet-network-terawave-will-move-data-at-6tbps/",
+      "source": "TechCrunch",
+      "category": "space",
+      "pubDate": "2026-01-21T18:36:48.000Z",
+      "relevanceScore": 345.59,
+      "recommendationScore": 346.09,
+      "tags": [
+        "Web"
+      ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Has Gemini surpassed ChatGPT? We put the AI models to the test.",
-      "link": "https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T15:03:39.000Z",
-      "relevanceScore": 268.01,
-      "recommendationScore": 268.51,
+      "title": "Don’t Lock Yourself Out: Enabling UFW on a Linux Server Without Breaking SSH",
+      "link": "https://dev.to/marcoz/dont-lock-yourself-out-enabling-ufw-on-a-linux-server-without-breaking-ssh-2p7o",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-21T20:27:57.000Z",
+      "relevanceScore": 344.46,
+      "recommendationScore": 344.96,
       "tags": [
-        "AI"
+        "Security",
+        "Breaking"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "advanced"
     },
     {
       "title": "1 year into Trump's new term, an agency that protects your finances is 'hanging by a thread'",
@@ -214,315 +219,11 @@
       "source": "NPR Business",
       "category": "startup",
       "pubDate": "2026-01-21T10:00:00.000Z",
-      "relevanceScore": 254.5,
-      "recommendationScore": 257,
+      "relevanceScore": 305.37,
+      "recommendationScore": 307.87,
       "tags": [
         "Startup",
         "Funding"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Rethinking AI’s future in an augmented workplace",
-      "link": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T15:00:00.000Z",
-      "relevanceScore": 254,
-      "recommendationScore": 254,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: Trump at Davos, and AI scientists",
-      "link": "https://www.technologyreview.com/2026/01/21/1131548/the-download-trump-at-davos-and-ai-scientists/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T13:10:00.000Z",
-      "relevanceScore": 248.63,
-      "recommendationScore": 248.63,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenEvidence hits $12B valuation, with new round led by Thrive, DST",
-      "link": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2026-01-21T18:01:11.000Z",
-      "relevanceScore": 218.1,
-      "recommendationScore": 220.6,
-      "tags": [
-        "Funding"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Learning to Code in 2025: What's Changed, What Hasn't",
-      "link": "https://dev.to/logicleap/learning-to-code-in-2025-whats-changed-what-hasnt-388l",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T19:50:54.000Z",
-      "relevanceScore": 201.97,
-      "recommendationScore": 203.97,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "I built a new type of erasure code using Bloom filters",
-      "link": "https://www.reddit.com/r/programming/comments/1qivu6e/i_built_a_new_type_of_erasure_code_using_bloom/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-01-21T11:50:09.000Z",
-      "relevanceScore": 189.37,
-      "recommendationScore": 191.87,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What We Know About the Winter Storm About to Hit the US—and What We Don’t",
-      "link": "https://www.wired.com/story/winter-storm-about-to-hit-the-us-snow-freezing-rain/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-21T19:03:03.000Z",
-      "relevanceScore": 182.81,
-      "recommendationScore": 184.81,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "UK consulting on bringing in social media ban for under 16s",
-      "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-01-20T13:28:09.000Z",
-      "relevanceScore": 175.89,
-      "recommendationScore": 176.39,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "$100 Off Shark Promo Code | This January",
-      "link": "https://www.wired.com/story/shark-promo-code/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2026-01-21T19:03:11.000Z",
-      "relevanceScore": 174.81,
-      "recommendationScore": 174.81,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Iconic Coney Island hot dog hawker Nathan's Famous is sold for $450 million",
-      "link": "https://abcnews.go.com/Business/wireStory/iconic-coney-island-hot-dog-hawker-nathans-famous-129424791",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-21T18:24:23.000Z",
-      "relevanceScore": 161.68,
-      "recommendationScore": 162.18,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Ubisoft cancels Prince of Persia remake as part of major reorganization",
-      "link": "https://www.theverge.com/news/865060/ubisoft-prince-of-persia-sands-of-time-remake-canceled-reorganization",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-21T17:23:29.000Z",
-      "relevanceScore": 161.48,
-      "recommendationScore": 161.98,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Meta is expanding Threads ads to all users globally",
-      "link": "https://www.engadget.com/social-media/meta-is-expanding-threads-ads-to-all-users-globally-183900226.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-01-21T18:39:00.000Z",
-      "relevanceScore": 157.73,
-      "recommendationScore": 158.23,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Faisal Islam: What it was like inside the room with Donald Trump at Davos",
-      "link": "https://www.bbc.com/news/articles/cm24vjvy3n1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-21T19:22:59.000Z",
-      "relevanceScore": 148.88,
-      "recommendationScore": 150.88,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Google says Gemini won’t have ads, as ChatGPT prepares to add them",
-      "link": "https://www.reddit.com/r/technology/comments/1qivhud/google_says_gemini_wont_have_ads_as_chatgpt/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T11:31:20.000Z",
-      "relevanceScore": 135.3,
-      "recommendationScore": 135.8,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Blue Origin’s satellite internet network TeraWave will move data at 6Tbps",
-      "link": "https://techcrunch.com/2026/01/21/blue-origins-satellite-internet-network-terawave-will-move-data-at-6tbps/",
-      "source": "TechCrunch",
-      "category": "space",
-      "pubDate": "2026-01-21T18:36:48.000Z",
-      "relevanceScore": 85.22,
-      "recommendationScore": 85.72,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent",
-      "link": "https://github.blog/security/ai-supported-vulnerability-triage-with-the-github-security-lab-taskflow-agent/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-01-20T19:52:50.000Z",
-      "relevanceScore": 63.17,
-      "recommendationScore": 63.67,
-      "tags": [
-        "AI",
-        "Security",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump administration claims offshore wind poses a threat. But it won't say how.",
-      "link": "https://www.npr.org/2026/01/21/nx-s1-5678635/trump-offshore-wind-national-security-climate-change",
-      "source": "NPR Business",
-      "category": "climate",
-      "pubDate": "2026-01-21T10:00:00.000Z",
-      "relevanceScore": 55,
-      "recommendationScore": 57,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Mother-of-10 guilty of keeping vulnerable woman as slave for 25 years",
-      "link": "https://www.bbc.com/news/articles/c78v36g4pnno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-21T18:32:40.000Z",
-      "relevanceScore": 51.71,
-      "recommendationScore": 52.21,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Everyone wants AI sovereignty. No one can truly have it.",
-      "link": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-01-21T14:00:00.000Z",
-      "relevanceScore": 48.8,
-      "recommendationScore": 49.3,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Ryanair CEO dismisses Elon Musk's idea of buying the airline as verbal feud escalates",
-      "link": "https://abcnews.go.com/Business/wireStory/ryanair-ceo-dismisses-elon-musks-idea-buying-airline-129417856",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-21T14:27:51.000Z",
-      "relevanceScore": 44.89,
-      "recommendationScore": 45.39,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Microsoft ports the Xbox app to Arm-based Windows PCs",
-      "link": "https://www.engadget.com/gaming/pc/microsoft-ports-the-xbox-app-to-arm-based-windows-pcs-191049475.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-01-21T19:10:49.000Z",
-      "relevanceScore": 44.83,
-      "recommendationScore": 45.33,
-      "tags": [
-        "Mobile",
-        "Launch",
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Snap settles social media addiction lawsuit ahead of trial",
-      "link": "https://www.bbc.com/news/articles/c62ndl2ydzxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-01-21T00:17:01.000Z",
-      "relevanceScore": 42.06,
-      "recommendationScore": 42.56,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1427, Part 1 (Thread #1574)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1qinlns/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-21T04:02:42.000Z",
-      "relevanceScore": 40.81,
-      "recommendationScore": 43.31,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Two Catastrophic Failures Caused by \"Obvious\" Assumptions",
-      "link": "https://www.reddit.com/r/programming/comments/1qj00yq/two_catastrophic_failures_caused_by_obvious/",
-      "source": "Reddit Programming",
-      "category": "space",
-      "pubDate": "2026-01-21T14:56:10.000Z",
-      "relevanceScore": 40.49,
-      "recommendationScore": 40.99,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why Senior Engineers Let Bad Projects Fail",
-      "link": "https://www.reddit.com/r/programming/comments/1qijolr/why_senior_engineers_let_bad_projects_fail/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-01-21T01:07:44.000Z",
-      "relevanceScore": 37.72,
-      "recommendationScore": 39.22,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Is that allowed? Authentication and authorization in Model Context Protocol",
-      "link": "https://stackoverflow.blog/2026/01/21/is-that-allowed-authentication-and-authorization-in-model-context-protocol/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2026-01-21T15:00:00.000Z",
-      "relevanceScore": 32,
-      "recommendationScore": 32.5,
-      "tags": [
-        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -532,20 +233,229 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-21T18:40:21.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 32.23,
+      "relevanceScore": 259.6,
+      "recommendationScore": 260.1,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Supreme Court appears wary of allowing Trump to fire Fed's Cook in closely watched case",
-      "link": "https://www.npr.org/2026/01/21/nx-s1-5683968/supreme-court-federal-reserve-lisa-cook",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2026-01-21T17:12:28.000Z",
-      "relevanceScore": 28.44,
-      "recommendationScore": 28.94,
+      "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
+      "link": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
+      "source": "GitHub Blog",
+      "category": "mobile",
+      "pubDate": "2026-01-20T17:00:00.000Z",
+      "relevanceScore": 233.47,
+      "recommendationScore": 235.47,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "$100 Off Shark Promo Code | This January",
+      "link": "https://www.wired.com/story/shark-promo-code/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2026-01-21T19:03:11.000Z",
+      "relevanceScore": 223.68,
+      "recommendationScore": 223.68,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Download: Trump at Davos, and AI scientists",
+      "link": "https://www.technologyreview.com/2026/01/21/1131548/the-download-trump-at-davos-and-ai-scientists/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T13:10:00.000Z",
+      "relevanceScore": 223,
+      "recommendationScore": 223,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Rethinking AI’s future in an augmented workplace",
+      "link": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T15:00:00.000Z",
+      "relevanceScore": 188.37,
+      "recommendationScore": 188.37,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "OpenEvidence hits $12B valuation, with new round led by Thrive, DST",
+      "link": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2026-01-21T18:01:11.000Z",
+      "relevanceScore": 184.97,
+      "recommendationScore": 187.47,
+      "tags": [
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What We Know About the Winter Storm About to Hit the US—and What We Don’t",
+      "link": "https://www.wired.com/story/winter-storm-about-to-hit-the-us-snow-freezing-rain/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-21T19:03:03.000Z",
+      "relevanceScore": 184.18,
+      "recommendationScore": 186.18,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Iconic Coney Island hot dog hawker Nathan's Famous is sold for $450 million",
+      "link": "https://abcnews.go.com/Business/wireStory/iconic-coney-island-hot-dog-hawker-nathans-famous-129424791",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-21T18:24:23.000Z",
+      "relevanceScore": 181.55,
+      "recommendationScore": 182.05,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "UK consulting on bringing in social media ban for under 16s",
+      "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-01-20T13:28:09.000Z",
+      "relevanceScore": 177.26,
+      "recommendationScore": 177.76,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Epistemology of Offense and Defense: A Foundational Framework",
+      "link": "https://dev.to/narnaiezzsshaa/the-epistemology-of-offense-and-defense-a-foundational-framework-em0",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-21T20:31:04.000Z",
+      "relevanceScore": 166.47,
+      "recommendationScore": 166.97,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What Type of Mattress Is Right for You? (2026)",
+      "link": "https://www.wired.com/story/mattress-types-explained/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-21T20:34:00.000Z",
+      "relevanceScore": 165.98,
+      "recommendationScore": 167.48,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Google says Gemini won’t have ads, as ChatGPT prepares to add them",
+      "link": "https://www.reddit.com/r/technology/comments/1qivhud/google_says_gemini_wont_have_ads_as_chatgpt/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T11:31:20.000Z",
+      "relevanceScore": 150.17,
+      "recommendationScore": 150.67,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Meta is expanding Threads ads to all users globally",
+      "link": "https://www.engadget.com/social-media/meta-is-expanding-threads-ads-to-all-users-globally-183900226.html?src=rss",
+      "source": "Engadget",
+      "category": "social",
+      "pubDate": "2026-01-21T18:39:00.000Z",
+      "relevanceScore": 143.1,
+      "recommendationScore": 143.6,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Carney leaves Davos without meeting Trump after speech on U.S. rupture of world order",
+      "link": "https://www.reddit.com/r/worldnews/comments/1qiz899/carney_leaves_davos_without_meeting_trump_after/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-21T14:24:43.000Z",
+      "relevanceScore": 130.75,
+      "recommendationScore": 131.25,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Apps for boycotting American products surge to the top of the Danish App Store",
+      "link": "https://techcrunch.com/2026/01/21/apps-for-boycotting-american-products-surge-to-the-top-of-the-danish-app-store/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-01-21T20:38:54.000Z",
+      "relevanceScore": 81,
+      "recommendationScore": 82.5,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Spotify won court order against Anna’s Archive, taking down .org domain",
+      "link": "https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-21T19:34:14.000Z",
+      "relevanceScore": 79.28,
+      "recommendationScore": 79.78,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Faisal Islam: What it was like inside the room with Donald Trump at Davos",
+      "link": "https://www.bbc.com/news/articles/cm24vjvy3n1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-21T19:22:59.000Z",
+      "relevanceScore": 53.75,
+      "recommendationScore": 55.75,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Mother-of-10 guilty of keeping vulnerable woman as slave for 25 years",
+      "link": "https://www.bbc.com/news/articles/c78v36g4pnno?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-21T18:32:40.000Z",
+      "relevanceScore": 33.08,
+      "recommendationScore": 33.58,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Everyone wants AI sovereignty. No one can truly have it.",
+      "link": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T14:00:00.000Z",
+      "relevanceScore": 30.17,
+      "recommendationScore": 30.67,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -554,37 +464,102 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-01-21T18:33:33.000Z",
-      "relevanceScore": 27.71,
-      "recommendationScore": 30.21,
+      "relevanceScore": 29.08,
+      "recommendationScore": 31.58,
       "tags": [
         "Startup",
         "Funding"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
-      "title": "Threads rolls out ads to all users worldwide",
-      "link": "https://techcrunch.com/2026/01/21/threads-rolls-out-ads-to-all-users-worldwide/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2026-01-21T16:44:11.000Z",
-      "relevanceScore": 27.35,
-      "recommendationScore": 27.35,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "YouTube TV’s multiview is getting a huge upgrade, letting viewers mix and match channels",
-      "link": "https://techcrunch.com/2026/01/21/youtube-tvs-multiview-is-getting-a-huge-upgrade-letting-viewers-mix-and-match-channels/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-21T16:26:04.000Z",
-      "relevanceScore": 27.29,
-      "recommendationScore": 27.79,
+      "title": "Apple is turning Siri into an AI bot that&#8217;s more like ChatGPT",
+      "link": "https://www.theverge.com/news/865172/apple-siri-ai-chatbot-chatgpt",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T20:26:47.000Z",
+      "relevanceScore": 28.46,
+      "recommendationScore": 28.96,
       "tags": [
+        "AI",
+        "Mobile",
         "Update"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Supreme Court appears wary of allowing Trump to fire Fed's Cook in closely watched case",
+      "link": "https://www.npr.org/2026/01/21/nx-s1-5683968/supreme-court-federal-reserve-lisa-cook",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2026-01-21T17:12:28.000Z",
+      "relevanceScore": 28.31,
+      "recommendationScore": 28.81,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump administration claims offshore wind poses a threat. But it won't say how.",
+      "link": "https://www.npr.org/2026/01/21/nx-s1-5678635/trump-offshore-wind-national-security-climate-change",
+      "source": "NPR Business",
+      "category": "climate",
+      "pubDate": "2026-01-21T10:00:00.000Z",
+      "relevanceScore": 27.37,
+      "recommendationScore": 29.37,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent",
+      "link": "https://github.blog/security/ai-supported-vulnerability-triage-with-the-github-security-lab-taskflow-agent/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-01-20T19:52:50.000Z",
+      "relevanceScore": 26.54,
+      "recommendationScore": 27.04,
+      "tags": [
+        "AI",
+        "Security",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Ryanair CEO dismisses Elon Musk's idea of buying the airline as verbal feud escalates",
+      "link": "https://abcnews.go.com/Business/wireStory/ryanair-ceo-dismisses-elon-musks-idea-buying-airline-129417856",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-01-21T14:27:51.000Z",
+      "relevanceScore": 26.26,
+      "recommendationScore": 26.76,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Microsoft ports the Xbox app to Arm-based Windows PCs",
+      "link": "https://www.engadget.com/gaming/pc/microsoft-ports-the-xbox-app-to-arm-based-windows-pcs-191049475.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-01-21T19:10:49.000Z",
+      "relevanceScore": 26.2,
+      "recommendationScore": 26.7,
+      "tags": [
+        "Mobile",
+        "Launch",
+        "Update"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Watch a robot swarm \"bloom\" like a garden",
+      "link": "https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-21T19:47:27.000Z",
+      "relevanceScore": 25.83,
+      "recommendationScore": 25.83,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Here's Volvo's new EX60 $60,000 electric midsize SUV",
@@ -592,8 +567,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-21T17:30:58.000Z",
-      "relevanceScore": 25.5,
-      "recommendationScore": 28,
+      "relevanceScore": 25.37,
+      "recommendationScore": 27.87,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -603,8 +578,8 @@
       "source": "ABC News Business",
       "category": "gaming",
       "pubDate": "2026-01-21T14:28:32.000Z",
-      "relevanceScore": 24.89,
-      "recommendationScore": 27.39,
+      "relevanceScore": 24.76,
+      "recommendationScore": 27.26,
       "tags": [
         "Business",
         "Exclusive"
@@ -612,30 +587,64 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Zillow removed climate risk scores. This climate expert is restoring them.",
-      "link": "https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/",
-      "source": "Ars Technica",
-      "category": "climate",
-      "pubDate": "2026-01-21T14:33:00.000Z",
-      "relevanceScore": 24.41,
-      "recommendationScore": 24.91,
+      "title": "Rollout of AI may need to be slowed to ‘save society’, says JP Morgan boss | Davos 2026",
+      "link": "https://www.reddit.com/r/programming/comments/1qj910p/rollout_of_ai_may_need_to_be_slowed_to_save/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-01-21T20:20:35.000Z",
+      "relevanceScore": 23.44,
+      "recommendationScore": 23.94,
       "tags": [
-        "Web"
+        "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Warum Handwerker-Websites 2026 für uns Entwickler interessant sind (und was wir daraus lernen können)",
-      "link": "https://dev.to/ivo_sa/warum-handwerker-websites-2026-fur-uns-entwickler-interessant-sind-und-was-wir-daraus-lernen-1i2e",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-21T19:50:12.000Z",
-      "relevanceScore": 23.97,
-      "recommendationScore": 23.97,
+      "title": "Snap settles social media addiction lawsuit ahead of trial",
+      "link": "https://www.bbc.com/news/articles/c62ndl2ydzxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-01-21T00:17:01.000Z",
+      "relevanceScore": 23.43,
+      "recommendationScore": 23.93,
       "tags": [
-        "Business",
-        "Web"
+        "Social"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump Threatens Canada After Carney Draws Standing Ovation at Davos",
+      "link": "https://www.reddit.com/r/worldnews/comments/1qj428n/trump_threatens_canada_after_carney_draws/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-21T17:22:17.000Z",
+      "relevanceScore": 23.34,
+      "recommendationScore": 23.84,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Is that allowed? Authentication and authorization in Model Context Protocol",
+      "link": "https://stackoverflow.blog/2026/01/21/is-that-allowed-authentication-and-authorization-in-model-context-protocol/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-01-21T15:00:00.000Z",
+      "relevanceScore": 22.87,
+      "recommendationScore": 23.37,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1427, Part 1 (Thread #1574)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1qinlns/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-21T04:02:42.000Z",
+      "relevanceScore": 22.18,
+      "recommendationScore": 24.68,
+      "tags": [],
       "readingLevel": "advanced"
     }
   ],
@@ -646,42 +655,26 @@
         "link": "https://www.theverge.com/news/865083/samsung-galaxy-s26-battery-pack-qi2-support",
         "source": "The Verge",
         "pubDate": "2026-01-21T18:11:41.000Z",
-        "relevanceScore": 772.64,
+        "relevanceScore": 848.51,
         "tags": [
           "Report",
           "Launch"
         ]
       },
       {
+        "title": "Anthropic’s new Claude ‘constitution’: be helpful and honest, and don’t destroy humanity",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/865185/anthropic-claude-constitution-soul-doc",
+        "source": "The Verge",
+        "pubDate": "2026-01-21T20:36:18.000Z",
+        "relevanceScore": 407.49,
+        "tags": []
+      },
+      {
         "title": "Volvo aims for an EV reset with the new EX60 crossover",
         "link": "https://www.theverge.com/news/864561/volvo-ex60-range-price-specs",
         "source": "The Verge",
         "pubDate": "2026-01-21T17:30:00.000Z",
-        "relevanceScore": 391.5,
-        "tags": []
-      },
-      {
-        "title": "TCL Knocks $1,000 Off One of Our Favorite Mid-Range TVs",
-        "link": "https://www.wired.com/story/tcl-qm8k-deal-126/",
-        "source": "Wired",
-        "pubDate": "2026-01-21T18:18:10.000Z",
-        "relevanceScore": 272.66,
-        "tags": []
-      },
-      {
-        "title": "What We Know About the Winter Storm About to Hit the US—and What We Don’t",
-        "link": "https://www.wired.com/story/winter-storm-about-to-hit-the-us-snow-freezing-rain/",
-        "source": "Wired",
-        "pubDate": "2026-01-21T19:03:03.000Z",
-        "relevanceScore": 182.81,
-        "tags": []
-      },
-      {
-        "title": "Ubisoft cancels Prince of Persia remake as part of major reorganization",
-        "link": "https://www.theverge.com/news/865060/ubisoft-prince-of-persia-sands-of-time-remake-canceled-reorganization",
-        "source": "The Verge",
-        "pubDate": "2026-01-21T17:23:29.000Z",
-        "relevanceScore": 161.48,
+        "relevanceScore": 389.87,
         "tags": []
       },
       {
@@ -689,25 +682,49 @@
         "link": "https://arstechnica.com/space/2026/01/blue-origin-we-want-to-have-a-megaconstellation-too/",
         "source": "Ars Technica",
         "pubDate": "2026-01-21T18:40:21.000Z",
-        "relevanceScore": 31.73,
+        "relevanceScore": 259.6,
         "tags": []
       },
       {
-        "title": "YouTube TV’s multiview is getting a huge upgrade, letting viewers mix and match channels",
-        "link": "https://techcrunch.com/2026/01/21/youtube-tvs-multiview-is-getting-a-huge-upgrade-letting-viewers-mix-and-match-channels/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-21T16:26:04.000Z",
-        "relevanceScore": 27.29,
+        "title": "What We Know About the Winter Storm About to Hit the US—and What We Don’t",
+        "link": "https://www.wired.com/story/winter-storm-about-to-hit-the-us-snow-freezing-rain/",
+        "source": "Wired",
+        "pubDate": "2026-01-21T19:03:03.000Z",
+        "relevanceScore": 184.18,
+        "tags": []
+      },
+      {
+        "title": "What Type of Mattress Is Right for You? (2026)",
+        "link": "https://www.wired.com/story/mattress-types-explained/",
+        "source": "Wired",
+        "pubDate": "2026-01-21T20:34:00.000Z",
+        "relevanceScore": 165.98,
         "tags": [
-          "Update"
+          "Tutorial"
         ]
+      },
+      {
+        "title": "Spotify won court order against Anna’s Archive, taking down .org domain",
+        "link": "https://arstechnica.com/tech-policy/2026/01/annas-archive-said-spotify-scrape-didnt-cause-domain-suspension-it-was-wrong/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-21T19:34:14.000Z",
+        "relevanceScore": 79.28,
+        "tags": []
+      },
+      {
+        "title": "Watch a robot swarm \"bloom\" like a garden",
+        "link": "https://arstechnica.com/science/2026/01/watch-a-robot-swarm-bloom-like-a-garden/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-21T19:47:27.000Z",
+        "relevanceScore": 25.83,
+        "tags": []
       },
       {
         "title": "Here's Volvo's new EX60 $60,000 electric midsize SUV",
         "link": "https://arstechnica.com/cars/2026/01/heres-volvos-new-ex60-60000-electric-midsize-suv/",
         "source": "Ars Technica",
         "pubDate": "2026-01-21T17:30:58.000Z",
-        "relevanceScore": 25.5,
+        "relevanceScore": 25.37,
         "tags": []
       },
       {
@@ -715,21 +732,23 @@
         "link": "https://www.reddit.com/r/technology/comments/1qiy0yd/apps_that_can_sort_out_american_goods_are/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-21T13:34:33.000Z",
-        "relevanceScore": 21.71,
+        "relevanceScore": 21.58,
         "tags": []
       }
     ],
     "ai-ml": [
       {
-        "title": "I built myself a Portfolio to showcase my work",
-        "link": "https://dev.to/justondra/i-built-myself-a-portfolio-to-showcase-my-work-4c5b",
-        "source": "Dev.to",
-        "pubDate": "2026-01-21T19:47:41.000Z",
-        "relevanceScore": 703.96,
+        "title": "Irony alert: Hallucinated citations found in papers from NeurIPS, the prestigious AI conference",
+        "link": "https://techcrunch.com/2026/01/21/irony-alert-hallucinated-citations-found-in-papers-from-neurips-the-prestigious-ai-conference/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-21T20:34:42.000Z",
+        "relevanceScore": 793.98,
         "tags": [
           "AI",
-          "Tech",
-          "Web"
+          "Science",
+          "Startup",
+          "Breaking",
+          "Report"
         ]
       },
       {
@@ -737,7 +756,7 @@
         "link": "https://www.wired.com/story/us-china-collaboration-neurips-papers/",
         "source": "Wired",
         "pubDate": "2026-01-21T19:00:00.000Z",
-        "relevanceScore": 570.8,
+        "relevanceScore": 642.17,
         "tags": [
           "AI",
           "Science",
@@ -745,13 +764,15 @@
         ]
       },
       {
-        "title": "ElevenLabs made an AI album to plug its music generator",
-        "link": "https://www.theverge.com/news/864843/elevenlabs-ai-music-eleven-album-release",
-        "source": "The Verge",
-        "pubDate": "2026-01-21T17:00:00.000Z",
-        "relevanceScore": 552.9,
+        "title": "Four LLM Stress Tests",
+        "link": "https://dev.to/ben-santora/four-llm-stress-tests-2pnh",
+        "source": "Dev.to",
+        "pubDate": "2026-01-21T20:27:31.000Z",
+        "relevanceScore": 416.46,
         "tags": [
-          "AI"
+          "AI",
+          "Science",
+          "Report"
         ]
       },
       {
@@ -759,30 +780,10 @@
         "link": "https://www.engadget.com/ai/amazon-is-adding-ai-powered-assistant-to-one-medical-180803368.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-21T18:08:05.000Z",
-        "relevanceScore": 404.63,
+        "relevanceScore": 408.5,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Has Gemini surpassed ChatGPT? We put the AI models to the test.",
-        "link": "https://arstechnica.com/features/2026/01/has-gemini-surpassed-chatgpt-we-put-the-ai-models-to-the-test/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-21T15:03:39.000Z",
-        "relevanceScore": 268.01,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Rethinking AI’s future in an augmented workplace",
-        "link": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-01-21T15:00:00.000Z",
-        "relevanceScore": 254,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -790,18 +791,18 @@
         "link": "https://www.technologyreview.com/2026/01/21/1131548/the-download-trump-at-davos-and-ai-scientists/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-21T13:10:00.000Z",
-        "relevanceScore": 248.63,
+        "relevanceScore": 223,
         "tags": [
           "AI",
           "Tech"
         ]
       },
       {
-        "title": "Learning to Code in 2025: What's Changed, What Hasn't",
-        "link": "https://dev.to/logicleap/learning-to-code-in-2025-whats-changed-what-hasnt-388l",
-        "source": "Dev.to",
-        "pubDate": "2026-01-21T19:50:54.000Z",
-        "relevanceScore": 201.97,
+        "title": "Rethinking AI’s future in an augmented workplace",
+        "link": "https://www.technologyreview.com/2026/01/21/1131366/rethinking-ais-future-in-an-augmented-workplace/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-01-21T15:00:00.000Z",
+        "relevanceScore": 188.37,
         "tags": [
           "AI"
         ]
@@ -811,15 +812,37 @@
         "link": "https://www.reddit.com/r/technology/comments/1qivhud/google_says_gemini_wont_have_ads_as_chatgpt/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-21T11:31:20.000Z",
-        "relevanceScore": 135.3,
+        "relevanceScore": 150.17,
         "tags": []
+      },
+      {
+        "title": "Everyone wants AI sovereignty. No one can truly have it.",
+        "link": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-01-21T14:00:00.000Z",
+        "relevanceScore": 30.17,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Apple is turning Siri into an AI bot that&#8217;s more like ChatGPT",
+        "link": "https://www.theverge.com/news/865172/apple-siri-ai-chatbot-chatgpt",
+        "source": "The Verge",
+        "pubDate": "2026-01-21T20:26:47.000Z",
+        "relevanceScore": 28.46,
+        "tags": [
+          "AI",
+          "Mobile",
+          "Update"
+        ]
       },
       {
         "title": "AI-supported vulnerability triage with the GitHub Security Lab Taskflow Agent",
         "link": "https://github.blog/security/ai-supported-vulnerability-triage-with-the-github-security-lab-taskflow-agent/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-20T19:52:50.000Z",
-        "relevanceScore": 63.17,
+        "relevanceScore": 26.54,
         "tags": [
           "AI",
           "Security",
@@ -827,56 +850,14 @@
         ]
       },
       {
-        "title": "Everyone wants AI sovereignty. No one can truly have it.",
-        "link": "https://www.technologyreview.com/2026/01/21/1131513/everyone-wants-ai-sovereignty-no-one-can-truly-have-it/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-01-21T14:00:00.000Z",
-        "relevanceScore": 48.8,
+        "title": "Rollout of AI may need to be slowed to ‘save society’, says JP Morgan boss | Davos 2026",
+        "link": "https://www.reddit.com/r/programming/comments/1qj910p/rollout_of_ai_may_need_to_be_slowed_to_save/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-21T20:20:35.000Z",
+        "relevanceScore": 23.44,
         "tags": [
           "AI"
         ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Photos leaked to BBC show faces of hundreds killed in Iran's brutal protest crackdown",
-        "link": "https://www.bbc.com/news/articles/c0r4957rq8ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-21T05:56:20.000Z",
-        "relevanceScore": 635.19,
-        "tags": []
-      },
-      {
-        "title": "Tetchy and emotional exchanges as Harry in court for what could be last time",
-        "link": "https://www.bbc.com/news/articles/c07x53vjegvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-21T17:59:51.000Z",
-        "relevanceScore": 431.6,
-        "tags": []
-      },
-      {
-        "title": "Oldest cave painting of red claw hand could rewrite human creativity timeline",
-        "link": "https://www.bbc.com/news/articles/czx1pnlzer5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-21T16:00:07.000Z",
-        "relevanceScore": 383.2,
-        "tags": []
-      },
-      {
-        "title": "Faisal Islam: What it was like inside the room with Donald Trump at Davos",
-        "link": "https://www.bbc.com/news/articles/cm24vjvy3n1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-21T19:22:59.000Z",
-        "relevanceScore": 148.88,
-        "tags": []
-      },
-      {
-        "title": "Mother-of-10 guilty of keeping vulnerable woman as slave for 25 years",
-        "link": "https://www.bbc.com/news/articles/c78v36g4pnno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-21T18:32:40.000Z",
-        "relevanceScore": 51.71,
-        "tags": []
       }
     ],
     "development": [
@@ -885,7 +866,7 @@
         "link": "https://stackoverflow.blog/2026/01/20/don-t-let-your-backend-write-checks-your-frontend-can-t-cache/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-20T08:40:00.000Z",
-        "relevanceScore": 604.93,
+        "relevanceScore": 679.3,
         "tags": []
       },
       {
@@ -893,47 +874,70 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-21T17:09:10.000Z",
-        "relevanceScore": 300.43,
+        "relevanceScore": 361.8,
         "tags": [
           "Exclusive"
         ]
-      },
-      {
-        "title": "I built a new type of erasure code using Bloom filters",
-        "link": "https://www.reddit.com/r/programming/comments/1qivu6e/i_built_a_new_type_of_erasure_code_using_bloom/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-21T11:50:09.000Z",
-        "relevanceScore": 189.37,
-        "tags": []
-      },
-      {
-        "title": "Why Senior Engineers Let Bad Projects Fail",
-        "link": "https://www.reddit.com/r/programming/comments/1qijolr/why_senior_engineers_let_bad_projects_fail/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-21T01:07:44.000Z",
-        "relevanceScore": 37.72,
-        "tags": []
       },
       {
         "title": "Is that allowed? Authentication and authorization in Model Context Protocol",
         "link": "https://stackoverflow.blog/2026/01/21/is-that-allowed-authentication-and-authorization-in-model-context-protocol/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-21T15:00:00.000Z",
-        "relevanceScore": 32,
+        "relevanceScore": 22.87,
         "tags": [
           "Tutorial"
         ]
       },
       {
-        "title": "Warum Handwerker-Websites 2026 für uns Entwickler interessant sind (und was wir daraus lernen können)",
-        "link": "https://dev.to/ivo_sa/warum-handwerker-websites-2026-fur-uns-entwickler-interessant-sind-und-was-wir-daraus-lernen-1i2e",
-        "source": "Dev.to",
-        "pubDate": "2026-01-21T19:50:12.000Z",
-        "relevanceScore": 23.97,
-        "tags": [
-          "Business",
-          "Web"
-        ]
+        "title": "Why Senior Engineers Let Bad Projects Fail",
+        "link": "https://www.reddit.com/r/programming/comments/1qijolr/why_senior_engineers_let_bad_projects_fail/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-21T01:07:44.000Z",
+        "relevanceScore": 19.09,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Photos leaked to BBC show faces of hundreds killed in Iran's brutal protest crackdown",
+        "link": "https://www.bbc.com/news/articles/c0r4957rq8ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-21T05:56:20.000Z",
+        "relevanceScore": 658.06,
+        "tags": []
+      },
+      {
+        "title": "Tetchy and emotional exchanges as Harry in court for what could be last time",
+        "link": "https://www.bbc.com/news/articles/c07x53vjegvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-21T17:59:51.000Z",
+        "relevanceScore": 490.47,
+        "tags": []
+      },
+      {
+        "title": "Oldest cave painting of red claw hand could rewrite human creativity timeline",
+        "link": "https://www.bbc.com/news/articles/czx1pnlzer5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-21T16:00:07.000Z",
+        "relevanceScore": 433.57,
+        "tags": []
+      },
+      {
+        "title": "Faisal Islam: What it was like inside the room with Donald Trump at Davos",
+        "link": "https://www.bbc.com/news/articles/cm24vjvy3n1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-21T19:22:59.000Z",
+        "relevanceScore": 53.75,
+        "tags": []
+      },
+      {
+        "title": "Mother-of-10 guilty of keeping vulnerable woman as slave for 25 years",
+        "link": "https://www.bbc.com/news/articles/c78v36g4pnno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-21T18:32:40.000Z",
+        "relevanceScore": 33.08,
+        "tags": []
       }
     ],
     "entertainment": [
@@ -942,34 +946,52 @@
         "link": "https://www.engadget.com/entertainment/tv-movies/for-all-mankind-returns-on-march-27-for-a-fifth-season-183212860.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-21T18:32:12.000Z",
-        "relevanceScore": 525.71,
+        "relevanceScore": 623.58,
         "tags": [
           "Exclusive"
         ]
       }
     ],
-    "mobile": [
+    "space": [
       {
-        "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
-        "link": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-01-20T17:00:00.000Z",
-        "relevanceScore": 304.6,
+        "title": "Blue Origin’s satellite internet network TeraWave will move data at 6 Tbps",
+        "link": "https://techcrunch.com/2026/01/21/blue-origins-satellite-internet-network-terawave-will-move-data-at-6tbps/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-21T18:36:48.000Z",
+        "relevanceScore": 345.59,
         "tags": [
-          "Mobile",
-          "Exclusive"
+          "Web"
         ]
       },
       {
-        "title": "Microsoft ports the Xbox app to Arm-based Windows PCs",
-        "link": "https://www.engadget.com/gaming/pc/microsoft-ports-the-xbox-app-to-arm-based-windows-pcs-191049475.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-21T19:10:49.000Z",
-        "relevanceScore": 44.83,
+        "title": "Two Catastrophic Failures Caused by \"Obvious\" Assumptions",
+        "link": "https://www.reddit.com/r/programming/comments/1qj00yq/two_catastrophic_failures_caused_by_obvious/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-21T14:56:10.000Z",
+        "relevanceScore": 21.86,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Don’t Lock Yourself Out: Enabling UFW on a Linux Server Without Breaking SSH",
+        "link": "https://dev.to/marcoz/dont-lock-yourself-out-enabling-ufw-on-a-linux-server-without-breaking-ssh-2p7o",
+        "source": "Dev.to",
+        "pubDate": "2026-01-21T20:27:57.000Z",
+        "relevanceScore": 344.46,
         "tags": [
-          "Mobile",
-          "Launch",
-          "Update"
+          "Security",
+          "Breaking"
+        ]
+      },
+      {
+        "title": "The Epistemology of Offense and Defense: A Foundational Framework",
+        "link": "https://dev.to/narnaiezzsshaa/the-epistemology-of-offense-and-defense-a-foundational-framework-em0",
+        "source": "Dev.to",
+        "pubDate": "2026-01-21T20:31:04.000Z",
+        "relevanceScore": 166.47,
+        "tags": [
+          "Security"
         ]
       }
     ],
@@ -979,7 +1001,7 @@
         "link": "https://www.npr.org/2026/01/21/nx-s1-5683060/cfpb-consumer-watchdog-agency-trump-second-term",
         "source": "NPR Business",
         "pubDate": "2026-01-21T10:00:00.000Z",
-        "relevanceScore": 254.5,
+        "relevanceScore": 305.37,
         "tags": [
           "Startup",
           "Funding"
@@ -990,7 +1012,7 @@
         "link": "https://techcrunch.com/2026/01/21/openevidence-hits-12b-valuation-with-new-round-led-by-thrive-dst/",
         "source": "TechCrunch",
         "pubDate": "2026-01-21T18:01:11.000Z",
-        "relevanceScore": 218.1,
+        "relevanceScore": 184.97,
         "tags": [
           "Funding"
         ]
@@ -1000,49 +1022,46 @@
         "link": "https://techcrunch.com/2026/01/21/zipline-charts-drone-delivery-expansion-with-600m-in-new-funding/",
         "source": "TechCrunch",
         "pubDate": "2026-01-21T18:33:33.000Z",
-        "relevanceScore": 27.71,
+        "relevanceScore": 29.08,
         "tags": [
           "Startup",
           "Funding"
         ]
       }
     ],
-    "social": [
+    "mobile": [
       {
-        "title": "UK consulting on bringing in social media ban for under 16s",
-        "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-20T13:28:09.000Z",
-        "relevanceScore": 175.89,
+        "title": "Context windows, Plan agent, and TDD: What I learned building a countdown app with GitHub Copilot",
+        "link": "https://github.blog/developer-skills/application-development/context-windows-plan-agent-and-tdd-what-i-learned-building-a-countdown-app-with-github-copilot/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-01-20T17:00:00.000Z",
+        "relevanceScore": 233.47,
         "tags": [
-          "Social"
+          "Mobile",
+          "Exclusive"
         ]
       },
       {
-        "title": "Meta is expanding Threads ads to all users globally",
-        "link": "https://www.engadget.com/social-media/meta-is-expanding-threads-ads-to-all-users-globally-183900226.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-21T18:39:00.000Z",
-        "relevanceScore": 157.73,
-        "tags": []
-      },
-      {
-        "title": "Snap settles social media addiction lawsuit ahead of trial",
-        "link": "https://www.bbc.com/news/articles/c62ndl2ydzxo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-21T00:17:01.000Z",
-        "relevanceScore": 42.06,
-        "tags": [
-          "Social"
-        ]
-      },
-      {
-        "title": "Threads rolls out ads to all users worldwide",
-        "link": "https://techcrunch.com/2026/01/21/threads-rolls-out-ads-to-all-users-worldwide/",
+        "title": "Apps for boycotting American products surge to the top of the Danish App Store",
+        "link": "https://techcrunch.com/2026/01/21/apps-for-boycotting-american-products-surge-to-the-top-of-the-danish-app-store/",
         "source": "TechCrunch",
-        "pubDate": "2026-01-21T16:44:11.000Z",
-        "relevanceScore": 27.35,
-        "tags": []
+        "pubDate": "2026-01-21T20:38:54.000Z",
+        "relevanceScore": 81,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Microsoft ports the Xbox app to Arm-based Windows PCs",
+        "link": "https://www.engadget.com/gaming/pc/microsoft-ports-the-xbox-app-to-arm-based-windows-pcs-191049475.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-21T19:10:49.000Z",
+        "relevanceScore": 26.2,
+        "tags": [
+          "Mobile",
+          "Launch",
+          "Update"
+        ]
       }
     ],
     "gaming": [
@@ -1051,7 +1070,7 @@
         "link": "https://www.wired.com/story/shark-promo-code/",
         "source": "Wired",
         "pubDate": "2026-01-21T19:03:11.000Z",
-        "relevanceScore": 174.81,
+        "relevanceScore": 223.68,
         "tags": []
       },
       {
@@ -1059,7 +1078,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/new-york-times-2-player-game-evolving-business-129417985",
         "source": "ABC News Business",
         "pubDate": "2026-01-21T14:28:32.000Z",
-        "relevanceScore": 24.89,
+        "relevanceScore": 24.76,
         "tags": [
           "Business",
           "Exclusive"
@@ -1072,7 +1091,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/iconic-coney-island-hot-dog-hawker-nathans-famous-129424791",
         "source": "ABC News Business",
         "pubDate": "2026-01-21T18:24:23.000Z",
-        "relevanceScore": 161.68,
+        "relevanceScore": 181.55,
         "tags": [
           "Partnership"
         ]
@@ -1082,57 +1101,47 @@
         "link": "https://abcnews.go.com/Business/wireStory/ryanair-ceo-dismisses-elon-musks-idea-buying-airline-129417856",
         "source": "ABC News Business",
         "pubDate": "2026-01-21T14:27:51.000Z",
-        "relevanceScore": 44.89,
+        "relevanceScore": 26.26,
         "tags": []
       }
     ],
-    "space": [
+    "social": [
       {
-        "title": "Blue Origin’s satellite internet network TeraWave will move data at 6Tbps",
-        "link": "https://techcrunch.com/2026/01/21/blue-origins-satellite-internet-network-terawave-will-move-data-at-6tbps/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-21T18:36:48.000Z",
-        "relevanceScore": 85.22,
+        "title": "UK consulting on bringing in social media ban for under 16s",
+        "link": "https://www.bbc.com/news/articles/cgm4xpyxp7lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-20T13:28:09.000Z",
+        "relevanceScore": 177.26,
         "tags": [
-          "Web"
+          "Social"
         ]
       },
       {
-        "title": "Two Catastrophic Failures Caused by \"Obvious\" Assumptions",
-        "link": "https://www.reddit.com/r/programming/comments/1qj00yq/two_catastrophic_failures_caused_by_obvious/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-21T14:56:10.000Z",
-        "relevanceScore": 40.49,
-        "tags": []
-      }
-    ],
-    "climate": [
-      {
-        "title": "Trump administration claims offshore wind poses a threat. But it won't say how.",
-        "link": "https://www.npr.org/2026/01/21/nx-s1-5678635/trump-offshore-wind-national-security-climate-change",
-        "source": "NPR Business",
-        "pubDate": "2026-01-21T10:00:00.000Z",
-        "relevanceScore": 55,
+        "title": "Meta is expanding Threads ads to all users globally",
+        "link": "https://www.engadget.com/social-media/meta-is-expanding-threads-ads-to-all-users-globally-183900226.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-21T18:39:00.000Z",
+        "relevanceScore": 143.1,
         "tags": []
       },
       {
-        "title": "Zillow removed climate risk scores. This climate expert is restoring them.",
-        "link": "https://arstechnica.com/science/2026/01/zillow-removed-climate-risk-scores-this-climate-expert-is-restoring-them/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-21T14:33:00.000Z",
-        "relevanceScore": 24.41,
+        "title": "Snap settles social media addiction lawsuit ahead of trial",
+        "link": "https://www.bbc.com/news/articles/c62ndl2ydzxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-21T00:17:01.000Z",
+        "relevanceScore": 23.43,
         "tags": [
-          "Web"
+          "Social"
         ]
       }
     ],
     "world": [
       {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1427, Part 1 (Thread #1574)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1qinlns/rworldnews_live_thread_russian_invasion_of/",
+        "title": "Carney leaves Davos without meeting Trump after speech on U.S. rupture of world order",
+        "link": "https://www.reddit.com/r/worldnews/comments/1qiz899/carney_leaves_davos_without_meeting_trump_after/",
         "source": "Reddit World News",
-        "pubDate": "2026-01-21T04:02:42.000Z",
-        "relevanceScore": 40.81,
+        "pubDate": "2026-01-21T14:24:43.000Z",
+        "relevanceScore": 130.75,
         "tags": []
       },
       {
@@ -1140,15 +1149,15 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qj428n/trump_threatens_canada_after_carney_draws/",
         "source": "Reddit World News",
         "pubDate": "2026-01-21T17:22:17.000Z",
-        "relevanceScore": 23.47,
+        "relevanceScore": 23.34,
         "tags": []
       },
       {
-        "title": "Carney leaves Davos without meeting Trump after speech on U.S. rupture of world order",
-        "link": "https://www.reddit.com/r/worldnews/comments/1qiz899/carney_leaves_davos_without_meeting_trump_after/",
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1427, Part 1 (Thread #1574)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1qinlns/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
-        "pubDate": "2026-01-21T14:24:43.000Z",
-        "relevanceScore": 22.88,
+        "pubDate": "2026-01-21T04:02:42.000Z",
+        "relevanceScore": 22.18,
         "tags": []
       }
     ],
@@ -1158,15 +1167,35 @@
         "link": "https://www.npr.org/2026/01/21/nx-s1-5683968/supreme-court-federal-reserve-lisa-cook",
         "source": "NPR Business",
         "pubDate": "2026-01-21T17:12:28.000Z",
-        "relevanceScore": 28.44,
+        "relevanceScore": 28.31,
         "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Trump administration claims offshore wind poses a threat. But it won't say how.",
+        "link": "https://www.npr.org/2026/01/21/nx-s1-5678635/trump-offshore-wind-national-security-climate-change",
+        "source": "NPR Business",
+        "pubDate": "2026-01-21T10:00:00.000Z",
+        "relevanceScore": 27.37,
+        "tags": []
+      },
+      {
+        "title": "Zillow removed climate risk scores. This climate expert is restoring them | Real estate website scrubbed data under pressure from California real estate brokers",
+        "link": "https://www.reddit.com/r/technology/comments/1qj000a/zillow_removed_climate_risk_scores_this_climate/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-21T14:55:09.000Z",
+        "relevanceScore": 20.35,
+        "tags": [
+          "Web"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 14,
-    "avgRelevanceScore": 201.58415094339603,
+    "totalCategories": 15,
+    "avgRelevanceScore": 213.06166666666675,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1174,19 +1203,19 @@
       },
       {
         "category": "tech",
-        "count": 9
-      },
-      {
-        "category": "development",
-        "count": 6
+        "count": 10
       },
       {
         "category": "general",
         "count": 5
       },
       {
-        "category": "social",
+        "category": "development",
         "count": 4
+      },
+      {
+        "category": "startup",
+        "count": 3
       }
     ]
   }
