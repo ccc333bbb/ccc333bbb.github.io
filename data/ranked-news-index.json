@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-01-23T16:22:50.700Z",
+  "lastUpdated": "2026-01-23T16:54:59.429Z",
   "totalArticles": 55,
   "categories": [
     "ai-ml",
-    "cybersecurity",
+    "development",
     "automotive",
     "science",
-    "tech",
     "startup",
     "space",
     "business",
-    "development",
     "mobile",
     "general",
-    "gaming",
+    "entertainment",
+    "tech",
     "social",
     "world",
+    "cybersecurity",
     "climate",
     "finance"
   ],
@@ -26,25 +26,22 @@
       "source": "ABC News Business",
       "category": "ai-ml",
       "pubDate": "2026-01-23T13:41:56.000Z",
-      "relevanceScore": 1340.96,
-      "recommendationScore": 1342.96,
+      "relevanceScore": 1323.86,
+      "recommendationScore": 1325.86,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Ring can now verify if a video has been altered",
-      "link": "https://www.engadget.com/home/smart-home/ring-can-now-verify-if-a-video-has-been-altered-140000140.html?src=rss",
-      "source": "Engadget",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-23T14:00:00.000Z",
-      "relevanceScore": 1290.52,
-      "recommendationScore": 1290.52,
-      "tags": [
-        "Tech",
-        "Security"
-      ],
+      "title": "The ACCURACY- INFERENCE - MEMORY Triangle in ML Systems",
+      "link": "https://dev.to/jashwanth_thatipamula_8ee/the-accuracy-inference-memory-triangle-in-ml-systems-a12",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-23T16:45:43.000Z",
+      "relevanceScore": 1321.47,
+      "recommendationScore": 1321.97,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -53,8 +50,8 @@
       "source": "NPR Business",
       "category": "automotive",
       "pubDate": "2026-01-23T09:48:09.000Z",
-      "relevanceScore": 1284.68,
-      "recommendationScore": 1285.18,
+      "relevanceScore": 1282.58,
+      "recommendationScore": 1283.08,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -64,8 +61,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-23T10:00:00.000Z",
-      "relevanceScore": 960.22,
-      "recommendationScore": 960.22,
+      "relevanceScore": 993.12,
+      "recommendationScore": 993.12,
       "tags": [
         "AI",
         "Tech",
@@ -80,23 +77,24 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-23T10:00:00.000Z",
-      "relevanceScore": 925.72,
-      "recommendationScore": 926.22,
+      "relevanceScore": 931.62,
+      "recommendationScore": 932.12,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Anbernic’s next wireless controller adds a screen and heart rate monitoring",
-      "link": "https://www.theverge.com/tech/866600/anbernic-rg-g01-smart-wireless-gaming-controller-heart-rate-sensor-display",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-23T15:11:26.000Z",
-      "relevanceScore": 695.76,
-      "recommendationScore": 696.26,
+      "title": "AI Usage Policy",
+      "link": "https://www.reddit.com/r/programming/comments/1qkset2/ai_usage_policy/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-01-23T14:34:41.000Z",
+      "relevanceScore": 831.03,
+      "recommendationScore": 831.03,
       "tags": [
-        "Exclusive"
+        "AI",
+        "Regulation"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "This startup will send 1,000 people’s ashes to space — affordably — in 2027",
@@ -104,28 +102,12 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-01-23T16:00:00.000Z",
-      "relevanceScore": 521.92,
-      "recommendationScore": 522.42,
+      "relevanceScore": 550.82,
+      "recommendationScore": 551.32,
       "tags": [
         "Startup"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Implementing \"Refusal-First\" RAG: Why We Architected Our AI to Say 'I Don't Know'",
-      "link": "https://dev.to/flamehaven01/implementing-refusal-first-rag-why-we-architected-our-ai-to-say-i-dont-know-4h10",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T16:15:24.000Z",
-      "relevanceScore": 409.48,
-      "recommendationScore": 413.48,
-      "tags": [
-        "AI",
-        "Science",
-        "Exclusive",
-        "Report"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Rocket Report: Chinese rockets fail twice in 12 hours; Rocket Lab reports setback",
@@ -133,12 +115,23 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-01-23T14:31:44.000Z",
-      "relevanceScore": 398.63,
-      "recommendationScore": 399.13,
+      "relevanceScore": 427.52,
+      "recommendationScore": 428.02,
       "tags": [
         "Exclusive",
         "Report"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Transactional Outbox with RabbitMQ (Part 2): Handling Retries, Dead-Letter Queues, and Observability",
+      "link": "https://dev.to/sagarmaheshwary/transactional-outbox-with-rabbitmq-part-2-handling-retries-dead-letter-queues-and-observability-4h19",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-23T16:43:24.000Z",
+      "relevanceScore": 422.96,
+      "recommendationScore": 422.96,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -147,8 +140,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-23T12:37:26.000Z",
-      "relevanceScore": 394.25,
-      "recommendationScore": 394.75,
+      "relevanceScore": 410.14,
+      "recommendationScore": 410.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -158,8 +151,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-01-23T16:00:00.000Z",
-      "relevanceScore": 370.92,
-      "recommendationScore": 370.92,
+      "relevanceScore": 404.32,
+      "recommendationScore": 404.32,
       "tags": [
         "AI",
         "Science",
@@ -168,13 +161,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Mahdi Shamlou | Solving LeetCode #2: Add Two Numbers — The Classic Linked List Addition",
+      "link": "https://dev.to/mahdi0shamlou/mahdi-shamlou-solving-leetcode-2-add-two-numbers-the-classic-linked-list-addition-5g7c",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-23T16:51:55.000Z",
+      "relevanceScore": 374.49,
+      "recommendationScore": 374.99,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Giving your healthcare info to a chatbot is, unsurprisingly, a terrible idea",
       "link": "https://www.theverge.com/report/866683/chatgpt-health-sharing-data",
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-01-23T16:07:24.000Z",
-      "relevanceScore": 340.95,
-      "recommendationScore": 341.45,
+      "relevanceScore": 347.84,
+      "recommendationScore": 348.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -184,8 +188,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-23T08:40:00.000Z",
-      "relevanceScore": 251.96,
-      "recommendationScore": 252.46,
+      "relevanceScore": 296.35,
+      "recommendationScore": 296.85,
       "tags": [
         "AI",
         "Tech"
@@ -193,24 +197,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Make E2E tests faster",
-      "link": "https://dev.to/spo0q/make-e2e-tests-faster-4k9p",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-23T16:17:05.000Z",
-      "relevanceScore": 218.98,
-      "recommendationScore": 218.98,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
       "title": "Build an agent into any app with the GitHub Copilot SDK",
       "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
       "source": "GitHub Blog",
       "category": "mobile",
       "pubDate": "2026-01-22T15:01:44.000Z",
-      "relevanceScore": 215.93,
-      "recommendationScore": 216.43,
+      "relevanceScore": 265.82,
+      "recommendationScore": 266.32,
       "tags": [
         "Mobile",
         "Exclusive"
@@ -218,14 +211,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects’ laptops: reports",
-      "link": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-23T15:54:09.000Z",
-      "relevanceScore": 179.9,
-      "recommendationScore": 181.4,
-      "tags": [],
+      "title": "You can now create AI-generated coloring books in Microsoft Paint",
+      "link": "https://www.engadget.com/ai/you-can-now-create-ai-generated-coloring-books-in-microsoft-paint-163512527.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-01-23T16:35:13.000Z",
+      "relevanceScore": 238.43,
+      "recommendationScore": 238.93,
+      "tags": [
+        "AI",
+        "Innovation"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -234,8 +230,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-01-23T15:44:18.000Z",
-      "relevanceScore": 179.37,
-      "recommendationScore": 181.87,
+      "relevanceScore": 199.26,
+      "recommendationScore": 201.76,
       "tags": [
         "Security",
         "Mobile",
@@ -246,86 +242,14 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
-      "link": "https://www.reddit.com/r/technology/comments/1qkro7i/microsoft_gave_fbi_keys_to_unlock_encrypted_data/",
-      "source": "Reddit Technology",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-23T14:05:00.000Z",
-      "relevanceScore": 173.54,
-      "recommendationScore": 174.04,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Former councillor pleads guilty to drugging and raping ex-wife over 13 years",
       "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-01-23T16:14:08.000Z",
-      "relevanceScore": 89.97,
-      "recommendationScore": 90.47,
+      "pubDate": "2026-01-23T16:39:31.000Z",
+      "relevanceScore": 105.95,
+      "recommendationScore": 106.45,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
-      "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-01-23T14:28:24.000Z",
-      "relevanceScore": 84.62,
-      "recommendationScore": 84.62,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
-      "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T13:10:09.000Z",
-      "relevanceScore": 65.86,
-      "recommendationScore": 66.36,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "High stakes but low expectations ahead of Ukraine talks with Russia and US",
-      "link": "https://www.bbc.com/news/articles/c3edde1pwx8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T15:36:52.000Z",
-      "relevanceScore": 65.85,
-      "recommendationScore": 66.35,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Best Action Cameras (2026), Tested and Reviewed",
-      "link": "https://www.wired.com/gallery/best-action-cameras/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-23T15:00:00.000Z",
-      "relevanceScore": 65.72,
-      "recommendationScore": 66.72,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The end of the Sony era in TVs",
-      "link": "https://www.theverge.com/podcast/866619/sony-tcl-tvs-chatgpt-ads-vergecast",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-01-23T15:20:10.000Z",
-      "relevanceScore": 64.29,
-      "recommendationScore": 65.29,
-      "tags": [
-        "Tech"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -334,8 +258,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-23T13:07:00.000Z",
-      "relevanceScore": 63.35,
-      "recommendationScore": 63.85,
+      "relevanceScore": 93.24,
+      "recommendationScore": 93.74,
       "tags": [
         "AI",
         "Tech",
@@ -345,13 +269,83 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Marshall’s new hub connects to multiple Bluetooth speakers without pairing",
+      "link": "https://www.theverge.com/tech/866640/marshall-music-streaming-hub-heddon-bluetooth-auracast-speakers",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2026-01-23T16:54:01.000Z",
+      "relevanceScore": 85.5,
+      "recommendationScore": 88,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Today only, you can buy the AirPods Pro 3 for less than $200",
+      "link": "https://www.theverge.com/gadgets/866710/apple-airpods-pro-3-super-mario-bros-deal-sale",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-01-23T16:40:56.000Z",
+      "relevanceScore": 74.95,
+      "recommendationScore": 75.45,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
+      "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-01-23T14:28:24.000Z",
+      "relevanceScore": 74.01,
+      "recommendationScore": 74.01,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Best Action Cameras (2026), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-action-cameras/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-23T15:00:00.000Z",
+      "relevanceScore": 73.12,
+      "recommendationScore": 74.12,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
+      "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T13:10:09.000Z",
+      "relevanceScore": 72.75,
+      "recommendationScore": 73.25,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "High stakes but low expectations ahead of Ukraine talks with Russia and US",
+      "link": "https://www.bbc.com/news/articles/c3edde1pwx8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T15:36:52.000Z",
+      "relevanceScore": 72.74,
+      "recommendationScore": 73.24,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "What does a new US TikTok deal mean for users?",
       "link": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-01-23T16:07:41.000Z",
-      "relevanceScore": 60.45,
-      "recommendationScore": 63.95,
+      "relevanceScore": 67.34,
+      "recommendationScore": 70.84,
       "tags": [
         "Social",
         "Partnership"
@@ -364,8 +358,8 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2026-01-23T12:00:31.000Z",
-      "relevanceScore": 59.63,
-      "recommendationScore": 60.13,
+      "relevanceScore": 66.52,
+      "recommendationScore": 67.02,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -375,24 +369,11 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-23T14:44:57.000Z",
-      "relevanceScore": 58.17,
-      "recommendationScore": 58.67,
+      "relevanceScore": 65.07,
+      "recommendationScore": 65.57,
       "tags": [
         "AI",
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Samsung Bespoke Fridge with AI review: All the bells and whistles",
-      "link": "https://www.engadget.com/home/kitchen-tech/samsung-bespoke-fridge-with-ai-review-all-the-bells-and-whistles-140000099.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T14:00:00.000Z",
-      "relevanceScore": 58.02,
-      "recommendationScore": 58.52,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -402,8 +383,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-23T00:02:43.000Z",
-      "relevanceScore": 57.23,
-      "recommendationScore": 57.73,
+      "relevanceScore": 64.13,
+      "recommendationScore": 64.63,
       "tags": [
         "AI"
       ],
@@ -415,8 +396,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-23T07:36:18.000Z",
-      "relevanceScore": 56.74,
-      "recommendationScore": 57.24,
+      "relevanceScore": 63.64,
+      "recommendationScore": 64.14,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -426,8 +407,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-23T04:03:18.000Z",
-      "relevanceScore": 56.03,
-      "recommendationScore": 58.53,
+      "relevanceScore": 62.93,
+      "recommendationScore": 65.43,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -437,57 +418,75 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2026-01-23T03:34:19.000Z",
-      "relevanceScore": 53.94,
-      "recommendationScore": 54.44,
+      "relevanceScore": 60.83,
+      "recommendationScore": 61.33,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
+      "title": "Age Verification Is Reaching a Global Tipping Point. Is TikTok’s Strategy a Good Compromise?",
+      "link": "https://www.wired.com/story/age-verification-is-reaching-a-global-tipping-point-is-tiktoks-strategy-a-good-compromise/",
+      "source": "Wired",
+      "category": "social",
+      "pubDate": "2026-01-23T16:11:29.000Z",
+      "relevanceScore": 49.85,
+      "recommendationScore": 50.35,
+      "tags": [
+        "Tech",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "'I saw people getting shot': Eyewitness tells of Iran protest crackdown",
+      "link": "https://www.bbc.com/news/articles/c9dvvzzpwylo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-23T15:33:01.000Z",
+      "relevanceScore": 47.23,
+      "recommendationScore": 47.73,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "TikTok-like microdramas are going to make billions this year, even though they kind of suck",
+      "link": "https://techcrunch.com/2026/01/23/tiktok-like-microdramas-are-going-to-make-billions-this-year-even-though-they-kind-of-suck/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-01-23T15:50:41.000Z",
+      "relevanceScore": 40.29,
+      "recommendationScore": 40.79,
+      "tags": [
+        "Business",
+        "Mobile",
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Missed opportunity to take amateur footballer to hospital before sepsis death, inquest hears",
       "link": "https://www.bbc.com/news/articles/c4g04e96eyxo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-01-23T16:12:12.000Z",
-      "relevanceScore": 51.96,
-      "recommendationScore": 52.46,
+      "pubDate": "2026-01-23T16:52:30.000Z",
+      "relevanceScore": 31.99,
+      "recommendationScore": 32.49,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Tiny falcons are helping keep the food supply safe on cherry farms",
-      "link": "https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/",
-      "source": "Ars Technica",
+      "title": "Get the 512GB Samsung P9 microSD Express card for 33 percent off right now",
+      "link": "https://www.engadget.com/deals/get-the-512gb-samsung-p9-microsd-express-card-for-33-percent-off-right-now-143849920.html?src=rss",
+      "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-01-23T14:10:48.000Z",
-      "relevanceScore": 45.06,
-      "recommendationScore": 45.56,
+      "pubDate": "2026-01-23T14:35:36.000Z",
+      "relevanceScore": 30.04,
+      "recommendationScore": 30.54,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Bezos' Blue Origin announces satellite rival to Musk's Starlink",
-      "link": "https://www.bbc.com/news/articles/cn0yydwe89jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "space",
-      "pubDate": "2026-01-22T03:15:27.000Z",
-      "relevanceScore": 40.58,
-      "recommendationScore": 41.08,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Hundreds of illegal waste tips operating in England - including 11 'super sites'",
-      "link": "https://www.bbc.com/news/articles/c1ev4yg1j1lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T08:19:04.000Z",
-      "relevanceScore": 30.39,
-      "recommendationScore": 30.89,
-      "tags": [
-        "Analysis"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -496,8 +495,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-01-23T16:17:19.000Z",
-      "relevanceScore": 27.98,
-      "recommendationScore": 29.98,
+      "relevanceScore": 27.87,
+      "recommendationScore": 29.87,
       "tags": [
         "Business",
         "Mobile",
@@ -508,32 +507,14 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "TikTok-like microdramas are going to make billions this year, even though they kind of suck",
-      "link": "https://techcrunch.com/2026/01/23/tiktok-like-microdramas-are-going-to-make-billions-this-year-even-though-they-kind-of-suck/",
+      "title": "Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects’ laptops: reports",
+      "link": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
       "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-01-23T15:50:41.000Z",
-      "relevanceScore": 27.89,
-      "recommendationScore": 28.39,
-      "tags": [
-        "Business",
-        "Mobile",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Age Verification Is Reaching a Global Tipping Point. Is TikTok's Strategy a Good Compromise?",
-      "link": "https://www.wired.com/story/age-verification-is-reaching-a-global-tipping-point-is-tiktoks-strategy-a-good-compromise/",
-      "source": "Wired",
-      "category": "social",
-      "pubDate": "2026-01-23T16:11:29.000Z",
-      "relevanceScore": 26.96,
-      "recommendationScore": 27.46,
-      "tags": [
-        "Tech",
-        "Social"
-      ],
+      "category": "tech",
+      "pubDate": "2026-01-23T15:54:09.000Z",
+      "relevanceScore": 27.8,
+      "recommendationScore": 29.3,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -542,19 +523,8 @@
       "source": "The Verge",
       "category": "climate",
       "pubDate": "2026-01-23T16:00:00.000Z",
-      "relevanceScore": 26.92,
-      "recommendationScore": 28.42,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Get the 512GB Samsung P9 microSD Express card for 33 percent off right now",
-      "link": "https://www.engadget.com/deals/get-the-512gb-samsung-p9-microsd-express-card-for-33-percent-off-right-now-143849920.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-01-23T14:35:36.000Z",
-      "relevanceScore": 26.64,
-      "recommendationScore": 27.14,
+      "relevanceScore": 26.82,
+      "recommendationScore": 28.32,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -564,8 +534,8 @@
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2026-01-23T04:34:07.000Z",
-      "relevanceScore": 25.64,
-      "recommendationScore": 27.64,
+      "relevanceScore": 25.53,
+      "recommendationScore": 27.53,
       "tags": [
         "Social",
         "Partnership"
@@ -578,8 +548,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-23T14:00:00.000Z",
-      "relevanceScore": 25.52,
-      "recommendationScore": 27.02,
+      "relevanceScore": 25.42,
+      "recommendationScore": 26.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -589,8 +559,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-23T13:33:39.000Z",
-      "relevanceScore": 25.44,
-      "recommendationScore": 25.94,
+      "relevanceScore": 25.33,
+      "recommendationScore": 25.83,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -600,9 +570,33 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-23T12:00:29.000Z",
-      "relevanceScore": 25.13,
-      "recommendationScore": 25.63,
+      "relevanceScore": 25.02,
+      "recommendationScore": 25.52,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tiny falcons are helping keep the food supply safe on cherry farms",
+      "link": "https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-23T14:10:48.000Z",
+      "relevanceScore": 24.95,
+      "recommendationScore": 25.45,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "NBA League Pass is up to 55 percent off",
+      "link": "https://www.engadget.com/deals/nba-league-pass-is-up-to-55-percent-off-163421368.html?src=rss",
+      "source": "Engadget",
+      "category": "finance",
+      "pubDate": "2026-01-23T16:31:26.000Z",
+      "relevanceScore": 23.92,
+      "recommendationScore": 23.92,
+      "tags": [
+        "Business"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -611,21 +605,10 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-01-22T19:17:05.000Z",
-      "relevanceScore": 23.78,
-      "recommendationScore": 24.28,
+      "relevanceScore": 23.67,
+      "recommendationScore": 24.17,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Why Relying on Code Review Alone Is a Recipe for Burnout",
-      "link": "https://dev.to/jszutkowski/why-relying-on-code-review-alone-is-a-recipe-for-burnout-3bf7",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-23T16:18:49.000Z",
-      "relevanceScore": 23.49,
-      "recommendationScore": 25.49,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Sweden's Largest Pension Fund Dumps $8.8B in US Bonds | the deep dive",
@@ -633,8 +616,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-23T05:42:14.000Z",
-      "relevanceScore": 21.86,
-      "recommendationScore": 22.36,
+      "relevanceScore": 21.76,
+      "recommendationScore": 22.26,
       "tags": [
         "Analysis"
       ],
@@ -646,9 +629,22 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-23T14:35:24.000Z",
-      "relevanceScore": 21.64,
-      "recommendationScore": 23.14,
+      "relevanceScore": 21.53,
+      "recommendationScore": 23.03,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
+      "link": "https://www.reddit.com/r/technology/comments/1qkro7i/microsoft_gave_fbi_keys_to_unlock_encrypted_data/",
+      "source": "Reddit Technology",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-23T14:05:00.000Z",
+      "relevanceScore": 21.43,
+      "recommendationScore": 21.93,
+      "tags": [
+        "Security"
+      ],
       "readingLevel": "advanced"
     }
   ],
@@ -659,7 +655,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/trump-steals-show-davos-mixed-bag-rhetoric-results-129486607",
         "source": "ABC News Business",
         "pubDate": "2026-01-23T13:41:56.000Z",
-        "relevanceScore": 1340.96,
+        "relevanceScore": 1323.86,
         "tags": [
           "AI"
         ]
@@ -669,7 +665,7 @@
         "link": "https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T10:00:00.000Z",
-        "relevanceScore": 960.22,
+        "relevanceScore": 993.12,
         "tags": [
           "AI",
           "Tech",
@@ -678,16 +674,14 @@
         ]
       },
       {
-        "title": "Implementing \"Refusal-First\" RAG: Why We Architected Our AI to Say 'I Don't Know'",
-        "link": "https://dev.to/flamehaven01/implementing-refusal-first-rag-why-we-architected-our-ai-to-say-i-dont-know-4h10",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T16:15:24.000Z",
-        "relevanceScore": 409.48,
+        "title": "AI Usage Policy",
+        "link": "https://www.reddit.com/r/programming/comments/1qkset2/ai_usage_policy/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-23T14:34:41.000Z",
+        "relevanceScore": 831.03,
         "tags": [
           "AI",
-          "Science",
-          "Exclusive",
-          "Report"
+          "Regulation"
         ]
       },
       {
@@ -695,7 +689,7 @@
         "link": "https://www.wired.com/story/ai-agents-math-doesnt-add-up/",
         "source": "Wired",
         "pubDate": "2026-01-23T16:00:00.000Z",
-        "relevanceScore": 370.92,
+        "relevanceScore": 404.32,
         "tags": [
           "AI",
           "Science",
@@ -707,7 +701,7 @@
         "link": "https://www.theverge.com/report/866683/chatgpt-health-sharing-data",
         "source": "The Verge",
         "pubDate": "2026-01-23T16:07:24.000Z",
-        "relevanceScore": 340.95,
+        "relevanceScore": 347.84,
         "tags": []
       },
       {
@@ -715,10 +709,21 @@
         "link": "https://stackoverflow.blog/2026/01/23/get-out-of-your-developer-bubble-to-survive-the-ai-bubble/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-23T08:40:00.000Z",
-        "relevanceScore": 251.96,
+        "relevanceScore": 296.35,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "You can now create AI-generated coloring books in Microsoft Paint",
+        "link": "https://www.engadget.com/ai/you-can-now-create-ai-generated-coloring-books-in-microsoft-paint-163512527.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-23T16:35:13.000Z",
+        "relevanceScore": 238.43,
+        "tags": [
+          "AI",
+          "Innovation"
         ]
       },
       {
@@ -726,7 +731,7 @@
         "link": "https://www.technologyreview.com/2026/01/23/1131708/the-download-chatbots-for-health-and-us-fights-over-ai-regulation/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T13:07:00.000Z",
-        "relevanceScore": 63.35,
+        "relevanceScore": 93.24,
         "tags": [
           "AI",
           "Tech",
@@ -739,20 +744,10 @@
         "link": "https://www.engadget.com/ai/malaysia-lifts-ban-on-grok-after-taking-x-at-its-word-144457468.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-23T14:44:57.000Z",
-        "relevanceScore": 58.17,
+        "relevanceScore": 65.07,
         "tags": [
           "AI",
           "Exclusive"
-        ]
-      },
-      {
-        "title": "Samsung Bespoke Fridge with AI review: All the bells and whistles",
-        "link": "https://www.engadget.com/home/kitchen-tech/samsung-bespoke-fridge-with-ai-review-all-the-bells-and-whistles-140000099.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-23T14:00:00.000Z",
-        "relevanceScore": 58.02,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -760,7 +755,7 @@
         "link": "https://www.bbc.com/news/articles/c058d4nvz1go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-23T00:02:43.000Z",
-        "relevanceScore": 57.23,
+        "relevanceScore": 64.13,
         "tags": [
           "AI"
         ]
@@ -770,43 +765,53 @@
         "link": "https://www.reddit.com/r/programming/comments/1qkfxlz/underground_resistance_aims_to_sabotage_ai_with/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-23T03:34:19.000Z",
-        "relevanceScore": 53.94,
+        "relevanceScore": 60.83,
         "tags": [
           "AI"
         ]
       }
     ],
-    "cybersecurity": [
+    "development": [
       {
-        "title": "Ring can now verify if a video has been altered",
-        "link": "https://www.engadget.com/home/smart-home/ring-can-now-verify-if-a-video-has-been-altered-140000140.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-23T14:00:00.000Z",
-        "relevanceScore": 1290.52,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
+        "title": "The ACCURACY- INFERENCE - MEMORY Triangle in ML Systems",
+        "link": "https://dev.to/jashwanth_thatipamula_8ee/the-accuracy-inference-memory-triangle-in-ml-systems-a12",
+        "source": "Dev.to",
+        "pubDate": "2026-01-23T16:45:43.000Z",
+        "relevanceScore": 1321.47,
+        "tags": []
       },
       {
-        "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
-        "link": "https://www.reddit.com/r/technology/comments/1qkro7i/microsoft_gave_fbi_keys_to_unlock_encrypted_data/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-23T14:05:00.000Z",
-        "relevanceScore": 173.54,
-        "tags": [
-          "Security"
-        ]
+        "title": "Transactional Outbox with RabbitMQ (Part 2): Handling Retries, Dead-Letter Queues, and Observability",
+        "link": "https://dev.to/sagarmaheshwary/transactional-outbox-with-rabbitmq-part-2-handling-retries-dead-letter-queues-and-observability-4h19",
+        "source": "Dev.to",
+        "pubDate": "2026-01-23T16:43:24.000Z",
+        "relevanceScore": 422.96,
+        "tags": []
       },
       {
-        "title": "Automate your security whack-a-mole: Q&A with Exaforce",
-        "link": "https://stackoverflow.blog/2026/01/22/automate-your-security-whack-a-mole-q-and-a-with-exaforce/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-22T15:00:00.000Z",
-        "relevanceScore": 18.92,
+        "title": "Mahdi Shamlou | Solving LeetCode #2: Add Two Numbers — The Classic Linked List Addition",
+        "link": "https://dev.to/mahdi0shamlou/mahdi-shamlou-solving-leetcode-2-add-two-numbers-the-classic-linked-list-addition-5g7c",
+        "source": "Dev.to",
+        "pubDate": "2026-01-23T16:51:55.000Z",
+        "relevanceScore": 374.49,
+        "tags": []
+      },
+      {
+        "title": "Why does SSH send 100 packets per keystroke?",
+        "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-23T14:35:24.000Z",
+        "relevanceScore": 21.53,
+        "tags": []
+      },
+      {
+        "title": "A cheat sheet to slash commands in GitHub Copilot CLI",
+        "link": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-01-21T17:09:10.000Z",
+        "relevanceScore": 16.45,
         "tags": [
-          "Security",
-          "Interview"
+          "Exclusive"
         ]
       }
     ],
@@ -816,7 +821,7 @@
         "link": "https://www.npr.org/2026/01/23/nx-s1-5684965/chinas-auto-industry-is-rising-as-car-manufacturing-in-the-u-s-struggles",
         "source": "NPR Business",
         "pubDate": "2026-01-23T09:48:09.000Z",
-        "relevanceScore": 1284.68,
+        "relevanceScore": 1282.58,
         "tags": []
       },
       {
@@ -824,7 +829,7 @@
         "link": "https://arstechnica.com/features/2026/01/2026-lucid-air-touring-review-this-feels-like-a-complete-car-now/",
         "source": "Ars Technica",
         "pubDate": "2026-01-23T12:00:31.000Z",
-        "relevanceScore": 59.63,
+        "relevanceScore": 66.52,
         "tags": []
       }
     ],
@@ -834,91 +839,7 @@
         "link": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T10:00:00.000Z",
-        "relevanceScore": 925.72,
-        "tags": []
-      }
-    ],
-    "tech": [
-      {
-        "title": "Anbernic’s next wireless controller adds a screen and heart rate monitoring",
-        "link": "https://www.theverge.com/tech/866600/anbernic-rg-g01-smart-wireless-gaming-controller-heart-rate-sensor-display",
-        "source": "The Verge",
-        "pubDate": "2026-01-23T15:11:26.000Z",
-        "relevanceScore": 695.76,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects’ laptops: reports",
-        "link": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T15:54:09.000Z",
-        "relevanceScore": 179.9,
-        "tags": []
-      },
-      {
-        "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
-        "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-23T14:28:24.000Z",
-        "relevanceScore": 84.62,
-        "tags": []
-      },
-      {
-        "title": "Best Action Cameras (2026), Tested and Reviewed",
-        "link": "https://www.wired.com/gallery/best-action-cameras/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T15:00:00.000Z",
-        "relevanceScore": 65.72,
-        "tags": []
-      },
-      {
-        "title": "Tiny falcons are helping keep the food supply safe on cherry farms",
-        "link": "https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T14:10:48.000Z",
-        "relevanceScore": 45.06,
-        "tags": []
-      },
-      {
-        "title": "Get the 512GB Samsung P9 microSD Express card for 33 percent off right now",
-        "link": "https://www.engadget.com/deals/get-the-512gb-samsung-p9-microsd-express-card-for-33-percent-off-right-now-143849920.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-23T14:35:36.000Z",
-        "relevanceScore": 26.64,
-        "tags": []
-      },
-      {
-        "title": "The Best Paper Notebooks and Journals, Tested and Reviewed (2026): Leuchttherm, Midori, Field Notes",
-        "link": "https://www.wired.com/gallery/the-best-paper-notebook-and-journals/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T14:00:00.000Z",
-        "relevanceScore": 25.52,
-        "tags": []
-      },
-      {
-        "title": "This 67,800-year-old hand stencil is the world's oldest human-made art",
-        "link": "https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T12:00:29.000Z",
-        "relevanceScore": 25.13,
-        "tags": []
-      },
-      {
-        "title": "Grok floods X with sexualized images of women and children: Grok generated an estimated 3 million sexualized images, including 23,000 of children in 11 days",
-        "link": "https://www.reddit.com/r/technology/comments/1qkqx9l/grok_floods_x_with_sexualized_images_of_women_and/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-23T13:33:42.000Z",
-        "relevanceScore": 21.44,
-        "tags": []
-      },
-      {
-        "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
-        "link": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-22T12:20:32.000Z",
-        "relevanceScore": 20.39,
+        "relevanceScore": 931.62,
         "tags": []
       }
     ],
@@ -928,7 +849,7 @@
         "link": "https://techcrunch.com/2026/01/23/this-startup-will-send-1000-peoples-ashes-to-space-affordably-in-2027/",
         "source": "TechCrunch",
         "pubDate": "2026-01-23T16:00:00.000Z",
-        "relevanceScore": 521.92,
+        "relevanceScore": 550.82,
         "tags": [
           "Startup"
         ]
@@ -940,7 +861,7 @@
         "link": "https://arstechnica.com/space/2026/01/rocket-report-rocket-lab-reports-neutron-setback-australia-backs-launch-startup/",
         "source": "Ars Technica",
         "pubDate": "2026-01-23T14:31:44.000Z",
-        "relevanceScore": 398.63,
+        "relevanceScore": 427.52,
         "tags": [
           "Exclusive",
           "Report"
@@ -951,7 +872,7 @@
         "link": "https://www.bbc.com/news/articles/cn0yydwe89jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-22T03:15:27.000Z",
-        "relevanceScore": 40.58,
+        "relevanceScore": 18.47,
         "tags": []
       }
     ],
@@ -961,7 +882,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/economic-leaders-davos-global-growth-resilient-despite-disruption-129485660",
         "source": "ABC News Business",
         "pubDate": "2026-01-23T12:37:26.000Z",
-        "relevanceScore": 394.25,
+        "relevanceScore": 410.14,
         "tags": []
       },
       {
@@ -969,52 +890,8 @@
         "link": "https://abcnews.go.com/Business/wireStory/nigeria-us-deliver-outstanding-military-equipment-purchased-past-129485858",
         "source": "ABC News Business",
         "pubDate": "2026-01-23T13:33:39.000Z",
-        "relevanceScore": 25.44,
+        "relevanceScore": 25.33,
         "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Make E2E tests faster",
-        "link": "https://dev.to/spo0q/make-e2e-tests-faster-4k9p",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T16:17:05.000Z",
-        "relevanceScore": 218.98,
-        "tags": []
-      },
-      {
-        "title": "Why Relying on Code Review Alone Is a Recipe for Burnout",
-        "link": "https://dev.to/jszutkowski/why-relying-on-code-review-alone-is-a-recipe-for-burnout-3bf7",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T16:18:49.000Z",
-        "relevanceScore": 23.49,
-        "tags": []
-      },
-      {
-        "title": "Why does SSH send 100 packets per keystroke?",
-        "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-23T14:35:24.000Z",
-        "relevanceScore": 21.64,
-        "tags": []
-      },
-      {
-        "title": "Improving the usability of C libraries in Swift",
-        "link": "https://www.reddit.com/r/programming/comments/1qkpf5z/improving_the_usability_of_c_libraries_in_swift/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-23T12:24:51.000Z",
-        "relevanceScore": 21.21,
-        "tags": []
-      },
-      {
-        "title": "A cheat sheet to slash commands in GitHub Copilot CLI",
-        "link": "https://github.blog/ai-and-ml/github-copilot/a-cheat-sheet-to-slash-commands-in-github-copilot-cli/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-01-21T17:09:10.000Z",
-        "relevanceScore": 16.55,
-        "tags": [
-          "Exclusive"
-        ]
       }
     ],
     "mobile": [
@@ -1023,7 +900,7 @@
         "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-22T15:01:44.000Z",
-        "relevanceScore": 215.93,
+        "relevanceScore": 265.82,
         "tags": [
           "Mobile",
           "Exclusive"
@@ -1034,7 +911,7 @@
         "link": "https://techcrunch.com/2026/01/23/tiktok-finalizes-deal-to-create-new-us-entity-and-avoid-ban/",
         "source": "TechCrunch",
         "pubDate": "2026-01-23T15:44:18.000Z",
-        "relevanceScore": 179.37,
+        "relevanceScore": 199.26,
         "tags": [
           "Security",
           "Mobile",
@@ -1044,17 +921,13 @@
         ]
       },
       {
-        "title": "Here’s what you should know about the US TikTok deal",
-        "link": "https://techcrunch.com/2026/01/23/heres-whats-you-should-know-about-the-us-tiktok-deal/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T16:17:19.000Z",
-        "relevanceScore": 27.98,
+        "title": "Today only, you can buy the AirPods Pro 3 for less than $200",
+        "link": "https://www.theverge.com/gadgets/866710/apple-airpods-pro-3-super-mario-bros-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2026-01-23T16:40:56.000Z",
+        "relevanceScore": 74.95,
         "tags": [
-          "Business",
-          "Mobile",
-          "Social",
-          "Acquisition",
-          "Funding"
+          "Mobile"
         ]
       },
       {
@@ -1062,11 +935,25 @@
         "link": "https://techcrunch.com/2026/01/23/tiktok-like-microdramas-are-going-to-make-billions-this-year-even-though-they-kind-of-suck/",
         "source": "TechCrunch",
         "pubDate": "2026-01-23T15:50:41.000Z",
-        "relevanceScore": 27.89,
+        "relevanceScore": 40.29,
         "tags": [
           "Business",
           "Mobile",
           "Social"
+        ]
+      },
+      {
+        "title": "Here’s what you should know about the US TikTok deal",
+        "link": "https://techcrunch.com/2026/01/23/heres-whats-you-should-know-about-the-us-tiktok-deal/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-23T16:17:19.000Z",
+        "relevanceScore": 27.87,
+        "tags": [
+          "Business",
+          "Mobile",
+          "Social",
+          "Acquisition",
+          "Funding"
         ]
       }
     ],
@@ -1075,8 +962,8 @@
         "title": "Former councillor pleads guilty to drugging and raping ex-wife over 13 years",
         "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-01-23T16:14:08.000Z",
-        "relevanceScore": 89.97,
+        "pubDate": "2026-01-23T16:39:31.000Z",
+        "relevanceScore": 105.95,
         "tags": []
       },
       {
@@ -1084,7 +971,7 @@
         "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-23T13:10:09.000Z",
-        "relevanceScore": 65.86,
+        "relevanceScore": 72.75,
         "tags": []
       },
       {
@@ -1092,7 +979,7 @@
         "link": "https://www.bbc.com/news/articles/c3edde1pwx8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-23T15:36:52.000Z",
-        "relevanceScore": 65.85,
+        "relevanceScore": 72.74,
         "tags": [
           "Partnership"
         ]
@@ -1101,31 +988,93 @@
         "title": "Missed opportunity to take amateur footballer to hospital before sepsis death, inquest hears",
         "link": "https://www.bbc.com/news/articles/c4g04e96eyxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-01-23T16:12:12.000Z",
-        "relevanceScore": 51.96,
+        "pubDate": "2026-01-23T16:52:30.000Z",
+        "relevanceScore": 31.99,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Marshall’s new hub connects to multiple Bluetooth speakers without pairing",
+        "link": "https://www.theverge.com/tech/866640/marshall-music-streaming-hub-heddon-bluetooth-auracast-speakers",
+        "source": "The Verge",
+        "pubDate": "2026-01-23T16:54:01.000Z",
+        "relevanceScore": 85.5,
+        "tags": []
+      }
+    ],
+    "tech": [
+      {
+        "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
+        "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-23T14:28:24.000Z",
+        "relevanceScore": 74.01,
         "tags": []
       },
       {
-        "title": "Hundreds of illegal waste tips operating in England - including 11 'super sites'",
-        "link": "https://www.bbc.com/news/articles/c1ev4yg1j1lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T08:19:04.000Z",
-        "relevanceScore": 30.39,
-        "tags": [
-          "Analysis"
-        ]
-      }
-    ],
-    "gaming": [
+        "title": "Best Action Cameras (2026), Tested and Reviewed",
+        "link": "https://www.wired.com/gallery/best-action-cameras/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T15:00:00.000Z",
+        "relevanceScore": 73.12,
+        "tags": []
+      },
       {
-        "title": "The end of the Sony era in TVs",
-        "link": "https://www.theverge.com/podcast/866619/sony-tcl-tvs-chatgpt-ads-vergecast",
-        "source": "The Verge",
-        "pubDate": "2026-01-23T15:20:10.000Z",
-        "relevanceScore": 64.29,
-        "tags": [
-          "Tech"
-        ]
+        "title": "Get the 512GB Samsung P9 microSD Express card for 33 percent off right now",
+        "link": "https://www.engadget.com/deals/get-the-512gb-samsung-p9-microsd-express-card-for-33-percent-off-right-now-143849920.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-23T14:35:36.000Z",
+        "relevanceScore": 30.04,
+        "tags": []
+      },
+      {
+        "title": "Microsoft gave FBI a set of BitLocker encryption keys to unlock suspects’ laptops: reports",
+        "link": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-23T15:54:09.000Z",
+        "relevanceScore": 27.8,
+        "tags": []
+      },
+      {
+        "title": "The Best Paper Notebooks and Journals, Tested and Reviewed (2026): Leuchttherm, Midori, Field Notes",
+        "link": "https://www.wired.com/gallery/the-best-paper-notebook-and-journals/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T14:00:00.000Z",
+        "relevanceScore": 25.42,
+        "tags": []
+      },
+      {
+        "title": "This 67,800-year-old hand stencil is the world's oldest human-made art",
+        "link": "https://arstechnica.com/science/2026/01/this-67800-year-old-hand-stencil-is-the-worlds-oldest-human-made-art/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T12:00:29.000Z",
+        "relevanceScore": 25.02,
+        "tags": []
+      },
+      {
+        "title": "Tiny falcons are helping keep the food supply safe on cherry farms",
+        "link": "https://arstechnica.com/science/2026/01/tiny-falcons-are-helping-keep-the-food-supply-safe-on-cherry-farms/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T14:10:48.000Z",
+        "relevanceScore": 24.95,
+        "tags": []
+      },
+      {
+        "title": "Grok floods X with sexualized images of women and children: Grok generated an estimated 3 million sexualized images, including 23,000 of children in 11 days",
+        "link": "https://www.reddit.com/r/technology/comments/1qkqx9l/grok_floods_x_with_sexualized_images_of_women_and/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-23T13:33:42.000Z",
+        "relevanceScore": 21.33,
+        "tags": []
+      },
+      {
+        "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
+        "link": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-22T12:20:32.000Z",
+        "relevanceScore": 20.29,
+        "tags": []
       }
     ],
     "social": [
@@ -1134,18 +1083,18 @@
         "link": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-23T16:07:41.000Z",
-        "relevanceScore": 60.45,
+        "relevanceScore": 67.34,
         "tags": [
           "Social",
           "Partnership"
         ]
       },
       {
-        "title": "Age Verification Is Reaching a Global Tipping Point. Is TikTok's Strategy a Good Compromise?",
+        "title": "Age Verification Is Reaching a Global Tipping Point. Is TikTok’s Strategy a Good Compromise?",
         "link": "https://www.wired.com/story/age-verification-is-reaching-a-global-tipping-point-is-tiktoks-strategy-a-good-compromise/",
         "source": "Wired",
         "pubDate": "2026-01-23T16:11:29.000Z",
-        "relevanceScore": 26.96,
+        "relevanceScore": 49.85,
         "tags": [
           "Tech",
           "Social"
@@ -1156,7 +1105,7 @@
         "link": "https://www.npr.org/2026/01/22/nx-s1-5685456/tiktok-finalizes-deal-to-form-new-american-entity",
         "source": "NPR Business",
         "pubDate": "2026-01-23T04:34:07.000Z",
-        "relevanceScore": 25.64,
+        "relevanceScore": 25.53,
         "tags": [
           "Social",
           "Partnership"
@@ -1169,7 +1118,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qkkkql/spain_wont_join_trumps_board_of_peace_prime/",
         "source": "Reddit World News",
         "pubDate": "2026-01-23T07:36:18.000Z",
-        "relevanceScore": 56.74,
+        "relevanceScore": 63.64,
         "tags": []
       },
       {
@@ -1177,7 +1126,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qkgk0o/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-01-23T04:03:18.000Z",
-        "relevanceScore": 56.03,
+        "relevanceScore": 62.93,
         "tags": []
       },
       {
@@ -1185,9 +1134,42 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qkikhw/swedens_largest_pension_fund_dumps_88b_in_us/",
         "source": "Reddit World News",
         "pubDate": "2026-01-23T05:42:14.000Z",
-        "relevanceScore": 21.86,
+        "relevanceScore": 21.76,
         "tags": [
           "Analysis"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "'I saw people getting shot': Eyewitness tells of Iran protest crackdown",
+        "link": "https://www.bbc.com/news/articles/c9dvvzzpwylo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T15:33:01.000Z",
+        "relevanceScore": 47.23,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Microsoft Gave FBI Keys To Unlock Encrypted Data, Exposing Major Privacy Flaw",
+        "link": "https://www.reddit.com/r/technology/comments/1qkro7i/microsoft_gave_fbi_keys_to_unlock_encrypted_data/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-23T14:05:00.000Z",
+        "relevanceScore": 21.43,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Automate your security whack-a-mole: Q&A with Exaforce",
+        "link": "https://stackoverflow.blog/2026/01/22/automate-your-security-whack-a-mole-q-and-a-with-exaforce/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-22T15:00:00.000Z",
+        "relevanceScore": 18.82,
+        "tags": [
+          "Security",
+          "Interview"
         ]
       }
     ],
@@ -1197,17 +1179,27 @@
         "link": "https://www.theverge.com/science/866624/winter-storm-forecast-drivers-climate",
         "source": "The Verge",
         "pubDate": "2026-01-23T16:00:00.000Z",
-        "relevanceScore": 26.92,
+        "relevanceScore": 26.82,
         "tags": []
       }
     ],
     "finance": [
       {
+        "title": "NBA League Pass is up to 55 percent off",
+        "link": "https://www.engadget.com/deals/nba-league-pass-is-up-to-55-percent-off-163421368.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-23T16:31:26.000Z",
+        "relevanceScore": 23.92,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
         "title": "Trump sues JPMorgan Chase and CEO Jamie Dimon for $5B over alleged 'debanking'",
         "link": "https://www.npr.org/2026/01/22/nx-s1-5685151/trump-jpmorgan-chase-jamie-dimon-debanking",
         "source": "NPR Business",
         "pubDate": "2026-01-22T19:17:05.000Z",
-        "relevanceScore": 23.78,
+        "relevanceScore": 23.67,
         "tags": []
       }
     ]
@@ -1215,7 +1207,7 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 16,
-    "avgRelevanceScore": 212.88999999999996,
+    "avgRelevanceScore": 224.36654545454556,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1223,18 +1215,18 @@
       },
       {
         "category": "tech",
-        "count": 10
+        "count": 9
       },
       {
         "category": "development",
         "count": 5
       },
       {
-        "category": "general",
+        "category": "mobile",
         "count": 5
       },
       {
-        "category": "mobile",
+        "category": "general",
         "count": 4
       }
     ]
