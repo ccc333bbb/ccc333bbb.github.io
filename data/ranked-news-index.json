@@ -1,45 +1,81 @@
 {
-  "lastUpdated": "2026-01-23T23:52:04.878Z",
+  "lastUpdated": "2026-01-24T01:13:42.740Z",
   "totalArticles": 54,
   "categories": [
+    "finance",
+    "cloud",
     "development",
-    "tech",
-    "mobile",
-    "gaming",
-    "startup",
     "ai-ml",
-    "science",
-    "business",
-    "social",
-    "general",
+    "mobile",
+    "tech",
+    "startup",
+    "gaming",
     "cybersecurity",
-    "world",
-    "education",
+    "science",
+    "social",
     "entertainment",
-    "automotive"
+    "general",
+    "automotive",
+    "business",
+    "education",
+    "health",
+    "world"
   ],
   "topArticles": [
+    {
+      "title": "Leak: Nvidia is about to challenge ‘Intel Inside’ with as many as eight Arm laptops",
+      "link": "https://www.theverge.com/games/867056/leak-nvidia-n1-n1x-laptops-lenovo-dell",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2026-01-24T01:09:10.000Z",
+      "relevanceScore": 970.48,
+      "recommendationScore": 971.98,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Write a blog showing step-by-step details with the screenshots on how you deployed the VM.",
+      "link": "https://dev.to/awokay/write-a-blog-showing-step-by-step-details-with-the-screenshots-on-how-you-deployed-the-vm-4i01",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-01-24T00:57:25.000Z",
+      "relevanceScore": 736.45,
+      "recommendationScore": 738.45,
+      "tags": [
+        "Cloud",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
     {
       "title": "Why does SSH send 100 packets per keystroke?",
       "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-01-23T14:35:24.000Z",
-      "relevanceScore": 573.14,
-      "recommendationScore": 574.64,
+      "relevanceScore": 630.87,
+      "recommendationScore": 632.37,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "US Judge Rules ICE Raids Require Judicial Warrants, Contradicting Secret ICE Memo",
-      "link": "https://www.wired.com/story/us-judge-rules-ice-raids-require-judicial-warrants-contradicting-secret-ice-memo/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-23T22:24:07.000Z",
-      "relevanceScore": 491.21,
-      "recommendationScore": 491.71,
-      "tags": [],
-      "readingLevel": "advanced"
+      "title": "How to Use an AI Agent for Technical Research (Free, No Signup)",
+      "link": "https://dev.to/agent-tools-dev/how-to-use-an-ai-agent-for-technical-research-free-no-signup-1epk",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-01-24T01:00:11.000Z",
+      "relevanceScore": 570.95,
+      "recommendationScore": 572.95,
+      "tags": [
+        "AI",
+        "Science",
+        "Web",
+        "Tutorial",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Build an agent into any app with the GitHub Copilot SDK",
@@ -47,8 +83,8 @@
       "source": "GitHub Blog",
       "category": "mobile",
       "pubDate": "2026-01-22T15:01:44.000Z",
-      "relevanceScore": 487.43,
-      "recommendationScore": 487.93,
+      "relevanceScore": 566.16,
+      "recommendationScore": 566.66,
       "tags": [
         "Mobile",
         "Exclusive"
@@ -56,26 +92,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Implementing a JSON Schema Validator from Scratch - Week 1",
-      "link": "https://dev.to/ahmedhanygamal/implementing-a-json-schema-validator-from-scratch-week-1-4ah9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-23T23:41:28.000Z",
-      "relevanceScore": 292.46,
-      "recommendationScore": 292.96,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Retro handheld maker Anbernic has a new gamepad with a screen and heart rate sensor",
-      "link": "https://www.engadget.com/gaming/retro-handheld-maker-anbernic-has-a-new-gamepad-with-a-screen-and-heart-rate-sensor-201651899.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-01-23T20:16:51.000Z",
-      "relevanceScore": 243.28,
-      "recommendationScore": 245.78,
+      "title": "US Judge Rules ICE Raids Require Judicial Warrants, Contradicting Secret ICE Memo",
+      "link": "https://www.wired.com/story/us-judge-rules-ice-raids-require-judicial-warrants-contradicting-secret-ice-memo/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-23T22:24:07.000Z",
+      "relevanceScore": 493.43,
+      "recommendationScore": 493.93,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -85,8 +108,8 @@
       "source": "The Verge",
       "category": "startup",
       "pubDate": "2026-01-23T22:08:43.000Z",
-      "relevanceScore": 196.66,
-      "recommendationScore": 197.16,
+      "relevanceScore": 272.88,
+      "recommendationScore": 273.38,
       "tags": [
         "Startup",
         "Social",
@@ -96,17 +119,30 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Is it safe to use Sqids instead of UUIDs for public API IDs?",
-      "link": "https://dev.to/zistrious_93d96700ba3faf5/is-it-safe-to-use-sqids-instead-of-uuids-for-public-api-ids-2203",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-23T23:29:10.000Z",
-      "relevanceScore": 167.92,
-      "recommendationScore": 168.42,
+      "title": "Retro handheld maker Anbernic has a new gamepad with a screen and heart rate sensor",
+      "link": "https://www.engadget.com/gaming/retro-handheld-maker-anbernic-has-a-new-gamepad-with-a-screen-and-heart-rate-sensor-201651899.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-01-23T20:16:51.000Z",
+      "relevanceScore": 268.01,
+      "recommendationScore": 270.51,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "TikTok Is Now Collecting Even More Data About Its Users. Here Are the 3 Biggest Changes",
+      "link": "https://www.wired.com/story/tiktok-new-privacy-policy/",
+      "source": "Wired",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-23T21:26:28.000Z",
+      "relevanceScore": 238.24,
+      "recommendationScore": 238.74,
       "tags": [
-        "IPO"
+        "Security",
+        "Social",
+        "Regulation"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "America’s coming war over AI regulation",
@@ -114,8 +150,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-23T10:00:00.000Z",
-      "relevanceScore": 162.73,
-      "recommendationScore": 162.73,
+      "relevanceScore": 176.45,
+      "recommendationScore": 176.45,
       "tags": [
         "AI",
         "Tech",
@@ -130,8 +166,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-01-23T19:10:51.000Z",
-      "relevanceScore": 156.56,
-      "recommendationScore": 160.06,
+      "relevanceScore": 172.29,
+      "recommendationScore": 175.79,
       "tags": [
         "Mobile",
         "Social",
@@ -145,23 +181,12 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-23T08:40:00.000Z",
-      "relevanceScore": 156.46,
-      "recommendationScore": 156.46,
+      "relevanceScore": 170.19,
+      "recommendationScore": 170.19,
       "tags": [
         "AI",
         "Tech"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Measles is surging in the US. Wastewater tracking could help.",
-      "link": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-01-23T10:00:00.000Z",
-      "relevanceScore": 133.23,
-      "recommendationScore": 133.73,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -170,8 +195,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-23T13:07:00.000Z",
-      "relevanceScore": 130.85,
-      "recommendationScore": 131.35,
+      "relevanceScore": 141.08,
+      "recommendationScore": 141.58,
       "tags": [
         "AI",
         "Tech",
@@ -181,28 +206,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "How did Davos turn into a tech conference?",
-      "link": "https://techcrunch.com/video/how-did-davos-turn-into-a-tech-conference/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T20:00:00.000Z",
-      "relevanceScore": 130.73,
-      "recommendationScore": 132.23,
-      "tags": [
-        "AI",
-        "Tech",
-        "Interview"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Is China quietly winning the AI race?",
       "link": "https://www.bbc.com/news/articles/c86v52gv726o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-23T22:31:33.000Z",
-      "relevanceScore": 130.23,
-      "recommendationScore": 130.23,
+      "relevanceScore": 140.46,
+      "recommendationScore": 140.46,
       "tags": [
         "AI",
         "Tech"
@@ -210,13 +220,24 @@
       "readingLevel": "beginner"
     },
     {
+      "title": "Measles is surging in the US. Wastewater tracking could help.",
+      "link": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-01-23T10:00:00.000Z",
+      "relevanceScore": 138.95,
+      "recommendationScore": 139.45,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Google Photos can now turn you into a meme",
       "link": "https://www.engadget.com/ai/google-photos-can-now-turn-you-into-a-meme-213930935.html?src=rss",
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-23T21:39:30.000Z",
-      "relevanceScore": 127.06,
-      "recommendationScore": 127.06,
+      "relevanceScore": 137.29,
+      "recommendationScore": 137.29,
       "tags": [
         "AI",
         "Tech"
@@ -229,23 +250,37 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-23T20:48:46.000Z",
-      "relevanceScore": 89.39,
-      "recommendationScore": 89.89,
+      "relevanceScore": 131.62,
+      "recommendationScore": 132.12,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "DHS keeps trying and failing to unmask anonymous ICE critics online",
-      "link": "https://arstechnica.com/tech-policy/2026/01/instagram-ice-critic-wins-fight-to-stay-anonymous-as-dhs-backs-down/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-23T20:10:40.000Z",
-      "relevanceScore": 63.26,
-      "recommendationScore": 63.76,
+      "title": "What does a new US TikTok deal mean for users?",
+      "link": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-01-23T18:15:10.000Z",
+      "relevanceScore": 131.1,
+      "recommendationScore": 134.6,
       "tags": [
-        "Web"
+        "Social",
+        "Partnership"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "What to know about Netflix’s landmark acquisition of Warner Bros.",
+      "link": "https://techcrunch.com/2026/01/23/what-to-know-about-netflixs-landmark-acquisition-of-warner-bros/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2026-01-23T20:31:27.000Z",
+      "relevanceScore": 98.06,
+      "recommendationScore": 100.06,
+      "tags": [
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
@@ -253,10 +288,57 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-01-23T14:28:24.000Z",
-      "relevanceScore": 62.62,
-      "recommendationScore": 62.62,
+      "relevanceScore": 94.35,
+      "recommendationScore": 94.35,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Former Tory councillor pleads guilty to drugging and raping wife over 13 years",
+      "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T18:18:11.000Z",
+      "relevanceScore": 70.61,
+      "recommendationScore": 71.11,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
+      "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T13:10:09.000Z",
+      "relevanceScore": 65.09,
+      "recommendationScore": 65.59,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta is stopping teens from chatting with its AI characters",
+      "link": "https://www.theverge.com/news/866906/meta-teens-ai-characters-stop-block-new-version",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-01-23T19:50:59.000Z",
+      "relevanceScore": 60.42,
+      "recommendationScore": 61.92,
+      "tags": [
+        "AI",
+        "Update"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "China's auto industry is rising as car manufacturing in the U.S. struggles",
+      "link": "https://www.npr.org/2026/01/23/nx-s1-5684965/chinas-auto-industry-is-rising-as-car-manufacturing-in-the-u-s-struggles",
+      "source": "NPR Business",
+      "category": "automotive",
+      "pubDate": "2026-01-23T09:48:09.000Z",
+      "relevanceScore": 60.41,
+      "recommendationScore": 60.91,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "US hits 9 tankers with sanctions over Iranian oil during protest crackdown",
@@ -264,8 +346,123 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-23T18:38:30.000Z",
-      "relevanceScore": 56.95,
-      "recommendationScore": 57.45,
+      "relevanceScore": 60.18,
+      "recommendationScore": 60.68,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "DHS keeps trying and failing to unmask anonymous ICE critics online",
+      "link": "https://arstechnica.com/tech-policy/2026/01/instagram-ice-critic-wins-fight-to-stay-anonymous-as-dhs-backs-down/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-23T20:10:40.000Z",
+      "relevanceScore": 59.99,
+      "recommendationScore": 60.49,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Apple will begin showing more App Store ads starting in March",
+      "link": "https://www.engadget.com/apps/apple-will-begin-showing-more-app-store-ads-starting-in-march-192031226.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-01-23T19:20:31.000Z",
+      "relevanceScore": 59.32,
+      "recommendationScore": 61.32,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why I’m ignoring the \"Death of the Programmer\" hype",
+      "link": "https://www.reddit.com/r/programming/comments/1ql7638/why_im_ignoring_the_death_of_the_programmer_hype/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-01-23T23:53:57.000Z",
+      "relevanceScore": 57.23,
+      "recommendationScore": 59.23,
+      "tags": [
+        "AI",
+        "Mobile",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Rippling/Deel corporate spying scandal may have taken another wild turn",
+      "link": "https://techcrunch.com/2026/01/23/the-rippling-deel-corporate-spying-scandal-may-have-taken-another-wild-turn/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-01-23T21:13:28.000Z",
+      "relevanceScore": 45.2,
+      "recommendationScore": 45.7,
+      "tags": [
+        "Analysis",
+        "Controversy"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to Prep for This Weekend’s Big Winter Storm: Power, Heat, and Underwear",
+      "link": "https://www.wired.com/story/how-to-prep-for-a-winter-storm/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-23T20:34:19.000Z",
+      "relevanceScore": 43.07,
+      "recommendationScore": 45.07,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Overrun with AI slop, cURL scraps bug bounties to ensure \"intact mental health\"",
+      "link": "https://www.reddit.com/r/programming/comments/1ql0w5p/overrun_with_ai_slop_curl_scraps_bug_bounties_to/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-01-23T19:47:01.000Z",
+      "relevanceScore": 39.41,
+      "recommendationScore": 39.91,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Rayner to back calls for Burnham to be allowed to stand in by-election",
+      "link": "https://www.bbc.com/news/articles/c77kexz6k5zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T18:33:50.000Z",
+      "relevanceScore": 31.67,
+      "recommendationScore": 32.17,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'Trump should apologise': Anger of veterans and relatives",
+      "link": "https://www.bbc.com/news/articles/c20gzjnv9l5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T22:10:03.000Z",
+      "relevanceScore": 31.39,
+      "recommendationScore": 31.89,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments",
+      "link": "https://www.bbc.com/news/articles/clym2l7d75eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-23T21:50:47.000Z",
+      "relevanceScore": 31.32,
+      "recommendationScore": 31.82,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -275,9 +472,47 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-23T22:30:17.000Z",
-      "relevanceScore": 54.23,
-      "recommendationScore": 54.73,
+      "relevanceScore": 28.46,
+      "recommendationScore": 28.96,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Who’s behind AMI Labs, Yann LeCun’s ‘world model’ startup",
+      "link": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-01-24T00:04:45.000Z",
+      "relevanceScore": 27.77,
+      "recommendationScore": 28.27,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Waymo probed by National Transportation Safety Board over illegal school bus behavior",
+      "link": "https://techcrunch.com/2026/01/23/waymo-probed-by-national-transportation-safety-board-over-illegal-school-bus-behavior/",
+      "source": "TechCrunch",
+      "category": "education",
+      "pubDate": "2026-01-23T21:50:47.000Z",
+      "relevanceScore": 27.32,
+      "recommendationScore": 27.82,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
+      "link": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/",
+      "source": "TechCrunch",
+      "category": "cybersecurity",
+      "pubDate": "2026-01-23T20:17:24.000Z",
+      "relevanceScore": 27.01,
+      "recommendationScore": 27.51,
+      "tags": [
+        "Security"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -286,8 +521,8 @@
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2026-01-23T17:48:25.000Z",
-      "relevanceScore": 53.29,
-      "recommendationScore": 55.29,
+      "relevanceScore": 26.52,
+      "recommendationScore": 28.52,
       "tags": [
         "Web",
         "Social"
@@ -300,8 +535,8 @@
       "source": "Ars Technica",
       "category": "gaming",
       "pubDate": "2026-01-23T21:52:24.000Z",
-      "relevanceScore": 52.1,
-      "recommendationScore": 52.6,
+      "relevanceScore": 26.33,
+      "recommendationScore": 26.83,
       "tags": [
         "Science",
         "Report"
@@ -309,79 +544,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "How to Prep for This Weekend’s Big Winter Storm: Power, Heat, and Underwear",
-      "link": "https://www.wired.com/story/how-to-prep-for-a-winter-storm/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-23T20:34:19.000Z",
-      "relevanceScore": 46.34,
-      "recommendationScore": 48.34,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Overrun with AI slop, cURL scraps bug bounties to ensure \"intact mental health\"",
-      "link": "https://www.reddit.com/r/programming/comments/1ql0w5p/overrun_with_ai_slop_curl_scraps_bug_bounties_to/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T19:47:01.000Z",
-      "relevanceScore": 42.68,
-      "recommendationScore": 43.18,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Rippling/Deel corporate spying scandal may have taken another wild turn",
-      "link": "https://techcrunch.com/2026/01/23/the-rippling-deel-corporate-spying-scandal-may-have-taken-another-wild-turn/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-01-23T21:13:28.000Z",
-      "relevanceScore": 41.97,
-      "recommendationScore": 42.47,
-      "tags": [
-        "Analysis",
-        "Controversy"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Former Tory councillor pleads guilty to drugging and raping wife over 13 years",
-      "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T18:18:11.000Z",
-      "relevanceScore": 39.89,
-      "recommendationScore": 40.39,
+      "title": "Powdered whole milk could be a culprit in the ByHeart botulism outbreak, tests show",
+      "link": "https://abcnews.go.com/Business/wireStory/powdered-milk-culprit-byheart-botulism-outbreak-tests-show-129507892",
+      "source": "ABC News Business",
+      "category": "health",
+      "pubDate": "2026-01-24T00:52:20.000Z",
+      "relevanceScore": 25.93,
+      "recommendationScore": 27.93,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
-      "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T13:10:09.000Z",
-      "relevanceScore": 36.36,
-      "recommendationScore": 36.86,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
-      "link": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/",
-      "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-23T20:17:24.000Z",
-      "relevanceScore": 33.78,
-      "recommendationScore": 34.28,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "‘Uncanny Valley’: Donald Trump’s Davos Drama, AI Midterms, and ChatGPT’s Last Resort",
@@ -389,85 +560,22 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-01-23T22:26:01.000Z",
-      "relevanceScore": 32.21,
-      "recommendationScore": 32.71,
+      "relevanceScore": 25.44,
+      "recommendationScore": 25.94,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Rayner to back calls for Burnham to be allowed to stand in by-election",
-      "link": "https://www.bbc.com/news/articles/c77kexz6k5zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T18:33:50.000Z",
-      "relevanceScore": 31.94,
-      "recommendationScore": 32.44,
+      "title": "White House alters arrest photo of ICE protester, says \"the memes will continue\"",
+      "link": "https://arstechnica.com/tech-policy/2026/01/white-house-posts-altered-arrest-photo-to-make-it-appear-ice-critic-was-sobbing/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-23T18:46:31.000Z",
+      "relevanceScore": 24.71,
+      "recommendationScore": 25.21,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meta is stopping teens from chatting with its AI characters",
-      "link": "https://www.theverge.com/news/866906/meta-teens-ai-characters-stop-block-new-version",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T19:50:59.000Z",
-      "relevanceScore": 31.7,
-      "recommendationScore": 33.2,
-      "tags": [
-        "AI",
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "'Trump should apologise': Anger of veterans and relatives",
-      "link": "https://www.bbc.com/news/articles/c20gzjnv9l5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T22:10:03.000Z",
-      "relevanceScore": 31.66,
-      "recommendationScore": 32.16,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments",
-      "link": "https://www.bbc.com/news/articles/clym2l7d75eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-23T21:50:47.000Z",
-      "relevanceScore": 31.6,
-      "recommendationScore": 32.1,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump steals the show in Davos with a mixed bag of rhetoric and results at elite gathering",
-      "link": "https://abcnews.go.com/Business/wireStory/trump-steals-show-davos-mixed-bag-rhetoric-results-129486607",
-      "source": "ABC News Business",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T13:41:56.000Z",
-      "relevanceScore": 31.47,
-      "recommendationScore": 33.47,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What does a new US TikTok deal mean for users?",
-      "link": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-01-23T18:15:10.000Z",
-      "relevanceScore": 31.38,
-      "recommendationScore": 34.88,
-      "tags": [
-        "Social",
-        "Partnership"
-      ],
       "readingLevel": "beginner"
     },
     {
@@ -476,37 +584,20 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-23T17:25:44.000Z",
-      "relevanceScore": 31.21,
-      "recommendationScore": 31.71,
+      "relevanceScore": 24.44,
+      "recommendationScore": 24.94,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Apple will begin showing more App Store ads starting in March",
-      "link": "https://www.engadget.com/apps/apple-will-begin-showing-more-app-store-ads-starting-in-march-192031226.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-01-23T19:20:31.000Z",
-      "relevanceScore": 30.59,
-      "recommendationScore": 32.59,
-      "tags": [
-        "Mobile",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to Get Your Brand Recommended by ChatGPT",
-      "link": "https://dev.to/ivandotcodes/how-to-get-your-brand-recommended-by-chatgpt-iko",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T23:35:47.000Z",
-      "relevanceScore": 30.45,
-      "recommendationScore": 31.95,
-      "tags": [
-        "AI",
-        "Tutorial"
-      ],
+      "title": "Prince Harry, who served in Afghanistan, says sacrifices of British troops deserve 'respect' after Trump comments",
+      "link": "https://www.reddit.com/r/worldnews/comments/1qkya8g/prince_harry_who_served_in_afghanistan_says/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-01-23T18:12:13.000Z",
+      "relevanceScore": 23.6,
+      "recommendationScore": 23.6,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -515,8 +606,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-23T21:48:18.000Z",
-      "relevanceScore": 30.09,
-      "recommendationScore": 30.09,
+      "relevanceScore": 23.32,
+      "recommendationScore": 23.32,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -526,9 +617,38 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2026-01-23T20:50:00.000Z",
-      "relevanceScore": 29.89,
-      "recommendationScore": 30.39,
+      "relevanceScore": 23.12,
+      "recommendationScore": 23.62,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Building a Transparent Skin Health Classifier: Fine-tuned EfficientNet + Grad-CAM 🩺",
+      "link": "https://dev.to/wellallytech/building-a-transparent-skin-health-classifier-fine-tuned-efficientnet-grad-cam-2nac",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-01-24T01:00:00.000Z",
+      "relevanceScore": 22.95,
+      "recommendationScore": 23.45,
+      "tags": [
+        "AI",
+        "Exclusive",
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'Hey, I'm dying': Decorated Marine texts family goodbye after teens gun him down during Facebook Marketplace 'ruse' to steal his iPhone and sell it at Walmart ecoATM, cops say",
+      "link": "https://www.reddit.com/r/technology/comments/1qkwi69/hey_im_dying_decorated_marine_texts_family/",
+      "source": "Reddit Technology",
+      "category": "mobile",
+      "pubDate": "2026-01-23T17:07:54.000Z",
+      "relevanceScore": 21.38,
+      "recommendationScore": 21.38,
+      "tags": [
+        "Mobile",
+        "Social"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -537,321 +657,71 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-23T00:02:43.000Z",
-      "relevanceScore": 27.74,
-      "recommendationScore": 28.24,
+      "relevanceScore": 20.96,
+      "recommendationScore": 21.46,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Waymo probed by National Transportation Safety Board over illegal school bus behavior",
-      "link": "https://techcrunch.com/2026/01/23/waymo-probed-by-national-transportation-safety-board-over-illegal-school-bus-behavior/",
-      "source": "TechCrunch",
-      "category": "education",
-      "pubDate": "2026-01-23T21:50:47.000Z",
-      "relevanceScore": 27.6,
-      "recommendationScore": 28.1,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What to know about Netflix’s landmark acquisition of Warner Bros.",
-      "link": "https://techcrunch.com/2026/01/23/what-to-know-about-netflixs-landmark-acquisition-of-warner-bros/",
-      "source": "TechCrunch",
-      "category": "entertainment",
-      "pubDate": "2026-01-23T20:31:27.000Z",
-      "relevanceScore": 27.33,
-      "recommendationScore": 29.33,
-      "tags": [
-        "Acquisition"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Scaling PostgreSQL to power 800 million ChatGPT users - OpenAI Engineering Blog",
-      "link": "https://www.reddit.com/r/programming/comments/1qkwhb0/scaling_postgresql_to_power_800_million_chatgpt/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2026-01-23T17:07:00.000Z",
-      "relevanceScore": 27.15,
-      "recommendationScore": 27.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1429, Part 1 (Thread #1576)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1qkgk0o/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-23T04:03:18.000Z",
-      "relevanceScore": 26.54,
-      "recommendationScore": 29.04,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "TikTok Is Now Collecting Even More Data About Its Users. Here Are the 3 Biggest Changes",
-      "link": "https://www.wired.com/story/tiktok-new-privacy-policy/",
-      "source": "Wired",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-23T21:26:28.000Z",
-      "relevanceScore": 25.51,
-      "recommendationScore": 26.01,
-      "tags": [
-        "Security",
-        "Social",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "China's auto industry is rising as car manufacturing in the U.S. struggles",
-      "link": "https://www.npr.org/2026/01/23/nx-s1-5684965/chinas-auto-industry-is-rising-as-car-manufacturing-in-the-u-s-struggles",
-      "source": "NPR Business",
-      "category": "automotive",
-      "pubDate": "2026-01-23T09:48:09.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 25.69,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "White House alters arrest photo of ICE protester, says \"the memes will continue\"",
-      "link": "https://arstechnica.com/tech-policy/2026/01/white-house-posts-altered-arrest-photo-to-make-it-appear-ice-critic-was-sobbing/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-23T18:46:31.000Z",
-      "relevanceScore": 24.98,
-      "recommendationScore": 25.48,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Casio teased a retro gaming-inspired sampler",
-      "link": "https://www.theverge.com/news/866709/casio-sx-c1-retro-gaming-inspired-sampler-at-namm",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-01-23T18:10:28.000Z",
-      "relevanceScore": 24.86,
-      "recommendationScore": 24.86,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Prince Harry, who served in Afghanistan, says sacrifices of British troops deserve 'respect' after Trump comments",
-      "link": "https://www.reddit.com/r/worldnews/comments/1qkya8g/prince_harry_who_served_in_afghanistan_says/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-23T18:12:13.000Z",
-      "relevanceScore": 23.87,
-      "recommendationScore": 23.87,
-      "tags": [],
-      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
+    "finance": [
+      {
+        "title": "Leak: Nvidia is about to challenge ‘Intel Inside’ with as many as eight Arm laptops",
+        "link": "https://www.theverge.com/games/867056/leak-nvidia-n1-n1x-laptops-lenovo-dell",
+        "source": "The Verge",
+        "pubDate": "2026-01-24T01:09:10.000Z",
+        "relevanceScore": 970.48,
+        "tags": [
+          "Business"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Write a blog showing step-by-step details with the screenshots on how you deployed the VM.",
+        "link": "https://dev.to/awokay/write-a-blog-showing-step-by-step-details-with-the-screenshots-on-how-you-deployed-the-vm-4i01",
+        "source": "Dev.to",
+        "pubDate": "2026-01-24T00:57:25.000Z",
+        "relevanceScore": 736.45,
+        "tags": [
+          "Cloud",
+          "Tutorial"
+        ]
+      }
+    ],
     "development": [
       {
         "title": "Why does SSH send 100 packets per keystroke?",
         "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-23T14:35:24.000Z",
-        "relevanceScore": 573.14,
+        "relevanceScore": 630.87,
         "tags": []
-      },
-      {
-        "title": "Implementing a JSON Schema Validator from Scratch - Week 1",
-        "link": "https://dev.to/ahmedhanygamal/implementing-a-json-schema-validator-from-scratch-week-1-4ah9",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T23:41:28.000Z",
-        "relevanceScore": 292.46,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Is it safe to use Sqids instead of UUIDs for public API IDs?",
-        "link": "https://dev.to/zistrious_93d96700ba3faf5/is-it-safe-to-use-sqids-instead-of-uuids-for-public-api-ids-2203",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T23:29:10.000Z",
-        "relevanceScore": 167.92,
-        "tags": [
-          "IPO"
-        ]
-      }
-    ],
-    "tech": [
-      {
-        "title": "US Judge Rules ICE Raids Require Judicial Warrants, Contradicting Secret ICE Memo",
-        "link": "https://www.wired.com/story/us-judge-rules-ice-raids-require-judicial-warrants-contradicting-secret-ice-memo/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T22:24:07.000Z",
-        "relevanceScore": 491.21,
-        "tags": []
-      },
-      {
-        "title": "Demand for Intel's processors is apparently there, but the supply is not",
-        "link": "https://arstechnica.com/gadgets/2026/01/core-ultra-series-3-launch-may-be-hampered-by-chip-shortages-says-intel/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T20:48:46.000Z",
-        "relevanceScore": 89.39,
-        "tags": []
-      },
-      {
-        "title": "DHS keeps trying and failing to unmask anonymous ICE critics online",
-        "link": "https://arstechnica.com/tech-policy/2026/01/instagram-ice-critic-wins-fight-to-stay-anonymous-as-dhs-backs-down/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T20:10:40.000Z",
-        "relevanceScore": 63.26,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
-        "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-23T14:28:24.000Z",
-        "relevanceScore": 62.62,
-        "tags": []
-      },
-      {
-        "title": "How to Prep for This Weekend’s Big Winter Storm: Power, Heat, and Underwear",
-        "link": "https://www.wired.com/story/how-to-prep-for-a-winter-storm/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T20:34:19.000Z",
-        "relevanceScore": 46.34,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "The Rippling/Deel corporate spying scandal may have taken another wild turn",
-        "link": "https://techcrunch.com/2026/01/23/the-rippling-deel-corporate-spying-scandal-may-have-taken-another-wild-turn/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T21:13:28.000Z",
-        "relevanceScore": 41.97,
-        "tags": [
-          "Analysis",
-          "Controversy"
-        ]
-      },
-      {
-        "title": "White House alters arrest photo of ICE protester, says \"the memes will continue\"",
-        "link": "https://arstechnica.com/tech-policy/2026/01/white-house-posts-altered-arrest-photo-to-make-it-appear-ice-critic-was-sobbing/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T18:46:31.000Z",
-        "relevanceScore": 24.98,
-        "tags": []
-      },
-      {
-        "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
-        "link": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-22T12:20:32.000Z",
-        "relevanceScore": 18.89,
-        "tags": []
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Build an agent into any app with the GitHub Copilot SDK",
-        "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-01-22T15:01:44.000Z",
-        "relevanceScore": 487.43,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "What TikTok’s new owners mean for your feed",
-        "link": "https://www.theverge.com/tech/866868/tiktok-usds-new-owners-algorithm-explained",
-        "source": "The Verge",
-        "pubDate": "2026-01-23T19:10:51.000Z",
-        "relevanceScore": 156.56,
-        "tags": [
-          "Mobile",
-          "Social",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Apple will begin showing more App Store ads starting in March",
-        "link": "https://www.engadget.com/apps/apple-will-begin-showing-more-app-store-ads-starting-in-march-192031226.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-23T19:20:31.000Z",
-        "relevanceScore": 30.59,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "'Hey, I'm dying': Decorated Marine texts family goodbye after teens gun him down during Facebook Marketplace 'ruse' to steal his iPhone and sell it at Walmart ecoATM, cops say",
-        "link": "https://www.reddit.com/r/technology/comments/1qkwi69/hey_im_dying_decorated_marine_texts_family/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-01-23T17:07:54.000Z",
-        "relevanceScore": 21.65,
-        "tags": [
-          "Mobile",
-          "Social"
-        ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Retro handheld maker Anbernic has a new gamepad with a screen and heart rate sensor",
-        "link": "https://www.engadget.com/gaming/retro-handheld-maker-anbernic-has-a-new-gamepad-with-a-screen-and-heart-rate-sensor-201651899.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-23T20:16:51.000Z",
-        "relevanceScore": 243.28,
-        "tags": []
-      },
-      {
-        "title": "TR-49 is interactive fiction for fans of deep research rabbit holes",
-        "link": "https://arstechnica.com/gaming/2026/01/tr-49-is-interactive-fiction-for-fans-of-deep-research-rabbit-holes/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-23T21:52:24.000Z",
-        "relevanceScore": 52.1,
-        "tags": [
-          "Science",
-          "Report"
-        ]
-      },
-      {
-        "title": "Casio teased a retro gaming-inspired sampler",
-        "link": "https://www.theverge.com/news/866709/casio-sx-c1-retro-gaming-inspired-sampler-at-namm",
-        "source": "The Verge",
-        "pubDate": "2026-01-23T18:10:28.000Z",
-        "relevanceScore": 24.86,
-        "tags": []
-      }
-    ],
-    "startup": [
-      {
-        "title": "Congress doesn’t seem to know if the TikTok deal complies with its law",
-        "link": "https://www.theverge.com/news/866977/tiktok-deal-congress-china",
-        "source": "The Verge",
-        "pubDate": "2026-01-23T22:08:43.000Z",
-        "relevanceScore": 196.66,
-        "tags": [
-          "Startup",
-          "Social",
-          "Partnership",
-          "Regulation"
-        ]
       }
     ],
     "ai-ml": [
+      {
+        "title": "How to Use an AI Agent for Technical Research (Free, No Signup)",
+        "link": "https://dev.to/agent-tools-dev/how-to-use-an-ai-agent-for-technical-research-free-no-signup-1epk",
+        "source": "Dev.to",
+        "pubDate": "2026-01-24T01:00:11.000Z",
+        "relevanceScore": 570.95,
+        "tags": [
+          "AI",
+          "Science",
+          "Web",
+          "Tutorial",
+          "Report"
+        ]
+      },
       {
         "title": "America’s coming war over AI regulation",
         "link": "https://www.technologyreview.com/2026/01/23/1131559/americas-coming-war-over-ai-regulation/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T10:00:00.000Z",
-        "relevanceScore": 162.73,
+        "relevanceScore": 176.45,
         "tags": [
           "AI",
           "Tech",
@@ -864,7 +734,7 @@
         "link": "https://stackoverflow.blog/2026/01/23/ai-can-10x-developers-in-creating-tech-debt/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-23T08:40:00.000Z",
-        "relevanceScore": 156.46,
+        "relevanceScore": 170.19,
         "tags": [
           "AI",
           "Tech"
@@ -875,7 +745,7 @@
         "link": "https://www.technologyreview.com/2026/01/23/1131708/the-download-chatbots-for-health-and-us-fights-over-ai-regulation/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T13:07:00.000Z",
-        "relevanceScore": 130.85,
+        "relevanceScore": 141.08,
         "tags": [
           "AI",
           "Tech",
@@ -884,23 +754,11 @@
         ]
       },
       {
-        "title": "How did Davos turn into a tech conference?",
-        "link": "https://techcrunch.com/video/how-did-davos-turn-into-a-tech-conference/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T20:00:00.000Z",
-        "relevanceScore": 130.73,
-        "tags": [
-          "AI",
-          "Tech",
-          "Interview"
-        ]
-      },
-      {
         "title": "Is China quietly winning the AI race?",
         "link": "https://www.bbc.com/news/articles/c86v52gv726o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-23T22:31:33.000Z",
-        "relevanceScore": 130.23,
+        "relevanceScore": 140.46,
         "tags": [
           "AI",
           "Tech"
@@ -911,30 +769,10 @@
         "link": "https://www.engadget.com/ai/google-photos-can-now-turn-you-into-a-meme-213930935.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-23T21:39:30.000Z",
-        "relevanceScore": 127.06,
+        "relevanceScore": 137.29,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Overrun with AI slop, cURL scraps bug bounties to ensure \"intact mental health\"",
-        "link": "https://www.reddit.com/r/programming/comments/1ql0w5p/overrun_with_ai_slop_curl_scraps_bug_bounties_to/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-23T19:47:01.000Z",
-        "relevanceScore": 42.68,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "‘Uncanny Valley’: Donald Trump’s Davos Drama, AI Midterms, and ChatGPT’s Last Resort",
-        "link": "https://www.wired.com/story/uncanny-valley-podcast-trump-davos-ice-ai-midterms-chatgpt-ads/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T22:26:01.000Z",
-        "relevanceScore": 32.21,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -942,30 +780,64 @@
         "link": "https://www.theverge.com/news/866906/meta-teens-ai-characters-stop-block-new-version",
         "source": "The Verge",
         "pubDate": "2026-01-23T19:50:59.000Z",
-        "relevanceScore": 31.7,
+        "relevanceScore": 60.42,
         "tags": [
           "AI",
           "Update"
         ]
       },
       {
-        "title": "Trump steals the show in Davos with a mixed bag of rhetoric and results at elite gathering",
-        "link": "https://abcnews.go.com/Business/wireStory/trump-steals-show-davos-mixed-bag-rhetoric-results-129486607",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-23T13:41:56.000Z",
-        "relevanceScore": 31.47,
+        "title": "Why I’m ignoring the \"Death of the Programmer\" hype",
+        "link": "https://www.reddit.com/r/programming/comments/1ql7638/why_im_ignoring_the_death_of_the_programmer_hype/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-23T23:53:57.000Z",
+        "relevanceScore": 57.23,
+        "tags": [
+          "AI",
+          "Mobile",
+          "Social"
+        ]
+      },
+      {
+        "title": "Overrun with AI slop, cURL scraps bug bounties to ensure \"intact mental health\"",
+        "link": "https://www.reddit.com/r/programming/comments/1ql0w5p/overrun_with_ai_slop_curl_scraps_bug_bounties_to/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-01-23T19:47:01.000Z",
+        "relevanceScore": 39.41,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "How to Get Your Brand Recommended by ChatGPT",
-        "link": "https://dev.to/ivandotcodes/how-to-get-your-brand-recommended-by-chatgpt-iko",
-        "source": "Dev.to",
-        "pubDate": "2026-01-23T23:35:47.000Z",
-        "relevanceScore": 30.45,
+        "title": "Who’s behind AMI Labs, Yann LeCun’s ‘world model’ startup",
+        "link": "https://techcrunch.com/2026/01/23/whos-behind-ami-labs-yann-lecuns-world-model-startup/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-24T00:04:45.000Z",
+        "relevanceScore": 27.77,
         "tags": [
           "AI",
+          "Startup"
+        ]
+      },
+      {
+        "title": "‘Uncanny Valley’: Donald Trump’s Davos Drama, AI Midterms, and ChatGPT’s Last Resort",
+        "link": "https://www.wired.com/story/uncanny-valley-podcast-trump-davos-ice-ai-midterms-chatgpt-ads/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T22:26:01.000Z",
+        "relevanceScore": 25.44,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Building a Transparent Skin Health Classifier: Fine-tuned EfficientNet + Grad-CAM 🩺",
+        "link": "https://dev.to/wellallytech/building-a-transparent-skin-health-classifier-fine-tuned-efficientnet-grad-cam-2nac",
+        "source": "Dev.to",
+        "pubDate": "2026-01-24T01:00:00.000Z",
+        "relevanceScore": 22.95,
+        "tags": [
+          "AI",
+          "Exclusive",
           "Tutorial"
         ]
       },
@@ -974,18 +846,201 @@
         "link": "https://www.bbc.com/news/articles/c058d4nvz1go?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-23T00:02:43.000Z",
-        "relevanceScore": 27.74,
+        "relevanceScore": 20.96,
         "tags": [
           "AI"
         ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Build an agent into any app with the GitHub Copilot SDK",
+        "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-01-22T15:01:44.000Z",
+        "relevanceScore": 566.16,
+        "tags": [
+          "Mobile",
+          "Exclusive"
+        ]
       },
       {
-        "title": "Scaling PostgreSQL to power 800 million ChatGPT users - OpenAI Engineering Blog",
-        "link": "https://www.reddit.com/r/programming/comments/1qkwhb0/scaling_postgresql_to_power_800_million_chatgpt/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-01-23T17:07:00.000Z",
-        "relevanceScore": 27.15,
+        "title": "What TikTok’s new owners mean for your feed",
+        "link": "https://www.theverge.com/tech/866868/tiktok-usds-new-owners-algorithm-explained",
+        "source": "The Verge",
+        "pubDate": "2026-01-23T19:10:51.000Z",
+        "relevanceScore": 172.29,
+        "tags": [
+          "Mobile",
+          "Social",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Apple will begin showing more App Store ads starting in March",
+        "link": "https://www.engadget.com/apps/apple-will-begin-showing-more-app-store-ads-starting-in-march-192031226.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-23T19:20:31.000Z",
+        "relevanceScore": 59.32,
+        "tags": [
+          "Mobile",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "'Hey, I'm dying': Decorated Marine texts family goodbye after teens gun him down during Facebook Marketplace 'ruse' to steal his iPhone and sell it at Walmart ecoATM, cops say",
+        "link": "https://www.reddit.com/r/technology/comments/1qkwi69/hey_im_dying_decorated_marine_texts_family/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-23T17:07:54.000Z",
+        "relevanceScore": 21.38,
+        "tags": [
+          "Mobile",
+          "Social"
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "US Judge Rules ICE Raids Require Judicial Warrants, Contradicting Secret ICE Memo",
+        "link": "https://www.wired.com/story/us-judge-rules-ice-raids-require-judicial-warrants-contradicting-secret-ice-memo/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T22:24:07.000Z",
+        "relevanceScore": 493.43,
         "tags": []
+      },
+      {
+        "title": "Demand for Intel's processors is apparently there, but the supply is not",
+        "link": "https://arstechnica.com/gadgets/2026/01/core-ultra-series-3-launch-may-be-hampered-by-chip-shortages-says-intel/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T20:48:46.000Z",
+        "relevanceScore": 131.62,
+        "tags": []
+      },
+      {
+        "title": "Is Your Ring Doorbell Footage Going Straight to ICE’s Massive Spy Network? | Ring partners with Flock to feed doorbell footage into federal databases used by ICE for immigration enforcement",
+        "link": "https://www.reddit.com/r/technology/comments/1qks90c/is_your_ring_doorbell_footage_going_straight_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-01-23T14:28:24.000Z",
+        "relevanceScore": 94.35,
+        "tags": []
+      },
+      {
+        "title": "DHS keeps trying and failing to unmask anonymous ICE critics online",
+        "link": "https://arstechnica.com/tech-policy/2026/01/instagram-ice-critic-wins-fight-to-stay-anonymous-as-dhs-backs-down/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T20:10:40.000Z",
+        "relevanceScore": 59.99,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "The Rippling/Deel corporate spying scandal may have taken another wild turn",
+        "link": "https://techcrunch.com/2026/01/23/the-rippling-deel-corporate-spying-scandal-may-have-taken-another-wild-turn/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-23T21:13:28.000Z",
+        "relevanceScore": 45.2,
+        "tags": [
+          "Analysis",
+          "Controversy"
+        ]
+      },
+      {
+        "title": "How to Prep for This Weekend’s Big Winter Storm: Power, Heat, and Underwear",
+        "link": "https://www.wired.com/story/how-to-prep-for-a-winter-storm/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T20:34:19.000Z",
+        "relevanceScore": 43.07,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "White House alters arrest photo of ICE protester, says \"the memes will continue\"",
+        "link": "https://arstechnica.com/tech-policy/2026/01/white-house-posts-altered-arrest-photo-to-make-it-appear-ice-critic-was-sobbing/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T18:46:31.000Z",
+        "relevanceScore": 24.71,
+        "tags": []
+      },
+      {
+        "title": "Ubisoft cancels six games including Prince of Persia and closes studios",
+        "link": "https://www.bbc.com/news/articles/c6200g826d2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-22T12:20:32.000Z",
+        "relevanceScore": 18.62,
+        "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "Congress doesn’t seem to know if the TikTok deal complies with its law",
+        "link": "https://www.theverge.com/news/866977/tiktok-deal-congress-china",
+        "source": "The Verge",
+        "pubDate": "2026-01-23T22:08:43.000Z",
+        "relevanceScore": 272.88,
+        "tags": [
+          "Startup",
+          "Social",
+          "Partnership",
+          "Regulation"
+        ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Retro handheld maker Anbernic has a new gamepad with a screen and heart rate sensor",
+        "link": "https://www.engadget.com/gaming/retro-handheld-maker-anbernic-has-a-new-gamepad-with-a-screen-and-heart-rate-sensor-201651899.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-23T20:16:51.000Z",
+        "relevanceScore": 268.01,
+        "tags": []
+      },
+      {
+        "title": "TR-49 is interactive fiction for fans of deep research rabbit holes",
+        "link": "https://arstechnica.com/gaming/2026/01/tr-49-is-interactive-fiction-for-fans-of-deep-research-rabbit-holes/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-23T21:52:24.000Z",
+        "relevanceScore": 26.33,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "TikTok Is Now Collecting Even More Data About Its Users. Here Are the 3 Biggest Changes",
+        "link": "https://www.wired.com/story/tiktok-new-privacy-policy/",
+        "source": "Wired",
+        "pubDate": "2026-01-23T21:26:28.000Z",
+        "relevanceScore": 238.24,
+        "tags": [
+          "Security",
+          "Social",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
+        "link": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-23T20:17:24.000Z",
+        "relevanceScore": 27.01,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Automate your security whack-a-mole: Q&A with Exaforce",
+        "link": "https://stackoverflow.blog/2026/01/22/automate-your-security-whack-a-mole-q-and-a-with-exaforce/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-22T15:00:00.000Z",
+        "relevanceScore": 17.15,
+        "tags": [
+          "Security",
+          "Interview"
+        ]
       }
     ],
     "science": [
@@ -994,57 +1049,31 @@
         "link": "https://www.technologyreview.com/2026/01/23/1131698/measles-surging-us-wastewater-tracking/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-23T10:00:00.000Z",
-        "relevanceScore": 133.23,
-        "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "US hits 9 tankers with sanctions over Iranian oil during protest crackdown",
-        "link": "https://abcnews.go.com/Business/wireStory/us-hits-9-tankers-sanctions-iranian-oil-protest-129495337",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-23T18:38:30.000Z",
-        "relevanceScore": 56.95,
-        "tags": []
-      },
-      {
-        "title": "Is Greenland really a land of untapped riches? A geologist went looking in the 1990s",
-        "link": "https://www.npr.org/2026/01/23/nx-s1-5685198/is-greenland-really-a-land-of-untapped-riches-a-geologist-went-looking-in-the-1990s",
-        "source": "NPR Business",
-        "pubDate": "2026-01-23T22:30:17.000Z",
-        "relevanceScore": 54.23,
-        "tags": []
-      },
-      {
-        "title": "Mali's government moves to impose fuel rationing as al-Qaida-linked attacks cut off supplies",
-        "link": "https://abcnews.go.com/Business/wireStory/malis-government-moves-impose-fuel-rationing-al-qaida-129494513",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-23T17:25:44.000Z",
-        "relevanceScore": 31.21,
+        "relevanceScore": 138.95,
         "tags": []
       }
     ],
     "social": [
       {
-        "title": "Weather influencers are going viral. How much should we trust them?",
-        "link": "https://www.npr.org/2026/01/23/nx-s1-5685033/weather-influencers-winter-storm",
-        "source": "NPR Business",
-        "pubDate": "2026-01-23T17:48:25.000Z",
-        "relevanceScore": 53.29,
-        "tags": [
-          "Web",
-          "Social"
-        ]
-      },
-      {
         "title": "What does a new US TikTok deal mean for users?",
         "link": "https://www.bbc.com/news/articles/cq5yynydvgzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-23T18:15:10.000Z",
-        "relevanceScore": 31.38,
+        "relevanceScore": 131.1,
         "tags": [
           "Social",
           "Partnership"
+        ]
+      },
+      {
+        "title": "Weather influencers are going viral. How much should we trust them?",
+        "link": "https://www.npr.org/2026/01/23/nx-s1-5685033/weather-influencers-winter-storm",
+        "source": "NPR Business",
+        "pubDate": "2026-01-23T17:48:25.000Z",
+        "relevanceScore": 26.52,
+        "tags": [
+          "Web",
+          "Social"
         ]
       },
       {
@@ -1052,120 +1081,7 @@
         "link": "https://www.engadget.com/wearables/a-rival-smart-glasses-company-is-suing-meta-over-its-ray-ban-products-205000997.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-23T20:50:00.000Z",
-        "relevanceScore": 29.89,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Former Tory councillor pleads guilty to drugging and raping wife over 13 years",
-        "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T18:18:11.000Z",
-        "relevanceScore": 39.89,
-        "tags": []
-      },
-      {
-        "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
-        "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T13:10:09.000Z",
-        "relevanceScore": 36.36,
-        "tags": []
-      },
-      {
-        "title": "Rayner to back calls for Burnham to be allowed to stand in by-election",
-        "link": "https://www.bbc.com/news/articles/c77kexz6k5zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T18:33:50.000Z",
-        "relevanceScore": 31.94,
-        "tags": []
-      },
-      {
-        "title": "'Trump should apologise': Anger of veterans and relatives",
-        "link": "https://www.bbc.com/news/articles/c20gzjnv9l5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T22:10:03.000Z",
-        "relevanceScore": 31.66,
-        "tags": []
-      },
-      {
-        "title": "Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments",
-        "link": "https://www.bbc.com/news/articles/clym2l7d75eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-23T21:50:47.000Z",
-        "relevanceScore": 31.6,
-        "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Researchers say Russian government hackers were behind attempted Poland power outage",
-        "link": "https://techcrunch.com/2026/01/23/researchers-say-russian-government-hackers-were-behind-attempted-poland-power-outage/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T20:17:24.000Z",
-        "relevanceScore": 33.78,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "TikTok Is Now Collecting Even More Data About Its Users. Here Are the 3 Biggest Changes",
-        "link": "https://www.wired.com/story/tiktok-new-privacy-policy/",
-        "source": "Wired",
-        "pubDate": "2026-01-23T21:26:28.000Z",
-        "relevanceScore": 25.51,
-        "tags": [
-          "Security",
-          "Social",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Automate your security whack-a-mole: Q&A with Exaforce",
-        "link": "https://stackoverflow.blog/2026/01/22/automate-your-security-whack-a-mole-q-and-a-with-exaforce/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-22T15:00:00.000Z",
-        "relevanceScore": 17.43,
-        "tags": [
-          "Security",
-          "Interview"
-        ]
-      }
-    ],
-    "world": [
-      {
-        "title": "A retired Polish general who took part in NATO missions has demanded an apology from Donald Trump after he said that NATO allies had stayed “a little off the front lines” in Afghanistan and that the U.S. had “never needed them”.",
-        "link": "https://www.reddit.com/r/worldnews/comments/1ql421w/a_retired_polish_general_who_took_part_in_nato/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-23T21:48:18.000Z",
-        "relevanceScore": 30.09,
-        "tags": []
-      },
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1429, Part 1 (Thread #1576)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1qkgk0o/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-23T04:03:18.000Z",
-        "relevanceScore": 26.54,
-        "tags": []
-      },
-      {
-        "title": "Prince Harry, who served in Afghanistan, says sacrifices of British troops deserve 'respect' after Trump comments",
-        "link": "https://www.reddit.com/r/worldnews/comments/1qkya8g/prince_harry_who_served_in_afghanistan_says/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-23T18:12:13.000Z",
-        "relevanceScore": 23.87,
-        "tags": []
-      }
-    ],
-    "education": [
-      {
-        "title": "Waymo probed by National Transportation Safety Board over illegal school bus behavior",
-        "link": "https://techcrunch.com/2026/01/23/waymo-probed-by-national-transportation-safety-board-over-illegal-school-bus-behavior/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-23T21:50:47.000Z",
-        "relevanceScore": 27.6,
+        "relevanceScore": 23.12,
         "tags": []
       }
     ],
@@ -1175,10 +1091,52 @@
         "link": "https://techcrunch.com/2026/01/23/what-to-know-about-netflixs-landmark-acquisition-of-warner-bros/",
         "source": "TechCrunch",
         "pubDate": "2026-01-23T20:31:27.000Z",
-        "relevanceScore": 27.33,
+        "relevanceScore": 98.06,
         "tags": [
           "Acquisition"
         ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Former Tory councillor pleads guilty to drugging and raping wife over 13 years",
+        "link": "https://www.bbc.com/news/articles/c4grr3368n3o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T18:18:11.000Z",
+        "relevanceScore": 70.61,
+        "tags": []
+      },
+      {
+        "title": "Brooklyn Beckham's wedding DJ speaks about 'awkward' dance",
+        "link": "https://www.bbc.com/news/articles/cp8220err46o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T13:10:09.000Z",
+        "relevanceScore": 65.09,
+        "tags": []
+      },
+      {
+        "title": "Rayner to back calls for Burnham to be allowed to stand in by-election",
+        "link": "https://www.bbc.com/news/articles/c77kexz6k5zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T18:33:50.000Z",
+        "relevanceScore": 31.67,
+        "tags": []
+      },
+      {
+        "title": "'Trump should apologise': Anger of veterans and relatives",
+        "link": "https://www.bbc.com/news/articles/c20gzjnv9l5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T22:10:03.000Z",
+        "relevanceScore": 31.39,
+        "tags": []
+      },
+      {
+        "title": "Harry says sacrifices by Nato troops in Afghanistan deserve 'respect' after Trump comments",
+        "link": "https://www.bbc.com/news/articles/clym2l7d75eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-23T21:50:47.000Z",
+        "relevanceScore": 31.32,
+        "tags": []
       }
     ],
     "automotive": [
@@ -1187,7 +1145,7 @@
         "link": "https://www.npr.org/2026/01/23/nx-s1-5684965/chinas-auto-industry-is-rising-as-car-manufacturing-in-the-u-s-struggles",
         "source": "NPR Business",
         "pubDate": "2026-01-23T09:48:09.000Z",
-        "relevanceScore": 25.19,
+        "relevanceScore": 60.41,
         "tags": []
       },
       {
@@ -1195,15 +1153,87 @@
         "link": "https://www.reddit.com/r/technology/comments/1qkwbw4/tesla_kills_autopilot_locks_lanekeeping_behind/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-23T17:01:35.000Z",
-        "relevanceScore": 20.63,
+        "relevanceScore": 20.36,
+        "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "US hits 9 tankers with sanctions over Iranian oil during protest crackdown",
+        "link": "https://abcnews.go.com/Business/wireStory/us-hits-9-tankers-sanctions-iranian-oil-protest-129495337",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-23T18:38:30.000Z",
+        "relevanceScore": 60.18,
+        "tags": []
+      },
+      {
+        "title": "Is Greenland really a land of untapped riches? A geologist went looking in the 1990s",
+        "link": "https://www.npr.org/2026/01/23/nx-s1-5685198/is-greenland-really-a-land-of-untapped-riches-a-geologist-went-looking-in-the-1990s",
+        "source": "NPR Business",
+        "pubDate": "2026-01-23T22:30:17.000Z",
+        "relevanceScore": 28.46,
+        "tags": []
+      },
+      {
+        "title": "Mali's government moves to impose fuel rationing as al-Qaida-linked attacks cut off supplies",
+        "link": "https://abcnews.go.com/Business/wireStory/malis-government-moves-impose-fuel-rationing-al-qaida-129494513",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-23T17:25:44.000Z",
+        "relevanceScore": 24.44,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Waymo probed by National Transportation Safety Board over illegal school bus behavior",
+        "link": "https://techcrunch.com/2026/01/23/waymo-probed-by-national-transportation-safety-board-over-illegal-school-bus-behavior/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-23T21:50:47.000Z",
+        "relevanceScore": 27.32,
+        "tags": []
+      }
+    ],
+    "health": [
+      {
+        "title": "Powdered whole milk could be a culprit in the ByHeart botulism outbreak, tests show",
+        "link": "https://abcnews.go.com/Business/wireStory/powdered-milk-culprit-byheart-botulism-outbreak-tests-show-129507892",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-24T00:52:20.000Z",
+        "relevanceScore": 25.93,
+        "tags": []
+      }
+    ],
+    "world": [
+      {
+        "title": "Prince Harry, who served in Afghanistan, says sacrifices of British troops deserve 'respect' after Trump comments",
+        "link": "https://www.reddit.com/r/worldnews/comments/1qkya8g/prince_harry_who_served_in_afghanistan_says/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-23T18:12:13.000Z",
+        "relevanceScore": 23.6,
+        "tags": []
+      },
+      {
+        "title": "A retired Polish general who took part in NATO missions has demanded an apology from Donald Trump after he said that NATO allies had stayed “a little off the front lines” in Afghanistan and that the U.S. had “never needed them”.",
+        "link": "https://www.reddit.com/r/worldnews/comments/1ql421w/a_retired_polish_general_who_took_part_in_nato/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-23T21:48:18.000Z",
+        "relevanceScore": 23.32,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1429, Part 1 (Thread #1576)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1qkgk0o/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-23T04:03:18.000Z",
+        "relevanceScore": 19.77,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 15,
-    "avgRelevanceScore": 91.9698148148148,
+    "totalCategories": 18,
+    "avgRelevanceScore": 138.32925925925923,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1222,7 +1252,7 @@
         "count": 4
       },
       {
-        "category": "development",
+        "category": "cybersecurity",
         "count": 3
       }
     ]

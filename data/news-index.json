@@ -1,7 +1,71 @@
 {
-  "lastUpdated": "2026-01-23T23:52:04.799Z",
+  "lastUpdated": "2026-01-24T01:13:42.658Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-01-24",
+      "file": "2026-01-24.json",
+      "totalArticles": 54,
+      "lastUpdated": "2026-01-24T01:13:42.640Z",
+      "sources": [
+        "The Verge",
+        "Dev.to",
+        "Reddit Programming",
+        "GitHub Blog",
+        "Wired",
+        "Engadget",
+        "BBC Technology",
+        "Ars Technica",
+        "Stack Overflow Blog",
+        "MIT Technology Review",
+        "Reddit Technology",
+        "TechCrunch",
+        "BBC News",
+        "ABC News Business",
+        "NPR Business",
+        "Reddit World News"
+      ],
+      "categories": [
+        "tech",
+        "development",
+        "science",
+        "general",
+        "business",
+        "world"
+      ],
+      "topArticles": [
+        {
+          "title": "Leak: Nvidia is about to challenge ‘Intel Inside’ with as many as eight Arm laptops",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/games/867056/leak-nvidia-n1-n1x-laptops-lenovo-dell",
+          "relevanceScore": 1061.962133611111
+        },
+        {
+          "title": "Write a blog showing step-by-step details with the screenshots on how you deployed the VM.",
+          "source": "Dev.to",
+          "link": "https://dev.to/awokay/write-a-blog-showing-step-by-step-details-with-the-screenshots-on-how-you-deployed-the-vm-4i01",
+          "relevanceScore": 742.8642168055555
+        },
+        {
+          "title": "Why does SSH send 100 packets per keystroke?",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
+          "relevanceScore": 616
+        },
+        {
+          "title": "How to Use an AI Agent for Technical Research (Free, No Signup)",
+          "source": "Dev.to",
+          "link": "https://dev.to/agent-tools-dev/how-to-use-an-ai-agent-for-technical-research-free-no-signup-1epk",
+          "relevanceScore": 559.8872723611111
+        },
+        {
+          "title": "Build an agent into any app with the GitHub Copilot SDK",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
+          "relevanceScore": 556
+        }
+      ]
+    },
     {
       "date": "2026-01-23",
       "file": "2026-01-23.json",
@@ -38,31 +102,31 @@
           "title": "Why does SSH send 100 packets per keystroke?",
           "source": "Reddit Programming",
           "link": "https://www.reddit.com/r/programming/comments/1qksfgi/why_does_ssh_send_100_packets_per_keystroke/",
-          "relevanceScore": 558.3610030555556
+          "relevanceScore": 573.14
         },
         {
           "title": "US Judge Rules ICE Raids Require Judicial Warrants, Contradicting Secret ICE Memo",
           "source": "Wired",
           "link": "https://www.wired.com/story/us-judge-rules-ice-raids-require-judicial-warrants-contradicting-secret-ice-memo/",
-          "relevanceScore": 485.26697527777776
+          "relevanceScore": 491.21
         },
         {
           "title": "Build an agent into any app with the GitHub Copilot SDK",
           "source": "GitHub Blog",
           "link": "https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/",
-          "relevanceScore": 477
+          "relevanceScore": 487.43
         },
         {
           "title": "Implementing a JSON Schema Validator from Scratch - Week 1",
           "source": "Dev.to",
           "link": "https://dev.to/ahmedhanygamal/implementing-a-json-schema-validator-from-scratch-week-1-4ah9",
-          "relevanceScore": 287.9115586111111
+          "relevanceScore": 292.46
         },
         {
           "title": "Retro handheld maker Anbernic has a new gamepad with a screen and heart rate sensor",
           "source": "Engadget",
           "link": "https://www.engadget.com/gaming/retro-handheld-maker-anbernic-has-a-new-gamepad-with-a-screen-and-heart-rate-sensor-201651899.html?src=rss",
-          "relevanceScore": 233.20641972222222
+          "relevanceScore": 243.28
         }
       ]
     },
@@ -1803,70 +1867,6 @@
           "source": "Stack Overflow Blog",
           "link": "https://stackoverflow.blog/2025/12/25/whether-ai-is-a-bubble-or-revolution-how-does-software-survive/",
           "relevanceScore": 558.38
-        }
-      ]
-    },
-    {
-      "date": "2025-12-25",
-      "file": "2025-12-25.json",
-      "totalArticles": 49,
-      "lastUpdated": "2025-12-25T23:49:11.144Z",
-      "sources": [
-        "The Verge",
-        "Stack Overflow Blog",
-        "MIT Technology Review",
-        "TechCrunch",
-        "Wired",
-        "Reddit Technology",
-        "Dev.to",
-        "Engadget",
-        "Reddit Programming",
-        "Ars Technica",
-        "BBC News",
-        "ABC News Business",
-        "NPR Business",
-        "BBC Technology",
-        "GitHub Blog",
-        "Reddit World News"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "science",
-        "general",
-        "business",
-        "world"
-      ],
-      "topArticles": [
-        {
-          "title": "I re-created Google&#8217;s cute Gemini ad with my own kid&#8217;s stuffie, and I wish I hadn&#8217;t",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/tech/849998/gemini-ai-stuffed-animal-commercial",
-          "relevanceScore": 641.04
-        },
-        {
-          "title": "The Great Unracking: Saying goodbye to the servers at our physical datacenter",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2025/12/24/the-great-unracking-saying-goodbye-to-the-servers-at-our-physical-datacenter/",
-          "relevanceScore": 634.25
-        },
-        {
-          "title": "Sony’s souped-up PlayStation 5 Pro is $100 off for the rest of today",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/gadgets/684281/sony-playstation-5-ps5-pro-christmas-deal-sale-2025",
-          "relevanceScore": 457.44
-        },
-        {
-          "title": "AI Wrapped: The 14 AI terms you couldn’t avoid in 2025",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2025/12/25/1130298/ai-wrapped-the-14-ai-terms-you-couldnt-avoid-in-2025/",
-          "relevanceScore": 374.24
-        },
-        {
-          "title": "The best distraction blockers to jumpstart your focus in the new year",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2025/12/25/the-best-distraction-blockers-to-jumpstart-your-focus-in-the-new-year/",
-          "relevanceScore": 206.64
         }
       ]
     }
