@@ -1,7 +1,70 @@
 {
-  "lastUpdated": "2026-01-24T23:49:55.077Z",
+  "lastUpdated": "2026-01-25T01:23:19.146Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-01-25",
+      "file": "2026-01-25.json",
+      "totalArticles": 49,
+      "lastUpdated": "2026-01-25T01:23:19.127Z",
+      "sources": [
+        "Ars Technica",
+        "Engadget",
+        "TechCrunch",
+        "Stack Overflow Blog",
+        "NPR Business",
+        "MIT Technology Review",
+        "The Verge",
+        "BBC News",
+        "Reddit Programming",
+        "Reddit Technology",
+        "Dev.to",
+        "Reddit World News",
+        "Wired",
+        "BBC Technology",
+        "ABC News Business"
+      ],
+      "categories": [
+        "tech",
+        "development",
+        "business",
+        "science",
+        "general",
+        "world"
+      ],
+      "topArticles": [
+        {
+          "title": "Poland's energy grid was targeted by never-before-seen wiper malware",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/",
+          "relevanceScore": 1012.8731769444445
+        },
+        {
+          "title": "Google says it's working to fix Gmail issue that's led to flooded inboxes and increased spam warnings",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/apps/google-says-its-working-to-fix-gmail-issue-thats-led-to-flooded-inboxes-and-increased-spam-warnings-183358654.html?src=rss",
+          "relevanceScore": 897.5887325
+        },
+        {
+          "title": "Gmail is having issues with spam and misclassification",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/01/24/gmail-is-having-issues-with-spam-and-misclassification/",
+          "relevanceScore": 845.7890102777778
+        },
+        {
+          "title": "AI can 10x developers...in creating tech debt",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2026/01/23/ai-can-10x-developers-in-creating-tech-debt/",
+          "relevanceScore": 516
+        },
+        {
+          "title": "Trump threatens Canada with 100% tariffs over its new trade deal with China",
+          "source": "NPR Business",
+          "link": "https://www.npr.org/2026/01/24/nx-s1-5687236/canada-china-tariffs-trump",
+          "relevanceScore": 477.74970472222225
+        }
+      ]
+    },
     {
       "date": "2026-01-24",
       "file": "2026-01-24.json",
@@ -37,31 +100,31 @@
           "title": "Google says it's working to fix Gmail issue that's led to flooded inboxes and increased spam warnings",
           "source": "Engadget",
           "link": "https://www.engadget.com/apps/google-says-its-working-to-fix-gmail-issue-thats-led-to-flooded-inboxes-and-increased-spam-warnings-183358654.html?src=rss",
-          "relevanceScore": 799.3670755555555
+          "relevanceScore": 767.95
         },
         {
           "title": "Gmail is having issues with spam and misclassification",
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2026/01/24/gmail-is-having-issues-with-spam-and-misclassification/",
-          "relevanceScore": 751.5673534722222
+          "relevanceScore": 747.83
         },
         {
           "title": "Poland's energy grid was targeted by never-before-seen wiper malware",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/security/2026/01/wiper-malware-targeted-poland-energy-grid-but-failed-to-knock-out-electricity/",
-          "relevanceScore": 604.65152
+          "relevanceScore": 321.56
         },
         {
           "title": "Building Smarter Football Predictions with Standard Deviation in Node.js",
           "source": "Dev.to",
           "link": "https://dev.to/ads_rabat_9bb3463ae662b6a/building-smarter-football-predictions-with-standard-deviation-in-nodejs-1el5",
-          "relevanceScore": 486.7006866666667
+          "relevanceScore": 475.88
         },
         {
           "title": "AI can 10x developers...in creating tech debt",
           "source": "Stack Overflow Blog",
           "link": "https://stackoverflow.blog/2026/01/23/ai-can-10x-developers-in-creating-tech-debt/",
-          "relevanceScore": 465
+          "relevanceScore": 430.67
         }
       ]
     },
@@ -1803,69 +1866,6 @@
           "source": "NPR Business",
           "link": "https://www.npr.org/2025/12/26/nx-s1-5656190/memory-loss-as-ai-gobbles-up-chips-prices-for-devices-may-rise",
           "relevanceScore": 343.9
-        }
-      ]
-    },
-    {
-      "date": "2025-12-26",
-      "file": "2025-12-26.json",
-      "totalArticles": 50,
-      "lastUpdated": "2025-12-26T23:49:30.373Z",
-      "sources": [
-        "Dev.to",
-        "The Verge",
-        "TechCrunch",
-        "Stack Overflow Blog",
-        "GitHub Blog",
-        "Engadget",
-        "MIT Technology Review",
-        "NPR Business",
-        "Ars Technica",
-        "ABC News Business",
-        "Reddit Programming",
-        "Reddit World News",
-        "BBC News",
-        "Reddit Technology",
-        "Wired"
-      ],
-      "categories": [
-        "development",
-        "tech",
-        "science",
-        "business",
-        "world",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "Linux Package Management & Job Control – Practice Exercises",
-          "source": "Dev.to",
-          "link": "https://dev.to/jumptotech/linux-package-management-job-control-practice-exercises-18fa",
-          "relevanceScore": 1164.45
-        },
-        {
-          "title": "Rodeo is an app for making plans with friends you already have",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/news/850398/rodeo-hinge-social-app-friends",
-          "relevanceScore": 857.01
-        },
-        {
-          "title": "linux day #4",
-          "source": "Dev.to",
-          "link": "https://dev.to/jumptotech/linux-day-4-3jh0",
-          "relevanceScore": 726.93
-        },
-        {
-          "title": "Treat yourself: The best smart glasses to buy with your holiday gift money",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2025/12/26/treat-yourself-the-best-smart-glasses-to-buy-with-your-holiday-gift-money/",
-          "relevanceScore": 577.93
-        },
-        {
-          "title": "Whether AI is a bubble or revolution, how does software survive?",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2025/12/25/whether-ai-is-a-bubble-or-revolution-how-does-software-survive/",
-          "relevanceScore": 558.38
         }
       ]
     }
