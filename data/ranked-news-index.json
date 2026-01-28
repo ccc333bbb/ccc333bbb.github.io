@@ -1,20 +1,21 @@
 {
-  "lastUpdated": "2026-01-28T10:59:57.941Z",
+  "lastUpdated": "2026-01-28T11:28:58.221Z",
   "totalArticles": 47,
   "categories": [
     "tech",
     "science",
-    "ai-ml",
     "development",
-    "general",
     "mobile",
+    "general",
+    "ai-ml",
+    "cloud",
     "startup",
-    "blockchain",
     "social",
-    "health",
+    "automotive",
     "business",
-    "cybersecurity",
-    "entertainment"
+    "health",
+    "entertainment",
+    "cybersecurity"
   ],
   "topArticles": [
     {
@@ -23,8 +24,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-28T08:00:36.000Z",
-      "relevanceScore": 2331.4,
-      "recommendationScore": 2332.4,
+      "relevanceScore": 2364.81,
+      "recommendationScore": 2365.81,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -34,23 +35,10 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-27T18:08:19.000Z",
-      "relevanceScore": 1919.63,
-      "recommendationScore": 1922.13,
+      "relevanceScore": 2028.03,
+      "recommendationScore": 2030.53,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Everything you need to know about viral personal AI assistant Clawdbot (now Moltbot)",
-      "link": "https://techcrunch.com/2026/01/27/everything-you-need-to-know-about-viral-personal-ai-assistant-clawdbot-now-moltbot/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-01-28T00:12:43.000Z",
-      "relevanceScore": 1919.34,
-      "recommendationScore": 1919.84,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -60,8 +48,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-01-27T17:17:28.000Z",
-      "relevanceScore": 1383.96,
-      "recommendationScore": 1384.46,
+      "relevanceScore": 1271.86,
+      "recommendationScore": 1272.36,
       "tags": [
         "Tech",
         "Exclusive"
@@ -69,29 +57,19 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "OpenAI’s latest product lets you vibe code science",
-      "link": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-01-27T18:00:43.000Z",
-      "relevanceScore": 941.6,
-      "recommendationScore": 941.6,
+      "title": "Windows 11&#8217;s ability to resume Android apps on your PC is getting closer",
+      "link": "https://www.theverge.com/news/869161/microsoft-windows-11-android-app-resume-feature-release-preview",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-01-28T11:18:36.000Z",
+      "relevanceScore": 1109.97,
+      "recommendationScore": 1110.47,
       "tags": [
         "Tech",
-        "Science"
+        "Mobile",
+        "Exclusive"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Hundreds of flood warnings and alerts as Storm Chandra disruption continues",
-      "link": "https://www.bbc.com/news/articles/cy8p2yey0gdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-28T10:00:43.000Z",
-      "relevanceScore": 883.3,
-      "recommendationScore": 883.8,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "What you should know about the owners of US TikTok",
@@ -99,12 +77,67 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-01-28T03:27:06.000Z",
-      "relevanceScore": 822.49,
-      "recommendationScore": 823.99,
+      "relevanceScore": 911.89,
+      "recommendationScore": 913.39,
       "tags": [
         "Security",
         "Mobile",
         "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Hundreds of flood warnings and alerts as Storm Chandra disruption continues",
+      "link": "https://www.bbc.com/news/articles/cy8p2yey0gdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-28T11:24:22.000Z",
+      "relevanceScore": 889.48,
+      "recommendationScore": 889.98,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "OpenAI’s latest product lets you vibe code science",
+      "link": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-01-27T18:00:43.000Z",
+      "relevanceScore": 886.51,
+      "recommendationScore": 886.51,
+      "tags": [
+        "Tech",
+        "Science"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Self-driving truck startup Waabi is teaming up with Uber on robotaxis",
+      "link": "https://www.theverge.com/news/868535/waabi-robotaxi-uber-fundraising-self-driving-truck",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "relevanceScore": 859.9,
+      "recommendationScore": 860.4,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Deploying Adminer on ECS to Access a Private RDS Database (Terraform)",
+      "link": "https://dev.to/abdulrasheed_abdulazeez_7/deploying-adminer-on-ecs-to-access-a-private-rds-database-terraform-262p",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-01-28T11:27:41.000Z",
+      "relevanceScore": 837.5,
+      "recommendationScore": 838,
+      "tags": [
+        "Security",
+        "Web",
+        "Cloud",
+        "IPO"
       ],
       "readingLevel": "advanced"
     },
@@ -114,36 +147,23 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-01-28T05:44:03.000Z",
-      "relevanceScore": 704.95,
-      "recommendationScore": 705.45,
+      "relevanceScore": 723.35,
+      "recommendationScore": 723.85,
       "tags": [
         "Funding"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The crypto bill is falling apart in Congress",
-      "link": "https://www.theverge.com/column/868941/clarity-act-congress-shutdown",
+      "title": "Astronomers used AI to find 1,400 ‘anomalous objects’ from Hubble archives",
+      "link": "https://www.theverge.com/news/869182/astronomers-ai-discover-cosmic-anomalies-hubble-archives",
       "source": "The Verge",
-      "category": "blockchain",
-      "pubDate": "2026-01-28T01:09:33.000Z",
-      "relevanceScore": 693.03,
-      "recommendationScore": 693.03,
+      "category": "ai-ml",
+      "pubDate": "2026-01-28T11:15:37.000Z",
+      "relevanceScore": 553.96,
+      "recommendationScore": 554.46,
       "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Anaconda vs Miniconda vs Mamba Guide",
-      "link": "https://dev.to/rosgluk/anaconda-vs-miniconda-vs-mamba-guide-4pae",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-28T10:44:58.000Z",
-      "relevanceScore": 472.45,
-      "recommendationScore": 473.45,
-      "tags": [
-        "Tutorial"
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -153,12 +173,23 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-01-27T14:52:04.000Z",
-      "relevanceScore": 469.97,
-      "recommendationScore": 470.47,
+      "relevanceScore": 553.38,
+      "recommendationScore": 553.88,
       "tags": [
         "Web"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Java Variable",
+      "link": "https://dev.to/nanthini_ammu_ac02ad32802/java-variable-53kj",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-28T11:26:17.000Z",
+      "relevanceScore": 551.99,
+      "recommendationScore": 551.99,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Pornhub to restrict access for UK users from next week",
@@ -166,21 +197,23 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-01-27T18:38:43.000Z",
-      "relevanceScore": 350.73,
-      "recommendationScore": 351.23,
+      "relevanceScore": 380.63,
+      "recommendationScore": 381.13,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Amazon accidentally sends email confirming layoffs",
-      "link": "https://www.bbc.com/news/articles/cx2ywzxlxnlo?at_medium=RSS&at_campaign=rss",
+      "title": "TikTok US pushes back on claims it is censoring content",
+      "link": "https://www.bbc.com/news/articles/ckgjedpn8p8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-01-28T03:19:23.000Z",
-      "relevanceScore": 279.96,
-      "recommendationScore": 279.96,
-      "tags": [],
-      "readingLevel": "advanced"
+      "category": "social",
+      "pubDate": "2026-01-27T20:25:11.000Z",
+      "relevanceScore": 164.49,
+      "recommendationScore": 164.99,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Meta blocks links to ICE List, a Wiki that names agents",
@@ -188,10 +221,25 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2026-01-27T23:14:10.000Z",
-      "relevanceScore": 275.15,
-      "recommendationScore": 275.65,
+      "relevanceScore": 163.05,
+      "recommendationScore": 163.55,
       "tags": [
         "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to Build a Scalable To-Do App with React and Node.js: A Practical Guide",
+      "link": "https://dev.to/deepikarajawat/how-to-build-a-scalable-to-do-app-with-react-and-nodejs-a-practical-guide-fee",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-01-28T11:24:01.000Z",
+      "relevanceScore": 162.48,
+      "recommendationScore": 164.48,
+      "tags": [
+        "Tech",
+        "Mobile",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -201,8 +249,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-01-27T14:16:04.000Z",
-      "relevanceScore": 271.85,
-      "recommendationScore": 271.85,
+      "relevanceScore": 147.76,
+      "recommendationScore": 147.76,
       "tags": [
         "Tech",
         "Exclusive",
@@ -211,87 +259,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Tim Cook had ‘a good conversation’ with Trump about deescalation",
-      "link": "https://www.theverge.com/news/869155/apple-tim-cook-president-trump-deescalate-minneapolis",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-28T10:52:14.000Z",
-      "relevanceScore": 239.47,
-      "recommendationScore": 239.97,
-      "tags": [
-        "Interview"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "TikTok US pushes back on claims it is censoring content",
-      "link": "https://www.bbc.com/news/articles/ckgjedpn8p8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-01-27T20:25:11.000Z",
-      "relevanceScore": 82.58,
-      "recommendationScore": 83.08,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How to Implement OTP Authentication in Node.js: A Complete Guide for Secure User Verification",
-      "link": "https://dev.to/raza_engage/how-to-implement-otp-authentication-in-nodejs-a-complete-guide-for-secure-user-verification-3l40",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2026-01-28T10:44:02.000Z",
-      "relevanceScore": 81.95,
-      "recommendationScore": 83.95,
-      "tags": [
-        "Security",
-        "Mobile",
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Dozens of CDC vaccination databases have been frozen under RFK Jr.",
-      "link": "https://arstechnica.com/health/2026/01/rfk-jr-lets-cdc-vaccination-data-rot-dozens-of-databases-frozen/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2026-01-27T23:28:02.000Z",
-      "relevanceScore": 70.19,
-      "recommendationScore": 70.69,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Ex-FIFA president Sepp Blatter joins those calling for boycott of World Cup in U.S.",
-      "link": "https://www.npr.org/2026/01/27/g-s1-107571/fifa-sepp-blatter-boycott-world-cup",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-27T21:38:13.000Z",
-      "relevanceScore": 66.33,
-      "recommendationScore": 66.83,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "There's a rash of scam spam coming from a real Microsoft address",
-      "link": "https://arstechnica.com/information-technology/2026/01/theres-a-rash-of-scam-spam-coming-from-a-real-microsoft-address/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-01-27T22:34:40.000Z",
-      "relevanceScore": 64.52,
-      "recommendationScore": 65.02,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Spy vs spy at scale",
       "link": "https://stackoverflow.blog/2026/01/27/spy-vs-spy-at-scale/",
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-27T08:40:00.000Z",
-      "relevanceScore": 61.23,
-      "recommendationScore": 62.23,
+      "relevanceScore": 147.14,
+      "recommendationScore": 148.14,
       "tags": [
         "AI",
         "Tech",
@@ -300,28 +274,28 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "'We all know someone who was killed' -  Iran protesters tell BBC of brutal crackdown",
-      "link": "https://www.bbc.com/news/articles/cy8y2jxx9ppo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "cybersecurity",
-      "pubDate": "2026-01-28T00:46:53.000Z",
-      "relevanceScore": 52.96,
-      "recommendationScore": 53.46,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "EasyJet warned over 'misleading' £5.99 cabin bag fee",
       "link": "https://www.bbc.com/news/articles/cddgp9jgjz1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-28T09:04:38.000Z",
-      "relevanceScore": 50.12,
-      "recommendationScore": 50.62,
+      "relevanceScore": 130.52,
+      "recommendationScore": 131.02,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Waabi raises $1B and expands into robotaxis with Uber",
+      "link": "https://techcrunch.com/2026/01/28/waabi-raises-1b-and-expands-into-robotaxis-with-uber/",
+      "source": "TechCrunch",
+      "category": "automotive",
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "relevanceScore": 126.9,
+      "recommendationScore": 127.4,
+      "tags": [
+        "Funding"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Mexican president says her country has paused oil shipments to Cuba",
@@ -329,25 +303,47 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-28T07:44:43.000Z",
-      "relevanceScore": 45.85,
-      "recommendationScore": 46.35,
+      "relevanceScore": 126.25,
+      "recommendationScore": 126.75,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Google just leaked a first look at Android for PC in action",
-      "link": "https://www.theverge.com/news/869142/google-leak-aluminium-os-android-pc-bug-report-video",
+      "title": "Tim Cook had ‘a good conversation’ with Trump about deescalation",
+      "link": "https://www.theverge.com/news/869155/apple-tim-cook-president-trump-deescalate-minneapolis",
       "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-01-28T09:26:01.000Z",
-      "relevanceScore": 44.19,
-      "recommendationScore": 46.69,
+      "category": "tech",
+      "pubDate": "2026-01-28T10:52:14.000Z",
+      "relevanceScore": 125.88,
+      "recommendationScore": 126.38,
       "tags": [
-        "Mobile",
-        "Exclusive",
-        "Report"
+        "Interview"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon confirms 16,000 job cuts after accidental email",
+      "link": "https://www.bbc.com/news/articles/cx2ywzxlxnlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-01-28T11:21:38.000Z",
+      "relevanceScore": 124.98,
+      "recommendationScore": 125.48,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "A North Atlantic Right Whale Baby Boom Is On—but the Species Remains at Risk",
+      "link": "https://www.wired.com/story/a-north-atlantic-right-whale-baby-boom-is-on-but-the-species-remains-at-risk/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-28T11:00:00.000Z",
+      "relevanceScore": 124.4,
+      "recommendationScore": 124.9,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "What to know about UK-China relations as Prime Minister Keir Starmer visits Beijing",
@@ -355,8 +351,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-28T08:19:27.000Z",
-      "relevanceScore": 43.96,
-      "recommendationScore": 45.96,
+      "relevanceScore": 124.37,
+      "recommendationScore": 126.37,
       "tags": [
         "Business"
       ],
@@ -368,8 +364,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-28T00:01:19.000Z",
-      "relevanceScore": 42.3,
-      "recommendationScore": 42.8,
+      "relevanceScore": 122.71,
+      "recommendationScore": 123.21,
       "tags": [
         "AI",
         "Tech"
@@ -382,8 +378,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-27T23:52:34.000Z",
-      "relevanceScore": 40.28,
-      "recommendationScore": 40.28,
+      "relevanceScore": 120.68,
+      "recommendationScore": 120.68,
       "tags": [
         "AI"
       ],
@@ -395,12 +391,45 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2026-01-26T15:00:00.000Z",
-      "relevanceScore": 33.7,
-      "recommendationScore": 33.7,
+      "relevanceScore": 114.1,
+      "recommendationScore": 114.1,
       "tags": [
         "Launch"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Ex-FIFA president Sepp Blatter joins those calling for boycott of World Cup in U.S.",
+      "link": "https://www.npr.org/2026/01/27/g-s1-107571/fifa-sepp-blatter-boycott-world-cup",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-27T21:38:13.000Z",
+      "relevanceScore": 67.73,
+      "recommendationScore": 68.23,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "There's a rash of scam spam coming from a real Microsoft address",
+      "link": "https://arstechnica.com/information-technology/2026/01/theres-a-rash-of-scam-spam-coming-from-a-real-microsoft-address/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-01-27T22:34:40.000Z",
+      "relevanceScore": 65.92,
+      "recommendationScore": 66.42,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Dozens of CDC vaccination databases have been frozen under RFK Jr.",
+      "link": "https://arstechnica.com/health/2026/01/rfk-jr-lets-cdc-vaccination-data-rot-dozens-of-databases-frozen/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2026-01-27T23:28:02.000Z",
+      "relevanceScore": 57.1,
+      "recommendationScore": 57.6,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "'I don't let bullies win': US congresswoman defiant after substance thrown at her",
@@ -408,24 +437,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-28T10:11:19.000Z",
-      "relevanceScore": 32.84,
-      "recommendationScore": 33.34,
+      "relevanceScore": 32.74,
+      "recommendationScore": 33.24,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "20% Squarespace Promo Codes | February 2026",
-      "link": "https://www.wired.com/story/squarespace-promo-code/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-28T06:00:00.000Z",
-      "relevanceScore": 32,
-      "recommendationScore": 32,
-      "tags": [
-        "Web",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
+      "title": "My dog's treatment cost £1,600 - vet bills are shocking",
+      "link": "https://www.bbc.com/news/articles/cd7zpgn5n47o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-28T10:47:03.000Z",
+      "relevanceScore": 31.86,
+      "recommendationScore": 32.36,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Rwanda seeks £100m from UK over axed asylum deal",
@@ -433,8 +459,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-28T09:25:31.000Z",
-      "relevanceScore": 31.69,
-      "recommendationScore": 31.69,
+      "relevanceScore": 31.59,
+      "recommendationScore": 31.59,
       "tags": [
         "Partnership"
       ],
@@ -446,8 +472,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-01-28T10:00:00.000Z",
-      "relevanceScore": 27.8,
-      "recommendationScore": 28.3,
+      "relevanceScore": 27.7,
+      "recommendationScore": 28.2,
       "tags": [
         "Launch"
       ],
@@ -459,8 +485,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-01-28T06:07:33.000Z",
-      "relevanceScore": 27.03,
-      "recommendationScore": 27.53,
+      "relevanceScore": 26.93,
+      "recommendationScore": 27.43,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -470,8 +496,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-28T10:13:59.000Z",
-      "relevanceScore": 25.85,
-      "recommendationScore": 26.35,
+      "relevanceScore": 25.75,
+      "recommendationScore": 26.25,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -481,8 +507,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-27T22:20:26.000Z",
-      "relevanceScore": 25.47,
-      "recommendationScore": 26.97,
+      "relevanceScore": 25.37,
+      "recommendationScore": 26.87,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -492,8 +518,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-28T06:53:46.000Z",
-      "relevanceScore": 25.18,
-      "recommendationScore": 29.18,
+      "relevanceScore": 25.08,
+      "recommendationScore": 29.08,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -503,8 +529,8 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-01-28T06:41:00.000Z",
-      "relevanceScore": 25.14,
-      "recommendationScore": 25.14,
+      "relevanceScore": 25.04,
+      "recommendationScore": 25.04,
       "tags": [
         "Mobile"
       ],
@@ -516,8 +542,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-28T06:19:00.000Z",
-      "relevanceScore": 25.06,
-      "recommendationScore": 25.06,
+      "relevanceScore": 24.97,
+      "recommendationScore": 24.97,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -527,34 +553,9 @@
       "source": "Wired",
       "category": "entertainment",
       "pubDate": "2026-01-28T06:00:00.000Z",
-      "relevanceScore": 25,
-      "recommendationScore": 25,
+      "relevanceScore": 24.9,
+      "recommendationScore": 24.9,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "GA4 101: ทำไม Developer ถึงต้องเข้าใจ Google Analytics 4 (Data Model ที่เปลี่ยนไป?)",
-      "link": "https://dev.to/sonnavigator/ga4-101-thamaim-developer-thuengtngekhaaaicch-google-analytics-4-data-model-thiiepliiynaip-3kn3",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-28T10:48:53.000Z",
-      "relevanceScore": 23.96,
-      "recommendationScore": 24.46,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best Android phones",
-      "link": "https://www.theverge.com/23674658/best-android-phone",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-01-28T00:27:47.000Z",
-      "relevanceScore": 23.89,
-      "recommendationScore": 24.89,
-      "tags": [
-        "Mobile",
-        "Update"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -563,8 +564,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-01-28T10:01:28.000Z",
-      "relevanceScore": 23.81,
-      "recommendationScore": 24.81,
+      "relevanceScore": 23.71,
+      "recommendationScore": 24.71,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -574,8 +575,8 @@
       "source": "Ars Technica",
       "category": "cybersecurity",
       "pubDate": "2026-01-27T21:15:51.000Z",
-      "relevanceScore": 23.25,
-      "recommendationScore": 25.25,
+      "relevanceScore": 23.16,
+      "recommendationScore": 25.16,
       "tags": [
         "Security",
         "Web",
@@ -589,8 +590,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2026-01-27T23:17:17.000Z",
-      "relevanceScore": 23.16,
-      "recommendationScore": 23.66,
+      "relevanceScore": 23.06,
+      "recommendationScore": 23.56,
       "tags": [
         "Tech",
         "Mobile",
@@ -604,8 +605,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-01-26T18:54:49.000Z",
-      "relevanceScore": 17.98,
-      "recommendationScore": 18.48,
+      "relevanceScore": 17.89,
+      "recommendationScore": 18.39,
       "tags": [
         "Exclusive"
       ],
@@ -619,7 +620,7 @@
         "link": "https://www.engadget.com/mobile/tablets/best-e-ink-tablet-130037939.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-28T08:00:36.000Z",
-        "relevanceScore": 2331.4,
+        "relevanceScore": 2364.81,
         "tags": []
       },
       {
@@ -627,15 +628,7 @@
         "link": "https://www.bbc.com/news/articles/czr428rxg57o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-27T18:38:43.000Z",
-        "relevanceScore": 350.73,
-        "tags": []
-      },
-      {
-        "title": "Amazon accidentally sends email confirming layoffs",
-        "link": "https://www.bbc.com/news/articles/cx2ywzxlxnlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-28T03:19:23.000Z",
-        "relevanceScore": 279.96,
+        "relevanceScore": 380.63,
         "tags": []
       },
       {
@@ -643,36 +636,43 @@
         "link": "https://www.theverge.com/news/869155/apple-tim-cook-president-trump-deescalate-minneapolis",
         "source": "The Verge",
         "pubDate": "2026-01-28T10:52:14.000Z",
-        "relevanceScore": 239.47,
+        "relevanceScore": 125.88,
         "tags": [
           "Interview"
         ]
+      },
+      {
+        "title": "Amazon confirms 16,000 job cuts after accidental email",
+        "link": "https://www.bbc.com/news/articles/cx2ywzxlxnlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-28T11:21:38.000Z",
+        "relevanceScore": 124.98,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "A North Atlantic Right Whale Baby Boom Is On—but the Species Remains at Risk",
+        "link": "https://www.wired.com/story/a-north-atlantic-right-whale-baby-boom-is-on-but-the-species-remains-at-risk/",
+        "source": "Wired",
+        "pubDate": "2026-01-28T11:00:00.000Z",
+        "relevanceScore": 124.4,
+        "tags": []
       },
       {
         "title": "There's a rash of scam spam coming from a real Microsoft address",
         "link": "https://arstechnica.com/information-technology/2026/01/theres-a-rash-of-scam-spam-coming-from-a-real-microsoft-address/",
         "source": "Ars Technica",
         "pubDate": "2026-01-27T22:34:40.000Z",
-        "relevanceScore": 64.52,
+        "relevanceScore": 65.92,
         "tags": []
-      },
-      {
-        "title": "20% Squarespace Promo Codes | February 2026",
-        "link": "https://www.wired.com/story/squarespace-promo-code/",
-        "source": "Wired",
-        "pubDate": "2026-01-28T06:00:00.000Z",
-        "relevanceScore": 32,
-        "tags": [
-          "Web",
-          "Exclusive"
-        ]
       },
       {
         "title": "Google pitches Gemini to students studying for India’s most competitive college entrance exam",
         "link": "https://techcrunch.com/2026/01/28/google-turns-gemini-toward-indias-most-competitive-entrance-exam/",
         "source": "TechCrunch",
         "pubDate": "2026-01-28T10:00:00.000Z",
-        "relevanceScore": 27.8,
+        "relevanceScore": 27.7,
         "tags": [
           "Launch"
         ]
@@ -682,7 +682,7 @@
         "link": "https://techcrunch.com/2026/01/27/google-photos-brings-its-prompt-based-editing-feature-to-india-australia-and-japan/",
         "source": "TechCrunch",
         "pubDate": "2026-01-28T06:07:33.000Z",
-        "relevanceScore": 27.03,
+        "relevanceScore": 26.93,
         "tags": []
       },
       {
@@ -690,7 +690,7 @@
         "link": "https://www.wired.com/story/lovehoney-discount-code/",
         "source": "Wired",
         "pubDate": "2026-01-28T06:19:00.000Z",
-        "relevanceScore": 25.06,
+        "relevanceScore": 24.97,
         "tags": []
       },
       {
@@ -698,7 +698,7 @@
         "link": "https://www.engadget.com/home/smart-home/best-budget-robot-vacuums-133030847.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-28T10:01:28.000Z",
-        "relevanceScore": 23.81,
+        "relevanceScore": 23.71,
         "tags": []
       }
     ],
@@ -708,7 +708,7 @@
         "link": "https://www.technologyreview.com/2026/01/27/1131796/the-first-human-test-of-a-rejuvenation-method-will-begin-shortly/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-27T18:08:19.000Z",
-        "relevanceScore": 1919.63,
+        "relevanceScore": 2028.03,
         "tags": [
           "Exclusive"
         ]
@@ -718,65 +718,9 @@
         "link": "https://www.technologyreview.com/2026/01/27/1131780/stratospheric-internet-take-off/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-27T14:52:04.000Z",
-        "relevanceScore": 469.97,
+        "relevanceScore": 553.38,
         "tags": [
           "Web"
-        ]
-      }
-    ],
-    "ai-ml": [
-      {
-        "title": "Everything you need to know about viral personal AI assistant Clawdbot (now Moltbot)",
-        "link": "https://techcrunch.com/2026/01/27/everything-you-need-to-know-about-viral-personal-ai-assistant-clawdbot-now-moltbot/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-28T00:12:43.000Z",
-        "relevanceScore": 1919.34,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "OpenAI’s latest product lets you vibe code science",
-        "link": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-01-27T18:00:43.000Z",
-        "relevanceScore": 941.6,
-        "tags": [
-          "Tech",
-          "Science"
-        ]
-      },
-      {
-        "title": "Spy vs spy at scale",
-        "link": "https://stackoverflow.blog/2026/01/27/spy-vs-spy-at-scale/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-01-27T08:40:00.000Z",
-        "relevanceScore": 61.23,
-        "tags": [
-          "AI",
-          "Tech",
-          "Analysis"
-        ]
-      },
-      {
-        "title": "AI boom will produce victors and carnage, tech boss warns",
-        "link": "https://www.bbc.com/news/articles/cr57p2ve8glo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-28T00:01:19.000Z",
-        "relevanceScore": 42.3,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "Mark Zuckerberg was initially opposed to parental controls for AI chatbots, according to legal filing",
-        "link": "https://www.engadget.com/social-media/mark-zuckerberg-was-initially-opposed-to-parental-controls-for-ai-chatbots-according-to-legal-filing-230110214.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-27T23:52:34.000Z",
-        "relevanceScore": 40.28,
-        "tags": [
-          "AI"
         ]
       }
     ],
@@ -786,28 +730,26 @@
         "link": "https://github.blog/developer-skills/programming-languages-and-frameworks/7-learnings-from-anders-hejlsberg-the-architect-behind-c-and-typescript/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-27T17:17:28.000Z",
-        "relevanceScore": 1383.96,
+        "relevanceScore": 1271.86,
         "tags": [
           "Tech",
           "Exclusive"
         ]
       },
       {
-        "title": "Anaconda vs Miniconda vs Mamba Guide",
-        "link": "https://dev.to/rosgluk/anaconda-vs-miniconda-vs-mamba-guide-4pae",
+        "title": "Java Variable",
+        "link": "https://dev.to/nanthini_ammu_ac02ad32802/java-variable-53kj",
         "source": "Dev.to",
-        "pubDate": "2026-01-28T10:44:58.000Z",
-        "relevanceScore": 472.45,
-        "tags": [
-          "Tutorial"
-        ]
+        "pubDate": "2026-01-28T11:26:17.000Z",
+        "relevanceScore": 551.99,
+        "tags": []
       },
       {
         "title": "Help shape the future of open source in Europe",
         "link": "https://github.blog/news-insights/policy-news-and-insights/help-shape-the-future-of-open-source-in-europe/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-27T14:16:04.000Z",
-        "relevanceScore": 271.85,
+        "relevanceScore": 147.76,
         "tags": [
           "Tech",
           "Exclusive",
@@ -819,27 +761,79 @@
         "link": "https://stackoverflow.blog/2026/01/26/stack-gives-back-2025/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-26T15:00:00.000Z",
-        "relevanceScore": 33.7,
+        "relevanceScore": 114.1,
         "tags": [
           "Launch"
         ]
-      },
-      {
-        "title": "GA4 101: ทำไม Developer ถึงต้องเข้าใจ Google Analytics 4 (Data Model ที่เปลี่ยนไป?)",
-        "link": "https://dev.to/sonnavigator/ga4-101-thamaim-developer-thuengtngekhaaaicch-google-analytics-4-data-model-thiiepliiynaip-3kn3",
-        "source": "Dev.to",
-        "pubDate": "2026-01-28T10:48:53.000Z",
-        "relevanceScore": 23.96,
-        "tags": []
       },
       {
         "title": "Power agentic workflows in your terminal with GitHub Copilot CLI",
         "link": "https://github.blog/ai-and-ml/github-copilot/power-agentic-workflows-in-your-terminal-with-github-copilot-cli/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-26T18:54:49.000Z",
-        "relevanceScore": 17.98,
+        "relevanceScore": 17.89,
         "tags": [
           "Exclusive"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Windows 11&#8217;s ability to resume Android apps on your PC is getting closer",
+        "link": "https://www.theverge.com/news/869161/microsoft-windows-11-android-app-resume-feature-release-preview",
+        "source": "The Verge",
+        "pubDate": "2026-01-28T11:18:36.000Z",
+        "relevanceScore": 1109.97,
+        "tags": [
+          "Tech",
+          "Mobile",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "What you should know about the owners of US TikTok",
+        "link": "https://techcrunch.com/2026/01/27/what-you-should-know-about-the-owners-of-us-tiktok/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-28T03:27:06.000Z",
+        "relevanceScore": 911.89,
+        "tags": [
+          "Security",
+          "Mobile",
+          "Social"
+        ]
+      },
+      {
+        "title": "How to Build a Scalable To-Do App with React and Node.js: A Practical Guide",
+        "link": "https://dev.to/deepikarajawat/how-to-build-a-scalable-to-do-app-with-react-and-nodejs-a-practical-guide-fee",
+        "source": "Dev.to",
+        "pubDate": "2026-01-28T11:24:01.000Z",
+        "relevanceScore": 162.48,
+        "tags": [
+          "Tech",
+          "Mobile",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "We-Vibe Discount Codes and Deals: Up to 60% Off",
+        "link": "https://www.wired.com/story/we-vibe-discount-code/",
+        "source": "Wired",
+        "pubDate": "2026-01-28T06:41:00.000Z",
+        "relevanceScore": 25.04,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "TikTok users “absolutely justified” for fearing MAGA makeover, experts say",
+        "link": "https://arstechnica.com/tech-policy/2026/01/tiktok-claimed-bugs-blocked-anti-ice-videos-epstein-mentions-experts-call-bs/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-27T23:17:17.000Z",
+        "relevanceScore": 23.06,
+        "tags": [
+          "Tech",
+          "Mobile",
+          "Social"
         ]
       }
     ],
@@ -848,8 +842,8 @@
         "title": "Hundreds of flood warnings and alerts as Storm Chandra disruption continues",
         "link": "https://www.bbc.com/news/articles/cy8p2yey0gdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-01-28T10:00:43.000Z",
-        "relevanceScore": 883.3,
+        "pubDate": "2026-01-28T11:24:22.000Z",
+        "relevanceScore": 889.48,
         "tags": []
       },
       {
@@ -857,7 +851,7 @@
         "link": "https://www.bbc.com/news/articles/cddgp9jgjz1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-28T09:04:38.000Z",
-        "relevanceScore": 50.12,
+        "relevanceScore": 130.52,
         "tags": []
       },
       {
@@ -865,7 +859,15 @@
         "link": "https://www.bbc.com/news/articles/cn9zpee3llxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-28T10:11:19.000Z",
-        "relevanceScore": 32.84,
+        "relevanceScore": 32.74,
+        "tags": []
+      },
+      {
+        "title": "My dog's treatment cost £1,600 - vet bills are shocking",
+        "link": "https://www.bbc.com/news/articles/cd7zpgn5n47o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-28T10:47:03.000Z",
+        "relevanceScore": 31.86,
         "tags": []
       },
       {
@@ -873,80 +875,91 @@
         "link": "https://www.bbc.com/news/articles/czx32yxnvzro?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-28T09:25:31.000Z",
-        "relevanceScore": 31.69,
+        "relevanceScore": 31.59,
         "tags": [
           "Partnership"
         ]
       }
     ],
-    "mobile": [
+    "ai-ml": [
       {
-        "title": "What you should know about the owners of US TikTok",
-        "link": "https://techcrunch.com/2026/01/27/what-you-should-know-about-the-owners-of-us-tiktok/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-28T03:27:06.000Z",
-        "relevanceScore": 822.49,
-        "tags": [
-          "Security",
-          "Mobile",
-          "Social"
-        ]
-      },
-      {
-        "title": "How to Implement OTP Authentication in Node.js: A Complete Guide for Secure User Verification",
-        "link": "https://dev.to/raza_engage/how-to-implement-otp-authentication-in-nodejs-a-complete-guide-for-secure-user-verification-3l40",
-        "source": "Dev.to",
-        "pubDate": "2026-01-28T10:44:02.000Z",
-        "relevanceScore": 81.95,
-        "tags": [
-          "Security",
-          "Mobile",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Google just leaked a first look at Android for PC in action",
-        "link": "https://www.theverge.com/news/869142/google-leak-aluminium-os-android-pc-bug-report-video",
-        "source": "The Verge",
-        "pubDate": "2026-01-28T09:26:01.000Z",
-        "relevanceScore": 44.19,
-        "tags": [
-          "Mobile",
-          "Exclusive",
-          "Report"
-        ]
-      },
-      {
-        "title": "We-Vibe Discount Codes and Deals: Up to 60% Off",
-        "link": "https://www.wired.com/story/we-vibe-discount-code/",
-        "source": "Wired",
-        "pubDate": "2026-01-28T06:41:00.000Z",
-        "relevanceScore": 25.14,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "The best Android phones",
-        "link": "https://www.theverge.com/23674658/best-android-phone",
-        "source": "The Verge",
-        "pubDate": "2026-01-28T00:27:47.000Z",
-        "relevanceScore": 23.89,
-        "tags": [
-          "Mobile",
-          "Update"
-        ]
-      },
-      {
-        "title": "TikTok users “absolutely justified” for fearing MAGA makeover, experts say",
-        "link": "https://arstechnica.com/tech-policy/2026/01/tiktok-claimed-bugs-blocked-anti-ice-videos-epstein-mentions-experts-call-bs/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-27T23:17:17.000Z",
-        "relevanceScore": 23.16,
+        "title": "OpenAI’s latest product lets you vibe code science",
+        "link": "https://www.technologyreview.com/2026/01/27/1131793/openais-latest-product-lets-you-vibe-code-science/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-01-27T18:00:43.000Z",
+        "relevanceScore": 886.51,
         "tags": [
           "Tech",
-          "Mobile",
-          "Social"
+          "Science"
+        ]
+      },
+      {
+        "title": "Self-driving truck startup Waabi is teaming up with Uber on robotaxis",
+        "link": "https://www.theverge.com/news/868535/waabi-robotaxi-uber-fundraising-self-driving-truck",
+        "source": "The Verge",
+        "pubDate": "2026-01-28T11:00:00.000Z",
+        "relevanceScore": 859.9,
+        "tags": [
+          "AI",
+          "Startup"
+        ]
+      },
+      {
+        "title": "Astronomers used AI to find 1,400 ‘anomalous objects’ from Hubble archives",
+        "link": "https://www.theverge.com/news/869182/astronomers-ai-discover-cosmic-anomalies-hubble-archives",
+        "source": "The Verge",
+        "pubDate": "2026-01-28T11:15:37.000Z",
+        "relevanceScore": 553.96,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Spy vs spy at scale",
+        "link": "https://stackoverflow.blog/2026/01/27/spy-vs-spy-at-scale/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-01-27T08:40:00.000Z",
+        "relevanceScore": 147.14,
+        "tags": [
+          "AI",
+          "Tech",
+          "Analysis"
+        ]
+      },
+      {
+        "title": "AI boom will produce victors and carnage, tech boss warns",
+        "link": "https://www.bbc.com/news/articles/cr57p2ve8glo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-28T00:01:19.000Z",
+        "relevanceScore": 122.71,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      },
+      {
+        "title": "Mark Zuckerberg was initially opposed to parental controls for AI chatbots, according to legal filing",
+        "link": "https://www.engadget.com/social-media/mark-zuckerberg-was-initially-opposed-to-parental-controls-for-ai-chatbots-according-to-legal-filing-230110214.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-27T23:52:34.000Z",
+        "relevanceScore": 120.68,
+        "tags": [
+          "AI"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Deploying Adminer on ECS to Access a Private RDS Database (Terraform)",
+        "link": "https://dev.to/abdulrasheed_abdulazeez_7/deploying-adminer-on-ecs-to-access-a-private-rds-database-terraform-262p",
+        "source": "Dev.to",
+        "pubDate": "2026-01-28T11:27:41.000Z",
+        "relevanceScore": 837.5,
+        "tags": [
+          "Security",
+          "Web",
+          "Cloud",
+          "IPO"
         ]
       }
     ],
@@ -956,44 +969,96 @@
         "link": "https://techcrunch.com/2026/01/27/indias-shadowfax-slips-on-listing-as-client-concentration-spooks-investors/",
         "source": "TechCrunch",
         "pubDate": "2026-01-28T05:44:03.000Z",
-        "relevanceScore": 704.95,
+        "relevanceScore": 723.35,
         "tags": [
           "Funding"
         ]
       }
     ],
-    "blockchain": [
-      {
-        "title": "The crypto bill is falling apart in Congress",
-        "link": "https://www.theverge.com/column/868941/clarity-act-congress-shutdown",
-        "source": "The Verge",
-        "pubDate": "2026-01-28T01:09:33.000Z",
-        "relevanceScore": 693.03,
-        "tags": [
-          "Tech"
-        ]
-      }
-    ],
     "social": [
-      {
-        "title": "Meta blocks links to ICE List, a Wiki that names agents",
-        "link": "https://www.engadget.com/social-media/meta-blocks-links-to-ice-list-a-wiki-that-names-agents-231410653.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-01-27T23:14:10.000Z",
-        "relevanceScore": 275.15,
-        "tags": [
-          "Web"
-        ]
-      },
       {
         "title": "TikTok US pushes back on claims it is censoring content",
         "link": "https://www.bbc.com/news/articles/ckgjedpn8p8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-27T20:25:11.000Z",
-        "relevanceScore": 82.58,
+        "relevanceScore": 164.49,
         "tags": [
           "Social"
         ]
+      },
+      {
+        "title": "Meta blocks links to ICE List, a Wiki that names agents",
+        "link": "https://www.engadget.com/social-media/meta-blocks-links-to-ice-list-a-wiki-that-names-agents-231410653.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-01-27T23:14:10.000Z",
+        "relevanceScore": 163.05,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Waabi raises $1B and expands into robotaxis with Uber",
+        "link": "https://techcrunch.com/2026/01/28/waabi-raises-1b-and-expands-into-robotaxis-with-uber/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-28T11:00:00.000Z",
+        "relevanceScore": 126.9,
+        "tags": [
+          "Funding"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Mexican president says her country has paused oil shipments to Cuba",
+        "link": "https://www.npr.org/2026/01/28/nx-s1-5691086/mexico-oil-shipments-cuba",
+        "source": "NPR Business",
+        "pubDate": "2026-01-28T07:44:43.000Z",
+        "relevanceScore": 126.25,
+        "tags": []
+      },
+      {
+        "title": "What to know about UK-China relations as Prime Minister Keir Starmer visits Beijing",
+        "link": "https://abcnews.go.com/Business/wireStory/uk-china-relations-prime-minister-keir-starmer-visits-129625923",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-28T08:19:27.000Z",
+        "relevanceScore": 124.37,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "Ex-FIFA president Sepp Blatter joins those calling for boycott of World Cup in U.S.",
+        "link": "https://www.npr.org/2026/01/27/g-s1-107571/fifa-sepp-blatter-boycott-world-cup",
+        "source": "NPR Business",
+        "pubDate": "2026-01-27T21:38:13.000Z",
+        "relevanceScore": 67.73,
+        "tags": []
+      },
+      {
+        "title": "A month after Iran protests began, worry and fear pervades Mideast over possible US strike",
+        "link": "https://abcnews.go.com/Business/wireStory/month-after-iran-protests-began-worry-fear-pervades-129626813",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-28T10:13:59.000Z",
+        "relevanceScore": 25.75,
+        "tags": []
+      },
+      {
+        "title": "Fourth graders ask whether kids or adults have it better as part of NPR challenge",
+        "link": "https://www.npr.org/2026/01/27/nx-s1-5672527/as-part-of-podcast-challenge-fourth-graders-ask-whether-kids-or-adults-have-it-better",
+        "source": "NPR Business",
+        "pubDate": "2026-01-27T22:20:26.000Z",
+        "relevanceScore": 25.37,
+        "tags": []
+      },
+      {
+        "title": "The EU is seeking new trade partnerships. Here's why",
+        "link": "https://abcnews.go.com/Business/wireStory/eu-seeking-new-trade-partnerships-129625466",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-28T06:53:46.000Z",
+        "relevanceScore": 25.08,
+        "tags": []
       }
     ],
     "health": [
@@ -1002,84 +1067,8 @@
         "link": "https://arstechnica.com/health/2026/01/rfk-jr-lets-cdc-vaccination-data-rot-dozens-of-databases-frozen/",
         "source": "Ars Technica",
         "pubDate": "2026-01-27T23:28:02.000Z",
-        "relevanceScore": 70.19,
+        "relevanceScore": 57.1,
         "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "Ex-FIFA president Sepp Blatter joins those calling for boycott of World Cup in U.S.",
-        "link": "https://www.npr.org/2026/01/27/g-s1-107571/fifa-sepp-blatter-boycott-world-cup",
-        "source": "NPR Business",
-        "pubDate": "2026-01-27T21:38:13.000Z",
-        "relevanceScore": 66.33,
-        "tags": []
-      },
-      {
-        "title": "Mexican president says her country has paused oil shipments to Cuba",
-        "link": "https://www.npr.org/2026/01/28/nx-s1-5691086/mexico-oil-shipments-cuba",
-        "source": "NPR Business",
-        "pubDate": "2026-01-28T07:44:43.000Z",
-        "relevanceScore": 45.85,
-        "tags": []
-      },
-      {
-        "title": "What to know about UK-China relations as Prime Minister Keir Starmer visits Beijing",
-        "link": "https://abcnews.go.com/Business/wireStory/uk-china-relations-prime-minister-keir-starmer-visits-129625923",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-28T08:19:27.000Z",
-        "relevanceScore": 43.96,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "A month after Iran protests began, worry and fear pervades Mideast over possible US strike",
-        "link": "https://abcnews.go.com/Business/wireStory/month-after-iran-protests-began-worry-fear-pervades-129626813",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-28T10:13:59.000Z",
-        "relevanceScore": 25.85,
-        "tags": []
-      },
-      {
-        "title": "Fourth graders ask whether kids or adults have it better as part of NPR challenge",
-        "link": "https://www.npr.org/2026/01/27/nx-s1-5672527/as-part-of-podcast-challenge-fourth-graders-ask-whether-kids-or-adults-have-it-better",
-        "source": "NPR Business",
-        "pubDate": "2026-01-27T22:20:26.000Z",
-        "relevanceScore": 25.47,
-        "tags": []
-      },
-      {
-        "title": "The EU is seeking new trade partnerships. Here's why",
-        "link": "https://abcnews.go.com/Business/wireStory/eu-seeking-new-trade-partnerships-129625466",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-28T06:53:46.000Z",
-        "relevanceScore": 25.18,
-        "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "'We all know someone who was killed' -  Iran protesters tell BBC of brutal crackdown",
-        "link": "https://www.bbc.com/news/articles/cy8y2jxx9ppo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-28T00:46:53.000Z",
-        "relevanceScore": 52.96,
-        "tags": [
-          "Security"
-        ]
-      },
-      {
-        "title": "Supreme Court to decide how 1988 videotape privacy law applies to online video",
-        "link": "https://arstechnica.com/tech-policy/2026/01/supreme-court-to-decide-how-1988-videotape-privacy-law-applies-to-online-video/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-27T21:15:51.000Z",
-        "relevanceScore": 23.25,
-        "tags": [
-          "Security",
-          "Web",
-          "Regulation"
-        ]
       }
     ],
     "entertainment": [
@@ -1088,26 +1077,36 @@
         "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
         "source": "Wired",
         "pubDate": "2026-01-28T06:00:00.000Z",
-        "relevanceScore": 25,
+        "relevanceScore": 24.9,
         "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Supreme Court to decide how 1988 videotape privacy law applies to online video",
+        "link": "https://arstechnica.com/tech-policy/2026/01/supreme-court-to-decide-how-1988-videotape-privacy-law-applies-to-online-video/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-27T21:15:51.000Z",
+        "relevanceScore": 23.16,
+        "tags": [
+          "Security",
+          "Web",
+          "Regulation"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 13,
-    "avgRelevanceScore": 322.9478723404255,
+    "totalCategories": 14,
+    "avgRelevanceScore": 351.6908510638298,
     "topCategories": [
       {
         "category": "tech",
         "count": 10
       },
       {
-        "category": "development",
-        "count": 6
-      },
-      {
-        "category": "mobile",
+        "category": "ai-ml",
         "count": 6
       },
       {
@@ -1115,7 +1114,11 @@
         "count": 6
       },
       {
-        "category": "ai-ml",
+        "category": "development",
+        "count": 5
+      },
+      {
+        "category": "mobile",
         "count": 5
       }
     ]
