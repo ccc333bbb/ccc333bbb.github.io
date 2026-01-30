@@ -1,23 +1,24 @@
 {
-  "lastUpdated": "2026-01-30T10:53:57.793Z",
+  "lastUpdated": "2026-01-30T11:23:25.125Z",
   "totalArticles": 55,
   "categories": [
     "ai-ml",
-    "development",
-    "business",
-    "social",
     "tech",
+    "development",
+    "social",
+    "business",
     "mobile",
     "finance",
     "automotive",
-    "cloud",
-    "climate",
-    "general",
     "science",
-    "health",
-    "space",
+    "climate",
+    "cloud",
+    "general",
     "world",
-    "blockchain"
+    "blockchain",
+    "entertainment",
+    "health",
+    "space"
   ],
   "topArticles": [
     {
@@ -26,8 +27,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-01-29T20:56:23.000Z",
-      "relevanceScore": 1401.21,
-      "recommendationScore": 1401.71,
+      "relevanceScore": 1450.61,
+      "recommendationScore": 1451.11,
       "tags": [
         "AI"
       ],
@@ -39,12 +40,23 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-01-29T17:00:00.000Z",
-      "relevanceScore": 1060.92,
-      "recommendationScore": 1061.42,
+      "relevanceScore": 1111.82,
+      "recommendationScore": 1112.32,
       "tags": [
         "AI",
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Microsoft is experimenting with a top menu bar for Windows 11",
+      "link": "https://www.theverge.com/news/870663/microsoft-windows-11-top-menu-bar-powertoy-experiment",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-01-30T11:22:06.000Z",
+      "relevanceScore": 852,
+      "recommendationScore": 853.5,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -53,31 +65,21 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2026-01-30T08:40:00.000Z",
-      "relevanceScore": 727.05,
-      "recommendationScore": 727.05,
+      "relevanceScore": 745.46,
+      "recommendationScore": 745.46,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Heroku Alternatives Decision Framework: What Actually Matters When Picking a PaaS",
-      "link": "https://dev.to/seenode/heroku-alternatives-decision-framework-what-actually-matters-when-picking-a-paas-3om3",
+      "title": "Building Reliable Software Through Smart Testing Strategies",
+      "link": "https://dev.to/michael_burry_00/building-reliable-software-through-smart-testing-strategies-6k0",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-01-30T10:43:00.000Z",
-      "relevanceScore": 703.46,
-      "recommendationScore": 705.46,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Starmer arrives in Shanghai as he looks to boost UK business opportunities",
-      "link": "https://abcnews.go.com/Business/wireStory/starmer-arrives-shanghai-boost-uk-business-opportunities-129694331",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-01-30T09:21:07.000Z",
-      "relevanceScore": 439.69,
-      "recommendationScore": 440.19,
+      "pubDate": "2026-01-30T11:11:55.000Z",
+      "relevanceScore": 538.96,
+      "recommendationScore": 539.46,
       "tags": [
+        "Tech",
         "Business"
       ],
       "readingLevel": "advanced"
@@ -88,23 +90,10 @@
       "source": "Wired",
       "category": "social",
       "pubDate": "2026-01-29T22:19:59.000Z",
-      "relevanceScore": 419.49,
-      "recommendationScore": 421.99,
+      "relevanceScore": 464.39,
+      "recommendationScore": 466.89,
       "tags": [
         "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "One of the biggest manga piracy networks has been shut down",
-      "link": "https://www.theverge.com/tech/870643/bato-manga-piracy-site-shut-down",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-30T10:31:31.000Z",
-      "relevanceScore": 373.93,
-      "recommendationScore": 374.43,
-      "tags": [
-        "Analysis"
       ],
       "readingLevel": "advanced"
     },
@@ -114,10 +103,38 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-01-29T22:47:49.000Z",
-      "relevanceScore": 368.58,
-      "recommendationScore": 368.58,
+      "relevanceScore": 446.48,
+      "recommendationScore": 446.48,
       "tags": [
         "AI",
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Clawdbot: The Local AI Agent That Turns Chats Into Real-World Automations",
+      "link": "https://dev.to/aiwithapex/clawdbot-the-local-ai-agent-that-turns-chats-into-real-world-automations-3kbh",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-01-30T11:16:30.000Z",
+      "relevanceScore": 405.48,
+      "recommendationScore": 405.98,
+      "tags": [
+        "AI",
+        "Tech",
+        "Cloud"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "One of the biggest manga piracy networks has been shut down",
+      "link": "https://www.theverge.com/tech/870643/bato-manga-piracy-site-shut-down",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-01-30T10:31:31.000Z",
+      "relevanceScore": 401.83,
+      "recommendationScore": 402.33,
+      "tags": [
         "Analysis"
       ],
       "readingLevel": "advanced"
@@ -128,37 +145,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-01-30T09:53:59.000Z",
-      "relevanceScore": 328.8,
-      "recommendationScore": 329.3,
+      "relevanceScore": 366.2,
+      "recommendationScore": 366.7,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "How We Fixed SQLite Database Locks in Spring Boot (And Got a 5x Performance Boost)",
-      "link": "https://dev.to/rockandnull/how-we-fixed-sqlite-database-locks-in-spring-boot-and-got-a-5x-performance-boost-5nk",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-01-30T10:36:55.000Z",
-      "relevanceScore": 233.44,
-      "recommendationScore": 235.44,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
-      "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-01-29T22:11:09.000Z",
-      "relevanceScore": 232.46,
-      "recommendationScore": 232.96,
-      "tags": [
-        "AI",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Apple just reported its best-ever quarter for iPhone sales",
@@ -166,11 +156,36 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-01-29T23:41:35.000Z",
-      "relevanceScore": 231.76,
-      "recommendationScore": 233.26,
+      "relevanceScore": 322.16,
+      "recommendationScore": 323.66,
       "tags": [
         "Business",
         "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Gambler's Fallacy: The Dangerous Search for Patterns in the Noise",
+      "link": "https://dev.to/ninadpathak/gamblers-fallacy-the-dangerous-search-for-patterns-in-the-noise-422f",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-01-30T11:15:53.000Z",
+      "relevanceScore": 290.47,
+      "recommendationScore": 290.97,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Amazon is reportedly in talks to invest $50B in OpenAI",
+      "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-01-29T22:11:09.000Z",
+      "relevanceScore": 271.86,
+      "recommendationScore": 272.36,
+      "tags": [
+        "AI",
+        "Partnership"
       ],
       "readingLevel": "intermediate"
     },
@@ -180,8 +195,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-01-29T23:27:49.000Z",
-      "relevanceScore": 224.71,
-      "recommendationScore": 225.21,
+      "relevanceScore": 263.11,
+      "recommendationScore": 263.61,
       "tags": [
         "Analysis"
       ],
@@ -193,8 +208,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-01-28T16:00:00.000Z",
-      "relevanceScore": 211.42,
-      "recommendationScore": 211.92,
+      "relevanceScore": 253.82,
+      "recommendationScore": 254.32,
       "tags": [
         "Tech",
         "Exclusive",
@@ -209,8 +224,8 @@
       "source": "TechCrunch",
       "category": "finance",
       "pubDate": "2026-01-30T01:33:13.000Z",
-      "relevanceScore": 179.63,
-      "recommendationScore": 181.63,
+      "relevanceScore": 196.03,
+      "recommendationScore": 198.03,
       "tags": [
         "Tech",
         "Business",
@@ -220,40 +235,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "I'm Passing on theGitHub CoPilot CLI Challenge",
-      "link": "https://dev.to/ben-santora/im-passing-on-thegithub-copilot-cli-challenge-38fo",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-01-30T10:34:52.000Z",
-      "relevanceScore": 170.94,
-      "recommendationScore": 170.94,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The weirdest headphones at CES will launch on Kickstarter next month",
-      "link": "https://www.theverge.com/news/870416/tdm-neo-wireless-headphones-bluetooth-speaker-kickstarter-february",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-01-29T21:03:11.000Z",
-      "relevanceScore": 170.23,
-      "recommendationScore": 172.73,
-      "tags": [
-        "Tech",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Elon Musk’s SpaceX, Tesla, and xAI in talks to merge, according to reports",
       "link": "https://techcrunch.com/2026/01/29/elon-musk-spacex-tesla-xai-merger-talks-ipo-reuters/",
       "source": "TechCrunch",
       "category": "automotive",
       "pubDate": "2026-01-29T22:47:42.000Z",
-      "relevanceScore": 118.58,
-      "recommendationScore": 119.08,
+      "relevanceScore": 174.48,
+      "recommendationScore": 174.98,
       "tags": [
         "Acquisition"
       ],
@@ -265,37 +253,35 @@
       "source": "Reddit Programming",
       "category": "ai-ml",
       "pubDate": "2026-01-30T06:29:55.000Z",
-      "relevanceScore": 76.62,
-      "recommendationScore": 78.62,
+      "relevanceScore": 145.02,
+      "recommendationScore": 147.02,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Kalshi in court over 19 federal lawsuits. What's the future of prediction markets?",
-      "link": "https://www.npr.org/2026/01/30/nx-s1-5691837/lawsets-prediction-market-kalshi",
-      "source": "NPR Business",
-      "category": "cloud",
-      "pubDate": "2026-01-30T10:00:00.000Z",
-      "relevanceScore": 67.32,
-      "recommendationScore": 69.32,
+      "title": "Driverless taxis set to launch in UK as soon as September",
+      "link": "https://www.bbc.com/news/articles/czej9n578k9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-01-28T23:22:48.000Z",
+      "relevanceScore": 79.3,
+      "recommendationScore": 81.8,
       "tags": [
-        "Cloud"
+        "Launch"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "How we created more tech debt in 6 months than in a 10-year-old system",
-      "link": "https://www.reddit.com/r/programming/comments/1qqhcic/how_we_created_more_tech_debt_in_6_months_than_in/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-01-29T18:50:48.000Z",
-      "relevanceScore": 65.29,
-      "recommendationScore": 67.29,
-      "tags": [
-        "Tech"
-      ],
+      "title": "How the sometimes-weird world of lifespan extension is gaining influence",
+      "link": "https://www.technologyreview.com/2026/01/30/1131933/weird-world-lifespan-extension-gaining-influence-oneill-arpa-h/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-01-30T10:00:00.000Z",
+      "relevanceScore": 78.72,
+      "recommendationScore": 80.72,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -304,10 +290,36 @@
       "source": "BBC News",
       "category": "climate",
       "pubDate": "2026-01-30T06:00:14.000Z",
-      "relevanceScore": 64.02,
-      "recommendationScore": 64.02,
+      "relevanceScore": 72.92,
+      "recommendationScore": 72.92,
       "tags": [
         "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump thinks a weaker dollar is great for America. Is he right?",
+      "link": "https://www.npr.org/2026/01/30/nx-s1-5693025/trump-dollar-economy-markets",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-01-30T10:00:00.000Z",
+      "relevanceScore": 72.72,
+      "recommendationScore": 73.22,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "How we created more tech debt in 6 months than in a 10-year-old system",
+      "link": "https://www.reddit.com/r/programming/comments/1qqhcic/how_we_created_more_tech_debt_in_6_months_than_in/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-01-29T18:50:48.000Z",
+      "relevanceScore": 68.19,
+      "recommendationScore": 70.19,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -317,39 +329,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-01-29T22:12:49.000Z",
-      "relevanceScore": 40.96,
-      "recommendationScore": 42.96,
+      "relevanceScore": 67.86,
+      "recommendationScore": 69.86,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
-      "link": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-01-28T17:00:00.000Z",
-      "relevanceScore": 34.12,
-      "recommendationScore": 34.62,
+      "title": "Kalshi in court over 19 federal lawsuits. What's the future of prediction markets?",
+      "link": "https://www.npr.org/2026/01/30/nx-s1-5691837/lawsets-prediction-market-kalshi",
+      "source": "NPR Business",
+      "category": "cloud",
+      "pubDate": "2026-01-30T10:00:00.000Z",
+      "relevanceScore": 66.22,
+      "recommendationScore": 68.22,
       "tags": [
-        "Exclusive"
+        "Cloud"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "DHS is using Google and Adobe AI to make videos",
-      "link": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-01-29T18:57:11.000Z",
-      "relevanceScore": 33.31,
-      "recommendationScore": 33.31,
-      "tags": [
-        "AI",
-        "Security",
-        "Social",
-        "IPO"
-      ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Trump says 'dangerous' for UK to do business with China as Starmer lands in Shanghai",
@@ -357,38 +353,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-30T09:14:25.000Z",
-      "relevanceScore": 31.67,
-      "recommendationScore": 32.17,
+      "relevanceScore": 65.07,
+      "recommendationScore": 65.57,
       "tags": [
         "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What did UK and China get out of Starmer's reset visit?",
-      "link": "https://www.bbc.com/news/articles/cm2j04lk83zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "finance",
-      "pubDate": "2026-01-30T08:23:12.000Z",
-      "relevanceScore": 31.5,
-      "recommendationScore": 33.5,
-      "tags": [
-        "Tech",
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Could weight-loss jabs be behind rising gallbladder removals?",
-      "link": "https://www.bbc.com/news/articles/cm24evgyyzpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-01-30T00:03:39.000Z",
-      "relevanceScore": 30.83,
-      "recommendationScore": 31.33,
-      "tags": [
-        "Science",
-        "Report"
       ],
       "readingLevel": "intermediate"
     },
@@ -398,34 +366,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-01-30T01:43:02.000Z",
-      "relevanceScore": 30.16,
-      "recommendationScore": 30.66,
+      "relevanceScore": 63.57,
+      "recommendationScore": 64.07,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump thinks a weaker dollar is great for America. Is he right?",
-      "link": "https://www.npr.org/2026/01/30/nx-s1-5693025/trump-dollar-economy-markets",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-01-30T10:00:00.000Z",
-      "relevanceScore": 28.82,
-      "recommendationScore": 29.32,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How the sometimes-weird world of lifespan extension is gaining influence",
-      "link": "https://www.technologyreview.com/2026/01/30/1131933/weird-world-lifespan-extension-gaining-influence-oneill-arpa-h/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-01-30T10:00:00.000Z",
-      "relevanceScore": 28.82,
-      "recommendationScore": 30.82,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Kari Lake promotes Trump on Voice of America. Does that break the law?",
@@ -433,25 +377,28 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-01-30T10:01:00.000Z",
-      "relevanceScore": 27.32,
-      "recommendationScore": 27.82,
+      "relevanceScore": 60.73,
+      "recommendationScore": 61.23,
       "tags": [
         "Regulation"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The iPhone just had its best quarter ever",
-      "link": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-01-29T23:57:21.000Z",
-      "relevanceScore": 26.81,
-      "recommendationScore": 27.81,
+      "title": "DHS is using Google and Adobe AI to make videos",
+      "link": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-01-29T18:57:11.000Z",
+      "relevanceScore": 60.21,
+      "recommendationScore": 60.21,
       "tags": [
-        "Mobile"
+        "AI",
+        "Security",
+        "Social",
+        "IPO"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "advanced"
     },
     {
       "title": "He calls me sweetheart and winks at me - but he's not my boyfriend, he's AI",
@@ -459,8 +406,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-01-30T06:10:47.000Z",
-      "relevanceScore": 26.06,
-      "recommendationScore": 26.56,
+      "relevanceScore": 59.46,
+      "recommendationScore": 59.96,
       "tags": [
         "AI",
         "Mobile"
@@ -473,35 +420,10 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2026-01-30T09:10:57.000Z",
-      "relevanceScore": 25.66,
-      "recommendationScore": 26.16,
+      "relevanceScore": 59.06,
+      "recommendationScore": 59.56,
       "tags": [
         "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I’ve Tested 1,000+ Sex Toys. These 8 Are What I Always Recommend",
-      "link": "https://www.wired.com/gallery/i-have-tested-1000-sex-toys-these-8-are-what-i-always-recommend/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-30T09:00:00.000Z",
-      "relevanceScore": 25.62,
-      "recommendationScore": 27.62,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Apple reports best-ever iPhone sales as Mac dips",
-      "link": "https://www.bbc.com/news/articles/cy8yw190q83o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "mobile",
-      "pubDate": "2026-01-30T06:46:13.000Z",
-      "relevanceScore": 25.17,
-      "recommendationScore": 26.17,
-      "tags": [
-        "Tech",
-        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -511,8 +433,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-01-29T23:51:17.000Z",
-      "relevanceScore": 24.79,
-      "recommendationScore": 26.79,
+      "relevanceScore": 58.19,
+      "recommendationScore": 60.19,
       "tags": [
         "AI",
         "Tutorial"
@@ -525,52 +447,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-01-29T22:46:59.000Z",
-      "relevanceScore": 24.58,
-      "recommendationScore": 26.08,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The best power banks and portable chargers for every device in 2026",
-      "link": "https://www.engadget.com/computing/accessories/best-power-bank-143048526.html?src=rss",
-      "source": "Engadget",
-      "category": "finance",
-      "pubDate": "2026-01-30T10:01:26.000Z",
-      "relevanceScore": 23.82,
-      "recommendationScore": 25.32,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Having that high-deductible health plan might kill you, literally",
-      "link": "https://arstechnica.com/health/2026/01/having-that-high-deductible-health-plan-might-kill-you-literally/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2026-01-29T23:22:58.000Z",
-      "relevanceScore": 23.7,
-      "recommendationScore": 24.2,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "US spy satellite agency declassifies high-flying Cold War listening post",
-      "link": "https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2026-01-29T23:07:05.000Z",
-      "relevanceScore": 23.64,
-      "recommendationScore": 24.14,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trump Strangely Warns Canada That China Will Force Them To Stop Playing Hockey",
-      "link": "https://www.reddit.com/r/worldnews/comments/1qr048e/trump_strangely_warns_canada_that_china_will/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-30T08:43:28.000Z",
-      "relevanceScore": 23.57,
-      "recommendationScore": 25.07,
+      "relevanceScore": 57.98,
+      "recommendationScore": 59.48,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -580,51 +458,11 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-01-29T22:05:59.000Z",
-      "relevanceScore": 23.44,
-      "recommendationScore": 25.44,
+      "relevanceScore": 56.84,
+      "recommendationScore": 58.84,
       "tags": [
         "AI"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The best budgeting apps for 2026",
-      "link": "https://www.engadget.com/apps/best-budgeting-apps-120036303.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-01-30T08:00:36.000Z",
-      "relevanceScore": 23.42,
-      "recommendationScore": 24.42,
-      "tags": [
-        "Mobile",
-        "Acquisition"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Apple just had a record-breaking iPhone quarter",
-      "link": "https://www.theverge.com/news/870319/apple-iphone-best-revenue-ai-q1-2026",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-01-29T21:54:56.000Z",
-      "relevanceScore": 23.4,
-      "recommendationScore": 23.4,
-      "tags": [
-        "Mobile",
-        "Breaking",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The 45 Best Movies on HBO Max Right Now (February 2026)",
-      "link": "https://www.wired.com/story/best-movies-hbo-max-right-now/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-01-29T20:00:00.000Z",
-      "relevanceScore": 23.02,
-      "recommendationScore": 24.52,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -633,36 +471,201 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-01-30T04:02:46.000Z",
-      "relevanceScore": 22.63,
-      "recommendationScore": 25.13,
+      "relevanceScore": 56.03,
+      "recommendationScore": 58.53,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Canada Signs Auto Deal With South Korea, Moving Further From the U.S.",
-      "link": "https://www.reddit.com/r/worldnews/comments/1qqmfgb/canada_signs_auto_deal_with_south_korea_moving/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-01-29T21:57:53.000Z",
-      "relevanceScore": 21.41,
-      "recommendationScore": 21.91,
+      "title": "UK bans Coinbase ads implying crypto can ease cost of living concerns",
+      "link": "https://www.bbc.com/news/articles/cx2yv31482vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "blockchain",
+      "pubDate": "2026-01-29T11:40:44.000Z",
+      "relevanceScore": 54.26,
+      "recommendationScore": 54.76,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Are you learning with AI? We want to know about it!",
+      "link": "https://stackoverflow.blog/2026/01/29/are-you-learning-with-ai-we-want-to-know-about-it/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-01-29T15:00:00.000Z",
+      "relevanceScore": 53.42,
+      "recommendationScore": 53.92,
       "tags": [
-        "Partnership"
+        "AI",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Darren Aronofsky’s New AI Series About the Revolutionary War Looks Like Dogshit",
+      "link": "https://www.reddit.com/r/technology/comments/1qqqd6g/darren_aronofskys_new_ai_series_about_the/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-01-30T00:35:51.000Z",
+      "relevanceScore": 53.34,
+      "recommendationScore": 55.84,
+      "tags": [
+        "AI",
+        "Innovation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "From pixels to characters: The engineering behind GitHub Copilot CLI’s animated ASCII banner",
+      "link": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-01-28T17:00:00.000Z",
+      "relevanceScore": 44.52,
+      "recommendationScore": 45.02,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Pharrell calls for empathy from US leaders after being honored at Black Music Collective event",
+      "link": "https://abcnews.go.com/Business/wireStory/pharrell-calls-empathy-us-leaders-after-honored-black-129695764",
+      "source": "ABC News Business",
+      "category": "entertainment",
+      "pubDate": "2026-01-30T10:53:47.000Z",
+      "relevanceScore": 42.4,
+      "recommendationScore": 42.9,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple reports best-ever iPhone sales as Mac dips",
+      "link": "https://www.bbc.com/news/articles/cy8yw190q83o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2026-01-30T06:46:13.000Z",
+      "relevanceScore": 41.58,
+      "recommendationScore": 42.58,
+      "tags": [
+        "Tech",
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Apple just had a record-breaking iPhone quarter",
+      "link": "https://www.theverge.com/news/870319/apple-iphone-best-revenue-ai-q1-2026",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-01-29T21:54:56.000Z",
+      "relevanceScore": 39.81,
+      "recommendationScore": 39.81,
+      "tags": [
+        "Mobile",
+        "Breaking",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What did UK and China get out of Starmer's reset visit?",
+      "link": "https://www.bbc.com/news/articles/cm2j04lk83zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "finance",
+      "pubDate": "2026-01-30T08:23:12.000Z",
+      "relevanceScore": 31.4,
+      "recommendationScore": 33.4,
+      "tags": [
+        "Tech",
+        "Business"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Could weight-loss jabs be behind rising gallbladder removals?",
+      "link": "https://www.bbc.com/news/articles/cm24evgyyzpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-01-30T00:03:39.000Z",
+      "relevanceScore": 30.73,
+      "recommendationScore": 31.23,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Microdosing for Depression Appears to Work About as Well as Drinking Coffee",
+      "link": "https://www.wired.com/story/microdosing-for-depression-appears-to-work-about-as-well-as-drinking-coffee/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-30T11:00:00.000Z",
+      "relevanceScore": 26.92,
+      "recommendationScore": 27.42,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The iPhone just had its best quarter ever",
+      "link": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-01-29T23:57:21.000Z",
+      "relevanceScore": 26.71,
+      "recommendationScore": 27.71,
+      "tags": [
+        "Mobile"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Libs of TikTok is doxxing teachers and nurses who support Alex Pretti or oppose ICE, trying to get them fired",
-      "link": "https://www.reddit.com/r/technology/comments/1qqy7wy/libs_of_tiktok_is_doxxing_teachers_and_nurses_who/",
-      "source": "Reddit Technology",
-      "category": "social",
-      "pubDate": "2026-01-30T06:49:32.000Z",
-      "relevanceScore": 21.19,
-      "recommendationScore": 21.19,
-      "tags": [
-        "Social"
-      ],
+      "title": "I’ve Tested 1,000+ Sex Toys. These 8 Are What I Always Recommend",
+      "link": "https://www.wired.com/gallery/i-have-tested-1000-sex-toys-these-8-are-what-i-always-recommend/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-01-30T09:00:00.000Z",
+      "relevanceScore": 25.52,
+      "recommendationScore": 27.52,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The best power banks and portable chargers for every device in 2026",
+      "link": "https://www.engadget.com/computing/accessories/best-power-bank-143048526.html?src=rss",
+      "source": "Engadget",
+      "category": "finance",
+      "pubDate": "2026-01-30T10:01:26.000Z",
+      "relevanceScore": 23.73,
+      "recommendationScore": 25.23,
+      "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Having that high-deductible health plan might kill you, literally",
+      "link": "https://arstechnica.com/health/2026/01/having-that-high-deductible-health-plan-might-kill-you-literally/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2026-01-29T23:22:58.000Z",
+      "relevanceScore": 23.6,
+      "recommendationScore": 24.1,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "US spy satellite agency declassifies high-flying Cold War listening post",
+      "link": "https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2026-01-29T23:07:05.000Z",
+      "relevanceScore": 23.55,
+      "recommendationScore": 24.05,
+      "tags": [],
+      "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
@@ -672,7 +675,7 @@
         "link": "https://www.technologyreview.com/2026/01/29/1131787/the-ai-hype-index-grok-makes-porn-claude-code-nails-your-job/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-29T20:56:23.000Z",
-        "relevanceScore": 1401.21,
+        "relevanceScore": 1450.61,
         "tags": [
           "AI"
         ]
@@ -682,7 +685,7 @@
         "link": "https://stackoverflow.blog/2026/01/29/scaling-enterprise-ai-lessons-in-governance-and-operating-models-from-ibm/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-29T17:00:00.000Z",
-        "relevanceScore": 1060.92,
+        "relevanceScore": 1111.82,
         "tags": [
           "AI",
           "Tech"
@@ -693,10 +696,22 @@
         "link": "https://www.engadget.com/ai/amazon-discovered-a-high-volume-of-csam-in-its-ai-training-data-but-isnt-saying-where-it-came-from-224749228.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-29T22:47:49.000Z",
-        "relevanceScore": 368.58,
+        "relevanceScore": 446.48,
         "tags": [
           "AI",
           "Analysis"
+        ]
+      },
+      {
+        "title": "Clawdbot: The Local AI Agent That Turns Chats Into Real-World Automations",
+        "link": "https://dev.to/aiwithapex/clawdbot-the-local-ai-agent-that-turns-chats-into-real-world-automations-3kbh",
+        "source": "Dev.to",
+        "pubDate": "2026-01-30T11:16:30.000Z",
+        "relevanceScore": 405.48,
+        "tags": [
+          "AI",
+          "Tech",
+          "Cloud"
         ]
       },
       {
@@ -704,20 +719,10 @@
         "link": "https://techcrunch.com/2026/01/29/amazon-is-reportedly-in-talks-to-invest-50-billion-in-openai/",
         "source": "TechCrunch",
         "pubDate": "2026-01-29T22:11:09.000Z",
-        "relevanceScore": 232.46,
+        "relevanceScore": 271.86,
         "tags": [
           "AI",
           "Partnership"
-        ]
-      },
-      {
-        "title": "I'm Passing on theGitHub CoPilot CLI Challenge",
-        "link": "https://dev.to/ben-santora/im-passing-on-thegithub-copilot-cli-challenge-38fo",
-        "source": "Dev.to",
-        "pubDate": "2026-01-30T10:34:52.000Z",
-        "relevanceScore": 170.94,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -725,7 +730,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1qqxvlw/anthropic_ai_assisted_coding_doesnt_show/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-30T06:29:55.000Z",
-        "relevanceScore": 76.62,
+        "relevanceScore": 145.02,
         "tags": [
           "AI"
         ]
@@ -735,7 +740,7 @@
         "link": "https://www.technologyreview.com/2026/01/29/1131938/dhs-is-using-google-and-adobe-ai-to-make-videos/",
         "source": "MIT Technology Review",
         "pubDate": "2026-01-29T18:57:11.000Z",
-        "relevanceScore": 33.31,
+        "relevanceScore": 60.21,
         "tags": [
           "AI",
           "Security",
@@ -748,7 +753,7 @@
         "link": "https://www.bbc.com/news/articles/c62njv82n0wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-30T06:10:47.000Z",
-        "relevanceScore": 26.06,
+        "relevanceScore": 59.46,
         "tags": [
           "AI",
           "Mobile"
@@ -759,7 +764,7 @@
         "link": "https://techcrunch.com/2026/01/29/guys-i-dont-think-tim-cook-knows-how-to-monetize-ai/",
         "source": "TechCrunch",
         "pubDate": "2026-01-29T23:51:17.000Z",
-        "relevanceScore": 24.79,
+        "relevanceScore": 58.19,
         "tags": [
           "AI",
           "Tutorial"
@@ -770,7 +775,7 @@
         "link": "https://arstechnica.com/ai/2026/01/how-often-do-ai-chatbots-lead-users-down-a-harmful-path/",
         "source": "Ars Technica",
         "pubDate": "2026-01-29T22:05:59.000Z",
-        "relevanceScore": 23.44,
+        "relevanceScore": 56.84,
         "tags": [
           "AI"
         ]
@@ -780,7 +785,7 @@
         "link": "https://stackoverflow.blog/2026/01/29/are-you-learning-with-ai-we-want-to-know-about-it/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-29T15:00:00.000Z",
-        "relevanceScore": 20.02,
+        "relevanceScore": 53.42,
         "tags": [
           "AI",
           "Report"
@@ -791,11 +796,86 @@
         "link": "https://www.reddit.com/r/technology/comments/1qqqd6g/darren_aronofskys_new_ai_series_about_the/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-30T00:35:51.000Z",
-        "relevanceScore": 19.94,
+        "relevanceScore": 53.34,
         "tags": [
           "AI",
           "Innovation"
         ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Microsoft is experimenting with a top menu bar for Windows 11",
+        "link": "https://www.theverge.com/news/870663/microsoft-windows-11-top-menu-bar-powertoy-experiment",
+        "source": "The Verge",
+        "pubDate": "2026-01-30T11:22:06.000Z",
+        "relevanceScore": 852,
+        "tags": []
+      },
+      {
+        "title": "One of the biggest manga piracy networks has been shut down",
+        "link": "https://www.theverge.com/tech/870643/bato-manga-piracy-site-shut-down",
+        "source": "The Verge",
+        "pubDate": "2026-01-30T10:31:31.000Z",
+        "relevanceScore": 401.83,
+        "tags": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "We Found Two Theaters With Sold-Out ‘Melania’ Opening Day Screenings",
+        "link": "https://www.wired.com/story/we-found-2-theaters-with-sold-out-melania-opening-day-screenings/",
+        "source": "Wired",
+        "pubDate": "2026-01-29T23:27:49.000Z",
+        "relevanceScore": 263.11,
+        "tags": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Driverless taxis set to launch in UK as soon as September",
+        "link": "https://www.bbc.com/news/articles/czej9n578k9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-01-28T23:22:48.000Z",
+        "relevanceScore": 79.3,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "It’s a new heyday for gas thanks to data centers",
+        "link": "https://www.theverge.com/news/870422/data-center-ai-gas-power-surge",
+        "source": "The Verge",
+        "pubDate": "2026-01-29T22:12:49.000Z",
+        "relevanceScore": 67.86,
+        "tags": []
+      },
+      {
+        "title": "People complaining about Windows 11 hasn't stopped it from hitting 1 billion users",
+        "link": "https://arstechnica.com/gadgets/2026/01/windows-11-has-hit-1-billion-users-just-a-hair-faster-than-windows-10-did/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-29T22:46:59.000Z",
+        "relevanceScore": 57.98,
+        "tags": []
+      },
+      {
+        "title": "Microdosing for Depression Appears to Work About as Well as Drinking Coffee",
+        "link": "https://www.wired.com/story/microdosing-for-depression-appears-to-work-about-as-well-as-drinking-coffee/",
+        "source": "Wired",
+        "pubDate": "2026-01-30T11:00:00.000Z",
+        "relevanceScore": 26.92,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      },
+      {
+        "title": "I’ve Tested 1,000+ Sex Toys. These 8 Are What I Always Recommend",
+        "link": "https://www.wired.com/gallery/i-have-tested-1000-sex-toys-these-8-are-what-i-always-recommend/",
+        "source": "Wired",
+        "pubDate": "2026-01-30T09:00:00.000Z",
+        "relevanceScore": 25.52,
+        "tags": []
       }
     ],
     "development": [
@@ -804,33 +884,34 @@
         "link": "https://stackoverflow.blog/2026/01/30/wanna-see-a-css-magic-trick/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-01-30T08:40:00.000Z",
-        "relevanceScore": 727.05,
+        "relevanceScore": 745.46,
         "tags": []
       },
       {
-        "title": "Heroku Alternatives Decision Framework: What Actually Matters When Picking a PaaS",
-        "link": "https://dev.to/seenode/heroku-alternatives-decision-framework-what-actually-matters-when-picking-a-paas-3om3",
+        "title": "Building Reliable Software Through Smart Testing Strategies",
+        "link": "https://dev.to/michael_burry_00/building-reliable-software-through-smart-testing-strategies-6k0",
         "source": "Dev.to",
-        "pubDate": "2026-01-30T10:43:00.000Z",
-        "relevanceScore": 703.46,
-        "tags": []
-      },
-      {
-        "title": "How We Fixed SQLite Database Locks in Spring Boot (And Got a 5x Performance Boost)",
-        "link": "https://dev.to/rockandnull/how-we-fixed-sqlite-database-locks-in-spring-boot-and-got-a-5x-performance-boost-5nk",
-        "source": "Dev.to",
-        "pubDate": "2026-01-30T10:36:55.000Z",
-        "relevanceScore": 233.44,
+        "pubDate": "2026-01-30T11:11:55.000Z",
+        "relevanceScore": 538.96,
         "tags": [
-          "Analysis"
+          "Tech",
+          "Business"
         ]
+      },
+      {
+        "title": "Gambler's Fallacy: The Dangerous Search for Patterns in the Noise",
+        "link": "https://dev.to/ninadpathak/gamblers-fallacy-the-dangerous-search-for-patterns-in-the-noise-422f",
+        "source": "Dev.to",
+        "pubDate": "2026-01-30T11:15:53.000Z",
+        "relevanceScore": 290.47,
+        "tags": []
       },
       {
         "title": "Year recap and future goals for the GitHub Innovation Graph",
         "link": "https://github.blog/news-insights/policy-news-and-insights/year-recap-and-future-goals-for-the-github-innovation-graph/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-28T16:00:00.000Z",
-        "relevanceScore": 211.42,
+        "relevanceScore": 253.82,
         "tags": [
           "Tech",
           "Exclusive",
@@ -843,7 +924,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1qqhcic/how_we_created_more_tech_debt_in_6_months_than_in/",
         "source": "Reddit Programming",
         "pubDate": "2026-01-29T18:50:48.000Z",
-        "relevanceScore": 65.29,
+        "relevanceScore": 68.19,
         "tags": [
           "Tech"
         ]
@@ -853,49 +934,9 @@
         "link": "https://github.blog/engineering/from-pixels-to-characters-the-engineering-behind-github-copilot-clis-animated-ascii-banner/",
         "source": "GitHub Blog",
         "pubDate": "2026-01-28T17:00:00.000Z",
-        "relevanceScore": 34.12,
+        "relevanceScore": 44.52,
         "tags": [
           "Exclusive"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Starmer arrives in Shanghai as he looks to boost UK business opportunities",
-        "link": "https://abcnews.go.com/Business/wireStory/starmer-arrives-shanghai-boost-uk-business-opportunities-129694331",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-30T09:21:07.000Z",
-        "relevanceScore": 439.69,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Ukraine is bracing for brutal weather; Trump says Putin agreed to halt power attacks",
-        "link": "https://abcnews.go.com/Business/wireStory/ukraine-bracing-brutal-weather-trump-putin-agreed-halt-129695366",
-        "source": "ABC News Business",
-        "pubDate": "2026-01-30T09:53:59.000Z",
-        "relevanceScore": 328.8,
-        "tags": []
-      },
-      {
-        "title": "Trump thinks a weaker dollar is great for America. Is he right?",
-        "link": "https://www.npr.org/2026/01/30/nx-s1-5693025/trump-dollar-economy-markets",
-        "source": "NPR Business",
-        "pubDate": "2026-01-30T10:00:00.000Z",
-        "relevanceScore": 28.82,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Kari Lake promotes Trump on Voice of America. Does that break the law?",
-        "link": "https://www.npr.org/2026/01/30/nx-s1-5683246/kari-lake-trump-voa-pnn-iran-firewall-propaganda",
-        "source": "NPR Business",
-        "pubDate": "2026-01-30T10:01:00.000Z",
-        "relevanceScore": 27.32,
-        "tags": [
-          "Regulation"
         ]
       }
     ],
@@ -905,7 +946,7 @@
         "link": "https://www.wired.com/story/uncanny-valley-podcast-ice-minneapolis-tiktok-moltbot/",
         "source": "Wired",
         "pubDate": "2026-01-29T22:19:59.000Z",
-        "relevanceScore": 419.49,
+        "relevanceScore": 464.39,
         "tags": [
           "Social"
         ]
@@ -915,84 +956,39 @@
         "link": "https://www.reddit.com/r/technology/comments/1qqy7wy/libs_of_tiktok_is_doxxing_teachers_and_nurses_who/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-30T06:49:32.000Z",
-        "relevanceScore": 21.19,
+        "relevanceScore": 21.09,
         "tags": [
           "Social"
         ]
       }
     ],
-    "tech": [
+    "business": [
       {
-        "title": "One of the biggest manga piracy networks has been shut down",
-        "link": "https://www.theverge.com/tech/870643/bato-manga-piracy-site-shut-down",
-        "source": "The Verge",
-        "pubDate": "2026-01-30T10:31:31.000Z",
-        "relevanceScore": 373.93,
+        "title": "Ukraine is bracing for brutal weather; Trump says Putin agreed to halt power attacks",
+        "link": "https://abcnews.go.com/Business/wireStory/ukraine-bracing-brutal-weather-trump-putin-agreed-halt-129695366",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-30T09:53:59.000Z",
+        "relevanceScore": 366.2,
+        "tags": []
+      },
+      {
+        "title": "Trump thinks a weaker dollar is great for America. Is he right?",
+        "link": "https://www.npr.org/2026/01/30/nx-s1-5693025/trump-dollar-economy-markets",
+        "source": "NPR Business",
+        "pubDate": "2026-01-30T10:00:00.000Z",
+        "relevanceScore": 72.72,
         "tags": [
-          "Analysis"
+          "Business"
         ]
       },
       {
-        "title": "We Found Two Theaters With Sold-Out ‘Melania’ Opening Day Screenings",
-        "link": "https://www.wired.com/story/we-found-2-theaters-with-sold-out-melania-opening-day-screenings/",
-        "source": "Wired",
-        "pubDate": "2026-01-29T23:27:49.000Z",
-        "relevanceScore": 224.71,
+        "title": "Kari Lake promotes Trump on Voice of America. Does that break the law?",
+        "link": "https://www.npr.org/2026/01/30/nx-s1-5683246/kari-lake-trump-voa-pnn-iran-firewall-propaganda",
+        "source": "NPR Business",
+        "pubDate": "2026-01-30T10:01:00.000Z",
+        "relevanceScore": 60.73,
         "tags": [
-          "Analysis"
-        ]
-      },
-      {
-        "title": "The weirdest headphones at CES will launch on Kickstarter next month",
-        "link": "https://www.theverge.com/news/870416/tdm-neo-wireless-headphones-bluetooth-speaker-kickstarter-february",
-        "source": "The Verge",
-        "pubDate": "2026-01-29T21:03:11.000Z",
-        "relevanceScore": 170.23,
-        "tags": [
-          "Tech",
-          "Launch"
-        ]
-      },
-      {
-        "title": "It’s a new heyday for gas thanks to data centers",
-        "link": "https://www.theverge.com/news/870422/data-center-ai-gas-power-surge",
-        "source": "The Verge",
-        "pubDate": "2026-01-29T22:12:49.000Z",
-        "relevanceScore": 40.96,
-        "tags": []
-      },
-      {
-        "title": "I’ve Tested 1,000+ Sex Toys. These 8 Are What I Always Recommend",
-        "link": "https://www.wired.com/gallery/i-have-tested-1000-sex-toys-these-8-are-what-i-always-recommend/",
-        "source": "Wired",
-        "pubDate": "2026-01-30T09:00:00.000Z",
-        "relevanceScore": 25.62,
-        "tags": []
-      },
-      {
-        "title": "People complaining about Windows 11 hasn't stopped it from hitting 1 billion users",
-        "link": "https://arstechnica.com/gadgets/2026/01/windows-11-has-hit-1-billion-users-just-a-hair-faster-than-windows-10-did/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-29T22:46:59.000Z",
-        "relevanceScore": 24.58,
-        "tags": []
-      },
-      {
-        "title": "The 45 Best Movies on HBO Max Right Now (February 2026)",
-        "link": "https://www.wired.com/story/best-movies-hbo-max-right-now/",
-        "source": "Wired",
-        "pubDate": "2026-01-29T20:00:00.000Z",
-        "relevanceScore": 23.02,
-        "tags": []
-      },
-      {
-        "title": "Driverless taxis set to launch in UK as soon as September",
-        "link": "https://www.bbc.com/news/articles/czej9n578k9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-01-28T23:22:48.000Z",
-        "relevanceScore": 18.9,
-        "tags": [
-          "Launch"
+          "Regulation"
         ]
       }
     ],
@@ -1002,19 +998,9 @@
         "link": "https://www.engadget.com/mobile/smartphones/apple-just-reported-its-best-ever-quarter-for-iphone-sales-234135513.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-29T23:41:35.000Z",
-        "relevanceScore": 231.76,
+        "relevanceScore": 322.16,
         "tags": [
           "Business",
-          "Mobile"
-        ]
-      },
-      {
-        "title": "The iPhone just had its best quarter ever",
-        "link": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
-        "source": "TechCrunch",
-        "pubDate": "2026-01-29T23:57:21.000Z",
-        "relevanceScore": 26.81,
-        "tags": [
           "Mobile"
         ]
       },
@@ -1023,9 +1009,31 @@
         "link": "https://www.bbc.com/news/articles/cy8yw190q83o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-30T06:46:13.000Z",
-        "relevanceScore": 25.17,
+        "relevanceScore": 41.58,
         "tags": [
           "Tech",
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Apple just had a record-breaking iPhone quarter",
+        "link": "https://www.theverge.com/news/870319/apple-iphone-best-revenue-ai-q1-2026",
+        "source": "The Verge",
+        "pubDate": "2026-01-29T21:54:56.000Z",
+        "relevanceScore": 39.81,
+        "tags": [
+          "Mobile",
+          "Breaking",
+          "Report"
+        ]
+      },
+      {
+        "title": "The iPhone just had its best quarter ever",
+        "link": "https://techcrunch.com/2026/01/29/the-iphone-just-had-its-best-quarter-ever/",
+        "source": "TechCrunch",
+        "pubDate": "2026-01-29T23:57:21.000Z",
+        "relevanceScore": 26.71,
+        "tags": [
           "Mobile"
         ]
       },
@@ -1034,22 +1042,10 @@
         "link": "https://www.engadget.com/apps/best-budgeting-apps-120036303.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-30T08:00:36.000Z",
-        "relevanceScore": 23.42,
+        "relevanceScore": 23.32,
         "tags": [
           "Mobile",
           "Acquisition"
-        ]
-      },
-      {
-        "title": "Apple just had a record-breaking iPhone quarter",
-        "link": "https://www.theverge.com/news/870319/apple-iphone-best-revenue-ai-q1-2026",
-        "source": "The Verge",
-        "pubDate": "2026-01-29T21:54:56.000Z",
-        "relevanceScore": 23.4,
-        "tags": [
-          "Mobile",
-          "Breaking",
-          "Report"
         ]
       }
     ],
@@ -1059,7 +1055,7 @@
         "link": "https://techcrunch.com/2026/01/29/how-sequoia-backed-ethos-reached-the-public-market-while-rivals-fell-short/",
         "source": "TechCrunch",
         "pubDate": "2026-01-30T01:33:13.000Z",
-        "relevanceScore": 179.63,
+        "relevanceScore": 196.03,
         "tags": [
           "Tech",
           "Business",
@@ -1068,24 +1064,24 @@
         ]
       },
       {
-        "title": "What did UK and China get out of Starmer's reset visit?",
-        "link": "https://www.bbc.com/news/articles/cm2j04lk83zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-30T08:23:12.000Z",
-        "relevanceScore": 31.5,
-        "tags": [
-          "Tech",
-          "Business"
-        ]
-      },
-      {
         "title": "Bank of Thailand plans to tighten regulations on online gold trading as its price soars",
         "link": "https://abcnews.go.com/Business/wireStory/bank-thailand-plans-tighten-regulations-online-gold-trading-129695234",
         "source": "ABC News Business",
         "pubDate": "2026-01-30T09:10:57.000Z",
-        "relevanceScore": 25.66,
+        "relevanceScore": 59.06,
         "tags": [
           "Web"
+        ]
+      },
+      {
+        "title": "What did UK and China get out of Starmer's reset visit?",
+        "link": "https://www.bbc.com/news/articles/cm2j04lk83zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-30T08:23:12.000Z",
+        "relevanceScore": 31.4,
+        "tags": [
+          "Tech",
+          "Business"
         ]
       },
       {
@@ -1093,7 +1089,7 @@
         "link": "https://www.engadget.com/computing/accessories/best-power-bank-143048526.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-01-30T10:01:26.000Z",
-        "relevanceScore": 23.82,
+        "relevanceScore": 23.73,
         "tags": []
       },
       {
@@ -1101,7 +1097,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1qqlkpm/microsoft_lost_357_billion_in_market_cap_as_stock/",
         "source": "Reddit Technology",
         "pubDate": "2026-01-29T21:25:13.000Z",
-        "relevanceScore": 19.3,
+        "relevanceScore": 19.21,
         "tags": [
           "Business"
         ]
@@ -1113,9 +1109,31 @@
         "link": "https://techcrunch.com/2026/01/29/elon-musk-spacex-tesla-xai-merger-talks-ipo-reuters/",
         "source": "TechCrunch",
         "pubDate": "2026-01-29T22:47:42.000Z",
-        "relevanceScore": 118.58,
+        "relevanceScore": 174.48,
         "tags": [
           "Acquisition"
+        ]
+      }
+    ],
+    "science": [
+      {
+        "title": "How the sometimes-weird world of lifespan extension is gaining influence",
+        "link": "https://www.technologyreview.com/2026/01/30/1131933/weird-world-lifespan-extension-gaining-influence-oneill-arpa-h/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-01-30T10:00:00.000Z",
+        "relevanceScore": 78.72,
+        "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Arrests made over supersized illegal rubbish dump",
+        "link": "https://www.bbc.com/news/articles/cy7m3ezr80yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-30T06:00:14.000Z",
+        "relevanceScore": 72.92,
+        "tags": [
+          "Analysis"
         ]
       }
     ],
@@ -1125,21 +1143,9 @@
         "link": "https://www.npr.org/2026/01/30/nx-s1-5691837/lawsets-prediction-market-kalshi",
         "source": "NPR Business",
         "pubDate": "2026-01-30T10:00:00.000Z",
-        "relevanceScore": 67.32,
+        "relevanceScore": 66.22,
         "tags": [
           "Cloud"
-        ]
-      }
-    ],
-    "climate": [
-      {
-        "title": "Arrests made over supersized illegal rubbish dump",
-        "link": "https://www.bbc.com/news/articles/cy7m3ezr80yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-30T06:00:14.000Z",
-        "relevanceScore": 64.02,
-        "tags": [
-          "Analysis"
         ]
       }
     ],
@@ -1149,20 +1155,9 @@
         "link": "https://www.bbc.com/news/articles/c0keyyeyr41o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-30T09:14:25.000Z",
-        "relevanceScore": 31.67,
+        "relevanceScore": 65.07,
         "tags": [
           "Business"
-        ]
-      },
-      {
-        "title": "Could weight-loss jabs be behind rising gallbladder removals?",
-        "link": "https://www.bbc.com/news/articles/cm24evgyyzpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-01-30T00:03:39.000Z",
-        "relevanceScore": 30.83,
-        "tags": [
-          "Science",
-          "Report"
         ]
       },
       {
@@ -1170,55 +1165,36 @@
         "link": "https://www.bbc.com/news/articles/c0mky220nrdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-01-30T01:43:02.000Z",
-        "relevanceScore": 30.16,
+        "relevanceScore": 63.57,
         "tags": []
-      }
-    ],
-    "science": [
+      },
       {
-        "title": "How the sometimes-weird world of lifespan extension is gaining influence",
-        "link": "https://www.technologyreview.com/2026/01/30/1131933/weird-world-lifespan-extension-gaining-influence-oneill-arpa-h/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-01-30T10:00:00.000Z",
-        "relevanceScore": 28.82,
-        "tags": []
-      }
-    ],
-    "health": [
-      {
-        "title": "Having that high-deductible health plan might kill you, literally",
-        "link": "https://arstechnica.com/health/2026/01/having-that-high-deductible-health-plan-might-kill-you-literally/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-29T23:22:58.000Z",
-        "relevanceScore": 23.7,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "US spy satellite agency declassifies high-flying Cold War listening post",
-        "link": "https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/",
-        "source": "Ars Technica",
-        "pubDate": "2026-01-29T23:07:05.000Z",
-        "relevanceScore": 23.64,
-        "tags": []
+        "title": "Could weight-loss jabs be behind rising gallbladder removals?",
+        "link": "https://www.bbc.com/news/articles/cm24evgyyzpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-01-30T00:03:39.000Z",
+        "relevanceScore": 30.73,
+        "tags": [
+          "Science",
+          "Report"
+        ]
       }
     ],
     "world": [
-      {
-        "title": "Trump Strangely Warns Canada That China Will Force Them To Stop Playing Hockey",
-        "link": "https://www.reddit.com/r/worldnews/comments/1qr048e/trump_strangely_warns_canada_that_china_will/",
-        "source": "Reddit World News",
-        "pubDate": "2026-01-30T08:43:28.000Z",
-        "relevanceScore": 23.57,
-        "tags": []
-      },
       {
         "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1436, Part 1 (Thread #1583)",
         "link": "https://www.reddit.com/r/worldnews/comments/1qquzu4/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-01-30T04:02:46.000Z",
-        "relevanceScore": 22.63,
+        "relevanceScore": 56.03,
+        "tags": []
+      },
+      {
+        "title": "Trump Strangely Warns Canada That China Will Force Them To Stop Playing Hockey",
+        "link": "https://www.reddit.com/r/worldnews/comments/1qr048e/trump_strangely_warns_canada_that_china_will/",
+        "source": "Reddit World News",
+        "pubDate": "2026-01-30T08:43:28.000Z",
+        "relevanceScore": 23.47,
         "tags": []
       },
       {
@@ -1226,7 +1202,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qqmfgb/canada_signs_auto_deal_with_south_korea_moving/",
         "source": "Reddit World News",
         "pubDate": "2026-01-29T21:57:53.000Z",
-        "relevanceScore": 21.41,
+        "relevanceScore": 21.31,
         "tags": [
           "Partnership"
         ]
@@ -1238,15 +1214,45 @@
         "link": "https://www.bbc.com/news/articles/cx2yv31482vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-01-29T11:40:44.000Z",
-        "relevanceScore": 20.86,
+        "relevanceScore": 54.26,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Pharrell calls for empathy from US leaders after being honored at Black Music Collective event",
+        "link": "https://abcnews.go.com/Business/wireStory/pharrell-calls-empathy-us-leaders-after-honored-black-129695764",
+        "source": "ABC News Business",
+        "pubDate": "2026-01-30T10:53:47.000Z",
+        "relevanceScore": 42.4,
+        "tags": []
+      }
+    ],
+    "health": [
+      {
+        "title": "Having that high-deductible health plan might kill you, literally",
+        "link": "https://arstechnica.com/health/2026/01/having-that-high-deductible-health-plan-might-kill-you-literally/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-29T23:22:58.000Z",
+        "relevanceScore": 23.6,
+        "tags": []
+      }
+    ],
+    "space": [
+      {
+        "title": "US spy satellite agency declassifies high-flying Cold War listening post",
+        "link": "https://arstechnica.com/space/2026/01/us-spy-satellite-agency-declassifies-high-flying-cold-war-listening-post/",
+        "source": "Ars Technica",
+        "pubDate": "2026-01-29T23:07:05.000Z",
+        "relevanceScore": 23.55,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 158.50927272727273,
+    "totalCategories": 17,
+    "avgRelevanceScore": 190.05709090909073,
     "topCategories": [
       {
         "category": "ai-ml",
