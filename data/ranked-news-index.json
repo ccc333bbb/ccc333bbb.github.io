@@ -1,21 +1,21 @@
 {
-  "lastUpdated": "2026-02-04T21:57:27.810Z",
+  "lastUpdated": "2026-02-04T22:28:03.947Z",
   "totalArticles": 46,
   "categories": [
     "development",
-    "ai-ml",
-    "mobile",
-    "cloud",
-    "tech",
-    "general",
-    "space",
-    "business",
-    "education",
-    "entertainment",
-    "finance",
     "cybersecurity",
+    "ai-ml",
+    "tech",
+    "mobile",
+    "space",
+    "general",
+    "business",
+    "entertainment",
+    "education",
+    "finance",
     "health",
-    "social"
+    "social",
+    "cloud"
   ],
   "topArticles": [
     {
@@ -24,8 +24,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-02-04T17:00:19.000Z",
-      "relevanceScore": 764.51,
-      "recommendationScore": 764.51,
+      "relevanceScore": 747.91,
+      "recommendationScore": 747.91,
       "tags": [
         "Exclusive",
         "Tutorial",
@@ -34,17 +34,72 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "LGTM != Production Ready: Why your CI pipeline is missing the most important step",
+      "link": "https://dev.to/chuanjin/lgtm-production-ready-why-your-ci-pipeline-is-missing-the-most-important-step-1kok",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2026-02-04T22:18:34.000Z",
+      "relevanceScore": 433.47,
+      "recommendationScore": 435.47,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "Code smells for AI agents: Q&A with Eno Reyes of Factory",
       "link": "https://stackoverflow.blog/2026/02/04/code-smells-for-ai-agents-q-and-a-with-eno-reyes-of-factory/",
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-02-04T15:00:00.000Z",
-      "relevanceScore": 339.11,
-      "recommendationScore": 339.61,
+      "relevanceScore": 279.51,
+      "recommendationScore": 280.01,
       "tags": [
         "AI",
         "Tech",
         "Interview"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Build-to-Learn Framework: How a Near-Disaster Taught Me to Learn in Public",
+      "link": "https://dev.to/rivadaviam/the-build-to-learn-framework-how-a-near-disaster-taught-me-to-learn-in-public-c2e",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-02-04T22:20:47.000Z",
+      "relevanceScore": 258.48,
+      "recommendationScore": 260.48,
+      "tags": [
+        "AI",
+        "Science",
+        "Cloud",
+        "Report",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Measles Is Causing Brain Swelling in Children in South Carolina",
+      "link": "https://www.wired.com/story/measles-is-causing-brain-swelling-in-children-in-south-carolina/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-02-04T21:15:18.000Z",
+      "relevanceScore": 238.76,
+      "recommendationScore": 239.26,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meet Gizmo: a TikTok for interactive, vibe-coded mini apps",
+      "link": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-02-04T21:45:32.000Z",
+      "relevanceScore": 206.86,
+      "recommendationScore": 207.36,
+      "tags": [
+        "Mobile",
+        "Social"
       ],
       "readingLevel": "intermediate"
     },
@@ -54,118 +109,11 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-02-04T19:52:59.000Z",
-      "relevanceScore": 334.09,
-      "recommendationScore": 334.09,
+      "relevanceScore": 205.48,
+      "recommendationScore": 205.48,
       "tags": [
         "Mobile",
         "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why CSA STAR Can't Govern AI Agents (And What Comes Next)",
-      "link": "https://dev.to/narnaiezzsshaa/why-csa-star-cant-govern-ai-agents-and-what-comes-next-5chm",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T21:32:59.000Z",
-      "relevanceScore": 291.42,
-      "recommendationScore": 293.42,
-      "tags": [
-        "AI",
-        "Security",
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meet Gizmo: a TikTok for interactive, vibe-coded mini apps",
-      "link": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-02-04T21:45:32.000Z",
-      "relevanceScore": 256.96,
-      "recommendationScore": 257.46,
-      "tags": [
-        "Mobile",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Your Microservices Aren’t Scalable. Your Database Is Just Crying.",
-      "link": "https://dev.to/art_light/your-microservices-arent-scalable-your-database-is-just-crying-mbd",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2026-02-04T21:24:34.000Z",
-      "relevanceScore": 252.39,
-      "recommendationScore": 252.89,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Bipartisan SCAM Act would require online platforms to crack down on fraudulent ads",
-      "link": "https://www.engadget.com/big-tech/bipartisan-scam-act-would-require-online-platforms-to-crack-down-on-fraudulent-ads-210316594.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-02-04T21:03:16.000Z",
-      "relevanceScore": 162.32,
-      "recommendationScore": 162.82,
-      "tags": [
-        "Tech",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Measles Is Causing Brain Swelling in Children in South Carolina",
-      "link": "https://www.wired.com/story/measles-is-causing-brain-swelling-in-children-in-south-carolina/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-02-04T21:15:18.000Z",
-      "relevanceScore": 160.86,
-      "recommendationScore": 161.36,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump administration withdrawing 700 federal agents from Minnesota",
-      "link": "https://www.bbc.com/news/articles/c4g5nx130neo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-04T16:19:28.000Z",
-      "relevanceScore": 124.87,
-      "recommendationScore": 125.37,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Moltbook is the newest social media platform — but it's just for AI bots",
-      "link": "https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
-      "source": "NPR Business",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T21:06:01.000Z",
-      "relevanceScore": 120.83,
-      "recommendationScore": 123.33,
-      "tags": [
-        "AI",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "A16z just raised $1.7B for AI infrastructure. Here’s where it’s going.",
-      "link": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T20:24:12.000Z",
-      "relevanceScore": 117.19,
-      "recommendationScore": 117.69,
-      "tags": [
-        "AI",
-        "Startup",
-        "Funding"
       ],
       "readingLevel": "advanced"
     },
@@ -175,55 +123,10 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-02-04T19:15:11.000Z",
-      "relevanceScore": 115.96,
-      "recommendationScore": 116.46,
+      "relevanceScore": 193.36,
+      "recommendationScore": 193.86,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
-      "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T14:00:00.000Z",
-      "relevanceScore": 115.41,
-      "recommendationScore": 115.91,
-      "tags": [
-        "AI",
-        "Exclusive",
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
-      "link": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-02-03T13:10:00.000Z",
-      "relevanceScore": 69.44,
-      "recommendationScore": 69.94,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: the future of nuclear power plants, and social media-fueled AI hype",
-      "link": "https://www.technologyreview.com/2026/02/04/1132115/the-download-the-future-of-nuclear-power-plants-and-social-media-fueled-ai-hype/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T13:10:00.000Z",
-      "relevanceScore": 66.24,
-      "recommendationScore": 66.74,
-      "tags": [
-        "AI",
-        "Tech",
-        "Business",
-        "Funding"
       ],
       "readingLevel": "advanced"
     },
@@ -233,10 +136,130 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-04T01:05:26.000Z",
-      "relevanceScore": 54.33,
-      "recommendationScore": 54.83,
+      "relevanceScore": 169.22,
+      "recommendationScore": 169.72,
       "tags": [
         "Analysis"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Bipartisan SCAM Act would require online platforms to crack down on fraudulent ads",
+      "link": "https://www.engadget.com/big-tech/bipartisan-scam-act-would-require-online-platforms-to-crack-down-on-fraudulent-ads-210316594.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-02-04T21:03:16.000Z",
+      "relevanceScore": 166.72,
+      "recommendationScore": 167.22,
+      "tags": [
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Should AI chatbots have ads? Anthropic says no.",
+      "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2026-02-04T21:15:07.000Z",
+      "relevanceScore": 156.76,
+      "recommendationScore": 156.76,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Download: squeezing more metal out of aging mines, and AI’s truth crisis",
+      "link": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-02-03T13:10:00.000Z",
+      "relevanceScore": 155.84,
+      "recommendationScore": 156.34,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Games Done Quick's Back to Black 2026 event kicks off tomorrow",
+      "link": "https://www.engadget.com/gaming/games-done-quicks-back-to-black-2026-event-kicks-off-tomorrow-194147068.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-02-04T19:41:47.000Z",
+      "relevanceScore": 153.45,
+      "recommendationScore": 153.95,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Download: the future of nuclear power plants, and social media-fueled AI hype",
+      "link": "https://www.technologyreview.com/2026/02/04/1132115/the-download-the-future-of-nuclear-power-plants-and-social-media-fueled-ai-hype/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-02-04T13:10:00.000Z",
+      "relevanceScore": 141.14,
+      "recommendationScore": 141.64,
+      "tags": [
+        "AI",
+        "Tech",
+        "Business",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+      "link": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-02-04T19:00:00.000Z",
+      "relevanceScore": 128.81,
+      "recommendationScore": 131.31,
+      "tags": [
+        "AI",
+        "Tech",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Musk's SpaceX and xAI merge to make world's most valuable private company",
+      "link": "https://www.bbc.com/news/articles/cq6vnrye06po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "space",
+      "pubDate": "2026-02-03T09:31:06.000Z",
+      "relevanceScore": 122.11,
+      "recommendationScore": 122.61,
+      "tags": [
+        "Innovation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump touts 'softer touch' on immigration as federal force is reduced in Minnesota",
+      "link": "https://www.bbc.com/news/articles/c4g5nx130neo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-04T22:12:46.000Z",
+      "relevanceScore": 117.95,
+      "recommendationScore": 118.45,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump grants tariff breaks to 'politically connected' companies, Senate Dems say",
+      "link": "https://www.npr.org/2026/02/04/nx-s1-5698264/trump-wyden-van-hollen-tariffs-politically-connected-companies",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-02-04T11:00:00.000Z",
+      "relevanceScore": 117.71,
+      "recommendationScore": 118.21,
+      "tags": [
+        "Regulation"
       ],
       "readingLevel": "intermediate"
     },
@@ -246,8 +269,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-02-04T20:51:06.000Z",
-      "relevanceScore": 53.78,
-      "recommendationScore": 54.28,
+      "relevanceScore": 117.18,
+      "recommendationScore": 117.68,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -257,22 +280,20 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-04T21:37:50.000Z",
-      "relevanceScore": 52.93,
-      "recommendationScore": 55.43,
+      "relevanceScore": 111.33,
+      "recommendationScore": 113.83,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Musk's SpaceX and xAI merge to make world's most valuable private company",
-      "link": "https://www.bbc.com/news/articles/cq6vnrye06po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "space",
-      "pubDate": "2026-02-03T09:31:06.000Z",
-      "relevanceScore": 46.21,
-      "recommendationScore": 46.71,
-      "tags": [
-        "Innovation"
-      ],
+      "title": "Fearing Russia will seize her town, war widow moves husband's grave to Kyiv",
+      "link": "https://www.bbc.com/news/articles/cvgr25e2lj5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-04T21:59:59.000Z",
+      "relevanceScore": 109.91,
+      "recommendationScore": 110.41,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -281,8 +302,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-04T21:26:43.000Z",
-      "relevanceScore": 44.9,
-      "recommendationScore": 45.4,
+      "relevanceScore": 107.8,
+      "recommendationScore": 108.3,
       "tags": [
         "AI"
       ],
@@ -294,8 +315,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-04T21:39:26.000Z",
-      "relevanceScore": 44.44,
-      "recommendationScore": 44.94,
+      "relevanceScore": 105.84,
+      "recommendationScore": 106.34,
       "tags": [
         "AI",
         "Startup",
@@ -304,17 +325,33 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Should AI chatbots have ads? Anthropic says no.",
-      "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/",
-      "source": "Ars Technica",
+      "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+      "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+      "source": "MIT Technology Review",
       "category": "ai-ml",
-      "pubDate": "2026-02-04T21:15:07.000Z",
-      "relevanceScore": 43.86,
-      "recommendationScore": 43.86,
+      "pubDate": "2026-02-04T14:00:00.000Z",
+      "relevanceScore": 105.81,
+      "recommendationScore": 106.31,
       "tags": [
-        "AI"
+        "AI",
+        "Exclusive",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Moltbook is the newest social media platform — but it's just for AI bots",
+      "link": "https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
+      "source": "NPR Business",
+      "category": "ai-ml",
+      "pubDate": "2026-02-04T21:06:01.000Z",
+      "relevanceScore": 105.73,
+      "recommendationScore": 108.23,
+      "tags": [
+        "AI",
+        "Social"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Sam Altman responds to Anthropic’s ‘funny’ Super Bowl ads",
@@ -322,25 +359,10 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-04T21:03:05.000Z",
-      "relevanceScore": 42.32,
-      "recommendationScore": 42.82,
+      "relevanceScore": 103.72,
+      "recommendationScore": 104.22,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
-      "link": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-02-04T19:00:00.000Z",
-      "relevanceScore": 41.41,
-      "recommendationScore": 43.91,
-      "tags": [
-        "AI",
-        "Tech",
-        "Startup"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Washington Post says one-third of its staff across all departments is being laid off",
@@ -348,20 +370,59 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-04T15:41:49.000Z",
-      "relevanceScore": 41.25,
-      "recommendationScore": 41.75,
+      "relevanceScore": 102.65,
+      "recommendationScore": 103.15,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Games Done Quick's Back to Black 2026 event kicks off tomorrow",
-      "link": "https://www.engadget.com/gaming/games-done-quicks-back-to-black-2026-event-kicks-off-tomorrow-194147068.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-02-04T19:41:47.000Z",
-      "relevanceScore": 40.05,
-      "recommendationScore": 40.55,
+      "title": "DPDPA will kick our asses, We need this checklist",
+      "link": "https://dev.to/0x0elliot/dpdpa-will-kick-your-ass-you-need-this-checklist-2am8",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-02-04T22:22:17.000Z",
+      "relevanceScore": 101.98,
+      "recommendationScore": 101.98,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Netflix and Warner Bros struggle to defend merger",
+      "link": "https://www.bbc.com/news/articles/c5ydndkmvy2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "entertainment",
+      "pubDate": "2026-02-03T23:42:06.000Z",
+      "relevanceScore": 98.95,
+      "recommendationScore": 98.95,
+      "tags": [
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Elon Musk’s SpaceX company town is getting a police department",
+      "link": "https://techcrunch.com/2026/02/04/elon-musks-spacex-company-town-is-getting-a-police-department/",
+      "source": "TechCrunch",
+      "category": "space",
+      "pubDate": "2026-02-04T21:47:41.000Z",
+      "relevanceScore": 79.87,
+      "recommendationScore": 80.37,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Overwatch: All the news about Blizzard’s hit hero shooter",
+      "link": "https://www.theverge.com/2022/6/14/23167853/overwatch-2-activision-blizzard-news",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-02-04T19:53:54.000Z",
+      "relevanceScore": 42.99,
+      "recommendationScore": 45.49,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -370,46 +431,9 @@
       "source": "BBC News",
       "category": "education",
       "pubDate": "2026-02-04T16:46:07.000Z",
-      "relevanceScore": 39.46,
-      "recommendationScore": 39.96,
+      "relevanceScore": 42.86,
+      "recommendationScore": 43.36,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Netflix and Warner Bros struggle to defend merger",
-      "link": "https://www.bbc.com/news/articles/c5ydndkmvy2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "entertainment",
-      "pubDate": "2026-02-03T23:42:06.000Z",
-      "relevanceScore": 37.55,
-      "recommendationScore": 37.55,
-      "tags": [
-        "Acquisition"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Saturday Night Live reveals cast for new UK version",
-      "link": "https://www.bbc.com/news/articles/cjw1ee5g454o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-04T17:00:09.000Z",
-      "relevanceScore": 36.51,
-      "recommendationScore": 39.01,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Overwatch: all the news about Blizzard’s hit hero shooter",
-      "link": "https://www.theverge.com/2022/6/14/23167853/overwatch-2-activision-blizzard-news",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-02-04T19:53:54.000Z",
-      "relevanceScore": 36.09,
-      "recommendationScore": 38.59,
-      "tags": [
-        "Exclusive"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -418,38 +442,11 @@
       "source": "Engadget",
       "category": "finance",
       "pubDate": "2026-02-04T20:01:26.000Z",
-      "relevanceScore": 33.11,
-      "recommendationScore": 34.11,
+      "relevanceScore": 38.51,
+      "recommendationScore": 39.51,
       "tags": [
         "Tech",
         "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What the fastest-growing tools reveal about how software is being built",
-      "link": "https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-02-03T17:00:00.000Z",
-      "relevanceScore": 32.21,
-      "recommendationScore": 34.21,
-      "tags": [
-        "Tech",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "MPs back plan to release Mandelson files after Labour anger forces climbdown",
-      "link": "https://www.bbc.com/news/articles/clyw0050p99o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-04T21:23:34.000Z",
-      "relevanceScore": 31.89,
-      "recommendationScore": 32.39,
-      "tags": [
-        "Launch"
       ],
       "readingLevel": "intermediate"
     },
@@ -459,45 +456,38 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-04T20:20:56.000Z",
-      "relevanceScore": 31.18,
-      "recommendationScore": 31.18,
+      "relevanceScore": 33.58,
+      "recommendationScore": 33.58,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "PostgreSQL для веб-разработчика: миграция с MySQL, JSON, оптимизация",
-      "link": "https://dev.to/_vproger_/postgresql-dlia-vieb-razrabotchika-mighratsiia-s-mysql-json-optimizatsiia-18eo",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-04T21:35:49.000Z",
-      "relevanceScore": 29.43,
-      "recommendationScore": 29.93,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Elon Musk’s SpaceX company town is getting a police department",
-      "link": "https://techcrunch.com/2026/02/04/elon-musks-spacex-company-town-is-getting-a-police-department/",
-      "source": "TechCrunch",
-      "category": "space",
-      "pubDate": "2026-02-04T21:47:41.000Z",
-      "relevanceScore": 27.97,
-      "recommendationScore": 28.47,
-      "tags": [],
+      "title": "MPs back plan to release Mandelson files after Labour anger forces climbdown",
+      "link": "https://www.bbc.com/news/articles/clyw0050p99o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-04T22:15:51.000Z",
+      "relevanceScore": 31.96,
+      "recommendationScore": 32.46,
+      "tags": [
+        "Launch"
+      ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "'The Washington Post' cuts a third of its staff",
-      "link": "https://www.npr.org/2026/02/04/nx-s1-5699474/the-washington-post-cuts-a-third-of-its-staff",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-02-04T21:48:42.000Z",
-      "relevanceScore": 27.97,
-      "recommendationScore": 27.97,
-      "tags": [],
-      "readingLevel": "beginner"
+      "title": "The Wayback Machine debuts a new plugin designed to fix the internet’s broken links problem",
+      "link": "https://techcrunch.com/2026/02/04/the-wayback-machine-debuts-a-new-plugin-designed-to-fix-the-internets-broken-links-problem/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-02-04T22:27:12.000Z",
+      "relevanceScore": 27.5,
+      "recommendationScore": 30,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Bezos orders deep job cuts at 'Washington Post'",
@@ -505,8 +495,8 @@
       "source": "NPR Business",
       "category": "cybersecurity",
       "pubDate": "2026-02-04T14:19:15.000Z",
-      "relevanceScore": 26.47,
-      "recommendationScore": 26.47,
+      "relevanceScore": 26.37,
+      "recommendationScore": 26.37,
       "tags": [
         "Security"
       ],
@@ -518,8 +508,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-02-04T21:01:05.000Z",
-      "relevanceScore": 25.81,
-      "recommendationScore": 28.31,
+      "relevanceScore": 25.71,
+      "recommendationScore": 28.21,
       "tags": [
         "Exclusive"
       ],
@@ -531,8 +521,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-02-04T18:31:16.000Z",
-      "relevanceScore": 25.31,
-      "recommendationScore": 25.31,
+      "relevanceScore": 25.21,
+      "recommendationScore": 25.21,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -542,8 +532,8 @@
       "source": "ABC News Business",
       "category": "health",
       "pubDate": "2026-02-04T18:20:07.000Z",
-      "relevanceScore": 25.28,
-      "recommendationScore": 25.78,
+      "relevanceScore": 25.17,
+      "recommendationScore": 25.67,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -553,8 +543,8 @@
       "source": "Ars Technica",
       "category": "social",
       "pubDate": "2026-02-04T20:23:47.000Z",
-      "relevanceScore": 25.19,
-      "recommendationScore": 27.69,
+      "relevanceScore": 25.09,
+      "recommendationScore": 27.59,
       "tags": [
         "Social"
       ],
@@ -566,8 +556,8 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2026-02-04T20:02:22.000Z",
-      "relevanceScore": 25.12,
-      "recommendationScore": 25.62,
+      "relevanceScore": 25.01,
+      "recommendationScore": 25.51,
       "tags": [
         "Science",
         "Report"
@@ -580,8 +570,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-04T16:05:28.000Z",
-      "relevanceScore": 24.83,
-      "recommendationScore": 25.33,
+      "relevanceScore": 24.72,
+      "recommendationScore": 25.22,
       "tags": [
         "Business",
         "Startup",
@@ -597,12 +587,26 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-02-04T06:03:12.000Z",
-      "relevanceScore": 22.82,
-      "recommendationScore": 23.32,
+      "relevanceScore": 22.72,
+      "recommendationScore": 23.22,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "What the fastest-growing tools reveal about how software is being built",
+      "link": "https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-02-03T17:00:00.000Z",
+      "relevanceScore": 21.11,
+      "recommendationScore": 23.11,
+      "tags": [
+        "Tech",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Generating text with diffusion (and ROI with LLMs)",
@@ -610,8 +614,8 @@
       "source": "Stack Overflow Blog",
       "category": "cloud",
       "pubDate": "2026-02-03T08:40:00.000Z",
-      "relevanceScore": 16.54,
-      "recommendationScore": 16.54,
+      "relevanceScore": 16.44,
+      "recommendationScore": 16.44,
       "tags": [
         "Cloud"
       ],
@@ -625,7 +629,7 @@
         "link": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
         "source": "GitHub Blog",
         "pubDate": "2026-02-04T17:00:19.000Z",
-        "relevanceScore": 764.51,
+        "relevanceScore": 747.91,
         "tags": [
           "Exclusive",
           "Tutorial",
@@ -633,23 +637,47 @@
         ]
       },
       {
+        "title": "DPDPA will kick our asses, We need this checklist",
+        "link": "https://dev.to/0x0elliot/dpdpa-will-kick-your-ass-you-need-this-checklist-2am8",
+        "source": "Dev.to",
+        "pubDate": "2026-02-04T22:22:17.000Z",
+        "relevanceScore": 101.98,
+        "tags": [
+          "Regulation"
+        ]
+      },
+      {
         "title": "What the fastest-growing tools reveal about how software is being built",
         "link": "https://github.blog/news-insights/octoverse/what-the-fastest-growing-tools-reveal-about-how-software-is-being-built/",
         "source": "GitHub Blog",
         "pubDate": "2026-02-03T17:00:00.000Z",
-        "relevanceScore": 32.21,
+        "relevanceScore": 21.11,
         "tags": [
           "Tech",
           "Exclusive"
         ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "LGTM != Production Ready: Why your CI pipeline is missing the most important step",
+        "link": "https://dev.to/chuanjin/lgtm-production-ready-why-your-ci-pipeline-is-missing-the-most-important-step-1kok",
+        "source": "Dev.to",
+        "pubDate": "2026-02-04T22:18:34.000Z",
+        "relevanceScore": 433.47,
+        "tags": [
+          "Security"
+        ]
       },
       {
-        "title": "PostgreSQL для веб-разработчика: миграция с MySQL, JSON, оптимизация",
-        "link": "https://dev.to/_vproger_/postgresql-dlia-vieb-razrabotchika-mighratsiia-s-mysql-json-optimizatsiia-18eo",
-        "source": "Dev.to",
-        "pubDate": "2026-02-04T21:35:49.000Z",
-        "relevanceScore": 29.43,
-        "tags": []
+        "title": "Bezos orders deep job cuts at 'Washington Post'",
+        "link": "https://www.npr.org/2026/02/04/nx-s1-5699328/washington-post-layoffs-jobs-bezos",
+        "source": "NPR Business",
+        "pubDate": "2026-02-04T14:19:15.000Z",
+        "relevanceScore": 26.37,
+        "tags": [
+          "Security"
+        ]
       }
     ],
     "ai-ml": [
@@ -658,7 +686,7 @@
         "link": "https://stackoverflow.blog/2026/02/04/code-smells-for-ai-agents-q-and-a-with-eno-reyes-of-factory/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-02-04T15:00:00.000Z",
-        "relevanceScore": 339.11,
+        "relevanceScore": 279.51,
         "tags": [
           "AI",
           "Tech",
@@ -666,38 +694,17 @@
         ]
       },
       {
-        "title": "Why CSA STAR Can't Govern AI Agents (And What Comes Next)",
-        "link": "https://dev.to/narnaiezzsshaa/why-csa-star-cant-govern-ai-agents-and-what-comes-next-5chm",
+        "title": "The Build-to-Learn Framework: How a Near-Disaster Taught Me to Learn in Public",
+        "link": "https://dev.to/rivadaviam/the-build-to-learn-framework-how-a-near-disaster-taught-me-to-learn-in-public-c2e",
         "source": "Dev.to",
-        "pubDate": "2026-02-04T21:32:59.000Z",
-        "relevanceScore": 291.42,
+        "pubDate": "2026-02-04T22:20:47.000Z",
+        "relevanceScore": 258.48,
         "tags": [
           "AI",
-          "Security",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "Moltbook is the newest social media platform — but it's just for AI bots",
-        "link": "https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
-        "source": "NPR Business",
-        "pubDate": "2026-02-04T21:06:01.000Z",
-        "relevanceScore": 120.83,
-        "tags": [
-          "AI",
-          "Social"
-        ]
-      },
-      {
-        "title": "A16z just raised $1.7B for AI infrastructure. Here’s where it’s going.",
-        "link": "https://techcrunch.com/video/a16z-just-raised-1-7b-for-ai-infrastructure-heres-where-its-going/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-04T20:24:12.000Z",
-        "relevanceScore": 117.19,
-        "tags": [
-          "AI",
-          "Startup",
-          "Funding"
+          "Science",
+          "Cloud",
+          "Report",
+          "IPO"
         ]
       },
       {
@@ -705,21 +712,19 @@
         "link": "https://www.engadget.com/gaming/robloxs-4d-creation-toolset-is-now-available-in-open-beta-191510664.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-04T19:15:11.000Z",
-        "relevanceScore": 115.96,
+        "relevanceScore": 193.36,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
-        "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-02-04T14:00:00.000Z",
-        "relevanceScore": 115.41,
+        "title": "Should AI chatbots have ads? Anthropic says no.",
+        "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/",
+        "source": "Ars Technica",
+        "pubDate": "2026-02-04T21:15:07.000Z",
+        "relevanceScore": 156.76,
         "tags": [
-          "AI",
-          "Exclusive",
-          "Tutorial"
+          "AI"
         ]
       },
       {
@@ -727,7 +732,7 @@
         "link": "https://www.technologyreview.com/2026/02/03/1132105/the-download-squeezing-more-metal-out-of-aging-mines-and-ais-truth-crisis/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-03T13:10:00.000Z",
-        "relevanceScore": 69.44,
+        "relevanceScore": 155.84,
         "tags": [
           "AI",
           "Tech"
@@ -738,7 +743,7 @@
         "link": "https://www.technologyreview.com/2026/02/04/1132115/the-download-the-future-of-nuclear-power-plants-and-social-media-fueled-ai-hype/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-04T13:10:00.000Z",
-        "relevanceScore": 66.24,
+        "relevanceScore": 141.14,
         "tags": [
           "AI",
           "Tech",
@@ -747,11 +752,23 @@
         ]
       },
       {
+        "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
+        "link": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
+        "source": "Wired",
+        "pubDate": "2026-02-04T19:00:00.000Z",
+        "relevanceScore": 128.81,
+        "tags": [
+          "AI",
+          "Tech",
+          "Startup"
+        ]
+      },
+      {
         "title": "Amazon to begin testing AI tools for film and TV production next month",
         "link": "https://techcrunch.com/2026/02/04/amazon-to-begin-testing-ai-tools-for-film-and-tv-production-next-month/",
         "source": "TechCrunch",
         "pubDate": "2026-02-04T21:26:43.000Z",
-        "relevanceScore": 44.9,
+        "relevanceScore": 107.8,
         "tags": [
           "AI"
         ]
@@ -761,7 +778,7 @@
         "link": "https://techcrunch.com/2026/02/04/ai-sre-resolve-ai-confirms-125m-raise-unicorn-valuation/",
         "source": "TechCrunch",
         "pubDate": "2026-02-04T21:39:26.000Z",
-        "relevanceScore": 44.44,
+        "relevanceScore": 105.84,
         "tags": [
           "AI",
           "Startup",
@@ -769,92 +786,36 @@
         ]
       },
       {
-        "title": "Should AI chatbots have ads? Anthropic says no.",
-        "link": "https://arstechnica.com/ai/2026/02/should-ai-chatbots-have-ads-anthropic-says-no/",
-        "source": "Ars Technica",
-        "pubDate": "2026-02-04T21:15:07.000Z",
-        "relevanceScore": 43.86,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "A New AI Math Startup Just Cracked 4 Previously Unsolved Problems",
-        "link": "https://www.wired.com/story/a-new-ai-math-ai-startup-just-cracked-4-previously-unsolved-problems/",
-        "source": "Wired",
-        "pubDate": "2026-02-04T19:00:00.000Z",
-        "relevanceScore": 41.41,
+        "title": "From guardrails to governance: A CEO’s guide for securing agentic systems",
+        "link": "https://www.technologyreview.com/2026/02/04/1131014/from-guardrails-to-governance-a-ceos-guide-for-securing-agentic-systems/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-02-04T14:00:00.000Z",
+        "relevanceScore": 105.81,
         "tags": [
           "AI",
-          "Tech",
-          "Startup"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Notepad++ Users, You May Have Been Hacked by China",
-        "link": "https://www.wired.com/story/notepad-plus-plus-china-hackers-update-infrastructure/",
-        "source": "Wired",
-        "pubDate": "2026-02-04T19:52:59.000Z",
-        "relevanceScore": 334.09,
-        "tags": [
-          "Mobile",
-          "Update"
+          "Exclusive",
+          "Tutorial"
         ]
       },
       {
-        "title": "Meet Gizmo: a TikTok for interactive, vibe-coded mini apps",
-        "link": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-04T21:45:32.000Z",
-        "relevanceScore": 256.96,
+        "title": "Moltbook is the newest social media platform — but it's just for AI bots",
+        "link": "https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
+        "source": "NPR Business",
+        "pubDate": "2026-02-04T21:06:01.000Z",
+        "relevanceScore": 105.73,
         "tags": [
-          "Mobile",
+          "AI",
           "Social"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Your Microservices Aren’t Scalable. Your Database Is Just Crying.",
-        "link": "https://dev.to/art_light/your-microservices-arent-scalable-your-database-is-just-crying-mbd",
-        "source": "Dev.to",
-        "pubDate": "2026-02-04T21:24:34.000Z",
-        "relevanceScore": 252.39,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Generating text with diffusion (and ROI with LLMs)",
-        "link": "https://stackoverflow.blog/2026/02/03/generating-text-with-diffusion-and-roi-with-llms/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-02-03T08:40:00.000Z",
-        "relevanceScore": 16.54,
-        "tags": [
-          "Cloud"
         ]
       }
     ],
     "tech": [
       {
-        "title": "Bipartisan SCAM Act would require online platforms to crack down on fraudulent ads",
-        "link": "https://www.engadget.com/big-tech/bipartisan-scam-act-would-require-online-platforms-to-crack-down-on-fraudulent-ads-210316594.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-02-04T21:03:16.000Z",
-        "relevanceScore": 162.32,
-        "tags": [
-          "Tech",
-          "Web"
-        ]
-      },
-      {
         "title": "Measles Is Causing Brain Swelling in Children in South Carolina",
         "link": "https://www.wired.com/story/measles-is-causing-brain-swelling-in-children-in-south-carolina/",
         "source": "Wired",
         "pubDate": "2026-02-04T21:15:18.000Z",
-        "relevanceScore": 160.86,
+        "relevanceScore": 238.76,
         "tags": []
       },
       {
@@ -862,17 +823,36 @@
         "link": "https://www.bbc.com/news/articles/ce3ex92557jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-04T01:05:26.000Z",
-        "relevanceScore": 54.33,
+        "relevanceScore": 169.22,
         "tags": [
           "Analysis"
         ]
+      },
+      {
+        "title": "Bipartisan SCAM Act would require online platforms to crack down on fraudulent ads",
+        "link": "https://www.engadget.com/big-tech/bipartisan-scam-act-would-require-online-platforms-to-crack-down-on-fraudulent-ads-210316594.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-02-04T21:03:16.000Z",
+        "relevanceScore": 166.72,
+        "tags": [
+          "Tech",
+          "Web"
+        ]
+      },
+      {
+        "title": "Games Done Quick's Back to Black 2026 event kicks off tomorrow",
+        "link": "https://www.engadget.com/gaming/games-done-quicks-back-to-black-2026-event-kicks-off-tomorrow-194147068.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-02-04T19:41:47.000Z",
+        "relevanceScore": 153.45,
+        "tags": []
       },
       {
         "title": "Nintendo’s new Virtual Boy is more fun to look at than to play",
         "link": "https://www.theverge.com/games/873755/nintendo-switch-virtual-boy-impressions",
         "source": "The Verge",
         "pubDate": "2026-02-04T21:37:50.000Z",
-        "relevanceScore": 52.93,
+        "relevanceScore": 111.33,
         "tags": []
       },
       {
@@ -880,23 +860,15 @@
         "link": "https://www.theverge.com/news/874084/ai-chatgpt-claude-super-bowl-ads-openai-anthropic",
         "source": "The Verge",
         "pubDate": "2026-02-04T21:03:05.000Z",
-        "relevanceScore": 42.32,
+        "relevanceScore": 103.72,
         "tags": []
       },
       {
-        "title": "Games Done Quick's Back to Black 2026 event kicks off tomorrow",
-        "link": "https://www.engadget.com/gaming/games-done-quicks-back-to-black-2026-event-kicks-off-tomorrow-194147068.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-02-04T19:41:47.000Z",
-        "relevanceScore": 40.05,
-        "tags": []
-      },
-      {
-        "title": "Overwatch: all the news about Blizzard’s hit hero shooter",
+        "title": "Overwatch: All the news about Blizzard’s hit hero shooter",
         "link": "https://www.theverge.com/2022/6/14/23167853/overwatch-2-activision-blizzard-news",
         "source": "The Verge",
         "pubDate": "2026-02-04T19:53:54.000Z",
-        "relevanceScore": 36.09,
+        "relevanceScore": 42.99,
         "tags": [
           "Exclusive"
         ]
@@ -906,9 +878,19 @@
         "link": "https://www.theverge.com/column/874050/regulator-shutdown-averted-crypto",
         "source": "The Verge",
         "pubDate": "2026-02-04T20:20:56.000Z",
-        "relevanceScore": 31.18,
+        "relevanceScore": 33.58,
         "tags": [
           "Tech"
+        ]
+      },
+      {
+        "title": "The Wayback Machine debuts a new plugin designed to fix the internet’s broken links problem",
+        "link": "https://techcrunch.com/2026/02/04/the-wayback-machine-debuts-a-new-plugin-designed-to-fix-the-internets-broken-links-problem/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-04T22:27:12.000Z",
+        "relevanceScore": 27.5,
+        "tags": [
+          "Web"
         ]
       },
       {
@@ -916,43 +898,31 @@
         "link": "https://www.wired.com/story/pixel-9a-deal-226/",
         "source": "Wired",
         "pubDate": "2026-02-04T18:31:16.000Z",
-        "relevanceScore": 25.31,
+        "relevanceScore": 25.21,
         "tags": []
       }
     ],
-    "general": [
+    "mobile": [
       {
-        "title": "Trump administration withdrawing 700 federal agents from Minnesota",
-        "link": "https://www.bbc.com/news/articles/c4g5nx130neo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-04T16:19:28.000Z",
-        "relevanceScore": 124.87,
-        "tags": []
-      },
-      {
-        "title": "Email appears to confirm Andrew and Virginia Giuffre photo is real",
-        "link": "https://www.bbc.com/news/articles/cvgp2xx7gxjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-04T20:51:06.000Z",
-        "relevanceScore": 53.78,
-        "tags": []
-      },
-      {
-        "title": "Saturday Night Live reveals cast for new UK version",
-        "link": "https://www.bbc.com/news/articles/cjw1ee5g454o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-04T17:00:09.000Z",
-        "relevanceScore": 36.51,
-        "tags": []
-      },
-      {
-        "title": "MPs back plan to release Mandelson files after Labour anger forces climbdown",
-        "link": "https://www.bbc.com/news/articles/clyw0050p99o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-04T21:23:34.000Z",
-        "relevanceScore": 31.89,
+        "title": "Meet Gizmo: a TikTok for interactive, vibe-coded mini apps",
+        "link": "https://techcrunch.com/2026/02/04/meet-gizmo-a-tiktok-for-interactive-vibe-coded-mini-apps/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-04T21:45:32.000Z",
+        "relevanceScore": 206.86,
         "tags": [
-          "Launch"
+          "Mobile",
+          "Social"
+        ]
+      },
+      {
+        "title": "Notepad++ Users, You May Have Been Hacked by China",
+        "link": "https://www.wired.com/story/notepad-plus-plus-china-hackers-update-infrastructure/",
+        "source": "Wired",
+        "pubDate": "2026-02-04T19:52:59.000Z",
+        "relevanceScore": 205.48,
+        "tags": [
+          "Mobile",
+          "Update"
         ]
       }
     ],
@@ -962,7 +932,7 @@
         "link": "https://www.bbc.com/news/articles/cq6vnrye06po?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-03T09:31:06.000Z",
-        "relevanceScore": 46.21,
+        "relevanceScore": 122.11,
         "tags": [
           "Innovation"
         ]
@@ -972,7 +942,7 @@
         "link": "https://techcrunch.com/2026/02/04/elon-musks-spacex-company-town-is-getting-a-police-department/",
         "source": "TechCrunch",
         "pubDate": "2026-02-04T21:47:41.000Z",
-        "relevanceScore": 27.97,
+        "relevanceScore": 79.87,
         "tags": []
       },
       {
@@ -980,27 +950,65 @@
         "link": "https://arstechnica.com/space/2026/02/us-house-takes-first-step-toward-creating-commercial-deep-space-program/",
         "source": "Ars Technica",
         "pubDate": "2026-02-04T21:01:05.000Z",
-        "relevanceScore": 25.81,
+        "relevanceScore": 25.71,
         "tags": [
           "Exclusive"
         ]
       }
     ],
+    "general": [
+      {
+        "title": "Trump touts 'softer touch' on immigration as federal force is reduced in Minnesota",
+        "link": "https://www.bbc.com/news/articles/c4g5nx130neo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-04T22:12:46.000Z",
+        "relevanceScore": 117.95,
+        "tags": []
+      },
+      {
+        "title": "Email appears to confirm Andrew and Virginia Giuffre photo is real",
+        "link": "https://www.bbc.com/news/articles/cvgp2xx7gxjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-04T20:51:06.000Z",
+        "relevanceScore": 117.18,
+        "tags": []
+      },
+      {
+        "title": "Fearing Russia will seize her town, war widow moves husband's grave to Kyiv",
+        "link": "https://www.bbc.com/news/articles/cvgr25e2lj5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-04T21:59:59.000Z",
+        "relevanceScore": 109.91,
+        "tags": []
+      },
+      {
+        "title": "MPs back plan to release Mandelson files after Labour anger forces climbdown",
+        "link": "https://www.bbc.com/news/articles/clyw0050p99o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-04T22:15:51.000Z",
+        "relevanceScore": 31.96,
+        "tags": [
+          "Launch"
+        ]
+      }
+    ],
     "business": [
+      {
+        "title": "Trump grants tariff breaks to 'politically connected' companies, Senate Dems say",
+        "link": "https://www.npr.org/2026/02/04/nx-s1-5698264/trump-wyden-van-hollen-tariffs-politically-connected-companies",
+        "source": "NPR Business",
+        "pubDate": "2026-02-04T11:00:00.000Z",
+        "relevanceScore": 117.71,
+        "tags": [
+          "Regulation"
+        ]
+      },
       {
         "title": "Washington Post says one-third of its staff across all departments is being laid off",
         "link": "https://abcnews.go.com/Business/wireStory/washington-post-staff-departments-laid-off-129848222",
         "source": "ABC News Business",
         "pubDate": "2026-02-04T15:41:49.000Z",
-        "relevanceScore": 41.25,
-        "tags": []
-      },
-      {
-        "title": "'The Washington Post' cuts a third of its staff",
-        "link": "https://www.npr.org/2026/02/04/nx-s1-5699474/the-washington-post-cuts-a-third-of-its-staff",
-        "source": "NPR Business",
-        "pubDate": "2026-02-04T21:48:42.000Z",
-        "relevanceScore": 27.97,
+        "relevanceScore": 102.65,
         "tags": []
       },
       {
@@ -1008,7 +1016,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/syria-signs-landmark-offshore-oil-field-deal-chevron-129848937",
         "source": "ABC News Business",
         "pubDate": "2026-02-04T16:05:28.000Z",
-        "relevanceScore": 24.83,
+        "relevanceScore": 24.72,
         "tags": [
           "Business",
           "Startup",
@@ -1018,26 +1026,26 @@
         ]
       }
     ],
-    "education": [
-      {
-        "title": "Murder arrest after student stabbed near De Montfort University campus",
-        "link": "https://www.bbc.com/news/articles/cx20wdrwv0lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-04T16:46:07.000Z",
-        "relevanceScore": 39.46,
-        "tags": []
-      }
-    ],
     "entertainment": [
       {
         "title": "Netflix and Warner Bros struggle to defend merger",
         "link": "https://www.bbc.com/news/articles/c5ydndkmvy2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-03T23:42:06.000Z",
-        "relevanceScore": 37.55,
+        "relevanceScore": 98.95,
         "tags": [
           "Acquisition"
         ]
+      }
+    ],
+    "education": [
+      {
+        "title": "Murder arrest after student stabbed near De Montfort University campus",
+        "link": "https://www.bbc.com/news/articles/cx20wdrwv0lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-04T16:46:07.000Z",
+        "relevanceScore": 42.86,
+        "tags": []
       }
     ],
     "finance": [
@@ -1046,22 +1054,10 @@
         "link": "https://www.engadget.com/home/smart-home/best-digital-frame-120046051.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-04T20:01:26.000Z",
-        "relevanceScore": 33.11,
+        "relevanceScore": 38.51,
         "tags": [
           "Tech",
           "Business"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Bezos orders deep job cuts at 'Washington Post'",
-        "link": "https://www.npr.org/2026/02/04/nx-s1-5699328/washington-post-layoffs-jobs-bezos",
-        "source": "NPR Business",
-        "pubDate": "2026-02-04T14:19:15.000Z",
-        "relevanceScore": 26.47,
-        "tags": [
-          "Security"
         ]
       }
     ],
@@ -1071,7 +1067,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/health-care-executive-terry-clark-appointed-ceo-pga-129856090",
         "source": "ABC News Business",
         "pubDate": "2026-02-04T18:20:07.000Z",
-        "relevanceScore": 25.28,
+        "relevanceScore": 25.17,
         "tags": []
       },
       {
@@ -1079,7 +1075,7 @@
         "link": "https://arstechnica.com/health/2026/02/trump-admin-is-destroying-medical-research-senate-report-finds/",
         "source": "Ars Technica",
         "pubDate": "2026-02-04T20:02:22.000Z",
-        "relevanceScore": 25.12,
+        "relevanceScore": 25.01,
         "tags": [
           "Science",
           "Report"
@@ -1092,7 +1088,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/02/trump-ghosts-musk-wont-back-claims-sec-lawsuit-was-political-harassment/",
         "source": "Ars Technica",
         "pubDate": "2026-02-04T20:23:47.000Z",
-        "relevanceScore": 25.19,
+        "relevanceScore": 25.09,
         "tags": [
           "Social"
         ]
@@ -1102,9 +1098,21 @@
         "link": "https://www.bbc.com/news/articles/cn0k670n0ydo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-04T06:03:12.000Z",
-        "relevanceScore": 22.82,
+        "relevanceScore": 22.72,
         "tags": [
           "Social"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Generating text with diffusion (and ROI with LLMs)",
+        "link": "https://stackoverflow.blog/2026/02/03/generating-text-with-diffusion-and-roi-with-llms/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-02-03T08:40:00.000Z",
+        "relevanceScore": 16.44,
+        "tags": [
+          "Cloud"
         ]
       }
     ]
@@ -1112,15 +1120,15 @@
   "stats": {
     "totalSources": 13,
     "totalCategories": 14,
-    "avgRelevanceScore": 95.17000000000003,
+    "avgRelevanceScore": 123.8969565217391,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 12
+        "count": 11
       },
       {
         "category": "tech",
-        "count": 9
+        "count": 10
       },
       {
         "category": "general",
