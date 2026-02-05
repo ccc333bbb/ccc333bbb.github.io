@@ -1,14 +1,14 @@
 {
-  "lastUpdated": "2026-02-05T23:00:16.354Z",
+  "lastUpdated": "2026-02-05T23:31:06.640Z",
   "totalArticles": 53,
   "categories": [
-    "ai-ml",
     "development",
-    "tech",
+    "ai-ml",
     "gaming",
     "business",
     "finance",
-    "cybersecurity",
+    "tech",
+    "cloud",
     "blockchain",
     "automotive",
     "social",
@@ -17,17 +17,29 @@
     "climate",
     "general",
     "education",
-    "world"
+    "world",
+    "cybersecurity"
   ],
   "topArticles": [
+    {
+      "title": "Anthropic built a C compiler using a \"team of parallel agents\", has problems compiling hello world.",
+      "link": "https://www.reddit.com/r/programming/comments/1qwzyu4/anthropic_built_a_c_compiler_using_a_team_of/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-02-05T22:34:26.000Z",
+      "relevanceScore": 4514.31,
+      "recommendationScore": 4514.81,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "AI companies want you to stop chatting with bots and start managing them",
       "link": "https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/",
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-02-05T22:47:54.000Z",
-      "relevanceScore": 3564.96,
-      "recommendationScore": 3566.46,
+      "relevanceScore": 3748.36,
+      "recommendationScore": 3749.86,
       "tags": [
         "AI"
       ],
@@ -39,8 +51,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-02-04T17:00:19.000Z",
-      "relevanceScore": 3074.5,
-      "recommendationScore": 3074.5,
+      "relevanceScore": 3235.9,
+      "recommendationScore": 3235.9,
       "tags": [
         "Exclusive",
         "Tutorial",
@@ -49,14 +61,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
-      "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
+      "title": "AWS revenue continues to soar as cloud demand remains high",
+      "link": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
       "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-02-05T20:01:39.000Z",
-      "relevanceScore": 1713.9,
-      "recommendationScore": 1716.4,
-      "tags": [],
+      "category": "ai-ml",
+      "pubDate": "2026-02-05T23:11:37.000Z",
+      "relevanceScore": 1763.94,
+      "recommendationScore": 1764.44,
+      "tags": [
+        "AI",
+        "Cloud"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -65,8 +80,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-05T20:04:58.000Z",
-      "relevanceScore": 1399.42,
-      "recommendationScore": 1401.42,
+      "relevanceScore": 1459.31,
+      "recommendationScore": 1461.31,
       "tags": [
         "Tech"
       ],
@@ -78,8 +93,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-02-05T21:47:06.000Z",
-      "relevanceScore": 1172.76,
-      "recommendationScore": 1173.26,
+      "relevanceScore": 1241.65,
+      "recommendationScore": 1242.15,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -89,8 +104,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-02-05T15:20:37.000Z",
-      "relevanceScore": 1119.97,
-      "recommendationScore": 1119.97,
+      "relevanceScore": 1207.87,
+      "recommendationScore": 1207.87,
       "tags": [
         "AI",
         "Tech",
@@ -104,8 +119,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-05T19:14:44.000Z",
-      "relevanceScore": 1072.25,
-      "recommendationScore": 1072.75,
+      "relevanceScore": 1109.15,
+      "recommendationScore": 1109.65,
       "tags": [
         "Exclusive"
       ],
@@ -117,8 +132,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-02-04T15:00:00.000Z",
-      "relevanceScore": 664.6,
-      "recommendationScore": 665.1,
+      "relevanceScore": 736,
+      "recommendationScore": 736.5,
       "tags": [
         "AI",
         "Tech",
@@ -132,8 +147,8 @@
       "source": "Engadget",
       "category": "finance",
       "pubDate": "2026-02-05T21:42:58.000Z",
-      "relevanceScore": 639.24,
-      "recommendationScore": 639.74,
+      "relevanceScore": 710.64,
+      "recommendationScore": 711.14,
       "tags": [
         "Business"
       ],
@@ -145,8 +160,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-02-04T00:51:14.000Z",
-      "relevanceScore": 614.77,
-      "recommendationScore": 614.77,
+      "relevanceScore": 680.67,
+      "recommendationScore": 680.67,
       "tags": [
         "Tech",
         "Regulation"
@@ -154,15 +169,15 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "How I Compiled 647 Semgrep Rules to Native Rust",
-      "link": "https://dev.to/bumahkib7/how-i-compiled-647-semgrep-rules-to-native-rust-1mk3",
+      "title": "Why the Next AWS Outage Will Cost You More Than the Last One (And What to Do About It)",
+      "link": "https://dev.to/controlplane/why-the-next-aws-outage-will-cost-you-more-than-the-last-one-and-what-to-do-about-it-508j",
       "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2026-02-05T22:31:50.000Z",
-      "relevanceScore": 594.91,
-      "recommendationScore": 596.41,
+      "category": "cloud",
+      "pubDate": "2026-02-05T23:08:37.000Z",
+      "relevanceScore": 668.43,
+      "recommendationScore": 670.43,
       "tags": [
-        "Security"
+        "Cloud"
       ],
       "readingLevel": "intermediate"
     },
@@ -172,9 +187,22 @@
       "source": "The Verge",
       "category": "blockchain",
       "pubDate": "2026-02-05T20:38:01.000Z",
-      "relevanceScore": 390.53,
-      "recommendationScore": 390.53,
+      "relevanceScore": 453.92,
+      "recommendationScore": 453.92,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Roblox is working to pull in adult players",
+      "link": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-02-05T23:14:51.000Z",
+      "relevanceScore": 405.95,
+      "recommendationScore": 405.95,
+      "tags": [
+        "Report"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -183,8 +211,8 @@
       "source": "Reddit World News",
       "category": "automotive",
       "pubDate": "2026-02-05T18:59:55.000Z",
-      "relevanceScore": 352.2,
-      "recommendationScore": 353.7,
+      "relevanceScore": 375.1,
+      "recommendationScore": 376.6,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -194,8 +222,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2026-02-05T17:00:00.000Z",
-      "relevanceScore": 296.8,
-      "recommendationScore": 298.8,
+      "relevanceScore": 352.2,
+      "recommendationScore": 354.2,
       "tags": [
         "AI",
         "Exclusive"
@@ -208,8 +236,8 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2026-02-04T21:06:01.000Z",
-      "relevanceScore": 295.82,
-      "recommendationScore": 298.32,
+      "relevanceScore": 351.22,
+      "recommendationScore": 353.72,
       "tags": [
         "AI",
         "Social"
@@ -217,13 +245,24 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Uniswap V3: When collect() Is More Than “Collect Fees”",
+      "link": "https://dev.to/decoder_man/uniswap-v3-when-collect-is-more-than-collect-fees-5chj",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-02-05T23:11:55.000Z",
+      "relevanceScore": 339.94,
+      "recommendationScore": 340.44,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Researchers say no evidence of TikTok censorship, but they remain wary",
       "link": "https://www.npr.org/2026/02/04/nx-s1-5701409/tiktok-censorship-report-epstein",
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2026-02-04T23:16:02.000Z",
-      "relevanceScore": 295.75,
-      "recommendationScore": 296.25,
+      "relevanceScore": 338.65,
+      "recommendationScore": 339.15,
       "tags": [
         "Social"
       ],
@@ -235,23 +274,10 @@
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2026-02-05T21:40:45.000Z",
-      "relevanceScore": 295.73,
-      "recommendationScore": 296.23,
+      "relevanceScore": 313.63,
+      "recommendationScore": 314.13,
       "tags": [
         "Acquisition"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why AI-Generated Code Will Hurt Both Customers and Companies",
-      "link": "https://www.reddit.com/r/programming/comments/1qwo8ld/why_aigenerated_code_will_hurt_both_customers_and/",
-      "source": "Reddit Programming",
-      "category": "ai-ml",
-      "pubDate": "2026-02-05T15:27:24.000Z",
-      "relevanceScore": 295.49,
-      "recommendationScore": 297.49,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -261,8 +287,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-02-05T19:00:52.000Z",
-      "relevanceScore": 189.7,
-      "recommendationScore": 190.2,
+      "relevanceScore": 274.1,
+      "recommendationScore": 274.6,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -272,8 +298,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-05T22:43:11.000Z",
-      "relevanceScore": 163.94,
-      "recommendationScore": 165.94,
+      "relevanceScore": 234.84,
+      "recommendationScore": 236.84,
       "tags": [
         "AI"
       ],
@@ -285,8 +311,8 @@
       "source": "Reddit Programming",
       "category": "mobile",
       "pubDate": "2026-02-05T16:13:48.000Z",
-      "relevanceScore": 162.15,
-      "recommendationScore": 162.15,
+      "relevanceScore": 218.04,
+      "recommendationScore": 218.04,
       "tags": [
         "Mobile"
       ],
@@ -298,25 +324,12 @@
       "source": "Wired",
       "category": "climate",
       "pubDate": "2026-02-05T18:43:15.000Z",
-      "relevanceScore": 158.14,
-      "recommendationScore": 158.64,
+      "relevanceScore": 204.04,
+      "recommendationScore": 204.54,
       "tags": [
         "Report"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Incremental Content Management with Laravel and Eleventy",
-      "link": "https://dev.to/joshvickerson/incremental-content-management-with-laravel-and-eleventy-3iph",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-05T22:24:34.000Z",
-      "relevanceScore": 156.38,
-      "recommendationScore": 156.88,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "How to watch the 2026 Super Bowl: Patriots vs. Seahawks channel, where to stream, start time, and more",
@@ -324,8 +337,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-05T20:35:35.000Z",
-      "relevanceScore": 155.52,
-      "recommendationScore": 158.02,
+      "relevanceScore": 201.41,
+      "recommendationScore": 203.91,
       "tags": [
         "Tutorial"
       ],
@@ -337,8 +350,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-02-05T22:24:27.000Z",
-      "relevanceScore": 130.88,
-      "recommendationScore": 131.38,
+      "relevanceScore": 182.78,
+      "recommendationScore": 183.28,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -348,44 +361,19 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-05T19:02:01.000Z",
-      "relevanceScore": 61.71,
-      "recommendationScore": 64.21,
+      "relevanceScore": 102.1,
+      "recommendationScore": 104.6,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Download: attempting to track AI, and the next generation of nuclear power",
-      "link": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-02-05T13:10:00.000Z",
-      "relevanceScore": 50.53,
-      "recommendationScore": 51.03,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
-      "link": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2026-02-05T21:00:00.000Z",
-      "relevanceScore": 47.1,
-      "recommendationScore": 47.6,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "One of Europe’s largest universities knocked offline for days after cyberattack",
-      "link": "https://techcrunch.com/2026/02/05/one-of-europes-largest-universities-knocked-offline-for-days-after-cyberattack/",
-      "source": "TechCrunch",
+      "title": "Boy, 15, arrested on suspicion of attempted murder after teacher injured at school",
+      "link": "https://www.bbc.com/news/articles/cy7mrj5k2kdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
       "category": "education",
-      "pubDate": "2026-02-05T19:00:46.000Z",
-      "relevanceScore": 36.7,
-      "recommendationScore": 37.2,
+      "pubDate": "2026-02-05T23:12:35.000Z",
+      "relevanceScore": 59.94,
+      "recommendationScore": 60.44,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -395,36 +383,12 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-02-05T18:19:53.000Z",
-      "relevanceScore": 33.57,
-      "recommendationScore": 34.07,
+      "relevanceScore": 58.46,
+      "recommendationScore": 58.96,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Trump backs Chagos handover deal, says No 10",
-      "link": "https://www.bbc.com/news/articles/c5yx1wedww2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-05T22:02:53.000Z",
-      "relevanceScore": 31.81,
-      "recommendationScore": 31.81,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Boy, 15, arrested on suspicion of attempted murder after teacher injured at school",
-      "link": "https://www.bbc.com/news/articles/cy7mrj5k2kdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "education",
-      "pubDate": "2026-02-05T21:34:03.000Z",
-      "relevanceScore": 31.71,
-      "recommendationScore": 32.21,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Three questions about next-generation nuclear power, answered",
@@ -432,8 +396,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-02-05T11:00:00.000Z",
-      "relevanceScore": 31.6,
-      "recommendationScore": 32.1,
+      "relevanceScore": 56.5,
+      "recommendationScore": 57,
       "tags": [
         "AI",
         "Web"
@@ -441,28 +405,45 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Reddit looks to AI search as its next big opportunity",
+      "link": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-02-05T23:20:27.000Z",
+      "relevanceScore": 55.96,
+      "recommendationScore": 56.46,
+      "tags": [
+        "AI",
+        "Business"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "A16z VC wants founders to stop stressing over insane ARR numbers",
       "link": "https://techcrunch.com/2026/02/05/a16z-vc-wants-founders-to-stop-stressing-over-insane-arr-numbers/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-05T21:28:46.000Z",
-      "relevanceScore": 30.69,
-      "recommendationScore": 32.19,
+      "relevanceScore": 55.59,
+      "recommendationScore": 57.09,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Could this be the beginning of the end for Starmer?",
-      "link": "https://www.bbc.com/news/articles/c338g8n334mo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-05T14:38:21.000Z",
-      "relevanceScore": 30.33,
-      "recommendationScore": 30.83,
-      "tags": [],
-      "readingLevel": "beginner"
+      "title": "The Download: attempting to track AI, and the next generation of nuclear power",
+      "link": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-02-05T13:10:00.000Z",
+      "relevanceScore": 55.43,
+      "recommendationScore": 55.93,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Companies can now claim 'no artificial colors' if they add plant-based color to food",
@@ -470,8 +451,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-05T18:37:55.000Z",
-      "relevanceScore": 28.13,
-      "recommendationScore": 28.63,
+      "relevanceScore": 53.02,
+      "recommendationScore": 53.52,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -481,8 +462,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-05T12:00:58.000Z",
-      "relevanceScore": 27.8,
-      "recommendationScore": 30.3,
+      "relevanceScore": 52.7,
+      "recommendationScore": 55.2,
       "tags": [
         "Science",
         "Report"
@@ -490,26 +471,13 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "The Washington Post is retreating from Silicon Valley when it matters most",
-      "link": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-02-05T21:36:21.000Z",
-      "relevanceScore": 27.72,
-      "recommendationScore": 28.22,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "X's latest Community Notes experiment allows AI to write the first draft",
       "link": "https://www.engadget.com/social-media/xs-latest-community-notes-experiment-allows-ai-to-write-the-first-draft-210605597.html?src=rss",
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-02-05T22:42:11.000Z",
-      "relevanceScore": 26.94,
-      "recommendationScore": 29.44,
+      "relevanceScore": 51.84,
+      "recommendationScore": 54.34,
       "tags": [
         "AI",
         "Exclusive"
@@ -522,74 +490,12 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-02-05T12:36:32.000Z",
-      "relevanceScore": 26.92,
-      "recommendationScore": 27.42,
+      "relevanceScore": 51.82,
+      "recommendationScore": 52.32,
       "tags": [
         "Web"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "The Switch 2 is getting a new Virtual Console (kind of)",
-      "link": "https://arstechnica.com/gaming/2026/02/the-virtual-console-is-sort-of-back-on-the-switch-2/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-05T22:14:34.000Z",
-      "relevanceScore": 25.85,
-      "recommendationScore": 28.35,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
-      "link": "https://www.theverge.com/report/874176/meta-zuckerberg-new-mexico-email-teen-girls-research",
-      "source": "The Verge",
-      "category": "social",
-      "pubDate": "2026-02-05T19:10:35.000Z",
-      "relevanceScore": 25.73,
-      "recommendationScore": 27.73,
-      "tags": [
-        "Science",
-        "Social",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Loyalty Is Dead in Silicon Valley",
-      "link": "https://www.wired.com/story/model-behavior-loyalty-is-dead-in-silicon-valley/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-02-05T21:33:11.000Z",
-      "relevanceScore": 25.71,
-      "recommendationScore": 25.71,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "\"ICE Out of Our Faces Act\" would ban ICE and CBP use of facial recognition",
-      "link": "https://arstechnica.com/tech-policy/2026/02/ice-out-of-our-faces-act-would-ban-ice-and-cbp-use-of-facial-recognition/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-05T20:54:50.000Z",
-      "relevanceScore": 25.58,
-      "recommendationScore": 26.08,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "ICE and CBP’s Face-Recognition App Can’t Actually Verify Who People Are",
-      "link": "https://www.wired.com/story/cbp-ice-dhs-mobile-fortify-face-recognition-verify-identity/",
-      "source": "Wired",
-      "category": "mobile",
-      "pubDate": "2026-02-05T20:28:34.000Z",
-      "relevanceScore": 25.49,
-      "recommendationScore": 25.99,
-      "tags": [
-        "Security",
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "US launches plan to tackle China's critical minerals dominance",
@@ -597,22 +503,9 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-05T03:33:48.000Z",
-      "relevanceScore": 25.11,
-      "recommendationScore": 27.61,
+      "relevanceScore": 50.01,
+      "recommendationScore": 52.51,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Copilot SDK for Java 1.0.7: Session Lifecycle Hooks and Enhanced Observability",
-      "link": "https://dev.to/brunoborges/copilot-sdk-for-java-107-session-lifecycle-hooks-and-enhanced-observability-4kmi",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-05T22:49:26.000Z",
-      "relevanceScore": 24.96,
-      "recommendationScore": 25.46,
-      "tags": [
-        "Launch"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -621,9 +514,33 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-02-05T04:02:40.000Z",
-      "relevanceScore": 23.21,
-      "recommendationScore": 25.71,
+      "relevanceScore": 48.11,
+      "recommendationScore": 50.61,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Iron Lung’s path to theaters was unique, even if the movie isn’t",
+      "link": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2026-02-05T21:00:00.000Z",
+      "relevanceScore": 47.5,
+      "recommendationScore": 48,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Netflix and Warner Bros struggle to defend merger",
+      "link": "https://www.bbc.com/news/articles/c5ydndkmvy2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "entertainment",
+      "pubDate": "2026-02-03T23:42:06.000Z",
+      "relevanceScore": 43.94,
+      "recommendationScore": 43.94,
+      "tags": [
+        "Acquisition"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -632,8 +549,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-02-05T21:43:29.000Z",
-      "relevanceScore": 21.74,
-      "recommendationScore": 22.24,
+      "relevanceScore": 34.14,
+      "recommendationScore": 34.64,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -643,24 +560,159 @@
       "source": "NPR Business",
       "category": "cybersecurity",
       "pubDate": "2026-02-04T14:19:15.000Z",
-      "relevanceScore": 21.46,
-      "recommendationScore": 21.46,
+      "relevanceScore": 33.86,
+      "recommendationScore": 33.86,
       "tags": [
         "Security"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump backs Chagos handover deal, says No 10",
+      "link": "https://www.bbc.com/news/articles/c5yx1wedww2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-05T22:02:53.000Z",
+      "relevanceScore": 31.71,
+      "recommendationScore": 31.71,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Could this be the beginning of the end for Starmer?",
+      "link": "https://www.bbc.com/news/articles/c338g8n334mo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-05T14:38:21.000Z",
+      "relevanceScore": 30.22,
+      "recommendationScore": 30.72,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The Washington Post is retreating from Silicon Valley when it matters most",
+      "link": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-02-05T21:36:21.000Z",
+      "relevanceScore": 27.62,
+      "recommendationScore": 28.12,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Switch 2 is getting a new Virtual Console (kind of)",
+      "link": "https://arstechnica.com/gaming/2026/02/the-virtual-console-is-sort-of-back-on-the-switch-2/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-05T22:14:34.000Z",
+      "relevanceScore": 25.74,
+      "recommendationScore": 28.24,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Loyalty Is Dead in Silicon Valley",
+      "link": "https://www.wired.com/story/model-behavior-loyalty-is-dead-in-silicon-valley/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-02-05T21:33:11.000Z",
+      "relevanceScore": 25.61,
+      "recommendationScore": 25.61,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "\"ICE Out of Our Faces Act\" would ban ICE and CBP use of facial recognition",
+      "link": "https://arstechnica.com/tech-policy/2026/02/ice-out-of-our-faces-act-would-ban-ice-and-cbp-use-of-facial-recognition/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-05T20:54:50.000Z",
+      "relevanceScore": 25.48,
+      "recommendationScore": 25.98,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "ICE and CBP’s Face-Recognition App Can’t Actually Verify Who People Are",
+      "link": "https://www.wired.com/story/cbp-ice-dhs-mobile-fortify-face-recognition-verify-identity/",
+      "source": "Wired",
+      "category": "mobile",
+      "pubDate": "2026-02-05T20:28:34.000Z",
+      "relevanceScore": 25.39,
+      "recommendationScore": 25.89,
+      "tags": [
+        "Security",
+        "Mobile"
       ],
       "readingLevel": "intermediate"
     }
   ],
   "categoryIndex": {
+    "development": [
+      {
+        "title": "Anthropic built a C compiler using a \"team of parallel agents\", has problems compiling hello world.",
+        "link": "https://www.reddit.com/r/programming/comments/1qwzyu4/anthropic_built_a_c_compiler_using_a_team_of/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-02-05T22:34:26.000Z",
+        "relevanceScore": 4514.31,
+        "tags": []
+      },
+      {
+        "title": "Pick your agent: Use Claude and Codex on Agent HQ",
+        "link": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-02-04T17:00:19.000Z",
+        "relevanceScore": 3235.9,
+        "tags": [
+          "Exclusive",
+          "Tutorial",
+          "IPO"
+        ]
+      },
+      {
+        "title": "Uniswap V3: When collect() Is More Than “Collect Fees”",
+        "link": "https://dev.to/decoder_man/uniswap-v3-when-collect-is-more-than-collect-fees-5chj",
+        "source": "Dev.to",
+        "pubDate": "2026-02-05T23:11:55.000Z",
+        "relevanceScore": 339.94,
+        "tags": []
+      },
+      {
+        "title": "Copilot SDK for Java 1.0.7: Session Lifecycle Hooks and Enhanced Observability",
+        "link": "https://dev.to/brunoborges/copilot-sdk-for-java-107-session-lifecycle-hooks-and-enhanced-observability-4kmi",
+        "source": "Dev.to",
+        "pubDate": "2026-02-05T22:49:26.000Z",
+        "relevanceScore": 24.86,
+        "tags": [
+          "Launch"
+        ]
+      }
+    ],
     "ai-ml": [
       {
         "title": "AI companies want you to stop chatting with bots and start managing them",
         "link": "https://arstechnica.com/information-technology/2026/02/ai-companies-want-you-to-stop-chatting-with-bots-and-start-managing-them/",
         "source": "Ars Technica",
         "pubDate": "2026-02-05T22:47:54.000Z",
-        "relevanceScore": 3564.96,
+        "relevanceScore": 3748.36,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "AWS revenue continues to soar as cloud demand remains high",
+        "link": "https://techcrunch.com/2026/02/05/aws-revenue-continues-to-soar-as-cloud-demand-remains-high/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-05T23:11:37.000Z",
+        "relevanceScore": 1763.94,
+        "tags": [
+          "AI",
+          "Cloud"
         ]
       },
       {
@@ -668,7 +720,7 @@
         "link": "https://arstechnica.com/ai/2026/02/with-gpt-5-3-codex-openai-pitches-codex-for-more-than-just-writing-code/",
         "source": "Ars Technica",
         "pubDate": "2026-02-05T21:47:06.000Z",
-        "relevanceScore": 1172.76,
+        "relevanceScore": 1241.65,
         "tags": []
       },
       {
@@ -676,7 +728,7 @@
         "link": "https://www.technologyreview.com/2026/02/05/1132200/consolidating-systems-for-ai-with-ipaas/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-05T15:20:37.000Z",
-        "relevanceScore": 1119.97,
+        "relevanceScore": 1207.87,
         "tags": [
           "AI",
           "Tech",
@@ -688,7 +740,7 @@
         "link": "https://stackoverflow.blog/2026/02/04/code-smells-for-ai-agents-q-and-a-with-eno-reyes-of-factory/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-02-04T15:00:00.000Z",
-        "relevanceScore": 664.6,
+        "relevanceScore": 736,
         "tags": [
           "AI",
           "Tech",
@@ -700,7 +752,7 @@
         "link": "https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/",
         "source": "GitHub Blog",
         "pubDate": "2026-02-05T17:00:00.000Z",
-        "relevanceScore": 296.8,
+        "relevanceScore": 352.2,
         "tags": [
           "AI",
           "Exclusive"
@@ -711,20 +763,10 @@
         "link": "https://www.npr.org/2026/02/04/nx-s1-5697392/moltbook-social-media-ai-agents",
         "source": "NPR Business",
         "pubDate": "2026-02-04T21:06:01.000Z",
-        "relevanceScore": 295.82,
+        "relevanceScore": 351.22,
         "tags": [
           "AI",
           "Social"
-        ]
-      },
-      {
-        "title": "Why AI-Generated Code Will Hurt Both Customers and Companies",
-        "link": "https://www.reddit.com/r/programming/comments/1qwo8ld/why_aigenerated_code_will_hurt_both_customers_and/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-02-05T15:27:24.000Z",
-        "relevanceScore": 295.49,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -732,7 +774,39 @@
         "link": "https://techcrunch.com/2026/02/05/amazon-and-google-are-winning-the-ai-capex-race-but-whats-the-prize/",
         "source": "TechCrunch",
         "pubDate": "2026-02-05T22:43:11.000Z",
-        "relevanceScore": 163.94,
+        "relevanceScore": 234.84,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Three questions about next-generation nuclear power, answered",
+        "link": "https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-02-05T11:00:00.000Z",
+        "relevanceScore": 56.5,
+        "tags": [
+          "AI",
+          "Web"
+        ]
+      },
+      {
+        "title": "Reddit looks to AI search as its next big opportunity",
+        "link": "https://techcrunch.com/2026/02/05/reddit-looks-to-ai-search-as-its-next-big-opportunity/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-05T23:20:27.000Z",
+        "relevanceScore": 55.96,
+        "tags": [
+          "AI",
+          "Business"
+        ]
+      },
+      {
+        "title": "A16z VC wants founders to stop stressing over insane ARR numbers",
+        "link": "https://techcrunch.com/2026/02/05/a16z-vc-wants-founders-to-stop-stressing-over-insane-arr-numbers/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-05T21:28:46.000Z",
+        "relevanceScore": 55.59,
         "tags": [
           "AI"
         ]
@@ -742,31 +816,10 @@
         "link": "https://www.technologyreview.com/2026/02/05/1132270/the-download-attempting-to-track-ai-and-the-next-generation-of-nuclear-power/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-05T13:10:00.000Z",
-        "relevanceScore": 50.53,
+        "relevanceScore": 55.43,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Three questions about next-generation nuclear power, answered",
-        "link": "https://www.technologyreview.com/2026/02/05/1132197/nuclear-questions/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-02-05T11:00:00.000Z",
-        "relevanceScore": 31.6,
-        "tags": [
-          "AI",
-          "Web"
-        ]
-      },
-      {
-        "title": "A16z VC wants founders to stop stressing over insane ARR numbers",
-        "link": "https://techcrunch.com/2026/02/05/a16z-vc-wants-founders-to-stop-stressing-over-insane-arr-numbers/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-05T21:28:46.000Z",
-        "relevanceScore": 30.69,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -774,7 +827,7 @@
         "link": "https://www.engadget.com/social-media/xs-latest-community-notes-experiment-allows-ai-to-write-the-first-draft-210605597.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-05T22:42:11.000Z",
-        "relevanceScore": 26.94,
+        "relevanceScore": 51.84,
         "tags": [
           "AI",
           "Exclusive"
@@ -785,134 +838,10 @@
         "link": "https://www.bbc.com/news/articles/ce3edyx74jko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-05T12:36:32.000Z",
-        "relevanceScore": 26.92,
+        "relevanceScore": 51.82,
         "tags": [
           "Web"
         ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Pick your agent: Use Claude and Codex on Agent HQ",
-        "link": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-02-04T17:00:19.000Z",
-        "relevanceScore": 3074.5,
-        "tags": [
-          "Exclusive",
-          "Tutorial",
-          "IPO"
-        ]
-      },
-      {
-        "title": "Incremental Content Management with Laravel and Eleventy",
-        "link": "https://dev.to/joshvickerson/incremental-content-management-with-laravel-and-eleventy-3iph",
-        "source": "Dev.to",
-        "pubDate": "2026-02-05T22:24:34.000Z",
-        "relevanceScore": 156.38,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Copilot SDK for Java 1.0.7: Session Lifecycle Hooks and Enhanced Observability",
-        "link": "https://dev.to/brunoborges/copilot-sdk-for-java-107-session-lifecycle-hooks-and-enhanced-observability-4kmi",
-        "source": "Dev.to",
-        "pubDate": "2026-02-05T22:49:26.000Z",
-        "relevanceScore": 24.96,
-        "tags": [
-          "Launch"
-        ]
-      }
-    ],
-    "tech": [
-      {
-        "title": "OpenAI launches new agentic coding model only minutes after Anthropic drops its own",
-        "link": "https://techcrunch.com/2026/02/05/openai-launches-new-agentic-coding-model-only-minutes-after-anthropic-drops-its-own/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-05T20:01:39.000Z",
-        "relevanceScore": 1713.9,
-        "tags": []
-      },
-      {
-        "title": "Hi! We're 404 Media's Jason Koebler and Joseph Cox. AMA (us) about the tech ICE is using, Flock and the state of surveillance in the US on Feb. 4, 12 pm ET",
-        "link": "https://www.reddit.com/r/technology/comments/1qv9y8j/hi_were_404_medias_jason_koebler_and_joseph_cox/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-02-04T00:51:14.000Z",
-        "relevanceScore": 614.77,
-        "tags": [
-          "Tech",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "9 Great Deals on WIRED-Approved Valentine’s Day Gifts (2026)",
-        "link": "https://www.wired.com/story/valentines-day-deals-2026/",
-        "source": "Wired",
-        "pubDate": "2026-02-05T19:00:52.000Z",
-        "relevanceScore": 189.7,
-        "tags": []
-      },
-      {
-        "title": "UK's £8bn research fund faces 'hard decisions' as it pauses new grants",
-        "link": "https://www.bbc.com/news/articles/c8e50x1r237o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-05T12:00:58.000Z",
-        "relevanceScore": 27.8,
-        "tags": [
-          "Science",
-          "Report"
-        ]
-      },
-      {
-        "title": "The Washington Post is retreating from Silicon Valley when it matters most",
-        "link": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-05T21:36:21.000Z",
-        "relevanceScore": 27.72,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "The Switch 2 is getting a new Virtual Console (kind of)",
-        "link": "https://arstechnica.com/gaming/2026/02/the-virtual-console-is-sort-of-back-on-the-switch-2/",
-        "source": "Ars Technica",
-        "pubDate": "2026-02-05T22:14:34.000Z",
-        "relevanceScore": 25.85,
-        "tags": []
-      },
-      {
-        "title": "Loyalty Is Dead in Silicon Valley",
-        "link": "https://www.wired.com/story/model-behavior-loyalty-is-dead-in-silicon-valley/",
-        "source": "Wired",
-        "pubDate": "2026-02-05T21:33:11.000Z",
-        "relevanceScore": 25.71,
-        "tags": []
-      },
-      {
-        "title": "\"ICE Out of Our Faces Act\" would ban ICE and CBP use of facial recognition",
-        "link": "https://arstechnica.com/tech-policy/2026/02/ice-out-of-our-faces-act-would-ban-ice-and-cbp-use-of-facial-recognition/",
-        "source": "Ars Technica",
-        "pubDate": "2026-02-05T20:54:50.000Z",
-        "relevanceScore": 25.58,
-        "tags": []
-      },
-      {
-        "title": "US launches plan to tackle China's critical minerals dominance",
-        "link": "https://www.bbc.com/news/articles/c5y41r5rzrno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-05T03:33:48.000Z",
-        "relevanceScore": 25.11,
-        "tags": []
-      },
-      {
-        "title": "U.S. Dealers In Full Panic Mode After Canada Green-Lights Chinese Cars",
-        "link": "https://www.reddit.com/r/technology/comments/1qwyn4b/us_dealers_in_full_panic_mode_after_canada/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-02-05T21:43:29.000Z",
-        "relevanceScore": 21.74,
-        "tags": []
       }
     ],
     "gaming": [
@@ -921,7 +850,7 @@
         "link": "https://www.engadget.com/gaming/pc/everything-we-know-about-valves-new-steam-machine-200458817.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-05T20:04:58.000Z",
-        "relevanceScore": 1399.42,
+        "relevanceScore": 1459.31,
         "tags": [
           "Tech"
         ]
@@ -931,7 +860,7 @@
         "link": "https://www.engadget.com/entertainment/streaming/how-to-watch-the-2026-super-bowl-patriots-vs-seahawks-channel-where-to-stream-start-time-and-more-175759112.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-05T20:35:35.000Z",
-        "relevanceScore": 155.52,
+        "relevanceScore": 201.41,
         "tags": [
           "Tutorial"
         ]
@@ -943,7 +872,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/pizza-hut-closing-250-us-stores-parent-company-129892214",
         "source": "ABC News Business",
         "pubDate": "2026-02-05T19:14:44.000Z",
-        "relevanceScore": 1072.25,
+        "relevanceScore": 1109.15,
         "tags": [
           "Exclusive"
         ]
@@ -953,7 +882,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/hims-launches-copy-wegovy-pill-prompting-legal-threats-129891496",
         "source": "ABC News Business",
         "pubDate": "2026-02-05T19:02:01.000Z",
-        "relevanceScore": 61.71,
+        "relevanceScore": 102.1,
         "tags": []
       },
       {
@@ -961,7 +890,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/companies-now-claim-artificial-colors-add-plant-based-129891050",
         "source": "ABC News Business",
         "pubDate": "2026-02-05T18:37:55.000Z",
-        "relevanceScore": 28.13,
+        "relevanceScore": 53.02,
         "tags": []
       }
     ],
@@ -971,31 +900,113 @@
         "link": "https://www.engadget.com/cybersecurity/vpn/nordvpn-review-2025-innovative-features-a-few-missteps-163000578.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-05T21:42:58.000Z",
-        "relevanceScore": 639.24,
+        "relevanceScore": 710.64,
         "tags": [
           "Business"
         ]
       }
     ],
-    "cybersecurity": [
+    "tech": [
       {
-        "title": "How I Compiled 647 Semgrep Rules to Native Rust",
-        "link": "https://dev.to/bumahkib7/how-i-compiled-647-semgrep-rules-to-native-rust-1mk3",
-        "source": "Dev.to",
-        "pubDate": "2026-02-05T22:31:50.000Z",
-        "relevanceScore": 594.91,
+        "title": "Hi! We're 404 Media's Jason Koebler and Joseph Cox. AMA (us) about the tech ICE is using, Flock and the state of surveillance in the US on Feb. 4, 12 pm ET",
+        "link": "https://www.reddit.com/r/technology/comments/1qv9y8j/hi_were_404_medias_jason_koebler_and_joseph_cox/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-02-04T00:51:14.000Z",
+        "relevanceScore": 680.67,
         "tags": [
-          "Security"
+          "Tech",
+          "Regulation"
         ]
       },
       {
-        "title": "Bezos orders deep job cuts at 'Washington Post'",
-        "link": "https://www.npr.org/2026/02/04/nx-s1-5699328/washington-post-layoffs-jobs-bezos",
-        "source": "NPR Business",
-        "pubDate": "2026-02-04T14:19:15.000Z",
-        "relevanceScore": 21.46,
+        "title": "Roblox is working to pull in adult players",
+        "link": "https://www.theverge.com/games/874675/roblox-earnings-q4-2025-increasing-adult-players",
+        "source": "The Verge",
+        "pubDate": "2026-02-05T23:14:51.000Z",
+        "relevanceScore": 405.95,
         "tags": [
-          "Security"
+          "Report"
+        ]
+      },
+      {
+        "title": "9 Great Deals on WIRED-Approved Valentine’s Day Gifts (2026)",
+        "link": "https://www.wired.com/story/valentines-day-deals-2026/",
+        "source": "Wired",
+        "pubDate": "2026-02-05T19:00:52.000Z",
+        "relevanceScore": 274.1,
+        "tags": []
+      },
+      {
+        "title": "UK's £8bn research fund faces 'hard decisions' as it pauses new grants",
+        "link": "https://www.bbc.com/news/articles/c8e50x1r237o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-02-05T12:00:58.000Z",
+        "relevanceScore": 52.7,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      },
+      {
+        "title": "US launches plan to tackle China's critical minerals dominance",
+        "link": "https://www.bbc.com/news/articles/c5y41r5rzrno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-02-05T03:33:48.000Z",
+        "relevanceScore": 50.01,
+        "tags": []
+      },
+      {
+        "title": "U.S. Dealers In Full Panic Mode After Canada Green-Lights Chinese Cars",
+        "link": "https://www.reddit.com/r/technology/comments/1qwyn4b/us_dealers_in_full_panic_mode_after_canada/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-02-05T21:43:29.000Z",
+        "relevanceScore": 34.14,
+        "tags": []
+      },
+      {
+        "title": "The Washington Post is retreating from Silicon Valley when it matters most",
+        "link": "https://techcrunch.com/2026/02/05/the-washington-post-is-retreating-from-silicon-valley-when-it-matters-most/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-05T21:36:21.000Z",
+        "relevanceScore": 27.62,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "The Switch 2 is getting a new Virtual Console (kind of)",
+        "link": "https://arstechnica.com/gaming/2026/02/the-virtual-console-is-sort-of-back-on-the-switch-2/",
+        "source": "Ars Technica",
+        "pubDate": "2026-02-05T22:14:34.000Z",
+        "relevanceScore": 25.74,
+        "tags": []
+      },
+      {
+        "title": "Loyalty Is Dead in Silicon Valley",
+        "link": "https://www.wired.com/story/model-behavior-loyalty-is-dead-in-silicon-valley/",
+        "source": "Wired",
+        "pubDate": "2026-02-05T21:33:11.000Z",
+        "relevanceScore": 25.61,
+        "tags": []
+      },
+      {
+        "title": "\"ICE Out of Our Faces Act\" would ban ICE and CBP use of facial recognition",
+        "link": "https://arstechnica.com/tech-policy/2026/02/ice-out-of-our-faces-act-would-ban-ice-and-cbp-use-of-facial-recognition/",
+        "source": "Ars Technica",
+        "pubDate": "2026-02-05T20:54:50.000Z",
+        "relevanceScore": 25.48,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Why the Next AWS Outage Will Cost You More Than the Last One (And What to Do About It)",
+        "link": "https://dev.to/controlplane/why-the-next-aws-outage-will-cost-you-more-than-the-last-one-and-what-to-do-about-it-508j",
+        "source": "Dev.to",
+        "pubDate": "2026-02-05T23:08:37.000Z",
+        "relevanceScore": 668.43,
+        "tags": [
+          "Cloud"
         ]
       }
     ],
@@ -1005,7 +1016,7 @@
         "link": "https://www.theverge.com/tech/874603/bitcoin-price-drop-cryptocurrency",
         "source": "The Verge",
         "pubDate": "2026-02-05T20:38:01.000Z",
-        "relevanceScore": 390.53,
+        "relevanceScore": 453.92,
         "tags": []
       }
     ],
@@ -1015,7 +1026,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qwu50d/volkswagen_overtook_tesla_as_europes_top_ev/",
         "source": "Reddit World News",
         "pubDate": "2026-02-05T18:59:55.000Z",
-        "relevanceScore": 352.2,
+        "relevanceScore": 375.1,
         "tags": []
       },
       {
@@ -1023,7 +1034,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1qwj9s9/trapped_tesla_drivers_911_call_its_on_fire_help/",
         "source": "Reddit Technology",
         "pubDate": "2026-02-05T11:52:38.000Z",
-        "relevanceScore": 19.77,
+        "relevanceScore": 19.67,
         "tags": []
       }
     ],
@@ -1033,21 +1044,9 @@
         "link": "https://www.npr.org/2026/02/04/nx-s1-5701409/tiktok-censorship-report-epstein",
         "source": "NPR Business",
         "pubDate": "2026-02-04T23:16:02.000Z",
-        "relevanceScore": 295.75,
+        "relevanceScore": 338.65,
         "tags": [
           "Social"
-        ]
-      },
-      {
-        "title": "Zuckerberg considered changing how Meta studies social issues after research got it in trouble",
-        "link": "https://www.theverge.com/report/874176/meta-zuckerberg-new-mexico-email-teen-girls-research",
-        "source": "The Verge",
-        "pubDate": "2026-02-05T19:10:35.000Z",
-        "relevanceScore": 25.73,
-        "tags": [
-          "Science",
-          "Social",
-          "Report"
         ]
       }
     ],
@@ -1057,7 +1056,7 @@
         "link": "https://www.theverge.com/streaming/874655/netflix-warner-bros-republican-culture-war-ted-sarandos-hearing",
         "source": "The Verge",
         "pubDate": "2026-02-05T21:40:45.000Z",
-        "relevanceScore": 295.73,
+        "relevanceScore": 313.63,
         "tags": [
           "Acquisition"
         ]
@@ -1067,7 +1066,7 @@
         "link": "https://www.theverge.com/entertainment/874500/iron-lung-theater-box-office-markiplier",
         "source": "The Verge",
         "pubDate": "2026-02-05T21:00:00.000Z",
-        "relevanceScore": 47.1,
+        "relevanceScore": 47.5,
         "tags": []
       },
       {
@@ -1075,7 +1074,7 @@
         "link": "https://www.bbc.com/news/articles/c5ydndkmvy2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-03T23:42:06.000Z",
-        "relevanceScore": 19.04,
+        "relevanceScore": 43.94,
         "tags": [
           "Acquisition"
         ]
@@ -1087,7 +1086,7 @@
         "link": "https://www.reddit.com/r/programming/comments/1qwpi5i/postman_from_api_client_to_everything_app/",
         "source": "Reddit Programming",
         "pubDate": "2026-02-05T16:13:48.000Z",
-        "relevanceScore": 162.15,
+        "relevanceScore": 218.04,
         "tags": [
           "Mobile"
         ]
@@ -1097,7 +1096,7 @@
         "link": "https://www.wired.com/story/cbp-ice-dhs-mobile-fortify-face-recognition-verify-identity/",
         "source": "Wired",
         "pubDate": "2026-02-05T20:28:34.000Z",
-        "relevanceScore": 25.49,
+        "relevanceScore": 25.39,
         "tags": [
           "Security",
           "Mobile"
@@ -1110,7 +1109,7 @@
         "link": "https://www.wired.com/story/winter-olympics-2026-impacts-snow/",
         "source": "Wired",
         "pubDate": "2026-02-05T18:43:15.000Z",
-        "relevanceScore": 158.14,
+        "relevanceScore": 204.04,
         "tags": [
           "Report"
         ]
@@ -1122,7 +1121,7 @@
         "link": "https://www.bbc.com/news/articles/cp37v4kyv3eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-05T22:24:27.000Z",
-        "relevanceScore": 130.88,
+        "relevanceScore": 182.78,
         "tags": []
       },
       {
@@ -1130,7 +1129,7 @@
         "link": "https://www.bbc.com/news/articles/cn40ev200yjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-05T18:19:53.000Z",
-        "relevanceScore": 33.57,
+        "relevanceScore": 58.46,
         "tags": [
           "Exclusive"
         ]
@@ -1140,7 +1139,7 @@
         "link": "https://www.bbc.com/news/articles/c5yx1wedww2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-05T22:02:53.000Z",
-        "relevanceScore": 31.81,
+        "relevanceScore": 31.71,
         "tags": [
           "Partnership"
         ]
@@ -1150,25 +1149,17 @@
         "link": "https://www.bbc.com/news/articles/c338g8n334mo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-05T14:38:21.000Z",
-        "relevanceScore": 30.33,
+        "relevanceScore": 30.22,
         "tags": []
       }
     ],
     "education": [
       {
-        "title": "One of Europe’s largest universities knocked offline for days after cyberattack",
-        "link": "https://techcrunch.com/2026/02/05/one-of-europes-largest-universities-knocked-offline-for-days-after-cyberattack/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-05T19:00:46.000Z",
-        "relevanceScore": 36.7,
-        "tags": []
-      },
-      {
         "title": "Boy, 15, arrested on suspicion of attempted murder after teacher injured at school",
         "link": "https://www.bbc.com/news/articles/cy7mrj5k2kdo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-02-05T21:34:03.000Z",
-        "relevanceScore": 31.71,
+        "pubDate": "2026-02-05T23:12:35.000Z",
+        "relevanceScore": 59.94,
         "tags": []
       }
     ],
@@ -1178,7 +1169,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qwayrd/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-02-05T04:02:40.000Z",
-        "relevanceScore": 23.21,
+        "relevanceScore": 48.11,
         "tags": []
       },
       {
@@ -1186,31 +1177,43 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qwg2yz/mount_fuji_cherry_blossom_festival_cancelled_over/",
         "source": "Reddit World News",
         "pubDate": "2026-02-05T08:43:32.000Z",
-        "relevanceScore": 20.64,
+        "relevanceScore": 20.54,
         "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Bezos orders deep job cuts at 'Washington Post'",
+        "link": "https://www.npr.org/2026/02/04/nx-s1-5699328/washington-post-layoffs-jobs-bezos",
+        "source": "NPR Business",
+        "pubDate": "2026-02-04T14:19:15.000Z",
+        "relevanceScore": 33.86,
+        "tags": [
+          "Security"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 16,
-    "totalCategories": 16,
-    "avgRelevanceScore": 373.5445283018868,
+    "totalCategories": 17,
+    "avgRelevanceScore": 499.8077358490565,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 13
+        "count": 14
       },
       {
         "category": "tech",
         "count": 10
       },
       {
-        "category": "general",
+        "category": "development",
         "count": 4
       },
       {
-        "category": "development",
-        "count": 3
+        "category": "general",
+        "count": 4
       },
       {
         "category": "business",
