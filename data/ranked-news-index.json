@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-02-07T14:03:15.496Z",
+  "lastUpdated": "2026-02-07T14:43:28.935Z",
   "totalArticles": 50,
   "categories": [
     "tech",
     "finance",
-    "development",
     "mobile",
+    "cloud",
     "ai-ml",
     "gaming",
     "science",
     "world",
     "general",
     "business",
-    "education",
     "social",
-    "startup",
     "health",
-    "blockchain"
+    "startup",
+    "blockchain",
+    "development"
   ],
   "topArticles": [
     {
@@ -25,8 +25,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-07T13:00:00.000Z",
-      "relevanceScore": 2184.79,
-      "recommendationScore": 2185.79,
+      "relevanceScore": 2135.66,
+      "recommendationScore": 2136.66,
       "tags": [
         "Tutorial"
       ],
@@ -38,25 +38,12 @@
       "source": "TechCrunch",
       "category": "finance",
       "pubDate": "2026-02-07T00:06:23.000Z",
-      "relevanceScore": 2139.21,
-      "recommendationScore": 2142.21,
+      "relevanceScore": 2038.58,
+      "recommendationScore": 2041.58,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "7 Git Commands That Make You Look Like a Wizard",
-      "link": "https://dev.to/kirill_tolmachev/7-git-commands-that-make-you-look-like-a-wizard-30h",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-07T14:00:00.000Z",
-      "relevanceScore": 2057.99,
-      "recommendationScore": 2057.99,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "How to track your sleep and view your sleep data in Apple Health",
@@ -64,12 +51,25 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-02-07T13:00:00.000Z",
-      "relevanceScore": 1811.79,
-      "recommendationScore": 1813.79,
+      "relevanceScore": 1876.66,
+      "recommendationScore": 1878.66,
       "tags": [
         "Mobile",
         "Analysis",
         "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AWS Networking Fundamentals",
+      "link": "https://dev.to/cmwokocha/aws-networking-fundamentals-kcf",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-02-07T14:39:25.000Z",
+      "relevanceScore": 1804.49,
+      "recommendationScore": 1804.49,
+      "tags": [
+        "Cloud"
       ],
       "readingLevel": "advanced"
     },
@@ -79,8 +79,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-02-06T21:32:44.000Z",
-      "relevanceScore": 1412.7,
-      "recommendationScore": 1412.7,
+      "relevanceScore": 1508.56,
+      "recommendationScore": 1508.56,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -90,9 +90,22 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-07T12:34:00.000Z",
-      "relevanceScore": 1375.7,
-      "recommendationScore": 1376.2,
+      "relevanceScore": 1486.57,
+      "recommendationScore": 1487.07,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Argophor: A Developer-Friendly Linux App Detection & Installation Toolkit",
+      "link": "https://dev.to/hejhdiss/argophor-a-developer-friendly-linux-app-detection-installation-toolkit-2gnk",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-02-07T14:31:13.000Z",
+      "relevanceScore": 1444.46,
+      "recommendationScore": 1444.96,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -101,8 +114,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-06T22:43:22.000Z",
-      "relevanceScore": 1106.93,
-      "recommendationScore": 1107.43,
+      "relevanceScore": 1197.8,
+      "recommendationScore": 1198.3,
       "tags": [
         "AI",
         "Exclusive"
@@ -115,8 +128,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-02-06T13:10:00.000Z",
-      "relevanceScore": 1011.02,
-      "recommendationScore": 1011.52,
+      "relevanceScore": 1042.89,
+      "recommendationScore": 1043.39,
       "tags": [
         "Tech"
       ],
@@ -128,21 +141,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-02-07T04:02:28.000Z",
-      "relevanceScore": 1008,
-      "recommendationScore": 1010.5,
+      "relevanceScore": 1039.86,
+      "recommendationScore": 1042.36,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Baldur's Gate to be turned into TV series - without the game's developers",
-      "link": "https://www.bbc.com/news/articles/c24g457y534o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "gaming",
-      "pubDate": "2026-02-06T16:26:08.000Z",
-      "relevanceScore": 969.68,
-      "recommendationScore": 970.18,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "The Technologies Changing How You’ll Watch the 2026 Winter Olympic Games",
@@ -150,23 +152,10 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-02-07T12:00:00.000Z",
-      "relevanceScore": 965.59,
-      "recommendationScore": 967.59,
+      "relevanceScore": 1027.96,
+      "recommendationScore": 1029.96,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Penisgate erupts at Olympics; scandal exposes risks of bulking your bulge",
-      "link": "https://arstechnica.com/health/2026/02/penisgate-erupts-at-olympics-scandal-exposes-risks-of-bulking-your-budge/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-06T23:08:42.000Z",
-      "relevanceScore": 924.02,
-      "recommendationScore": 924.52,
-      "tags": [
-        "Controversy"
       ],
       "readingLevel": "advanced"
     },
@@ -176,11 +165,35 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2026-02-05T17:00:00.000Z",
-      "relevanceScore": 923.99,
-      "recommendationScore": 925.99,
+      "relevanceScore": 1020.36,
+      "recommendationScore": 1022.36,
       "tags": [
         "AI",
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Baldur's Gate to be turned into TV series - without the game's developers",
+      "link": "https://www.bbc.com/news/articles/c24g457y534o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "gaming",
+      "pubDate": "2026-02-06T16:26:08.000Z",
+      "relevanceScore": 1013.04,
+      "recommendationScore": 1013.54,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Penisgate erupts at Olympics; scandal exposes risks of bulking your bulge",
+      "link": "https://arstechnica.com/health/2026/02/penisgate-erupts-at-olympics-scandal-exposes-risks-of-bulking-your-budge/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-06T23:08:42.000Z",
+      "relevanceScore": 1001.88,
+      "recommendationScore": 1002.38,
+      "tags": [
+        "Controversy"
       ],
       "readingLevel": "advanced"
     },
@@ -190,8 +203,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-02-07T13:13:21.000Z",
-      "relevanceScore": 439.83,
-      "recommendationScore": 440.33,
+      "relevanceScore": 486.2,
+      "recommendationScore": 486.7,
       "tags": [
         "Controversy"
       ],
@@ -203,8 +216,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-02-06T23:11:01.000Z",
-      "relevanceScore": 422.03,
-      "recommendationScore": 422.53,
+      "relevanceScore": 476.39,
+      "recommendationScore": 476.89,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -214,9 +227,23 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-02-06T21:19:51.000Z",
-      "relevanceScore": 377.66,
-      "recommendationScore": 377.66,
+      "relevanceScore": 404.52,
+      "recommendationScore": 404.52,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "An AI startup founder says he’s planning a ‘March for Billionaires’ in protest of California’s wealth tax",
+      "link": "https://techcrunch.com/2026/02/06/an-ai-startup-founder-says-hes-planning-a-march-for-billionaires-in-protest-of-californias-wealth-tax/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-02-07T01:00:52.000Z",
+      "relevanceScore": 378.26,
+      "recommendationScore": 378.26,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -225,19 +252,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-02-07T01:36:32.000Z",
-      "relevanceScore": 373.51,
-      "recommendationScore": 374.01,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Day 1 – 100 Days of Coding Challenge | Commitment Before Code",
-      "link": "https://dev.to/aiwithragini/day-1-100-days-of-coding-challenge-commitment-before-code-4ao4",
-      "source": "Dev.to",
-      "category": "education",
-      "pubDate": "2026-02-07T14:00:49.000Z",
-      "relevanceScore": 368.99,
-      "recommendationScore": 369.49,
+      "relevanceScore": 376.38,
+      "recommendationScore": 376.88,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -247,26 +263,12 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-02-06T13:55:46.000Z",
-      "relevanceScore": 365.18,
-      "recommendationScore": 365.68,
+      "relevanceScore": 368.04,
+      "recommendationScore": 368.54,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "An AI startup founder says he’s planning a ‘March for Billionaires’ in protest of California’s wealth tax",
-      "link": "https://techcrunch.com/2026/02/06/an-ai-startup-founder-says-hes-planning-a-march-for-billionaires-in-protest-of-californias-wealth-tax/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-02-07T01:00:52.000Z",
-      "relevanceScore": 310.39,
-      "recommendationScore": 310.39,
-      "tags": [
-        "AI",
-        "Startup"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "We found 20 Verge-approved gifts on sale ahead of Valentine’s Day",
@@ -274,9 +276,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-06T22:45:54.000Z",
-      "relevanceScore": 299.94,
-      "recommendationScore": 300.44,
+      "relevanceScore": 343.81,
+      "recommendationScore": 344.31,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Top 5 Power BI Alternatives in 2026 (Including Free & AI-Powered Options)",
+      "link": "https://dev.to/jason_einstein_4ebad74d6d/top-5-power-bi-alternatives-in-2026-including-free-ai-powered-options-k7e",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-02-07T14:39:44.000Z",
+      "relevanceScore": 193.49,
+      "recommendationScore": 194.99,
+      "tags": [
+        "AI",
+        "Business"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -285,12 +301,23 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-02-06T23:40:58.000Z",
-      "relevanceScore": 287.63,
-      "recommendationScore": 290.13,
+      "relevanceScore": 188.99,
+      "recommendationScore": 191.49,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "I've seen where air pollution goes inside my body - and I feel contaminated",
+      "link": "https://www.bbc.com/news/articles/c74w48d8epgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2026-02-07T00:11:32.000Z",
+      "relevanceScore": 115.59,
+      "recommendationScore": 116.09,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Giannis Antetokounmpo joins Kalshi as shareholder, marking new venture for NBA star",
@@ -298,23 +325,12 @@
       "source": "ABC News Business",
       "category": "startup",
       "pubDate": "2026-02-07T03:51:51.000Z",
-      "relevanceScore": 92.96,
-      "recommendationScore": 95.46,
+      "relevanceScore": 95.33,
+      "recommendationScore": 97.83,
       "tags": [
         "Business",
         "Startup"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I’m breathing in air pollution, but where’s it going?",
-      "link": "https://www.bbc.com/news/articles/c74w48d8epgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2026-02-07T00:11:32.000Z",
-      "relevanceScore": 83.23,
-      "recommendationScore": 83.73,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -323,8 +339,8 @@
       "source": "NPR Business",
       "category": "blockchain",
       "pubDate": "2026-02-07T10:00:00.000Z",
-      "relevanceScore": 73.19,
-      "recommendationScore": 75.19,
+      "relevanceScore": 81.56,
+      "recommendationScore": 83.56,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -334,9 +350,22 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-06T21:40:05.000Z",
-      "relevanceScore": 68.72,
-      "recommendationScore": 68.72,
+      "relevanceScore": 77.09,
+      "recommendationScore": 77.09,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Benchmark raises $225M in special funds to double down on Cerebras",
+      "link": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-02-07T05:23:04.000Z",
+      "relevanceScore": 71.63,
+      "recommendationScore": 72.13,
+      "tags": [
+        "Startup"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -345,8 +374,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-02-06T16:38:11.000Z",
-      "relevanceScore": 40.72,
-      "recommendationScore": 40.72,
+      "relevanceScore": 69.08,
+      "recommendationScore": 69.08,
       "tags": [
         "AI",
         "Web",
@@ -359,24 +388,11 @@
       "link": "https://www.bbc.com/news/articles/cd0y0y9z231o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-02-07T13:02:44.000Z",
-      "relevanceScore": 39.3,
-      "recommendationScore": 39.8,
+      "pubDate": "2026-02-07T14:05:01.000Z",
+      "relevanceScore": 63.37,
+      "recommendationScore": 63.87,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Benchmark raises $225M in special funds to double down on Cerebras",
-      "link": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-02-07T05:23:04.000Z",
-      "relevanceScore": 34.27,
-      "recommendationScore": 34.77,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Cairn is a climbing journey about perseverance and obsession",
@@ -384,8 +400,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-07T14:00:00.000Z",
-      "relevanceScore": 33.99,
-      "recommendationScore": 34.49,
+      "relevanceScore": 57.86,
+      "recommendationScore": 58.36,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -395,23 +411,10 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-06T23:53:43.000Z",
-      "relevanceScore": 33.17,
-      "recommendationScore": 33.67,
+      "relevanceScore": 57.03,
+      "recommendationScore": 57.53,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Under Trump, EPA’s enforcement of environmental laws collapses, report finds",
-      "link": "https://arstechnica.com/science/2026/02/under-trump-epas-enforcement-of-environmental-laws-collapses-report-finds/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-07T12:00:35.000Z",
-      "relevanceScore": 32.59,
-      "recommendationScore": 33.09,
-      "tags": [
-        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -421,8 +424,8 @@
       "source": "ABC News Business",
       "category": "startup",
       "pubDate": "2026-02-07T02:00:39.000Z",
-      "relevanceScore": 31.59,
-      "recommendationScore": 34.09,
+      "relevanceScore": 55.46,
+      "recommendationScore": 57.96,
       "tags": [
         "Startup",
         "Funding"
@@ -435,23 +438,12 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-07T13:36:26.000Z",
-      "relevanceScore": 31.41,
-      "recommendationScore": 33.91,
+      "relevanceScore": 55.28,
+      "recommendationScore": 57.78,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "MPs are shocked and angry at Mandelson - but they're furious with Starmer",
-      "link": "https://www.bbc.com/news/articles/czej4ep882ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-07T09:43:14.000Z",
-      "relevanceScore": 31.13,
-      "recommendationScore": 31.63,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Lawyer sets new standard for abuse of AI; judge tosses case",
@@ -459,8 +451,8 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-02-06T22:43:12.000Z",
-      "relevanceScore": 30.93,
-      "recommendationScore": 33.43,
+      "relevanceScore": 54.8,
+      "recommendationScore": 57.3,
       "tags": [
         "AI"
       ],
@@ -472,58 +464,9 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-06T20:47:10.000Z",
-      "relevanceScore": 30.55,
-      "recommendationScore": 31.05,
+      "relevanceScore": 54.41,
+      "recommendationScore": 54.91,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "LLMs as natural language compilers: What the history of FORTRAN tells us about the future of coding.",
-      "link": "https://www.reddit.com/r/programming/comments/1qybp5l/llms_as_natural_language_compilers_what_the/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-02-07T11:41:26.000Z",
-      "relevanceScore": 29.03,
-      "recommendationScore": 30.53,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI attention span so good it shouldn’t be legal",
-      "link": "https://stackoverflow.blog/2026/02/06/ai-attention-span-so-good-it-shouldn-t-be-legal/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-02-06T08:40:00.000Z",
-      "relevanceScore": 27.12,
-      "recommendationScore": 27.12,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The purpose of Continuous Integration is to fail",
-      "link": "https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-02-06T21:32:10.000Z",
-      "relevanceScore": 26.2,
-      "recommendationScore": 26.2,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "DVDs and public transit: Boycott drives people to ditch Big Tech to protest ICE",
-      "link": "https://www.npr.org/2026/02/07/nx-s1-5704402/boycott-tech-ice-scott-galloway",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-02-07T10:00:00.000Z",
-      "relevanceScore": 26.19,
-      "recommendationScore": 26.69,
-      "tags": [
-        "Tech",
-        "IPO"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -532,12 +475,74 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-02-07T14:00:00.000Z",
-      "relevanceScore": 25.99,
-      "recommendationScore": 26.49,
+      "relevanceScore": 52.36,
+      "recommendationScore": 52.86,
       "tags": [
         "Web"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "AI attention span so good it shouldn’t be legal",
+      "link": "https://stackoverflow.blog/2026/02/06/ai-attention-span-so-good-it-shouldn-t-be-legal/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-02-06T08:40:00.000Z",
+      "relevanceScore": 50.99,
+      "recommendationScore": 50.99,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Under Trump, EPA’s enforcement of environmental laws collapses, report finds",
+      "link": "https://arstechnica.com/science/2026/02/under-trump-epas-enforcement-of-environmental-laws-collapses-report-finds/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-07T12:00:35.000Z",
+      "relevanceScore": 50.96,
+      "recommendationScore": 51.46,
+      "tags": [
+        "Report"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The purpose of Continuous Integration is to fail",
+      "link": "https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-02-06T21:32:10.000Z",
+      "relevanceScore": 50.06,
+      "recommendationScore": 50.06,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "MPs are shocked and angry at Mandelson - but they're furious with Starmer",
+      "link": "https://www.bbc.com/news/articles/czej4ep882ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-07T09:43:14.000Z",
+      "relevanceScore": 31,
+      "recommendationScore": 31.5,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "DVDs and public transit: Boycott drives people to ditch Big Tech to protest ICE",
+      "link": "https://www.npr.org/2026/02/07/nx-s1-5704402/boycott-tech-ice-scott-galloway",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-02-07T10:00:00.000Z",
+      "relevanceScore": 26.06,
+      "recommendationScore": 26.56,
+      "tags": [
+        "Tech",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "India and US release framework for an interim trade agreement",
@@ -545,8 +550,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-07T08:26:06.000Z",
-      "relevanceScore": 25.88,
-      "recommendationScore": 26.38,
+      "relevanceScore": 25.74,
+      "recommendationScore": 26.24,
       "tags": [
         "Launch",
         "Partnership"
@@ -559,8 +564,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-02-07T13:00:00.000Z",
-      "relevanceScore": 25.79,
-      "recommendationScore": 27.29,
+      "relevanceScore": 25.66,
+      "recommendationScore": 27.16,
       "tags": [
         "Web"
       ],
@@ -572,8 +577,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-02-07T12:30:00.000Z",
-      "relevanceScore": 25.69,
-      "recommendationScore": 26.19,
+      "relevanceScore": 25.56,
+      "recommendationScore": 26.06,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -583,22 +588,9 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-02-06T10:00:00.000Z",
-      "relevanceScore": 24.39,
-      "recommendationScore": 24.89,
+      "relevanceScore": 24.26,
+      "recommendationScore": 24.76,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What is the diff between `Date` vs `new Date()`",
-      "link": "https://dev.to/kelvynthai/what-is-the-diff-between-date-vs-new-date-1ep0",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-07T14:00:05.000Z",
-      "relevanceScore": 23.99,
-      "recommendationScore": 28.49,
-      "tags": [
-        "Analysis"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -607,8 +599,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-07T12:00:00.000Z",
-      "relevanceScore": 23.59,
-      "recommendationScore": 25.59,
+      "relevanceScore": 23.46,
+      "recommendationScore": 25.46,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -618,8 +610,19 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-02-07T11:31:43.000Z",
-      "relevanceScore": 23.49,
-      "recommendationScore": 23.99,
+      "relevanceScore": 23.36,
+      "recommendationScore": 23.86,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "LLMs as natural language compilers: What the history of FORTRAN tells us about the future of coding.",
+      "link": "https://www.reddit.com/r/programming/comments/1qybp5l/llms_as_natural_language_compilers_what_the/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-02-07T11:41:26.000Z",
+      "relevanceScore": 21.39,
+      "recommendationScore": 22.89,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -629,8 +632,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-02-07T02:48:03.000Z",
-      "relevanceScore": 20.75,
-      "recommendationScore": 21.25,
+      "relevanceScore": 20.62,
+      "recommendationScore": 21.12,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -642,7 +645,7 @@
         "link": "https://www.theverge.com/tech/875154/how-to-watch-olympics-nintendo-muppets-installer",
         "source": "The Verge",
         "pubDate": "2026-02-07T13:00:00.000Z",
-        "relevanceScore": 2184.79,
+        "relevanceScore": 2135.66,
         "tags": [
           "Tutorial"
         ]
@@ -652,7 +655,7 @@
         "link": "https://arstechnica.com/health/2026/02/penisgate-erupts-at-olympics-scandal-exposes-risks-of-bulking-your-budge/",
         "source": "Ars Technica",
         "pubDate": "2026-02-06T23:08:42.000Z",
-        "relevanceScore": 924.02,
+        "relevanceScore": 1001.88,
         "tags": [
           "Controversy"
         ]
@@ -662,7 +665,7 @@
         "link": "https://www.theverge.com/gadgets/873589/valentines-day-gifts-aura-aspen-amazfit-active-2-deal-sale",
         "source": "The Verge",
         "pubDate": "2026-02-06T22:45:54.000Z",
-        "relevanceScore": 299.94,
+        "relevanceScore": 343.81,
         "tags": []
       },
       {
@@ -670,7 +673,7 @@
         "link": "https://www.bbc.com/news/articles/cvgjg98vmzjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-06T21:40:05.000Z",
-        "relevanceScore": 68.72,
+        "relevanceScore": 77.09,
         "tags": []
       },
       {
@@ -678,7 +681,7 @@
         "link": "https://techcrunch.com/2026/02/06/benchmark-raises-225m-in-special-funds-to-double-down-on-cerebras/",
         "source": "TechCrunch",
         "pubDate": "2026-02-07T05:23:04.000Z",
-        "relevanceScore": 34.27,
+        "relevanceScore": 71.63,
         "tags": [
           "Startup"
         ]
@@ -688,25 +691,15 @@
         "link": "https://www.theverge.com/games/874914/cairn-review-pc-playstation-5",
         "source": "The Verge",
         "pubDate": "2026-02-07T14:00:00.000Z",
-        "relevanceScore": 33.99,
+        "relevanceScore": 57.86,
         "tags": []
-      },
-      {
-        "title": "Under Trump, EPA’s enforcement of environmental laws collapses, report finds",
-        "link": "https://arstechnica.com/science/2026/02/under-trump-epas-enforcement-of-environmental-laws-collapses-report-finds/",
-        "source": "Ars Technica",
-        "pubDate": "2026-02-07T12:00:35.000Z",
-        "relevanceScore": 32.59,
-        "tags": [
-          "Report"
-        ]
       },
       {
         "title": "Uber ordered to pay $8.5m over claim driver raped passenger",
         "link": "https://www.bbc.com/news/articles/cq5y5w148p5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-06T20:47:10.000Z",
-        "relevanceScore": 30.55,
+        "relevanceScore": 54.41,
         "tags": []
       },
       {
@@ -714,9 +707,19 @@
         "link": "https://www.wired.com/story/target-darts-omni-auto-scoring-system-rave/",
         "source": "Wired",
         "pubDate": "2026-02-07T14:00:00.000Z",
-        "relevanceScore": 25.99,
+        "relevanceScore": 52.36,
         "tags": [
           "Web"
+        ]
+      },
+      {
+        "title": "Under Trump, EPA’s enforcement of environmental laws collapses, report finds",
+        "link": "https://arstechnica.com/science/2026/02/under-trump-epas-enforcement-of-environmental-laws-collapses-report-finds/",
+        "source": "Ars Technica",
+        "pubDate": "2026-02-07T12:00:35.000Z",
+        "relevanceScore": 50.96,
+        "tags": [
+          "Report"
         ]
       },
       {
@@ -724,7 +727,7 @@
         "link": "https://www.wired.com/story/best-website-builders/",
         "source": "Wired",
         "pubDate": "2026-02-07T13:00:00.000Z",
-        "relevanceScore": 25.79,
+        "relevanceScore": 25.66,
         "tags": [
           "Web"
         ]
@@ -734,7 +737,7 @@
         "link": "https://www.wired.com/story/bravia-9-deal-226/",
         "source": "Wired",
         "pubDate": "2026-02-07T12:30:00.000Z",
-        "relevanceScore": 25.69,
+        "relevanceScore": 25.56,
         "tags": []
       },
       {
@@ -742,7 +745,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1qy22f0/nbc_appears_to_cut_crowds_booing_of_jd_vance_from/",
         "source": "Reddit Technology",
         "pubDate": "2026-02-07T02:48:03.000Z",
-        "relevanceScore": 20.75,
+        "relevanceScore": 20.62,
         "tags": []
       }
     ],
@@ -752,47 +755,9 @@
         "link": "https://techcrunch.com/2026/02/06/industry-season-4-captures-tech-fraud-better-than-any-show-on-tv-right-now/",
         "source": "TechCrunch",
         "pubDate": "2026-02-07T00:06:23.000Z",
-        "relevanceScore": 2139.21,
+        "relevanceScore": 2038.58,
         "tags": [
           "Tech"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "7 Git Commands That Make You Look Like a Wizard",
-        "link": "https://dev.to/kirill_tolmachev/7-git-commands-that-make-you-look-like-a-wizard-30h",
-        "source": "Dev.to",
-        "pubDate": "2026-02-07T14:00:00.000Z",
-        "relevanceScore": 2057.99,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "LLMs as natural language compilers: What the history of FORTRAN tells us about the future of coding.",
-        "link": "https://www.reddit.com/r/programming/comments/1qybp5l/llms_as_natural_language_compilers_what_the/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-02-07T11:41:26.000Z",
-        "relevanceScore": 29.03,
-        "tags": []
-      },
-      {
-        "title": "The purpose of Continuous Integration is to fail",
-        "link": "https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-02-06T21:32:10.000Z",
-        "relevanceScore": 26.2,
-        "tags": []
-      },
-      {
-        "title": "What is the diff between `Date` vs `new Date()`",
-        "link": "https://dev.to/kelvynthai/what-is-the-diff-between-date-vs-new-date-1ep0",
-        "source": "Dev.to",
-        "pubDate": "2026-02-07T14:00:05.000Z",
-        "relevanceScore": 23.99,
-        "tags": [
-          "Analysis"
         ]
       }
     ],
@@ -802,11 +767,33 @@
         "link": "https://www.engadget.com/mobile/smartphones/how-to-track-your-sleep-and-view-your-sleep-data-in-apple-health-130000023.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-07T13:00:00.000Z",
-        "relevanceScore": 1811.79,
+        "relevanceScore": 1876.66,
         "tags": [
           "Mobile",
           "Analysis",
           "Tutorial"
+        ]
+      },
+      {
+        "title": "Argophor: A Developer-Friendly Linux App Detection & Installation Toolkit",
+        "link": "https://dev.to/hejhdiss/argophor-a-developer-friendly-linux-app-detection-installation-toolkit-2gnk",
+        "source": "Dev.to",
+        "pubDate": "2026-02-07T14:31:13.000Z",
+        "relevanceScore": 1444.46,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "AWS Networking Fundamentals",
+        "link": "https://dev.to/cmwokocha/aws-networking-fundamentals-kcf",
+        "source": "Dev.to",
+        "pubDate": "2026-02-07T14:39:25.000Z",
+        "relevanceScore": 1804.49,
+        "tags": [
+          "Cloud"
         ]
       }
     ],
@@ -816,7 +803,7 @@
         "link": "https://www.theverge.com/transportation/875199/apple-carplay-third-party-chatbots-rumor",
         "source": "The Verge",
         "pubDate": "2026-02-06T21:32:44.000Z",
-        "relevanceScore": 1412.7,
+        "relevanceScore": 1508.56,
         "tags": []
       },
       {
@@ -824,7 +811,7 @@
         "link": "https://techcrunch.com/2026/02/06/super-bowl-60-ai-ads-svedka-anthropic-brands-commercials/",
         "source": "TechCrunch",
         "pubDate": "2026-02-06T22:43:22.000Z",
-        "relevanceScore": 1106.93,
+        "relevanceScore": 1197.8,
         "tags": [
           "AI",
           "Exclusive"
@@ -835,7 +822,7 @@
         "link": "https://www.wired.com/story/the-technologies-changing-how-youll-watch-the-2026-winter-olympic-games/",
         "source": "Wired",
         "pubDate": "2026-02-07T12:00:00.000Z",
-        "relevanceScore": 965.59,
+        "relevanceScore": 1027.96,
         "tags": [
           "Exclusive"
         ]
@@ -845,7 +832,7 @@
         "link": "https://github.blog/ai-and-ml/generative-ai/continuous-ai-in-practice-what-developers-can-automate-today-with-agentic-ci/",
         "source": "GitHub Blog",
         "pubDate": "2026-02-05T17:00:00.000Z",
-        "relevanceScore": 923.99,
+        "relevanceScore": 1020.36,
         "tags": [
           "AI",
           "Exclusive"
@@ -856,10 +843,21 @@
         "link": "https://techcrunch.com/2026/02/06/an-ai-startup-founder-says-hes-planning-a-march-for-billionaires-in-protest-of-californias-wealth-tax/",
         "source": "TechCrunch",
         "pubDate": "2026-02-07T01:00:52.000Z",
-        "relevanceScore": 310.39,
+        "relevanceScore": 378.26,
         "tags": [
           "AI",
           "Startup"
+        ]
+      },
+      {
+        "title": "Top 5 Power BI Alternatives in 2026 (Including Free & AI-Powered Options)",
+        "link": "https://dev.to/jason_einstein_4ebad74d6d/top-5-power-bi-alternatives-in-2026-including-free-ai-powered-options-k7e",
+        "source": "Dev.to",
+        "pubDate": "2026-02-07T14:39:44.000Z",
+        "relevanceScore": 193.49,
+        "tags": [
+          "AI",
+          "Business"
         ]
       },
       {
@@ -867,7 +865,7 @@
         "link": "https://arstechnica.com/ai/2026/02/sixteen-claude-ai-agents-working-together-created-a-new-c-compiler/",
         "source": "Ars Technica",
         "pubDate": "2026-02-06T23:40:58.000Z",
-        "relevanceScore": 287.63,
+        "relevanceScore": 188.99,
         "tags": [
           "AI"
         ]
@@ -877,7 +875,7 @@
         "link": "https://www.technologyreview.com/2026/02/06/1132448/moltbook-was-peak-ai-theater/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-06T16:38:11.000Z",
-        "relevanceScore": 40.72,
+        "relevanceScore": 69.08,
         "tags": [
           "AI",
           "Web",
@@ -889,7 +887,7 @@
         "link": "https://techcrunch.com/2026/02/06/apple-is-working-to-make-carplay-compatible-with-ai-chatbots-like-chatgpt/",
         "source": "TechCrunch",
         "pubDate": "2026-02-06T23:53:43.000Z",
-        "relevanceScore": 33.17,
+        "relevanceScore": 57.03,
         "tags": [
           "AI"
         ]
@@ -899,7 +897,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/02/randomly-quoting-ray-bradbury-did-not-save-lawyer-from-losing-case-over-ai-errors/",
         "source": "Ars Technica",
         "pubDate": "2026-02-06T22:43:12.000Z",
-        "relevanceScore": 30.93,
+        "relevanceScore": 54.8,
         "tags": [
           "AI"
         ]
@@ -909,7 +907,7 @@
         "link": "https://stackoverflow.blog/2026/02/06/ai-attention-span-so-good-it-shouldn-t-be-legal/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-02-06T08:40:00.000Z",
-        "relevanceScore": 27.12,
+        "relevanceScore": 50.99,
         "tags": [
           "AI"
         ]
@@ -921,7 +919,7 @@
         "link": "https://www.engadget.com/engadget-review-recap-shokz-openfit-pro-nex-playground-sony-a7-v-and-more-123400089.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-07T12:34:00.000Z",
-        "relevanceScore": 1375.7,
+        "relevanceScore": 1486.57,
         "tags": []
       },
       {
@@ -929,7 +927,7 @@
         "link": "https://www.bbc.com/news/articles/c24g457y534o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-06T16:26:08.000Z",
-        "relevanceScore": 969.68,
+        "relevanceScore": 1013.04,
         "tags": []
       },
       {
@@ -937,7 +935,7 @@
         "link": "https://www.engadget.com/entertainment/streaming/how-to-stream-the-2026-super-bowl-for-free-this-weekend-patriots-vs-seahawks-time-where-to-watch-and-more-124512717.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-07T13:36:26.000Z",
-        "relevanceScore": 31.41,
+        "relevanceScore": 55.28,
         "tags": [
           "Tutorial"
         ]
@@ -947,7 +945,7 @@
         "link": "https://www.engadget.com/gaming/hotline-miami-meets-football-the-power-of-video-editing-and-other-new-indie-games-worth-checking-out-120000628.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-07T12:00:00.000Z",
-        "relevanceScore": 23.59,
+        "relevanceScore": 23.46,
         "tags": []
       }
     ],
@@ -957,7 +955,7 @@
         "link": "https://www.technologyreview.com/2026/02/06/1132375/the-download-helping-cancer-survivors-to-give-birth-and-cleaning-up-bangladeshs-garment-industry/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-06T13:10:00.000Z",
-        "relevanceScore": 1011.02,
+        "relevanceScore": 1042.89,
         "tags": [
           "Tech"
         ]
@@ -967,7 +965,7 @@
         "link": "https://www.technologyreview.com/2026/02/06/1132319/experimental-surgery-colorectal-cancer-survivors-pregnant-birth/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-06T10:00:00.000Z",
-        "relevanceScore": 24.39,
+        "relevanceScore": 24.26,
         "tags": []
       }
     ],
@@ -977,7 +975,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qy3mz4/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-02-07T04:02:28.000Z",
-        "relevanceScore": 1008,
+        "relevanceScore": 1039.86,
         "tags": []
       },
       {
@@ -985,7 +983,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qxx3wg/france_uncovers_russian_disinformation_campaign/",
         "source": "Reddit World News",
         "pubDate": "2026-02-06T23:11:01.000Z",
-        "relevanceScore": 422.03,
+        "relevanceScore": 476.39,
         "tags": []
       },
       {
@@ -993,7 +991,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1qybixr/russia_offers_us_us12trn_cooperation_package/",
         "source": "Reddit World News",
         "pubDate": "2026-02-07T11:31:43.000Z",
-        "relevanceScore": 23.49,
+        "relevanceScore": 23.36,
         "tags": []
       }
     ],
@@ -1003,7 +1001,7 @@
         "link": "https://www.bbc.com/news/articles/cvg1g83zvlyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-07T13:13:21.000Z",
-        "relevanceScore": 439.83,
+        "relevanceScore": 486.2,
         "tags": [
           "Controversy"
         ]
@@ -1013,15 +1011,15 @@
         "link": "https://www.bbc.com/news/articles/ce8r8y78g10o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-07T01:36:32.000Z",
-        "relevanceScore": 373.51,
+        "relevanceScore": 376.38,
         "tags": []
       },
       {
         "title": "US wants Russia and Ukraine to end war by June, says Zelensky",
         "link": "https://www.bbc.com/news/articles/cd0y0y9z231o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-02-07T13:02:44.000Z",
-        "relevanceScore": 39.3,
+        "pubDate": "2026-02-07T14:05:01.000Z",
+        "relevanceScore": 63.37,
         "tags": []
       },
       {
@@ -1029,7 +1027,7 @@
         "link": "https://www.bbc.com/news/articles/czej4ep882ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-02-07T09:43:14.000Z",
-        "relevanceScore": 31.13,
+        "relevanceScore": 31,
         "tags": []
       }
     ],
@@ -1039,7 +1037,7 @@
         "link": "https://www.npr.org/2026/02/06/nx-s1-5702811/goodbye-minute-maid-frozen-juices",
         "source": "NPR Business",
         "pubDate": "2026-02-06T21:19:51.000Z",
-        "relevanceScore": 377.66,
+        "relevanceScore": 404.52,
         "tags": []
       },
       {
@@ -1047,7 +1045,7 @@
         "link": "https://www.npr.org/2026/02/07/nx-s1-5704402/boycott-tech-ice-scott-galloway",
         "source": "NPR Business",
         "pubDate": "2026-02-07T10:00:00.000Z",
-        "relevanceScore": 26.19,
+        "relevanceScore": 26.06,
         "tags": [
           "Tech",
           "IPO"
@@ -1058,21 +1056,11 @@
         "link": "https://abcnews.go.com/Business/wireStory/india-us-release-framework-interim-trade-agreement-129943260",
         "source": "ABC News Business",
         "pubDate": "2026-02-07T08:26:06.000Z",
-        "relevanceScore": 25.88,
+        "relevanceScore": 25.74,
         "tags": [
           "Launch",
           "Partnership"
         ]
-      }
-    ],
-    "education": [
-      {
-        "title": "Day 1 – 100 Days of Coding Challenge | Commitment Before Code",
-        "link": "https://dev.to/aiwithragini/day-1-100-days-of-coding-challenge-commitment-before-code-4ao4",
-        "source": "Dev.to",
-        "pubDate": "2026-02-07T14:00:49.000Z",
-        "relevanceScore": 368.99,
-        "tags": []
       }
     ],
     "social": [
@@ -1081,10 +1069,20 @@
         "link": "https://www.bbc.com/news/articles/cr7j7n315lmo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-06T13:55:46.000Z",
-        "relevanceScore": 365.18,
+        "relevanceScore": 368.04,
         "tags": [
           "Social"
         ]
+      }
+    ],
+    "health": [
+      {
+        "title": "I've seen where air pollution goes inside my body - and I feel contaminated",
+        "link": "https://www.bbc.com/news/articles/c74w48d8epgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-07T00:11:32.000Z",
+        "relevanceScore": 115.59,
+        "tags": []
       }
     ],
     "startup": [
@@ -1093,7 +1091,7 @@
         "link": "https://abcnews.go.com/Business/wireStory/giannis-antetokounmpo-joins-kalshi-shareholder-marking-new-venture-129938107",
         "source": "ABC News Business",
         "pubDate": "2026-02-07T03:51:51.000Z",
-        "relevanceScore": 92.96,
+        "relevanceScore": 95.33,
         "tags": [
           "Business",
           "Startup"
@@ -1104,21 +1102,11 @@
         "link": "https://abcnews.go.com/Business/wireStory/judge-orders-trump-administration-restore-funding-rail-tunnel-129939720",
         "source": "ABC News Business",
         "pubDate": "2026-02-07T02:00:39.000Z",
-        "relevanceScore": 31.59,
+        "relevanceScore": 55.46,
         "tags": [
           "Startup",
           "Funding"
         ]
-      }
-    ],
-    "health": [
-      {
-        "title": "I’m breathing in air pollution, but where’s it going?",
-        "link": "https://www.bbc.com/news/articles/c74w48d8epgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-07T00:11:32.000Z",
-        "relevanceScore": 83.23,
-        "tags": []
       }
     ],
     "blockchain": [
@@ -1127,7 +1115,25 @@
         "link": "https://www.npr.org/2026/02/07/nx-s1-5704279/trump-crypto-bitcoin-winter",
         "source": "NPR Business",
         "pubDate": "2026-02-07T10:00:00.000Z",
-        "relevanceScore": 73.19,
+        "relevanceScore": 81.56,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "The purpose of Continuous Integration is to fail",
+        "link": "https://www.reddit.com/r/programming/comments/1qxulks/the_purpose_of_continuous_integration_is_to_fail/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-02-06T21:32:10.000Z",
+        "relevanceScore": 50.06,
+        "tags": []
+      },
+      {
+        "title": "LLMs as natural language compilers: What the history of FORTRAN tells us about the future of coding.",
+        "link": "https://www.reddit.com/r/programming/comments/1qybp5l/llms_as_natural_language_compilers_what_the/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-02-07T11:41:26.000Z",
+        "relevanceScore": 21.39,
         "tags": []
       }
     ]
@@ -1135,7 +1141,7 @@
   "stats": {
     "totalSources": 16,
     "totalCategories": 15,
-    "avgRelevanceScore": 443.04840000000013,
+    "avgRelevanceScore": 484.29640000000023,
     "topCategories": [
       {
         "category": "tech",
@@ -1143,11 +1149,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 10
-      },
-      {
-        "category": "development",
-        "count": 4
+        "count": 11
       },
       {
         "category": "gaming",
@@ -1156,6 +1158,10 @@
       {
         "category": "general",
         "count": 4
+      },
+      {
+        "category": "world",
+        "count": 3
       }
     ]
   }
