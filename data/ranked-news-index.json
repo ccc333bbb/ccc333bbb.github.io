@@ -1,21 +1,23 @@
 {
-  "lastUpdated": "2026-02-18T23:59:51.333Z",
+  "lastUpdated": "2026-02-19T02:45:04.652Z",
   "totalArticles": 46,
   "categories": [
     "tech",
     "ai-ml",
     "finance",
     "entertainment",
-    "development",
     "health",
-    "general",
-    "blockchain",
-    "cloud",
-    "gaming",
     "mobile",
-    "science",
+    "development",
+    "blockchain",
+    "gaming",
+    "cloud",
     "social",
-    "business"
+    "general",
+    "business",
+    "climate",
+    "education",
+    "science"
   ],
   "topArticles": [
     {
@@ -24,8 +26,56 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-18T22:12:09.000Z",
-      "relevanceScore": 533.64,
-      "recommendationScore": 534.64,
+      "relevanceScore": 686.09,
+      "recommendationScore": 687.09,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "India's 3-Hour Deepfake Rule Exposes a Blind Spot: Building Cryptographic Proof of What AI Refused to Generate",
+      "link": "https://dev.to/veritaschain/indias-3-hour-deepfake-rule-exposes-a-blind-spot-building-cryptographic-proof-of-what-ai-refused-45c1",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-02-19T02:06:37.000Z",
+      "relevanceScore": 676.37,
+      "recommendationScore": 677.87,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "An expected end-of-year federal ban puts hemp businesses in jeopardy",
+      "link": "https://www.npr.org/2026/02/18/nx-s1-5668495/an-expected-end-of-year-federal-ban-puts-hemp-businesses-in-jeopardy",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2026-02-18T21:46:44.000Z",
+      "relevanceScore": 475.51,
+      "recommendationScore": 476.01,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Chevy Bolt, BMW i3, or something else? At $10K, you have lots of EV options",
+      "link": "https://arstechnica.com/cars/2026/02/chevy-bolt-bmw-i3-or-something-else-at-10k-you-have-lots-of-ev-options/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-18T20:22:03.000Z",
+      "relevanceScore": 439.72,
+      "recommendationScore": 440.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Gemini can now generate a 30-second approximation of what real music sounds like",
+      "link": "https://www.engadget.com/ai/gemini-can-now-generate-a-30-second-approximation-of-what-real-music-sounds-like-204445903.html?src=rss",
+      "source": "Engadget",
+      "category": "entertainment",
+      "pubDate": "2026-02-18T20:44:45.000Z",
+      "relevanceScore": 430.8,
+      "recommendationScore": 432.8,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -35,8 +85,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-18T21:07:00.000Z",
-      "relevanceScore": 523.42,
-      "recommendationScore": 525.42,
+      "relevanceScore": 407.37,
+      "recommendationScore": 409.37,
       "tags": [
         "AI",
         "Cloud",
@@ -46,207 +96,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Chevy Bolt, BMW i3, or something else? At $10K, you have lots of EV options",
-      "link": "https://arstechnica.com/cars/2026/02/chevy-bolt-bmw-i3-or-something-else-at-10k-you-have-lots-of-ev-options/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-18T20:22:03.000Z",
-      "relevanceScore": 415.27,
-      "recommendationScore": 415.77,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "An expected end-of-year federal ban puts hemp businesses in jeopardy",
-      "link": "https://www.npr.org/2026/02/18/nx-s1-5668495/an-expected-end-of-year-federal-ban-puts-hemp-businesses-in-jeopardy",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2026-02-18T21:46:44.000Z",
-      "relevanceScore": 369.06,
-      "recommendationScore": 369.56,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Gemini can now generate a 30-second approximation of what real music sounds like",
-      "link": "https://www.engadget.com/ai/gemini-can-now-generate-a-30-second-approximation-of-what-real-music-sounds-like-204445903.html?src=rss",
-      "source": "Engadget",
-      "category": "entertainment",
-      "pubDate": "2026-02-18T20:44:45.000Z",
-      "relevanceScore": 349.35,
-      "recommendationScore": 351.35,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The High Cost of Poor Code Quality: A Deep Dive into Technical Debt and Its Implications",
-      "link": "https://dev.to/denlava/the-high-cost-of-poor-code-quality-a-deep-dive-into-technical-debt-and-its-implications-2jno",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-02-18T23:52:32.000Z",
-      "relevanceScore": 316.48,
-      "recommendationScore": 316.98,
-      "tags": [
-        "Science",
-        "Analysis",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
       "link": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
       "source": "MIT Technology Review",
       "category": "health",
       "pubDate": "2026-02-18T16:00:22.000Z",
-      "relevanceScore": 309.9,
-      "recommendationScore": 310.4,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Mind the gap: Closing the AI trust gap for developers",
-      "link": "https://stackoverflow.blog/2026/02/18/closing-the-developer-ai-trust-gap/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-02-18T17:00:00.000Z",
-      "relevanceScore": 306.1,
-      "recommendationScore": 306.6,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Meta is reportedly planning to launch a smartwatch this year",
-      "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-02-18T22:54:05.000Z",
-      "relevanceScore": 296.28,
-      "recommendationScore": 298.78,
-      "tags": [
-        "AI",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What to expect for open source in 2026",
-      "link": "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-02-18T18:41:42.000Z",
-      "relevanceScore": 276.94,
-      "recommendationScore": 278.44,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How major US stock indexes fared Wednesday, 2/18/2026",
-      "link": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-2182026-130280069",
-      "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2026-02-18T21:57:31.000Z",
-      "relevanceScore": 261.59,
-      "recommendationScore": 263.59,
-      "tags": [
-        "Business",
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Securing the AI software supply chain: Security results across 67 open source projects",
-      "link": "https://github.blog/open-source/maintainers/securing-the-ai-software-supply-chain-security-results-across-67-open-source-projects/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-02-17T19:00:00.000Z",
-      "relevanceScore": 237.2,
-      "recommendationScore": 237.7,
-      "tags": [
-        "AI",
-        "Tech",
-        "Security",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Vinicius: Eight years at Real Madrid, 20 cases of alleged racist abuse",
-      "link": "https://www.bbc.com/sport/football/articles/c4g82mr3l3vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-18T17:40:56.000Z",
-      "relevanceScore": 231.24,
-      "recommendationScore": 231.74,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: a blockchain enigma, and the algorithms governing our lives",
-      "link": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
-      "source": "MIT Technology Review",
-      "category": "blockchain",
-      "pubDate": "2026-02-18T13:10:00.000Z",
-      "relevanceScore": 228.33,
-      "recommendationScore": 228.83,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Data is the new oil, and your database is the only way to extract it",
-      "link": "https://stackoverflow.blog/2026/02/17/data-is-the-new-oil/",
-      "source": "Stack Overflow Blog",
-      "category": "cloud",
-      "pubDate": "2026-02-17T08:40:00.000Z",
-      "relevanceScore": 222.13,
-      "recommendationScore": 224.63,
-      "tags": [
-        "Cloud"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Etsy sells secondhand clothing marketplace Depop to eBay for $1.2B",
-      "link": "https://techcrunch.com/2026/02/18/etsy-sells-secondhand-clothing-marketplace-depop-to-ebay-for-1-2b/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-02-18T22:55:41.000Z",
-      "relevanceScore": 204.79,
-      "recommendationScore": 205.29,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Cyberpunk platformer Replaced has once again been delayed",
-      "link": "https://www.engadget.com/gaming/cyberpunk-platformer-replaced-has-once-again-been-delayed-190621246.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-02-18T19:06:21.000Z",
-      "relevanceScore": 200.02,
-      "recommendationScore": 200.52,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Kubernetes Configuration Management: Mastering Helm Values Files for Multi-Environment Deployments",
-      "link": "https://dev.to/shingaiz/kubernetes-configuration-management-mastering-helm-values-files-for-multi-environment-deployments-303f",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2026-02-18T23:50:38.000Z",
-      "relevanceScore": 191.97,
-      "recommendationScore": 192.47,
+      "relevanceScore": 369.35,
+      "recommendationScore": 369.85,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -256,21 +112,101 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2026-02-18T19:28:26.000Z",
-      "relevanceScore": 191.1,
-      "recommendationScore": 191.6,
+      "relevanceScore": 366.04,
+      "recommendationScore": 366.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Dyson turned its skinny PencilVac into a lightweight wet floor cleaner",
-      "link": "https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle",
+      "title": "What to expect for open source in 2026",
+      "link": "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-02-18T18:41:42.000Z",
+      "relevanceScore": 334.39,
+      "recommendationScore": 335.89,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Mind the gap: Closing the AI trust gap for developers",
+      "link": "https://stackoverflow.blog/2026/02/18/closing-the-developer-ai-trust-gap/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-02-18T17:00:00.000Z",
+      "relevanceScore": 304.55,
+      "recommendationScore": 305.05,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Download: a blockchain enigma, and the algorithms governing our lives",
+      "link": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
+      "source": "MIT Technology Review",
+      "category": "blockchain",
+      "pubDate": "2026-02-18T13:10:00.000Z",
+      "relevanceScore": 288.78,
+      "recommendationScore": 289.28,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta is reportedly planning to launch a smartwatch this year",
+      "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-02-18T22:54:05.000Z",
+      "relevanceScore": 288.23,
+      "recommendationScore": 290.73,
+      "tags": [
+        "AI",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The RAM crunch could kill products and even entire companies, memory exec admits",
+      "link": "https://www.theverge.com/tech/881062/ram-shortage-kill-products-companies-phison-ceo-interview",
       "source": "The Verge",
       "category": "tech",
-      "pubDate": "2026-02-18T23:01:00.000Z",
-      "relevanceScore": 187.8,
-      "recommendationScore": 188.3,
+      "pubDate": "2026-02-19T00:32:30.000Z",
+      "relevanceScore": 285.06,
+      "recommendationScore": 285.56,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "How major US stock indexes fared Wednesday, 2/18/2026",
+      "link": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-2182026-130280069",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2026-02-18T21:57:31.000Z",
+      "relevanceScore": 285.04,
+      "recommendationScore": 287.04,
+      "tags": [
+        "Business",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Etsy sells secondhand clothing marketplace Depop to eBay for $1.2B",
+      "link": "https://techcrunch.com/2026/02/18/etsy-sells-secondhand-clothing-marketplace-depop-to-ebay-for-1-2b/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-02-18T22:55:41.000Z",
+      "relevanceScore": 268.74,
+      "recommendationScore": 269.24,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Dyson announces the PencilWash wet floor cleaner",
@@ -278,37 +214,124 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-02-18T23:01:52.000Z",
-      "relevanceScore": 174.81,
-      "recommendationScore": 174.81,
+      "relevanceScore": 268.26,
+      "recommendationScore": 268.26,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "How to Replace Your REST API Key System with a Solana Program",
-      "link": "https://dev.to/theauroraai/how-to-replace-your-rest-api-key-system-with-a-solana-program-4m85",
+      "title": "Local-First Documentation: What It Is and Why Your AI Agent Needs It",
+      "link": "https://dev.to/moshe_io/local-first-documentation-what-it-is-and-why-your-ai-agent-needs-it-1l0g",
       "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2026-02-18T23:55:06.000Z",
-      "relevanceScore": 143.98,
-      "recommendationScore": 145.98,
+      "category": "ai-ml",
+      "pubDate": "2026-02-19T02:27:08.000Z",
+      "relevanceScore": 264.44,
+      "recommendationScore": 268.44,
       "tags": [
+        "AI",
         "Cloud",
-        "Tutorial"
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The robots who predict the future",
-      "link": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-02-18T11:00:00.000Z",
-      "relevanceScore": 135.4,
-      "recommendationScore": 135.4,
+      "title": "Cyberpunk platformer Replaced has once again been delayed",
+      "link": "https://www.engadget.com/gaming/cyberpunk-platformer-replaced-has-once-again-been-delayed-190621246.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-02-18T19:06:21.000Z",
+      "relevanceScore": 263.97,
+      "recommendationScore": 264.47,
       "tags": [
-        "Social"
+        "Partnership"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Data is the new oil, and your database is the only way to extract it",
+      "link": "https://stackoverflow.blog/2026/02/17/data-is-the-new-oil/",
+      "source": "Stack Overflow Blog",
+      "category": "cloud",
+      "pubDate": "2026-02-17T08:40:00.000Z",
+      "relevanceScore": 236.58,
+      "recommendationScore": 239.08,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zuckerberg grilled about Meta's strategy to target 'teens' and 'tweens'",
+      "link": "https://www.npr.org/2026/02/18/nx-s1-5717117/zuckerberg-testimony-social-media-addiction-trial",
+      "source": "NPR Business",
+      "category": "social",
+      "pubDate": "2026-02-18T23:54:48.000Z",
+      "relevanceScore": 221.93,
+      "recommendationScore": 222.43,
+      "tags": [
+        "Tech",
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Dyson turned its skinny PencilVac into a lightweight wet floor cleaner",
+      "link": "https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-02-18T23:01:00.000Z",
+      "relevanceScore": 194.25,
+      "recommendationScore": 194.75,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Child poverty figures in the UK expected to be revised down",
+      "link": "https://www.bbc.com/news/articles/c3rz8q3qpwzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-19T01:03:10.000Z",
+      "relevanceScore": 189.66,
+      "recommendationScore": 190.16,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Do not give away Diego Garcia, Trump tells UK in fresh attack on Chagos deal",
+      "link": "https://www.bbc.com/news/articles/c309qqyer8yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-18T22:08:13.000Z",
+      "relevanceScore": 189.08,
+      "recommendationScore": 189.58,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Etsy sells second-hand fashion app Depop to eBay for $1.2bn",
+      "link": "https://www.bbc.com/news/articles/cx240kme2k8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2026-02-19T01:37:44.000Z",
+      "relevanceScore": 185.28,
+      "recommendationScore": 185.78,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Hacking conference Def Con bans three people linked to Epstein",
+      "link": "https://techcrunch.com/2026/02/18/hacking-conference-def-con-bans-three-people-linked-to-epstein/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-02-18T22:04:13.000Z",
+      "relevanceScore": 185.06,
+      "recommendationScore": 185.56,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Zuckerberg defends Meta in landmark social media addiction trial",
@@ -316,21 +339,61 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-02-18T22:58:58.000Z",
-      "relevanceScore": 131.3,
-      "recommendationScore": 131.8,
+      "relevanceScore": 130.25,
+      "recommendationScore": 130.75,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Eight skiers found dead after California avalanche",
-      "link": "https://www.bbc.com/news/articles/cvg19dp4vxgo?at_medium=RSS&at_campaign=rss",
+      "title": "Securing the AI software supply chain: Security results across 67 open source projects",
+      "link": "https://github.blog/open-source/maintainers/securing-the-ai-software-supply-chain-security-results-across-67-open-source-projects/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-02-17T19:00:00.000Z",
+      "relevanceScore": 126.15,
+      "recommendationScore": 126.65,
+      "tags": [
+        "AI",
+        "Tech",
+        "Security",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Teenage girls lured into forced sex by gangs in London, BBC finds",
+      "link": "https://www.bbc.com/news/articles/cjd9xnjyy8po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-02-18T23:06:14.000Z",
-      "relevanceScore": 126.82,
-      "recommendationScore": 126.82,
+      "pubDate": "2026-02-18T17:01:16.000Z",
+      "relevanceScore": 117.05,
+      "recommendationScore": 117.55,
+      "tags": [
+        "Analysis"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why there's no quick fix in sight for the problem of dazzling headlights",
+      "link": "https://www.bbc.com/news/articles/cn71xyjpdl2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-02-19T01:10:15.000Z",
+      "relevanceScore": 113.18,
+      "recommendationScore": 115.18,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Man who lived rent-free in New Yorker Hotel, then claimed to own it, pleads guilty",
+      "link": "https://abcnews.com/Business/wireStory/man-lived-rent-free-new-yorker-hotel-claimed-130284504",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-02-19T01:19:46.000Z",
+      "relevanceScore": 107.72,
+      "recommendationScore": 110.22,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -340,8 +403,8 @@
       "source": "Ars Technica",
       "category": "finance",
       "pubDate": "2026-02-18T20:58:34.000Z",
-      "relevanceScore": 119.4,
-      "recommendationScore": 121.9,
+      "relevanceScore": 106.84,
+      "recommendationScore": 109.34,
       "tags": [
         "Report",
         "Regulation"
@@ -354,8 +417,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-02-18T19:47:15.000Z",
-      "relevanceScore": 119.16,
-      "recommendationScore": 119.66,
+      "relevanceScore": 106.61,
+      "recommendationScore": 107.11,
       "tags": [
         "AI",
         "Tech"
@@ -363,41 +426,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Nvidia’s Deal With Meta Signals a New Era in Computing Power",
-      "link": "https://www.wired.com/story/nvidias-deal-with-meta-signals-a-new-era-in-computing-power/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-02-18T19:24:55.000Z",
-      "relevanceScore": 119.08,
-      "recommendationScore": 121.58,
-      "tags": [
-        "AI",
-        "Tech",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meta CEO Mark Zuckerberg to face jury in landmark social media addiction trial",
-      "link": "https://www.npr.org/2026/02/18/nx-s1-5716229/zuckerberg-social-media-addiction-trial",
-      "source": "NPR Business",
-      "category": "social",
-      "pubDate": "2026-02-18T10:00:00.000Z",
-      "relevanceScore": 118.7,
-      "recommendationScore": 119.2,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Mark Zuckerberg testifies in social media addiction trial that Meta just wants Instagram to be 'useful'",
       "link": "https://www.engadget.com/social-media/mark-zuckerberg-testifies-in-social-media-addiction-trial-that-meta-just-wants-instagram-to-be-useful-234332316.html?src=rss",
       "source": "Engadget",
       "category": "social",
       "pubDate": "2026-02-18T23:43:32.000Z",
-      "relevanceScore": 117.95,
-      "recommendationScore": 117.95,
+      "relevanceScore": 105.39,
+      "recommendationScore": 105.39,
       "tags": [
         "Social"
       ],
@@ -409,46 +444,69 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-02-18T11:58:27.000Z",
-      "relevanceScore": 117.6,
-      "recommendationScore": 118.1,
+      "relevanceScore": 105.04,
+      "recommendationScore": 105.54,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Do not give away Diego Garcia, Trump tells UK in fresh attack on Chagos deal",
-      "link": "https://www.bbc.com/news/articles/c309qqyer8yo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-18T22:08:13.000Z",
-      "relevanceScore": 114.63,
-      "recommendationScore": 115.13,
+      "title": "FDA reverses course on Moderna flu shot",
+      "link": "https://www.npr.org/2026/02/18/nx-s1-5718116/fda-moderna-mrna-flu-shot",
+      "source": "NPR Business",
+      "category": "health",
+      "pubDate": "2026-02-18T21:39:15.000Z",
+      "relevanceScore": 52.48,
+      "recommendationScore": 52.48,
       "tags": [
-        "Partnership"
+        "Business"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Hacking conference Def Con bans three people linked to Epstein",
-      "link": "https://techcrunch.com/2026/02/18/hacking-conference-def-con-bans-three-people-linked-to-epstein/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-02-18T22:04:13.000Z",
-      "relevanceScore": 110.61,
-      "recommendationScore": 111.11,
+      "title": "8-Bit Music Theory: How They Made The Great Sea Feel C U R S E D",
+      "link": "https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-4ngp",
+      "source": "Dev.to",
+      "category": "climate",
+      "pubDate": "2026-02-19T02:05:56.000Z",
+      "relevanceScore": 50.37,
+      "recommendationScore": 52.37,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Major special education support shake-up risks political backlash",
+      "link": "https://www.bbc.com/news/articles/cx2d041wl6po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "education",
+      "pubDate": "2026-02-19T01:32:15.000Z",
+      "relevanceScore": 31.26,
+      "recommendationScore": 31.76,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Social media on trial: tech giants face lawsuits over addiction, safety, and mental health",
-      "link": "https://www.theverge.com/policy/880850/social-media-lawsuits-meta-facebook-instagram-tiktok",
-      "source": "The Verge",
-      "category": "social",
-      "pubDate": "2026-02-18T21:27:09.000Z",
-      "relevanceScore": 108.49,
-      "recommendationScore": 108.99,
+      "title": "The robots who predict the future",
+      "link": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-02-18T11:00:00.000Z",
+      "relevanceScore": 27.85,
+      "recommendationScore": 27.85,
       "tags": [
-        "Tech",
         "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform",
+      "link": "https://techcrunch.com/2026/02/18/seatgeek-and-spotify-team-up-to-offer-concert-ticket-sales-inside-the-music-platform/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-02-18T19:07:40.000Z",
+      "relevanceScore": 27.48,
+      "recommendationScore": 27.98,
+      "tags": [
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -458,8 +516,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-02-18T20:57:48.000Z",
-      "relevanceScore": 50.39,
-      "recommendationScore": 52.89,
+      "relevanceScore": 26.84,
+      "recommendationScore": 29.34,
       "tags": [
         "Mobile",
         "Startup",
@@ -469,76 +527,42 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "'I do not trust them' - top streamers left concerned by Discord age checks",
-      "link": "https://www.bbc.com/news/articles/cn4g8ynpwl8o?at_medium=RSS&at_campaign=rss",
+      "title": "The Bose QuietComfort Ultra Gen 2 Headphones Are at Their Lowest Price in Months",
+      "link": "https://www.wired.com/story/bose-quietcomfort-ultra-2-deal-0218/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-02-18T21:15:12.000Z",
+      "relevanceScore": 26.4,
+      "recommendationScore": 26.9,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Mark Zuckerberg Tries to Play It Safe in Social Media Addiction Trial Testimony",
+      "link": "https://www.wired.com/story/mark-zuckerberg-testifies-social-media-addiction-trial-meta/",
+      "source": "Wired",
+      "category": "social",
+      "pubDate": "2026-02-19T02:04:13.000Z",
+      "relevanceScore": 25.86,
+      "recommendationScore": 26.36,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Tech firms will have 48 hours to remove abusive images under new law",
+      "link": "https://www.bbc.com/news/articles/cz6ed1549yvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
-      "category": "entertainment",
-      "pubDate": "2026-02-18T01:47:12.000Z",
-      "relevanceScore": 44.56,
-      "recommendationScore": 46.06,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Teenage girls lured into forced sex by gangs in London, BBC finds",
-      "link": "https://www.bbc.com/news/articles/cjd9xnjyy8po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-18T17:01:16.000Z",
-      "relevanceScore": 36.6,
-      "recommendationScore": 37.1,
+      "category": "tech",
+      "pubDate": "2026-02-19T00:55:16.000Z",
+      "relevanceScore": 25.63,
+      "recommendationScore": 28.13,
       "tags": [
-        "Analysis"
+        "Tech",
+        "Regulation"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "GB curlers emerge from epic day with medal hopes revived",
-      "link": "https://www.bbc.com/sport/articles/c0q3nejy1pjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-02-18T20:23:36.000Z",
-      "relevanceScore": 32.28,
-      "recommendationScore": 32.78,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform",
-      "link": "https://techcrunch.com/2026/02/18/seatgeek-and-spotify-team-up-to-offer-concert-ticket-sales-inside-the-music-platform/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-02-18T19:07:40.000Z",
-      "relevanceScore": 28.03,
-      "recommendationScore": 28.53,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "FDA reverses course on Moderna flu shot",
-      "link": "https://www.npr.org/2026/02/18/nx-s1-5718116/fda-moderna-mrna-flu-shot",
-      "source": "NPR Business",
-      "category": "health",
-      "pubDate": "2026-02-18T21:39:15.000Z",
-      "relevanceScore": 27.53,
-      "recommendationScore": 27.53,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Seahawks sale process begins less than 2 weeks after winning Super Bowl, Paul Allen's estate says",
-      "link": "https://abcnews.com/Business/wireStory/seahawks-sale-process-begins-2-weeks-after-winning-130276604",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-02-18T21:17:56.000Z",
-      "relevanceScore": 26.46,
-      "recommendationScore": 26.96,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Save on Gaming Earbuds Perfect for Playing on Switch or ROG Xbox Ally",
@@ -546,8 +570,8 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2026-02-18T19:46:05.000Z",
-      "relevanceScore": 26.15,
-      "recommendationScore": 26.65,
+      "relevanceScore": 25.6,
+      "recommendationScore": 26.1,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -557,8 +581,8 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2026-02-18T23:50:35.000Z",
-      "relevanceScore": 25.97,
-      "recommendationScore": 26.47,
+      "relevanceScore": 25.42,
+      "recommendationScore": 25.92,
       "tags": [
         "Business",
         "Web"
@@ -566,38 +590,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Tech firms will have 48 hours to remove abusive images under new law",
-      "link": "https://www.bbc.com/news/articles/cz6ed1549yvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-02-18T22:32:18.000Z",
-      "relevanceScore": 25.71,
-      "recommendationScore": 28.21,
-      "tags": [
-        "Tech",
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Bose QuietComfort Ultra Gen 2 Headphones Are at Their Lowest Price in Months",
-      "link": "https://www.wired.com/story/bose-quietcomfort-ultra-2-deal-0218/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-02-18T21:15:12.000Z",
-      "relevanceScore": 25.45,
-      "recommendationScore": 25.95,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Lawsuit: EPA revoking greenhouse gas finding risks “thousands of avoidable deaths”",
       "link": "https://arstechnica.com/tech-policy/2026/02/lawsuit-epa-revoking-greenhouse-gas-finding-risks-thousands-of-avoidable-deaths/",
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2026-02-18T19:48:06.000Z",
-      "relevanceScore": 24.66,
-      "recommendationScore": 25.16,
+      "relevanceScore": 24.11,
+      "recommendationScore": 24.61,
       "tags": [
         "IPO"
       ],
@@ -611,7 +610,7 @@
         "link": "https://www.theverge.com/21280354/best-ipad-deals-apple",
         "source": "The Verge",
         "pubDate": "2026-02-18T22:12:09.000Z",
-        "relevanceScore": 533.64,
+        "relevanceScore": 686.09,
         "tags": []
       },
       {
@@ -619,7 +618,15 @@
         "link": "https://arstechnica.com/cars/2026/02/chevy-bolt-bmw-i3-or-something-else-at-10k-you-have-lots-of-ev-options/",
         "source": "Ars Technica",
         "pubDate": "2026-02-18T20:22:03.000Z",
-        "relevanceScore": 415.27,
+        "relevanceScore": 439.72,
+        "tags": []
+      },
+      {
+        "title": "The RAM crunch could kill products and even entire companies, memory exec admits",
+        "link": "https://www.theverge.com/tech/881062/ram-shortage-kill-products-companies-phison-ceo-interview",
+        "source": "The Verge",
+        "pubDate": "2026-02-19T00:32:30.000Z",
+        "relevanceScore": 285.06,
         "tags": []
       },
       {
@@ -627,33 +634,25 @@
         "link": "https://techcrunch.com/2026/02/18/etsy-sells-secondhand-clothing-marketplace-depop-to-ebay-for-1-2b/",
         "source": "TechCrunch",
         "pubDate": "2026-02-18T22:55:41.000Z",
-        "relevanceScore": 204.79,
+        "relevanceScore": 268.74,
         "tags": [
           "Partnership"
         ]
-      },
-      {
-        "title": "Dyson turned its skinny PencilVac into a lightweight wet floor cleaner",
-        "link": "https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle",
-        "source": "The Verge",
-        "pubDate": "2026-02-18T23:01:00.000Z",
-        "relevanceScore": 187.8,
-        "tags": []
       },
       {
         "title": "Dyson announces the PencilWash wet floor cleaner",
         "link": "https://www.engadget.com/home/dyson-announces-the-pencilwash-wet-floor-cleaner-230152299.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-18T23:01:52.000Z",
-        "relevanceScore": 174.81,
+        "relevanceScore": 268.26,
         "tags": []
       },
       {
-        "title": "Call of Duty advert banned for trivialising sexual violence",
-        "link": "https://www.bbc.com/news/articles/czd831elpz5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-18T11:58:27.000Z",
-        "relevanceScore": 117.6,
+        "title": "Dyson turned its skinny PencilVac into a lightweight wet floor cleaner",
+        "link": "https://www.theverge.com/tech/880594/dyson-pencilwash-wet-floor-cleaner-thin-battery-handle",
+        "source": "The Verge",
+        "pubDate": "2026-02-18T23:01:00.000Z",
+        "relevanceScore": 194.25,
         "tags": []
       },
       {
@@ -661,36 +660,54 @@
         "link": "https://techcrunch.com/2026/02/18/hacking-conference-def-con-bans-three-people-linked-to-epstein/",
         "source": "TechCrunch",
         "pubDate": "2026-02-18T22:04:13.000Z",
-        "relevanceScore": 110.61,
+        "relevanceScore": 185.06,
         "tags": []
       },
       {
-        "title": "Tech firms will have 48 hours to remove abusive images under new law",
-        "link": "https://www.bbc.com/news/articles/cz6ed1549yvo?at_medium=RSS&at_campaign=rss",
+        "title": "Call of Duty advert banned for trivialising sexual violence",
+        "link": "https://www.bbc.com/news/articles/czd831elpz5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
-        "pubDate": "2026-02-18T22:32:18.000Z",
-        "relevanceScore": 25.71,
-        "tags": [
-          "Tech",
-          "Regulation"
-        ]
+        "pubDate": "2026-02-18T11:58:27.000Z",
+        "relevanceScore": 105.04,
+        "tags": []
       },
       {
         "title": "The Bose QuietComfort Ultra Gen 2 Headphones Are at Their Lowest Price in Months",
         "link": "https://www.wired.com/story/bose-quietcomfort-ultra-2-deal-0218/",
         "source": "Wired",
         "pubDate": "2026-02-18T21:15:12.000Z",
-        "relevanceScore": 25.45,
+        "relevanceScore": 26.4,
         "tags": []
+      },
+      {
+        "title": "Tech firms will have 48 hours to remove abusive images under new law",
+        "link": "https://www.bbc.com/news/articles/cz6ed1549yvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-02-19T00:55:16.000Z",
+        "relevanceScore": 25.63,
+        "tags": [
+          "Tech",
+          "Regulation"
+        ]
       }
     ],
     "ai-ml": [
+      {
+        "title": "India's 3-Hour Deepfake Rule Exposes a Blind Spot: Building Cryptographic Proof of What AI Refused to Generate",
+        "link": "https://dev.to/veritaschain/indias-3-hour-deepfake-rule-exposes-a-blind-spot-building-cryptographic-proof-of-what-ai-refused-45c1",
+        "source": "Dev.to",
+        "pubDate": "2026-02-19T02:06:37.000Z",
+        "relevanceScore": 676.37,
+        "tags": [
+          "AI"
+        ]
+      },
       {
         "title": "Is your startup’s check engine light on? Google Cloud’s VP explains what to do",
         "link": "https://techcrunch.com/video/is-your-startups-check-engine-light-on-google-clouds-vp-explains-what-to-do/",
         "source": "TechCrunch",
         "pubDate": "2026-02-18T21:07:00.000Z",
-        "relevanceScore": 523.42,
+        "relevanceScore": 407.37,
         "tags": [
           "AI",
           "Cloud",
@@ -703,7 +720,7 @@
         "link": "https://stackoverflow.blog/2026/02/18/closing-the-developer-ai-trust-gap/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-02-18T17:00:00.000Z",
-        "relevanceScore": 306.1,
+        "relevanceScore": 304.55,
         "tags": [
           "AI"
         ]
@@ -713,10 +730,22 @@
         "link": "https://www.theverge.com/tech/881065/meta-smartwatch-plans-2026",
         "source": "The Verge",
         "pubDate": "2026-02-18T22:54:05.000Z",
-        "relevanceScore": 296.28,
+        "relevanceScore": 288.23,
         "tags": [
           "AI",
           "Launch"
+        ]
+      },
+      {
+        "title": "Local-First Documentation: What It Is and Why Your AI Agent Needs It",
+        "link": "https://dev.to/moshe_io/local-first-documentation-what-it-is-and-why-your-ai-agent-needs-it-1l0g",
+        "source": "Dev.to",
+        "pubDate": "2026-02-19T02:27:08.000Z",
+        "relevanceScore": 264.44,
+        "tags": [
+          "AI",
+          "Cloud",
+          "Exclusive"
         ]
       },
       {
@@ -724,7 +753,7 @@
         "link": "https://github.blog/open-source/maintainers/securing-the-ai-software-supply-chain-security-results-across-67-open-source-projects/",
         "source": "GitHub Blog",
         "pubDate": "2026-02-17T19:00:00.000Z",
-        "relevanceScore": 237.2,
+        "relevanceScore": 126.15,
         "tags": [
           "AI",
           "Tech",
@@ -737,22 +766,10 @@
         "link": "https://www.wired.com/story/ai-lab-scout-ai-is-using-ai-agents-to-blow-things-up/",
         "source": "Wired",
         "pubDate": "2026-02-18T19:47:15.000Z",
-        "relevanceScore": 119.16,
+        "relevanceScore": 106.61,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Nvidia’s Deal With Meta Signals a New Era in Computing Power",
-        "link": "https://www.wired.com/story/nvidias-deal-with-meta-signals-a-new-era-in-computing-power/",
-        "source": "Wired",
-        "pubDate": "2026-02-18T19:24:55.000Z",
-        "relevanceScore": 119.08,
-        "tags": [
-          "AI",
-          "Tech",
-          "Partnership"
         ]
       }
     ],
@@ -762,7 +779,7 @@
         "link": "https://www.npr.org/2026/02/18/nx-s1-5668495/an-expected-end-of-year-federal-ban-puts-hemp-businesses-in-jeopardy",
         "source": "NPR Business",
         "pubDate": "2026-02-18T21:46:44.000Z",
-        "relevanceScore": 369.06,
+        "relevanceScore": 475.51,
         "tags": [
           "Business"
         ]
@@ -772,7 +789,7 @@
         "link": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-2182026-130280069",
         "source": "ABC News Business",
         "pubDate": "2026-02-18T21:57:31.000Z",
-        "relevanceScore": 261.59,
+        "relevanceScore": 285.04,
         "tags": [
           "Business",
           "IPO"
@@ -783,7 +800,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/02/verizon-might-drop-its-annoying-35-day-wait-for-unlocking-paid-off-phones/",
         "source": "Ars Technica",
         "pubDate": "2026-02-18T20:58:34.000Z",
-        "relevanceScore": 119.4,
+        "relevanceScore": 106.84,
         "tags": [
           "Report",
           "Regulation"
@@ -794,7 +811,7 @@
         "link": "https://abcnews.com/Business/wireStory/online-seller-ebay-buy-secondhand-fashion-marketplace-depop-130283313",
         "source": "ABC News Business",
         "pubDate": "2026-02-18T23:50:35.000Z",
-        "relevanceScore": 25.97,
+        "relevanceScore": 25.42,
         "tags": [
           "Business",
           "Web"
@@ -807,40 +824,8 @@
         "link": "https://www.engadget.com/ai/gemini-can-now-generate-a-30-second-approximation-of-what-real-music-sounds-like-204445903.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-18T20:44:45.000Z",
-        "relevanceScore": 349.35,
+        "relevanceScore": 430.8,
         "tags": []
-      },
-      {
-        "title": "'I do not trust them' - top streamers left concerned by Discord age checks",
-        "link": "https://www.bbc.com/news/articles/cn4g8ynpwl8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-18T01:47:12.000Z",
-        "relevanceScore": 44.56,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "The High Cost of Poor Code Quality: A Deep Dive into Technical Debt and Its Implications",
-        "link": "https://dev.to/denlava/the-high-cost-of-poor-code-quality-a-deep-dive-into-technical-debt-and-its-implications-2jno",
-        "source": "Dev.to",
-        "pubDate": "2026-02-18T23:52:32.000Z",
-        "relevanceScore": 316.48,
-        "tags": [
-          "Science",
-          "Analysis",
-          "Report"
-        ]
-      },
-      {
-        "title": "What to expect for open source in 2026",
-        "link": "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-02-18T18:41:42.000Z",
-        "relevanceScore": 276.94,
-        "tags": [
-          "Exclusive"
-        ]
       }
     ],
     "health": [
@@ -849,7 +834,7 @@
         "link": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-18T16:00:22.000Z",
-        "relevanceScore": 309.9,
+        "relevanceScore": 369.35,
         "tags": []
       },
       {
@@ -857,7 +842,7 @@
         "link": "https://www.npr.org/2026/02/18/nx-s1-5718116/fda-moderna-mrna-flu-shot",
         "source": "NPR Business",
         "pubDate": "2026-02-18T21:39:15.000Z",
-        "relevanceScore": 27.53,
+        "relevanceScore": 52.48,
         "tags": [
           "Business"
         ]
@@ -867,56 +852,65 @@
         "link": "https://arstechnica.com/tech-policy/2026/02/lawsuit-epa-revoking-greenhouse-gas-finding-risks-thousands-of-avoidable-deaths/",
         "source": "Ars Technica",
         "pubDate": "2026-02-18T19:48:06.000Z",
-        "relevanceScore": 24.66,
+        "relevanceScore": 24.11,
         "tags": [
           "IPO"
         ]
       }
     ],
-    "general": [
+    "mobile": [
       {
-        "title": "Vinicius: Eight years at Real Madrid, 20 cases of alleged racist abuse",
-        "link": "https://www.bbc.com/sport/football/articles/c4g82mr3l3vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-18T17:40:56.000Z",
-        "relevanceScore": 231.24,
+        "title": "5 changes to know about in Apple's latest iOS, macOS, and iPadOS betas",
+        "link": "https://arstechnica.com/gadgets/2026/02/5-changes-to-know-about-in-apples-latest-ios-macos-and-ipados-betas/",
+        "source": "Ars Technica",
+        "pubDate": "2026-02-18T19:28:26.000Z",
+        "relevanceScore": 366.04,
         "tags": []
       },
       {
-        "title": "Eight skiers found dead after California avalanche",
-        "link": "https://www.bbc.com/news/articles/cvg19dp4vxgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-18T23:06:14.000Z",
-        "relevanceScore": 126.82,
-        "tags": []
-      },
-      {
-        "title": "Do not give away Diego Garcia, Trump tells UK in fresh attack on Chagos deal",
-        "link": "https://www.bbc.com/news/articles/c309qqyer8yo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-18T22:08:13.000Z",
-        "relevanceScore": 114.63,
+        "title": "Etsy sells second-hand fashion app Depop to eBay for $1.2bn",
+        "link": "https://www.bbc.com/news/articles/cx240kme2k8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-02-19T01:37:44.000Z",
+        "relevanceScore": 185.28,
         "tags": [
-          "Partnership"
+          "Mobile"
         ]
       },
       {
-        "title": "Teenage girls lured into forced sex by gangs in London, BBC finds",
-        "link": "https://www.bbc.com/news/articles/cjd9xnjyy8po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-18T17:01:16.000Z",
-        "relevanceScore": 36.6,
+        "title": "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform",
+        "link": "https://techcrunch.com/2026/02/18/seatgeek-and-spotify-team-up-to-offer-concert-ticket-sales-inside-the-music-platform/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-18T19:07:40.000Z",
+        "relevanceScore": 27.48,
         "tags": [
-          "Analysis"
+          "Mobile"
         ]
       },
       {
-        "title": "GB curlers emerge from epic day with medal hopes revived",
-        "link": "https://www.bbc.com/sport/articles/c0q3nejy1pjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-02-18T20:23:36.000Z",
-        "relevanceScore": 32.28,
-        "tags": []
+        "title": "A startup called Germ becomes the first private messenger that launches directly from Bluesky’s app",
+        "link": "https://techcrunch.com/2026/02/18/a-startup-called-germ-becomes-the-first-private-messenger-that-launches-directly-from-blueskys-app/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-18T20:57:48.000Z",
+        "relevanceScore": 26.84,
+        "tags": [
+          "Mobile",
+          "Startup",
+          "Social",
+          "Exclusive"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "What to expect for open source in 2026",
+        "link": "https://github.blog/open-source/maintainers/what-to-expect-for-open-source-in-2026/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-02-18T18:41:42.000Z",
+        "relevanceScore": 334.39,
+        "tags": [
+          "Exclusive"
+        ]
       }
     ],
     "blockchain": [
@@ -925,40 +919,9 @@
         "link": "https://www.technologyreview.com/2026/02/18/1133291/the-download-a-blockchain-enigma-and-the-algorithms-governing-our-lives/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-18T13:10:00.000Z",
-        "relevanceScore": 228.33,
+        "relevanceScore": 288.78,
         "tags": [
           "Tech"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Data is the new oil, and your database is the only way to extract it",
-        "link": "https://stackoverflow.blog/2026/02/17/data-is-the-new-oil/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-02-17T08:40:00.000Z",
-        "relevanceScore": 222.13,
-        "tags": [
-          "Cloud"
-        ]
-      },
-      {
-        "title": "Kubernetes Configuration Management: Mastering Helm Values Files for Multi-Environment Deployments",
-        "link": "https://dev.to/shingaiz/kubernetes-configuration-management-mastering-helm-values-files-for-multi-environment-deployments-303f",
-        "source": "Dev.to",
-        "pubDate": "2026-02-18T23:50:38.000Z",
-        "relevanceScore": 191.97,
-        "tags": []
-      },
-      {
-        "title": "How to Replace Your REST API Key System with a Solana Program",
-        "link": "https://dev.to/theauroraai/how-to-replace-your-rest-api-key-system-with-a-solana-program-4m85",
-        "source": "Dev.to",
-        "pubDate": "2026-02-18T23:55:06.000Z",
-        "relevanceScore": 143.98,
-        "tags": [
-          "Cloud",
-          "Tutorial"
         ]
       }
     ],
@@ -968,7 +931,7 @@
         "link": "https://www.engadget.com/gaming/cyberpunk-platformer-replaced-has-once-again-been-delayed-190621246.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-18T19:06:21.000Z",
-        "relevanceScore": 200.02,
+        "relevanceScore": 263.97,
         "tags": [
           "Partnership"
         ]
@@ -978,72 +941,40 @@
         "link": "https://www.wired.com/story/arctis-gamebuds-deal-226/",
         "source": "Wired",
         "pubDate": "2026-02-18T19:46:05.000Z",
-        "relevanceScore": 26.15,
+        "relevanceScore": 25.6,
         "tags": []
       }
     ],
-    "mobile": [
+    "cloud": [
       {
-        "title": "5 changes to know about in Apple's latest iOS, macOS, and iPadOS betas",
-        "link": "https://arstechnica.com/gadgets/2026/02/5-changes-to-know-about-in-apples-latest-ios-macos-and-ipados-betas/",
-        "source": "Ars Technica",
-        "pubDate": "2026-02-18T19:28:26.000Z",
-        "relevanceScore": 191.1,
-        "tags": []
-      },
-      {
-        "title": "A startup called Germ becomes the first private messenger that launches directly from Bluesky’s app",
-        "link": "https://techcrunch.com/2026/02/18/a-startup-called-germ-becomes-the-first-private-messenger-that-launches-directly-from-blueskys-app/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-18T20:57:48.000Z",
-        "relevanceScore": 50.39,
+        "title": "Data is the new oil, and your database is the only way to extract it",
+        "link": "https://stackoverflow.blog/2026/02/17/data-is-the-new-oil/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-02-17T08:40:00.000Z",
+        "relevanceScore": 236.58,
         "tags": [
-          "Mobile",
-          "Startup",
-          "Social",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "SeatGeek and Spotify team up to offer concert ticket sales inside the music platform",
-        "link": "https://techcrunch.com/2026/02/18/seatgeek-and-spotify-team-up-to-offer-concert-ticket-sales-inside-the-music-platform/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-18T19:07:40.000Z",
-        "relevanceScore": 28.03,
-        "tags": [
-          "Mobile"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "The robots who predict the future",
-        "link": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-02-18T11:00:00.000Z",
-        "relevanceScore": 135.4,
-        "tags": [
-          "Social"
+          "Cloud"
         ]
       }
     ],
     "social": [
       {
-        "title": "Zuckerberg defends Meta in landmark social media addiction trial",
-        "link": "https://www.bbc.com/news/articles/c5y42znjnjvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-18T22:58:58.000Z",
-        "relevanceScore": 131.3,
+        "title": "Zuckerberg grilled about Meta's strategy to target 'teens' and 'tweens'",
+        "link": "https://www.npr.org/2026/02/18/nx-s1-5717117/zuckerberg-testimony-social-media-addiction-trial",
+        "source": "NPR Business",
+        "pubDate": "2026-02-18T23:54:48.000Z",
+        "relevanceScore": 221.93,
         "tags": [
+          "Tech",
           "Social"
         ]
       },
       {
-        "title": "Meta CEO Mark Zuckerberg to face jury in landmark social media addiction trial",
-        "link": "https://www.npr.org/2026/02/18/nx-s1-5716229/zuckerberg-social-media-addiction-trial",
-        "source": "NPR Business",
-        "pubDate": "2026-02-18T10:00:00.000Z",
-        "relevanceScore": 118.7,
+        "title": "Zuckerberg defends Meta in landmark social media addiction trial",
+        "link": "https://www.bbc.com/news/articles/c5y42znjnjvo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-02-18T22:58:58.000Z",
+        "relevanceScore": 130.25,
         "tags": [
           "Social"
         ]
@@ -1053,53 +984,122 @@
         "link": "https://www.engadget.com/social-media/mark-zuckerberg-testifies-in-social-media-addiction-trial-that-meta-just-wants-instagram-to-be-useful-234332316.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-18T23:43:32.000Z",
-        "relevanceScore": 117.95,
+        "relevanceScore": 105.39,
         "tags": [
           "Social"
         ]
       },
       {
-        "title": "Social media on trial: tech giants face lawsuits over addiction, safety, and mental health",
-        "link": "https://www.theverge.com/policy/880850/social-media-lawsuits-meta-facebook-instagram-tiktok",
-        "source": "The Verge",
-        "pubDate": "2026-02-18T21:27:09.000Z",
-        "relevanceScore": 108.49,
+        "title": "Mark Zuckerberg Tries to Play It Safe in Social Media Addiction Trial Testimony",
+        "link": "https://www.wired.com/story/mark-zuckerberg-testifies-social-media-addiction-trial-meta/",
+        "source": "Wired",
+        "pubDate": "2026-02-19T02:04:13.000Z",
+        "relevanceScore": 25.86,
         "tags": [
-          "Tech",
           "Social"
         ]
       }
     ],
+    "general": [
+      {
+        "title": "Child poverty figures in the UK expected to be revised down",
+        "link": "https://www.bbc.com/news/articles/c3rz8q3qpwzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-19T01:03:10.000Z",
+        "relevanceScore": 189.66,
+        "tags": []
+      },
+      {
+        "title": "Do not give away Diego Garcia, Trump tells UK in fresh attack on Chagos deal",
+        "link": "https://www.bbc.com/news/articles/c309qqyer8yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-18T22:08:13.000Z",
+        "relevanceScore": 189.08,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Teenage girls lured into forced sex by gangs in London, BBC finds",
+        "link": "https://www.bbc.com/news/articles/cjd9xnjyy8po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-18T17:01:16.000Z",
+        "relevanceScore": 117.05,
+        "tags": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Why there's no quick fix in sight for the problem of dazzling headlights",
+        "link": "https://www.bbc.com/news/articles/cn71xyjpdl2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-19T01:10:15.000Z",
+        "relevanceScore": 113.18,
+        "tags": []
+      }
+    ],
     "business": [
       {
-        "title": "Seahawks sale process begins less than 2 weeks after winning Super Bowl, Paul Allen's estate says",
-        "link": "https://abcnews.com/Business/wireStory/seahawks-sale-process-begins-2-weeks-after-winning-130276604",
+        "title": "Man who lived rent-free in New Yorker Hotel, then claimed to own it, pleads guilty",
+        "link": "https://abcnews.com/Business/wireStory/man-lived-rent-free-new-yorker-hotel-claimed-130284504",
         "source": "ABC News Business",
-        "pubDate": "2026-02-18T21:17:56.000Z",
-        "relevanceScore": 26.46,
+        "pubDate": "2026-02-19T01:19:46.000Z",
+        "relevanceScore": 107.72,
         "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "8-Bit Music Theory: How They Made The Great Sea Feel C U R S E D",
+        "link": "https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-4ngp",
+        "source": "Dev.to",
+        "pubDate": "2026-02-19T02:05:56.000Z",
+        "relevanceScore": 50.37,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Major special education support shake-up risks political backlash",
+        "link": "https://www.bbc.com/news/articles/cx2d041wl6po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-02-19T01:32:15.000Z",
+        "relevanceScore": 31.26,
+        "tags": []
+      }
+    ],
+    "science": [
+      {
+        "title": "The robots who predict the future",
+        "link": "https://www.technologyreview.com/2026/02/18/1132579/robots-predict-future-book-review/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-02-18T11:00:00.000Z",
+        "relevanceScore": 27.85,
+        "tags": [
+          "Social"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 14,
-    "avgRelevanceScore": 173.57239130434783,
+    "totalCategories": 16,
+    "avgRelevanceScore": 206.34956521739133,
     "topCategories": [
       {
         "category": "tech",
-        "count": 9
+        "count": 10
       },
       {
         "category": "ai-ml",
-        "count": 6
-      },
-      {
-        "category": "general",
-        "count": 5
+        "count": 7
       },
       {
         "category": "finance",
+        "count": 4
+      },
+      {
+        "category": "mobile",
         "count": 4
       },
       {
