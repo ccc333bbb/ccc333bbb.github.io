@@ -1,28 +1,30 @@
 {
   "date": "2026-02-21",
-  "lastUpdated": "2026-02-21T21:44:36.166Z",
+  "lastUpdated": "2026-02-21T21:56:26.739Z",
   "totalArticles": 42,
   "articles": [
     {
-      "id": "UmVhZOKAkXlvdXLi",
-      "title": "Read‑your‑writes on replicas: PostgreSQL WAIT FOR LSN and MongoDB Causal Consistency",
-      "link": "https://dev.to/franckpachot/read-your-writes-on-replicas-postgresql-wait-for-lsn-and-mongodb-causal-consistency-4he2",
-      "description": "In databases designed for high availability and scalability, secondary nodes can fall behind the primary. Typically, a quorum of nodes is updated synchronously to guarantee durability while maintaining availability, while remaining standby instances are eventually consistent to handle partial failur",
-      "pubDate": "2026-02-21T21:36:36.000Z",
+      "id": "SSBCdWlsdCBhIFN0",
+      "title": "I Built a Stateless Image Processing API — Here's How It Works",
+      "link": "https://dev.to/theglitchapp/i-built-a-stateless-image-processing-api-heres-how-it-works-7ho",
+      "description": "Every web project eventually runs into the same problem: you need to resize an image, convert a format, maybe add some effects, or strip a background. You can set up ImageMagick, wrestle with Sharp, or build custom pipelines — or you can make one HTTP call. That's why I built TheGlitch — a stateless",
+      "pubDate": "2026-02-21T21:41:15.000Z",
       "source": "Dev.to",
       "category": "development",
       "weight": 6,
-      "content": "In databases designed for high availability and scalability, secondary nodes can fall behind the primary. Typically, a quorum of nodes is updated synchronously to guarantee durability while maintaining availability, while remaining standby instances are eventually consistent to handle partial failures. To balance availability with performance, synchronous replicas acknowledge a write only when it is durable and recoverable, even if it is not yet readable. As a result, if your application writes ",
-      "author": "Franck Pachot",
+      "content": "Every web project eventually runs into the same problem: you need to resize an image, convert a format, maybe add some effects, or strip a background. You can set up ImageMagick, wrestle with Sharp, or build custom pipelines — or you can make one HTTP call. That's why I built TheGlitch — a stateless image processing API that handles everything in a single request. The Problem Image processing infrastructure is surprisingly complex: Installing native dependencies on different OS targets Managing ",
+      "author": "TheGlitch",
       "readTime": 1,
-      "importance": 8,
-      "tags": [],
+      "importance": 6,
+      "tags": [
+        "Web"
+      ],
       "sentiment": "negative",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 788.47,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 788.97,
+      "relevanceScore": 727.95,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 729.95,
       "readingLevel": "advanced"
     },
     {
@@ -44,9 +46,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 343.48,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 343.98,
+      "relevanceScore": 348.44,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 348.94,
       "readingLevel": "advanced"
     },
     {
@@ -66,9 +68,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 350.5,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 351,
+      "relevanceScore": 355.46,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 355.96,
       "readingLevel": "intermediate"
     },
     {
@@ -91,9 +93,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 294.55,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 294.55,
+      "relevanceScore": 303.51,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 303.51,
       "readingLevel": "advanced"
     },
     {
@@ -113,9 +115,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 259.05,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 259.55,
+      "relevanceScore": 267.01,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 267.51,
       "readingLevel": "intermediate"
     },
     {
@@ -135,9 +137,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 223.74,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 224.24,
+      "relevanceScore": 238.7,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 239.2,
       "readingLevel": "advanced"
     },
     {
@@ -160,9 +162,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 182.11,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 182.61,
+      "relevanceScore": 189.57,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 190.07,
       "readingLevel": "intermediate"
     },
     {
@@ -184,57 +186,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 165.04,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 165.54,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "R29vZ2xlIFZQIHdh",
-      "title": "Google VP warns that two types of AI startups may not survive",
-      "link": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
-      "description": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
-      "pubDate": "2026-02-21T16:00:00.000Z",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "weight": 8,
-      "content": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
-      "author": "Rebecca Bellan",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "AI"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 111.35,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 111.85,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "QnJhemlsIGFuZCBJ",
-      "title": "Brazil and India agree to boost cooperation on rare earths",
-      "link": "https://abcnews.com/Business/wireStory/brazil-india-agree-boost-cooperation-rare-earths-130371382",
-      "description": "Brazil and India have signed a new deal to cooperate on rare earths and other critical minerals",
-      "pubDate": "2026-02-21T20:29:56.000Z",
-      "source": "ABC News Business",
-      "category": "business",
-      "weight": 7,
-      "content": "Brazil and India have signed a new deal to cooperate on rare earths and other critical minerals",
-      "author": "ABC News Business",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Partnership"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 129.75,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 130.25,
+      "relevanceScore": 172,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 172.5,
       "readingLevel": "advanced"
     },
     {
@@ -258,9 +212,57 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 129.05,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 129.55,
+      "relevanceScore": 137.01,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 137.51,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "R29vZ2xlIFZQIHdh",
+      "title": "Google VP warns that two types of AI startups may not survive",
+      "link": "https://techcrunch.com/2026/02/21/google-vp-warns-that-two-types-of-ai-startups-may-not-survive/",
+      "description": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
+      "pubDate": "2026-02-21T16:00:00.000Z",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "weight": 8,
+      "content": "As generative AI evolves, a Google VP warns that LLM wrappers and AI aggregators face mounting pressure, with shrinking margins and limited differentiation threatening their long-term viability.",
+      "author": "Rebecca Bellan",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "AI"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 114.81,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 115.31,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "QnJhemlsIGFuZCBJ",
+      "title": "Brazil and India agree to boost cooperation on rare earths",
+      "link": "https://abcnews.com/Business/wireStory/brazil-india-agree-boost-cooperation-rare-earths-130371382",
+      "description": "Brazil and India have signed a new deal to cooperate on rare earths and other critical minerals",
+      "pubDate": "2026-02-21T20:29:56.000Z",
+      "source": "ABC News Business",
+      "category": "business",
+      "weight": 7,
+      "content": "Brazil and India have signed a new deal to cooperate on rare earths and other critical minerals",
+      "author": "ABC News Business",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [
+        "Partnership"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 135.71,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 136.21,
       "readingLevel": "advanced"
     },
     {
@@ -282,9 +284,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 131.05,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 131.55,
+      "relevanceScore": 134.01,
+      "calculatedAt": "2026-02-21T21:56:26.820Z",
+      "recommendationScore": 134.51,
       "readingLevel": "intermediate"
     },
     {
@@ -304,9 +306,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 129.55,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 131.05,
+      "relevanceScore": 132.51,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 134.01,
       "readingLevel": "beginner"
     },
     {
@@ -326,9 +328,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 130.05,
-      "calculatedAt": "2026-02-21T21:44:36.255Z",
-      "recommendationScore": 131.55,
+      "relevanceScore": 133.01,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 134.51,
       "readingLevel": "intermediate"
     },
     {
@@ -348,9 +350,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 81.73,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 82.23,
+      "relevanceScore": 84.69,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 85.19,
       "readingLevel": "advanced"
     },
     {
@@ -370,9 +372,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 80.15,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 80.65,
+      "relevanceScore": 83.11,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 83.61,
       "readingLevel": "advanced"
     },
     {
@@ -394,9 +396,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 73.58,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 73.58,
+      "relevanceScore": 76.55,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 76.55,
       "readingLevel": "advanced"
     },
     {
@@ -418,9 +420,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 50.38,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 52.88,
+      "relevanceScore": 50.85,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 53.35,
       "readingLevel": "advanced"
     },
     {
@@ -444,9 +446,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.98,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 47.48,
+      "relevanceScore": 48.95,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 49.45,
       "readingLevel": "advanced"
     },
     {
@@ -468,9 +470,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.19,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 47.69,
+      "relevanceScore": 45.65,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 48.15,
       "readingLevel": "intermediate"
     },
     {
@@ -490,9 +492,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 49.36,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 49.36,
+      "relevanceScore": 49.82,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 49.82,
       "readingLevel": "advanced"
     },
     {
@@ -512,9 +514,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 43.25,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 43.75,
+      "relevanceScore": 43.71,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 44.21,
       "readingLevel": "intermediate"
     },
     {
@@ -534,9 +536,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 39.7,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 41.2,
+      "relevanceScore": 40.16,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 41.66,
       "readingLevel": "advanced"
     },
     {
@@ -556,9 +558,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 42.35,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 42.85,
+      "relevanceScore": 42.81,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 43.31,
       "readingLevel": "intermediate"
     },
     {
@@ -580,38 +582,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 38.7,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 39.2,
+      "relevanceScore": 39.16,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 39.66,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "SG93IHRvIERlcGxv",
-      "title": "How to Deploy a Dynamic Web Application on AWS (Beginner-Friendly Guide)",
-      "link": "https://dev.to/oluwatobiloba_oludare1/how-to-deploy-a-dynamic-web-application-on-aws-beginner-friendly-guide-4nhp",
-      "description": "Deploying a dynamic web application on AWS can feel overwhelming at first especially with so many services involved. In this guide, I’ll walk through a simple, practical approach to deploying a dynamic web app using core AWS services. This is perfect for beginners learning cloud computing and DevOps",
-      "pubDate": "2026-02-21T21:39:02.000Z",
-      "source": "Dev.to",
-      "category": "mobile",
-      "weight": 6,
-      "content": "Deploying a dynamic web application on AWS can feel overwhelming at first especially with so many services involved. In this guide, I’ll walk through a simple, practical approach to deploying a dynamic web app using core AWS services. This is perfect for beginners learning cloud computing and DevOps. What is a Dynamic Web Application? Unlike static websites, dynamic web applications: Process user input Connect to databases Generate content in real time Examples include: Login systems, Dashboards",
-      "author": "Oluwatobiloba Oludare",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [
-        "Mobile",
-        "Web",
-        "Cloud",
-        "Exclusive",
-        "Tutorial"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 30.98,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 32.98,
-      "readingLevel": "advanced"
     },
     {
       "id": "U2FtIEFsdG1hbiB3",
@@ -630,9 +604,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.98,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 28.48,
+      "relevanceScore": 27.94,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 28.44,
       "readingLevel": "beginner"
     },
     {
@@ -652,9 +626,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.82,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 34.32,
+      "relevanceScore": 31.78,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 34.28,
       "readingLevel": "intermediate"
     },
     {
@@ -676,9 +650,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 27.72,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 28.22,
+      "relevanceScore": 27.68,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 28.18,
       "readingLevel": "advanced"
     },
     {
@@ -700,9 +674,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.65,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 34.15,
+      "relevanceScore": 31.61,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 34.11,
       "readingLevel": "advanced"
     },
     {
@@ -725,9 +699,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.52,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 24.02,
+      "relevanceScore": 23.48,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 23.98,
       "readingLevel": "advanced"
     },
     {
@@ -747,9 +721,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.76,
-      "calculatedAt": "2026-02-21T21:44:36.256Z",
-      "recommendationScore": 25.26,
+      "relevanceScore": 23.73,
+      "calculatedAt": "2026-02-21T21:56:26.821Z",
+      "recommendationScore": 25.23,
       "readingLevel": "advanced"
     },
     {
@@ -769,10 +743,34 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 30.8,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 31.3,
+      "relevanceScore": 30.76,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 31.26,
       "readingLevel": "intermediate"
+    },
+    {
+      "id": "U3RheSBDb25zaXN0",
+      "title": "Stay Consistent With Salah at Work Using This Slack App",
+      "link": "https://dev.to/ikhaledabdelfattah/stay-consistent-with-salah-at-work-using-this-slack-app-465o",
+      "description": "It is 4:47 PM. You are fasting. Energy is low. There is one more meeting before the day ends. Slack notifications keep coming in. Then you check the time. Asr started 20 minutes ago. You meant to pray on time. But work did not slow down. For many Muslim professionals, Ramadan does not pause deadline",
+      "pubDate": "2026-02-21T21:50:04.000Z",
+      "source": "Dev.to",
+      "category": "mobile",
+      "weight": 6,
+      "content": "It is 4:47 PM. You are fasting. Energy is low. There is one more meeting before the day ends. Slack notifications keep coming in. Then you check the time. Asr started 20 minutes ago. You meant to pray on time. But work did not slow down. For many Muslim professionals, Ramadan does not pause deadlines. It makes the balance between work and worship more challenging. That is exactly why I built Muslim Prayer Reminder for Slack. A Slack app designed to help you stay consistent with salah without lea",
+      "author": "Khaled Abdel-Fattah",
+      "readTime": 1,
+      "importance": 6,
+      "tags": [
+        "Mobile"
+      ],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 23.98,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 24.48,
+      "readingLevel": "beginner"
     },
     {
       "id": "VGhlIFBpeGVsIDEw",
@@ -791,9 +789,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.6,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 26.1,
+      "relevanceScore": 24.56,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 26.06,
       "readingLevel": "intermediate"
     },
     {
@@ -816,9 +814,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.87,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 24.87,
+      "relevanceScore": 22.83,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 24.83,
       "readingLevel": "intermediate"
     },
     {
@@ -843,9 +841,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 19.96,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 20.46,
+      "relevanceScore": 19.92,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 20.42,
       "readingLevel": "intermediate"
     },
     {
@@ -868,9 +866,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.06,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 23.56,
+      "relevanceScore": 23.02,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 23.52,
       "readingLevel": "advanced"
     },
     {
@@ -892,9 +890,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 21.64,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 24.14,
+      "relevanceScore": 21.6,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 24.1,
       "readingLevel": "intermediate"
     },
     {
@@ -914,9 +912,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.53,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 22.03,
+      "relevanceScore": 21.49,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 21.99,
       "readingLevel": "advanced"
     },
     {
@@ -936,9 +934,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.91,
-      "calculatedAt": "2026-02-21T21:44:36.257Z",
-      "recommendationScore": 25.41,
+      "relevanceScore": 24.87,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 25.37,
       "readingLevel": "advanced"
     },
     {
@@ -958,9 +956,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.25,
-      "calculatedAt": "2026-02-21T21:44:36.258Z",
-      "recommendationScore": 25.75,
+      "relevanceScore": 25.21,
+      "calculatedAt": "2026-02-21T21:56:26.822Z",
+      "recommendationScore": 25.71,
       "readingLevel": "intermediate"
     },
     {
@@ -983,9 +981,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "analysis",
-      "relevanceScore": 24.96,
-      "calculatedAt": "2026-02-21T21:44:36.258Z",
-      "recommendationScore": 25.46,
+      "relevanceScore": 24.92,
+      "calculatedAt": "2026-02-21T21:56:26.823Z",
+      "recommendationScore": 25.42,
       "readingLevel": "advanced"
     }
   ],
@@ -996,8 +994,8 @@
     "Ars Technica",
     "TechCrunch",
     "The Verge",
-    "ABC News Business",
     "Engadget",
+    "ABC News Business",
     "Wired",
     "BBC Technology",
     "Stack Overflow Blog",
@@ -1010,6 +1008,6 @@
     "tech",
     "business"
   ],
-  "processedAt": "2026-02-21T21:44:36.267Z",
+  "processedAt": "2026-02-21T21:56:26.832Z",
   "processingVersion": "2.0"
 }
