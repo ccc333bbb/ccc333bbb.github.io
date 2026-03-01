@@ -1,43 +1,44 @@
 {
-  "lastUpdated": "2026-03-01T10:48:45.727Z",
-  "totalArticles": 41,
+  "lastUpdated": "2026-03-01T11:15:53.331Z",
+  "totalArticles": 40,
   "categories": [
-    "ai-ml",
     "mobile",
+    "ai-ml",
     "tech",
     "business",
+    "development",
     "space",
     "gaming",
     "finance",
-    "startup",
     "general",
-    "entertainment",
-    "development"
+    "entertainment"
   ],
   "topArticles": [
-    {
-      "title": "Anthropic boss rejects Pentagon demand to drop AI safeguards",
-      "link": "https://www.bbc.com/news/articles/cvg3vlzzkqeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-02-27T10:57:28.000Z",
-      "relevanceScore": 2019.93,
-      "recommendationScore": 2020.43,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
     {
       "title": "Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute",
       "link": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-02-28T21:05:06.000Z",
-      "relevanceScore": 1130.25,
-      "recommendationScore": 1130.75,
+      "relevanceScore": 1170.16,
+      "recommendationScore": 1170.66,
       "tags": [
         "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I deleted my entire AI microservice and just used Postgres (here is why) 🐘⚡",
+      "link": "https://dev.to/amals367/i-deleted-my-entire-ai-microservice-and-just-used-postgres-here-is-why-541m",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-03-01T11:04:22.000Z",
+      "relevanceScore": 1129.96,
+      "recommendationScore": 1131.96,
+      "tags": [
+        "AI",
+        "Web",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -47,8 +48,8 @@
       "source": "NPR Business",
       "category": "ai-ml",
       "pubDate": "2026-02-27T20:03:04.000Z",
-      "relevanceScore": 1128.25,
-      "recommendationScore": 1128.75,
+      "relevanceScore": 861.66,
+      "recommendationScore": 862.16,
       "tags": [
         "AI",
         "Tech",
@@ -57,13 +58,24 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "The trap Anthropic built for itself",
+      "link": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-03-01T00:08:58.000Z",
+      "relevanceScore": 663.78,
+      "recommendationScore": 663.78,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Trump moves to ban Anthropic from the US government",
       "link": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-02-28T20:00:26.000Z",
-      "relevanceScore": 893.54,
-      "recommendationScore": 894.04,
+      "relevanceScore": 625.95,
+      "recommendationScore": 626.45,
       "tags": [
         "AI"
       ],
@@ -75,34 +87,12 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-02-28T03:50:05.000Z",
-      "relevanceScore": 890.8,
-      "recommendationScore": 892.3,
+      "relevanceScore": 623.21,
+      "recommendationScore": 624.71,
       "tags": [
         "AI",
         "Social"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The trap Anthropic built for itself",
-      "link": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-01T00:08:58.000Z",
-      "relevanceScore": 615.87,
-      "recommendationScore": 615.87,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How could the U.S. strikes in Iran affect the world's oil supply?",
-      "link": "https://www.npr.org/2026/02/28/nx-s1-5678603/iran-strikes-oil-energy-markets",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-02-28T15:30:37.000Z",
-      "relevanceScore": 586.14,
-      "recommendationScore": 588.14,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -111,11 +101,33 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-02-28T20:41:55.000Z",
-      "relevanceScore": 558.18,
-      "recommendationScore": 558.68,
+      "relevanceScore": 599.09,
+      "recommendationScore": 599.59,
       "tags": [
         "AI"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How could the U.S. strikes in Iran affect the world's oil supply?",
+      "link": "https://www.npr.org/2026/02/28/nx-s1-5678603/iran-strikes-oil-energy-markets",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-02-28T15:30:37.000Z",
+      "relevanceScore": 598.05,
+      "recommendationScore": 600.05,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "A Horror Story About JavaScript Promise",
+      "link": "https://dev.to/satyasootar/a-horror-story-about-javascript-promise-50f1",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-03-01T11:11:31.000Z",
+      "relevanceScore": 584.99,
+      "recommendationScore": 584.99,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -124,8 +136,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-02-28T01:26:41.000Z",
-      "relevanceScore": 542.33,
-      "recommendationScore": 542.83,
+      "relevanceScore": 553.24,
+      "recommendationScore": 553.74,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -135,23 +147,10 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-02-28T19:08:21.000Z",
-      "relevanceScore": 535.37,
-      "recommendationScore": 537.37,
+      "relevanceScore": 545.27,
+      "recommendationScore": 547.27,
       "tags": [
         "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Automating LeetCode Documentation with a Local LLM + GitHub Workflow",
-      "link": "https://dev.to/micheal_angelo_41cea4e81a/automating-leetcode-documentation-with-a-local-llm-github-workflow-47e0",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-03-01T10:42:06.000Z",
-      "relevanceScore": 428.48,
-      "recommendationScore": 428.98,
-      "tags": [
-        "IPO"
       ],
       "readingLevel": "advanced"
     },
@@ -161,8 +160,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-28T19:33:51.000Z",
-      "relevanceScore": 353.45,
-      "recommendationScore": 355.95,
+      "relevanceScore": 357.36,
+      "recommendationScore": 359.86,
       "tags": [
         "Web",
         "Breaking",
@@ -176,22 +175,11 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-28T14:30:00.000Z",
-      "relevanceScore": 297.94,
-      "recommendationScore": 298.44,
+      "relevanceScore": 331.35,
+      "recommendationScore": 331.85,
       "tags": [
         "Exclusive"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Shuttered studio Bluepoint reportedly pitched a Bloodborne remake, but it got shot down by FromSoftware",
-      "link": "https://www.engadget.com/gaming/playstation/shuttered-studio-bluepoint-reportedly-pitched-a-bloodborne-remake-but-it-got-shot-down-by-fromsoftware-173744228.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-02-28T17:37:44.000Z",
-      "relevanceScore": 276.56,
-      "recommendationScore": 276.56,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -200,8 +188,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-02-28T19:05:06.000Z",
-      "relevanceScore": 257.85,
-      "recommendationScore": 257.85,
+      "relevanceScore": 288.26,
+      "recommendationScore": 288.26,
       "tags": [
         "AI",
         "Social"
@@ -214,8 +202,19 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-28T01:03:13.000Z",
-      "relevanceScore": 256.25,
-      "recommendationScore": 256.75,
+      "relevanceScore": 286.66,
+      "recommendationScore": 287.16,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Shuttered studio Bluepoint reportedly pitched a Bloodborne remake, but it got shot down by FromSoftware",
+      "link": "https://www.engadget.com/gaming/playstation/shuttered-studio-bluepoint-reportedly-pitched-a-bloodborne-remake-but-it-got-shot-down-by-fromsoftware-173744228.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-02-28T17:37:44.000Z",
+      "relevanceScore": 280.97,
+      "recommendationScore": 280.97,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -225,8 +224,8 @@
       "source": "The Verge",
       "category": "finance",
       "pubDate": "2026-02-28T20:46:35.000Z",
-      "relevanceScore": 136.19,
-      "recommendationScore": 136.69,
+      "relevanceScore": 162.1,
+      "recommendationScore": 162.6,
       "tags": [
         "Business",
         "Controversy"
@@ -239,8 +238,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-02-28T16:07:14.000Z",
-      "relevanceScore": 114.26,
-      "recommendationScore": 114.76,
+      "relevanceScore": 116.17,
+      "recommendationScore": 116.67,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -250,24 +249,11 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-02-27T13:10:00.000Z",
-      "relevanceScore": 65.37,
-      "recommendationScore": 67.37,
+      "relevanceScore": 95.78,
+      "recommendationScore": 97.78,
       "tags": [
         "AI",
         "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "JavaScript Promises Explained: A Startup Analogy for Beginners",
-      "link": "https://dev.to/kunal_dev/javascript-promises-explained-a-startup-analogy-for-beginners-bi5",
-      "source": "Dev.to",
-      "category": "startup",
-      "pubDate": "2026-03-01T10:41:07.000Z",
-      "relevanceScore": 62.47,
-      "recommendationScore": 62.97,
-      "tags": [
-        "Startup"
       ],
       "readingLevel": "advanced"
     },
@@ -277,23 +263,25 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-01T01:47:42.000Z",
-      "relevanceScore": 58.2,
-      "recommendationScore": 60.2,
+      "relevanceScore": 94.11,
+      "recommendationScore": 96.11,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Attack on Iran disrupts flights across the Middle East and beyond",
-      "link": "https://abcnews.com/Business/wireStory/attack-iran-disrupts-flights-middle-east-130621828",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-02-28T15:25:51.000Z",
-      "relevanceScore": 53.62,
-      "recommendationScore": 54.12,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "We Need an Emission Test for AI",
+      "link": "https://dev.to/almadar/we-need-an-emission-test-for-ai-1pla",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-03-01T10:58:23.000Z",
+      "relevanceScore": 87.94,
+      "recommendationScore": 87.94,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "MIT Technology Review is a 2026 ASME finalist in reporting",
@@ -301,8 +289,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-02-27T21:41:31.000Z",
-      "relevanceScore": 50.58,
-      "recommendationScore": 51.08,
+      "relevanceScore": 86.49,
+      "recommendationScore": 86.99,
       "tags": [
         "AI",
         "Tech"
@@ -310,24 +298,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
-      "link": "https://www.bbc.com/news/articles/c98g91wgdd8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-03-01T06:21:42.000Z",
-      "relevanceScore": 36.61,
-      "recommendationScore": 37.11,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What we know so far about the US-Israeli attacks and Iran's retaliation",
-      "link": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-03-01T10:44:33.000Z",
-      "relevanceScore": 31.99,
-      "recommendationScore": 33.99,
+      "title": "Attack on Iran disrupts flights across the Middle East and beyond",
+      "link": "https://abcnews.com/Business/wireStory/attack-iran-disrupts-flights-middle-east-130621828",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-02-28T15:25:51.000Z",
+      "relevanceScore": 84.03,
+      "recommendationScore": 84.53,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -337,8 +314,89 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-01T10:01:37.000Z",
-      "relevanceScore": 31.84,
-      "recommendationScore": 32.34,
+      "relevanceScore": 61.25,
+      "recommendationScore": 61.75,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Piracy Problem Streaming Platforms Can’t Solve",
+      "link": "https://www.wired.com/story/the-piracy-problem-streaming-platforms-cant-solve/",
+      "source": "Wired",
+      "category": "finance",
+      "pubDate": "2026-03-01T10:00:00.000Z",
+      "relevanceScore": 54.75,
+      "recommendationScore": 54.75,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "X Is Drowning in Disinformation Following US and Israeli Attack on Iran",
+      "link": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-02-28T22:40:53.000Z",
+      "relevanceScore": 53.98,
+      "recommendationScore": 54.48,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "In puzzling outbreak, officials look to cold beer, gross ice, and ChatGPT",
+      "link": "https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2026-02-28T18:17:12.000Z",
+      "relevanceScore": 52.1,
+      "recommendationScore": 52.6,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Air Force's new ICBM is nearly ready to fly, but there’s nowhere to put it",
+      "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-02-28T00:32:24.000Z",
+      "relevanceScore": 48.56,
+      "recommendationScore": 51.06,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Make the Most of Chrome's Toolbar by Customizing It to Your Liking",
+      "link": "https://www.wired.com/story/how-to-customize-google-chrome-toolbar-to-your-liking/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-03-01T11:00:00.000Z",
+      "relevanceScore": 37.95,
+      "recommendationScore": 38.45,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
+      "link": "https://www.bbc.com/news/articles/c98g91wgdd8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-03-01T06:21:42.000Z",
+      "relevanceScore": 37.52,
+      "recommendationScore": 38.02,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "What we know so far about the US-Israeli attacks and Iran's retaliation",
+      "link": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-03-01T10:58:33.000Z",
+      "relevanceScore": 31.94,
+      "recommendationScore": 33.94,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -348,8 +406,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-01T02:22:32.000Z",
-      "relevanceScore": 30.31,
-      "recommendationScore": 30.81,
+      "relevanceScore": 30.22,
+      "recommendationScore": 30.72,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -359,23 +417,12 @@
       "source": "TechCrunch",
       "category": "entertainment",
       "pubDate": "2026-02-28T22:07:48.000Z",
-      "relevanceScore": 25.46,
-      "recommendationScore": 27.46,
+      "relevanceScore": 25.37,
+      "recommendationScore": 27.37,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Piracy Problem Streaming Platforms Can’t Solve",
-      "link": "https://www.wired.com/story/the-piracy-problem-streaming-platforms-cant-solve/",
-      "source": "Wired",
-      "category": "finance",
-      "pubDate": "2026-03-01T10:00:00.000Z",
-      "relevanceScore": 25.34,
-      "recommendationScore": 25.34,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "What to know about the landmark Warner Bros. Discovery sale",
@@ -383,49 +430,11 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-02-28T21:28:06.000Z",
-      "relevanceScore": 25.33,
-      "recommendationScore": 27.33,
+      "relevanceScore": 25.24,
+      "recommendationScore": 27.24,
       "tags": [
         "Science",
         "Acquisition"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "X Is Drowning in Disinformation Following US and Israeli Attack on Iran",
-      "link": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-02-28T22:40:53.000Z",
-      "relevanceScore": 24.57,
-      "recommendationScore": 25.07,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Building a Real-Time Multimodal AI Communication Coach",
-      "link": "https://dev.to/rajg07/building-a-real-time-multimodal-ai-communication-coach-1o5e",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-03-01T10:40:35.000Z",
-      "relevanceScore": 23.97,
-      "recommendationScore": 24.47,
-      "tags": [
-        "AI",
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "In puzzling outbreak, officials look to cold beer, gross ice, and ChatGPT",
-      "link": "https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2026-02-28T18:17:12.000Z",
-      "relevanceScore": 22.69,
-      "recommendationScore": 23.19,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -435,22 +444,9 @@
       "source": "Wired",
       "category": "space",
       "pubDate": "2026-02-28T16:00:00.000Z",
-      "relevanceScore": 22.24,
-      "recommendationScore": 22.74,
+      "relevanceScore": 22.15,
+      "recommendationScore": 22.65,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes",
-      "link": "https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/",
-      "source": "Wired",
-      "category": "mobile",
-      "pubDate": "2026-02-28T15:58:09.000Z",
-      "relevanceScore": 22.23,
-      "recommendationScore": 22.73,
-      "tags": [
-        "Mobile"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -459,8 +455,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-02-28T20:31:12.000Z",
-      "relevanceScore": 21.14,
-      "recommendationScore": 21.64,
+      "relevanceScore": 21.05,
+      "recommendationScore": 21.55,
       "tags": [
         "Launch",
         "Partnership"
@@ -473,23 +469,12 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-02-27T17:36:37.000Z",
-      "relevanceScore": 19.76,
-      "recommendationScore": 20.26,
+      "relevanceScore": 19.67,
+      "recommendationScore": 20.17,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "The Air Force's new ICBM is nearly ready to fly, but there’s nowhere to put it",
-      "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-02-28T00:32:24.000Z",
-      "relevanceScore": 19.15,
-      "recommendationScore": 21.65,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Resident Evil Requiem's director on redefining the survival horror genre",
@@ -497,8 +482,8 @@
       "source": "BBC Technology",
       "category": "gaming",
       "pubDate": "2026-02-28T00:01:19.000Z",
-      "relevanceScore": 19.04,
-      "recommendationScore": 19.54,
+      "relevanceScore": 18.95,
+      "recommendationScore": 19.45,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -508,8 +493,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-02-27T22:34:21.000Z",
-      "relevanceScore": 18.75,
-      "recommendationScore": 19.25,
+      "relevanceScore": 18.66,
+      "recommendationScore": 19.16,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -519,8 +504,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-02-27T16:00:00.000Z",
-      "relevanceScore": 17.44,
-      "recommendationScore": 17.94,
+      "relevanceScore": 17.35,
+      "recommendationScore": 17.85,
       "tags": [
         "Exclusive",
         "Tutorial"
@@ -529,15 +514,29 @@
     }
   ],
   "categoryIndex": {
+    "mobile": [
+      {
+        "title": "Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute",
+        "link": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-28T21:05:06.000Z",
+        "relevanceScore": 1170.16,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
     "ai-ml": [
       {
-        "title": "Anthropic boss rejects Pentagon demand to drop AI safeguards",
-        "link": "https://www.bbc.com/news/articles/cvg3vlzzkqeo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-02-27T10:57:28.000Z",
-        "relevanceScore": 2019.93,
+        "title": "I deleted my entire AI microservice and just used Postgres (here is why) 🐘⚡",
+        "link": "https://dev.to/amals367/i-deleted-my-entire-ai-microservice-and-just-used-postgres-here-is-why-541m",
+        "source": "Dev.to",
+        "pubDate": "2026-03-01T11:04:22.000Z",
+        "relevanceScore": 1129.96,
         "tags": [
-          "AI"
+          "AI",
+          "Web",
+          "Tutorial"
         ]
       },
       {
@@ -545,7 +544,7 @@
         "link": "https://www.npr.org/2026/02/27/nx-s1-5729118/trump-anthropic-pentagon-openai-ai-weapons-ban",
         "source": "NPR Business",
         "pubDate": "2026-02-27T20:03:04.000Z",
-        "relevanceScore": 1128.25,
+        "relevanceScore": 861.66,
         "tags": [
           "AI",
           "Tech",
@@ -557,7 +556,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/02/trump-moves-to-ban-anthropic-from-the-us-government/",
         "source": "Ars Technica",
         "pubDate": "2026-02-28T20:00:26.000Z",
-        "relevanceScore": 893.54,
+        "relevanceScore": 625.95,
         "tags": [
           "AI"
         ]
@@ -567,7 +566,7 @@
         "link": "https://www.bbc.com/news/articles/cn48jj3y8ezo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-28T03:50:05.000Z",
-        "relevanceScore": 890.8,
+        "relevanceScore": 623.21,
         "tags": [
           "AI",
           "Social"
@@ -578,19 +577,9 @@
         "link": "https://techcrunch.com/2026/02/28/billion-dollar-infrastructure-deals-ai-boom-data-centers-openai-oracle-nvidia-microsoft-google-meta/",
         "source": "TechCrunch",
         "pubDate": "2026-02-28T20:41:55.000Z",
-        "relevanceScore": 558.18,
+        "relevanceScore": 599.09,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "Automating LeetCode Documentation with a Local LLM + GitHub Workflow",
-        "link": "https://dev.to/micheal_angelo_41cea4e81a/automating-leetcode-documentation-with-a-local-llm-github-workflow-47e0",
-        "source": "Dev.to",
-        "pubDate": "2026-03-01T10:42:06.000Z",
-        "relevanceScore": 428.48,
-        "tags": [
-          "IPO"
         ]
       },
       {
@@ -598,7 +587,7 @@
         "link": "https://www.engadget.com/social-media/alaska-could-be-the-next-state-to-crack-down-on-ai-generated-csam-and-restrict-kids-social-media-use-190506366.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-28T19:05:06.000Z",
-        "relevanceScore": 257.85,
+        "relevanceScore": 288.26,
         "tags": [
           "AI",
           "Social"
@@ -609,10 +598,20 @@
         "link": "https://www.technologyreview.com/2026/02/27/1133754/the-download-how-ai-is-shaking-up-go-and-a-cybersecurity-mystery/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-27T13:10:00.000Z",
-        "relevanceScore": 65.37,
+        "relevanceScore": 95.78,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "We Need an Emission Test for AI",
+        "link": "https://dev.to/almadar/we-need-an-emission-test-for-ai-1pla",
+        "source": "Dev.to",
+        "pubDate": "2026-03-01T10:58:23.000Z",
+        "relevanceScore": 87.94,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -620,21 +619,10 @@
         "link": "https://www.technologyreview.com/2026/02/27/1133769/asme-finalist-reporting/",
         "source": "MIT Technology Review",
         "pubDate": "2026-02-27T21:41:31.000Z",
-        "relevanceScore": 50.58,
+        "relevanceScore": 86.49,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Building a Real-Time Multimodal AI Communication Coach",
-        "link": "https://dev.to/rajg07/building-a-real-time-multimodal-ai-communication-coach-1o5e",
-        "source": "Dev.to",
-        "pubDate": "2026-03-01T10:40:35.000Z",
-        "relevanceScore": 23.97,
-        "tags": [
-          "AI",
-          "Business"
         ]
       },
       {
@@ -642,31 +630,9 @@
         "link": "https://arstechnica.com/health/2026/02/did-chatgpt-help-health-officials-solve-a-weird-outbreak-maybe/",
         "source": "Ars Technica",
         "pubDate": "2026-02-28T18:17:12.000Z",
-        "relevanceScore": 22.69,
+        "relevanceScore": 52.1,
         "tags": [
           "AI"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Anthropic’s Claude rises to No. 2 in the App Store following Pentagon dispute",
-        "link": "https://techcrunch.com/2026/02/28/anthropics-claude-rises-to-no-2-in-the-app-store-following-pentagon-dispute/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-28T21:05:06.000Z",
-        "relevanceScore": 1130.25,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Hacked Prayer App Sends ‘Surrender’ Messages to Iranians Amid Israeli and US Strikes",
-        "link": "https://www.wired.com/story/hacked-prayer-app-sends-surrender-messages-to-iranians-amid-israeli-strikes/",
-        "source": "Wired",
-        "pubDate": "2026-02-28T15:58:09.000Z",
-        "relevanceScore": 22.23,
-        "tags": [
-          "Mobile"
         ]
       }
     ],
@@ -676,7 +642,7 @@
         "link": "https://techcrunch.com/2026/02/28/the-trap-anthropic-built-for-itself/",
         "source": "TechCrunch",
         "pubDate": "2026-03-01T00:08:58.000Z",
-        "relevanceScore": 615.87,
+        "relevanceScore": 663.78,
         "tags": []
       },
       {
@@ -684,7 +650,7 @@
         "link": "https://www.engadget.com/mobile/everything-announced-at-mwc-2026-the-new-leica-leitzphone-by-xiaomi-honors-ultra-thin-magicpad-4-and-more-172442426.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-28T19:08:21.000Z",
-        "relevanceScore": 535.37,
+        "relevanceScore": 545.27,
         "tags": [
           "Tech"
         ]
@@ -694,7 +660,7 @@
         "link": "https://www.theverge.com/science/887037/vera-c-rubin-observatory-800000-alerts",
         "source": "The Verge",
         "pubDate": "2026-02-28T19:33:51.000Z",
-        "relevanceScore": 353.45,
+        "relevanceScore": 357.36,
         "tags": [
           "Web",
           "Breaking",
@@ -706,7 +672,7 @@
         "link": "https://www.theverge.com/tech/884567/xiaomi-tag-tracker-apple-find-my-google-hub-bluetooth",
         "source": "The Verge",
         "pubDate": "2026-02-28T14:30:00.000Z",
-        "relevanceScore": 297.94,
+        "relevanceScore": 331.35,
         "tags": [
           "Exclusive"
         ]
@@ -716,26 +682,15 @@
         "link": "https://www.theverge.com/gadgets/886520/bose-quietcomfort-headphones-samsung-galaxy-s26-ultra-deal-sale",
         "source": "The Verge",
         "pubDate": "2026-02-28T16:07:14.000Z",
-        "relevanceScore": 114.26,
+        "relevanceScore": 116.17,
         "tags": []
-      },
-      {
-        "title": "What to know about the landmark Warner Bros. Discovery sale",
-        "link": "https://techcrunch.com/2026/02/28/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
-        "source": "TechCrunch",
-        "pubDate": "2026-02-28T21:28:06.000Z",
-        "relevanceScore": 25.33,
-        "tags": [
-          "Science",
-          "Acquisition"
-        ]
       },
       {
         "title": "X Is Drowning in Disinformation Following US and Israeli Attack on Iran",
         "link": "https://www.wired.com/story/x-is-drowning-in-disinformation-following-us-and-israels-attack-on-iran/",
         "source": "Wired",
         "pubDate": "2026-02-28T22:40:53.000Z",
-        "relevanceScore": 24.57,
+        "relevanceScore": 53.98,
         "tags": []
       },
       {
@@ -743,8 +698,29 @@
         "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
         "source": "Ars Technica",
         "pubDate": "2026-02-28T00:32:24.000Z",
-        "relevanceScore": 19.15,
+        "relevanceScore": 48.56,
         "tags": []
+      },
+      {
+        "title": "Make the Most of Chrome's Toolbar by Customizing It to Your Liking",
+        "link": "https://www.wired.com/story/how-to-customize-google-chrome-toolbar-to-your-liking/",
+        "source": "Wired",
+        "pubDate": "2026-03-01T11:00:00.000Z",
+        "relevanceScore": 37.95,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "What to know about the landmark Warner Bros. Discovery sale",
+        "link": "https://techcrunch.com/2026/02/28/warner-bros-netflix-paramount-acquisition-timeline-wbd/",
+        "source": "TechCrunch",
+        "pubDate": "2026-02-28T21:28:06.000Z",
+        "relevanceScore": 25.24,
+        "tags": [
+          "Science",
+          "Acquisition"
+        ]
       }
     ],
     "business": [
@@ -753,7 +729,7 @@
         "link": "https://www.npr.org/2026/02/28/nx-s1-5678603/iran-strikes-oil-energy-markets",
         "source": "NPR Business",
         "pubDate": "2026-02-28T15:30:37.000Z",
-        "relevanceScore": 586.14,
+        "relevanceScore": 598.05,
         "tags": []
       },
       {
@@ -761,7 +737,7 @@
         "link": "https://abcnews.com/Business/wireStory/retail-customers-file-lawsuits-tariffs-fedex-ray-bans-130581558",
         "source": "ABC News Business",
         "pubDate": "2026-02-28T01:03:13.000Z",
-        "relevanceScore": 256.25,
+        "relevanceScore": 286.66,
         "tags": []
       },
       {
@@ -769,7 +745,7 @@
         "link": "https://abcnews.com/Business/wireStory/attack-iran-disrupts-flights-middle-east-130621828",
         "source": "ABC News Business",
         "pubDate": "2026-02-28T15:25:51.000Z",
-        "relevanceScore": 53.62,
+        "relevanceScore": 84.03,
         "tags": []
       },
       {
@@ -777,7 +753,7 @@
         "link": "https://www.npr.org/2026/02/27/nx-s1-5728865/warner-bros-paramount-ellison-family",
         "source": "NPR Business",
         "pubDate": "2026-02-27T17:36:37.000Z",
-        "relevanceScore": 19.76,
+        "relevanceScore": 19.67,
         "tags": [
           "Partnership"
         ]
@@ -787,8 +763,29 @@
         "link": "https://abcnews.com/Business/wireStory/la-firefighter-warned-brush-fire-massive-blaze-ignited-130576028",
         "source": "ABC News Business",
         "pubDate": "2026-02-27T22:34:21.000Z",
-        "relevanceScore": 18.75,
+        "relevanceScore": 18.66,
         "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "A Horror Story About JavaScript Promise",
+        "link": "https://dev.to/satyasootar/a-horror-story-about-javascript-promise-50f1",
+        "source": "Dev.to",
+        "pubDate": "2026-03-01T11:11:31.000Z",
+        "relevanceScore": 584.99,
+        "tags": []
+      },
+      {
+        "title": "From idea to pull request: A practical guide to building with GitHub Copilot CLI",
+        "link": "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-02-27T16:00:00.000Z",
+        "relevanceScore": 17.35,
+        "tags": [
+          "Exclusive",
+          "Tutorial"
+        ]
       }
     ],
     "space": [
@@ -797,7 +794,7 @@
         "link": "https://arstechnica.com/security/2026/02/google-is-using-clever-math-to-quantum-proof-https-certificates/",
         "source": "Ars Technica",
         "pubDate": "2026-02-28T01:26:41.000Z",
-        "relevanceScore": 542.33,
+        "relevanceScore": 553.24,
         "tags": []
       },
       {
@@ -805,7 +802,7 @@
         "link": "https://www.wired.com/story/nasa-is-making-big-changes-to-speed-up-the-artemis-program/",
         "source": "Wired",
         "pubDate": "2026-02-28T16:00:00.000Z",
-        "relevanceScore": 22.24,
+        "relevanceScore": 22.15,
         "tags": []
       }
     ],
@@ -815,7 +812,7 @@
         "link": "https://www.engadget.com/gaming/playstation/shuttered-studio-bluepoint-reportedly-pitched-a-bloodborne-remake-but-it-got-shot-down-by-fromsoftware-173744228.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-28T17:37:44.000Z",
-        "relevanceScore": 276.56,
+        "relevanceScore": 280.97,
         "tags": []
       },
       {
@@ -823,7 +820,7 @@
         "link": "https://www.engadget.com/gaming/this-retro-inspired-handheld-comes-with-banjo-kazooie-and-battletoads-built-in-203111135.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-02-28T20:31:12.000Z",
-        "relevanceScore": 21.14,
+        "relevanceScore": 21.05,
         "tags": [
           "Launch",
           "Partnership"
@@ -834,7 +831,7 @@
         "link": "https://www.bbc.com/news/articles/cewzngve9reo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-02-28T00:01:19.000Z",
-        "relevanceScore": 19.04,
+        "relevanceScore": 18.95,
         "tags": []
       }
     ],
@@ -844,7 +841,7 @@
         "link": "https://www.theverge.com/tech/887040/polymarket-iran-war-betting-invaluable",
         "source": "The Verge",
         "pubDate": "2026-02-28T20:46:35.000Z",
-        "relevanceScore": 136.19,
+        "relevanceScore": 162.1,
         "tags": [
           "Business",
           "Controversy"
@@ -855,20 +852,8 @@
         "link": "https://www.wired.com/story/the-piracy-problem-streaming-platforms-cant-solve/",
         "source": "Wired",
         "pubDate": "2026-03-01T10:00:00.000Z",
-        "relevanceScore": 25.34,
+        "relevanceScore": 54.75,
         "tags": []
-      }
-    ],
-    "startup": [
-      {
-        "title": "JavaScript Promises Explained: A Startup Analogy for Beginners",
-        "link": "https://dev.to/kunal_dev/javascript-promises-explained-a-startup-analogy-for-beginners-bi5",
-        "source": "Dev.to",
-        "pubDate": "2026-03-01T10:41:07.000Z",
-        "relevanceScore": 62.47,
-        "tags": [
-          "Startup"
-        ]
       }
     ],
     "general": [
@@ -877,33 +862,33 @@
         "link": "https://www.bbc.com/news/articles/c3gdnpjvj4ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-01T01:47:42.000Z",
-        "relevanceScore": 58.2,
+        "relevanceScore": 94.11,
         "tags": [
           "Exclusive"
         ]
-      },
-      {
-        "title": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
-        "link": "https://www.bbc.com/news/articles/c98g91wgdd8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-01T06:21:42.000Z",
-        "relevanceScore": 36.61,
-        "tags": []
-      },
-      {
-        "title": "What we know so far about the US-Israeli attacks and Iran's retaliation",
-        "link": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-01T10:44:33.000Z",
-        "relevanceScore": 31.99,
-        "tags": []
       },
       {
         "title": "One killed and 11 injured at Dubai and Abu Dhabi airports as Iran strikes region",
         "link": "https://www.bbc.com/news/articles/c363zkp1pgxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-01T10:01:37.000Z",
-        "relevanceScore": 31.84,
+        "relevanceScore": 61.25,
+        "tags": []
+      },
+      {
+        "title": "Lyse Doucet: This is an extraordinary moment Iran has been preparing for",
+        "link": "https://www.bbc.com/news/articles/c98g91wgdd8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-01T06:21:42.000Z",
+        "relevanceScore": 37.52,
+        "tags": []
+      },
+      {
+        "title": "What we know so far about the US-Israeli attacks and Iran's retaliation",
+        "link": "https://www.bbc.com/news/articles/cx2dyz6p3weo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-01T10:58:33.000Z",
+        "relevanceScore": 31.94,
         "tags": []
       },
       {
@@ -911,7 +896,7 @@
         "link": "https://www.bbc.com/news/articles/cn48dwm818no?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-01T02:22:32.000Z",
-        "relevanceScore": 30.31,
+        "relevanceScore": 30.22,
         "tags": []
       }
     ],
@@ -921,38 +906,25 @@
         "link": "https://techcrunch.com/2026/02/28/why-did-netflix-back-down-from-its-deal-to-acquire-warner-bros/",
         "source": "TechCrunch",
         "pubDate": "2026-02-28T22:07:48.000Z",
-        "relevanceScore": 25.46,
+        "relevanceScore": 25.37,
         "tags": [
           "Partnership"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "From idea to pull request: A practical guide to building with GitHub Copilot CLI",
-        "link": "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-02-27T16:00:00.000Z",
-        "relevanceScore": 17.44,
-        "tags": [
-          "Exclusive",
-          "Tutorial"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 12,
-    "totalCategories": 11,
-    "avgRelevanceScore": 286.579024390244,
+    "totalCategories": 10,
+    "avgRelevanceScore": 270.08225000000004,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 10
       },
       {
         "category": "tech",
-        "count": 8
+        "count": 9
       },
       {
         "category": "business",
