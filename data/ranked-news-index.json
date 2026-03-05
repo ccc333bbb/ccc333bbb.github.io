@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-03-05T02:33:37.215Z",
-  "totalArticles": 46,
+  "lastUpdated": "2026-03-05T04:25:02.890Z",
+  "totalArticles": 53,
   "categories": [
     "ai-ml",
     "tech",
     "social",
+    "mobile",
     "general",
     "business",
-    "development",
-    "entertainment",
     "cybersecurity",
+    "cloud",
+    "world",
     "space",
-    "science",
-    "mobile",
     "gaming",
+    "science",
+    "development",
     "finance",
     "automotive"
   ],
@@ -24,8 +25,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-03-04T22:40:05.000Z",
-      "relevanceScore": 2372.22,
-      "recommendationScore": 2372.22,
+      "relevanceScore": 3669.35,
+      "recommendationScore": 3669.35,
       "tags": [
         "AI",
         "Report",
@@ -39,8 +40,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-03-04T23:15:36.000Z",
-      "relevanceScore": 1710.34,
-      "recommendationScore": 1713.34,
+      "relevanceScore": 1801.97,
+      "recommendationScore": 1804.97,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -50,10 +51,25 @@
       "source": "The Verge",
       "category": "social",
       "pubDate": "2026-03-05T00:17:37.000Z",
-      "relevanceScore": 647.55,
-      "recommendationScore": 648.05,
+      "relevanceScore": 1197.68,
+      "recommendationScore": 1198.18,
       "tags": [
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What is an API? Complete Beginner's Guide",
+      "link": "https://dev.to/theodoresummer/what-is-an-api-complete-beginners-guide-2ag8",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-03-05T04:19:34.000Z",
+      "relevanceScore": 966.98,
+      "recommendationScore": 968.48,
+      "tags": [
+        "Tech",
+        "Mobile",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -63,43 +79,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-04T16:56:17.000Z",
-      "relevanceScore": 494.08,
-      "recommendationScore": 494.58,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Bridging the operational AI gap",
-      "link": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-03-04T14:00:00.000Z",
-      "relevanceScore": 430.49,
-      "recommendationScore": 430.49,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "America has a housing affordability crisis. Building houses for rent can help",
-      "link": "https://www.npr.org/2026/03/04/nx-s1-5703574/home-rent-housing-crisis-ownership",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-03-04T10:00:00.000Z",
-      "relevanceScore": 358.19,
-      "recommendationScore": 358.69,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I Built a Job Search Tool That Pulls Directly From Company ATS Systems (Not Job Boards)",
-      "link": "https://dev.to/tinonet/i-built-a-job-search-tool-that-pulls-directly-from-company-ats-systems-not-job-boards-2l6d",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-03-05T02:23:45.000Z",
-      "relevanceScore": 287.97,
-      "recommendationScore": 288.47,
+      "relevanceScore": 753.2,
+      "recommendationScore": 753.7,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -109,8 +90,57 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-03-05T01:08:28.000Z",
-      "relevanceScore": 284.72,
-      "recommendationScore": 284.72,
+      "relevanceScore": 618.34,
+      "recommendationScore": 618.34,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bridging the operational AI gap",
+      "link": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-03-04T14:00:00.000Z",
+      "relevanceScore": 574.62,
+      "recommendationScore": 574.62,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What AI Models for War Actually Look Like",
+      "link": "https://www.wired.com/story/ai-model-military-use-smack-technologies/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-03-04T22:00:03.000Z",
+      "relevanceScore": 443.72,
+      "recommendationScore": 445.22,
+      "tags": [
+        "AI",
+        "Controversy"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "America has a housing affordability crisis. Building houses for rent can help",
+      "link": "https://www.npr.org/2026/03/04/nx-s1-5703574/home-rent-housing-crisis-ownership",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-03-04T10:00:00.000Z",
+      "relevanceScore": 428.82,
+      "recommendationScore": 429.32,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Brendan Carr Can’t Explain Why ‘Equal Time’ Rule Doesn’t Apply To Right Wing Radio",
+      "link": "https://www.reddit.com/r/technology/comments/1rkv7az/brendan_carr_cant_explain_why_equal_time_rule/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-03-04T19:36:37.000Z",
+      "relevanceScore": 418.74,
+      "recommendationScore": 420.74,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -120,24 +150,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-04T22:54:40.000Z",
-      "relevanceScore": 282.27,
-      "recommendationScore": 284.77,
+      "relevanceScore": 408.9,
+      "recommendationScore": 411.4,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What AI Models for War Actually Look Like",
-      "link": "https://www.wired.com/story/ai-model-military-use-smack-technologies/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-03-04T22:00:03.000Z",
-      "relevanceScore": 282.09,
-      "recommendationScore": 283.59,
-      "tags": [
-        "AI",
-        "Controversy"
       ],
       "readingLevel": "intermediate"
     },
@@ -147,10 +163,64 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-03-05T01:09:54.000Z",
-      "relevanceScore": 257.72,
-      "recommendationScore": 260.22,
+      "relevanceScore": 376.35,
+      "recommendationScore": 378.85,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Tim Sweeney signed away his right to criticize Google until 2032",
+      "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-03-04T23:52:21.000Z",
+      "relevanceScore": 316.59,
+      "recommendationScore": 317.09,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Father claims Google's AI product fuelled son's delusional spiral",
+      "link": "https://www.bbc.com/news/articles/czx44p99457o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-03-04T18:55:45.000Z",
+      "relevanceScore": 315.6,
+      "recommendationScore": 316.1,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-03-04T20:05:12.000Z",
+      "relevanceScore": 270.83,
+      "recommendationScore": 271.33,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Google and Epic announce settlement to end app store antitrust case",
+      "link": "https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/",
+      "source": "Ars Technica",
+      "category": "mobile",
+      "pubDate": "2026-03-04T20:48:16.000Z",
+      "relevanceScore": 269.48,
+      "recommendationScore": 269.98,
+      "tags": [
+        "Mobile",
+        "Launch"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Big Tech Signs White House Data Center Pledge With Good Optics and Little Substance",
@@ -158,26 +228,12 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-03-04T22:13:27.000Z",
-      "relevanceScore": 209.63,
-      "recommendationScore": 210.13,
+      "relevanceScore": 248.76,
+      "recommendationScore": 249.26,
       "tags": [
         "Tech"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Big tech companies agree to not ruin your electric bill with AI data centers",
-      "link": "https://www.engadget.com/ai/big-tech-companies-agree-to-not-ruin-your-electric-bill-with-ai-data-centers-230102956.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-03-04T23:01:02.000Z",
-      "relevanceScore": 181.29,
-      "recommendationScore": 181.79,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Bill Gates-backed TerraPower begins nuclear reactor construction",
@@ -185,8 +241,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-03-04T22:11:32.000Z",
-      "relevanceScore": 178.63,
-      "recommendationScore": 179.13,
+      "relevanceScore": 209.25,
+      "recommendationScore": 209.75,
       "tags": [
         "Business",
         "Exclusive"
@@ -194,29 +250,18 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Open Source Project of the Day (Part 6): AionUi - Free Cross-Platform AI Office Assistant, the Perfect Claude Cowork Alternative",
-      "link": "https://dev.to/wonderlab/open-source-project-of-the-day-part-6-aionui-free-cross-platform-ai-office-assistant-the-24je",
-      "source": "Dev.to",
+      "title": "Big tech companies agree to not ruin your electric bill with AI data centers",
+      "link": "https://www.engadget.com/ai/big-tech-companies-agree-to-not-ruin-your-electric-bill-with-ai-data-centers-230102956.html?src=rss",
+      "source": "Engadget",
       "category": "ai-ml",
-      "pubDate": "2026-03-05T02:14:46.000Z",
-      "relevanceScore": 118.44,
-      "recommendationScore": 118.44,
+      "pubDate": "2026-03-04T23:01:02.000Z",
+      "relevanceScore": 205.42,
+      "recommendationScore": 205.92,
       "tags": [
         "AI",
-        "Cloud"
+        "Tech"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "My agent burned $147 in ~40 minutes… so I wrote a small circuit breaker",
-      "link": "https://dev.to/alex_dirochian_59566cbf72/my-agent-burned-147-in-40-minutes-so-i-wrote-a-small-circuit-breaker-6kb",
-      "source": "Dev.to",
-      "category": "entertainment",
-      "pubDate": "2026-03-05T02:21:21.000Z",
-      "relevanceScore": 113.96,
-      "recommendationScore": 114.46,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "Grammarly Is Offering ‘Expert’ AI Reviews From Your Favorite Authors—Dead or Alive",
@@ -224,8 +269,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-03-04T22:56:37.000Z",
-      "relevanceScore": 95.28,
-      "recommendationScore": 95.78,
+      "relevanceScore": 163.91,
+      "recommendationScore": 164.41,
       "tags": [
         "AI"
       ],
@@ -237,11 +282,26 @@
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2026-03-04T19:31:24.000Z",
-      "relevanceScore": 89.59,
-      "recommendationScore": 90.09,
+      "relevanceScore": 135.22,
+      "recommendationScore": 135.72,
       "tags": [
         "Security",
         "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What is the average salary for an AWS Cloud Practitioner?",
+      "link": "https://dev.to/stack_overflowed/what-is-the-average-salary-for-an-aws-cloud-practitioner-26h0",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-03-05T04:19:19.000Z",
+      "relevanceScore": 122.98,
+      "recommendationScore": 124.98,
+      "tags": [
+        "Tech",
+        "Cloud",
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -251,8 +311,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-03-04T16:23:17.000Z",
-      "relevanceScore": 86.97,
-      "recommendationScore": 87.47,
+      "relevanceScore": 115.09,
+      "recommendationScore": 115.59,
       "tags": [
         "AI"
       ],
@@ -264,12 +324,25 @@
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-03-04T22:14:54.000Z",
-      "relevanceScore": 82.64,
-      "recommendationScore": 83.14,
+      "relevanceScore": 111.77,
+      "recommendationScore": 112.27,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI-generated art can’t be copyrighted after Supreme Court declines to review the rule",
+      "link": "https://www.reddit.com/r/technology/comments/1rkqzzd/aigenerated_art_cant_be_copyrighted_after_supreme/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-03-04T17:05:25.000Z",
+      "relevanceScore": 110.73,
+      "recommendationScore": 111.23,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "American Airlines gets approval to resume regular flights to Venezuela",
@@ -277,47 +350,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-03-04T23:41:50.000Z",
-      "relevanceScore": 75.43,
-      "recommendationScore": 75.93,
+      "relevanceScore": 104.56,
+      "recommendationScore": 105.06,
       "tags": [
         "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
-      "link": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-03-04T05:40:00.000Z",
-      "relevanceScore": 68.32,
-      "recommendationScore": 68.82,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Satellite images show Iranian navy and nuclear sites hit by US-Israeli strikes",
-      "link": "https://www.bbc.com/news/articles/cdxzzkkkwjqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "space",
-      "pubDate": "2026-03-04T14:49:22.000Z",
-      "relevanceScore": 67.65,
-      "recommendationScore": 69.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "MIT Technology Review Insiders Panel",
-      "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-03-03T15:53:10.000Z",
-      "relevanceScore": 61.07,
-      "recommendationScore": 61.07,
-      "tags": [
-        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -327,8 +363,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-04T13:12:00.000Z",
-      "relevanceScore": 59.33,
-      "recommendationScore": 59.83,
+      "relevanceScore": 99.46,
+      "recommendationScore": 99.96,
       "tags": [
         "AI",
         "Tech"
@@ -336,13 +372,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "How depleted weapons stockpiles could affect the Iran conflict",
-      "link": "https://www.bbc.com/news/articles/cdxzzqe82d2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-03-04T20:57:50.000Z",
-      "relevanceScore": 55.88,
-      "recommendationScore": 57.88,
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1470, Part 1 (Thread #1617)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1rl7fmb/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-03-05T04:02:45.000Z",
+      "relevanceScore": 96.43,
+      "recommendationScore": 98.93,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -352,8 +388,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-03-04T21:43:58.000Z",
-      "relevanceScore": 52.03,
-      "recommendationScore": 52.53,
+      "relevanceScore": 94.66,
+      "recommendationScore": 95.16,
       "tags": [
         "AI",
         "Report"
@@ -361,50 +397,72 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Thousands of Kurdish fighters launch ground offensive into Iran against regime, official says",
+      "link": "https://www.reddit.com/r/worldnews/comments/1rkw9kj/thousands_of_kurdish_fighters_launch_ground/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-03-04T20:16:56.000Z",
+      "relevanceScore": 90.37,
+      "recommendationScore": 92.87,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
+      "link": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-03-04T05:40:00.000Z",
+      "relevanceScore": 80.95,
+      "recommendationScore": 81.45,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How depleted weapons stockpiles could affect the Iran conflict",
+      "link": "https://www.bbc.com/news/articles/cdxzzqe82d2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-03-04T20:57:50.000Z",
+      "relevanceScore": 77.01,
+      "recommendationScore": 79.01,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Satellite images show Iranian navy and nuclear sites hit by US-Israeli strikes",
+      "link": "https://www.bbc.com/news/articles/cdxzzkkkwjqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "space",
+      "pubDate": "2026-03-04T14:49:22.000Z",
+      "relevanceScore": 74.28,
+      "recommendationScore": 76.28,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "WATCH: How traffic dried up in the Strait of Hormuz since the Iran war began",
       "link": "https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis",
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-04T21:36:36.000Z",
-      "relevanceScore": 52.01,
-      "recommendationScore": 54.01,
+      "relevanceScore": 73.14,
+      "recommendationScore": 75.14,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "His house burned down. He used the insurance money to build PopSockets.",
-      "link": "https://techcrunch.com/video/his-house-burned-down-he-used-the-insurance-money-to-build-popsockets/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-04T19:34:26.000Z",
-      "relevanceScore": 51.6,
-      "recommendationScore": 52.1,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tim Sweeney signed away his right to criticize Google until 2032",
-      "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-03-04T23:52:21.000Z",
-      "relevanceScore": 50.46,
-      "recommendationScore": 50.96,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Musk tells jury 'people read too much' into his posts",
       "link": "https://www.bbc.com/news/articles/c7433dz4ykwo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "social",
-      "pubDate": "2026-03-04T22:03:57.000Z",
-      "relevanceScore": 50.1,
-      "recommendationScore": 50.6,
+      "pubDate": "2026-03-05T02:55:34.000Z",
+      "relevanceScore": 72.2,
+      "recommendationScore": 72.7,
       "tags": [
         "Social",
         "Acquisition"
@@ -417,8 +475,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-03-04T14:57:00.000Z",
-      "relevanceScore": 49.68,
-      "recommendationScore": 50.18,
+      "relevanceScore": 70.81,
+      "recommendationScore": 71.31,
       "tags": [
         "AI",
         "Tech",
@@ -428,33 +486,57 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Father claims Google's AI product fuelled son's delusional spiral",
-      "link": "https://www.bbc.com/news/articles/czx44p99457o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-03-04T18:55:45.000Z",
-      "relevanceScore": 49.47,
-      "recommendationScore": 49.97,
+      "title": "How I Built an Offline-First Sync Engine for Flutter Apps",
+      "link": "https://dev.to/hostspica/how-i-built-an-offline-first-sync-engine-for-flutter-apps-4l8a",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-03-05T04:15:12.000Z",
+      "relevanceScore": 70.47,
+      "recommendationScore": 74.47,
       "tags": [
-        "AI",
+        "Mobile",
         "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Mark Zuckerberg downplays Meta's own research in New Mexico child safety trial",
-      "link": "https://www.engadget.com/social-media/mark-zuckerberg-downplays-metas-own-research-in-new-mexico-child-safety-trial-222924340.html?src=rss",
+      "title": "Assassin's Creed Unity is getting a free 60 fps patch tomorrow",
+      "link": "https://www.engadget.com/gaming/assassins-creed-unity-is-getting-a-free-60-fps-patch-tomorrow-210109721.html?src=rss",
       "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-03-04T22:29:24.000Z",
-      "relevanceScore": 48.69,
-      "recommendationScore": 51.19,
+      "category": "gaming",
+      "pubDate": "2026-03-04T21:01:09.000Z",
+      "relevanceScore": 70.02,
+      "recommendationScore": 70.52,
       "tags": [
-        "Science",
-        "Social",
-        "Report"
+        "Update"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "No need for Ctrl+C when you have MCP",
+      "link": "https://stackoverflow.blog/2026/03/03/no-need-for-ctrl-c-when-you-have-mcp/",
+      "source": "Stack Overflow Blog",
+      "category": "cybersecurity",
+      "pubDate": "2026-03-03T08:40:00.000Z",
+      "relevanceScore": 69.25,
+      "recommendationScore": 69.25,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "MIT Technology Review Insiders Panel",
+      "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-03-03T15:53:10.000Z",
+      "relevanceScore": 67.69,
+      "recommendationScore": 67.69,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
@@ -462,8 +544,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-03-03T18:45:09.000Z",
-      "relevanceScore": 44.64,
-      "recommendationScore": 46.64,
+      "relevanceScore": 65.77,
+      "recommendationScore": 67.77,
       "tags": [
         "Exclusive"
       ],
@@ -475,8 +557,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2026-03-03T16:55:00.000Z",
-      "relevanceScore": 44.27,
-      "recommendationScore": 44.77,
+      "relevanceScore": 65.4,
+      "recommendationScore": 65.9,
       "tags": [
         "AI",
         "Exclusive"
@@ -484,17 +566,32 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "No need for Ctrl+C when you have MCP",
-      "link": "https://stackoverflow.blog/2026/03/03/no-need-for-ctrl-c-when-you-have-mcp/",
-      "source": "Stack Overflow Blog",
-      "category": "cybersecurity",
-      "pubDate": "2026-03-03T08:40:00.000Z",
-      "relevanceScore": 42.62,
-      "recommendationScore": 42.62,
+      "title": "His house burned down. He used the insurance money to build PopSockets.",
+      "link": "https://techcrunch.com/video/his-house-burned-down-he-used-the-insurance-money-to-build-popsockets/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-03-04T19:34:26.000Z",
+      "relevanceScore": 59.23,
+      "recommendationScore": 59.73,
       "tags": [
-        "Security"
+        "Tech"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Mark Zuckerberg downplays Meta's own research in New Mexico child safety trial",
+      "link": "https://www.engadget.com/social-media/mark-zuckerberg-downplays-metas-own-research-in-new-mexico-child-safety-trial-222924340.html?src=rss",
+      "source": "Engadget",
+      "category": "social",
+      "pubDate": "2026-03-04T22:29:24.000Z",
+      "relevanceScore": 56.31,
+      "recommendationScore": 58.81,
+      "tags": [
+        "Science",
+        "Social",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "MP says she has seen nothing to suspect husband has broken law, after China spying arrests",
@@ -502,38 +599,25 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-04T18:39:13.000Z",
-      "relevanceScore": 30.42,
-      "recommendationScore": 30.92,
+      "relevanceScore": 51.55,
+      "recommendationScore": 52.05,
       "tags": [
         "Regulation"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Assassin's Creed Unity is getting a free 60 fps patch tomorrow",
-      "link": "https://www.engadget.com/gaming/assassins-creed-unity-is-getting-a-free-60-fps-patch-tomorrow-210109721.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-03-04T21:01:09.000Z",
-      "relevanceScore": 29.89,
-      "recommendationScore": 30.39,
+      "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #5)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1rkmiqs/rworldnews_discussion_thread_us_and_israel_launch/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-03-04T14:15:07.000Z",
+      "relevanceScore": 47.17,
+      "recommendationScore": 49.67,
       "tags": [
-        "Update"
+        "Launch"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
-      "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-03-04T20:05:12.000Z",
-      "relevanceScore": 26.21,
-      "recommendationScore": 26.71,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Did Live Nation punish a venue by taking Billie Eilish away?",
@@ -541,8 +625,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-03-05T02:21:41.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 26.46,
+      "relevanceScore": 25.59,
+      "recommendationScore": 26.09,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -552,8 +636,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-04T15:57:42.000Z",
-      "relevanceScore": 25.88,
-      "recommendationScore": 27.88,
+      "relevanceScore": 25.51,
+      "recommendationScore": 27.51,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -563,8 +647,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-03-04T22:32:27.000Z",
-      "relevanceScore": 25.2,
-      "recommendationScore": 25.7,
+      "relevanceScore": 24.82,
+      "recommendationScore": 25.32,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -574,37 +658,12 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2026-03-04T21:38:33.000Z",
-      "relevanceScore": 25.02,
-      "recommendationScore": 27.02,
+      "relevanceScore": 24.65,
+      "recommendationScore": 26.65,
       "tags": [
         "Business",
         "IPO"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google and Epic announce settlement to end app store antitrust case",
-      "link": "https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/",
-      "source": "Ars Technica",
-      "category": "mobile",
-      "pubDate": "2026-03-04T20:48:16.000Z",
-      "relevanceScore": 24.85,
-      "recommendationScore": 25.35,
-      "tags": [
-        "Mobile",
-        "Launch"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Elon Musk's proposed Tesla tunnel loop met with opposition by Nashville metro council",
-      "link": "https://abcnews.com/Business/wireStory/elon-musks-proposed-tesla-tunnel-loop-met-opposition-130764063",
-      "source": "ABC News Business",
-      "category": "automotive",
-      "pubDate": "2026-03-04T19:33:42.000Z",
-      "relevanceScore": 24.6,
-      "recommendationScore": 25.1,
-      "tags": [],
       "readingLevel": "advanced"
     }
   ],
@@ -615,7 +674,7 @@
         "link": "https://techcrunch.com/2026/03/04/anthropic-ceo-dario-amodei-calls-openais-messaging-around-military-deal-straight-up-lies-report-says/",
         "source": "TechCrunch",
         "pubDate": "2026-03-04T22:40:05.000Z",
-        "relevanceScore": 2372.22,
+        "relevanceScore": 3669.35,
         "tags": [
           "AI",
           "Report",
@@ -627,7 +686,7 @@
         "link": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-04T14:00:00.000Z",
-        "relevanceScore": 430.49,
+        "relevanceScore": 574.62,
         "tags": [
           "AI"
         ]
@@ -637,10 +696,21 @@
         "link": "https://www.wired.com/story/ai-model-military-use-smack-technologies/",
         "source": "Wired",
         "pubDate": "2026-03-04T22:00:03.000Z",
-        "relevanceScore": 282.09,
+        "relevanceScore": 443.72,
         "tags": [
           "AI",
           "Controversy"
+        ]
+      },
+      {
+        "title": "Father claims Google's AI product fuelled son's delusional spiral",
+        "link": "https://www.bbc.com/news/articles/czx44p99457o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-03-04T18:55:45.000Z",
+        "relevanceScore": 315.6,
+        "tags": [
+          "AI",
+          "Exclusive"
         ]
       },
       {
@@ -648,21 +718,10 @@
         "link": "https://www.engadget.com/ai/big-tech-companies-agree-to-not-ruin-your-electric-bill-with-ai-data-centers-230102956.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-04T23:01:02.000Z",
-        "relevanceScore": 181.29,
+        "relevanceScore": 205.42,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "Open Source Project of the Day (Part 6): AionUi - Free Cross-Platform AI Office Assistant, the Perfect Claude Cowork Alternative",
-        "link": "https://dev.to/wonderlab/open-source-project-of-the-day-part-6-aionui-free-cross-platform-ai-office-assistant-the-24je",
-        "source": "Dev.to",
-        "pubDate": "2026-03-05T02:14:46.000Z",
-        "relevanceScore": 118.44,
-        "tags": [
-          "AI",
-          "Cloud"
         ]
       },
       {
@@ -670,7 +729,7 @@
         "link": "https://www.wired.com/story/grammarly-is-offering-expert-ai-reviews-from-your-favorite-authors-dead-or-alive/",
         "source": "Wired",
         "pubDate": "2026-03-04T22:56:37.000Z",
-        "relevanceScore": 95.28,
+        "relevanceScore": 163.91,
         "tags": [
           "AI"
         ]
@@ -680,7 +739,7 @@
         "link": "https://www.bbc.com/news/articles/c0q33nvj0qpo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-04T16:23:17.000Z",
-        "relevanceScore": 86.97,
+        "relevanceScore": 115.09,
         "tags": [
           "AI"
         ]
@@ -690,17 +749,17 @@
         "link": "https://arstechnica.com/science/2026/03/large-genome-model-open-source-ai-trained-on-trillions-of-bases/",
         "source": "Ars Technica",
         "pubDate": "2026-03-04T22:14:54.000Z",
-        "relevanceScore": 82.64,
+        "relevanceScore": 111.77,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
-        "link": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-03-04T05:40:00.000Z",
-        "relevanceScore": 68.32,
+        "title": "AI-generated art can’t be copyrighted after Supreme Court declines to review the rule",
+        "link": "https://www.reddit.com/r/technology/comments/1rkqzzd/aigenerated_art_cant_be_copyrighted_after_supreme/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-03-04T17:05:25.000Z",
+        "relevanceScore": 110.73,
         "tags": [
           "AI"
         ]
@@ -710,7 +769,7 @@
         "link": "https://www.technologyreview.com/2026/03/04/1133942/the-download-earths-rumblings-and-ai-for-strikes-on-iran/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-04T13:12:00.000Z",
-        "relevanceScore": 59.33,
+        "relevanceScore": 99.46,
         "tags": [
           "AI",
           "Tech"
@@ -721,10 +780,20 @@
         "link": "https://techcrunch.com/2026/03/04/apple-music-to-add-transparency-tags-to-distinguish-ai-music-says-report/",
         "source": "TechCrunch",
         "pubDate": "2026-03-04T21:43:58.000Z",
-        "relevanceScore": 52.03,
+        "relevanceScore": 94.66,
         "tags": [
           "AI",
           "Report"
+        ]
+      },
+      {
+        "title": "AI-assisted coding needs more than vibes; it needs containers and sandboxes",
+        "link": "https://stackoverflow.blog/2026/03/04/ai-assisted-coding-vibes-hardened-containers-and-sandboxes/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-03-04T05:40:00.000Z",
+        "relevanceScore": 80.95,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -732,7 +801,7 @@
         "link": "https://www.bbc.com/news/articles/c99jjr7d40yo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-04T14:57:00.000Z",
-        "relevanceScore": 49.68,
+        "relevanceScore": 70.81,
         "tags": [
           "AI",
           "Tech",
@@ -741,22 +810,11 @@
         ]
       },
       {
-        "title": "Father claims Google's AI product fuelled son's delusional spiral",
-        "link": "https://www.bbc.com/news/articles/czx44p99457o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-03-04T18:55:45.000Z",
-        "relevanceScore": 49.47,
-        "tags": [
-          "AI",
-          "Exclusive"
-        ]
-      },
-      {
         "title": "Join or host a GitHub Copilot Dev Days event near you",
         "link": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
         "source": "GitHub Blog",
         "pubDate": "2026-03-03T16:55:00.000Z",
-        "relevanceScore": 44.27,
+        "relevanceScore": 65.4,
         "tags": [
           "AI",
           "Exclusive"
@@ -769,7 +827,7 @@
         "link": "https://www.wired.com/story/asus-vivobook-14-deal-macbook-neo/",
         "source": "Wired",
         "pubDate": "2026-03-04T23:15:36.000Z",
-        "relevanceScore": 1710.34,
+        "relevanceScore": 1801.97,
         "tags": []
       },
       {
@@ -777,7 +835,15 @@
         "link": "https://techcrunch.com/2026/03/04/jensen-huang-says-nvidia-is-pulling-back-from-openai-and-anthropic-but-his-explanation-raises-more-questions-than-it-answers/",
         "source": "TechCrunch",
         "pubDate": "2026-03-05T01:08:28.000Z",
-        "relevanceScore": 284.72,
+        "relevanceScore": 618.34,
+        "tags": []
+      },
+      {
+        "title": "Brendan Carr Can’t Explain Why ‘Equal Time’ Rule Doesn’t Apply To Right Wing Radio",
+        "link": "https://www.reddit.com/r/technology/comments/1rkv7az/brendan_carr_cant_explain_why_equal_time_rule/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-03-04T19:36:37.000Z",
+        "relevanceScore": 418.74,
         "tags": []
       },
       {
@@ -785,7 +851,7 @@
         "link": "https://arstechnica.com/science/2026/03/terrapower-gets-ok-to-start-construction-of-its-first-nuclear-plant/",
         "source": "Ars Technica",
         "pubDate": "2026-03-04T22:54:40.000Z",
-        "relevanceScore": 282.27,
+        "relevanceScore": 408.9,
         "tags": [
           "Exclusive"
         ]
@@ -795,7 +861,7 @@
         "link": "https://www.theverge.com/games/889701/trump-white-house-call-of-duty-footage-iran",
         "source": "The Verge",
         "pubDate": "2026-03-05T01:09:54.000Z",
-        "relevanceScore": 257.72,
+        "relevanceScore": 376.35,
         "tags": []
       },
       {
@@ -803,7 +869,7 @@
         "link": "https://www.wired.com/story/big-tech-signs-white-house-data-center-pledge-with-good-optics-not-much-substance/",
         "source": "Wired",
         "pubDate": "2026-03-04T22:13:27.000Z",
-        "relevanceScore": 209.63,
+        "relevanceScore": 248.76,
         "tags": [
           "Tech"
         ]
@@ -813,7 +879,7 @@
         "link": "https://www.engadget.com/big-tech/bill-gates-backed-terrapower-begins-nuclear-reactor-construction-221132639.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-04T22:11:32.000Z",
-        "relevanceScore": 178.63,
+        "relevanceScore": 209.25,
         "tags": [
           "Business",
           "Exclusive"
@@ -824,7 +890,7 @@
         "link": "https://techcrunch.com/video/his-house-burned-down-he-used-the-insurance-money-to-build-popsockets/",
         "source": "TechCrunch",
         "pubDate": "2026-03-04T19:34:26.000Z",
-        "relevanceScore": 51.6,
+        "relevanceScore": 59.23,
         "tags": [
           "Tech"
         ]
@@ -834,7 +900,7 @@
         "link": "https://www.theverge.com/policy/889720/live-nation-ticketmaster-trial-doj-barclays-center-threats",
         "source": "The Verge",
         "pubDate": "2026-03-05T02:21:41.000Z",
-        "relevanceScore": 25.96,
+        "relevanceScore": 25.59,
         "tags": []
       }
     ],
@@ -844,7 +910,7 @@
         "link": "https://www.theverge.com/news/889578/data-center-power-pledge-white-house-google-meta-microsoft",
         "source": "The Verge",
         "pubDate": "2026-03-05T00:17:37.000Z",
-        "relevanceScore": 647.55,
+        "relevanceScore": 1197.68,
         "tags": [
           "Tech"
         ]
@@ -853,8 +919,8 @@
         "title": "Musk tells jury 'people read too much' into his posts",
         "link": "https://www.bbc.com/news/articles/c7433dz4ykwo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
-        "pubDate": "2026-03-04T22:03:57.000Z",
-        "relevanceScore": 50.1,
+        "pubDate": "2026-03-05T02:55:34.000Z",
+        "relevanceScore": 72.2,
         "tags": [
           "Social",
           "Acquisition"
@@ -865,11 +931,67 @@
         "link": "https://www.engadget.com/social-media/mark-zuckerberg-downplays-metas-own-research-in-new-mexico-child-safety-trial-222924340.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-04T22:29:24.000Z",
-        "relevanceScore": 48.69,
+        "relevanceScore": 56.31,
         "tags": [
           "Science",
           "Social",
           "Report"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "What is an API? Complete Beginner's Guide",
+        "link": "https://dev.to/theodoresummer/what-is-an-api-complete-beginners-guide-2ag8",
+        "source": "Dev.to",
+        "pubDate": "2026-03-05T04:19:34.000Z",
+        "relevanceScore": 966.98,
+        "tags": [
+          "Tech",
+          "Mobile",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Tim Sweeney signed away his right to criticize Google until 2032",
+        "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
+        "source": "The Verge",
+        "pubDate": "2026-03-04T23:52:21.000Z",
+        "relevanceScore": 316.59,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
+        "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-04T20:05:12.000Z",
+        "relevanceScore": 270.83,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Google and Epic announce settlement to end app store antitrust case",
+        "link": "https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/",
+        "source": "Ars Technica",
+        "pubDate": "2026-03-04T20:48:16.000Z",
+        "relevanceScore": 269.48,
+        "tags": [
+          "Mobile",
+          "Launch"
+        ]
+      },
+      {
+        "title": "How I Built an Offline-First Sync Engine for Flutter Apps",
+        "link": "https://dev.to/hostspica/how-i-built-an-offline-first-sync-engine-for-flutter-apps-4l8a",
+        "source": "Dev.to",
+        "pubDate": "2026-03-05T04:15:12.000Z",
+        "relevanceScore": 70.47,
+        "tags": [
+          "Mobile",
+          "Exclusive"
         ]
       }
     ],
@@ -879,7 +1001,7 @@
         "link": "https://www.bbc.com/news/articles/c0e55g03v2zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-04T16:56:17.000Z",
-        "relevanceScore": 494.08,
+        "relevanceScore": 753.2,
         "tags": []
       },
       {
@@ -887,7 +1009,7 @@
         "link": "https://www.bbc.com/news/articles/cdxzzqe82d2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-04T20:57:50.000Z",
-        "relevanceScore": 55.88,
+        "relevanceScore": 77.01,
         "tags": []
       },
       {
@@ -895,7 +1017,7 @@
         "link": "https://www.bbc.com/news/articles/c7955ewj7gwo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-04T18:39:13.000Z",
-        "relevanceScore": 30.42,
+        "relevanceScore": 51.55,
         "tags": [
           "Regulation"
         ]
@@ -907,7 +1029,7 @@
         "link": "https://www.npr.org/2026/03/04/nx-s1-5703574/home-rent-housing-crisis-ownership",
         "source": "NPR Business",
         "pubDate": "2026-03-04T10:00:00.000Z",
-        "relevanceScore": 358.19,
+        "relevanceScore": 428.82,
         "tags": []
       },
       {
@@ -915,7 +1037,7 @@
         "link": "https://abcnews.com/Business/wireStory/american-airlines-gets-approval-resume-regular-flights-venezuela-130772593",
         "source": "ABC News Business",
         "pubDate": "2026-03-04T23:41:50.000Z",
-        "relevanceScore": 75.43,
+        "relevanceScore": 104.56,
         "tags": [
           "Exclusive"
         ]
@@ -925,7 +1047,7 @@
         "link": "https://www.npr.org/2026/03/04/nx-s1-5736104/iran-war-oil-trump-israel-strait-hormuz-closed-energy-crisis",
         "source": "NPR Business",
         "pubDate": "2026-03-04T21:36:36.000Z",
-        "relevanceScore": 52.01,
+        "relevanceScore": 73.14,
         "tags": []
       },
       {
@@ -933,37 +1055,7 @@
         "link": "https://www.npr.org/2026/03/04/nx-s1-5727508/child-care-trump-biden-fraud-ccdf",
         "source": "NPR Business",
         "pubDate": "2026-03-04T15:57:42.000Z",
-        "relevanceScore": 25.88,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "I Built a Job Search Tool That Pulls Directly From Company ATS Systems (Not Job Boards)",
-        "link": "https://dev.to/tinonet/i-built-a-job-search-tool-that-pulls-directly-from-company-ats-systems-not-job-boards-2l6d",
-        "source": "Dev.to",
-        "pubDate": "2026-03-05T02:23:45.000Z",
-        "relevanceScore": 287.97,
-        "tags": []
-      },
-      {
-        "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
-        "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-03-03T18:45:09.000Z",
-        "relevanceScore": 44.64,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "My agent burned $147 in ~40 minutes… so I wrote a small circuit breaker",
-        "link": "https://dev.to/alex_dirochian_59566cbf72/my-agent-burned-147-in-40-minutes-so-i-wrote-a-small-circuit-breaker-6kb",
-        "source": "Dev.to",
-        "pubDate": "2026-03-05T02:21:21.000Z",
-        "relevanceScore": 113.96,
+        "relevanceScore": 25.51,
         "tags": []
       }
     ],
@@ -973,7 +1065,7 @@
         "link": "https://www.bbc.com/news/articles/cj4zze5lzjpo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-04T19:31:24.000Z",
-        "relevanceScore": 89.59,
+        "relevanceScore": 135.22,
         "tags": [
           "Security",
           "Web"
@@ -984,9 +1076,53 @@
         "link": "https://stackoverflow.blog/2026/03/03/no-need-for-ctrl-c-when-you-have-mcp/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-03-03T08:40:00.000Z",
-        "relevanceScore": 42.62,
+        "relevanceScore": 69.25,
         "tags": [
           "Security"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "What is the average salary for an AWS Cloud Practitioner?",
+        "link": "https://dev.to/stack_overflowed/what-is-the-average-salary-for-an-aws-cloud-practitioner-26h0",
+        "source": "Dev.to",
+        "pubDate": "2026-03-05T04:19:19.000Z",
+        "relevanceScore": 122.98,
+        "tags": [
+          "Tech",
+          "Cloud",
+          "Exclusive"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1470, Part 1 (Thread #1617)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1rl7fmb/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2026-03-05T04:02:45.000Z",
+        "relevanceScore": 96.43,
+        "tags": []
+      },
+      {
+        "title": "Thousands of Kurdish fighters launch ground offensive into Iran against regime, official says",
+        "link": "https://www.reddit.com/r/worldnews/comments/1rkw9kj/thousands_of_kurdish_fighters_launch_ground/",
+        "source": "Reddit World News",
+        "pubDate": "2026-03-04T20:16:56.000Z",
+        "relevanceScore": 90.37,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #5)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1rkmiqs/rworldnews_discussion_thread_us_and_israel_launch/",
+        "source": "Reddit World News",
+        "pubDate": "2026-03-04T14:15:07.000Z",
+        "relevanceScore": 47.17,
+        "tags": [
+          "Launch"
         ]
       }
     ],
@@ -996,7 +1132,7 @@
         "link": "https://www.bbc.com/news/articles/cdxzzkkkwjqo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-04T14:49:22.000Z",
-        "relevanceScore": 67.65,
+        "relevanceScore": 74.28,
         "tags": []
       },
       {
@@ -1004,53 +1140,8 @@
         "link": "https://arstechnica.com/space/2026/03/space-command-chief-throws-cold-water-on-the-question-of-uaps-in-space/",
         "source": "Ars Technica",
         "pubDate": "2026-03-04T22:32:27.000Z",
-        "relevanceScore": 25.2,
+        "relevanceScore": 24.82,
         "tags": []
-      }
-    ],
-    "science": [
-      {
-        "title": "MIT Technology Review Insiders Panel",
-        "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-03-03T15:53:10.000Z",
-        "relevanceScore": 61.07,
-        "tags": [
-          "Tech"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Tim Sweeney signed away his right to criticize Google until 2032",
-        "link": "https://www.theverge.com/news/889595/tim-sweeney-signed-away-his-right-to-criticize-google-until-2032",
-        "source": "The Verge",
-        "pubDate": "2026-03-04T23:52:21.000Z",
-        "relevanceScore": 50.46,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Google settles with Epic Games, drops its Play Store commissions to 20%",
-        "link": "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-04T20:05:12.000Z",
-        "relevanceScore": 26.21,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Google and Epic announce settlement to end app store antitrust case",
-        "link": "https://arstechnica.com/gadgets/2026/03/google-and-epic-look-to-bury-the-hatchet-with-new-app-store-settlement/",
-        "source": "Ars Technica",
-        "pubDate": "2026-03-04T20:48:16.000Z",
-        "relevanceScore": 24.85,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
       }
     ],
     "gaming": [
@@ -1059,10 +1150,50 @@
         "link": "https://www.engadget.com/gaming/assassins-creed-unity-is-getting-a-free-60-fps-patch-tomorrow-210109721.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-04T21:01:09.000Z",
-        "relevanceScore": 29.89,
+        "relevanceScore": 70.02,
         "tags": [
           "Update"
         ]
+      }
+    ],
+    "science": [
+      {
+        "title": "MIT Technology Review Insiders Panel",
+        "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-03-03T15:53:10.000Z",
+        "relevanceScore": 67.69,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+        "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-03-03T18:45:09.000Z",
+        "relevanceScore": 65.77,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "10% of Firefox crashes are estimated to be caused by bitflips",
+        "link": "https://www.reddit.com/r/programming/comments/1rl26xw/10_of_firefox_crashes_are_estimated_to_be_caused/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-03-05T00:06:33.000Z",
+        "relevanceScore": 21.14,
+        "tags": []
+      },
+      {
+        "title": "Who Writes the Bugs? A Deeper Look at 125,000 Kernel Vulnerabilities",
+        "link": "https://www.reddit.com/r/programming/comments/1rkuqb6/who_writes_the_bugs_a_deeper_look_at_125000/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-03-04T19:19:07.000Z",
+        "relevanceScore": 20.18,
+        "tags": []
       }
     ],
     "finance": [
@@ -1071,7 +1202,7 @@
         "link": "https://abcnews.com/Business/wireStory/major-us-stock-indexes-fared-wednesday-342026-130768640",
         "source": "ABC News Business",
         "pubDate": "2026-03-04T21:38:33.000Z",
-        "relevanceScore": 25.02,
+        "relevanceScore": 24.65,
         "tags": [
           "Business",
           "IPO"
@@ -1084,15 +1215,15 @@
         "link": "https://abcnews.com/Business/wireStory/elon-musks-proposed-tesla-tunnel-loop-met-opposition-130764063",
         "source": "ABC News Business",
         "pubDate": "2026-03-04T19:33:42.000Z",
-        "relevanceScore": 24.6,
+        "relevanceScore": 24.23,
         "tags": []
       }
     ]
   },
   "stats": {
-    "totalSources": 13,
-    "totalCategories": 14,
-    "avgRelevanceScore": 211.420652173913,
+    "totalSources": 16,
+    "totalCategories": 15,
+    "avgRelevanceScore": 301.45566037735847,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1100,7 +1231,11 @@
       },
       {
         "category": "tech",
-        "count": 8
+        "count": 9
+      },
+      {
+        "category": "mobile",
+        "count": 5
       },
       {
         "category": "business",
@@ -1108,10 +1243,6 @@
       },
       {
         "category": "social",
-        "count": 3
-      },
-      {
-        "category": "general",
         "count": 3
       }
     ]
