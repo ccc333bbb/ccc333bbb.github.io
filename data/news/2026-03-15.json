@@ -1,6 +1,6 @@
 {
   "date": "2026-03-15",
-  "lastUpdated": "2026-03-15T11:26:47.291Z",
+  "lastUpdated": "2026-03-15T11:48:00.499Z",
   "totalArticles": 38,
   "articles": [
     {
@@ -22,34 +22,35 @@
       "sentiment": "neutral",
       "complexity": "medium",
       "type": "news",
-      "relevanceScore": 457.25,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 459.75,
+      "relevanceScore": 507.18,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 509.68,
       "readingLevel": "advanced"
     },
     {
-      "id": "SSBidWlsdCBhIENo",
-      "title": "I built a Chrome extension that stream-parses 2GB XML files using only 20MB of RAM. Here's the architecture.",
-      "link": "https://dev.to/yana_postnova_3499025b3ea/i-built-a-chrome-extension-that-stream-parses-2gb-xml-files-using-only-20mb-of-ram-heres-the-4nk5",
-      "description": "The problem I work with hotel reservation systems that dump SOAP/OTA XML responses — sometimes 1-2 GB per file. Every XML viewer I tried either crashed, froze the tab, or ran out of memory. Notepad++ tops out around 200MB. Browser-based XML viewers load everything into a DOM tree that eats 3-10x the",
-      "pubDate": "2026-03-15T11:11:55.000Z",
+      "id": "UG93ZXIgQkkgTWVl",
+      "title": "Power BI Meets SQL: Everything You Need to Know About Database Connections.",
+      "link": "https://dev.to/guyo_mohammed/power-bi-meets-sql-everything-you-need-to-know-about-database-connections-5aij",
+      "description": "Introduction Microsoft power BI is a powerful tool used for data visualization .It allows data analyst ,developers and organization to convert raw data from numbers into narrative that drive decisions by creating dashboard ,charts and reports.Power bi is mostly use in data Analysis ,Business intelli",
+      "pubDate": "2026-03-15T11:31:24.000Z",
       "source": "Dev.to",
       "category": "development",
       "weight": 6,
-      "content": "The problem I work with hotel reservation systems that dump SOAP/OTA XML responses — sometimes 1-2 GB per file. Every XML viewer I tried either crashed, froze the tab, or ran out of memory. Notepad++ tops out around 200MB. Browser-based XML viewers load everything into a DOM tree that eats 3-10x the file size in RAM. A 500MB file? That's 4GB of RAM just to render it. The solution I built XML Stream Parser — a Chrome extension that handles XML files up to 2GB without freezing your browser. How it",
-      "author": "Yana Postnova",
+      "content": "Introduction Microsoft power BI is a powerful tool used for data visualization .It allows data analyst ,developers and organization to convert raw data from numbers into narrative that drive decisions by creating dashboard ,charts and reports.Power bi is mostly use in data Analysis ,Business intelligence and reporting. In this era of technological advancement most organization used it to monitor spot trends in performance and high impact decision making. Power BI connects directly to databases a",
+      "author": "Guyo",
       "readTime": 1,
       "importance": 6,
       "tags": [
-        "Web"
+        "Business",
+        "Analysis"
       ],
-      "sentiment": "negative",
+      "sentiment": "neutral",
       "complexity": "medium",
-      "type": "news",
-      "relevanceScore": 332.45,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 332.45,
-      "readingLevel": "intermediate"
+      "type": "analysis",
+      "relevanceScore": 379.94,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 380.44,
+      "readingLevel": "advanced"
     },
     {
       "id": "VGhlICQxMDAsMDAw",
@@ -68,9 +69,9 @@
       "sentiment": "negative",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 301.91,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 302.41,
+      "relevanceScore": 397.84,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 398.34,
       "readingLevel": "advanced"
     },
     {
@@ -93,31 +94,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 275.17,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 277.17,
-      "readingLevel": "advanced"
-    },
-    {
-      "id": "UXVpY2sgYW5kIGVh",
-      "title": "Quick and easy Next.js boilerplate with TypeScript to jumpstart your project",
-      "link": "https://dev.to/dekigk/quick-and-easy-nextjs-boilerplate-with-typescript-to-jumpstart-your-project-2lkn",
-      "description": "When starting a new React project, I want to get working on the features as soon as possible. The last thing any developer wants to do is spend time configuring the tools. This is why I created this comprehensive Next.js TypeScript boilerplate that comes pre-configured with Styled Components for CSS",
-      "pubDate": "2026-03-15T11:00:00.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "When starting a new React project, I want to get working on the features as soon as possible. The last thing any developer wants to do is spend time configuring the tools. This is why I created this comprehensive Next.js TypeScript boilerplate that comes pre-configured with Styled Components for CSS-in-JS styling, ESLint and Prettier for code quality, and Jest for unit testing - everything you need for a production-ready React development environment. What's Included in This Next.js Starter Temp",
-      "author": "Dejan Kostevski",
-      "readTime": 1,
-      "importance": 8,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "news",
-      "relevanceScore": 266.41,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 266.91,
+      "relevanceScore": 303.6,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 305.6,
       "readingLevel": "advanced"
     },
     {
@@ -141,9 +120,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 242.04,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 242.54,
+      "relevanceScore": 270.47,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 270.97,
       "readingLevel": "advanced"
     },
     {
@@ -166,9 +145,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 234.69,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 237.19,
+      "relevanceScore": 263.62,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 266.12,
       "readingLevel": "advanced"
     },
     {
@@ -188,9 +167,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 237.75,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 238.25,
+      "relevanceScore": 242.68,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 243.18,
       "readingLevel": "intermediate"
     },
     {
@@ -210,9 +189,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 151.69,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 152.19,
+      "relevanceScore": 178.62,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 179.12,
       "readingLevel": "advanced"
     },
     {
@@ -235,9 +214,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 79.8,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 80.3,
+      "relevanceScore": 103.23,
+      "calculatedAt": "2026-03-15T11:48:00.588Z",
+      "recommendationScore": 103.73,
       "readingLevel": "advanced"
     },
     {
@@ -257,9 +236,31 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 72.84,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 73.34,
+      "relevanceScore": 97.27,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 97.77,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "VGhlIFBpdGZhbGwg",
+      "title": "The Pitfall of LLM Fallback Chains: The Day DeepSeek Erased Our Agent's Personality",
+      "link": "https://dev.to/linou518/the-pitfall-of-llm-fallback-chains-the-day-deepseek-erased-our-agents-personality-2fj8",
+      "description": "The Pitfall of LLM Fallback Chains: The Day DeepSeek Erased Our Agent's Personality Introduction If you run a multi-agent system, you know the drill: LLM providers hit rate limits, quotas run dry. So you set up a fallback chain—if the primary model fails, try the next one. Sounds reasonable. Until i",
+      "pubDate": "2026-03-15T11:35:41.000Z",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "weight": 6,
+      "content": "The Pitfall of LLM Fallback Chains: The Day DeepSeek Erased Our Agent's Personality Introduction If you run a multi-agent system, you know the drill: LLM providers hit rate limits, quotas run dry. So you set up a fallback chain—if the primary model fails, try the next one. Sounds reasonable. Until it isn't. One day, that \"reasonable design\" caused an unexpected failure. The moment the model switched, our AI agent's personality vanished. What Happened Our OpenClaw cluster runs 20+ agents across m",
+      "author": "linou518",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 93.96,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 94.46,
       "readingLevel": "advanced"
     },
     {
@@ -279,32 +280,10 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 132.85,
-      "calculatedAt": "2026-03-15T11:26:47.383Z",
-      "recommendationScore": 135.35,
+      "relevanceScore": 136.78,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 139.28,
       "readingLevel": "intermediate"
-    },
-    {
-      "id": "QnJvbXB0b24gRWxl",
-      "title": "Brompton Electric T-Line Folding Electric Bicycle Review: Pocket-Sized Pedal Power",
-      "link": "https://www.wired.com/review/brompton-electric-t-line-with-e-motiq/",
-      "description": "Brompton's latest folding electric bicycle is beautiful, genuinely portable, and doesn't quite go fast enough.",
-      "pubDate": "2026-03-15T11:00:00.000Z",
-      "source": "Wired",
-      "category": "tech",
-      "weight": 7,
-      "content": "Brompton's latest folding electric bicycle is beautiful, genuinely portable, and doesn't quite go fast enough.",
-      "author": "Adrienne So",
-      "readTime": 1,
-      "importance": 7,
-      "tags": [],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "review",
-      "relevanceScore": 65.41,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 65.91,
-      "readingLevel": "advanced"
     },
     {
       "id": "aUdhcmRlbiBNMSBQ",
@@ -323,9 +302,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 51.32,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 51.82,
+      "relevanceScore": 74.25,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 74.75,
       "readingLevel": "intermediate"
     },
     {
@@ -345,10 +324,32 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 51.41,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 51.91,
+      "relevanceScore": 74.34,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 74.84,
       "readingLevel": "beginner"
+    },
+    {
+      "id": "SG93IFdlIExldCBV",
+      "title": "How We Let Users Register with Just a Phone Number on a NOT NULL Email Column",
+      "link": "https://dev.to/linou518/how-we-let-users-register-with-just-a-phone-number-on-a-not-null-email-column-16on",
+      "description": "How We Let Users Register with Just a Phone Number on a NOT NULL Email Column When we bolted a shop frontend onto an existing ERP system, we hit a quiet but annoying authentication problem. The user table's email column was NOT NULL + UNIQUE . The ERP managed accounts by email. But the shop's target",
+      "pubDate": "2026-03-15T11:35:49.000Z",
+      "source": "Dev.to",
+      "category": "development",
+      "weight": 6,
+      "content": "How We Let Users Register with Just a Phone Number on a NOT NULL Email Column When we bolted a shop frontend onto an existing ERP system, we hit a quiet but annoying authentication problem. The user table's email column was NOT NULL + UNIQUE . The ERP managed accounts by email. But the shop's target users were wholesale buyers—people who live on their phones and LINE. Many don't have an email address, or at least don't want to type one into a registration form. The solution: placeholder emails .",
+      "author": "linou518",
+      "readTime": 1,
+      "importance": 8,
+      "tags": [],
+      "sentiment": "negative",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 71.96,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 73.96,
+      "readingLevel": "intermediate"
     },
     {
       "id": "TWV0YSByZXBvcnRl",
@@ -370,9 +371,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 49.71,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 50.21,
+      "relevanceScore": 72.64,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 73.14,
       "readingLevel": "advanced"
     },
     {
@@ -396,9 +397,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "tutorial",
-      "relevanceScore": 48.21,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 50.21,
+      "relevanceScore": 71.14,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 73.14,
       "readingLevel": "beginner"
     },
     {
@@ -421,9 +422,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 46.07,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 48.07,
+      "relevanceScore": 69,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 71,
       "readingLevel": "advanced"
     },
     {
@@ -446,9 +447,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 48.17,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 48.67,
+      "relevanceScore": 71.1,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 71.6,
       "readingLevel": "advanced"
     },
     {
@@ -468,9 +469,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 45.86,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 46.36,
+      "relevanceScore": 68.79,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 69.29,
       "readingLevel": "advanced"
     },
     {
@@ -490,10 +491,54 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 44.47,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 46.47,
+      "relevanceScore": 67.4,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 69.4,
       "readingLevel": "advanced"
+    },
+    {
+      "id": "QnJvbXB0b24gRWxl",
+      "title": "Brompton Electric T-Line Folding Electric Bicycle Review: Pocket-Sized Pedal Power",
+      "link": "https://www.wired.com/review/brompton-electric-t-line-with-e-motiq/",
+      "description": "Brompton's latest folding electric bicycle is beautiful, genuinely portable, and doesn't quite go fast enough.",
+      "pubDate": "2026-03-15T11:00:00.000Z",
+      "source": "Wired",
+      "category": "tech",
+      "weight": 7,
+      "content": "Brompton's latest folding electric bicycle is beautiful, genuinely portable, and doesn't quite go fast enough.",
+      "author": "Adrienne So",
+      "readTime": 1,
+      "importance": 7,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "review",
+      "relevanceScore": 66.34,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 66.84,
+      "readingLevel": "advanced"
+    },
+    {
+      "id": "V2Ugd2lsbCBpbnRl",
+      "title": "We will intervene on energy bills 'if necessary', says Miliband",
+      "link": "https://www.bbc.com/news/articles/cj4z7zr4kd8o?at_medium=RSS&at_campaign=rss",
+      "description": "Oil and gas prices have surged due to the US-Israel war in Iran, with fears over the cost of living.",
+      "pubDate": "2026-03-15T11:42:38.000Z",
+      "source": "BBC News",
+      "category": "general",
+      "weight": 10,
+      "content": "Oil and gas prices have surged due to the US-Israel war in Iran, with fears over the cost of living.",
+      "author": "BBC News",
+      "readTime": 1,
+      "importance": 10,
+      "tags": [],
+      "sentiment": "neutral",
+      "complexity": "low",
+      "type": "news",
+      "relevanceScore": 31.98,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 32.48,
+      "readingLevel": "beginner"
     },
     {
       "id": "V2lsbGlhbSBzaGFy",
@@ -512,9 +557,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 31.91,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 32.41,
+      "relevanceScore": 31.84,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 32.34,
       "readingLevel": "intermediate"
     },
     {
@@ -536,9 +581,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 32.5,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 35,
+      "relevanceScore": 32.43,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 34.93,
       "readingLevel": "advanced"
     },
     {
@@ -558,58 +603,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "review",
-      "relevanceScore": 25.71,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 26.21,
-      "readingLevel": "intermediate"
-    },
-    {
-      "id": "R2l0IENvbW1pdCBT",
-      "title": "Git Commit Split: Shell Command Quick Reference",
-      "link": "https://dev.to/bmf_san/git-commit-split-shell-command-quick-reference-2981",
-      "description": "This article was originally published on bmf-tech.com . Notes on how to split a commit in Git. Occasionally needed. // Specify the point to split. Edit the target commit. git rebase -i HEAD~5 // The target commit is unstaged git reset HEAD~ // Add & commit at any granularity git add ~ git commit ~ g",
-      "pubDate": "2026-03-15T11:01:43.000Z",
-      "source": "Dev.to",
-      "category": "development",
-      "weight": 6,
-      "content": "This article was originally published on bmf-tech.com . Notes on how to split a commit in Git. Occasionally needed. // Specify the point to split. Edit the target commit. git rebase -i HEAD~5 // The target commit is unstaged git reset HEAD~ // Add & commit at any granularity git add ~ git commit ~ git rebase --continue",
-      "author": "Kenta Takeuchi",
-      "readTime": 1,
-      "importance": 6,
-      "tags": [
-        "Tech",
-        "Tutorial"
-      ],
-      "sentiment": "neutral",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 23.92,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 23.92,
-      "readingLevel": "beginner"
-    },
-    {
-      "id": "T3NjYXJzIDIwMjY6",
-      "title": "Oscars 2026: What to expect, how to watch and who will win",
-      "link": "https://www.bbc.com/news/articles/clyv4e2ldpjo?at_medium=RSS&at_campaign=rss",
-      "description": "Sinners, One Battle After Another and Hamnet will all be vying for Hollywood's highest honour on Sunday.",
-      "pubDate": "2026-03-15T00:01:28.000Z",
-      "source": "BBC News",
-      "category": "general",
-      "weight": 10,
-      "content": "Sinners, One Battle After Another and Hamnet will all be vying for Hollywood's highest honour on Sunday.",
-      "author": "BBC News",
-      "readTime": 1,
-      "importance": 10,
-      "tags": [
-        "Tutorial"
-      ],
-      "sentiment": "positive",
-      "complexity": "low",
-      "type": "tutorial",
-      "relevanceScore": 30.72,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 32.72,
+      "relevanceScore": 25.64,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 26.14,
       "readingLevel": "intermediate"
     },
     {
@@ -629,9 +625,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 16.7,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 17.2,
+      "relevanceScore": 16.63,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 17.13,
       "readingLevel": "beginner"
     },
     {
@@ -653,9 +649,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.11,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 26.61,
+      "relevanceScore": 24.04,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 26.54,
       "readingLevel": "intermediate"
     },
     {
@@ -675,9 +671,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.37,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 25.87,
+      "relevanceScore": 25.3,
+      "calculatedAt": "2026-03-15T11:48:00.589Z",
+      "recommendationScore": 25.8,
       "readingLevel": "advanced"
     },
     {
@@ -697,9 +693,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 19.6,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 20.1,
+      "relevanceScore": 19.53,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 20.03,
       "readingLevel": "beginner"
     },
     {
@@ -719,9 +715,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.7,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 25.2,
+      "relevanceScore": 22.63,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 25.13,
       "readingLevel": "advanced"
     },
     {
@@ -743,9 +739,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 22.7,
-      "calculatedAt": "2026-03-15T11:26:47.384Z",
-      "recommendationScore": 23.2,
+      "relevanceScore": 22.63,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 23.13,
       "readingLevel": "advanced"
     },
     {
@@ -765,9 +761,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 25.07,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 25.57,
+      "relevanceScore": 25,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 25.5,
       "readingLevel": "advanced"
     },
     {
@@ -789,9 +785,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 24.39,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 25.89,
+      "relevanceScore": 24.32,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 25.82,
       "readingLevel": "beginner"
     },
     {
@@ -811,9 +807,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 21.39,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 23.39,
+      "relevanceScore": 21.32,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 23.32,
       "readingLevel": "beginner"
     },
     {
@@ -835,9 +831,9 @@
       "sentiment": "positive",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.07,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 24.57,
+      "relevanceScore": 22.99,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 24.49,
       "readingLevel": "advanced"
     },
     {
@@ -857,9 +853,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 18.64,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 19.14,
+      "relevanceScore": 18.57,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 19.07,
       "readingLevel": "advanced"
     },
     {
@@ -879,9 +875,9 @@
       "sentiment": "neutral",
       "complexity": "low",
       "type": "news",
-      "relevanceScore": 23.07,
-      "calculatedAt": "2026-03-15T11:26:47.385Z",
-      "recommendationScore": 23.57,
+      "relevanceScore": 22.99,
+      "calculatedAt": "2026-03-15T11:48:00.590Z",
+      "recommendationScore": 23.49,
       "readingLevel": "advanced"
     }
   ],
@@ -905,6 +901,6 @@
     "general",
     "business"
   ],
-  "processedAt": "2026-03-15T11:26:47.395Z",
+  "processedAt": "2026-03-15T11:48:00.601Z",
   "processingVersion": "2.0"
 }
