@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-03-23T19:54:56.573Z",
+  "lastUpdated": "2026-03-23T20:32:35.886Z",
   "totalArticles": 40,
   "categories": [
     "tech",
     "general",
-    "development",
     "mobile",
-    "ai-ml",
-    "startup",
+    "development",
     "business",
+    "startup",
+    "ai-ml",
+    "finance",
     "cybersecurity",
     "gaming",
+    "education",
     "health",
-    "automotive",
-    "finance"
+    "automotive"
   ],
   "topArticles": [
     {
@@ -22,34 +23,23 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-03-23T19:30:00.000Z",
-      "relevanceScore": 813.92,
-      "recommendationScore": 814.42,
+      "relevanceScore": 1023.79,
+      "recommendationScore": 1024.29,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "'Stop, stop, stop': Listen to LaGuardia control tower audio during collision",
-      "link": "https://www.bbc.com/news/videos/clyer72wn85o?at_medium=RSS&at_campaign=rss",
+      "title": "'Like the plane got cut in half': Eyewitnesses describe chaos of LaGuardia crash",
+      "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-03-23T15:04:25.000Z",
-      "relevanceScore": 810.03,
-      "recommendationScore": 811.53,
+      "pubDate": "2026-03-23T19:28:28.000Z",
+      "relevanceScore": 476.79,
+      "recommendationScore": 477.29,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Claude Max $100 vs $200: What You Actually Get (Measured, Not Guessed)",
-      "link": "https://dev.to/alexdobrushskiy/claude-max-100-vs-200-what-you-actually-get-measured-not-guessed-3kjd",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-03-23T19:47:16.000Z",
-      "relevanceScore": 420.47,
-      "recommendationScore": 423.47,
-      "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Apple will reportedly start stuffing ads into the Maps app",
@@ -57,8 +47,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-03-23T18:23:11.000Z",
-      "relevanceScore": 411.19,
-      "recommendationScore": 411.69,
+      "relevanceScore": 423.07,
+      "recommendationScore": 423.57,
       "tags": [
         "Mobile"
       ],
@@ -70,8 +60,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-03-23T19:08:45.000Z",
-      "relevanceScore": 408.85,
-      "recommendationScore": 409.35,
+      "relevanceScore": 408.72,
+      "recommendationScore": 409.22,
       "tags": [
         "Web",
         "IPO"
@@ -79,97 +69,16 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Update: How My Local AI Agent \"Daemon\" Learned Logical Discipline (Part 2)",
-      "link": "https://dev.to/ramarondonuwu/update-how-my-local-ai-agent-daemon-learned-logical-discipline-part-2-8kp",
+      "title": "Unit Testing in JavaScript: A Practical Guide with Jest",
+      "link": "https://dev.to/thecoollearner/unit-test-in-javascript-2ka3",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T19:39:11.000Z",
-      "relevanceScore": 386.45,
-      "recommendationScore": 388.45,
+      "category": "development",
+      "pubDate": "2026-03-23T20:19:33.000Z",
+      "relevanceScore": 339.46,
+      "recommendationScore": 339.96,
       "tags": [
-        "AI",
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Bay Area’s animal welfare movement wants to recruit AI",
-      "link": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T09:00:00.000Z",
-      "relevanceScore": 273.82,
-      "recommendationScore": 274.32,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testing",
-      "link": "https://www.wired.com/story/a-billionaire-backed-startup-wants-to-grow-organ-sacks-to-replace-animal-testing/",
-      "source": "Wired",
-      "category": "startup",
-      "pubDate": "2026-03-23T19:46:05.000Z",
-      "relevanceScore": 270.97,
-      "recommendationScore": 271.47,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy",
-      "link": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T12:17:33.000Z",
-      "relevanceScore": 251.48,
-      "recommendationScore": 251.98,
-      "tags": [
-        "AI",
         "Tech",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Andrew Ng's new open-source project, Context Hub, attempts to solve a problem every API provider has right now whether they know it or not. Coding agents are getting your API wrong.",
-      "link": "https://dev.to/leslysandra/andrew-ngs-new-open-source-project-context-hub-attempts-to-solve-a-problem-every-api-provider-3kh7",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T19:41:08.000Z",
-      "relevanceScore": 232.45,
-      "recommendationScore": 234.45,
-      "tags": [
-        "AI",
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Qatar says 6 people are confirmed dead, one is still missing in a Qatari helicopter crash in the Gulf country's waters",
-      "link": "https://abcnews.com/Business/wireStory/qatar-6-people-confirmed-dead-missing-qatari-helicopter-131300024",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-03-23T11:47:33.000Z",
-      "relevanceScore": 214.38,
-      "recommendationScore": 214.38,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "GitHub expands application security coverage with AI‑powered detections",
-      "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T16:00:00.000Z",
-      "relevanceScore": 133.72,
-      "recommendationScore": 134.22,
-      "tags": [
-        "AI",
-        "Security",
-        "Exclusive"
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -179,12 +88,103 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-03-23T06:36:32.000Z",
-      "relevanceScore": 131.84,
-      "recommendationScore": 132.34,
+      "relevanceScore": 334.71,
+      "recommendationScore": 335.21,
       "tags": [
         "Report"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testing",
+      "link": "https://www.wired.com/story/a-billionaire-backed-startup-wants-to-grow-organ-sacks-to-replace-animal-testing/",
+      "source": "Wired",
+      "category": "startup",
+      "pubDate": "2026-03-23T19:46:05.000Z",
+      "relevanceScore": 321.34,
+      "recommendationScore": 321.84,
+      "tags": [
+        "Startup"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Qatar says 6 people are confirmed dead, one is still missing in a Qatari helicopter crash in the Gulf country's waters",
+      "link": "https://abcnews.com/Business/wireStory/qatar-6-people-confirmed-dead-missing-qatari-helicopter-131300024",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-03-23T11:47:33.000Z",
+      "relevanceScore": 232.25,
+      "recommendationScore": 232.25,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Bay Area’s animal welfare movement wants to recruit AI",
+      "link": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-03-23T09:00:00.000Z",
+      "relevanceScore": 215.19,
+      "recommendationScore": 215.69,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "GitHub expands application security coverage with AI‑powered detections",
+      "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-03-23T16:00:00.000Z",
+      "relevanceScore": 215.09,
+      "recommendationScore": 215.59,
+      "tags": [
+        "AI",
+        "Security",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why Product Insights Belong in Your IDE",
+      "link": "https://dev.to/productsights/why-product-insights-belong-in-your-ide-119c",
+      "source": "Dev.to",
+      "category": "finance",
+      "pubDate": "2026-03-23T20:17:44.000Z",
+      "relevanceScore": 196.95,
+      "recommendationScore": 198.45,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy",
+      "link": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-03-23T12:17:33.000Z",
+      "relevanceScore": 189.35,
+      "recommendationScore": 189.85,
+      "tags": [
+        "AI",
+        "Tech",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+      "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-03-23T20:15:59.000Z",
+      "relevanceScore": 112.94,
+      "recommendationScore": 113.44,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Arson attack on Jewish charity ambulances investigated by counter-terror police",
@@ -192,9 +192,22 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-23T19:32:24.000Z",
-      "relevanceScore": 79.92,
-      "recommendationScore": 80.42,
+      "relevanceScore": 86.8,
+      "recommendationScore": 87.3,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Kalshi says it will block politicians and athletes from trading in markets they’re tied to",
+      "link": "https://www.theverge.com/tech/899097/kalshi-politicians-athletes-insider-trading-blocked",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2026-03-23T20:24:43.000Z",
+      "relevanceScore": 80.47,
+      "recommendationScore": 80.97,
+      "tags": [
+        "Business"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -203,8 +216,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-03-22T00:45:45.000Z",
-      "relevanceScore": 77.87,
-      "recommendationScore": 78.37,
+      "relevanceScore": 71.74,
+      "recommendationScore": 72.24,
       "tags": [
         "AI",
         "Social",
@@ -218,8 +231,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-23T16:31:20.000Z",
-      "relevanceScore": 76.32,
-      "recommendationScore": 76.82,
+      "relevanceScore": 70.7,
+      "recommendationScore": 71.2,
       "tags": [
         "AI",
         "Exclusive"
@@ -232,8 +245,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-03-23T18:22:04.000Z",
-      "relevanceScore": 75.69,
-      "recommendationScore": 76.19,
+      "relevanceScore": 57.56,
+      "recommendationScore": 58.06,
       "tags": [
         "Startup"
       ],
@@ -245,8 +258,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-03-23T18:00:45.000Z",
-      "relevanceScore": 74.62,
-      "recommendationScore": 75.12,
+      "relevanceScore": 56.49,
+      "recommendationScore": 56.99,
       "tags": [
         "AI",
         "Launch"
@@ -259,8 +272,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-23T13:11:55.000Z",
-      "relevanceScore": 73.66,
-      "recommendationScore": 74.16,
+      "relevanceScore": 55.53,
+      "recommendationScore": 56.03,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -270,8 +283,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-03-23T19:49:11.000Z",
-      "relevanceScore": 72.98,
-      "recommendationScore": 76.98,
+      "relevanceScore": 54.86,
+      "recommendationScore": 58.86,
       "tags": [
         "Exclusive"
       ],
@@ -283,8 +296,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-03-23T18:59:17.000Z",
-      "relevanceScore": 72.81,
-      "recommendationScore": 73.31,
+      "relevanceScore": 54.69,
+      "recommendationScore": 55.19,
       "tags": [
         "Exclusive"
       ],
@@ -296,8 +309,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-23T17:59:46.000Z",
-      "relevanceScore": 72.62,
-      "recommendationScore": 74.12,
+      "relevanceScore": 54.49,
+      "recommendationScore": 55.99,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -307,8 +320,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-03-23T17:49:57.000Z",
-      "relevanceScore": 72.58,
-      "recommendationScore": 72.58,
+      "relevanceScore": 54.46,
+      "recommendationScore": 54.46,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -318,8 +331,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-03-23T16:52:09.000Z",
-      "relevanceScore": 72.39,
-      "recommendationScore": 72.39,
+      "relevanceScore": 54.27,
+      "recommendationScore": 54.27,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -329,8 +342,8 @@
       "source": "ABC News Business",
       "category": "cybersecurity",
       "pubDate": "2026-03-23T14:07:21.000Z",
-      "relevanceScore": 71.84,
-      "recommendationScore": 72.34,
+      "relevanceScore": 53.72,
+      "recommendationScore": 54.22,
       "tags": [
         "Security"
       ],
@@ -342,10 +355,34 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-03-23T19:33:21.000Z",
-      "relevanceScore": 70.93,
-      "recommendationScore": 70.93,
+      "relevanceScore": 52.8,
+      "recommendationScore": 52.8,
       "tags": [
         "Tech",
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Republicans in Congress add $250 annual federal EV tax to transport bill",
+      "link": "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-03-23T17:29:29.000Z",
+      "relevanceScore": 50.89,
+      "recommendationScore": 51.39,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A lot has happened in my life since I was here last time...",
+      "link": "https://dev.to/stef4nutz/a-lot-has-happened-in-my-life-since-i-was-here-last-time-1o33",
+      "source": "Dev.to",
+      "category": "education",
+      "pubDate": "2026-03-23T20:21:05.000Z",
+      "relevanceScore": 49.46,
+      "recommendationScore": 49.96,
+      "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
@@ -356,8 +393,8 @@
       "source": "Engadget",
       "category": "startup",
       "pubDate": "2026-03-23T17:57:48.000Z",
-      "relevanceScore": 70.11,
-      "recommendationScore": 70.61,
+      "relevanceScore": 47.48,
+      "recommendationScore": 47.98,
       "tags": [
         "Tech",
         "Startup"
@@ -365,42 +402,18 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "British supplement maker Huel bought by Danone for reported €1bn",
-      "link": "https://www.bbc.com/news/articles/czre7pl600go?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2026-03-23T15:50:44.000Z",
-      "relevanceScore": 44.69,
-      "recommendationScore": 45.19,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Apple could put ads in Maps as soon as this summer",
-      "link": "https://www.theverge.com/tech/899053/apple-maps-advertising-rumor",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-03-23T18:54:44.000Z",
-      "relevanceScore": 39.3,
-      "recommendationScore": 39.3,
+      "title": "Worried about a shaky stock market? This is what financial advisers suggest you do",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5742568/iran-war-investments-retirement-529-stock-market",
+      "source": "NPR Business",
+      "category": "finance",
+      "pubDate": "2026-03-23T09:00:00.000Z",
+      "relevanceScore": 38.19,
+      "recommendationScore": 40.19,
       "tags": [
-        "Mobile",
-        "Web",
-        "Report",
-        "Launch"
+        "Business",
+        "IPO"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Republicans in Congress add $250 annual federal EV tax to transport bill",
-      "link": "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-03-23T17:29:29.000Z",
-      "relevanceScore": 39.02,
-      "recommendationScore": 39.52,
-      "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
     },
     {
       "title": "Slovenia becomes first EU country to introduce fuel rationing",
@@ -408,8 +421,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-23T17:45:25.000Z",
-      "relevanceScore": 31.57,
-      "recommendationScore": 34.07,
+      "relevanceScore": 31.44,
+      "recommendationScore": 33.94,
       "tags": [
         "Exclusive",
         "Acquisition"
@@ -422,10 +435,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-23T16:08:35.000Z",
-      "relevanceScore": 31.25,
-      "recommendationScore": 33.25,
+      "relevanceScore": 31.12,
+      "recommendationScore": 33.12,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "British supplement maker Huel bought by Danone for €1bn",
+      "link": "https://www.bbc.com/news/articles/czre7pl600go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2026-03-23T15:50:44.000Z",
+      "relevanceScore": 31.06,
+      "recommendationScore": 31.56,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Bipartisan bill seeks to ban sports betting on Kalshi and Polymarket",
@@ -433,22 +457,11 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-03-23T18:31:53.000Z",
-      "relevanceScore": 27.72,
-      "recommendationScore": 28.22,
+      "relevanceScore": 27.6,
+      "recommendationScore": 28.1,
       "tags": [
         "Regulation"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "DoorDash introduces relief payments for drivers as the Iran-US war drives up gas prices",
-      "link": "https://techcrunch.com/2026/03/23/doordash-introduces-relief-payments-for-drivers-as-the-iran-us-war-drives-up-gas-prices/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-23T17:48:50.000Z",
-      "relevanceScore": 27.58,
-      "recommendationScore": 28.08,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -457,8 +470,8 @@
       "source": "NPR Business",
       "category": "automotive",
       "pubDate": "2026-03-23T14:32:54.000Z",
-      "relevanceScore": 26.43,
-      "recommendationScore": 26.93,
+      "relevanceScore": 26.3,
+      "recommendationScore": 26.8,
       "tags": [
         "IPO"
       ],
@@ -470,8 +483,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-03-23T19:42:33.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 26.46,
+      "relevanceScore": 25.83,
+      "recommendationScore": 26.33,
       "tags": [
         "Tech",
         "IPO"
@@ -484,24 +497,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-23T19:05:58.000Z",
-      "relevanceScore": 25.84,
-      "recommendationScore": 26.34,
+      "relevanceScore": 25.71,
+      "recommendationScore": 26.21,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Worried about a shaky stock market? This is what financial advisers suggest you do",
-      "link": "https://www.npr.org/2026/03/23/nx-s1-5742568/iran-war-investments-retirement-529-stock-market",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2026-03-23T09:00:00.000Z",
-      "relevanceScore": 25.82,
-      "recommendationScore": 27.82,
-      "tags": [
-        "Business",
-        "IPO"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "Apple will talk iOS 27, macOS 27, and more at WWDC 2026 on June 8",
@@ -509,8 +508,8 @@
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2026-03-23T18:34:59.000Z",
-      "relevanceScore": 25.73,
-      "recommendationScore": 26.23,
+      "relevanceScore": 25.61,
+      "recommendationScore": 26.11,
       "tags": [
         "Tech"
       ],
@@ -522,8 +521,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-03-23T17:13:59.000Z",
-      "relevanceScore": 23.46,
-      "recommendationScore": 23.46,
+      "relevanceScore": 23.34,
+      "recommendationScore": 23.34,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -535,7 +534,7 @@
         "link": "https://www.theverge.com/gadgets/899019/kindle-colorsoft-kobo-libra-colour-ebook-reader-amazon-big-spring-sale-2026-deal",
         "source": "The Verge",
         "pubDate": "2026-03-23T19:30:00.000Z",
-        "relevanceScore": 813.92,
+        "relevanceScore": 1023.79,
         "tags": [
           "Tech"
         ]
@@ -545,7 +544,7 @@
         "link": "https://techcrunch.com/2026/03/23/russian-authorities-block-paywall-removal-site-archive-today/",
         "source": "TechCrunch",
         "pubDate": "2026-03-23T19:08:45.000Z",
-        "relevanceScore": 408.85,
+        "relevanceScore": 408.72,
         "tags": [
           "Web",
           "IPO"
@@ -556,7 +555,7 @@
         "link": "https://www.theverge.com/tech/898992/google-pixel-10-ads-moving-on-stalker-lying-beach-view-100-zoom",
         "source": "The Verge",
         "pubDate": "2026-03-23T19:49:11.000Z",
-        "relevanceScore": 72.98,
+        "relevanceScore": 54.86,
         "tags": [
           "Exclusive"
         ]
@@ -566,7 +565,7 @@
         "link": "https://www.wired.com/story/a-mysterious-numbers-station-is-broadcasting-through-the-iran-war/",
         "source": "Wired",
         "pubDate": "2026-03-23T18:59:17.000Z",
-        "relevanceScore": 72.81,
+        "relevanceScore": 54.69,
         "tags": [
           "Exclusive"
         ]
@@ -576,7 +575,7 @@
         "link": "https://arstechnica.com/science/2026/03/long-fingernails-vs-touchscreens-this-nail-polish-could-help/",
         "source": "Ars Technica",
         "pubDate": "2026-03-23T17:59:46.000Z",
-        "relevanceScore": 72.62,
+        "relevanceScore": 54.49,
         "tags": []
       },
       {
@@ -584,7 +583,7 @@
         "link": "https://www.wired.com/story/jlab-go-pop-deal-326/",
         "source": "Wired",
         "pubDate": "2026-03-23T17:49:57.000Z",
-        "relevanceScore": 72.58,
+        "relevanceScore": 54.46,
         "tags": []
       },
       {
@@ -592,7 +591,7 @@
         "link": "https://www.wired.com/story/ice-invades-airports-across-the-us/",
         "source": "Wired",
         "pubDate": "2026-03-23T16:52:09.000Z",
-        "relevanceScore": 72.39,
+        "relevanceScore": 54.27,
         "tags": []
       },
       {
@@ -600,7 +599,7 @@
         "link": "https://arstechnica.com/cars/2026/03/republicans-in-congress-add-250-annual-federal-ev-tax-to-transport-bill/",
         "source": "Ars Technica",
         "pubDate": "2026-03-23T17:29:29.000Z",
-        "relevanceScore": 39.02,
+        "relevanceScore": 50.89,
         "tags": []
       },
       {
@@ -608,25 +607,17 @@
         "link": "https://techcrunch.com/2026/03/23/bipartisan-bill-seeks-to-ban-sports-betting-on-kalshi-and-polymarket/",
         "source": "TechCrunch",
         "pubDate": "2026-03-23T18:31:53.000Z",
-        "relevanceScore": 27.72,
+        "relevanceScore": 27.6,
         "tags": [
           "Regulation"
         ]
-      },
-      {
-        "title": "DoorDash introduces relief payments for drivers as the Iran-US war drives up gas prices",
-        "link": "https://techcrunch.com/2026/03/23/doordash-introduces-relief-payments-for-drivers-as-the-iran-us-war-drives-up-gas-prices/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-23T17:48:50.000Z",
-        "relevanceScore": 27.58,
-        "tags": []
       },
       {
         "title": "Nvidia CEO Jensen Huang says &#8216;I think we&#8217;ve achieved AGI&#8217;",
         "link": "https://www.theverge.com/ai-artificial-intelligence/899086/jensen-huang-nvidia-agi",
         "source": "The Verge",
         "pubDate": "2026-03-23T19:42:33.000Z",
-        "relevanceScore": 25.96,
+        "relevanceScore": 25.83,
         "tags": [
           "Tech",
           "IPO"
@@ -637,7 +628,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/03/intuit-beats-ftc-in-court-ending-restrictions-on-free-turbotax-ads/",
         "source": "Ars Technica",
         "pubDate": "2026-03-23T19:05:58.000Z",
-        "relevanceScore": 25.84,
+        "relevanceScore": 25.71,
         "tags": []
       },
       {
@@ -645,17 +636,17 @@
         "link": "https://www.engadget.com/apps/apples-wwdc-2026-is-set-for-june-8-12-171359493.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-23T17:13:59.000Z",
-        "relevanceScore": 23.46,
+        "relevanceScore": 23.34,
         "tags": []
       }
     ],
     "general": [
       {
-        "title": "'Stop, stop, stop': Listen to LaGuardia control tower audio during collision",
-        "link": "https://www.bbc.com/news/videos/clyer72wn85o?at_medium=RSS&at_campaign=rss",
+        "title": "'Like the plane got cut in half': Eyewitnesses describe chaos of LaGuardia crash",
+        "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-03-23T15:04:25.000Z",
-        "relevanceScore": 810.03,
+        "pubDate": "2026-03-23T19:28:28.000Z",
+        "relevanceScore": 476.79,
         "tags": []
       },
       {
@@ -663,7 +654,7 @@
         "link": "https://www.bbc.com/news/articles/cwyj1p49gdpo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-23T19:32:24.000Z",
-        "relevanceScore": 79.92,
+        "relevanceScore": 86.8,
         "tags": []
       },
       {
@@ -671,7 +662,7 @@
         "link": "https://www.bbc.com/news/articles/c77m4zx6zvmo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-23T17:45:25.000Z",
-        "relevanceScore": 31.57,
+        "relevanceScore": 31.44,
         "tags": [
           "Exclusive",
           "Acquisition"
@@ -682,17 +673,7 @@
         "link": "https://www.bbc.com/news/articles/c4g8d8pz0xyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-23T16:08:35.000Z",
-        "relevanceScore": 31.25,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Claude Max $100 vs $200: What You Actually Get (Measured, Not Guessed)",
-        "link": "https://dev.to/alexdobrushskiy/claude-max-100-vs-200-what-you-actually-get-measured-not-guessed-3kjd",
-        "source": "Dev.to",
-        "pubDate": "2026-03-23T19:47:16.000Z",
-        "relevanceScore": 420.47,
+        "relevanceScore": 31.12,
         "tags": []
       }
     ],
@@ -702,22 +683,9 @@
         "link": "https://www.engadget.com/apps/apple-will-reportedly-start-stuffing-ads-into-the-maps-app-182311634.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-23T18:23:11.000Z",
-        "relevanceScore": 411.19,
+        "relevanceScore": 423.07,
         "tags": [
           "Mobile"
-        ]
-      },
-      {
-        "title": "Apple could put ads in Maps as soon as this summer",
-        "link": "https://www.theverge.com/tech/899053/apple-maps-advertising-rumor",
-        "source": "The Verge",
-        "pubDate": "2026-03-23T18:54:44.000Z",
-        "relevanceScore": 39.3,
-        "tags": [
-          "Mobile",
-          "Web",
-          "Report",
-          "Launch"
         ]
       },
       {
@@ -725,55 +693,95 @@
         "link": "https://arstechnica.com/gadgets/2026/03/apple-will-talk-ios-27-macos-27-and-more-at-wwdc-2026-on-june-8/",
         "source": "Ars Technica",
         "pubDate": "2026-03-23T18:34:59.000Z",
-        "relevanceScore": 25.73,
+        "relevanceScore": 25.61,
         "tags": [
           "Tech"
         ]
       }
     ],
-    "ai-ml": [
+    "development": [
       {
-        "title": "Update: How My Local AI Agent \"Daemon\" Learned Logical Discipline (Part 2)",
-        "link": "https://dev.to/ramarondonuwu/update-how-my-local-ai-agent-daemon-learned-logical-discipline-part-2-8kp",
+        "title": "Unit Testing in JavaScript: A Practical Guide with Jest",
+        "link": "https://dev.to/thecoollearner/unit-test-in-javascript-2ka3",
         "source": "Dev.to",
-        "pubDate": "2026-03-23T19:39:11.000Z",
-        "relevanceScore": 386.45,
+        "pubDate": "2026-03-23T20:19:33.000Z",
+        "relevanceScore": 339.46,
         "tags": [
-          "AI",
-          "Update"
+          "Tech",
+          "Tutorial"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "The media may have unmasked Banksy — again. That's angered some art fans but not ruffled dealers",
+        "link": "https://abcnews.com/Business/wireStory/media-unmasked-banksy-angered-art-fans-ruffled-dealers-131299311",
+        "source": "ABC News Business",
+        "pubDate": "2026-03-23T06:36:32.000Z",
+        "relevanceScore": 334.71,
+        "tags": [
+          "Report"
         ]
       },
+      {
+        "title": "Qatar says 6 people are confirmed dead, one is still missing in a Qatari helicopter crash in the Gulf country's waters",
+        "link": "https://abcnews.com/Business/wireStory/qatar-6-people-confirmed-dead-missing-qatari-helicopter-131300024",
+        "source": "ABC News Business",
+        "pubDate": "2026-03-23T11:47:33.000Z",
+        "relevanceScore": 232.25,
+        "tags": []
+      },
+      {
+        "title": "Voice of America staffers sue, alleging Kari Lake put on propaganda",
+        "link": "https://www.npr.org/2026/03/23/nx-s1-5756465/voice-of-america-staffers-sue-alleging-kari-lake-put-on-propaganda",
+        "source": "NPR Business",
+        "pubDate": "2026-03-23T13:11:55.000Z",
+        "relevanceScore": 55.53,
+        "tags": []
+      }
+    ],
+    "startup": [
+      {
+        "title": "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testing",
+        "link": "https://www.wired.com/story/a-billionaire-backed-startup-wants-to-grow-organ-sacks-to-replace-animal-testing/",
+        "source": "Wired",
+        "pubDate": "2026-03-23T19:46:05.000Z",
+        "relevanceScore": 321.34,
+        "tags": [
+          "Startup"
+        ]
+      },
+      {
+        "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+        "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-23T18:22:04.000Z",
+        "relevanceScore": 57.56,
+        "tags": [
+          "Startup"
+        ]
+      },
+      {
+        "title": "Wing expands its drone delivery service to the Bay Area",
+        "link": "https://www.engadget.com/transportation/wing-expands-its-drone-delivery-service-to-the-bay-area-175748410.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-23T17:57:48.000Z",
+        "relevanceScore": 47.48,
+        "tags": [
+          "Tech",
+          "Startup"
+        ]
+      }
+    ],
+    "ai-ml": [
       {
         "title": "The Bay Area’s animal welfare movement wants to recruit AI",
         "link": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-23T09:00:00.000Z",
-        "relevanceScore": 273.82,
+        "relevanceScore": 215.19,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy",
-        "link": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-03-23T12:17:33.000Z",
-        "relevanceScore": 251.48,
-        "tags": [
-          "AI",
-          "Tech",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Andrew Ng's new open-source project, Context Hub, attempts to solve a problem every API provider has right now whether they know it or not. Coding agents are getting your API wrong.",
-        "link": "https://dev.to/leslysandra/andrew-ngs-new-open-source-project-context-hub-attempts-to-solve-a-problem-every-api-provider-3kh7",
-        "source": "Dev.to",
-        "pubDate": "2026-03-23T19:41:08.000Z",
-        "relevanceScore": 232.45,
-        "tags": [
-          "AI",
-          "Cloud"
         ]
       },
       {
@@ -781,7 +789,7 @@
         "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
         "source": "GitHub Blog",
         "pubDate": "2026-03-23T16:00:00.000Z",
-        "relevanceScore": 133.72,
+        "relevanceScore": 215.09,
         "tags": [
           "AI",
           "Security",
@@ -789,11 +797,33 @@
         ]
       },
       {
+        "title": "The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy",
+        "link": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-03-23T12:17:33.000Z",
+        "relevanceScore": 189.35,
+        "tags": [
+          "AI",
+          "Tech",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+        "link": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-23T20:15:59.000Z",
+        "relevanceScore": 112.94,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "AI videos of sexualised black women removed from TikTok after BBC investigation",
         "link": "https://www.bbc.com/news/articles/c070e283k8vo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-22T00:45:45.000Z",
-        "relevanceScore": 77.87,
+        "relevanceScore": 71.74,
         "tags": [
           "AI",
           "Social",
@@ -805,7 +835,7 @@
         "link": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-23T16:31:20.000Z",
-        "relevanceScore": 76.32,
+        "relevanceScore": 70.7,
         "tags": [
           "AI",
           "Exclusive"
@@ -816,72 +846,42 @@
         "link": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
         "source": "TechCrunch",
         "pubDate": "2026-03-23T18:00:45.000Z",
-        "relevanceScore": 74.62,
+        "relevanceScore": 56.49,
         "tags": [
           "AI",
           "Launch"
         ]
       }
     ],
-    "startup": [
+    "finance": [
       {
-        "title": "A Billionaire-Backed Startup Wants to Grow 'Organ Sacks' to Replace Animal Testing",
-        "link": "https://www.wired.com/story/a-billionaire-backed-startup-wants-to-grow-organ-sacks-to-replace-animal-testing/",
-        "source": "Wired",
-        "pubDate": "2026-03-23T19:46:05.000Z",
-        "relevanceScore": 270.97,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
-        "link": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-23T18:22:04.000Z",
-        "relevanceScore": 75.69,
-        "tags": [
-          "Startup"
-        ]
-      },
-      {
-        "title": "Wing expands its drone delivery service to the Bay Area",
-        "link": "https://www.engadget.com/transportation/wing-expands-its-drone-delivery-service-to-the-bay-area-175748410.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-23T17:57:48.000Z",
-        "relevanceScore": 70.11,
-        "tags": [
-          "Tech",
-          "Startup"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Qatar says 6 people are confirmed dead, one is still missing in a Qatari helicopter crash in the Gulf country's waters",
-        "link": "https://abcnews.com/Business/wireStory/qatar-6-people-confirmed-dead-missing-qatari-helicopter-131300024",
-        "source": "ABC News Business",
-        "pubDate": "2026-03-23T11:47:33.000Z",
-        "relevanceScore": 214.38,
+        "title": "Why Product Insights Belong in Your IDE",
+        "link": "https://dev.to/productsights/why-product-insights-belong-in-your-ide-119c",
+        "source": "Dev.to",
+        "pubDate": "2026-03-23T20:17:44.000Z",
+        "relevanceScore": 196.95,
         "tags": []
       },
       {
-        "title": "The media may have unmasked Banksy — again. That's angered some art fans but not ruffled dealers",
-        "link": "https://abcnews.com/Business/wireStory/media-unmasked-banksy-angered-art-fans-ruffled-dealers-131299311",
-        "source": "ABC News Business",
-        "pubDate": "2026-03-23T06:36:32.000Z",
-        "relevanceScore": 131.84,
+        "title": "Kalshi says it will block politicians and athletes from trading in markets they’re tied to",
+        "link": "https://www.theverge.com/tech/899097/kalshi-politicians-athletes-insider-trading-blocked",
+        "source": "The Verge",
+        "pubDate": "2026-03-23T20:24:43.000Z",
+        "relevanceScore": 80.47,
         "tags": [
-          "Report"
+          "Business"
         ]
       },
       {
-        "title": "Voice of America staffers sue, alleging Kari Lake put on propaganda",
-        "link": "https://www.npr.org/2026/03/23/nx-s1-5756465/voice-of-america-staffers-sue-alleging-kari-lake-put-on-propaganda",
+        "title": "Worried about a shaky stock market? This is what financial advisers suggest you do",
+        "link": "https://www.npr.org/2026/03/23/nx-s1-5742568/iran-war-investments-retirement-529-stock-market",
         "source": "NPR Business",
-        "pubDate": "2026-03-23T13:11:55.000Z",
-        "relevanceScore": 73.66,
-        "tags": []
+        "pubDate": "2026-03-23T09:00:00.000Z",
+        "relevanceScore": 38.19,
+        "tags": [
+          "Business",
+          "IPO"
+        ]
       }
     ],
     "cybersecurity": [
@@ -890,7 +890,7 @@
         "link": "https://abcnews.com/Business/wireStory/federal-immigration-agents-atlanta-airport-after-trump-order-131322147",
         "source": "ABC News Business",
         "pubDate": "2026-03-23T14:07:21.000Z",
-        "relevanceScore": 71.84,
+        "relevanceScore": 53.72,
         "tags": [
           "Security"
         ]
@@ -902,20 +902,32 @@
         "link": "https://www.engadget.com/gaming/ea-is-nuking-battlefield-hardline-on-consoles-193321551.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-23T19:33:21.000Z",
-        "relevanceScore": 70.93,
+        "relevanceScore": 52.8,
         "tags": [
           "Tech",
           "Web"
         ]
       }
     ],
+    "education": [
+      {
+        "title": "A lot has happened in my life since I was here last time...",
+        "link": "https://dev.to/stef4nutz/a-lot-has-happened-in-my-life-since-i-was-here-last-time-1o33",
+        "source": "Dev.to",
+        "pubDate": "2026-03-23T20:21:05.000Z",
+        "relevanceScore": 49.46,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
     "health": [
       {
-        "title": "British supplement maker Huel bought by Danone for reported €1bn",
+        "title": "British supplement maker Huel bought by Danone for €1bn",
         "link": "https://www.bbc.com/news/articles/czre7pl600go?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-23T15:50:44.000Z",
-        "relevanceScore": 44.69,
+        "relevanceScore": 31.06,
         "tags": []
       }
     ],
@@ -925,21 +937,8 @@
         "link": "https://www.npr.org/2026/03/23/nx-s1-5757440/supreme-court-press-freedom",
         "source": "NPR Business",
         "pubDate": "2026-03-23T14:32:54.000Z",
-        "relevanceScore": 26.43,
+        "relevanceScore": 26.3,
         "tags": [
-          "IPO"
-        ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "Worried about a shaky stock market? This is what financial advisers suggest you do",
-        "link": "https://www.npr.org/2026/03/23/nx-s1-5742568/iran-war-investments-retirement-529-stock-market",
-        "source": "NPR Business",
-        "pubDate": "2026-03-23T09:00:00.000Z",
-        "relevanceScore": 25.82,
-        "tags": [
-          "Business",
           "IPO"
         ]
       }
@@ -947,23 +946,23 @@
   },
   "stats": {
     "totalSources": 12,
-    "totalCategories": 12,
-    "avgRelevanceScore": 154.707,
+    "totalCategories": 13,
+    "avgRelevanceScore": 144.5565,
     "topCategories": [
       {
         "category": "tech",
-        "count": 13
+        "count": 12
       },
       {
         "category": "ai-ml",
-        "count": 8
+        "count": 7
       },
       {
         "category": "general",
         "count": 4
       },
       {
-        "category": "mobile",
+        "category": "business",
         "count": 3
       },
       {
