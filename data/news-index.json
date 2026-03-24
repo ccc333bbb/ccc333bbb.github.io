@@ -1,7 +1,66 @@
 {
-  "lastUpdated": "2026-03-23T23:59:47.714Z",
+  "lastUpdated": "2026-03-24T02:41:08.309Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-03-24",
+      "file": "2026-03-24.json",
+      "totalArticles": 40,
+      "lastUpdated": "2026-03-24T02:41:08.290Z",
+      "sources": [
+        "BBC News",
+        "Engadget",
+        "The Verge",
+        "BBC Technology",
+        "GitHub Blog",
+        "Ars Technica",
+        "Dev.to",
+        "TechCrunch",
+        "Wired",
+        "MIT Technology Review",
+        "NPR Business",
+        "ABC News Business"
+      ],
+      "categories": [
+        "general",
+        "tech",
+        "development",
+        "science",
+        "business"
+      ],
+      "topArticles": [
+        {
+          "title": "Watch: How the deadly LaGuardia Airport crash unfolded",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/videos/czxrv4pqx72o?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 1544.80246
+        },
+        {
+          "title": "The US bans all new foreign-made network routers",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/big-tech/the-us-bans-all-new-foreign-made-network-routers-223622966.html?src=rss",
+          "relevanceScore": 1144.9602376388889
+        },
+        {
+          "title": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 1115.2720433333334
+        },
+        {
+          "title": "Claude Code and Cowork can now use your computer",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html?src=rss",
+          "relevanceScore": 1092.1571820833333
+        },
+        {
+          "title": "The US government just banned consumer routers made outside the US",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/news/899172/fcc-foreign-router-ban",
+          "relevanceScore": 798.0520431944444
+        }
+      ]
+    },
     {
       "date": "2026-03-23",
       "file": "2026-03-23.json",
@@ -33,31 +92,31 @@
           "title": "'Stop, stop, stop': Listen to LaGuardia control tower audio during collision",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/videos/clyer72wn85o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1134.5385145833334
+          "relevanceScore": 1058.72
         },
         {
           "title": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1036.6165701388888
+          "relevanceScore": 1009.45
         },
         {
           "title": "After hackers hit an Iowa company, cars around the country failed to start",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/security/2026/03/after-hack-some-ignition-interlock-users-couldnt-start-their-own-cars/",
-          "relevanceScore": 772.5869866666667
+          "relevanceScore": 715.93
         },
         {
           "title": "Claude Code and Cowork can now use your computer",
           "source": "Engadget",
           "link": "https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html?src=rss",
-          "relevanceScore": 710.5017088888889
+          "relevanceScore": 596.4
         },
         {
           "title": "Apple will reportedly start stuffing ads into the Maps app",
           "source": "Engadget",
           "link": "https://www.engadget.com/apps/apple-will-reportedly-start-stuffing-ads-into-the-maps-app-182311634.html?src=rss",
-          "relevanceScore": 685.1949033333333
+          "relevanceScore": 652.88
         }
       ]
     },
@@ -1737,62 +1796,6 @@
           "source": "Engadget",
           "link": "https://www.engadget.com/ai/anthropic-accuses-three-chinese-ai-labs-of-abusing-claude-to-improve-their-own-models-205210613.html?src=rss",
           "relevanceScore": 922.38
-        }
-      ]
-    },
-    {
-      "date": "2026-02-22",
-      "file": "2026-02-22.json",
-      "totalArticles": 38,
-      "lastUpdated": "2026-02-22T23:47:03.341Z",
-      "sources": [
-        "BBC Technology",
-        "Dev.to",
-        "Ars Technica",
-        "The Verge",
-        "TechCrunch",
-        "Wired",
-        "BBC News",
-        "ABC News Business",
-        "Engadget",
-        "NPR Business"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "general",
-        "business"
-      ],
-      "topArticles": [
-        {
-          "title": "Why fake AI videos of UK urban decline are taking over social media",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.com/news/articles/c4g8r23yv71o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1301.16
-        },
-        {
-          "title": "Sayiir — a durable workflow engine in Rust, simple, with Python & Node.js bindings",
-          "source": "Dev.to",
-          "link": "https://dev.to/yacineb_45/sayiir-a-durable-workflow-engine-in-rust-simple-with-python-nodejs-bindings-5gd7",
-          "relevanceScore": 471.48
-        },
-        {
-          "title": "NASA says it needs to haul the Artemis II rocket back to the hangar for repairs",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/space/2026/02/nasa-says-it-needs-to-haul-the-artemis-ii-rocket-back-to-the-hangar-for-repairs/",
-          "relevanceScore": 559.23
-        },
-        {
-          "title": "This magazine plays Tetris — here’s how",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/tech/881175/red-bull-media-house-game-pop-bulletin-magazine-playable-tetris-flexible-display",
-          "relevanceScore": 471.05
-        },
-        {
-          "title": "Study shows how rocket launches pollute the atmosphere",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/space/2026/02/study-shows-how-rocket-launches-pollute-the-atmosphere/",
-          "relevanceScore": 375.51
         }
       ]
     }
