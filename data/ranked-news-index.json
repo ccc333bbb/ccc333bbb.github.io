@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-03-24T17:13:55.803Z",
+  "lastUpdated": "2026-03-24T18:08:06.872Z",
   "totalArticles": 43,
   "categories": [
     "finance",
+    "development",
     "ai-ml",
-    "social",
+    "general",
     "business",
     "tech",
-    "entertainment",
-    "mobile",
-    "cybersecurity",
-    "development",
     "automotive",
     "gaming",
-    "general",
-    "science"
+    "cybersecurity",
+    "science",
+    "mobile",
+    "entertainment"
   ],
   "topArticles": [
     {
@@ -23,12 +22,23 @@
       "source": "BBC News",
       "category": "finance",
       "pubDate": "2026-03-24T13:35:46.000Z",
-      "relevanceScore": 783.27,
-      "recommendationScore": 783.77,
+      "relevanceScore": 1025.09,
+      "recommendationScore": 1025.59,
       "tags": [
         "Business"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "A Rant about Windows and Printers",
+      "link": "https://dev.to/runner2022/a-rant-about-windows-and-printers-35ao",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-03-24T17:50:43.000Z",
+      "relevanceScore": 921.44,
+      "recommendationScore": 921.44,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks",
@@ -36,8 +46,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-24T12:28:27.000Z",
-      "relevanceScore": 762.55,
-      "recommendationScore": 763.05,
+      "relevanceScore": 817.37,
+      "recommendationScore": 817.87,
       "tags": [
         "AI",
         "Tech"
@@ -50,8 +60,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-03-24T07:40:00.000Z",
-      "relevanceScore": 619.09,
-      "recommendationScore": 619.59,
+      "relevanceScore": 810.91,
+      "recommendationScore": 811.41,
       "tags": [
         "AI",
         "Security",
@@ -60,17 +70,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Son of Nottingham attacks victim found out father had died through Instagram",
-      "link": "https://www.bbc.com/news/articles/cgld4w7dlkdo?at_medium=RSS&at_campaign=rss",
+      "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+      "link": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
-      "category": "social",
-      "pubDate": "2026-03-24T16:21:11.000Z",
-      "relevanceScore": 605.82,
-      "recommendationScore": 606.32,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
+      "category": "general",
+      "pubDate": "2026-03-24T17:32:20.000Z",
+      "relevanceScore": 702.88,
+      "recommendationScore": 705.38,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "What to know about the deadly collision between a jet and fire truck at NYC's LaGuardia Airport",
@@ -78,172 +86,20 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-03-24T03:24:04.000Z",
-      "relevanceScore": 488.23,
-      "recommendationScore": 490.23,
+      "relevanceScore": 628.05,
+      "recommendationScore": 630.05,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Ads are coming to Apple Maps, as Apple expands its business offerings",
-      "link": "https://techcrunch.com/2026/03/24/apple-maps-ads-apple-business/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-24T15:00:00.000Z",
-      "relevanceScore": 474.55,
-      "recommendationScore": 475.05,
-      "tags": [
-        "Business",
-        "Launch"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Meet the former Apple designer building a new AI interface at Hark",
-      "link": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-03-24T16:00:00.000Z",
-      "relevanceScore": 390.75,
-      "recommendationScore": 393.25,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Apple Music partners with Ticketmaster to power its concert discovery feature",
-      "link": "https://techcrunch.com/2026/03/24/apple-music-partners-with-ticketmaster-to-power-its-concert-discovery-feature/",
-      "source": "TechCrunch",
-      "category": "entertainment",
-      "pubDate": "2026-03-24T17:00:00.000Z",
-      "relevanceScore": 370.95,
-      "recommendationScore": 371.45,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Bandsintown integration for concerts is coming to Apple Music",
-      "link": "https://www.engadget.com/entertainment/music/bandsintown-integration-for-concerts-is-coming-to-apple-music-170034229.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-03-24T17:00:34.000Z",
-      "relevanceScore": 367.96,
-      "recommendationScore": 368.46,
-      "tags": [
-        "Science",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How to Use Apple’s Live Translation on Your AirPods",
-      "link": "https://www.wired.com/story/apple-live-translation-airpods/",
+      "title": "Our Favorite Turntable Is $51 Off Before Record Store Day",
+      "link": "https://www.wired.com/story/atlp120x-deal-326/",
       "source": "Wired",
       "category": "tech",
-      "pubDate": "2026-03-24T11:00:00.000Z",
-      "relevanceScore": 367.75,
-      "recommendationScore": 369.75,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Flighty’s new update gives you real-time alerts about airport disturbances",
-      "link": "https://techcrunch.com/2026/03/24/flightys-new-update-gives-you-real-time-alerts-about-airport-disturbances/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-24T15:05:29.000Z",
-      "relevanceScore": 347.57,
-      "recommendationScore": 350.07,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Postgres pipelines from the JVM with Bpdbi",
-      "link": "https://dev.to/cies/postgres-pipelines-from-the-jvm-with-bpdbi-14cd",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2026-03-24T17:00:31.000Z",
-      "relevanceScore": 291.46,
-      "recommendationScore": 291.46,
-      "tags": [
-        "Mobile",
-        "Cloud",
-        "Funding"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "⛓️‍💥 AI Agents broke my Dev setup",
-      "link": "https://dev.to/ariel_sh_badacdbc56554713/ai-agents-broke-my-dev-setup-4hlm",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-03-24T17:02:26.000Z",
-      "relevanceScore": 285.96,
-      "recommendationScore": 285.96,
-      "tags": [
-        "AI",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "GitHub expands application security coverage with AI‑powered detections",
-      "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
-      "source": "GitHub Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-03-23T16:00:00.000Z",
-      "relevanceScore": 273.95,
-      "recommendationScore": 274.45,
-      "tags": [
-        "AI",
-        "Security",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
-      "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
-      "source": "Ars Technica",
-      "category": "cybersecurity",
-      "pubDate": "2026-03-24T12:38:09.000Z",
-      "relevanceScore": 264.08,
-      "recommendationScore": 264.58,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "# Sorted Squares of a Sorted Array (Java) – Efficient Two-Pointer Approach",
-      "link": "https://dev.to/sharmi_sabari_09/-sorted-squares-of-a-sorted-array-java-efficient-two-pointer-approach-2bp5",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-03-24T17:06:40.000Z",
-      "relevanceScore": 262.98,
-      "recommendationScore": 263.48,
+      "pubDate": "2026-03-24T17:41:44.000Z",
+      "relevanceScore": 226.91,
+      "recommendationScore": 227.41,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Pokémon Champions will hit Switch and Switch 2 on April 8",
-      "link": "https://www.engadget.com/gaming/nintendo/pokemon-champions-will-hit-switch-and-switch-2-on-april-8-165737121.html?src=rss",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-03-24T16:57:37.000Z",
-      "relevanceScore": 262.95,
-      "recommendationScore": 263.45,
-      "tags": [
-        "Mobile",
-        "Launch"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -252,50 +108,61 @@
       "source": "NPR Business",
       "category": "automotive",
       "pubDate": "2026-03-23T14:32:54.000Z",
-      "relevanceScore": 177.16,
-      "recommendationScore": 177.66,
+      "relevanceScore": 221.98,
+      "recommendationScore": 222.48,
       "tags": [
         "IPO"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Estee Lauder confirms talks with Spanish perfume maker Puig",
-      "link": "https://abcnews.com/Business/wireStory/estee-lauder-confirms-talks-spanish-perfume-maker-puig-131354082",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-03-24T12:34:49.000Z",
-      "relevanceScore": 154.07,
-      "recommendationScore": 154.57,
+      "title": "Three new Gemini features come to Google TV",
+      "link": "https://www.engadget.com/entertainment/streaming/three-new-gemini-features-come-to-google-tv-175724155.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-03-24T17:57:25.000Z",
+      "relevanceScore": 185.96,
+      "recommendationScore": 187.96,
       "tags": [
-        "Business",
-        "Partnership"
+        "AI"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
-      "title": "US bans new foreign-made consumer internet routers",
-      "link": "https://www.bbc.com/news/articles/c74787w149zo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "title": "For All Mankind is returning for a sixth and final season",
+      "link": "https://www.engadget.com/entertainment/tv-movies/for-all-mankind-is-returning-for-a-sixth-and-final-season-173859683.html?src=rss",
+      "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-03-24T01:26:53.000Z",
-      "relevanceScore": 137.84,
-      "recommendationScore": 139.84,
+      "pubDate": "2026-03-24T17:38:59.000Z",
+      "relevanceScore": 155.4,
+      "recommendationScore": 155.9,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meet the former Apple designer building a new AI interface at Hark",
+      "link": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-03-24T16:00:00.000Z",
+      "relevanceScore": 129.57,
+      "recommendationScore": 132.07,
       "tags": [
-        "Web"
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "A BlackBerry you might actually want just landed on Kickstarter",
-      "link": "https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder",
+      "title": "The Apple Watch SE 3 is even easier to recommend at $50 off",
+      "link": "https://www.theverge.com/gadgets/899671/apple-watch-se-third-generation-deal-sale",
       "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-03-24T16:27:36.000Z",
-      "relevanceScore": 59.35,
-      "recommendationScore": 59.85,
+      "category": "tech",
+      "pubDate": "2026-03-24T17:18:10.000Z",
+      "relevanceScore": 122.33,
+      "recommendationScore": 122.83,
       "tags": [
-        "Mobile"
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -305,8 +172,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-03-24T17:00:00.000Z",
-      "relevanceScore": 54.45,
-      "recommendationScore": 54.45,
+      "relevanceScore": 120.77,
+      "recommendationScore": 120.77,
       "tags": [
         "AI",
         "Tech",
@@ -320,8 +187,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-24T15:45:19.000Z",
-      "relevanceScore": 49.7,
-      "recommendationScore": 50.2,
+      "relevanceScore": 101.02,
+      "recommendationScore": 101.52,
       "tags": [
         "Science",
         "Report"
@@ -334,12 +201,26 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-03-24T17:13:00.000Z",
-      "relevanceScore": 49,
-      "recommendationScore": 49.5,
+      "relevanceScore": 68.82,
+      "recommendationScore": 69.32,
       "tags": [
         "AI",
         "Launch",
         "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How I Built 7 AI Agents That Bring Discipline to VS Code Copilot",
+      "link": "https://dev.to/bitfrog/the-copilot-workflow-handoffs-not-chaos-1598",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-03-24T17:50:42.000Z",
+      "relevanceScore": 66.94,
+      "recommendationScore": 69.94,
+      "tags": [
+        "AI",
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -349,25 +230,35 @@
       "source": "BBC Technology",
       "category": "gaming",
       "pubDate": "2026-03-24T16:48:34.000Z",
-      "relevanceScore": 48.92,
-      "recommendationScore": 49.42,
+      "relevanceScore": 63.73,
+      "recommendationScore": 64.23,
       "tags": [
         "Web"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Welp, I bought an iPhone again",
-      "link": "https://www.theverge.com/tech/899602/best-phone-android-ios-app-store",
-      "source": "The Verge",
-      "category": "mobile",
-      "pubDate": "2026-03-24T17:00:00.000Z",
-      "relevanceScore": 39.95,
-      "recommendationScore": 39.95,
+      "title": "US bans new foreign-made consumer internet routers",
+      "link": "https://www.bbc.com/news/articles/c74787w149zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-03-24T01:26:53.000Z",
+      "relevanceScore": 63.16,
+      "recommendationScore": 65.16,
       "tags": [
-        "Mobile",
-        "Exclusive"
+        "Web"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "BRK Capital raises $14.5M (so far) to  invest in Black founders",
+      "link": "https://techcrunch.com/2026/03/24/brk-capital-raises-14-5m-so-far-to-invest-in-black-founders/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-03-24T17:47:41.000Z",
+      "relevanceScore": 55.43,
+      "recommendationScore": 55.93,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -376,8 +267,8 @@
       "source": "GitHub Blog",
       "category": "ai-ml",
       "pubDate": "2026-03-24T16:00:00.000Z",
-      "relevanceScore": 39.25,
-      "recommendationScore": 39.75,
+      "relevanceScore": 52.57,
+      "recommendationScore": 53.07,
       "tags": [
         "AI",
         "Mobile",
@@ -387,15 +278,18 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Reeves plans energy bill help for those 'who need it most'",
-      "link": "https://www.bbc.com/news/articles/cr516nmer5eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-03-24T15:46:00.000Z",
-      "relevanceScore": 31.71,
-      "recommendationScore": 32.21,
-      "tags": [],
-      "readingLevel": "beginner"
+      "title": "Estee Lauder confirms talks with Spanish perfume maker Puig",
+      "link": "https://abcnews.com/Business/wireStory/estee-lauder-confirms-talks-spanish-perfume-maker-puig-131354082",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-03-24T12:34:49.000Z",
+      "relevanceScore": 47.39,
+      "recommendationScore": 47.89,
+      "tags": [
+        "Business",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Transgender girls told to leave Girlguiding groups by September",
@@ -403,72 +297,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-03-24T13:32:10.000Z",
-      "relevanceScore": 31.26,
-      "recommendationScore": 31.76,
+      "relevanceScore": 44.58,
+      "recommendationScore": 45.08,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Married at First Sight star Mel Schilling dies at 54",
-      "link": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-03-24T13:14:52.000Z",
-      "relevanceScore": 31.2,
-      "recommendationScore": 33.7,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "This scientist rewarmed and studied pieces of his friend’s cryopreserved brain",
-      "link": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-03-24T16:43:36.000Z",
-      "relevanceScore": 29.9,
-      "recommendationScore": 30.4,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Epic Games cuts 1,000 jobs, says Fortnite engagement is down",
-      "link": "https://techcrunch.com/2026/03/24/epic-games-cuts-1000-jobs-says-fortnite-engagement-is-down/",
-      "source": "TechCrunch",
-      "category": "gaming",
-      "pubDate": "2026-03-24T15:17:32.000Z",
-      "relevanceScore": 27.61,
-      "recommendationScore": 28.11,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Life is Strange: Reunion is a full-circle moment for its stars",
-      "link": "https://www.theverge.com/entertainment/897984/life-is-strange-reunion-cast-interview",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-03-24T16:00:00.000Z",
-      "relevanceScore": 26.75,
-      "recommendationScore": 27.25,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Study says roads bring more fires to forests; USDA wants more roads to fight fires",
-      "link": "https://arstechnica.com/science/2026/03/study-says-roads-bring-more-fire-to-forests-usda-wants-more-roads-to-fight-fires/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-03-24T14:37:33.000Z",
-      "relevanceScore": 26.48,
-      "recommendationScore": 26.98,
-      "tags": [
-        "Science",
-        "Report"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "Trump delivers farmers another financial blow with Iran war",
@@ -476,9 +308,109 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-24T09:00:00.000Z",
-      "relevanceScore": 26.35,
-      "recommendationScore": 26.85,
+      "relevanceScore": 43.67,
+      "recommendationScore": 44.17,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Crunchyroll confirms data breach after hacker claims unauthorized access",
+      "link": "https://techcrunch.com/2026/03/24/crunchyroll-confirms-data-breach-after-hacker-claims-unauthorized-access/",
+      "source": "TechCrunch",
+      "category": "cybersecurity",
+      "pubDate": "2026-03-24T17:20:07.000Z",
+      "relevanceScore": 38.84,
+      "recommendationScore": 39.34,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "This scientist rewarmed and studied pieces of his friend’s cryopreserved brain",
+      "link": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-03-24T16:43:36.000Z",
+      "relevanceScore": 34.72,
+      "recommendationScore": 35.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "'Truly magical woman': Tributes to Married at First Sight star Mel Schilling",
+      "link": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-03-24T17:59:25.000Z",
+      "relevanceScore": 32.97,
+      "recommendationScore": 35.47,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Doss raises $55M for AI inventory management that plugs into ERP",
+      "link": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-03-24T17:18:29.000Z",
+      "relevanceScore": 32.83,
+      "recommendationScore": 33.33,
+      "tags": [
+        "AI",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "All of DOGE’s work could be undone as lawsuit against Musk proceeds",
+      "link": "https://arstechnica.com/tech-policy/2026/03/all-of-doges-work-could-be-undone-as-lawsuit-against-musk-proceeds/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-03-24T17:17:34.000Z",
+      "relevanceScore": 31.83,
+      "recommendationScore": 32.33,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Reeves plans energy bill help for those 'who need it most'",
+      "link": "https://www.bbc.com/news/articles/cr516nmer5eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-03-24T15:46:00.000Z",
+      "relevanceScore": 31.53,
+      "recommendationScore": 32.03,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Welp, I bought an iPhone again",
+      "link": "https://www.theverge.com/tech/899602/best-phone-android-ios-app-store",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-03-24T17:00:00.000Z",
+      "relevanceScore": 30.77,
+      "recommendationScore": 30.77,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A BlackBerry you might actually want just landed on Kickstarter",
+      "link": "https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder",
+      "source": "The Verge",
+      "category": "mobile",
+      "pubDate": "2026-03-24T16:27:36.000Z",
+      "relevanceScore": 30.66,
+      "recommendationScore": 31.16,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -487,8 +419,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-23T16:31:20.000Z",
-      "relevanceScore": 25.06,
-      "recommendationScore": 25.56,
+      "relevanceScore": 29.88,
+      "recommendationScore": 30.38,
       "tags": [
         "AI",
         "Exclusive"
@@ -496,61 +428,44 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Orbital data centers, part 1: There’s no way this is economically viable, right?",
-      "link": "https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-03-24T11:00:59.000Z",
-      "relevanceScore": 24.76,
-      "recommendationScore": 25.26,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More",
-      "link": "https://www.wired.com/gallery/best-premium-soundbars/",
+      "title": "How to Use Apple’s Live Translation on Your AirPods",
+      "link": "https://www.wired.com/story/apple-live-translation-airpods/",
       "source": "Wired",
       "category": "tech",
-      "pubDate": "2026-03-24T10:30:00.000Z",
-      "relevanceScore": 24.65,
-      "recommendationScore": 26.15,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Clear Drop Soft Plastic Compactor Review: Eco Experiment",
-      "link": "https://www.wired.com/review/clear-drop-soft-plastic-compactor/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-03-24T11:30:00.000Z",
-      "relevanceScore": 24.35,
-      "recommendationScore": 24.85,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Punisher's one-off TV special hits Disney+ on May 12",
-      "link": "https://www.engadget.com/entertainment/tv-movies/the-punishers-one-off-tv-special-hits-disney-on-may-12-162208769.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-03-24T16:22:08.000Z",
-      "relevanceScore": 23.83,
-      "recommendationScore": 24.33,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "There's a new Payday game, this time in VR",
-      "link": "https://www.engadget.com/gaming/theres-a-new-payday-game-this-time-in-vr-160051276.html?src=rss",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-03-24T16:00:51.000Z",
-      "relevanceScore": 23.76,
-      "recommendationScore": 25.76,
+      "pubDate": "2026-03-24T11:00:00.000Z",
+      "relevanceScore": 29.57,
+      "recommendationScore": 31.57,
       "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "iOS 26.4 is here, with Playlist Playground and new emoji",
+      "link": "https://www.engadget.com/mobile/ios-264-is-here-with-playlist-playground-and-new-emoji-171343120.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-03-24T17:13:43.000Z",
+      "relevanceScore": 28.82,
+      "recommendationScore": 31.32,
+      "tags": [
+        "AI",
         "Launch"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Apple Music partners with Ticketmaster to power its concert discovery feature",
+      "link": "https://techcrunch.com/2026/03/24/apple-music-partners-with-ticketmaster-to-power-its-concert-discovery-feature/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2026-03-24T17:00:00.000Z",
+      "relevanceScore": 27.77,
+      "recommendationScore": 28.27,
+      "tags": [
+        "Science"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Voice of America staffers sue, alleging Kari Lake put on propaganda",
@@ -558,9 +473,38 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-23T13:11:55.000Z",
-      "relevanceScore": 22.39,
-      "recommendationScore": 22.89,
+      "relevanceScore": 27.21,
+      "recommendationScore": 27.71,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Study says roads bring more fires to forests; USDA wants more roads to fight fires",
+      "link": "https://arstechnica.com/science/2026/03/study-says-roads-bring-more-fire-to-forests-usda-wants-more-roads-to-fight-fires/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-03-24T14:37:33.000Z",
+      "relevanceScore": 26.3,
+      "recommendationScore": 26.8,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "GitHub expands application security coverage with AI‑powered detections",
+      "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+      "source": "GitHub Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-03-23T16:00:00.000Z",
+      "relevanceScore": 25.77,
+      "recommendationScore": 26.27,
+      "tags": [
+        "AI",
+        "Security",
+        "Exclusive"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -569,10 +513,59 @@
       "source": "ABC News Business",
       "category": "cybersecurity",
       "pubDate": "2026-03-23T14:07:21.000Z",
-      "relevanceScore": 20.58,
-      "recommendationScore": 21.08,
+      "relevanceScore": 25.4,
+      "recommendationScore": 25.9,
       "tags": [
         "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
+      "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
+      "source": "Ars Technica",
+      "category": "cybersecurity",
+      "pubDate": "2026-03-24T12:38:09.000Z",
+      "relevanceScore": 24.9,
+      "recommendationScore": 25.4,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Clear Drop Soft Plastic Compactor Review: Eco Experiment",
+      "link": "https://www.wired.com/review/clear-drop-soft-plastic-compactor/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-03-24T11:30:00.000Z",
+      "relevanceScore": 24.17,
+      "recommendationScore": 24.67,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Implementing a RAG system: Crawl",
+      "link": "https://dev.to/gde/implementing-a-rag-system-crawl-5li",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-03-24T18:00:00.000Z",
+      "relevanceScore": 23.97,
+      "recommendationScore": 23.97,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Apple confirms ads are coming to Apple Maps",
+      "link": "https://www.engadget.com/apps/apple-confirms-ads-are-coming-to-apple-maps-175613751.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-03-24T17:56:13.000Z",
+      "relevanceScore": 23.96,
+      "recommendationScore": 23.96,
+      "tags": [
+        "Business",
+        "Mobile"
       ],
       "readingLevel": "advanced"
     }
@@ -584,10 +577,28 @@
         "link": "https://www.bbc.com/news/articles/cg547ljepvzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-03-24T13:35:46.000Z",
-        "relevanceScore": 783.27,
+        "relevanceScore": 1025.09,
         "tags": [
           "Business"
         ]
+      }
+    ],
+    "development": [
+      {
+        "title": "A Rant about Windows and Printers",
+        "link": "https://dev.to/runner2022/a-rant-about-windows-and-printers-35ao",
+        "source": "Dev.to",
+        "pubDate": "2026-03-24T17:50:43.000Z",
+        "relevanceScore": 921.44,
+        "tags": []
+      },
+      {
+        "title": "Implementing a RAG system: Crawl",
+        "link": "https://dev.to/gde/implementing-a-rag-system-crawl-5li",
+        "source": "Dev.to",
+        "pubDate": "2026-03-24T18:00:00.000Z",
+        "relevanceScore": 23.97,
+        "tags": []
       }
     ],
     "ai-ml": [
@@ -596,7 +607,7 @@
         "link": "https://www.technologyreview.com/2026/03/24/1134540/the-download-tracing-ai-fueled-delusions-openai-warns-microsoft-risks/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-24T12:28:27.000Z",
-        "relevanceScore": 762.55,
+        "relevanceScore": 817.37,
         "tags": [
           "AI",
           "Tech"
@@ -607,7 +618,7 @@
         "link": "https://stackoverflow.blog/2026/03/24/multi-stage-attacks-are-the-final-fantasy-bosses-of-security/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-03-24T07:40:00.000Z",
-        "relevanceScore": 619.09,
+        "relevanceScore": 810.91,
         "tags": [
           "AI",
           "Security",
@@ -615,37 +626,24 @@
         ]
       },
       {
+        "title": "Three new Gemini features come to Google TV",
+        "link": "https://www.engadget.com/entertainment/streaming/three-new-gemini-features-come-to-google-tv-175724155.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-24T17:57:25.000Z",
+        "relevanceScore": 185.96,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "Meet the former Apple designer building a new AI interface at Hark",
         "link": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/",
         "source": "TechCrunch",
         "pubDate": "2026-03-24T16:00:00.000Z",
-        "relevanceScore": 390.75,
+        "relevanceScore": 129.57,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "⛓️‍💥 AI Agents broke my Dev setup",
-        "link": "https://dev.to/ariel_sh_badacdbc56554713/ai-agents-broke-my-dev-setup-4hlm",
-        "source": "Dev.to",
-        "pubDate": "2026-03-24T17:02:26.000Z",
-        "relevanceScore": 285.96,
-        "tags": [
-          "AI",
-          "Web"
-        ]
-      },
-      {
-        "title": "GitHub expands application security coverage with AI‑powered detections",
-        "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-03-23T16:00:00.000Z",
-        "relevanceScore": 273.95,
-        "tags": [
-          "AI",
-          "Security",
-          "Exclusive"
         ]
       },
       {
@@ -653,7 +651,7 @@
         "link": "https://www.wired.com/story/chip-design-firm-arm-is-making-its-own-ai-cpu/",
         "source": "Wired",
         "pubDate": "2026-03-24T17:00:00.000Z",
-        "relevanceScore": 54.45,
+        "relevanceScore": 120.77,
         "tags": [
           "AI",
           "Tech",
@@ -665,7 +663,7 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/899677/openai-google-gemini-ai-shopping-features",
         "source": "The Verge",
         "pubDate": "2026-03-24T17:13:00.000Z",
-        "relevanceScore": 49,
+        "relevanceScore": 68.82,
         "tags": [
           "AI",
           "Launch",
@@ -673,11 +671,22 @@
         ]
       },
       {
+        "title": "How I Built 7 AI Agents That Bring Discipline to VS Code Copilot",
+        "link": "https://dev.to/bitfrog/the-copilot-workflow-handoffs-not-chaos-1598",
+        "source": "Dev.to",
+        "pubDate": "2026-03-24T17:50:42.000Z",
+        "relevanceScore": 66.94,
+        "tags": [
+          "AI",
+          "Tutorial"
+        ]
+      },
+      {
         "title": "Building AI-powered GitHub issue triage with the Copilot SDK",
         "link": "https://github.blog/ai-and-ml/github-copilot/building-ai-powered-github-issue-triage-with-the-copilot-sdk/",
         "source": "GitHub Blog",
         "pubDate": "2026-03-24T16:00:00.000Z",
-        "relevanceScore": 39.25,
+        "relevanceScore": 52.57,
         "tags": [
           "AI",
           "Mobile",
@@ -686,37 +695,85 @@
         ]
       },
       {
+        "title": "Doss raises $55M for AI inventory management that plugs into ERP",
+        "link": "https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-24T17:18:29.000Z",
+        "relevanceScore": 32.83,
+        "tags": [
+          "AI",
+          "Funding"
+        ]
+      },
+      {
         "title": "The hardest question to answer about AI-fueled delusions",
         "link": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-23T16:31:20.000Z",
-        "relevanceScore": 25.06,
+        "relevanceScore": 29.88,
         "tags": [
           "AI",
           "Exclusive"
         ]
-      }
-    ],
-    "social": [
+      },
       {
-        "title": "Son of Nottingham attacks victim found out father had died through Instagram",
-        "link": "https://www.bbc.com/news/articles/cgld4w7dlkdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-24T16:21:11.000Z",
-        "relevanceScore": 605.82,
+        "title": "iOS 26.4 is here, with Playlist Playground and new emoji",
+        "link": "https://www.engadget.com/mobile/ios-264-is-here-with-playlist-playground-and-new-emoji-171343120.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-24T17:13:43.000Z",
+        "relevanceScore": 28.82,
         "tags": [
-          "Social"
+          "AI",
+          "Launch"
         ]
       },
       {
-        "title": "There's a new Payday game, this time in VR",
-        "link": "https://www.engadget.com/gaming/theres-a-new-payday-game-this-time-in-vr-160051276.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-24T16:00:51.000Z",
-        "relevanceScore": 23.76,
+        "title": "GitHub expands application security coverage with AI‑powered detections",
+        "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-03-23T16:00:00.000Z",
+        "relevanceScore": 25.77,
         "tags": [
-          "Launch"
+          "AI",
+          "Security",
+          "Exclusive"
         ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+        "link": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-24T17:32:20.000Z",
+        "relevanceScore": 702.88,
+        "tags": []
+      },
+      {
+        "title": "Transgender girls told to leave Girlguiding groups by September",
+        "link": "https://www.bbc.com/news/articles/cx2rn250ddjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-24T13:32:10.000Z",
+        "relevanceScore": 44.58,
+        "tags": []
+      },
+      {
+        "title": "'Truly magical woman': Tributes to Married at First Sight star Mel Schilling",
+        "link": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-24T17:59:25.000Z",
+        "relevanceScore": 32.97,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Reeves plans energy bill help for those 'who need it most'",
+        "link": "https://www.bbc.com/news/articles/cr516nmer5eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-03-24T15:46:00.000Z",
+        "relevanceScore": 31.53,
+        "tags": []
       }
     ],
     "business": [
@@ -725,7 +782,7 @@
         "link": "https://abcnews.com/Business/wireStory/deadly-collision-jet-fire-truck-nycs-laguardia-airport-131331163",
         "source": "ABC News Business",
         "pubDate": "2026-03-24T03:24:04.000Z",
-        "relevanceScore": 488.23,
+        "relevanceScore": 628.05,
         "tags": []
       },
       {
@@ -733,7 +790,7 @@
         "link": "https://abcnews.com/Business/wireStory/estee-lauder-confirms-talks-spanish-perfume-maker-puig-131354082",
         "source": "ABC News Business",
         "pubDate": "2026-03-24T12:34:49.000Z",
-        "relevanceScore": 154.07,
+        "relevanceScore": 47.39,
         "tags": [
           "Business",
           "Partnership"
@@ -744,7 +801,7 @@
         "link": "https://www.npr.org/2026/03/24/nx-s1-5751889/trump-delivers-farmers-another-financial-blow-with-iran-war",
         "source": "NPR Business",
         "pubDate": "2026-03-24T09:00:00.000Z",
-        "relevanceScore": 26.35,
+        "relevanceScore": 43.67,
         "tags": []
       },
       {
@@ -752,50 +809,35 @@
         "link": "https://www.npr.org/2026/03/23/nx-s1-5756465/voice-of-america-staffers-sue-alleging-kari-lake-put-on-propaganda",
         "source": "NPR Business",
         "pubDate": "2026-03-23T13:11:55.000Z",
-        "relevanceScore": 22.39,
+        "relevanceScore": 27.21,
         "tags": []
       }
     ],
     "tech": [
       {
-        "title": "Ads are coming to Apple Maps, as Apple expands its business offerings",
-        "link": "https://techcrunch.com/2026/03/24/apple-maps-ads-apple-business/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-24T15:00:00.000Z",
-        "relevanceScore": 474.55,
-        "tags": [
-          "Business",
-          "Launch"
-        ]
-      },
-      {
-        "title": "How to Use Apple’s Live Translation on Your AirPods",
-        "link": "https://www.wired.com/story/apple-live-translation-airpods/",
+        "title": "Our Favorite Turntable Is $51 Off Before Record Store Day",
+        "link": "https://www.wired.com/story/atlp120x-deal-326/",
         "source": "Wired",
-        "pubDate": "2026-03-24T11:00:00.000Z",
-        "relevanceScore": 367.75,
-        "tags": [
-          "Tutorial"
-        ]
+        "pubDate": "2026-03-24T17:41:44.000Z",
+        "relevanceScore": 226.91,
+        "tags": []
       },
       {
-        "title": "Flighty’s new update gives you real-time alerts about airport disturbances",
-        "link": "https://techcrunch.com/2026/03/24/flightys-new-update-gives-you-real-time-alerts-about-airport-disturbances/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-24T15:05:29.000Z",
-        "relevanceScore": 347.57,
-        "tags": [
-          "Update"
-        ]
+        "title": "For All Mankind is returning for a sixth and final season",
+        "link": "https://www.engadget.com/entertainment/tv-movies/for-all-mankind-is-returning-for-a-sixth-and-final-season-173859683.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-24T17:38:59.000Z",
+        "relevanceScore": 155.4,
+        "tags": []
       },
       {
-        "title": "US bans new foreign-made consumer internet routers",
-        "link": "https://www.bbc.com/news/articles/c74787w149zo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-03-24T01:26:53.000Z",
-        "relevanceScore": 137.84,
+        "title": "The Apple Watch SE 3 is even easier to recommend at $50 off",
+        "link": "https://www.theverge.com/gadgets/899671/apple-watch-se-third-generation-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2026-03-24T17:18:10.000Z",
+        "relevanceScore": 122.33,
         "tags": [
-          "Web"
+          "Exclusive"
         ]
       },
       {
@@ -803,10 +845,46 @@
         "link": "https://arstechnica.com/ai/2026/03/claude-code-can-now-take-over-your-computer-to-complete-tasks/",
         "source": "Ars Technica",
         "pubDate": "2026-03-24T15:45:19.000Z",
-        "relevanceScore": 49.7,
+        "relevanceScore": 101.02,
         "tags": [
           "Science",
           "Report"
+        ]
+      },
+      {
+        "title": "US bans new foreign-made consumer internet routers",
+        "link": "https://www.bbc.com/news/articles/c74787w149zo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-03-24T01:26:53.000Z",
+        "relevanceScore": 63.16,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "BRK Capital raises $14.5M (so far) to  invest in Black founders",
+        "link": "https://techcrunch.com/2026/03/24/brk-capital-raises-14-5m-so-far-to-invest-in-black-founders/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-24T17:47:41.000Z",
+        "relevanceScore": 55.43,
+        "tags": []
+      },
+      {
+        "title": "All of DOGE’s work could be undone as lawsuit against Musk proceeds",
+        "link": "https://arstechnica.com/tech-policy/2026/03/all-of-doges-work-could-be-undone-as-lawsuit-against-musk-proceeds/",
+        "source": "Ars Technica",
+        "pubDate": "2026-03-24T17:17:34.000Z",
+        "relevanceScore": 31.83,
+        "tags": []
+      },
+      {
+        "title": "How to Use Apple’s Live Translation on Your AirPods",
+        "link": "https://www.wired.com/story/apple-live-translation-airpods/",
+        "source": "Wired",
+        "pubDate": "2026-03-24T11:00:00.000Z",
+        "relevanceScore": 29.57,
+        "tags": [
+          "Tutorial"
         ]
       },
       {
@@ -814,143 +892,18 @@
         "link": "https://arstechnica.com/science/2026/03/study-says-roads-bring-more-fire-to-forests-usda-wants-more-roads-to-fight-fires/",
         "source": "Ars Technica",
         "pubDate": "2026-03-24T14:37:33.000Z",
-        "relevanceScore": 26.48,
+        "relevanceScore": 26.3,
         "tags": [
           "Science",
           "Report"
         ]
       },
       {
-        "title": "Orbital data centers, part 1: There’s no way this is economically viable, right?",
-        "link": "https://arstechnica.com/space/2026/03/orbital-data-centers-part-1-theres-no-way-this-is-economically-viable-right/",
-        "source": "Ars Technica",
-        "pubDate": "2026-03-24T11:00:59.000Z",
-        "relevanceScore": 24.76,
-        "tags": []
-      },
-      {
-        "title": "Best Premium Soundbars: Dolby Atmos, Hi-Res Audio, and More",
-        "link": "https://www.wired.com/gallery/best-premium-soundbars/",
-        "source": "Wired",
-        "pubDate": "2026-03-24T10:30:00.000Z",
-        "relevanceScore": 24.65,
-        "tags": []
-      },
-      {
         "title": "Clear Drop Soft Plastic Compactor Review: Eco Experiment",
         "link": "https://www.wired.com/review/clear-drop-soft-plastic-compactor/",
         "source": "Wired",
         "pubDate": "2026-03-24T11:30:00.000Z",
-        "relevanceScore": 24.35,
-        "tags": []
-      },
-      {
-        "title": "The Punisher's one-off TV special hits Disney+ on May 12",
-        "link": "https://www.engadget.com/entertainment/tv-movies/the-punishers-one-off-tv-special-hits-disney-on-may-12-162208769.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-24T16:22:08.000Z",
-        "relevanceScore": 23.83,
-        "tags": []
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Apple Music partners with Ticketmaster to power its concert discovery feature",
-        "link": "https://techcrunch.com/2026/03/24/apple-music-partners-with-ticketmaster-to-power-its-concert-discovery-feature/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-24T17:00:00.000Z",
-        "relevanceScore": 370.95,
-        "tags": [
-          "Science"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "Bandsintown integration for concerts is coming to Apple Music",
-        "link": "https://www.engadget.com/entertainment/music/bandsintown-integration-for-concerts-is-coming-to-apple-music-170034229.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-24T17:00:34.000Z",
-        "relevanceScore": 367.96,
-        "tags": [
-          "Science",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Postgres pipelines from the JVM with Bpdbi",
-        "link": "https://dev.to/cies/postgres-pipelines-from-the-jvm-with-bpdbi-14cd",
-        "source": "Dev.to",
-        "pubDate": "2026-03-24T17:00:31.000Z",
-        "relevanceScore": 291.46,
-        "tags": [
-          "Mobile",
-          "Cloud",
-          "Funding"
-        ]
-      },
-      {
-        "title": "Pokémon Champions will hit Switch and Switch 2 on April 8",
-        "link": "https://www.engadget.com/gaming/nintendo/pokemon-champions-will-hit-switch-and-switch-2-on-april-8-165737121.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-24T16:57:37.000Z",
-        "relevanceScore": 262.95,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
-      },
-      {
-        "title": "A BlackBerry you might actually want just landed on Kickstarter",
-        "link": "https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder",
-        "source": "The Verge",
-        "pubDate": "2026-03-24T16:27:36.000Z",
-        "relevanceScore": 59.35,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Welp, I bought an iPhone again",
-        "link": "https://www.theverge.com/tech/899602/best-phone-android-ios-app-store",
-        "source": "The Verge",
-        "pubDate": "2026-03-24T17:00:00.000Z",
-        "relevanceScore": 39.95,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
-        "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
-        "source": "Ars Technica",
-        "pubDate": "2026-03-24T12:38:09.000Z",
-        "relevanceScore": 264.08,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Federal immigration agents seen at Atlanta airport after Trump order amid partial shutdown",
-        "link": "https://abcnews.com/Business/wireStory/federal-immigration-agents-atlanta-airport-after-trump-order-131322147",
-        "source": "ABC News Business",
-        "pubDate": "2026-03-23T14:07:21.000Z",
-        "relevanceScore": 20.58,
-        "tags": [
-          "Security"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "# Sorted Squares of a Sorted Array (Java) – Efficient Two-Pointer Approach",
-        "link": "https://dev.to/sharmi_sabari_09/-sorted-squares-of-a-sorted-array-java-efficient-two-pointer-approach-2bp5",
-        "source": "Dev.to",
-        "pubDate": "2026-03-24T17:06:40.000Z",
-        "relevanceScore": 262.98,
+        "relevanceScore": 24.17,
         "tags": []
       }
     ],
@@ -960,7 +913,7 @@
         "link": "https://www.npr.org/2026/03/23/nx-s1-5757440/supreme-court-press-freedom",
         "source": "NPR Business",
         "pubDate": "2026-03-23T14:32:54.000Z",
-        "relevanceScore": 177.16,
+        "relevanceScore": 221.98,
         "tags": [
           "IPO"
         ]
@@ -972,55 +925,41 @@
         "link": "https://www.bbc.com/news/articles/c5yxv5kzlv5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-24T16:48:34.000Z",
-        "relevanceScore": 48.92,
+        "relevanceScore": 63.73,
         "tags": [
           "Web"
         ]
-      },
-      {
-        "title": "Epic Games cuts 1,000 jobs, says Fortnite engagement is down",
-        "link": "https://techcrunch.com/2026/03/24/epic-games-cuts-1000-jobs-says-fortnite-engagement-is-down/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-24T15:17:32.000Z",
-        "relevanceScore": 27.61,
-        "tags": []
-      },
-      {
-        "title": "Life is Strange: Reunion is a full-circle moment for its stars",
-        "link": "https://www.theverge.com/entertainment/897984/life-is-strange-reunion-cast-interview",
-        "source": "The Verge",
-        "pubDate": "2026-03-24T16:00:00.000Z",
-        "relevanceScore": 26.75,
-        "tags": [
-          "Exclusive"
-        ]
       }
     ],
-    "general": [
+    "cybersecurity": [
       {
-        "title": "Reeves plans energy bill help for those 'who need it most'",
-        "link": "https://www.bbc.com/news/articles/cr516nmer5eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-24T15:46:00.000Z",
-        "relevanceScore": 31.71,
-        "tags": []
-      },
-      {
-        "title": "Transgender girls told to leave Girlguiding groups by September",
-        "link": "https://www.bbc.com/news/articles/cx2rn250ddjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-24T13:32:10.000Z",
-        "relevanceScore": 31.26,
-        "tags": []
-      },
-      {
-        "title": "Married at First Sight star Mel Schilling dies at 54",
-        "link": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-24T13:14:52.000Z",
-        "relevanceScore": 31.2,
+        "title": "Crunchyroll confirms data breach after hacker claims unauthorized access",
+        "link": "https://techcrunch.com/2026/03/24/crunchyroll-confirms-data-breach-after-hacker-claims-unauthorized-access/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-24T17:20:07.000Z",
+        "relevanceScore": 38.84,
         "tags": [
-          "Exclusive"
+          "Security"
+        ]
+      },
+      {
+        "title": "Federal immigration agents seen at Atlanta airport after Trump order amid partial shutdown",
+        "link": "https://abcnews.com/Business/wireStory/federal-immigration-agents-atlanta-airport-after-trump-order-131322147",
+        "source": "ABC News Business",
+        "pubDate": "2026-03-23T14:07:21.000Z",
+        "relevanceScore": 25.4,
+        "tags": [
+          "Security"
+        ]
+      },
+      {
+        "title": "Self-propagating malware poisons open source software and wipes Iran-based machines",
+        "link": "https://arstechnica.com/security/2026/03/self-propagating-malware-poisons-open-source-software-and-wipes-iran-based-machines/",
+        "source": "Ars Technica",
+        "pubDate": "2026-03-24T12:38:09.000Z",
+        "relevanceScore": 24.9,
+        "tags": [
+          "Tech"
         ]
       }
     ],
@@ -1030,34 +969,80 @@
         "link": "https://www.technologyreview.com/2026/03/24/1134562/cryopreservation-brain-cryonics-organ-transplantation/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-24T16:43:36.000Z",
-        "relevanceScore": 29.9,
+        "relevanceScore": 34.72,
         "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Welp, I bought an iPhone again",
+        "link": "https://www.theverge.com/tech/899602/best-phone-android-ios-app-store",
+        "source": "The Verge",
+        "pubDate": "2026-03-24T17:00:00.000Z",
+        "relevanceScore": 30.77,
+        "tags": [
+          "Mobile",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "A BlackBerry you might actually want just landed on Kickstarter",
+        "link": "https://www.theverge.com/tech/899632/unihertz-titan-2-elite-pro-android-blackberry-smartphone-pricing-kickstarter-preorder",
+        "source": "The Verge",
+        "pubDate": "2026-03-24T16:27:36.000Z",
+        "relevanceScore": 30.66,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "Apple confirms ads are coming to Apple Maps",
+        "link": "https://www.engadget.com/apps/apple-confirms-ads-are-coming-to-apple-maps-175613751.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-24T17:56:13.000Z",
+        "relevanceScore": 23.96,
+        "tags": [
+          "Business",
+          "Mobile"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Apple Music partners with Ticketmaster to power its concert discovery feature",
+        "link": "https://techcrunch.com/2026/03/24/apple-music-partners-with-ticketmaster-to-power-its-concert-discovery-feature/",
+        "source": "TechCrunch",
+        "pubDate": "2026-03-24T17:00:00.000Z",
+        "relevanceScore": 27.77,
+        "tags": [
+          "Science"
+        ]
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 13,
-    "avgRelevanceScore": 196.51627906976736,
+    "totalCategories": 12,
+    "avgRelevanceScore": 168.78697674418603,
     "topCategories": [
+      {
+        "category": "ai-ml",
+        "count": 12
+      },
       {
         "category": "tech",
         "count": 10
       },
       {
-        "category": "ai-ml",
-        "count": 9
-      },
-      {
-        "category": "mobile",
-        "count": 5
+        "category": "general",
+        "count": 4
       },
       {
         "category": "business",
         "count": 4
       },
       {
-        "category": "gaming",
+        "category": "cybersecurity",
         "count": 3
       }
     ]
