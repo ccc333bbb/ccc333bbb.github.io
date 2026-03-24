@@ -1,64 +1,68 @@
 {
-  "lastUpdated": "2026-03-24T14:52:30.023Z",
+  "lastUpdated": "2026-03-24T16:00:48.276Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-03-24",
       "file": "2026-03-24.json",
-      "totalArticles": 41,
-      "lastUpdated": "2026-03-24T14:52:30.005Z",
+      "totalArticles": 49,
+      "lastUpdated": "2026-03-24T16:00:48.257Z",
       "sources": [
-        "MIT Technology Review",
-        "Engadget",
-        "The Verge",
-        "GitHub Blog",
-        "Stack Overflow Blog",
+        "Reddit Programming",
         "BBC News",
-        "Wired",
+        "MIT Technology Review",
+        "Stack Overflow Blog",
+        "The Verge",
+        "Engadget",
         "Ars Technica",
         "Dev.to",
         "TechCrunch",
-        "ABC News Business",
+        "GitHub Blog",
+        "Wired",
         "BBC Technology",
-        "NPR Business"
+        "ABC News Business",
+        "NPR Business",
+        "Reddit Technology",
+        "Reddit World News"
       ],
       "categories": [
-        "science",
-        "tech",
         "development",
         "general",
-        "business"
+        "science",
+        "tech",
+        "business",
+        "world"
       ],
       "topArticles": [
+        {
+          "title": "Litellm 1.82.7 and 1.82.8 on PyPI are compromised, do not update!",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1s2h8lt/litellm_1827_and_1828_on_pypi_are_compromised_do/",
+          "relevanceScore": 935.8077420833333
+        },
+        {
+          "title": "Oil traders bet millions minutes before Trump's Iran talks post",
+          "source": "BBC News",
+          "link": "https://www.bbc.com/news/articles/cg547ljepvzo?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 834.7913533333333
+        },
         {
           "title": "The Download: tracing AI-fueled delusions, and OpenAI admits Microsoft risks",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/03/24/1134540/the-download-tracing-ai-fueled-delusions-openai-warns-microsoft-risks/",
-          "relevanceScore": 621.7995826388889
+          "relevanceScore": 728.2303809722222
         },
         {
-          "title": "The Morning After: WWDC 2026 is happening June 8th",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/general/the-morning-after-engadget-newsletter-121555441.html?src=rss",
-          "relevanceScore": 575.6951383333334
+          "title": "Designing a Python Language Server: Lessons from Pyre that Shaped Pyrefly",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1s2bw68/designing_a_python_language_server_lessons_from/",
+          "relevanceScore": 578.0491309722222
         },
         {
-          "title": "Anthropic’s Claude Code and Cowork can control your computer",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/899430/anthropic-claude-code-cowork-ai-control-computer",
-          "relevanceScore": 551.3323605555555
-        },
-        {
-          "title": "The Download: animal welfare gets AGI-pilled, and the White House unveils its AI policy",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2026/03/23/1134509/the-download-animal-welfare-agi-pilled-white-house-unveils-ai-policy/",
-          "relevanceScore": 438
-        },
-        {
-          "title": "GitHub expands application security coverage with AI‑powered detections",
-          "source": "GitHub Blog",
-          "link": "https://github.blog/security/application-security/github-expands-application-security-coverage-with-ai-powered-detections/",
-          "relevanceScore": 346
+          "title": "Multi-stage attacks are the Final Fantasy bosses of security",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2026/03/24/multi-stage-attacks-are-the-final-fantasy-bosses-of-security/",
+          "relevanceScore": 500.82663097222223
         }
       ]
     },
