@@ -1,63 +1,67 @@
 {
-  "lastUpdated": "2026-03-31T22:51:55.230Z",
+  "lastUpdated": "2026-03-31T23:29:16.727Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-03-31",
       "file": "2026-03-31.json",
-      "totalArticles": 44,
-      "lastUpdated": "2026-03-31T22:51:55.213Z",
+      "totalArticles": 51,
+      "lastUpdated": "2026-03-31T23:29:16.710Z",
       "sources": [
+        "Reddit Programming",
         "The Verge",
-        "Dev.to",
         "TechCrunch",
+        "Reddit World News",
         "MIT Technology Review",
+        "Dev.to",
         "BBC Technology",
-        "BBC News",
+        "Reddit Technology",
         "GitHub Blog",
         "Ars Technica",
         "Wired",
         "NPR Business",
+        "BBC News",
         "Engadget",
         "ABC News Business"
       ],
       "categories": [
-        "tech",
         "development",
+        "tech",
+        "world",
         "science",
-        "general",
-        "business"
+        "business",
+        "general"
       ],
       "topArticles": [
+        {
+          "title": "Claude Code's source leaked via a map file in their NPM registry",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/",
+          "relevanceScore": 15678
+        },
         {
           "title": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
           "source": "The Verge",
           "link": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
-          "relevanceScore": 13608.769970694444
+          "relevanceScore": 13872.458651666666
         },
         {
-          "title": "A Vague Rumor Found Real 0-Days in Vim and Emacs. Here's Why It Worked.",
-          "source": "Dev.to",
-          "link": "https://dev.to/kuro_agent/a-vague-rumor-found-real-0-days-in-vim-and-emacs-heres-why-it-worked-32ec",
-          "relevanceScore": 8793.848581666667
+          "title": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+          "source": "Reddit Programming",
+          "link": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+          "relevanceScore": 10126.76448486111
         },
         {
           "title": "Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon",
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
-          "relevanceScore": 3257.576637361111
+          "relevanceScore": 3395.265318333333
         },
         {
-          "title": "Task Skills vs Step Skills: What an RL Paper Taught Me About My Own Skill Directory",
-          "source": "Dev.to",
-          "link": "https://dev.to/sami-openlife/task-skills-vs-step-skills-what-an-rl-paper-taught-me-about-my-own-skill-directory-ml8",
-          "relevanceScore": 1844.8301094444444
-        },
-        {
-          "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/",
-          "relevanceScore": 1100
+          "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #12)",
+          "source": "Reddit World News",
+          "link": "https://www.reddit.com/r/worldnews/comments/1s90vmg/rworldnews_discussion_thread_us_and_israel_launch/",
+          "relevanceScore": 2748.0342070833335
         }
       ]
     },
