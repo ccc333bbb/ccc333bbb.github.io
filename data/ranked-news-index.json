@@ -1,35 +1,57 @@
 {
-  "lastUpdated": "2026-04-01T12:41:03.483Z",
-  "totalArticles": 43,
+  "lastUpdated": "2026-04-01T14:15:56.392Z",
+  "totalArticles": 52,
   "categories": [
-    "ai-ml",
-    "tech",
-    "automotive",
-    "startup",
-    "business",
-    "social",
-    "cloud",
-    "entertainment",
-    "general",
-    "mobile",
-    "space",
     "development",
-    "cybersecurity"
+    "tech",
+    "ai-ml",
+    "cloud",
+    "world",
+    "social",
+    "mobile",
+    "cybersecurity",
+    "space",
+    "startup",
+    "gaming",
+    "general",
+    "business",
+    "automotive"
   ],
   "topArticles": [
     {
-      "title": "Open Source Project of the Day (Part 26): ZeroClaw - Full-Rust Autonomous AI Assistant Infrastructure, and Its Relationship to OpenClaw",
-      "link": "https://dev.to/wonderlab/open-source-project-of-the-day-part-26-zeroclaw-full-rust-autonomous-ai-assistant-7e0",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-04-01T12:29:12.000Z",
-      "relevanceScore": 4147.96,
-      "recommendationScore": 4147.96,
-      "tags": [
-        "AI",
-        "Startup"
-      ],
+      "title": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+      "link": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-03-31T17:01:01.000Z",
+      "relevanceScore": 6744.75,
+      "recommendationScore": 6745.25,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Anthropic issues copyright takedown requests to remove 8,000+ copies of Claude Code source code",
+      "link": "https://www.reddit.com/r/technology/comments/1s9jljp/anthropic_issues_copyright_takedown_requests_to/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-04-01T12:48:59.000Z",
+      "relevanceScore": 5370.21,
+      "recommendationScore": 5370.71,
+      "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Claude Code users hitting usage limits 'way faster than expected'",
+      "link": "https://www.bbc.com/news/articles/ce8l2q5yq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-04-01T11:59:19.000Z",
+      "relevanceScore": 4132.04,
+      "recommendationScore": 4132.54,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "AI can push your Stream Deck buttons for you",
@@ -37,8 +59,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-04-01T12:38:58.000Z",
-      "relevanceScore": 3179.99,
-      "recommendationScore": 3179.99,
+      "relevanceScore": 3446.18,
+      "recommendationScore": 3446.18,
       "tags": [
         "AI",
         "Tech",
@@ -52,10 +74,38 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-31T14:12:50.000Z",
-      "relevanceScore": 1755.51,
-      "recommendationScore": 1756.01,
+      "relevanceScore": 1825.19,
+      "recommendationScore": 1825.69,
       "tags": [
         "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "PostgreSQL Row-Level Security for Multi-Tenant SaaS",
+      "link": "https://dev.to/software_mvp-factory/postgresql-row-level-security-for-multi-tenant-saas-1lgp",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-04-01T14:12:31.000Z",
+      "relevanceScore": 1324.99,
+      "recommendationScore": 1325.49,
+      "tags": [
+        "Security",
+        "Cloud",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Roland Go:Mixer Studio review: Portable, professional and plenty of polish",
+      "link": "https://www.engadget.com/audio/roland-gomixer-studio-review-portable-professional-and-plenty-of-polish-130000723.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-04-01T13:00:00.000Z",
+      "relevanceScore": 1308.75,
+      "recommendationScore": 1309.25,
+      "tags": [
+        "IPO"
       ],
       "readingLevel": "advanced"
     },
@@ -65,51 +115,12 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-01T01:42:59.000Z",
-      "relevanceScore": 1639.81,
-      "recommendationScore": 1640.31,
+      "relevanceScore": 1299.49,
+      "recommendationScore": 1299.99,
       "tags": [
         "AI",
         "Security",
         "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "When Can You Actually Trust a Machine Learning Model?",
-      "link": "https://dev.to/siddhartha_reddy/when-can-you-actually-trust-a-machine-learning-model-27kh",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-04-01T12:29:13.000Z",
-      "relevanceScore": 1476.46,
-      "recommendationScore": 1476.96,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Slack's upgraded AI can analyze how you work",
-      "link": "https://www.engadget.com/general/slacks-upgraded-ai-can-analyze-how-you-work-103007261.html?src=rss",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-04-01T10:30:07.000Z",
-      "relevanceScore": 1342.06,
-      "recommendationScore": 1343.56,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Top 10 AI Developer Tools in 2026: What's Actually Worth Your Time",
-      "link": "https://dev.to/benriemer/top-10-ai-developer-tools-in-2026-whats-actually-worth-your-time-3li1",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-04-01T12:32:25.000Z",
-      "relevanceScore": 1300.97,
-      "recommendationScore": 1303.97,
-      "tags": [
-        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -119,58 +130,60 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-31T23:00:23.000Z",
-      "relevanceScore": 1256.26,
-      "recommendationScore": 1256.76,
+      "relevanceScore": 1280.95,
+      "recommendationScore": 1281.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Robosen Soundwave review: A childhood dream made real",
-      "link": "https://www.engadget.com/general/robosen-soundwave-review-a-childhood-dream-made-real-120000804.html?src=rss",
-      "source": "Engadget",
-      "category": "automotive",
-      "pubDate": "2026-04-01T12:00:00.000Z",
-      "relevanceScore": 493.86,
-      "recommendationScore": 494.36,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Toyota’s Woven Capital appoints new CIO and COO in push for finding the ‘future of mobility’",
-      "link": "https://techcrunch.com/2026/03/31/toyotas-woven-capital-appoints-new-cio-and-coo-in-push-for-finding-the-future-of-mobility/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2026-04-01T01:00:00.000Z",
-      "relevanceScore": 369.66,
-      "recommendationScore": 372.16,
+      "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #12)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s90vmg/rworldnews_discussion_thread_us_and_israel_launch/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-03-31T21:33:23.000Z",
+      "relevanceScore": 1278.66,
+      "recommendationScore": 1281.16,
       "tags": [
-        "Startup"
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The oil industry is betting big on plastics. Here's what that means for the future",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5763690/the-oil-industry-is-betting-big-on-plastics-heres-what-that-means-for-the-future",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-04-01T12:17:49.000Z",
-      "relevanceScore": 284.92,
-      "recommendationScore": 286.92,
-      "tags": [],
+      "title": "Announcement: Temporary LLM Content Ban",
+      "link": "https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+      "source": "Reddit Programming",
+      "category": "ai-ml",
+      "pubDate": "2026-04-01T12:48:20.000Z",
+      "relevanceScore": 562.71,
+      "recommendationScore": 562.71,
+      "tags": [
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
-      "title": "An immersive 'Black Mirror Experience' is launching in Montreal",
-      "link": "https://www.engadget.com/entertainment/streaming/an-immersive-black-mirror-experience-is-launching-in-montreal-115915992.html?src=rss",
+      "title": "Kia shows off the 2027 EV3 at the NY Auto Show",
+      "link": "https://www.engadget.com/transportation/evs/kia-shows-off-the-2027-ev3-at-the-ny-auto-show-132500658.html?src=rss",
       "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-04-01T11:59:15.000Z",
-      "relevanceScore": 280.86,
-      "recommendationScore": 283.36,
+      "pubDate": "2026-04-01T13:25:00.000Z",
+      "relevanceScore": 556.83,
+      "recommendationScore": 558.33,
       "tags": [
-        "Partnership"
+        "Launch"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Lucid Motors recalls over 4,000 Gravity SUVs citing improperly welded seat belts",
+      "link": "https://techcrunch.com/2026/04/01/lucid-motors-recalls-over-4000-gravity-suvs-citing-improperly-welded-seat-belts/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-04-01T13:40:23.000Z",
+      "relevanceScore": 544.38,
+      "recommendationScore": 545.88,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Social media firms must better enforce Australia under-16 ban, watchdog says",
@@ -178,36 +191,60 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-03-31T02:00:24.000Z",
-      "relevanceScore": 206.56,
-      "recommendationScore": 208.06,
+      "relevanceScore": 286.25,
+      "recommendationScore": 287.75,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Gas crosses $4 a gallon in the U.S. for the first time in 3 years",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5759679/us-gas-price-4-dollars-gallon-iran",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-03-31T13:18:53.000Z",
-      "relevanceScore": 107.83,
-      "recommendationScore": 110.33,
+      "title": "The Best E-Readers (2026): Kobo, Kindle",
+      "link": "https://www.wired.com/gallery/best-ereaders/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-01T11:35:00.000Z",
+      "relevanceScore": 217.46,
+      "recommendationScore": 218.46,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "15 Best Office Chairs of 2026— I’ve Tested 65 to Pick Them",
+      "link": "https://www.wired.com/gallery/best-office-chairs/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-01T12:00:00.000Z",
+      "relevanceScore": 214.55,
+      "recommendationScore": 216.05,
       "tags": [
-        "Exclusive"
+        "Update"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Former Alex Jones employee says: 'It was nonsense, it was lies'",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5763689/alex-jones-infowars-josh-owens-the-madness-of-believing",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-03-31T11:11:00.000Z",
-      "relevanceScore": 107.4,
-      "recommendationScore": 107.9,
+      "title": "Best MacBooks (2026): Neo, Air, or Pro?",
+      "link": "https://www.wired.com/story/which-macbook-should-you-buy/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-01T14:03:27.000Z",
+      "relevanceScore": 174.46,
+      "recommendationScore": 175.46,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The new Storm Radar app is a treasure trove of data for weather nerds",
+      "link": "https://www.engadget.com/apps/the-new-storm-radar-app-is-a-treasure-trove-of-data-for-weather-nerds-133646812.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-04-01T13:36:46.000Z",
+      "relevanceScore": 159.87,
+      "recommendationScore": 162.37,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "What You Need to Know About Building an Outdoor Sauna (2026)",
@@ -215,22 +252,21 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-01T11:30:00.000Z",
-      "relevanceScore": 105.76,
-      "recommendationScore": 107.76,
+      "relevanceScore": 156.95,
+      "recommendationScore": 158.95,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Weather looks favourable for Artemis launch despite cloud",
-      "link": "https://www.bbc.com/weather/articles/cj6w4p106klo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "cloud",
-      "pubDate": "2026-04-01T09:22:22.000Z",
-      "relevanceScore": 79.34,
-      "recommendationScore": 81.84,
+      "title": "Docker said 'Connection refused'. Localhost worked fine. The problem was one line.",
+      "link": "https://dev.to/nicodev__/docker-said-connection-refused-localhost-worked-fine-the-problem-was-one-line-2o2m",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-04-01T14:09:38.000Z",
+      "relevanceScore": 100.48,
+      "recommendationScore": 100.98,
       "tags": [
-        "Cloud",
-        "Launch"
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
@@ -240,8 +276,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-01T12:33:24.000Z",
-      "relevanceScore": 74.97,
-      "recommendationScore": 75.47,
+      "relevanceScore": 82.16,
+      "recommendationScore": 82.66,
       "tags": [
         "AI",
         "Mobile",
@@ -250,85 +286,90 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "15 Best Office Chairs of 2026— I’ve Tested 65 to Pick Them",
-      "link": "https://www.wired.com/gallery/best-office-chairs/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-01T12:00:00.000Z",
-      "relevanceScore": 69.86,
-      "recommendationScore": 71.36,
+      "title": "GitHub for Beginners: Getting started with GitHub security",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
+      "source": "GitHub Blog",
+      "category": "cybersecurity",
+      "pubDate": "2026-03-30T16:00:00.000Z",
+      "relevanceScore": 70.75,
+      "recommendationScore": 71.25,
       "tags": [
-        "Update"
+        "Security",
+        "Exclusive",
+        "Tutorial"
       ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "The Best E-Readers (2026): Kobo, Kindle",
-      "link": "https://www.wired.com/gallery/best-ereaders/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-01T11:35:00.000Z",
-      "relevanceScore": 69.78,
-      "recommendationScore": 70.78,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Best WiiM Streamers (2026): Simplify Your Sound With WiiM Streaming Gear",
-      "link": "https://www.wired.com/gallery/best-wiim-streamers/",
-      "source": "Wired",
-      "category": "entertainment",
-      "pubDate": "2026-04-01T11:00:00.000Z",
-      "relevanceScore": 69.66,
-      "recommendationScore": 71.16,
+      "title": "RFK Jr. wants Americans to use peptides that were banned over safety risks",
+      "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-03-31T21:51:26.000Z",
+      "relevanceScore": 62.72,
+      "recommendationScore": 63.22,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "What to expect from WWDC 2026",
-      "link": "https://www.engadget.com/big-tech/what-to-expect-from-wwdc-2026-110000086.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-04-01T11:00:00.000Z",
-      "relevanceScore": 67.66,
-      "recommendationScore": 69.16,
+      "title": "CEO of America’s largest public hospital system says he’s ready to replace radiologists with AI",
+      "link": "https://www.reddit.com/r/technology/comments/1s942fa/ceo_of_americas_largest_public_hospital_system/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-03-31T23:41:00.000Z",
+      "relevanceScore": 62.08,
+      "recommendationScore": 62.58,
+      "tags": [
+        "AI",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nintendo is weathering the storm",
+      "link": "https://www.theverge.com/games/904653/nintendo-games-industry-success",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-04-01T13:30:00.000Z",
+      "relevanceScore": 61.35,
+      "recommendationScore": 61.35,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together",
+      "link": "https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/",
+      "source": "TechCrunch",
+      "category": "space",
+      "pubDate": "2026-04-01T14:00:00.000Z",
+      "relevanceScore": 54.95,
+      "recommendationScore": 54.95,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
-      "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-01T00:45:00.000Z",
-      "relevanceScore": 67.61,
-      "recommendationScore": 68.11,
+      "title": "Toyota’s Woven Capital appoints new CIO and COO in push for finding the ‘future of mobility’",
+      "link": "https://techcrunch.com/2026/03/31/toyotas-woven-capital-appoints-new-cio-and-coo-in-push-for-finding-the-future-of-mobility/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2026-04-01T01:00:00.000Z",
+      "relevanceScore": 54.85,
+      "recommendationScore": 57.35,
       "tags": [
-        "Partnership"
+        "Startup"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "BBC knew about Scott Mills sexual offences investigation in 2017",
-      "link": "https://www.bbc.com/news/articles/cwywvrye76lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-01T12:20:51.000Z",
-      "relevanceScore": 39.43,
-      "recommendationScore": 41.93,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Mass robotaxi malfunction halts traffic in Chinese city",
-      "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-01T11:34:31.000Z",
-      "relevanceScore": 31.78,
-      "recommendationScore": 32.28,
+      "title": "Today is the final day to save up to $150 on a PS5 before the price goes up",
+      "link": "https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2026-04-01T13:21:21.000Z",
+      "relevanceScore": 52.82,
+      "recommendationScore": 53.32,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -337,24 +378,57 @@
       "link": "https://www.bbc.com/news/articles/c62l6w03lwzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-04-01T11:21:09.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 32.23,
+      "pubDate": "2026-04-01T14:00:58.000Z",
+      "relevanceScore": 47.95,
+      "recommendationScore": 48.45,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Estate agents accuse Rightmove of charging excessive fees",
-      "link": "https://www.bbc.com/news/articles/cn0yle5rrp8o?at_medium=RSS&at_campaign=rss",
+      "title": "Minimum wage rises to £12.71 an hour as firms warn of impact",
+      "link": "https://www.bbc.com/news/articles/c36r7jk6093o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-04-01T08:15:36.000Z",
-      "relevanceScore": 31.12,
-      "recommendationScore": 31.62,
+      "pubDate": "2026-04-01T13:45:44.000Z",
+      "relevanceScore": 47.9,
+      "recommendationScore": 48.4,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "BBC knew about Scott Mills sexual offences investigation in 2017",
+      "link": "https://www.bbc.com/news/articles/cwywvrye76lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-01T12:20:51.000Z",
+      "relevanceScore": 47.62,
+      "recommendationScore": 50.12,
       "tags": [
-        "Web"
+        "Analysis"
       ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Over 100 driverless cars stop mid-traffic in Wuhan in 'system malfunction'",
+      "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-01T11:34:31.000Z",
+      "relevanceScore": 47.46,
+      "recommendationScore": 48.96,
+      "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Devastated Italians reckon with 'third apocalypse' of World Cup failure",
+      "link": "https://www.bbc.com/news/articles/cj943rmkkm4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-01T12:05:34.000Z",
+      "relevanceScore": 47.07,
+      "recommendationScore": 47.57,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "The Download: gig workers training humanoids, and better AI benchmarks",
@@ -362,8 +436,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-04-01T12:10:00.000Z",
-      "relevanceScore": 29.9,
-      "recommendationScore": 31.4,
+      "relevanceScore": 45.58,
+      "recommendationScore": 47.08,
       "tags": [
         "AI",
         "Tech"
@@ -376,106 +450,23 @@
       "source": "MIT Technology Review",
       "category": "mobile",
       "pubDate": "2026-04-01T11:00:00.000Z",
-      "relevanceScore": 29.66,
-      "recommendationScore": 30.16,
+      "relevanceScore": 45.35,
+      "recommendationScore": 45.85,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Baidu’s robotaxis froze in traffic, creating chaos",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-01T10:39:52.000Z",
-      "relevanceScore": 25.6,
-      "recommendationScore": 25.6,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Anthropic is having a month",
-      "link": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-03-31T23:58:26.000Z",
-      "relevanceScore": 25.46,
-      "recommendationScore": 25.46,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-      "link": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-03-31T22:46:25.000Z",
-      "relevanceScore": 25.22,
-      "recommendationScore": 27.72,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Oil falls below $100 a barrel and Asian stocks jump on renewed hopes of Iran war ending",
-      "link": "https://abcnews.com/Business/wireStory/asian-stocks-jump-renewed-hopes-iran-war-ending-131598023",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-01T07:22:45.000Z",
-      "relevanceScore": 24.94,
-      "recommendationScore": 27.44,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
-      "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
+      "title": "Mass robotaxi malfunction halts traffic in Chinese city",
+      "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
-      "pubDate": "2026-04-01T07:09:46.000Z",
-      "relevanceScore": 24.9,
-      "recommendationScore": 25.4,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "NASA is leading the way to the Moon, but the military won't be far behind",
-      "link": "https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2026-04-01T01:36:50.000Z",
-      "relevanceScore": 23.79,
-      "recommendationScore": 24.29,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
-      "link": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-01T01:14:30.000Z",
-      "relevanceScore": 23.71,
-      "recommendationScore": 25.21,
+      "pubDate": "2026-04-01T11:34:31.000Z",
+      "relevanceScore": 41.46,
+      "recommendationScore": 41.96,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "RFK Jr. wants Americans to use peptides that were banned over safety risks",
-      "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-03-31T21:51:26.000Z",
-      "relevanceScore": 22.53,
-      "recommendationScore": 23.03,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Starlink satellite breaks apart into \"tens of objects\"; SpaceX confirms \"anomaly\"",
@@ -483,10 +474,43 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-03-31T21:28:15.000Z",
-      "relevanceScore": 22.46,
-      "recommendationScore": 22.96,
+      "relevanceScore": 38.14,
+      "recommendationScore": 38.64,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1497, Part 1 (Thread #1644)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s99xr3/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-04-01T04:03:12.000Z",
+      "relevanceScore": 37.96,
+      "recommendationScore": 40.46,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A YouTuber channeled his distaste for the PS5’s design into slick console covers",
+      "link": "https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2026-04-01T14:00:00.000Z",
+      "relevanceScore": 33.95,
+      "recommendationScore": 34.45,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump says he's considering NATO exit amid rift over Iran war",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s9jktu/trump_says_hes_considering_nato_exit_amid_rift/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-04-01T12:48:09.000Z",
+      "relevanceScore": 31.71,
+      "recommendationScore": 32.21,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Agent-driven development in Copilot Applied Science",
@@ -494,8 +518,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-03-31T16:00:00.000Z",
-      "relevanceScore": 21.86,
-      "recommendationScore": 22.36,
+      "relevanceScore": 31.55,
+      "recommendationScore": 32.05,
       "tags": [
         "Science",
         "Exclusive"
@@ -503,71 +527,257 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Florida Panthers announce hiring of Michael White as business president",
-      "link": "https://abcnews.com/Business/wireStory/florida-panthers-announce-hiring-former-amazon-disney-exec-131568248",
+      "title": "The oil industry is betting big on plastics. Here's what that means for the future",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5763690/the-oil-industry-is-betting-big-on-plastics-heres-what-that-means-for-the-future",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-04-01T12:17:49.000Z",
+      "relevanceScore": 27.61,
+      "recommendationScore": 29.61,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Stocks rally as oil prices fall back toward $100 on hopes for a possible end to the Iran war",
+      "link": "https://abcnews.com/Business/wireStory/asian-stocks-jump-renewed-hopes-iran-war-ending-131598023",
       "source": "ABC News Business",
       "category": "business",
-      "pubDate": "2026-03-31T12:51:30.000Z",
-      "relevanceScore": 21.23,
-      "recommendationScore": 21.73,
+      "pubDate": "2026-04-01T13:38:36.000Z",
+      "relevanceScore": 25.88,
+      "recommendationScore": 26.38,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
+      "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-04-01T07:09:46.000Z",
+      "relevanceScore": 24.58,
+      "recommendationScore": 25.08,
       "tags": [
-        "Tech",
-        "Business",
-        "Launch"
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "ImNotOkay, a GC experiment for Android CI builds",
+      "link": "https://dev.to/cdsap/imnotokay-a-gc-experiment-for-android-ci-builds-489o",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-04-01T14:11:21.000Z",
+      "relevanceScore": 23.98,
+      "recommendationScore": 23.98,
+      "tags": [
+        "Mobile",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Oil prices hold above $100 and Wall Street rebounds as US exchanges strikes with Iran",
-      "link": "https://abcnews.com/Business/wireStory/oil-steadies-asian-stocks-lower-mixed-signs-iran-131565030",
-      "source": "ABC News Business",
+      "title": "Robosen Soundwave review: A childhood dream made real",
+      "link": "https://www.engadget.com/general/robosen-soundwave-review-a-childhood-dream-made-real-120000804.html?src=rss",
+      "source": "Engadget",
+      "category": "automotive",
+      "pubDate": "2026-04-01T12:00:00.000Z",
+      "relevanceScore": 23.55,
+      "recommendationScore": 24.05,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "NASA is leading the way to the Moon, but the military won't be far behind",
+      "link": "https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2026-04-01T01:36:50.000Z",
+      "relevanceScore": 23.47,
+      "recommendationScore": 23.97,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Gas crosses $4 a gallon in the U.S. for the first time in 3 years",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5759679/us-gas-price-4-dollars-gallon-iran",
+      "source": "NPR Business",
       "category": "business",
-      "pubDate": "2026-03-31T12:42:37.000Z",
-      "relevanceScore": 21.21,
-      "recommendationScore": 21.71,
+      "pubDate": "2026-03-31T13:18:53.000Z",
+      "relevanceScore": 23.01,
+      "recommendationScore": 25.51,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Former Alex Jones employee says: 'It was nonsense, it was lies'",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5763689/alex-jones-infowars-josh-owens-the-madness-of-believing",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-03-31T11:11:00.000Z",
+      "relevanceScore": 22.58,
+      "recommendationScore": 23.08,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Kris Jenner's image spreads in Chinese social media good luck trend",
-      "link": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-03-30T12:59:23.000Z",
-      "relevanceScore": 17.46,
-      "recommendationScore": 17.96,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "GitHub for Beginners: Getting started with GitHub security",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
-      "source": "GitHub Blog",
-      "category": "cybersecurity",
-      "pubDate": "2026-03-30T16:00:00.000Z",
-      "relevanceScore": 17.06,
-      "recommendationScore": 17.56,
-      "tags": [
-        "Security",
-        "Exclusive",
-        "Tutorial"
-      ],
+      "title": "US patent office revokes Nintendo’s patent on summoning characters to make them battle | VGC",
+      "link": "https://www.reddit.com/r/technology/comments/1s9k5l5/us_patent_office_revokes_nintendos_patent_on/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-04-01T13:11:32.000Z",
+      "relevanceScore": 21.79,
+      "recommendationScore": 22.29,
+      "tags": [],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
+    "development": [
+      {
+        "title": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+        "link": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-03-31T17:01:01.000Z",
+        "relevanceScore": 6744.75,
+        "tags": []
+      },
+      {
+        "title": "Agent-driven development in Copilot Applied Science",
+        "link": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-03-31T16:00:00.000Z",
+        "relevanceScore": 31.55,
+        "tags": [
+          "Science",
+          "Exclusive"
+        ]
+      }
+    ],
+    "tech": [
+      {
+        "title": "Anthropic issues copyright takedown requests to remove 8,000+ copies of Claude Code source code",
+        "link": "https://www.reddit.com/r/technology/comments/1s9jljp/anthropic_issues_copyright_takedown_requests_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-04-01T12:48:59.000Z",
+        "relevanceScore": 5370.21,
+        "tags": []
+      },
+      {
+        "title": "Roland Go:Mixer Studio review: Portable, professional and plenty of polish",
+        "link": "https://www.engadget.com/audio/roland-gomixer-studio-review-portable-professional-and-plenty-of-polish-130000723.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-01T13:00:00.000Z",
+        "relevanceScore": 1308.75,
+        "tags": [
+          "IPO"
+        ]
+      },
+      {
+        "title": "Running local models on Macs gets faster with Ollama's MLX support",
+        "link": "https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/",
+        "source": "Ars Technica",
+        "pubDate": "2026-03-31T23:00:23.000Z",
+        "relevanceScore": 1280.95,
+        "tags": []
+      },
+      {
+        "title": "Kia shows off the 2027 EV3 at the NY Auto Show",
+        "link": "https://www.engadget.com/transportation/evs/kia-shows-off-the-2027-ev3-at-the-ny-auto-show-132500658.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-01T13:25:00.000Z",
+        "relevanceScore": 556.83,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "Lucid Motors recalls over 4,000 Gravity SUVs citing improperly welded seat belts",
+        "link": "https://techcrunch.com/2026/04/01/lucid-motors-recalls-over-4000-gravity-suvs-citing-improperly-welded-seat-belts/",
+        "source": "TechCrunch",
+        "pubDate": "2026-04-01T13:40:23.000Z",
+        "relevanceScore": 544.38,
+        "tags": []
+      },
+      {
+        "title": "The Best E-Readers (2026): Kobo, Kindle",
+        "link": "https://www.wired.com/gallery/best-ereaders/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T11:35:00.000Z",
+        "relevanceScore": 217.46,
+        "tags": []
+      },
+      {
+        "title": "15 Best Office Chairs of 2026— I’ve Tested 65 to Pick Them",
+        "link": "https://www.wired.com/gallery/best-office-chairs/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T12:00:00.000Z",
+        "relevanceScore": 214.55,
+        "tags": [
+          "Update"
+        ]
+      },
+      {
+        "title": "Best MacBooks (2026): Neo, Air, or Pro?",
+        "link": "https://www.wired.com/story/which-macbook-should-you-buy/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T14:03:27.000Z",
+        "relevanceScore": 174.46,
+        "tags": []
+      },
+      {
+        "title": "What You Need to Know About Building an Outdoor Sauna (2026)",
+        "link": "https://www.wired.com/story/how-to-build-outdoor-sauna/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T11:30:00.000Z",
+        "relevanceScore": 156.95,
+        "tags": []
+      },
+      {
+        "title": "RFK Jr. wants Americans to use peptides that were banned over safety risks",
+        "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/",
+        "source": "Ars Technica",
+        "pubDate": "2026-03-31T21:51:26.000Z",
+        "relevanceScore": 62.72,
+        "tags": []
+      },
+      {
+        "title": "Mass robotaxi malfunction halts traffic in Chinese city",
+        "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-01T11:34:31.000Z",
+        "relevanceScore": 41.46,
+        "tags": []
+      },
+      {
+        "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
+        "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-01T07:09:46.000Z",
+        "relevanceScore": 24.58,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "US patent office revokes Nintendo’s patent on summoning characters to make them battle | VGC",
+        "link": "https://www.reddit.com/r/technology/comments/1s9k5l5/us_patent_office_revokes_nintendos_patent_on/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-04-01T13:11:32.000Z",
+        "relevanceScore": 21.79,
+        "tags": []
+      }
+    ],
     "ai-ml": [
       {
-        "title": "Open Source Project of the Day (Part 26): ZeroClaw - Full-Rust Autonomous AI Assistant Infrastructure, and Its Relationship to OpenClaw",
-        "link": "https://dev.to/wonderlab/open-source-project-of-the-day-part-26-zeroclaw-full-rust-autonomous-ai-assistant-7e0",
-        "source": "Dev.to",
-        "pubDate": "2026-04-01T12:29:12.000Z",
-        "relevanceScore": 4147.96,
+        "title": "Claude Code users hitting usage limits 'way faster than expected'",
+        "link": "https://www.bbc.com/news/articles/ce8l2q5yq51o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-01T11:59:19.000Z",
+        "relevanceScore": 4132.04,
         "tags": [
-          "AI",
-          "Startup"
+          "AI"
         ]
       },
       {
@@ -575,7 +785,7 @@
         "link": "https://www.theverge.com/tech/905021/elgato-stream-deck-mcp-ai-agent-update",
         "source": "The Verge",
         "pubDate": "2026-04-01T12:38:58.000Z",
-        "relevanceScore": 3179.99,
+        "relevanceScore": 3446.18,
         "tags": [
           "AI",
           "Tech",
@@ -587,7 +797,7 @@
         "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-31T14:12:50.000Z",
-        "relevanceScore": 1755.51,
+        "relevanceScore": 1825.19,
         "tags": [
           "AI"
         ]
@@ -597,7 +807,7 @@
         "link": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
         "source": "TechCrunch",
         "pubDate": "2026-04-01T01:42:59.000Z",
-        "relevanceScore": 1639.81,
+        "relevanceScore": 1299.49,
         "tags": [
           "AI",
           "Security",
@@ -605,33 +815,13 @@
         ]
       },
       {
-        "title": "When Can You Actually Trust a Machine Learning Model?",
-        "link": "https://dev.to/siddhartha_reddy/when-can-you-actually-trust-a-machine-learning-model-27kh",
-        "source": "Dev.to",
-        "pubDate": "2026-04-01T12:29:13.000Z",
-        "relevanceScore": 1476.46,
+        "title": "Announcement: Temporary LLM Content Ban",
+        "link": "https://www.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-04-01T12:48:20.000Z",
+        "relevanceScore": 562.71,
         "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Slack's upgraded AI can analyze how you work",
-        "link": "https://www.engadget.com/general/slacks-upgraded-ai-can-analyze-how-you-work-103007261.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-01T10:30:07.000Z",
-        "relevanceScore": 1342.06,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Top 10 AI Developer Tools in 2026: What's Actually Worth Your Time",
-        "link": "https://dev.to/benriemer/top-10-ai-developer-tools-in-2026-whats-actually-worth-your-time-3li1",
-        "source": "Dev.to",
-        "pubDate": "2026-04-01T12:32:25.000Z",
-        "relevanceScore": 1300.97,
-        "tags": [
-          "AI"
+          "Tech"
         ]
       },
       {
@@ -639,7 +829,7 @@
         "link": "https://techcrunch.com/2026/04/01/nothings-ai-devices-plan-reportedly-contains-smart-glasses-and-earbuds/",
         "source": "TechCrunch",
         "pubDate": "2026-04-01T12:33:24.000Z",
-        "relevanceScore": 74.97,
+        "relevanceScore": 82.16,
         "tags": [
           "AI",
           "Mobile",
@@ -647,142 +837,172 @@
         ]
       },
       {
+        "title": "CEO of America’s largest public hospital system says he’s ready to replace radiologists with AI",
+        "link": "https://www.reddit.com/r/technology/comments/1s942fa/ceo_of_americas_largest_public_hospital_system/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-03-31T23:41:00.000Z",
+        "relevanceScore": 62.08,
+        "tags": [
+          "AI",
+          "IPO"
+        ]
+      },
+      {
+        "title": "Nintendo is weathering the storm",
+        "link": "https://www.theverge.com/games/904653/nintendo-games-industry-success",
+        "source": "The Verge",
+        "pubDate": "2026-04-01T13:30:00.000Z",
+        "relevanceScore": 61.35,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "The Download: gig workers training humanoids, and better AI benchmarks",
         "link": "https://www.technologyreview.com/2026/04/01/1134993/the-download-gig-workers-training-humanoids-better-ai-benchmarks/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-01T12:10:00.000Z",
-        "relevanceScore": 29.9,
+        "relevanceScore": 45.58,
         "tags": [
           "AI",
           "Tech"
         ]
-      },
+      }
+    ],
+    "cloud": [
       {
-        "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
-        "link": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-31T22:46:25.000Z",
-        "relevanceScore": 25.22,
+        "title": "PostgreSQL Row-Level Security for Multi-Tenant SaaS",
+        "link": "https://dev.to/software_mvp-factory/postgresql-row-level-security-for-multi-tenant-saas-1lgp",
+        "source": "Dev.to",
+        "pubDate": "2026-04-01T14:12:31.000Z",
+        "relevanceScore": 1324.99,
         "tags": [
-          "AI"
+          "Security",
+          "Cloud",
+          "Regulation"
         ]
       }
     ],
-    "tech": [
+    "world": [
       {
-        "title": "Running local models on Macs gets faster with Ollama's MLX support",
-        "link": "https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/",
-        "source": "Ars Technica",
-        "pubDate": "2026-03-31T23:00:23.000Z",
-        "relevanceScore": 1256.26,
-        "tags": []
-      },
-      {
-        "title": "An immersive 'Black Mirror Experience' is launching in Montreal",
-        "link": "https://www.engadget.com/entertainment/streaming/an-immersive-black-mirror-experience-is-launching-in-montreal-115915992.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-01T11:59:15.000Z",
-        "relevanceScore": 280.86,
+        "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #12)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s90vmg/rworldnews_discussion_thread_us_and_israel_launch/",
+        "source": "Reddit World News",
+        "pubDate": "2026-03-31T21:33:23.000Z",
+        "relevanceScore": 1278.66,
         "tags": [
-          "Partnership"
+          "Launch"
         ]
       },
       {
-        "title": "What You Need to Know About Building an Outdoor Sauna (2026)",
-        "link": "https://www.wired.com/story/how-to-build-outdoor-sauna/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T11:30:00.000Z",
-        "relevanceScore": 105.76,
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1497, Part 1 (Thread #1644)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s99xr3/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2026-04-01T04:03:12.000Z",
+        "relevanceScore": 37.96,
         "tags": []
       },
       {
-        "title": "15 Best Office Chairs of 2026— I’ve Tested 65 to Pick Them",
-        "link": "https://www.wired.com/gallery/best-office-chairs/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T12:00:00.000Z",
-        "relevanceScore": 69.86,
-        "tags": [
-          "Update"
-        ]
-      },
-      {
-        "title": "The Best E-Readers (2026): Kobo, Kindle",
-        "link": "https://www.wired.com/gallery/best-ereaders/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T11:35:00.000Z",
-        "relevanceScore": 69.78,
+        "title": "Trump says he's considering NATO exit amid rift over Iran war",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s9jktu/trump_says_hes_considering_nato_exit_amid_rift/",
+        "source": "Reddit World News",
+        "pubDate": "2026-04-01T12:48:09.000Z",
+        "relevanceScore": 31.71,
         "tags": []
-      },
+      }
+    ],
+    "social": [
       {
-        "title": "What to expect from WWDC 2026",
-        "link": "https://www.engadget.com/big-tech/what-to-expect-from-wwdc-2026-110000086.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-01T11:00:00.000Z",
-        "relevanceScore": 67.66,
-        "tags": []
-      },
-      {
-        "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
-        "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
-        "source": "The Verge",
-        "pubDate": "2026-04-01T00:45:00.000Z",
-        "relevanceScore": 67.61,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Baidu’s robotaxis froze in traffic, creating chaos",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
-        "source": "The Verge",
-        "pubDate": "2026-04-01T10:39:52.000Z",
-        "relevanceScore": 25.6,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Anthropic is having a month",
-        "link": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
-        "source": "TechCrunch",
-        "pubDate": "2026-03-31T23:58:26.000Z",
-        "relevanceScore": 25.46,
-        "tags": []
-      },
-      {
-        "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
-        "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
+        "title": "Social media firms must better enforce Australia under-16 ban, watchdog says",
+        "link": "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
-        "pubDate": "2026-04-01T07:09:46.000Z",
-        "relevanceScore": 24.9,
+        "pubDate": "2026-03-31T02:00:24.000Z",
+        "relevanceScore": 286.25,
         "tags": [
-          "Tech"
+          "Social"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "The new Storm Radar app is a treasure trove of data for weather nerds",
+        "link": "https://www.engadget.com/apps/the-new-storm-radar-app-is-a-treasure-trove-of-data-for-weather-nerds-133646812.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-01T13:36:46.000Z",
+        "relevanceScore": 159.87,
+        "tags": [
+          "Mobile"
         ]
       },
       {
-        "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
-        "link": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
-        "source": "The Verge",
-        "pubDate": "2026-04-01T01:14:30.000Z",
-        "relevanceScore": 23.71,
+        "title": "Docker said 'Connection refused'. Localhost worked fine. The problem was one line.",
+        "link": "https://dev.to/nicodev__/docker-said-connection-refused-localhost-worked-fine-the-problem-was-one-line-2o2m",
+        "source": "Dev.to",
+        "pubDate": "2026-04-01T14:09:38.000Z",
+        "relevanceScore": 100.48,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "The gig workers who are training humanoid robots at home",
+        "link": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-04-01T11:00:00.000Z",
+        "relevanceScore": 45.35,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "ImNotOkay, a GC experiment for Android CI builds",
+        "link": "https://dev.to/cdsap/imnotokay-a-gc-experiment-for-android-ci-builds-489o",
+        "source": "Dev.to",
+        "pubDate": "2026-04-01T14:11:21.000Z",
+        "relevanceScore": 23.98,
+        "tags": [
+          "Mobile",
+          "Regulation"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "GitHub for Beginners: Getting started with GitHub security",
+        "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-03-30T16:00:00.000Z",
+        "relevanceScore": 70.75,
+        "tags": [
+          "Security",
+          "Exclusive",
+          "Tutorial"
+        ]
+      }
+    ],
+    "space": [
+      {
+        "title": "Less than a month: StrictlyVC San Francisco brings leaders from TDK Ventures, Replit, and more together",
+        "link": "https://techcrunch.com/2026/04/01/join-the-first-strictlyvc-of-2026-in-sf-with-leaders-from-tdk-ventures-and-replits-co-founder/",
+        "source": "TechCrunch",
+        "pubDate": "2026-04-01T14:00:00.000Z",
+        "relevanceScore": 54.95,
         "tags": []
       },
       {
-        "title": "RFK Jr. wants Americans to use peptides that were banned over safety risks",
-        "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/",
+        "title": "Starlink satellite breaks apart into \"tens of objects\"; SpaceX confirms \"anomaly\"",
+        "link": "https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/",
         "source": "Ars Technica",
-        "pubDate": "2026-03-31T21:51:26.000Z",
-        "relevanceScore": 22.53,
+        "pubDate": "2026-03-31T21:28:15.000Z",
+        "relevanceScore": 38.14,
         "tags": []
-      }
-    ],
-    "automotive": [
+      },
       {
-        "title": "Robosen Soundwave review: A childhood dream made real",
-        "link": "https://www.engadget.com/general/robosen-soundwave-review-a-childhood-dream-made-real-120000804.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-01T12:00:00.000Z",
-        "relevanceScore": 493.86,
+        "title": "NASA is leading the way to the Moon, but the military won't be far behind",
+        "link": "https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/",
+        "source": "Ars Technica",
+        "pubDate": "2026-04-01T01:36:50.000Z",
+        "relevanceScore": 23.47,
         "tags": []
       }
     ],
@@ -792,10 +1012,72 @@
         "link": "https://techcrunch.com/2026/03/31/toyotas-woven-capital-appoints-new-cio-and-coo-in-push-for-finding-the-future-of-mobility/",
         "source": "TechCrunch",
         "pubDate": "2026-04-01T01:00:00.000Z",
-        "relevanceScore": 369.66,
+        "relevanceScore": 54.85,
         "tags": [
           "Startup"
         ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Today is the final day to save up to $150 on a PS5 before the price goes up",
+        "link": "https://www.theverge.com/gadgets/904614/playstation-5-ps5-pro-digital-edition-refurbished-deal-sale-price-increase",
+        "source": "The Verge",
+        "pubDate": "2026-04-01T13:21:21.000Z",
+        "relevanceScore": 52.82,
+        "tags": []
+      },
+      {
+        "title": "A YouTuber channeled his distaste for the PS5’s design into slick console covers",
+        "link": "https://www.theverge.com/tech/904086/boxplates-ps5-pro-slim-console-covers-hands-on",
+        "source": "The Verge",
+        "pubDate": "2026-04-01T14:00:00.000Z",
+        "relevanceScore": 33.95,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "UK will seek closer ties with EU in light of Iran war, Starmer says",
+        "link": "https://www.bbc.com/news/articles/c62l6w03lwzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T14:00:58.000Z",
+        "relevanceScore": 47.95,
+        "tags": []
+      },
+      {
+        "title": "Minimum wage rises to £12.71 an hour as firms warn of impact",
+        "link": "https://www.bbc.com/news/articles/c36r7jk6093o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T13:45:44.000Z",
+        "relevanceScore": 47.9,
+        "tags": []
+      },
+      {
+        "title": "BBC knew about Scott Mills sexual offences investigation in 2017",
+        "link": "https://www.bbc.com/news/articles/cwywvrye76lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T12:20:51.000Z",
+        "relevanceScore": 47.62,
+        "tags": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Over 100 driverless cars stop mid-traffic in Wuhan in 'system malfunction'",
+        "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T11:34:31.000Z",
+        "relevanceScore": 47.46,
+        "tags": []
+      },
+      {
+        "title": "Devastated Italians reckon with 'third apocalypse' of World Cup failure",
+        "link": "https://www.bbc.com/news/articles/cj943rmkkm4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T12:05:34.000Z",
+        "relevanceScore": 47.07,
+        "tags": []
       }
     ],
     "business": [
@@ -804,7 +1086,15 @@
         "link": "https://www.npr.org/2026/04/01/nx-s1-5763690/the-oil-industry-is-betting-big-on-plastics-heres-what-that-means-for-the-future",
         "source": "NPR Business",
         "pubDate": "2026-04-01T12:17:49.000Z",
-        "relevanceScore": 284.92,
+        "relevanceScore": 27.61,
+        "tags": []
+      },
+      {
+        "title": "Stocks rally as oil prices fall back toward $100 on hopes for a possible end to the Iran war",
+        "link": "https://abcnews.com/Business/wireStory/asian-stocks-jump-renewed-hopes-iran-war-ending-131598023",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-01T13:38:36.000Z",
+        "relevanceScore": 25.88,
         "tags": []
       },
       {
@@ -812,7 +1102,7 @@
         "link": "https://www.npr.org/2026/03/31/nx-s1-5759679/us-gas-price-4-dollars-gallon-iran",
         "source": "NPR Business",
         "pubDate": "2026-03-31T13:18:53.000Z",
-        "relevanceScore": 107.83,
+        "relevanceScore": 23.01,
         "tags": [
           "Exclusive"
         ]
@@ -822,15 +1112,7 @@
         "link": "https://www.npr.org/2026/03/31/nx-s1-5763689/alex-jones-infowars-josh-owens-the-madness-of-believing",
         "source": "NPR Business",
         "pubDate": "2026-03-31T11:11:00.000Z",
-        "relevanceScore": 107.4,
-        "tags": []
-      },
-      {
-        "title": "Oil falls below $100 a barrel and Asian stocks jump on renewed hopes of Iran war ending",
-        "link": "https://abcnews.com/Business/wireStory/asian-stocks-jump-renewed-hopes-iran-war-ending-131598023",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-01T07:22:45.000Z",
-        "relevanceScore": 24.94,
+        "relevanceScore": 22.58,
         "tags": []
       },
       {
@@ -838,7 +1120,7 @@
         "link": "https://abcnews.com/Business/wireStory/florida-panthers-announce-hiring-former-amazon-disney-exec-131568248",
         "source": "ABC News Business",
         "pubDate": "2026-03-31T12:51:30.000Z",
-        "relevanceScore": 21.23,
+        "relevanceScore": 20.92,
         "tags": [
           "Tech",
           "Business",
@@ -850,163 +1132,33 @@
         "link": "https://abcnews.com/Business/wireStory/oil-steadies-asian-stocks-lower-mixed-signs-iran-131565030",
         "source": "ABC News Business",
         "pubDate": "2026-03-31T12:42:37.000Z",
-        "relevanceScore": 21.21,
+        "relevanceScore": 20.89,
         "tags": []
       }
     ],
-    "social": [
+    "automotive": [
       {
-        "title": "Social media firms must better enforce Australia under-16 ban, watchdog says",
-        "link": "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-03-31T02:00:24.000Z",
-        "relevanceScore": 206.56,
-        "tags": [
-          "Social"
-        ]
-      },
-      {
-        "title": "Kris Jenner's image spreads in Chinese social media good luck trend",
-        "link": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-03-30T12:59:23.000Z",
-        "relevanceScore": 17.46,
-        "tags": [
-          "Social"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Weather looks favourable for Artemis launch despite cloud",
-        "link": "https://www.bbc.com/weather/articles/cj6w4p106klo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-01T09:22:22.000Z",
-        "relevanceScore": 79.34,
-        "tags": [
-          "Cloud",
-          "Launch"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Best WiiM Streamers (2026): Simplify Your Sound With WiiM Streaming Gear",
-        "link": "https://www.wired.com/gallery/best-wiim-streamers/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T11:00:00.000Z",
-        "relevanceScore": 69.66,
+        "title": "Robosen Soundwave review: A childhood dream made real",
+        "link": "https://www.engadget.com/general/robosen-soundwave-review-a-childhood-dream-made-real-120000804.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-01T12:00:00.000Z",
+        "relevanceScore": 23.55,
         "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "BBC knew about Scott Mills sexual offences investigation in 2017",
-        "link": "https://www.bbc.com/news/articles/cwywvrye76lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-01T12:20:51.000Z",
-        "relevanceScore": 39.43,
-        "tags": [
-          "Analysis"
-        ]
-      },
-      {
-        "title": "Mass robotaxi malfunction halts traffic in Chinese city",
-        "link": "https://www.bbc.com/news/articles/cvge91r9j80o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-01T11:34:31.000Z",
-        "relevanceScore": 31.78,
-        "tags": []
-      },
-      {
-        "title": "UK will seek closer ties with EU in light of Iran war, Starmer says",
-        "link": "https://www.bbc.com/news/articles/c62l6w03lwzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-01T11:21:09.000Z",
-        "relevanceScore": 31.73,
-        "tags": []
-      },
-      {
-        "title": "Estate agents accuse Rightmove of charging excessive fees",
-        "link": "https://www.bbc.com/news/articles/cn0yle5rrp8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-01T08:15:36.000Z",
-        "relevanceScore": 31.12,
-        "tags": [
-          "Web"
-        ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "The gig workers who are training humanoid robots at home",
-        "link": "https://www.technologyreview.com/2026/04/01/1134863/humanoid-data-training-gig-economy-2026-breakthrough-technology/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-04-01T11:00:00.000Z",
-        "relevanceScore": 29.66,
-        "tags": [
-          "Mobile"
-        ]
-      }
-    ],
-    "space": [
-      {
-        "title": "NASA is leading the way to the Moon, but the military won't be far behind",
-        "link": "https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/",
-        "source": "Ars Technica",
-        "pubDate": "2026-04-01T01:36:50.000Z",
-        "relevanceScore": 23.79,
-        "tags": []
-      },
-      {
-        "title": "Starlink satellite breaks apart into \"tens of objects\"; SpaceX confirms \"anomaly\"",
-        "link": "https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/",
-        "source": "Ars Technica",
-        "pubDate": "2026-03-31T21:28:15.000Z",
-        "relevanceScore": 22.46,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Agent-driven development in Copilot Applied Science",
-        "link": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-03-31T16:00:00.000Z",
-        "relevanceScore": 21.86,
-        "tags": [
-          "Science",
-          "Exclusive"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "GitHub for Beginners: Getting started with GitHub security",
-        "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-03-30T16:00:00.000Z",
-        "relevanceScore": 17.06,
-        "tags": [
-          "Security",
-          "Exclusive",
-          "Tutorial"
-        ]
       }
     ]
   },
   "stats": {
-    "totalSources": 12,
-    "totalCategories": 13,
-    "avgRelevanceScore": 443.3906976744185,
+    "totalSources": 15,
+    "totalCategories": 14,
+    "avgRelevanceScore": 620.9382692307693,
     "topCategories": [
       {
         "category": "tech",
-        "count": 12
+        "count": 13
       },
       {
         "category": "ai-ml",
-        "count": 10
+        "count": 9
       },
       {
         "category": "business",
@@ -1014,11 +1166,11 @@
       },
       {
         "category": "general",
-        "count": 4
+        "count": 5
       },
       {
-        "category": "social",
-        "count": 2
+        "category": "mobile",
+        "count": 4
       }
     ]
   }
