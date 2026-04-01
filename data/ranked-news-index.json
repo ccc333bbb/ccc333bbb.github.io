@@ -1,35 +1,59 @@
 {
-  "lastUpdated": "2026-04-01T09:42:56.057Z",
-  "totalArticles": 43,
+  "lastUpdated": "2026-04-01T10:40:25.897Z",
+  "totalArticles": 51,
   "categories": [
     "development",
     "ai-ml",
+    "world",
+    "mobile",
     "tech",
     "space",
     "startup",
-    "cloud",
     "entertainment",
     "general",
     "business",
-    "gaming",
     "social",
-    "health",
+    "gaming",
     "automotive",
+    "climate",
     "cybersecurity"
   ],
   "topArticles": [
     {
-      "title": "Claude Code Unpacked: what the visual guide reveals about the architecture",
-      "link": "https://dev.to/subprime2010/claude-code-unpacked-what-the-visual-guide-reveals-about-the-architecture-13le",
+      "title": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+      "link": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-03-31T17:01:01.000Z",
+      "relevanceScore": 6045.97,
+      "recommendationScore": 6046.47,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Claude Code's source leaked via a map file in their NPM registry",
+      "link": "https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-03-31T11:22:57.000Z",
+      "relevanceScore": 6024.34,
+      "recommendationScore": 6024.84,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "I Gave Claude Code the Same Bug Report 3 Times. It Missed What a Human Would Catch in 5 Seconds.",
+      "link": "https://dev.to/ithiria894/i-gave-claude-code-the-same-bug-report-3-times-it-missed-what-a-human-would-catch-in-5-seconds-3ebk",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-04-01T09:38:45.000Z",
-      "relevanceScore": 6914.49,
-      "recommendationScore": 6916.49,
+      "pubDate": "2026-04-01T10:35:39.000Z",
+      "relevanceScore": 3334.98,
+      "recommendationScore": 3336.98,
       "tags": [
-        "Tutorial"
+        "Breaking",
+        "Report"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
@@ -37,8 +61,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-31T12:10:00.000Z",
-      "relevanceScore": 2320.19,
-      "recommendationScore": 2320.69,
+      "relevanceScore": 2355,
+      "recommendationScore": 2355.5,
       "tags": [
         "AI",
         "Tech"
@@ -51,8 +75,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-01T01:42:59.000Z",
-      "relevanceScore": 2212.9,
-      "recommendationScore": 2213.4,
+      "relevanceScore": 2240.71,
+      "recommendationScore": 2241.21,
       "tags": [
         "AI",
         "Security",
@@ -66,23 +90,38 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-31T14:12:50.000Z",
-      "relevanceScore": 1648.6,
-      "recommendationScore": 1649.1,
+      "relevanceScore": 1697.41,
+      "recommendationScore": 1697.91,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Babbel Promo Code: Up to 65% Off in April 2026",
-      "link": "https://www.wired.com/story/babbel-promo-code/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-01T05:00:00.000Z",
-      "relevanceScore": 1570.06,
-      "recommendationScore": 1570.06,
-      "tags": [],
-      "readingLevel": "beginner"
+      "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #12)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s90vmg/rworldnews_discussion_thread_us_and_israel_launch/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-03-31T21:33:23.000Z",
+      "relevanceScore": 1550.38,
+      "recommendationScore": 1552.88,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Slack's upgraded AI can analyze how you work",
+      "link": "https://www.engadget.com/general/slacks-upgraded-ai-can-analyze-how-you-work-103007261.html?src=rss",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-04-01T10:30:07.000Z",
+      "relevanceScore": 1391.47,
+      "recommendationScore": 1392.97,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "AI benchmarks are broken. Here’s what we need instead.",
@@ -90,12 +129,25 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-03-31T12:01:08.000Z",
-      "relevanceScore": 1252.16,
-      "recommendationScore": 1254.16,
+      "relevanceScore": 1272.97,
+      "recommendationScore": 1274.97,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The Hidden Cost of Phone-Based Auth: What I Learned After 18 Months",
+      "link": "https://dev.to/sms-activate/the-hidden-cost-of-phone-based-auth-what-i-learned-after-18-months-55mc",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-04-01T10:35:45.000Z",
+      "relevanceScore": 1239.48,
+      "recommendationScore": 1241.48,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Running local models on Macs gets faster with Ollama's MLX support",
@@ -103,8 +155,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-31T23:00:23.000Z",
-      "relevanceScore": 1194.86,
-      "recommendationScore": 1195.36,
+      "relevanceScore": 1214.67,
+      "recommendationScore": 1215.17,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -114,8 +166,8 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2026-04-01T09:28:00.000Z",
-      "relevanceScore": 1044.45,
-      "recommendationScore": 1046.45,
+      "relevanceScore": 1109.26,
+      "recommendationScore": 1111.26,
       "tags": [
         "Exclusive",
         "Launch"
@@ -128,41 +180,12 @@
       "source": "BBC News",
       "category": "space",
       "pubDate": "2026-04-01T00:00:18.000Z",
-      "relevanceScore": 786.06,
-      "recommendationScore": 790.06,
+      "relevanceScore": 840.87,
+      "recommendationScore": 844.87,
       "tags": [
         "Launch"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Exolane Review: What It Gets Right on Custody, Funding Caps, and Risk",
-      "link": "https://dev.to/levip/exolane-review-what-it-gets-right-on-custody-funding-caps-and-risk-84h",
-      "source": "Dev.to",
-      "category": "startup",
-      "pubDate": "2026-04-01T09:37:50.000Z",
-      "relevanceScore": 467.98,
-      "recommendationScore": 469.98,
-      "tags": [
-        "Startup",
-        "Funding"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Power Pages Authentication Methods: The Complete Guide (2026)",
-      "link": "https://dev.to/aidevme/power-pages-authentication-methods-the-complete-guide-2026-2chm",
-      "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2026-04-01T09:39:08.000Z",
-      "relevanceScore": 427.49,
-      "recommendationScore": 427.99,
-      "tags": [
-        "Security",
-        "Cloud",
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Toyota’s Woven Capital appoints new CIO and COO in push for finding the ‘future of mobility’",
@@ -170,8 +193,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-04-01T01:00:00.000Z",
-      "relevanceScore": 295.26,
-      "recommendationScore": 297.76,
+      "relevanceScore": 346.07,
+      "recommendationScore": 348.57,
       "tags": [
         "Startup"
       ],
@@ -183,21 +206,21 @@
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2026-03-31T21:36:02.000Z",
-      "relevanceScore": 153.08,
-      "recommendationScore": 153.58,
+      "relevanceScore": 155.39,
+      "recommendationScore": 155.89,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Watch Carol Kirkwood's emotional goodbye and funniest moments as she leaves the BBC after 28 years",
+      "title": "Watch Carol Kirkwood's emotional goodbye and funniest moments as she leaves the BBC",
       "link": "https://www.bbc.com/news/videos/cp38qjvl7d5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-01T08:30:03.000Z",
-      "relevanceScore": 135.26,
-      "recommendationScore": 135.76,
+      "relevanceScore": 150.07,
+      "recommendationScore": 150.57,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "Gas crosses $4 a gallon in the U.S. for the first time in 3 years",
@@ -205,8 +228,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-31T13:18:53.000Z",
-      "relevanceScore": 95.42,
-      "recommendationScore": 97.92,
+      "relevanceScore": 99.23,
+      "recommendationScore": 101.73,
       "tags": [
         "Exclusive"
       ],
@@ -218,22 +241,21 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-31T11:11:00.000Z",
-      "relevanceScore": 94.99,
-      "recommendationScore": 95.49,
+      "relevanceScore": 98.8,
+      "recommendationScore": 99.3,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Toyota's still trying to make hydrogen fuel cells happen",
-      "link": "https://www.engadget.com/transportation/toyotas-still-trying-to-make-hydrogen-fuel-cells-happen-202237728.html?src=rss",
-      "source": "Engadget",
-      "category": "startup",
-      "pubDate": "2026-03-31T20:22:37.000Z",
-      "relevanceScore": 80.33,
-      "recommendationScore": 80.83,
+      "title": "Social media firms must better enforce Australia under-16 ban, watchdog says",
+      "link": "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-03-31T02:00:24.000Z",
+      "relevanceScore": 85.47,
+      "recommendationScore": 86.97,
       "tags": [
-        "Tech",
-        "Startup"
+        "Social"
       ],
       "readingLevel": "advanced"
     },
@@ -243,8 +265,8 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-03-31T21:46:38.000Z",
-      "relevanceScore": 74.61,
-      "recommendationScore": 77.11,
+      "relevanceScore": 70.42,
+      "recommendationScore": 72.92,
       "tags": [
         "Tech",
         "Exclusive"
@@ -252,15 +274,37 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Social media firms must better enforce Australia under-16 ban, watchdog says",
-      "link": "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-03-31T02:00:24.000Z",
-      "relevanceScore": 68.66,
-      "recommendationScore": 70.16,
+      "title": "Minimum wage rises to £12.71 an hour as firms warn of impact",
+      "link": "https://www.bbc.com/news/articles/c36r7jk6093o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-01T08:26:08.000Z",
+      "relevanceScore": 56.05,
+      "recommendationScore": 56.55,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Watching a 7.5-Hour Movie in Theaters Made Me More Hopeful About Our Collective Brain Rot",
+      "link": "https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/",
+      "source": "Wired",
+      "category": "entertainment",
+      "pubDate": "2026-04-01T10:30:00.000Z",
+      "relevanceScore": 51.47,
+      "recommendationScore": 51.97,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Baidu’s robotaxis froze in traffic creating chaos",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-01T10:39:52.000Z",
+      "relevanceScore": 50.5,
+      "recommendationScore": 50.5,
       "tags": [
-        "Social"
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -270,8 +314,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-03-31T22:46:25.000Z",
-      "relevanceScore": 55.31,
-      "recommendationScore": 57.81,
+      "relevanceScore": 50.12,
+      "recommendationScore": 52.62,
       "tags": [
         "AI"
       ],
@@ -283,8 +327,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-04-01T01:14:30.000Z",
-      "relevanceScore": 53.81,
-      "recommendationScore": 55.31,
+      "relevanceScore": 48.61,
+      "recommendationScore": 50.11,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -294,8 +338,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-03-31T23:53:47.000Z",
-      "relevanceScore": 53.54,
-      "recommendationScore": 55.04,
+      "relevanceScore": 48.34,
+      "recommendationScore": 49.84,
       "tags": [
         "AI",
         "Interview"
@@ -303,13 +347,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Robotaxi Outage in China Leaves Passengers Stranded on Highways",
-      "link": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-01T01:24:55.000Z",
-      "relevanceScore": 53.34,
-      "recommendationScore": 53.84,
+      "title": "U.S strongly considering exit from NATO",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s9fovj/us_strongly_considering_exit_from_nato/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-04-01T09:32:48.000Z",
+      "relevanceScore": 48.27,
+      "recommendationScore": 48.27,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -319,8 +363,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-03-31T09:00:00.000Z",
-      "relevanceScore": 52.56,
-      "recommendationScore": 54.56,
+      "relevanceScore": 47.37,
+      "recommendationScore": 49.37,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -330,9 +374,60 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-03-31T21:28:15.000Z",
-      "relevanceScore": 52.55,
-      "recommendationScore": 53.05,
+      "relevanceScore": 47.36,
+      "recommendationScore": 47.86,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1497, Part 1 (Thread #1644)",
+      "link": "https://www.reddit.com/r/worldnews/comments/1s99xr3/rworldnews_live_thread_russian_invasion_of/",
+      "source": "Reddit World News",
+      "category": "world",
+      "pubDate": "2026-04-01T04:03:12.000Z",
+      "relevanceScore": 47.18,
+      "recommendationScore": 49.68,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Robotaxi companies refuse to say how often their AVs need remote help",
+      "link": "https://techcrunch.com/2026/03/31/robotaxi-companies-refuse-to-say-how-often-their-avs-need-remote-help/",
+      "source": "TechCrunch",
+      "category": "automotive",
+      "pubDate": "2026-03-31T21:35:51.000Z",
+      "relevanceScore": 44.88,
+      "recommendationScore": 47.88,
+      "tags": [
+        "Analysis"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "CEO of America’s largest public hospital system says he’s ready to replace radiologists with AI",
+      "link": "https://www.reddit.com/r/technology/comments/1s942fa/ceo_of_americas_largest_public_hospital_system/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-03-31T23:41:00.000Z",
+      "relevanceScore": 44.3,
+      "recommendationScore": 44.8,
+      "tags": [
+        "AI",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
+      "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-01T00:45:00.000Z",
+      "relevanceScore": 43.52,
+      "recommendationScore": 44.02,
+      "tags": [
+        "Partnership"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -341,8 +436,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-01T08:15:36.000Z",
-      "relevanceScore": 31.71,
-      "recommendationScore": 32.21,
+      "relevanceScore": 31.52,
+      "recommendationScore": 32.02,
       "tags": [
         "Web"
       ],
@@ -354,20 +449,33 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-01T08:07:51.000Z",
-      "relevanceScore": 31.68,
-      "recommendationScore": 32.18,
+      "relevanceScore": 31.49,
+      "recommendationScore": 31.99,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Weight-loss jabs will be offered on NHS for people at risk of further heart attacks",
-      "link": "https://www.bbc.com/news/articles/cz90595pgzlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2026-03-31T23:01:43.000Z",
-      "relevanceScore": 29.36,
-      "recommendationScore": 29.86,
+      "title": "Retrospec Judd Rev 2 Electric Folding Bike Review: Affordable, Simple, Easy to Store",
+      "link": "https://www.wired.com/review/retrospec-judd-rev-2-electric-folding-bike/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-01T10:30:00.000Z",
+      "relevanceScore": 25.97,
+      "recommendationScore": 26.47,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "These Are the 4 Artemis II Astronauts Leading the Historic Return to the Moon",
+      "link": "https://www.wired.com/story/these-are-the-4-artemis-ii-astronauts-leading-the-historic-return-to-the-moon/",
+      "source": "Wired",
+      "category": "climate",
+      "pubDate": "2026-04-01T10:00:00.000Z",
+      "relevanceScore": 25.87,
+      "recommendationScore": 26.37,
+      "tags": [
+        "Exclusive"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -376,45 +484,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-03-31T23:58:26.000Z",
-      "relevanceScore": 26.05,
-      "recommendationScore": 26.05,
+      "relevanceScore": 25.86,
+      "recommendationScore": 25.86,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "I Asked ChatGPT What WIRED’s Reviewers Recommend—Its Answers Were All Wrong",
-      "link": "https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-04-01T09:30:00.000Z",
-      "relevanceScore": 25.96,
-      "recommendationScore": 27.96,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Best Mushroom Coffee, WIRED Tested and Reviewed (2026)",
-      "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-01T09:08:00.000Z",
-      "relevanceScore": 25.88,
-      "recommendationScore": 27.38,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Robotaxi companies refuse to say how often their AVs need remote help",
-      "link": "https://techcrunch.com/2026/03/31/robotaxi-companies-refuse-to-say-how-often-their-avs-need-remote-help/",
-      "source": "TechCrunch",
-      "category": "automotive",
-      "pubDate": "2026-03-31T21:35:51.000Z",
-      "relevanceScore": 25.58,
-      "recommendationScore": 28.58,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Oil falls below $100 a barrel and Asian stocks jump on renewed hopes of Iran war ending",
@@ -422,23 +495,37 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-01T07:22:45.000Z",
-      "relevanceScore": 25.53,
-      "recommendationScore": 28.03,
+      "relevanceScore": 25.34,
+      "recommendationScore": 27.84,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Tech giant Oracle makes 'significant' job cuts",
+      "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
       "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-04-01T07:09:46.000Z",
-      "relevanceScore": 25.49,
-      "recommendationScore": 25.49,
+      "relevanceScore": 25.3,
+      "recommendationScore": 25.8,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Taylor Lorenz’s Screen Time Is Almost 17 Hours a Day",
+      "link": "https://www.wired.com/story/user-behavior-taylor-lorenz/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-01T10:00:00.000Z",
+      "relevanceScore": 24.87,
+      "recommendationScore": 25.37,
+      "tags": [
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "NASA is leading the way to the Moon, but the military won't be far behind",
@@ -446,23 +533,21 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-04-01T01:36:50.000Z",
-      "relevanceScore": 24.38,
-      "recommendationScore": 24.88,
+      "relevanceScore": 24.19,
+      "recommendationScore": 24.69,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
-      "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-01T00:45:00.000Z",
-      "relevanceScore": 24.21,
-      "recommendationScore": 24.71,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
+      "title": "You Don’t Need Another Idea. You Need to Finish One.",
+      "link": "https://dev.to/harsh_ray_/you-dont-need-another-idea-you-need-to-finish-one-1392",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-04-01T10:37:13.000Z",
+      "relevanceScore": 23.99,
+      "recommendationScore": 24.49,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "RFK Jr. wants Americans to use peptides that were banned over safety risks",
@@ -470,21 +555,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-03-31T21:51:26.000Z",
-      "relevanceScore": 23.13,
-      "recommendationScore": 23.63,
+      "relevanceScore": 22.94,
+      "recommendationScore": 23.44,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
-      "link": "https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-03-31T23:00:00.000Z",
-      "relevanceScore": 22.86,
-      "recommendationScore": 23.36,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Agent-driven development in Copilot Applied Science",
@@ -492,8 +566,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-03-31T16:00:00.000Z",
-      "relevanceScore": 22.46,
-      "recommendationScore": 22.96,
+      "relevanceScore": 22.27,
+      "recommendationScore": 22.77,
       "tags": [
         "Science",
         "Exclusive"
@@ -506,8 +580,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-03-31T12:51:30.000Z",
-      "relevanceScore": 21.83,
-      "recommendationScore": 22.33,
+      "relevanceScore": 21.64,
+      "recommendationScore": 22.14,
       "tags": [
         "Tech",
         "Business",
@@ -521,10 +595,34 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-03-31T12:42:37.000Z",
-      "relevanceScore": 21.8,
-      "recommendationScore": 22.3,
+      "relevanceScore": 21.61,
+      "recommendationScore": 22.11,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Another Starlink satellite has inexplicably exploded",
+      "link": "https://www.reddit.com/r/technology/comments/1s95wqn/another_starlink_satellite_has_inexplicably/",
+      "source": "Reddit Technology",
+      "category": "space",
+      "pubDate": "2026-04-01T01:00:44.000Z",
+      "relevanceScore": 21.07,
+      "recommendationScore": 21.57,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Iran Threatens to Attack U.S. Tech Companies Starting April 1 / Iran says it will target Apple, Google, and Microsoft, among others.",
+      "link": "https://www.reddit.com/r/technology/comments/1s8ua7r/iran_threatens_to_attack_us_tech_companies/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-03-31T17:37:53.000Z",
+      "relevanceScore": 18.59,
+      "recommendationScore": 18.59,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Kris Jenner's image spreads in Chinese social media good luck trend",
@@ -532,25 +630,10 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-03-30T12:59:23.000Z",
-      "relevanceScore": 18.05,
-      "recommendationScore": 18.55,
+      "relevanceScore": 17.86,
+      "recommendationScore": 18.36,
       "tags": [
         "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "GitHub for Beginners: Getting started with GitHub security",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
-      "source": "GitHub Blog",
-      "category": "cybersecurity",
-      "pubDate": "2026-03-30T16:00:00.000Z",
-      "relevanceScore": 17.66,
-      "recommendationScore": 18.16,
-      "tags": [
-        "Security",
-        "Exclusive",
-        "Tutorial"
       ],
       "readingLevel": "advanced"
     }
@@ -558,21 +641,46 @@
   "categoryIndex": {
     "development": [
       {
-        "title": "Claude Code Unpacked: what the visual guide reveals about the architecture",
-        "link": "https://dev.to/subprime2010/claude-code-unpacked-what-the-visual-guide-reveals-about-the-architecture-13le",
+        "title": "A bug in Bun may have been the root cause of the Claude Code source code leak.",
+        "link": "https://www.reddit.com/r/programming/comments/1s8t8hp/a_bug_in_bun_may_have_been_the_root_cause_of_the/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-03-31T17:01:01.000Z",
+        "relevanceScore": 6045.97,
+        "tags": []
+      },
+      {
+        "title": "Claude Code's source leaked via a map file in their NPM registry",
+        "link": "https://www.reddit.com/r/programming/comments/1s8kni4/claude_codes_source_leaked_via_a_map_file_in/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-03-31T11:22:57.000Z",
+        "relevanceScore": 6024.34,
+        "tags": []
+      },
+      {
+        "title": "I Gave Claude Code the Same Bug Report 3 Times. It Missed What a Human Would Catch in 5 Seconds.",
+        "link": "https://dev.to/ithiria894/i-gave-claude-code-the-same-bug-report-3-times-it-missed-what-a-human-would-catch-in-5-seconds-3ebk",
         "source": "Dev.to",
-        "pubDate": "2026-04-01T09:38:45.000Z",
-        "relevanceScore": 6914.49,
+        "pubDate": "2026-04-01T10:35:39.000Z",
+        "relevanceScore": 3334.98,
         "tags": [
-          "Tutorial"
+          "Breaking",
+          "Report"
         ]
+      },
+      {
+        "title": "You Don’t Need Another Idea. You Need to Finish One.",
+        "link": "https://dev.to/harsh_ray_/you-dont-need-another-idea-you-need-to-finish-one-1392",
+        "source": "Dev.to",
+        "pubDate": "2026-04-01T10:37:13.000Z",
+        "relevanceScore": 23.99,
+        "tags": []
       },
       {
         "title": "Agent-driven development in Copilot Applied Science",
         "link": "https://github.blog/ai-and-ml/github-copilot/agent-driven-development-in-copilot-applied-science/",
         "source": "GitHub Blog",
         "pubDate": "2026-03-31T16:00:00.000Z",
-        "relevanceScore": 22.46,
+        "relevanceScore": 22.27,
         "tags": [
           "Science",
           "Exclusive"
@@ -585,7 +693,7 @@
         "link": "https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-31T12:10:00.000Z",
-        "relevanceScore": 2320.19,
+        "relevanceScore": 2355,
         "tags": [
           "AI",
           "Tech"
@@ -596,7 +704,7 @@
         "link": "https://techcrunch.com/2026/03/31/mercor-says-it-was-hit-by-cyberattack-tied-to-compromise-of-open-source-litellm-project/",
         "source": "TechCrunch",
         "pubDate": "2026-04-01T01:42:59.000Z",
-        "relevanceScore": 2212.9,
+        "relevanceScore": 2240.71,
         "tags": [
           "AI",
           "Security",
@@ -608,7 +716,17 @@
         "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-31T14:12:50.000Z",
-        "relevanceScore": 1648.6,
+        "relevanceScore": 1697.41,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Slack's upgraded AI can analyze how you work",
+        "link": "https://www.engadget.com/general/slacks-upgraded-ai-can-analyze-how-you-work-103007261.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-01T10:30:07.000Z",
+        "relevanceScore": 1391.47,
         "tags": [
           "AI"
         ]
@@ -618,7 +736,7 @@
         "link": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
         "source": "MIT Technology Review",
         "pubDate": "2026-03-31T12:01:08.000Z",
-        "relevanceScore": 1252.16,
+        "relevanceScore": 1272.97,
         "tags": [
           "AI"
         ]
@@ -628,7 +746,7 @@
         "link": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
         "source": "TechCrunch",
         "pubDate": "2026-03-31T22:46:25.000Z",
-        "relevanceScore": 55.31,
+        "relevanceScore": 50.12,
         "tags": [
           "AI"
         ]
@@ -638,52 +756,107 @@
         "link": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
         "source": "The Verge",
         "pubDate": "2026-03-31T23:53:47.000Z",
-        "relevanceScore": 53.54,
+        "relevanceScore": 48.34,
         "tags": [
           "AI",
           "Interview"
         ]
       },
       {
-        "title": "I Asked ChatGPT What WIRED’s Reviewers Recommend—Its Answers Were All Wrong",
-        "link": "https://www.wired.com/story/i-asked-chatgpt-what-wired-reviewers-recommend-its-answers-were-all-wrong/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T09:30:00.000Z",
-        "relevanceScore": 25.96,
+        "title": "CEO of America’s largest public hospital system says he’s ready to replace radiologists with AI",
+        "link": "https://www.reddit.com/r/technology/comments/1s942fa/ceo_of_americas_largest_public_hospital_system/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-03-31T23:41:00.000Z",
+        "relevanceScore": 44.3,
+        "tags": [
+          "AI",
+          "IPO"
+        ]
+      }
+    ],
+    "world": [
+      {
+        "title": "/r/WorldNews Discussion Thread: US and Israel launch attack on Iran; Iran retaliates (Thread #12)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s90vmg/rworldnews_discussion_thread_us_and_israel_launch/",
+        "source": "Reddit World News",
+        "pubDate": "2026-03-31T21:33:23.000Z",
+        "relevanceScore": 1550.38,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "U.S strongly considering exit from NATO",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s9fovj/us_strongly_considering_exit_from_nato/",
+        "source": "Reddit World News",
+        "pubDate": "2026-04-01T09:32:48.000Z",
+        "relevanceScore": 48.27,
+        "tags": []
+      },
+      {
+        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1497, Part 1 (Thread #1644)",
+        "link": "https://www.reddit.com/r/worldnews/comments/1s99xr3/rworldnews_live_thread_russian_invasion_of/",
+        "source": "Reddit World News",
+        "pubDate": "2026-04-01T04:03:12.000Z",
+        "relevanceScore": 47.18,
         "tags": []
       }
     ],
-    "tech": [
+    "mobile": [
       {
-        "title": "Babbel Promo Code: Up to 65% Off in April 2026",
-        "link": "https://www.wired.com/story/babbel-promo-code/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T05:00:00.000Z",
-        "relevanceScore": 1570.06,
-        "tags": []
-      },
+        "title": "The Hidden Cost of Phone-Based Auth: What I Learned After 18 Months",
+        "link": "https://dev.to/sms-activate/the-hidden-cost-of-phone-based-auth-what-i-learned-after-18-months-55mc",
+        "source": "Dev.to",
+        "pubDate": "2026-04-01T10:35:45.000Z",
+        "relevanceScore": 1239.48,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "tech": [
       {
         "title": "Running local models on Macs gets faster with Ollama's MLX support",
         "link": "https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/",
         "source": "Ars Technica",
         "pubDate": "2026-03-31T23:00:23.000Z",
-        "relevanceScore": 1194.86,
+        "relevanceScore": 1214.67,
         "tags": []
+      },
+      {
+        "title": "Baidu’s robotaxis froze in traffic creating chaos",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/905012/baidu-apollo-robotaxi-freeze-china",
+        "source": "The Verge",
+        "pubDate": "2026-04-01T10:39:52.000Z",
+        "relevanceScore": 50.5,
+        "tags": [
+          "Tech"
+        ]
       },
       {
         "title": "The best deals to shop during the last few hours of Amazon’s Big Spring Sale",
         "link": "https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals",
         "source": "The Verge",
         "pubDate": "2026-04-01T01:14:30.000Z",
-        "relevanceScore": 53.81,
+        "relevanceScore": 48.61,
         "tags": []
       },
       {
-        "title": "Robotaxi Outage in China Leaves Passengers Stranded on Highways",
-        "link": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
+        "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
+        "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
+        "source": "The Verge",
+        "pubDate": "2026-04-01T00:45:00.000Z",
+        "relevanceScore": 43.52,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "Retrospec Judd Rev 2 Electric Folding Bike Review: Affordable, Simple, Easy to Store",
+        "link": "https://www.wired.com/review/retrospec-judd-rev-2-electric-folding-bike/",
         "source": "Wired",
-        "pubDate": "2026-04-01T01:24:55.000Z",
-        "relevanceScore": 53.34,
+        "pubDate": "2026-04-01T10:30:00.000Z",
+        "relevanceScore": 25.97,
         "tags": []
       },
       {
@@ -691,35 +864,28 @@
         "link": "https://techcrunch.com/2026/03/31/anthropic-is-having-a-month/",
         "source": "TechCrunch",
         "pubDate": "2026-03-31T23:58:26.000Z",
-        "relevanceScore": 26.05,
+        "relevanceScore": 25.86,
         "tags": []
       },
       {
-        "title": "The Best Mushroom Coffee, WIRED Tested and Reviewed (2026)",
-        "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
-        "source": "Wired",
-        "pubDate": "2026-04-01T09:08:00.000Z",
-        "relevanceScore": 25.88,
-        "tags": []
-      },
-      {
-        "title": "Tech giant Oracle makes 'significant' job cuts",
+        "title": "Thousands lose their jobs in deep cuts at tech giant Oracle",
         "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-01T07:09:46.000Z",
-        "relevanceScore": 25.49,
+        "relevanceScore": 25.3,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "Amazon&#8217;s Big Spring Sale 2026: all of the latest deals",
-        "link": "https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news",
-        "source": "The Verge",
-        "pubDate": "2026-04-01T00:45:00.000Z",
-        "relevanceScore": 24.21,
+        "title": "Taylor Lorenz’s Screen Time Is Almost 17 Hours a Day",
+        "link": "https://www.wired.com/story/user-behavior-taylor-lorenz/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T10:00:00.000Z",
+        "relevanceScore": 24.87,
         "tags": [
-          "Partnership"
+          "Tech",
+          "Web"
         ]
       },
       {
@@ -727,16 +893,18 @@
         "link": "https://arstechnica.com/health/2026/03/rfk-jr-s-fda-expected-to-lift-restrictions-on-risky-unproven-peptides/",
         "source": "Ars Technica",
         "pubDate": "2026-03-31T21:51:26.000Z",
-        "relevanceScore": 23.13,
+        "relevanceScore": 22.94,
         "tags": []
       },
       {
-        "title": "Amazon is offering up to 50 percent off chargers from Anker and others for its Big Spring Sale",
-        "link": "https://www.theverge.com/gadgets/904242/amazon-big-spring-sale-2026-baseus-anker-chargers-power-banks-batteries-deals",
-        "source": "The Verge",
-        "pubDate": "2026-03-31T23:00:00.000Z",
-        "relevanceScore": 22.86,
-        "tags": []
+        "title": "Iran Threatens to Attack U.S. Tech Companies Starting April 1 / Iran says it will target Apple, Google, and Microsoft, among others.",
+        "link": "https://www.reddit.com/r/technology/comments/1s8ua7r/iran_threatens_to_attack_us_tech_companies/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-03-31T17:37:53.000Z",
+        "relevanceScore": 18.59,
+        "tags": [
+          "Tech"
+        ]
       }
     ],
     "space": [
@@ -745,7 +913,7 @@
         "link": "https://www.engadget.com/science/space/watch-the-first-crewed-artemis-mission-take-flight-092800981.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-01T09:28:00.000Z",
-        "relevanceScore": 1044.45,
+        "relevanceScore": 1109.26,
         "tags": [
           "Exclusive",
           "Launch"
@@ -756,7 +924,7 @@
         "link": "https://www.bbc.com/news/articles/cz0e1myvl2ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-01T00:00:18.000Z",
-        "relevanceScore": 786.06,
+        "relevanceScore": 840.87,
         "tags": [
           "Launch"
         ]
@@ -766,7 +934,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/03/starlink-satellite-breaks-apart-into-tens-of-objects-spacex-confirms-anomaly/",
         "source": "Ars Technica",
         "pubDate": "2026-03-31T21:28:15.000Z",
-        "relevanceScore": 52.55,
+        "relevanceScore": 47.36,
         "tags": []
       },
       {
@@ -774,55 +942,27 @@
         "link": "https://arstechnica.com/space/2026/03/nasa-is-leading-the-way-to-the-moon-but-the-military-wont-be-far-behind/",
         "source": "Ars Technica",
         "pubDate": "2026-04-01T01:36:50.000Z",
-        "relevanceScore": 24.38,
+        "relevanceScore": 24.19,
+        "tags": []
+      },
+      {
+        "title": "Another Starlink satellite has inexplicably exploded",
+        "link": "https://www.reddit.com/r/technology/comments/1s95wqn/another_starlink_satellite_has_inexplicably/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-04-01T01:00:44.000Z",
+        "relevanceScore": 21.07,
         "tags": []
       }
     ],
     "startup": [
       {
-        "title": "Exolane Review: What It Gets Right on Custody, Funding Caps, and Risk",
-        "link": "https://dev.to/levip/exolane-review-what-it-gets-right-on-custody-funding-caps-and-risk-84h",
-        "source": "Dev.to",
-        "pubDate": "2026-04-01T09:37:50.000Z",
-        "relevanceScore": 467.98,
-        "tags": [
-          "Startup",
-          "Funding"
-        ]
-      },
-      {
         "title": "Toyota’s Woven Capital appoints new CIO and COO in push for finding the ‘future of mobility’",
         "link": "https://techcrunch.com/2026/03/31/toyotas-woven-capital-appoints-new-cio-and-coo-in-push-for-finding-the-future-of-mobility/",
         "source": "TechCrunch",
         "pubDate": "2026-04-01T01:00:00.000Z",
-        "relevanceScore": 295.26,
+        "relevanceScore": 346.07,
         "tags": [
           "Startup"
-        ]
-      },
-      {
-        "title": "Toyota's still trying to make hydrogen fuel cells happen",
-        "link": "https://www.engadget.com/transportation/toyotas-still-trying-to-make-hydrogen-fuel-cells-happen-202237728.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-31T20:22:37.000Z",
-        "relevanceScore": 80.33,
-        "tags": [
-          "Tech",
-          "Startup"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Power Pages Authentication Methods: The Complete Guide (2026)",
-        "link": "https://dev.to/aidevme/power-pages-authentication-methods-the-complete-guide-2026-2chm",
-        "source": "Dev.to",
-        "pubDate": "2026-04-01T09:39:08.000Z",
-        "relevanceScore": 427.49,
-        "tags": [
-          "Security",
-          "Cloud",
-          "Tutorial"
         ]
       }
     ],
@@ -832,17 +972,33 @@
         "link": "https://www.engadget.com/entertainment/tv-movies/the-backrooms-trailer-combines-creepypasta-dread-and-a24-prestige-horror-213602238.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-03-31T21:36:02.000Z",
-        "relevanceScore": 153.08,
+        "relevanceScore": 155.39,
+        "tags": []
+      },
+      {
+        "title": "Watching a 7.5-Hour Movie in Theaters Made Me More Hopeful About Our Collective Brain Rot",
+        "link": "https://www.wired.com/story/watching-a-75-hour-movie-in-theaters-made-me-more-hopeful-about-our-collective-brainrot/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T10:30:00.000Z",
+        "relevanceScore": 51.47,
         "tags": []
       }
     ],
     "general": [
       {
-        "title": "Watch Carol Kirkwood's emotional goodbye and funniest moments as she leaves the BBC after 28 years",
+        "title": "Watch Carol Kirkwood's emotional goodbye and funniest moments as she leaves the BBC",
         "link": "https://www.bbc.com/news/videos/cp38qjvl7d5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-01T08:30:03.000Z",
-        "relevanceScore": 135.26,
+        "relevanceScore": 150.07,
+        "tags": []
+      },
+      {
+        "title": "Minimum wage rises to £12.71 an hour as firms warn of impact",
+        "link": "https://www.bbc.com/news/articles/c36r7jk6093o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-01T08:26:08.000Z",
+        "relevanceScore": 56.05,
         "tags": []
       },
       {
@@ -850,7 +1006,7 @@
         "link": "https://www.bbc.com/news/articles/cn0yle5rrp8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-01T08:15:36.000Z",
-        "relevanceScore": 31.71,
+        "relevanceScore": 31.52,
         "tags": [
           "Web"
         ]
@@ -860,7 +1016,7 @@
         "link": "https://www.bbc.com/news/articles/cgk0d76yg8po?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-01T08:07:51.000Z",
-        "relevanceScore": 31.68,
+        "relevanceScore": 31.49,
         "tags": []
       }
     ],
@@ -870,7 +1026,7 @@
         "link": "https://www.npr.org/2026/03/31/nx-s1-5759679/us-gas-price-4-dollars-gallon-iran",
         "source": "NPR Business",
         "pubDate": "2026-03-31T13:18:53.000Z",
-        "relevanceScore": 95.42,
+        "relevanceScore": 99.23,
         "tags": [
           "Exclusive"
         ]
@@ -880,7 +1036,7 @@
         "link": "https://www.npr.org/2026/03/31/nx-s1-5763689/alex-jones-infowars-josh-owens-the-madness-of-believing",
         "source": "NPR Business",
         "pubDate": "2026-03-31T11:11:00.000Z",
-        "relevanceScore": 94.99,
+        "relevanceScore": 98.8,
         "tags": []
       },
       {
@@ -888,7 +1044,7 @@
         "link": "https://www.npr.org/2026/03/31/nx-s1-5763966/eeoc-trump-white-men-civil-rights-dei-discrimination",
         "source": "NPR Business",
         "pubDate": "2026-03-31T09:00:00.000Z",
-        "relevanceScore": 52.56,
+        "relevanceScore": 47.37,
         "tags": []
       },
       {
@@ -896,7 +1052,7 @@
         "link": "https://abcnews.com/Business/wireStory/asian-stocks-jump-renewed-hopes-iran-war-ending-131598023",
         "source": "ABC News Business",
         "pubDate": "2026-04-01T07:22:45.000Z",
-        "relevanceScore": 25.53,
+        "relevanceScore": 25.34,
         "tags": []
       },
       {
@@ -904,7 +1060,7 @@
         "link": "https://abcnews.com/Business/wireStory/florida-panthers-announce-hiring-former-amazon-disney-exec-131568248",
         "source": "ABC News Business",
         "pubDate": "2026-03-31T12:51:30.000Z",
-        "relevanceScore": 21.83,
+        "relevanceScore": 21.64,
         "tags": [
           "Tech",
           "Business",
@@ -916,21 +1072,8 @@
         "link": "https://abcnews.com/Business/wireStory/oil-steadies-asian-stocks-lower-mixed-signs-iran-131565030",
         "source": "ABC News Business",
         "pubDate": "2026-03-31T12:42:37.000Z",
-        "relevanceScore": 21.8,
+        "relevanceScore": 21.61,
         "tags": []
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Dinosaur Polo Club has released a new co-op game and it's free",
-        "link": "https://www.engadget.com/gaming/dinosaur-polo-club-has-released-a-new-co-op-game-and-its-free-214638400.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-03-31T21:46:38.000Z",
-        "relevanceScore": 74.61,
-        "tags": [
-          "Tech",
-          "Exclusive"
-        ]
       }
     ],
     "social": [
@@ -939,7 +1082,7 @@
         "link": "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-31T02:00:24.000Z",
-        "relevanceScore": 68.66,
+        "relevanceScore": 85.47,
         "tags": [
           "Social"
         ]
@@ -949,20 +1092,23 @@
         "link": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-03-30T12:59:23.000Z",
-        "relevanceScore": 18.05,
+        "relevanceScore": 17.86,
         "tags": [
           "Social"
         ]
       }
     ],
-    "health": [
+    "gaming": [
       {
-        "title": "Weight-loss jabs will be offered on NHS for people at risk of further heart attacks",
-        "link": "https://www.bbc.com/news/articles/cz90595pgzlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-03-31T23:01:43.000Z",
-        "relevanceScore": 29.36,
-        "tags": []
+        "title": "Dinosaur Polo Club has released a new co-op game and it's free",
+        "link": "https://www.engadget.com/gaming/dinosaur-polo-club-has-released-a-new-co-op-game-and-its-free-214638400.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-03-31T21:46:38.000Z",
+        "relevanceScore": 70.42,
+        "tags": [
+          "Tech",
+          "Exclusive"
+        ]
       }
     ],
     "automotive": [
@@ -971,9 +1117,21 @@
         "link": "https://techcrunch.com/2026/03/31/robotaxi-companies-refuse-to-say-how-often-their-avs-need-remote-help/",
         "source": "TechCrunch",
         "pubDate": "2026-03-31T21:35:51.000Z",
-        "relevanceScore": 25.58,
+        "relevanceScore": 44.88,
         "tags": [
           "Analysis"
+        ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "These Are the 4 Artemis II Astronauts Leading the Historic Return to the Moon",
+        "link": "https://www.wired.com/story/these-are-the-4-artemis-ii-astronauts-leading-the-historic-return-to-the-moon/",
+        "source": "Wired",
+        "pubDate": "2026-04-01T10:00:00.000Z",
+        "relevanceScore": 25.87,
+        "tags": [
+          "Exclusive"
         ]
       }
     ],
@@ -983,7 +1141,7 @@
         "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-security/",
         "source": "GitHub Blog",
         "pubDate": "2026-03-30T16:00:00.000Z",
-        "relevanceScore": 17.66,
+        "relevanceScore": 17.47,
         "tags": [
           "Security",
           "Exclusive",
@@ -993,9 +1151,9 @@
     ]
   },
   "stats": {
-    "totalSources": 12,
-    "totalCategories": 14,
-    "avgRelevanceScore": 502.36232558139557,
+    "totalSources": 15,
+    "totalCategories": 15,
+    "avgRelevanceScore": 634.8780392156863,
     "topCategories": [
       {
         "category": "tech",
@@ -1003,19 +1161,19 @@
       },
       {
         "category": "ai-ml",
-        "count": 7
+        "count": 8
       },
       {
         "category": "business",
         "count": 6
       },
       {
-        "category": "space",
-        "count": 4
+        "category": "development",
+        "count": 5
       },
       {
-        "category": "startup",
-        "count": 3
+        "category": "space",
+        "count": 5
       }
     ]
   }
