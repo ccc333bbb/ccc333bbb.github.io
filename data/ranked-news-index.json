@@ -1,20 +1,21 @@
 {
-  "lastUpdated": "2026-04-04T08:06:47.097Z",
+  "lastUpdated": "2026-04-04T08:58:06.545Z",
   "totalArticles": 43,
   "categories": [
     "general",
     "ai-ml",
     "space",
+    "cybersecurity",
     "tech",
     "startup",
     "business",
     "development",
+    "science",
     "social",
     "health",
     "automotive",
     "mobile",
-    "finance",
-    "science"
+    "finance"
   ],
   "topArticles": [
     {
@@ -23,8 +24,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-04T06:42:48.000Z",
-      "relevanceScore": 3566.72,
-      "recommendationScore": 3567.22,
+      "relevanceScore": 3721.55,
+      "recommendationScore": 3722.05,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -34,8 +35,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-04-03T23:52:49.000Z",
-      "relevanceScore": 2945.35,
-      "recommendationScore": 2945.85,
+      "relevanceScore": 3098.18,
+      "recommendationScore": 3098.68,
       "tags": [
         "AI",
         "Regulation"
@@ -48,8 +49,8 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2026-04-03T18:36:10.000Z",
-      "relevanceScore": 2881.3,
-      "recommendationScore": 2881.8,
+      "relevanceScore": 3008.13,
+      "recommendationScore": 3008.63,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -59,11 +60,25 @@
       "source": "The Verge",
       "category": "space",
       "pubDate": "2026-04-03T20:53:48.000Z",
-      "relevanceScore": 1638.26,
-      "recommendationScore": 1638.76,
+      "relevanceScore": 1708.59,
+      "recommendationScore": 1709.09,
       "tags": [
         "Tech",
         "Interview"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "OpenClaw 2026.3.31: Task Flows, Locked-Down Installs, and the Security Release Your Agent Needed",
+      "link": "https://dev.to/hex_agent/openclaw-2026331-task-flows-locked-down-installs-and-the-security-release-your-agent-needed-akg",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2026-04-04T08:45:19.000Z",
+      "relevanceScore": 1538.96,
+      "recommendationScore": 1539.46,
+      "tags": [
+        "Security",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -73,10 +88,25 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-03T22:20:19.000Z",
-      "relevanceScore": 1438.05,
-      "recommendationScore": 1438.55,
+      "relevanceScore": 1499.87,
+      "recommendationScore": 1500.37,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO",
+      "link": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
+      "source": "MIT Technology Review",
+      "category": "startup",
+      "pubDate": "2026-04-02T12:10:00.000Z",
+      "relevanceScore": 978.54,
+      "recommendationScore": 979.04,
+      "tags": [
+        "Tech",
+        "Startup",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Elon Musk insists banks working on SpaceX IPO must buy Grok subscriptions",
@@ -84,8 +114,8 @@
       "source": "Ars Technica",
       "category": "startup",
       "pubDate": "2026-04-03T21:17:01.000Z",
-      "relevanceScore": 667.83,
-      "recommendationScore": 668.33,
+      "relevanceScore": 702.16,
+      "recommendationScore": 702.66,
       "tags": [
         "Startup",
         "IPO"
@@ -98,8 +128,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-04-04T01:31:00.000Z",
-      "relevanceScore": 629.68,
-      "recommendationScore": 630.18,
+      "relevanceScore": 663.51,
+      "recommendationScore": 664.01,
       "tags": [
         "Business",
         "Startup",
@@ -113,23 +143,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-04T05:00:00.000Z",
-      "relevanceScore": 628.38,
-      "recommendationScore": 628.88,
+      "relevanceScore": 662.21,
+      "recommendationScore": 662.71,
       "tags": [
         "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "We Let an LLM Control a File System and Run Commands – Here’s What Actually Broke First",
-      "link": "https://dev.to/jacobjerryarackal/we-let-an-llm-control-a-file-system-and-run-commands-heres-what-actually-broke-first-3618",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-04-04T08:02:02.000Z",
-      "relevanceScore": 626.98,
-      "recommendationScore": 630.98,
-      "tags": [
-        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -139,12 +156,60 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-03T15:03:40.000Z",
-      "relevanceScore": 625.59,
-      "recommendationScore": 628.09,
+      "relevanceScore": 659.42,
+      "recommendationScore": 661.92,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Obsidotion — Bridge Obsidian and Notion Without Losing Your Notes",
+      "link": "https://dev.to/alexdevson/obsidotion-bridge-obsidian-and-notion-without-losing-your-notes-45a5",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-04-04T08:46:01.000Z",
+      "relevanceScore": 502.46,
+      "recommendationScore": 502.96,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Oil prices surge while Asian share prices rise moderately",
+      "link": "https://abcnews.com/Business/wireStory/oil-prices-surge-asian-share-prices-rise-moderately-131676918",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-03T07:32:58.000Z",
+      "relevanceScore": 499.92,
+      "recommendationScore": 500.42,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Fuel prices are soaring. Plastic could be next.",
+      "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-04-02T10:00:00.000Z",
+      "relevanceScore": 499.61,
+      "recommendationScore": 499.61,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Seizing the means of messenger production",
+      "link": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-04-03T07:40:00.000Z",
+      "relevanceScore": 497.94,
+      "recommendationScore": 497.94,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "AI animation studio Toonstar will turn books into digital shows for HarperCollins",
@@ -152,8 +217,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-04-03T21:14:19.000Z",
-      "relevanceScore": 372.83,
-      "recommendationScore": 374.83,
+      "relevanceScore": 391.65,
+      "recommendationScore": 393.65,
       "tags": [
         "AI",
         "Tech",
@@ -167,8 +232,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-04-03T16:00:00.000Z",
-      "relevanceScore": 260.78,
-      "recommendationScore": 260.78,
+      "relevanceScore": 269.61,
+      "recommendationScore": 269.61,
       "tags": [
         "Exclusive"
       ],
@@ -180,8 +245,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-04-02T14:38:24.000Z",
-      "relevanceScore": 254.71,
-      "recommendationScore": 255.21,
+      "relevanceScore": 263.53,
+      "recommendationScore": 264.03,
       "tags": [
         "Social"
       ],
@@ -193,8 +258,8 @@
       "source": "TechCrunch",
       "category": "health",
       "pubDate": "2026-04-03T20:35:34.000Z",
-      "relevanceScore": 221.7,
-      "recommendationScore": 224.2,
+      "relevanceScore": 234.02,
+      "recommendationScore": 236.52,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -204,23 +269,10 @@
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2026-04-03T22:35:16.000Z",
-      "relevanceScore": 184.09,
-      "recommendationScore": 184.09,
+      "relevanceScore": 201.92,
+      "recommendationScore": 201.92,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Pandas Pivot Tables: Complete Guide with Examples (2026)",
-      "link": "https://dev.to/rahulxsingh/pandas-pivot-tables-complete-guide-with-examples-2026-3icm",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-04T08:00:00.000Z",
-      "relevanceScore": 183.98,
-      "recommendationScore": 184.48,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI’s AGI boss is taking a leave of absence",
@@ -228,8 +280,8 @@
       "source": "The Verge",
       "category": "health",
       "pubDate": "2026-04-03T20:22:59.000Z",
-      "relevanceScore": 183.65,
-      "recommendationScore": 183.65,
+      "relevanceScore": 191.48,
+      "recommendationScore": 191.48,
       "tags": [
         "Funding"
       ],
@@ -241,8 +293,8 @@
       "source": "NPR Business",
       "category": "social",
       "pubDate": "2026-04-03T10:00:00.000Z",
-      "relevanceScore": 183.58,
-      "recommendationScore": 186.08,
+      "relevanceScore": 191.41,
+      "recommendationScore": 193.91,
       "tags": [
         "Tech",
         "Social"
@@ -255,8 +307,8 @@
       "source": "Engadget",
       "category": "startup",
       "pubDate": "2026-04-03T20:02:13.000Z",
-      "relevanceScore": 110.08,
-      "recommendationScore": 110.58,
+      "relevanceScore": 117.91,
+      "recommendationScore": 118.41,
       "tags": [
         "Startup",
         "IPO",
@@ -270,8 +322,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-04-03T22:24:57.000Z",
-      "relevanceScore": 67.06,
-      "recommendationScore": 67.56,
+      "relevanceScore": 67.39,
+      "recommendationScore": 67.89,
       "tags": [
         "Mobile",
         "Social"
@@ -284,12 +336,23 @@
       "source": "TechCrunch",
       "category": "automotive",
       "pubDate": "2026-04-03T20:43:25.000Z",
-      "relevanceScore": 66.72,
-      "recommendationScore": 67.22,
+      "relevanceScore": 67.05,
+      "recommendationScore": 67.55,
       "tags": [
         "Report"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Anker’s Nebula P1 projector is the portable sound king",
+      "link": "https://www.theverge.com/reviews/906455/anker-nebula-p1-review-vanlife-sound-champ",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-04T07:00:00.000Z",
+      "relevanceScore": 66.11,
+      "recommendationScore": 66.61,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Trump proposes steep cut to NASA budget as astronauts head for the Moon",
@@ -297,8 +360,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-04-03T23:19:36.000Z",
-      "relevanceScore": 65.24,
-      "recommendationScore": 65.74,
+      "relevanceScore": 65.57,
+      "recommendationScore": 66.07,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -308,8 +371,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-04-03T13:24:30.000Z",
-      "relevanceScore": 64.76,
-      "recommendationScore": 65.26,
+      "relevanceScore": 65.09,
+      "recommendationScore": 65.59,
       "tags": [
         "Business"
       ],
@@ -321,8 +384,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-04-03T21:28:14.000Z",
-      "relevanceScore": 64.37,
-      "recommendationScore": 64.87,
+      "relevanceScore": 64.7,
+      "recommendationScore": 65.2,
       "tags": [
         "AI",
         "Security"
@@ -335,8 +398,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-04-03T20:10:55.000Z",
-      "relevanceScore": 62.61,
-      "recommendationScore": 65.11,
+      "relevanceScore": 62.94,
+      "recommendationScore": 65.44,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -346,21 +409,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-03T07:30:39.000Z",
-      "relevanceScore": 62.08,
-      "recommendationScore": 62.58,
+      "relevanceScore": 62.41,
+      "recommendationScore": 62.91,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Anker’s Nebula P1 projector is the portable sound king",
-      "link": "https://www.theverge.com/reviews/906455/anker-nebula-p1-review-vanlife-sound-champ",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-04T07:00:00.000Z",
-      "relevanceScore": 61.78,
-      "recommendationScore": 62.28,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Scientists Have Made a French Fry Breakthrough",
@@ -368,8 +420,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-03T21:23:33.000Z",
-      "relevanceScore": 55.86,
-      "recommendationScore": 55.86,
+      "relevanceScore": 58.68,
+      "recommendationScore": 58.68,
       "tags": [
         "Science",
         "Innovation"
@@ -382,25 +434,10 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-03T22:55:29.000Z",
-      "relevanceScore": 55.16,
-      "recommendationScore": 57.16,
+      "relevanceScore": 57.99,
+      "recommendationScore": 59.99,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "SVG Path Animations with CSS Keyframes: A Complete Guide",
-      "link": "https://dev.to/harijn72/svg-path-animations-with-css-keyframes-a-complete-guide-1lkc",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-04T08:04:12.000Z",
-      "relevanceScore": 51.99,
-      "recommendationScore": 52.49,
-      "tags": [
-        "Tech",
-        "Web",
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Five Met Police officers taken off duty after bag of weapons is left in the street",
@@ -408,8 +445,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-04T06:46:54.000Z",
-      "relevanceScore": 31.73,
-      "recommendationScore": 32.23,
+      "relevanceScore": 31.56,
+      "recommendationScore": 32.06,
       "tags": [
         "IPO"
       ],
@@ -421,8 +458,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-03T23:27:52.000Z",
-      "relevanceScore": 30.27,
-      "recommendationScore": 32.27,
+      "relevanceScore": 30.1,
+      "recommendationScore": 32.1,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -432,8 +469,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-03T23:04:24.000Z",
-      "relevanceScore": 30.19,
-      "recommendationScore": 30.69,
+      "relevanceScore": 30.02,
+      "recommendationScore": 30.52,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -443,8 +480,8 @@
       "source": "MIT Technology Review",
       "category": "space",
       "pubDate": "2026-04-03T17:03:19.000Z",
-      "relevanceScore": 26.99,
-      "recommendationScore": 26.99,
+      "relevanceScore": 26.82,
+      "recommendationScore": 26.82,
       "tags": [
         "Tech",
         "Launch"
@@ -457,8 +494,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-04T01:03:13.000Z",
-      "relevanceScore": 26.09,
-      "recommendationScore": 26.59,
+      "relevanceScore": 25.92,
+      "recommendationScore": 26.42,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -468,8 +505,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-04-03T19:56:37.000Z",
-      "relevanceScore": 25.57,
-      "recommendationScore": 27.07,
+      "relevanceScore": 25.4,
+      "recommendationScore": 26.9,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -479,10 +516,23 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-04-04T00:03:41.000Z",
-      "relevanceScore": 25.39,
-      "recommendationScore": 27.39,
+      "relevanceScore": 25.22,
+      "recommendationScore": 27.22,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The Worst Morning of My Developer Life — A Patient Hacker, a Fake AI Tool, and 150 Deleted Repos — My Story",
+      "link": "https://dev.to/drbenzene/the-worst-morning-of-my-developer-life-a-patient-hacker-a-fake-ai-tool-and-150-deleted-repos--iin",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-04-04T08:47:09.000Z",
+      "relevanceScore": 23.96,
+      "recommendationScore": 24.96,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Our Favorite iPad Is $50 Off",
@@ -490,59 +540,9 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-03T20:06:20.000Z",
-      "relevanceScore": 23.6,
-      "recommendationScore": 23.6,
+      "relevanceScore": 23.43,
+      "recommendationScore": 23.43,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Oil prices surge while Asian share prices rise moderately",
-      "link": "https://abcnews.com/Business/wireStory/oil-prices-surge-asian-share-prices-rise-moderately-131676918",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-03T07:32:58.000Z",
-      "relevanceScore": 21.09,
-      "recommendationScore": 21.59,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Fuel prices are soaring. Plastic could be next.",
-      "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-04-02T10:00:00.000Z",
-      "relevanceScore": 20.78,
-      "recommendationScore": 20.78,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO",
-      "link": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2026-04-02T12:10:00.000Z",
-      "relevanceScore": 20.71,
-      "recommendationScore": 21.21,
-      "tags": [
-        "Tech",
-        "Startup",
-        "IPO"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Seizing the means of messenger production",
-      "link": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2026-04-03T07:40:00.000Z",
-      "relevanceScore": 19.11,
-      "recommendationScore": 19.11,
-      "tags": [
-        "Tech"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -551,8 +551,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-04-02T13:00:00.000Z",
-      "relevanceScore": 15.38,
-      "recommendationScore": 16.88,
+      "relevanceScore": 15.21,
+      "recommendationScore": 16.71,
       "tags": [
         "AI",
         "Tech",
@@ -569,7 +569,7 @@
         "link": "https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-04T06:42:48.000Z",
-        "relevanceScore": 3566.72,
+        "relevanceScore": 3721.55,
         "tags": []
       },
       {
@@ -577,7 +577,7 @@
         "link": "https://www.bbc.com/news/articles/cjd8y33ze08o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-04T06:46:54.000Z",
-        "relevanceScore": 31.73,
+        "relevanceScore": 31.56,
         "tags": [
           "IPO"
         ]
@@ -587,7 +587,7 @@
         "link": "https://www.bbc.com/news/articles/cx2e7e90kneo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-03T23:27:52.000Z",
-        "relevanceScore": 30.27,
+        "relevanceScore": 30.1,
         "tags": []
       },
       {
@@ -595,7 +595,7 @@
         "link": "https://www.bbc.com/news/articles/czd7y1n3jyjo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-03T23:04:24.000Z",
-        "relevanceScore": 30.19,
+        "relevanceScore": 30.02,
         "tags": []
       }
     ],
@@ -605,20 +605,10 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban",
         "source": "The Verge",
         "pubDate": "2026-04-03T23:52:49.000Z",
-        "relevanceScore": 2945.35,
+        "relevanceScore": 3098.18,
         "tags": [
           "AI",
           "Regulation"
-        ]
-      },
-      {
-        "title": "We Let an LLM Control a File System and Run Commands – Here’s What Actually Broke First",
-        "link": "https://dev.to/jacobjerryarackal/we-let-an-llm-control-a-file-system-and-run-commands-heres-what-actually-broke-first-3618",
-        "source": "Dev.to",
-        "pubDate": "2026-04-04T08:02:02.000Z",
-        "relevanceScore": 626.98,
-        "tags": [
-          "Exclusive"
         ]
       },
       {
@@ -626,7 +616,7 @@
         "link": "https://www.engadget.com/ai/ai-animation-studio-toonstar-will-turn-books-into-digital-shows-for-harpercollins-211419155.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-03T21:14:19.000Z",
-        "relevanceScore": 372.83,
+        "relevanceScore": 391.65,
         "tags": [
           "AI",
           "Tech",
@@ -638,10 +628,20 @@
         "link": "https://www.wired.com/story/meta-pauses-work-with-mercor-after-data-breach-puts-ai-industry-secrets-at-risk/",
         "source": "Wired",
         "pubDate": "2026-04-03T21:28:14.000Z",
-        "relevanceScore": 64.37,
+        "relevanceScore": 64.7,
         "tags": [
           "AI",
           "Security"
+        ]
+      },
+      {
+        "title": "The Worst Morning of My Developer Life — A Patient Hacker, a Fake AI Tool, and 150 Deleted Repos — My Story",
+        "link": "https://dev.to/drbenzene/the-worst-morning-of-my-developer-life-a-patient-hacker-a-fake-ai-tool-and-150-deleted-repos--iin",
+        "source": "Dev.to",
+        "pubDate": "2026-04-04T08:47:09.000Z",
+        "relevanceScore": 23.96,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -649,7 +649,7 @@
         "link": "https://stackoverflow.blog/2026/04/02/what-the-ai-trust-gap-means-for-enterprise-saas/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-04-02T13:00:00.000Z",
-        "relevanceScore": 15.38,
+        "relevanceScore": 15.21,
         "tags": [
           "AI",
           "Tech",
@@ -664,7 +664,7 @@
         "link": "https://www.engadget.com/science/space/the-artemis-ii-crew-snapped-some-mesmerizing-photos-of-earth-183610493.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-03T18:36:10.000Z",
-        "relevanceScore": 2881.3,
+        "relevanceScore": 3008.13,
         "tags": []
       },
       {
@@ -672,7 +672,7 @@
         "link": "https://www.theverge.com/science/906988/nasa-artemis-ii-microsoft-outlook-issue-fixed",
         "source": "The Verge",
         "pubDate": "2026-04-03T20:53:48.000Z",
-        "relevanceScore": 1638.26,
+        "relevanceScore": 1708.59,
         "tags": [
           "Tech",
           "Interview"
@@ -683,7 +683,7 @@
         "link": "https://arstechnica.com/space/2026/04/trump-proposes-steep-cut-to-nasa-budget-as-astronauts-head-for-the-moon/",
         "source": "Ars Technica",
         "pubDate": "2026-04-03T23:19:36.000Z",
-        "relevanceScore": 65.24,
+        "relevanceScore": 65.57,
         "tags": []
       },
       {
@@ -691,9 +691,22 @@
         "link": "https://www.technologyreview.com/2026/04/03/1135073/four-things-wed-need-to-put-data-centers-in-space/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-03T17:03:19.000Z",
-        "relevanceScore": 26.99,
+        "relevanceScore": 26.82,
         "tags": [
           "Tech",
+          "Launch"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "OpenClaw 2026.3.31: Task Flows, Locked-Down Installs, and the Security Release Your Agent Needed",
+        "link": "https://dev.to/hex_agent/openclaw-2026331-task-flows-locked-down-installs-and-the-security-release-your-agent-needed-akg",
+        "source": "Dev.to",
+        "pubDate": "2026-04-04T08:45:19.000Z",
+        "relevanceScore": 1538.96,
+        "tags": [
+          "Security",
           "Launch"
         ]
       }
@@ -704,7 +717,7 @@
         "link": "https://arstechnica.com/space/2026/04/as-artemis-ii-zooms-to-the-moon-everything-seems-to-be-going-swimmingly/",
         "source": "Ars Technica",
         "pubDate": "2026-04-03T22:20:19.000Z",
-        "relevanceScore": 1438.05,
+        "relevanceScore": 1499.87,
         "tags": []
       },
       {
@@ -712,25 +725,25 @@
         "link": "https://www.wired.com/story/maytag-promo-code/",
         "source": "Wired",
         "pubDate": "2026-04-04T05:00:00.000Z",
-        "relevanceScore": 628.38,
+        "relevanceScore": 662.21,
         "tags": [
           "Update"
         ]
-      },
-      {
-        "title": "Jason Blundell announces his new-new studio, Magic Fractal",
-        "link": "https://www.engadget.com/gaming/jason-blundell-announces-his-new-new-studio-magic-fractal-201055837.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-03T20:10:55.000Z",
-        "relevanceScore": 62.61,
-        "tags": []
       },
       {
         "title": "Anker’s Nebula P1 projector is the portable sound king",
         "link": "https://www.theverge.com/reviews/906455/anker-nebula-p1-review-vanlife-sound-champ",
         "source": "The Verge",
         "pubDate": "2026-04-04T07:00:00.000Z",
-        "relevanceScore": 61.78,
+        "relevanceScore": 66.11,
+        "tags": []
+      },
+      {
+        "title": "Jason Blundell announces his new-new studio, Magic Fractal",
+        "link": "https://www.engadget.com/gaming/jason-blundell-announces-his-new-new-studio-magic-fractal-201055837.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-03T20:10:55.000Z",
+        "relevanceScore": 62.94,
         "tags": []
       },
       {
@@ -738,7 +751,7 @@
         "link": "https://www.wired.com/story/scientists-have-made-french-fry-breakthrough/",
         "source": "Wired",
         "pubDate": "2026-04-03T21:23:33.000Z",
-        "relevanceScore": 55.86,
+        "relevanceScore": 58.68,
         "tags": [
           "Science",
           "Innovation"
@@ -749,7 +762,7 @@
         "link": "https://arstechnica.com/science/2026/04/ice-age-dice-show-early-native-americans-may-have-understood-probability/",
         "source": "Ars Technica",
         "pubDate": "2026-04-03T22:55:29.000Z",
-        "relevanceScore": 55.16,
+        "relevanceScore": 57.99,
         "tags": []
       },
       {
@@ -757,7 +770,7 @@
         "link": "https://techcrunch.com/2026/04/03/lucid-blames-dip-in-q1-sales-on-seat-supplier-issue/",
         "source": "TechCrunch",
         "pubDate": "2026-04-04T01:03:13.000Z",
-        "relevanceScore": 26.09,
+        "relevanceScore": 25.92,
         "tags": []
       },
       {
@@ -765,7 +778,7 @@
         "link": "https://www.bbc.com/news/articles/cj60r2kdnw1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-04T00:03:41.000Z",
-        "relevanceScore": 25.39,
+        "relevanceScore": 25.22,
         "tags": []
       },
       {
@@ -773,17 +786,29 @@
         "link": "https://www.wired.com/story/ipad-a16-deal-426/",
         "source": "Wired",
         "pubDate": "2026-04-03T20:06:20.000Z",
-        "relevanceScore": 23.6,
+        "relevanceScore": 23.43,
         "tags": []
       }
     ],
     "startup": [
       {
+        "title": "The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO",
+        "link": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-04-02T12:10:00.000Z",
+        "relevanceScore": 978.54,
+        "tags": [
+          "Tech",
+          "Startup",
+          "IPO"
+        ]
+      },
+      {
         "title": "Elon Musk insists banks working on SpaceX IPO must buy Grok subscriptions",
         "link": "https://arstechnica.com/tech-policy/2026/04/elon-musk-insists-banks-working-on-spacex-ipo-must-buy-grok-subscriptions/",
         "source": "Ars Technica",
         "pubDate": "2026-04-03T21:17:01.000Z",
-        "relevanceScore": 667.83,
+        "relevanceScore": 702.16,
         "tags": [
           "Startup",
           "IPO"
@@ -794,7 +819,7 @@
         "link": "https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/",
         "source": "TechCrunch",
         "pubDate": "2026-04-04T01:31:00.000Z",
-        "relevanceScore": 629.68,
+        "relevanceScore": 663.51,
         "tags": [
           "Business",
           "Startup",
@@ -806,23 +831,11 @@
         "link": "https://www.engadget.com/ai/banks-working-on-the-spacex-ipo-reportedly-have-to-subscribe-to-grok-200213071.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-03T20:02:13.000Z",
-        "relevanceScore": 110.08,
+        "relevanceScore": 117.91,
         "tags": [
           "Startup",
           "IPO",
           "Regulation"
-        ]
-      },
-      {
-        "title": "The Download: plastic’s problem with fuel prices, and SpaceX’s blockbuster IPO",
-        "link": "https://www.technologyreview.com/2026/04/02/1135049/the-download-plastic-problem-fuel-prices-spacex-ipo/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-04-02T12:10:00.000Z",
-        "relevanceScore": 20.71,
-        "tags": [
-          "Tech",
-          "Startup",
-          "IPO"
         ]
       }
     ],
@@ -832,17 +845,25 @@
         "link": "https://abcnews.com/Business/wireStory/las-vegas-review-journal-longer-print-competing-newspaper-131687377",
         "source": "ABC News Business",
         "pubDate": "2026-04-03T15:03:40.000Z",
-        "relevanceScore": 625.59,
+        "relevanceScore": 659.42,
         "tags": [
           "Exclusive"
         ]
+      },
+      {
+        "title": "Oil prices surge while Asian share prices rise moderately",
+        "link": "https://abcnews.com/Business/wireStory/oil-prices-surge-asian-share-prices-rise-moderately-131676918",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-03T07:32:58.000Z",
+        "relevanceScore": 499.92,
+        "tags": []
       },
       {
         "title": "French and South Korean leaders say they'll work together on the Strait of Hormuz",
         "link": "https://abcnews.com/Business/wireStory/french-south-korean-leaders-work-strait-hormuz-131678219",
         "source": "ABC News Business",
         "pubDate": "2026-04-03T07:30:39.000Z",
-        "relevanceScore": 62.08,
+        "relevanceScore": 62.41,
         "tags": []
       },
       {
@@ -850,49 +871,19 @@
         "link": "https://www.npr.org/2026/04/03/nx-s1-5771591/whats-got-private-credit-investors-spooked",
         "source": "NPR Business",
         "pubDate": "2026-04-03T19:56:37.000Z",
-        "relevanceScore": 25.57,
-        "tags": []
-      },
-      {
-        "title": "Oil prices surge while Asian share prices rise moderately",
-        "link": "https://abcnews.com/Business/wireStory/oil-prices-surge-asian-share-prices-rise-moderately-131676918",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-03T07:32:58.000Z",
-        "relevanceScore": 21.09,
+        "relevanceScore": 25.4,
         "tags": []
       }
     ],
     "development": [
       {
-        "title": "The uphill climb of making diff lines performant",
-        "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-04-03T16:00:00.000Z",
-        "relevanceScore": 260.78,
+        "title": "Obsidotion — Bridge Obsidian and Notion Without Losing Your Notes",
+        "link": "https://dev.to/alexdevson/obsidotion-bridge-obsidian-and-notion-without-losing-your-notes-45a5",
+        "source": "Dev.to",
+        "pubDate": "2026-04-04T08:46:01.000Z",
+        "relevanceScore": 502.46,
         "tags": [
           "Exclusive"
-        ]
-      },
-      {
-        "title": "Pandas Pivot Tables: Complete Guide with Examples (2026)",
-        "link": "https://dev.to/rahulxsingh/pandas-pivot-tables-complete-guide-with-examples-2026-3icm",
-        "source": "Dev.to",
-        "pubDate": "2026-04-04T08:00:00.000Z",
-        "relevanceScore": 183.98,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "SVG Path Animations with CSS Keyframes: A Complete Guide",
-        "link": "https://dev.to/harijn72/svg-path-animations-with-css-keyframes-a-complete-guide-1lkc",
-        "source": "Dev.to",
-        "pubDate": "2026-04-04T08:04:12.000Z",
-        "relevanceScore": 51.99,
-        "tags": [
-          "Tech",
-          "Web",
-          "Tutorial"
         ]
       },
       {
@@ -900,10 +891,30 @@
         "link": "https://stackoverflow.blog/2026/04/03/seizing-the-means-of-messenger-production/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-04-03T07:40:00.000Z",
-        "relevanceScore": 19.11,
+        "relevanceScore": 497.94,
         "tags": [
           "Tech"
         ]
+      },
+      {
+        "title": "The uphill climb of making diff lines performant",
+        "link": "https://github.blog/engineering/architecture-optimization/the-uphill-climb-of-making-diff-lines-performant/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-04-03T16:00:00.000Z",
+        "relevanceScore": 269.61,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "science": [
+      {
+        "title": "Fuel prices are soaring. Plastic could be next.",
+        "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-04-02T10:00:00.000Z",
+        "relevanceScore": 499.61,
+        "tags": []
       }
     ],
     "social": [
@@ -912,7 +923,7 @@
         "link": "https://www.bbc.com/news/articles/cgqk718l4neo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-02T14:38:24.000Z",
-        "relevanceScore": 254.71,
+        "relevanceScore": 263.53,
         "tags": [
           "Social"
         ]
@@ -922,7 +933,7 @@
         "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
         "source": "NPR Business",
         "pubDate": "2026-04-03T10:00:00.000Z",
-        "relevanceScore": 183.58,
+        "relevanceScore": 191.41,
         "tags": [
           "Tech",
           "Social"
@@ -935,7 +946,7 @@
         "link": "https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/",
         "source": "TechCrunch",
         "pubDate": "2026-04-03T20:35:34.000Z",
-        "relevanceScore": 221.7,
+        "relevanceScore": 234.02,
         "tags": []
       },
       {
@@ -943,7 +954,7 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/906965/openais-agi-boss-is-taking-a-leave-of-absence",
         "source": "The Verge",
         "pubDate": "2026-04-03T20:22:59.000Z",
-        "relevanceScore": 183.65,
+        "relevanceScore": 191.48,
         "tags": [
           "Funding"
         ]
@@ -955,7 +966,7 @@
         "link": "https://www.bbc.com/news/articles/cz0ey7z2jx3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-03T22:35:16.000Z",
-        "relevanceScore": 184.09,
+        "relevanceScore": 201.92,
         "tags": []
       },
       {
@@ -963,7 +974,7 @@
         "link": "https://techcrunch.com/2026/04/03/teslas-texas-factory-workforce-reportedly-shrunk-22-in-2025/",
         "source": "TechCrunch",
         "pubDate": "2026-04-03T20:43:25.000Z",
-        "relevanceScore": 66.72,
+        "relevanceScore": 67.05,
         "tags": [
           "Report"
         ]
@@ -975,7 +986,7 @@
         "link": "https://techcrunch.com/2026/04/03/the-anonymous-social-app-that-thinks-it-can-work-in-saudi-arabia/",
         "source": "TechCrunch",
         "pubDate": "2026-04-03T22:24:57.000Z",
-        "relevanceScore": 67.06,
+        "relevanceScore": 67.39,
         "tags": [
           "Mobile",
           "Social"
@@ -988,27 +999,17 @@
         "link": "https://www.npr.org/2026/04/03/nx-s1-5772696/jobs-employment-economy-labor-market",
         "source": "NPR Business",
         "pubDate": "2026-04-03T13:24:30.000Z",
-        "relevanceScore": 64.76,
+        "relevanceScore": 65.09,
         "tags": [
           "Business"
         ]
-      }
-    ],
-    "science": [
-      {
-        "title": "Fuel prices are soaring. Plastic could be next.",
-        "link": "https://www.technologyreview.com/2026/04/02/1135045/plastic-economic-effects/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-04-02T10:00:00.000Z",
-        "relevanceScore": 20.78,
-        "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 13,
-    "avgRelevanceScore": 432.51325581395366,
+    "totalCategories": 14,
+    "avgRelevanceScore": 534.8406976744184,
     "topCategories": [
       {
         "category": "tech",
