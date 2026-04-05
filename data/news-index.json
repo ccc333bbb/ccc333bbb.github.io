@@ -1,17 +1,17 @@
 {
-  "lastUpdated": "2026-04-05T10:27:45.899Z",
+  "lastUpdated": "2026-04-05T11:01:52.538Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-04-05",
       "file": "2026-04-05.json",
-      "totalArticles": 38,
-      "lastUpdated": "2026-04-05T10:27:45.880Z",
+      "totalArticles": 44,
+      "lastUpdated": "2026-04-05T11:01:52.521Z",
       "sources": [
+        "Dev.to",
         "BBC News",
         "Ars Technica",
         "BBC Technology",
-        "Dev.to",
         "NPR Business",
         "The Verge",
         "TechCrunch",
@@ -19,45 +19,49 @@
         "Engadget",
         "GitHub Blog",
         "MIT Technology Review",
-        "ABC News Business"
+        "ABC News Business",
+        "Reddit Programming",
+        "Reddit World News",
+        "Reddit Technology"
       ],
       "categories": [
+        "development",
         "general",
         "tech",
-        "development",
         "business",
-        "science"
+        "science",
+        "world"
       ],
       "topArticles": [
         {
-          "title": "Storm Dave hits road and rail travel but is set to ease",
+          "title": "Migrating from LangChain to NeuroLink: A Practical Guide for TypeScript Developers",
+          "source": "Dev.to",
+          "link": "https://dev.to/neurolink/migrating-from-langchain-to-neurolink-a-practical-guide-for-typescript-developers-696",
+          "relevanceScore": 1532.947149861111
+        },
+        {
+          "title": "Storm Dave hits road and rail travel but conditions easing",
           "source": "BBC News",
           "link": "https://www.bbc.com/news/articles/cg40xx110peo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1242.6384890277777
+          "relevanceScore": 1274.8664555555556
         },
         {
           "title": "Ice Age dice show early Native Americans may have understood probability",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/science/2026/04/ice-age-dice-show-early-native-americans-may-have-understood-probability/",
-          "relevanceScore": 1153
+          "relevanceScore": 1175
+        },
+        {
+          "title": "Understanding Data Modeling in Power BI: Joins, Relationships, and Schemas Explained.",
+          "source": "Dev.to",
+          "link": "https://dev.to/muriuki_kahuthu_54/understanding-data-modeling-in-power-bi-joins-relationships-and-schemas-explained-4c5b",
+          "relevanceScore": 1153.91853875
         },
         {
           "title": "Power-washing, pool-cleaning and mowing: Why millions are playing games about mundane jobs",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/cj60r2kdnw1o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 879
-        },
-        {
-          "title": "This Rubber Duck Doesn't Debug — It Roasts",
-          "source": "Dev.to",
-          "link": "https://dev.to/einorde/this-rubber-duck-doesnt-debug-it-roasts-1g44",
-          "relevanceScore": 777.8126555555556
-        },
-        {
-          "title": "When legal sports betting surges, so do Americans' financial problems",
-          "source": "NPR Business",
-          "link": "https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy",
-          "relevanceScore": 773
+          "relevanceScore": 892
         }
       ]
     },
