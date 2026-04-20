@@ -1,16 +1,17 @@
 {
-  "lastUpdated": "2026-04-20T05:21:14.319Z",
+  "lastUpdated": "2026-04-20T07:26:31.423Z",
   "totalArticles": 34,
   "categories": [
     "ai-ml",
     "tech",
-    "space",
     "cloud",
+    "space",
     "social",
-    "general",
+    "mobile",
     "business",
+    "gaming",
     "finance",
-    "development"
+    "general"
   ],
   "topArticles": [
     {
@@ -19,8 +20,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-04-19T21:15:02.000Z",
-      "relevanceScore": 1576.38,
-      "recommendationScore": 1578.88,
+      "relevanceScore": 1757.46,
+      "recommendationScore": 1759.96,
       "tags": [
         "AI",
         "Security"
@@ -33,24 +34,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-19T10:00:00.000Z",
-      "relevanceScore": 789.13,
-      "recommendationScore": 790.63,
+      "relevanceScore": 931.21,
+      "recommendationScore": 932.71,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Blue Origin successfully reused its New Glenn rocket",
-      "link": "https://www.theverge.com/science/914729/blue-origin-successfully-reused-its-new-glenn-rocket",
-      "source": "The Verge",
-      "category": "space",
-      "pubDate": "2026-04-19T20:28:52.000Z",
-      "relevanceScore": 777.23,
-      "recommendationScore": 779.73,
-      "tags": [
-        "Exclusive",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Cloud development platform Vercel was hacked",
@@ -58,12 +45,26 @@
       "source": "The Verge",
       "category": "cloud",
       "pubDate": "2026-04-19T19:54:52.000Z",
-      "relevanceScore": 775.61,
-      "recommendationScore": 775.61,
+      "relevanceScore": 893.19,
+      "recommendationScore": 893.19,
       "tags": [
         "Security",
         "Web",
         "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Blue Origin successfully reused its New Glenn rocket",
+      "link": "https://www.theverge.com/science/914729/blue-origin-successfully-reused-its-new-glenn-rocket",
+      "source": "The Verge",
+      "category": "space",
+      "pubDate": "2026-04-19T20:28:52.000Z",
+      "relevanceScore": 877.81,
+      "recommendationScore": 880.31,
+      "tags": [
+        "Exclusive",
+        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -73,8 +74,8 @@
       "source": "Wired",
       "category": "social",
       "pubDate": "2026-04-19T11:00:00.000Z",
-      "relevanceScore": 661.33,
-      "recommendationScore": 662.33,
+      "relevanceScore": 736.91,
+      "recommendationScore": 737.91,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -84,50 +85,49 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-19T10:30:00.000Z",
-      "relevanceScore": 661.23,
-      "recommendationScore": 662.73,
+      "relevanceScore": 724.81,
+      "recommendationScore": 726.31,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "What Happens Between @SqsListener and Your Method in Spring Cloud AWS SQS",
-      "link": "https://dev.to/tomazfernandes/what-happens-between-sqslistener-and-your-method-in-spring-cloud-aws-sqs-36e7",
+      "title": "Personal token factory: OpenClaw in AWS but Nvidia GB10 at home",
+      "link": "https://dev.to/aws-builders/personal-token-factory-openclaw-in-aws-but-nvidia-gb10-at-home-3klk",
       "source": "Dev.to",
       "category": "cloud",
-      "pubDate": "2026-04-20T05:13:54.000Z",
-      "relevanceScore": 404.48,
-      "recommendationScore": 406.48,
+      "pubDate": "2026-04-20T07:14:17.000Z",
+      "relevanceScore": 523.46,
+      "recommendationScore": 523.96,
       "tags": [
-        "Cloud",
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Robots beat human records at Beijing half-marathon",
-      "link": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-04-19T18:44:00.000Z",
-      "relevanceScore": 347.88,
-      "recommendationScore": 347.88,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Chain of Custody for Digital Evidence: How to Prove Your Video Wasn't Faked",
-      "link": "https://dev.to/craig_solomon/chain-of-custody-for-digital-evidence-how-to-prove-your-video-wasnt-faked-56dg",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-04-20T05:13:23.000Z",
-      "relevanceScore": 317.47,
-      "recommendationScore": 319.47,
-      "tags": [
-        "AI",
-        "Tech",
-        "Tutorial"
+        "Cloud"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "I Built and Shipped a $39 macOS App in One Day (Here's How)",
+      "link": "https://dev.to/hiyoyok/i-built-and-shipped-a-39-macos-app-in-one-day-heres-how-5e80",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-04-20T07:16:09.000Z",
+      "relevanceScore": 429.47,
+      "recommendationScore": 431.47,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Businesses can claim refunds starting Monday for Trump tariffs declared unconstitutional",
+      "link": "https://abcnews.com/Business/wireStory/businesses-claim-refunds-starting-monday-trump-tariffs-declared-132188481",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-20T05:38:42.000Z",
+      "relevanceScore": 346.64,
+      "recommendationScore": 347.14,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch",
@@ -135,8 +135,8 @@
       "source": "TechCrunch",
       "category": "space",
       "pubDate": "2026-04-19T19:02:09.000Z",
-      "relevanceScore": 293.44,
-      "recommendationScore": 295.94,
+      "relevanceScore": 346.02,
+      "recommendationScore": 348.52,
       "tags": [
         "Exclusive",
         "Launch"
@@ -144,65 +144,15 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "The 12-month window",
-      "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-04-19T19:30:00.000Z",
-      "relevanceScore": 287.03,
-      "recommendationScore": 287.03,
+      "title": "🛠️ Harness Engineering — Quick Actionable Guide 🤖",
+      "link": "https://dev.to/truongpx396/harness-engineering-quick-actionable-guide-2b93",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2026-04-20T07:09:25.000Z",
+      "relevanceScore": 231.44,
+      "recommendationScore": 231.94,
       "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-      "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-20T04:10:40.000Z",
-      "relevanceScore": 273.76,
-      "recommendationScore": 274.26,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Five questions awaiting Starmer as he faces Commons over Mandelson scandal",
-      "link": "https://www.bbc.com/news/articles/c5yw6egnjg2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-19T23:32:56.000Z",
-      "relevanceScore": 272.84,
-      "recommendationScore": 273.34,
-      "tags": [
-        "Controversy"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Nothing’s modular CMF Headphone Pro are down to their lowest price to date",
-      "link": "https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-19T14:30:00.000Z",
-      "relevanceScore": 265.03,
-      "recommendationScore": 265.53,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The next Mac Studio and MacBook Pro releases could be postponed by several months",
-      "link": "https://www.engadget.com/computing/the-next-mac-studio-and-macbook-pro-releases-could-be-postponed-by-several-months-173120187.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-04-19T17:31:20.000Z",
-      "relevanceScore": 263.63,
-      "recommendationScore": 264.13,
-      "tags": [
-        "Update"
+        "Tutorial"
       ],
       "readingLevel": "advanced"
     },
@@ -212,44 +162,9 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-04-19T14:00:00.000Z",
-      "relevanceScore": 196.93,
-      "recommendationScore": 197.43,
+      "relevanceScore": 223.51,
+      "recommendationScore": 224.01,
       "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "At the Canton Fair, Chinese manufacturing takes center stage",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5789961/at-the-canton-fair-chinese-manufacturing-takes-center-stage",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-04-19T21:01:38.000Z",
-      "relevanceScore": 169.33,
-      "recommendationScore": 169.83,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Photos: How overfishing in Southeast Asia is an ecological and human crisis",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/18/nx-s1-5766110/overfishing-in-southeast-asia",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-04-18T13:00:00.000Z",
-      "relevanceScore": 153.43,
-      "recommendationScore": 155.43,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Our Favorite Apple Watch Has Never Been Less Expensive",
-      "link": "https://www.wired.com/story/apple-watch-series-11-deal-april-2026/",
-      "source": "Wired",
-      "category": "finance",
-      "pubDate": "2026-04-19T09:39:00.000Z",
-      "relevanceScore": 146.06,
-      "recommendationScore": 146.56,
-      "tags": [
-        "Business"
-      ],
       "readingLevel": "beginner"
     },
     {
@@ -258,8 +173,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-04-19T18:19:47.000Z",
-      "relevanceScore": 132.8,
-      "recommendationScore": 133.3,
+      "relevanceScore": 203.88,
+      "recommendationScore": 204.38,
       "tags": [
         "AI",
         "Tech"
@@ -267,14 +182,66 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Beijing's robot half-marathon is back for its second year with far less embarassing results",
-      "link": "https://www.engadget.com/ai/beijings-robot-half-marathon-is-back-for-its-second-year-with-far-less-embarassing-results-191308396.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-04-19T19:13:08.000Z",
-      "relevanceScore": 61.47,
-      "recommendationScore": 61.97,
+      "title": "Photos: How overfishing in Southeast Asia is an ecological and human crisis",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/04/18/nx-s1-5766110/overfishing-in-southeast-asia",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-04-18T13:00:00.000Z",
+      "relevanceScore": 184.01,
+      "recommendationScore": 186.01,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "At the Canton Fair, Chinese manufacturing takes center stage",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5789961/at-the-canton-fair-chinese-manufacturing-takes-center-stage",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-04-19T21:01:38.000Z",
+      "relevanceScore": 169.92,
+      "recommendationScore": 170.42,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Our Favorite Apple Watch Has Never Been Less Expensive",
+      "link": "https://www.wired.com/story/apple-watch-series-11-deal-april-2026/",
+      "source": "Wired",
+      "category": "finance",
+      "pubDate": "2026-04-19T09:39:00.000Z",
+      "relevanceScore": 166.64,
+      "recommendationScore": 167.14,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The 12-month window",
+      "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-04-19T19:30:00.000Z",
+      "relevanceScore": 66.11,
+      "recommendationScore": 66.11,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Blue Origin landed its recycled New Glenn booster but failed to put payload in orbit",
+      "link": "https://www.engadget.com/science/space/blue-origin-landed-its-recycled-new-glenn-booster-but-failed-to-put-payload-in-orbit-055846419.html?src=rss",
+      "source": "Engadget",
+      "category": "cloud",
+      "pubDate": "2026-04-20T05:58:46.000Z",
+      "relevanceScore": 58.21,
+      "recommendationScore": 60.71,
+      "tags": [
+        "Cloud",
+        "Exclusive",
+        "Launch"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -283,8 +250,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-19T21:09:06.000Z",
-      "relevanceScore": 36.86,
-      "recommendationScore": 37.36,
+      "relevanceScore": 47.94,
+      "recommendationScore": 48.44,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -294,10 +261,45 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-20T05:13:58.000Z",
-      "relevanceScore": 31.98,
-      "recommendationScore": 32.48,
+      "relevanceScore": 46.06,
+      "recommendationScore": 46.56,
       "tags": [
         "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+      "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-20T04:10:40.000Z",
+      "relevanceScore": 41.35,
+      "recommendationScore": 41.85,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Baby food brand HiPP recalls jars in Austria after samples test positive for rat poison",
+      "link": "https://abcnews.com/Business/wireStory/baby-food-brand-hipp-recalls-jars-austria-after-132194121",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-20T05:36:35.000Z",
+      "relevanceScore": 40.13,
+      "recommendationScore": 40.63,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Nothing’s modular CMF Headphone Pro are down to their lowest price to date",
+      "link": "https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-19T14:30:00.000Z",
+      "relevanceScore": 32.61,
+      "recommendationScore": 33.11,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -307,21 +309,32 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-20T05:00:02.000Z",
-      "relevanceScore": 31.93,
-      "recommendationScore": 32.43,
+      "relevanceScore": 31.51,
+      "recommendationScore": 32.01,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "US Navy seizes an Iranian-flagged ship near Strait of Hormuz and Tehran vows swift response",
-      "link": "https://abcnews.com/Business/wireStory/us-navy-seizes-iranian-flagged-ship-strait-hormuz-132180224",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-20T01:53:38.000Z",
-      "relevanceScore": 31.81,
-      "recommendationScore": 32.31,
+      "title": "'They told me he was dead': Children born near army base learn truth about UK soldier dads",
+      "link": "https://www.bbc.com/news/articles/c895k3537kgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-19T23:07:52.000Z",
+      "relevanceScore": 30.34,
+      "recommendationScore": 30.84,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Robots beat human records at Beijing half-marathon",
+      "link": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-04-19T18:44:00.000Z",
+      "relevanceScore": 26.46,
+      "recommendationScore": 26.46,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI’s existential questions",
@@ -329,8 +342,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-19T21:24:06.000Z",
-      "relevanceScore": 25.91,
-      "recommendationScore": 25.91,
+      "relevanceScore": 25.49,
+      "recommendationScore": 25.49,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -340,10 +353,21 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-19T16:30:00.000Z",
-      "relevanceScore": 25.43,
-      "recommendationScore": 25.93,
+      "relevanceScore": 25.01,
+      "recommendationScore": 25.51,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "The US energy blockade on Cuba pulls the plug on Havana’s legendary nightlife",
+      "link": "https://abcnews.com/Business/wireStory/energy-blockade-cuba-pulls-plug-havanas-legendary-nightlife-132179911",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-20T03:06:29.000Z",
+      "relevanceScore": 24.63,
+      "recommendationScore": 25.13,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "This tariff-refund portal is about to be America's hottest website",
@@ -351,35 +375,11 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-04-19T10:30:00.000Z",
-      "relevanceScore": 24.23,
-      "recommendationScore": 24.73,
+      "relevanceScore": 23.81,
+      "recommendationScore": 24.31,
       "tags": [
         "Web"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Canada's PM calls economic ties with US a weakness that must be corrected",
-      "link": "https://abcnews.com/Business/wireStory/canadas-prime-minister-economic-ties-us-weakness-corrected-132187806",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-19T19:24:55.000Z",
-      "relevanceScore": 24.01,
-      "recommendationScore": 24.51,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Arbeitszeiterfassung in Deutschland: Neue gesetzliche Anforderungen und smarte Lösungen",
-      "link": "https://dev.to/thomasdelfing_de/arbeitszeiterfassung-in-deutschland-neue-gesetzliche-anforderungen-und-smarte-losungen-1gad",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-20T05:13:22.000Z",
-      "relevanceScore": 23.97,
-      "recommendationScore": 24.47,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -388,8 +388,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-19T11:17:28.000Z",
-      "relevanceScore": 23.39,
-      "recommendationScore": 25.39,
+      "relevanceScore": 22.97,
+      "recommendationScore": 24.97,
       "tags": [
         "Science",
         "Report"
@@ -402,21 +402,21 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-04-19T18:19:19.000Z",
-      "relevanceScore": 23.29,
-      "recommendationScore": 23.79,
+      "relevanceScore": 22.88,
+      "recommendationScore": 23.38,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "An energy blockade on Cuba pulls the plug on Havana’s legendary nightlife",
-      "link": "https://abcnews.com/Business/wireStory/energy-blockade-cuba-pulls-plug-havanas-legendary-nightlife-132179911",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-19T11:15:22.000Z",
-      "relevanceScore": 21.88,
-      "recommendationScore": 22.38,
+      "title": "Beijing's robot half-marathon is back for its second year with far less embarassing results",
+      "link": "https://www.engadget.com/ai/beijings-robot-half-marathon-is-back-for-its-second-year-with-far-less-embarassing-results-191308396.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-04-19T19:13:08.000Z",
+      "relevanceScore": 21.56,
+      "recommendationScore": 22.06,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -426,8 +426,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-18T11:07:59.000Z",
-      "relevanceScore": 18.56,
-      "recommendationScore": 18.56,
+      "relevanceScore": 18.14,
+      "recommendationScore": 18.14,
       "tags": [],
       "readingLevel": "intermediate"
     }
@@ -439,32 +439,10 @@
         "link": "https://www.engadget.com/ai/the-nsa-is-reportedly-using-anthropics-new-model-mythos-211502787.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-19T21:15:02.000Z",
-        "relevanceScore": 1576.38,
+        "relevanceScore": 1757.46,
         "tags": [
           "AI",
           "Security"
-        ]
-      },
-      {
-        "title": "Chain of Custody for Digital Evidence: How to Prove Your Video Wasn't Faked",
-        "link": "https://dev.to/craig_solomon/chain-of-custody-for-digital-evidence-how-to-prove-your-video-wasnt-faked-56dg",
-        "source": "Dev.to",
-        "pubDate": "2026-04-20T05:13:23.000Z",
-        "relevanceScore": 317.47,
-        "tags": [
-          "AI",
-          "Tech",
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "The 12-month window",
-        "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
-        "source": "TechCrunch",
-        "pubDate": "2026-04-19T19:30:00.000Z",
-        "relevanceScore": 287.03,
-        "tags": [
-          "AI"
         ]
       },
       {
@@ -472,10 +450,20 @@
         "link": "https://www.engadget.com/big-tech/palantir-posted-a-manifesto-that-reads-like-the-ramblings-of-a-comic-book-villain-181947361.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-19T18:19:47.000Z",
-        "relevanceScore": 132.8,
+        "relevanceScore": 203.88,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "The 12-month window",
+        "link": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+        "source": "TechCrunch",
+        "pubDate": "2026-04-19T19:30:00.000Z",
+        "relevanceScore": 66.11,
+        "tags": [
+          "AI"
         ]
       }
     ],
@@ -485,7 +473,7 @@
         "link": "https://www.wired.com/story/the-best-fans-2026/",
         "source": "Wired",
         "pubDate": "2026-04-19T10:00:00.000Z",
-        "relevanceScore": 789.13,
+        "relevanceScore": 931.21,
         "tags": []
       },
       {
@@ -493,15 +481,15 @@
         "link": "https://www.wired.com/review/hisense-u7sg/",
         "source": "Wired",
         "pubDate": "2026-04-19T10:30:00.000Z",
-        "relevanceScore": 661.23,
+        "relevanceScore": 724.81,
         "tags": []
       },
       {
-        "title": "Robots beat human records at Beijing half-marathon",
-        "link": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
-        "source": "TechCrunch",
-        "pubDate": "2026-04-19T18:44:00.000Z",
-        "relevanceScore": 347.88,
+        "title": "The Stars My Destination is classic proto-cyberpunk",
+        "link": "https://www.theverge.com/entertainment/914680/the-stars-my-destination-alfred-bester-review-cyberpunk",
+        "source": "The Verge",
+        "pubDate": "2026-04-19T14:00:00.000Z",
+        "relevanceScore": 223.51,
         "tags": []
       },
       {
@@ -509,35 +497,17 @@
         "link": "https://www.theverge.com/gadgets/913989/nothing-cmf-noise-canceling-headphone-pro-spring-sale-deal",
         "source": "The Verge",
         "pubDate": "2026-04-19T14:30:00.000Z",
-        "relevanceScore": 265.03,
+        "relevanceScore": 32.61,
         "tags": [
           "Exclusive"
         ]
       },
       {
-        "title": "The next Mac Studio and MacBook Pro releases could be postponed by several months",
-        "link": "https://www.engadget.com/computing/the-next-mac-studio-and-macbook-pro-releases-could-be-postponed-by-several-months-173120187.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-19T17:31:20.000Z",
-        "relevanceScore": 263.63,
-        "tags": [
-          "Update"
-        ]
-      },
-      {
-        "title": "The Stars My Destination is classic proto-cyberpunk",
-        "link": "https://www.theverge.com/entertainment/914680/the-stars-my-destination-alfred-bester-review-cyberpunk",
-        "source": "The Verge",
-        "pubDate": "2026-04-19T14:00:00.000Z",
-        "relevanceScore": 196.93,
-        "tags": []
-      },
-      {
-        "title": "Beijing's robot half-marathon is back for its second year with far less embarassing results",
-        "link": "https://www.engadget.com/ai/beijings-robot-half-marathon-is-back-for-its-second-year-with-far-less-embarassing-results-191308396.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-19T19:13:08.000Z",
-        "relevanceScore": 61.47,
+        "title": "Robots beat human records at Beijing half-marathon",
+        "link": "https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/",
+        "source": "TechCrunch",
+        "pubDate": "2026-04-19T18:44:00.000Z",
+        "relevanceScore": 26.46,
         "tags": []
       },
       {
@@ -545,7 +515,7 @@
         "link": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
         "source": "TechCrunch",
         "pubDate": "2026-04-19T21:24:06.000Z",
-        "relevanceScore": 25.91,
+        "relevanceScore": 25.49,
         "tags": []
       },
       {
@@ -553,7 +523,7 @@
         "link": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
         "source": "TechCrunch",
         "pubDate": "2026-04-19T16:30:00.000Z",
-        "relevanceScore": 25.43,
+        "relevanceScore": 25.01,
         "tags": []
       },
       {
@@ -561,19 +531,63 @@
         "link": "https://arstechnica.com/science/2026/04/ive-fired-one-of-americas-most-powerful-lasers-heres-what-a-shot-day-looks-like/",
         "source": "Ars Technica",
         "pubDate": "2026-04-19T11:17:28.000Z",
-        "relevanceScore": 23.39,
+        "relevanceScore": 22.97,
         "tags": [
           "Science",
           "Report"
         ]
       },
       {
+        "title": "Beijing's robot half-marathon is back for its second year with far less embarassing results",
+        "link": "https://www.engadget.com/ai/beijings-robot-half-marathon-is-back-for-its-second-year-with-far-less-embarassing-results-191308396.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-19T19:13:08.000Z",
+        "relevanceScore": 21.56,
+        "tags": []
+      },
+      {
         "title": "Great white sharks are overheating",
         "link": "https://arstechnica.com/science/2026/04/great-white-sharks-are-overheating/",
         "source": "Ars Technica",
         "pubDate": "2026-04-18T11:07:59.000Z",
-        "relevanceScore": 18.56,
+        "relevanceScore": 18.14,
         "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Cloud development platform Vercel was hacked",
+        "link": "https://www.theverge.com/tech/914723/vercel-hacked",
+        "source": "The Verge",
+        "pubDate": "2026-04-19T19:54:52.000Z",
+        "relevanceScore": 893.19,
+        "tags": [
+          "Security",
+          "Web",
+          "Cloud"
+        ]
+      },
+      {
+        "title": "Personal token factory: OpenClaw in AWS but Nvidia GB10 at home",
+        "link": "https://dev.to/aws-builders/personal-token-factory-openclaw-in-aws-but-nvidia-gb10-at-home-3klk",
+        "source": "Dev.to",
+        "pubDate": "2026-04-20T07:14:17.000Z",
+        "relevanceScore": 523.46,
+        "tags": [
+          "Cloud"
+        ]
+      },
+      {
+        "title": "Blue Origin landed its recycled New Glenn booster but failed to put payload in orbit",
+        "link": "https://www.engadget.com/science/space/blue-origin-landed-its-recycled-new-glenn-booster-but-failed-to-put-payload-in-orbit-055846419.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-20T05:58:46.000Z",
+        "relevanceScore": 58.21,
+        "tags": [
+          "Cloud",
+          "Exclusive",
+          "Launch"
+        ]
       }
     ],
     "space": [
@@ -582,7 +596,7 @@
         "link": "https://www.theverge.com/science/914729/blue-origin-successfully-reused-its-new-glenn-rocket",
         "source": "The Verge",
         "pubDate": "2026-04-19T20:28:52.000Z",
-        "relevanceScore": 777.23,
+        "relevanceScore": 877.81,
         "tags": [
           "Exclusive",
           "Launch"
@@ -593,7 +607,7 @@
         "link": "https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/",
         "source": "TechCrunch",
         "pubDate": "2026-04-19T19:02:09.000Z",
-        "relevanceScore": 293.44,
+        "relevanceScore": 346.02,
         "tags": [
           "Exclusive",
           "Launch"
@@ -604,34 +618,9 @@
         "link": "https://arstechnica.com/space/2026/04/errant-upper-stage-spoils-blue-origins-success-in-reusing-new-glenn-booster/",
         "source": "Ars Technica",
         "pubDate": "2026-04-19T18:19:19.000Z",
-        "relevanceScore": 23.29,
+        "relevanceScore": 22.88,
         "tags": [
           "Exclusive"
-        ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "Cloud development platform Vercel was hacked",
-        "link": "https://www.theverge.com/tech/914723/vercel-hacked",
-        "source": "The Verge",
-        "pubDate": "2026-04-19T19:54:52.000Z",
-        "relevanceScore": 775.61,
-        "tags": [
-          "Security",
-          "Web",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "What Happens Between @SqsListener and Your Method in Spring Cloud AWS SQS",
-        "link": "https://dev.to/tomazfernandes/what-happens-between-sqslistener-and-your-method-in-spring-cloud-aws-sqs-36e7",
-        "source": "Dev.to",
-        "pubDate": "2026-04-20T05:13:54.000Z",
-        "relevanceScore": 404.48,
-        "tags": [
-          "Cloud",
-          "Startup"
         ]
       }
     ],
@@ -641,79 +630,63 @@
         "link": "https://www.wired.com/story/best-meta-glasses/",
         "source": "Wired",
         "pubDate": "2026-04-19T11:00:00.000Z",
-        "relevanceScore": 661.33,
+        "relevanceScore": 736.91,
         "tags": []
       }
     ],
-    "general": [
+    "mobile": [
       {
-        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
-        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-20T04:10:40.000Z",
-        "relevanceScore": 273.76,
-        "tags": []
-      },
-      {
-        "title": "Five questions awaiting Starmer as he faces Commons over Mandelson scandal",
-        "link": "https://www.bbc.com/news/articles/c5yw6egnjg2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-19T23:32:56.000Z",
-        "relevanceScore": 272.84,
+        "title": "I Built and Shipped a $39 macOS App in One Day (Here's How)",
+        "link": "https://dev.to/hiyoyok/i-built-and-shipped-a-39-macos-app-in-one-day-heres-how-5e80",
+        "source": "Dev.to",
+        "pubDate": "2026-04-20T07:16:09.000Z",
+        "relevanceScore": 429.47,
         "tags": [
-          "Controversy"
+          "Mobile"
         ]
-      },
-      {
-        "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-        "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-19T21:09:06.000Z",
-        "relevanceScore": 36.86,
-        "tags": []
-      },
-      {
-        "title": "The insider trading suspicions looming over Trump's presidency",
-        "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-20T05:13:58.000Z",
-        "relevanceScore": 31.98,
-        "tags": [
-          "IPO"
-        ]
-      },
-      {
-        "title": "Spat at, threatened and kidnapped: British Jews tell of rising antisemitism",
-        "link": "https://www.bbc.com/news/articles/cwyxxjgdn94o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-20T05:00:02.000Z",
-        "relevanceScore": 31.93,
-        "tags": []
       }
     ],
     "business": [
       {
-        "title": "At the Canton Fair, Chinese manufacturing takes center stage",
-        "link": "https://www.npr.org/2026/04/19/nx-s1-5789961/at-the-canton-fair-chinese-manufacturing-takes-center-stage",
-        "source": "NPR Business",
-        "pubDate": "2026-04-19T21:01:38.000Z",
-        "relevanceScore": 169.33,
-        "tags": []
+        "title": "Businesses can claim refunds starting Monday for Trump tariffs declared unconstitutional",
+        "link": "https://abcnews.com/Business/wireStory/businesses-claim-refunds-starting-monday-trump-tariffs-declared-132188481",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-20T05:38:42.000Z",
+        "relevanceScore": 346.64,
+        "tags": [
+          "Launch"
+        ]
       },
       {
         "title": "Photos: How overfishing in Southeast Asia is an ecological and human crisis",
         "link": "https://www.npr.org/sections/the-picture-show/2026/04/18/nx-s1-5766110/overfishing-in-southeast-asia",
         "source": "NPR Business",
         "pubDate": "2026-04-18T13:00:00.000Z",
-        "relevanceScore": 153.43,
+        "relevanceScore": 184.01,
         "tags": []
       },
       {
-        "title": "US Navy seizes an Iranian-flagged ship near Strait of Hormuz and Tehran vows swift response",
-        "link": "https://abcnews.com/Business/wireStory/us-navy-seizes-iranian-flagged-ship-strait-hormuz-132180224",
+        "title": "At the Canton Fair, Chinese manufacturing takes center stage",
+        "link": "https://www.npr.org/2026/04/19/nx-s1-5789961/at-the-canton-fair-chinese-manufacturing-takes-center-stage",
+        "source": "NPR Business",
+        "pubDate": "2026-04-19T21:01:38.000Z",
+        "relevanceScore": 169.92,
+        "tags": []
+      },
+      {
+        "title": "Baby food brand HiPP recalls jars in Austria after samples test positive for rat poison",
+        "link": "https://abcnews.com/Business/wireStory/baby-food-brand-hipp-recalls-jars-austria-after-132194121",
         "source": "ABC News Business",
-        "pubDate": "2026-04-20T01:53:38.000Z",
-        "relevanceScore": 31.81,
+        "pubDate": "2026-04-20T05:36:35.000Z",
+        "relevanceScore": 40.13,
+        "tags": []
+      },
+      {
+        "title": "The US energy blockade on Cuba pulls the plug on Havana’s legendary nightlife",
+        "link": "https://abcnews.com/Business/wireStory/energy-blockade-cuba-pulls-plug-havanas-legendary-nightlife-132179911",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-20T03:06:29.000Z",
+        "relevanceScore": 24.63,
         "tags": []
       },
       {
@@ -721,28 +694,22 @@
         "link": "https://www.npr.org/2026/04/19/nx-s1-5786635/tariff-refunds-customs-ace-portal",
         "source": "NPR Business",
         "pubDate": "2026-04-19T10:30:00.000Z",
-        "relevanceScore": 24.23,
+        "relevanceScore": 23.81,
         "tags": [
           "Web"
         ]
-      },
+      }
+    ],
+    "gaming": [
       {
-        "title": "Canada's PM calls economic ties with US a weakness that must be corrected",
-        "link": "https://abcnews.com/Business/wireStory/canadas-prime-minister-economic-ties-us-weakness-corrected-132187806",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-19T19:24:55.000Z",
-        "relevanceScore": 24.01,
+        "title": "🛠️ Harness Engineering — Quick Actionable Guide 🤖",
+        "link": "https://dev.to/truongpx396/harness-engineering-quick-actionable-guide-2b93",
+        "source": "Dev.to",
+        "pubDate": "2026-04-20T07:09:25.000Z",
+        "relevanceScore": 231.44,
         "tags": [
-          "Business"
+          "Tutorial"
         ]
-      },
-      {
-        "title": "An energy blockade on Cuba pulls the plug on Havana’s legendary nightlife",
-        "link": "https://abcnews.com/Business/wireStory/energy-blockade-cuba-pulls-plug-havanas-legendary-nightlife-132179911",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-19T11:15:22.000Z",
-        "relevanceScore": 21.88,
-        "tags": []
       }
     ],
     "finance": [
@@ -751,31 +718,65 @@
         "link": "https://www.wired.com/story/apple-watch-series-11-deal-april-2026/",
         "source": "Wired",
         "pubDate": "2026-04-19T09:39:00.000Z",
-        "relevanceScore": 146.06,
+        "relevanceScore": 166.64,
         "tags": [
           "Business"
         ]
       }
     ],
-    "development": [
+    "general": [
       {
-        "title": "Arbeitszeiterfassung in Deutschland: Neue gesetzliche Anforderungen und smarte Lösungen",
-        "link": "https://dev.to/thomasdelfing_de/arbeitszeiterfassung-in-deutschland-neue-gesetzliche-anforderungen-und-smarte-losungen-1gad",
-        "source": "Dev.to",
-        "pubDate": "2026-04-20T05:13:22.000Z",
-        "relevanceScore": 23.97,
+        "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
+        "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-19T21:09:06.000Z",
+        "relevanceScore": 47.94,
+        "tags": []
+      },
+      {
+        "title": "The insider trading suspicions looming over Trump's presidency",
+        "link": "https://www.bbc.com/news/articles/cge0grppe3po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-20T05:13:58.000Z",
+        "relevanceScore": 46.06,
+        "tags": [
+          "IPO"
+        ]
+      },
+      {
+        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-20T04:10:40.000Z",
+        "relevanceScore": 41.35,
+        "tags": []
+      },
+      {
+        "title": "Spat at, threatened and kidnapped: British Jews tell of rising antisemitism",
+        "link": "https://www.bbc.com/news/articles/cwyxxjgdn94o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-20T05:00:02.000Z",
+        "relevanceScore": 31.51,
+        "tags": []
+      },
+      {
+        "title": "'They told me he was dead': Children born near army base learn truth about UK soldier dads",
+        "link": "https://www.bbc.com/news/articles/c895k3537kgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-19T23:07:52.000Z",
+        "relevanceScore": 30.34,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 9,
-    "totalCategories": 9,
-    "avgRelevanceScore": 269.6982352941175,
+    "totalCategories": 10,
+    "avgRelevanceScore": 275.0467647058822,
     "topCategories": [
       {
         "category": "tech",
-        "count": 11
+        "count": 10
       },
       {
         "category": "business",
@@ -787,10 +788,10 @@
       },
       {
         "category": "ai-ml",
-        "count": 4
+        "count": 3
       },
       {
-        "category": "space",
+        "category": "cloud",
         "count": 3
       }
     ]
