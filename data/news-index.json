@@ -1,64 +1,68 @@
 {
-  "lastUpdated": "2026-04-22T12:45:18.548Z",
+  "lastUpdated": "2026-04-22T14:22:52.932Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-04-22",
       "file": "2026-04-22.json",
-      "totalArticles": 46,
-      "lastUpdated": "2026-04-22T12:45:18.534Z",
+      "totalArticles": 52,
+      "lastUpdated": "2026-04-22T14:22:52.913Z",
       "sources": [
-        "Stack Overflow Blog",
-        "Dev.to",
-        "Engadget",
         "GitHub Blog",
-        "MIT Technology Review",
-        "TechCrunch",
-        "BBC Technology",
-        "BBC News",
-        "Wired",
         "The Verge",
+        "Dev.to",
+        "MIT Technology Review",
+        "Stack Overflow Blog",
+        "Engadget",
+        "BBC Technology",
+        "TechCrunch",
+        "Wired",
+        "Ars Technica",
         "ABC News Business",
+        "BBC News",
         "NPR Business",
-        "Ars Technica"
+        "Reddit Technology",
+        "Reddit World News",
+        "Reddit Programming"
       ],
       "categories": [
         "development",
         "tech",
         "science",
+        "business",
         "general",
-        "business"
+        "world"
       ],
       "topArticles": [
+        {
+          "title": "Changes to GitHub Copilot Individual plans",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
+          "relevanceScore": 625
+        },
+        {
+          "title": "BMW’s flagship 7 Series gets its ‘Neue Klasse’ upgrade",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/transportation/915630/bmw-7-series-neue-klasse-range-price-specs",
+          "relevanceScore": 253.30931791666666
+        },
+        {
+          "title": "Coroutine series 3) Coroutines for LLM inference",
+          "source": "Dev.to",
+          "link": "https://dev.to/jun07/coroutine-series-3-coroutines-for-llm-inference-1o8j",
+          "relevanceScore": 242.89029
+        },
+        {
+          "title": "3 things Michelle Kim is into right now",
+          "source": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2026/04/22/1135423/3-things-michelle-kim/",
+          "relevanceScore": 216.80931777777778
+        },
         {
           "title": "How to get multiple agents to play nice at scale",
           "source": "Stack Overflow Blog",
           "link": "https://stackoverflow.blog/2026/04/22/how-to-get-multiple-agents-to-play-nice-at-scale/",
-          "relevanceScore": 2309.9557593055556
-        },
-        {
-          "title": "Why Your AI Productivity Dashboard Is Lying to You",
-          "source": "Dev.to",
-          "link": "https://dev.to/my2centsonai/why-your-ai-productivity-dashboard-is-lying-to-you-131e",
-          "relevanceScore": 1174.9606202777777
-        },
-        {
-          "title": "Anthropic is investigating 'unauthorized access' of its Mythos cybersecurity tool",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/ai/anthropic-is-investigating-unauthorized-access-of-its-mythos-cybersecurity-tool-091017168.html?src=rss",
-          "relevanceScore": 1099.2081204166666
-        },
-        {
-          "title": "Building for the Next 10 Years: The Design Principles of apcore",
-          "source": "Dev.to",
-          "link": "https://dev.to/tercelyi/building-for-the-next-10-years-the-design-principles-of-apcore-3777",
-          "relevanceScore": 1096.9610369444445
-        },
-        {
-          "title": "We still need developer communities",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2026/04/21/we-still-need-developer-communities/",
-          "relevanceScore": 1081
+          "relevanceScore": 212.14265111111112
         }
       ]
     },
