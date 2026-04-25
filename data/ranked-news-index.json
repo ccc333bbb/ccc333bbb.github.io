@@ -1,20 +1,21 @@
 {
-  "lastUpdated": "2026-04-25T11:53:14.166Z",
+  "lastUpdated": "2026-04-25T12:51:32.680Z",
   "totalArticles": 44,
   "categories": [
     "tech",
-    "entertainment",
     "mobile",
+    "cloud",
     "health",
     "ai-ml",
-    "general",
     "gaming",
     "cybersecurity",
-    "finance",
-    "development",
     "startup",
+    "general",
+    "development",
+    "space",
     "business",
-    "space"
+    "entertainment",
+    "finance"
   ],
   "topArticles": [
     {
@@ -23,8 +24,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-24T22:05:45.000Z",
-      "relevanceScore": 2135.24,
-      "recommendationScore": 2135.74,
+      "relevanceScore": 2220.05,
+      "recommendationScore": 2220.55,
       "tags": [
         "Business",
         "Funding"
@@ -37,25 +38,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-24T23:32:11.000Z",
-      "relevanceScore": 1046.53,
-      "recommendationScore": 1047.03,
+      "relevanceScore": 1094.34,
+      "recommendationScore": 1094.84,
       "tags": [
         "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The person who allegedly leaked Paramount’s new Avatar movie has been arrested",
-      "link": "https://www.theverge.com/entertainment/918250/avatar-aang-the-last-airbender-leaks-arrest-paramount-plus",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2026-04-24T19:45:01.000Z",
-      "relevanceScore": 889.77,
-      "recommendationScore": 892.27,
-      "tags": [
-        "Web",
-        "Analysis",
-        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -65,8 +51,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-04-25T11:00:00.000Z",
-      "relevanceScore": 872.82,
-      "recommendationScore": 873.82,
+      "relevanceScore": 911.13,
+      "recommendationScore": 912.13,
       "tags": [
         "Tech",
         "Business",
@@ -75,17 +61,19 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Palantir is reportedly helping the IRS investigate financial crimes",
-      "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-04-24T21:53:44.000Z",
-      "relevanceScore": 793.2,
-      "recommendationScore": 793.7,
+      "title": "The Announcement Google Cloud NEXT Made That Will Actually Change How Robots Work",
+      "link": "https://dev.to/motedb/the-announcement-google-cloud-next-made-that-will-actually-change-how-robots-work-4p0i",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-04-25T12:40:54.000Z",
+      "relevanceScore": 723.46,
+      "recommendationScore": 725.46,
       "tags": [
-        "Tech"
+        "Tech",
+        "Cloud",
+        "Partnership"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Discord Sleuths Gained Unauthorized Access to Anthropic’s Mythos",
@@ -93,9 +81,22 @@
       "source": "Wired",
       "category": "health",
       "pubDate": "2026-04-25T10:30:00.000Z",
-      "relevanceScore": 748.72,
-      "recommendationScore": 749.22,
+      "relevanceScore": 671.53,
+      "recommendationScore": 672.03,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Palantir is reportedly helping the IRS investigate financial crimes",
+      "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-04-24T21:53:44.000Z",
+      "relevanceScore": 666.01,
+      "recommendationScore": 666.51,
+      "tags": [
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -104,47 +105,12 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-04-24T12:10:00.000Z",
-      "relevanceScore": 527.26,
-      "recommendationScore": 527.76,
+      "relevanceScore": 472.56,
+      "recommendationScore": 473.06,
       "tags": [
         "AI",
         "Tech"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Three reasons why DeepSeek’s new model matters",
-      "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-04-24T21:40:58.000Z",
-      "relevanceScore": 507.16,
-      "recommendationScore": 510.66,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
-      "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-25T00:10:51.000Z",
-      "relevanceScore": 453.66,
-      "recommendationScore": 454.16,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "OpenAI boss 'deeply sorry' for not telling police of mass shooting suspect's account",
-      "link": "https://www.bbc.com/news/articles/cq6je7e80r7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-04-24T22:45:28.000Z",
-      "relevanceScore": 415.87,
-      "recommendationScore": 416.37,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -153,8 +119,8 @@
       "source": "Wired",
       "category": "gaming",
       "pubDate": "2026-04-25T10:30:00.000Z",
-      "relevanceScore": 407.72,
-      "recommendationScore": 409.22,
+      "relevanceScore": 428.53,
+      "recommendationScore": 430.03,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -164,8 +130,8 @@
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2026-04-24T14:40:23.000Z",
-      "relevanceScore": 381.76,
-      "recommendationScore": 383.76,
+      "relevanceScore": 292.56,
+      "recommendationScore": 294.56,
       "tags": [
         "Security",
         "Web"
@@ -173,88 +139,13 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "The APIs Quietly Powering the Products You Use Every Day",
-      "link": "https://dev.to/lycore/the-apis-quietly-powering-the-products-you-use-every-day-1ldo",
-      "source": "Dev.to",
-      "category": "finance",
-      "pubDate": "2026-04-25T11:40:10.000Z",
-      "relevanceScore": 358.96,
-      "recommendationScore": 359.46,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Explosions and gunfire as armed groups launch coordinated attacks across Mali",
-      "link": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-25T11:21:03.000Z",
-      "relevanceScore": 305.89,
-      "recommendationScore": 308.39,
-      "tags": [
-        "Report",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How to Connect Power BI to Aiven PostgreSQL Using ODBC (Step-by-Step Guide)",
-      "link": "https://dev.to/mburu_champ/how-to-connect-power-bi-to-aiven-postgresql-using-odbc-step-by-step-guide-1m3b",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-25T11:44:25.000Z",
-      "relevanceScore": 286.47,
-      "recommendationScore": 288.47,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Health-care AI is here. We don’t know if it actually helps patients.",
-      "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-04-24T09:00:00.000Z",
-      "relevanceScore": 266.62,
-      "recommendationScore": 267.12,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Maine governor vetoes bill temporarily banning large data centers in the state",
-      "link": "https://www.engadget.com/ai/maine-governor-vetoes-bill-temporarily-banning-large-data-centers-in-the-state-210407936.html?src=rss",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-04-24T21:04:07.000Z",
-      "relevanceScore": 263.04,
-      "recommendationScore": 263.54,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Alex Jones has uncovered another massive conspiracy",
-      "link": "https://www.theverge.com/news/918527/alex-jones-infowars-takeover-the-onion-tim-heidecker",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-24T20:10:00.000Z",
-      "relevanceScore": 243.86,
-      "recommendationScore": 244.36,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
       "title": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say",
       "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-04-25T03:30:00.000Z",
-      "relevanceScore": 242.82,
-      "recommendationScore": 243.32,
+      "relevanceScore": 267.63,
+      "recommendationScore": 268.13,
       "tags": [
         "Startup",
         "Funding"
@@ -262,13 +153,35 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+      "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-25T00:10:51.000Z",
+      "relevanceScore": 237.46,
+      "recommendationScore": 237.96,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Engadget review recap: DJI Osmo Pocket 4, Recteq X-Fire Pro and Alienware 27 QD-OLED",
+      "link": "https://www.engadget.com/engadget-review-recap-dji-osmo-pocket-4-recteq-x-fire-pro-and-alienware-27-qd-oled-120000428.html?src=rss",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-04-25T12:00:00.000Z",
+      "relevanceScore": 231.83,
+      "recommendationScore": 232.33,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Lights, camera, open source!",
       "link": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2026-04-24T07:40:00.000Z",
-      "relevanceScore": 182.36,
-      "recommendationScore": 182.36,
+      "relevanceScore": 202.16,
+      "recommendationScore": 202.16,
       "tags": [
         "Tech",
         "Web"
@@ -276,26 +189,76 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Fairness in Child Safety AI: Why Demographic Parity Audits Are Not Optional",
+      "link": "https://dev.to/sentinelsafety/fairness-in-child-safety-ai-why-demographic-parity-audits-are-not-optional-3iem",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-04-25T12:36:48.000Z",
+      "relevanceScore": 167.45,
+      "recommendationScore": 169.45,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-04-24T21:40:58.000Z",
+      "relevanceScore": 166.96,
+      "recommendationScore": 170.46,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Best Apps for Focus (2026): Focus Friend, Forest, Focus Traveller",
+      "link": "https://www.wired.com/story/3-focus-timer-apps-focus-friend-forest-focus-traveller/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-04-25T11:30:00.000Z",
+      "relevanceScore": 159.73,
+      "recommendationScore": 161.23,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
       "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-24T23:28:09.000Z",
-      "relevanceScore": 175.52,
-      "recommendationScore": 176.02,
+      "relevanceScore": 139.82,
+      "recommendationScore": 140.32,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Europe—not US—first to authorize Moderna's combo mRNA flu-COVID vaccine",
-      "link": "https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2026-04-24T21:11:43.000Z",
-      "relevanceScore": 166.06,
-      "recommendationScore": 168.56,
+      "title": "The most exciting laptop I’ve seen in forever",
+      "link": "https://www.theverge.com/tech/918695/framework-laptop-stranger-things-installer",
+      "source": "The Verge",
+      "category": "space",
+      "pubDate": "2026-04-25T12:00:00.000Z",
+      "relevanceScore": 130.83,
+      "recommendationScore": 131.83,
       "tags": [
-        "Exclusive"
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Sho Miyake answers life’s greatest questions",
+      "link": "https://www.theverge.com/entertainment/918313/director-sho-miyake-interview",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-25T12:00:00.000Z",
+      "relevanceScore": 119.83,
+      "recommendationScore": 119.83,
+      "tags": [
+        "Partnership"
       ],
       "readingLevel": "advanced"
     },
@@ -305,12 +268,39 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-04-23T14:00:00.000Z",
-      "relevanceScore": 154.82,
-      "recommendationScore": 155.32,
+      "relevanceScore": 107.63,
+      "recommendationScore": 108.13,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "OpenAI boss 'deeply sorry' for not telling police of mass shooting suspect's account",
+      "link": "https://www.bbc.com/news/articles/cq6je7e80r7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-04-24T22:45:28.000Z",
+      "relevanceScore": 68.68,
+      "recommendationScore": 69.18,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "XChat, the standalone app for messaging on X, is available on iOS now",
+      "link": "https://www.engadget.com/apps/xchat-the-standalone-app-for-messaging-on-x-is-available-on-ios-now-214826886.html?src=rss",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-04-24T21:48:26.000Z",
+      "relevanceScore": 64.49,
+      "recommendationScore": 64.99,
+      "tags": [
+        "Mobile",
+        "Web",
+        "Exclusive",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "US won't renew Iranian and Russian oil waivers, Bessent says",
@@ -318,8 +308,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-24T22:48:32.000Z",
-      "relevanceScore": 149.38,
-      "recommendationScore": 151.88,
+      "relevanceScore": 63.19,
+      "recommendationScore": 65.69,
       "tags": [
         "Acquisition"
       ],
@@ -331,39 +321,25 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-04-24T20:45:58.000Z",
-      "relevanceScore": 148.98,
-      "recommendationScore": 149.48,
+      "relevanceScore": 62.78,
+      "recommendationScore": 63.28,
       "tags": [
         "Update"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Best Apps for Focus (2026): Focus Friend, Forest, Focus Traveller",
-      "link": "https://www.wired.com/story/3-focus-timer-apps-focus-friend-forest-focus-traveller/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-04-25T11:30:00.000Z",
-      "relevanceScore": 147.92,
-      "recommendationScore": 149.42,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "XChat, the standalone app for messaging on X, is available on iOS now",
-      "link": "https://www.engadget.com/apps/xchat-the-standalone-app-for-messaging-on-x-is-available-on-ios-now-214826886.html?src=rss",
+      "title": "Vampire Crawlers, Peter Molyneux's return and other new indie games worth checking out",
+      "link": "https://www.engadget.com/gaming/vampire-crawlers-peter-molyneuxs-return-and-other-new-indie-games-worth-checking-out-110000340.html?src=rss",
       "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-04-24T21:48:26.000Z",
-      "relevanceScore": 146.18,
-      "recommendationScore": 146.68,
+      "category": "gaming",
+      "pubDate": "2026-04-25T11:00:00.000Z",
+      "relevanceScore": 56.63,
+      "recommendationScore": 59.13,
       "tags": [
-        "Mobile",
-        "Web",
-        "Exclusive",
         "Launch"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Tensions flare in heated I'm A Celebrity live final",
@@ -371,10 +347,37 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-25T09:33:37.000Z",
-      "relevanceScore": 130.53,
-      "recommendationScore": 131.03,
+      "relevanceScore": 37.34,
+      "recommendationScore": 37.84,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’",
+      "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-04-24T21:35:30.000Z",
+      "relevanceScore": 35.45,
+      "recommendationScore": 35.95,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Health-care AI is here. We don’t know if it actually helps patients.",
+      "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-04-24T09:00:00.000Z",
+      "relevanceScore": 34.93,
+      "recommendationScore": 35.43,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Airlines face headwinds as Iran war leads to rising fuel costs",
@@ -382,9 +385,33 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-04-24T22:00:23.000Z",
-      "relevanceScore": 125.22,
-      "recommendationScore": 125.72,
+      "relevanceScore": 32.03,
+      "recommendationScore": 32.53,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Relish and dread as Starmer 'shambles' hangs over Scotland and Wales elections",
+      "link": "https://www.bbc.com/news/articles/cq59xvdzjv7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-25T12:07:54.000Z",
+      "relevanceScore": 31.85,
+      "recommendationScore": 32.35,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Artemis II broke Fred Haise's distance record, but he is happy to pass it on",
+      "link": "https://arstechnica.com/science/2026/04/artemis-ii-broke-fred-haises-distance-record-but-he-is-happy-to-pass-it-on/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-04-25T11:40:58.000Z",
+      "relevanceScore": 31.76,
+      "recommendationScore": 32.26,
+      "tags": [
+        "Partnership"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -393,10 +420,23 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-25T10:49:52.000Z",
-      "relevanceScore": 124.79,
-      "recommendationScore": 125.29,
+      "relevanceScore": 31.59,
+      "recommendationScore": 32.09,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Two children die in house fire in Wolverhampton",
+      "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-25T10:10:21.000Z",
+      "relevanceScore": 31.46,
+      "recommendationScore": 31.46,
+      "tags": [
+        "Breaking"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "The Online Civil War About ‘Michael’ Is a Battle Over Truth",
@@ -404,26 +444,12 @@
       "source": "Wired",
       "category": "entertainment",
       "pubDate": "2026-04-25T10:00:00.000Z",
-      "relevanceScore": 124.62,
-      "recommendationScore": 125.12,
+      "relevanceScore": 31.43,
+      "recommendationScore": 31.93,
       "tags": [
         "Web"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’",
-      "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-04-24T21:35:30.000Z",
-      "relevanceScore": 124.14,
-      "recommendationScore": 124.64,
-      "tags": [
-        "AI",
-        "Startup"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage",
@@ -431,8 +457,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-24T21:05:59.000Z",
-      "relevanceScore": 124.04,
-      "recommendationScore": 124.54,
+      "relevanceScore": 30.85,
+      "recommendationScore": 31.35,
       "tags": [
         "AI",
         "Tech",
@@ -442,15 +468,61 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+      "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-04-25T01:18:33.000Z",
+      "relevanceScore": 30.19,
+      "recommendationScore": 30.69,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Justice Department drops probe into Fed Chair Jerome Powell",
       "link": "https://www.npr.org/2026/04/24/nx-s1-5798661/justice-department-drops-inquiry-into-fed-chair-jerome-powell",
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-04-24T15:02:17.000Z",
-      "relevanceScore": 122.33,
-      "recommendationScore": 122.83,
+      "relevanceScore": 29.14,
+      "recommendationScore": 29.64,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
+      "link": "https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2026-04-25T02:52:37.000Z",
+      "relevanceScore": 28.5,
+      "recommendationScore": 29,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US imposes sanctions on a China-based oil refinery and 40 shippers over Iranian oil",
+      "link": "https://abcnews.com/Business/wireStory/us-imposes-sanctions-china-based-oil-refinery-40-132357838",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-24T18:58:28.000Z",
+      "relevanceScore": 26.92,
+      "recommendationScore": 27.42,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Maine governor vetoes bill temporarily banning large data centers in the state",
+      "link": "https://www.engadget.com/ai/maine-governor-vetoes-bill-temporarily-banning-large-data-centers-in-the-state-210407936.html?src=rss",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-04-24T21:04:07.000Z",
+      "relevanceScore": 26.84,
+      "recommendationScore": 27.34,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "French police probe suspected weather device tampering after odd Polymarket bet",
@@ -458,8 +530,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-04-23T22:22:38.000Z",
-      "relevanceScore": 119.5,
-      "recommendationScore": 120,
+      "relevanceScore": 26.3,
+      "recommendationScore": 26.8,
       "tags": [
         "Business"
       ],
@@ -471,80 +543,19 @@
       "source": "BBC Technology",
       "category": "finance",
       "pubDate": "2026-04-24T10:00:42.000Z",
-      "relevanceScore": 119.32,
-      "recommendationScore": 119.82,
+      "relevanceScore": 26.13,
+      "recommendationScore": 26.63,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "A Battlefield movie adaptation is on the way, possibly starring Michael B. Jordan",
-      "link": "https://www.engadget.com/entertainment/a-battlefield-movie-adaptation-is-on-the-way-possibly-starring-michael-b-jordan-201906079.html?src=rss",
-      "source": "Engadget",
-      "category": "entertainment",
-      "pubDate": "2026-04-24T20:19:06.000Z",
-      "relevanceScore": 61.89,
-      "recommendationScore": 62.39,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Quem é o destaque da comunidade?",
-      "link": "https://dev.to/morgannadev/quem-e-o-destaque-da-comunidade-53c5",
+      "title": "靠2M 的 Via 浏览器，独立开发者如何年入千万？",
+      "link": "https://dev.to/gokuscraper/kao-2m-de-via-liu-lan-qi-du-li-kai-fa-zhe-ru-he-nian-ru-qian-mo--2pdm",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-04-25T11:40:19.000Z",
-      "relevanceScore": 49.96,
-      "recommendationScore": 49.96,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Vampire Crawlers, Peter Molyneux's return and other new indie games worth checking out",
-      "link": "https://www.engadget.com/gaming/vampire-crawlers-peter-molyneuxs-return-and-other-new-indie-games-worth-checking-out-110000340.html?src=rss",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-04-25T11:00:00.000Z",
-      "relevanceScore": 49.82,
-      "recommendationScore": 52.32,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Two children die in house fire in Wolverhampton",
-      "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-25T10:10:21.000Z",
-      "relevanceScore": 31.66,
-      "recommendationScore": 31.66,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
-      "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-04-25T01:18:33.000Z",
-      "relevanceScore": 28.88,
-      "recommendationScore": 29.38,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
-      "link": "https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2026-04-25T02:52:37.000Z",
-      "relevanceScore": 24.2,
-      "recommendationScore": 24.7,
+      "pubDate": "2026-04-25T12:36:03.000Z",
+      "relevanceScore": 23.95,
+      "recommendationScore": 23.95,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -554,19 +565,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-24T23:58:33.000Z",
-      "relevanceScore": 23.62,
-      "recommendationScore": 24.12,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "US imposes sanctions on a China-based oil refinery and 40 shippers over Iranian oil",
-      "link": "https://abcnews.com/Business/wireStory/us-imposes-sanctions-china-based-oil-refinery-40-132357838",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-24T18:58:28.000Z",
-      "relevanceScore": 22.62,
-      "recommendationScore": 23.12,
+      "relevanceScore": 23.42,
+      "recommendationScore": 23.92,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -578,7 +578,7 @@
         "link": "https://arstechnica.com/ai/2026/04/google-will-invest-as-much-as-40-billion-in-anthropic/",
         "source": "Ars Technica",
         "pubDate": "2026-04-24T22:05:45.000Z",
-        "relevanceScore": 2135.24,
+        "relevanceScore": 2220.05,
         "tags": [
           "Business",
           "Funding"
@@ -589,7 +589,7 @@
         "link": "https://techcrunch.com/2026/04/24/steve-ballmer-blasts-founder-he-backed-who-pleaded-guilty-to-fraud-i-was-duped-and-feel-silly/",
         "source": "TechCrunch",
         "pubDate": "2026-04-24T23:32:11.000Z",
-        "relevanceScore": 1046.53,
+        "relevanceScore": 1094.34,
         "tags": [
           "Startup"
         ]
@@ -599,33 +599,7 @@
         "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
         "source": "TechCrunch",
         "pubDate": "2026-04-24T21:53:44.000Z",
-        "relevanceScore": 793.2,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "OpenAI boss 'deeply sorry' for not telling police of mass shooting suspect's account",
-        "link": "https://www.bbc.com/news/articles/cq6je7e80r7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-04-24T22:45:28.000Z",
-        "relevanceScore": 415.87,
-        "tags": []
-      },
-      {
-        "title": "Maine governor vetoes bill temporarily banning large data centers in the state",
-        "link": "https://www.engadget.com/ai/maine-governor-vetoes-bill-temporarily-banning-large-data-centers-in-the-state-210407936.html?src=rss",
-        "source": "Engadget",
-        "pubDate": "2026-04-24T21:04:07.000Z",
-        "relevanceScore": 263.04,
-        "tags": []
-      },
-      {
-        "title": "Alex Jones has uncovered another massive conspiracy",
-        "link": "https://www.theverge.com/news/918527/alex-jones-infowars-takeover-the-onion-tim-heidecker",
-        "source": "The Verge",
-        "pubDate": "2026-04-24T20:10:00.000Z",
-        "relevanceScore": 243.86,
+        "relevanceScore": 666.01,
         "tags": [
           "Tech"
         ]
@@ -635,15 +609,43 @@
         "link": "https://www.wired.com/story/3-focus-timer-apps-focus-friend-forest-focus-traveller/",
         "source": "Wired",
         "pubDate": "2026-04-25T11:30:00.000Z",
-        "relevanceScore": 147.92,
+        "relevanceScore": 159.73,
         "tags": []
+      },
+      {
+        "title": "Sho Miyake answers life’s greatest questions",
+        "link": "https://www.theverge.com/entertainment/918313/director-sho-miyake-interview",
+        "source": "The Verge",
+        "pubDate": "2026-04-25T12:00:00.000Z",
+        "relevanceScore": 119.83,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "OpenAI boss 'deeply sorry' for not telling police of mass shooting suspect's account",
+        "link": "https://www.bbc.com/news/articles/cq6je7e80r7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-24T22:45:28.000Z",
+        "relevanceScore": 68.68,
+        "tags": []
+      },
+      {
+        "title": "Artemis II broke Fred Haise's distance record, but he is happy to pass it on",
+        "link": "https://arstechnica.com/science/2026/04/artemis-ii-broke-fred-haises-distance-record-but-he-is-happy-to-pass-it-on/",
+        "source": "Ars Technica",
+        "pubDate": "2026-04-25T11:40:58.000Z",
+        "relevanceScore": 31.76,
+        "tags": [
+          "Partnership"
+        ]
       },
       {
         "title": "Palantir employees are talking about company's \"descent into fascism\"",
         "link": "https://arstechnica.com/tech-policy/2026/04/palantir-employees-are-talking-about-companys-descent-into-fascism/",
         "source": "Ars Technica",
         "pubDate": "2026-04-25T10:49:52.000Z",
-        "relevanceScore": 124.79,
+        "relevanceScore": 31.59,
         "tags": []
       },
       {
@@ -651,41 +653,17 @@
         "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-25T01:18:33.000Z",
-        "relevanceScore": 28.88,
+        "relevanceScore": 30.19,
         "tags": [
           "Tech"
         ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "The person who allegedly leaked Paramount’s new Avatar movie has been arrested",
-        "link": "https://www.theverge.com/entertainment/918250/avatar-aang-the-last-airbender-leaks-arrest-paramount-plus",
-        "source": "The Verge",
-        "pubDate": "2026-04-24T19:45:01.000Z",
-        "relevanceScore": 889.77,
-        "tags": [
-          "Web",
-          "Analysis",
-          "Launch"
-        ]
       },
       {
-        "title": "The Online Civil War About ‘Michael’ Is a Battle Over Truth",
-        "link": "https://www.wired.com/story/the-online-civil-war-about-michael-is-a-battle-over-truth/",
-        "source": "Wired",
-        "pubDate": "2026-04-25T10:00:00.000Z",
-        "relevanceScore": 124.62,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "A Battlefield movie adaptation is on the way, possibly starring Michael B. Jordan",
-        "link": "https://www.engadget.com/entertainment/a-battlefield-movie-adaptation-is-on-the-way-possibly-starring-michael-b-jordan-201906079.html?src=rss",
+        "title": "Maine governor vetoes bill temporarily banning large data centers in the state",
+        "link": "https://www.engadget.com/ai/maine-governor-vetoes-bill-temporarily-banning-large-data-centers-in-the-state-210407936.html?src=rss",
         "source": "Engadget",
-        "pubDate": "2026-04-24T20:19:06.000Z",
-        "relevanceScore": 61.89,
+        "pubDate": "2026-04-24T21:04:07.000Z",
+        "relevanceScore": 26.84,
         "tags": []
       }
     ],
@@ -695,7 +673,7 @@
         "link": "https://www.theverge.com/gadgets/917340/us-worst-smartphones-china-batteries-cameras-apple-iphone-john-ternus",
         "source": "The Verge",
         "pubDate": "2026-04-25T11:00:00.000Z",
-        "relevanceScore": 872.82,
+        "relevanceScore": 911.13,
         "tags": [
           "Tech",
           "Business",
@@ -707,12 +685,26 @@
         "link": "https://www.engadget.com/apps/xchat-the-standalone-app-for-messaging-on-x-is-available-on-ios-now-214826886.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-24T21:48:26.000Z",
-        "relevanceScore": 146.18,
+        "relevanceScore": 64.49,
         "tags": [
           "Mobile",
           "Web",
           "Exclusive",
           "Launch"
+        ]
+      }
+    ],
+    "cloud": [
+      {
+        "title": "The Announcement Google Cloud NEXT Made That Will Actually Change How Robots Work",
+        "link": "https://dev.to/motedb/the-announcement-google-cloud-next-made-that-will-actually-change-how-robots-work-4p0i",
+        "source": "Dev.to",
+        "pubDate": "2026-04-25T12:40:54.000Z",
+        "relevanceScore": 723.46,
+        "tags": [
+          "Tech",
+          "Cloud",
+          "Partnership"
         ]
       }
     ],
@@ -722,18 +714,8 @@
         "link": "https://www.wired.com/story/security-news-this-week-discord-sleuths-gained-unauthorized-access-to-anthropics-mythos/",
         "source": "Wired",
         "pubDate": "2026-04-25T10:30:00.000Z",
-        "relevanceScore": 748.72,
+        "relevanceScore": 671.53,
         "tags": []
-      },
-      {
-        "title": "Europe—not US—first to authorize Moderna's combo mRNA flu-COVID vaccine",
-        "link": "https://arstechnica.com/health/2026/04/europe-not-us-first-to-authorize-modernas-combo-mrna-flu-covid-vaccine/",
-        "source": "Ars Technica",
-        "pubDate": "2026-04-24T21:11:43.000Z",
-        "relevanceScore": 166.06,
-        "tags": [
-          "Exclusive"
-        ]
       }
     ],
     "ai-ml": [
@@ -742,10 +724,20 @@
         "link": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-24T12:10:00.000Z",
-        "relevanceScore": 527.26,
+        "relevanceScore": 472.56,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "Fairness in Child Safety AI: Why Demographic Parity Audits Are Not Optional",
+        "link": "https://dev.to/sentinelsafety/fairness-in-child-safety-ai-why-demographic-parity-audits-are-not-optional-3iem",
+        "source": "Dev.to",
+        "pubDate": "2026-04-25T12:36:48.000Z",
+        "relevanceScore": 167.45,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -753,17 +745,7 @@
         "link": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-24T21:40:58.000Z",
-        "relevanceScore": 507.16,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Health-care AI is here. We don’t know if it actually helps patients.",
-        "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-04-24T09:00:00.000Z",
-        "relevanceScore": 266.62,
+        "relevanceScore": 166.96,
         "tags": [
           "AI"
         ]
@@ -773,7 +755,7 @@
         "link": "https://stackoverflow.blog/2026/04/23/black-box-ai-drift-ai-tools-are-making-design-decisions-nobody-asked-for/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-04-23T14:00:00.000Z",
-        "relevanceScore": 154.82,
+        "relevanceScore": 107.63,
         "tags": [
           "AI"
         ]
@@ -783,10 +765,20 @@
         "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
         "source": "TechCrunch",
         "pubDate": "2026-04-24T21:35:30.000Z",
-        "relevanceScore": 124.14,
+        "relevanceScore": 35.45,
         "tags": [
           "AI",
           "Startup"
+        ]
+      },
+      {
+        "title": "Health-care AI is here. We don’t know if it actually helps patients.",
+        "link": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-04-24T09:00:00.000Z",
+        "relevanceScore": 34.93,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -794,59 +786,12 @@
         "link": "https://techcrunch.com/2026/04/24/two-college-kids-raise-a-5-1-million-pre-seed-to-build-an-ai-social-network-in-imessage/",
         "source": "TechCrunch",
         "pubDate": "2026-04-24T21:05:59.000Z",
-        "relevanceScore": 124.04,
+        "relevanceScore": 30.85,
         "tags": [
           "AI",
           "Tech",
           "Mobile",
           "Funding"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
-        "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-25T00:10:51.000Z",
-        "relevanceScore": 453.66,
-        "tags": []
-      },
-      {
-        "title": "Explosions and gunfire as armed groups launch coordinated attacks across Mali",
-        "link": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-25T11:21:03.000Z",
-        "relevanceScore": 305.89,
-        "tags": [
-          "Report",
-          "Launch"
-        ]
-      },
-      {
-        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-24T23:28:09.000Z",
-        "relevanceScore": 175.52,
-        "tags": []
-      },
-      {
-        "title": "Tensions flare in heated I'm A Celebrity live final",
-        "link": "https://www.bbc.com/news/articles/cy8138z5zn7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-25T09:33:37.000Z",
-        "relevanceScore": 130.53,
-        "tags": []
-      },
-      {
-        "title": "Two children die in house fire in Wolverhampton",
-        "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-25T10:10:21.000Z",
-        "relevanceScore": 31.66,
-        "tags": [
-          "Breaking"
         ]
       }
     ],
@@ -856,7 +801,15 @@
         "link": "https://www.wired.com/story/saros-shows-off-the-ps5-dualsense-tricks/",
         "source": "Wired",
         "pubDate": "2026-04-25T10:30:00.000Z",
-        "relevanceScore": 407.72,
+        "relevanceScore": 428.53,
+        "tags": []
+      },
+      {
+        "title": "Engadget review recap: DJI Osmo Pocket 4, Recteq X-Fire Pro and Alienware 27 QD-OLED",
+        "link": "https://www.engadget.com/engadget-review-recap-dji-osmo-pocket-4-recteq-x-fire-pro-and-alienware-27-qd-oled-120000428.html?src=rss",
+        "source": "Engadget",
+        "pubDate": "2026-04-25T12:00:00.000Z",
+        "relevanceScore": 231.83,
         "tags": []
       },
       {
@@ -864,7 +817,7 @@
         "link": "https://www.theverge.com/tech/918572/microsoft-windows-updates-pause-35-days",
         "source": "The Verge",
         "pubDate": "2026-04-24T20:45:58.000Z",
-        "relevanceScore": 148.98,
+        "relevanceScore": 62.78,
         "tags": [
           "Update"
         ]
@@ -874,7 +827,7 @@
         "link": "https://www.engadget.com/gaming/vampire-crawlers-peter-molyneuxs-return-and-other-new-indie-games-worth-checking-out-110000340.html?src=rss",
         "source": "Engadget",
         "pubDate": "2026-04-25T11:00:00.000Z",
-        "relevanceScore": 49.82,
+        "relevanceScore": 56.63,
         "tags": [
           "Launch"
         ]
@@ -886,78 +839,11 @@
         "link": "https://www.bbc.com/news/articles/cq8wnzly5j5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-24T14:40:23.000Z",
-        "relevanceScore": 381.76,
+        "relevanceScore": 292.56,
         "tags": [
           "Security",
           "Web"
         ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "The APIs Quietly Powering the Products You Use Every Day",
-        "link": "https://dev.to/lycore/the-apis-quietly-powering-the-products-you-use-every-day-1ldo",
-        "source": "Dev.to",
-        "pubDate": "2026-04-25T11:40:10.000Z",
-        "relevanceScore": 358.96,
-        "tags": []
-      },
-      {
-        "title": "Justice Department drops probe into Fed Chair Jerome Powell",
-        "link": "https://www.npr.org/2026/04/24/nx-s1-5798661/justice-department-drops-inquiry-into-fed-chair-jerome-powell",
-        "source": "NPR Business",
-        "pubDate": "2026-04-24T15:02:17.000Z",
-        "relevanceScore": 122.33,
-        "tags": []
-      },
-      {
-        "title": "French police probe suspected weather device tampering after odd Polymarket bet",
-        "link": "https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet",
-        "source": "NPR Business",
-        "pubDate": "2026-04-23T22:22:38.000Z",
-        "relevanceScore": 119.5,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "Biobank data incident caused by 'a few bad apples', boss says",
-        "link": "https://www.bbc.com/news/articles/clyedyn6pz7o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-04-24T10:00:42.000Z",
-        "relevanceScore": 119.32,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "How to Connect Power BI to Aiven PostgreSQL Using ODBC (Step-by-Step Guide)",
-        "link": "https://dev.to/mburu_champ/how-to-connect-power-bi-to-aiven-postgresql-using-odbc-step-by-step-guide-1m3b",
-        "source": "Dev.to",
-        "pubDate": "2026-04-25T11:44:25.000Z",
-        "relevanceScore": 286.47,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "Lights, camera, open source!",
-        "link": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-04-24T07:40:00.000Z",
-        "relevanceScore": 182.36,
-        "tags": [
-          "Tech",
-          "Web"
-        ]
-      },
-      {
-        "title": "Quem é o destaque da comunidade?",
-        "link": "https://dev.to/morgannadev/quem-e-o-destaque-da-comunidade-53c5",
-        "source": "Dev.to",
-        "pubDate": "2026-04-25T11:40:19.000Z",
-        "relevanceScore": 49.96,
-        "tags": []
       }
     ],
     "startup": [
@@ -966,11 +852,96 @@
         "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
         "source": "TechCrunch",
         "pubDate": "2026-04-25T03:30:00.000Z",
-        "relevanceScore": 242.82,
+        "relevanceScore": 267.63,
         "tags": [
           "Startup",
           "Funding"
         ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+        "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-25T00:10:51.000Z",
+        "relevanceScore": 237.46,
+        "tags": []
+      },
+      {
+        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-24T23:28:09.000Z",
+        "relevanceScore": 139.82,
+        "tags": []
+      },
+      {
+        "title": "Tensions flare in heated I'm A Celebrity live final",
+        "link": "https://www.bbc.com/news/articles/cy8138z5zn7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-25T09:33:37.000Z",
+        "relevanceScore": 37.34,
+        "tags": []
+      },
+      {
+        "title": "Relish and dread as Starmer 'shambles' hangs over Scotland and Wales elections",
+        "link": "https://www.bbc.com/news/articles/cq59xvdzjv7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-25T12:07:54.000Z",
+        "relevanceScore": 31.85,
+        "tags": []
+      },
+      {
+        "title": "Two children die in house fire in Wolverhampton",
+        "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-25T10:10:21.000Z",
+        "relevanceScore": 31.46,
+        "tags": [
+          "Breaking"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "Lights, camera, open source!",
+        "link": "https://stackoverflow.blog/2026/04/24/lights-camera-open-source/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-04-24T07:40:00.000Z",
+        "relevanceScore": 202.16,
+        "tags": [
+          "Tech",
+          "Web"
+        ]
+      },
+      {
+        "title": "靠2M 的 Via 浏览器，独立开发者如何年入千万？",
+        "link": "https://dev.to/gokuscraper/kao-2m-de-via-liu-lan-qi-du-li-kai-fa-zhe-ru-he-nian-ru-qian-mo--2pdm",
+        "source": "Dev.to",
+        "pubDate": "2026-04-25T12:36:03.000Z",
+        "relevanceScore": 23.95,
+        "tags": []
+      }
+    ],
+    "space": [
+      {
+        "title": "The most exciting laptop I’ve seen in forever",
+        "link": "https://www.theverge.com/tech/918695/framework-laptop-stranger-things-installer",
+        "source": "The Verge",
+        "pubDate": "2026-04-25T12:00:00.000Z",
+        "relevanceScore": 130.83,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
+        "link": "https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/",
+        "source": "Ars Technica",
+        "pubDate": "2026-04-25T02:52:37.000Z",
+        "relevanceScore": 28.5,
+        "tags": []
       }
     ],
     "business": [
@@ -979,7 +950,7 @@
         "link": "https://abcnews.com/Business/wireStory/us-renew-iranian-russian-oil-waivers-bessent-132364972",
         "source": "ABC News Business",
         "pubDate": "2026-04-24T22:48:32.000Z",
-        "relevanceScore": 149.38,
+        "relevanceScore": 63.19,
         "tags": [
           "Acquisition"
         ]
@@ -989,15 +960,7 @@
         "link": "https://www.npr.org/2026/04/24/nx-s1-5797455/airlines-face-headwinds-as-iran-war-leads-to-rising-fuel-costs",
         "source": "NPR Business",
         "pubDate": "2026-04-24T22:00:23.000Z",
-        "relevanceScore": 125.22,
-        "tags": []
-      },
-      {
-        "title": "Screenwriters overwhelmingly approve a 4-year contract with Hollywood studios",
-        "link": "https://abcnews.com/Business/wireStory/screenwriters-overwhelmingly-approve-4-year-contract-hollywood-studios-132365722",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-24T23:58:33.000Z",
-        "relevanceScore": 23.62,
+        "relevanceScore": 32.03,
         "tags": []
       },
       {
@@ -1005,40 +968,78 @@
         "link": "https://abcnews.com/Business/wireStory/us-imposes-sanctions-china-based-oil-refinery-40-132357838",
         "source": "ABC News Business",
         "pubDate": "2026-04-24T18:58:28.000Z",
-        "relevanceScore": 22.62,
+        "relevanceScore": 26.92,
+        "tags": []
+      },
+      {
+        "title": "Screenwriters overwhelmingly approve a 4-year contract with Hollywood studios",
+        "link": "https://abcnews.com/Business/wireStory/screenwriters-overwhelmingly-approve-4-year-contract-hollywood-studios-132365722",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-24T23:58:33.000Z",
+        "relevanceScore": 23.42,
         "tags": []
       }
     ],
-    "space": [
+    "entertainment": [
       {
-        "title": "This is who's developing Golden Dome's orbital interceptors—if they're ever built",
-        "link": "https://arstechnica.com/space/2026/04/this-is-whos-developing-golden-domes-orbital-interceptors-if-theyre-ever-built/",
-        "source": "Ars Technica",
-        "pubDate": "2026-04-25T02:52:37.000Z",
-        "relevanceScore": 24.2,
+        "title": "The Online Civil War About ‘Michael’ Is a Battle Over Truth",
+        "link": "https://www.wired.com/story/the-online-civil-war-about-michael-is-a-battle-over-truth/",
+        "source": "Wired",
+        "pubDate": "2026-04-25T10:00:00.000Z",
+        "relevanceScore": 31.43,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "Justice Department drops probe into Fed Chair Jerome Powell",
+        "link": "https://www.npr.org/2026/04/24/nx-s1-5798661/justice-department-drops-inquiry-into-fed-chair-jerome-powell",
+        "source": "NPR Business",
+        "pubDate": "2026-04-24T15:02:17.000Z",
+        "relevanceScore": 29.14,
+        "tags": []
+      },
+      {
+        "title": "French police probe suspected weather device tampering after odd Polymarket bet",
+        "link": "https://www.npr.org/2026/04/23/nx-s1-5797876/polymarket-paris-weather-bet",
+        "source": "NPR Business",
+        "pubDate": "2026-04-23T22:22:38.000Z",
+        "relevanceScore": 26.3,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "Biobank data incident caused by 'a few bad apples', boss says",
+        "link": "https://www.bbc.com/news/articles/clyedyn6pz7o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-24T10:00:42.000Z",
+        "relevanceScore": 26.13,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 12,
-    "totalCategories": 13,
-    "avgRelevanceScore": 314.22113636363633,
+    "totalCategories": 14,
+    "avgRelevanceScore": 234.03068181818188,
     "topCategories": [
       {
         "category": "tech",
-        "count": 9
+        "count": 10
       },
       {
         "category": "ai-ml",
-        "count": 6
+        "count": 7
       },
       {
         "category": "general",
         "count": 5
       },
       {
-        "category": "finance",
+        "category": "gaming",
         "count": 4
       },
       {
