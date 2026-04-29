@@ -1,63 +1,64 @@
 {
-  "lastUpdated": "2026-04-29T15:25:46.619Z",
+  "lastUpdated": "2026-04-29T16:58:41.968Z",
   "totalDays": 30,
   "index": [
     {
       "date": "2026-04-29",
       "file": "2026-04-29.json",
-      "totalArticles": 43,
-      "lastUpdated": "2026-04-29T15:25:46.601Z",
+      "totalArticles": 47,
+      "lastUpdated": "2026-04-29T16:58:41.949Z",
       "sources": [
-        "GitHub Blog",
-        "Stack Overflow Blog",
-        "Ars Technica",
-        "BBC News",
-        "MIT Technology Review",
-        "The Verge",
-        "Wired",
-        "BBC Technology",
         "Dev.to",
-        "NPR Business",
+        "GitHub Blog",
+        "TechCrunch",
+        "Engadget",
+        "BBC Technology",
+        "Stack Overflow Blog",
+        "MIT Technology Review",
         "ABC News Business",
-        "TechCrunch"
+        "The Verge",
+        "NPR Business",
+        "Wired",
+        "BBC News",
+        "Ars Technica"
       ],
       "categories": [
         "development",
         "tech",
-        "general",
         "science",
-        "business"
+        "business",
+        "general"
       ],
       "topArticles": [
+        {
+          "title": "Strangler Fig in Go: Migrating a Monolith Without a Big-Bang Rewrite",
+          "source": "Dev.to",
+          "link": "https://dev.to/gabrielanhaia/strangler-fig-in-go-migrating-a-monolith-without-a-big-bang-rewrite-1b4k",
+          "relevanceScore": 4343.973062638889
+        },
         {
           "title": "Securing the git push pipeline: Responding to a critical remote code execution vulnerability",
           "source": "GitHub Blog",
           "link": "https://github.blog/security/securing-the-git-push-pipeline-responding-to-a-critical-remote-code-execution-vulnerability/",
-          "relevanceScore": 4425
+          "relevanceScore": 4244
         },
         {
           "title": "An update on GitHub availability",
           "source": "GitHub Blog",
           "link": "https://github.blog/news-insights/company-news/an-update-on-github-availability/",
-          "relevanceScore": 4121
+          "relevanceScore": 3932
         },
         {
           "title": "GitHub for Beginners: Getting started with Markdown",
           "source": "GitHub Blog",
           "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-markdown/",
-          "relevanceScore": 4097
+          "relevanceScore": 3834
         },
         {
-          "title": "Your LLM issues are really data issues",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2026/04/28/your-llm-issues-are-really-data-issues/",
-          "relevanceScore": 1323
-        },
-        {
-          "title": "Sam Altman is “the face of evil” for not reporting school shooter, says lawyer",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/tech-policy/2026/04/school-shooting-lawsuits-accuse-openai-of-hiding-violent-chatgpt-users/",
-          "relevanceScore": 1247.290888888889
+          "title": "Bill Gurley, Jack Altman back startup Pursuit, which helps companies sell to government",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/04/29/bill-gurley-jack-altman-back-startup-pursuit-which-helps-companies-sell-to-government/",
+          "relevanceScore": 1098.6777851388888
         }
       ]
     },
