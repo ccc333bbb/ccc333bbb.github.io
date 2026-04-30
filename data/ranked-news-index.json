@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-04-30T22:46:30.668Z",
+  "lastUpdated": "2026-04-30T23:45:47.226Z",
   "totalArticles": 44,
   "categories": [
     "ai-ml",
-    "cloud",
     "mobile",
     "tech",
-    "startup",
+    "finance",
     "entertainment",
+    "startup",
     "science",
-    "automotive",
-    "development",
-    "gaming",
     "business",
+    "gaming",
+    "cybersecurity",
+    "automotive",
     "general",
+    "development",
     "social"
   ],
   "topArticles": [
@@ -23,24 +24,24 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-04-30T16:00:00.000Z",
-      "relevanceScore": 1278.14,
-      "recommendationScore": 1279.64,
+      "relevanceScore": 1353.45,
+      "recommendationScore": 1354.95,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "You’re Not Writing Code Anymore — You’re Designing Agents",
-      "link": "https://dev.to/mmmattos/youre-not-writing-code-anymore-youre-designing-agents-2m08",
+      "title": "I Converted 10 Debugging Techniques into AI Prompts — Here's the Template",
+      "link": "https://dev.to/kenimo49/i-converted-10-debugging-techniques-into-ai-prompts-heres-the-template-23ok",
       "source": "Dev.to",
-      "category": "cloud",
-      "pubDate": "2026-04-30T22:24:29.000Z",
-      "relevanceScore": 929.43,
-      "recommendationScore": 929.93,
+      "category": "ai-ml",
+      "pubDate": "2026-04-30T23:28:25.000Z",
+      "relevanceScore": 1007.94,
+      "recommendationScore": 1008.44,
       "tags": [
-        "Tech",
-        "Cloud"
+        "AI",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -49,9 +50,9 @@
       "link": "https://www.bbc.com/news/articles/ce8pdk3l4d2o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "mobile",
-      "pubDate": "2026-04-30T22:22:11.000Z",
-      "relevanceScore": 911.42,
-      "recommendationScore": 911.92,
+      "pubDate": "2026-04-30T23:04:43.000Z",
+      "relevanceScore": 915.86,
+      "recommendationScore": 916.36,
       "tags": [
         "Mobile"
       ],
@@ -63,10 +64,34 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-30T18:19:28.000Z",
-      "relevanceScore": 797.61,
-      "recommendationScore": 797.61,
+      "relevanceScore": 890.41,
+      "recommendationScore": 890.41,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+      "source": "The Verge",
+      "category": "finance",
+      "pubDate": "2026-04-30T22:59:51.000Z",
+      "relevanceScore": 837.85,
+      "recommendationScore": 838.35,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Understanding How Modern Systems Interpret User Intent",
+      "link": "https://dev.to/abdabughazaleh/understanding-how-modern-systems-interpret-user-intent-26ko",
+      "source": "Dev.to",
+      "category": "entertainment",
+      "pubDate": "2026-04-30T23:14:16.000Z",
+      "relevanceScore": 771.39,
+      "recommendationScore": 773.39,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
@@ -74,25 +99,11 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-04-30T15:59:41.000Z",
-      "relevanceScore": 731.14,
-      "recommendationScore": 733.64,
+      "relevanceScore": 564.45,
+      "recommendationScore": 566.95,
       "tags": [
         "AI",
         "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
-      "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
-      "source": "MIT Technology Review",
-      "category": "startup",
-      "pubDate": "2026-04-30T18:42:50.000Z",
-      "relevanceScore": 524.69,
-      "recommendationScore": 525.19,
-      "tags": [
-        "Startup",
-        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -102,13 +113,27 @@
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2026-04-30T20:25:46.000Z",
-      "relevanceScore": 502.03,
-      "recommendationScore": 502.53,
+      "relevanceScore": 532.83,
+      "recommendationScore": 533.33,
       "tags": [
         "Exclusive",
         "Partnership"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
+      "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
+      "source": "MIT Technology Review",
+      "category": "startup",
+      "pubDate": "2026-04-30T18:42:50.000Z",
+      "relevanceScore": 497.99,
+      "recommendationScore": 498.49,
+      "tags": [
+        "Startup",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "The Download: the North Pole’s future and humanoid data",
@@ -116,12 +141,39 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-04-30T12:10:00.000Z",
-      "relevanceScore": 446.38,
-      "recommendationScore": 446.88,
+      "relevanceScore": 415.68,
+      "recommendationScore": 416.18,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Good Luck Getting a Mac Mini for the Next ‘Several Months’",
+      "link": "https://www.wired.com/story/apple-sold-out-mac-mini-openclaw/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-04-30T23:00:51.000Z",
+      "relevanceScore": 414.85,
+      "recommendationScore": 415.35,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Is Experience overlooked in Tech?",
+      "link": "https://dev.to/mmmattos/is-experience-overlooked-in-tech-4dm0",
+      "source": "Dev.to",
+      "category": "finance",
+      "pubDate": "2026-04-30T23:13:53.000Z",
+      "relevanceScore": 411.89,
+      "recommendationScore": 411.89,
+      "tags": [
+        "Tech",
+        "Business"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "OpenAI tells ChatGPT models to stop talking about goblins",
@@ -129,76 +181,25 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-04-30T13:28:04.000Z",
-      "relevanceScore": 442.14,
-      "recommendationScore": 443.64,
+      "relevanceScore": 411.44,
+      "recommendationScore": 412.94,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Rivian’s revenue is up as R2 production kicks into gear",
-      "link": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
-      "source": "The Verge",
-      "category": "automotive",
-      "pubDate": "2026-04-30T20:05:00.000Z",
-      "relevanceScore": 438.46,
-      "recommendationScore": 438.96,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The most severe Linux threat to surface in years catches the world flat-footed",
-      "link": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
-      "source": "Ars Technica",
-      "category": "cloud",
-      "pubDate": "2026-04-30T20:20:48.000Z",
-      "relevanceScore": 406.01,
-      "recommendationScore": 406.51,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why 42i?",
-      "link": "https://dev.to/cristianventura/why-42i-b83",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-30T22:24:22.000Z",
-      "relevanceScore": 392.93,
-      "recommendationScore": 394.43,
-      "tags": [
-        "Tech",
-        "Exclusive",
-        "Tutorial",
-        "Interview"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Rivian downsizes DOE loan to $4.5B, while boosting capacity of Georgia factory",
-      "link": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-while-boosting-capacity-of-georgia-factory/",
+      "title": "Rivian downsizes DOE loan to $4.5B of Georgia factory",
+      "link": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-of-georgia-factory/",
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-30T20:02:02.000Z",
-      "relevanceScore": 311.45,
-      "recommendationScore": 311.95,
+      "relevanceScore": 393.25,
+      "recommendationScore": 393.75,
       "tags": [
         "Partnership"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "How Spirit Airlines grew so fast — and why it's experiencing so much turbulence now",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5804996/how-spirit-airlines-grew-so-fast-and-why-its-experiencing-so-much-turbulence-now",
-      "source": "NPR Business",
-      "category": "gaming",
-      "pubDate": "2026-04-30T21:57:30.000Z",
-      "relevanceScore": 294.34,
-      "recommendationScore": 296.34,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
@@ -206,8 +207,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-30T20:14:47.000Z",
-      "relevanceScore": 205.99,
-      "recommendationScore": 206.49,
+      "relevanceScore": 360.3,
+      "recommendationScore": 360.8,
       "tags": [
         "AI",
         "Startup",
@@ -216,13 +217,24 @@
       "readingLevel": "beginner"
     },
     {
+      "title": "Trump gives go-ahead to major new Canada-US oil pipeline",
+      "link": "https://abcnews.com/Business/wireStory/trump-ahead-major-new-canada-us-oil-pipeline-132553580",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-04-30T21:57:26.000Z",
+      "relevanceScore": 357.64,
+      "recommendationScore": 360.14,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "The Onion's bid to take over Alex Jones' Infowars is in limbo as new court battles emerge",
       "link": "https://abcnews.com/Business/wireStory/onions-bid-alex-jones-infowars-limbo-new-court-132549518",
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-30T20:07:36.000Z",
-      "relevanceScore": 202.97,
-      "recommendationScore": 205.47,
+      "relevanceScore": 357.27,
+      "recommendationScore": 359.77,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -232,36 +244,12 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-04-30T18:54:54.000Z",
-      "relevanceScore": 202.73,
-      "recommendationScore": 203.23,
+      "relevanceScore": 357.03,
+      "recommendationScore": 357.53,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "The Onion's bid to take over Infowars moves to the Texas Supreme Court",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5806038/the-onion-infowars-alex-jones-texas-supreme-court",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-04-30T17:56:17.000Z",
-      "relevanceScore": 156.03,
-      "recommendationScore": 156.53,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump gives go-ahead to major new Canada-US oil pipeline",
-      "link": "https://abcnews.com/Business/wireStory/trump-ahead-major-new-canada-us-oil-pipeline-132553580",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-04-30T21:57:26.000Z",
-      "relevanceScore": 154.84,
-      "recommendationScore": 157.34,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Modder releases loader to turn the PS5 into a Linux system",
@@ -269,10 +257,21 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-04-30T20:49:53.000Z",
-      "relevanceScore": 152.61,
-      "recommendationScore": 153.11,
+      "relevanceScore": 355.41,
+      "recommendationScore": 355.91,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "How Spirit Airlines grew so fast — and why it's experiencing so much turbulence now",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5804996/how-spirit-airlines-grew-so-fast-and-why-its-experiencing-so-much-turbulence-now",
+      "source": "NPR Business",
+      "category": "gaming",
+      "pubDate": "2026-04-30T21:57:30.000Z",
+      "relevanceScore": 291.14,
+      "recommendationScore": 293.14,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "You can now choose which games use Quick Resume on Xbox",
@@ -280,37 +279,36 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-04-30T19:48:57.000Z",
-      "relevanceScore": 131.91,
-      "recommendationScore": 132.41,
+      "relevanceScore": 144.71,
+      "recommendationScore": 145.21,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "How to Calculate Business Days Between Two Dates in JavaScript",
-      "link": "https://dev.to/sabita_kumari_7b0e5b47ad5/how-to-calculate-business-days-between-two-dates-in-javascript-16h6",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-04-30T22:38:25.000Z",
-      "relevanceScore": 92.97,
-      "recommendationScore": 94.97,
+      "title": "New footage shows how Trump dinner gunman charged through security in four seconds",
+      "link": "https://www.bbc.com/news/articles/c4g7rmrlm17o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "cybersecurity",
+      "pubDate": "2026-04-30T23:39:06.000Z",
+      "relevanceScore": 58.48,
+      "recommendationScore": 62.48,
       "tags": [
-        "Business",
-        "Tutorial"
+        "Security"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Trump to remove whisky tariffs after King's visit",
-      "link": "https://www.bbc.com/news/articles/cjrp3pew2d5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-30T21:45:57.000Z",
-      "relevanceScore": 80.3,
-      "recommendationScore": 80.3,
+      "title": "Twitch streamer hit by car live on camera - 'It felt like slow motion'",
+      "link": "https://www.bbc.com/news/articles/cn8pjz2qwego?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "automotive",
+      "pubDate": "2026-04-30T17:24:25.000Z",
+      "relevanceScore": 50.73,
+      "recommendationScore": 51.23,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "UK terrorism threat level raised to severe after Golders Green attack",
@@ -318,10 +316,82 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-04-30T21:18:19.000Z",
-      "relevanceScore": 80.21,
-      "recommendationScore": 80.71,
+      "relevanceScore": 31.51,
+      "recommendationScore": 32.01,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "'I held down Golders Green suspect' says volunteer who grabbed ankle",
+      "link": "https://www.bbc.com/news/articles/cn7pyp13y8no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-30T20:54:50.000Z",
+      "relevanceScore": 31.43,
+      "recommendationScore": 31.93,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "WW2 bomb to be blown up as 1,200 homes evacuated",
+      "link": "https://www.bbc.com/news/articles/c62650ld8p3o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-30T18:48:46.000Z",
+      "relevanceScore": 31.01,
+      "recommendationScore": 31.01,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Teens who lured man to beach to kill him sentenced to between five and seven years' custody",
+      "link": "https://www.bbc.com/news/articles/c1m290e0x3xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-04-30T16:31:50.000Z",
+      "relevanceScore": 30.55,
+      "recommendationScore": 31.05,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The economy is growing – but soaring energy prices could put a damper on that",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805905/the-economy-is-growing-but-soaring-energy-prices-could-put-a-damper-on-that",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-04-30T21:58:25.000Z",
+      "relevanceScore": 28.64,
+      "recommendationScore": 29.14,
+      "tags": [
+        "Business",
+        "Exclusive"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119648/trump-canada-us-oil-bridger-pipeline-expansion",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-04-30T23:18:15.000Z",
+      "relevanceScore": 27.91,
+      "recommendationScore": 30.41,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+      "link": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-04-30T23:07:56.000Z",
+      "relevanceScore": 27.87,
+      "recommendationScore": 28.37,
+      "tags": [
+        "AI",
+        "Funding"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Apple was surprised by AI-driven demand for Macs",
@@ -329,8 +399,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-04-30T22:12:52.000Z",
-      "relevanceScore": 76.39,
-      "recommendationScore": 76.39,
+      "relevanceScore": 27.69,
+      "recommendationScore": 27.69,
       "tags": [
         "AI"
       ],
@@ -342,26 +412,34 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-04-30T19:36:53.000Z",
-      "relevanceScore": 75.87,
-      "recommendationScore": 76.37,
+      "relevanceScore": 27.17,
+      "recommendationScore": 27.67,
       "tags": [
         "Web"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
-      "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-04-30T19:27:41.000Z",
-      "relevanceScore": 75.84,
-      "recommendationScore": 76.34,
-      "tags": [
-        "Security",
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
+      "title": "Trump nominates Fox News doctor to be the next surgeon general",
+      "link": "https://arstechnica.com/health/2026/04/trump-nominates-fox-news-doctor-to-be-the-next-surgeon-general/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-04-30T22:09:36.000Z",
+      "relevanceScore": 25.68,
+      "recommendationScore": 28.18,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "US falls below Ukraine in press freedom as global autocracy takes hold",
+      "link": "https://arstechnica.com/tech-policy/2026/04/us-falls-below-ukraine-in-press-freedom-as-global-autocracy-takes-hold/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-04-30T21:53:48.000Z",
+      "relevanceScore": 25.63,
+      "recommendationScore": 26.13,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Russia cloaks launch schedule after spaceport falls in Ukraine's sights",
@@ -369,21 +447,21 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-30T21:35:02.000Z",
-      "relevanceScore": 74.26,
-      "recommendationScore": 76.76,
+      "relevanceScore": 25.56,
+      "recommendationScore": 28.06,
       "tags": [
         "Launch"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Roblox’s daily users continue to drop as age-checks slow growth",
+      "title": "Roblox’s daily users continue to drop as age checks slow growth",
       "link": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-04-30T21:25:15.000Z",
-      "relevanceScore": 74.23,
-      "recommendationScore": 74.73,
+      "relevanceScore": 25.53,
+      "recommendationScore": 26.03,
       "tags": [
         "Report"
       ],
@@ -395,23 +473,23 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-04-30T21:11:51.000Z",
-      "relevanceScore": 74.18,
-      "recommendationScore": 74.68,
+      "relevanceScore": 25.49,
+      "recommendationScore": 25.99,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Meta cuts contractors who reported seeing Ray-Ban Meta users have sex",
-      "link": "https://arstechnica.com/gadgets/2026/04/meta-cuts-contractors-who-reported-seeing-ray-ban-meta-users-have-sex/",
-      "source": "Ars Technica",
-      "category": "social",
-      "pubDate": "2026-04-30T19:55:18.000Z",
-      "relevanceScore": 73.93,
-      "recommendationScore": 74.43,
+      "title": "Congress keeps kicking surveillance reform down the road",
+      "link": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-04-30T20:59:58.000Z",
+      "relevanceScore": 25.45,
+      "recommendationScore": 25.95,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "Trump says he's lifting certain tariffs on Scotch whisky after royal visit",
@@ -419,8 +497,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-04-30T19:15:41.000Z",
-      "relevanceScore": 73.8,
-      "recommendationScore": 74.3,
+      "relevanceScore": 25.1,
+      "recommendationScore": 25.6,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -430,8 +508,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-04-30T20:58:22.000Z",
-      "relevanceScore": 73.64,
-      "recommendationScore": 74.14,
+      "relevanceScore": 24.94,
+      "recommendationScore": 25.44,
       "tags": [
         "Mobile",
         "Interview"
@@ -439,86 +517,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
-      "link": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
-      "source": "Wired",
+      "title": "Will AI lead to more accurate opinion polls?",
+      "link": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "category": "ai-ml",
-      "pubDate": "2026-04-30T17:41:14.000Z",
-      "relevanceScore": 73.48,
-      "recommendationScore": 73.98,
+      "pubDate": "2026-04-30T23:11:37.000Z",
+      "relevanceScore": 24.89,
+      "recommendationScore": 24.89,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Twitch streamer hit by car live on camera - 'It felt like slow motion'",
-      "link": "https://www.bbc.com/news/articles/cn8pjz2qwego?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "automotive",
-      "pubDate": "2026-04-30T17:24:25.000Z",
-      "relevanceScore": 73.43,
-      "recommendationScore": 73.93,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "It's a miracle I survived, Golders Green victim tells BBC",
-      "link": "https://www.bbc.com/news/articles/cdxprzdjewjo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-30T22:35:41.000Z",
-      "relevanceScore": 31.96,
-      "recommendationScore": 32.46,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "WW2 bomb to be blown up as 1,200 homes evacuated",
-      "link": "https://www.bbc.com/news/articles/c62650ld8p3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-30T18:48:46.000Z",
-      "relevanceScore": 31.21,
-      "recommendationScore": 31.21,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Teens who lured man to beach to kill him sentenced to between five and seven years' custody",
-      "link": "https://www.bbc.com/news/articles/c1m290e0x3xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-04-30T16:31:50.000Z",
-      "relevanceScore": 30.75,
-      "recommendationScore": 31.25,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The economy is growing – but soaring energy prices could put a damper on that",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5805905/the-economy-is-growing-but-soaring-energy-prices-could-put-a-damper-on-that",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-04-30T21:58:25.000Z",
-      "relevanceScore": 28.84,
-      "recommendationScore": 29.34,
-      "tags": [
-        "Business",
-        "Exclusive"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Congress keeps kicking surveillance reform down the road",
-      "link": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-04-30T20:59:58.000Z",
-      "relevanceScore": 25.64,
-      "recommendationScore": 26.14,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Don’t Let Industry Jargon Cost You When Shopping for a Smart Bed",
@@ -526,8 +535,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-04-30T17:42:52.000Z",
-      "relevanceScore": 24.99,
-      "recommendationScore": 25.49,
+      "relevanceScore": 24.79,
+      "recommendationScore": 25.29,
       "tags": [
         "Tutorial"
       ],
@@ -539,8 +548,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-04-30T16:09:02.000Z",
-      "relevanceScore": 24.68,
-      "recommendationScore": 25.18,
+      "relevanceScore": 24.48,
+      "recommendationScore": 24.98,
       "tags": [
         "Exclusive"
       ],
@@ -552,19 +561,8 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2026-04-30T21:13:42.000Z",
-      "relevanceScore": 23.69,
-      "recommendationScore": 26.19,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meta in row after workers who say they saw smart glasses users having sex lose jobs",
-      "link": "https://www.bbc.com/news/articles/c5y7yvgy0w6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-04-30T08:59:35.000Z",
-      "relevanceScore": 23.24,
-      "recommendationScore": 23.74,
+      "relevanceScore": 23.49,
+      "recommendationScore": 25.99,
       "tags": [],
       "readingLevel": "intermediate"
     }
@@ -576,9 +574,20 @@
         "link": "https://stackoverflow.blog/2026/04/30/worst-coder-in-the-world-goes-agentic/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-04-30T16:00:00.000Z",
-        "relevanceScore": 1278.14,
+        "relevanceScore": 1353.45,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "I Converted 10 Debugging Techniques into AI Prompts — Here's the Template",
+        "link": "https://dev.to/kenimo49/i-converted-10-debugging-techniques-into-ai-prompts-heres-the-template-23ok",
+        "source": "Dev.to",
+        "pubDate": "2026-04-30T23:28:25.000Z",
+        "relevanceScore": 1007.94,
+        "tags": [
+          "AI",
+          "Report"
         ]
       },
       {
@@ -586,10 +595,20 @@
         "link": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-30T15:59:41.000Z",
-        "relevanceScore": 731.14,
+        "relevanceScore": 564.45,
         "tags": [
           "AI",
           "Startup"
+        ]
+      },
+      {
+        "title": "Good Luck Getting a Mac Mini for the Next ‘Several Months’",
+        "link": "https://www.wired.com/story/apple-sold-out-mac-mini-openclaw/",
+        "source": "Wired",
+        "pubDate": "2026-04-30T23:00:51.000Z",
+        "relevanceScore": 414.85,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -597,7 +616,7 @@
         "link": "https://www.bbc.com/news/articles/c5y9wen5z8ro?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-04-30T13:28:04.000Z",
-        "relevanceScore": 442.14,
+        "relevanceScore": 411.44,
         "tags": [
           "AI"
         ]
@@ -607,7 +626,7 @@
         "link": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
         "source": "TechCrunch",
         "pubDate": "2026-04-30T20:14:47.000Z",
-        "relevanceScore": 205.99,
+        "relevanceScore": 360.3,
         "tags": [
           "AI",
           "Startup",
@@ -619,9 +638,20 @@
         "link": "https://www.wired.com/story/uncanny-valley-podcast-musk-v-altman-doj-guts-voting-rights-unit-is-ai-job-apocalypse-overhyped/",
         "source": "Wired",
         "pubDate": "2026-04-30T18:54:54.000Z",
-        "relevanceScore": 202.73,
+        "relevanceScore": 357.03,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+        "link": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+        "source": "TechCrunch",
+        "pubDate": "2026-04-30T23:07:56.000Z",
+        "relevanceScore": 27.87,
+        "tags": [
+          "AI",
+          "Funding"
         ]
       },
       {
@@ -629,52 +659,20 @@
         "link": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
         "source": "TechCrunch",
         "pubDate": "2026-04-30T22:12:52.000Z",
-        "relevanceScore": 76.39,
+        "relevanceScore": 27.69,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
-        "link": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
-        "source": "TechCrunch",
-        "pubDate": "2026-04-30T19:27:41.000Z",
-        "relevanceScore": 75.84,
-        "tags": [
-          "Security",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Elon Musk Seemingly Admits xAI Has Used OpenAI’s Models to Train Its Own",
-        "link": "https://www.wired.com/story/elon-musk-distill-openai-models-partly-xai/",
-        "source": "Wired",
-        "pubDate": "2026-04-30T17:41:14.000Z",
-        "relevanceScore": 73.48,
+        "title": "Will AI lead to more accurate opinion polls?",
+        "link": "https://www.bbc.com/news/articles/cwyw6rylzepo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-30T23:11:37.000Z",
+        "relevanceScore": 24.89,
         "tags": [
           "AI"
         ]
-      }
-    ],
-    "cloud": [
-      {
-        "title": "You’re Not Writing Code Anymore — You’re Designing Agents",
-        "link": "https://dev.to/mmmattos/youre-not-writing-code-anymore-youre-designing-agents-2m08",
-        "source": "Dev.to",
-        "pubDate": "2026-04-30T22:24:29.000Z",
-        "relevanceScore": 929.43,
-        "tags": [
-          "Tech",
-          "Cloud"
-        ]
-      },
-      {
-        "title": "The most severe Linux threat to surface in years catches the world flat-footed",
-        "link": "https://arstechnica.com/security/2026/04/as-the-most-severe-linux-threat-in-years-surfaces-the-world-scrambles/",
-        "source": "Ars Technica",
-        "pubDate": "2026-04-30T20:20:48.000Z",
-        "relevanceScore": 406.01,
-        "tags": []
       }
     ],
     "mobile": [
@@ -682,8 +680,8 @@
         "title": "Apple hails 'extraordinary' iPhone demand as boss Tim Cook heads out",
         "link": "https://www.bbc.com/news/articles/ce8pdk3l4d2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
-        "pubDate": "2026-04-30T22:22:11.000Z",
-        "relevanceScore": 911.42,
+        "pubDate": "2026-04-30T23:04:43.000Z",
+        "relevanceScore": 915.86,
         "tags": [
           "Mobile"
         ]
@@ -693,7 +691,7 @@
         "link": "https://www.engadget.com/2161516/you-can-now-choose-which-games-use-quick-resume-on-xbox/",
         "source": "Engadget",
         "pubDate": "2026-04-30T19:48:57.000Z",
-        "relevanceScore": 131.91,
+        "relevanceScore": 144.71,
         "tags": [
           "Mobile"
         ]
@@ -703,7 +701,7 @@
         "link": "https://www.theverge.com/tech/921527/apple-iphone-revenue-q2-2026-earnings",
         "source": "The Verge",
         "pubDate": "2026-04-30T20:58:22.000Z",
-        "relevanceScore": 73.64,
+        "relevanceScore": 24.94,
         "tags": [
           "Mobile",
           "Interview"
@@ -716,15 +714,15 @@
         "link": "https://www.wired.com/story/maga-is-confused-about-animal-farm/",
         "source": "Wired",
         "pubDate": "2026-04-30T18:19:28.000Z",
-        "relevanceScore": 797.61,
+        "relevanceScore": 890.41,
         "tags": []
       },
       {
-        "title": "Rivian downsizes DOE loan to $4.5B, while boosting capacity of Georgia factory",
-        "link": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-while-boosting-capacity-of-georgia-factory/",
+        "title": "Rivian downsizes DOE loan to $4.5B of Georgia factory",
+        "link": "https://techcrunch.com/2026/04/30/rivian-downsizes-doe-loan-to-4-5b-of-georgia-factory/",
         "source": "TechCrunch",
         "pubDate": "2026-04-30T20:02:02.000Z",
-        "relevanceScore": 311.45,
+        "relevanceScore": 393.25,
         "tags": [
           "Partnership"
         ]
@@ -734,7 +732,7 @@
         "link": "https://www.engadget.com/2161587/modder-releases-loader-to-turn-the-ps5-into-a-linux-system/",
         "source": "Engadget",
         "pubDate": "2026-04-30T20:49:53.000Z",
-        "relevanceScore": 152.61,
+        "relevanceScore": 355.41,
         "tags": []
       },
       {
@@ -742,27 +740,43 @@
         "link": "https://techcrunch.com/2026/04/30/hackers-are-actively-exploiting-a-bug-in-cpanel-used-by-millions-of-websites/",
         "source": "TechCrunch",
         "pubDate": "2026-04-30T19:36:53.000Z",
-        "relevanceScore": 75.87,
+        "relevanceScore": 27.17,
         "tags": [
           "Web"
         ]
+      },
+      {
+        "title": "Trump nominates Fox News doctor to be the next surgeon general",
+        "link": "https://arstechnica.com/health/2026/04/trump-nominates-fox-news-doctor-to-be-the-next-surgeon-general/",
+        "source": "Ars Technica",
+        "pubDate": "2026-04-30T22:09:36.000Z",
+        "relevanceScore": 25.68,
+        "tags": []
+      },
+      {
+        "title": "US falls below Ukraine in press freedom as global autocracy takes hold",
+        "link": "https://arstechnica.com/tech-policy/2026/04/us-falls-below-ukraine-in-press-freedom-as-global-autocracy-takes-hold/",
+        "source": "Ars Technica",
+        "pubDate": "2026-04-30T21:53:48.000Z",
+        "relevanceScore": 25.63,
+        "tags": []
       },
       {
         "title": "Russia cloaks launch schedule after spaceport falls in Ukraine's sights",
         "link": "https://arstechnica.com/space/2026/04/russian-cloaks-launch-schedule-after-spaceport-falls-in-ukraines-sights/",
         "source": "Ars Technica",
         "pubDate": "2026-04-30T21:35:02.000Z",
-        "relevanceScore": 74.26,
+        "relevanceScore": 25.56,
         "tags": [
           "Launch"
         ]
       },
       {
-        "title": "Roblox’s daily users continue to drop as age-checks slow growth",
+        "title": "Roblox’s daily users continue to drop as age checks slow growth",
         "link": "https://www.theverge.com/games/921694/roblox-q1-2026-132-million-dau",
         "source": "The Verge",
         "pubDate": "2026-04-30T21:25:15.000Z",
-        "relevanceScore": 74.23,
+        "relevanceScore": 25.53,
         "tags": [
           "Report"
         ]
@@ -772,7 +786,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/04/elon-musks-7-biggest-stumbles-on-the-stand-at-openai-trial/",
         "source": "Ars Technica",
         "pubDate": "2026-04-30T21:11:51.000Z",
-        "relevanceScore": 74.18,
+        "relevanceScore": 25.49,
         "tags": [
           "Exclusive"
         ]
@@ -782,7 +796,7 @@
         "link": "https://www.theverge.com/policy/921652/congress-fisa-section-702-45-day-extension",
         "source": "The Verge",
         "pubDate": "2026-04-30T20:59:58.000Z",
-        "relevanceScore": 25.64,
+        "relevanceScore": 25.45,
         "tags": []
       },
       {
@@ -790,9 +804,53 @@
         "link": "https://www.wired.com/story/adjustable-mattress-vs-adjustable-frame-vs-smart-bed/",
         "source": "Wired",
         "pubDate": "2026-04-30T17:42:52.000Z",
-        "relevanceScore": 24.99,
+        "relevanceScore": 24.79,
         "tags": [
           "Tutorial"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+        "source": "The Verge",
+        "pubDate": "2026-04-30T22:59:51.000Z",
+        "relevanceScore": 837.85,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "Is Experience overlooked in Tech?",
+        "link": "https://dev.to/mmmattos/is-experience-overlooked-in-tech-4dm0",
+        "source": "Dev.to",
+        "pubDate": "2026-04-30T23:13:53.000Z",
+        "relevanceScore": 411.89,
+        "tags": [
+          "Tech",
+          "Business"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Understanding How Modern Systems Interpret User Intent",
+        "link": "https://dev.to/abdabughazaleh/understanding-how-modern-systems-interpret-user-intent-26ko",
+        "source": "Dev.to",
+        "pubDate": "2026-04-30T23:14:16.000Z",
+        "relevanceScore": 771.39,
+        "tags": []
+      },
+      {
+        "title": "Prime Video will stream three Duke basketball games next season",
+        "link": "https://www.engadget.com/2161567/prime-video-will-stream-three-duke-basketball-games-next-season/",
+        "source": "Engadget",
+        "pubDate": "2026-04-30T20:25:46.000Z",
+        "relevanceScore": 532.83,
+        "tags": [
+          "Exclusive",
+          "Partnership"
         ]
       }
     ],
@@ -802,23 +860,10 @@
         "link": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-30T18:42:50.000Z",
-        "relevanceScore": 524.69,
+        "relevanceScore": 497.99,
         "tags": [
           "Startup",
           "Exclusive"
-        ]
-      }
-    ],
-    "entertainment": [
-      {
-        "title": "Prime Video will stream three Duke basketball games next season",
-        "link": "https://www.engadget.com/2161567/prime-video-will-stream-three-duke-basketball-games-next-season/",
-        "source": "Engadget",
-        "pubDate": "2026-04-30T20:25:46.000Z",
-        "relevanceScore": 502.03,
-        "tags": [
-          "Exclusive",
-          "Partnership"
         ]
       }
     ],
@@ -828,66 +873,55 @@
         "link": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
         "source": "MIT Technology Review",
         "pubDate": "2026-04-30T12:10:00.000Z",
-        "relevanceScore": 446.38,
+        "relevanceScore": 415.68,
         "tags": [
           "Tech"
         ]
       }
     ],
-    "automotive": [
+    "business": [
       {
-        "title": "Rivian’s revenue is up as R2 production kicks into gear",
-        "link": "https://www.theverge.com/transportation/921295/rivian-q1-2026-earnings-revenue-profit-r2",
-        "source": "The Verge",
-        "pubDate": "2026-04-30T20:05:00.000Z",
-        "relevanceScore": 438.46,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Twitch streamer hit by car live on camera - 'It felt like slow motion'",
-        "link": "https://www.bbc.com/news/articles/cn8pjz2qwego?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-04-30T17:24:25.000Z",
-        "relevanceScore": 73.43,
+        "title": "Trump gives go-ahead to major new Canada-US oil pipeline",
+        "link": "https://abcnews.com/Business/wireStory/trump-ahead-major-new-canada-us-oil-pipeline-132553580",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-30T21:57:26.000Z",
+        "relevanceScore": 357.64,
         "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Why 42i?",
-        "link": "https://dev.to/cristianventura/why-42i-b83",
-        "source": "Dev.to",
-        "pubDate": "2026-04-30T22:24:22.000Z",
-        "relevanceScore": 392.93,
-        "tags": [
-          "Tech",
-          "Exclusive",
-          "Tutorial",
-          "Interview"
-        ]
       },
       {
-        "title": "How to Calculate Business Days Between Two Dates in JavaScript",
-        "link": "https://dev.to/sabita_kumari_7b0e5b47ad5/how-to-calculate-business-days-between-two-dates-in-javascript-16h6",
-        "source": "Dev.to",
-        "pubDate": "2026-04-30T22:38:25.000Z",
-        "relevanceScore": 92.97,
+        "title": "The Onion's bid to take over Alex Jones' Infowars is in limbo as new court battles emerge",
+        "link": "https://abcnews.com/Business/wireStory/onions-bid-alex-jones-infowars-limbo-new-court-132549518",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-30T20:07:36.000Z",
+        "relevanceScore": 357.27,
+        "tags": []
+      },
+      {
+        "title": "The economy is growing – but soaring energy prices could put a damper on that",
+        "link": "https://www.npr.org/2026/04/30/nx-s1-5805905/the-economy-is-growing-but-soaring-energy-prices-could-put-a-damper-on-that",
+        "source": "NPR Business",
+        "pubDate": "2026-04-30T21:58:25.000Z",
+        "relevanceScore": 28.64,
         "tags": [
           "Business",
-          "Tutorial"
+          "Exclusive"
         ]
       },
       {
-        "title": "GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode",
-        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-04-30T16:09:02.000Z",
-        "relevanceScore": 24.68,
-        "tags": [
-          "Exclusive"
-        ]
+        "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline",
+        "link": "https://www.npr.org/2026/04/30/g-s1-119648/trump-canada-us-oil-bridger-pipeline-expansion",
+        "source": "NPR Business",
+        "pubDate": "2026-04-30T23:18:15.000Z",
+        "relevanceScore": 27.91,
+        "tags": []
+      },
+      {
+        "title": "Trump says he's lifting certain tariffs on Scotch whisky after royal visit",
+        "link": "https://abcnews.com/Business/wireStory/trump-lifting-tariffs-scotch-whisky-after-royal-visit-132547076",
+        "source": "ABC News Business",
+        "pubDate": "2026-04-30T19:15:41.000Z",
+        "relevanceScore": 25.1,
+        "tags": []
       }
     ],
     "gaming": [
@@ -896,80 +930,47 @@
         "link": "https://www.npr.org/2026/04/30/nx-s1-5804996/how-spirit-airlines-grew-so-fast-and-why-its-experiencing-so-much-turbulence-now",
         "source": "NPR Business",
         "pubDate": "2026-04-30T21:57:30.000Z",
-        "relevanceScore": 294.34,
+        "relevanceScore": 291.14,
         "tags": []
       }
     ],
-    "business": [
+    "cybersecurity": [
       {
-        "title": "The Onion's bid to take over Alex Jones' Infowars is in limbo as new court battles emerge",
-        "link": "https://abcnews.com/Business/wireStory/onions-bid-alex-jones-infowars-limbo-new-court-132549518",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-30T20:07:36.000Z",
-        "relevanceScore": 202.97,
-        "tags": []
-      },
-      {
-        "title": "The Onion's bid to take over Infowars moves to the Texas Supreme Court",
-        "link": "https://www.npr.org/2026/04/30/nx-s1-5806038/the-onion-infowars-alex-jones-texas-supreme-court",
-        "source": "NPR Business",
-        "pubDate": "2026-04-30T17:56:17.000Z",
-        "relevanceScore": 156.03,
+        "title": "New footage shows how Trump dinner gunman charged through security in four seconds",
+        "link": "https://www.bbc.com/news/articles/c4g7rmrlm17o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-04-30T23:39:06.000Z",
+        "relevanceScore": 58.48,
         "tags": [
-          "Partnership"
+          "Security"
         ]
-      },
+      }
+    ],
+    "automotive": [
       {
-        "title": "Trump gives go-ahead to major new Canada-US oil pipeline",
-        "link": "https://abcnews.com/Business/wireStory/trump-ahead-major-new-canada-us-oil-pipeline-132553580",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-30T21:57:26.000Z",
-        "relevanceScore": 154.84,
+        "title": "Twitch streamer hit by car live on camera - 'It felt like slow motion'",
+        "link": "https://www.bbc.com/news/articles/cn8pjz2qwego?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-04-30T17:24:25.000Z",
+        "relevanceScore": 50.73,
         "tags": []
-      },
-      {
-        "title": "Trump says he's lifting certain tariffs on Scotch whisky after royal visit",
-        "link": "https://abcnews.com/Business/wireStory/trump-lifting-tariffs-scotch-whisky-after-royal-visit-132547076",
-        "source": "ABC News Business",
-        "pubDate": "2026-04-30T19:15:41.000Z",
-        "relevanceScore": 73.8,
-        "tags": []
-      },
-      {
-        "title": "The economy is growing – but soaring energy prices could put a damper on that",
-        "link": "https://www.npr.org/2026/04/30/nx-s1-5805905/the-economy-is-growing-but-soaring-energy-prices-could-put-a-damper-on-that",
-        "source": "NPR Business",
-        "pubDate": "2026-04-30T21:58:25.000Z",
-        "relevanceScore": 28.84,
-        "tags": [
-          "Business",
-          "Exclusive"
-        ]
       }
     ],
     "general": [
-      {
-        "title": "Trump to remove whisky tariffs after King's visit",
-        "link": "https://www.bbc.com/news/articles/cjrp3pew2d5o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-04-30T21:45:57.000Z",
-        "relevanceScore": 80.3,
-        "tags": []
-      },
       {
         "title": "UK terrorism threat level raised to severe after Golders Green attack",
         "link": "https://www.bbc.com/news/articles/cq6p4pz6p62o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-30T21:18:19.000Z",
-        "relevanceScore": 80.21,
+        "relevanceScore": 31.51,
         "tags": []
       },
       {
-        "title": "It's a miracle I survived, Golders Green victim tells BBC",
-        "link": "https://www.bbc.com/news/articles/cdxprzdjewjo?at_medium=RSS&at_campaign=rss",
+        "title": "'I held down Golders Green suspect' says volunteer who grabbed ankle",
+        "link": "https://www.bbc.com/news/articles/cn7pyp13y8no?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-04-30T22:35:41.000Z",
-        "relevanceScore": 31.96,
+        "pubDate": "2026-04-30T20:54:50.000Z",
+        "relevanceScore": 31.43,
         "tags": []
       },
       {
@@ -977,7 +978,7 @@
         "link": "https://www.bbc.com/news/articles/c62650ld8p3o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-30T18:48:46.000Z",
-        "relevanceScore": 31.21,
+        "relevanceScore": 31.01,
         "tags": []
       },
       {
@@ -985,49 +986,45 @@
         "link": "https://www.bbc.com/news/articles/c1m290e0x3xo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-04-30T16:31:50.000Z",
-        "relevanceScore": 30.75,
+        "relevanceScore": 30.55,
         "tags": []
       }
     ],
-    "social": [
+    "development": [
       {
-        "title": "Meta cuts contractors who reported seeing Ray-Ban Meta users have sex",
-        "link": "https://arstechnica.com/gadgets/2026/04/meta-cuts-contractors-who-reported-seeing-ray-ban-meta-users-have-sex/",
-        "source": "Ars Technica",
-        "pubDate": "2026-04-30T19:55:18.000Z",
-        "relevanceScore": 73.93,
-        "tags": []
-      },
+        "title": "GitHub Copilot CLI for Beginners: Interactive v. non-interactive mode",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-interactive-v-non-interactive-mode/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-04-30T16:09:02.000Z",
+        "relevanceScore": 24.48,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "social": [
       {
         "title": "Meta says it may withdraw its apps from New Mexico if judge agrees to the state's demands",
         "link": "https://www.engadget.com/2161607/meta-says-it-may-withdraw-its-apps-from-new-mexico-if-judge-agrees-to-the-states-demands/",
         "source": "Engadget",
         "pubDate": "2026-04-30T21:13:42.000Z",
-        "relevanceScore": 23.69,
-        "tags": []
-      },
-      {
-        "title": "Meta in row after workers who say they saw smart glasses users having sex lose jobs",
-        "link": "https://www.bbc.com/news/articles/c5y7yvgy0w6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-04-30T08:59:35.000Z",
-        "relevanceScore": 23.24,
+        "relevanceScore": 23.49,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 13,
-    "avgRelevanceScore": 248.42681818181808,
+    "totalCategories": 14,
+    "avgRelevanceScore": 279.92727272727274,
     "topCategories": [
       {
         "category": "tech",
-        "count": 9
+        "count": 11
       },
       {
         "category": "ai-ml",
-        "count": 8
+        "count": 10
       },
       {
         "category": "business",
@@ -1035,7 +1032,7 @@
       },
       {
         "category": "general",
-        "count": 5
+        "count": 4
       },
       {
         "category": "mobile",
