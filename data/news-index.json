@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-04-29T23:54:41.661Z",
+  "lastUpdated": "2026-04-30T02:27:36.936Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-04-30",
+      "file": "2026-04-30.json",
+      "totalArticles": 47,
+      "lastUpdated": "2026-04-30T02:27:36.919Z",
+      "sources": [
+        "Dev.to",
+        "BBC Technology",
+        "Stack Overflow Blog",
+        "Engadget",
+        "NPR Business",
+        "Ars Technica",
+        "TechCrunch",
+        "ABC News Business",
+        "MIT Technology Review",
+        "Wired",
+        "GitHub Blog",
+        "The Verge",
+        "BBC News"
+      ],
+      "categories": [
+        "development",
+        "tech",
+        "business",
+        "science",
+        "general"
+      ],
+      "topArticles": [
+        {
+          "title": "I Built a Knowledge Base That Thinks — Inspired by Karpathy’s LLM Wiki",
+          "source": "Dev.to",
+          "link": "https://dev.to/seekdb/i-built-a-knowledge-base-that-thinks-inspired-by-karpathys-llm-wiki-128l",
+          "relevanceScore": 1426.8958447222221
+        },
+        {
+          "title": "Musk accuses Altman of stealing a charity as courtroom battle begins",
+          "source": "BBC Technology",
+          "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
+          "relevanceScore": 1217
+        },
+        {
+          "title": "How an Amazon Ad Operator Became an Indie Developer (Without Knowing How to Code)",
+          "source": "Dev.to",
+          "link": "https://dev.to/ppcarchitect/how-an-amazon-ad-operator-became-an-indie-developer-without-knowing-how-to-code-1o32",
+          "relevanceScore": 808.8068169444444
+        },
+        {
+          "title": "Turning scattered knowledge into trusted intelligence: Stack Internal 2026.3",
+          "source": "Stack Overflow Blog",
+          "link": "https://stackoverflow.blog/2026/04/28/turn-scattered-knowledge-into-trusted-intelligence/",
+          "relevanceScore": 640
+        },
+        {
+          "title": "Gemini can now generate files, including Microsoft Word and LaTeX documents",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2160619/gemini-can-now-generate-files-including-microsoft-word-and-latex-documents/",
+          "relevanceScore": 623.7300113888889
+        }
+      ]
+    },
     {
       "date": "2026-04-29",
       "file": "2026-04-29.json",
@@ -34,31 +94,31 @@
           "title": "Move Over Python: PHP Is the Sleeping Giant of AI Agents",
           "source": "Dev.to",
           "link": "https://dev.to/zadro/move-over-python-php-is-the-sleeping-giant-of-ai-agents-577b",
-          "relevanceScore": 1907.7690773611112
+          "relevanceScore": 1856.91
         },
         {
           "title": "Musk accuses Altman of stealing a charity as courtroom battle begins",
           "source": "BBC Technology",
           "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1656
+          "relevanceScore": 1656.76
         },
         {
           "title": "Gemini can now generate files, including Microsoft Word and LaTeX documents",
           "source": "Engadget",
           "link": "https://www.engadget.com/2160619/gemini-can-now-generate-files-including-microsoft-word-and-latex-documents/",
-          "relevanceScore": 1503.0043552777777
+          "relevanceScore": 1517.2
         },
         {
           "title": "OpenAI Codex system prompt includes explicit directive to \"never talk about goblins\"",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/04/openai-codex-system-prompt-includes-explicit-directive-to-never-talk-about-goblins/",
-          "relevanceScore": 1258.5522719444446
+          "relevanceScore": 1252.02
         },
         {
           "title": "In court, Elon Musk accuses OpenAI of trying to 'have your cake and eat it, too'",
           "source": "NPR Business",
           "link": "https://www.npr.org/2026/04/29/nx-s1-5803833/elon-musk-testimony-openai-altman-day-2",
-          "relevanceScore": 1243.7979663888889
+          "relevanceScore": 1246.22
         }
       ]
     },
@@ -1725,65 +1785,6 @@
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2026/04/01/cash-app-launches-buy-now-pay-later-feature-for-p2p-pay-transfers/",
           "relevanceScore": 482.94
-        }
-      ]
-    },
-    {
-      "date": "2026-03-31",
-      "file": "2026-03-31.json",
-      "totalArticles": 43,
-      "lastUpdated": "2026-03-31T23:59:29.909Z",
-      "sources": [
-        "The Verge",
-        "Dev.to",
-        "MIT Technology Review",
-        "TechCrunch",
-        "BBC Technology",
-        "GitHub Blog",
-        "Ars Technica",
-        "Wired",
-        "NPR Business",
-        "BBC News",
-        "ABC News Business",
-        "Engadget"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "science",
-        "business",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "Claude Code leak exposes a Tamagotchi-style ‘pet’ and an always-on agent",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/ai-artificial-intelligence/904776/anthropic-claude-source-code-leak",
-          "relevanceScore": 14118.18
-        },
-        {
-          "title": "I Tore Apart the Claude Code Source Code 3/3",
-          "source": "Dev.to",
-          "link": "https://dev.to/_53fb7c03dd741a6124e4e/i-tore-apart-the-claude-code-source-code-33-2jb1",
-          "relevanceScore": 10008.49
-        },
-        {
-          "title": "I Die Every 30 Minutes",
-          "source": "Dev.to",
-          "link": "https://dev.to/sami-openlife/i-die-every-30-minutes-525f",
-          "relevanceScore": 4943.96
-        },
-        {
-          "title": "Why I replaced a 3MB \"Burn-after-reading\" tool with my own 30KB Phoenix engine",
-          "source": "Dev.to",
-          "link": "https://dev.to/0xsmold/why-i-replaced-a-3mb-burn-after-reading-tool-with-my-own-30kb-phoenix-engine-4k7n",
-          "relevanceScore": 3769.97
-        },
-        {
-          "title": "The Download: AI health tools and the Pentagon’s Anthropic culture war",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2026/03/31/1134934/the-download-testing-ai-health-tools-pentagon-anthropic-culture-war-backfires/",
-          "relevanceScore": 1216.64
         }
       ]
     }
