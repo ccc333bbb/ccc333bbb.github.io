@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-05-07T23:10:54.043Z",
+  "lastUpdated": "2026-05-08T00:05:24.716Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-05-08",
+      "file": "2026-05-08.json",
+      "totalArticles": 46,
+      "lastUpdated": "2026-05-08T00:05:24.700Z",
+      "sources": [
+        "Wired",
+        "Dev.to",
+        "The Verge",
+        "GitHub Blog",
+        "Ars Technica",
+        "TechCrunch",
+        "ABC News Business",
+        "MIT Technology Review",
+        "NPR Business",
+        "Stack Overflow Blog",
+        "BBC News",
+        "BBC Technology",
+        "Engadget"
+      ],
+      "categories": [
+        "tech",
+        "development",
+        "business",
+        "science",
+        "general"
+      ],
+      "topArticles": [
+        {
+          "title": "How to Disable Google's Gemini in Chrome",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/you-can-disable-gemini-in-chrome-if-its-freaking-you-out/",
+          "relevanceScore": 1362.2211529166666
+        },
+        {
+          "title": "NVIDIA B300 Blackwell Ultra: A Technical Deep Dive",
+          "source": "Dev.to",
+          "link": "https://dev.to/digitalocean/nvidia-b300-blackwell-ultra-a-technical-deep-dive-5c6i",
+          "relevanceScore": 1093.90198625
+        },
+        {
+          "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
+          "relevanceScore": 977.7003197222223
+        },
+        {
+          "title": "Improving token efficiency in GitHub Agentic Workflows",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+          "relevanceScore": 963.4549029166667
+        },
+        {
+          "title": "Validating agentic behavior when “correct” isn’t deterministic",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+          "relevanceScore": 823
+        }
+      ]
+    },
     {
       "date": "2026-05-07",
       "file": "2026-05-07.json",
@@ -34,31 +94,31 @@
           "title": "How to Disable Google's Gemini in Chrome",
           "source": "Wired",
           "link": "https://www.wired.com/story/you-can-disable-gemini-in-chrome-if-its-freaking-you-out/",
-          "relevanceScore": 1209.6754131944444
+          "relevanceScore": 1144.97
         },
         {
           "title": "OpenAI debuts a Codex plugin for Chrome",
           "source": "Engadget",
           "link": "https://www.engadget.com/2167480/openai-debuts-a-codex-plugin-for-chrome/",
-          "relevanceScore": 1070.387079861111
+          "relevanceScore": 1003.75
         },
         {
           "title": "Canvas is down as ShinyHunters threatens to leak schools’ data",
           "source": "The Verge",
           "link": "https://www.theverge.com/tech/926458/canvas-shinyhunters-breach",
-          "relevanceScore": 1064.15458
+          "relevanceScore": 1030.16
         },
         {
           "title": "Improving token efficiency in GitHub Agentic Workflows",
           "source": "GitHub Blog",
           "link": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
-          "relevanceScore": 911.9091631944444
+          "relevanceScore": 879.96
         },
         {
           "title": "Validating agentic behavior when “correct” isn’t deterministic",
           "source": "GitHub Blog",
           "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
-          "relevanceScore": 785
+          "relevanceScore": 797.82
         }
       ]
     },
@@ -1724,66 +1784,6 @@
           "source": "Ars Technica",
           "link": "https://arstechnica.com/ai/2026/04/why-anthropic-sent-its-claude-ai-to-an-actual-psychiatrist/",
           "relevanceScore": 416.53
-        }
-      ]
-    },
-    {
-      "date": "2026-04-08",
-      "file": "2026-04-08.json",
-      "totalArticles": 44,
-      "lastUpdated": "2026-04-08T23:57:33.833Z",
-      "sources": [
-        "The Verge",
-        "Stack Overflow Blog",
-        "Dev.to",
-        "Engadget",
-        "BBC Technology",
-        "Ars Technica",
-        "Wired",
-        "TechCrunch",
-        "NPR Business",
-        "BBC News",
-        "MIT Technology Review",
-        "ABC News Business",
-        "GitHub Blog"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "business",
-        "general",
-        "science"
-      ],
-      "topArticles": [
-        {
-          "title": "OpenAI made economic proposals — here’s what DC thinks of them",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/column/908880/openai-made-economic-proposals-heres-what-dc-thinks-of-them",
-          "relevanceScore": 2592.25
-        },
-        {
-          "title": "He designed C++ to solve your code problems",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2026/04/07/he-designed-c-to-solve-your-code-problems/",
-          "relevanceScore": 2047.44
-        },
-        {
-          "title": "How JavaScript Async Actually Works (Event Loop, Micro tasks, and Call Stack)",
-          "source": "Dev.to",
-          "link": "https://dev.to/bysontech_8dd1313811a8895/how-javascript-async-actually-works-event-loop-micro-tasks-and-call-stack-17gb",
-          "relevanceScore": 1853.98
-        },
-        {
-          "title": "The Neo Effect: How Apple&#8217;s cheapest Mac is changing the PC game",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/tech/904705/apple-macbook-neo-news-reviews-mods",
-          "relevanceScore": 1780.88
-        },
-        {
-          "title": "You'll have one more chance to buy Samsung's pricey Galaxy Z TriFold this Friday",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/mobile/smartphones/youll-have-one-more-chance-to-buy-samsungs-pricey-galaxy-z-trifold-this-friday-225222969.html?src=rss",
-          "relevanceScore": 1416.78
         }
       ]
     }
