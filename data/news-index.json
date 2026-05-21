@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-05-20T23:46:15.225Z",
+  "lastUpdated": "2026-05-21T02:45:19.724Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-05-21",
+      "file": "2026-05-21.json",
+      "totalArticles": 44,
+      "lastUpdated": "2026-05-21T02:45:19.708Z",
+      "sources": [
+        "MIT Technology Review",
+        "The Verge",
+        "GitHub Blog",
+        "Dev.to",
+        "Engadget",
+        "TechCrunch",
+        "Stack Overflow Blog",
+        "Wired",
+        "Ars Technica",
+        "ABC News Business",
+        "BBC Technology",
+        "NPR Business",
+        "BBC News"
+      ],
+      "categories": [
+        "science",
+        "tech",
+        "development",
+        "business",
+        "general"
+      ],
+      "topArticles": [
+        {
+          "title": "Roundtables: Inside the Musk v. Altman Trial",
+          "source": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+          "relevanceScore": 1570
+        },
+        {
+          "title": "SpaceX just filed for what could be the biggest IPO ever",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/business/902219/spacex-ipo-details",
+          "relevanceScore": 1160.3646241666668
+        },
+        {
+          "title": "Investigating unauthorized access to GitHub-owned repositories",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
+          "relevanceScore": 1157.1858740277778
+        },
+        {
+          "title": "Agetor Review: An Open-Source Kanban Board for Orchestrating Claude Code",
+          "source": "Dev.to",
+          "link": "https://dev.to/pickuma/agetor-review-an-open-source-kanban-board-for-orchestrating-claude-code-3cd",
+          "relevanceScore": 1148.9435129166666
+        },
+        {
+          "title": "Google's redesigned Gemini comes with a new interface and AI models",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2176568/google-redesigned-gemini-comes-with-a-new-interface-and-ai-models/",
+          "relevanceScore": 1146
+        }
+      ]
+    },
     {
       "date": "2026-05-20",
       "file": "2026-05-20.json",
@@ -34,31 +94,31 @@
           "title": "Roundtables: Inside the Musk v. Altman Trial",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
-          "relevanceScore": 1493
+          "relevanceScore": 1358.5
         },
         {
           "title": "Investigating unauthorized access to GitHub’s internal repositories",
           "source": "GitHub Blog",
           "link": "https://github.blog/security/investigating-unauthorized-access-to-githubs-internal-repositories/",
-          "relevanceScore": 1251.6781658333334
+          "relevanceScore": 1264.47
         },
         {
           "title": "Google's redesigned Gemini comes with a new interface and AI models",
           "source": "Engadget",
           "link": "https://www.engadget.com/2176568/google-redesigned-gemini-comes-with-a-new-interface-and-ai-models/",
-          "relevanceScore": 1168
+          "relevanceScore": 1141
         },
         {
           "title": "Green steel startup Boston Metal is doubling down on critical metals",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/",
-          "relevanceScore": 1126
+          "relevanceScore": 1064.35
         },
         {
           "title": "All the news you might have missed from Google I/O 2026",
           "source": "Engadget",
           "link": "https://www.engadget.com/2176896/everything-google-announced-io-2026-gemini-omni-spark/",
-          "relevanceScore": 1093
+          "relevanceScore": 1103.07
         }
       ]
     },
@@ -1721,66 +1781,6 @@
           "source": "ABC News Business",
           "link": "https://abcnews.com/Business/wireStory/airline-company-lufthansa-cuts-20000-flights-war-squeezes-132287522",
           "relevanceScore": 1263.37
-        }
-      ]
-    },
-    {
-      "date": "2026-04-21",
-      "file": "2026-04-21.json",
-      "totalArticles": 45,
-      "lastUpdated": "2026-04-21T23:35:09.224Z",
-      "sources": [
-        "The Verge",
-        "Wired",
-        "GitHub Blog",
-        "Stack Overflow Blog",
-        "MIT Technology Review",
-        "BBC Technology",
-        "Dev.to",
-        "ABC News Business",
-        "Engadget",
-        "TechCrunch",
-        "BBC News",
-        "Ars Technica",
-        "NPR Business"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "science",
-        "business",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "ISS astronauts are getting new laptops",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/science/916300/nasa-iss-computer-upgrades-hp-zbook-fury-g9",
-          "relevanceScore": 1695.32
-        },
-        {
-          "title": "Framework Has a Better, More Take-Apartable Laptop",
-          "source": "Wired",
-          "link": "https://www.wired.com/story/framework-laptop-13-pro/",
-          "relevanceScore": 1637.11
-        },
-        {
-          "title": "Changes to GitHub Copilot Individual plans",
-          "source": "GitHub Blog",
-          "link": "https://github.blog/news-insights/company-news/changes-to-github-copilot-individual-plans/",
-          "relevanceScore": 1370.13
-        },
-        {
-          "title": "Highlights from Git 2.54",
-          "source": "GitHub Blog",
-          "link": "https://github.blog/open-source/git/highlights-from-git-2-54/",
-          "relevanceScore": 1169.83
-        },
-        {
-          "title": "OpenAI Beefs Up ChatGPT’s Image Generation Model",
-          "source": "Wired",
-          "link": "https://www.wired.com/story/openai-beefs-up-chatgpts-image-generation-model/",
-          "relevanceScore": 989.08
         }
       ]
     }
