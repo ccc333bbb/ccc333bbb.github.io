@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "lastUpdated": "2026-05-25T10:20:06.711Z",
+    "lastUpdated": "2026-05-26T10:06:22.205Z",
     "totalServices": 50,
     "healthyServices": 11,
     "categories": 8
@@ -23,8 +23,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:29.228Z",
-            "responseTime": 360,
+            "lastChecked": "2026-05-26T10:05:44.494Z",
+            "responseTime": 168,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -53,8 +53,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:30.845Z",
-            "responseTime": 111,
+            "lastChecked": "2026-05-26T10:05:46.107Z",
+            "responseTime": 105,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -82,8 +82,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:32.624Z",
-            "responseTime": 52,
+            "lastChecked": "2026-05-26T10:05:47.860Z",
+            "responseTime": 56,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -118,8 +118,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:34.272Z",
-            "responseTime": 143,
+            "lastChecked": "2026-05-26T10:05:49.506Z",
+            "responseTime": 142,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -148,8 +148,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:36.067Z",
-            "responseTime": 292,
+            "lastChecked": "2026-05-26T10:05:51.578Z",
+            "responseTime": 569,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -184,8 +184,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:37.633Z",
-            "responseTime": 63,
+            "lastChecked": "2026-05-26T10:05:53.126Z",
+            "responseTime": 46,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -213,8 +213,8 @@
           },
           "status": {
             "health": "unhealthy",
-            "lastChecked": "2026-05-25T10:19:39.178Z",
-            "responseTime": 43,
+            "lastChecked": "2026-05-26T10:05:54.675Z",
+            "responseTime": 47,
             "statusCode": 403,
             "reason": "HTTP 403"
           },
@@ -249,8 +249,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:41.176Z",
-            "responseTime": 487,
+            "lastChecked": "2026-05-26T10:05:56.643Z",
+            "responseTime": 457,
             "statusCode": 200,
             "reason": "Service operational",
             "error": "ECONNRESET"
@@ -280,8 +280,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:19:43.010Z",
-            "responseTime": 331,
+            "lastChecked": "2026-05-26T10:05:58.427Z",
+            "responseTime": 281,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -315,11 +315,11 @@
             "retention": "2 個月歷史數據"
           },
           "status": {
-            "health": "unhealthy",
-            "lastChecked": "2026-05-25T10:19:59.527Z",
-            "responseTime": null,
-            "statusCode": null,
-            "reason": "timeout of 15000ms exceeded",
+            "health": "healthy",
+            "lastChecked": "2026-05-26T10:06:00.784Z",
+            "responseTime": 856,
+            "statusCode": 200,
+            "reason": "Service operational",
             "error": "ECONNABORTED"
           },
           "features": [
@@ -353,8 +353,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:20:01.136Z",
-            "responseTime": 107,
+            "lastChecked": "2026-05-26T10:06:02.401Z",
+            "responseTime": 115,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -387,11 +387,12 @@
             "storage": "每個 bin 最大 100KB"
           },
           "status": {
-            "health": "healthy",
-            "lastChecked": "2026-05-25T10:20:03.417Z",
-            "responseTime": 779,
-            "statusCode": 200,
-            "reason": "Service operational"
+            "health": "unhealthy",
+            "lastChecked": "2026-05-26T10:06:18.908Z",
+            "responseTime": null,
+            "statusCode": null,
+            "reason": "timeout of 15000ms exceeded",
+            "error": "ECONNABORTED"
           },
           "features": [
             "RESTful API",
@@ -424,8 +425,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-05-25T10:20:05.210Z",
-            "responseTime": 289,
+            "lastChecked": "2026-05-26T10:06:20.703Z",
+            "responseTime": 292,
             "statusCode": 200,
             "reason": "Service operational"
           },
