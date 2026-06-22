@@ -1,20 +1,19 @@
 {
-  "lastUpdated": "2026-06-22T19:44:51.592Z",
-  "totalArticles": 45,
+  "lastUpdated": "2026-06-22T21:49:39.394Z",
+  "totalArticles": 44,
   "categories": [
     "gaming",
     "ai-ml",
     "development",
-    "mobile",
-    "cybersecurity",
-    "business",
-    "automotive",
-    "tech",
-    "general",
-    "blockchain",
     "science",
-    "space",
-    "social"
+    "tech",
+    "business",
+    "climate",
+    "general",
+    "cybersecurity",
+    "social",
+    "automotive",
+    "mobile"
   ],
   "topArticles": [
     {
@@ -23,8 +22,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-06-22T18:00:00.000Z",
-      "relevanceScore": 1232.65,
-      "recommendationScore": 1233.15,
+      "relevanceScore": 1917.73,
+      "recommendationScore": 1918.23,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -34,22 +33,24 @@
       "source": "Ars Technica",
       "category": "gaming",
       "pubDate": "2026-06-22T19:02:45.000Z",
-      "relevanceScore": 1079.36,
-      "recommendationScore": 1079.86,
+      "relevanceScore": 1846.94,
+      "recommendationScore": 1847.44,
       "tags": [
         "Acquisition"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Valve is working with AMD to bring FSR 4 to the Steam Machine",
-      "link": "https://www.theverge.com/games/952210/valve-steam-machine-fsr4-amd-upscaler",
+      "title": "Valve describes just how brutal RAM negotiations are in 2026",
+      "link": "https://www.theverge.com/games/953945/valve-steam-machine-memory-component-crisis",
       "source": "The Verge",
       "category": "gaming",
-      "pubDate": "2026-06-22T17:10:00.000Z",
-      "relevanceScore": 1076.48,
-      "recommendationScore": 1076.98,
-      "tags": [],
+      "pubDate": "2026-06-22T21:07:14.000Z",
+      "relevanceScore": 1839.86,
+      "recommendationScore": 1841.86,
+      "tags": [
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -58,115 +59,73 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-06-22T17:47:39.000Z",
-      "relevanceScore": 1073.61,
-      "recommendationScore": 1074.11,
+      "relevanceScore": 1837.19,
+      "recommendationScore": 1837.69,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
-      "link": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
-      "source": "Wired",
+      "title": "Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context",
+      "link": "https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08",
+      "source": "Dev.to",
       "category": "ai-ml",
-      "pubDate": "2026-06-22T17:00:00.000Z",
-      "relevanceScore": 792.95,
-      "recommendationScore": 795.45,
+      "pubDate": "2026-06-22T21:36:33.000Z",
+      "relevanceScore": 1361.96,
+      "recommendationScore": 1362.46,
       "tags": [
         "AI",
-        "Tech",
-        "Security",
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "DuckDB 1.5.2, PostgreSQL Internal Stats, and SQLite Virtual Table xUpdate Deep Dive",
+      "link": "https://dev.to/soytuber/duckdb-152-postgresql-internal-stats-and-sqlite-virtual-table-xupdate-deep-dive-ll1",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-06-22T21:35:32.000Z",
+      "relevanceScore": 1167.45,
+      "recommendationScore": 1167.95,
+      "tags": [
+        "Analysis",
+        "Launch",
         "Update"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
-      "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-06-22T17:20:31.000Z",
-      "relevanceScore": 551.52,
-      "recommendationScore": 552.02,
+      "title": "The Download: record-breaking subsea tunnels and flexible data centers",
+      "link": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-06-22T12:10:00.000Z",
+      "relevanceScore": 930.07,
+      "recommendationScore": 930.57,
       "tags": [
-        "Exclusive"
+        "Tech",
+        "Breaking"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How 4 bytes of padding make array clearing 49% faster",
+      "link": "https://www.reddit.com/r/programming/comments/1uck3ll/how_4_bytes_of_padding_make_array_clearing_49/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-06-22T13:07:14.000Z",
+      "relevanceScore": 917.26,
+      "recommendationScore": 919.26,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "🚀 Day 1 of Learning React: Why React Exists, the Real DOM, Virtual DOM & React Elements",
-      "link": "https://dev.to/bismay-exe/day-1-of-learning-react-why-react-exists-the-real-dom-virtual-dom-react-elements-5b61",
+      "title": "Ever had a renamed column quietly break a CSV export? csv-pipe makes it a compile error, reads and writes both ways, and parses several times faster than papaparse. Live playground in the post to try your own data.",
+      "link": "https://dev.to/myroslavmartsin/ever-had-a-renamed-column-quietly-break-a-csv-export-csv-pipe-makes-it-a-compile-error-reads-and-18oi",
       "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2026-06-22T19:28:37.000Z",
-      "relevanceScore": 486.45,
-      "recommendationScore": 488.45,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google invests in A24 to build AI movie tools",
-      "link": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-06-22T17:18:13.000Z",
-      "relevanceScore": 472.01,
-      "recommendationScore": 472.01,
-      "tags": [
-        "AI",
-        "Science",
-        "Report",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A24 takes on Google money to build AI tools",
-      "link": "https://www.engadget.com/2199010/a24-takes-on-google-money-help-build-ai-tools/",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-06-22T16:37:41.000Z",
-      "relevanceScore": 468.88,
-      "recommendationScore": 468.88,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Anthropic says Claude may want to see your ID",
-      "link": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
-      "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2026-06-22T18:05:13.000Z",
-      "relevanceScore": 255.17,
-      "recommendationScore": 255.17,
-      "tags": [
-        "Security",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Mexico's president seeks to restart oil shipments to Cuba as island's crises deepen",
-      "link": "https://abcnews.com/Business/wireStory/mexicos-president-seeks-restart-oil-shipments-cuba-islands-134103540",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-06-22T17:51:32.000Z",
-      "relevanceScore": 205.62,
-      "recommendationScore": 206.12,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tesla Allegedly Showed Cooked Data to Get Full Self-Driving Approved",
-      "link": "https://www.reddit.com/r/technology/comments/1uchuqk/tesla_allegedly_showed_cooked_data_to_get_full/",
-      "source": "Reddit Technology",
-      "category": "automotive",
-      "pubDate": "2026-06-22T11:21:19.000Z",
-      "relevanceScore": 187.32,
-      "recommendationScore": 189.32,
+      "category": "development",
+      "pubDate": "2026-06-22T21:26:43.000Z",
+      "relevanceScore": 551.42,
+      "recommendationScore": 551.42,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -176,8 +135,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-06-21T23:21:05.000Z",
-      "relevanceScore": 181.92,
-      "recommendationScore": 182.42,
+      "relevanceScore": 381.5,
+      "recommendationScore": 382,
       "tags": [
         "Tech",
         "Web",
@@ -186,49 +145,114 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Three things to watch amid Anthropic’s latest feud with the government",
-      "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-      "source": "MIT Technology Review",
+      "title": "Mexico's president seeks to restart oil shipments to Cuba as island's crises deepen",
+      "link": "https://abcnews.com/Business/wireStory/mexicos-president-seeks-restart-oil-shipments-cuba-islands-134103540",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-06-22T17:51:32.000Z",
+      "relevanceScore": 286.21,
+      "recommendationScore": 286.71,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
+      "link": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
+      "source": "Wired",
       "category": "ai-ml",
-      "pubDate": "2026-06-22T18:00:00.000Z",
-      "relevanceScore": 133.15,
-      "recommendationScore": 133.65,
+      "pubDate": "2026-06-22T20:28:53.000Z",
+      "relevanceScore": 219.23,
+      "recommendationScore": 219.73,
       "tags": [
-        "AI",
-        "Exclusive"
+        "AI"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Starmer's premiership in six charts",
-      "link": "https://www.bbc.com/news/articles/cp8p9qellmqo?at_medium=RSS&at_campaign=rss",
+      "title": "Polymarket's viral videos showed people winning big, but the bets were fake",
+      "link": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-06-22T20:10:34.000Z",
+      "relevanceScore": 203.17,
+      "recommendationScore": 205.17,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "AI is cursing renters with the promise of impossible homes",
+      "link": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-06-22T20:00:00.000Z",
+      "relevanceScore": 182.63,
+      "recommendationScore": 183.13,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "From pledge to practice: Building a more inclusive open source ecosystem",
+      "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-06-22T17:20:31.000Z",
+      "relevanceScore": 173.6,
+      "recommendationScore": 174.1,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "link": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "source": "TechCrunch",
+      "category": "climate",
+      "pubDate": "2026-06-22T20:37:19.000Z",
+      "relevanceScore": 171.76,
+      "recommendationScore": 172.26,
+      "tags": [
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why did Starmer resign and what could happen next?",
+      "link": "https://www.bbc.com/news/articles/c0qyllvpkw8o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-06-22T17:04:12.000Z",
-      "relevanceScore": 131.46,
-      "recommendationScore": 131.46,
+      "pubDate": "2026-06-22T16:44:17.000Z",
+      "relevanceScore": 162.98,
+      "recommendationScore": 164.48,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "The Apple Watch SE 3 is just $199 for Prime Day",
-      "link": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-06-22T18:00:00.000Z",
-      "relevanceScore": 125.65,
-      "recommendationScore": 125.65,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
-      "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
+      "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
+      "link": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
       "source": "Wired",
       "category": "tech",
-      "pubDate": "2026-06-22T18:10:09.000Z",
-      "relevanceScore": 125.18,
-      "recommendationScore": 126.68,
+      "pubDate": "2026-06-22T17:02:30.000Z",
+      "relevanceScore": 156.04,
+      "recommendationScore": 156.54,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "What to know about the legacy of Brexit, which still divides Britain 10 years on",
+      "link": "https://abcnews.com/Business/wireStory/legacy-brexit-divides-britain-10-years-134070762",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-06-21T14:34:13.000Z",
+      "relevanceScore": 150.75,
+      "recommendationScore": 152.75,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -238,11 +262,61 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2026-06-22T19:25:00.000Z",
-      "relevanceScore": 111.43,
-      "recommendationScore": 111.93,
+      "relevanceScore": 149.52,
+      "recommendationScore": 150.02,
       "tags": [
         "Tech",
         "Security"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The AI world is getting ‘loopy’",
+      "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-06-22T20:53:11.000Z",
+      "relevanceScore": 148.81,
+      "recommendationScore": 148.81,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
+      "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-06-22T18:10:09.000Z",
+      "relevanceScore": 74.77,
+      "recommendationScore": 76.27,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Alan Greenspan, the legendary former Federal Reserve chair, dies",
+      "link": "https://www.npr.org/2026/06/22/656930918/alan-greenspan-the-legendary-former-federal-reserve-chair-dies",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-06-22T11:53:51.000Z",
+      "relevanceScore": 58.01,
+      "recommendationScore": 58.51,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+      "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-06-22T20:13:58.000Z",
+      "relevanceScore": 53.68,
+      "recommendationScore": 54.18,
+      "tags": [
+        "AI",
+        "Business",
+        "Partnership"
       ],
       "readingLevel": "intermediate"
     },
@@ -251,129 +325,36 @@
       "link": "https://www.bbc.com/news/articles/c20y1zvg50lo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-06-22T17:20:49.000Z",
-      "relevanceScore": 65.52,
-      "recommendationScore": 66.02,
+      "pubDate": "2026-06-22T21:11:38.000Z",
+      "relevanceScore": 37.87,
+      "recommendationScore": 38.37,
       "tags": [
         "Analysis"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "[Boost]",
-      "link": "https://dev.to/cherrypick14/-1d2i",
-      "source": "Dev.to",
-      "category": "blockchain",
-      "pubDate": "2026-06-22T19:21:16.000Z",
-      "relevanceScore": 55.92,
-      "recommendationScore": 55.92,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Alan Greenspan, the legendary former Federal Reserve chair, dies",
-      "link": "https://www.npr.org/2026/06/22/656930918/alan-greenspan-the-legendary-former-federal-reserve-chair-dies",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-06-22T11:53:51.000Z",
-      "relevanceScore": 45.43,
-      "recommendationScore": 45.93,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "I Found 37 Early Prime Day Deals That Are Worth Shopping Now (2026)",
-      "link": "https://www.wired.com/story/early-prime-day-deals-june-2026-3/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-06-22T17:01:33.000Z",
-      "relevanceScore": 40.96,
-      "recommendationScore": 41.46,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why did Starmer resign and what could happen next?",
-      "link": "https://www.bbc.com/news/articles/c0qyllvpkw8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-06-22T16:44:17.000Z",
-      "relevanceScore": 35.9,
-      "recommendationScore": 37.4,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "The Download: record-breaking subsea tunnels and flexible data centers",
-      "link": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
       "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-06-22T12:10:00.000Z",
-      "relevanceScore": 31.98,
-      "recommendationScore": 32.48,
-      "tags": [
-        "Tech",
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Who is Andy Burnham? Ex-Manchester mayor who wants to lead the country",
-      "link": "https://www.bbc.com/news/articles/cp8pml5z8p6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-06-22T13:54:20.000Z",
-      "relevanceScore": 31.83,
-      "recommendationScore": 32.33,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Watch: A day of big changes and mixed emotions for Labour",
-      "link": "https://www.bbc.com/news/videos/cze9rj6d7rgo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-06-22T18:26:07.000Z",
-      "relevanceScore": 31.74,
-      "recommendationScore": 32.24,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak",
-      "link": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-06-22T18:50:24.000Z",
-      "relevanceScore": 31.32,
-      "recommendationScore": 33.82,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-      "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
-      "source": "TechCrunch",
       "category": "ai-ml",
-      "pubDate": "2026-06-22T18:49:44.000Z",
-      "relevanceScore": 31.32,
-      "recommendationScore": 31.82,
+      "pubDate": "2026-06-22T18:00:00.000Z",
+      "relevanceScore": 34.23,
+      "recommendationScore": 34.73,
       "tags": [
         "AI",
-        "Partnership"
+        "Exclusive"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
-      "title": "Amazon is testing Alexa+ in India with Hindi support",
-      "link": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
       "source": "TechCrunch",
       "category": "ai-ml",
-      "pubDate": "2026-06-22T17:31:29.000Z",
-      "relevanceScore": 31.06,
-      "recommendationScore": 31.56,
+      "pubDate": "2026-06-22T20:08:15.000Z",
+      "relevanceScore": 32.16,
+      "recommendationScore": 32.66,
       "tags": [
         "AI"
       ],
@@ -385,47 +366,43 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-06-22T17:05:12.000Z",
-      "relevanceScore": 30.97,
-      "recommendationScore": 31.47,
+      "relevanceScore": 32.05,
+      "recommendationScore": 32.55,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
-      "link": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-06-22T17:02:30.000Z",
-      "relevanceScore": 28.96,
-      "recommendationScore": 29.46,
-      "tags": [
-        "Partnership"
-      ],
+      "title": "Who is Andy Burnham? Ex-Manchester mayor who wants to lead the country",
+      "link": "https://www.bbc.com/news/articles/cp8pml5z8p6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-06-22T13:54:20.000Z",
+      "relevanceScore": 31.42,
+      "recommendationScore": 31.92,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Watch: A day of big changes and mixed emotions for Labour",
+      "link": "https://www.bbc.com/news/videos/cze9rj6d7rgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-06-22T18:26:07.000Z",
+      "relevanceScore": 31.32,
+      "recommendationScore": 31.82,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Starmer's premiership in six charts",
+      "link": "https://www.bbc.com/news/articles/cp8p9qellmqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-06-22T17:04:12.000Z",
+      "relevanceScore": 31.05,
+      "recommendationScore": 31.05,
+      "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Deploy an AI Tar Pit With Nepenthes or AI Labyrinth",
-      "link": "https://dev.to/toxsec/deploy-an-ai-tar-pit-with-nepenthes-or-ai-labyrinth-3m8g",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-06-22T19:35:27.000Z",
-      "relevanceScore": 28.47,
-      "recommendationScore": 28.97,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Inside the world’s deepest and longest subsea road tunnel",
-      "link": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-06-22T08:00:00.000Z",
-      "relevanceScore": 27.65,
-      "recommendationScore": 28.15,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Uber's board sued for alleged poor oversight that led to sexual abuse of its passengers",
@@ -433,8 +410,52 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-06-22T17:51:53.000Z",
-      "relevanceScore": 27.12,
-      "recommendationScore": 27.62,
+      "relevanceScore": 28.21,
+      "recommendationScore": 28.71,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Inside the world’s deepest and longest subsea road tunnel",
+      "link": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-06-22T08:00:00.000Z",
+      "relevanceScore": 27.23,
+      "recommendationScore": 27.73,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+      "link": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+      "source": "Wired",
+      "category": "social",
+      "pubDate": "2026-06-22T21:08:09.000Z",
+      "relevanceScore": 26.86,
+      "recommendationScore": 27.36,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+      "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-06-22T19:16:52.000Z",
+      "relevanceScore": 26.49,
+      "recommendationScore": 26.99,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Apple Watch SE 3 is just $199 for Prime Day",
+      "link": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-06-22T18:00:00.000Z",
+      "relevanceScore": 25.23,
+      "recommendationScore": 25.23,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -444,8 +465,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-06-22T17:46:49.000Z",
-      "relevanceScore": 25.61,
-      "recommendationScore": 27.11,
+      "relevanceScore": 25.19,
+      "recommendationScore": 26.69,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -455,8 +476,8 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2026-06-22T17:10:52.000Z",
-      "relevanceScore": 25.49,
-      "recommendationScore": 26.99,
+      "relevanceScore": 25.07,
+      "recommendationScore": 26.57,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -466,34 +487,34 @@
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2026-06-22T15:57:46.000Z",
-      "relevanceScore": 25.24,
-      "recommendationScore": 27.24,
+      "relevanceScore": 24.83,
+      "recommendationScore": 26.83,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Lucid lays off 1,500 workers in second big cut of the year",
-      "link": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-06-22T15:22:46.000Z",
-      "relevanceScore": 25.13,
-      "recommendationScore": 25.63,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "A US military exercise in space got underway with barely anyone noticing",
-      "link": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2026-06-22T15:18:23.000Z",
-      "relevanceScore": 25.11,
-      "recommendationScore": 25.61,
+      "title": "p99 0 ms* autocomplete for 240 million domain names",
+      "link": "https://www.reddit.com/r/programming/comments/1ucdszk/p99_0_ms_autocomplete_for_240_million_domain_names/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-06-22T07:25:26.000Z",
+      "relevanceScore": 24.12,
+      "recommendationScore": 24.62,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "iOS 27 beta 2 is out now, here's what's new",
+      "link": "https://www.engadget.com/2199312/ios-27-beta-2-is-out-now-here-s-what-s-new/",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-06-22T20:16:27.000Z",
+      "relevanceScore": 23.69,
+      "recommendationScore": 27.19,
+      "tags": [],
+      "readingLevel": "beginner"
     },
     {
       "title": "Ray-Ban Meta Optics review: A better fit comes with a higher price",
@@ -501,30 +522,8 @@
       "source": "Engadget",
       "category": "social",
       "pubDate": "2026-06-22T18:18:04.000Z",
-      "relevanceScore": 23.71,
-      "recommendationScore": 25.21,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "What to know about the legacy of Brexit, which still divides Britain 10 years on",
-      "link": "https://abcnews.com/Business/wireStory/legacy-brexit-divides-britain-10-years-134070762",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-06-21T14:34:13.000Z",
-      "relevanceScore": 23.66,
-      "recommendationScore": 25.66,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "SpaceX Investors Are Losing a Colossal Amount of Money",
-      "link": "https://www.reddit.com/r/technology/comments/1ucohl7/spacex_investors_are_losing_a_colossal_amount_of/",
-      "source": "Reddit Technology",
-      "category": "space",
-      "pubDate": "2026-06-22T15:55:36.000Z",
-      "relevanceScore": 21.24,
-      "recommendationScore": 21.74,
+      "relevanceScore": 23.29,
+      "recommendationScore": 24.79,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -534,22 +533,11 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-06-20T23:18:55.000Z",
-      "relevanceScore": 20.61,
-      "recommendationScore": 24.61,
+      "relevanceScore": 21.7,
+      "recommendationScore": 25.7,
       "tags": [
         "AI"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Cops Keep Getting Arrested for Using Flock to Stalk People",
-      "link": "https://www.reddit.com/r/technology/comments/1ucjbkh/cops_keep_getting_arrested_for_using_flock_to/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-06-22T12:33:12.000Z",
-      "relevanceScore": 20.56,
-      "recommendationScore": 21.06,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -558,8 +546,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-06-20T23:18:12.000Z",
-      "relevanceScore": 19.61,
-      "recommendationScore": 21.61,
+      "relevanceScore": 20.7,
+      "recommendationScore": 22.7,
       "tags": [
         "Web",
         "Social"
@@ -574,7 +562,7 @@
         "link": "https://www.theverge.com/entertainment/953615/steam-machine-price-game-consoles-future-ps6-project-helix",
         "source": "The Verge",
         "pubDate": "2026-06-22T18:00:00.000Z",
-        "relevanceScore": 1232.65,
+        "relevanceScore": 1917.73,
         "tags": []
       },
       {
@@ -582,63 +570,83 @@
         "link": "https://arstechnica.com/gaming/2026/06/valves-steam-machine-ships-june-29-for-1049-but-you-probably-wont-be-able-to-buy-one-yet/",
         "source": "Ars Technica",
         "pubDate": "2026-06-22T19:02:45.000Z",
-        "relevanceScore": 1079.36,
+        "relevanceScore": 1846.94,
         "tags": [
           "Acquisition"
         ]
       },
       {
-        "title": "Valve is working with AMD to bring FSR 4 to the Steam Machine",
-        "link": "https://www.theverge.com/games/952210/valve-steam-machine-fsr4-amd-upscaler",
+        "title": "Valve describes just how brutal RAM negotiations are in 2026",
+        "link": "https://www.theverge.com/games/953945/valve-steam-machine-memory-component-crisis",
         "source": "The Verge",
-        "pubDate": "2026-06-22T17:10:00.000Z",
-        "relevanceScore": 1076.48,
-        "tags": []
+        "pubDate": "2026-06-22T21:07:14.000Z",
+        "relevanceScore": 1839.86,
+        "tags": [
+          "Tech"
+        ]
       },
       {
         "title": "Valve's Steam Machine starts at $1,049 with 512GB storage and no controller",
         "link": "https://www.engadget.com/2199144/valve-steam-machine-starts-at-1049-with-512gb-storage-and-no-controller/",
         "source": "Engadget",
         "pubDate": "2026-06-22T17:47:39.000Z",
-        "relevanceScore": 1073.61,
+        "relevanceScore": 1837.19,
         "tags": []
       }
     ],
     "ai-ml": [
       {
-        "title": "OpenAI Launches Full-Scale Effort to Patch Open-Source Bugs as It Takes on Anthropic’s Mythos",
-        "link": "https://www.wired.com/story/openai-launches-full-scale-effort-to-patch-open-source-bugs-as-it-takes-on-anthropics-mythos/",
+        "title": "Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context",
+        "link": "https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08",
+        "source": "Dev.to",
+        "pubDate": "2026-06-22T21:36:33.000Z",
+        "relevanceScore": 1361.96,
+        "tags": [
+          "AI",
+          "Security"
+        ]
+      },
+      {
+        "title": "Meta Exposed Data Internally From Its Controversial Employee-Tracking Program",
+        "link": "https://www.wired.com/story/meta-accidentally-let-employees-access-each-others-keystroke-data/",
         "source": "Wired",
-        "pubDate": "2026-06-22T17:00:00.000Z",
-        "relevanceScore": 792.95,
-        "tags": [
-          "AI",
-          "Tech",
-          "Security",
-          "Update"
-        ]
-      },
-      {
-        "title": "Google invests in A24 to build AI movie tools",
-        "link": "https://www.theverge.com/entertainment/953596/google-deepmind-a24-studio-ai-partnership",
-        "source": "The Verge",
-        "pubDate": "2026-06-22T17:18:13.000Z",
-        "relevanceScore": 472.01,
-        "tags": [
-          "AI",
-          "Science",
-          "Report",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "A24 takes on Google money to build AI tools",
-        "link": "https://www.engadget.com/2199010/a24-takes-on-google-money-help-build-ai-tools/",
-        "source": "Engadget",
-        "pubDate": "2026-06-22T16:37:41.000Z",
-        "relevanceScore": 468.88,
+        "pubDate": "2026-06-22T20:28:53.000Z",
+        "relevanceScore": 219.23,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "AI is cursing renters with the promise of impossible homes",
+        "link": "https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings",
+        "source": "The Verge",
+        "pubDate": "2026-06-22T20:00:00.000Z",
+        "relevanceScore": 182.63,
+        "tags": [
+          "AI",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "The AI world is getting ‘loopy’",
+        "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+        "source": "TechCrunch",
+        "pubDate": "2026-06-22T20:53:11.000Z",
+        "relevanceScore": 148.81,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+        "link": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+        "source": "TechCrunch",
+        "pubDate": "2026-06-22T20:13:58.000Z",
+        "relevanceScore": 53.68,
+        "tags": [
+          "AI",
+          "Business",
+          "Partnership"
         ]
       },
       {
@@ -646,39 +654,18 @@
         "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
         "source": "MIT Technology Review",
         "pubDate": "2026-06-22T18:00:00.000Z",
-        "relevanceScore": 133.15,
+        "relevanceScore": 34.23,
         "tags": [
           "AI",
           "Exclusive"
         ]
       },
       {
-        "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
-        "link": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+        "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+        "link": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
         "source": "TechCrunch",
-        "pubDate": "2026-06-22T18:49:44.000Z",
-        "relevanceScore": 31.32,
-        "tags": [
-          "AI",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Amazon is testing Alexa+ in India with Hindi support",
-        "link": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
-        "source": "TechCrunch",
-        "pubDate": "2026-06-22T17:31:29.000Z",
-        "relevanceScore": 31.06,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Deploy an AI Tar Pit With Nepenthes or AI Labyrinth",
-        "link": "https://dev.to/toxsec/deploy-an-ai-tar-pit-with-nepenthes-or-ai-labyrinth-3m8g",
-        "source": "Dev.to",
-        "pubDate": "2026-06-22T19:35:27.000Z",
-        "relevanceScore": 28.47,
+        "pubDate": "2026-06-22T20:08:15.000Z",
+        "relevanceScore": 32.16,
         "tags": [
           "AI"
         ]
@@ -688,7 +675,7 @@
         "link": "https://www.bbc.com/news/articles/cpwerjy20kyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-06-20T23:18:55.000Z",
-        "relevanceScore": 20.61,
+        "relevanceScore": 21.7,
         "tags": [
           "AI"
         ]
@@ -696,255 +683,49 @@
     ],
     "development": [
       {
+        "title": "DuckDB 1.5.2, PostgreSQL Internal Stats, and SQLite Virtual Table xUpdate Deep Dive",
+        "link": "https://dev.to/soytuber/duckdb-152-postgresql-internal-stats-and-sqlite-virtual-table-xupdate-deep-dive-ll1",
+        "source": "Dev.to",
+        "pubDate": "2026-06-22T21:35:32.000Z",
+        "relevanceScore": 1167.45,
+        "tags": [
+          "Analysis",
+          "Launch",
+          "Update"
+        ]
+      },
+      {
+        "title": "How 4 bytes of padding make array clearing 49% faster",
+        "link": "https://www.reddit.com/r/programming/comments/1uck3ll/how_4_bytes_of_padding_make_array_clearing_49/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-06-22T13:07:14.000Z",
+        "relevanceScore": 917.26,
+        "tags": []
+      },
+      {
+        "title": "Ever had a renamed column quietly break a CSV export? csv-pipe makes it a compile error, reads and writes both ways, and parses several times faster than papaparse. Live playground in the post to try your own data.",
+        "link": "https://dev.to/myroslavmartsin/ever-had-a-renamed-column-quietly-break-a-csv-export-csv-pipe-makes-it-a-compile-error-reads-and-18oi",
+        "source": "Dev.to",
+        "pubDate": "2026-06-22T21:26:43.000Z",
+        "relevanceScore": 551.42,
+        "tags": []
+      },
+      {
         "title": "From pledge to practice: Building a more inclusive open source ecosystem",
         "link": "https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/",
         "source": "GitHub Blog",
         "pubDate": "2026-06-22T17:20:31.000Z",
-        "relevanceScore": 551.52,
+        "relevanceScore": 173.6,
         "tags": [
           "Exclusive"
         ]
-      }
-    ],
-    "mobile": [
-      {
-        "title": "🚀 Day 1 of Learning React: Why React Exists, the Real DOM, Virtual DOM & React Elements",
-        "link": "https://dev.to/bismay-exe/day-1-of-learning-react-why-react-exists-the-real-dom-virtual-dom-react-elements-5b61",
-        "source": "Dev.to",
-        "pubDate": "2026-06-22T19:28:37.000Z",
-        "relevanceScore": 486.45,
-        "tags": [
-          "Mobile"
-        ]
       },
       {
-        "title": "A new unpatchable flaw in Apple chips opens the door to an iPhone jailbreak",
-        "link": "https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/",
-        "source": "TechCrunch",
-        "pubDate": "2026-06-22T18:50:24.000Z",
-        "relevanceScore": 31.32,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "WhatsApp to be led by Indian start-up founder as Will Cathcart steps back",
-        "link": "https://www.bbc.com/news/articles/c8e2195k5j2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-06-22T15:57:46.000Z",
-        "relevanceScore": 25.24,
-        "tags": [
-          "Mobile"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "Anthropic says Claude may want to see your ID",
-        "link": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
-        "source": "TechCrunch",
-        "pubDate": "2026-06-22T18:05:13.000Z",
-        "relevanceScore": 255.17,
-        "tags": [
-          "Security",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Tata Electronics, a major tech supplier to Apple and Tesla, confirms data breach",
-        "link": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
-        "source": "TechCrunch",
-        "pubDate": "2026-06-22T19:25:00.000Z",
-        "relevanceScore": 111.43,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Mexico's president seeks to restart oil shipments to Cuba as island's crises deepen",
-        "link": "https://abcnews.com/Business/wireStory/mexicos-president-seeks-restart-oil-shipments-cuba-islands-134103540",
-        "source": "ABC News Business",
-        "pubDate": "2026-06-22T17:51:32.000Z",
-        "relevanceScore": 205.62,
-        "tags": []
-      },
-      {
-        "title": "Alan Greenspan, the legendary former Federal Reserve chair, dies",
-        "link": "https://www.npr.org/2026/06/22/656930918/alan-greenspan-the-legendary-former-federal-reserve-chair-dies",
-        "source": "NPR Business",
-        "pubDate": "2026-06-22T11:53:51.000Z",
-        "relevanceScore": 45.43,
-        "tags": []
-      },
-      {
-        "title": "Did you know? Alan Greenspan and Ayn Rand were close friends",
-        "link": "https://www.npr.org/2026/06/22/nx-s1-5866558/alan-greenspan-dead-ayn-rand",
-        "source": "NPR Business",
-        "pubDate": "2026-06-22T17:05:12.000Z",
-        "relevanceScore": 30.97,
-        "tags": []
-      },
-      {
-        "title": "World Cup concessions: $75 caviar-topped tots in Miami",
-        "link": "https://abcnews.com/Business/wireStory/world-cup-concessions-75-caviar-topped-tots-miami-134100346",
-        "source": "ABC News Business",
-        "pubDate": "2026-06-22T17:46:49.000Z",
-        "relevanceScore": 25.61,
-        "tags": []
-      },
-      {
-        "title": "What to know about the legacy of Brexit, which still divides Britain 10 years on",
-        "link": "https://abcnews.com/Business/wireStory/legacy-brexit-divides-britain-10-years-134070762",
-        "source": "ABC News Business",
-        "pubDate": "2026-06-21T14:34:13.000Z",
-        "relevanceScore": 23.66,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Tesla Allegedly Showed Cooked Data to Get Full Self-Driving Approved",
-        "link": "https://www.reddit.com/r/technology/comments/1uchuqk/tesla_allegedly_showed_cooked_data_to_get_full/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-06-22T11:21:19.000Z",
-        "relevanceScore": 187.32,
-        "tags": []
-      },
-      {
-        "title": "NHTSA investigating alleged Tesla Autopilot crash that killed woman in her home",
-        "link": "https://arstechnica.com/tech-policy/2026/06/woman-killed-when-tesla-driver-using-autopilot-crashed-into-her-home/",
-        "source": "Ars Technica",
-        "pubDate": "2026-06-22T17:10:52.000Z",
-        "relevanceScore": 25.49,
-        "tags": []
-      }
-    ],
-    "tech": [
-      {
-        "title": "It's not just about nudity warns actress - the complex reality of images and online abuse",
-        "link": "https://www.bbc.com/news/articles/c8621dqewxzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-06-21T23:21:05.000Z",
-        "relevanceScore": 181.92,
-        "tags": [
-          "Tech",
-          "Web",
-          "Report"
-        ]
-      },
-      {
-        "title": "The Apple Watch SE 3 is just $199 for Prime Day",
-        "link": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
-        "source": "The Verge",
-        "pubDate": "2026-06-22T18:00:00.000Z",
-        "relevanceScore": 125.65,
-        "tags": []
-      },
-      {
-        "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
-        "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
-        "source": "Wired",
-        "pubDate": "2026-06-22T18:10:09.000Z",
-        "relevanceScore": 125.18,
-        "tags": []
-      },
-      {
-        "title": "I Found 37 Early Prime Day Deals That Are Worth Shopping Now (2026)",
-        "link": "https://www.wired.com/story/early-prime-day-deals-june-2026-3/",
-        "source": "Wired",
-        "pubDate": "2026-06-22T17:01:33.000Z",
-        "relevanceScore": 40.96,
-        "tags": []
-      },
-      {
-        "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
-        "link": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
-        "source": "Wired",
-        "pubDate": "2026-06-22T17:02:30.000Z",
-        "relevanceScore": 28.96,
-        "tags": [
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Uber's board sued for alleged poor oversight that led to sexual abuse of its passengers",
-        "link": "https://www.engadget.com/2199149/uber-board-sued-for-alleged-poor-oversight-that-led-to-sexual-abuse-of-its-passengers/",
-        "source": "Engadget",
-        "pubDate": "2026-06-22T17:51:53.000Z",
-        "relevanceScore": 27.12,
-        "tags": []
-      },
-      {
-        "title": "Lucid lays off 1,500 workers in second big cut of the year",
-        "link": "https://arstechnica.com/cars/2026/06/lucid-lays-off-1500-workers-in-second-big-cut-of-the-year/",
-        "source": "Ars Technica",
-        "pubDate": "2026-06-22T15:22:46.000Z",
-        "relevanceScore": 25.13,
-        "tags": []
-      },
-      {
-        "title": "Cops Keep Getting Arrested for Using Flock to Stalk People",
-        "link": "https://www.reddit.com/r/technology/comments/1ucjbkh/cops_keep_getting_arrested_for_using_flock_to/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-06-22T12:33:12.000Z",
-        "relevanceScore": 20.56,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Starmer's premiership in six charts",
-        "link": "https://www.bbc.com/news/articles/cp8p9qellmqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-06-22T17:04:12.000Z",
-        "relevanceScore": 131.46,
-        "tags": []
-      },
-      {
-        "title": "Analysis: Everything points to Burnham becoming PM within weeks",
-        "link": "https://www.bbc.com/news/articles/c20y1zvg50lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-06-22T17:20:49.000Z",
-        "relevanceScore": 65.52,
-        "tags": [
-          "Analysis"
-        ]
-      },
-      {
-        "title": "Why did Starmer resign and what could happen next?",
-        "link": "https://www.bbc.com/news/articles/c0qyllvpkw8o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-06-22T16:44:17.000Z",
-        "relevanceScore": 35.9,
-        "tags": []
-      },
-      {
-        "title": "Who is Andy Burnham? Ex-Manchester mayor who wants to lead the country",
-        "link": "https://www.bbc.com/news/articles/cp8pml5z8p6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-06-22T13:54:20.000Z",
-        "relevanceScore": 31.83,
-        "tags": []
-      },
-      {
-        "title": "Watch: A day of big changes and mixed emotions for Labour",
-        "link": "https://www.bbc.com/news/videos/cze9rj6d7rgo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-06-22T18:26:07.000Z",
-        "relevanceScore": 31.74,
-        "tags": []
-      }
-    ],
-    "blockchain": [
-      {
-        "title": "[Boost]",
-        "link": "https://dev.to/cherrypick14/-1d2i",
-        "source": "Dev.to",
-        "pubDate": "2026-06-22T19:21:16.000Z",
-        "relevanceScore": 55.92,
+        "title": "p99 0 ms* autocomplete for 240 million domain names",
+        "link": "https://www.reddit.com/r/programming/comments/1ucdszk/p99_0_ms_autocomplete_for_240_million_domain_names/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-06-22T07:25:26.000Z",
+        "relevanceScore": 24.12,
         "tags": []
       }
     ],
@@ -954,7 +735,7 @@
         "link": "https://www.technologyreview.com/2026/06/22/1139385/the-download-rogfast-subsea-tunnel-flexible-data-centers/",
         "source": "MIT Technology Review",
         "pubDate": "2026-06-22T12:10:00.000Z",
-        "relevanceScore": 31.98,
+        "relevanceScore": 930.07,
         "tags": [
           "Tech",
           "Breaking"
@@ -965,35 +746,202 @@
         "link": "https://www.technologyreview.com/2026/06/22/1138821/inside-worlds-deepest-longest-subsea-road-tunnel/",
         "source": "MIT Technology Review",
         "pubDate": "2026-06-22T08:00:00.000Z",
-        "relevanceScore": 27.65,
+        "relevanceScore": 27.23,
         "tags": []
       }
     ],
-    "space": [
+    "tech": [
       {
-        "title": "A US military exercise in space got underway with barely anyone noticing",
-        "link": "https://arstechnica.com/space/2026/06/a-us-military-exercise-in-space-got-underway-with-barely-anyone-noticing/",
+        "title": "It's not just about nudity warns actress - the complex reality of images and online abuse",
+        "link": "https://www.bbc.com/news/articles/c8621dqewxzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-06-21T23:21:05.000Z",
+        "relevanceScore": 381.5,
+        "tags": [
+          "Tech",
+          "Web",
+          "Report"
+        ]
+      },
+      {
+        "title": "Polymarket's viral videos showed people winning big, but the bets were fake",
+        "link": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
         "source": "Ars Technica",
-        "pubDate": "2026-06-22T15:18:23.000Z",
-        "relevanceScore": 25.11,
+        "pubDate": "2026-06-22T20:10:34.000Z",
+        "relevanceScore": 203.17,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "The Ninja Slushi Is Only $200: Early Amazon Prime Day Deal 2026",
+        "link": "https://www.wired.com/story/ninja-slushi-amazon-prime-day-deal-2026/",
+        "source": "Wired",
+        "pubDate": "2026-06-22T17:02:30.000Z",
+        "relevanceScore": 156.04,
+        "tags": [
+          "Partnership"
+        ]
+      },
+      {
+        "title": "We Tried the Most Popular Mushroom Coffees. These Are the Best (2026)",
+        "link": "https://www.wired.com/gallery/best-mushroom-coffee/",
+        "source": "Wired",
+        "pubDate": "2026-06-22T18:10:09.000Z",
+        "relevanceScore": 74.77,
         "tags": []
       },
       {
-        "title": "SpaceX Investors Are Losing a Colossal Amount of Money",
-        "link": "https://www.reddit.com/r/technology/comments/1ucohl7/spacex_investors_are_losing_a_colossal_amount_of/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-06-22T15:55:36.000Z",
-        "relevanceScore": 21.24,
+        "title": "Uber's board sued for alleged poor oversight that led to sexual abuse of its passengers",
+        "link": "https://www.engadget.com/2199149/uber-board-sued-for-alleged-poor-oversight-that-led-to-sexual-abuse-of-its-passengers/",
+        "source": "Engadget",
+        "pubDate": "2026-06-22T17:51:53.000Z",
+        "relevanceScore": 28.21,
+        "tags": []
+      },
+      {
+        "title": "Following user outcry, AMD reinstates memory encryption in consumer CPUs",
+        "link": "https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/",
+        "source": "Ars Technica",
+        "pubDate": "2026-06-22T19:16:52.000Z",
+        "relevanceScore": 26.49,
+        "tags": []
+      },
+      {
+        "title": "The Apple Watch SE 3 is just $199 for Prime Day",
+        "link": "https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale",
+        "source": "The Verge",
+        "pubDate": "2026-06-22T18:00:00.000Z",
+        "relevanceScore": 25.23,
         "tags": []
       }
     ],
+    "business": [
+      {
+        "title": "Mexico's president seeks to restart oil shipments to Cuba as island's crises deepen",
+        "link": "https://abcnews.com/Business/wireStory/mexicos-president-seeks-restart-oil-shipments-cuba-islands-134103540",
+        "source": "ABC News Business",
+        "pubDate": "2026-06-22T17:51:32.000Z",
+        "relevanceScore": 286.21,
+        "tags": []
+      },
+      {
+        "title": "What to know about the legacy of Brexit, which still divides Britain 10 years on",
+        "link": "https://abcnews.com/Business/wireStory/legacy-brexit-divides-britain-10-years-134070762",
+        "source": "ABC News Business",
+        "pubDate": "2026-06-21T14:34:13.000Z",
+        "relevanceScore": 150.75,
+        "tags": []
+      },
+      {
+        "title": "Alan Greenspan, the legendary former Federal Reserve chair, dies",
+        "link": "https://www.npr.org/2026/06/22/656930918/alan-greenspan-the-legendary-former-federal-reserve-chair-dies",
+        "source": "NPR Business",
+        "pubDate": "2026-06-22T11:53:51.000Z",
+        "relevanceScore": 58.01,
+        "tags": []
+      },
+      {
+        "title": "Did you know? Alan Greenspan and Ayn Rand were close friends",
+        "link": "https://www.npr.org/2026/06/22/nx-s1-5866558/alan-greenspan-dead-ayn-rand",
+        "source": "NPR Business",
+        "pubDate": "2026-06-22T17:05:12.000Z",
+        "relevanceScore": 32.05,
+        "tags": []
+      },
+      {
+        "title": "World Cup concessions: $75 caviar-topped tots in Miami",
+        "link": "https://abcnews.com/Business/wireStory/world-cup-concessions-75-caviar-topped-tots-miami-134100346",
+        "source": "ABC News Business",
+        "pubDate": "2026-06-22T17:46:49.000Z",
+        "relevanceScore": 25.19,
+        "tags": []
+      }
+    ],
+    "climate": [
+      {
+        "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+        "link": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+        "source": "TechCrunch",
+        "pubDate": "2026-06-22T20:37:19.000Z",
+        "relevanceScore": 171.76,
+        "tags": [
+          "Acquisition"
+        ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Why did Starmer resign and what could happen next?",
+        "link": "https://www.bbc.com/news/articles/c0qyllvpkw8o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-06-22T16:44:17.000Z",
+        "relevanceScore": 162.98,
+        "tags": []
+      },
+      {
+        "title": "Analysis: Everything points to Burnham becoming PM within weeks",
+        "link": "https://www.bbc.com/news/articles/c20y1zvg50lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-06-22T21:11:38.000Z",
+        "relevanceScore": 37.87,
+        "tags": [
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Who is Andy Burnham? Ex-Manchester mayor who wants to lead the country",
+        "link": "https://www.bbc.com/news/articles/cp8pml5z8p6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-06-22T13:54:20.000Z",
+        "relevanceScore": 31.42,
+        "tags": []
+      },
+      {
+        "title": "Watch: A day of big changes and mixed emotions for Labour",
+        "link": "https://www.bbc.com/news/videos/cze9rj6d7rgo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-06-22T18:26:07.000Z",
+        "relevanceScore": 31.32,
+        "tags": []
+      },
+      {
+        "title": "Starmer's premiership in six charts",
+        "link": "https://www.bbc.com/news/articles/cp8p9qellmqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-06-22T17:04:12.000Z",
+        "relevanceScore": 31.05,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Tata Electronics, a major tech supplier to Apple and Tesla, confirms data breach",
+        "link": "https://techcrunch.com/2026/06/22/tata-electronics-a-major-tech-supplier-to-apple-and-tesla-confirms-data-breach/",
+        "source": "TechCrunch",
+        "pubDate": "2026-06-22T19:25:00.000Z",
+        "relevanceScore": 149.52,
+        "tags": [
+          "Tech",
+          "Security"
+        ]
+      }
+    ],
     "social": [
+      {
+        "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+        "link": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+        "source": "Wired",
+        "pubDate": "2026-06-22T21:08:09.000Z",
+        "relevanceScore": 26.86,
+        "tags": []
+      },
       {
         "title": "Ray-Ban Meta Optics review: A better fit comes with a higher price",
         "link": "https://www.engadget.com/2199194/ray-ban-meta-optics-review/",
         "source": "Engadget",
         "pubDate": "2026-06-22T18:18:04.000Z",
-        "relevanceScore": 23.71,
+        "relevanceScore": 23.29,
         "tags": []
       },
       {
@@ -1001,18 +949,48 @@
         "link": "https://www.bbc.com/news/articles/c1jy512r19ro?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-06-20T23:18:12.000Z",
-        "relevanceScore": 19.61,
+        "relevanceScore": 20.7,
         "tags": [
           "Web",
           "Social"
         ]
       }
+    ],
+    "automotive": [
+      {
+        "title": "NHTSA investigating alleged Tesla Autopilot crash that killed woman in her home",
+        "link": "https://arstechnica.com/tech-policy/2026/06/woman-killed-when-tesla-driver-using-autopilot-crashed-into-her-home/",
+        "source": "Ars Technica",
+        "pubDate": "2026-06-22T17:10:52.000Z",
+        "relevanceScore": 25.07,
+        "tags": []
+      }
+    ],
+    "mobile": [
+      {
+        "title": "WhatsApp to be led by Indian start-up founder as Will Cathcart steps back",
+        "link": "https://www.bbc.com/news/articles/c8e2195k5j2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-06-22T15:57:46.000Z",
+        "relevanceScore": 24.83,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "iOS 27 beta 2 is out now, here's what's new",
+        "link": "https://www.engadget.com/2199312/ios-27-beta-2-is-out-now-here-s-what-s-new/",
+        "source": "Engadget",
+        "pubDate": "2026-06-22T20:16:27.000Z",
+        "relevanceScore": 23.69,
+        "tags": []
+      }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 13,
-    "avgRelevanceScore": 211.62066666666655,
+    "totalCategories": 12,
+    "avgRelevanceScore": 352.16477272727275,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1020,7 +998,11 @@
       },
       {
         "category": "tech",
-        "count": 8
+        "count": 7
+      },
+      {
+        "category": "development",
+        "count": 5
       },
       {
         "category": "business",
@@ -1029,10 +1011,6 @@
       {
         "category": "general",
         "count": 5
-      },
-      {
-        "category": "gaming",
-        "count": 4
       }
     ]
   }
