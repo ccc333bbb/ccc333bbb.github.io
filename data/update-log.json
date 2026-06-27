@@ -1,6 +1,17 @@
 {
   "updates": [
     {
+      "timestamp": "2026-06-27T09:10:10.494Z",
+      "operation": "process-news",
+      "details": {
+        "file": "2026-06-27.json",
+        "totalArticles": 47,
+        "avgRelevanceScore": 525.9334042553193,
+        "categoriesCount": 11,
+        "sourcesCount": 14
+      }
+    },
+    {
       "timestamp": "2026-06-27T08:43:27.877Z",
       "type": "health_check",
       "status": "unhealthy",
@@ -1178,19 +1189,8 @@
         "categoriesCount": 15,
         "sourcesCount": 14
       }
-    },
-    {
-      "timestamp": "2026-06-17T22:55:42.307Z",
-      "operation": "process-news",
-      "details": {
-        "file": "2026-06-17.json",
-        "totalArticles": 49,
-        "avgRelevanceScore": 418.52571428571423,
-        "categoriesCount": 14,
-        "sourcesCount": 14
-      }
     }
   ],
   "lastUpdate": "2026-06-27T08:43:27.877Z",
-  "lastUpdated": "2026-06-27T06:16:18.968Z"
+  "lastUpdated": "2026-06-27T09:10:10.494Z"
 }
