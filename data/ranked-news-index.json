@@ -1,44 +1,48 @@
 {
-  "lastUpdated": "2026-07-04T23:31:18.720Z",
+  "lastUpdated": "2026-07-05T01:23:06.232Z",
   "totalArticles": 41,
   "categories": [
-    "development",
     "climate",
+    "tech",
     "business",
     "ai-ml",
-    "tech",
-    "finance",
-    "space",
     "mobile",
+    "space",
+    "development",
     "startup",
     "science",
+    "gaming",
     "general",
     "health",
+    "finance",
     "entertainment",
-    "automotive"
+    "automotive",
+    "social"
   ],
   "topArticles": [
-    {
-      "title": "Linux has officially won",
-      "link": "https://www.reddit.com/r/programming/comments/1um497y/linux_has_officially_won/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-07-03T04:23:58.000Z",
-      "relevanceScore": 679.88,
-      "recommendationScore": 679.88,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
     {
       "title": "A martian rock has lots of carbon on it, and it's not clear why",
       "link": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2026-07-04T11:00:41.000Z",
-      "relevanceScore": 669,
-      "recommendationScore": 671,
+      "relevanceScore": 725.63,
+      "recommendationScore": 727.63,
       "tags": [],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-07-04T16:32:08.000Z",
+      "relevanceScore": 711.73,
+      "recommendationScore": 712.23,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "A hot summer trend in the sharing economy? Rental swimming pools",
@@ -46,8 +50,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-07-03T09:00:00.000Z",
-      "relevanceScore": 592.8,
-      "recommendationScore": 593.3,
+      "relevanceScore": 669.42,
+      "recommendationScore": 669.92,
       "tags": [
         "Business"
       ],
@@ -59,23 +63,10 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-07-04T20:55:25.000Z",
-      "relevanceScore": 591.98,
-      "recommendationScore": 594.48,
+      "relevanceScore": 666.61,
+      "recommendationScore": 669.11,
       "tags": [
         "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Alibaba reportedly bans employees from using Claude Code",
-      "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-07-04T16:32:08.000Z",
-      "relevanceScore": 586.1,
-      "recommendationScore": 586.6,
-      "tags": [
-        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -85,39 +76,12 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-07-04T15:51:32.000Z",
-      "relevanceScore": 557.47,
-      "recommendationScore": 559.47,
+      "relevanceScore": 636.09,
+      "recommendationScore": 638.09,
       "tags": [
         "AI",
         "Startup",
         "Funding"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why Your Microservices Need Circuit Breakers (And How to Add Them)",
-      "link": "https://dev.to/samson_tanimawo/why-your-microservices-need-circuit-breakers-and-how-to-add-them-1ee8",
-      "source": "Dev.to",
-      "category": "finance",
-      "pubDate": "2026-07-04T23:02:12.000Z",
-      "relevanceScore": 522.9,
-      "recommendationScore": 524.9,
-      "tags": [
-        "Tutorial",
-        "Partnership"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
-      "link": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
-      "source": "Wired",
-      "category": "space",
-      "pubDate": "2026-07-04T11:00:00.000Z",
-      "relevanceScore": 460.5,
-      "recommendationScore": 463.5,
-      "tags": [
-        "Tutorial"
       ],
       "readingLevel": "intermediate"
     },
@@ -127,8 +91,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-07-04T16:19:06.000Z",
-      "relevanceScore": 441.06,
-      "recommendationScore": 441.56,
+      "relevanceScore": 547.69,
+      "recommendationScore": 548.19,
       "tags": [
         "Web"
       ],
@@ -140,10 +104,37 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-07-04T10:30:00.000Z",
-      "relevanceScore": 419.4,
-      "recommendationScore": 419.9,
+      "relevanceScore": 510.52,
+      "recommendationScore": 511.02,
       "tags": [
         "Mobile"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+      "link": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
+      "source": "Wired",
+      "category": "space",
+      "pubDate": "2026-07-04T11:00:00.000Z",
+      "relevanceScore": 493.12,
+      "recommendationScore": 496.12,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "A Beginner's Guide to For Loops in Java",
+      "link": "https://dev.to/irza_hashim/a-beginners-guide-to-for-loops-in-java-1g12",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-07-05T01:09:44.000Z",
+      "relevanceScore": 366.96,
+      "recommendationScore": 366.96,
+      "tags": [
+        "Science",
+        "Tutorial"
       ],
       "readingLevel": "intermediate"
     },
@@ -153,8 +144,8 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-07-04T11:30:00.000Z",
-      "relevanceScore": 303.6,
-      "recommendationScore": 305.1,
+      "relevanceScore": 366.22,
+      "recommendationScore": 367.72,
       "tags": [
         "Mobile"
       ],
@@ -166,8 +157,8 @@
       "source": "Ars Technica",
       "category": "startup",
       "pubDate": "2026-07-03T13:55:35.000Z",
-      "relevanceScore": 299.28,
-      "recommendationScore": 301.78,
+      "relevanceScore": 361.91,
+      "recommendationScore": 364.41,
       "tags": [
         "Startup",
         "Exclusive",
@@ -182,12 +173,34 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-07-03T12:10:00.000Z",
-      "relevanceScore": 203.93,
-      "recommendationScore": 206.43,
+      "relevanceScore": 257.06,
+      "recommendationScore": 259.56,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "I Almost Didn't Build Beta Gamer",
+      "link": "https://dev.to/adodanieln/i-almost-didnt-build-beta-gamer-2ogh",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2026-07-05T01:02:22.000Z",
+      "relevanceScore": 248.93,
+      "recommendationScore": 248.93,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "OLAP and OLTP lines are blurring",
+      "link": "https://dev.to/senthilsivam41/olap-and-oltp-lines-are-blurring-31pe",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-07-05T00:52:38.000Z",
+      "relevanceScore": 245.4,
+      "recommendationScore": 245.4,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Matic’s robot vacuum is getting a $250 price hike in September",
@@ -195,24 +208,10 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-07-04T16:00:00.000Z",
-      "relevanceScore": 160,
-      "recommendationScore": 160.5,
+      "relevanceScore": 203.62,
+      "recommendationScore": 204.12,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "How your smartwatch and AI might detect early signs of illness",
-      "link": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-07-04T18:30:00.000Z",
-      "relevanceScore": 158.5,
-      "recommendationScore": 160.5,
-      "tags": [
-        "AI",
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
@@ -220,8 +219,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-07-03T09:00:00.000Z",
-      "relevanceScore": 156.8,
-      "recommendationScore": 157.3,
+      "relevanceScore": 200.42,
+      "recommendationScore": 200.92,
       "tags": [
         "AI",
         "Web"
@@ -234,8 +233,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-07-04T23:18:36.000Z",
-      "relevanceScore": 148.96,
-      "recommendationScore": 149.46,
+      "relevanceScore": 188.58,
+      "recommendationScore": 189.08,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -245,25 +244,50 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-07-04T16:00:00.000Z",
-      "relevanceScore": 145,
-      "recommendationScore": 145.5,
+      "relevanceScore": 168.62,
+      "recommendationScore": 169.12,
       "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "PaperQuire v0.3.0 — Your AI Agent's PDF Tool",
-      "link": "https://dev.to/paperquire_e3fdb510bbe49c/paperquire-v030-your-ai-agents-pdf-tool-3c1n",
-      "source": "Dev.to",
+      "title": "How your smartwatch and AI might detect early signs of illness",
+      "link": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
+      "source": "Engadget",
       "category": "ai-ml",
-      "pubDate": "2026-07-04T23:23:10.000Z",
-      "relevanceScore": 117.47,
-      "recommendationScore": 117.47,
+      "pubDate": "2026-07-04T18:30:00.000Z",
+      "relevanceScore": 135.12,
+      "recommendationScore": 137.12,
+      "tags": [
+        "AI",
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "When the ability to smell goes away",
+      "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+      "source": "Ars Technica",
+      "category": "health",
+      "pubDate": "2026-07-04T11:04:31.000Z",
+      "relevanceScore": 134.14,
+      "recommendationScore": 134.14,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Meta Paid Hundreds of Contractors to Pretend to Be Teenagers While Barraging Its Competitors’ AI With Disturbing Content",
+      "link": "https://www.reddit.com/r/technology/comments/1unfa9q/meta_paid_hundreds_of_contractors_to_pretend_to/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-07-04T17:45:55.000Z",
+      "relevanceScore": 117.48,
+      "recommendationScore": 117.48,
       "tags": [
         "AI"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "The good, the bad, and the AI apps​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍‌​​﻿​​​﻿​‌​﻿‌﻿​﻿‌‌‌‍‌‍​﻿‌​​‍﻿‌​﻿‌​​﻿​​‌‍​‌​﻿‍​​‍﻿‌​﻿‌​​﻿‌﻿‌‍‌‌‌‍​‍​‍﻿‌​﻿‍‌‌‍​‍‌‍​‍​﻿​﻿​‍﻿‌‌‍​‌​﻿‌​​﻿‌‌​﻿​﻿‌‍​‍​﻿​﻿​﻿​‍​﻿‌‍‌‍​‌‌‍​‌​﻿‌﻿‌‍‌​​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌​‌‍‌​​﻿​​​﻿​‌​﻿‌﻿​﻿‌‌‌‍‌‍​﻿‌​​‍﻿‌​﻿‌​​﻿​​‌‍​‌​﻿‍​​‍﻿‌​﻿‌​​﻿‌﻿‌‍‌‌‌‍​‍​‍﻿‌​﻿‍‌‌‍​‍‌‍​‍​﻿​﻿​‍﻿‌‌‍​‌​﻿‌​​﻿‌‌​﻿​﻿‌‍​‍​﻿​﻿​﻿​‍​﻿‌‍‌‍​‌‌‍​‌​﻿‌﻿‌‍‌​​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
@@ -271,8 +295,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-07-03T07:40:00.000Z",
-      "relevanceScore": 77.53,
-      "recommendationScore": 77.53,
+      "relevanceScore": 106.66,
+      "recommendationScore": 106.66,
       "tags": [
         "AI",
         "Tutorial"
@@ -285,12 +309,25 @@
       "source": "BBC News",
       "category": "ai-ml",
       "pubDate": "2026-07-04T21:32:08.000Z",
-      "relevanceScore": 51.1,
-      "recommendationScore": 52.6,
+      "relevanceScore": 91.23,
+      "recommendationScore": 92.73,
       "tags": [
         "AI",
         "Mobile",
         "Update"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "New heatwave likely to peak at 34C with week-long health alert issued",
+      "link": "https://www.bbc.co.uk/weather/articles/c621j44jwe1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "health",
+      "pubDate": "2026-07-04T15:28:17.000Z",
+      "relevanceScore": 89.52,
+      "recommendationScore": 92.02,
+      "tags": [
+        "Breaking"
       ],
       "readingLevel": "intermediate"
     },
@@ -300,23 +337,10 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-07-04T18:41:25.000Z",
-      "relevanceScore": 50.53,
-      "recommendationScore": 51.03,
+      "relevanceScore": 76.16,
+      "recommendationScore": 76.66,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "New heatwave likely to peak at 34C with week-long health alert issued",
-      "link": "https://www.bbc.co.uk/weather/articles/c621j44jwe1o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "health",
-      "pubDate": "2026-07-04T15:28:17.000Z",
-      "relevanceScore": 49.39,
-      "recommendationScore": 51.89,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
@@ -324,23 +348,12 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-07-04T18:00:05.000Z",
-      "relevanceScore": 46.4,
-      "recommendationScore": 46.9,
+      "relevanceScore": 72.02,
+      "recommendationScore": 72.52,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "When the ability to smell goes away",
-      "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
-      "source": "Ars Technica",
-      "category": "health",
-      "pubDate": "2026-07-04T11:04:31.000Z",
-      "relevanceScore": 42.51,
-      "recommendationScore": 42.51,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "The only AI glossary you’ll need this year",
@@ -348,12 +361,26 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-07-03T21:20:00.000Z",
-      "relevanceScore": 42.26,
-      "recommendationScore": 42.26,
+      "relevanceScore": 67.89,
+      "recommendationScore": 67.89,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "A California farmer is giving away tons of nectarines that he's not allowed to sell",
+      "link": "https://abcnews.com/Business/wireStory/california-farmer-food-marketer-spar-sell-white-nectarines-134433988",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2026-07-03T16:41:58.000Z",
+      "relevanceScore": 64.96,
+      "recommendationScore": 65.46,
+      "tags": [
+        "Business",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Parents warned not to publicly share children’s images amid AI abuse risks",
@@ -361,37 +388,22 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-07-03T15:57:42.000Z",
-      "relevanceScore": 39.19,
-      "recommendationScore": 39.69,
+      "relevanceScore": 64.82,
+      "recommendationScore": 65.32,
       "tags": [
         "AI"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Indonesians fight a German cement giant over a mine and factory project",
-      "link": "https://abcnews.com/Business/wireStory/indonesians-fight-german-cement-giant-mine-factory-project-134433623",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-07-03T06:27:19.000Z",
-      "relevanceScore": 37.29,
-      "recommendationScore": 37.79,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Asian shares rally after Dow hits a record, as some AI shares bounce back",
-      "link": "https://abcnews.com/Business/wireStory/asian-shares-rally-after-dow-hits-record-ai-134433529",
-      "source": "ABC News Business",
-      "category": "ai-ml",
-      "pubDate": "2026-07-03T06:27:31.000Z",
-      "relevanceScore": 37.29,
-      "recommendationScore": 37.79,
-      "tags": [
-        "AI"
-      ],
+      "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
+      "link": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-07-04T15:00:00.000Z",
+      "relevanceScore": 33.92,
+      "recommendationScore": 34.42,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -400,33 +412,11 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-07-04T19:36:58.000Z",
-      "relevanceScore": 31.22,
-      "recommendationScore": 31.72,
+      "relevanceScore": 30.85,
+      "recommendationScore": 31.35,
       "tags": [
         "Report"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
-      "link": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-07-04T15:00:00.000Z",
-      "relevanceScore": 28.3,
-      "recommendationScore": 28.8,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Division Polynomials of Elliptic Curves in Python",
-      "link": "https://www.reddit.com/r/programming/comments/1un3czl/division_polynomials_of_elliptic_curves_in_python/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-07-04T08:09:50.000Z",
-      "relevanceScore": 27.93,
-      "recommendationScore": 27.93,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -435,8 +425,8 @@
       "source": "Ars Technica",
       "category": "finance",
       "pubDate": "2026-07-04T16:49:14.000Z",
-      "relevanceScore": 25.66,
-      "recommendationScore": 26.16,
+      "relevanceScore": 25.29,
+      "recommendationScore": 25.79,
       "tags": [
         "Business"
       ],
@@ -448,22 +438,11 @@
       "source": "The Verge",
       "category": "space",
       "pubDate": "2026-07-04T19:06:27.000Z",
-      "relevanceScore": 25.12,
-      "recommendationScore": 28.62,
+      "relevanceScore": 24.74,
+      "recommendationScore": 28.24,
       "tags": [
         "Breaking"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Meet checkOwners: confidence-scored CODEOWNERS from your git history",
-      "link": "https://dev.to/smusali/meet-checkowners-confidence-scored-codeowners-from-your-git-history-4280",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-07-04T23:00:23.000Z",
-      "relevanceScore": 23.9,
-      "recommendationScore": 24.4,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -472,8 +451,8 @@
       "source": "Engadget",
       "category": "entertainment",
       "pubDate": "2026-07-04T19:45:00.000Z",
-      "relevanceScore": 23.25,
-      "recommendationScore": 23.25,
+      "relevanceScore": 22.87,
+      "recommendationScore": 22.87,
       "tags": [
         "Science",
         "Report"
@@ -481,13 +460,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Small businesses say they're having a good summer as Americans travel closer to home",
+      "link": "https://abcnews.com/Business/wireStory/small-businesses-good-summer-americans-travel-closer-home-134463470",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-07-04T04:34:51.000Z",
+      "relevanceScore": 22.84,
+      "recommendationScore": 23.34,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "A device that revives eyeballs from dead donors could make eye transplants possible",
       "link": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-07-03T17:34:37.000Z",
-      "relevanceScore": 23.01,
-      "recommendationScore": 23.51,
+      "relevanceScore": 22.64,
+      "recommendationScore": 23.14,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -497,8 +489,8 @@
       "source": "Engadget",
       "category": "automotive",
       "pubDate": "2026-07-04T17:30:00.000Z",
-      "relevanceScore": 22.8,
-      "recommendationScore": 23.3,
+      "relevanceScore": 22.42,
+      "recommendationScore": 22.92,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -508,8 +500,8 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2026-07-04T16:00:37.000Z",
-      "relevanceScore": 22.5,
-      "recommendationScore": 25,
+      "relevanceScore": 22.13,
+      "recommendationScore": 24.63,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -519,8 +511,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-07-04T01:50:17.000Z",
-      "relevanceScore": 21.66,
-      "recommendationScore": 23.16,
+      "relevanceScore": 21.29,
+      "recommendationScore": 22.79,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -530,49 +522,82 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-07-03T09:00:00.000Z",
-      "relevanceScore": 21.3,
-      "recommendationScore": 23.8,
+      "relevanceScore": 20.92,
+      "recommendationScore": 23.42,
       "tags": [
         "Exclusive",
         "Innovation"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta data center water discharges suspended after contaminating the city's reclamation water supply with bacterium",
+      "link": "https://www.reddit.com/r/technology/comments/1unc5f1/meta_data_center_water_discharges_suspended_after/",
+      "source": "Reddit Technology",
+      "category": "social",
+      "pubDate": "2026-07-04T15:37:53.000Z",
+      "relevanceScore": 20.05,
+      "recommendationScore": 20.05,
+      "tags": [],
+      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
-    "development": [
-      {
-        "title": "Linux has officially won",
-        "link": "https://www.reddit.com/r/programming/comments/1um497y/linux_has_officially_won/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-07-03T04:23:58.000Z",
-        "relevanceScore": 679.88,
-        "tags": []
-      },
-      {
-        "title": "Division Polynomials of Elliptic Curves in Python",
-        "link": "https://www.reddit.com/r/programming/comments/1un3czl/division_polynomials_of_elliptic_curves_in_python/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-07-04T08:09:50.000Z",
-        "relevanceScore": 27.93,
-        "tags": []
-      },
-      {
-        "title": "Meet checkOwners: confidence-scored CODEOWNERS from your git history",
-        "link": "https://dev.to/smusali/meet-checkowners-confidence-scored-codeowners-from-your-git-history-4280",
-        "source": "Dev.to",
-        "pubDate": "2026-07-04T23:00:23.000Z",
-        "relevanceScore": 23.9,
-        "tags": []
-      }
-    ],
     "climate": [
       {
         "title": "A martian rock has lots of carbon on it, and it's not clear why",
         "link": "https://arstechnica.com/science/2026/07/a-martian-rock-has-lots-of-carbon-on-it-and-its-not-clear-why/",
         "source": "Ars Technica",
         "pubDate": "2026-07-04T11:00:41.000Z",
-        "relevanceScore": 669,
+        "relevanceScore": 725.63,
+        "tags": []
+      }
+    ],
+    "tech": [
+      {
+        "title": "Alibaba reportedly bans employees from using Claude Code",
+        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+        "source": "TechCrunch",
+        "pubDate": "2026-07-04T16:32:08.000Z",
+        "relevanceScore": 711.73,
+        "tags": [
+          "Tech"
+        ]
+      },
+      {
+        "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
+        "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
+        "source": "The Verge",
+        "pubDate": "2026-07-04T16:19:06.000Z",
+        "relevanceScore": 547.69,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Matic’s robot vacuum is getting a $250 price hike in September",
+        "link": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
+        "source": "The Verge",
+        "pubDate": "2026-07-04T16:00:00.000Z",
+        "relevanceScore": 203.62,
+        "tags": []
+      },
+      {
+        "title": "Submit Your Questions: Inside The World of Online Romance Scams",
+        "link": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
+        "source": "Wired",
+        "pubDate": "2026-07-04T16:00:00.000Z",
+        "relevanceScore": 168.62,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
+        "link": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
+        "source": "The Verge",
+        "pubDate": "2026-07-04T15:00:00.000Z",
+        "relevanceScore": 33.92,
         "tags": []
       }
     ],
@@ -582,19 +607,19 @@
         "link": "https://www.npr.org/2026/07/03/nx-s1-5876505/swimming-pool-rental-sharing-economy-swimply",
         "source": "NPR Business",
         "pubDate": "2026-07-03T09:00:00.000Z",
-        "relevanceScore": 592.8,
+        "relevanceScore": 669.42,
         "tags": [
           "Business"
         ]
       },
       {
-        "title": "Indonesians fight a German cement giant over a mine and factory project",
-        "link": "https://abcnews.com/Business/wireStory/indonesians-fight-german-cement-giant-mine-factory-project-134433623",
+        "title": "Small businesses say they're having a good summer as Americans travel closer to home",
+        "link": "https://abcnews.com/Business/wireStory/small-businesses-good-summer-americans-travel-closer-home-134463470",
         "source": "ABC News Business",
-        "pubDate": "2026-07-03T06:27:19.000Z",
-        "relevanceScore": 37.29,
+        "pubDate": "2026-07-04T04:34:51.000Z",
+        "relevanceScore": 22.84,
         "tags": [
-          "Regulation"
+          "Business"
         ]
       },
       {
@@ -602,7 +627,7 @@
         "link": "https://abcnews.com/Business/wireStory/brazils-top-presidential-candidates-lula-flvio-bolsonaro-clash-134452795",
         "source": "ABC News Business",
         "pubDate": "2026-07-04T01:50:17.000Z",
-        "relevanceScore": 21.66,
+        "relevanceScore": 21.29,
         "tags": []
       },
       {
@@ -610,7 +635,7 @@
         "link": "https://www.npr.org/2026/07/03/nx-s1-5845436/coffee-july-4-colonies-america-250-1776-boston-tea-party",
         "source": "NPR Business",
         "pubDate": "2026-07-03T09:00:00.000Z",
-        "relevanceScore": 21.3,
+        "relevanceScore": 20.92,
         "tags": [
           "Exclusive",
           "Innovation"
@@ -623,7 +648,7 @@
         "link": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
         "source": "TechCrunch",
         "pubDate": "2026-07-04T20:55:25.000Z",
-        "relevanceScore": 591.98,
+        "relevanceScore": 666.61,
         "tags": [
           "AI"
         ]
@@ -633,7 +658,7 @@
         "link": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
         "source": "TechCrunch",
         "pubDate": "2026-07-04T15:51:32.000Z",
-        "relevanceScore": 557.47,
+        "relevanceScore": 636.09,
         "tags": [
           "AI",
           "Startup",
@@ -641,33 +666,33 @@
         ]
       },
       {
-        "title": "How your smartwatch and AI might detect early signs of illness",
-        "link": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
-        "source": "Engadget",
-        "pubDate": "2026-07-04T18:30:00.000Z",
-        "relevanceScore": 158.5,
-        "tags": [
-          "AI",
-          "Analysis"
-        ]
-      },
-      {
         "title": "The UK’s generational tobacco ban might not work. I’m supporting it anyway.",
         "link": "https://www.technologyreview.com/2026/07/03/1140036/uk-tobacco-ban-might-not-work-children-smoking/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-03T09:00:00.000Z",
-        "relevanceScore": 156.8,
+        "relevanceScore": 200.42,
         "tags": [
           "AI",
           "Web"
         ]
       },
       {
-        "title": "PaperQuire v0.3.0 — Your AI Agent's PDF Tool",
-        "link": "https://dev.to/paperquire_e3fdb510bbe49c/paperquire-v030-your-ai-agents-pdf-tool-3c1n",
-        "source": "Dev.to",
-        "pubDate": "2026-07-04T23:23:10.000Z",
-        "relevanceScore": 117.47,
+        "title": "How your smartwatch and AI might detect early signs of illness",
+        "link": "https://www.engadget.com/2206130/how-smartwatch-use-ai-to-detect-sickness/",
+        "source": "Engadget",
+        "pubDate": "2026-07-04T18:30:00.000Z",
+        "relevanceScore": 135.12,
+        "tags": [
+          "AI",
+          "Analysis"
+        ]
+      },
+      {
+        "title": "Meta Paid Hundreds of Contractors to Pretend to Be Teenagers While Barraging Its Competitors’ AI With Disturbing Content",
+        "link": "https://www.reddit.com/r/technology/comments/1unfa9q/meta_paid_hundreds_of_contractors_to_pretend_to/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-07-04T17:45:55.000Z",
+        "relevanceScore": 117.48,
         "tags": [
           "AI"
         ]
@@ -677,7 +702,7 @@
         "link": "https://stackoverflow.blog/2026/07/03/the-good-the-bad-and-the-ai-apps/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-07-03T07:40:00.000Z",
-        "relevanceScore": 77.53,
+        "relevanceScore": 106.66,
         "tags": [
           "AI",
           "Tutorial"
@@ -688,7 +713,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c0my2kjjnp2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-07-04T21:32:08.000Z",
-        "relevanceScore": 51.1,
+        "relevanceScore": 91.23,
         "tags": [
           "AI",
           "Mobile",
@@ -700,7 +725,7 @@
         "link": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
         "source": "TechCrunch",
         "pubDate": "2026-07-04T18:00:05.000Z",
-        "relevanceScore": 46.4,
+        "relevanceScore": 72.02,
         "tags": [
           "AI"
         ]
@@ -710,7 +735,7 @@
         "link": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
         "source": "TechCrunch",
         "pubDate": "2026-07-03T21:20:00.000Z",
-        "relevanceScore": 42.26,
+        "relevanceScore": 67.89,
         "tags": [
           "AI"
         ]
@@ -720,121 +745,10 @@
         "link": "https://www.bbc.co.uk/news/articles/cd7wj7d0jzzo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-07-03T15:57:42.000Z",
-        "relevanceScore": 39.19,
+        "relevanceScore": 64.82,
         "tags": [
           "AI"
         ]
-      },
-      {
-        "title": "Asian shares rally after Dow hits a record, as some AI shares bounce back",
-        "link": "https://abcnews.com/Business/wireStory/asian-shares-rally-after-dow-hits-record-ai-134433529",
-        "source": "ABC News Business",
-        "pubDate": "2026-07-03T06:27:31.000Z",
-        "relevanceScore": 37.29,
-        "tags": [
-          "AI"
-        ]
-      }
-    ],
-    "tech": [
-      {
-        "title": "Alibaba reportedly bans employees from using Claude Code",
-        "link": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
-        "source": "TechCrunch",
-        "pubDate": "2026-07-04T16:32:08.000Z",
-        "relevanceScore": 586.1,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "White House deletes thousands of web pages about energy conservation as heatwave slams US",
-        "link": "https://www.theverge.com/policy/961449/white-house-mamdani-heatwave-deletion",
-        "source": "The Verge",
-        "pubDate": "2026-07-04T16:19:06.000Z",
-        "relevanceScore": 441.06,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Matic’s robot vacuum is getting a $250 price hike in September",
-        "link": "https://www.theverge.com/gadgets/960753/matic-robot-vacuum-mop-price-increase-cost-buy",
-        "source": "The Verge",
-        "pubDate": "2026-07-04T16:00:00.000Z",
-        "relevanceScore": 160,
-        "tags": []
-      },
-      {
-        "title": "Submit Your Questions: Inside The World of Online Romance Scams",
-        "link": "https://www.wired.com/story/livestream-book-club-inside-the-world-of-online-romance-scams/",
-        "source": "Wired",
-        "pubDate": "2026-07-04T16:00:00.000Z",
-        "relevanceScore": 145,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Flatbush Zombies’ Erick the Architect misses his BlackBerry keyboard",
-        "link": "https://www.theverge.com/entertainment/960958/flatbush-zombies-erick-the-architect-interview",
-        "source": "The Verge",
-        "pubDate": "2026-07-04T15:00:00.000Z",
-        "relevanceScore": 28.3,
-        "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "Why Your Microservices Need Circuit Breakers (And How to Add Them)",
-        "link": "https://dev.to/samson_tanimawo/why-your-microservices-need-circuit-breakers-and-how-to-add-them-1ee8",
-        "source": "Dev.to",
-        "pubDate": "2026-07-04T23:02:12.000Z",
-        "relevanceScore": 522.9,
-        "tags": [
-          "Tutorial",
-          "Partnership"
-        ]
-      },
-      {
-        "title": "Review: Supergirl is not the disaster its low box office suggests",
-        "link": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
-        "source": "Ars Technica",
-        "pubDate": "2026-07-04T16:49:14.000Z",
-        "relevanceScore": 25.66,
-        "tags": [
-          "Business"
-        ]
-      }
-    ],
-    "space": [
-      {
-        "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
-        "link": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
-        "source": "Wired",
-        "pubDate": "2026-07-04T11:00:00.000Z",
-        "relevanceScore": 460.5,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
-        "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
-        "source": "The Verge",
-        "pubDate": "2026-07-04T19:06:27.000Z",
-        "relevanceScore": 25.12,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "NASA mission to rescue the falling Swift observatory has launched",
-        "link": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/",
-        "source": "Engadget",
-        "pubDate": "2026-07-04T16:00:37.000Z",
-        "relevanceScore": 22.5,
-        "tags": []
       }
     ],
     "mobile": [
@@ -843,7 +757,7 @@
         "link": "https://www.wired.com/story/this-buried-apple-feature-turns-an-iphone-into-the-perfect-kids-dumb-phone/",
         "source": "Wired",
         "pubDate": "2026-07-04T10:30:00.000Z",
-        "relevanceScore": 419.4,
+        "relevanceScore": 510.52,
         "tags": [
           "Mobile"
         ]
@@ -853,10 +767,61 @@
         "link": "https://www.wired.com/gallery/best-magsafe-wireless-chargers/",
         "source": "Wired",
         "pubDate": "2026-07-04T11:30:00.000Z",
-        "relevanceScore": 303.6,
+        "relevanceScore": 366.22,
         "tags": [
           "Mobile"
         ]
+      }
+    ],
+    "space": [
+      {
+        "title": "Where NASA Posts Its Best Space Photos, and How to Find Them",
+        "link": "https://www.wired.com/story/where-nasa-posts-its-best-space-photos/",
+        "source": "Wired",
+        "pubDate": "2026-07-04T11:00:00.000Z",
+        "relevanceScore": 493.12,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "NASA launched an emergency mission to stop the Swift Observatory from crashing to Earth",
+        "link": "https://www.theverge.com/science/961459/nasa-emergency-save-swift-observatory-katalyst-space-technologies",
+        "source": "The Verge",
+        "pubDate": "2026-07-04T19:06:27.000Z",
+        "relevanceScore": 24.74,
+        "tags": [
+          "Breaking"
+        ]
+      },
+      {
+        "title": "NASA mission to rescue the falling Swift observatory has launched",
+        "link": "https://www.engadget.com/2207959/nasa-boost-mission-rescue-falling-swift-observatory-launched/",
+        "source": "Engadget",
+        "pubDate": "2026-07-04T16:00:37.000Z",
+        "relevanceScore": 22.13,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "A Beginner's Guide to For Loops in Java",
+        "link": "https://dev.to/irza_hashim/a-beginners-guide-to-for-loops-in-java-1g12",
+        "source": "Dev.to",
+        "pubDate": "2026-07-05T01:09:44.000Z",
+        "relevanceScore": 366.96,
+        "tags": [
+          "Science",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "OLAP and OLTP lines are blurring",
+        "link": "https://dev.to/senthilsivam41/olap-and-oltp-lines-are-blurring-31pe",
+        "source": "Dev.to",
+        "pubDate": "2026-07-05T00:52:38.000Z",
+        "relevanceScore": 245.4,
+        "tags": []
       }
     ],
     "startup": [
@@ -865,7 +830,7 @@
         "link": "https://arstechnica.com/space/2026/07/rocket-report-indian-startup-nears-first-launch-spacexs-millenary-milestone/",
         "source": "Ars Technica",
         "pubDate": "2026-07-03T13:55:35.000Z",
-        "relevanceScore": 299.28,
+        "relevanceScore": 361.91,
         "tags": [
           "Startup",
           "Exclusive",
@@ -880,7 +845,7 @@
         "link": "https://www.technologyreview.com/2026/07/03/1140134/the-download-uk-smoking-ban-elizabeth-bear-story/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-03T12:10:00.000Z",
-        "relevanceScore": 203.93,
+        "relevanceScore": 257.06,
         "tags": [
           "Tech"
         ]
@@ -890,7 +855,17 @@
         "link": "https://www.technologyreview.com/2026/07/03/1140148/a-device-that-revives-eyeballs-from-dead-donors-could-make-eye-transplants-possible/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-03T17:34:37.000Z",
-        "relevanceScore": 23.01,
+        "relevanceScore": 22.64,
+        "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "I Almost Didn't Build Beta Gamer",
+        "link": "https://dev.to/adodanieln/i-almost-didnt-build-beta-gamer-2ogh",
+        "source": "Dev.to",
+        "pubDate": "2026-07-05T01:02:22.000Z",
+        "relevanceScore": 248.93,
         "tags": []
       }
     ],
@@ -900,7 +875,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c621jwpld8zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-07-04T23:18:36.000Z",
-        "relevanceScore": 148.96,
+        "relevanceScore": 188.58,
         "tags": []
       },
       {
@@ -908,7 +883,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-07-04T18:41:25.000Z",
-        "relevanceScore": 50.53,
+        "relevanceScore": 76.16,
         "tags": []
       },
       {
@@ -916,7 +891,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cy0429yx1k9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-07-04T19:36:58.000Z",
-        "relevanceScore": 31.22,
+        "relevanceScore": 30.85,
         "tags": [
           "Report"
         ]
@@ -924,22 +899,45 @@
     ],
     "health": [
       {
-        "title": "New heatwave likely to peak at 34C with week-long health alert issued",
-        "link": "https://www.bbc.co.uk/weather/articles/c621j44jwe1o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-04T15:28:17.000Z",
-        "relevanceScore": 49.39,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
         "title": "When the ability to smell goes away",
         "link": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
         "source": "Ars Technica",
         "pubDate": "2026-07-04T11:04:31.000Z",
-        "relevanceScore": 42.51,
+        "relevanceScore": 134.14,
         "tags": []
+      },
+      {
+        "title": "New heatwave likely to peak at 34C with week-long health alert issued",
+        "link": "https://www.bbc.co.uk/weather/articles/c621j44jwe1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-04T15:28:17.000Z",
+        "relevanceScore": 89.52,
+        "tags": [
+          "Breaking"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "A California farmer is giving away tons of nectarines that he's not allowed to sell",
+        "link": "https://abcnews.com/Business/wireStory/california-farmer-food-marketer-spar-sell-white-nectarines-134433988",
+        "source": "ABC News Business",
+        "pubDate": "2026-07-03T16:41:58.000Z",
+        "relevanceScore": 64.96,
+        "tags": [
+          "Business",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Review: Supergirl is not the disaster its low box office suggests",
+        "link": "https://arstechnica.com/culture/2026/07/review-supergirl-is-not-the-disaster-its-low-box-office-suggests/",
+        "source": "Ars Technica",
+        "pubDate": "2026-07-04T16:49:14.000Z",
+        "relevanceScore": 25.29,
+        "tags": [
+          "Business"
+        ]
       }
     ],
     "entertainment": [
@@ -948,7 +946,7 @@
         "link": "https://www.engadget.com/2207998/vera-c-rubin-observatory-begins-cyborg-cockroaches-nasa-clps-moon-base-missions/",
         "source": "Engadget",
         "pubDate": "2026-07-04T19:45:00.000Z",
-        "relevanceScore": 23.25,
+        "relevanceScore": 22.87,
         "tags": [
           "Science",
           "Report"
@@ -961,19 +959,29 @@
         "link": "https://www.engadget.com/2207974/tesla-expands-robotaxi-service-to-small-section-of-miami/",
         "source": "Engadget",
         "pubDate": "2026-07-04T17:30:00.000Z",
-        "relevanceScore": 22.8,
+        "relevanceScore": 22.42,
+        "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Meta data center water discharges suspended after contaminating the city's reclamation water supply with bacterium",
+        "link": "https://www.reddit.com/r/technology/comments/1unc5f1/meta_data_center_water_discharges_suspended_after/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-07-04T15:37:53.000Z",
+        "relevanceScore": 20.05,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 14,
-    "avgRelevanceScore": 194.75048780487805,
+    "totalCategories": 16,
+    "avgRelevanceScore": 216.54853658536584,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 10
       },
       {
         "category": "tech",
@@ -984,11 +992,11 @@
         "count": 4
       },
       {
-        "category": "development",
+        "category": "space",
         "count": 3
       },
       {
-        "category": "space",
+        "category": "general",
         "count": 3
       }
     ]
