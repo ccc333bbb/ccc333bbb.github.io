@@ -1,46 +1,47 @@
 {
-  "lastUpdated": "2026-07-13T19:18:57.256Z",
+  "lastUpdated": "2026-07-13T20:37:27.128Z",
   "totalArticles": 41,
   "categories": [
-    "development",
     "ai-ml",
+    "cybersecurity",
     "tech",
     "automotive",
     "mobile",
+    "development",
     "business",
-    "entertainment",
     "general",
+    "entertainment",
     "space",
     "gaming",
     "social"
   ],
   "topArticles": [
     {
-      "title": "EF Core Mapping for DDD — for Dummies",
-      "link": "https://dev.to/stevsharp/ef-core-mapping-for-ddd-for-dummies-26fp",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-07-13T19:12:37.000Z",
-      "relevanceScore": 935.98,
-      "recommendationScore": 935.98,
-      "tags": [
-        "Tutorial",
-        "IPO"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
       "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
       "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-07-13T17:00:00.000Z",
-      "relevanceScore": 883.04,
-      "recommendationScore": 883.54,
+      "relevanceScore": 1202.28,
+      "recommendationScore": 1202.78,
       "tags": [
         "AI",
         "Tech",
         "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Los Angeles law enforcement will stop using Flock cameras",
+      "link": "https://www.engadget.com/2214135/los-angeles-law-enforcement-will-stop-using-flock-cameras/",
+      "source": "Engadget",
+      "category": "cybersecurity",
+      "pubDate": "2026-07-13T20:02:48.000Z",
+      "relevanceScore": 882.38,
+      "recommendationScore": 883.88,
+      "tags": [
+        "Security",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -50,35 +51,48 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-07-13T18:22:10.000Z",
-      "relevanceScore": 605.31,
-      "recommendationScore": 605.81,
+      "relevanceScore": 821.55,
+      "recommendationScore": 822.05,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "I built a VS Code extension that reads your code aloud and narrates git diffs with AI",
-      "link": "https://dev.to/abhishek_sharma_a9792aee8/i-built-a-vs-code-extension-that-reads-your-code-aloud-and-narrates-git-diffs-with-ai-31b4",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-07-13T19:07:58.000Z",
-      "relevanceScore": 534.96,
-      "recommendationScore": 536.46,
+      "title": "The EV market is on the road to recovery thanks to high gas prices",
+      "link": "https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2026-07-13T18:03:20.000Z",
+      "relevanceScore": 532.49,
+      "recommendationScore": 532.99,
       "tags": [
-        "AI"
+        "Business"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
-      "link": "https://www.wired.com/story/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
-      "source": "Wired",
-      "category": "automotive",
-      "pubDate": "2026-07-13T17:15:35.000Z",
-      "relevanceScore": 400.59,
-      "recommendationScore": 401.09,
+      "title": "iCloud+ vs. Apple One: Which is worth it for you?",
+      "link": "https://www.engadget.com/2209865/icloud-plus-vs-apple-one/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-07-13T18:30:00.000Z",
+      "relevanceScore": 497.58,
+      "recommendationScore": 498.58,
       "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
+      "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "source": "TechCrunch",
+      "category": "cybersecurity",
+      "pubDate": "2026-07-13T20:00:17.000Z",
+      "relevanceScore": 483.88,
+      "recommendationScore": 483.88,
+      "tags": [
+        "Security"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -87,8 +101,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-07-13T18:00:00.000Z",
-      "relevanceScore": 399.24,
-      "recommendationScore": 401.24,
+      "relevanceScore": 465.48,
+      "recommendationScore": 467.48,
       "tags": [
         "AI",
         "Science",
@@ -99,28 +113,52 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+      "link": "https://www.wired.com/story/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
+      "source": "Wired",
+      "category": "automotive",
+      "pubDate": "2026-07-13T17:15:35.000Z",
+      "relevanceScore": 436.33,
+      "recommendationScore": 436.83,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "AI Coding's Real Bottleneck Is Repository Execution Trust",
+      "link": "https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-07-13T20:20:02.000Z",
+      "relevanceScore": 418.94,
+      "recommendationScore": 419.44,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Apple and Samsung benefit as memory shortage pushes smartphone shipments to historic lows",
       "link": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
       "source": "Ars Technica",
       "category": "mobile",
       "pubDate": "2026-07-13T17:18:25.000Z",
-      "relevanceScore": 349.6,
-      "recommendationScore": 350.1,
+      "relevanceScore": 368.34,
+      "recommendationScore": 368.84,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The EV market is on the road to recovery thanks to high gas prices",
-      "link": "https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota",
-      "source": "The Verge",
-      "category": "automotive",
-      "pubDate": "2026-07-13T18:03:20.000Z",
-      "relevanceScore": 343.75,
-      "recommendationScore": 344.25,
+      "title": "I Finally Built the Dev Opportunity Radar Website ❤️",
+      "link": "https://dev.to/hemapriya_kanagala/i-finally-built-the-dev-opportunity-radar-website-1dpi",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-07-13T20:23:31.000Z",
+      "relevanceScore": 320.95,
+      "recommendationScore": 321.45,
       "tags": [
-        "Business"
+        "Web"
       ],
       "readingLevel": "advanced"
     },
@@ -130,20 +168,59 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-07-13T06:59:08.000Z",
-      "relevanceScore": 307.53,
-      "recommendationScore": 308.03,
+      "relevanceScore": 320.27,
+      "recommendationScore": 320.77,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Backlash Is So Strong That People With “Pervert Glasses” Are Afraid to Use Them in Public",
-      "link": "https://www.reddit.com/r/technology/comments/1uvirv6/the_backlash_is_so_strong_that_people_with/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-07-13T17:50:51.000Z",
-      "relevanceScore": 196.71,
-      "recommendationScore": 197.21,
+      "title": "We graded 13 famous trading strategies on 6 years of data. All 13 failed.",
+      "link": "https://dev.to/tessen/we-graded-13-famous-trading-strategies-on-6-years-of-data-all-13-failed-1aci",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-07-13T20:27:47.000Z",
+      "relevanceScore": 295.47,
+      "recommendationScore": 295.97,
       "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Twelve arrested over alleged right-wing terror threat to UK Islamic event, police say",
+      "link": "https://www.bbc.co.uk/news/articles/cvgl20x1ggpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-13T16:18:16.000Z",
+      "relevanceScore": 215.14,
+      "recommendationScore": 215.64,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
+      "link": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2026-07-13T18:35:48.000Z",
+      "relevanceScore": 193.59,
+      "recommendationScore": 195.09,
+      "tags": [
+        "Science",
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
+      "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
+      "source": "TechCrunch",
+      "category": "space",
+      "pubDate": "2026-07-13T17:28:37.000Z",
+      "relevanceScore": 181.37,
+      "recommendationScore": 183.37,
+      "tags": [
+        "Business",
         "IPO"
       ],
       "readingLevel": "advanced"
@@ -154,103 +231,23 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-07-13T16:49:35.000Z",
-      "relevanceScore": 169.5,
-      "recommendationScore": 170,
+      "relevanceScore": 181.24,
+      "recommendationScore": 181.74,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "CVE-2026-42271: How a Popular AI Gateway Became an RCE Vector — And What to Audit in Your Stack",
-      "link": "https://dev.to/alejandxr/cve-2026-42271-how-a-popular-ai-gateway-became-an-rce-vector-and-what-to-audit-in-your-stack-2718",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-07-13T19:17:01.000Z",
-      "relevanceScore": 158.49,
-      "recommendationScore": 160.49,
+      "title": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"",
+      "link": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
+      "source": "Ars Technica",
+      "category": "gaming",
+      "pubDate": "2026-07-13T16:37:14.000Z",
+      "relevanceScore": 159.2,
+      "recommendationScore": 159.7,
       "tags": [
-        "AI",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "You can easily scan QR codes that are already on your phone",
-      "link": "https://www.engadget.com/2210512/qr-codes-already-on-phone-easily-scan/",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-07-13T15:30:00.000Z",
-      "relevanceScore": 155.74,
-      "recommendationScore": 156.24,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
-      "link": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-07-13T15:00:00.000Z",
-      "relevanceScore": 138.14,
-      "recommendationScore": 138.64,
-      "tags": [
-        "AI"
+        "Tech"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
-      "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "mobile",
-      "pubDate": "2026-07-13T00:07:00.000Z",
-      "relevanceScore": 132.66,
-      "recommendationScore": 133.16,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "States make last-ditch effort to stop the Paramount ‘media behemoth’",
-      "link": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2026-07-13T18:35:48.000Z",
-      "relevanceScore": 120.86,
-      "recommendationScore": 122.36,
-      "tags": [
-        "Science",
-        "Acquisition"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Wall Street mixed and oil prices jump after Iran and the U.S. trade another round of attacks",
-      "link": "https://abcnews.com/Business/wireStory/oil-prices-jump-asian-shares-slip-us-iran-134703869",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-07-13T12:33:57.000Z",
-      "relevanceScore": 119.65,
-      "recommendationScore": 120.15,
-      "tags": [
-        "Funding"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Should AI help you get away with killing your spouse?",
-      "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-07-13T16:31:23.000Z",
-      "relevanceScore": 115.94,
-      "recommendationScore": 116.44,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "The Download: a donor conception cap and world models for AI",
@@ -258,8 +255,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-07-13T12:10:00.000Z",
-      "relevanceScore": 114.57,
-      "recommendationScore": 115.07,
+      "relevanceScore": 126.31,
+      "recommendationScore": 126.81,
       "tags": [
         "AI",
         "Tech"
@@ -267,15 +264,51 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Games Done Quick abruptly canceled SNK stream due to ties with Saudi Arabia",
-      "link": "https://www.engadget.com/2213717/games-done-quick-abruptly-canceled-snk-stream-due-to-ties-with-saudi-arabia/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-07-13T16:14:55.000Z",
-      "relevanceScore": 112.89,
-      "recommendationScore": 113.39,
+      "title": "What a Monopoly importer learned when it tried to make things in the U.S.A.",
+      "link": "https://www.npr.org/2026/07/12/nx-s1-5887378/monopoly-tariffs-china-manufacturing-made-inusa",
+      "source": "NPR Business",
+      "category": "gaming",
+      "pubDate": "2026-07-12T09:00:00.000Z",
+      "relevanceScore": 115.88,
+      "recommendationScore": 117.88,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
+      "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-07-13T17:03:11.000Z",
+      "relevanceScore": 114.29,
+      "recommendationScore": 116.79,
+      "tags": [
+        "Exclusive",
+        "Acquisition"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "There Are Endless Conspiracy Theories About Lindsey Graham’s Death",
+      "link": "https://www.wired.com/story/there-are-endless-conspiracy-theories-about-lindsey-grahams-death/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-07-13T15:56:04.000Z",
+      "relevanceScore": 111.06,
+      "recommendationScore": 111.56,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+      "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-13T20:06:14.000Z",
+      "relevanceScore": 59.9,
+      "recommendationScore": 60.4,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Briton tells of surviving Spain wildfire in car as wife and friends died trying to run to safety",
@@ -283,35 +316,10 @@
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2026-07-13T17:31:54.000Z",
-      "relevanceScore": 108.64,
-      "recommendationScore": 109.14,
+      "relevanceScore": 59.38,
+      "recommendationScore": 59.88,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Heatwave to intensify in second week as wildfires burn across UK",
-      "link": "https://www.bbc.co.uk/weather/articles/c0jyx16ww8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-13T10:04:04.000Z",
-      "relevanceScore": 106.65,
-      "recommendationScore": 107.15,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Sam Altman’s space data center trash talk is what most experts already believe",
-      "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
-      "source": "TechCrunch",
-      "category": "space",
-      "pubDate": "2026-07-13T17:28:37.000Z",
-      "relevanceScore": 103.63,
-      "recommendationScore": 105.63,
-      "tags": [
-        "Business",
-        "IPO"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Wi-Fi 8 Explained: Features, Release Date, and More",
@@ -319,8 +327,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-07-13T18:05:25.000Z",
-      "relevanceScore": 102.75,
-      "recommendationScore": 103.25,
+      "relevanceScore": 53.49,
+      "recommendationScore": 53.99,
       "tags": [
         "Launch"
       ],
@@ -332,8 +340,8 @@
       "source": "NPR Business",
       "category": "automotive",
       "pubDate": "2026-07-13T09:00:00.000Z",
-      "relevanceScore": 102.44,
-      "recommendationScore": 102.44,
+      "relevanceScore": 53.18,
+      "recommendationScore": 53.18,
       "tags": [
         "Regulation"
       ],
@@ -345,10 +353,34 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-07-13T16:05:03.000Z",
-      "relevanceScore": 102.35,
-      "recommendationScore": 102.85,
+      "relevanceScore": 53.09,
+      "recommendationScore": 53.59,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
+      "link": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-07-13T15:00:00.000Z",
+      "relevanceScore": 52.88,
+      "recommendationScore": 53.38,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A ransomware negotiator who colluded with attackers to scam victims was sentenced to 70 months in prison",
+      "link": "https://www.engadget.com/2214113/ransomware-negotiator-who-colluded-with-attackers-to-scam-victims-was-sentenced-to-70-months-in-prison/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-07-13T19:53:26.000Z",
+      "relevanceScore": 51.85,
+      "recommendationScore": 51.85,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "TV-logging app TV Time is functionally relaunching as parent company pivots to AI",
@@ -356,8 +388,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-07-13T18:02:24.000Z",
-      "relevanceScore": 100.74,
-      "recommendationScore": 103.24,
+      "relevanceScore": 51.48,
+      "recommendationScore": 53.98,
       "tags": [
         "AI",
         "Mobile",
@@ -366,63 +398,42 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Investors send General Fusion soaring in debut as first publicly traded fusion company",
-      "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
-      "source": "TechCrunch",
+      "title": "The Backlash Is So Strong That People With “Pervert Glasses” Are Afraid to Use Them in Public",
+      "link": "https://www.reddit.com/r/technology/comments/1uvirv6/the_backlash_is_so_strong_that_people_with/",
+      "source": "Reddit Technology",
       "category": "tech",
-      "pubDate": "2026-07-13T17:03:11.000Z",
-      "relevanceScore": 74.05,
-      "recommendationScore": 76.55,
+      "pubDate": "2026-07-13T17:50:51.000Z",
+      "relevanceScore": 49.44,
+      "recommendationScore": 49.94,
       "tags": [
-        "Exclusive",
-        "Acquisition"
+        "IPO"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "What a Monopoly importer learned when it tried to make things in the U.S.A.",
-      "link": "https://www.npr.org/2026/07/12/nx-s1-5887378/monopoly-tariffs-china-manufacturing-made-inusa",
-      "source": "NPR Business",
-      "category": "gaming",
-      "pubDate": "2026-07-12T09:00:00.000Z",
-      "relevanceScore": 66.64,
-      "recommendationScore": 68.64,
-      "tags": [],
+      "title": "10 years of Pokémon Go and the millions still trying to catch 'em all",
+      "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2026-07-13T00:07:00.000Z",
+      "relevanceScore": 46.9,
+      "recommendationScore": 47.4,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"",
-      "link": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
-      "source": "Ars Technica",
-      "category": "gaming",
-      "pubDate": "2026-07-13T16:37:14.000Z",
-      "relevanceScore": 58.46,
-      "recommendationScore": 58.96,
+      "title": "EU chief weighs age restrictions for children using social media",
+      "link": "https://abcnews.com/Business/wireStory/eu-chief-weighs-age-restrictions-children-social-media-134714595",
+      "source": "ABC News Business",
+      "category": "social",
+      "pubDate": "2026-07-13T15:06:05.000Z",
+      "relevanceScore": 38.9,
+      "recommendationScore": 39.4,
       "tags": [
-        "Tech"
+        "Social"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Twelve arrested over alleged right-wing terror threat to UK Islamic event, police say",
-      "link": "https://www.bbc.co.uk/news/articles/cvgl20x1ggpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-13T16:18:16.000Z",
-      "relevanceScore": 41.4,
-      "recommendationScore": 41.9,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "There Are Endless Conspiracy Theories About Lindsey Graham’s Death",
-      "link": "https://www.wired.com/story/there-are-endless-conspiracy-theories-about-lindsey-grahams-death/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-07-13T15:56:04.000Z",
-      "relevanceScore": 39.32,
-      "recommendationScore": 39.82,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -431,8 +442,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-07-13T18:26:27.000Z",
-      "relevanceScore": 31.82,
-      "recommendationScore": 32.32,
+      "relevanceScore": 31.56,
+      "recommendationScore": 32.06,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -442,8 +453,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-07-13T17:38:06.000Z",
-      "relevanceScore": 31.66,
-      "recommendationScore": 32.16,
+      "relevanceScore": 31.4,
+      "recommendationScore": 31.9,
       "tags": [
         "Analysis",
         "Update"
@@ -456,8 +467,8 @@
       "source": "TechCrunch",
       "category": "entertainment",
       "pubDate": "2026-07-13T17:00:14.000Z",
-      "relevanceScore": 27.54,
-      "recommendationScore": 28.04,
+      "relevanceScore": 27.28,
+      "recommendationScore": 27.78,
       "tags": [
         "Partnership"
       ],
@@ -469,8 +480,8 @@
       "source": "NPR Business",
       "category": "entertainment",
       "pubDate": "2026-07-13T16:30:12.000Z",
-      "relevanceScore": 27.44,
-      "recommendationScore": 28.94,
+      "relevanceScore": 27.18,
+      "recommendationScore": 28.68,
       "tags": [
         "Science",
         "Acquisition"
@@ -478,41 +489,27 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "EU chief weighs age restrictions for children using social media",
-      "link": "https://abcnews.com/Business/wireStory/eu-chief-weighs-age-restrictions-children-social-media-134714595",
-      "source": "ABC News Business",
-      "category": "social",
-      "pubDate": "2026-07-13T15:06:05.000Z",
-      "relevanceScore": 25.16,
-      "recommendationScore": 25.66,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "6 Best Bidets of 2026: Toto, Brondell, More, All Tested in My Bathroom",
-      "link": "https://www.wired.com/story/the-best-bidets-for-every-bathroom-and-budget/",
+      "title": "The Problem With VAR at the 2026 World Cup Isn’t the Technology—It’s Who Interprets It",
+      "link": "https://www.wired.com/story/the-problem-with-var-at-the-2026-world-cup-isnt-the-technology-its-who-interprets-it/",
       "source": "Wired",
       "category": "tech",
-      "pubDate": "2026-07-13T11:35:00.000Z",
-      "relevanceScore": 24.45,
-      "recommendationScore": 25.95,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "pubDate": "2026-07-13T19:55:12.000Z",
+      "relevanceScore": 25.36,
+      "recommendationScore": 25.86,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "beginner"
     },
     {
-      "title": "State AGs sue to block the Paramount-Warner Bros. Discovery merger",
-      "link": "https://www.engadget.com/2213857/states-sue-to-block-paramount-warner-bros-discovery-merger/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-07-13T17:16:07.000Z",
-      "relevanceScore": 23.59,
-      "recommendationScore": 24.09,
-      "tags": [
-        "Science",
-        "Acquisition"
-      ],
+      "title": "Qatar's former ruler Sheikh Hamad bin Khalifa Al Thani has died at 74",
+      "link": "https://abcnews.com/Business/wireStory/qatars-former-ruler-sheikh-hamad-bin-khalifa-al-134704059",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-07-13T05:54:04.000Z",
+      "relevanceScore": 23.06,
+      "recommendationScore": 23.56,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -521,8 +518,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-07-13T16:32:43.000Z",
-      "relevanceScore": 21.45,
-      "recommendationScore": 21.95,
+      "relevanceScore": 21.18,
+      "recommendationScore": 21.68,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -532,8 +529,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-07-13T15:56:53.000Z",
-      "relevanceScore": 21.33,
-      "recommendationScore": 21.83,
+      "relevanceScore": 21.06,
+      "recommendationScore": 21.56,
       "tags": [
         "Acquisition"
       ],
@@ -541,26 +538,13 @@
     }
   ],
   "categoryIndex": {
-    "development": [
-      {
-        "title": "EF Core Mapping for DDD — for Dummies",
-        "link": "https://dev.to/stevsharp/ef-core-mapping-for-ddd-for-dummies-26fp",
-        "source": "Dev.to",
-        "pubDate": "2026-07-13T19:12:37.000Z",
-        "relevanceScore": 935.98,
-        "tags": [
-          "Tutorial",
-          "IPO"
-        ]
-      }
-    ],
     "ai-ml": [
       {
         "title": "The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI",
         "link": "https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims",
         "source": "The Verge",
         "pubDate": "2026-07-13T17:00:00.000Z",
-        "relevanceScore": 883.04,
+        "relevanceScore": 1202.28,
         "tags": [
           "AI",
           "Tech",
@@ -568,21 +552,11 @@
         ]
       },
       {
-        "title": "I built a VS Code extension that reads your code aloud and narrates git diffs with AI",
-        "link": "https://dev.to/abhishek_sharma_a9792aee8/i-built-a-vs-code-extension-that-reads-your-code-aloud-and-narrates-git-diffs-with-ai-31b4",
-        "source": "Dev.to",
-        "pubDate": "2026-07-13T19:07:58.000Z",
-        "relevanceScore": 534.96,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
         "title": "What Anthropic’s latest AI discovery does—and doesn’t—show",
         "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-13T18:00:00.000Z",
-        "relevanceScore": 399.24,
+        "relevanceScore": 465.48,
         "tags": [
           "AI",
           "Science",
@@ -592,32 +566,21 @@
         ]
       },
       {
-        "title": "CVE-2026-42271: How a Popular AI Gateway Became an RCE Vector — And What to Audit in Your Stack",
-        "link": "https://dev.to/alejandxr/cve-2026-42271-how-a-popular-ai-gateway-became-an-rce-vector-and-what-to-audit-in-your-stack-2718",
+        "title": "AI Coding's Real Bottleneck Is Repository Execution Trust",
+        "link": "https://dev.to/b0bai/ai-codings-real-bottleneck-is-repository-execution-trust-5gah",
         "source": "Dev.to",
-        "pubDate": "2026-07-13T19:17:01.000Z",
-        "relevanceScore": 158.49,
-        "tags": [
-          "AI",
-          "Launch"
-        ]
-      },
-      {
-        "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
-        "link": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
-        "source": "The Verge",
-        "pubDate": "2026-07-13T15:00:00.000Z",
-        "relevanceScore": 138.14,
+        "pubDate": "2026-07-13T20:20:02.000Z",
+        "relevanceScore": 418.94,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "Should AI help you get away with killing your spouse?",
-        "link": "https://techcrunch.com/2026/07/13/should-ai-help-you-get-away-with-killing-your-spouse/",
-        "source": "TechCrunch",
-        "pubDate": "2026-07-13T16:31:23.000Z",
-        "relevanceScore": 115.94,
+        "title": "We graded 13 famous trading strategies on 6 years of data. All 13 failed.",
+        "link": "https://dev.to/tessen/we-graded-13-famous-trading-strategies-on-6-years-of-data-all-13-failed-1aci",
+        "source": "Dev.to",
+        "pubDate": "2026-07-13T20:27:47.000Z",
+        "relevanceScore": 295.47,
         "tags": [
           "AI"
         ]
@@ -627,10 +590,20 @@
         "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-13T12:10:00.000Z",
-        "relevanceScore": 114.57,
+        "relevanceScore": 126.31,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "Even Nvidia’s head of automotive fights with Nvidia for compute",
+        "link": "https://www.theverge.com/podcast/964614/nvidia-auto-xinzhou-wu-ev-ai-hyperion-autonomy-cars-tesla",
+        "source": "The Verge",
+        "pubDate": "2026-07-13T15:00:00.000Z",
+        "relevanceScore": 52.88,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -638,11 +611,34 @@
         "link": "https://www.engadget.com/2213944/tv-time-is-relaunching-as-its-parent-company-pivots-to-ai/",
         "source": "Engadget",
         "pubDate": "2026-07-13T18:02:24.000Z",
-        "relevanceScore": 100.74,
+        "relevanceScore": 51.48,
         "tags": [
           "AI",
           "Mobile",
           "Launch"
+        ]
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Los Angeles law enforcement will stop using Flock cameras",
+        "link": "https://www.engadget.com/2214135/los-angeles-law-enforcement-will-stop-using-flock-cameras/",
+        "source": "Engadget",
+        "pubDate": "2026-07-13T20:02:48.000Z",
+        "relevanceScore": 882.38,
+        "tags": [
+          "Security",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Apple says former employee exploited ‘rare’ bug to download confidential files after leaving for OpenAI",
+        "link": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+        "source": "TechCrunch",
+        "pubDate": "2026-07-13T20:00:17.000Z",
+        "relevanceScore": 483.88,
+        "tags": [
+          "Security"
         ]
       }
     ],
@@ -652,53 +648,25 @@
         "link": "https://techcrunch.com/2026/07/13/the-wildest-allegations-in-apples-trade-secrets-lawsuit-against-openai/",
         "source": "TechCrunch",
         "pubDate": "2026-07-13T18:22:10.000Z",
-        "relevanceScore": 605.31,
+        "relevanceScore": 821.55,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "The Backlash Is So Strong That People With “Pervert Glasses” Are Afraid to Use Them in Public",
-        "link": "https://www.reddit.com/r/technology/comments/1uvirv6/the_backlash_is_so_strong_that_people_with/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-07-13T17:50:51.000Z",
-        "relevanceScore": 196.71,
-        "tags": [
-          "IPO"
-        ]
+        "title": "iCloud+ vs. Apple One: Which is worth it for you?",
+        "link": "https://www.engadget.com/2209865/icloud-plus-vs-apple-one/",
+        "source": "Engadget",
+        "pubDate": "2026-07-13T18:30:00.000Z",
+        "relevanceScore": 497.58,
+        "tags": []
       },
       {
         "title": "Colorado will decide whether a \"right to natural gas\" is added to state constitution",
         "link": "https://arstechnica.com/tech-policy/2026/07/colorado-will-decide-whether-a-right-to-natural-gas-is-added-to-state-constitution/",
         "source": "Ars Technica",
         "pubDate": "2026-07-13T16:49:35.000Z",
-        "relevanceScore": 169.5,
-        "tags": []
-      },
-      {
-        "title": "Games Done Quick abruptly canceled SNK stream due to ties with Saudi Arabia",
-        "link": "https://www.engadget.com/2213717/games-done-quick-abruptly-canceled-snk-stream-due-to-ties-with-saudi-arabia/",
-        "source": "Engadget",
-        "pubDate": "2026-07-13T16:14:55.000Z",
-        "relevanceScore": 112.89,
-        "tags": []
-      },
-      {
-        "title": "Wi-Fi 8 Explained: Features, Release Date, and More",
-        "link": "https://www.wired.com/story/what-is-wi-fi-8/",
-        "source": "Wired",
-        "pubDate": "2026-07-13T18:05:25.000Z",
-        "relevanceScore": 102.75,
-        "tags": [
-          "Launch"
-        ]
-      },
-      {
-        "title": "A \"disaster waiting to happen\"? Industry officials worry about Crew Dragon availability.",
-        "link": "https://arstechnica.com/space/2026/07/what-happens-if-crew-dragon-stops-flying-in-the-2030s/",
-        "source": "Ars Technica",
-        "pubDate": "2026-07-13T16:05:03.000Z",
-        "relevanceScore": 102.35,
+        "relevanceScore": 181.24,
         "tags": []
       },
       {
@@ -706,7 +674,7 @@
         "link": "https://techcrunch.com/2026/07/13/investors-send-general-fusion-soaring-in-debut-as-first-publicly-traded-fusion-company/",
         "source": "TechCrunch",
         "pubDate": "2026-07-13T17:03:11.000Z",
-        "relevanceScore": 74.05,
+        "relevanceScore": 114.29,
         "tags": [
           "Exclusive",
           "Acquisition"
@@ -717,26 +685,53 @@
         "link": "https://www.wired.com/story/there-are-endless-conspiracy-theories-about-lindsey-grahams-death/",
         "source": "Wired",
         "pubDate": "2026-07-13T15:56:04.000Z",
-        "relevanceScore": 39.32,
+        "relevanceScore": 111.06,
         "tags": []
       },
       {
-        "title": "6 Best Bidets of 2026: Toto, Brondell, More, All Tested in My Bathroom",
-        "link": "https://www.wired.com/story/the-best-bidets-for-every-bathroom-and-budget/",
+        "title": "Wi-Fi 8 Explained: Features, Release Date, and More",
+        "link": "https://www.wired.com/story/what-is-wi-fi-8/",
         "source": "Wired",
-        "pubDate": "2026-07-13T11:35:00.000Z",
-        "relevanceScore": 24.45,
+        "pubDate": "2026-07-13T18:05:25.000Z",
+        "relevanceScore": 53.49,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "A \"disaster waiting to happen\"? Industry officials worry about Crew Dragon availability.",
+        "link": "https://arstechnica.com/space/2026/07/what-happens-if-crew-dragon-stops-flying-in-the-2030s/",
+        "source": "Ars Technica",
+        "pubDate": "2026-07-13T16:05:03.000Z",
+        "relevanceScore": 53.09,
         "tags": []
       },
       {
-        "title": "State AGs sue to block the Paramount-Warner Bros. Discovery merger",
-        "link": "https://www.engadget.com/2213857/states-sue-to-block-paramount-warner-bros-discovery-merger/",
+        "title": "A ransomware negotiator who colluded with attackers to scam victims was sentenced to 70 months in prison",
+        "link": "https://www.engadget.com/2214113/ransomware-negotiator-who-colluded-with-attackers-to-scam-victims-was-sentenced-to-70-months-in-prison/",
         "source": "Engadget",
-        "pubDate": "2026-07-13T17:16:07.000Z",
-        "relevanceScore": 23.59,
+        "pubDate": "2026-07-13T19:53:26.000Z",
+        "relevanceScore": 51.85,
+        "tags": []
+      },
+      {
+        "title": "The Backlash Is So Strong That People With “Pervert Glasses” Are Afraid to Use Them in Public",
+        "link": "https://www.reddit.com/r/technology/comments/1uvirv6/the_backlash_is_so_strong_that_people_with/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-07-13T17:50:51.000Z",
+        "relevanceScore": 49.44,
         "tags": [
-          "Science",
-          "Acquisition"
+          "IPO"
+        ]
+      },
+      {
+        "title": "The Problem With VAR at the 2026 World Cup Isn’t the Technology—It’s Who Interprets It",
+        "link": "https://www.wired.com/story/the-problem-with-var-at-the-2026-world-cup-isnt-the-technology-its-who-interprets-it/",
+        "source": "Wired",
+        "pubDate": "2026-07-13T19:55:12.000Z",
+        "relevanceScore": 25.36,
+        "tags": [
+          "Tech"
         ]
       },
       {
@@ -744,7 +739,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1uvgk74/the_chaotic_collapse_of_peter_thiels_secret/",
         "source": "Reddit Technology",
         "pubDate": "2026-07-13T16:32:43.000Z",
-        "relevanceScore": 21.45,
+        "relevanceScore": 21.18,
         "tags": []
       },
       {
@@ -752,7 +747,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1uvfkcy/12_states_sue_to_block_paramountwarner_bros/",
         "source": "Reddit Technology",
         "pubDate": "2026-07-13T15:56:53.000Z",
-        "relevanceScore": 21.33,
+        "relevanceScore": 21.06,
         "tags": [
           "Acquisition"
         ]
@@ -760,29 +755,29 @@
     ],
     "automotive": [
       {
-        "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
-        "link": "https://www.wired.com/story/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
-        "source": "Wired",
-        "pubDate": "2026-07-13T17:15:35.000Z",
-        "relevanceScore": 400.59,
-        "tags": []
-      },
-      {
         "title": "The EV market is on the road to recovery thanks to high gas prices",
         "link": "https://www.theverge.com/transportation/964663/ev-sales-q2-2026-gas-prices-tesla-toyota",
         "source": "The Verge",
         "pubDate": "2026-07-13T18:03:20.000Z",
-        "relevanceScore": 343.75,
+        "relevanceScore": 532.49,
         "tags": [
           "Business"
         ]
+      },
+      {
+        "title": "Tesla Says It’s Building a Wheelchair-Accessible Robotaxi",
+        "link": "https://www.wired.com/story/tesla-says-its-building-a-wheelchair-accessible-robotaxi/",
+        "source": "Wired",
+        "pubDate": "2026-07-13T17:15:35.000Z",
+        "relevanceScore": 436.33,
+        "tags": []
       },
       {
         "title": "Briton tells of surviving Spain wildfire in car as wife and friends died trying to run to safety",
         "link": "https://www.bbc.co.uk/news/articles/cp9ld3p324jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-07-13T17:31:54.000Z",
-        "relevanceScore": 108.64,
+        "relevanceScore": 59.38,
         "tags": []
       },
       {
@@ -790,7 +785,7 @@
         "link": "https://www.npr.org/2026/07/13/nx-s1-5847025/ev-battery-recycling-economics",
         "source": "NPR Business",
         "pubDate": "2026-07-13T09:00:00.000Z",
-        "relevanceScore": 102.44,
+        "relevanceScore": 53.18,
         "tags": [
           "Regulation"
         ]
@@ -802,17 +797,7 @@
         "link": "https://arstechnica.com/gadgets/2026/07/apple-and-samsung-benefit-as-memory-shortage-pushes-smartphone-shipments-to-historic-lows/",
         "source": "Ars Technica",
         "pubDate": "2026-07-13T17:18:25.000Z",
-        "relevanceScore": 349.6,
-        "tags": [
-          "Mobile"
-        ]
-      },
-      {
-        "title": "You can easily scan QR codes that are already on your phone",
-        "link": "https://www.engadget.com/2210512/qr-codes-already-on-phone-easily-scan/",
-        "source": "Engadget",
-        "pubDate": "2026-07-13T15:30:00.000Z",
-        "relevanceScore": 155.74,
+        "relevanceScore": 368.34,
         "tags": [
           "Mobile"
         ]
@@ -822,9 +807,21 @@
         "link": "https://www.bbc.co.uk/news/articles/cevlwk4nrm7o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-07-13T00:07:00.000Z",
-        "relevanceScore": 132.66,
+        "relevanceScore": 46.9,
         "tags": [
           "Mobile"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "I Finally Built the Dev Opportunity Radar Website ❤️",
+        "link": "https://dev.to/hemapriya_kanagala/i-finally-built-the-dev-opportunity-radar-website-1dpi",
+        "source": "Dev.to",
+        "pubDate": "2026-07-13T20:23:31.000Z",
+        "relevanceScore": 320.95,
+        "tags": [
+          "Web"
         ]
       }
     ],
@@ -834,17 +831,52 @@
         "link": "https://abcnews.com/Business/wireStory/keystone-pipeline-systems-operator-agrees-pay-269m-penalty-134697485",
         "source": "ABC News Business",
         "pubDate": "2026-07-13T06:59:08.000Z",
-        "relevanceScore": 307.53,
+        "relevanceScore": 320.27,
         "tags": []
       },
       {
-        "title": "Wall Street mixed and oil prices jump after Iran and the U.S. trade another round of attacks",
-        "link": "https://abcnews.com/Business/wireStory/oil-prices-jump-asian-shares-slip-us-iran-134703869",
+        "title": "Qatar's former ruler Sheikh Hamad bin Khalifa Al Thani has died at 74",
+        "link": "https://abcnews.com/Business/wireStory/qatars-former-ruler-sheikh-hamad-bin-khalifa-al-134704059",
         "source": "ABC News Business",
-        "pubDate": "2026-07-13T12:33:57.000Z",
-        "relevanceScore": 119.65,
+        "pubDate": "2026-07-13T05:54:04.000Z",
+        "relevanceScore": 23.06,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Twelve arrested over alleged right-wing terror threat to UK Islamic event, police say",
+        "link": "https://www.bbc.co.uk/news/articles/cvgl20x1ggpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-13T16:18:16.000Z",
+        "relevanceScore": 215.14,
+        "tags": []
+      },
+      {
+        "title": "Trump reinstates Iran port blockade and vows 20% charge on cargo passing through Hormuz",
+        "link": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-13T20:06:14.000Z",
+        "relevanceScore": 59.9,
+        "tags": []
+      },
+      {
+        "title": "Burnham cements Labour leadership with backing of 349 MPs",
+        "link": "https://www.bbc.co.uk/news/articles/c05y3rj09qqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-13T18:26:27.000Z",
+        "relevanceScore": 31.56,
+        "tags": []
+      },
+      {
+        "title": "Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation",
+        "link": "https://www.bbc.co.uk/news/articles/c0mydjl12mwo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-13T17:38:06.000Z",
+        "relevanceScore": 31.4,
         "tags": [
-          "Funding"
+          "Analysis",
+          "Update"
         ]
       }
     ],
@@ -854,7 +886,7 @@
         "link": "https://www.theverge.com/policy/964916/paramount-warner-bros-discovery-states-lawsuit",
         "source": "The Verge",
         "pubDate": "2026-07-13T18:35:48.000Z",
-        "relevanceScore": 120.86,
+        "relevanceScore": 193.59,
         "tags": [
           "Science",
           "Acquisition"
@@ -865,7 +897,7 @@
         "link": "https://techcrunch.com/2026/07/13/12-states-sue-to-block-paramounts-110b-warner-bros-deal/",
         "source": "TechCrunch",
         "pubDate": "2026-07-13T17:00:14.000Z",
-        "relevanceScore": 27.54,
+        "relevanceScore": 27.28,
         "tags": [
           "Partnership"
         ]
@@ -875,47 +907,10 @@
         "link": "https://www.npr.org/2026/07/13/nx-s1-5879286/paramount-warner-bros-discovery-lawsuit",
         "source": "NPR Business",
         "pubDate": "2026-07-13T16:30:12.000Z",
-        "relevanceScore": 27.44,
+        "relevanceScore": 27.18,
         "tags": [
           "Science",
           "Acquisition"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Heatwave to intensify in second week as wildfires burn across UK",
-        "link": "https://www.bbc.co.uk/weather/articles/c0jyx16ww8jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-13T10:04:04.000Z",
-        "relevanceScore": 106.65,
-        "tags": []
-      },
-      {
-        "title": "Twelve arrested over alleged right-wing terror threat to UK Islamic event, police say",
-        "link": "https://www.bbc.co.uk/news/articles/cvgl20x1ggpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-13T16:18:16.000Z",
-        "relevanceScore": 41.4,
-        "tags": []
-      },
-      {
-        "title": "Burnham cements Labour leadership with backing of 349 MPs",
-        "link": "https://www.bbc.co.uk/news/articles/c05y3rj09qqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-13T18:26:27.000Z",
-        "relevanceScore": 31.82,
-        "tags": []
-      },
-      {
-        "title": "Ann Widdecombe suspect not known to Prevent as counter terrorism police take over investigation",
-        "link": "https://www.bbc.co.uk/news/articles/c0mydjl12mwo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-13T17:38:06.000Z",
-        "relevanceScore": 31.66,
-        "tags": [
-          "Analysis",
-          "Update"
         ]
       }
     ],
@@ -925,7 +920,7 @@
         "link": "https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/",
         "source": "TechCrunch",
         "pubDate": "2026-07-13T17:28:37.000Z",
-        "relevanceScore": 103.63,
+        "relevanceScore": 181.37,
         "tags": [
           "Business",
           "IPO"
@@ -934,22 +929,22 @@
     ],
     "gaming": [
       {
-        "title": "What a Monopoly importer learned when it tried to make things in the U.S.A.",
-        "link": "https://www.npr.org/2026/07/12/nx-s1-5887378/monopoly-tariffs-china-manufacturing-made-inusa",
-        "source": "NPR Business",
-        "pubDate": "2026-07-12T09:00:00.000Z",
-        "relevanceScore": 66.64,
-        "tags": []
-      },
-      {
         "title": "Hackers quickly prove that Neo Geo Doom ports are not \"impossible\"",
         "link": "https://arstechnica.com/gaming/2026/07/hackers-quickly-prove-that-neo-geo-doom-ports-are-not-impossible/",
         "source": "Ars Technica",
         "pubDate": "2026-07-13T16:37:14.000Z",
-        "relevanceScore": 58.46,
+        "relevanceScore": 159.2,
         "tags": [
           "Tech"
         ]
+      },
+      {
+        "title": "What a Monopoly importer learned when it tried to make things in the U.S.A.",
+        "link": "https://www.npr.org/2026/07/12/nx-s1-5887378/monopoly-tariffs-china-manufacturing-made-inusa",
+        "source": "NPR Business",
+        "pubDate": "2026-07-12T09:00:00.000Z",
+        "relevanceScore": 115.88,
+        "tags": []
       }
     ],
     "social": [
@@ -958,7 +953,7 @@
         "link": "https://abcnews.com/Business/wireStory/eu-chief-weighs-age-restrictions-children-social-media-134714595",
         "source": "ABC News Business",
         "pubDate": "2026-07-13T15:06:05.000Z",
-        "relevanceScore": 25.16,
+        "relevanceScore": 38.9,
         "tags": [
           "Social"
         ]
@@ -967,8 +962,8 @@
   },
   "stats": {
     "totalSources": 12,
-    "totalCategories": 11,
-    "avgRelevanceScore": 183.82097560975603,
+    "totalCategories": 12,
+    "avgRelevanceScore": 224.9412195121951,
     "topCategories": [
       {
         "category": "tech",
@@ -976,7 +971,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 8
+        "count": 7
       },
       {
         "category": "automotive",
@@ -987,7 +982,7 @@
         "count": 4
       },
       {
-        "category": "mobile",
+        "category": "entertainment",
         "count": 3
       }
     ]
