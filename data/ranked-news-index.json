@@ -1,20 +1,23 @@
 {
-  "lastUpdated": "2026-07-17T14:53:16.897Z",
+  "lastUpdated": "2026-07-17T16:09:17.262Z",
   "totalArticles": 46,
   "categories": [
     "ai-ml",
-    "general",
-    "gaming",
-    "tech",
-    "business",
-    "science",
-    "cybersecurity",
-    "climate",
-    "finance",
     "development",
-    "entertainment",
+    "cloud",
+    "science",
+    "business",
+    "tech",
+    "general",
     "space",
-    "social"
+    "finance",
+    "social",
+    "automotive",
+    "blockchain",
+    "entertainment",
+    "cybersecurity",
+    "mobile",
+    "climate"
   ],
   "topArticles": [
     {
@@ -23,8 +26,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-07-17T14:30:00.000Z",
-      "relevanceScore": 1097.92,
-      "recommendationScore": 1099.42,
+      "relevanceScore": 736.67,
+      "recommendationScore": 738.17,
       "tags": [
         "AI",
         "Startup",
@@ -34,98 +37,65 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "The financial winners and losers from the World Cup",
-      "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-17T11:36:11.000Z",
-      "relevanceScore": 611.34,
-      "recommendationScore": 611.84,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-      "link": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-07-17T14:00:37.000Z",
-      "relevanceScore": 481.32,
-      "recommendationScore": 481.82,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Zeffman: Burnham promises huge change - now to find out how he will deliver it",
-      "link": "https://www.bbc.co.uk/news/articles/cz7djw5dznpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-17T13:52:20.000Z",
-      "relevanceScore": 437.3,
-      "recommendationScore": 439.3,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Conspiracy Theorists Think Trump’s Speech Paves the Path to the Insurrection Act",
-      "link": "https://www.wired.com/story/conspiracy-theorists-think-trumps-speech-paves-the-path-to-the-insurrection-act/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-07-17T13:48:38.000Z",
-      "relevanceScore": 412.78,
-      "recommendationScore": 413.28,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "5 Best Smart Speakers (2026): Alexa, Google, Apple",
-      "link": "https://www.wired.com/story/best-smart-speakers/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-07-17T12:01:00.000Z",
-      "relevanceScore": 383.43,
-      "recommendationScore": 384.43,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How to run Codex with GPT-5.6 on Amazon Bedrock",
-      "link": "https://dev.to/aws/how-to-run-codex-with-gpt-56-on-amazon-bedrock-12f4",
+      "title": "Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters",
+      "link": "https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-07-17T14:39:53.000Z",
-      "relevanceScore": 325.96,
-      "recommendationScore": 327.46,
+      "category": "development",
+      "pubDate": "2026-07-17T16:03:04.000Z",
+      "relevanceScore": 585.98,
+      "recommendationScore": 587.98,
       "tags": [
-        "Cloud",
-        "Tutorial"
+        "Analysis"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Amazon fixing bug that billed some AWS customers billions of dollars",
+      "link": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
+      "source": "TechCrunch",
+      "category": "cloud",
+      "pubDate": "2026-07-17T15:29:21.000Z",
+      "relevanceScore": 573.87,
+      "recommendationScore": 574.37,
+      "tags": [
+        "Tech",
+        "Cloud"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents",
-      "link": "https://www.bbc.co.uk/news/articles/c998v0g2v0vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-17T12:14:43.000Z",
-      "relevanceScore": 306.97,
-      "recommendationScore": 307.47,
+      "title": "The risk of weather data sabotage is rising",
+      "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-07-17T08:57:32.000Z",
+      "relevanceScore": 503.56,
+      "recommendationScore": 503.56,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Kalshi says it's not a sportsbook even as World Cup bets surge",
+      "link": "https://www.npr.org/2026/07/17/nx-s1-5884848/kalshi-sports-betting-prediction-markets-draftkings-fanduel-world-cup",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-07-17T09:00:00.000Z",
+      "relevanceScore": 480.07,
+      "recommendationScore": 480.57,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
-      "link": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-07-17T13:30:00.000Z",
-      "relevanceScore": 296.72,
-      "recommendationScore": 297.22,
-      "tags": [],
+      "title": "AI data centers must produce as much power as they use, Australia PM says. New national AI framework will also ensure water efficiency and protect intellectual property rights",
+      "link": "https://www.reddit.com/r/technology/comments/1uyzk4x/ai_data_centers_must_produce_as_much_power_as/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-07-17T13:20:58.000Z",
+      "relevanceScore": 473.44,
+      "recommendationScore": 475.44,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -134,11 +104,61 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-07-17T14:00:00.000Z",
-      "relevanceScore": 291.82,
-      "recommendationScore": 292.32,
+      "relevanceScore": 398.57,
+      "recommendationScore": 399.07,
       "tags": [
         "AI"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
+      "link": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-07-17T15:52:50.000Z",
+      "relevanceScore": 348.95,
+      "recommendationScore": 349.45,
+      "tags": [
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+      "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-07-17T15:21:17.000Z",
+      "relevanceScore": 326.84,
+      "recommendationScore": 328.34,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it",
+      "link": "https://www.bbc.co.uk/news/articles/cz7djw5dznpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-17T13:52:20.000Z",
+      "relevanceScore": 259.54,
+      "recommendationScore": 260.04,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Best New Camping Gear at REI (2026): Tents, Coolers, Bikes, More",
+      "link": "https://www.wired.com/story/the-best-new-camping-gear-at-rei-2026/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-07-17T14:55:29.000Z",
+      "relevanceScore": 250.75,
+      "recommendationScore": 254.25,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -147,88 +167,12 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-07-17T10:42:23.000Z",
-      "relevanceScore": 290.16,
-      "recommendationScore": 290.66,
+      "relevanceScore": 247.91,
+      "recommendationScore": 248.41,
       "tags": [
         "Analysis"
       ],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "The risk of weather data sabotage is rising",
-      "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-07-17T08:57:32.000Z",
-      "relevanceScore": 288.81,
-      "recommendationScore": 288.81,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI data centers must produce as much power as they use, Australia PM says. New national AI framework will also ensure water efficiency and protect intellectual property rights",
-      "link": "https://www.reddit.com/r/technology/comments/1uyzk4x/ai_data_centers_must_produce_as_much_power_as/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-07-17T13:20:58.000Z",
-      "relevanceScore": 276.69,
-      "recommendationScore": 278.69,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Why a password is not a security architecture for connected building devices",
-      "link": "https://dev.to/zoranstankovic/why-a-password-is-not-a-security-architecture-for-connected-building-devices-5241",
-      "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2026-07-17T14:42:43.000Z",
-      "relevanceScore": 238.46,
-      "recommendationScore": 240.46,
-      "tags": [
-        "Tech",
-        "Security",
-        "Update"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "EU defangs a key pillar of its climate policy to allow more pollution",
-      "link": "https://www.engadget.com/2217325/eu-defangs-key-pillar-of-its-climate-policy-to-allow-more-pollution/",
-      "source": "Engadget",
-      "category": "climate",
-      "pubDate": "2026-07-17T13:01:30.000Z",
-      "relevanceScore": 229.63,
-      "recommendationScore": 230.13,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "A firmware fix instead of a recall: root-cause engineering for a deployed wearable",
-      "link": "https://dev.to/zoranstankovic/a-firmware-fix-instead-of-a-recall-root-cause-engineering-for-a-deployed-wearable-4o9i",
-      "source": "Dev.to",
-      "category": "finance",
-      "pubDate": "2026-07-17T14:35:51.000Z",
-      "relevanceScore": 225.94,
-      "recommendationScore": 226.44,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Average 30-year US mortgage rate climbs to 6.55%, highest level in nearly a year",
-      "link": "https://abcnews.com/Business/wireStory/average-30-year-us-mortgage-rate-climbs-655-134820338",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-07-16T16:53:40.000Z",
-      "relevanceScore": 224.6,
-      "recommendationScore": 225.1,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "2026 Lucid Gravity Touring review: A strong act 2",
@@ -236,32 +180,95 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-07-17T11:00:30.000Z",
-      "relevanceScore": 221.22,
-      "recommendationScore": 221.22,
+      "relevanceScore": 236.97,
+      "recommendationScore": 236.97,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Kalshi says it's not a sportsbook even as World Cup bets surge",
-      "link": "https://www.npr.org/2026/07/17/nx-s1-5884848/kalshi-sports-betting-prediction-markets-draftkings-fanduel-world-cup",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-07-17T09:00:00.000Z",
-      "relevanceScore": 213.82,
-      "recommendationScore": 214.32,
+      "title": "Conspiracy Theorists Think Trump’s Speech Paves the Path to the Insurrection Act",
+      "link": "https://www.wired.com/story/conspiracy-theorists-think-trumps-speech-paves-the-path-to-the-insurrection-act/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-07-17T13:48:38.000Z",
+      "relevanceScore": 229.53,
+      "recommendationScore": 230.03,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
-      "title": "Most smart appliances collect data: Here's how to find out what yours tracks",
-      "link": "https://www.engadget.com/2210745/smart-appliances-data-transmission-weekly/",
+      "title": "Moonshot AI's Kimi K3 Is Here: A 2.8 Trillion Parameter Open MoE Model That Pushes Long-Context AI Forward",
+      "link": "https://dev.to/sraurora/moonshot-ais-kimi-k3-is-here-a-28-trillion-parameter-open-moe-model-that-pushes-long-context-ai-53e6",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-07-17T16:01:58.000Z",
+      "relevanceScore": 184.48,
+      "recommendationScore": 184.48,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-07-15T17:29:31.000Z",
+      "relevanceScore": 129.17,
+      "recommendationScore": 129.67,
+      "tags": [
+        "Exclusive",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "God of War show recasts Kratos after Ryan Hurst sustains an injury on set",
+      "link": "https://www.engadget.com/2217362/god-of-war-prime-video-show-recasts-kratos-ryan-hurst-injury-on-set/",
       "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-07-17T13:30:00.000Z",
-      "relevanceScore": 210.72,
-      "recommendationScore": 212.72,
+      "pubDate": "2026-07-17T13:40:33.000Z",
+      "relevanceScore": 108.5,
+      "recommendationScore": 110.5,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Essential Gear for an Emergency Kit—for Cars or Go-Bags",
+      "link": "https://www.wired.com/story/emergency-kit-disaster-preparedness-guide/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-07-17T12:06:00.000Z",
+      "relevanceScore": 101.19,
+      "recommendationScore": 101.69,
       "tags": [
-        "Tutorial"
+        "Breaking"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "SpaceX stock falls further after Starship rocket test aborted at last second",
+      "link": "https://www.reddit.com/r/technology/comments/1uyy0o5/spacex_stock_falls_further_after_starship_rocket/",
+      "source": "Reddit Technology",
+      "category": "space",
+      "pubDate": "2026-07-17T12:15:29.000Z",
+      "relevanceScore": 97.22,
+      "recommendationScore": 97.72,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Watch: First glimpse of Bayeux Tapestry in UK for almost 1,000 years",
+      "link": "https://www.bbc.co.uk/news/videos/cpq8z9p92q1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-17T15:13:08.000Z",
+      "relevanceScore": 82.31,
+      "recommendationScore": 84.81,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
@@ -271,8 +278,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-07-17T12:10:00.000Z",
-      "relevanceScore": 114.96,
-      "recommendationScore": 115.46,
+      "relevanceScore": 75.2,
+      "recommendationScore": 75.7,
       "tags": [
         "AI",
         "Tech"
@@ -280,68 +287,29 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
-      "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "title": "Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents",
+      "link": "https://www.bbc.co.uk/news/articles/c998v0g2v0vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-17T12:14:43.000Z",
+      "relevanceScore": 64.72,
+      "recommendationScore": 65.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
+      "link": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
       "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-07-17T12:00:00.000Z",
-      "relevanceScore": 112.92,
-      "recommendationScore": 116.92,
-      "tags": [
-        "AI",
-        "Exclusive",
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-      "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-07-15T17:29:31.000Z",
-      "relevanceScore": 100.42,
-      "recommendationScore": 100.92,
-      "tags": [
-        "Exclusive",
-        "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Mother of Henry Nowak killer jailed for removing knife from murder scene",
-      "link": "https://www.bbc.co.uk/news/articles/c1w1nnzgg2no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-17T14:51:15.000Z",
-      "relevanceScore": 99.99,
-      "recommendationScore": 100.49,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "China hits out at British Steel nationalisation",
-      "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-07-17T11:07:45.000Z",
-      "relevanceScore": 99.25,
-      "recommendationScore": 99.25,
-      "tags": [
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "God of War show recasts Kratos after Ryan Hurst sustains an injury on set",
-      "link": "https://www.engadget.com/2217362/god-of-war-prime-video-show-recasts-kratos-ryan-hurst-injury-on-set/",
-      "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-07-17T13:40:33.000Z",
-      "relevanceScore": 97.76,
-      "recommendationScore": 99.76,
-      "tags": [],
-      "readingLevel": "beginner"
+      "pubDate": "2026-07-17T14:12:02.000Z",
+      "relevanceScore": 62.11,
+      "recommendationScore": 62.61,
+      "tags": [
+        "Tech",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "US president says ABC and NBC should lose broadcast licenses because they didn’t carry his primetime address on election claims",
@@ -349,79 +317,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-07-17T11:49:13.000Z",
-      "relevanceScore": 95.89,
-      "recommendationScore": 95.89,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Valve Steam Machine Review: A Compromised Console",
-      "link": "https://www.wired.com/review/valve-steam-machine/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2026-07-17T11:00:00.000Z",
-      "relevanceScore": 94.22,
-      "recommendationScore": 94.22,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
-      "link": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-07-17T11:15:55.000Z",
-      "relevanceScore": 93.28,
-      "recommendationScore": 93.78,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Trump Media to sell instant access to 'market-moving' social posts",
-      "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "finance",
-      "pubDate": "2026-07-17T07:25:31.000Z",
-      "relevanceScore": 92.51,
-      "recommendationScore": 93.01,
-      "tags": [
-        "Business",
-        "Social"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Netflix posts higher Q2 results but shares drop due to lukewarm forecast",
-      "link": "https://abcnews.com/Business/wireStory/netflix-posts-higher-q2-results-shares-drop-due-134830603",
-      "source": "ABC News Business",
-      "category": "entertainment",
-      "pubDate": "2026-07-16T22:28:49.000Z",
-      "relevanceScore": 90.22,
-      "recommendationScore": 90.72,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Teen hackers who live streamed cyber-attack on TfL jailed",
-      "link": "https://www.bbc.co.uk/news/articles/c4gyg0y6yg2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2026-07-16T10:52:26.000Z",
-      "relevanceScore": 88.4,
-      "recommendationScore": 88.9,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
-      "link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-07-16T23:25:22.000Z",
-      "relevanceScore": 40.41,
-      "recommendationScore": 40.91,
+      "relevanceScore": 57.63,
+      "recommendationScore": 57.63,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -431,81 +328,21 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-07-17T09:00:00.000Z",
-      "relevanceScore": 37.32,
-      "recommendationScore": 37.82,
+      "relevanceScore": 53.57,
+      "recommendationScore": 54.07,
       "tags": [
         "Business"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-      "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-07-17T14:05:29.000Z",
-      "relevanceScore": 34.84,
-      "recommendationScore": 35.34,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Essential Gear for an Emergency Kit—for Cars or Go-Bags",
-      "link": "https://www.wired.com/story/emergency-kit-disaster-preparedness-guide/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-07-17T12:06:00.000Z",
-      "relevanceScore": 34.44,
-      "recommendationScore": 34.94,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
-      "link": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-07-17T14:12:02.000Z",
-      "relevanceScore": 32.86,
-      "recommendationScore": 33.36,
-      "tags": [
-        "Tech",
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-      "link": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2026-07-17T07:40:00.000Z",
-      "relevanceScore": 32.06,
-      "recommendationScore": 32.06,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "SpaceX stock falls further after Starship rocket test aborted at last second",
-      "link": "https://www.reddit.com/r/technology/comments/1uyy0o5/spacex_stock_falls_further_after_starship_rocket/",
-      "source": "Reddit Technology",
-      "category": "space",
-      "pubDate": "2026-07-17T12:15:29.000Z",
-      "relevanceScore": 30.47,
-      "recommendationScore": 30.97,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Remarkable’s new Paper Pure is good. That’s why I wrote this review on it.",
-      "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-07-17T14:47:27.000Z",
-      "relevanceScore": 28.98,
-      "recommendationScore": 32.98,
+      "title": "Mother of Henry Nowak killer jailed for removing knife from murder scene",
+      "link": "https://www.bbc.co.uk/news/articles/c1w1nnzgg2no?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-17T14:51:15.000Z",
+      "relevanceScore": 41.74,
+      "recommendationScore": 42.24,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -515,22 +352,175 @@
       "source": "MIT Technology Review",
       "category": "social",
       "pubDate": "2026-07-17T09:00:00.000Z",
-      "relevanceScore": 28.82,
-      "recommendationScore": 29.32,
+      "relevanceScore": 41.57,
+      "recommendationScore": 42.07,
       "tags": [
         "Social"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The manosphere&#8217;s testosterone fever is coming for the troops",
-      "link": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
+      "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
+      "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
       "source": "The Verge",
       "category": "tech",
-      "pubDate": "2026-07-17T14:00:00.000Z",
-      "relevanceScore": 25.82,
-      "recommendationScore": 26.32,
+      "pubDate": "2026-07-17T14:05:29.000Z",
+      "relevanceScore": 38.09,
+      "recommendationScore": 38.59,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Contract Terms Worth Negotiating Beyond Price",
+      "link": "https://dev.to/sumaskeller/contract-terms-worth-negotiating-beyond-price-2mbi",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-07-17T16:02:25.000Z",
+      "relevanceScore": 36.98,
+      "recommendationScore": 36.98,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
+      "link": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2026-07-17T15:48:39.000Z",
+      "relevanceScore": 35.93,
+      "recommendationScore": 36.43,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+      "link": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
+      "source": "The Verge",
+      "category": "blockchain",
+      "pubDate": "2026-07-17T15:34:35.000Z",
+      "relevanceScore": 35.88,
+      "recommendationScore": 36.38,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+      "link": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-07-17T07:40:00.000Z",
+      "relevanceScore": 35.3,
+      "recommendationScore": 35.3,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
+      "link": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-07-17T11:15:55.000Z",
+      "relevanceScore": 35.02,
+      "recommendationScore": 35.52,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Trump Media to sell instant access to 'market-moving' social posts",
+      "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "finance",
+      "pubDate": "2026-07-17T07:25:31.000Z",
+      "relevanceScore": 34.25,
+      "recommendationScore": 34.75,
+      "tags": [
+        "Business",
+        "Social"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Samsung's Freestyle+ projector is now available for $1,200",
+      "link": "https://www.engadget.com/2217299/samsung-freestyle-plus-projector/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-07-17T15:00:00.000Z",
+      "relevanceScore": 33.77,
+      "recommendationScore": 34.27,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "West Indies cricket legend Garfield Sobers dies aged 89",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/cq6d421ezjdo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-07-17T15:47:23.000Z",
+      "relevanceScore": 32.93,
+      "recommendationScore": 33.43,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Netflix posts higher Q2 results but shares drop due to lukewarm forecast",
+      "link": "https://abcnews.com/Business/wireStory/netflix-posts-higher-q2-results-shares-drop-due-134830603",
+      "source": "ABC News Business",
+      "category": "entertainment",
+      "pubDate": "2026-07-16T22:28:49.000Z",
+      "relevanceScore": 31.97,
+      "recommendationScore": 32.47,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "TikTok faces Ofcom investigation over child age checks",
+      "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-07-16T11:08:33.000Z",
+      "relevanceScore": 31.7,
+      "recommendationScore": 32.2,
+      "tags": [
+        "Social",
+        "Analysis"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Teen hackers who live streamed cyber-attack on TfL jailed",
+      "link": "https://www.bbc.co.uk/news/articles/c4gyg0y6yg2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2026-07-16T10:52:26.000Z",
+      "relevanceScore": 30.14,
+      "recommendationScore": 30.64,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "reMarkable’s new Paper Pure is good. That’s why I wrote this review on it.",
+      "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-07-17T14:47:27.000Z",
+      "relevanceScore": 28.73,
+      "recommendationScore": 32.73,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Lyft’s CEO Says, ‘We’re the Good Uber’",
+      "link": "https://www.wired.com/story/lyfts-ceo-says-were-the-good-uber/",
+      "source": "Wired",
+      "category": "mobile",
+      "pubDate": "2026-07-17T15:00:00.000Z",
+      "relevanceScore": 26.77,
+      "recommendationScore": 26.77,
+      "tags": [
+        "Mobile"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -539,8 +529,8 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2026-07-17T11:30:10.000Z",
-      "relevanceScore": 25.32,
-      "recommendationScore": 25.82,
+      "relevanceScore": 25.07,
+      "recommendationScore": 25.57,
       "tags": [
         "Science",
         "Report"
@@ -553,26 +543,34 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-07-17T11:00:04.000Z",
-      "relevanceScore": 25.22,
-      "recommendationScore": 25.72,
+      "relevanceScore": 24.97,
+      "recommendationScore": 25.47,
       "tags": [
         "Report"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "TikTok faces Ofcom investigation over child age checks",
-      "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-07-16T11:08:33.000Z",
-      "relevanceScore": 20.45,
-      "recommendationScore": 20.95,
-      "tags": [
-        "Social",
-        "Analysis"
-      ],
+      "title": "Caviar is selling a ridiculous Lionel Messi-themed Galaxy Z Fold 8 Ultra a week before its official unveiling",
+      "link": "https://www.engadget.com/2217484/caviar-lionel-messi-samsung-galaxy-z-fold-8-ultra/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-07-17T14:58:39.000Z",
+      "relevanceScore": 23.76,
+      "recommendationScore": 23.76,
+      "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Average 30-year US mortgage rate climbs to 6.55%, highest level in nearly a year",
+      "link": "https://abcnews.com/Business/wireStory/average-30-year-us-mortgage-rate-climbs-655-134820338",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-07-16T16:53:40.000Z",
+      "relevanceScore": 22.35,
+      "recommendationScore": 22.85,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "SpaceX share price drops below stock market debut",
@@ -580,8 +578,8 @@
       "source": "BBC Technology",
       "category": "space",
       "pubDate": "2026-07-15T18:11:57.000Z",
-      "relevanceScore": 16.56,
-      "recommendationScore": 16.56,
+      "relevanceScore": 16.31,
+      "recommendationScore": 16.31,
       "tags": [
         "Business",
         "IPO"
@@ -596,7 +594,7 @@
         "link": "https://techcrunch.com/2026/07/17/no-product-no-problem-this-disrupt-2026-session-shows-how-to-get-pre-seed-funding-with-conviction-storytelling/",
         "source": "TechCrunch",
         "pubDate": "2026-07-17T14:30:00.000Z",
-        "relevanceScore": 1097.92,
+        "relevanceScore": 736.67,
         "tags": [
           "AI",
           "Startup",
@@ -605,14 +603,13 @@
         ]
       },
       {
-        "title": "How to run Codex with GPT-5.6 on Amazon Bedrock",
-        "link": "https://dev.to/aws/how-to-run-codex-with-gpt-56-on-amazon-bedrock-12f4",
-        "source": "Dev.to",
-        "pubDate": "2026-07-17T14:39:53.000Z",
-        "relevanceScore": 325.96,
+        "title": "AI data centers must produce as much power as they use, Australia PM says. New national AI framework will also ensure water efficiency and protect intellectual property rights",
+        "link": "https://www.reddit.com/r/technology/comments/1uyzk4x/ai_data_centers_must_produce_as_much_power_as/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-07-17T13:20:58.000Z",
+        "relevanceScore": 473.44,
         "tags": [
-          "Cloud",
-          "Tutorial"
+          "AI"
         ]
       },
       {
@@ -620,19 +617,30 @@
         "link": "https://www.engadget.com/2217377/engadget-podcast-is-siri-ai-actually-useful-in-ios-27-and-macos-golden-gate/",
         "source": "Engadget",
         "pubDate": "2026-07-17T14:00:00.000Z",
-        "relevanceScore": 291.82,
+        "relevanceScore": 398.57,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "AI data centers must produce as much power as they use, Australia PM says. New national AI framework will also ensure water efficiency and protect intellectual property rights",
-        "link": "https://www.reddit.com/r/technology/comments/1uyzk4x/ai_data_centers_must_produce_as_much_power_as/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-07-17T13:20:58.000Z",
-        "relevanceScore": 276.69,
+        "title": "Patreon stops asking AI bots not to scrape — and starts blocking them",
+        "link": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+        "source": "TechCrunch",
+        "pubDate": "2026-07-17T15:21:17.000Z",
+        "relevanceScore": 326.84,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Moonshot AI's Kimi K3 Is Here: A 2.8 Trillion Parameter Open MoE Model That Pushes Long-Context AI Forward",
+        "link": "https://dev.to/sraurora/moonshot-ais-kimi-k3-is-here-a-28-trillion-parameter-open-moe-model-that-pushes-long-context-ai-53e6",
+        "source": "Dev.to",
+        "pubDate": "2026-07-17T16:01:58.000Z",
+        "relevanceScore": 184.48,
+        "tags": [
+          "AI",
+          "Exclusive"
         ]
       },
       {
@@ -640,219 +648,90 @@
         "link": "https://www.technologyreview.com/2026/07/17/1140640/the-download-perimenopause-misinformation-china-moonshot-ai/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-17T12:10:00.000Z",
-        "relevanceScore": 114.96,
+        "relevanceScore": 75.2,
         "tags": [
           "AI",
           "Tech"
         ]
+      }
+    ],
+    "development": [
+      {
+        "title": "Multi-Agent Coordination Is Failing In Production: Why Infrastructure Matters",
+        "link": "https://dev.to/paultwist/multi-agent-coordination-is-failing-in-production-why-infrastructure-matters-3i72",
+        "source": "Dev.to",
+        "pubDate": "2026-07-17T16:03:04.000Z",
+        "relevanceScore": 585.98,
+        "tags": [
+          "Analysis"
+        ]
       },
       {
-        "title": "Why the first GPU financiers are turning to inference chips in a $400 million deal",
-        "link": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
-        "source": "TechCrunch",
-        "pubDate": "2026-07-17T12:00:00.000Z",
-        "relevanceScore": 112.92,
+        "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
+        "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-07-15T17:29:31.000Z",
+        "relevanceScore": 129.17,
         "tags": [
-          "AI",
           "Exclusive",
-          "Partnership"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "The financial winners and losers from the World Cup",
-        "link": "https://www.bbc.co.uk/news/articles/cgrkek8lrzvo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-17T11:36:11.000Z",
-        "relevanceScore": 611.34,
-        "tags": []
-      },
-      {
-        "title": "Zeffman: Burnham promises huge change - now to find out how he will deliver it",
-        "link": "https://www.bbc.co.uk/news/articles/cz7djw5dznpo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-17T13:52:20.000Z",
-        "relevanceScore": 437.3,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents",
-        "link": "https://www.bbc.co.uk/news/articles/c998v0g2v0vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-17T12:14:43.000Z",
-        "relevanceScore": 306.97,
-        "tags": []
-      },
-      {
-        "title": "Mother of Henry Nowak killer jailed for removing knife from murder scene",
-        "link": "https://www.bbc.co.uk/news/articles/c1w1nnzgg2no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-17T14:51:15.000Z",
-        "relevanceScore": 99.99,
-        "tags": []
-      },
-      {
-        "title": "China hits out at British Steel nationalisation",
-        "link": "https://www.bbc.co.uk/news/articles/cjd4kvxpd3do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-07-17T11:07:45.000Z",
-        "relevanceScore": 99.25,
-        "tags": [
-          "IPO"
-        ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Bethesda teases Fallout 5 soon after Xbox’s mass layoffs",
-        "link": "https://www.theverge.com/entertainment/966724/fallout-5-bethesda",
-        "source": "The Verge",
-        "pubDate": "2026-07-17T14:00:37.000Z",
-        "relevanceScore": 481.32,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Valve Steam Machine Review: A Compromised Console",
-        "link": "https://www.wired.com/review/valve-steam-machine/",
-        "source": "Wired",
-        "pubDate": "2026-07-17T11:00:00.000Z",
-        "relevanceScore": 94.22,
-        "tags": []
-      }
-    ],
-    "tech": [
-      {
-        "title": "Conspiracy Theorists Think Trump’s Speech Paves the Path to the Insurrection Act",
-        "link": "https://www.wired.com/story/conspiracy-theorists-think-trumps-speech-paves-the-path-to-the-insurrection-act/",
-        "source": "Wired",
-        "pubDate": "2026-07-17T13:48:38.000Z",
-        "relevanceScore": 412.78,
-        "tags": []
-      },
-      {
-        "title": "5 Best Smart Speakers (2026): Alexa, Google, Apple",
-        "link": "https://www.wired.com/story/best-smart-speakers/",
-        "source": "Wired",
-        "pubDate": "2026-07-17T12:01:00.000Z",
-        "relevanceScore": 383.43,
-        "tags": []
-      },
-      {
-        "title": "Even Microsoft couldn’t make Windows 11 work well on 8GB of RAM",
-        "link": "https://www.theverge.com/tech/966937/microsoft-surface-laptop-13-inch-8gb-ram-2026-review",
-        "source": "The Verge",
-        "pubDate": "2026-07-17T13:30:00.000Z",
-        "relevanceScore": 296.72,
-        "tags": []
-      },
-      {
-        "title": "2026 Lucid Gravity Touring review: A strong act 2",
-        "link": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/",
-        "source": "Ars Technica",
-        "pubDate": "2026-07-17T11:00:30.000Z",
-        "relevanceScore": 221.22,
-        "tags": []
-      },
-      {
-        "title": "Most smart appliances collect data: Here's how to find out what yours tracks",
-        "link": "https://www.engadget.com/2210745/smart-appliances-data-transmission-weekly/",
-        "source": "Engadget",
-        "pubDate": "2026-07-17T13:30:00.000Z",
-        "relevanceScore": 210.72,
-        "tags": [
           "Tutorial"
         ]
       },
       {
-        "title": "God of War show recasts Kratos after Ryan Hurst sustains an injury on set",
-        "link": "https://www.engadget.com/2217362/god-of-war-prime-video-show-recasts-kratos-ryan-hurst-injury-on-set/",
-        "source": "Engadget",
-        "pubDate": "2026-07-17T13:40:33.000Z",
-        "relevanceScore": 97.76,
+        "title": "Contract Terms Worth Negotiating Beyond Price",
+        "link": "https://dev.to/sumaskeller/contract-terms-worth-negotiating-beyond-price-2mbi",
+        "source": "Dev.to",
+        "pubDate": "2026-07-17T16:02:25.000Z",
+        "relevanceScore": 36.98,
         "tags": []
       },
       {
-        "title": "US president says ABC and NBC should lose broadcast licenses because they didn’t carry his primetime address on election claims",
-        "link": "https://www.reddit.com/r/technology/comments/1uyxfmg/us_president_says_abc_and_nbc_should_lose/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-07-17T11:49:13.000Z",
-        "relevanceScore": 95.89,
+        "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
+        "link": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-07-17T07:40:00.000Z",
+        "relevanceScore": 35.3,
         "tags": []
-      },
+      }
+    ],
+    "cloud": [
       {
-        "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
-        "link": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
-        "source": "Ars Technica",
-        "pubDate": "2026-07-17T11:15:55.000Z",
-        "relevanceScore": 93.28,
-        "tags": []
-      },
-      {
-        "title": "San Francisco mayor pushes for tougher rules after the Waymo traffic fiasco",
-        "link": "https://techcrunch.com/2026/07/16/san-francisco-mayor-pushes-for-tougher-rules-after-the-waymo-traffic-fiasco/",
+        "title": "Amazon fixing bug that billed some AWS customers billions of dollars",
+        "link": "https://techcrunch.com/2026/07/17/amazon-fixing-bug-that-billed-some-aws-customers-billions-of-dollars/",
         "source": "TechCrunch",
-        "pubDate": "2026-07-16T23:25:22.000Z",
-        "relevanceScore": 40.41,
-        "tags": []
-      },
-      {
-        "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
-        "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
-        "source": "The Verge",
-        "pubDate": "2026-07-17T14:05:29.000Z",
-        "relevanceScore": 34.84,
-        "tags": []
-      },
-      {
-        "title": "Essential Gear for an Emergency Kit—for Cars or Go-Bags",
-        "link": "https://www.wired.com/story/emergency-kit-disaster-preparedness-guide/",
-        "source": "Wired",
-        "pubDate": "2026-07-17T12:06:00.000Z",
-        "relevanceScore": 34.44,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
-        "link": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
-        "source": "TechCrunch",
-        "pubDate": "2026-07-17T14:12:02.000Z",
-        "relevanceScore": 32.86,
+        "pubDate": "2026-07-17T15:29:21.000Z",
+        "relevanceScore": 573.87,
         "tags": [
           "Tech",
-          "Exclusive"
+          "Cloud"
         ]
-      },
+      }
+    ],
+    "science": [
       {
-        "title": "Remarkable’s new Paper Pure is good. That’s why I wrote this review on it.",
-        "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
-        "source": "TechCrunch",
-        "pubDate": "2026-07-17T14:47:27.000Z",
-        "relevanceScore": 28.98,
-        "tags": []
-      },
-      {
-        "title": "The manosphere&#8217;s testosterone fever is coming for the troops",
-        "link": "https://www.theverge.com/column/966770/optimizer-manosphere-testosterone-troops",
-        "source": "The Verge",
-        "pubDate": "2026-07-17T14:00:00.000Z",
-        "relevanceScore": 25.82,
+        "title": "The risk of weather data sabotage is rising",
+        "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-07-17T08:57:32.000Z",
+        "relevanceScore": 503.56,
         "tags": []
       }
     ],
     "business": [
       {
+        "title": "Kalshi says it's not a sportsbook even as World Cup bets surge",
+        "link": "https://www.npr.org/2026/07/17/nx-s1-5884848/kalshi-sports-betting-prediction-markets-draftkings-fanduel-world-cup",
+        "source": "NPR Business",
+        "pubDate": "2026-07-17T09:00:00.000Z",
+        "relevanceScore": 480.07,
+        "tags": []
+      },
+      {
         "title": "Investigators lead probe into Ryanair flight where man was partly sucked out window",
         "link": "https://abcnews.com/Business/wireStory/us-investigators-lead-probe-ryanair-flight-man-partly-134834861",
         "source": "ABC News Business",
         "pubDate": "2026-07-17T10:42:23.000Z",
-        "relevanceScore": 290.16,
+        "relevanceScore": 247.91,
         "tags": [
           "Analysis"
         ]
@@ -862,136 +741,166 @@
         "link": "https://abcnews.com/Business/wireStory/average-30-year-us-mortgage-rate-climbs-655-134820338",
         "source": "ABC News Business",
         "pubDate": "2026-07-16T16:53:40.000Z",
-        "relevanceScore": 224.6,
+        "relevanceScore": 22.35,
+        "tags": []
+      }
+    ],
+    "tech": [
+      {
+        "title": "Samsung&#8217;s redesigned Z Fold 8 with a wide display just leaked",
+        "link": "https://www.theverge.com/tech/967198/samsung-galaxy-z-fold-8-images-specs-leak",
+        "source": "The Verge",
+        "pubDate": "2026-07-17T15:52:50.000Z",
+        "relevanceScore": 348.95,
+        "tags": [
+          "Launch"
+        ]
+      },
+      {
+        "title": "The Best New Camping Gear at REI (2026): Tents, Coolers, Bikes, More",
+        "link": "https://www.wired.com/story/the-best-new-camping-gear-at-rei-2026/",
+        "source": "Wired",
+        "pubDate": "2026-07-17T14:55:29.000Z",
+        "relevanceScore": 250.75,
         "tags": []
       },
       {
-        "title": "Kalshi says it's not a sportsbook even as World Cup bets surge",
-        "link": "https://www.npr.org/2026/07/17/nx-s1-5884848/kalshi-sports-betting-prediction-markets-draftkings-fanduel-world-cup",
-        "source": "NPR Business",
-        "pubDate": "2026-07-17T09:00:00.000Z",
-        "relevanceScore": 213.82,
+        "title": "2026 Lucid Gravity Touring review: A strong act 2",
+        "link": "https://arstechnica.com/cars/2026/07/2026-lucid-gravity-touring-review-a-strong-act-2/",
+        "source": "Ars Technica",
+        "pubDate": "2026-07-17T11:00:30.000Z",
+        "relevanceScore": 236.97,
         "tags": []
-      }
-    ],
-    "science": [
+      },
       {
-        "title": "The risk of weather data sabotage is rising",
-        "link": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-07-17T08:57:32.000Z",
-        "relevanceScore": 288.81,
+        "title": "Conspiracy Theorists Think Trump’s Speech Paves the Path to the Insurrection Act",
+        "link": "https://www.wired.com/story/conspiracy-theorists-think-trumps-speech-paves-the-path-to-the-insurrection-act/",
+        "source": "Wired",
+        "pubDate": "2026-07-17T13:48:38.000Z",
+        "relevanceScore": 229.53,
         "tags": []
-      }
-    ],
-    "cybersecurity": [
+      },
       {
-        "title": "Why a password is not a security architecture for connected building devices",
-        "link": "https://dev.to/zoranstankovic/why-a-password-is-not-a-security-architecture-for-connected-building-devices-5241",
-        "source": "Dev.to",
-        "pubDate": "2026-07-17T14:42:43.000Z",
-        "relevanceScore": 238.46,
+        "title": "God of War show recasts Kratos after Ryan Hurst sustains an injury on set",
+        "link": "https://www.engadget.com/2217362/god-of-war-prime-video-show-recasts-kratos-ryan-hurst-injury-on-set/",
+        "source": "Engadget",
+        "pubDate": "2026-07-17T13:40:33.000Z",
+        "relevanceScore": 108.5,
+        "tags": []
+      },
+      {
+        "title": "Essential Gear for an Emergency Kit—for Cars or Go-Bags",
+        "link": "https://www.wired.com/story/emergency-kit-disaster-preparedness-guide/",
+        "source": "Wired",
+        "pubDate": "2026-07-17T12:06:00.000Z",
+        "relevanceScore": 101.19,
+        "tags": [
+          "Breaking"
+        ]
+      },
+      {
+        "title": "Zoox issues software recall after a robotaxi got confused by heavy smoke",
+        "link": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
+        "source": "TechCrunch",
+        "pubDate": "2026-07-17T14:12:02.000Z",
+        "relevanceScore": 62.11,
         "tags": [
           "Tech",
-          "Security",
-          "Update"
+          "Exclusive"
         ]
       },
       {
-        "title": "Teen hackers who live streamed cyber-attack on TfL jailed",
-        "link": "https://www.bbc.co.uk/news/articles/c4gyg0y6yg2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-07-16T10:52:26.000Z",
-        "relevanceScore": 88.4,
-        "tags": [
-          "Security"
-        ]
-      }
-    ],
-    "climate": [
-      {
-        "title": "EU defangs a key pillar of its climate policy to allow more pollution",
-        "link": "https://www.engadget.com/2217325/eu-defangs-key-pillar-of-its-climate-policy-to-allow-more-pollution/",
-        "source": "Engadget",
-        "pubDate": "2026-07-17T13:01:30.000Z",
-        "relevanceScore": 229.63,
-        "tags": [
-          "Regulation"
-        ]
+        "title": "US president says ABC and NBC should lose broadcast licenses because they didn’t carry his primetime address on election claims",
+        "link": "https://www.reddit.com/r/technology/comments/1uyxfmg/us_president_says_abc_and_nbc_should_lose/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-07-17T11:49:13.000Z",
+        "relevanceScore": 57.63,
+        "tags": []
       },
       {
-        "title": "The report oil companies are worried about: Climate attribution science",
-        "link": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+        "title": "Over half a million power tool batteries have been recalled due to a USB-C charging fire risk",
+        "link": "https://www.theverge.com/tech/967049/greenworks-kobalt-power-tools-lithium-ion-battery-recall",
+        "source": "The Verge",
+        "pubDate": "2026-07-17T14:05:29.000Z",
+        "relevanceScore": 38.09,
+        "tags": []
+      },
+      {
+        "title": "FCC took pricey gifts from Paramount as the company needed approval for deals",
+        "link": "https://arstechnica.com/tech-policy/2026/07/fcc-took-pricey-gifts-from-paramount-as-the-company-needed-approval-for-deals/",
         "source": "Ars Technica",
-        "pubDate": "2026-07-17T11:30:10.000Z",
-        "relevanceScore": 25.32,
-        "tags": [
-          "Science",
-          "Report"
-        ]
-      }
-    ],
-    "finance": [
-      {
-        "title": "A firmware fix instead of a recall: root-cause engineering for a deployed wearable",
-        "link": "https://dev.to/zoranstankovic/a-firmware-fix-instead-of-a-recall-root-cause-engineering-for-a-deployed-wearable-4o9i",
-        "source": "Dev.to",
-        "pubDate": "2026-07-17T14:35:51.000Z",
-        "relevanceScore": 225.94,
-        "tags": [
-          "Business"
-        ]
+        "pubDate": "2026-07-17T11:15:55.000Z",
+        "relevanceScore": 35.02,
+        "tags": []
       },
       {
-        "title": "Trump Media to sell instant access to 'market-moving' social posts",
-        "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-07-17T07:25:31.000Z",
-        "relevanceScore": 92.51,
-        "tags": [
-          "Business",
-          "Social"
-        ]
+        "title": "Samsung's Freestyle+ projector is now available for $1,200",
+        "link": "https://www.engadget.com/2217299/samsung-freestyle-plus-projector/",
+        "source": "Engadget",
+        "pubDate": "2026-07-17T15:00:00.000Z",
+        "relevanceScore": 33.77,
+        "tags": []
       },
       {
-        "title": "Federal Reserve looks for 'secret sauce' behind a successful Wisconsin toolmaker",
-        "link": "https://www.npr.org/2026/07/17/nx-s1-5894730/federal-reserve-looks-for-secret-sauce-behind-a-successful-wisconsin-tool-maker",
-        "source": "NPR Business",
-        "pubDate": "2026-07-17T09:00:00.000Z",
-        "relevanceScore": 37.32,
-        "tags": [
-          "Business"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "GitHub for Beginners: Your roadmap to mastering the GitHub essentials",
-        "link": "https://github.blog/developer-skills/github/github-for-beginners-your-roadmap-to-mastering-the-github-essentials/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-07-15T17:29:31.000Z",
-        "relevanceScore": 100.42,
-        "tags": [
-          "Exclusive",
-          "Tutorial"
-        ]
+        "title": "reMarkable’s new Paper Pure is good. That’s why I wrote this review on it.",
+        "link": "https://techcrunch.com/2026/07/17/remarkables-new-paper-pure-is-good-thats-why-i-wrote-this-review-on-it/",
+        "source": "TechCrunch",
+        "pubDate": "2026-07-17T14:47:27.000Z",
+        "relevanceScore": 28.73,
+        "tags": []
       },
       {
-        "title": "Developers who move fast still need to do it together​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‍​​﻿‍​‌‍‌‍​﻿‌‌​﻿​‍‌‍‌​​﻿‌﻿‌‍​‍​‍﻿‌‌‍‌‌‌‍‌​​﻿​﻿​﻿‌‌​‍﻿‌​﻿‌​‌‍‌​​﻿​‍​﻿​﻿​‍﻿‌​﻿‍‌​﻿​​​﻿‌​‌‍‌‌​‍﻿‌‌‍‌‌​﻿​‌‌‍​﻿​﻿​﻿​﻿​​​﻿‌‍​﻿‍​​﻿‌‌​﻿​‍‌‍‌‌​﻿‌﻿​﻿‌﻿​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-        "link": "https://stackoverflow.blog/2026/07/17/devs-who-move-fast-still-need-to-do-it-together/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-07-17T07:40:00.000Z",
-        "relevanceScore": 32.06,
+        "title": "Caviar is selling a ridiculous Lionel Messi-themed Galaxy Z Fold 8 Ultra a week before its official unveiling",
+        "link": "https://www.engadget.com/2217484/caviar-lionel-messi-samsung-galaxy-z-fold-8-ultra/",
+        "source": "Engadget",
+        "pubDate": "2026-07-17T14:58:39.000Z",
+        "relevanceScore": 23.76,
         "tags": []
       }
     ],
-    "entertainment": [
+    "general": [
       {
-        "title": "Netflix posts higher Q2 results but shares drop due to lukewarm forecast",
-        "link": "https://abcnews.com/Business/wireStory/netflix-posts-higher-q2-results-shares-drop-due-134830603",
-        "source": "ABC News Business",
-        "pubDate": "2026-07-16T22:28:49.000Z",
-        "relevanceScore": 90.22,
+        "title": "Zeffman: Burnham promises huge change - but leaves questions about plan to deliver it",
+        "link": "https://www.bbc.co.uk/news/articles/cz7djw5dznpo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-17T13:52:20.000Z",
+        "relevanceScore": 259.54,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Watch: First glimpse of Bayeux Tapestry in UK for almost 1,000 years",
+        "link": "https://www.bbc.co.uk/news/videos/cpq8z9p92q1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-17T15:13:08.000Z",
+        "relevanceScore": 82.31,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Boy attacked by zoo crocodile has had seven operations and is smiling again, say parents",
+        "link": "https://www.bbc.co.uk/news/articles/c998v0g2v0vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-17T12:14:43.000Z",
+        "relevanceScore": 64.72,
+        "tags": []
+      },
+      {
+        "title": "Mother of Henry Nowak killer jailed for removing knife from murder scene",
+        "link": "https://www.bbc.co.uk/news/articles/c1w1nnzgg2no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-17T14:51:15.000Z",
+        "relevanceScore": 41.74,
+        "tags": []
+      },
+      {
+        "title": "West Indies cricket legend Garfield Sobers dies aged 89",
+        "link": "https://www.bbc.co.uk/sport/cricket/articles/cq6d421ezjdo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-07-17T15:47:23.000Z",
+        "relevanceScore": 32.93,
         "tags": []
       }
     ],
@@ -1001,7 +910,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1uyy0o5/spacex_stock_falls_further_after_starship_rocket/",
         "source": "Reddit Technology",
         "pubDate": "2026-07-17T12:15:29.000Z",
-        "relevanceScore": 30.47,
+        "relevanceScore": 97.22,
         "tags": []
       },
       {
@@ -1009,7 +918,7 @@
         "link": "https://arstechnica.com/space/2026/07/rocket-report-indias-vikram-1-nears-debut-flight-ast-to-become-rocket-company/",
         "source": "Ars Technica",
         "pubDate": "2026-07-17T11:00:04.000Z",
-        "relevanceScore": 25.22,
+        "relevanceScore": 24.97,
         "tags": [
           "Report"
         ]
@@ -1019,10 +928,33 @@
         "link": "https://www.bbc.co.uk/news/articles/clyl33q0yl0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-07-15T18:11:57.000Z",
-        "relevanceScore": 16.56,
+        "relevanceScore": 16.31,
         "tags": [
           "Business",
           "IPO"
+        ]
+      }
+    ],
+    "finance": [
+      {
+        "title": "Federal Reserve looks for 'secret sauce' behind a successful Wisconsin toolmaker",
+        "link": "https://www.npr.org/2026/07/17/nx-s1-5894730/federal-reserve-looks-for-secret-sauce-behind-a-successful-wisconsin-tool-maker",
+        "source": "NPR Business",
+        "pubDate": "2026-07-17T09:00:00.000Z",
+        "relevanceScore": 53.57,
+        "tags": [
+          "Business"
+        ]
+      },
+      {
+        "title": "Trump Media to sell instant access to 'market-moving' social posts",
+        "link": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-07-17T07:25:31.000Z",
+        "relevanceScore": 34.25,
+        "tags": [
+          "Business",
+          "Social"
         ]
       }
     ],
@@ -1032,7 +964,7 @@
         "link": "https://www.technologyreview.com/2026/07/17/1140608/theres-a-lot-of-hype-around-perimenopause-dont-buy-it/",
         "source": "MIT Technology Review",
         "pubDate": "2026-07-17T09:00:00.000Z",
-        "relevanceScore": 28.82,
+        "relevanceScore": 41.57,
         "tags": [
           "Social"
         ]
@@ -1042,22 +974,89 @@
         "link": "https://www.bbc.co.uk/news/articles/ce8l1zk9dk9o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-07-16T11:08:33.000Z",
-        "relevanceScore": 20.45,
+        "relevanceScore": 31.7,
         "tags": [
           "Social",
           "Analysis"
+        ]
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Is America ready for this quirky Jeep-looking EV that can park itself?",
+        "link": "https://www.theverge.com/transportation/966498/chip-motors-low-speed-ev-remote-park-price",
+        "source": "The Verge",
+        "pubDate": "2026-07-17T15:48:39.000Z",
+        "relevanceScore": 35.93,
+        "tags": []
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "Florida man arrested for allegedly stealing over $200,000 in crypto using Steam game malware",
+        "link": "https://www.theverge.com/games/967174/steam-game-malware-cryptostealer-arrest",
+        "source": "The Verge",
+        "pubDate": "2026-07-17T15:34:35.000Z",
+        "relevanceScore": 35.88,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Netflix posts higher Q2 results but shares drop due to lukewarm forecast",
+        "link": "https://abcnews.com/Business/wireStory/netflix-posts-higher-q2-results-shares-drop-due-134830603",
+        "source": "ABC News Business",
+        "pubDate": "2026-07-16T22:28:49.000Z",
+        "relevanceScore": 31.97,
+        "tags": []
+      }
+    ],
+    "cybersecurity": [
+      {
+        "title": "Teen hackers who live streamed cyber-attack on TfL jailed",
+        "link": "https://www.bbc.co.uk/news/articles/c4gyg0y6yg2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-07-16T10:52:26.000Z",
+        "relevanceScore": 30.14,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "Lyft’s CEO Says, ‘We’re the Good Uber’",
+        "link": "https://www.wired.com/story/lyfts-ceo-says-were-the-good-uber/",
+        "source": "Wired",
+        "pubDate": "2026-07-17T15:00:00.000Z",
+        "relevanceScore": 26.77,
+        "tags": [
+          "Mobile"
+        ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "The report oil companies are worried about: Climate attribution science",
+        "link": "https://arstechnica.com/science/2026/07/national-academies-climate-attribution-is-maturing-but-still-has-limits/",
+        "source": "Ars Technica",
+        "pubDate": "2026-07-17T11:30:10.000Z",
+        "relevanceScore": 25.07,
+        "tags": [
+          "Science",
+          "Report"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 13,
-    "avgRelevanceScore": 188.2391304347826,
+    "totalCategories": 16,
+    "avgRelevanceScore": 159.39086956521743,
     "topCategories": [
       {
         "category": "tech",
-        "count": 14
+        "count": 13
       },
       {
         "category": "ai-ml",
@@ -1068,11 +1067,11 @@
         "count": 5
       },
       {
-        "category": "business",
-        "count": 3
+        "category": "development",
+        "count": 4
       },
       {
-        "category": "finance",
+        "category": "business",
         "count": 3
       }
     ]
