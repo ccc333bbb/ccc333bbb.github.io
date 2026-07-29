@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "lastUpdated": "2026-07-28T08:42:52.197Z",
+    "lastUpdated": "2026-07-29T08:48:30.099Z",
     "totalServices": 50,
-    "healthyServices": 12,
+    "healthyServices": 11,
     "categories": 8
   },
   "categories": {
@@ -23,8 +23,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:29.607Z",
-            "responseTime": 111,
+            "lastChecked": "2026-07-29T08:47:41.484Z",
+            "responseTime": 148,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -53,8 +53,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:31.156Z",
-            "responseTime": 42,
+            "lastChecked": "2026-07-29T08:47:43.145Z",
+            "responseTime": 156,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -82,8 +82,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:32.735Z",
-            "responseTime": 26,
+            "lastChecked": "2026-07-29T08:47:44.893Z",
+            "responseTime": 71,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -118,8 +118,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:34.329Z",
-            "responseTime": 83,
+            "lastChecked": "2026-07-29T08:47:46.537Z",
+            "responseTime": 135,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -148,8 +148,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:36.445Z",
-            "responseTime": 612,
+            "lastChecked": "2026-07-29T08:47:48.849Z",
+            "responseTime": 811,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -184,8 +184,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:38.008Z",
-            "responseTime": 61,
+            "lastChecked": "2026-07-29T08:47:50.416Z",
+            "responseTime": 64,
             "statusCode": 200,
             "reason": "Service operational",
             "error": "ERR_BAD_RESPONSE"
@@ -214,8 +214,8 @@
           },
           "status": {
             "health": "unhealthy",
-            "lastChecked": "2026-07-28T08:42:39.550Z",
-            "responseTime": 40,
+            "lastChecked": "2026-07-29T08:47:53.136Z",
+            "responseTime": 1218,
             "statusCode": 403,
             "reason": "HTTP 403"
           },
@@ -250,8 +250,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:41.367Z",
-            "responseTime": 311,
+            "lastChecked": "2026-07-29T08:48:00.835Z",
+            "responseTime": 6193,
             "statusCode": 200,
             "reason": "Service operational",
             "error": "ECONNRESET"
@@ -281,8 +281,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:43.080Z",
-            "responseTime": 210,
+            "lastChecked": "2026-07-29T08:48:02.813Z",
+            "responseTime": 475,
             "statusCode": 200,
             "reason": "Service operational"
           },
@@ -317,8 +317,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:44.804Z",
-            "responseTime": 223,
+            "lastChecked": "2026-07-29T08:48:05.382Z",
+            "responseTime": 1065,
             "statusCode": 200,
             "reason": "Service operational",
             "error": "ECONNABORTED"
@@ -353,11 +353,12 @@
             "uptime": "99.9% SLA"
           },
           "status": {
-            "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:46.406Z",
-            "responseTime": 100,
-            "statusCode": 200,
-            "reason": "Service operational"
+            "health": "unhealthy",
+            "lastChecked": "2026-07-29T08:48:21.893Z",
+            "responseTime": null,
+            "statusCode": null,
+            "reason": "timeout of 15000ms exceeded",
+            "error": "ECONNABORTED"
           },
           "features": [
             "npm CDN",
@@ -389,8 +390,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:48.871Z",
-            "responseTime": 962,
+            "lastChecked": "2026-07-29T08:48:24.605Z",
+            "responseTime": 1211,
             "statusCode": 200,
             "reason": "Service operational",
             "error": "ECONNABORTED"
@@ -426,8 +427,8 @@
           },
           "status": {
             "health": "healthy",
-            "lastChecked": "2026-07-28T08:42:50.695Z",
-            "responseTime": 319,
+            "lastChecked": "2026-07-29T08:48:28.597Z",
+            "responseTime": 2488,
             "statusCode": 200,
             "reason": "Service operational"
           },
