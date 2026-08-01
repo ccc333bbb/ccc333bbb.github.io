@@ -1,7 +1,68 @@
 {
-  "lastUpdated": "2026-07-31T23:14:41.290Z",
+  "lastUpdated": "2026-08-01T00:12:05.891Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-08-01",
+      "file": "2026-08-01.json",
+      "totalArticles": 49,
+      "lastUpdated": "2026-08-01T00:12:05.873Z",
+      "sources": [
+        "TechCrunch",
+        "ABC News Business",
+        "The Verge",
+        "Dev.to",
+        "BBC Technology",
+        "GitHub Blog",
+        "Stack Overflow Blog",
+        "BBC News",
+        "MIT Technology Review",
+        "Ars Technica",
+        "Reddit Programming",
+        "NPR Business",
+        "Engadget",
+        "Wired"
+      ],
+      "categories": [
+        "tech",
+        "business",
+        "development",
+        "general",
+        "science"
+      ],
+      "topArticles": [
+        {
+          "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+          "source": "TechCrunch",
+          "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+          "relevanceScore": 883.2944623611111
+        },
+        {
+          "title": "South Korea’s Kospi index jumps more than 16% on a surge of chipmaking stocks",
+          "source": "ABC News Business",
+          "link": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-16-surge-chipmaking-135247652",
+          "relevanceScore": 620
+        },
+        {
+          "title": "Apple’s new AirTags are back down to their best price",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale",
+          "relevanceScore": 542.69710125
+        },
+        {
+          "title": "Energy companies Exxon and Chevron rake in huge profits as fighting between US and Iran drive energy prices higher",
+          "source": "ABC News Business",
+          "link": "https://abcnews.com/Business/wireStory/energy-companies-exxon-chevron-rake-huge-profits-fighting-135253792",
+          "relevanceScore": 527
+        },
+        {
+          "title": "When AI agents hit an impossible task, they hide it. The 3 escape patterns and the rules that stop them",
+          "source": "Dev.to",
+          "link": "https://dev.to/mxhlix/when-ai-agents-hit-an-impossible-task-they-hide-it-the-3-escape-patterns-and-the-rules-that-stop-3fh1",
+          "relevanceScore": 406.9355733333333
+        }
+      ]
+    },
     {
       "date": "2026-07-31",
       "file": "2026-07-31.json",
@@ -35,31 +96,31 @@
           "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
           "source": "TechCrunch",
           "link": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
-          "relevanceScore": 798.7728791666667
+          "relevanceScore": 750.91
         },
         {
           "title": "I Chased uWebSockets—and Found a 14-Byte Performance Cliff",
           "source": "Dev.to",
           "link": "https://dev.to/hamdallah_jodah/i-chased-uwebsockets-and-found-a-14-byte-performance-cliff-54ap",
-          "relevanceScore": 724.82885125
+          "relevanceScore": 738.93
         },
         {
           "title": "South Korea’s Kospi index jumps more than 16% on a surge of chipmaking stocks",
           "source": "ABC News Business",
           "link": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-jumps-16-surge-chipmaking-135247652",
-          "relevanceScore": 598
+          "relevanceScore": 570.62
         },
         {
           "title": "Apple’s new AirTags are back down to their best price",
           "source": "The Verge",
           "link": "https://www.theverge.com/gadgets/973973/apple-airtag-second-generation-deal-sale",
-          "relevanceScore": 560.1755180555556
+          "relevanceScore": 553.27
         },
         {
           "title": "AI firms must answer for rogue bots, says boss of hacked company",
           "source": "BBC Technology",
           "link": "https://www.bbc.co.uk/news/articles/cr7k49xjzzeo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 383.4648236111111
+          "relevanceScore": 375.99
         }
       ]
     },
@@ -1742,67 +1803,6 @@
           "source": "The Verge",
           "link": "https://www.theverge.com/tech/961387/amazon-2023-fire-hd-10-tablet-4gb-update",
           "relevanceScore": 288.27
-        }
-      ]
-    },
-    {
-      "date": "2026-07-02",
-      "file": "2026-07-02.json",
-      "totalArticles": 48,
-      "lastUpdated": "2026-07-02T23:46:23.871Z",
-      "sources": [
-        "BBC Technology",
-        "Engadget",
-        "Wired",
-        "GitHub Blog",
-        "Dev.to",
-        "ABC News Business",
-        "NPR Business",
-        "The Verge",
-        "MIT Technology Review",
-        "BBC News",
-        "TechCrunch",
-        "Stack Overflow Blog",
-        "Ars Technica",
-        "Reddit Technology"
-      ],
-      "categories": [
-        "tech",
-        "development",
-        "business",
-        "science",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "Meta glasses wearers hit with paywall to use built-in feature",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.co.uk/news/articles/c3wy317d71jo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 870.99
-        },
-        {
-          "title": "Cloudflare will filter out web crawlers that serve AI companies",
-          "source": "Engadget",
-          "link": "https://www.engadget.com/2207360/cloudflare-will-filter-out-web-crawlers-that-serve-ai-companies/",
-          "relevanceScore": 627
-        },
-        {
-          "title": "Can Cursor Remain a Platform for OpenAI and Anthropic’s Models Inside SpaceX?",
-          "source": "Wired",
-          "link": "https://www.wired.com/story/can-cursor-remain-an-open-platform-inside-of-spacex/",
-          "relevanceScore": 531.85
-        },
-        {
-          "title": "6 security settings every GitHub maintainer should enable this week",
-          "source": "GitHub Blog",
-          "link": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
-          "relevanceScore": 521.14
-        },
-        {
-          "title": "A Primitive Should Never Have an Opinion",
-          "source": "Dev.to",
-          "link": "https://dev.to/rabeh_arch/a-primitive-should-never-have-an-opinion-7ja",
-          "relevanceScore": 495.96
         }
       ]
     }
