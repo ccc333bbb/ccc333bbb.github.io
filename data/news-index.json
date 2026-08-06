@@ -1,7 +1,68 @@
 {
-  "lastUpdated": "2026-08-05T23:54:10.031Z",
+  "lastUpdated": "2026-08-06T01:59:00.298Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-08-06",
+      "file": "2026-08-06.json",
+      "totalArticles": 49,
+      "lastUpdated": "2026-08-06T01:59:00.280Z",
+      "sources": [
+        "Wired",
+        "GitHub Blog",
+        "Engadget",
+        "Ars Technica",
+        "TechCrunch",
+        "BBC News",
+        "The Verge",
+        "MIT Technology Review",
+        "Dev.to",
+        "Stack Overflow Blog",
+        "ABC News Business",
+        "BBC Technology",
+        "NPR Business",
+        "Reddit Technology"
+      ],
+      "categories": [
+        "tech",
+        "development",
+        "general",
+        "science",
+        "business"
+      ],
+      "topArticles": [
+        {
+          "title": "OpenAI Didn’t Notice Its AI Agents Using a Message Board to Plan Their Hacking Spree",
+          "source": "Wired",
+          "link": "https://www.wired.com/story/openai-didnt-notice-its-ai-agents-using-a-message-board-to-plan-their-hacking-spree/",
+          "relevanceScore": 1510.1338502777778
+        },
+        {
+          "title": "Turn one giant AI-generated pull request to a reviewable stack",
+          "source": "GitHub Blog",
+          "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+          "relevanceScore": 1195
+        },
+        {
+          "title": "X's head of product is leaving the company one year after joining",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2231302/x-head-of-product-nikita-bier-leaving-the-company-one-year-after-joining/",
+          "relevanceScore": 1017.4157945833333
+        },
+        {
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
+          "relevanceScore": 966.4014891666667
+        },
+        {
+          "title": "Meta introduces Muse Code, its take on a coding agent",
+          "source": "Engadget",
+          "link": "https://www.engadget.com/2231285/meta-introduces-muse-code-its-take-on-a-coding-agent/",
+          "relevanceScore": 961.9905168055556
+        }
+      ]
+    },
     {
       "date": "2026-08-05",
       "file": "2026-08-05.json",
@@ -35,31 +96,31 @@
           "title": "Turn one giant AI-generated pull request to a reviewable stack",
           "source": "GitHub Blog",
           "link": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
-          "relevanceScore": 1146
+          "relevanceScore": 1137.28
         },
         {
           "title": "X's head of product is leaving the company one year after joining",
           "source": "Engadget",
           "link": "https://www.engadget.com/2231302/x-head-of-product-nikita-bier-leaving-the-company-one-year-after-joining/",
-          "relevanceScore": 900.4561094444445
+          "relevanceScore": 894.78
         },
         {
           "title": "My X (Twitter) Weekly Report Bot Showed '0 Followers' for Two Months—The Culprit Was a Non-Existent Account Name in My .env File",
           "source": "Dev.to",
           "link": "https://dev.to/masaoshimadaopen/my-x-twitter-weekly-report-bot-showed-0-followers-for-two-months-the-culprit-was-a-non-existent-1edl",
-          "relevanceScore": 831.8011094444445
+          "relevanceScore": 842.92
         },
         {
           "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
           "source": "Ars Technica",
           "link": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-          "relevanceScore": 831.4418038888889
+          "relevanceScore": 844.38
         },
         {
           "title": "Meta introduces Muse Code, its take on a coding agent",
           "source": "Engadget",
           "link": "https://www.engadget.com/2231285/meta-introduces-muse-code-its-take-on-a-coding-agent/",
-          "relevanceScore": 724.0308316666667
+          "relevanceScore": 733.61
         }
       ]
     },
@@ -1743,67 +1804,6 @@
           "source": "GitHub Blog",
           "link": "https://github.blog/ai-and-ml/github-copilot/how-github-copilot-enables-zero-dns-configuration-for-github-pages/",
           "relevanceScore": 679.45
-        }
-      ]
-    },
-    {
-      "date": "2026-07-07",
-      "file": "2026-07-07.json",
-      "totalArticles": 45,
-      "lastUpdated": "2026-07-07T23:52:54.002Z",
-      "sources": [
-        "Stack Overflow Blog",
-        "The Verge",
-        "Dev.to",
-        "MIT Technology Review",
-        "Ars Technica",
-        "GitHub Blog",
-        "Engadget",
-        "Wired",
-        "ABC News Business",
-        "TechCrunch",
-        "BBC News",
-        "Reddit Technology",
-        "BBC Technology",
-        "NPR Business"
-      ],
-      "categories": [
-        "development",
-        "tech",
-        "science",
-        "business",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "When the sensor starts thinking: SnortML, agentic AI, and the evolving architecture of intrusion detection​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿​﻿‌‍‌‍​﻿​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​‌‌‍​‍​‍﻿‌​﻿​﻿​﻿‌​‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌​‌‍‌​​﻿‍‌​﻿‍​​‍﻿‌​﻿‍​​﻿‌‍​﻿‌​​﻿​‌​‍﻿‌‌‍‌‌‌‍​﻿‌‍‌‌‌‍‌‍‌‍​﻿​﻿‌﻿​﻿​‌​﻿​‌‌‍‌‍​﻿​​‌‍‌‌‌‍‌‍​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌​﻿‌﻿​﻿‌‍‌‍​﻿​﻿‍‌​﻿‌﻿​﻿‌﻿​﻿​‌‌‍​‍​‍﻿‌​﻿​﻿​﻿‌​‌‍‌‌​﻿‌‍​‍﻿‌​﻿‌​‌‍‌​​﻿‍‌​﻿‍​​‍﻿‌​﻿‍​​﻿‌‍​﻿‌​​﻿​‌​‍﻿‌‌‍‌‌‌‍​﻿‌‍‌‌‌‍‌‍‌‍​﻿​﻿‌﻿​﻿​‌​﻿​‌‌‍‌‍​﻿​​‌‍‌‌‌‍‌‍​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
-          "source": "Stack Overflow Blog",
-          "link": "https://stackoverflow.blog/2026/07/06/when-the-sensor-starts-thinking-snortml-agentic-ai-and-the-evolving-architecture-of-intrusion-detection/",
-          "relevanceScore": 1016
-        },
-        {
-          "title": "Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/streaming/962528/netflix-digital-media-brands-streaming",
-          "relevanceScore": 817.55
-        },
-        {
-          "title": "Building PWAs: Offline-First Adventures Like in *Ready Player One*",
-          "source": "Dev.to",
-          "link": "https://dev.to/timevolt/building-pwas-offline-first-adventures-like-in-ready-player-one-4pn0",
-          "relevanceScore": 747.96
-        },
-        {
-          "title": "Why worms (and microbes) are catching on as a manure pollution solution",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2026/07/07/1140142/why-worms-and-microbes-are-catching-on-as-a-manure-pollution-solution/",
-          "relevanceScore": 737.72
-        },
-        {
-          "title": "Surprisingly large number of people may have marker for tick-linked meat allergy",
-          "source": "Ars Technica",
-          "link": "https://arstechnica.com/health/2026/07/surprisingly-large-number-of-people-may-have-marker-for-tick-linked-meat-allergy/",
-          "relevanceScore": 698.33
         }
       ]
     }
