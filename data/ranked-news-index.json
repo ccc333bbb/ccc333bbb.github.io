@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-08-08T05:09:27.688Z",
-  "totalArticles": 48,
+  "lastUpdated": "2026-08-08T05:55:08.300Z",
+  "totalArticles": 47,
   "categories": [
     "ai-ml",
     "gaming",
-    "social",
     "cybersecurity",
+    "development",
     "tech",
     "science",
-    "business",
     "general",
     "finance",
+    "business",
     "space",
+    "social",
     "mobile"
   ],
   "topArticles": [
@@ -21,21 +22,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-07T18:59:46.000Z",
-      "relevanceScore": 1082.47,
-      "recommendationScore": 1082.97,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI agent codebase semantic RAG: AST for 30% Fewer Hallucinations",
-      "link": "https://dev.to/umair24171/ai-agent-codebase-semantic-rag-ast-for-30-fewer-hallucinations-5481",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-08T04:52:54.000Z",
-      "relevanceScore": 977.44,
-      "recommendationScore": 977.94,
+      "relevanceScore": 1129.32,
+      "recommendationScore": 1129.82,
       "tags": [
         "AI"
       ],
@@ -47,8 +35,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-08-07T22:05:08.000Z",
-      "relevanceScore": 845.59,
-      "recommendationScore": 846.09,
+      "relevanceScore": 827.93,
+      "recommendationScore": 828.43,
       "tags": [
         "Web"
       ],
@@ -60,38 +48,11 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-08-07T07:40:00.000Z",
-      "relevanceScore": 727.2,
-      "recommendationScore": 728.7,
+      "relevanceScore": 780.55,
+      "recommendationScore": 782.05,
       "tags": [
         "AI",
         "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Inside Facebook's News Feed Architecture",
-      "link": "https://dev.to/zidane1688/inside-facebooks-news-feed-architecture-10n7",
-      "source": "Dev.to",
-      "category": "social",
-      "pubDate": "2026-08-08T04:50:06.000Z",
-      "relevanceScore": 510.94,
-      "recommendationScore": 512.94,
-      "tags": [
-        "Social",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI says it slowed Astra model development over security concerns",
-      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
-      "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2026-08-07T22:48:24.000Z",
-      "relevanceScore": 473.23,
-      "recommendationScore": 473.73,
-      "tags": [
-        "Security"
       ],
       "readingLevel": "advanced"
     },
@@ -101,8 +62,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-08-06T15:59:34.000Z",
-      "relevanceScore": 364.07,
-      "recommendationScore": 368.07,
+      "relevanceScore": 507.41,
+      "recommendationScore": 511.41,
       "tags": [
         "AI",
         "Web",
@@ -111,13 +72,40 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-08-07T18:40:34.000Z",
+      "relevanceScore": 437.25,
+      "recommendationScore": 439.75,
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "TechCrunch",
+      "category": "cybersecurity",
+      "pubDate": "2026-08-07T22:48:24.000Z",
+      "relevanceScore": 427.58,
+      "recommendationScore": 428.08,
+      "tags": [
+        "Security"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
       "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-07T21:30:11.000Z",
-      "relevanceScore": 336.47,
-      "recommendationScore": 336.97,
+      "relevanceScore": 379.82,
+      "recommendationScore": 380.32,
       "tags": [
         "AI"
       ],
@@ -129,8 +117,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-08-07T14:20:00.000Z",
-      "relevanceScore": 317.54,
-      "recommendationScore": 320.04,
+      "relevanceScore": 376.38,
+      "recommendationScore": 378.88,
       "tags": [
         "AI",
         "Tech",
@@ -141,57 +129,26 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "JDK 28 EA Build10 is now available for download and includes JEP 401: Value Objects (Preview) from Project Valhalla",
+      "link": "https://www.reddit.com/r/programming/comments/1vii2vi/jdk_28_ea_build10_is_now_available_for_download/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-08-08T00:56:24.000Z",
+      "relevanceScore": 362.5,
+      "recommendationScore": 362.5,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Static Hour challenges you to be the arbiter of truth and fear",
       "link": "https://www.engadget.com/2232681/static-hour-challenges-you-to-be-the-arbiter-of-truth-and-fear/",
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-07T18:19:54.000Z",
-      "relevanceScore": 309.83,
-      "recommendationScore": 310.33,
+      "relevanceScore": 350.68,
+      "recommendationScore": 351.18,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-08-07T18:40:34.000Z",
-      "relevanceScore": 305.9,
-      "recommendationScore": 308.4,
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Scientists Used AI to Create 16 New Viruses",
-      "link": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-08-07T14:13:57.000Z",
-      "relevanceScore": 221.01,
-      "recommendationScore": 223.01,
-      "tags": [
-        "AI",
-        "Tech",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Zohran Mamdani’s NYC Tech Team Is What DOGE Should Have Been",
-      "link": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-08-07T15:00:00.000Z",
-      "relevanceScore": 218.17,
-      "recommendationScore": 220.17,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
@@ -199,8 +156,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-08-07T14:00:00.000Z",
-      "relevanceScore": 210.97,
-      "recommendationScore": 212.97,
+      "relevanceScore": 324.32,
+      "recommendationScore": 326.32,
       "tags": [
         "Web",
         "Partnership",
@@ -209,14 +166,16 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Army opens test ranges to small companies to try to get weapons quicker to the battlefield",
-      "link": "https://abcnews.com/Business/wireStory/army-opens-test-ranges-small-companies-weapons-quicker-135462725",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-08-07T17:03:11.000Z",
-      "relevanceScore": 185.58,
-      "recommendationScore": 186.08,
-      "tags": [],
+      "title": "How I Built an AI Customer Support Chatbot for Shopify That Resolved 80% of Tickets",
+      "link": "https://dev.to/khanzadigithubid/how-i-built-an-ai-customer-support-chatbot-for-shopify-that-resolved-80-of-tickets-4g9c",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T05:23:11.000Z",
+      "relevanceScore": 297.89,
+      "recommendationScore": 299.89,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -225,39 +184,12 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-07T22:42:43.000Z",
-      "relevanceScore": 177.71,
-      "recommendationScore": 178.21,
+      "relevanceScore": 289.06,
+      "recommendationScore": 289.56,
       "tags": [
         "Analysis"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "How we took malware advisories beyond npm",
-      "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
-      "source": "GitHub Blog",
-      "category": "cybersecurity",
-      "pubDate": "2026-08-06T16:51:12.000Z",
-      "relevanceScore": 151.74,
-      "recommendationScore": 153.24,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Who Named This ReAct? I'd Like to Speak to the Manager.",
-      "link": "https://dev.to/earlgreyhot1701d/who-named-this-react-id-like-to-speak-to-the-manager-4akg",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-08T05:00:13.000Z",
-      "relevanceScore": 145.47,
-      "recommendationScore": 145.97,
-      "tags": [
-        "AI",
-        "Cloud"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
@@ -265,8 +197,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-07T16:16:09.000Z",
-      "relevanceScore": 145.42,
-      "recommendationScore": 147.92,
+      "relevanceScore": 255.77,
+      "recommendationScore": 258.27,
       "tags": [
         "AI",
         "Web",
@@ -280,8 +212,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-08-07T13:10:10.000Z",
-      "relevanceScore": 144.8,
-      "recommendationScore": 145.3,
+      "relevanceScore": 255.15,
+      "recommendationScore": 255.65,
       "tags": [
         "Business",
         "Report"
@@ -289,16 +221,43 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
-      "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
-      "source": "MIT Technology Review",
+      "title": "Scientists Used AI to Create 16 New Viruses",
+      "link": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+      "source": "Wired",
       "category": "ai-ml",
-      "pubDate": "2026-08-06T12:10:00.000Z",
-      "relevanceScore": 143.3,
-      "recommendationScore": 143.8,
+      "pubDate": "2026-08-07T14:13:57.000Z",
+      "relevanceScore": 252.86,
+      "recommendationScore": 254.86,
       "tags": [
         "AI",
+        "Tech",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zohran Mamdani’s NYC Tech Team Is What DOGE Should Have Been",
+      "link": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-07T15:00:00.000Z",
+      "relevanceScore": 250.02,
+      "recommendationScore": 252.02,
+      "tags": [
         "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How we took malware advisories beyond npm",
+      "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
+      "source": "GitHub Blog",
+      "category": "cybersecurity",
+      "pubDate": "2026-08-06T16:51:12.000Z",
+      "relevanceScore": 240.09,
+      "recommendationScore": 241.59,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
@@ -308,10 +267,35 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-07T17:07:27.000Z",
-      "relevanceScore": 108.09,
-      "recommendationScore": 108.59,
+      "relevanceScore": 207.44,
+      "recommendationScore": 207.94,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Army opens test ranges to small companies to try to get weapons quicker to the battlefield",
+      "link": "https://abcnews.com/Business/wireStory/army-opens-test-ranges-small-companies-weapons-quicker-135462725",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-07T17:03:11.000Z",
+      "relevanceScore": 206.43,
+      "recommendationScore": 206.93,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
+      "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-08-06T12:10:00.000Z",
+      "relevanceScore": 154.65,
+      "recommendationScore": 155.15,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "One of NASA's Mars rovers could find itself promised to the moon instead",
@@ -319,23 +303,24 @@
       "source": "Engadget",
       "category": "space",
       "pubDate": "2026-08-07T18:30:00.000Z",
-      "relevanceScore": 85.37,
-      "recommendationScore": 85.87,
+      "relevanceScore": 97.22,
+      "recommendationScore": 97.72,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Framework customer information was accessed as part of a data breach",
-      "link": "https://www.engadget.com/2232708/framework-customer-information-was-accessed-as-part-of-a-data-breach/",
-      "source": "Engadget",
-      "category": "cybersecurity",
-      "pubDate": "2026-08-07T18:37:26.000Z",
-      "relevanceScore": 71.39,
-      "recommendationScore": 71.89,
+      "title": "My AI agents shipped 128 releases of a product no one ever used",
+      "link": "https://dev.to/guschiriboga/my-ai-agents-shipped-128-releases-of-a-product-no-one-ever-used-1045",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T05:26:11.000Z",
+      "relevanceScore": 96.4,
+      "recommendationScore": 96.9,
       "tags": [
-        "Security"
+        "AI",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -345,8 +330,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-07T22:13:55.000Z",
-      "relevanceScore": 68.11,
-      "recommendationScore": 68.61,
+      "relevanceScore": 78.96,
+      "recommendationScore": 79.46,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -356,8 +341,8 @@
       "source": "BBC News",
       "category": "finance",
       "pubDate": "2026-08-07T22:50:58.000Z",
-      "relevanceScore": 67.24,
-      "recommendationScore": 67.74,
+      "relevanceScore": 78.09,
+      "recommendationScore": 78.59,
       "tags": [
         "Analysis"
       ],
@@ -369,8 +354,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-07T19:35:35.000Z",
-      "relevanceScore": 62.59,
-      "recommendationScore": 64.59,
+      "relevanceScore": 73.43,
+      "recommendationScore": 75.43,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -380,8 +365,8 @@
       "source": "TechCrunch",
       "category": "cybersecurity",
       "pubDate": "2026-08-07T21:00:08.000Z",
-      "relevanceScore": 62.37,
-      "recommendationScore": 62.37,
+      "relevanceScore": 73.22,
+      "recommendationScore": 73.22,
       "tags": [
         "Tech",
         "Security",
@@ -395,8 +380,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-07T20:01:51.000Z",
-      "relevanceScore": 60.67,
-      "recommendationScore": 61.17,
+      "relevanceScore": 71.52,
+      "recommendationScore": 72.02,
       "tags": [
         "AI"
       ],
@@ -408,9 +393,23 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-07T19:53:02.000Z",
-      "relevanceScore": 60.65,
-      "recommendationScore": 61.15,
+      "relevanceScore": 71.49,
+      "recommendationScore": 71.99,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The One Question That Stops an AI Voice Scam Cold",
+      "link": "https://dev.to/shortlivedage/the-one-question-that-stops-an-ai-voice-scam-cold-358d",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T05:30:04.000Z",
+      "relevanceScore": 71.42,
+      "recommendationScore": 72.42,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -419,8 +418,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-07T19:00:17.000Z",
-      "relevanceScore": 60.47,
-      "recommendationScore": 60.97,
+      "relevanceScore": 71.32,
+      "recommendationScore": 71.82,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -430,8 +429,8 @@
       "source": "BBC Technology",
       "category": "social",
       "pubDate": "2026-08-07T09:22:03.000Z",
-      "relevanceScore": 58.54,
-      "recommendationScore": 59.04,
+      "relevanceScore": 69.39,
+      "recommendationScore": 69.89,
       "tags": [
         "Social"
       ],
@@ -443,21 +442,21 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-08-06T23:04:40.000Z",
-      "relevanceScore": 56.48,
-      "recommendationScore": 58.48,
+      "relevanceScore": 67.33,
+      "recommendationScore": 69.33,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "YouTube’s AI slop detector incorrectly targets Kurzgesagt as other creators fear same fate",
-      "link": "https://www.reddit.com/r/technology/comments/1vi2r6h/youtubes_ai_slop_detector_incorrectly_targets/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-07T14:50:41.000Z",
-      "relevanceScore": 55.64,
-      "recommendationScore": 56.14,
+      "title": "Framework customer information was accessed as part of a data breach",
+      "link": "https://www.engadget.com/2232708/framework-customer-information-was-accessed-as-part-of-a-data-breach/",
+      "source": "Engadget",
+      "category": "cybersecurity",
+      "pubDate": "2026-08-07T18:37:26.000Z",
+      "relevanceScore": 60.24,
+      "recommendationScore": 60.74,
       "tags": [
-        "AI"
+        "Security"
       ],
       "readingLevel": "advanced"
     },
@@ -467,8 +466,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-07T23:56:11.000Z",
-      "relevanceScore": 30.96,
-      "recommendationScore": 31.46,
+      "relevanceScore": 30.8,
+      "recommendationScore": 31.3,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -478,8 +477,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-07T21:24:17.000Z",
-      "relevanceScore": 30.45,
-      "recommendationScore": 30.95,
+      "relevanceScore": 30.3,
+      "recommendationScore": 30.8,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -489,8 +488,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-07T21:20:00.000Z",
-      "relevanceScore": 26.44,
-      "recommendationScore": 26.94,
+      "relevanceScore": 26.28,
+      "recommendationScore": 26.78,
       "tags": [
         "Tech"
       ],
@@ -502,8 +501,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-08-07T21:48:21.000Z",
-      "relevanceScore": 24.53,
-      "recommendationScore": 25.03,
+      "relevanceScore": 24.38,
+      "recommendationScore": 24.88,
       "tags": [
         "Web"
       ],
@@ -515,8 +514,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-07T21:09:00.000Z",
-      "relevanceScore": 24.4,
-      "recommendationScore": 25.9,
+      "relevanceScore": 24.25,
+      "recommendationScore": 25.75,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -526,8 +525,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-07T10:00:00.000Z",
-      "relevanceScore": 24.17,
-      "recommendationScore": 24.67,
+      "relevanceScore": 24.02,
+      "recommendationScore": 24.52,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -537,8 +536,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-07T18:54:04.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 25.45,
+      "relevanceScore": 23.8,
+      "recommendationScore": 25.3,
       "tags": [
         "Interview"
       ],
@@ -550,8 +549,8 @@
       "source": "Ars Technica",
       "category": "social",
       "pubDate": "2026-08-07T19:49:27.000Z",
-      "relevanceScore": 23.63,
-      "recommendationScore": 24.13,
+      "relevanceScore": 23.48,
+      "recommendationScore": 23.98,
       "tags": [
         "IPO"
       ],
@@ -563,8 +562,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-07T16:48:21.000Z",
-      "relevanceScore": 23.53,
-      "recommendationScore": 26.03,
+      "relevanceScore": 23.38,
+      "recommendationScore": 25.88,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -574,33 +573,20 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-07T18:24:20.000Z",
-      "relevanceScore": 21.85,
-      "recommendationScore": 22.35,
+      "relevanceScore": 21.7,
+      "recommendationScore": 22.2,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Canada investigating how Skyrim username mixup sent innocent man to prison for 18 months",
-      "link": "https://www.reddit.com/r/technology/comments/1vi9jkc/canada_investigating_how_skyrim_username_mixup/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-08-07T19:01:28.000Z",
-      "relevanceScore": 19.97,
-      "recommendationScore": 21.97,
+      "title": "A shell exclamation mark is not for yelling. Be lazy. | Filip Roséen",
+      "link": "https://www.reddit.com/r/programming/comments/1vilqxz/a_shell_exclamation_mark_is_not_for_yelling_be/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-08-08T03:57:59.000Z",
+      "relevanceScore": 21.61,
+      "recommendationScore": 22.11,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Flock Is Losing Dozens of Contracts as Controversy Grows",
-      "link": "https://www.reddit.com/r/technology/comments/1vi9e6b/flock_is_losing_dozens_of_contracts_as/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-08-07T18:55:56.000Z",
-      "relevanceScore": 19.95,
-      "recommendationScore": 20.45,
-      "tags": [
-        "Controversy"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -609,8 +595,8 @@
       "source": "GitHub Blog",
       "category": "mobile",
       "pubDate": "2026-08-06T19:49:34.000Z",
-      "relevanceScore": 19.33,
-      "recommendationScore": 19.83,
+      "relevanceScore": 19.18,
+      "recommendationScore": 19.68,
       "tags": [
         "Mobile",
         "Exclusive",
@@ -624,8 +610,8 @@
       "source": "BBC Technology",
       "category": "space",
       "pubDate": "2026-08-06T14:50:54.000Z",
-      "relevanceScore": 18.34,
-      "recommendationScore": 18.84,
+      "relevanceScore": 18.19,
+      "recommendationScore": 18.69,
       "tags": [],
       "readingLevel": "intermediate"
     }
@@ -637,17 +623,7 @@
         "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
         "source": "The Verge",
         "pubDate": "2026-08-07T18:59:46.000Z",
-        "relevanceScore": 1082.47,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "AI agent codebase semantic RAG: AST for 30% Fewer Hallucinations",
-        "link": "https://dev.to/umair24171/ai-agent-codebase-semantic-rag-ast-for-30-fewer-hallucinations-5481",
-        "source": "Dev.to",
-        "pubDate": "2026-08-08T04:52:54.000Z",
-        "relevanceScore": 977.44,
+        "relevanceScore": 1129.32,
         "tags": [
           "AI"
         ]
@@ -657,7 +633,7 @@
         "link": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-08-07T07:40:00.000Z",
-        "relevanceScore": 727.2,
+        "relevanceScore": 780.55,
         "tags": [
           "AI",
           "Tutorial"
@@ -668,7 +644,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cp30989ee1wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-06T15:59:34.000Z",
-        "relevanceScore": 364.07,
+        "relevanceScore": 507.41,
         "tags": [
           "AI",
           "Web",
@@ -676,11 +652,22 @@
         ]
       },
       {
+        "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+        "source": "The Verge",
+        "pubDate": "2026-08-07T18:40:34.000Z",
+        "relevanceScore": 437.25,
+        "tags": [
+          "AI",
+          "Security"
+        ]
+      },
+      {
         "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
         "link": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
         "source": "TechCrunch",
         "pubDate": "2026-08-07T21:30:11.000Z",
-        "relevanceScore": 336.47,
+        "relevanceScore": 379.82,
         "tags": [
           "AI"
         ]
@@ -690,7 +677,7 @@
         "link": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-07T14:20:00.000Z",
-        "relevanceScore": 317.54,
+        "relevanceScore": 376.38,
         "tags": [
           "AI",
           "Tech",
@@ -700,37 +687,13 @@
         ]
       },
       {
-        "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
-        "source": "The Verge",
-        "pubDate": "2026-08-07T18:40:34.000Z",
-        "relevanceScore": 305.9,
-        "tags": [
-          "AI",
-          "Security"
-        ]
-      },
-      {
-        "title": "Scientists Used AI to Create 16 New Viruses",
-        "link": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
-        "source": "Wired",
-        "pubDate": "2026-08-07T14:13:57.000Z",
-        "relevanceScore": 221.01,
-        "tags": [
-          "AI",
-          "Tech",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Who Named This ReAct? I'd Like to Speak to the Manager.",
-        "link": "https://dev.to/earlgreyhot1701d/who-named-this-react-id-like-to-speak-to-the-manager-4akg",
+        "title": "How I Built an AI Customer Support Chatbot for Shopify That Resolved 80% of Tickets",
+        "link": "https://dev.to/khanzadigithubid/how-i-built-an-ai-customer-support-chatbot-for-shopify-that-resolved-80-of-tickets-4g9c",
         "source": "Dev.to",
-        "pubDate": "2026-08-08T05:00:13.000Z",
-        "relevanceScore": 145.47,
+        "pubDate": "2026-08-08T05:23:11.000Z",
+        "relevanceScore": 297.89,
         "tags": [
-          "AI",
-          "Cloud"
+          "AI"
         ]
       },
       {
@@ -738,7 +701,7 @@
         "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
         "source": "TechCrunch",
         "pubDate": "2026-08-07T16:16:09.000Z",
-        "relevanceScore": 145.42,
+        "relevanceScore": 255.77,
         "tags": [
           "AI",
           "Web",
@@ -746,14 +709,37 @@
         ]
       },
       {
+        "title": "Scientists Used AI to Create 16 New Viruses",
+        "link": "https://www.wired.com/story/scientists-used-ai-to-create-16-new-viruses/",
+        "source": "Wired",
+        "pubDate": "2026-08-07T14:13:57.000Z",
+        "relevanceScore": 252.86,
+        "tags": [
+          "AI",
+          "Tech",
+          "Regulation"
+        ]
+      },
+      {
         "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
         "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-06T12:10:00.000Z",
-        "relevanceScore": 143.3,
+        "relevanceScore": 154.65,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "My AI agents shipped 128 releases of a product no one ever used",
+        "link": "https://dev.to/guschiriboga/my-ai-agents-shipped-128-releases-of-a-product-no-one-ever-used-1045",
+        "source": "Dev.to",
+        "pubDate": "2026-08-08T05:26:11.000Z",
+        "relevanceScore": 96.4,
+        "tags": [
+          "AI",
+          "Regulation"
         ]
       },
       {
@@ -761,19 +747,20 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
         "source": "The Verge",
         "pubDate": "2026-08-07T20:01:51.000Z",
-        "relevanceScore": 60.67,
+        "relevanceScore": 71.52,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "YouTube’s AI slop detector incorrectly targets Kurzgesagt as other creators fear same fate",
-        "link": "https://www.reddit.com/r/technology/comments/1vi2r6h/youtubes_ai_slop_detector_incorrectly_targets/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-07T14:50:41.000Z",
-        "relevanceScore": 55.64,
+        "title": "The One Question That Stops an AI Voice Scam Cold",
+        "link": "https://dev.to/shortlivedage/the-one-question-that-stops-an-ai-voice-scam-cold-358d",
+        "source": "Dev.to",
+        "pubDate": "2026-08-08T05:30:04.000Z",
+        "relevanceScore": 71.42,
         "tags": [
-          "AI"
+          "AI",
+          "Tech"
         ]
       }
     ],
@@ -783,42 +770,9 @@
         "link": "https://www.theverge.com/games/977056/restart-gaming-site-walmart-moonrock-layoffs",
         "source": "The Verge",
         "pubDate": "2026-08-07T22:05:08.000Z",
-        "relevanceScore": 845.59,
+        "relevanceScore": 827.93,
         "tags": [
           "Web"
-        ]
-      }
-    ],
-    "social": [
-      {
-        "title": "Inside Facebook's News Feed Architecture",
-        "link": "https://dev.to/zidane1688/inside-facebooks-news-feed-architecture-10n7",
-        "source": "Dev.to",
-        "pubDate": "2026-08-08T04:50:06.000Z",
-        "relevanceScore": 510.94,
-        "tags": [
-          "Social",
-          "Launch"
-        ]
-      },
-      {
-        "title": "Meta fined $567m in largest child safety ruling against social media giant",
-        "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-08-07T09:22:03.000Z",
-        "relevanceScore": 58.54,
-        "tags": [
-          "Social"
-        ]
-      },
-      {
-        "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
-        "link": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-07T19:49:27.000Z",
-        "relevanceScore": 23.63,
-        "tags": [
-          "IPO"
         ]
       }
     ],
@@ -828,7 +782,7 @@
         "link": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
         "source": "TechCrunch",
         "pubDate": "2026-08-07T22:48:24.000Z",
-        "relevanceScore": 473.23,
+        "relevanceScore": 427.58,
         "tags": [
           "Security"
         ]
@@ -838,19 +792,9 @@
         "link": "https://github.blog/security/supply-chain-security/how-we-took-malware-advisories-beyond-npm/",
         "source": "GitHub Blog",
         "pubDate": "2026-08-06T16:51:12.000Z",
-        "relevanceScore": 151.74,
+        "relevanceScore": 240.09,
         "tags": [
           "Exclusive"
-        ]
-      },
-      {
-        "title": "Framework customer information was accessed as part of a data breach",
-        "link": "https://www.engadget.com/2232708/framework-customer-information-was-accessed-as-part-of-a-data-breach/",
-        "source": "Engadget",
-        "pubDate": "2026-08-07T18:37:26.000Z",
-        "relevanceScore": 71.39,
-        "tags": [
-          "Security"
         ]
       },
       {
@@ -858,12 +802,40 @@
         "link": "https://techcrunch.com/2026/08/07/security-researchers-scanned-the-polish-web-and-found-courts-hospitals-and-airports-at-risk-of-hacks/",
         "source": "TechCrunch",
         "pubDate": "2026-08-07T21:00:08.000Z",
-        "relevanceScore": 62.37,
+        "relevanceScore": 73.22,
         "tags": [
           "Tech",
           "Security",
           "Web"
         ]
+      },
+      {
+        "title": "Framework customer information was accessed as part of a data breach",
+        "link": "https://www.engadget.com/2232708/framework-customer-information-was-accessed-as-part-of-a-data-breach/",
+        "source": "Engadget",
+        "pubDate": "2026-08-07T18:37:26.000Z",
+        "relevanceScore": 60.24,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
+    "development": [
+      {
+        "title": "JDK 28 EA Build10 is now available for download and includes JEP 401: Value Objects (Preview) from Project Valhalla",
+        "link": "https://www.reddit.com/r/programming/comments/1vii2vi/jdk_28_ea_build10_is_now_available_for_download/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-08T00:56:24.000Z",
+        "relevanceScore": 362.5,
+        "tags": []
+      },
+      {
+        "title": "A shell exclamation mark is not for yelling. Be lazy. | Filip Roséen",
+        "link": "https://www.reddit.com/r/programming/comments/1vilqxz/a_shell_exclamation_mark_is_not_for_yelling_be/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-08T03:57:59.000Z",
+        "relevanceScore": 21.61,
+        "tags": []
       }
     ],
     "tech": [
@@ -872,7 +844,7 @@
         "link": "https://www.engadget.com/2232681/static-hour-challenges-you-to-be-the-arbiter-of-truth-and-fear/",
         "source": "Engadget",
         "pubDate": "2026-08-07T18:19:54.000Z",
-        "relevanceScore": 309.83,
+        "relevanceScore": 350.68,
         "tags": []
       },
       {
@@ -880,7 +852,7 @@
         "link": "https://www.wired.com/story/mamdani-assembles-his-nyc-tech-team/",
         "source": "Wired",
         "pubDate": "2026-08-07T15:00:00.000Z",
-        "relevanceScore": 218.17,
+        "relevanceScore": 250.02,
         "tags": [
           "Tech"
         ]
@@ -890,7 +862,7 @@
         "link": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
         "source": "Ars Technica",
         "pubDate": "2026-08-07T19:00:17.000Z",
-        "relevanceScore": 60.47,
+        "relevanceScore": 71.32,
         "tags": []
       },
       {
@@ -898,7 +870,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cwyl6yz719jo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-06T23:04:40.000Z",
-        "relevanceScore": 56.48,
+        "relevanceScore": 67.33,
         "tags": []
       },
       {
@@ -906,7 +878,7 @@
         "link": "https://techcrunch.com/2026/08/07/wacoms-movinkpad-11-is-a-fun-and-mid-priced-entry-point-for-digital-artists/",
         "source": "TechCrunch",
         "pubDate": "2026-08-07T21:20:00.000Z",
-        "relevanceScore": 26.44,
+        "relevanceScore": 26.28,
         "tags": [
           "Tech"
         ]
@@ -916,7 +888,7 @@
         "link": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
         "source": "Ars Technica",
         "pubDate": "2026-08-07T21:09:00.000Z",
-        "relevanceScore": 24.4,
+        "relevanceScore": 24.25,
         "tags": []
       },
       {
@@ -924,7 +896,7 @@
         "link": "https://www.wired.com/story/the-chinese-philosopher-americans-cant-stop-fighting-about/",
         "source": "Wired",
         "pubDate": "2026-08-07T18:54:04.000Z",
-        "relevanceScore": 23.95,
+        "relevanceScore": 23.8,
         "tags": [
           "Interview"
         ]
@@ -934,7 +906,7 @@
         "link": "https://www.wired.com/story/the-7-best-shows-to-stream-right-now/",
         "source": "Wired",
         "pubDate": "2026-08-07T16:48:21.000Z",
-        "relevanceScore": 23.53,
+        "relevanceScore": 23.38,
         "tags": []
       },
       {
@@ -942,26 +914,8 @@
         "link": "https://www.engadget.com/2232687/sony-might-be-rebooting-its-2020-flagship-headphones/",
         "source": "Engadget",
         "pubDate": "2026-08-07T18:24:20.000Z",
-        "relevanceScore": 21.85,
+        "relevanceScore": 21.7,
         "tags": []
-      },
-      {
-        "title": "Canada investigating how Skyrim username mixup sent innocent man to prison for 18 months",
-        "link": "https://www.reddit.com/r/technology/comments/1vi9jkc/canada_investigating_how_skyrim_username_mixup/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-07T19:01:28.000Z",
-        "relevanceScore": 19.97,
-        "tags": []
-      },
-      {
-        "title": "Flock Is Losing Dozens of Contracts as Controversy Grows",
-        "link": "https://www.reddit.com/r/technology/comments/1vi9e6b/flock_is_losing_dozens_of_contracts_as/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-07T18:55:56.000Z",
-        "relevanceScore": 19.95,
-        "tags": [
-          "Controversy"
-        ]
       }
     ],
     "science": [
@@ -970,54 +924,12 @@
         "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-07T14:00:00.000Z",
-        "relevanceScore": 210.97,
+        "relevanceScore": 324.32,
         "tags": [
           "Web",
           "Partnership",
           "Regulation"
         ]
-      }
-    ],
-    "business": [
-      {
-        "title": "Army opens test ranges to small companies to try to get weapons quicker to the battlefield",
-        "link": "https://abcnews.com/Business/wireStory/army-opens-test-ranges-small-companies-weapons-quicker-135462725",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-07T17:03:11.000Z",
-        "relevanceScore": 185.58,
-        "tags": []
-      },
-      {
-        "title": "FAA orders crack inspections for hundreds of Boeing 737 Max jets",
-        "link": "https://abcnews.com/Business/wireStory/faa-orders-crack-inspections-hundreds-boeing-737-max-135462041",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-07T17:07:27.000Z",
-        "relevanceScore": 108.09,
-        "tags": []
-      },
-      {
-        "title": "Trump renews push to fire Fed Governor Lisa Cook",
-        "link": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
-        "source": "NPR Business",
-        "pubDate": "2026-08-07T19:35:35.000Z",
-        "relevanceScore": 62.59,
-        "tags": []
-      },
-      {
-        "title": "Plaintiff Trump gets reprieve from an order to disclose his finances in BBC case — but only for now",
-        "link": "https://abcnews.com/Business/wireStory/plaintiff-trump-gets-reprieve-order-disclose-finances-bbc-135467075",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-07T19:53:02.000Z",
-        "relevanceScore": 60.65,
-        "tags": []
-      },
-      {
-        "title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
-        "link": "https://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
-        "source": "NPR Business",
-        "pubDate": "2026-08-07T10:00:00.000Z",
-        "relevanceScore": 24.17,
-        "tags": []
       }
     ],
     "general": [
@@ -1026,7 +938,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c62qrvd9303o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-07T22:42:43.000Z",
-        "relevanceScore": 177.71,
+        "relevanceScore": 289.06,
         "tags": [
           "Analysis"
         ]
@@ -1036,7 +948,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-07T22:13:55.000Z",
-        "relevanceScore": 68.11,
+        "relevanceScore": 78.96,
         "tags": []
       },
       {
@@ -1044,7 +956,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c70g18vpwxvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-07T23:56:11.000Z",
-        "relevanceScore": 30.96,
+        "relevanceScore": 30.8,
         "tags": []
       },
       {
@@ -1052,7 +964,7 @@
         "link": "https://www.bbc.co.uk/news/videos/c0ejrdzx98wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-07T21:24:17.000Z",
-        "relevanceScore": 30.45,
+        "relevanceScore": 30.3,
         "tags": []
       }
     ],
@@ -1062,7 +974,7 @@
         "link": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
         "source": "NPR Business",
         "pubDate": "2026-08-07T13:10:10.000Z",
-        "relevanceScore": 144.8,
+        "relevanceScore": 255.15,
         "tags": [
           "Business",
           "Report"
@@ -1073,10 +985,52 @@
         "link": "https://www.bbc.co.uk/sport/football/articles/cx2vw5z0q7no?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-07T22:50:58.000Z",
-        "relevanceScore": 67.24,
+        "relevanceScore": 78.09,
         "tags": [
           "Analysis"
         ]
+      }
+    ],
+    "business": [
+      {
+        "title": "FAA orders crack inspections for hundreds of Boeing 737 Max jets",
+        "link": "https://abcnews.com/Business/wireStory/faa-orders-crack-inspections-hundreds-boeing-737-max-135462041",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-07T17:07:27.000Z",
+        "relevanceScore": 207.44,
+        "tags": []
+      },
+      {
+        "title": "Army opens test ranges to small companies to try to get weapons quicker to the battlefield",
+        "link": "https://abcnews.com/Business/wireStory/army-opens-test-ranges-small-companies-weapons-quicker-135462725",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-07T17:03:11.000Z",
+        "relevanceScore": 206.43,
+        "tags": []
+      },
+      {
+        "title": "Trump renews push to fire Fed Governor Lisa Cook",
+        "link": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
+        "source": "NPR Business",
+        "pubDate": "2026-08-07T19:35:35.000Z",
+        "relevanceScore": 73.43,
+        "tags": []
+      },
+      {
+        "title": "Plaintiff Trump gets reprieve from an order to disclose his finances in BBC case — but only for now",
+        "link": "https://abcnews.com/Business/wireStory/plaintiff-trump-gets-reprieve-order-disclose-finances-bbc-135467075",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-07T19:53:02.000Z",
+        "relevanceScore": 71.49,
+        "tags": []
+      },
+      {
+        "title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
+        "link": "https://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
+        "source": "NPR Business",
+        "pubDate": "2026-08-07T10:00:00.000Z",
+        "relevanceScore": 24.02,
+        "tags": []
       }
     ],
     "space": [
@@ -1085,7 +1039,7 @@
         "link": "https://www.engadget.com/2230972/nasa-mars-rover-promise-lunar-mission/",
         "source": "Engadget",
         "pubDate": "2026-08-07T18:30:00.000Z",
-        "relevanceScore": 85.37,
+        "relevanceScore": 97.22,
         "tags": [
           "Tech"
         ]
@@ -1095,7 +1049,7 @@
         "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
         "source": "Ars Technica",
         "pubDate": "2026-08-07T21:48:21.000Z",
-        "relevanceScore": 24.53,
+        "relevanceScore": 24.38,
         "tags": [
           "Web"
         ]
@@ -1105,8 +1059,30 @@
         "link": "https://www.bbc.co.uk/news/articles/cm2g0j3y339o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-06T14:50:54.000Z",
-        "relevanceScore": 18.34,
+        "relevanceScore": 18.19,
         "tags": []
+      }
+    ],
+    "social": [
+      {
+        "title": "Meta fined $567m in largest child safety ruling against social media giant",
+        "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-07T09:22:03.000Z",
+        "relevanceScore": 69.39,
+        "tags": [
+          "Social"
+        ]
+      },
+      {
+        "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
+        "link": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-07T19:49:27.000Z",
+        "relevanceScore": 23.48,
+        "tags": [
+          "IPO"
+        ]
       }
     ],
     "mobile": [
@@ -1115,7 +1091,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/a-guide-to-slash-commands-in-the-github-copilot-app/",
         "source": "GitHub Blog",
         "pubDate": "2026-08-06T19:49:34.000Z",
-        "relevanceScore": 19.33,
+        "relevanceScore": 19.18,
         "tags": [
           "Mobile",
           "Exclusive",
@@ -1126,8 +1102,8 @@
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 11,
-    "avgRelevanceScore": 191.7491666666667,
+    "totalCategories": 12,
+    "avgRelevanceScore": 204.35106382978717,
     "topCategories": [
       {
         "category": "ai-ml",
@@ -1135,7 +1111,7 @@
       },
       {
         "category": "tech",
-        "count": 11
+        "count": 9
       },
       {
         "category": "business",
