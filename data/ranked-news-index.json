@@ -1,42 +1,31 @@
 {
-  "lastUpdated": "2026-08-09T04:35:09.312Z",
-  "totalArticles": 42,
+  "lastUpdated": "2026-08-09T05:33:32.926Z",
+  "totalArticles": 43,
   "categories": [
-    "space",
     "tech",
-    "climate",
-    "general",
-    "automotive",
-    "education",
-    "ai-ml",
-    "entertainment",
-    "social",
     "development",
-    "finance",
+    "climate",
+    "ai-ml",
+    "automotive",
+    "blockchain",
+    "social",
+    "space",
+    "entertainment",
     "science",
+    "general",
+    "finance",
     "business",
     "gaming"
   ],
   "topArticles": [
-    {
-      "title": "Linux Memory Region Data Structures",
-      "link": "https://dev.to/kai-wen-the-parrot/linux-memory-region-data-structures-1dnl",
-      "source": "Dev.to",
-      "category": "space",
-      "pubDate": "2026-08-09T04:30:00.000Z",
-      "relevanceScore": 729.48,
-      "recommendationScore": 729.48,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
     {
       "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
       "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-08T11:05:50.000Z",
-      "relevanceScore": 581.5,
-      "recommendationScore": 582,
+      "relevanceScore": 625.31,
+      "recommendationScore": 625.81,
       "tags": [
         "Science",
         "Innovation"
@@ -44,26 +33,40 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "I built a Python package to diff large data files — here's why existing tools weren't enough",
+      "link": "https://dev.to/omuniyal/i-built-a-python-package-to-diff-large-data-files-heres-why-existing-tools-werent-enough-199g",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-08-09T05:05:54.000Z",
+      "relevanceScore": 527.41,
+      "recommendationScore": 529.41,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
       "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
       "source": "TechCrunch",
       "category": "climate",
       "pubDate": "2026-08-08T21:24:02.000Z",
-      "relevanceScore": 479.56,
-      "recommendationScore": 480.06,
+      "relevanceScore": 499.37,
+      "recommendationScore": 499.87,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope",
-      "link": "https://www.bbc.co.uk/news/articles/c9q94lxqrzzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-08T19:00:22.000Z",
-      "relevanceScore": 378.08,
-      "recommendationScore": 378.58,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
+      "link": "https://www.reddit.com/r/technology/comments/1viwmsi/amazon_secretly_circumvents_community_vote_for/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T13:54:05.000Z",
+      "relevanceScore": 405.37,
+      "recommendationScore": 405.37,
+      "tags": [
+        "AI",
+        "IPO"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "An Amazon data center could have the worst polluting power plant in the country",
@@ -71,8 +74,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-08T17:53:34.000Z",
-      "relevanceScore": 371.86,
-      "recommendationScore": 373.36,
+      "relevanceScore": 381.67,
+      "recommendationScore": 383.17,
       "tags": [
         "Business",
         "Funding"
@@ -85,80 +88,8 @@
       "source": "ABC News Business",
       "category": "automotive",
       "pubDate": "2026-08-08T20:36:20.000Z",
-      "relevanceScore": 181.9,
-      "recommendationScore": 182.4,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Differential heuristics: learning about a way to optimize the A* heuristic",
-      "link": "https://www.reddit.com/r/programming/comments/1vj4cdd/differential_heuristics_learning_about_a_way_to/",
-      "source": "Reddit Programming",
-      "category": "education",
-      "pubDate": "2026-08-08T19:09:40.000Z",
-      "relevanceScore": 141.12,
-      "recommendationScore": 141.62,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI acquires presentation startup NextSlide",
-      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-08-08T19:41:13.000Z",
-      "relevanceScore": 140.72,
-      "recommendationScore": 140.72,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
-      "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
-      "source": "The Verge",
-      "category": "entertainment",
-      "pubDate": "2026-08-08T15:00:00.000Z",
-      "relevanceScore": 135.78,
-      "recommendationScore": 136.28,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meta fined $567m in largest child safety ruling against social media giant",
-      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "social",
-      "pubDate": "2026-08-07T09:22:03.000Z",
-      "relevanceScore": 131.86,
-      "recommendationScore": 132.36,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The advantage of using program images as a flight recorder instead of relying on logs",
-      "link": "https://www.reddit.com/r/programming/comments/1vj203j/the_advantage_of_using_program_images_as_a_flight/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-08-08T17:35:30.000Z",
-      "relevanceScore": 62.8,
-      "recommendationScore": 63.3,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google’s top hacker hunter explains why hacking groups get codenames",
-      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-08-08T15:00:00.000Z",
-      "relevanceScore": 61.28,
-      "recommendationScore": 64.28,
+      "relevanceScore": 200.21,
+      "recommendationScore": 200.71,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -168,63 +99,63 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-08T15:47:30.000Z",
-      "relevanceScore": 56.44,
-      "recommendationScore": 56.94,
+      "relevanceScore": 199.25,
+      "recommendationScore": 199.75,
       "tags": [
         "Business"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Killed a month after his wedding - why PC Andrew Harper's death touched so many",
-      "link": "https://www.bbc.co.uk/news/articles/c4gvrnyrjn0o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-08T23:13:35.000Z",
-      "relevanceScore": 52.93,
-      "recommendationScore": 54.93,
+      "title": "The ETF Changed Bitcoin's Four-Year Cycle, but It Did Not Create a Supercycle",
+      "link": "https://dev.to/invisiblehill/the-etf-changed-bitcoins-four-year-cycle-but-it-did-not-create-a-supercycle-5dij",
+      "source": "Dev.to",
+      "category": "blockchain",
+      "pubDate": "2026-08-09T05:07:06.000Z",
+      "relevanceScore": 181.41,
+      "recommendationScore": 181.91,
       "tags": [
-        "Launch",
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
-      "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
-      "source": "NPR Business",
-      "category": "space",
-      "pubDate": "2026-08-08T11:43:46.000Z",
-      "relevanceScore": 51.63,
-      "recommendationScore": 52.13,
-      "tags": [
-        "Exclusive"
+        "Business",
+        "Science",
+        "Report"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "I Thought Better Models Would Fix AI Image Editing. I Was Wrong.",
-      "link": "https://dev.to/gaven/i-thought-better-models-would-fix-ai-image-editing-i-was-wrong-5ak",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-09T04:18:08.000Z",
-      "relevanceScore": 49.94,
-      "recommendationScore": 51.44,
-      "tags": [
-        "AI",
-        "Launch"
-      ],
-      "readingLevel": "beginner"
+      "title": "An Innocent Driver Was Held at Gunpoint Over a Flock Camera Mix-Up: “Wrong Person But Also Wrong Car”",
+      "link": "https://www.reddit.com/r/technology/comments/1vjec67/an_innocent_driver_was_held_at_gunpoint_over_a/",
+      "source": "Reddit Technology",
+      "category": "automotive",
+      "pubDate": "2026-08-09T02:49:16.000Z",
+      "relevanceScore": 178.45,
+      "recommendationScore": 178.45,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
-      "title": "The Excellent HP OmniBook 5 Is $550 Off Its Retail Price Today",
-      "link": "https://www.wired.com/story/hp-omnibook-5-50-percent-off/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-08-08T11:34:00.000Z",
-      "relevanceScore": 48.6,
-      "recommendationScore": 49.1,
-      "tags": [],
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T19:41:13.000Z",
+      "relevanceScore": 173.03,
+      "recommendationScore": 173.03,
+      "tags": [
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta fined $567m in largest child safety ruling against social media giant",
+      "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "social",
+      "pubDate": "2026-08-07T09:22:03.000Z",
+      "relevanceScore": 151.16,
+      "recommendationScore": 151.66,
+      "tags": [
+        "Social"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -233,8 +164,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-08-07T14:20:00.000Z",
-      "relevanceScore": 48.35,
-      "recommendationScore": 50.85,
+      "relevanceScore": 143.15,
+      "recommendationScore": 145.65,
       "tags": [
         "AI",
         "Tech",
@@ -245,51 +176,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Europe's free satellite service just made it easier to track wildfires",
-      "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
-      "source": "Ars Technica",
-      "category": "space",
-      "pubDate": "2026-08-07T21:48:21.000Z",
-      "relevanceScore": 46.34,
-      "recommendationScore": 46.84,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Employers unexpectedly cut 23,000 jobs in a sign of a wilting labor market",
-      "link": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2026-08-07T13:10:10.000Z",
-      "relevanceScore": 43.62,
-      "recommendationScore": 44.12,
-      "tags": [
-        "Business",
-        "Report"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have",
-      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-08-08T16:00:00.000Z",
-      "relevanceScore": 41.98,
-      "recommendationScore": 42.48,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "How to be fearlessly AI native​​​​‌﻿‍﻿​‍​‍‌‍﻿﻿‌﻿​‍‌‍‍‌‌‍‌﻿‌‍‍‌‌‍﻿‍​‍​‍​﻿‍‍​‍​‍‌﻿​﻿‌‍​‌‌‍﻿‍‌‍‍‌‌﻿‌​‌﻿‍‌​‍﻿‍‌‍‍‌‌‍﻿﻿​‍​‍​‍﻿​​‍​‍‌‍‍​‌﻿​‍‌‍‌‌‌‍‌‍​‍​‍​﻿‍‍​‍​‍‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​﻿‍‍​‍﻿﻿​‍﻿﻿‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍﻿﻿‌‍‍‌‌‍﻿‍‌﻿‌​‌‍‌‌‌‍﻿‍‌﻿‌​​‍﻿﻿‌‍‌‌‌‍‌​‌‍‍‌‌﻿‌​​‍﻿﻿‌‍﻿‌‌‍﻿﻿‌‍‌​‌‍‌‌​﻿﻿‌‌﻿​​‌﻿​‍‌‍‌‌‌﻿​﻿‌‍‌‌‌‍﻿‍‌﻿‌​‌‍​‌‌﻿‌​‌‍‍‌‌‍﻿﻿‌‍﻿‍​﻿‍﻿‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​﻿‍﻿‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​﻿‍﻿‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​﻿﻿﻿‌‍​‍‌‍​‌‌﻿​﻿‌‍‌‌‌‌‌‌‌﻿​‍‌‍﻿​​﻿﻿‌‌‍‍​‌﻿‌​‌﻿‌​‌﻿​​‌﻿​﻿​‍‌‌​﻿​﻿‌​​‌​‍‌‌​﻿​‍‌​‌‍​‍‌‌​﻿​‍‌​‌‍‌‍​﻿‌‍﻿‌‌﻿​﻿​‍﻿‍‌﻿​﻿‌﻿‌​‌‍​‌‌‍​﻿‌‍‍﻿‌‍﻿﻿‌﻿‌‍‌‍‌‌‌﻿​‍‌‍‌‍‌‍﻿​‌‍﻿﻿‌﻿‌﻿​‍﻿‍‌‍​﻿‌‍﻿﻿​‍‌‍‌‍‍‌‌‍‌​​﻿﻿‌‌‍​﻿‌‍‌​​﻿‌‍‌‍‌​​﻿‍‌​﻿‌​‌‍​‌​﻿‍​​‍﻿‌​﻿‌‍‌‍‌‌‌‍​‍​﻿‌‍​‍﻿‌​﻿‌​​﻿​‍​﻿‌​​﻿​﻿​‍﻿‌​﻿‍​‌‍‌‌‌‍‌‌​﻿​‌​‍﻿‌‌‍​‍​﻿‌‌‌‍​‍​﻿​﻿​﻿‍‌​﻿​‌‌‍‌‌‌‍‌‍​﻿​​​﻿‌​​﻿‌​​﻿​‌​‍‌‍‌﻿‌​‌﻿‍‌‌﻿​​‌‍‌‌​﻿﻿‌‌‍​‍‌‍﻿​‌‍﻿﻿‌‍‌﻿‌‌​​‌‍﻿﻿‌﻿​﻿‌﻿‌​​‍‌‍‌﻿​​‌‍​‌‌﻿‌​‌‍‍​​﻿﻿‌‌﻿‌​‌‍‍‌‌﻿‌​‌‍﻿​‌‍‌‌​‍‌‍‌﻿​​‌‍‌‌‌﻿​‍‌﻿​﻿‌﻿​​‌‍‌‌‌‍​﻿‌﻿‌​‌‍‍‌‌﻿‌‍‌‍‌‌​﻿﻿‌‌﻿​​‌﻿‌‌‌‍​‍‌‍﻿​‌‍‍‌‌﻿​﻿‌‍‍​‌‍‌‌‌‍‌​​‍​‍‌﻿﻿‌",
       "link": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-08-07T07:40:00.000Z",
-      "relevanceScore": 41.02,
-      "recommendationScore": 42.52,
+      "relevanceScore": 121.82,
+      "recommendationScore": 123.32,
       "tags": [
         "AI",
         "Tutorial"
@@ -297,39 +190,41 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Fifa criticises campaign to oust president Infantino",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-08T22:06:44.000Z",
-      "relevanceScore": 40.21,
-      "recommendationScore": 40.71,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Sharpest Image Ever Taken of the Sun Reveals a Hidden Phenomenon",
-      "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-08-08T13:00:00.000Z",
-      "relevanceScore": 39.38,
-      "recommendationScore": 39.88,
+      "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
+      "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
+      "source": "NPR Business",
+      "category": "space",
+      "pubDate": "2026-08-08T11:43:46.000Z",
+      "relevanceScore": 114.43,
+      "recommendationScore": 114.93,
       "tags": [
         "Exclusive"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
-      "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
-      "link": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
-      "source": "Wired",
+      "title": "Google’s top hacker hunter explains why hacking groups get codenames",
+      "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
+      "source": "TechCrunch",
       "category": "tech",
-      "pubDate": "2026-08-08T14:03:58.000Z",
-      "relevanceScore": 32.6,
-      "recommendationScore": 34.1,
+      "pubDate": "2026-08-08T15:00:00.000Z",
+      "relevanceScore": 62.09,
+      "recommendationScore": 65.09,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
+      "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2026-08-08T15:00:00.000Z",
+      "relevanceScore": 60.09,
+      "recommendationScore": 60.59,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Is football AI-proof? Why tech investors wanted a slice of the World Cup",
@@ -337,8 +232,8 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-08-08T13:41:32.000Z",
-      "relevanceScore": 32.52,
-      "recommendationScore": 34.52,
+      "relevanceScore": 59.83,
+      "recommendationScore": 61.83,
       "tags": [
         "AI",
         "Tech"
@@ -351,8 +246,8 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-08-07T14:00:00.000Z",
-      "relevanceScore": 31.78,
-      "recommendationScore": 33.78,
+      "relevanceScore": 58.09,
+      "recommendationScore": 60.09,
       "tags": [
         "Web",
         "Partnership",
@@ -361,48 +256,100 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
-      "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+      "title": "Killed a month after his wedding - why PC Andrew Harper's death touched so many",
+      "link": "https://www.bbc.co.uk/news/articles/c4gvrnyrjn0o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-08T23:13:35.000Z",
+      "relevanceScore": 57.73,
+      "recommendationScore": 59.73,
+      "tags": [
+        "Launch",
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Employers unexpectedly cut 23,000 jobs in a sign of a wilting labor market",
+      "link": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
+      "source": "NPR Business",
       "category": "finance",
-      "pubDate": "2026-08-08T23:43:44.000Z",
-      "relevanceScore": 31.03,
-      "recommendationScore": 31.53,
+      "pubDate": "2026-08-07T13:10:10.000Z",
+      "relevanceScore": 56.42,
+      "recommendationScore": 56.92,
+      "tags": [
+        "Business",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Fifa criticises campaign to oust president Infantino",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-08T22:06:44.000Z",
+      "relevanceScore": 49.51,
+      "recommendationScore": 50.01,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Andy Burnham to embark on cost of living tour through the UK",
-      "link": "https://www.bbc.co.uk/news/articles/c0l5j8y388lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-08T23:10:50.000Z",
-      "relevanceScore": 30.92,
-      "recommendationScore": 31.42,
+      "title": "The Kindle Scribe Colorsoft is a lot of fun, but it’s not a must-have",
+      "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-08-08T16:00:00.000Z",
+      "relevanceScore": 43.79,
+      "recommendationScore": 44.29,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Trump renews push to fire Fed Governor Lisa Cook",
-      "link": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-08-07T19:35:35.000Z",
-      "relevanceScore": 30.9,
-      "recommendationScore": 32.9,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Claude Vs ChatGPT: How These AI Assistants Differ",
-      "link": "https://www.engadget.com/2229993/claude-vs-chatgpt-how-ai-assistants-differ/",
-      "source": "Engadget",
+      "title": "ThonburianTTS — AI พูดภาษาไทย ฟรี รันในเครื่องได้ โคลนเสียงได้ โดยคนไทย",
+      "link": "https://dev.to/sarantoon/thonburiantts-ai-phuudphaasaaaithy-frii-ranainekhruuengaid-okhlnesiiyngaid-odykhnaithy-45bh",
+      "source": "Dev.to",
       "category": "ai-ml",
-      "pubDate": "2026-08-08T15:30:00.000Z",
-      "relevanceScore": 30.88,
-      "recommendationScore": 33.38,
+      "pubDate": "2026-08-09T05:03:04.000Z",
+      "relevanceScore": 42.9,
+      "recommendationScore": 43.4,
       "tags": [
         "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Excellent HP OmniBook 5 Is $550 Off Its Retail Price Today",
+      "link": "https://www.wired.com/story/hp-omnibook-5-50-percent-off/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-08T11:34:00.000Z",
+      "relevanceScore": 42.4,
+      "recommendationScore": 42.9,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
+      "link": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-08T14:03:58.000Z",
+      "relevanceScore": 41.9,
+      "recommendationScore": 43.4,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The Sharpest Image Ever Taken of the Sun Reveals a Hidden Phenomenon",
+      "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-08T13:00:00.000Z",
+      "relevanceScore": 41.19,
+      "recommendationScore": 41.69,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
@@ -412,22 +359,45 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-08T16:34:22.000Z",
-      "relevanceScore": 26.6,
-      "recommendationScore": 27.1,
+      "relevanceScore": 40.4,
+      "recommendationScore": 40.9,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Whitney Houston's new No. 1s album, first-ever Barbie, Clive Davis and more: A Q&A with Pat Houston",
-      "link": "https://abcnews.com/Business/wireStory/whitney-houstons-new-1s-album-barbie-clive-davis-135490461",
-      "source": "ABC News Business",
+      "title": "Trump renews push to fire Fed Governor Lisa Cook",
+      "link": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
+      "source": "NPR Business",
       "category": "business",
-      "pubDate": "2026-08-08T22:42:23.000Z",
-      "relevanceScore": 24.82,
-      "recommendationScore": 27.32,
+      "pubDate": "2026-08-07T19:35:35.000Z",
+      "relevanceScore": 40.21,
+      "recommendationScore": 42.21,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Claude Vs ChatGPT: How These AI Assistants Differ",
+      "link": "https://www.engadget.com/2229993/claude-vs-chatgpt-how-ai-assistants-differ/",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T15:30:00.000Z",
+      "relevanceScore": 40.19,
+      "recommendationScore": 42.69,
       "tags": [
-        "Exclusive",
-        "Interview"
+        "AI"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "AI creates 16 new viruses that never existed in nature after learning DNA pattern from 9 trillion nucleotides experts warn such applications are way ahead of necessary guardrails",
+      "link": "https://www.reddit.com/r/technology/comments/1vj98g5/ai_creates_16_new_viruses_that_never_existed_in/",
+      "source": "Reddit Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-08T22:41:16.000Z",
+      "relevanceScore": 39.63,
+      "recommendationScore": 41.63,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -437,21 +407,81 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-08T21:15:12.000Z",
-      "relevanceScore": 24.53,
-      "recommendationScore": 25.03,
+      "relevanceScore": 38.34,
+      "recommendationScore": 38.84,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Build a Two-Phase Tool Boundary for a Tencent RTC Voice Companion",
-      "link": "https://dev.to/susiewang/build-a-two-phase-tool-boundary-for-a-tencent-rtc-voice-companion-51ap",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-09T04:21:00.000Z",
-      "relevanceScore": 23.95,
-      "recommendationScore": 24.45,
+      "title": "How to connect your retro GameCube to a modern TV",
+      "link": "https://www.engadget.com/2231069/how-to-connect-your-retro-gamecube-to-a-modern-tv/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-08T18:30:00.000Z",
+      "relevanceScore": 34.79,
+      "recommendationScore": 36.29,
       "tags": [
-        "Update"
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "How to get the best battery life from your retro handheld game console",
+      "link": "https://www.engadget.com/2230359/retro-handheld-game-console-how-to-best-battery-life/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-08-08T17:30:00.000Z",
+      "relevanceScore": 34.59,
+      "recommendationScore": 37.59,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Perez Hilton faces long recovery after reports he self-harmed during livestream",
+      "link": "https://www.bbc.co.uk/news/articles/cg5lnqjz497o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-09T04:32:06.000Z",
+      "relevanceScore": 31.8,
+      "recommendationScore": 32.3,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
+      "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "finance",
+      "pubDate": "2026-08-08T23:43:44.000Z",
+      "relevanceScore": 30.83,
+      "recommendationScore": 31.33,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Andy Burnham to embark on cost of living tour through the UK",
+      "link": "https://www.bbc.co.uk/news/articles/c0l5j8y388lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-08T23:10:50.000Z",
+      "relevanceScore": 30.72,
+      "recommendationScore": 31.22,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Whitney Houston's new No. 1s album, first-ever Barbie, Clive Davis and more: A Q&A with Pat Houston",
+      "link": "https://abcnews.com/Business/wireStory/whitney-houstons-new-1s-album-barbie-clive-davis-135490461",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-08T22:42:23.000Z",
+      "relevanceScore": 24.63,
+      "recommendationScore": 27.13,
+      "tags": [
+        "Exclusive",
+        "Interview"
       ],
       "readingLevel": "advanced"
     },
@@ -461,8 +491,8 @@
       "source": "Wired",
       "category": "space",
       "pubDate": "2026-08-08T12:00:00.000Z",
-      "relevanceScore": 23.68,
-      "recommendationScore": 26.18,
+      "relevanceScore": 23.49,
+      "recommendationScore": 25.99,
       "tags": [
         "Science",
         "Exclusive",
@@ -476,8 +506,8 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2026-08-08T11:30:48.000Z",
-      "relevanceScore": 23.59,
-      "recommendationScore": 26.09,
+      "relevanceScore": 23.39,
+      "recommendationScore": 25.89,
       "tags": [
         "Exclusive"
       ],
@@ -489,36 +519,10 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-08T15:20:53.000Z",
-      "relevanceScore": 23.35,
-      "recommendationScore": 25.85,
+      "relevanceScore": 23.16,
+      "recommendationScore": 25.66,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "How to connect your retro GameCube to a modern TV",
-      "link": "https://www.engadget.com/2231069/how-to-connect-your-retro-gamecube-to-a-modern-tv/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-08T18:30:00.000Z",
-      "relevanceScore": 21.98,
-      "recommendationScore": 23.48,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How to get the best battery life from your retro handheld game console",
-      "link": "https://www.engadget.com/2230359/retro-handheld-game-console-how-to-best-battery-life/",
-      "source": "Engadget",
-      "category": "gaming",
-      "pubDate": "2026-08-08T17:30:00.000Z",
-      "relevanceScore": 21.78,
-      "recommendationScore": 24.78,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Wired vs. wireless CarPlay: How are they different & which is better to use?",
@@ -526,10 +530,23 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-08T16:30:00.000Z",
-      "relevanceScore": 21.58,
-      "recommendationScore": 24.58,
+      "relevanceScore": 21.39,
+      "recommendationScore": 24.39,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Europe's free satellite service just made it easier to track wildfires",
+      "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+      "source": "Ars Technica",
+      "category": "space",
+      "pubDate": "2026-08-07T21:48:21.000Z",
+      "relevanceScore": 19.65,
+      "recommendationScore": 20.15,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Flesh-eating screwworms feast on humans in Mexico; human cases top 500",
@@ -537,62 +554,20 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-07T21:09:00.000Z",
-      "relevanceScore": 19.71,
-      "recommendationScore": 21.21,
+      "relevanceScore": 19.52,
+      "recommendationScore": 21.02,
       "tags": [],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
-    "space": [
-      {
-        "title": "Linux Memory Region Data Structures",
-        "link": "https://dev.to/kai-wen-the-parrot/linux-memory-region-data-structures-1dnl",
-        "source": "Dev.to",
-        "pubDate": "2026-08-09T04:30:00.000Z",
-        "relevanceScore": 729.48,
-        "tags": []
-      },
-      {
-        "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
-        "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
-        "source": "NPR Business",
-        "pubDate": "2026-08-08T11:43:46.000Z",
-        "relevanceScore": 51.63,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Europe's free satellite service just made it easier to track wildfires",
-        "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-07T21:48:21.000Z",
-        "relevanceScore": 46.34,
-        "tags": [
-          "Web"
-        ]
-      },
-      {
-        "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
-        "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/",
-        "source": "Wired",
-        "pubDate": "2026-08-08T12:00:00.000Z",
-        "relevanceScore": 23.68,
-        "tags": [
-          "Science",
-          "Exclusive",
-          "Report"
-        ]
-      }
-    ],
     "tech": [
       {
         "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
         "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
         "source": "Ars Technica",
         "pubDate": "2026-08-08T11:05:50.000Z",
-        "relevanceScore": 581.5,
+        "relevanceScore": 625.31,
         "tags": [
           "Science",
           "Innovation"
@@ -603,10 +578,20 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
         "source": "The Verge",
         "pubDate": "2026-08-08T17:53:34.000Z",
-        "relevanceScore": 371.86,
+        "relevanceScore": 381.67,
         "tags": [
           "Business",
           "Funding"
+        ]
+      },
+      {
+        "title": "Buc-ee’s dodges John Oliver to sue another small business",
+        "link": "https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart",
+        "source": "The Verge",
+        "pubDate": "2026-08-08T15:47:30.000Z",
+        "relevanceScore": 199.25,
+        "tags": [
+          "Business"
         ]
       },
       {
@@ -614,25 +599,7 @@
         "link": "https://techcrunch.com/2026/08/08/googles-top-hacker-hunter-explains-why-hacking-groups-get-codenames/",
         "source": "TechCrunch",
         "pubDate": "2026-08-08T15:00:00.000Z",
-        "relevanceScore": 61.28,
-        "tags": []
-      },
-      {
-        "title": "Buc-ee’s dodges John Oliver to sue another small business",
-        "link": "https://www.theverge.com/business/977112/buc-ees-john-oliver-lawsuit-beaver-mini-mart",
-        "source": "The Verge",
-        "pubDate": "2026-08-08T15:47:30.000Z",
-        "relevanceScore": 56.44,
-        "tags": [
-          "Business"
-        ]
-      },
-      {
-        "title": "The Excellent HP OmniBook 5 Is $550 Off Its Retail Price Today",
-        "link": "https://www.wired.com/story/hp-omnibook-5-50-percent-off/",
-        "source": "Wired",
-        "pubDate": "2026-08-08T11:34:00.000Z",
-        "relevanceScore": 48.6,
+        "relevanceScore": 62.09,
         "tags": []
       },
       {
@@ -640,7 +607,23 @@
         "link": "https://techcrunch.com/2026/08/08/the-kindle-scribe-colorsoft-is-a-lot-of-fun-but-its-not-a-must-have/",
         "source": "TechCrunch",
         "pubDate": "2026-08-08T16:00:00.000Z",
-        "relevanceScore": 41.98,
+        "relevanceScore": 43.79,
+        "tags": []
+      },
+      {
+        "title": "The Excellent HP OmniBook 5 Is $550 Off Its Retail Price Today",
+        "link": "https://www.wired.com/story/hp-omnibook-5-50-percent-off/",
+        "source": "Wired",
+        "pubDate": "2026-08-08T11:34:00.000Z",
+        "relevanceScore": 42.4,
+        "tags": []
+      },
+      {
+        "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
+        "link": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
+        "source": "Wired",
+        "pubDate": "2026-08-08T14:03:58.000Z",
+        "relevanceScore": 41.9,
         "tags": []
       },
       {
@@ -648,25 +631,17 @@
         "link": "https://www.wired.com/story/the-sharpest-image-ever-taken-of-the-sun-reveals-a-beautiful-hidden-phenomenon/",
         "source": "Wired",
         "pubDate": "2026-08-08T13:00:00.000Z",
-        "relevanceScore": 39.38,
+        "relevanceScore": 41.19,
         "tags": [
           "Exclusive"
         ]
-      },
-      {
-        "title": "Census Proposal Would Stop Counting Undocumented Immigrants—and Ignore Race and Sexual Orientation",
-        "link": "https://www.wired.com/story/census-proposal-would-stop-counting-undocumented-immigrants-and-ignore-race-and-sexual-orientation/",
-        "source": "Wired",
-        "pubDate": "2026-08-08T14:03:58.000Z",
-        "relevanceScore": 32.6,
-        "tags": []
       },
       {
         "title": "X replaces ‘misaligned’ revenue sharing program with Original Content Rewards",
         "link": "https://techcrunch.com/2026/08/08/x-replaces-misaligned-revenue-sharing-program-with-original-content-rewards/",
         "source": "TechCrunch",
         "pubDate": "2026-08-08T16:34:22.000Z",
-        "relevanceScore": 26.6,
+        "relevanceScore": 40.4,
         "tags": []
       },
       {
@@ -674,7 +649,7 @@
         "link": "https://www.theverge.com/tech/977143/x-revenue-sharing-original-content-rewards",
         "source": "The Verge",
         "pubDate": "2026-08-08T21:15:12.000Z",
-        "relevanceScore": 24.53,
+        "relevanceScore": 38.34,
         "tags": []
       },
       {
@@ -682,7 +657,7 @@
         "link": "https://www.engadget.com/2231069/how-to-connect-your-retro-gamecube-to-a-modern-tv/",
         "source": "Engadget",
         "pubDate": "2026-08-08T18:30:00.000Z",
-        "relevanceScore": 21.98,
+        "relevanceScore": 34.79,
         "tags": [
           "Tutorial"
         ]
@@ -692,7 +667,7 @@
         "link": "https://www.engadget.com/2230261/carplay-wired-vs-wireless-differences-which-better/",
         "source": "Engadget",
         "pubDate": "2026-08-08T16:30:00.000Z",
-        "relevanceScore": 21.58,
+        "relevanceScore": 21.39,
         "tags": []
       },
       {
@@ -700,7 +675,17 @@
         "link": "https://arstechnica.com/health/2026/08/flesh-eating-screwworms-feast-on-humans-in-mexico-human-cases-top-500/",
         "source": "Ars Technica",
         "pubDate": "2026-08-07T21:09:00.000Z",
-        "relevanceScore": 19.71,
+        "relevanceScore": 19.52,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "I built a Python package to diff large data files — here's why existing tools weren't enough",
+        "link": "https://dev.to/omuniyal/i-built-a-python-package-to-diff-large-data-files-heres-why-existing-tools-werent-enough-199g",
+        "source": "Dev.to",
+        "pubDate": "2026-08-09T05:05:54.000Z",
+        "relevanceScore": 527.41,
         "tags": []
       }
     ],
@@ -710,97 +695,30 @@
         "link": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
         "source": "TechCrunch",
         "pubDate": "2026-08-08T21:24:02.000Z",
-        "relevanceScore": 479.56,
-        "tags": []
-      }
-    ],
-    "general": [
-      {
-        "title": "Australia is the planet's extinction hotspot, but one animal offers a glimmer of hope",
-        "link": "https://www.bbc.co.uk/news/articles/c9q94lxqrzzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-08T19:00:22.000Z",
-        "relevanceScore": 378.08,
-        "tags": []
-      },
-      {
-        "title": "Killed a month after his wedding - why PC Andrew Harper's death touched so many",
-        "link": "https://www.bbc.co.uk/news/articles/c4gvrnyrjn0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-08T23:13:35.000Z",
-        "relevanceScore": 52.93,
-        "tags": [
-          "Launch",
-          "IPO"
-        ]
-      },
-      {
-        "title": "Fifa criticises campaign to oust president Infantino",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-08T22:06:44.000Z",
-        "relevanceScore": 40.21,
-        "tags": []
-      },
-      {
-        "title": "Andy Burnham to embark on cost of living tour through the UK",
-        "link": "https://www.bbc.co.uk/news/articles/c0l5j8y388lo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-08T23:10:50.000Z",
-        "relevanceScore": 30.92,
-        "tags": []
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Two drivers of Mercedes AMG cars file class action lawsuit over an alleged burn hazard in its logo",
-        "link": "https://abcnews.com/Business/wireStory/drivers-mercedes-amg-cars-file-class-action-lawsuit-135487270",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-08T20:36:20.000Z",
-        "relevanceScore": 181.9,
-        "tags": []
-      },
-      {
-        "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
-        "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-08T11:30:48.000Z",
-        "relevanceScore": 23.59,
-        "tags": [
-          "Exclusive"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "title": "Differential heuristics: learning about a way to optimize the A* heuristic",
-        "link": "https://www.reddit.com/r/programming/comments/1vj4cdd/differential_heuristics_learning_about_a_way_to/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-08T19:09:40.000Z",
-        "relevanceScore": 141.12,
+        "relevanceScore": 499.37,
         "tags": []
       }
     ],
     "ai-ml": [
       {
+        "title": "Amazon secretly circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
+        "link": "https://www.reddit.com/r/technology/comments/1viwmsi/amazon_secretly_circumvents_community_vote_for/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-08T13:54:05.000Z",
+        "relevanceScore": 405.37,
+        "tags": [
+          "AI",
+          "IPO"
+        ]
+      },
+      {
         "title": "OpenAI acquires presentation startup NextSlide",
         "link": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
         "source": "TechCrunch",
         "pubDate": "2026-08-08T19:41:13.000Z",
-        "relevanceScore": 140.72,
+        "relevanceScore": 173.03,
         "tags": [
           "Startup"
-        ]
-      },
-      {
-        "title": "I Thought Better Models Would Fix AI Image Editing. I Was Wrong.",
-        "link": "https://dev.to/gaven/i-thought-better-models-would-fix-ai-image-editing-i-was-wrong-5ak",
-        "source": "Dev.to",
-        "pubDate": "2026-08-09T04:18:08.000Z",
-        "relevanceScore": 49.94,
-        "tags": [
-          "AI",
-          "Launch"
         ]
       },
       {
@@ -808,7 +726,7 @@
         "link": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-07T14:20:00.000Z",
-        "relevanceScore": 48.35,
+        "relevanceScore": 143.15,
         "tags": [
           "AI",
           "Tech",
@@ -822,7 +740,7 @@
         "link": "https://stackoverflow.blog/2026/08/07/how-to-be-fearlessly-ai-native/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-08-07T07:40:00.000Z",
-        "relevanceScore": 41.02,
+        "relevanceScore": 121.82,
         "tags": [
           "AI",
           "Tutorial"
@@ -833,10 +751,20 @@
         "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-08T13:41:32.000Z",
-        "relevanceScore": 32.52,
+        "relevanceScore": 59.83,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "ThonburianTTS — AI พูดภาษาไทย ฟรี รันในเครื่องได้ โคลนเสียงได้ โดยคนไทย",
+        "link": "https://dev.to/sarantoon/thonburiantts-ai-phuudphaasaaaithy-frii-ranainekhruuengaid-okhlnesiiyngaid-odykhnaithy-45bh",
+        "source": "Dev.to",
+        "pubDate": "2026-08-09T05:03:04.000Z",
+        "relevanceScore": 42.9,
+        "tags": [
+          "AI"
         ]
       },
       {
@@ -844,21 +772,61 @@
         "link": "https://www.engadget.com/2229993/claude-vs-chatgpt-how-ai-assistants-differ/",
         "source": "Engadget",
         "pubDate": "2026-08-08T15:30:00.000Z",
-        "relevanceScore": 30.88,
+        "relevanceScore": 40.19,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "AI creates 16 new viruses that never existed in nature after learning DNA pattern from 9 trillion nucleotides experts warn such applications are way ahead of necessary guardrails",
+        "link": "https://www.reddit.com/r/technology/comments/1vj98g5/ai_creates_16_new_viruses_that_never_existed_in/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-08T22:41:16.000Z",
+        "relevanceScore": 39.63,
         "tags": [
           "AI"
         ]
       }
     ],
-    "entertainment": [
+    "automotive": [
       {
-        "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
-        "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
-        "source": "The Verge",
-        "pubDate": "2026-08-08T15:00:00.000Z",
-        "relevanceScore": 135.78,
+        "title": "Two drivers of Mercedes AMG cars file class action lawsuit over an alleged burn hazard in its logo",
+        "link": "https://abcnews.com/Business/wireStory/drivers-mercedes-amg-cars-file-class-action-lawsuit-135487270",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-08T20:36:20.000Z",
+        "relevanceScore": 200.21,
+        "tags": []
+      },
+      {
+        "title": "An Innocent Driver Was Held at Gunpoint Over a Flock Camera Mix-Up: “Wrong Person But Also Wrong Car”",
+        "link": "https://www.reddit.com/r/technology/comments/1vjec67/an_innocent_driver_was_held_at_gunpoint_over_a/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-09T02:49:16.000Z",
+        "relevanceScore": 178.45,
+        "tags": []
+      },
+      {
+        "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+        "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-08T11:30:48.000Z",
+        "relevanceScore": 23.39,
         "tags": [
-          "Tech"
+          "Exclusive"
+        ]
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "The ETF Changed Bitcoin's Four-Year Cycle, but It Did Not Create a Supercycle",
+        "link": "https://dev.to/invisiblehill/the-etf-changed-bitcoins-four-year-cycle-but-it-did-not-create-a-supercycle-5dij",
+        "source": "Dev.to",
+        "pubDate": "2026-08-09T05:07:06.000Z",
+        "relevanceScore": 181.41,
+        "tags": [
+          "Business",
+          "Science",
+          "Report"
         ]
       }
     ],
@@ -868,30 +836,107 @@
         "link": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-07T09:22:03.000Z",
-        "relevanceScore": 131.86,
+        "relevanceScore": 151.16,
         "tags": [
           "Social"
         ]
       }
     ],
-    "development": [
+    "space": [
       {
-        "title": "The advantage of using program images as a flight recorder instead of relying on logs",
-        "link": "https://www.reddit.com/r/programming/comments/1vj203j/the_advantage_of_using_program_images_as_a_flight/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-08T17:35:30.000Z",
-        "relevanceScore": 62.8,
+        "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
+        "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
+        "source": "NPR Business",
+        "pubDate": "2026-08-08T11:43:46.000Z",
+        "relevanceScore": 114.43,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Here Are the First Images of the Crater Left on the Moon by SpaceX’s Rocket",
+        "link": "https://www.wired.com/story/first-images-spacex-rocket-moon-crater/",
+        "source": "Wired",
+        "pubDate": "2026-08-08T12:00:00.000Z",
+        "relevanceScore": 23.49,
+        "tags": [
+          "Science",
+          "Exclusive",
+          "Report"
+        ]
+      },
+      {
+        "title": "Europe's free satellite service just made it easier to track wildfires",
+        "link": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-07T21:48:21.000Z",
+        "relevanceScore": 19.65,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Musician and entrepreneur Tom Vek is building a digital music player, but don’t call it retro",
+        "link": "https://www.theverge.com/report/976872/tom-vek-musician-entrepreneur-sleevenote-interview",
+        "source": "The Verge",
+        "pubDate": "2026-08-08T15:00:00.000Z",
+        "relevanceScore": 60.09,
+        "tags": [
+          "Tech"
+        ]
+      }
+    ],
+    "science": [
+      {
+        "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+        "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-08-07T14:00:00.000Z",
+        "relevanceScore": 58.09,
+        "tags": [
+          "Web",
+          "Partnership",
+          "Regulation"
+        ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Killed a month after his wedding - why PC Andrew Harper's death touched so many",
+        "link": "https://www.bbc.co.uk/news/articles/c4gvrnyrjn0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-08T23:13:35.000Z",
+        "relevanceScore": 57.73,
+        "tags": [
+          "Launch",
+          "IPO"
+        ]
+      },
+      {
+        "title": "Fifa criticises campaign to oust president Infantino",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cj03drn965do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-08T22:06:44.000Z",
+        "relevanceScore": 49.51,
         "tags": []
       },
       {
-        "title": "Build a Two-Phase Tool Boundary for a Tencent RTC Voice Companion",
-        "link": "https://dev.to/susiewang/build-a-two-phase-tool-boundary-for-a-tencent-rtc-voice-companion-51ap",
-        "source": "Dev.to",
-        "pubDate": "2026-08-09T04:21:00.000Z",
-        "relevanceScore": 23.95,
-        "tags": [
-          "Update"
-        ]
+        "title": "Perez Hilton faces long recovery after reports he self-harmed during livestream",
+        "link": "https://www.bbc.co.uk/news/articles/cg5lnqjz497o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-09T04:32:06.000Z",
+        "relevanceScore": 31.8,
+        "tags": []
+      },
+      {
+        "title": "Andy Burnham to embark on cost of living tour through the UK",
+        "link": "https://www.bbc.co.uk/news/articles/c0l5j8y388lo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-08T23:10:50.000Z",
+        "relevanceScore": 30.72,
+        "tags": []
       }
     ],
     "finance": [
@@ -900,7 +945,7 @@
         "link": "https://www.npr.org/2026/08/07/nx-s1-5924786/employers-economy-labor-jobs-federal-reserve",
         "source": "NPR Business",
         "pubDate": "2026-08-07T13:10:10.000Z",
-        "relevanceScore": 43.62,
+        "relevanceScore": 56.42,
         "tags": [
           "Business",
           "Report"
@@ -911,22 +956,8 @@
         "link": "https://www.bbc.co.uk/news/articles/c20d8qre98do?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-08T23:43:44.000Z",
-        "relevanceScore": 31.03,
+        "relevanceScore": 30.83,
         "tags": []
-      }
-    ],
-    "science": [
-      {
-        "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
-        "link": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-08-07T14:00:00.000Z",
-        "relevanceScore": 31.78,
-        "tags": [
-          "Web",
-          "Partnership",
-          "Regulation"
-        ]
       }
     ],
     "business": [
@@ -935,7 +966,7 @@
         "link": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
         "source": "NPR Business",
         "pubDate": "2026-08-07T19:35:35.000Z",
-        "relevanceScore": 30.9,
+        "relevanceScore": 40.21,
         "tags": []
       },
       {
@@ -943,7 +974,7 @@
         "link": "https://abcnews.com/Business/wireStory/whitney-houstons-new-1s-album-barbie-clive-davis-135490461",
         "source": "ABC News Business",
         "pubDate": "2026-08-08T22:42:23.000Z",
-        "relevanceScore": 24.82,
+        "relevanceScore": 24.63,
         "tags": [
           "Exclusive",
           "Interview"
@@ -954,7 +985,7 @@
         "link": "https://abcnews.com/Business/wireStory/berkshire-hathaways-new-ceo-greg-abel-spends-chunk-135481465",
         "source": "ABC News Business",
         "pubDate": "2026-08-08T15:20:53.000Z",
-        "relevanceScore": 23.35,
+        "relevanceScore": 23.16,
         "tags": []
       }
     ],
@@ -964,7 +995,7 @@
         "link": "https://www.engadget.com/2230359/retro-handheld-game-console-how-to-best-battery-life/",
         "source": "Engadget",
         "pubDate": "2026-08-08T17:30:00.000Z",
-        "relevanceScore": 21.78,
+        "relevanceScore": 34.59,
         "tags": [
           "Tutorial"
         ]
@@ -974,7 +1005,7 @@
   "stats": {
     "totalSources": 13,
     "totalCategories": 14,
-    "avgRelevanceScore": 105.53761904761905,
+    "avgRelevanceScore": 117.0862790697674,
     "topCategories": [
       {
         "category": "tech",
@@ -982,18 +1013,18 @@
       },
       {
         "category": "ai-ml",
-        "count": 6
-      },
-      {
-        "category": "space",
-        "count": 4
+        "count": 8
       },
       {
         "category": "general",
         "count": 4
       },
       {
-        "category": "business",
+        "category": "automotive",
+        "count": 3
+      },
+      {
+        "category": "space",
         "count": 3
       }
     ]
