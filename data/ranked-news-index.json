@@ -1,169 +1,68 @@
 {
-  "lastUpdated": "2026-08-10T04:17:15.491Z",
+  "lastUpdated": "2026-08-10T05:52:34.904Z",
   "totalArticles": 38,
   "categories": [
+    "cloud",
     "tech",
-    "development",
-    "general",
-    "space",
     "ai-ml",
+    "blockchain",
     "automotive",
-    "gaming",
-    "business",
+    "space",
+    "general",
     "entertainment",
-    "cybersecurity",
-    "climate",
-    "mobile"
+    "business",
+    "gaming",
+    "mobile",
+    "development",
+    "climate"
   ],
   "topArticles": [
+    {
+      "title": "AWS CloudFormation — Infrastructure as Code, Templates, Stacks & Change Sets",
+      "link": "https://dev.to/tejas_shinkar/aws-cloudformation-infrastructure-as-code-templates-stacks-change-sets-50k0",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-08-10T05:46:29.000Z",
+      "relevanceScore": 1622.98,
+      "recommendationScore": 1623.48,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-08-09T19:20:32.000Z",
+      "relevanceScore": 508.39,
+      "recommendationScore": 508.89,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "4 Best Compression Boots: Therabody, Hyperice, and More (2026)",
       "link": "https://www.wired.com/story/best-compression-boots/",
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-09T11:04:00.000Z",
-      "relevanceScore": 658.56,
-      "recommendationScore": 660.06,
+      "relevanceScore": 379.24,
+      "recommendationScore": 380.74,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "6 Patterns of Cache",
-      "link": "https://dev.to/tienbku/6-patterns-of-cache-3gmb",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-10T03:52:06.000Z",
-      "relevanceScore": 546.92,
-      "recommendationScore": 546.92,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Brief relief ahead of fifth heatwave - as more areas could move into drought",
-      "link": "https://www.bbc.co.uk/weather/articles/cvgx1k415v2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-10T01:36:10.000Z",
-      "relevanceScore": 522.46,
-      "recommendationScore": 522.96,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Debugging JWTs without a third party seeing your token",
-      "link": "https://dev.to/developer_tech/debugging-jwts-without-a-third-party-seeing-your-token-46cj",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-10T04:03:46.000Z",
-      "relevanceScore": 514.96,
-      "recommendationScore": 515.46,
-      "tags": [
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
-      "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
-      "source": "NPR Business",
-      "category": "space",
-      "pubDate": "2026-08-08T11:43:46.000Z",
-      "relevanceScore": 477.39,
-      "recommendationScore": 477.89,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
-      "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
+      "title": "The AI safety test is becoming a safety risk",
+      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
       "source": "TechCrunch",
       "category": "ai-ml",
-      "pubDate": "2026-08-09T16:05:00.000Z",
-      "relevanceScore": 461.56,
-      "recommendationScore": 464.06,
+      "pubDate": "2026-08-09T14:30:00.000Z",
+      "relevanceScore": 303.42,
+      "recommendationScore": 303.42,
       "tags": [
         "AI",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "49ers coach says his Tesla was on Autopilot when he crashed",
-      "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
-      "source": "The Verge",
-      "category": "automotive",
-      "pubDate": "2026-08-09T15:56:49.000Z",
-      "relevanceScore": 459.53,
-      "recommendationScore": 461.03,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Dropbox is a PC builder’s best friend",
-      "link": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-08-09T13:00:00.000Z",
-      "relevanceScore": 458.44,
-      "recommendationScore": 459.44,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Here's how to format a USB drive on Windows",
-      "link": "https://www.engadget.com/2230979/how-to-format-usb-drive-on-windows/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-09T17:30:00.000Z",
-      "relevanceScore": 447.84,
-      "recommendationScore": 449.34,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How to use ChatGPT's new, more natural Voice Mode for conversations",
-      "link": "https://www.engadget.com/2230975/how-to-use-chatgpt-voice-mode/",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-08-09T16:30:00.000Z",
-      "relevanceScore": 446.64,
-      "recommendationScore": 450.64,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Whitney Houston's new No. 1s album, first-ever Barbie, Clive Davis and more: A Q&A with Pat Houston",
-      "link": "https://abcnews.com/Business/wireStory/whitney-houstons-new-1s-album-barbie-clive-davis-135490461",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-08-08T22:42:23.000Z",
-      "relevanceScore": 445.08,
-      "recommendationScore": 447.58,
-      "tags": [
-        "Exclusive",
-        "Interview"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-08-08T11:05:50.000Z",
-      "relevanceScore": 443.76,
-      "recommendationScore": 444.26,
-      "tags": [
-        "Science",
-        "Innovation"
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -173,26 +72,76 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-09T10:00:00.000Z",
-      "relevanceScore": 382.34,
-      "recommendationScore": 382.84,
+      "relevanceScore": 299.52,
+      "recommendationScore": 300.02,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The AI safety test is becoming a safety risk",
-      "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-08-09T14:30:00.000Z",
-      "relevanceScore": 168.24,
-      "recommendationScore": 168.24,
+      "title": "How to use Claude's voice mode",
+      "link": "https://www.engadget.com/2231293/how-to-use-claude-voice-mode/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-09T18:30:00.000Z",
+      "relevanceScore": 289.72,
+      "recommendationScore": 291.22,
       "tags": [
-        "AI",
-        "Regulation"
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "TryHackMe : Overflow The Jackpot writeup",
+      "link": "https://dev.to/exploitnotes/tryhackme-overflow-the-jackpot-writeup-4b1f",
+      "source": "Dev.to",
+      "category": "blockchain",
+      "pubDate": "2026-08-10T05:32:42.000Z",
+      "relevanceScore": 211.93,
+      "recommendationScore": 211.93,
+      "tags": [
+        "Web"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
+      "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-10T05:00:32.000Z",
+      "relevanceScore": 211.83,
+      "recommendationScore": 212.33,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "49ers coach says his Tesla was on Autopilot when he crashed",
+      "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
+      "source": "The Verge",
+      "category": "automotive",
+      "pubDate": "2026-08-09T15:56:49.000Z",
+      "relevanceScore": 209.21,
+      "recommendationScore": 210.71,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How to use ChatGPT's new, more natural Voice Mode for conversations",
+      "link": "https://www.engadget.com/2230975/how-to-use-chatgpt-voice-mode/",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-08-09T16:30:00.000Z",
+      "relevanceScore": 195.32,
+      "recommendationScore": 199.32,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Littleton claims Flock reactivated its cameras without notifying the town | Town to initiate cancellation of Flock contract",
@@ -200,8 +149,8 @@
       "source": "Reddit Technology",
       "category": "tech",
       "pubDate": "2026-08-10T00:09:43.000Z",
-      "relevanceScore": 125.17,
-      "recommendationScore": 125.17,
+      "relevanceScore": 181.86,
+      "recommendationScore": 181.86,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -211,30 +160,8 @@
       "source": "The Verge",
       "category": "space",
       "pubDate": "2026-08-09T20:28:31.000Z",
-      "relevanceScore": 116.44,
-      "recommendationScore": 116.94,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Suspected crime boss Daniel Kinahan appears in court after extradition",
-      "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-09T20:58:18.000Z",
-      "relevanceScore": 109.54,
-      "recommendationScore": 110.04,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "China evacuates one million from homes as massive storm arrives",
-      "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-10T03:15:21.000Z",
-      "relevanceScore": 43.79,
-      "recommendationScore": 44.29,
+      "relevanceScore": 163.62,
+      "recommendationScore": 164.12,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -244,8 +171,83 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-09T23:05:29.000Z",
-      "relevanceScore": 41.96,
-      "recommendationScore": 43.46,
+      "relevanceScore": 142.64,
+      "recommendationScore": 144.14,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
+      "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-08-09T16:05:00.000Z",
+      "relevanceScore": 137.24,
+      "recommendationScore": 139.74,
+      "tags": [
+        "AI",
+        "Launch"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
+      "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-08-09T10:30:00.000Z",
+      "relevanceScore": 134.12,
+      "recommendationScore": 136.12,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
+      "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
+      "source": "NPR Business",
+      "category": "space",
+      "pubDate": "2026-08-08T11:43:46.000Z",
+      "relevanceScore": 132.57,
+      "recommendationScore": 133.07,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
+      "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
+      "source": "Ars Technica",
+      "category": "automotive",
+      "pubDate": "2026-08-08T11:30:48.000Z",
+      "relevanceScore": 132.53,
+      "recommendationScore": 135.03,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Christopher Nolan Says Your Disc Collection Is Safer Than Streaming / Nolan Cites Streaming Compression & Vanishing Licenses As Reasons Physical Discs Remain The Definitive Home Format",
+      "link": "https://www.reddit.com/r/technology/comments/1vjwim1/christopher_nolan_says_your_disc_collection_is/",
+      "source": "Reddit Technology",
+      "category": "entertainment",
+      "pubDate": "2026-08-09T17:57:12.000Z",
+      "relevanceScore": 131.62,
+      "recommendationScore": 132.62,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "China evacuates one million from homes as massive storm arrives",
+      "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-10T03:15:21.000Z",
+      "relevanceScore": 124.48,
+      "recommendationScore": 124.98,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -255,10 +257,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-09T23:01:39.000Z",
-      "relevanceScore": 41.95,
-      "recommendationScore": 42.45,
+      "relevanceScore": 122.63,
+      "recommendationScore": 123.13,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Suspected crime boss Daniel Kinahan appears in court after extradition",
+      "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-09T20:58:18.000Z",
+      "relevanceScore": 122.22,
+      "recommendationScore": 122.72,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
@@ -266,11 +279,24 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-09T20:35:17.000Z",
-      "relevanceScore": 37.46,
-      "recommendationScore": 37.96,
+      "relevanceScore": 118.14,
+      "recommendationScore": 118.64,
       "tags": [
         "AI",
         "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "$46B tribal gambling industry watchdog can't enforce law without chairperson",
+      "link": "https://abcnews.com/Business/wireStory/watchdog-46-billion-tribal-gambling-industry-enforce-law-135496115",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-09T15:14:02.000Z",
+      "relevanceScore": 117.07,
+      "recommendationScore": 117.57,
+      "tags": [
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -280,8 +306,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-09T13:20:30.000Z",
-      "relevanceScore": 36.01,
-      "recommendationScore": 36.51,
+      "relevanceScore": 116.69,
+      "recommendationScore": 117.19,
       "tags": [
         "Science",
         "Acquisition"
@@ -294,45 +320,33 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-09T13:20:29.000Z",
-      "relevanceScore": 35.51,
-      "recommendationScore": 37.51,
+      "relevanceScore": 116.19,
+      "recommendationScore": 118.19,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Anthropic is turning Claude Code’s auto mode on by default",
-      "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-08-09T19:20:32.000Z",
-      "relevanceScore": 35.21,
-      "recommendationScore": 35.71,
+      "title": "Dropbox is a PC builder’s best friend",
+      "link": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2026-08-09T13:00:00.000Z",
+      "relevanceScore": 114.12,
+      "recommendationScore": 115.12,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "$46B tribal gambling industry watchdog can't enforce law without chairperson",
-      "link": "https://abcnews.com/Business/wireStory/watchdog-46-billion-tribal-gambling-industry-enforce-law-135496115",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-08-09T15:14:02.000Z",
-      "relevanceScore": 34.39,
-      "recommendationScore": 34.89,
-      "tags": [
-        "Regulation"
-      ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Meetily Lets You Transcribe and Summarize Meetings Without a Subscription—Here’s How",
-      "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-08-09T10:30:00.000Z",
-      "relevanceScore": 33.44,
-      "recommendationScore": 35.44,
+      "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+      "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-08-08T11:05:50.000Z",
+      "relevanceScore": 112.44,
+      "recommendationScore": 112.94,
       "tags": [
-        "AI"
+        "Science",
+        "Innovation"
       ],
       "readingLevel": "advanced"
     },
@@ -342,22 +356,11 @@
       "source": "Reddit Technology",
       "category": "ai-ml",
       "pubDate": "2026-08-09T18:04:22.000Z",
-      "relevanceScore": 30.96,
-      "recommendationScore": 32.96,
+      "relevanceScore": 111.64,
+      "recommendationScore": 113.64,
       "tags": [
         "AI"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Christopher Nolan Says Your Disc Collection Is Safer Than Streaming / Nolan Cites Streaming Compression & Vanishing Licenses As Reasons Physical Discs Remain The Definitive Home Format",
-      "link": "https://www.reddit.com/r/technology/comments/1vjwim1/christopher_nolan_says_your_disc_collection_is/",
-      "source": "Reddit Technology",
-      "category": "entertainment",
-      "pubDate": "2026-08-09T17:57:12.000Z",
-      "relevanceScore": 30.93,
-      "recommendationScore": 31.93,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -366,12 +369,63 @@
       "source": "BBC Technology",
       "category": "ai-ml",
       "pubDate": "2026-08-08T13:41:32.000Z",
-      "relevanceScore": 29.28,
-      "recommendationScore": 31.28,
+      "relevanceScore": 109.96,
+      "recommendationScore": 111.96,
       "tags": [
         "AI",
         "Tech"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Here's how to format a USB drive on Windows",
+      "link": "https://www.engadget.com/2230979/how-to-format-usb-drive-on-windows/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-09T17:30:00.000Z",
+      "relevanceScore": 42.52,
+      "recommendationScore": 44.02,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The Complicated Case of Passing On Your Digital Estate",
+      "link": "https://www.wired.com/story/digital-estate-planning-tips/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-09T11:30:00.000Z",
+      "relevanceScore": 42.32,
+      "recommendationScore": 42.82,
+      "tags": [
+        "Tech"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How to hide and unhide an app on your iPhone or iPad (and why you may want to)",
+      "link": "https://www.engadget.com/2230843/how-to-hide-unhide-app-iphone-ipad-why-may-want-to/",
+      "source": "Engadget",
+      "category": "mobile",
+      "pubDate": "2026-08-09T15:30:00.000Z",
+      "relevanceScore": 41.12,
+      "recommendationScore": 43.12,
+      "tags": [
+        "Mobile",
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Travelodge staff gave domestic abuser key to his victim's room",
+      "link": "https://www.bbc.co.uk/news/articles/cvgx1v922p5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-10T05:00:07.000Z",
+      "relevanceScore": 31.83,
+      "recommendationScore": 32.33,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -380,8 +434,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-09T15:00:00.000Z",
-      "relevanceScore": 24.84,
-      "recommendationScore": 25.34,
+      "relevanceScore": 24.52,
+      "recommendationScore": 25.02,
       "tags": [
         "Science"
       ],
@@ -393,12 +447,25 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-09T20:34:05.000Z",
-      "relevanceScore": 24.46,
-      "recommendationScore": 26.96,
+      "relevanceScore": 24.14,
+      "recommendationScore": 26.64,
       "tags": [
         "Launch"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Fixing a Silent Cache Bug in npmx.dev",
+      "link": "https://dev.to/tejas164321/fixing-a-silent-cache-bug-in-npmxdev-2bh6",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-08-10T05:32:55.000Z",
+      "relevanceScore": 23.93,
+      "recommendationScore": 23.93,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
@@ -406,37 +473,10 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-09T17:20:30.000Z",
-      "relevanceScore": 23.81,
-      "recommendationScore": 24.31,
+      "relevanceScore": 23.49,
+      "recommendationScore": 23.99,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "GitHub Doesn't Get “Hacked” the Way You Think",
-      "link": "https://dev.to/farhadrahimiklie/github-doesnt-get-hacked-the-way-you-think-1c5l",
-      "source": "Dev.to",
-      "category": "cybersecurity",
-      "pubDate": "2026-08-10T03:59:05.000Z",
-      "relevanceScore": 22.94,
-      "recommendationScore": 22.94,
-      "tags": [
-        "Tech",
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Complicated Case of Passing On Your Digital Estate",
-      "link": "https://www.wired.com/story/digital-estate-planning-tips/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-08-09T11:30:00.000Z",
-      "relevanceScore": 22.64,
-      "recommendationScore": 23.14,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
@@ -444,133 +484,48 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2026-08-09T11:00:14.000Z",
-      "relevanceScore": 22.54,
-      "recommendationScore": 23.04,
+      "relevanceScore": 22.23,
+      "recommendationScore": 22.73,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "How to use Claude's voice mode",
-      "link": "https://www.engadget.com/2231293/how-to-use-claude-voice-mode/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-09T18:30:00.000Z",
-      "relevanceScore": 22.04,
-      "recommendationScore": 23.54,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "How to hide and unhide an app on your iPhone or iPad (and why you may want to)",
-      "link": "https://www.engadget.com/2230843/how-to-hide-unhide-app-iphone-ipad-why-may-want-to/",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-08-09T15:30:00.000Z",
-      "relevanceScore": 21.44,
-      "recommendationScore": 23.44,
-      "tags": [
-        "Mobile",
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "The first self-driving vehicle on Mars has proven to be a smashing success",
-      "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
-      "source": "Ars Technica",
-      "category": "automotive",
-      "pubDate": "2026-08-08T11:30:48.000Z",
-      "relevanceScore": 18.85,
-      "recommendationScore": 21.35,
-      "tags": [
-        "Exclusive"
-      ],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
+    "cloud": [
+      {
+        "title": "AWS CloudFormation — Infrastructure as Code, Templates, Stacks & Change Sets",
+        "link": "https://dev.to/tejas_shinkar/aws-cloudformation-infrastructure-as-code-templates-stacks-change-sets-50k0",
+        "source": "Dev.to",
+        "pubDate": "2026-08-10T05:46:29.000Z",
+        "relevanceScore": 1622.98,
+        "tags": [
+          "Cloud"
+        ]
+      }
+    ],
     "tech": [
+      {
+        "title": "Anthropic is turning Claude Code’s auto mode on by default",
+        "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-09T19:20:32.000Z",
+        "relevanceScore": 508.39,
+        "tags": []
+      },
       {
         "title": "4 Best Compression Boots: Therabody, Hyperice, and More (2026)",
         "link": "https://www.wired.com/story/best-compression-boots/",
         "source": "Wired",
         "pubDate": "2026-08-09T11:04:00.000Z",
-        "relevanceScore": 658.56,
+        "relevanceScore": 379.24,
         "tags": []
-      },
-      {
-        "title": "Here's how to format a USB drive on Windows",
-        "link": "https://www.engadget.com/2230979/how-to-format-usb-drive-on-windows/",
-        "source": "Engadget",
-        "pubDate": "2026-08-09T17:30:00.000Z",
-        "relevanceScore": 447.84,
-        "tags": [
-          "Tutorial"
-        ]
-      },
-      {
-        "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
-        "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-08T11:05:50.000Z",
-        "relevanceScore": 443.76,
-        "tags": [
-          "Science",
-          "Innovation"
-        ]
       },
       {
         "title": "TCL Note A1 Nxtpaper Review (2026): A Hybrid Tablet for Taking Notes and Watching Video",
         "link": "https://www.wired.com/review/tcl-note-a1-nxtpaper-tablet/",
         "source": "Wired",
         "pubDate": "2026-08-09T10:00:00.000Z",
-        "relevanceScore": 382.34,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Littleton claims Flock reactivated its cameras without notifying the town | Town to initiate cancellation of Flock contract",
-        "link": "https://www.reddit.com/r/technology/comments/1vk5jsq/littleton_claims_flock_reactivated_its_cameras/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-10T00:09:43.000Z",
-        "relevanceScore": 125.17,
-        "tags": []
-      },
-      {
-        "title": "Anthropic is turning Claude Code’s auto mode on by default",
-        "link": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-09T19:20:32.000Z",
-        "relevanceScore": 35.21,
-        "tags": []
-      },
-      {
-        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
-        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-09T15:00:00.000Z",
-        "relevanceScore": 24.84,
-        "tags": [
-          "Science"
-        ]
-      },
-      {
-        "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
-        "link": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
-        "source": "The Verge",
-        "pubDate": "2026-08-09T17:20:30.000Z",
-        "relevanceScore": 23.81,
-        "tags": []
-      },
-      {
-        "title": "The Complicated Case of Passing On Your Digital Estate",
-        "link": "https://www.wired.com/story/digital-estate-planning-tips/",
-        "source": "Wired",
-        "pubDate": "2026-08-09T11:30:00.000Z",
-        "relevanceScore": 22.64,
+        "relevanceScore": 299.52,
         "tags": [
           "Tech"
         ]
@@ -580,106 +535,90 @@
         "link": "https://www.engadget.com/2231293/how-to-use-claude-voice-mode/",
         "source": "Engadget",
         "pubDate": "2026-08-09T18:30:00.000Z",
-        "relevanceScore": 22.04,
+        "relevanceScore": 289.72,
         "tags": [
           "Tutorial"
         ]
-      }
-    ],
-    "development": [
+      },
       {
-        "title": "6 Patterns of Cache",
-        "link": "https://dev.to/tienbku/6-patterns-of-cache-3gmb",
-        "source": "Dev.to",
-        "pubDate": "2026-08-10T03:52:06.000Z",
-        "relevanceScore": 546.92,
+        "title": "Littleton claims Flock reactivated its cameras without notifying the town | Town to initiate cancellation of Flock contract",
+        "link": "https://www.reddit.com/r/technology/comments/1vk5jsq/littleton_claims_flock_reactivated_its_cameras/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-10T00:09:43.000Z",
+        "relevanceScore": 181.86,
+        "tags": []
+      },
+      {
+        "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+        "link": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-08T11:05:50.000Z",
+        "relevanceScore": 112.44,
+        "tags": [
+          "Science",
+          "Innovation"
+        ]
+      },
+      {
+        "title": "Here's how to format a USB drive on Windows",
+        "link": "https://www.engadget.com/2230979/how-to-format-usb-drive-on-windows/",
+        "source": "Engadget",
+        "pubDate": "2026-08-09T17:30:00.000Z",
+        "relevanceScore": 42.52,
+        "tags": [
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "The Complicated Case of Passing On Your Digital Estate",
+        "link": "https://www.wired.com/story/digital-estate-planning-tips/",
+        "source": "Wired",
+        "pubDate": "2026-08-09T11:30:00.000Z",
+        "relevanceScore": 42.32,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "Debugging JWTs without a third party seeing your token",
-        "link": "https://dev.to/developer_tech/debugging-jwts-without-a-third-party-seeing-your-token-46cj",
-        "source": "Dev.to",
-        "pubDate": "2026-08-10T04:03:46.000Z",
-        "relevanceScore": 514.96,
+        "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+        "link": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-09T15:00:00.000Z",
+        "relevanceScore": 24.52,
         "tags": [
-          "Web"
-        ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Brief relief ahead of fifth heatwave - as more areas could move into drought",
-        "link": "https://www.bbc.co.uk/weather/articles/cvgx1k415v2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-10T01:36:10.000Z",
-        "relevanceScore": 522.46,
-        "tags": []
-      },
-      {
-        "title": "Suspected crime boss Daniel Kinahan appears in court after extradition",
-        "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-09T20:58:18.000Z",
-        "relevanceScore": 109.54,
-        "tags": []
-      },
-      {
-        "title": "China evacuates one million from homes as massive storm arrives",
-        "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-10T03:15:21.000Z",
-        "relevanceScore": 43.79,
-        "tags": []
-      },
-      {
-        "title": "Evidence that South African special forces murdered top detective shared with BBC",
-        "link": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-09T23:05:29.000Z",
-        "relevanceScore": 41.96,
-        "tags": []
-      },
-      {
-        "title": "Burnham brings forward ban on 'subscription traps' to ease cost of living",
-        "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-09T23:01:39.000Z",
-        "relevanceScore": 41.95,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
-        "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
-        "source": "NPR Business",
-        "pubDate": "2026-08-08T11:43:46.000Z",
-        "relevanceScore": 477.39,
-        "tags": [
-          "Exclusive"
+          "Science"
         ]
       },
       {
-        "title": "No Dogs in Space is a music history podcast for true obsessives",
-        "link": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
+        "title": "Zuckerberg&#8217;s yacht was closer, but someone else saved a stranded boat",
+        "link": "https://www.theverge.com/tech/977161/mark-zuckerberg-yacht-wilderness-legacy-stranded-boat",
         "source": "The Verge",
-        "pubDate": "2026-08-09T20:28:31.000Z",
-        "relevanceScore": 116.44,
+        "pubDate": "2026-08-09T17:20:30.000Z",
+        "relevanceScore": 23.49,
         "tags": []
       }
     ],
     "ai-ml": [
       {
-        "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
-        "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
+        "title": "The AI safety test is becoming a safety risk",
+        "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
         "source": "TechCrunch",
-        "pubDate": "2026-08-09T16:05:00.000Z",
-        "relevanceScore": 461.56,
+        "pubDate": "2026-08-09T14:30:00.000Z",
+        "relevanceScore": 303.42,
         "tags": [
           "AI",
-          "Launch"
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Tech leaders say AI means less work - their staff say they work up to 90 hours a week",
+        "link": "https://www.bbc.co.uk/news/articles/cvgx4yd1gl2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-10T05:00:32.000Z",
+        "relevanceScore": 211.83,
+        "tags": [
+          "AI",
+          "Tech"
         ]
       },
       {
@@ -687,31 +626,20 @@
         "link": "https://www.engadget.com/2230975/how-to-use-chatgpt-voice-mode/",
         "source": "Engadget",
         "pubDate": "2026-08-09T16:30:00.000Z",
-        "relevanceScore": 446.64,
+        "relevanceScore": 195.32,
         "tags": [
           "Tutorial"
         ]
       },
       {
-        "title": "The AI safety test is becoming a safety risk",
-        "link": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+        "title": "TechCrunch Mobility: Zoox prepares for launch and Uber’s AV empire",
+        "link": "https://techcrunch.com/2026/08/09/techcrunch-mobility-zoox-prepares-for-launch-and-ubers-av-empire/",
         "source": "TechCrunch",
-        "pubDate": "2026-08-09T14:30:00.000Z",
-        "relevanceScore": 168.24,
+        "pubDate": "2026-08-09T16:05:00.000Z",
+        "relevanceScore": 137.24,
         "tags": [
           "AI",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
-        "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-09T20:35:17.000Z",
-        "relevanceScore": 37.46,
-        "tags": [
-          "AI",
-          "Startup"
+          "Launch"
         ]
       },
       {
@@ -719,9 +647,20 @@
         "link": "https://www.wired.com/story/meetily-lets-you-transcribe-and-summarize-meetings-without-a-subscription-heres-how/",
         "source": "Wired",
         "pubDate": "2026-08-09T10:30:00.000Z",
-        "relevanceScore": 33.44,
+        "relevanceScore": 134.12,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+        "link": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-09T20:35:17.000Z",
+        "relevanceScore": 118.14,
+        "tags": [
+          "AI",
+          "Startup"
         ]
       },
       {
@@ -729,7 +668,7 @@
         "link": "https://www.reddit.com/r/technology/comments/1vjwpko/amazons_new_765gw_texas_ai_data_center_power/",
         "source": "Reddit Technology",
         "pubDate": "2026-08-09T18:04:22.000Z",
-        "relevanceScore": 30.96,
+        "relevanceScore": 111.64,
         "tags": [
           "AI"
         ]
@@ -739,10 +678,22 @@
         "link": "https://www.bbc.co.uk/news/articles/cd7l4e3v238o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-08T13:41:32.000Z",
-        "relevanceScore": 29.28,
+        "relevanceScore": 109.96,
         "tags": [
           "AI",
           "Tech"
+        ]
+      }
+    ],
+    "blockchain": [
+      {
+        "title": "TryHackMe : Overflow The Jackpot writeup",
+        "link": "https://dev.to/exploitnotes/tryhackme-overflow-the-jackpot-writeup-4b1f",
+        "source": "Dev.to",
+        "pubDate": "2026-08-10T05:32:42.000Z",
+        "relevanceScore": 211.93,
+        "tags": [
+          "Web"
         ]
       }
     ],
@@ -752,7 +703,7 @@
         "link": "https://www.theverge.com/transportation/977155/49ers-coach-tesla-autopilot-crash",
         "source": "The Verge",
         "pubDate": "2026-08-09T15:56:49.000Z",
-        "relevanceScore": 459.53,
+        "relevanceScore": 209.21,
         "tags": []
       },
       {
@@ -760,32 +711,93 @@
         "link": "https://arstechnica.com/space/2026/08/the-first-self-driving-vehicle-on-mars-has-proven-to-be-a-smashing-success/",
         "source": "Ars Technica",
         "pubDate": "2026-08-08T11:30:48.000Z",
-        "relevanceScore": 18.85,
+        "relevanceScore": 132.53,
         "tags": [
           "Exclusive"
         ]
       }
     ],
-    "gaming": [
+    "space": [
       {
-        "title": "Dropbox is a PC builder’s best friend",
-        "link": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup",
+        "title": "No Dogs in Space is a music history podcast for true obsessives",
+        "link": "https://www.theverge.com/entertainment/977190/no-dogs-in-space-music-history-podcast",
         "source": "The Verge",
-        "pubDate": "2026-08-09T13:00:00.000Z",
-        "relevanceScore": 458.44,
+        "pubDate": "2026-08-09T20:28:31.000Z",
+        "relevanceScore": 163.62,
+        "tags": []
+      },
+      {
+        "title": "Selling experiences, not things: Services overtake physical goods in downtown retail",
+        "link": "https://www.npr.org/2026/08/08/nx-s1-5825813/selling-experiences-not-things-services-overtake-physical-goods-in-downtown-retail",
+        "source": "NPR Business",
+        "pubDate": "2026-08-08T11:43:46.000Z",
+        "relevanceScore": 132.57,
+        "tags": [
+          "Exclusive"
+        ]
+      }
+    ],
+    "general": [
+      {
+        "title": "Evidence that South African special forces murdered top detective shared with BBC",
+        "link": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-09T23:05:29.000Z",
+        "relevanceScore": 142.64,
+        "tags": []
+      },
+      {
+        "title": "China evacuates one million from homes as massive storm arrives",
+        "link": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-10T03:15:21.000Z",
+        "relevanceScore": 124.48,
+        "tags": []
+      },
+      {
+        "title": "Burnham brings forward ban on 'subscription traps' to ease cost of living",
+        "link": "https://www.bbc.co.uk/news/articles/cly5x9qlnvjo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-09T23:01:39.000Z",
+        "relevanceScore": 122.63,
+        "tags": []
+      },
+      {
+        "title": "Suspected crime boss Daniel Kinahan appears in court after extradition",
+        "link": "https://www.bbc.co.uk/news/articles/c62qd5plzp6o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-09T20:58:18.000Z",
+        "relevanceScore": 122.22,
+        "tags": []
+      },
+      {
+        "title": "Travelodge staff gave domestic abuser key to his victim's room",
+        "link": "https://www.bbc.co.uk/news/articles/cvgx1v922p5o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-10T05:00:07.000Z",
+        "relevanceScore": 31.83,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Christopher Nolan Says Your Disc Collection Is Safer Than Streaming / Nolan Cites Streaming Compression & Vanishing Licenses As Reasons Physical Discs Remain The Definitive Home Format",
+        "link": "https://www.reddit.com/r/technology/comments/1vjwim1/christopher_nolan_says_your_disc_collection_is/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-09T17:57:12.000Z",
+        "relevanceScore": 131.62,
         "tags": []
       }
     ],
     "business": [
       {
-        "title": "Whitney Houston's new No. 1s album, first-ever Barbie, Clive Davis and more: A Q&A with Pat Houston",
-        "link": "https://abcnews.com/Business/wireStory/whitney-houstons-new-1s-album-barbie-clive-davis-135490461",
+        "title": "$46B tribal gambling industry watchdog can't enforce law without chairperson",
+        "link": "https://abcnews.com/Business/wireStory/watchdog-46-billion-tribal-gambling-industry-enforce-law-135496115",
         "source": "ABC News Business",
-        "pubDate": "2026-08-08T22:42:23.000Z",
-        "relevanceScore": 445.08,
+        "pubDate": "2026-08-09T15:14:02.000Z",
+        "relevanceScore": 117.07,
         "tags": [
-          "Exclusive",
-          "Interview"
+          "Regulation"
         ]
       },
       {
@@ -793,7 +805,7 @@
         "link": "https://www.npr.org/2026/08/09/nx-s1-5923974/regal-cinema-ceo-comes-out-in-support-of-paramount-warner-bros-merger",
         "source": "NPR Business",
         "pubDate": "2026-08-09T13:20:30.000Z",
-        "relevanceScore": 36.01,
+        "relevanceScore": 116.69,
         "tags": [
           "Science",
           "Acquisition"
@@ -804,60 +816,27 @@
         "link": "https://www.npr.org/2026/08/09/nx-s1-5922406/how-fifa-president-gianni-infantino-reached-the-pinnacle-of-power-in-soccer",
         "source": "NPR Business",
         "pubDate": "2026-08-09T13:20:29.000Z",
-        "relevanceScore": 35.51,
+        "relevanceScore": 116.19,
         "tags": []
-      },
-      {
-        "title": "$46B tribal gambling industry watchdog can't enforce law without chairperson",
-        "link": "https://abcnews.com/Business/wireStory/watchdog-46-billion-tribal-gambling-industry-enforce-law-135496115",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-09T15:14:02.000Z",
-        "relevanceScore": 34.39,
-        "tags": [
-          "Regulation"
-        ]
       },
       {
         "title": "'Spider-Man: Brand New Day' keeps record pace, ‘The Odyssey’ sets new high for Nolan",
         "link": "https://abcnews.com/Business/wireStory/spider-man-brand-new-day-record-pace-odyssey-135502190",
         "source": "ABC News Business",
         "pubDate": "2026-08-09T20:34:05.000Z",
-        "relevanceScore": 24.46,
+        "relevanceScore": 24.14,
         "tags": [
           "Launch"
         ]
       }
     ],
-    "entertainment": [
+    "gaming": [
       {
-        "title": "Christopher Nolan Says Your Disc Collection Is Safer Than Streaming / Nolan Cites Streaming Compression & Vanishing Licenses As Reasons Physical Discs Remain The Definitive Home Format",
-        "link": "https://www.reddit.com/r/technology/comments/1vjwim1/christopher_nolan_says_your_disc_collection_is/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-09T17:57:12.000Z",
-        "relevanceScore": 30.93,
-        "tags": []
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "GitHub Doesn't Get “Hacked” the Way You Think",
-        "link": "https://dev.to/farhadrahimiklie/github-doesnt-get-hacked-the-way-you-think-1c5l",
-        "source": "Dev.to",
-        "pubDate": "2026-08-10T03:59:05.000Z",
-        "relevanceScore": 22.94,
-        "tags": [
-          "Tech",
-          "Security"
-        ]
-      }
-    ],
-    "climate": [
-      {
-        "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
-        "link": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-09T11:00:14.000Z",
-        "relevanceScore": 22.54,
+        "title": "Dropbox is a PC builder’s best friend",
+        "link": "https://www.theverge.com/tech/976092/pc-building-dropbox-backup",
+        "source": "The Verge",
+        "pubDate": "2026-08-09T13:00:00.000Z",
+        "relevanceScore": 114.12,
         "tags": []
       }
     ],
@@ -867,18 +846,40 @@
         "link": "https://www.engadget.com/2230843/how-to-hide-unhide-app-iphone-ipad-why-may-want-to/",
         "source": "Engadget",
         "pubDate": "2026-08-09T15:30:00.000Z",
-        "relevanceScore": 21.44,
+        "relevanceScore": 41.12,
         "tags": [
           "Mobile",
           "Tutorial"
         ]
       }
+    ],
+    "development": [
+      {
+        "title": "Fixing a Silent Cache Bug in npmx.dev",
+        "link": "https://dev.to/tejas164321/fixing-a-silent-cache-bug-in-npmxdev-2bh6",
+        "source": "Dev.to",
+        "pubDate": "2026-08-10T05:32:55.000Z",
+        "relevanceScore": 23.93,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
+    "climate": [
+      {
+        "title": "Mount Toba eruption doesn't seem like it could nearly kill our species",
+        "link": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-09T11:00:14.000Z",
+        "relevanceScore": 22.23,
+        "tags": []
+      }
     ]
   },
   "stats": {
     "totalSources": 11,
-    "totalCategories": 12,
-    "avgRelevanceScore": 195.24526315789475,
+    "totalCategories": 13,
+    "avgRelevanceScore": 182.87999999999994,
     "topCategories": [
       {
         "category": "tech",
@@ -886,7 +887,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 7
+        "count": 8
       },
       {
         "category": "general",
@@ -894,10 +895,10 @@
       },
       {
         "category": "business",
-        "count": 5
+        "count": 4
       },
       {
-        "category": "development",
+        "category": "automotive",
         "count": 2
       }
     ]
