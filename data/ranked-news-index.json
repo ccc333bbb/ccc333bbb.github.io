@@ -1,20 +1,21 @@
 {
-  "lastUpdated": "2026-08-16T06:28:07.974Z",
-  "totalArticles": 45,
+  "lastUpdated": "2026-08-16T07:08:46.096Z",
+  "totalArticles": 47,
   "categories": [
     "business",
     "mobile",
+    "gaming",
     "development",
     "entertainment",
     "tech",
-    "ai-ml",
     "general",
+    "cloud",
     "space",
+    "ai-ml",
     "science",
-    "gaming",
     "startup",
-    "education",
-    "climate"
+    "climate",
+    "education"
   ],
   "topArticles": [
     {
@@ -23,8 +24,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-15T16:28:23.000Z",
-      "relevanceScore": 868.7,
-      "recommendationScore": 870.7,
+      "relevanceScore": 882.57,
+      "recommendationScore": 884.57,
       "tags": [
         "Science",
         "Report"
@@ -32,27 +33,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Why your App Tracking Transparency prompt doesn't show up (and how it got my app rejected)",
-      "link": "https://dev.to/ninomaedev/why-your-app-tracking-transparency-prompt-doesnt-show-up-and-how-it-got-my-app-rejected-oob",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2026-08-16T06:12:52.000Z",
-      "relevanceScore": 547.45,
-      "recommendationScore": 549.45,
-      "tags": [
-        "Mobile",
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade",
       "link": "https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/",
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-08-15T10:30:00.000Z",
-      "relevanceScore": 529.01,
-      "recommendationScore": 529.51,
+      "relevanceScore": 533.87,
+      "recommendationScore": 534.37,
       "tags": [
         "Mobile",
         "Update"
@@ -65,9 +52,22 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-14T21:22:05.000Z",
-      "relevanceScore": 495.88,
-      "recommendationScore": 497.88,
+      "relevanceScore": 475.74,
+      "recommendationScore": 477.74,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Why Restart Bugs Reveal Hidden Game State",
+      "link": "https://dev.to/zzzu2221/why-restart-bugs-reveal-hidden-game-state-2njc",
+      "source": "Dev.to",
+      "category": "gaming",
+      "pubDate": "2026-08-16T07:02:49.000Z",
+      "relevanceScore": 458.48,
+      "recommendationScore": 459.98,
+      "tags": [
+        "Web"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -76,8 +76,8 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-08-14T16:00:00.000Z",
-      "relevanceScore": 401.81,
-      "recommendationScore": 403.81,
+      "relevanceScore": 440.67,
+      "recommendationScore": 442.67,
       "tags": [
         "Tech",
         "Exclusive",
@@ -91,8 +91,19 @@
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2026-08-15T17:00:00.000Z",
-      "relevanceScore": 323.81,
-      "recommendationScore": 324.31,
+      "relevanceScore": 393.17,
+      "recommendationScore": 393.67,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How We Increased Shannon Entropy Throughput in Go by 41% Using a Lookup Table.",
+      "link": "https://dev.to/muslimkh09/how-we-increased-shannon-entropy-throughput-in-go-by-41-using-a-lookup-table-3bmc",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-08-16T07:01:00.000Z",
+      "relevanceScore": 342.97,
+      "recommendationScore": 344.97,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -102,24 +113,10 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-15T18:58:39.000Z",
-      "relevanceScore": 322.2,
-      "recommendationScore": 326.2,
+      "relevanceScore": 311.07,
+      "recommendationScore": 315.07,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why tech bosses keep sharing their manifestos about AI",
-      "link": "https://www.bbc.co.uk/news/articles/cz97ljy91zxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-14T23:06:27.000Z",
-      "relevanceScore": 301.73,
-      "recommendationScore": 303.73,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "beginner"
     },
     {
       "title": "Ariana Grande leaves problems at home as her tour hits the UK",
@@ -127,8 +124,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-16T02:01:42.000Z",
-      "relevanceScore": 295.11,
-      "recommendationScore": 295.61,
+      "relevanceScore": 302.98,
+      "recommendationScore": 303.48,
       "tags": [
         "Exclusive",
         "IPO"
@@ -136,14 +133,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Four patterns that keep my YouTube longform JSON queue from going stale",
-      "link": "https://dev.to/morinaga/four-patterns-that-keep-my-youtube-longform-json-queue-from-going-stale-2750",
+      "title": "Own Your Workflow: An Open Source Automated Proxy Generation and Cold Storage Tiering MAM",
+      "link": "https://dev.to/coldstorage/own-your-workflow-an-open-source-automated-proxy-generation-and-cold-storage-tiering-mam-1p1m",
       "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-16T06:20:40.000Z",
-      "relevanceScore": 289.48,
-      "recommendationScore": 289.98,
-      "tags": [],
+      "category": "cloud",
+      "pubDate": "2026-08-16T07:06:44.000Z",
+      "relevanceScore": 283.99,
+      "recommendationScore": 284.49,
+      "tags": [
+        "Cloud",
+        "Partnership"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -152,9 +152,37 @@
       "source": "MIT Technology Review",
       "category": "space",
       "pubDate": "2026-08-14T09:00:00.000Z",
-      "relevanceScore": 258.41,
-      "recommendationScore": 258.41,
+      "relevanceScore": 282.77,
+      "recommendationScore": 282.77,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why tech bosses keep sharing their manifestos about AI",
+      "link": "https://www.bbc.co.uk/news/articles/cz97ljy91zxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-14T23:06:27.000Z",
+      "relevanceScore": 267.59,
+      "recommendationScore": 269.59,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Remote workers report the highest well-being in study of 7,700 employees",
+      "link": "https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-08-15T13:53:38.000Z",
+      "relevanceScore": 258.55,
+      "recommendationScore": 259.05,
+      "tags": [
+        "Science",
+        "Report"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -163,8 +191,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-08-14T07:40:00.000Z",
-      "relevanceScore": 226.14,
-      "recommendationScore": 226.14,
+      "relevanceScore": 255.5,
+      "recommendationScore": 255.5,
       "tags": [
         "AI",
         "Acquisition"
@@ -177,23 +205,23 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-08-14T12:17:21.000Z",
-      "relevanceScore": 223.56,
-      "recommendationScore": 226.06,
+      "relevanceScore": 234.43,
+      "recommendationScore": 236.93,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Jason Arday death 'tragedy on so many levels' says PM",
-      "link": "https://www.bbc.co.uk/news/articles/c9982znvyk4o?at_medium=RSS&at_campaign=rss",
+      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
+      "link": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-08-15T17:43:04.000Z",
-      "relevanceScore": 222.95,
-      "recommendationScore": 223.45,
+      "pubDate": "2026-08-16T04:13:32.000Z",
+      "relevanceScore": 127.42,
+      "recommendationScore": 127.92,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "No Dumb Questions: What is AI context architecture? Why not just build your own?",
@@ -201,8 +229,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-08-14T18:00:00.000Z",
-      "relevanceScore": 106.21,
-      "recommendationScore": 108.21,
+      "relevanceScore": 122.07,
+      "recommendationScore": 124.07,
       "tags": [
         "AI"
       ],
@@ -214,10 +242,32 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-08-15T21:56:13.000Z",
-      "relevanceScore": 93.29,
-      "recommendationScore": 93.79,
+      "relevanceScore": 71.66,
+      "recommendationScore": 72.16,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Why are RAM prices so high right now?",
+      "link": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-15T18:30:00.000Z",
+      "relevanceScore": 52.47,
+      "recommendationScore": 53.97,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Protein or pickled garlic? What's new in ice cream",
+      "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-08-14T21:20:19.000Z",
+      "relevanceScore": 50.24,
+      "recommendationScore": 53.74,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "I survived two years as prime minister in a hit new game - then my cabinet deserted me",
@@ -225,25 +275,47 @@
       "source": "BBC Technology",
       "category": "mobile",
       "pubDate": "2026-08-15T23:45:44.000Z",
-      "relevanceScore": 83.16,
-      "recommendationScore": 85.66,
+      "relevanceScore": 47.52,
+      "recommendationScore": 50.02,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "My first project",
-      "link": "https://dev.to/tjuzo/my-first-project-pl4",
-      "source": "Dev.to",
-      "category": "gaming",
-      "pubDate": "2026-08-16T06:08:22.000Z",
-      "relevanceScore": 74.43,
-      "recommendationScore": 76.43,
+      "title": "Hawaii battles strong winds and rain as Hurricane Lala threat looms",
+      "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-16T06:53:22.000Z",
+      "relevanceScore": 32.95,
+      "recommendationScore": 33.45,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "Reform UK plans to overhaul welfare system to save £50bn",
+      "link": "https://www.bbc.co.uk/news/articles/cz977nxww1jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-16T00:39:22.000Z",
+      "relevanceScore": 30.7,
+      "recommendationScore": 31.2,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Major incidents across UK putting firefighters under 'incredible pressure', fire chief says",
+      "link": "https://www.bbc.co.uk/news/articles/cwyjjvd4g0qo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-15T21:28:54.000Z",
+      "relevanceScore": 30.07,
+      "recommendationScore": 30.57,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
@@ -251,8 +323,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-15T21:29:19.000Z",
-      "relevanceScore": 63.2,
-      "recommendationScore": 63.7,
+      "relevanceScore": 26.07,
+      "recommendationScore": 26.57,
       "tags": [
         "AI"
       ],
@@ -264,8 +336,8 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-08-16T03:00:00.000Z",
-      "relevanceScore": 62.31,
-      "recommendationScore": 62.81,
+      "relevanceScore": 25.17,
+      "recommendationScore": 25.67,
       "tags": [
         "Mobile"
       ],
@@ -277,8 +349,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-15T16:30:00.000Z",
-      "relevanceScore": 62.21,
-      "recommendationScore": 62.21,
+      "relevanceScore": 25.07,
+      "recommendationScore": 25.07,
       "tags": [
         "AI",
         "Startup",
@@ -292,8 +364,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-15T16:10:00.000Z",
-      "relevanceScore": 62.14,
-      "recommendationScore": 64.14,
+      "relevanceScore": 25,
+      "recommendationScore": 27,
       "tags": [
         "AI",
         "Tutorial"
@@ -306,8 +378,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-08-15T13:15:20.000Z",
-      "relevanceScore": 61.56,
-      "recommendationScore": 61.56,
+      "relevanceScore": 24.42,
+      "recommendationScore": 24.42,
       "tags": [
         "Startup"
       ],
@@ -319,8 +391,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-15T21:21:27.000Z",
-      "relevanceScore": 61.18,
-      "recommendationScore": 61.68,
+      "relevanceScore": 24.04,
+      "recommendationScore": 24.54,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -330,8 +402,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-15T20:45:00.000Z",
-      "relevanceScore": 61.06,
-      "recommendationScore": 61.56,
+      "relevanceScore": 23.92,
+      "recommendationScore": 24.42,
       "tags": [
         "AI"
       ],
@@ -343,91 +415,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-08-15T15:46:05.000Z",
-      "relevanceScore": 61.06,
-      "recommendationScore": 61.56,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Secondhand book sales are booming. Is it because of AI?",
-      "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-15T11:25:32.000Z",
-      "relevanceScore": 59.19,
-      "recommendationScore": 59.69,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Why are RAM prices so high right now?",
-      "link": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-15T18:30:00.000Z",
-      "relevanceScore": 58.61,
-      "recommendationScore": 60.11,
-      "tags": [],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Anthropic is watermarking text generated by Claude to comply with EU law",
-      "link": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-15T18:08:36.000Z",
-      "relevanceScore": 58.53,
-      "recommendationScore": 59.03,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "This scientist is helping build a missing map of childhood",
-      "link": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
-      "source": "MIT Technology Review",
-      "category": "education",
-      "pubDate": "2026-08-14T09:00:00.000Z",
-      "relevanceScore": 57.41,
-      "recommendationScore": 57.91,
-      "tags": [
-        "Launch"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
-      "link": "https://www.reddit.com/r/programming/comments/1vo44t4/how_2004_runescape_fit_a_multiplayer_rpg_into_56k/",
-      "source": "Reddit Programming",
-      "category": "development",
-      "pubDate": "2026-08-14T11:01:54.000Z",
-      "relevanceScore": 54.31,
-      "recommendationScore": 56.31,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "This Beautifully Weird Necklace Is Secretly a USB Drive",
-      "link": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-08-15T11:00:00.000Z",
-      "relevanceScore": 49.11,
-      "recommendationScore": 49.61,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Coding Magic the Gathering in C# - PART ONE - Why Build A Card Game in WinForms",
-      "link": "https://www.reddit.com/r/programming/comments/1vo8qw5/coding_magic_the_gathering_in_c_part_one_why/",
-      "source": "Reddit Programming",
-      "category": "gaming",
-      "pubDate": "2026-08-14T14:25:48.000Z",
-      "relevanceScore": 36.49,
-      "recommendationScore": 38.49,
+      "relevanceScore": 23.92,
+      "recommendationScore": 24.42,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -437,41 +426,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-15T18:26:27.000Z",
-      "relevanceScore": 34.59,
-      "recommendationScore": 37.09,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Rescuers search for survivors of powerful Indonesia earthquake",
-      "link": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-16T04:13:32.000Z",
-      "relevanceScore": 31.55,
-      "recommendationScore": 32.05,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Reform UK plans to overhaul welfare system to save £50bn",
-      "link": "https://www.bbc.co.uk/news/articles/cz977nxww1jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-16T00:39:22.000Z",
-      "relevanceScore": 30.84,
-      "recommendationScore": 31.34,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Major incidents across UK putting firefighters under 'incredible pressure', fire chief says",
-      "link": "https://www.bbc.co.uk/news/articles/cwyjjvd4g0qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-15T21:28:54.000Z",
-      "relevanceScore": 30.2,
-      "recommendationScore": 30.7,
+      "relevanceScore": 23.46,
+      "recommendationScore": 25.96,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -481,9 +437,22 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-15T21:30:00.000Z",
-      "relevanceScore": 23.21,
-      "recommendationScore": 26.21,
+      "relevanceScore": 23.07,
+      "recommendationScore": 26.07,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Secondhand book sales are booming. Is it because of AI?",
+      "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-15T11:25:32.000Z",
+      "relevanceScore": 22.06,
+      "recommendationScore": 22.56,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -492,12 +461,23 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2026-08-15T11:09:57.000Z",
-      "relevanceScore": 22.14,
-      "recommendationScore": 22.64,
+      "relevanceScore": 22,
+      "recommendationScore": 22.5,
       "tags": [
         "Web"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "This Beautifully Weird Necklace Is Secretly a USB Drive",
+      "link": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-08-15T11:00:00.000Z",
+      "relevanceScore": 21.97,
+      "recommendationScore": 22.47,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Retrospec Joe Rev 2 Review (2026): Putting the ‘Joy’ in Joyride",
@@ -505,8 +485,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-15T11:00:00.000Z",
-      "relevanceScore": 22.11,
-      "recommendationScore": 22.61,
+      "relevanceScore": 21.97,
+      "recommendationScore": 22.47,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -516,8 +496,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-15T10:30:00.000Z",
-      "relevanceScore": 22.01,
-      "recommendationScore": 23.51,
+      "relevanceScore": 21.87,
+      "recommendationScore": 23.37,
       "tags": [
         "Update"
       ],
@@ -529,9 +509,46 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-15T20:00:00.000Z",
-      "relevanceScore": 21.91,
-      "recommendationScore": 23.91,
+      "relevanceScore": 21.77,
+      "recommendationScore": 23.77,
       "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Anthropic is watermarking text generated by Claude to comply with EU law",
+      "link": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-15T18:08:36.000Z",
+      "relevanceScore": 21.4,
+      "recommendationScore": 21.9,
+      "tags": [
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tennessee County Commissioner Calls Flock CEO \"an enemy of the American people.\"",
+      "link": "https://www.reddit.com/r/technology/comments/1vpkiyv/tennessee_county_commissioner_calls_flock_ceo_an/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-08-16T02:02:42.000Z",
+      "relevanceScore": 20.98,
+      "recommendationScore": 21.48,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "This scientist is helping build a missing map of childhood",
+      "link": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
+      "source": "MIT Technology Review",
+      "category": "education",
+      "pubDate": "2026-08-14T09:00:00.000Z",
+      "relevanceScore": 20.27,
+      "recommendationScore": 20.77,
+      "tags": [
+        "Launch"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -540,23 +557,34 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-14T14:47:15.000Z",
-      "relevanceScore": 20.06,
-      "recommendationScore": 20.56,
+      "relevanceScore": 19.93,
+      "recommendationScore": 20.43,
       "tags": [
         "Business"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Protein or pickled garlic? What's new in ice cream",
-      "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-08-14T21:20:19.000Z",
-      "relevanceScore": 19.37,
-      "recommendationScore": 22.87,
+      "title": "US civil rights agency denies issuing order halting all federal class discrimination complaints",
+      "link": "https://abcnews.com/Business/wireStory/us-civil-rights-agency-denies-issuing-order-halting-135659713",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-14T23:02:49.000Z",
+      "relevanceScore": 19.58,
+      "recommendationScore": 20.08,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Chris Hansen banned from Roblox live at CrimeCon during child safety demo with Schlep",
+      "link": "https://www.reddit.com/r/technology/comments/1vp6ev7/chris_hansen_banned_from_roblox_live_at_crimecon/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-08-15T15:56:27.000Z",
+      "relevanceScore": 18.96,
+      "recommendationScore": 19.46,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Vulnerability giving attackers full control of Macs is under active exploitation",
@@ -564,8 +592,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-14T18:32:14.000Z",
-      "relevanceScore": 18.81,
-      "recommendationScore": 19.31,
+      "relevanceScore": 18.68,
+      "recommendationScore": 19.18,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -577,7 +605,7 @@
         "link": "https://abcnews.com/Business/wireStory/obesity-drugs-show-early-promise-hormonal-disorder-pmos-135669993",
         "source": "ABC News Business",
         "pubDate": "2026-08-15T16:28:23.000Z",
-        "relevanceScore": 868.7,
+        "relevanceScore": 882.57,
         "tags": [
           "Science",
           "Report"
@@ -588,7 +616,7 @@
         "link": "https://www.npr.org/2026/08/14/nx-s1-5929414/why-some-companies-are-paying-more-than-1-million-to-get-through-the-panama-canal",
         "source": "NPR Business",
         "pubDate": "2026-08-14T21:22:05.000Z",
-        "relevanceScore": 495.88,
+        "relevanceScore": 475.74,
         "tags": []
       },
       {
@@ -596,7 +624,7 @@
         "link": "https://abcnews.com/Business/wireStory/iran-qatar-holding-pilots-israeli-strikes-kill-9-135667603",
         "source": "ABC News Business",
         "pubDate": "2026-08-15T18:26:27.000Z",
-        "relevanceScore": 34.59,
+        "relevanceScore": 23.46,
         "tags": []
       },
       {
@@ -604,30 +632,27 @@
         "link": "https://www.npr.org/2026/08/14/nx-s1-5929422/inflation-spending-economy-groceries-gas",
         "source": "NPR Business",
         "pubDate": "2026-08-14T14:47:15.000Z",
-        "relevanceScore": 20.06,
+        "relevanceScore": 19.93,
         "tags": [
           "Business"
         ]
+      },
+      {
+        "title": "US civil rights agency denies issuing order halting all federal class discrimination complaints",
+        "link": "https://abcnews.com/Business/wireStory/us-civil-rights-agency-denies-issuing-order-halting-135659713",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-14T23:02:49.000Z",
+        "relevanceScore": 19.58,
+        "tags": []
       }
     ],
     "mobile": [
-      {
-        "title": "Why your App Tracking Transparency prompt doesn't show up (and how it got my app rejected)",
-        "link": "https://dev.to/ninomaedev/why-your-app-tracking-transparency-prompt-doesnt-show-up-and-how-it-got-my-app-rejected-oob",
-        "source": "Dev.to",
-        "pubDate": "2026-08-16T06:12:52.000Z",
-        "relevanceScore": 547.45,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
-      },
       {
         "title": "Instapaper, the Original Read-It-Later App, Just Got a Huge Upgrade",
         "link": "https://www.wired.com/story/instapaper-the-original-read-it-later-app-just-got-a-huge-upgrade/",
         "source": "Wired",
         "pubDate": "2026-08-15T10:30:00.000Z",
-        "relevanceScore": 529.01,
+        "relevanceScore": 533.87,
         "tags": [
           "Mobile",
           "Update"
@@ -638,7 +663,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cq56pzqy6jvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-15T23:45:44.000Z",
-        "relevanceScore": 83.16,
+        "relevanceScore": 47.52,
         "tags": [
           "Mobile"
         ]
@@ -648,10 +673,30 @@
         "link": "https://www.theverge.com/gadgets/980448/polaroid-go-second-generation-film-pack-bundle-deal-sale",
         "source": "The Verge",
         "pubDate": "2026-08-16T03:00:00.000Z",
-        "relevanceScore": 62.31,
+        "relevanceScore": 25.17,
         "tags": [
           "Mobile"
         ]
+      }
+    ],
+    "gaming": [
+      {
+        "title": "Why Restart Bugs Reveal Hidden Game State",
+        "link": "https://dev.to/zzzu2221/why-restart-bugs-reveal-hidden-game-state-2njc",
+        "source": "Dev.to",
+        "pubDate": "2026-08-16T07:02:49.000Z",
+        "relevanceScore": 458.48,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
+        "link": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
+        "source": "The Verge",
+        "pubDate": "2026-08-15T21:56:13.000Z",
+        "relevanceScore": 71.66,
+        "tags": []
       }
     ],
     "development": [
@@ -660,7 +705,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/how-to-bring-your-software-delivery-workflow-into-github-with-agent-apps/",
         "source": "GitHub Blog",
         "pubDate": "2026-08-14T16:00:00.000Z",
-        "relevanceScore": 401.81,
+        "relevanceScore": 440.67,
         "tags": [
           "Tech",
           "Exclusive",
@@ -668,19 +713,11 @@
         ]
       },
       {
-        "title": "Four patterns that keep my YouTube longform JSON queue from going stale",
-        "link": "https://dev.to/morinaga/four-patterns-that-keep-my-youtube-longform-json-queue-from-going-stale-2750",
+        "title": "How We Increased Shannon Entropy Throughput in Go by 41% Using a Lookup Table.",
+        "link": "https://dev.to/muslimkh09/how-we-increased-shannon-entropy-throughput-in-go-by-41-using-a-lookup-table-3bmc",
         "source": "Dev.to",
-        "pubDate": "2026-08-16T06:20:40.000Z",
-        "relevanceScore": 289.48,
-        "tags": []
-      },
-      {
-        "title": "How 2004 RuneScape fit a multiplayer RPG into 56k dial-up",
-        "link": "https://www.reddit.com/r/programming/comments/1vo44t4/how_2004_runescape_fit_a_multiplayer_rpg_into_56k/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-14T11:01:54.000Z",
-        "relevanceScore": 54.31,
+        "pubDate": "2026-08-16T07:01:00.000Z",
+        "relevanceScore": 342.97,
         "tags": []
       }
     ],
@@ -690,7 +727,7 @@
         "link": "https://www.theverge.com/gadgets/980275/elektron-model-cycles-model-samples-groovebox-electronic-music-instruments-review",
         "source": "The Verge",
         "pubDate": "2026-08-15T17:00:00.000Z",
-        "relevanceScore": 323.81,
+        "relevanceScore": 393.17,
         "tags": []
       }
     ],
@@ -700,7 +737,34 @@
         "link": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
         "source": "TechCrunch",
         "pubDate": "2026-08-15T18:58:39.000Z",
-        "relevanceScore": 322.2,
+        "relevanceScore": 311.07,
+        "tags": []
+      },
+      {
+        "title": "Remote workers report the highest well-being in study of 7,700 employees",
+        "link": "https://www.reddit.com/r/technology/comments/1vp3h33/remote_workers_report_the_highest_wellbeing_in/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-15T13:53:38.000Z",
+        "relevanceScore": 258.55,
+        "tags": [
+          "Science",
+          "Report"
+        ]
+      },
+      {
+        "title": "Why are RAM prices so high right now?",
+        "link": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
+        "source": "Engadget",
+        "pubDate": "2026-08-15T18:30:00.000Z",
+        "relevanceScore": 52.47,
+        "tags": []
+      },
+      {
+        "title": "Protein or pickled garlic? What's new in ice cream",
+        "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-14T21:20:19.000Z",
+        "relevanceScore": 50.24,
         "tags": []
       },
       {
@@ -708,33 +772,7 @@
         "link": "https://arstechnica.com/culture/2026/08/visionquest-trailer-kicks-off-disneys-d23-fan-event/",
         "source": "Ars Technica",
         "pubDate": "2026-08-15T21:21:27.000Z",
-        "relevanceScore": 61.18,
-        "tags": []
-      },
-      {
-        "title": "Why are RAM prices so high right now?",
-        "link": "https://www.engadget.com/2236799/why-ram-prices-so-high/",
-        "source": "Engadget",
-        "pubDate": "2026-08-15T18:30:00.000Z",
-        "relevanceScore": 58.61,
-        "tags": []
-      },
-      {
-        "title": "Anthropic is watermarking text generated by Claude to comply with EU law",
-        "link": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude/",
-        "source": "Engadget",
-        "pubDate": "2026-08-15T18:08:36.000Z",
-        "relevanceScore": 58.53,
-        "tags": [
-          "Regulation"
-        ]
-      },
-      {
-        "title": "This Beautifully Weird Necklace Is Secretly a USB Drive",
-        "link": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
-        "source": "Wired",
-        "pubDate": "2026-08-15T11:00:00.000Z",
-        "relevanceScore": 49.11,
+        "relevanceScore": 24.04,
         "tags": []
       },
       {
@@ -742,7 +780,15 @@
         "link": "https://www.engadget.com/2236801/what-is-bluetooth-codec-which-offers-best-audio-quality/",
         "source": "Engadget",
         "pubDate": "2026-08-15T21:30:00.000Z",
-        "relevanceScore": 23.21,
+        "relevanceScore": 23.07,
+        "tags": []
+      },
+      {
+        "title": "This Beautifully Weird Necklace Is Secretly a USB Drive",
+        "link": "https://www.wired.com/story/this-beautifully-weird-necklace-is-secretly-a-usb-drive/",
+        "source": "Wired",
+        "pubDate": "2026-08-15T11:00:00.000Z",
+        "relevanceScore": 21.97,
         "tags": []
       },
       {
@@ -750,7 +796,7 @@
         "link": "https://www.wired.com/review/retrospec-joe-rev-2/",
         "source": "Wired",
         "pubDate": "2026-08-15T11:00:00.000Z",
-        "relevanceScore": 22.11,
+        "relevanceScore": 21.97,
         "tags": []
       },
       {
@@ -758,7 +804,7 @@
         "link": "https://www.wired.com/story/best-apple-watch-accessories/",
         "source": "Wired",
         "pubDate": "2026-08-15T10:30:00.000Z",
-        "relevanceScore": 22.01,
+        "relevanceScore": 21.87,
         "tags": [
           "Update"
         ]
@@ -768,15 +814,33 @@
         "link": "https://www.engadget.com/2237226/apple-watch-battery-replacement-how-much-cost-worth-it/",
         "source": "Engadget",
         "pubDate": "2026-08-15T20:00:00.000Z",
-        "relevanceScore": 21.91,
+        "relevanceScore": 21.77,
         "tags": []
       },
       {
-        "title": "Protein or pickled garlic? What's new in ice cream",
-        "link": "https://www.bbc.co.uk/news/articles/c9826zl0945o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-08-14T21:20:19.000Z",
-        "relevanceScore": 19.37,
+        "title": "Anthropic is watermarking text generated by Claude to comply with EU law",
+        "link": "https://www.engadget.com/2237691/anthropic-watermarking-text-generated-by-claude/",
+        "source": "Engadget",
+        "pubDate": "2026-08-15T18:08:36.000Z",
+        "relevanceScore": 21.4,
+        "tags": [
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Tennessee County Commissioner Calls Flock CEO \"an enemy of the American people.\"",
+        "link": "https://www.reddit.com/r/technology/comments/1vpkiyv/tennessee_county_commissioner_calls_flock_ceo_an/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-16T02:02:42.000Z",
+        "relevanceScore": 20.98,
+        "tags": []
+      },
+      {
+        "title": "Chris Hansen banned from Roblox live at CrimeCon during child safety demo with Schlep",
+        "link": "https://www.reddit.com/r/technology/comments/1vp6ev7/chris_hansen_banned_from_roblox_live_at_crimecon/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-15T15:56:27.000Z",
+        "relevanceScore": 18.96,
         "tags": []
       },
       {
@@ -784,7 +848,85 @@
         "link": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
         "source": "Ars Technica",
         "pubDate": "2026-08-14T18:32:14.000Z",
-        "relevanceScore": 18.81,
+        "relevanceScore": 18.68,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Ariana Grande leaves problems at home as her tour hits the UK",
+        "link": "https://www.bbc.co.uk/news/articles/cn0n7rln2rno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-16T02:01:42.000Z",
+        "relevanceScore": 302.98,
+        "tags": [
+          "Exclusive",
+          "IPO"
+        ]
+      },
+      {
+        "title": "Rescuers search for survivors of powerful Indonesia earthquake",
+        "link": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-16T04:13:32.000Z",
+        "relevanceScore": 127.42,
+        "tags": []
+      },
+      {
+        "title": "Hawaii battles strong winds and rain as Hurricane Lala threat looms",
+        "link": "https://www.bbc.co.uk/news/articles/crmrr7kjy9vo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-16T06:53:22.000Z",
+        "relevanceScore": 32.95,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Reform UK plans to overhaul welfare system to save £50bn",
+        "link": "https://www.bbc.co.uk/news/articles/cz977nxww1jo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-16T00:39:22.000Z",
+        "relevanceScore": 30.7,
+        "tags": []
+      },
+      {
+        "title": "Major incidents across UK putting firefighters under 'incredible pressure', fire chief says",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjjvd4g0qo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-15T21:28:54.000Z",
+        "relevanceScore": 30.07,
+        "tags": []
+      }
+    ],
+    "cloud": [
+      {
+        "title": "Own Your Workflow: An Open Source Automated Proxy Generation and Cold Storage Tiering MAM",
+        "link": "https://dev.to/coldstorage/own-your-workflow-an-open-source-automated-proxy-generation-and-cold-storage-tiering-mam-1p1m",
+        "source": "Dev.to",
+        "pubDate": "2026-08-16T07:06:44.000Z",
+        "relevanceScore": 283.99,
+        "tags": [
+          "Cloud",
+          "Partnership"
+        ]
+      }
+    ],
+    "space": [
+      {
+        "title": "Job titles of the future: Space travel agent",
+        "link": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-08-14T09:00:00.000Z",
+        "relevanceScore": 282.77,
+        "tags": []
+      },
+      {
+        "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
+        "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-15T15:46:05.000Z",
+        "relevanceScore": 23.92,
         "tags": []
       }
     ],
@@ -794,7 +936,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cz97ljy91zxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-14T23:06:27.000Z",
-        "relevanceScore": 301.73,
+        "relevanceScore": 267.59,
         "tags": [
           "AI",
           "Tech"
@@ -805,7 +947,7 @@
         "link": "https://stackoverflow.blog/2026/08/14/solving-integration-woes-with-a-hackathon/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-08-14T07:40:00.000Z",
-        "relevanceScore": 226.14,
+        "relevanceScore": 255.5,
         "tags": [
           "AI",
           "Acquisition"
@@ -816,7 +958,7 @@
         "link": "https://stackoverflow.blog/2026/08/14/ndq-ai-context-architecture-build-buy/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-08-14T18:00:00.000Z",
-        "relevanceScore": 106.21,
+        "relevanceScore": 122.07,
         "tags": [
           "AI"
         ]
@@ -826,7 +968,7 @@
         "link": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
         "source": "TechCrunch",
         "pubDate": "2026-08-15T21:29:19.000Z",
-        "relevanceScore": 63.2,
+        "relevanceScore": 26.07,
         "tags": [
           "AI"
         ]
@@ -836,7 +978,7 @@
         "link": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
         "source": "TechCrunch",
         "pubDate": "2026-08-15T16:30:00.000Z",
-        "relevanceScore": 62.21,
+        "relevanceScore": 25.07,
         "tags": [
           "AI",
           "Startup",
@@ -848,7 +990,7 @@
         "link": "https://techcrunch.com/2026/08/15/how-to-tell-if-your-ai-platforms-accounts-have-been-hacked/",
         "source": "TechCrunch",
         "pubDate": "2026-08-15T16:10:00.000Z",
-        "relevanceScore": 62.14,
+        "relevanceScore": 25,
         "tags": [
           "AI",
           "Tutorial"
@@ -859,7 +1001,7 @@
         "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
         "source": "The Verge",
         "pubDate": "2026-08-15T20:45:00.000Z",
-        "relevanceScore": 61.06,
+        "relevanceScore": 23.92,
         "tags": [
           "AI"
         ]
@@ -869,73 +1011,10 @@
         "link": "https://www.bbc.co.uk/news/articles/cp3rprx2wl4o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-15T11:25:32.000Z",
-        "relevanceScore": 59.19,
+        "relevanceScore": 22.06,
         "tags": [
           "AI"
         ]
-      }
-    ],
-    "general": [
-      {
-        "title": "Ariana Grande leaves problems at home as her tour hits the UK",
-        "link": "https://www.bbc.co.uk/news/articles/cn0n7rln2rno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-16T02:01:42.000Z",
-        "relevanceScore": 295.11,
-        "tags": [
-          "Exclusive",
-          "IPO"
-        ]
-      },
-      {
-        "title": "Jason Arday death 'tragedy on so many levels' says PM",
-        "link": "https://www.bbc.co.uk/news/articles/c9982znvyk4o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-15T17:43:04.000Z",
-        "relevanceScore": 222.95,
-        "tags": []
-      },
-      {
-        "title": "Rescuers search for survivors of powerful Indonesia earthquake",
-        "link": "https://www.bbc.co.uk/news/articles/c3v00w5ylw9o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-16T04:13:32.000Z",
-        "relevanceScore": 31.55,
-        "tags": []
-      },
-      {
-        "title": "Reform UK plans to overhaul welfare system to save £50bn",
-        "link": "https://www.bbc.co.uk/news/articles/cz977nxww1jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-16T00:39:22.000Z",
-        "relevanceScore": 30.84,
-        "tags": []
-      },
-      {
-        "title": "Major incidents across UK putting firefighters under 'incredible pressure', fire chief says",
-        "link": "https://www.bbc.co.uk/news/articles/cwyjjvd4g0qo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-15T21:28:54.000Z",
-        "relevanceScore": 30.2,
-        "tags": []
-      }
-    ],
-    "space": [
-      {
-        "title": "Job titles of the future: Space travel agent",
-        "link": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-08-14T09:00:00.000Z",
-        "relevanceScore": 258.41,
-        "tags": []
-      },
-      {
-        "title": "Ukraine strikes major Russian rocket factory with cruise missiles",
-        "link": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-15T15:46:05.000Z",
-        "relevanceScore": 61.06,
-        "tags": []
       }
     ],
     "science": [
@@ -944,38 +1023,10 @@
         "link": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-14T12:17:21.000Z",
-        "relevanceScore": 223.56,
+        "relevanceScore": 234.43,
         "tags": [
           "Tech"
         ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "Matt Groening lets slip that Simpsons: Hit &#038; Run might be making a comeback",
-        "link": "https://www.theverge.com/entertainment/980720/matt-groening-simpsons-hit-run-d23",
-        "source": "The Verge",
-        "pubDate": "2026-08-15T21:56:13.000Z",
-        "relevanceScore": 93.29,
-        "tags": []
-      },
-      {
-        "title": "My first project",
-        "link": "https://dev.to/tjuzo/my-first-project-pl4",
-        "source": "Dev.to",
-        "pubDate": "2026-08-16T06:08:22.000Z",
-        "relevanceScore": 74.43,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Coding Magic the Gathering in C# - PART ONE - Why Build A Card Game in WinForms",
-        "link": "https://www.reddit.com/r/programming/comments/1vo8qw5/coding_magic_the_gathering_in_c_part_one_why/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-14T14:25:48.000Z",
-        "relevanceScore": 36.49,
-        "tags": []
       }
     ],
     "startup": [
@@ -984,21 +1035,9 @@
         "link": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
         "source": "TechCrunch",
         "pubDate": "2026-08-15T13:15:20.000Z",
-        "relevanceScore": 61.56,
+        "relevanceScore": 24.42,
         "tags": [
           "Startup"
-        ]
-      }
-    ],
-    "education": [
-      {
-        "title": "This scientist is helping build a missing map of childhood",
-        "link": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-08-14T09:00:00.000Z",
-        "relevanceScore": 57.41,
-        "tags": [
-          "Launch"
         ]
       }
     ],
@@ -1008,37 +1047,49 @@
         "link": "https://arstechnica.com/science/2026/08/so-much-solar-digging-into-the-list-of-every-us-power-plant-that-went-online-this-year/",
         "source": "Ars Technica",
         "pubDate": "2026-08-15T11:09:57.000Z",
-        "relevanceScore": 22.14,
+        "relevanceScore": 22,
         "tags": [
           "Web"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "title": "This scientist is helping build a missing map of childhood",
+        "link": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-08-14T09:00:00.000Z",
+        "relevanceScore": 20.27,
+        "tags": [
+          "Launch"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 13,
-    "avgRelevanceScore": 151.7444444444445,
+    "totalCategories": 14,
+    "avgRelevanceScore": 144.78787234042557,
     "topCategories": [
       {
         "category": "tech",
-        "count": 11
+        "count": 14
       },
       {
         "category": "ai-ml",
         "count": 8
       },
       {
+        "category": "business",
+        "count": 5
+      },
+      {
         "category": "general",
         "count": 5
       },
       {
-        "category": "business",
-        "count": 4
-      },
-      {
         "category": "mobile",
-        "count": 4
+        "count": 3
       }
     ]
   }
