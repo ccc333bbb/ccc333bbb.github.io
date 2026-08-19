@@ -1,23 +1,22 @@
 {
-  "lastUpdated": "2026-08-19T17:48:11.409Z",
-  "totalArticles": 45,
+  "lastUpdated": "2026-08-19T18:24:01.814Z",
+  "totalArticles": 47,
   "categories": [
     "health",
     "ai-ml",
-    "development",
     "business",
-    "gaming",
+    "development",
     "general",
+    "gaming",
+    "science",
+    "mobile",
     "startup",
     "tech",
-    "mobile",
-    "science",
     "automotive",
     "finance",
-    "social",
-    "world",
     "blockchain",
-    "entertainment"
+    "entertainment",
+    "social"
   ],
   "topArticles": [
     {
@@ -26,19 +25,8 @@
       "source": "Ars Technica",
       "category": "health",
       "pubDate": "2026-08-19T16:53:56.000Z",
-      "relevanceScore": 1554.82,
-      "recommendationScore": 1555.32,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Merck-Moderna mRNA cancer vaccine succeeds in late-stage melanoma trial",
-      "link": "https://www.reddit.com/r/worldnews/comments/1vslvpe/merckmoderna_mrna_cancer_vaccine_succeeds_in/",
-      "source": "Reddit World News",
-      "category": "health",
-      "pubDate": "2026-08-19T13:05:05.000Z",
-      "relevanceScore": 1034.06,
-      "recommendationScore": 1034.56,
+      "relevanceScore": 1695.7,
+      "recommendationScore": 1696.2,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -48,11 +36,27 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-08-18T12:10:00.000Z",
-      "relevanceScore": 840.07,
-      "recommendationScore": 842.07,
+      "relevanceScore": 1004.95,
+      "recommendationScore": 1006.95,
       "tags": [
         "AI",
         "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Google Checks Is Shutting Down: What the Privacy Compliance Platform Deprecation Means for Developers",
+      "link": "https://dev.to/jamilxt/google-checks-is-shutting-down-what-the-privacy-compliance-platform-deprecation-means-for-4h7k",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T18:15:43.000Z",
+      "relevanceScore": 932.97,
+      "recommendationScore": 934.47,
+      "tags": [
+        "AI",
+        "Security",
+        "Mobile",
+        "Regulation"
       ],
       "readingLevel": "advanced"
     },
@@ -62,8 +66,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-19T17:00:00.000Z",
-      "relevanceScore": 754.34,
-      "recommendationScore": 754.34,
+      "relevanceScore": 851.72,
+      "recommendationScore": 851.72,
       "tags": [
         "AI",
         "Mobile"
@@ -71,15 +75,17 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Building an agentic SDLC with a QA engineering mindset",
-      "link": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
-      "source": "Stack Overflow Blog",
-      "category": "development",
-      "pubDate": "2026-08-18T07:40:00.000Z",
-      "relevanceScore": 619.67,
-      "recommendationScore": 620.17,
-      "tags": [],
-      "readingLevel": "advanced"
+      "title": "Rules, Standards, and a Missing Line on My Chart",
+      "link": "https://dev.to/lovestaco/rules-standards-and-a-missing-line-on-my-chart-4eme",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T18:14:05.000Z",
+      "relevanceScore": 812.47,
+      "recommendationScore": 812.47,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Flight attendants and pilots have highest risk of dying from radiation-linked cancers, study says",
@@ -87,8 +93,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-18T15:38:02.000Z",
-      "relevanceScore": 417.77,
-      "recommendationScore": 418.27,
+      "relevanceScore": 532.65,
+      "recommendationScore": 533.15,
       "tags": [
         "Science",
         "Report"
@@ -96,42 +102,18 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Meet the startup helping Wall Street put a price on AI compute",
-      "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T17:26:48.000Z",
-      "relevanceScore": 355.93,
-      "recommendationScore": 356.43,
-      "tags": [
-        "AI",
-        "Startup"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Google is trying to solve contrails with AI",
-      "link": "https://www.engadget.com/2240125/google-is-trying-to-solve-contrails-with-ai/",
-      "source": "Engadget",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T16:54:03.000Z",
-      "relevanceScore": 350.82,
-      "recommendationScore": 350.82,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Vite’s ?url Import Gives You a URL, Not jQuery",
-      "link": "https://dev.to/kahwee/vites-url-import-gives-you-a-url-not-jquery-1dp4",
+      "title": "Incremental Backup Using pg_basebackup in PostgreSQL 18",
+      "link": "https://dev.to/vahidusefzadeh/incremental-backup-using-pgbasebackup-in-postgresql-18-24ag",
       "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-08-19T17:41:49.000Z",
-      "relevanceScore": 346.48,
-      "recommendationScore": 346.48,
-      "tags": [],
-      "readingLevel": "beginner"
+      "pubDate": "2026-08-19T18:02:06.000Z",
+      "relevanceScore": 522.93,
+      "recommendationScore": 523.43,
+      "tags": [
+        "Exclusive",
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "FCC head Brendan Carr says Disney free speech lawsuit is 'without merit'",
@@ -139,25 +121,24 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-19T08:43:08.000Z",
-      "relevanceScore": 324.18,
-      "recommendationScore": 324.68,
+      "relevanceScore": 417.06,
+      "recommendationScore": 417.56,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "GTA VI keeps leaking ahead of its gameplay premiere",
-      "link": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-08-19T17:03:11.000Z",
-      "relevanceScore": 235.85,
-      "recommendationScore": 236.35,
+      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
+      "link": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T12:10:00.000Z",
+      "relevanceScore": 358.25,
+      "recommendationScore": 360.25,
       "tags": [
-        "Web",
-        "Analysis",
-        "Launch"
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -167,11 +148,65 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-19T14:06:42.000Z",
-      "relevanceScore": 234.26,
-      "recommendationScore": 234.76,
+      "relevanceScore": 358.14,
+      "recommendationScore": 358.64,
       "tags": [
         "Analysis",
         "Report"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Building an agentic SDLC with a QA engineering mindset",
+      "link": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-08-18T07:40:00.000Z",
+      "relevanceScore": 339.55,
+      "recommendationScore": 340.05,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "GTA VI keeps leaking ahead of its gameplay premiere",
+      "link": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
+      "source": "The Verge",
+      "category": "gaming",
+      "pubDate": "2026-08-19T17:03:11.000Z",
+      "relevanceScore": 319.73,
+      "recommendationScore": 320.23,
+      "tags": [
+        "Web",
+        "Analysis",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Child-monitoring apps might need a reboot",
+      "link": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-08-19T09:00:00.000Z",
+      "relevanceScore": 311.12,
+      "recommendationScore": 311.12,
+      "tags": [
+        "Tech",
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "source": "GitHub Blog",
+      "category": "mobile",
+      "pubDate": "2026-08-19T17:50:23.000Z",
+      "relevanceScore": 223.39,
+      "recommendationScore": 223.89,
+      "tags": [
+        "Mobile",
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
@@ -181,8 +216,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-08-19T16:16:18.000Z",
-      "relevanceScore": 204.69,
-      "recommendationScore": 205.19,
+      "relevanceScore": 211.57,
+      "recommendationScore": 212.07,
       "tags": [
         "Startup"
       ],
@@ -194,94 +229,12 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-19T16:15:00.000Z",
-      "relevanceScore": 203.69,
-      "recommendationScore": 205.69,
+      "relevanceScore": 210.57,
+      "recommendationScore": 212.57,
       "tags": [
         "Tech"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Add Google Authenticator 2FA to your Node app in two steps",
-      "link": "https://dev.to/amansoomro062/add-google-authenticator-2fa-to-your-node-app-in-two-steps-3n3n",
-      "source": "Dev.to",
-      "category": "mobile",
-      "pubDate": "2026-08-19T17:33:56.000Z",
-      "relevanceScore": 200.95,
-      "recommendationScore": 201.45,
-      "tags": [
-        "Mobile"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
-      "link": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2026-08-19T16:00:00.000Z",
-      "relevanceScore": 162.64,
-      "recommendationScore": 163.14,
-      "tags": [
-        "Tech",
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
-      "link": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T12:10:00.000Z",
-      "relevanceScore": 160.37,
-      "recommendationScore": 162.37,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Child-monitoring apps might need a reboot",
-      "link": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-08-19T09:00:00.000Z",
-      "relevanceScore": 123.24,
-      "recommendationScore": 123.24,
-      "tags": [
-        "Tech",
-        "Web"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "OpenAI slows down training after its AI carried out hack",
-      "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T11:19:12.000Z",
-      "relevanceScore": 106.7,
-      "recommendationScore": 107.2,
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Ubuntu Freezing Touchpad After Login on Matebook X",
-      "link": "https://dev.to/mkalioby/ubuntu-freezing-touchpad-after-login-on-matebook-x-4174",
-      "source": "Dev.to",
-      "category": "startup",
-      "pubDate": "2026-08-19T17:40:11.000Z",
-      "relevanceScore": 105.47,
-      "recommendationScore": 105.47,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
@@ -289,12 +242,64 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-19T15:44:53.000Z",
-      "relevanceScore": 91.59,
-      "recommendationScore": 92.09,
+      "relevanceScore": 165.47,
+      "recommendationScore": 165.97,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Meet the startup helping Wall Street put a price on AI compute",
+      "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T17:26:48.000Z",
+      "relevanceScore": 165.31,
+      "recommendationScore": 165.81,
+      "tags": [
+        "AI",
+        "Startup"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports",
+      "link": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-08-19T04:55:08.000Z",
+      "relevanceScore": 161.8,
+      "recommendationScore": 162.3,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+      "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+      "source": "Wired",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T16:44:07.000Z",
+      "relevanceScore": 136.17,
+      "recommendationScore": 136.67,
+      "tags": [
+        "AI",
+        "Web"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
+      "link": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-08-19T17:06:06.000Z",
+      "relevanceScore": 135.74,
+      "recommendationScore": 136.24,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Rivian spinout Also raises another $150M",
@@ -302,33 +307,11 @@
       "source": "TechCrunch",
       "category": "automotive",
       "pubDate": "2026-08-19T15:39:47.000Z",
-      "relevanceScore": 83.57,
-      "recommendationScore": 83.57,
+      "relevanceScore": 124.45,
+      "recommendationScore": 124.45,
       "tags": [
         "Funding"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tenders open for highly-sensitive West Bank settlement project, Israel announces",
-      "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "finance",
-      "pubDate": "2026-08-19T17:16:28.000Z",
-      "relevanceScore": 66.39,
-      "recommendationScore": 66.89,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Opening arguments set to begin in Meta's federal trial over child harms",
-      "link": "https://abcnews.com/Business/wireStory/opening-arguments-set-begin-metas-federal-trial-child-135728260",
-      "source": "ABC News Business",
-      "category": "social",
-      "pubDate": "2026-08-18T12:42:40.000Z",
-      "relevanceScore": 54.68,
-      "recommendationScore": 55.18,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -337,8 +320,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-08-19T16:34:24.000Z",
-      "relevanceScore": 48.75,
-      "recommendationScore": 48.75,
+      "relevanceScore": 123.63,
+      "recommendationScore": 123.63,
       "tags": [
         "AI"
       ],
@@ -350,8 +333,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-19T08:42:59.000Z",
-      "relevanceScore": 48.18,
-      "recommendationScore": 48.68,
+      "relevanceScore": 123.06,
+      "recommendationScore": 123.56,
       "tags": [
         "Exclusive"
       ],
@@ -363,8 +346,8 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-19T17:10:09.000Z",
-      "relevanceScore": 47.87,
-      "recommendationScore": 49.37,
+      "relevanceScore": 122.75,
+      "recommendationScore": 124.25,
       "tags": [
         "AI",
         "Security",
@@ -374,55 +357,31 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "A fantastical journey unfolds in gorgeous Wildwood trailer",
-      "link": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-08-19T17:06:06.000Z",
-      "relevanceScore": 47.86,
-      "recommendationScore": 48.36,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
-      "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T16:44:07.000Z",
-      "relevanceScore": 47.79,
-      "recommendationScore": 48.29,
-      "tags": [
-        "AI",
-        "Web"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump says U.S. and Canada reached deal to delay 50% U.S. tariffs on Canadian imports",
-      "link": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs",
-      "source": "NPR Business",
-      "category": "business",
-      "pubDate": "2026-08-19T04:55:08.000Z",
-      "relevanceScore": 47.42,
-      "recommendationScore": 47.92,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "Monzo says issue with card payments and transfers now resolved",
       "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "finance",
       "pubDate": "2026-08-19T16:04:16.000Z",
-      "relevanceScore": 47.15,
-      "recommendationScore": 47.65,
+      "relevanceScore": 122.03,
+      "recommendationScore": 122.53,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "OpenAI slows down training after its AI carried out hack",
+      "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "ai-ml",
+      "pubDate": "2026-08-19T11:19:12.000Z",
+      "relevanceScore": 121.58,
+      "recommendationScore": 122.08,
+      "tags": [
+        "AI",
+        "Security"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
@@ -430,8 +389,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-19T10:41:36.000Z",
-      "relevanceScore": 46.58,
-      "recommendationScore": 47.08,
+      "relevanceScore": 121.46,
+      "recommendationScore": 121.96,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -441,8 +400,8 @@
       "source": "Engadget",
       "category": "ai-ml",
       "pubDate": "2026-08-19T17:10:45.000Z",
-      "relevanceScore": 45.88,
-      "recommendationScore": 46.88,
+      "relevanceScore": 120.76,
+      "recommendationScore": 121.76,
       "tags": [
         "AI",
         "Business",
@@ -451,63 +410,56 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "Amazon is bringing drone deliveries to the Chicago and Atlanta metro areas as part of a major expansion",
-      "link": "https://www.engadget.com/2240088/amazon-is-bringing-drone-deliveries-to-the-chicago-and-atlanta-metro-areas/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-08-19T16:32:45.000Z",
-      "relevanceScore": 45.75,
-      "recommendationScore": 45.75,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "The critical tech staying safe by going underground",
       "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-08-18T23:25:21.000Z",
-      "relevanceScore": 44.32,
-      "recommendationScore": 44.82,
+      "relevanceScore": 119.2,
+      "recommendationScore": 119.7,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1638, Part 1 (Thread #1785)",
-      "link": "https://www.reddit.com/r/worldnews/comments/1vsbnac/rworldnews_live_thread_russian_invasion_of/",
-      "source": "Reddit World News",
-      "category": "world",
-      "pubDate": "2026-08-19T04:02:57.000Z",
-      "relevanceScore": 43.25,
-      "recommendationScore": 45.75,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Salmonella outbreak: What we know so far",
-      "link": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-19T16:43:56.000Z",
-      "relevanceScore": 31.79,
-      "recommendationScore": 33.29,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
-      "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "automotive",
-      "pubDate": "2026-08-19T15:33:32.000Z",
-      "relevanceScore": 31.55,
-      "recommendationScore": 31.55,
+      "title": "Google Pixel 11 Pro and Pixel 11 Pro XL Review: Smart Software, Small Upgrade",
+      "link": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2026-08-19T16:00:00.000Z",
+      "relevanceScore": 116.52,
+      "recommendationScore": 117.02,
       "tags": [
-        "Analysis"
+        "Tech",
+        "Update"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Donor fatigue guts demining in Asia, as active conflicts draw away funding",
+      "link": "https://abcnews.com/Business/wireStory/donor-fatigue-guts-demining-asia-active-conflicts-draw-135728807",
+      "source": "ABC News Business",
+      "category": "startup",
+      "pubDate": "2026-08-18T06:18:28.000Z",
+      "relevanceScore": 115.78,
+      "recommendationScore": 116.28,
+      "tags": [
+        "Startup",
+        "Funding"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Tenders open for highly-sensitive West Bank settlement project, Israel announces",
+      "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "finance",
+      "pubDate": "2026-08-19T17:16:28.000Z",
+      "relevanceScore": 69.77,
+      "recommendationScore": 70.27,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Thunderstorm warnings issued for parts of UK with flash flooding expected",
@@ -515,8 +467,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-19T12:09:47.000Z",
-      "relevanceScore": 30.37,
-      "recommendationScore": 30.87,
+      "relevanceScore": 69.75,
+      "recommendationScore": 70.25,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -526,11 +478,35 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-08-19T17:26:32.000Z",
-      "relevanceScore": 27.93,
-      "recommendationScore": 28.43,
+      "relevanceScore": 41.31,
+      "recommendationScore": 41.81,
       "tags": [
         "Security",
         "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Salmonella outbreak: What we know so far",
+      "link": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-19T16:43:56.000Z",
+      "relevanceScore": 31.67,
+      "recommendationScore": 33.17,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Israel confirms soldiers fired at car in which Hind Rajab was killed and opens criminal investigation",
+      "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "automotive",
+      "pubDate": "2026-08-19T15:33:32.000Z",
+      "relevanceScore": 31.43,
+      "recommendationScore": 31.43,
+      "tags": [
+        "Analysis"
       ],
       "readingLevel": "advanced"
     },
@@ -540,8 +516,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-19T16:11:30.000Z",
-      "relevanceScore": 26.68,
-      "recommendationScore": 27.18,
+      "relevanceScore": 26.56,
+      "recommendationScore": 27.06,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -551,8 +527,8 @@
       "source": "BBC Technology",
       "category": "blockchain",
       "pubDate": "2026-08-19T16:14:46.000Z",
-      "relevanceScore": 25.69,
-      "recommendationScore": 26.19,
+      "relevanceScore": 25.57,
+      "recommendationScore": 26.07,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -562,8 +538,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-19T15:56:56.000Z",
-      "relevanceScore": 25.63,
-      "recommendationScore": 26.13,
+      "relevanceScore": 25.51,
+      "recommendationScore": 26.01,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -573,12 +549,34 @@
       "source": "Wired",
       "category": "entertainment",
       "pubDate": "2026-08-19T14:33:04.000Z",
-      "relevanceScore": 25.35,
-      "recommendationScore": 26.85,
+      "relevanceScore": 25.23,
+      "recommendationScore": 26.73,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Mattel is releasing a full-scale building brick set of the original Xbox",
+      "link": "https://www.engadget.com/2240232/mattel-is-releasing-a-full-scale-building-brick-set-of-the-original-xbox/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-08-19T18:19:34.000Z",
+      "relevanceScore": 23.99,
+      "recommendationScore": 24.49,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Deus Ex and Dishonored designer Harvey Smith has a new studio making immersive sims",
+      "link": "https://www.engadget.com/2240223/deus-ex-and-dishonored-designer-harvey-smith-has-a-new-studio-making-immersive-sims/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-08-19T18:11:16.000Z",
+      "relevanceScore": 23.96,
+      "recommendationScore": 26.46,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "IKEA is teasing some Xbox... things",
@@ -586,10 +584,48 @@
       "source": "Engadget",
       "category": "gaming",
       "pubDate": "2026-08-19T17:43:39.000Z",
-      "relevanceScore": 23.98,
-      "recommendationScore": 23.98,
+      "relevanceScore": 23.87,
+      "recommendationScore": 23.87,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Flock's fastest-growing business is 60 mph police drones that can read license plates from the sky",
+      "link": "https://www.reddit.com/r/technology/comments/1vsmex8/flocks_fastestgrowing_business_is_60_mph_police/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-08-19T13:26:36.000Z",
+      "relevanceScore": 22.01,
+      "recommendationScore": 22.51,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Zuckerberg lied about concern for child safety, Meta whistleblower testifies at landmark trial",
+      "link": "https://www.reddit.com/r/technology/comments/1vsr7uc/zuckerberg_lied_about_concern_for_child_safety/",
+      "source": "Reddit Technology",
+      "category": "social",
+      "pubDate": "2026-08-19T16:22:58.000Z",
+      "relevanceScore": 21.1,
+      "recommendationScore": 21.6,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
+      "link": "https://www.reddit.com/r/technology/comments/1vsafo9/sabotage_experts_lawmakers_blast_rfk_jr_for/",
+      "source": "Reddit Technology",
+      "category": "tech",
+      "pubDate": "2026-08-19T03:04:24.000Z",
+      "relevanceScore": 19.93,
+      "recommendationScore": 20.43,
+      "tags": [
+        "Science",
+        "Report"
+      ],
+      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
@@ -599,15 +635,7 @@
         "link": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
         "source": "Ars Technica",
         "pubDate": "2026-08-19T16:53:56.000Z",
-        "relevanceScore": 1554.82,
-        "tags": []
-      },
-      {
-        "title": "Merck-Moderna mRNA cancer vaccine succeeds in late-stage melanoma trial",
-        "link": "https://www.reddit.com/r/worldnews/comments/1vslvpe/merckmoderna_mrna_cancer_vaccine_succeeds_in/",
-        "source": "Reddit World News",
-        "pubDate": "2026-08-19T13:05:05.000Z",
-        "relevanceScore": 1034.06,
+        "relevanceScore": 1695.7,
         "tags": []
       }
     ],
@@ -617,10 +645,23 @@
         "link": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-18T12:10:00.000Z",
-        "relevanceScore": 840.07,
+        "relevanceScore": 1004.95,
         "tags": [
           "AI",
           "Tech"
+        ]
+      },
+      {
+        "title": "Google Checks Is Shutting Down: What the Privacy Compliance Platform Deprecation Means for Developers",
+        "link": "https://dev.to/jamilxt/google-checks-is-shutting-down-what-the-privacy-compliance-platform-deprecation-means-for-4h7k",
+        "source": "Dev.to",
+        "pubDate": "2026-08-19T18:15:43.000Z",
+        "relevanceScore": 932.97,
+        "tags": [
+          "AI",
+          "Security",
+          "Mobile",
+          "Regulation"
         ]
       },
       {
@@ -628,29 +669,18 @@
         "link": "https://www.theverge.com/tech/982270/meta-ai-mac-app",
         "source": "The Verge",
         "pubDate": "2026-08-19T17:00:00.000Z",
-        "relevanceScore": 754.34,
+        "relevanceScore": 851.72,
         "tags": [
           "AI",
           "Mobile"
         ]
       },
       {
-        "title": "Meet the startup helping Wall Street put a price on AI compute",
-        "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-19T17:26:48.000Z",
-        "relevanceScore": 355.93,
-        "tags": [
-          "AI",
-          "Startup"
-        ]
-      },
-      {
-        "title": "Google is trying to solve contrails with AI",
-        "link": "https://www.engadget.com/2240125/google-is-trying-to-solve-contrails-with-ai/",
-        "source": "Engadget",
-        "pubDate": "2026-08-19T16:54:03.000Z",
-        "relevanceScore": 350.82,
+        "title": "Rules, Standards, and a Missing Line on My Chart",
+        "link": "https://dev.to/lovestaco/rules-standards-and-a-missing-line-on-my-chart-4eme",
+        "source": "Dev.to",
+        "pubDate": "2026-08-19T18:14:05.000Z",
+        "relevanceScore": 812.47,
         "tags": [
           "AI"
         ]
@@ -660,21 +690,10 @@
         "link": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-19T12:10:00.000Z",
-        "relevanceScore": 160.37,
+        "relevanceScore": 358.25,
         "tags": [
           "AI",
           "Tech"
-        ]
-      },
-      {
-        "title": "OpenAI slows down training after its AI carried out hack",
-        "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-08-19T11:19:12.000Z",
-        "relevanceScore": 106.7,
-        "tags": [
-          "AI",
-          "Security"
         ]
       },
       {
@@ -682,9 +701,31 @@
         "link": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers/",
         "source": "TechCrunch",
         "pubDate": "2026-08-19T15:44:53.000Z",
-        "relevanceScore": 91.59,
+        "relevanceScore": 165.47,
         "tags": [
           "AI"
+        ]
+      },
+      {
+        "title": "Meet the startup helping Wall Street put a price on AI compute",
+        "link": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-19T17:26:48.000Z",
+        "relevanceScore": 165.31,
+        "tags": [
+          "AI",
+          "Startup"
+        ]
+      },
+      {
+        "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
+        "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
+        "source": "Wired",
+        "pubDate": "2026-08-19T16:44:07.000Z",
+        "relevanceScore": 136.17,
+        "tags": [
+          "AI",
+          "Web"
         ]
       },
       {
@@ -692,7 +733,7 @@
         "link": "https://www.wired.com/review/google-pixel-watch-5/",
         "source": "Wired",
         "pubDate": "2026-08-19T16:34:24.000Z",
-        "relevanceScore": 48.75,
+        "relevanceScore": 123.63,
         "tags": [
           "AI"
         ]
@@ -702,7 +743,7 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
         "source": "The Verge",
         "pubDate": "2026-08-19T17:10:09.000Z",
-        "relevanceScore": 47.87,
+        "relevanceScore": 122.75,
         "tags": [
           "AI",
           "Security",
@@ -711,14 +752,14 @@
         ]
       },
       {
-        "title": "Coders Say They Already Found Workarounds to Claude’s Invisible Watermarks",
-        "link": "https://www.wired.com/story/coders-say-they-already-found-workarounds-to-claudes-invisible-watermarks/",
-        "source": "Wired",
-        "pubDate": "2026-08-19T16:44:07.000Z",
-        "relevanceScore": 47.79,
+        "title": "OpenAI slows down training after its AI carried out hack",
+        "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-19T11:19:12.000Z",
+        "relevanceScore": 121.58,
         "tags": [
           "AI",
-          "Web"
+          "Security"
         ]
       },
       {
@@ -726,30 +767,12 @@
         "link": "https://www.engadget.com/2240154/meta-ai-now-has-a-dedicated-desktop-app-for-mac/",
         "source": "Engadget",
         "pubDate": "2026-08-19T17:10:45.000Z",
-        "relevanceScore": 45.88,
+        "relevanceScore": 120.76,
         "tags": [
           "AI",
           "Business",
           "Mobile"
         ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Building an agentic SDLC with a QA engineering mindset",
-        "link": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-08-18T07:40:00.000Z",
-        "relevanceScore": 619.67,
-        "tags": []
-      },
-      {
-        "title": "Vite’s ?url Import Gives You a URL, Not jQuery",
-        "link": "https://dev.to/kahwee/vites-url-import-gives-you-a-url-not-jquery-1dp4",
-        "source": "Dev.to",
-        "pubDate": "2026-08-19T17:41:49.000Z",
-        "relevanceScore": 346.48,
-        "tags": []
       }
     ],
     "business": [
@@ -758,7 +781,7 @@
         "link": "https://abcnews.com/Business/wireStory/flight-attendants-pilots-highest-risk-dying-radiation-linked-135742030",
         "source": "ABC News Business",
         "pubDate": "2026-08-18T15:38:02.000Z",
-        "relevanceScore": 417.77,
+        "relevanceScore": 532.65,
         "tags": [
           "Science",
           "Report"
@@ -769,17 +792,7 @@
         "link": "https://www.npr.org/2026/08/19/nx-s1-5936665/abc-disney-sue-fcc-over-first-amendment-violations",
         "source": "NPR Business",
         "pubDate": "2026-08-19T08:43:08.000Z",
-        "relevanceScore": 324.18,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "FCC's lone Democrat says Disney 'has found its courage' in lawsuit against agency",
-        "link": "https://www.npr.org/2026/08/19/nx-s1-5936433/anna-gomez-fcc-abc-disney-lawsuit-first-amendment",
-        "source": "NPR Business",
-        "pubDate": "2026-08-19T08:42:59.000Z",
-        "relevanceScore": 48.18,
+        "relevanceScore": 417.06,
         "tags": [
           "Exclusive"
         ]
@@ -789,9 +802,19 @@
         "link": "https://www.npr.org/2026/08/19/g-s1-139156/trump-canada-tariffs",
         "source": "NPR Business",
         "pubDate": "2026-08-19T04:55:08.000Z",
-        "relevanceScore": 47.42,
+        "relevanceScore": 161.8,
         "tags": [
           "Partnership"
+        ]
+      },
+      {
+        "title": "FCC's lone Democrat says Disney 'has found its courage' in lawsuit against agency",
+        "link": "https://www.npr.org/2026/08/19/nx-s1-5936433/anna-gomez-fcc-abc-disney-lawsuit-first-amendment",
+        "source": "NPR Business",
+        "pubDate": "2026-08-19T08:42:59.000Z",
+        "relevanceScore": 123.06,
+        "tags": [
+          "Exclusive"
         ]
       },
       {
@@ -799,7 +822,57 @@
         "link": "https://abcnews.com/Business/wireStory/amazon-set-expand-drone-delivery-lightweight-packages-500-135764753",
         "source": "ABC News Business",
         "pubDate": "2026-08-19T10:41:36.000Z",
-        "relevanceScore": 46.58,
+        "relevanceScore": 121.46,
+        "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "Incremental Backup Using pg_basebackup in PostgreSQL 18",
+        "link": "https://dev.to/vahidusefzadeh/incremental-backup-using-pgbasebackup-in-postgresql-18-24ag",
+        "source": "Dev.to",
+        "pubDate": "2026-08-19T18:02:06.000Z",
+        "relevanceScore": 522.93,
+        "tags": [
+          "Exclusive",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Building an agentic SDLC with a QA engineering mindset",
+        "link": "https://stackoverflow.blog/2026/08/18/building-an-agentic-sdlc-with-a-qa-engineering-mindset/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-08-18T07:40:00.000Z",
+        "relevanceScore": 339.55,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Track defect found on approach to site of Lewes derailment, initial report says",
+        "link": "https://www.bbc.co.uk/news/articles/c4gx12v8z51o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-19T14:06:42.000Z",
+        "relevanceScore": 358.14,
+        "tags": [
+          "Analysis",
+          "Report"
+        ]
+      },
+      {
+        "title": "Thunderstorm warnings issued for parts of UK with flash flooding expected",
+        "link": "https://www.bbc.co.uk/news/articles/c0m7e9ym747o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-19T12:09:47.000Z",
+        "relevanceScore": 69.75,
+        "tags": []
+      },
+      {
+        "title": "Salmonella outbreak: What we know so far",
+        "link": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-19T16:43:56.000Z",
+        "relevanceScore": 31.67,
         "tags": []
       }
     ],
@@ -809,7 +882,7 @@
         "link": "https://www.theverge.com/games/982338/grand-theft-auto-vi-gta-leaks-videos",
         "source": "The Verge",
         "pubDate": "2026-08-19T17:03:11.000Z",
-        "relevanceScore": 235.85,
+        "relevanceScore": 319.73,
         "tags": [
           "Web",
           "Analysis",
@@ -821,48 +894,72 @@
         "link": "https://www.wired.com/review/google-pixel-11-pro-and-pixel-11-pro-xl/",
         "source": "Wired",
         "pubDate": "2026-08-19T16:00:00.000Z",
-        "relevanceScore": 162.64,
+        "relevanceScore": 116.52,
         "tags": [
           "Tech",
           "Update"
         ]
       },
       {
+        "title": "Mattel is releasing a full-scale building brick set of the original Xbox",
+        "link": "https://www.engadget.com/2240232/mattel-is-releasing-a-full-scale-building-brick-set-of-the-original-xbox/",
+        "source": "Engadget",
+        "pubDate": "2026-08-19T18:19:34.000Z",
+        "relevanceScore": 23.99,
+        "tags": []
+      },
+      {
+        "title": "Deus Ex and Dishonored designer Harvey Smith has a new studio making immersive sims",
+        "link": "https://www.engadget.com/2240223/deus-ex-and-dishonored-designer-harvey-smith-has-a-new-studio-making-immersive-sims/",
+        "source": "Engadget",
+        "pubDate": "2026-08-19T18:11:16.000Z",
+        "relevanceScore": 23.96,
+        "tags": []
+      },
+      {
         "title": "IKEA is teasing some Xbox... things",
         "link": "https://www.engadget.com/2240196/ikea-is-teasing-some-xbox-things/",
         "source": "Engadget",
         "pubDate": "2026-08-19T17:43:39.000Z",
-        "relevanceScore": 23.98,
+        "relevanceScore": 23.87,
         "tags": []
       }
     ],
-    "general": [
+    "science": [
       {
-        "title": "Track defect found on approach to site of Lewes derailment, initial report says",
-        "link": "https://www.bbc.co.uk/news/articles/c4gx12v8z51o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-19T14:06:42.000Z",
-        "relevanceScore": 234.26,
+        "title": "Child-monitoring apps might need a reboot",
+        "link": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-08-19T09:00:00.000Z",
+        "relevanceScore": 311.12,
         "tags": [
-          "Analysis",
-          "Report"
+          "Tech",
+          "Web"
+        ]
+      }
+    ],
+    "mobile": [
+      {
+        "title": "GitHub Copilot app for Beginners: Managing your work",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-08-19T17:50:23.000Z",
+        "relevanceScore": 223.39,
+        "tags": [
+          "Mobile",
+          "Exclusive"
         ]
       },
       {
-        "title": "Salmonella outbreak: What we know so far",
-        "link": "https://www.bbc.co.uk/news/articles/cp30gqnpqjqo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-19T16:43:56.000Z",
-        "relevanceScore": 31.79,
-        "tags": []
-      },
-      {
-        "title": "Thunderstorm warnings issued for parts of UK with flash flooding expected",
-        "link": "https://www.bbc.co.uk/news/articles/c0m7e9ym747o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-19T12:09:47.000Z",
-        "relevanceScore": 30.37,
-        "tags": []
+        "title": "T-Mobile ‘chopped a cable’ to expel Chinese hackers from its network",
+        "link": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-19T17:26:32.000Z",
+        "relevanceScore": 41.31,
+        "tags": [
+          "Security",
+          "Mobile"
+        ]
       }
     ],
     "startup": [
@@ -871,19 +968,20 @@
         "link": "https://techcrunch.com/2026/08/19/times-running-out-save-300-on-your-techcrunch-disrupt-2026-pass-until-august-21/",
         "source": "TechCrunch",
         "pubDate": "2026-08-19T16:16:18.000Z",
-        "relevanceScore": 204.69,
+        "relevanceScore": 211.57,
         "tags": [
           "Startup"
         ]
       },
       {
-        "title": "Ubuntu Freezing Touchpad After Login on Matebook X",
-        "link": "https://dev.to/mkalioby/ubuntu-freezing-touchpad-after-login-on-matebook-x-4174",
-        "source": "Dev.to",
-        "pubDate": "2026-08-19T17:40:11.000Z",
-        "relevanceScore": 105.47,
+        "title": "Donor fatigue guts demining in Asia, as active conflicts draw away funding",
+        "link": "https://abcnews.com/Business/wireStory/donor-fatigue-guts-demining-asia-active-conflicts-draw-135728807",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-18T06:18:28.000Z",
+        "relevanceScore": 115.78,
         "tags": [
-          "Startup"
+          "Startup",
+          "Funding"
         ]
       }
     ],
@@ -893,7 +991,7 @@
         "link": "https://www.theverge.com/tech/981537/pixel-11-pro-fold-watch-5-ama",
         "source": "The Verge",
         "pubDate": "2026-08-19T16:15:00.000Z",
-        "relevanceScore": 203.69,
+        "relevanceScore": 210.57,
         "tags": [
           "Tech"
         ]
@@ -903,15 +1001,7 @@
         "link": "https://arstechnica.com/culture/2026/08/a-fantastical-journey-unfolds-in-gorgeous-wildwood-trailer/",
         "source": "Ars Technica",
         "pubDate": "2026-08-19T17:06:06.000Z",
-        "relevanceScore": 47.86,
-        "tags": []
-      },
-      {
-        "title": "Amazon is bringing drone deliveries to the Chicago and Atlanta metro areas as part of a major expansion",
-        "link": "https://www.engadget.com/2240088/amazon-is-bringing-drone-deliveries-to-the-chicago-and-atlanta-metro-areas/",
-        "source": "Engadget",
-        "pubDate": "2026-08-19T16:32:45.000Z",
-        "relevanceScore": 45.75,
+        "relevanceScore": 135.74,
         "tags": []
       },
       {
@@ -919,7 +1009,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c20ydrndr0wo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-18T23:25:21.000Z",
-        "relevanceScore": 44.32,
+        "relevanceScore": 119.2,
         "tags": [
           "Tech"
         ]
@@ -929,7 +1019,7 @@
         "link": "https://arstechnica.com/gadgets/2026/08/google-pixel-11-series-review-is-the-magic-fading/",
         "source": "Ars Technica",
         "pubDate": "2026-08-19T16:11:30.000Z",
-        "relevanceScore": 26.68,
+        "relevanceScore": 26.56,
         "tags": []
       },
       {
@@ -937,43 +1027,28 @@
         "link": "https://arstechnica.com/science/2026/08/scientists-find-closest-star-to-the-milky-ways-central-black-hole/",
         "source": "Ars Technica",
         "pubDate": "2026-08-19T15:56:56.000Z",
-        "relevanceScore": 25.63,
+        "relevanceScore": 25.51,
         "tags": []
-      }
-    ],
-    "mobile": [
+      },
       {
-        "title": "Add Google Authenticator 2FA to your Node app in two steps",
-        "link": "https://dev.to/amansoomro062/add-google-authenticator-2fa-to-your-node-app-in-two-steps-3n3n",
-        "source": "Dev.to",
-        "pubDate": "2026-08-19T17:33:56.000Z",
-        "relevanceScore": 200.95,
+        "title": "Flock's fastest-growing business is 60 mph police drones that can read license plates from the sky",
+        "link": "https://www.reddit.com/r/technology/comments/1vsmex8/flocks_fastestgrowing_business_is_60_mph_police/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-19T13:26:36.000Z",
+        "relevanceScore": 22.01,
         "tags": [
-          "Mobile"
+          "Business"
         ]
       },
       {
-        "title": "T-Mobile ‘chopped a cable’ to expel Chinese hackers from its network",
-        "link": "https://techcrunch.com/2026/08/19/t-mobile-chopped-a-cable-to-expel-chinese-hackers-from-its-network/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-19T17:26:32.000Z",
-        "relevanceScore": 27.93,
+        "title": "\"Sabotage\": Experts, lawmakers blast RFK Jr. for destroying healthcare research",
+        "link": "https://www.reddit.com/r/technology/comments/1vsafo9/sabotage_experts_lawmakers_blast_rfk_jr_for/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-19T03:04:24.000Z",
+        "relevanceScore": 19.93,
         "tags": [
-          "Security",
-          "Mobile"
-        ]
-      }
-    ],
-    "science": [
-      {
-        "title": "Child-monitoring apps might need a reboot",
-        "link": "https://www.technologyreview.com/2026/08/19/1141623/child-monitoring-apps-need-reboot/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-08-19T09:00:00.000Z",
-        "relevanceScore": 123.24,
-        "tags": [
-          "Tech",
-          "Web"
+          "Science",
+          "Report"
         ]
       }
     ],
@@ -983,7 +1058,7 @@
         "link": "https://techcrunch.com/2026/08/19/rivian-spinout-also-raises-another-150-million/",
         "source": "TechCrunch",
         "pubDate": "2026-08-19T15:39:47.000Z",
-        "relevanceScore": 83.57,
+        "relevanceScore": 124.45,
         "tags": [
           "Funding"
         ]
@@ -993,7 +1068,7 @@
         "link": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-19T15:33:32.000Z",
-        "relevanceScore": 31.55,
+        "relevanceScore": 31.43,
         "tags": [
           "Analysis"
         ]
@@ -1001,41 +1076,21 @@
     ],
     "finance": [
       {
-        "title": "Tenders open for highly-sensitive West Bank settlement project, Israel announces",
-        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-19T17:16:28.000Z",
-        "relevanceScore": 66.39,
-        "tags": []
-      },
-      {
         "title": "Monzo says issue with card payments and transfers now resolved",
         "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-19T16:04:16.000Z",
-        "relevanceScore": 47.15,
+        "relevanceScore": 122.03,
         "tags": [
           "Tech"
         ]
-      }
-    ],
-    "social": [
+      },
       {
-        "title": "Opening arguments set to begin in Meta's federal trial over child harms",
-        "link": "https://abcnews.com/Business/wireStory/opening-arguments-set-begin-metas-federal-trial-child-135728260",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-18T12:42:40.000Z",
-        "relevanceScore": 54.68,
-        "tags": []
-      }
-    ],
-    "world": [
-      {
-        "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1638, Part 1 (Thread #1785)",
-        "link": "https://www.reddit.com/r/worldnews/comments/1vsbnac/rworldnews_live_thread_russian_invasion_of/",
-        "source": "Reddit World News",
-        "pubDate": "2026-08-19T04:02:57.000Z",
-        "relevanceScore": 43.25,
+        "title": "Tenders open for highly-sensitive West Bank settlement project, Israel announces",
+        "link": "https://www.bbc.co.uk/news/articles/cly50gn1e54o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-19T17:16:28.000Z",
+        "relevanceScore": 69.77,
         "tags": []
       }
     ],
@@ -1045,7 +1100,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c0ej09nywdno?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-19T16:14:46.000Z",
-        "relevanceScore": 25.69,
+        "relevanceScore": 25.57,
         "tags": []
       }
     ],
@@ -1055,25 +1110,35 @@
         "link": "https://www.wired.com/story/why-is-it-absolute-hell-to-buy-a-movie-ticket-now/",
         "source": "Wired",
         "pubDate": "2026-08-19T14:33:04.000Z",
-        "relevanceScore": 25.35,
+        "relevanceScore": 25.23,
         "tags": [
           "Exclusive"
         ]
       }
+    ],
+    "social": [
+      {
+        "title": "Zuckerberg lied about concern for child safety, Meta whistleblower testifies at landmark trial",
+        "link": "https://www.reddit.com/r/technology/comments/1vsr7uc/zuckerberg_lied_about_concern_for_child_safety/",
+        "source": "Reddit Technology",
+        "pubDate": "2026-08-19T16:22:58.000Z",
+        "relevanceScore": 21.1,
+        "tags": []
+      }
     ]
   },
   "stats": {
-    "totalSources": 13,
-    "totalCategories": 16,
-    "avgRelevanceScore": 209.82222222222222,
+    "totalSources": 14,
+    "totalCategories": 15,
+    "avgRelevanceScore": 248.5136170212766,
     "topCategories": [
       {
         "category": "ai-ml",
-        "count": 11
+        "count": 12
       },
       {
         "category": "tech",
-        "count": 6
+        "count": 7
       },
       {
         "category": "business",
@@ -1081,7 +1146,7 @@
       },
       {
         "category": "gaming",
-        "count": 3
+        "count": 5
       },
       {
         "category": "general",
