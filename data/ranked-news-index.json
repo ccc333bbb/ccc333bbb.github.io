@@ -1,18 +1,19 @@
 {
-  "lastUpdated": "2026-08-20T16:26:40.551Z",
+  "lastUpdated": "2026-08-20T16:59:58.869Z",
   "totalArticles": 45,
   "categories": [
+    "development",
     "ai-ml",
     "tech",
     "climate",
-    "development",
     "mobile",
     "science",
+    "business",
+    "education",
     "general",
     "cybersecurity",
-    "social",
     "finance",
-    "business",
+    "entertainment",
     "startup",
     "space",
     "automotive",
@@ -20,13 +21,27 @@
   ],
   "topArticles": [
     {
+      "title": "Tab completion, without writing a completion script",
+      "link": "https://dev.to/mauvilsa/tab-completion-without-writing-a-completion-script-4nab",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-08-20T16:45:24.000Z",
+      "relevanceScore": 877.95,
+      "recommendationScore": 878.45,
+      "tags": [
+        "Exclusive",
+        "Partnership"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
       "title": "It’s Greg Brockman’s OpenAI now",
       "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-08-20T15:45:55.000Z",
-      "relevanceScore": 649.86,
-      "recommendationScore": 649.86,
+      "relevanceScore": 623.25,
+      "recommendationScore": 623.25,
       "tags": [
         "AI",
         "Startup",
@@ -40,10 +55,34 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-20T14:59:21.000Z",
-      "relevanceScore": 551.71,
-      "recommendationScore": 552.21,
+      "relevanceScore": 574.6,
+      "recommendationScore": 575.1,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "SKILL.md is not a compiler",
+      "link": "https://dev.to/_65b123b4dce5e11847318/skillmd-is-not-a-compiler-15o9",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-08-20T16:46:27.000Z",
+      "relevanceScore": 462.45,
+      "recommendationScore": 462.45,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Ramp launches its own AI model router, called Router",
+      "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-08-20T16:46:00.000Z",
+      "relevanceScore": 436.45,
+      "recommendationScore": 438.95,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "The next big thing in hydrogen could be underground",
@@ -51,46 +90,21 @@
       "source": "MIT Technology Review",
       "category": "climate",
       "pubDate": "2026-08-20T10:00:00.000Z",
-      "relevanceScore": 431.71,
-      "recommendationScore": 432.21,
+      "relevanceScore": 401.1,
+      "recommendationScore": 401.6,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
-      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-      "source": "Ars Technica",
-      "category": "ai-ml",
-      "pubDate": "2026-08-20T13:00:35.000Z",
-      "relevanceScore": 346.31,
-      "recommendationScore": 346.81,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Supply chain attack on arrayref",
-      "link": "https://www.reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref/",
-      "source": "Reddit Programming",
+      "title": "3 Ways to Manage Files in CloudShell",
+      "link": "https://dev.to/aws/3-ways-to-manage-files-in-cloudshell-3j8n",
+      "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-08-20T15:05:52.000Z",
-      "relevanceScore": 343.73,
-      "recommendationScore": 343.73,
+      "pubDate": "2026-08-20T16:48:35.000Z",
+      "relevanceScore": 344.46,
+      "recommendationScore": 344.46,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI slows down training after its AI carried out hack",
-      "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-19T11:19:12.000Z",
-      "relevanceScore": 328.18,
-      "recommendationScore": 328.68,
-      "tags": [
-        "AI",
-        "Security"
-      ],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
     },
     {
       "title": "Google now allows you to add your favorite new sources to Search",
@@ -98,36 +112,49 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-20T16:00:00.000Z",
-      "relevanceScore": 253.41,
-      "recommendationScore": 255.91,
+      "relevanceScore": 277.3,
+      "recommendationScore": 279.8,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "I built an AI Shopify audit tool, then decided to take it back into my own hands",
-      "link": "https://dev.to/builtbyvena/i-built-an-ai-shopify-audit-tool-then-decided-to-take-it-back-into-my-own-hands-jda",
-      "source": "Dev.to",
+      "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+      "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+      "source": "Ars Technica",
       "category": "ai-ml",
-      "pubDate": "2026-08-20T16:08:25.000Z",
-      "relevanceScore": 197.94,
-      "recommendationScore": 198.44,
+      "pubDate": "2026-08-20T13:00:35.000Z",
+      "relevanceScore": 275.7,
+      "recommendationScore": 276.2,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Is Vine back? Short-form video-sharing app Divine opens to public",
+      "link": "https://www.bbc.co.uk/news/articles/c3r05g378w4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "mobile",
+      "pubDate": "2026-08-20T16:58:37.000Z",
+      "relevanceScore": 262.5,
+      "recommendationScore": 263,
       "tags": [
-        "AI",
-        "Tutorial",
-        "Report"
+        "Mobile",
+        "IPO"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
-      "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-08-20T13:29:54.000Z",
-      "relevanceScore": 140.91,
-      "recommendationScore": 141.41,
-      "tags": [],
-      "readingLevel": "advanced"
+      "title": "GitHub Copilot app for Beginners: Managing your work",
+      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
+      "source": "GitHub Blog",
+      "category": "mobile",
+      "pubDate": "2026-08-19T17:50:23.000Z",
+      "relevanceScore": 177.87,
+      "recommendationScore": 178.37,
+      "tags": [
+        "Mobile",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "You can soon stream Crunchyroll on your car's infotainment system",
@@ -135,8 +162,8 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-08-20T15:30:00.000Z",
-      "relevanceScore": 138.31,
-      "recommendationScore": 138.81,
+      "relevanceScore": 76.7,
+      "recommendationScore": 77.2,
       "tags": [
         "Mobile"
       ],
@@ -148,26 +175,63 @@
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-08-20T12:10:00.000Z",
-      "relevanceScore": 134.14,
-      "recommendationScore": 134.64,
+      "relevanceScore": 64.53,
+      "recommendationScore": 65.03,
       "tags": [
         "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "GitHub Copilot app for Beginners: Managing your work",
-      "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
-      "source": "GitHub Blog",
+      "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
+      "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-08-20T16:00:00.000Z",
+      "relevanceScore": 59.8,
+      "recommendationScore": 62.3,
+      "tags": [
+        "Science"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Three things to know about the $40 trillion federal debt",
+      "link": "https://www.npr.org/2026/08/20/nx-s1-5939473/40-trillion-federal-debt",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-08-20T16:50:41.000Z",
+      "relevanceScore": 53.97,
+      "recommendationScore": 54.47,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
+      "link": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
+      "source": "TechCrunch",
       "category": "mobile",
-      "pubDate": "2026-08-19T17:50:23.000Z",
-      "relevanceScore": 129.98,
-      "recommendationScore": 130.48,
+      "pubDate": "2026-08-20T16:22:19.000Z",
+      "relevanceScore": 50.37,
+      "recommendationScore": 50.87,
       "tags": [
         "Mobile",
-        "Exclusive"
+        "Social"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "US agency under scrutiny after watchdog warns of forced labor in Dominican Republic",
+      "link": "https://abcnews.com/Business/wireStory/us-agency-scrutiny-after-watchdog-warns-forced-labor-135807277",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-20T14:20:34.000Z",
+      "relevanceScore": 49.97,
+      "recommendationScore": 50.47,
+      "tags": [
+        "Controversy"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
@@ -175,8 +239,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-20T16:07:26.000Z",
-      "relevanceScore": 124.44,
-      "recommendationScore": 124.94,
+      "relevanceScore": 46.82,
+      "recommendationScore": 47.32,
       "tags": [
         "AI",
         "Mobile"
@@ -184,13 +248,35 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "Reverse-lookup service exposed millions of photos of people’s faces",
+      "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-08-20T13:29:54.000Z",
+      "relevanceScore": 45.8,
+      "recommendationScore": 46.3,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Academic who accused Jason Arday of plagiarism suspended by university",
+      "link": "https://www.bbc.co.uk/news/articles/cevmrjd9lj1o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "education",
+      "pubDate": "2026-08-20T16:40:51.000Z",
+      "relevanceScore": 43.44,
+      "recommendationScore": 43.94,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Man charged over Manchester synagogue attack",
       "link": "https://www.bbc.co.uk/news/articles/cm2g5ne37zyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-20T16:17:27.000Z",
-      "relevanceScore": 123.47,
-      "recommendationScore": 123.47,
+      "relevanceScore": 42.86,
+      "recommendationScore": 42.86,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -200,8 +286,8 @@
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2026-08-20T10:16:31.000Z",
-      "relevanceScore": 122.77,
-      "recommendationScore": 124.27,
+      "relevanceScore": 42.16,
+      "recommendationScore": 43.66,
       "tags": [
         "Security"
       ],
@@ -213,87 +299,12 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-08-20T15:42:39.000Z",
-      "relevanceScore": 121.35,
-      "recommendationScore": 121.35,
+      "relevanceScore": 40.74,
+      "recommendationScore": 40.74,
       "tags": [
         "AI",
         "Tech",
         "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The US and others turn to Brazil for rare earths, raising environmental concerns",
-      "link": "https://abcnews.com/Business/wireStory/us-turn-brazil-rare-earths-raising-environmental-concerns-135804107",
-      "source": "ABC News Business",
-      "category": "climate",
-      "pubDate": "2026-08-20T13:21:40.000Z",
-      "relevanceScore": 116.88,
-      "recommendationScore": 117.38,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Whistleblower Arturo Béjar leads testimony in landmark trial against Meta",
-      "link": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony",
-      "source": "NPR Business",
-      "category": "social",
-      "pubDate": "2026-08-19T21:20:15.000Z",
-      "relevanceScore": 116.18,
-      "recommendationScore": 116.68,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Monzo says issue with card payments and transfers now resolved",
-      "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "finance",
-      "pubDate": "2026-08-19T16:04:16.000Z",
-      "relevanceScore": 112.63,
-      "recommendationScore": 113.13,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
-      "link": "https://abcnews.com/Business/wireStory/amazon-set-expand-drone-delivery-lightweight-packages-500-135764753",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-08-19T10:41:36.000Z",
-      "relevanceScore": 112.05,
-      "recommendationScore": 112.55,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Patreon launches 30 new creator features, including short-form Clips and revamped discovery",
-      "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-08-20T16:00:00.000Z",
-      "relevanceScore": 45.91,
-      "recommendationScore": 48.41,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Senators demand answers from TikTok over experiment that disabled safeguards",
-      "link": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-08-20T16:22:19.000Z",
-      "relevanceScore": 38.99,
-      "recommendationScore": 39.49,
-      "tags": [
-        "Mobile",
-        "Social"
       ],
       "readingLevel": "advanced"
     },
@@ -303,23 +314,58 @@
       "source": "The Verge",
       "category": "mobile",
       "pubDate": "2026-08-20T15:30:34.000Z",
-      "relevanceScore": 32.31,
-      "recommendationScore": 32.81,
+      "relevanceScore": 40.7,
+      "recommendationScore": 41.2,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "John Swinney defends £45,000 business-class flights to World Cup",
-      "link": "https://www.bbc.co.uk/news/articles/ceqe385qen2o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-20T12:33:09.000Z",
-      "relevanceScore": 32.22,
-      "recommendationScore": 32.72,
+      "title": "Mortgage rates ease again, but remain higher than this time last year",
+      "link": "https://abcnews.com/Business/wireStory/mortgage-rates-ease-remain-higher-time-year-135811252",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-20T16:48:29.000Z",
+      "relevanceScore": 37.46,
+      "recommendationScore": 37.96,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "A trailer for the Golden Axe animated series is full of self-referencing jokes",
+      "link": "https://www.engadget.com/2240929/trailer-sega-golden-axe-animated-series/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-08-20T16:35:23.000Z",
+      "relevanceScore": 35.42,
+      "recommendationScore": 35.92,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "LG’s 65-inch B6 OLED is $300 lower than its previous best price",
+      "link": "https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-08-20T15:08:38.000Z",
+      "relevanceScore": 33.13,
+      "recommendationScore": 34.63,
       "tags": [
-        "Business"
+        "Partnership"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Monzo says issue with card payments and transfers now resolved",
+      "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "finance",
+      "pubDate": "2026-08-19T16:04:16.000Z",
+      "relevanceScore": 32.01,
+      "recommendationScore": 32.51,
+      "tags": [
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -329,8 +375,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-20T14:28:32.000Z",
-      "relevanceScore": 31.61,
-      "recommendationScore": 31.61,
+      "relevanceScore": 31.5,
+      "recommendationScore": 31.5,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -340,36 +386,23 @@
       "source": "BBC News",
       "category": "cybersecurity",
       "pubDate": "2026-08-20T13:53:40.000Z",
-      "relevanceScore": 31.49,
-      "recommendationScore": 31.99,
+      "relevanceScore": 31.38,
+      "recommendationScore": 31.88,
       "tags": [
         "Security"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "LG’s 65-inch B6 OLED is $300 lower than its previous best price",
-      "link": "https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-08-20T15:08:38.000Z",
-      "relevanceScore": 30.24,
-      "recommendationScore": 31.74,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Millions of log lines in PHP, at constant memory",
-      "link": "https://dev.to/nessflow_8283f7335b896207/millions-of-log-lines-in-php-at-constant-memory-i7n",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-20T16:09:01.000Z",
-      "relevanceScore": 29.44,
-      "recommendationScore": 29.44,
+      "title": "Music theory for programmers",
+      "link": "https://www.reddit.com/r/programming/comments/1vtm44m/music_theory_for_programmers/",
+      "source": "Reddit Programming",
+      "category": "entertainment",
+      "pubDate": "2026-08-20T15:08:03.000Z",
+      "relevanceScore": 30.13,
+      "recommendationScore": 30.13,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
     },
     {
       "title": "The 2026 Startup Battlefield 200 is here — see who made the cut",
@@ -377,8 +410,8 @@
       "source": "TechCrunch",
       "category": "startup",
       "pubDate": "2026-08-20T16:00:00.000Z",
-      "relevanceScore": 27.91,
-      "recommendationScore": 28.41,
+      "relevanceScore": 27.8,
+      "recommendationScore": 28.3,
       "tags": [
         "Startup",
         "Launch"
@@ -386,17 +419,15 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
-      "link": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2026-08-20T16:00:00.000Z",
-      "relevanceScore": 27.91,
-      "recommendationScore": 28.41,
-      "tags": [
-        "Startup"
-      ],
-      "readingLevel": "intermediate"
+      "title": "Cash-hungry college sports programs are starting nonprofits to make money to stay competitive",
+      "link": "https://abcnews.com/Business/wireStory/cash-hungry-college-sports-programs-starting-nonprofits-make-135811433",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-08-20T16:29:36.000Z",
+      "relevanceScore": 26.9,
+      "recommendationScore": 27.4,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Chinese court sentences founder of property developer Evergrande to life in prison",
@@ -404,8 +435,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-20T07:31:55.000Z",
-      "relevanceScore": 26.22,
-      "recommendationScore": 26.72,
+      "relevanceScore": 26.11,
+      "recommendationScore": 26.61,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -415,8 +446,8 @@
       "source": "NPR Business",
       "category": "finance",
       "pubDate": "2026-08-20T09:00:00.000Z",
-      "relevanceScore": 26.01,
-      "recommendationScore": 28.01,
+      "relevanceScore": 25.9,
+      "recommendationScore": 27.9,
       "tags": [
         "Business",
         "Startup"
@@ -429,8 +460,8 @@
       "source": "Wired",
       "category": "mobile",
       "pubDate": "2026-08-20T11:00:00.000Z",
-      "relevanceScore": 25.91,
-      "recommendationScore": 26.41,
+      "relevanceScore": 25.8,
+      "recommendationScore": 26.3,
       "tags": [
         "Business",
         "Mobile",
@@ -444,8 +475,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-20T14:35:58.000Z",
-      "relevanceScore": 25.63,
-      "recommendationScore": 28.13,
+      "relevanceScore": 25.52,
+      "recommendationScore": 28.02,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -455,8 +486,8 @@
       "source": "Ars Technica",
       "category": "space",
       "pubDate": "2026-08-20T13:59:50.000Z",
-      "relevanceScore": 25.51,
-      "recommendationScore": 28.01,
+      "relevanceScore": 25.4,
+      "recommendationScore": 27.9,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -466,8 +497,8 @@
       "source": "Wired",
       "category": "automotive",
       "pubDate": "2026-08-20T10:33:00.000Z",
-      "relevanceScore": 24.82,
-      "recommendationScore": 26.32,
+      "relevanceScore": 24.71,
+      "recommendationScore": 26.21,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -477,8 +508,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-20T10:30:00.000Z",
-      "relevanceScore": 24.81,
-      "recommendationScore": 26.31,
+      "relevanceScore": 24.7,
+      "recommendationScore": 26.2,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -488,8 +519,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-08-20T09:44:04.000Z",
-      "relevanceScore": 24.66,
-      "recommendationScore": 25.16,
+      "relevanceScore": 24.55,
+      "recommendationScore": 25.05,
       "tags": [
         "Tech",
         "Business"
@@ -502,32 +533,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-20T11:02:00.000Z",
-      "relevanceScore": 24.42,
-      "recommendationScore": 25.92,
+      "relevanceScore": 24.31,
+      "recommendationScore": 25.81,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Longtime publisher of Stars and Stripes to retire, citing differences with Pentagon leadership",
-      "link": "https://abcnews.com/Business/wireStory/longtime-publisher-stars-stripes-retire-citing-differences-pentagon-135787110",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-08-20T06:37:17.000Z",
-      "relevanceScore": 24.04,
-      "recommendationScore": 24.54,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The <geolocation> element lands in Chrome 144",
-      "link": "https://dev.to/leobaniak/the-element-lands-in-chrome-144-5g7m",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-08-20T16:08:44.000Z",
-      "relevanceScore": 23.94,
-      "recommendationScore": 23.94,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Tesla's Robotaxi fleet might finally be driving around Austin unsupervised",
@@ -535,25 +544,10 @@
       "source": "Engadget",
       "category": "automotive",
       "pubDate": "2026-08-20T15:50:56.000Z",
-      "relevanceScore": 23.88,
-      "recommendationScore": 24.38,
+      "relevanceScore": 23.77,
+      "recommendationScore": 24.27,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Australia passes law to charge tech companies levies unless they reach deals with news publishers",
-      "link": "https://www.engadget.com/2240783/australia-passes-law-to-charge-tech-companies-levies-unless-they-reach-deals-with-news-publishers/",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-08-20T14:49:42.000Z",
-      "relevanceScore": 23.68,
-      "recommendationScore": 26.18,
-      "tags": [
-        "Tech",
-        "Social",
-        "Regulation"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Quake Shareware, a CD-ROM just a little too full - Fabien Sanglard",
@@ -561,8 +555,8 @@
       "source": "Reddit Programming",
       "category": "development",
       "pubDate": "2026-08-20T12:44:02.000Z",
-      "relevanceScore": 21.26,
-      "recommendationScore": 21.76,
+      "relevanceScore": 21.15,
+      "recommendationScore": 21.65,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -572,20 +566,57 @@
       "source": "BBC Technology",
       "category": "blockchain",
       "pubDate": "2026-08-19T16:14:46.000Z",
-      "relevanceScore": 21.16,
-      "recommendationScore": 21.66,
+      "relevanceScore": 21.05,
+      "recommendationScore": 21.55,
       "tags": [],
       "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
+    "development": [
+      {
+        "title": "Tab completion, without writing a completion script",
+        "link": "https://dev.to/mauvilsa/tab-completion-without-writing-a-completion-script-4nab",
+        "source": "Dev.to",
+        "pubDate": "2026-08-20T16:45:24.000Z",
+        "relevanceScore": 877.95,
+        "tags": [
+          "Exclusive",
+          "Partnership"
+        ]
+      },
+      {
+        "title": "SKILL.md is not a compiler",
+        "link": "https://dev.to/_65b123b4dce5e11847318/skillmd-is-not-a-compiler-15o9",
+        "source": "Dev.to",
+        "pubDate": "2026-08-20T16:46:27.000Z",
+        "relevanceScore": 462.45,
+        "tags": []
+      },
+      {
+        "title": "3 Ways to Manage Files in CloudShell",
+        "link": "https://dev.to/aws/3-ways-to-manage-files-in-cloudshell-3j8n",
+        "source": "Dev.to",
+        "pubDate": "2026-08-20T16:48:35.000Z",
+        "relevanceScore": 344.46,
+        "tags": []
+      },
+      {
+        "title": "Quake Shareware, a CD-ROM just a little too full - Fabien Sanglard",
+        "link": "https://www.reddit.com/r/programming/comments/1vtih22/quake_shareware_a_cdrom_just_a_little_too_full/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-20T12:44:02.000Z",
+        "relevanceScore": 21.15,
+        "tags": []
+      }
+    ],
     "ai-ml": [
       {
         "title": "It’s Greg Brockman’s OpenAI now",
         "link": "https://www.theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
         "source": "The Verge",
         "pubDate": "2026-08-20T15:45:55.000Z",
-        "relevanceScore": 649.86,
+        "relevanceScore": 623.25,
         "tags": [
           "AI",
           "Startup",
@@ -593,42 +624,29 @@
         ]
       },
       {
+        "title": "Ramp launches its own AI model router, called Router",
+        "link": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-20T16:46:00.000Z",
+        "relevanceScore": 436.45,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
         "title": "Grok exfiltrates user data when malicious instructions are encrypted",
         "link": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
         "source": "Ars Technica",
         "pubDate": "2026-08-20T13:00:35.000Z",
-        "relevanceScore": 346.31,
+        "relevanceScore": 275.7,
         "tags": []
-      },
-      {
-        "title": "OpenAI slows down training after its AI carried out hack",
-        "link": "https://www.bbc.co.uk/news/articles/c235dmndylzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-08-19T11:19:12.000Z",
-        "relevanceScore": 328.18,
-        "tags": [
-          "AI",
-          "Security"
-        ]
-      },
-      {
-        "title": "I built an AI Shopify audit tool, then decided to take it back into my own hands",
-        "link": "https://dev.to/builtbyvena/i-built-an-ai-shopify-audit-tool-then-decided-to-take-it-back-into-my-own-hands-jda",
-        "source": "Dev.to",
-        "pubDate": "2026-08-20T16:08:25.000Z",
-        "relevanceScore": 197.94,
-        "tags": [
-          "AI",
-          "Tutorial",
-          "Report"
-        ]
       },
       {
         "title": "Meta brings Pocket, an app that lets you vibe-code and share games, to US users",
         "link": "https://techcrunch.com/2026/08/20/meta-brings-pocket-an-app-that-lets-you-vibe-code-and-share-games-to-us-users/",
         "source": "TechCrunch",
         "pubDate": "2026-08-20T16:07:26.000Z",
-        "relevanceScore": 124.44,
+        "relevanceScore": 46.82,
         "tags": [
           "AI",
           "Mobile"
@@ -639,7 +657,7 @@
         "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-20T15:42:39.000Z",
-        "relevanceScore": 121.35,
+        "relevanceScore": 40.74,
         "tags": [
           "AI",
           "Tech",
@@ -653,7 +671,7 @@
         "link": "https://www.theverge.com/tech/982808/amazon-prime-air-drones-packages-pools-ponds",
         "source": "The Verge",
         "pubDate": "2026-08-20T14:59:21.000Z",
-        "relevanceScore": 551.71,
+        "relevanceScore": 574.6,
         "tags": []
       },
       {
@@ -661,15 +679,7 @@
         "link": "https://www.engadget.com/2240719/google-now-allows-you-to-add-your-favorite-news-sources-to-search/",
         "source": "Engadget",
         "pubDate": "2026-08-20T16:00:00.000Z",
-        "relevanceScore": 253.41,
-        "tags": []
-      },
-      {
-        "title": "Reverse-lookup service exposed millions of photos of people’s faces",
-        "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-20T13:29:54.000Z",
-        "relevanceScore": 140.91,
+        "relevanceScore": 277.3,
         "tags": []
       },
       {
@@ -677,17 +687,33 @@
         "link": "https://techcrunch.com/2026/08/20/patreon-launches-30-new-creator-features-including-short-form-clips-and-revamped-discovery/",
         "source": "TechCrunch",
         "pubDate": "2026-08-20T16:00:00.000Z",
-        "relevanceScore": 45.91,
+        "relevanceScore": 59.8,
         "tags": [
           "Science"
         ]
+      },
+      {
+        "title": "Reverse-lookup service exposed millions of photos of people’s faces",
+        "link": "https://arstechnica.com/gadgets/2026/08/reverse-lookup-service-exposed-millions-of-photos-of-peoples-faces/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-20T13:29:54.000Z",
+        "relevanceScore": 45.8,
+        "tags": []
+      },
+      {
+        "title": "A trailer for the Golden Axe animated series is full of self-referencing jokes",
+        "link": "https://www.engadget.com/2240929/trailer-sega-golden-axe-animated-series/",
+        "source": "Engadget",
+        "pubDate": "2026-08-20T16:35:23.000Z",
+        "relevanceScore": 35.42,
+        "tags": []
       },
       {
         "title": "LG’s 65-inch B6 OLED is $300 lower than its previous best price",
         "link": "https://www.theverge.com/gadgets/982695/lg-b6-65-inch-oled-doordash-digital-game-deal-sale",
         "source": "The Verge",
         "pubDate": "2026-08-20T15:08:38.000Z",
-        "relevanceScore": 30.24,
+        "relevanceScore": 33.13,
         "tags": [
           "Partnership"
         ]
@@ -697,7 +723,7 @@
         "link": "https://arstechnica.com/cars/2026/08/genesis-joins-the-giant-electric-suv-club-with-new-gv90/",
         "source": "Ars Technica",
         "pubDate": "2026-08-20T14:35:58.000Z",
-        "relevanceScore": 25.63,
+        "relevanceScore": 25.52,
         "tags": []
       },
       {
@@ -705,7 +731,7 @@
         "link": "https://www.wired.com/story/a-maga-countys-top-election-official-wants-to-hire-election-denial-superstar-tina-peters/",
         "source": "Wired",
         "pubDate": "2026-08-20T10:30:00.000Z",
-        "relevanceScore": 24.81,
+        "relevanceScore": 24.7,
         "tags": []
       },
       {
@@ -713,7 +739,7 @@
         "link": "https://www.bbc.co.uk/news/articles/clyq011414eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-20T09:44:04.000Z",
-        "relevanceScore": 24.66,
+        "relevanceScore": 24.55,
         "tags": [
           "Tech",
           "Business"
@@ -724,7 +750,7 @@
         "link": "https://www.wired.com/review/poolease-x1-pool-robot/",
         "source": "Wired",
         "pubDate": "2026-08-20T11:02:00.000Z",
-        "relevanceScore": 24.42,
+        "relevanceScore": 24.31,
         "tags": []
       }
     ],
@@ -734,63 +760,20 @@
         "link": "https://www.technologyreview.com/2026/08/20/1142512/geologic-hydrogen-hunt/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-20T10:00:00.000Z",
-        "relevanceScore": 431.71,
-        "tags": []
-      },
-      {
-        "title": "The US and others turn to Brazil for rare earths, raising environmental concerns",
-        "link": "https://abcnews.com/Business/wireStory/us-turn-brazil-rare-earths-raising-environmental-concerns-135804107",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-20T13:21:40.000Z",
-        "relevanceScore": 116.88,
-        "tags": [
-          "Tech"
-        ]
-      }
-    ],
-    "development": [
-      {
-        "title": "Supply chain attack on arrayref",
-        "link": "https://www.reddit.com/r/programming/comments/1vtm22r/supply_chain_attack_on_arrayref/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-20T15:05:52.000Z",
-        "relevanceScore": 343.73,
-        "tags": []
-      },
-      {
-        "title": "Millions of log lines in PHP, at constant memory",
-        "link": "https://dev.to/nessflow_8283f7335b896207/millions-of-log-lines-in-php-at-constant-memory-i7n",
-        "source": "Dev.to",
-        "pubDate": "2026-08-20T16:09:01.000Z",
-        "relevanceScore": 29.44,
-        "tags": []
-      },
-      {
-        "title": "The <geolocation> element lands in Chrome 144",
-        "link": "https://dev.to/leobaniak/the-element-lands-in-chrome-144-5g7m",
-        "source": "Dev.to",
-        "pubDate": "2026-08-20T16:08:44.000Z",
-        "relevanceScore": 23.94,
-        "tags": []
-      },
-      {
-        "title": "Quake Shareware, a CD-ROM just a little too full - Fabien Sanglard",
-        "link": "https://www.reddit.com/r/programming/comments/1vtih22/quake_shareware_a_cdrom_just_a_little_too_full/",
-        "source": "Reddit Programming",
-        "pubDate": "2026-08-20T12:44:02.000Z",
-        "relevanceScore": 21.26,
+        "relevanceScore": 401.1,
         "tags": []
       }
     ],
     "mobile": [
       {
-        "title": "You can soon stream Crunchyroll on your car's infotainment system",
-        "link": "https://www.engadget.com/2240331/crunchyroll-appning-by-forvia-stream-on-car-infotainment-system/",
-        "source": "Engadget",
-        "pubDate": "2026-08-20T15:30:00.000Z",
-        "relevanceScore": 138.31,
+        "title": "Is Vine back? Short-form video-sharing app Divine opens to public",
+        "link": "https://www.bbc.co.uk/news/articles/c3r05g378w4o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-20T16:58:37.000Z",
+        "relevanceScore": 262.5,
         "tags": [
-          "Mobile"
+          "Mobile",
+          "IPO"
         ]
       },
       {
@@ -798,10 +781,20 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-managing-your-work/",
         "source": "GitHub Blog",
         "pubDate": "2026-08-19T17:50:23.000Z",
-        "relevanceScore": 129.98,
+        "relevanceScore": 177.87,
         "tags": [
           "Mobile",
           "Exclusive"
+        ]
+      },
+      {
+        "title": "You can soon stream Crunchyroll on your car's infotainment system",
+        "link": "https://www.engadget.com/2240331/crunchyroll-appning-by-forvia-stream-on-car-infotainment-system/",
+        "source": "Engadget",
+        "pubDate": "2026-08-20T15:30:00.000Z",
+        "relevanceScore": 76.7,
+        "tags": [
+          "Mobile"
         ]
       },
       {
@@ -809,7 +802,7 @@
         "link": "https://techcrunch.com/2026/08/20/senators-demand-answers-from-tiktok-over-experiment-that-disabled-safeguards/",
         "source": "TechCrunch",
         "pubDate": "2026-08-20T16:22:19.000Z",
-        "relevanceScore": 38.99,
+        "relevanceScore": 50.37,
         "tags": [
           "Mobile",
           "Social"
@@ -820,7 +813,7 @@
         "link": "https://www.theverge.com/tech/982791/this-app-makes-the-pixel-11s-hilight-feature-actually-useful",
         "source": "The Verge",
         "pubDate": "2026-08-20T15:30:34.000Z",
-        "relevanceScore": 32.31,
+        "relevanceScore": 40.7,
         "tags": [
           "Mobile"
         ]
@@ -830,7 +823,7 @@
         "link": "https://www.wired.com/story/bumble-women-first-rule-change/",
         "source": "Wired",
         "pubDate": "2026-08-20T11:00:00.000Z",
-        "relevanceScore": 25.91,
+        "relevanceScore": 25.8,
         "tags": [
           "Business",
           "Mobile",
@@ -844,10 +837,64 @@
         "link": "https://www.technologyreview.com/2026/08/20/1142579/the-download-polycrisis-support-networks-underground-hydrogen-gold-rush/",
         "source": "MIT Technology Review",
         "pubDate": "2026-08-20T12:10:00.000Z",
-        "relevanceScore": 134.14,
+        "relevanceScore": 64.53,
         "tags": [
           "Tech"
         ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Three things to know about the $40 trillion federal debt",
+        "link": "https://www.npr.org/2026/08/20/nx-s1-5939473/40-trillion-federal-debt",
+        "source": "NPR Business",
+        "pubDate": "2026-08-20T16:50:41.000Z",
+        "relevanceScore": 53.97,
+        "tags": []
+      },
+      {
+        "title": "US agency under scrutiny after watchdog warns of forced labor in Dominican Republic",
+        "link": "https://abcnews.com/Business/wireStory/us-agency-scrutiny-after-watchdog-warns-forced-labor-135807277",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-20T14:20:34.000Z",
+        "relevanceScore": 49.97,
+        "tags": [
+          "Controversy"
+        ]
+      },
+      {
+        "title": "Mortgage rates ease again, but remain higher than this time last year",
+        "link": "https://abcnews.com/Business/wireStory/mortgage-rates-ease-remain-higher-time-year-135811252",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-20T16:48:29.000Z",
+        "relevanceScore": 37.46,
+        "tags": []
+      },
+      {
+        "title": "Cash-hungry college sports programs are starting nonprofits to make money to stay competitive",
+        "link": "https://abcnews.com/Business/wireStory/cash-hungry-college-sports-programs-starting-nonprofits-make-135811433",
+        "source": "ABC News Business",
+        "pubDate": "2026-08-20T16:29:36.000Z",
+        "relevanceScore": 26.9,
+        "tags": []
+      },
+      {
+        "title": "Chinese court sentences founder of property developer Evergrande to life in prison",
+        "link": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande",
+        "source": "NPR Business",
+        "pubDate": "2026-08-20T07:31:55.000Z",
+        "relevanceScore": 26.11,
+        "tags": []
+      }
+    ],
+    "education": [
+      {
+        "title": "Academic who accused Jason Arday of plagiarism suspended by university",
+        "link": "https://www.bbc.co.uk/news/articles/cevmrjd9lj1o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-08-20T16:40:51.000Z",
+        "relevanceScore": 43.44,
+        "tags": []
       }
     ],
     "general": [
@@ -856,25 +903,15 @@
         "link": "https://www.bbc.co.uk/news/articles/cm2g5ne37zyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-20T16:17:27.000Z",
-        "relevanceScore": 123.47,
+        "relevanceScore": 42.86,
         "tags": []
-      },
-      {
-        "title": "John Swinney defends £45,000 business-class flights to World Cup",
-        "link": "https://www.bbc.co.uk/news/articles/ceqe385qen2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-08-20T12:33:09.000Z",
-        "relevanceScore": 32.22,
-        "tags": [
-          "Business"
-        ]
       },
       {
         "title": "Five key takeaways from GCSE results day 2026",
         "link": "https://www.bbc.co.uk/news/articles/cx2583xew8zo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-20T14:28:32.000Z",
-        "relevanceScore": 31.61,
+        "relevanceScore": 31.5,
         "tags": []
       }
     ],
@@ -884,7 +921,7 @@
         "link": "https://www.bbc.co.uk/news/videos/cp8eg084n3eo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-20T10:16:31.000Z",
-        "relevanceScore": 122.77,
+        "relevanceScore": 42.16,
         "tags": [
           "Security"
         ]
@@ -894,31 +931,9 @@
         "link": "https://www.bbc.co.uk/news/articles/cr59yg34r4mo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-20T13:53:40.000Z",
-        "relevanceScore": 31.49,
+        "relevanceScore": 31.38,
         "tags": [
           "Security"
-        ]
-      }
-    ],
-    "social": [
-      {
-        "title": "Whistleblower Arturo Béjar leads testimony in landmark trial against Meta",
-        "link": "https://www.npr.org/2026/08/19/nx-s1-5936648/meta-trial-arturo-bejar-whistleblower-testimony",
-        "source": "NPR Business",
-        "pubDate": "2026-08-19T21:20:15.000Z",
-        "relevanceScore": 116.18,
-        "tags": []
-      },
-      {
-        "title": "Australia passes law to charge tech companies levies unless they reach deals with news publishers",
-        "link": "https://www.engadget.com/2240783/australia-passes-law-to-charge-tech-companies-levies-unless-they-reach-deals-with-news-publishers/",
-        "source": "Engadget",
-        "pubDate": "2026-08-20T14:49:42.000Z",
-        "relevanceScore": 23.68,
-        "tags": [
-          "Tech",
-          "Social",
-          "Regulation"
         ]
       }
     ],
@@ -928,7 +943,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cwyrvxvl1eeo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-19T16:04:16.000Z",
-        "relevanceScore": 112.63,
+        "relevanceScore": 32.01,
         "tags": [
           "Tech"
         ]
@@ -938,36 +953,20 @@
         "link": "https://www.npr.org/2026/08/20/nx-s1-5937600/economy-bonds-inflation-debt-consumers",
         "source": "NPR Business",
         "pubDate": "2026-08-20T09:00:00.000Z",
-        "relevanceScore": 26.01,
+        "relevanceScore": 25.9,
         "tags": [
           "Business",
           "Startup"
         ]
       }
     ],
-    "business": [
+    "entertainment": [
       {
-        "title": "Amazon set to expand drone delivery of lightweight packages to 500 US cities",
-        "link": "https://abcnews.com/Business/wireStory/amazon-set-expand-drone-delivery-lightweight-packages-500-135764753",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-19T10:41:36.000Z",
-        "relevanceScore": 112.05,
-        "tags": []
-      },
-      {
-        "title": "Chinese court sentences founder of property developer Evergrande to life in prison",
-        "link": "https://www.npr.org/2026/08/20/nx-s1-5939335/chinese-sentence-founder-evergrande",
-        "source": "NPR Business",
-        "pubDate": "2026-08-20T07:31:55.000Z",
-        "relevanceScore": 26.22,
-        "tags": []
-      },
-      {
-        "title": "Longtime publisher of Stars and Stripes to retire, citing differences with Pentagon leadership",
-        "link": "https://abcnews.com/Business/wireStory/longtime-publisher-stars-stripes-retire-citing-differences-pentagon-135787110",
-        "source": "ABC News Business",
-        "pubDate": "2026-08-20T06:37:17.000Z",
-        "relevanceScore": 24.04,
+        "title": "Music theory for programmers",
+        "link": "https://www.reddit.com/r/programming/comments/1vtm44m/music_theory_for_programmers/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-20T15:08:03.000Z",
+        "relevanceScore": 30.13,
         "tags": []
       }
     ],
@@ -977,20 +976,10 @@
         "link": "https://techcrunch.com/2026/08/20/the-2026-startup-battlefield-200-is-here-see-who-made-the-cut/",
         "source": "TechCrunch",
         "pubDate": "2026-08-20T16:00:00.000Z",
-        "relevanceScore": 27.91,
+        "relevanceScore": 27.8,
         "tags": [
           "Startup",
           "Launch"
-        ]
-      },
-      {
-        "title": "Inertia Enterprises finds a way to make its fusion fuel fast",
-        "link": "https://techcrunch.com/2026/08/20/inertia-enterprises-finds-a-way-to-make-its-fusion-fuel-fast/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-20T16:00:00.000Z",
-        "relevanceScore": 27.91,
-        "tags": [
-          "Startup"
         ]
       }
     ],
@@ -1000,7 +989,7 @@
         "link": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
         "source": "Ars Technica",
         "pubDate": "2026-08-20T13:59:50.000Z",
-        "relevanceScore": 25.51,
+        "relevanceScore": 25.4,
         "tags": []
       }
     ],
@@ -1010,7 +999,7 @@
         "link": "https://www.wired.com/story/best-usb-car-chargers/",
         "source": "Wired",
         "pubDate": "2026-08-20T10:33:00.000Z",
-        "relevanceScore": 24.82,
+        "relevanceScore": 24.71,
         "tags": []
       },
       {
@@ -1018,7 +1007,7 @@
         "link": "https://www.engadget.com/2240859/tesla-robotaxi-fleet-might-finally-be-driving-around-austin-unsupervised/",
         "source": "Engadget",
         "pubDate": "2026-08-20T15:50:56.000Z",
-        "relevanceScore": 23.88,
+        "relevanceScore": 23.77,
         "tags": []
       }
     ],
@@ -1028,35 +1017,35 @@
         "link": "https://www.bbc.co.uk/news/articles/c0ej09nywdno?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-19T16:14:46.000Z",
-        "relevanceScore": 21.16,
+        "relevanceScore": 21.05,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 13,
-    "totalCategories": 15,
-    "avgRelevanceScore": 117.55422222222221,
+    "totalCategories": 16,
+    "avgRelevanceScore": 132.22644444444444,
     "topCategories": [
       {
         "category": "tech",
-        "count": 9
-      },
-      {
-        "category": "ai-ml",
-        "count": 6
+        "count": 10
       },
       {
         "category": "mobile",
+        "count": 6
+      },
+      {
+        "category": "ai-ml",
+        "count": 5
+      },
+      {
+        "category": "business",
         "count": 5
       },
       {
         "category": "development",
         "count": 4
-      },
-      {
-        "category": "general",
-        "count": 3
       }
     ]
   }
