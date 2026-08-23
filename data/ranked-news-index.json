@@ -1,17 +1,18 @@
 {
-  "lastUpdated": "2026-08-23T23:14:21.413Z",
-  "totalArticles": 38,
+  "lastUpdated": "2026-08-23T23:36:19.053Z",
+  "totalArticles": 39,
   "categories": [
     "general",
     "mobile",
     "gaming",
-    "ai-ml",
     "cybersecurity",
     "space",
     "automotive",
     "business",
+    "ai-ml",
     "tech",
     "climate",
+    "development",
     "entertainment"
   ],
   "topArticles": [
@@ -21,8 +22,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-23T23:10:18.000Z",
-      "relevanceScore": 712.99,
-      "recommendationScore": 714.99,
+      "relevanceScore": 730.91,
+      "recommendationScore": 732.91,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -32,8 +33,21 @@
       "source": "Engadget",
       "category": "mobile",
       "pubDate": "2026-08-23T20:30:00.000Z",
-      "relevanceScore": 415.45,
-      "recommendationScore": 417.45,
+      "relevanceScore": 415.38,
+      "recommendationScore": 417.38,
+      "tags": [
+        "Mobile"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "How we run five coding agents side by side in one window",
+      "link": "https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf",
+      "source": "Dev.to",
+      "category": "mobile",
+      "pubDate": "2026-08-23T23:12:04.000Z",
+      "relevanceScore": 370.92,
+      "recommendationScore": 372.92,
       "tags": [
         "Mobile"
       ],
@@ -45,8 +59,8 @@
       "source": "The Verge",
       "category": "gaming",
       "pubDate": "2026-08-23T12:00:00.000Z",
-      "relevanceScore": 303.75,
-      "recommendationScore": 303.75,
+      "relevanceScore": 309.68,
+      "recommendationScore": 309.68,
       "tags": [
         "Tech",
         "Breaking"
@@ -54,18 +68,18 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Trusted AI Agent Transactions, Part 4: PingAuthorize Policy Decisions",
-      "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-4-pingauthorize-policy-decisions-3ik8",
+      "title": "I pushed the badBANANA Threat Observatory public",
+      "link": "https://dev.to/gnomeman4201/i-pushed-the-badbanana-threat-observatory-public-49e8",
       "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-23T23:03:22.000Z",
-      "relevanceScore": 278.96,
-      "recommendationScore": 279.46,
+      "category": "cybersecurity",
+      "pubDate": "2026-08-23T23:10:31.000Z",
+      "relevanceScore": 309.41,
+      "recommendationScore": 309.41,
       "tags": [
-        "AI",
-        "Regulation"
+        "Security",
+        "IPO"
       ],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
     },
     {
       "title": "Iran official says support for new sanctions would be an 'act of war,' and other Middle East news",
@@ -73,8 +87,8 @@
       "source": "ABC News Business",
       "category": "cybersecurity",
       "pubDate": "2026-08-23T21:08:19.000Z",
-      "relevanceScore": 252.58,
-      "recommendationScore": 255.08,
+      "relevanceScore": 261.51,
+      "recommendationScore": 264.01,
       "tags": [
         "Security"
       ],
@@ -86,8 +100,8 @@
       "source": "NPR Business",
       "category": "space",
       "pubDate": "2026-08-22T21:30:47.000Z",
-      "relevanceScore": 249.85,
-      "recommendationScore": 250.35,
+      "relevanceScore": 258.78,
+      "recommendationScore": 259.28,
       "tags": [
         "Business",
         "IPO"
@@ -100,25 +114,10 @@
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2026-08-23T21:05:43.000Z",
-      "relevanceScore": 212.57,
-      "recommendationScore": 213.07,
+      "relevanceScore": 213.5,
+      "recommendationScore": 214,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trusted AI Agent Transactions, Part 5: End-to-End Proof",
-      "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-5-end-to-end-proof-44b5",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-23T23:03:55.000Z",
-      "relevanceScore": 206.97,
-      "recommendationScore": 207.47,
-      "tags": [
-        "AI",
-        "Web",
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "The U.S. & Canada are fighting over tariffs. How is that affecting small businesses?",
@@ -126,11 +125,36 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-22T21:16:39.000Z",
-      "relevanceScore": 204.81,
-      "recommendationScore": 206.81,
+      "relevanceScore": 205.73,
+      "recommendationScore": 207.73,
       "tags": [
         "Business"
       ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trusted AI Agent Transactions, Part 4: PingAuthorize Policy Decisions",
+      "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-4-pingauthorize-policy-decisions-3ik8",
+      "source": "Dev.to",
+      "category": "ai-ml",
+      "pubDate": "2026-08-23T23:03:22.000Z",
+      "relevanceScore": 180.39,
+      "recommendationScore": 180.89,
+      "tags": [
+        "AI",
+        "Regulation"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
+      "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-08-23T19:30:00.000Z",
+      "relevanceScore": 157.68,
+      "recommendationScore": 158.18,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -139,57 +163,11 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-23T15:00:00.000Z",
-      "relevanceScore": 169.35,
-      "recommendationScore": 169.85,
+      "relevanceScore": 123.28,
+      "recommendationScore": 123.78,
       "tags": [
         "Exclusive"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Trusted AI Agent Transactions, Part 3: SPIRE Workload Identity",
-      "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-3-spire-workload-identity-1gfb",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-08-23T23:02:55.000Z",
-      "relevanceScore": 164.96,
-      "recommendationScore": 165.46,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Uber faces fine of nearly $1B over automated driver suspensions",
-      "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-08-23T19:30:00.000Z",
-      "relevanceScore": 144.75,
-      "recommendationScore": 145.25,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Data centers near O’Hare win nearly $100M in local tax breaks, leaving suburban homeowners to cover the gap",
-      "link": "https://www.reddit.com/r/technology/comments/1vwh3mt/data_centers_near_ohare_win_nearly_100m_in_local/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-08-23T19:51:58.000Z",
-      "relevanceScore": 140.33,
-      "recommendationScore": 140.33,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
-      "link": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
-      "source": "Wired",
-      "category": "gaming",
-      "pubDate": "2026-08-23T13:00:00.000Z",
-      "relevanceScore": 134.95,
-      "recommendationScore": 135.45,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -198,11 +176,35 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-23T20:01:36.000Z",
-      "relevanceScore": 100.36,
-      "recommendationScore": 102.36,
+      "relevanceScore": 115.28,
+      "recommendationScore": 117.28,
       "tags": [
         "AI",
         "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Asus ROG Swift RGB Stripe OLED Review: Clarity King",
+      "link": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
+      "source": "Wired",
+      "category": "gaming",
+      "pubDate": "2026-08-23T13:00:00.000Z",
+      "relevanceScore": 82.38,
+      "recommendationScore": 82.88,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-08-23T23:07:10.000Z",
+      "relevanceScore": 71.9,
+      "recommendationScore": 74.4,
+      "tags": [
+        "Exclusive"
       ],
       "readingLevel": "intermediate"
     },
@@ -212,8 +214,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-23T11:03:00.000Z",
-      "relevanceScore": 65.56,
-      "recommendationScore": 68.06,
+      "relevanceScore": 71.49,
+      "recommendationScore": 73.99,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -223,33 +225,9 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-23T10:37:00.000Z",
-      "relevanceScore": 65.48,
-      "recommendationScore": 66.98,
+      "relevanceScore": 71.4,
+      "recommendationScore": 72.9,
       "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
-      "link": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-08-22T11:08:53.000Z",
-      "relevanceScore": 63.28,
-      "recommendationScore": 63.78,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Burnham to visit Kyiv on first foreign trip and reaffirm UK support for Ukraine",
-      "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-08-23T23:07:10.000Z",
-      "relevanceScore": 62.98,
-      "recommendationScore": 65.48,
-      "tags": [
-        "Exclusive"
-      ],
       "readingLevel": "intermediate"
     },
     {
@@ -258,12 +236,23 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-08-23T19:14:08.000Z",
-      "relevanceScore": 58.2,
-      "recommendationScore": 58.7,
+      "relevanceScore": 67.13,
+      "recommendationScore": 67.63,
       "tags": [
         "AI",
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Why students are being paid £2,000 to play computer games",
+      "link": "https://www.bbc.co.uk/news/articles/cz647wlvg1do?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "gaming",
+      "pubDate": "2026-08-23T23:23:55.000Z",
+      "relevanceScore": 65.96,
+      "recommendationScore": 67.96,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -272,8 +261,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-08-23T19:14:37.000Z",
-      "relevanceScore": 56.2,
-      "recommendationScore": 58.7,
+      "relevanceScore": 65.13,
+      "recommendationScore": 67.63,
       "tags": [
         "Exclusive",
         "Launch"
@@ -286,8 +275,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-23T18:40:04.000Z",
-      "relevanceScore": 54.09,
-      "recommendationScore": 54.59,
+      "relevanceScore": 63.01,
+      "recommendationScore": 63.51,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -297,22 +286,9 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-23T06:06:05.000Z",
-      "relevanceScore": 53.57,
-      "recommendationScore": 56.07,
+      "relevanceScore": 62.5,
+      "recommendationScore": 65,
       "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "People have clicked the \"Seems like AI slop\" button on LinkedIn over a million times already",
-      "link": "https://www.reddit.com/r/technology/comments/1vwfbas/people_have_clicked_the_seems_like_ai_slop_button/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-08-23T18:43:42.000Z",
-      "relevanceScore": 52.1,
-      "recommendationScore": 52.6,
-      "tags": [
-        "AI"
-      ],
       "readingLevel": "advanced"
     },
     {
@@ -321,8 +297,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-22T11:22:32.000Z",
-      "relevanceScore": 49.83,
-      "recommendationScore": 50.33,
+      "relevanceScore": 58.75,
+      "recommendationScore": 59.25,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -332,8 +308,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-08-23T11:00:00.000Z",
-      "relevanceScore": 39.05,
-      "recommendationScore": 41.05,
+      "relevanceScore": 54.98,
+      "recommendationScore": 56.98,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -343,8 +319,8 @@
       "source": "BBC News",
       "category": "automotive",
       "pubDate": "2026-08-23T21:22:17.000Z",
-      "relevanceScore": 31.63,
-      "recommendationScore": 32.13,
+      "relevanceScore": 31.55,
+      "recommendationScore": 32.05,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -354,8 +330,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-08-23T19:00:31.000Z",
-      "relevanceScore": 31.15,
-      "recommendationScore": 31.65,
+      "relevanceScore": 31.08,
+      "recommendationScore": 31.58,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -365,8 +341,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-23T16:03:00.000Z",
-      "relevanceScore": 26.56,
-      "recommendationScore": 27.06,
+      "relevanceScore": 29.49,
+      "recommendationScore": 29.99,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -376,8 +352,8 @@
       "source": "TechCrunch",
       "category": "tech",
       "pubDate": "2026-08-23T15:30:00.000Z",
-      "relevanceScore": 26.45,
-      "recommendationScore": 26.95,
+      "relevanceScore": 26.38,
+      "recommendationScore": 26.88,
       "tags": [
         "Tech",
         "IPO"
@@ -390,8 +366,8 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-08-23T14:30:16.000Z",
-      "relevanceScore": 25.25,
-      "recommendationScore": 27.75,
+      "relevanceScore": 25.18,
+      "recommendationScore": 27.68,
       "tags": [
         "Launch"
       ],
@@ -403,8 +379,8 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-08-23T11:54:20.000Z",
-      "relevanceScore": 23.73,
-      "recommendationScore": 24.23,
+      "relevanceScore": 23.66,
+      "recommendationScore": 24.16,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -414,8 +390,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-08-23T21:30:00.000Z",
-      "relevanceScore": 23.65,
-      "recommendationScore": 25.65,
+      "relevanceScore": 23.58,
+      "recommendationScore": 25.58,
       "tags": [
         "Tech",
         "Tutorial"
@@ -428,8 +404,8 @@
       "source": "Ars Technica",
       "category": "climate",
       "pubDate": "2026-08-23T11:02:54.000Z",
-      "relevanceScore": 23.56,
-      "recommendationScore": 23.56,
+      "relevanceScore": 23.49,
+      "recommendationScore": 23.49,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -439,12 +415,39 @@
       "source": "Engadget",
       "category": "automotive",
       "pubDate": "2026-08-23T20:00:00.000Z",
-      "relevanceScore": 23.35,
-      "recommendationScore": 26.35,
+      "relevanceScore": 23.28,
+      "recommendationScore": 26.28,
       "tags": [
         "Tutorial"
       ],
       "readingLevel": "beginner"
+    },
+    {
+      "title": "How To Report A Bug So It Actually Gets Fixed",
+      "link": "https://www.reddit.com/r/programming/comments/1vwb745/how_to_report_a_bug_so_it_actually_gets_fixed/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-08-23T16:08:26.000Z",
+      "relevanceScore": 20.51,
+      "recommendationScore": 22.01,
+      "tags": [
+        "Tutorial",
+        "Report"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How to Design an Animation",
+      "link": "https://www.reddit.com/r/programming/comments/1vw91lz/how_to_design_an_animation/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-08-23T14:44:41.000Z",
+      "relevanceScore": 20.23,
+      "recommendationScore": 21.73,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Doodle generative compositions in your browser with Musical Spirograph",
@@ -452,8 +455,8 @@
       "source": "The Verge",
       "category": "entertainment",
       "pubDate": "2026-08-22T17:00:00.000Z",
-      "relevanceScore": 19.95,
-      "recommendationScore": 20.45,
+      "relevanceScore": 19.88,
+      "recommendationScore": 20.38,
       "tags": [
         "Web"
       ],
@@ -465,8 +468,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-08-22T04:36:27.000Z",
-      "relevanceScore": 19.47,
-      "recommendationScore": 19.97,
+      "relevanceScore": 19.4,
+      "recommendationScore": 19.9,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -476,8 +479,19 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-08-22T12:47:28.000Z",
-      "relevanceScore": 19.11,
-      "recommendationScore": 19.61,
+      "relevanceScore": 19.04,
+      "recommendationScore": 19.54,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
+      "link": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-08-22T11:08:53.000Z",
+      "relevanceScore": 18.71,
+      "recommendationScore": 19.21,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -489,7 +503,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c9v4w77d9m8o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-23T23:10:18.000Z",
-        "relevanceScore": 712.99,
+        "relevanceScore": 730.91,
         "tags": []
       },
       {
@@ -497,7 +511,7 @@
         "link": "https://www.bbc.co.uk/news/articles/clyqypkrzq5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-23T23:07:10.000Z",
-        "relevanceScore": 62.98,
+        "relevanceScore": 71.9,
         "tags": [
           "Exclusive"
         ]
@@ -507,7 +521,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cp8x8xglp27o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-23T19:00:31.000Z",
-        "relevanceScore": 31.15,
+        "relevanceScore": 31.08,
         "tags": []
       }
     ],
@@ -517,7 +531,17 @@
         "link": "https://www.engadget.com/2240251/android-auto-vs-automotive-how-different/",
         "source": "Engadget",
         "pubDate": "2026-08-23T20:30:00.000Z",
-        "relevanceScore": 415.45,
+        "relevanceScore": 415.38,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
+        "title": "How we run five coding agents side by side in one window",
+        "link": "https://dev.to/eliseomdq/how-we-run-five-coding-agents-side-by-side-in-one-window-32gf",
+        "source": "Dev.to",
+        "pubDate": "2026-08-23T23:12:04.000Z",
+        "relevanceScore": 370.92,
         "tags": [
           "Mobile"
         ]
@@ -529,7 +553,7 @@
         "link": "https://www.theverge.com/column/983410/grand-theft-auto-vi-exists-in-its-own-universe",
         "source": "The Verge",
         "pubDate": "2026-08-23T12:00:00.000Z",
-        "relevanceScore": 303.75,
+        "relevanceScore": 309.68,
         "tags": [
           "Tech",
           "Breaking"
@@ -540,84 +564,36 @@
         "link": "https://www.wired.com/review/asus-rog-swift-rgb-stripe-oled-pg27ucwm/",
         "source": "Wired",
         "pubDate": "2026-08-23T13:00:00.000Z",
-        "relevanceScore": 134.95,
+        "relevanceScore": 82.38,
+        "tags": []
+      },
+      {
+        "title": "Why students are being paid £2,000 to play computer games",
+        "link": "https://www.bbc.co.uk/news/articles/cz647wlvg1do?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-08-23T23:23:55.000Z",
+        "relevanceScore": 65.96,
         "tags": []
       }
     ],
-    "ai-ml": [
-      {
-        "title": "Trusted AI Agent Transactions, Part 4: PingAuthorize Policy Decisions",
-        "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-4-pingauthorize-policy-decisions-3ik8",
-        "source": "Dev.to",
-        "pubDate": "2026-08-23T23:03:22.000Z",
-        "relevanceScore": 278.96,
-        "tags": [
-          "AI",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Trusted AI Agent Transactions, Part 5: End-to-End Proof",
-        "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-5-end-to-end-proof-44b5",
-        "source": "Dev.to",
-        "pubDate": "2026-08-23T23:03:55.000Z",
-        "relevanceScore": 206.97,
-        "tags": [
-          "AI",
-          "Web",
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Trusted AI Agent Transactions, Part 3: SPIRE Workload Identity",
-        "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-3-spire-workload-identity-1gfb",
-        "source": "Dev.to",
-        "pubDate": "2026-08-23T23:02:55.000Z",
-        "relevanceScore": 164.96,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
-        "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-23T20:01:36.000Z",
-        "relevanceScore": 100.36,
-        "tags": [
-          "AI",
-          "Web"
-        ]
-      },
-      {
-        "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
-        "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
-        "source": "TechCrunch",
-        "pubDate": "2026-08-23T19:14:08.000Z",
-        "relevanceScore": 58.2,
-        "tags": [
-          "AI",
-          "Tech"
-        ]
-      },
-      {
-        "title": "People have clicked the \"Seems like AI slop\" button on LinkedIn over a million times already",
-        "link": "https://www.reddit.com/r/technology/comments/1vwfbas/people_have_clicked_the_seems_like_ai_slop_button/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-23T18:43:42.000Z",
-        "relevanceScore": 52.1,
-        "tags": [
-          "AI"
-        ]
-      }
-    ],
     "cybersecurity": [
+      {
+        "title": "I pushed the badBANANA Threat Observatory public",
+        "link": "https://dev.to/gnomeman4201/i-pushed-the-badbanana-threat-observatory-public-49e8",
+        "source": "Dev.to",
+        "pubDate": "2026-08-23T23:10:31.000Z",
+        "relevanceScore": 309.41,
+        "tags": [
+          "Security",
+          "IPO"
+        ]
+      },
       {
         "title": "Iran official says support for new sanctions would be an 'act of war,' and other Middle East news",
         "link": "https://abcnews.com/Business/wireStory/irans-president-us-memorandum-best-path-stalled-war-135879989",
         "source": "ABC News Business",
         "pubDate": "2026-08-23T21:08:19.000Z",
-        "relevanceScore": 252.58,
+        "relevanceScore": 261.51,
         "tags": [
           "Security"
         ]
@@ -629,7 +605,7 @@
         "link": "https://www.npr.org/2026/08/22/nx-s1-5939817/chinese-company-flexes-dominance-in-robotics-space-with-splashy-stock-market-debut",
         "source": "NPR Business",
         "pubDate": "2026-08-22T21:30:47.000Z",
-        "relevanceScore": 249.85,
+        "relevanceScore": 258.78,
         "tags": [
           "Business",
           "IPO"
@@ -642,7 +618,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cdj0j8enpzyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-23T21:05:43.000Z",
-        "relevanceScore": 212.57,
+        "relevanceScore": 213.5,
         "tags": []
       },
       {
@@ -650,7 +626,7 @@
         "link": "https://www.bbc.co.uk/news/articles/c4gvgy3de37o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-08-23T21:22:17.000Z",
-        "relevanceScore": 31.63,
+        "relevanceScore": 31.55,
         "tags": []
       },
       {
@@ -658,7 +634,7 @@
         "link": "https://www.engadget.com/2240187/apple-carplay-stop-siri-from-interrupting/",
         "source": "Engadget",
         "pubDate": "2026-08-23T20:00:00.000Z",
-        "relevanceScore": 23.35,
+        "relevanceScore": 23.28,
         "tags": [
           "Tutorial"
         ]
@@ -670,7 +646,7 @@
         "link": "https://www.npr.org/2026/08/22/nx-s1-5941703/the-u-s-canada-are-fighting-over-tariffs-how-is-that-affecting-small-businesses",
         "source": "NPR Business",
         "pubDate": "2026-08-22T21:16:39.000Z",
-        "relevanceScore": 204.81,
+        "relevanceScore": 205.73,
         "tags": [
           "Business"
         ]
@@ -680,7 +656,7 @@
         "link": "https://abcnews.com/Business/wireStory/buc-ees-chain-draws-outcry-ohio-launching-fight-135879150",
         "source": "ABC News Business",
         "pubDate": "2026-08-23T06:06:05.000Z",
-        "relevanceScore": 53.57,
+        "relevanceScore": 62.5,
         "tags": []
       },
       {
@@ -688,7 +664,7 @@
         "link": "https://abcnews.com/Business/wireStory/kazakhstan-votes-parliamentary-election-expected-strengthen-presidents-grip-135879539",
         "source": "ABC News Business",
         "pubDate": "2026-08-23T11:54:20.000Z",
-        "relevanceScore": 23.73,
+        "relevanceScore": 23.66,
         "tags": []
       },
       {
@@ -696,43 +672,70 @@
         "link": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
         "source": "NPR Business",
         "pubDate": "2026-08-22T04:36:27.000Z",
-        "relevanceScore": 19.47,
+        "relevanceScore": 19.4,
         "tags": []
       }
     ],
-    "tech": [
+    "ai-ml": [
       {
-        "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
-        "link": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
-        "source": "The Verge",
-        "pubDate": "2026-08-23T15:00:00.000Z",
-        "relevanceScore": 169.35,
+        "title": "Trusted AI Agent Transactions, Part 4: PingAuthorize Policy Decisions",
+        "link": "https://dev.to/darkedges/trusted-ai-agent-transactions-part-4-pingauthorize-policy-decisions-3ik8",
+        "source": "Dev.to",
+        "pubDate": "2026-08-23T23:03:22.000Z",
+        "relevanceScore": 180.39,
         "tags": [
-          "Exclusive"
+          "AI",
+          "Regulation"
         ]
       },
+      {
+        "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+        "link": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-23T20:01:36.000Z",
+        "relevanceScore": 115.28,
+        "tags": [
+          "AI",
+          "Web"
+        ]
+      },
+      {
+        "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+        "link": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+        "source": "TechCrunch",
+        "pubDate": "2026-08-23T19:14:08.000Z",
+        "relevanceScore": 67.13,
+        "tags": [
+          "AI",
+          "Tech"
+        ]
+      }
+    ],
+    "tech": [
       {
         "title": "Uber faces fine of nearly $1B over automated driver suspensions",
         "link": "https://techcrunch.com/2026/08/23/uber-faces-fine-of-nearly-1b-over-automated-driver-suspensions/",
         "source": "TechCrunch",
         "pubDate": "2026-08-23T19:30:00.000Z",
-        "relevanceScore": 144.75,
+        "relevanceScore": 157.68,
         "tags": []
       },
       {
-        "title": "Data centers near O’Hare win nearly $100M in local tax breaks, leaving suburban homeowners to cover the gap",
-        "link": "https://www.reddit.com/r/technology/comments/1vwh3mt/data_centers_near_ohare_win_nearly_100m_in_local/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-08-23T19:51:58.000Z",
-        "relevanceScore": 140.33,
-        "tags": []
+        "title": "We’re All Going to the World’s Fair is an intimate coming-of-age horror film",
+        "link": "https://www.theverge.com/entertainment/983177/jane-schoenbrun-were-all-going-to-the-worlds-fair-horror-movie-review",
+        "source": "The Verge",
+        "pubDate": "2026-08-23T15:00:00.000Z",
+        "relevanceScore": 123.28,
+        "tags": [
+          "Exclusive"
+        ]
       },
       {
         "title": "What’s the Best Kindle of 2026? (So Far)",
         "link": "https://www.wired.com/gallery/best-kindle/",
         "source": "Wired",
         "pubDate": "2026-08-23T11:03:00.000Z",
-        "relevanceScore": 65.56,
+        "relevanceScore": 71.49,
         "tags": []
       },
       {
@@ -740,15 +743,7 @@
         "link": "https://www.wired.com/gallery/best-laptop-docking-stations/",
         "source": "Wired",
         "pubDate": "2026-08-23T10:37:00.000Z",
-        "relevanceScore": 65.48,
-        "tags": []
-      },
-      {
-        "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
-        "link": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
-        "source": "Ars Technica",
-        "pubDate": "2026-08-22T11:08:53.000Z",
-        "relevanceScore": 63.28,
+        "relevanceScore": 71.4,
         "tags": []
       },
       {
@@ -756,7 +751,7 @@
         "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
         "source": "The Verge",
         "pubDate": "2026-08-23T19:14:37.000Z",
-        "relevanceScore": 56.2,
+        "relevanceScore": 65.13,
         "tags": [
           "Exclusive",
           "Launch"
@@ -767,7 +762,7 @@
         "link": "https://www.engadget.com/2242295/humanoid-robots-have-beaten-usain-bolts-100-meter-dash-record/",
         "source": "Engadget",
         "pubDate": "2026-08-23T18:40:04.000Z",
-        "relevanceScore": 54.09,
+        "relevanceScore": 63.01,
         "tags": []
       },
       {
@@ -775,7 +770,7 @@
         "link": "https://arstechnica.com/science/2026/08/memories-stick-around-even-after-half-the-synapses-are-gone/",
         "source": "Ars Technica",
         "pubDate": "2026-08-22T11:22:32.000Z",
-        "relevanceScore": 49.83,
+        "relevanceScore": 58.75,
         "tags": []
       },
       {
@@ -783,7 +778,7 @@
         "link": "https://www.wired.com/story/transistors-changed-everything-heres-how-they-work/",
         "source": "Wired",
         "pubDate": "2026-08-23T11:00:00.000Z",
-        "relevanceScore": 39.05,
+        "relevanceScore": 54.98,
         "tags": []
       },
       {
@@ -791,7 +786,7 @@
         "link": "https://techcrunch.com/2026/08/23/techcrunch-mobility-the-custom-chip-driving-waymos-robotaxi-ambitions/",
         "source": "TechCrunch",
         "pubDate": "2026-08-23T16:03:00.000Z",
-        "relevanceScore": 26.56,
+        "relevanceScore": 29.49,
         "tags": []
       },
       {
@@ -799,7 +794,7 @@
         "link": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
         "source": "TechCrunch",
         "pubDate": "2026-08-23T15:30:00.000Z",
-        "relevanceScore": 26.45,
+        "relevanceScore": 26.38,
         "tags": [
           "Tech",
           "IPO"
@@ -810,7 +805,7 @@
         "link": "https://arstechnica.com/space/2026/08/due-to-need-for-absolute-success-china-delays-critical-moon-launch-to-2027/",
         "source": "Ars Technica",
         "pubDate": "2026-08-23T14:30:16.000Z",
-        "relevanceScore": 25.25,
+        "relevanceScore": 25.18,
         "tags": [
           "Launch"
         ]
@@ -820,7 +815,7 @@
         "link": "https://www.engadget.com/2240255/vesa-tv-mount-how-to-know-type-guide/",
         "source": "Engadget",
         "pubDate": "2026-08-23T21:30:00.000Z",
-        "relevanceScore": 23.65,
+        "relevanceScore": 23.58,
         "tags": [
           "Tech",
           "Tutorial"
@@ -831,7 +826,15 @@
         "link": "https://www.bbc.co.uk/news/videos/cy4k4d3lj21o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-08-22T12:47:28.000Z",
-        "relevanceScore": 19.11,
+        "relevanceScore": 19.04,
+        "tags": []
+      },
+      {
+        "title": "Dismantling the Roadless Rule threatens to disrupt wildlife and water in US",
+        "link": "https://arstechnica.com/science/2026/08/dismantling-the-roadless-rule-threatens-to-disrupt-wildlife-and-water-in-us/",
+        "source": "Ars Technica",
+        "pubDate": "2026-08-22T11:08:53.000Z",
+        "relevanceScore": 18.71,
         "tags": []
       }
     ],
@@ -841,8 +844,31 @@
         "link": "https://arstechnica.com/science/2026/08/volcanoes-that-made-history/",
         "source": "Ars Technica",
         "pubDate": "2026-08-23T11:02:54.000Z",
-        "relevanceScore": 23.56,
+        "relevanceScore": 23.49,
         "tags": []
+      }
+    ],
+    "development": [
+      {
+        "title": "How To Report A Bug So It Actually Gets Fixed",
+        "link": "https://www.reddit.com/r/programming/comments/1vwb745/how_to_report_a_bug_so_it_actually_gets_fixed/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-23T16:08:26.000Z",
+        "relevanceScore": 20.51,
+        "tags": [
+          "Tutorial",
+          "Report"
+        ]
+      },
+      {
+        "title": "How to Design an Animation",
+        "link": "https://www.reddit.com/r/programming/comments/1vw91lz/how_to_design_an_animation/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-08-23T14:44:41.000Z",
+        "relevanceScore": 20.23,
+        "tags": [
+          "Tutorial"
+        ]
       }
     ],
     "entertainment": [
@@ -851,7 +877,7 @@
         "link": "https://www.theverge.com/entertainment/983322/musical-spirograph-generative-composition",
         "source": "The Verge",
         "pubDate": "2026-08-22T17:00:00.000Z",
-        "relevanceScore": 19.95,
+        "relevanceScore": 19.88,
         "tags": [
           "Web"
         ]
@@ -860,16 +886,12 @@
   },
   "stats": {
     "totalSources": 11,
-    "totalCategories": 11,
-    "avgRelevanceScore": 121.23236842105261,
+    "totalCategories": 12,
+    "avgRelevanceScore": 121.60358974358972,
     "topCategories": [
       {
         "category": "tech",
-        "count": 15
-      },
-      {
-        "category": "ai-ml",
-        "count": 6
+        "count": 14
       },
       {
         "category": "business",
@@ -877,6 +899,10 @@
       },
       {
         "category": "general",
+        "count": 3
+      },
+      {
+        "category": "gaming",
         "count": 3
       },
       {
