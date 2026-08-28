@@ -1,7 +1,67 @@
 {
-  "lastUpdated": "2026-08-27T18:22:04.149Z",
+  "lastUpdated": "2026-08-28T02:15:13.671Z",
   "totalDays": 30,
   "index": [
+    {
+      "date": "2026-08-28",
+      "file": "2026-08-28.json",
+      "totalArticles": 47,
+      "lastUpdated": "2026-08-28T02:15:13.652Z",
+      "sources": [
+        "Ars Technica",
+        "MIT Technology Review",
+        "Dev.to",
+        "The Verge",
+        "NPR Business",
+        "TechCrunch",
+        "Engadget",
+        "BBC News",
+        "Wired",
+        "GitHub Blog",
+        "Reddit Technology",
+        "BBC Technology",
+        "ABC News Business"
+      ],
+      "categories": [
+        "tech",
+        "science",
+        "development",
+        "business",
+        "general"
+      ],
+      "topArticles": [
+        {
+          "title": "Report: Nvidia to acquire AI model repository Hugging Face for $13 billion",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/08/report-nvidia-to-acquire-ai-model-repository-hugging-face-for-13-billion/",
+          "relevanceScore": 8262.834492916667
+        },
+        {
+          "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+          "source": "MIT Technology Review",
+          "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+          "relevanceScore": 5030
+        },
+        {
+          "title": "Small Models Have Arrived — And They Change the Economics of Everything",
+          "source": "Dev.to",
+          "link": "https://dev.to/ashraf_chowdury09/small-models-have-arrived-and-they-change-the-economics-of-everything-1dfp",
+          "relevanceScore": 2527.911992777778
+        },
+        {
+          "title": "Anthropic's new hardware standard lets AI agents control the physical world",
+          "source": "Ars Technica",
+          "link": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+          "relevanceScore": 2082.00407625
+        },
+        {
+          "title": "GTA VI: all the news on Rockstar’s next entry in the Grand Theft Auto series",
+          "source": "The Verge",
+          "link": "https://www.theverge.com/23987993/gta-6-news-trailers-rockstar-games",
+          "relevanceScore": 2024.8892151388889
+        }
+      ]
+    },
     {
       "date": "2026-08-27",
       "file": "2026-08-27.json",
@@ -34,31 +94,31 @@
           "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
-          "relevanceScore": 3972.899426527778
+          "relevanceScore": 3976.26
         },
         {
           "title": "The inside story on why OpenAI agents hacked Hugging Face",
           "source": "MIT Technology Review",
           "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "relevanceScore": 3857
+          "relevanceScore": 3845.33
         },
         {
           "title": "Unexpected chat between OpenAI agents led to Hugging Face hack",
           "source": "BBC Technology",
           "link": "https://www.bbc.co.uk/news/articles/cj9xj89dk40o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 3561
+          "relevanceScore": 3559.44
         },
         {
           "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
           "source": "The Verge",
           "link": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
-          "relevanceScore": 1809.9483155555556
+          "relevanceScore": 1822.58
         },
         {
           "title": "Nvidia revenue doubles on continued AI demand",
           "source": "BBC Technology",
           "link": "https://www.bbc.co.uk/news/articles/ce871n7lyvlo?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1807
+          "relevanceScore": 1818.89
         }
       ]
     },
@@ -1749,67 +1809,6 @@
           "source": "GitHub Blog",
           "link": "https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/",
           "relevanceScore": 833.34
-        }
-      ]
-    },
-    {
-      "date": "2026-07-29",
-      "file": "2026-07-29.json",
-      "totalArticles": 48,
-      "lastUpdated": "2026-07-29T23:13:17.485Z",
-      "sources": [
-        "GitHub Blog",
-        "MIT Technology Review",
-        "TechCrunch",
-        "BBC Technology",
-        "The Verge",
-        "Engadget",
-        "Stack Overflow Blog",
-        "Wired",
-        "Ars Technica",
-        "NPR Business",
-        "ABC News Business",
-        "Dev.to",
-        "BBC News",
-        "Reddit Programming"
-      ],
-      "categories": [
-        "development",
-        "science",
-        "tech",
-        "business",
-        "general"
-      ],
-      "topArticles": [
-        {
-          "title": "Tame Dependabot: Group your updates, slow the cadence, keep security fast",
-          "source": "GitHub Blog",
-          "link": "https://github.blog/security/supply-chain-security/tame-dependabot-group-your-updates-slow-the-cadence-keep-security-fast/",
-          "relevanceScore": 1758.06
-        },
-        {
-          "title": "The AI Hype Index: Unsexy AI",
-          "source": "MIT Technology Review",
-          "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-          "relevanceScore": 1593.1
-        },
-        {
-          "title": "Microsoft logs $3.2B from Anthropic investment, but OpenAI was a mixed bag",
-          "source": "TechCrunch",
-          "link": "https://techcrunch.com/2026/07/29/microsoft-logs-3-2b-from-anthropic-investment-but-openai-was-a-mixed-bag/",
-          "relevanceScore": 1146.41
-        },
-        {
-          "title": "OpenAI says its rogue AI tried to hack other companies",
-          "source": "BBC Technology",
-          "link": "https://www.bbc.co.uk/news/articles/c2el319vzr3o?at_medium=RSS&at_campaign=rss",
-          "relevanceScore": 1085.62
-        },
-        {
-          "title": "Mark Zuckerberg is planning a big push into personal AI agents",
-          "source": "The Verge",
-          "link": "https://www.theverge.com/tech/972294/meta-q2-2026-earnings-mark-zuckerberg-personal-ai-agents",
-          "relevanceScore": 1077.22
         }
       ]
     }
