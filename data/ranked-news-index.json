@@ -1,30 +1,45 @@
 {
-  "lastUpdated": "2026-09-04T21:49:16.564Z",
+  "lastUpdated": "2026-09-04T23:37:29.620Z",
   "totalArticles": 50,
   "categories": [
-    "cybersecurity",
     "tech",
+    "cybersecurity",
     "ai-ml",
     "mobile",
     "science",
-    "development",
-    "finance",
-    "automotive",
     "startup",
     "world",
-    "cloud",
+    "gaming",
     "business",
-    "general"
+    "general",
+    "automotive",
+    "cloud",
+    "development",
+    "space",
+    "climate"
   ],
   "topArticles": [
+    {
+      "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+      "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-09-04T22:17:36.000Z",
+      "relevanceScore": 4874.73,
+      "recommendationScore": 4875.23,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
     {
       "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
       "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "cybersecurity",
       "pubDate": "2026-09-04T14:59:13.000Z",
-      "relevanceScore": 3272.63,
-      "recommendationScore": 3273.13,
+      "relevanceScore": 3559.27,
+      "recommendationScore": 3559.77,
       "tags": [
         "Security",
         "Web",
@@ -33,28 +48,16 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-      "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
       "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2026-09-04T16:21:11.000Z",
-      "relevanceScore": 3045.41,
-      "recommendationScore": 3045.91,
+      "category": "ai-ml",
+      "pubDate": "2026-09-04T23:15:11.000Z",
+      "relevanceScore": 3162.93,
+      "recommendationScore": 3163.43,
       "tags": [
-        "Security",
-        "Web"
+        "AI"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Rogue OpenAI agents took over a German coding forum in a previously undisclosed hijacking",
-      "link": "https://www.engadget.com/2251091/rogue-openai-agents-took-over-german-coding-forum-in-previously-undisclosed-hijacking/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-09-04T15:02:52.000Z",
-      "relevanceScore": 3005.65,
-      "recommendationScore": 3006.15,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -63,28 +66,13 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-09-04T07:40:00.000Z",
-      "relevanceScore": 1936.67,
-      "recommendationScore": 1938.17,
+      "relevanceScore": 2009.31,
+      "recommendationScore": 2010.81,
       "tags": [
         "AI",
         "Tech",
         "Security",
         "Tutorial"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
-      "link": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-09-03T16:00:00.000Z",
-      "relevanceScore": 1486.04,
-      "recommendationScore": 1486.54,
-      "tags": [
-        "AI",
-        "Security",
-        "Launch"
       ],
       "readingLevel": "advanced"
     },
@@ -94,8 +82,8 @@
       "source": "Stack Overflow Blog",
       "category": "ai-ml",
       "pubDate": "2026-09-03T07:40:00.000Z",
-      "relevanceScore": 1470.37,
-      "recommendationScore": 1472.87,
+      "relevanceScore": 1504.51,
+      "recommendationScore": 1507.01,
       "tags": [
         "AI",
         "Cloud",
@@ -105,59 +93,32 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
+      "link": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-09-03T16:00:00.000Z",
+      "relevanceScore": 1500.68,
+      "recommendationScore": 1501.18,
+      "tags": [
+        "AI",
+        "Security",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "GitHub Copilot app for Beginners: Run several agents at once",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
       "source": "GitHub Blog",
       "category": "mobile",
       "pubDate": "2026-09-03T16:00:00.000Z",
-      "relevanceScore": 1365.04,
-      "recommendationScore": 1365.54,
+      "relevanceScore": 1437.68,
+      "recommendationScore": 1438.18,
       "tags": [
         "Mobile",
         "Exclusive",
         "Tutorial"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Architecting memory and storage in the AI era",
-      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-09-04T18:39:19.000Z",
-      "relevanceScore": 479.37,
-      "recommendationScore": 479.37,
-      "tags": [
-        "AI",
-        "Science",
-        "Report"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-      "source": "MIT Technology Review",
-      "category": "science",
-      "pubDate": "2026-09-04T09:25:19.000Z",
-      "relevanceScore": 462.52,
-      "recommendationScore": 465.02,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "What will Apple’s John Ternus era look like?",
-      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
-      "source": "TechCrunch",
-      "category": "mobile",
-      "pubDate": "2026-09-04T17:18:00.000Z",
-      "relevanceScore": 449.1,
-      "recommendationScore": 450.6,
-      "tags": [
-        "Tech",
-        "Mobile",
-        "Exclusive",
-        "Launch"
       ],
       "readingLevel": "intermediate"
     },
@@ -167,53 +128,35 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-09-04T21:23:50.000Z",
-      "relevanceScore": 448.42,
-      "recommendationScore": 448.92,
+      "relevanceScore": 625.05,
+      "recommendationScore": 625.55,
       "tags": [
         "Controversy"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "OpenBSD Upgrade 7.8 to 7.9",
-      "link": "https://dev.to/nabbisen/openbsd-upgrade-78-to-79-1agm",
+      "title": "Claude Keeps Going Down, and Anthropic's Own Status Page Says So",
+      "link": "https://dev.to/theaidownside/claude-keeps-going-down-and-anthropics-own-status-page-says-so-29mc",
       "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-09-04T21:46:23.000Z",
-      "relevanceScore": 439.49,
-      "recommendationScore": 439.49,
+      "category": "mobile",
+      "pubDate": "2026-09-04T23:04:51.000Z",
+      "relevanceScore": 533.89,
+      "recommendationScore": 534.39,
       "tags": [
-        "Tutorial",
-        "Launch",
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
-      "link": "https://abcnews.com/Business/wireStory/asian-benchmarks-rise-after-tech-stocks-lead-rally-136193076",
-      "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2026-09-04T06:31:20.000Z",
-      "relevanceScore": 396.44,
-      "recommendationScore": 396.94,
-      "tags": [
-        "Tech",
-        "Business"
+        "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Tesla's Cybercab is under federal investigation almost immediately after hitting the streets",
-      "link": "https://www.engadget.com/2251066/tesla-cybercab-under-federal-investigation-almost-immediately-after-hitting-streets/",
-      "source": "Engadget",
-      "category": "automotive",
-      "pubDate": "2026-09-04T14:42:01.000Z",
-      "relevanceScore": 384.58,
-      "recommendationScore": 385.08,
-      "tags": [
-        "Analysis"
-      ],
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "source": "MIT Technology Review",
+      "category": "science",
+      "pubDate": "2026-09-04T09:25:19.000Z",
+      "relevanceScore": 532.16,
+      "recommendationScore": 534.66,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -222,8 +165,8 @@
       "source": "BBC News",
       "category": "startup",
       "pubDate": "2026-09-04T21:00:05.000Z",
-      "relevanceScore": 379.84,
-      "recommendationScore": 380.34,
+      "relevanceScore": 452.48,
+      "recommendationScore": 452.98,
       "tags": [
         "Startup",
         "Funding"
@@ -231,27 +174,18 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Google Regionalizes Site Reputation Policy Enforcement, Changing EEA SEO Monitoring",
-      "link": "https://dev.to/alifar/google-regionalizes-site-reputation-policy-enforcement-changing-eea-seo-monitoring-1bkb",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-09-04T21:45:30.000Z",
-      "relevanceScore": 356.99,
-      "recommendationScore": 357.49,
+      "title": "Architecting memory and storage in the AI era",
+      "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-09-04T18:39:19.000Z",
+      "relevanceScore": 448.01,
+      "recommendationScore": 448.01,
       "tags": [
-        "Regulation"
+        "AI",
+        "Science",
+        "Report"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them",
-      "link": "https://abcnews.com/Business/wireStory/feds-open-probe-musks-steering-wheel-free-taxis-136205103",
-      "source": "ABC News Business",
-      "category": "automotive",
-      "pubDate": "2026-09-04T15:19:53.000Z",
-      "relevanceScore": 353.2,
-      "recommendationScore": 353.7,
-      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -260,38 +194,10 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-09-04T17:12:36.000Z",
-      "relevanceScore": 317.08,
-      "recommendationScore": 319.58,
+      "relevanceScore": 377.72,
+      "recommendationScore": 380.22,
       "tags": [
         "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: selling battlefield drone data and AI reshaping language",
-      "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-09-04T12:10:00.000Z",
-      "relevanceScore": 302.57,
-      "recommendationScore": 303.07,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-09-04T16:04:14.000Z",
-      "relevanceScore": 283.35,
-      "recommendationScore": 283.85,
-      "tags": [
-        "Science",
-        "Report"
       ],
       "readingLevel": "advanced"
     },
@@ -301,72 +207,99 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-09-04T19:46:34.000Z",
-      "relevanceScore": 232.59,
-      "recommendationScore": 233.09,
+      "relevanceScore": 282.23,
+      "recommendationScore": 282.73,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers",
-      "link": "https://www.bbc.co.uk/news/articles/cj06zd4l99lo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cloud",
-      "pubDate": "2026-09-04T11:48:24.000Z",
-      "relevanceScore": 157,
-      "recommendationScore": 157.5,
+      "title": "The Download: selling battlefield drone data and AI reshaping language",
+      "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-09-04T12:10:00.000Z",
+      "relevanceScore": 279.71,
+      "recommendationScore": 280.21,
       "tags": [
-        "Cloud"
+        "AI",
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
-      "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
-      "source": "Wired",
-      "category": "ai-ml",
-      "pubDate": "2026-09-04T15:00:00.000Z",
-      "relevanceScore": 155.14,
-      "recommendationScore": 155.14,
+      "title": "What will Apple’s John Ternus era look like?",
+      "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "source": "TechCrunch",
+      "category": "mobile",
+      "pubDate": "2026-09-04T17:18:00.000Z",
+      "relevanceScore": 237.74,
+      "recommendationScore": 239.24,
       "tags": [
-        "AI"
+        "Tech",
+        "Mobile",
+        "Exclusive",
+        "Launch"
       ],
-      "readingLevel": "beginner"
+      "readingLevel": "intermediate"
     },
     {
-      "title": "The price of diesel hits a record high",
-      "link": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high",
-      "source": "NPR Business",
+      "title": "The Tetris Company wants nothing to do with the White House's new copycat game",
+      "link": "https://www.engadget.com/2251585/the-tetris-company-wants-nothing-to-do-with-the-white-house-s-new-copycat-game/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-09-04T22:01:12.000Z",
+      "relevanceScore": 221.68,
+      "recommendationScore": 224.18,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Italy weighs the results as Giorgia Meloni's government sets a longevity record",
+      "link": "https://abcnews.com/Business/wireStory/italy-weighs-results-giorgia-melonis-government-sets-longevity-136163302",
+      "source": "ABC News Business",
       "category": "business",
-      "pubDate": "2026-09-04T07:44:21.000Z",
-      "relevanceScore": 122.68,
-      "recommendationScore": 122.68,
+      "pubDate": "2026-09-03T10:50:15.000Z",
+      "relevanceScore": 192.64,
+      "recommendationScore": 193.14,
       "tags": [],
-      "readingLevel": "beginner"
+      "readingLevel": "advanced"
     },
     {
-      "title": "UN votes to adopt new world map to reflect Africa's true size",
-      "link": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
+      "title": "Average rate on a 30-year mortgage climbs to highest level in 13 months",
+      "link": "https://abcnews.com/Business/wireStory/average-rate-30-year-mortgage-climbs-highest-level-136177903",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-09-03T16:07:28.000Z",
+      "relevanceScore": 174.7,
+      "recommendationScore": 175.2,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Farage threatens to overhaul Lords and judges to meet his pledges",
+      "link": "https://www.bbc.co.uk/news/articles/clyeq5jvd2po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-09-04T19:44:40.000Z",
-      "relevanceScore": 117.58,
-      "recommendationScore": 120.08,
-      "tags": [],
-      "readingLevel": "beginner"
+      "pubDate": "2026-09-04T19:20:18.000Z",
+      "relevanceScore": 169.14,
+      "recommendationScore": 169.64,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
-      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
-      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-09-04T21:12:11.000Z",
-      "relevanceScore": 113.88,
-      "recommendationScore": 114.38,
+      "title": "Tesla’s Cybercab Officially Launches Today. It’s Already Under Investigation",
+      "link": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
+      "source": "Wired",
+      "category": "automotive",
+      "pubDate": "2026-09-04T15:17:12.000Z",
+      "relevanceScore": 161.33,
+      "recommendationScore": 163.83,
       "tags": [
-        "AI",
-        "Startup",
-        "IPO",
-        "Partnership"
+        "Analysis"
       ],
       "readingLevel": "advanced"
     },
@@ -376,10 +309,89 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-09-04T19:50:01.000Z",
-      "relevanceScore": 112.6,
-      "recommendationScore": 113.1,
+      "relevanceScore": 132.24,
+      "recommendationScore": 132.74,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Xbox caps cloud gaming at 15 hours a month for Game Pass subscribers",
+      "link": "https://www.bbc.co.uk/news/articles/cj06zd4l99lo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cloud",
+      "pubDate": "2026-09-04T11:48:24.000Z",
+      "relevanceScore": 125.64,
+      "recommendationScore": 126.14,
+      "tags": [
+        "Cloud"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "tmux: เปลี่ยน terminal จอเดียวให้เป็นหลายจอ งานยาว ๆ ก็ไม่หายเมื่อ SSH หลุด",
+      "link": "https://dev.to/gophernment/tmux-epliiyn-terminal-cchediiywaihepnhlaaycch-ngaanyaaw-kaimhaayemuue-ssh-hlud-1e4p",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-09-04T23:20:04.000Z",
+      "relevanceScore": 84.94,
+      "recommendationScore": 85.44,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "source": "TechCrunch",
+      "category": "startup",
+      "pubDate": "2026-09-04T23:36:14.000Z",
+      "relevanceScore": 77,
+      "recommendationScore": 77.5,
+      "tags": [
+        "Startup",
+        "Funding"
+      ],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "source": "The Verge",
+      "category": "ai-ml",
+      "pubDate": "2026-09-04T17:51:35.000Z",
+      "relevanceScore": 74.35,
+      "recommendationScore": 74.85,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "UN votes to adopt new world map to reflect Africa's true size",
+      "link": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-09-04T19:44:40.000Z",
+      "relevanceScore": 64.22,
+      "recommendationScore": 66.72,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-09-04T21:12:11.000Z",
+      "relevanceScore": 60.52,
+      "recommendationScore": 61.02,
+      "tags": [
+        "AI",
+        "Startup",
+        "IPO",
+        "Partnership"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "'How do you know if it's real?' Luxury reseller faces Chanel lawsuit",
@@ -387,22 +399,25 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-09-04T08:01:10.000Z",
-      "relevanceScore": 112.24,
-      "recommendationScore": 114.24,
+      "relevanceScore": 58.88,
+      "recommendationScore": 60.88,
       "tags": [
         "Web"
       ],
       "readingLevel": "beginner"
     },
     {
-      "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
-      "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-09-04T19:01:02.000Z",
-      "relevanceScore": 111.44,
-      "recommendationScore": 111.94,
-      "tags": [],
+      "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+      "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-09-04T16:04:14.000Z",
+      "relevanceScore": 58.49,
+      "recommendationScore": 58.99,
+      "tags": [
+        "Science",
+        "Report"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -411,8 +426,8 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-09-04T18:41:47.000Z",
-      "relevanceScore": 111.38,
-      "recommendationScore": 111.88,
+      "relevanceScore": 58.01,
+      "recommendationScore": 58.51,
       "tags": [
         "Launch"
       ],
@@ -424,8 +439,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-09-04T18:00:45.000Z",
-      "relevanceScore": 111.24,
-      "recommendationScore": 111.74,
+      "relevanceScore": 57.88,
+      "recommendationScore": 58.38,
       "tags": [
         "Tech",
         "Acquisition"
@@ -433,29 +448,17 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "Roland is getting into generative AI music with Melody Flip",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-      "source": "The Verge",
+      "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+      "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+      "source": "Wired",
       "category": "ai-ml",
-      "pubDate": "2026-09-04T17:51:35.000Z",
-      "relevanceScore": 111.21,
-      "recommendationScore": 111.71,
+      "pubDate": "2026-09-04T15:00:00.000Z",
+      "relevanceScore": 57.28,
+      "recommendationScore": 57.28,
       "tags": [
-        "AI",
-        "Tech"
+        "AI"
       ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Gloria Steinem lived to see a powerful backlash against her vision of feminism",
-      "link": "https://abcnews.com/Business/wireStory/gloria-steinem-lived-powerful-backlash-vision-feminism-136193928",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-09-04T06:43:53.000Z",
-      "relevanceScore": 108.98,
-      "recommendationScore": 109.48,
-      "tags": [],
-      "readingLevel": "advanced"
+      "readingLevel": "beginner"
     },
     {
       "title": "/r/WorldNews Live Thread: Russian Invasion of Ukraine Day 1654, Part 1 (Thread #1801)",
@@ -463,93 +466,59 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-09-04T04:02:48.000Z",
-      "relevanceScore": 106.45,
-      "recommendationScore": 108.95,
+      "relevanceScore": 53.08,
+      "recommendationScore": 55.58,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-      "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-09-04T17:35:02.000Z",
-      "relevanceScore": 106.15,
-      "recommendationScore": 106.65,
-      "tags": [],
-      "readingLevel": "intermediate"
+      "title": "How to see what's taking up space on your Windows PC",
+      "link": "https://www.engadget.com/2247848/how-to-see-whats-taking-up-space-windows/",
+      "source": "Engadget",
+      "category": "space",
+      "pubDate": "2026-09-04T23:00:00.000Z",
+      "relevanceScore": 48.38,
+      "recommendationScore": 50.38,
+      "tags": [
+        "Tutorial"
+      ],
+      "readingLevel": "beginner"
     },
     {
-      "title": "Farage threatens to overhaul Lords and judges to meet his pledges",
-      "link": "https://www.bbc.co.uk/news/articles/clyeq5jvd2po?at_medium=RSS&at_campaign=rss",
+      "title": "Postman for API Work: Collections, Environment Variables, Secrets, Auth, and Tests",
+      "link": "https://dev.to/manoharij/postman-for-api-work-collections-environment-variables-secrets-auth-and-tests-23ob",
+      "source": "Dev.to",
+      "category": "climate",
+      "pubDate": "2026-09-04T23:08:24.000Z",
+      "relevanceScore": 31.9,
+      "recommendationScore": 32.4,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
+      "link": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-09-04T19:20:18.000Z",
-      "relevanceScore": 56.5,
-      "recommendationScore": 57,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
-      "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
-      "source": "TechCrunch",
-      "category": "automotive",
-      "pubDate": "2026-09-04T16:51:23.000Z",
-      "relevanceScore": 51.51,
-      "recommendationScore": 54.01,
+      "pubDate": "2026-09-04T22:48:38.000Z",
+      "relevanceScore": 31.84,
+      "recommendationScore": 32.34,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "The White House is making arcade games racist",
-      "link": "https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright",
-      "source": "The Verge",
-      "category": "tech",
-      "pubDate": "2026-09-04T19:42:54.000Z",
-      "relevanceScore": 50.08,
-      "recommendationScore": 50.08,
+      "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
+      "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-09-04T21:47:19.000Z",
+      "relevanceScore": 27.63,
+      "recommendationScore": 28.13,
       "tags": [
+        "Report",
         "Regulation"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Tesla’s Cybercab Officially Launches Today. It’s Already Under Investigation",
-      "link": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
-      "source": "Wired",
-      "category": "automotive",
-      "pubDate": "2026-09-04T15:17:12.000Z",
-      "relevanceScore": 48.69,
-      "recommendationScore": 51.19,
-      "tags": [
-        "Analysis"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-      "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-09-04T20:22:41.000Z",
-      "relevanceScore": 45.71,
-      "recommendationScore": 46.21,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
-      "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-09-04T14:40:00.000Z",
-      "relevanceScore": 30.57,
-      "recommendationScore": 31.07,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now",
@@ -557,8 +526,8 @@
       "source": "TechCrunch",
       "category": "mobile",
       "pubDate": "2026-09-04T17:52:05.000Z",
-      "relevanceScore": 27.21,
-      "recommendationScore": 27.71,
+      "relevanceScore": 26.85,
+      "recommendationScore": 27.35,
       "tags": [
         "Mobile",
         "Startup",
@@ -572,9 +541,44 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-09-04T15:04:53.000Z",
-      "relevanceScore": 26.65,
-      "recommendationScore": 28.65,
+      "relevanceScore": 26.29,
+      "recommendationScore": 28.29,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+      "link": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-09-04T22:49:17.000Z",
+      "relevanceScore": 25.84,
+      "recommendationScore": 26.34,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+      "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-09-04T20:22:41.000Z",
+      "relevanceScore": 25.35,
+      "recommendationScore": 25.85,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "The White House is making arcade games racist",
+      "link": "https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-09-04T19:42:54.000Z",
+      "relevanceScore": 25.22,
+      "recommendationScore": 25.22,
+      "tags": [
+        "Regulation"
+      ],
       "readingLevel": "advanced"
     },
     {
@@ -583,21 +587,10 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-09-04T18:54:28.000Z",
-      "relevanceScore": 25.42,
-      "recommendationScore": 26.92,
+      "relevanceScore": 25.06,
+      "recommendationScore": 26.56,
       "tags": [],
       "readingLevel": "beginner"
-    },
-    {
-      "title": "Why \"why did our infra costs jump in Q2?\" doesn't fit a graph",
-      "link": "https://dev.to/bzdvdn/why-why-did-our-infra-costs-jump-in-q2-doesnt-fit-a-graph-1nmk",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-09-04T21:44:29.000Z",
-      "relevanceScore": 24.98,
-      "recommendationScore": 26.98,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Flock cameras are officially banned on state roads in Florida",
@@ -605,10 +598,21 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-09-04T20:10:41.000Z",
-      "relevanceScore": 24.67,
-      "recommendationScore": 25.17,
+      "relevanceScore": 24.31,
+      "recommendationScore": 24.81,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+      "link": "https://abcnews.com/Business/wireStory/vance-iran-fight-war-trump-navigate-unpopular-conflict-136191116",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-09-04T06:32:15.000Z",
+      "relevanceScore": 22.58,
+      "recommendationScore": 23.08,
+      "tags": [],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Nintendo just announced two Direct livestream events for next week",
@@ -616,8 +620,8 @@
       "source": "Engadget",
       "category": "tech",
       "pubDate": "2026-09-04T15:32:50.000Z",
-      "relevanceScore": 22.75,
-      "recommendationScore": 23.25,
+      "relevanceScore": 22.38,
+      "recommendationScore": 22.88,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -627,8 +631,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-09-04T02:02:02.000Z",
-      "relevanceScore": 22.04,
-      "recommendationScore": 22.04,
+      "relevanceScore": 21.68,
+      "recommendationScore": 21.68,
       "tags": [],
       "readingLevel": "beginner"
     },
@@ -638,8 +642,8 @@
       "source": "Reddit World News",
       "category": "world",
       "pubDate": "2026-09-04T10:15:31.000Z",
-      "relevanceScore": 21.69,
-      "recommendationScore": 22.19,
+      "relevanceScore": 21.33,
+      "recommendationScore": 21.83,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -649,8 +653,8 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-09-03T23:41:49.000Z",
-      "relevanceScore": 21.58,
-      "recommendationScore": 21.58,
+      "relevanceScore": 21.21,
+      "recommendationScore": 21.21,
       "tags": [
         "Interview"
       ],
@@ -658,46 +662,23 @@
     }
   ],
   "categoryIndex": {
-    "cybersecurity": [
-      {
-        "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
-        "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-09-04T14:59:13.000Z",
-        "relevanceScore": 3272.63,
-        "tags": [
-          "Security",
-          "Web",
-          "Report"
-        ]
-      },
-      {
-        "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
-        "link": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
-        "source": "TechCrunch",
-        "pubDate": "2026-09-04T16:21:11.000Z",
-        "relevanceScore": 3045.41,
-        "tags": [
-          "Security",
-          "Web"
-        ]
-      }
-    ],
     "tech": [
       {
-        "title": "Rogue OpenAI agents took over a German coding forum in a previously undisclosed hijacking",
-        "link": "https://www.engadget.com/2251091/rogue-openai-agents-took-over-german-coding-forum-in-previously-undisclosed-hijacking/",
-        "source": "Engadget",
-        "pubDate": "2026-09-04T15:02:52.000Z",
-        "relevanceScore": 3005.65,
-        "tags": []
+        "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+        "link": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki/",
+        "source": "Ars Technica",
+        "pubDate": "2026-09-04T22:17:36.000Z",
+        "relevanceScore": 4874.73,
+        "tags": [
+          "IPO"
+        ]
       },
       {
         "title": "Audacity 4 is a complete revamp of the ‘world’s most popular’ audio editor",
         "link": "https://www.theverge.com/tech/990658/audacity-4-update-audio-editing",
         "source": "The Verge",
         "pubDate": "2026-09-04T21:23:50.000Z",
-        "relevanceScore": 448.42,
+        "relevanceScore": 625.05,
         "tags": [
           "Controversy"
         ]
@@ -707,15 +688,7 @@
         "link": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
         "source": "Ars Technica",
         "pubDate": "2026-09-04T19:46:34.000Z",
-        "relevanceScore": 232.59,
-        "tags": []
-      },
-      {
-        "title": "Medieval manuscripts are \"biological time capsules\" for deadly sheeppox virus",
-        "link": "https://arstechnica.com/science/2026/09/medieval-manuscripts-are-biological-time-capsules-for-deadly-sheeppox-virus/",
-        "source": "Ars Technica",
-        "pubDate": "2026-09-04T19:01:02.000Z",
-        "relevanceScore": 111.44,
+        "relevanceScore": 282.23,
         "tags": []
       },
       {
@@ -723,7 +696,7 @@
         "link": "https://www.wired.com/story/casio-g-shock-casionaut-looks-like-a-patek-philippe-classic/",
         "source": "Wired",
         "pubDate": "2026-09-04T18:41:47.000Z",
-        "relevanceScore": 111.38,
+        "relevanceScore": 58.01,
         "tags": [
           "Launch"
         ]
@@ -733,18 +706,26 @@
         "link": "https://www.theverge.com/gadgets/990425/gopro-nick-woodman-starman-letter",
         "source": "The Verge",
         "pubDate": "2026-09-04T18:00:45.000Z",
-        "relevanceScore": 111.24,
+        "relevanceScore": 57.88,
         "tags": [
           "Tech",
           "Acquisition"
         ]
       },
       {
-        "title": "“Trust, not features, is the real deficit”: VMware tries to appease SMBs",
-        "link": "https://arstechnica.com/information-technology/2026/09/trust-not-features-is-the-real-deficit-vmware-tries-to-appease-smbs/",
+        "title": "After 8 years, Europe's BepiColombo mission is on final approach to Mercury",
+        "link": "https://arstechnica.com/space/2026/09/after-8-years-europes-bepicolombo-mission-is-on-final-approach-to-mercury/",
         "source": "Ars Technica",
-        "pubDate": "2026-09-04T17:35:02.000Z",
-        "relevanceScore": 106.15,
+        "pubDate": "2026-09-04T22:49:17.000Z",
+        "relevanceScore": 25.84,
+        "tags": []
+      },
+      {
+        "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
+        "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
+        "source": "Ars Technica",
+        "pubDate": "2026-09-04T20:22:41.000Z",
+        "relevanceScore": 25.35,
         "tags": []
       },
       {
@@ -752,25 +733,17 @@
         "link": "https://www.theverge.com/policy/990520/trump-arcade-games-maga-copyright",
         "source": "The Verge",
         "pubDate": "2026-09-04T19:42:54.000Z",
-        "relevanceScore": 50.08,
+        "relevanceScore": 25.22,
         "tags": [
           "Regulation"
         ]
-      },
-      {
-        "title": "Measles killed 6-week-old baby, coroner confirms after RFK Jr. disputed deaths",
-        "link": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-        "source": "Ars Technica",
-        "pubDate": "2026-09-04T20:22:41.000Z",
-        "relevanceScore": 45.71,
-        "tags": []
       },
       {
         "title": "Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools",
         "link": "https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/",
         "source": "Wired",
         "pubDate": "2026-09-04T18:54:28.000Z",
-        "relevanceScore": 25.42,
+        "relevanceScore": 25.06,
         "tags": []
       },
       {
@@ -778,7 +751,7 @@
         "link": "https://www.engadget.com/2251480/flock-camera-license-plate-reader-state-road-ban-florida/",
         "source": "Engadget",
         "pubDate": "2026-09-04T20:10:41.000Z",
-        "relevanceScore": 24.67,
+        "relevanceScore": 24.31,
         "tags": []
       },
       {
@@ -786,7 +759,7 @@
         "link": "https://www.engadget.com/2251134/nintendo-announced-two-direct-livestream-events-for-next-week/",
         "source": "Engadget",
         "pubDate": "2026-09-04T15:32:50.000Z",
-        "relevanceScore": 22.75,
+        "relevanceScore": 22.38,
         "tags": []
       },
       {
@@ -794,7 +767,7 @@
         "link": "https://www.bbc.co.uk/news/videos/cdr7g3vdl58o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-04T02:02:02.000Z",
-        "relevanceScore": 22.04,
+        "relevanceScore": 21.68,
         "tags": []
       },
       {
@@ -802,19 +775,43 @@
         "link": "https://www.bbc.co.uk/news/articles/crk3xd8j3k5o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-03T23:41:49.000Z",
-        "relevanceScore": 21.58,
+        "relevanceScore": 21.21,
         "tags": [
           "Interview"
         ]
       }
     ],
+    "cybersecurity": [
+      {
+        "title": "OpenAI agents hijacked German website before Hugging Face hack, report claims",
+        "link": "https://www.bbc.co.uk/news/articles/ckg725z5kgzo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-09-04T14:59:13.000Z",
+        "relevanceScore": 3559.27,
+        "tags": [
+          "Security",
+          "Web",
+          "Report"
+        ]
+      }
+    ],
     "ai-ml": [
+      {
+        "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+        "link": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+        "source": "TechCrunch",
+        "pubDate": "2026-09-04T23:15:11.000Z",
+        "relevanceScore": 3162.93,
+        "tags": [
+          "AI"
+        ]
+      },
       {
         "title": "How to build a secure-by-default AI coding agent",
         "link": "https://stackoverflow.blog/2026/09/04/how-to-build-a-secure-by-default-ai-coding-agent/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-09-04T07:40:00.000Z",
-        "relevanceScore": 1936.67,
+        "relevanceScore": 2009.31,
         "tags": [
           "AI",
           "Tech",
@@ -823,23 +820,11 @@
         ]
       },
       {
-        "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
-        "link": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-09-03T16:00:00.000Z",
-        "relevanceScore": 1486.04,
-        "tags": [
-          "AI",
-          "Security",
-          "Launch"
-        ]
-      },
-      {
         "title": "The economics of agent scale: tokens, ROI, and building platforms for AI-first teams (Part 2)",
         "link": "https://stackoverflow.blog/2026/09/03/the-economics-of-agent-scale/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-09-03T07:40:00.000Z",
-        "relevanceScore": 1470.37,
+        "relevanceScore": 1504.51,
         "tags": [
           "AI",
           "Cloud",
@@ -848,11 +833,23 @@
         ]
       },
       {
+        "title": "Elevating security, control, and accessibility: Stack Internal 2026.6",
+        "link": "https://stackoverflow.blog/2026/09/03/security-control-and-accessibility-si-2026-6/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-09-03T16:00:00.000Z",
+        "relevanceScore": 1500.68,
+        "tags": [
+          "AI",
+          "Security",
+          "Launch"
+        ]
+      },
+      {
         "title": "Architecting memory and storage in the AI era",
         "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
         "source": "MIT Technology Review",
         "pubDate": "2026-09-04T18:39:19.000Z",
-        "relevanceScore": 479.37,
+        "relevanceScore": 448.01,
         "tags": [
           "AI",
           "Science",
@@ -864,20 +861,21 @@
         "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
         "source": "MIT Technology Review",
         "pubDate": "2026-09-04T12:10:00.000Z",
-        "relevanceScore": 302.57,
+        "relevanceScore": 279.71,
         "tags": [
           "AI",
           "Tech"
         ]
       },
       {
-        "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
-        "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
-        "source": "Wired",
-        "pubDate": "2026-09-04T15:00:00.000Z",
-        "relevanceScore": 155.14,
+        "title": "Roland is getting into generative AI music with Melody Flip",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+        "source": "The Verge",
+        "pubDate": "2026-09-04T17:51:35.000Z",
+        "relevanceScore": 74.35,
         "tags": [
-          "AI"
+          "AI",
+          "Tech"
         ]
       },
       {
@@ -885,7 +883,7 @@
         "link": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
         "source": "TechCrunch",
         "pubDate": "2026-09-04T21:12:11.000Z",
-        "relevanceScore": 113.88,
+        "relevanceScore": 60.52,
         "tags": [
           "AI",
           "Startup",
@@ -894,14 +892,13 @@
         ]
       },
       {
-        "title": "Roland is getting into generative AI music with Melody Flip",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-        "source": "The Verge",
-        "pubDate": "2026-09-04T17:51:35.000Z",
-        "relevanceScore": 111.21,
+        "title": "Who Cares if AI Is Conscious—It’s Basically Alive",
+        "link": "https://www.wired.com/story/who-cares-if-ai-is-conscious-its-basically-alive/",
+        "source": "Wired",
+        "pubDate": "2026-09-04T15:00:00.000Z",
+        "relevanceScore": 57.28,
         "tags": [
-          "AI",
-          "Tech"
+          "AI"
         ]
       }
     ],
@@ -911,7 +908,7 @@
         "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-run-several-agents-at-once/",
         "source": "GitHub Blog",
         "pubDate": "2026-09-03T16:00:00.000Z",
-        "relevanceScore": 1365.04,
+        "relevanceScore": 1437.68,
         "tags": [
           "Mobile",
           "Exclusive",
@@ -919,11 +916,21 @@
         ]
       },
       {
+        "title": "Claude Keeps Going Down, and Anthropic's Own Status Page Says So",
+        "link": "https://dev.to/theaidownside/claude-keeps-going-down-and-anthropics-own-status-page-says-so-29mc",
+        "source": "Dev.to",
+        "pubDate": "2026-09-04T23:04:51.000Z",
+        "relevanceScore": 533.89,
+        "tags": [
+          "Mobile"
+        ]
+      },
+      {
         "title": "What will Apple’s John Ternus era look like?",
         "link": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
         "source": "TechCrunch",
         "pubDate": "2026-09-04T17:18:00.000Z",
-        "relevanceScore": 449.1,
+        "relevanceScore": 237.74,
         "tags": [
           "Tech",
           "Mobile",
@@ -936,7 +943,7 @@
         "link": "https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/",
         "source": "TechCrunch",
         "pubDate": "2026-09-04T17:52:05.000Z",
-        "relevanceScore": 27.21,
+        "relevanceScore": 26.85,
         "tags": [
           "Mobile",
           "Startup",
@@ -950,102 +957,8 @@
         "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
         "source": "MIT Technology Review",
         "pubDate": "2026-09-04T09:25:19.000Z",
-        "relevanceScore": 462.52,
+        "relevanceScore": 532.16,
         "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "OpenBSD Upgrade 7.8 to 7.9",
-        "link": "https://dev.to/nabbisen/openbsd-upgrade-78-to-79-1agm",
-        "source": "Dev.to",
-        "pubDate": "2026-09-04T21:46:23.000Z",
-        "relevanceScore": 439.49,
-        "tags": [
-          "Tutorial",
-          "Launch",
-          "Update"
-        ]
-      },
-      {
-        "title": "Google Regionalizes Site Reputation Policy Enforcement, Changing EEA SEO Monitoring",
-        "link": "https://dev.to/alifar/google-regionalizes-site-reputation-policy-enforcement-changing-eea-seo-monitoring-1bkb",
-        "source": "Dev.to",
-        "pubDate": "2026-09-04T21:45:30.000Z",
-        "relevanceScore": 356.99,
-        "tags": [
-          "Regulation"
-        ]
-      },
-      {
-        "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
-        "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-09-04T16:04:14.000Z",
-        "relevanceScore": 283.35,
-        "tags": [
-          "Science",
-          "Report"
-        ]
-      },
-      {
-        "title": "Why \"why did our infra costs jump in Q2?\" doesn't fit a graph",
-        "link": "https://dev.to/bzdvdn/why-why-did-our-infra-costs-jump-in-q2-doesnt-fit-a-graph-1nmk",
-        "source": "Dev.to",
-        "pubDate": "2026-09-04T21:44:29.000Z",
-        "relevanceScore": 24.98,
-        "tags": []
-      }
-    ],
-    "finance": [
-      {
-        "title": "Asian benchmarks mostly rise after tech stocks lead rally on Wall Street",
-        "link": "https://abcnews.com/Business/wireStory/asian-benchmarks-rise-after-tech-stocks-lead-rally-136193076",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-04T06:31:20.000Z",
-        "relevanceScore": 396.44,
-        "tags": [
-          "Tech",
-          "Business"
-        ]
-      }
-    ],
-    "automotive": [
-      {
-        "title": "Tesla's Cybercab is under federal investigation almost immediately after hitting the streets",
-        "link": "https://www.engadget.com/2251066/tesla-cybercab-under-federal-investigation-almost-immediately-after-hitting-streets/",
-        "source": "Engadget",
-        "pubDate": "2026-09-04T14:42:01.000Z",
-        "relevanceScore": 384.58,
-        "tags": [
-          "Analysis"
-        ]
-      },
-      {
-        "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them",
-        "link": "https://abcnews.com/Business/wireStory/feds-open-probe-musks-steering-wheel-free-taxis-136205103",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-04T15:19:53.000Z",
-        "relevanceScore": 353.2,
-        "tags": []
-      },
-      {
-        "title": "No little kids allowed, and other new info about Tesla’s Cybercab",
-        "link": "https://techcrunch.com/2026/09/04/no-little-kids-allowed-and-other-new-info-about-teslas-cybercab/",
-        "source": "TechCrunch",
-        "pubDate": "2026-09-04T16:51:23.000Z",
-        "relevanceScore": 51.51,
-        "tags": []
-      },
-      {
-        "title": "Tesla’s Cybercab Officially Launches Today. It’s Already Under Investigation",
-        "link": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
-        "source": "Wired",
-        "pubDate": "2026-09-04T15:17:12.000Z",
-        "relevanceScore": 48.69,
-        "tags": [
-          "Analysis"
-        ]
       }
     ],
     "startup": [
@@ -1054,7 +967,18 @@
         "link": "https://www.bbc.co.uk/news/articles/cqlw67ngpp1o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-09-04T21:00:05.000Z",
-        "relevanceScore": 379.84,
+        "relevanceScore": 452.48,
+        "tags": [
+          "Startup",
+          "Funding"
+        ]
+      },
+      {
+        "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+        "link": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+        "source": "TechCrunch",
+        "pubDate": "2026-09-04T23:36:14.000Z",
+        "relevanceScore": 77,
         "tags": [
           "Startup",
           "Funding"
@@ -1067,7 +991,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1w7agwp/rworldnews_discussion_thread_us_and_israel_launch/",
         "source": "Reddit World News",
         "pubDate": "2026-09-04T17:12:36.000Z",
-        "relevanceScore": 317.08,
+        "relevanceScore": 377.72,
         "tags": [
           "Launch"
         ]
@@ -1077,7 +1001,7 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1w6tmtk/rworldnews_live_thread_russian_invasion_of/",
         "source": "Reddit World News",
         "pubDate": "2026-09-04T04:02:48.000Z",
-        "relevanceScore": 106.45,
+        "relevanceScore": 53.08,
         "tags": []
       },
       {
@@ -1085,8 +1009,123 @@
         "link": "https://www.reddit.com/r/worldnews/comments/1w70bf4/russian_general_who_ordered_attack_on_childrens/",
         "source": "Reddit World News",
         "pubDate": "2026-09-04T10:15:31.000Z",
-        "relevanceScore": 21.69,
+        "relevanceScore": 21.33,
         "tags": []
+      }
+    ],
+    "gaming": [
+      {
+        "title": "The Tetris Company wants nothing to do with the White House's new copycat game",
+        "link": "https://www.engadget.com/2251585/the-tetris-company-wants-nothing-to-do-with-the-white-house-s-new-copycat-game/",
+        "source": "Engadget",
+        "pubDate": "2026-09-04T22:01:12.000Z",
+        "relevanceScore": 221.68,
+        "tags": [
+          "Web"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "Italy weighs the results as Giorgia Meloni's government sets a longevity record",
+        "link": "https://abcnews.com/Business/wireStory/italy-weighs-results-giorgia-melonis-government-sets-longevity-136163302",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-03T10:50:15.000Z",
+        "relevanceScore": 192.64,
+        "tags": []
+      },
+      {
+        "title": "Average rate on a 30-year mortgage climbs to highest level in 13 months",
+        "link": "https://abcnews.com/Business/wireStory/average-rate-30-year-mortgage-climbs-highest-level-136177903",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-03T16:07:28.000Z",
+        "relevanceScore": 174.7,
+        "tags": []
+      },
+      {
+        "title": "'How do you know if it's real?' Luxury reseller faces Chanel lawsuit",
+        "link": "https://www.npr.org/2026/09/04/nx-s1-5946396/how-do-you-know-if-its-real-luxury-reseller-faces-chanel-lawsuit",
+        "source": "NPR Business",
+        "pubDate": "2026-09-04T08:01:10.000Z",
+        "relevanceScore": 58.88,
+        "tags": [
+          "Web"
+        ]
+      },
+      {
+        "title": "4 things investigators learned about the dysfunction at Trump's Labor Department",
+        "link": "https://www.npr.org/2026/09/04/nx-s1-5958601/labor-department-inspector-general-secretary-chavez-deremer",
+        "source": "NPR Business",
+        "pubDate": "2026-09-04T21:47:19.000Z",
+        "relevanceScore": 27.63,
+        "tags": [
+          "Report",
+          "Regulation"
+        ]
+      },
+      {
+        "title": "Pulling the SNAP lever + Why Gen Zers bet (invest?) differently",
+        "link": "https://www.npr.org/2026/09/04/nx-s1-5955821/pulling-the-snap-lever-why-gen-zers-bet-invest-differently",
+        "source": "NPR Business",
+        "pubDate": "2026-09-04T15:04:53.000Z",
+        "relevanceScore": 26.29,
+        "tags": []
+      },
+      {
+        "title": "Vance says Iran fight isn't a 'war' as Trump tries to navigate unpopular conflict as election nears",
+        "link": "https://abcnews.com/Business/wireStory/vance-iran-fight-war-trump-navigate-unpopular-conflict-136191116",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-04T06:32:15.000Z",
+        "relevanceScore": 22.58,
+        "tags": []
+      }
+    ],
+    "general": [
+      {
+        "title": "Farage threatens to overhaul Lords and judges to meet his pledges",
+        "link": "https://www.bbc.co.uk/news/articles/clyeq5jvd2po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-04T19:20:18.000Z",
+        "relevanceScore": 169.14,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "'I'd rather die than ring the police': Distrust and fear in Middlesbrough after A66 crash",
+        "link": "https://www.bbc.co.uk/news/articles/c2e0w2e0k0ro?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-04T19:50:01.000Z",
+        "relevanceScore": 132.24,
+        "tags": []
+      },
+      {
+        "title": "UN votes to adopt new world map to reflect Africa's true size",
+        "link": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-04T19:44:40.000Z",
+        "relevanceScore": 64.22,
+        "tags": []
+      },
+      {
+        "title": "Mistrial declared in Lindsay Clancy murder case, after jury deadlocks",
+        "link": "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-04T22:48:38.000Z",
+        "relevanceScore": 31.84,
+        "tags": []
+      }
+    ],
+    "automotive": [
+      {
+        "title": "Tesla’s Cybercab Officially Launches Today. It’s Already Under Investigation",
+        "link": "https://www.wired.com/story/tesla-cybercab-officially-launches-today-its-already-under-investigation/",
+        "source": "Wired",
+        "pubDate": "2026-09-04T15:17:12.000Z",
+        "relevanceScore": 161.33,
+        "tags": [
+          "Analysis"
+        ]
       }
     ],
     "cloud": [
@@ -1095,108 +1134,79 @@
         "link": "https://www.bbc.co.uk/news/articles/cj06zd4l99lo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-04T11:48:24.000Z",
-        "relevanceScore": 157,
+        "relevanceScore": 125.64,
         "tags": [
           "Cloud"
         ]
       }
     ],
-    "business": [
+    "development": [
       {
-        "title": "The price of diesel hits a record high",
-        "link": "https://www.npr.org/2026/09/04/nx-s1-5948016/diesel-price-record-high",
-        "source": "NPR Business",
-        "pubDate": "2026-09-04T07:44:21.000Z",
-        "relevanceScore": 122.68,
+        "title": "tmux: เปลี่ยน terminal จอเดียวให้เป็นหลายจอ งานยาว ๆ ก็ไม่หายเมื่อ SSH หลุด",
+        "link": "https://dev.to/gophernment/tmux-epliiyn-terminal-cchediiywaihepnhlaaycch-ngaanyaaw-kaimhaayemuue-ssh-hlud-1e4p",
+        "source": "Dev.to",
+        "pubDate": "2026-09-04T23:20:04.000Z",
+        "relevanceScore": 84.94,
         "tags": []
       },
       {
-        "title": "'How do you know if it's real?' Luxury reseller faces Chanel lawsuit",
-        "link": "https://www.npr.org/2026/09/04/nx-s1-5946396/how-do-you-know-if-its-real-luxury-reseller-faces-chanel-lawsuit",
-        "source": "NPR Business",
-        "pubDate": "2026-09-04T08:01:10.000Z",
-        "relevanceScore": 112.24,
+        "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+        "link": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-09-04T16:04:14.000Z",
+        "relevanceScore": 58.49,
         "tags": [
-          "Web"
+          "Science",
+          "Report"
         ]
-      },
-      {
-        "title": "Gloria Steinem lived to see a powerful backlash against her vision of feminism",
-        "link": "https://abcnews.com/Business/wireStory/gloria-steinem-lived-powerful-backlash-vision-feminism-136193928",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-04T06:43:53.000Z",
-        "relevanceScore": 108.98,
-        "tags": []
-      },
-      {
-        "title": "Pulling the SNAP lever + Why Gen Zers bet (invest?) differently",
-        "link": "https://www.npr.org/2026/09/04/nx-s1-5955821/pulling-the-snap-lever-why-gen-zers-bet-invest-differently",
-        "source": "NPR Business",
-        "pubDate": "2026-09-04T15:04:53.000Z",
-        "relevanceScore": 26.65,
-        "tags": []
       }
     ],
-    "general": [
+    "space": [
       {
-        "title": "UN votes to adopt new world map to reflect Africa's true size",
-        "link": "https://www.bbc.co.uk/news/articles/ce30vp55dnlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-04T19:44:40.000Z",
-        "relevanceScore": 117.58,
-        "tags": []
-      },
-      {
-        "title": "'I'd rather die than ring the police': Distrust and fear in Middlesbrough after A66 crash",
-        "link": "https://www.bbc.co.uk/news/articles/c2e0w2e0k0ro?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-04T19:50:01.000Z",
-        "relevanceScore": 112.6,
-        "tags": []
-      },
-      {
-        "title": "Farage threatens to overhaul Lords and judges to meet his pledges",
-        "link": "https://www.bbc.co.uk/news/articles/clyeq5jvd2po?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-04T19:20:18.000Z",
-        "relevanceScore": 56.5,
+        "title": "How to see what's taking up space on your Windows PC",
+        "link": "https://www.engadget.com/2247848/how-to-see-whats-taking-up-space-windows/",
+        "source": "Engadget",
+        "pubDate": "2026-09-04T23:00:00.000Z",
+        "relevanceScore": 48.38,
         "tags": [
-          "Exclusive"
+          "Tutorial"
         ]
-      },
+      }
+    ],
+    "climate": [
       {
-        "title": "'A rare moment of joy': Nepal tunnel rescues bring hope for more flood survivors",
-        "link": "https://www.bbc.co.uk/news/videos/cd79vp91321o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-04T14:40:00.000Z",
-        "relevanceScore": 30.57,
+        "title": "Postman for API Work: Collections, Environment Variables, Secrets, Auth, and Tests",
+        "link": "https://dev.to/manoharij/postman-for-api-work-collections-environment-variables-secrets-auth-and-tests-23ob",
+        "source": "Dev.to",
+        "pubDate": "2026-09-04T23:08:24.000Z",
+        "relevanceScore": 31.9,
         "tags": []
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 13,
-    "avgRelevanceScore": 460.5074000000001,
+    "totalCategories": 15,
+    "avgRelevanceScore": 482.55940000000027,
     "topCategories": [
       {
         "category": "tech",
-        "count": 14
+        "count": 13
       },
       {
         "category": "ai-ml",
-        "count": 8
-      },
-      {
-        "category": "development",
-        "count": 4
-      },
-      {
-        "category": "automotive",
-        "count": 4
+        "count": 9
       },
       {
         "category": "business",
+        "count": 6
+      },
+      {
+        "category": "mobile",
+        "count": 4
+      },
+      {
+        "category": "general",
         "count": 4
       }
     ]
