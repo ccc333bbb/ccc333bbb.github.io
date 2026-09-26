@@ -1,19 +1,20 @@
 {
-  "lastUpdated": "2026-09-26T18:35:54.033Z",
+  "lastUpdated": "2026-09-26T21:34:38.291Z",
   "totalArticles": 48,
   "categories": [
     "tech",
-    "development",
-    "ai-ml",
     "mobile",
-    "general",
-    "cybersecurity",
-    "social",
-    "automotive",
+    "ai-ml",
+    "development",
     "gaming",
+    "cybersecurity",
+    "general",
     "business",
+    "automotive",
+    "cloud",
     "science",
-    "finance"
+    "finance",
+    "social"
   ],
   "topArticles": [
     {
@@ -22,8 +23,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-09-26T16:34:59.000Z",
-      "relevanceScore": 3487.1,
-      "recommendationScore": 3487.6,
+      "relevanceScore": 3788,
+      "recommendationScore": 3788.5,
       "tags": [
         "Web",
         "Breaking"
@@ -31,52 +32,13 @@
       "readingLevel": "advanced"
     },
     {
-      "title": "I Built an Interactive System Design Simulator — Learn by Breaking Things",
-      "link": "https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-09-26T18:23:01.000Z",
-      "relevanceScore": 1970.96,
-      "recommendationScore": 1971.46,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Professional skepticism is a dev’s best skill",
-      "link": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
-      "source": "Stack Overflow Blog",
-      "category": "ai-ml",
-      "pubDate": "2026-09-25T07:40:00.000Z",
-      "relevanceScore": 1466.01,
-      "recommendationScore": 1467.01,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI bots meddled with multiple US government agency sites",
-      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "tech",
-      "pubDate": "2026-09-26T02:50:56.000Z",
-      "relevanceScore": 1452.35,
-      "recommendationScore": 1452.85,
-      "tags": [
-        "IPO"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
       "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
       "source": "GitHub Blog",
       "category": "mobile",
       "pubDate": "2026-09-25T18:00:00.000Z",
-      "relevanceScore": 1302.08,
-      "recommendationScore": 1304.08,
+      "relevanceScore": 1585.98,
+      "recommendationScore": 1587.98,
       "tags": [
         "Mobile",
         "Exclusive",
@@ -86,15 +48,90 @@
       "readingLevel": "advanced"
     },
     {
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "tech",
+      "pubDate": "2026-09-26T02:50:56.000Z",
+      "relevanceScore": 1507.25,
+      "recommendationScore": 1507.75,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Professional skepticism is a dev’s best skill",
+      "link": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
+      "source": "Stack Overflow Blog",
+      "category": "ai-ml",
+      "pubDate": "2026-09-25T07:40:00.000Z",
+      "relevanceScore": 1455.42,
+      "recommendationScore": 1456.42,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "I built FreshDeploy to verify web deployments after release",
+      "link": "https://dev.to/devdvgs/i-built-freshdeploy-to-verify-web-deployments-after-release-3p64",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-09-26T21:20:48.000Z",
+      "relevanceScore": 1324.95,
+      "recommendationScore": 1325.45,
+      "tags": [
+        "Web",
+        "Launch"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "Court rules Pentagon can blacklist Anthropic for refusing to enable Claude features",
       "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
       "source": "Ars Technica",
       "category": "ai-ml",
       "pubDate": "2026-09-25T21:36:20.000Z",
-      "relevanceScore": 1144.3,
-      "recommendationScore": 1144.8,
+      "relevanceScore": 1192.71,
+      "recommendationScore": 1193.21,
       "tags": [
         "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "What type of power cord does a PS5 use?",
+      "link": "https://www.engadget.com/2265348/playstation-power-cord-what-type/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-09-26T18:45:00.000Z",
+      "relevanceScore": 1007.43,
+      "recommendationScore": 1008.93,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Microservices are organizational debt disguised as architecture.",
+      "link": "https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-09-25T21:35:37.000Z",
+      "relevanceScore": 999.2,
+      "recommendationScore": 999.7,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Special agents' blood and urine test results stolen in FBI hack",
+      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
+      "category": "cybersecurity",
+      "pubDate": "2026-09-25T13:56:16.000Z",
+      "relevanceScore": 931.67,
+      "recommendationScore": 932.17,
+      "tags": [
+        "Security"
       ],
       "readingLevel": "advanced"
     },
@@ -104,23 +141,21 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-09-26T16:32:42.000Z",
-      "relevanceScore": 857.09,
-      "recommendationScore": 857.59,
+      "relevanceScore": 907.99,
+      "recommendationScore": 908.49,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "🔍 My Next.js Portfolio Was Invisible to Google & ChatGPT — Here's How I Fixed It",
-      "link": "https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0",
-      "source": "Dev.to",
-      "category": "ai-ml",
-      "pubDate": "2026-09-26T18:17:28.000Z",
-      "relevanceScore": 851.44,
-      "recommendationScore": 853.44,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "intermediate"
+      "title": "Republic of Ireland to wear black armbands for Israel game",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "gaming",
+      "pubDate": "2026-09-26T19:59:00.000Z",
+      "relevanceScore": 791.18,
+      "recommendationScore": 791.68,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Best Mesh Wi-Fi Systems (2026): I Tested Them All",
@@ -128,50 +163,23 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-09-26T11:00:00.000Z",
-      "relevanceScore": 756.98,
-      "recommendationScore": 757.98,
+      "relevanceScore": 752.88,
+      "recommendationScore": 753.88,
       "tags": [
         "Web"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Special agents' blood and urine test results stolen in FBI hack",
-      "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
-      "category": "cybersecurity",
-      "pubDate": "2026-09-25T13:56:16.000Z",
-      "relevanceScore": 707.77,
-      "recommendationScore": 708.27,
+      "title": "Dodgers' Shohei Ohtani first to top MLB jersey sales at end of 4 straight seasons",
+      "link": "https://abcnews.com/Business/wireStory/dodgers-shohei-ohtani-top-mlb-jersey-sales-end-136763557",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-09-25T19:08:46.000Z",
+      "relevanceScore": 720.71,
+      "recommendationScore": 724.21,
       "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
-      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-09-26T18:17:12.000Z",
-      "relevanceScore": 680.94,
-      "recommendationScore": 681.44,
-      "tags": [
-        "Partnership"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2026-09-26T01:08:57.000Z",
-      "relevanceScore": 663.51,
-      "recommendationScore": 664.01,
-      "tags": [
-        "Tech",
-        "Social"
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
@@ -181,8 +189,8 @@
       "source": "Ars Technica",
       "category": "automotive",
       "pubDate": "2026-09-26T10:45:09.000Z",
-      "relevanceScore": 662.43,
-      "recommendationScore": 662.93,
+      "relevanceScore": 711.84,
+      "recommendationScore": 712.34,
       "tags": [],
       "readingLevel": "advanced"
     },
@@ -192,10 +200,23 @@
       "source": "Ars Technica",
       "category": "tech",
       "pubDate": "2026-09-25T23:00:26.000Z",
-      "relevanceScore": 660.08,
-      "recommendationScore": 660.58,
+      "relevanceScore": 709.49,
+      "recommendationScore": 709.99,
       "tags": [],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+      "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-09-26T18:17:12.000Z",
+      "relevanceScore": 651.34,
+      "recommendationScore": 651.84,
+      "tags": [
+        "Partnership"
+      ],
+      "readingLevel": "beginner"
     },
     {
       "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
@@ -203,12 +224,23 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-09-26T10:30:00.000Z",
-      "relevanceScore": 648.38,
-      "recommendationScore": 650.38,
+      "relevanceScore": 643.78,
+      "recommendationScore": 645.78,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
+    },
+    {
+      "title": "Optimizing a Lock-Free Ring Buffer",
+      "link": "https://www.reddit.com/r/programming/comments/1wqok1x/optimizing_a_lockfree_ring_buffer/",
+      "source": "Reddit Programming",
+      "category": "development",
+      "pubDate": "2026-09-26T11:49:56.000Z",
+      "relevanceScore": 622.05,
+      "recommendationScore": 622.05,
+      "tags": [],
+      "readingLevel": "advanced"
     },
     {
       "title": "Old-School Credit Card Scams Are Far From Dead",
@@ -216,8 +248,8 @@
       "source": "Wired",
       "category": "ai-ml",
       "pubDate": "2026-09-26T12:00:00.000Z",
-      "relevanceScore": 616.68,
-      "recommendationScore": 616.68,
+      "relevanceScore": 594.08,
+      "recommendationScore": 594.08,
       "tags": [
         "AI"
       ],
@@ -229,12 +261,53 @@
       "source": "The Verge",
       "category": "ai-ml",
       "pubDate": "2026-09-26T14:00:00.000Z",
-      "relevanceScore": 608.58,
-      "recommendationScore": 609.08,
+      "relevanceScore": 447.98,
+      "recommendationScore": 448.48,
       "tags": [
         "AI",
         "Business",
         "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "How to get access to DOM from Service Worker?",
+      "link": "https://dev.to/jcubic/how-to-get-access-to-dom-from-service-worker-43e3",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-09-26T21:24:00.000Z",
+      "relevanceScore": 446.96,
+      "recommendationScore": 448.46,
+      "tags": [
+        "Web",
+        "Tutorial"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
+      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
+      "source": "MIT Technology Review",
+      "category": "ai-ml",
+      "pubDate": "2026-09-25T12:10:00.000Z",
+      "relevanceScore": 428.32,
+      "recommendationScore": 428.82,
+      "tags": [
+        "AI",
+        "Tech"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Pope Leo XIV affirms need for media when asked about Trump ban at White House",
+      "link": "https://abcnews.com/Business/wireStory/pope-leo-xiv-affirms-media-asked-trump-ban-136745136",
+      "source": "ABC News Business",
+      "category": "business",
+      "pubDate": "2026-09-25T10:58:24.000Z",
+      "relevanceScore": 390.08,
+      "recommendationScore": 390.58,
+      "tags": [
+        "IPO"
       ],
       "readingLevel": "intermediate"
     },
@@ -244,38 +317,12 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-09-25T09:16:25.000Z",
-      "relevanceScore": 594.84,
-      "recommendationScore": 595.34,
+      "relevanceScore": 371.74,
+      "recommendationScore": 372.24,
       "tags": [
         "AI"
       ],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "When chat is the wrong UI",
-      "link": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
-      "source": "GitHub Blog",
-      "category": "development",
-      "pubDate": "2026-09-24T20:00:00.000Z",
-      "relevanceScore": 586.68,
-      "recommendationScore": 586.68,
-      "tags": [
-        "Exclusive"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-      "source": "TechCrunch",
-      "category": "ai-ml",
-      "pubDate": "2026-09-25T23:11:10.000Z",
-      "relevanceScore": 564.62,
-      "recommendationScore": 565.12,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "intermediate"
     },
     {
       "title": "Inside iconic horror game Silent Hill's Scottish makeover",
@@ -283,48 +330,10 @@
       "source": "BBC Technology",
       "category": "gaming",
       "pubDate": "2026-09-25T23:34:20.000Z",
-      "relevanceScore": 398.19,
-      "recommendationScore": 398.69,
+      "relevanceScore": 368.6,
+      "recommendationScore": 369.1,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Apple hit with a $5.7 billion verdict for alleged patent infringement",
-      "link": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-09-26T17:02:42.000Z",
-      "relevanceScore": 389.19,
-      "recommendationScore": 389.69,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
-      "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
-      "source": "MIT Technology Review",
-      "category": "ai-ml",
-      "pubDate": "2026-09-25T12:10:00.000Z",
-      "relevanceScore": 358.41,
-      "recommendationScore": 358.91,
-      "tags": [
-        "AI",
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "AI Exec: We May Have Pulled Off “The Largest Theft of Labor in Human History”",
-      "link": "https://www.reddit.com/r/technology/comments/1wqts7j/ai_exec_we_may_have_pulled_off_the_largest_theft/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-09-26T15:46:22.000Z",
-      "relevanceScore": 332.93,
-      "recommendationScore": 333.43,
-      "tags": [
-        "AI"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "Why this Pokémon set is dropping in value",
@@ -332,8 +341,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-09-25T11:00:00.000Z",
-      "relevanceScore": 306.18,
-      "recommendationScore": 307.68,
+      "relevanceScore": 357.58,
+      "recommendationScore": 359.08,
       "tags": [],
       "readingLevel": "intermediate"
     },
@@ -343,10 +352,82 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-09-25T15:00:00.000Z",
-      "relevanceScore": 305.48,
-      "recommendationScore": 305.48,
+      "relevanceScore": 356.88,
+      "recommendationScore": 356.88,
       "tags": [
         "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Minecraft is getting a new dimension called The Sift in 2027",
+      "link": "https://www.engadget.com/2269867/minecraft-is-getting-a-new-dimension-called-the-sift-in-2027/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-09-26T19:19:53.000Z",
+      "relevanceScore": 330.55,
+      "recommendationScore": 333.05,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Levoit’s new air purifier is for the pet odors that have taken over your apartment",
+      "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
+      "source": "TechCrunch",
+      "category": "tech",
+      "pubDate": "2026-09-26T17:00:00.000Z",
+      "relevanceScore": 211.08,
+      "recommendationScore": 213.58,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Build Your Own Kubernetes: A Small Orchestrator That Teaches the Real System",
+      "link": "https://dev.to/im-shafiqurehman/build-your-own-kubernetes-a-small-orchestrator-that-teaches-the-real-system-1lfn",
+      "source": "Dev.to",
+      "category": "cloud",
+      "pubDate": "2026-09-26T21:24:02.000Z",
+      "relevanceScore": 121.46,
+      "recommendationScore": 121.96,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Aga's restaurant in Houston is number one in the world for Uber Eats deliveries",
+      "link": "https://www.npr.org/2026/09/25/nx-s1-5979107/agas-restaurant-in-houston-is-number-one-in-the-world-for-uber-eats-deliveries",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-09-25T20:08:37.000Z",
+      "relevanceScore": 119.91,
+      "recommendationScore": 120.41,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+      "source": "Ars Technica",
+      "category": "automotive",
+      "pubDate": "2026-09-25T21:10:51.000Z",
+      "relevanceScore": 108.12,
+      "recommendationScore": 108.62,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-09-26T21:02:06.000Z",
+      "relevanceScore": 68.89,
+      "recommendationScore": 69.39,
+      "tags": [
+        "AI"
       ],
       "readingLevel": "advanced"
     },
@@ -356,8 +437,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-09-26T14:00:00.000Z",
-      "relevanceScore": 293.58,
-      "recommendationScore": 294.08,
+      "relevanceScore": 67.48,
+      "recommendationScore": 67.98,
       "tags": [
         "AI",
         "Tech",
@@ -366,85 +447,37 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "This external GPU uses Wi-Fi to transform any device into a gaming rig",
+      "link": "https://www.engadget.com/2269877/this-external-gpu-uses-wi-fi-to-transform-any-device-into-a-gaming-rig/",
+      "source": "Engadget",
+      "category": "gaming",
+      "pubDate": "2026-09-26T19:45:00.000Z",
+      "relevanceScore": 64.63,
+      "recommendationScore": 65.13,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
       "title": "Young organs may not be a fountain of youth for recipients",
       "link": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-09-25T09:00:00.000Z",
-      "relevanceScore": 289.78,
-      "recommendationScore": 290.28,
+      "relevanceScore": 63.68,
+      "recommendationScore": 64.18,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "World shares mostly advance after global bond sell-off and drop in oil prices",
-      "link": "https://abcnews.com/Business/wireStory/asian-shares-mixed-after-global-bond-sell-off-136743860",
+      "title": "Meatpacking groups say ICE arrests could lead to higher prices and revenue loss",
+      "link": "https://abcnews.com/Business/wireStory/meatpacking-groups-ice-arrests-lead-higher-prices-revenue-136770150",
       "source": "ABC News Business",
-      "category": "finance",
-      "pubDate": "2026-09-25T11:58:23.000Z",
-      "relevanceScore": 281.87,
-      "recommendationScore": 282.37,
-      "tags": [
-        "Business"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
-      "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
-      "source": "TechCrunch",
-      "category": "social",
-      "pubDate": "2026-09-26T17:44:00.000Z",
-      "relevanceScore": 244.83,
-      "recommendationScore": 245.33,
-      "tags": [
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "American farmers are hurting -- and worried about their futures",
-      "link": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
-      "source": "NPR Business",
       "category": "business",
-      "pubDate": "2026-09-25T09:00:00.000Z",
-      "relevanceScore": 238.28,
-      "recommendationScore": 238.78,
+      "pubDate": "2026-09-25T23:42:07.000Z",
+      "relevanceScore": 62.12,
+      "recommendationScore": 62.62,
       "tags": [],
       "readingLevel": "advanced"
-    },
-    {
-      "title": "Amazon's delivery drones are annoying an entire Texas neighborhood, and there's nothing they can do about it",
-      "link": "https://www.reddit.com/r/technology/comments/1wqnnai/amazons_delivery_drones_are_annoying_an_entire/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-09-26T10:58:30.000Z",
-      "relevanceScore": 237.48,
-      "recommendationScore": 237.48,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Control Resonant is a great game — it’s even better when you read everything",
-      "link": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-09-26T13:00:00.000Z",
-      "relevanceScore": 139.88,
-      "recommendationScore": 141.38,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Levoit’s new air purifier is for the pet odors that have taken over your apartment",
-      "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
-      "source": "TechCrunch",
-      "category": "tech",
-      "pubDate": "2026-09-26T17:00:00.000Z",
-      "relevanceScore": 101.68,
-      "recommendationScore": 104.18,
-      "tags": [],
-      "readingLevel": "intermediate"
     },
     {
       "title": "US backs Elon Musk's bid to overturn €120m EU fine against X",
@@ -452,108 +485,33 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-09-25T09:48:33.000Z",
-      "relevanceScore": 95.94,
-      "recommendationScore": 96.44,
+      "relevanceScore": 59.85,
+      "recommendationScore": 60.35,
       "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
-      "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
-      "source": "Ars Technica",
-      "category": "automotive",
-      "pubDate": "2026-09-25T21:10:51.000Z",
-      "relevanceScore": 94.22,
-      "recommendationScore": 94.72,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Europe uses subsidies, taxes and policy pauses to offset pain of high fuel prices",
-      "link": "https://abcnews.com/Business/wireStory/europe-subsidies-taxes-policy-pauses-offset-pain-high-136744695",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-09-25T09:54:18.000Z",
-      "relevanceScore": 91.46,
-      "recommendationScore": 91.96,
-      "tags": [
-        "Regulation"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Poland halted asylum claims at the Belarus border and now wants Europe to follow its example",
-      "link": "https://abcnews.com/Business/wireStory/poland-halted-asylum-claims-belarus-border-now-europe-136744786",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-09-25T10:58:20.000Z",
-      "relevanceScore": 69.17,
-      "recommendationScore": 69.67,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "You can use your old laptop to make a smart home hub",
-      "link": "https://www.engadget.com/2265491/you-can-use-your-old-laptop-to-make-a-smart-home-hub/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-09-26T18:30:00.000Z",
-      "relevanceScore": 48.48,
-      "recommendationScore": 49.98,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Your Search Query Is a Program: Composing Role-Based SQL With the Strategy Pattern",
-      "link": "https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a",
-      "source": "Dev.to",
+      "title": "The Cloudflare Blog – Brought to you by EmDash",
+      "link": "https://www.reddit.com/r/programming/comments/1wqv795/the_cloudflare_blog_brought_to_you_by_emdash/",
+      "source": "Reddit Programming",
       "category": "development",
-      "pubDate": "2026-09-26T18:19:15.000Z",
-      "relevanceScore": 48.44,
-      "recommendationScore": 48.94,
-      "tags": [
-        "Business",
-        "Exclusive"
-      ],
+      "pubDate": "2026-09-26T16:44:56.000Z",
+      "relevanceScore": 50.53,
+      "recommendationScore": 50.53,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "How to properly clean your laptop fan",
-      "link": "https://www.engadget.com/2266513/how-to-clean-laptop-fan/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-09-26T18:00:00.000Z",
-      "relevanceScore": 48.38,
-      "recommendationScore": 50.88,
-      "tags": [
-        "Tutorial"
-      ],
-      "readingLevel": "beginner"
-    },
-    {
-      "title": "Burnham announces scheme to help first-time buyers onto housing ladder",
+      "title": "Burnham announces scheme to help first-time buyers on to housing ladder",
       "link": "https://www.bbc.co.uk/news/articles/cv8e33gdw17no?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "finance",
-      "pubDate": "2026-09-26T17:09:40.000Z",
-      "relevanceScore": 48.21,
-      "recommendationScore": 50.71,
+      "pubDate": "2026-09-26T18:50:02.000Z",
+      "relevanceScore": 31.45,
+      "recommendationScore": 33.95,
       "tags": [
         "Exclusive"
       ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Met to re-examine CCTV from Jill Dando murder case",
-      "link": "https://www.bbc.co.uk/news/articles/c60m334grx9vo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-09-26T13:21:27.000Z",
-      "relevanceScore": 32.95,
-      "recommendationScore": 32.95,
-      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -562,10 +520,36 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-09-26T11:22:03.000Z",
-      "relevanceScore": 31.55,
-      "recommendationScore": 33.05,
+      "relevanceScore": 30.96,
+      "recommendationScore": 32.46,
       "tags": [],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
+      "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2026-09-26T17:44:00.000Z",
+      "relevanceScore": 28.23,
+      "recommendationScore": 28.73,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "TikTok agrees to pay at least $100M in Alabama settlement",
+      "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2026-09-26T20:24:45.000Z",
+      "relevanceScore": 27.77,
+      "recommendationScore": 28.27,
+      "tags": [
+        "Social"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Kids turned the comment section of an NPR podcast into a group chat",
@@ -573,8 +557,8 @@
       "source": "The Verge",
       "category": "tech",
       "pubDate": "2026-09-26T17:32:35.000Z",
-      "relevanceScore": 25.79,
-      "recommendationScore": 26.29,
+      "relevanceScore": 25.19,
+      "recommendationScore": 25.69,
       "tags": [
         "Social"
       ],
@@ -586,32 +570,41 @@
       "source": "Wired",
       "category": "tech",
       "pubDate": "2026-09-26T11:36:00.000Z",
-      "relevanceScore": 25.6,
-      "recommendationScore": 27.1,
+      "relevanceScore": 25,
+      "recommendationScore": 26.5,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "TikTok will pay Alabama $100 million to settle social media addiction lawsuit",
-      "link": "https://www.engadget.com/2269822/tiktok-will-pay-alabama-100-million-to-settle-social-media-addiction-lawsuit/",
-      "source": "Engadget",
-      "category": "social",
-      "pubDate": "2026-09-26T16:41:00.000Z",
-      "relevanceScore": 23.62,
-      "recommendationScore": 24.12,
-      "tags": [
-        "Social"
-      ],
+      "title": "Decap is the man behind the drums behind your favorite song",
+      "link": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-09-26T19:30:00.000Z",
+      "relevanceScore": 24.08,
+      "recommendationScore": 24.58,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Aga's restaurant in Houston is number one in the world for Uber Eats deliveries",
-      "link": "https://www.npr.org/2026/09/25/nx-s1-5979107/agas-restaurant-in-houston-is-number-one-in-the-world-for-uber-eats-deliveries",
+      "title": "You can use your old laptop to make a smart home hub",
+      "link": "https://www.engadget.com/2265491/you-can-use-your-old-laptop-to-make-a-smart-home-hub/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-09-26T18:30:00.000Z",
+      "relevanceScore": 23.38,
+      "recommendationScore": 24.88,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "American farmers are hurting -- and worried about their futures",
+      "link": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
       "source": "NPR Business",
       "category": "business",
-      "pubDate": "2026-09-25T20:08:37.000Z",
-      "relevanceScore": 23.51,
-      "recommendationScore": 24.01,
+      "pubDate": "2026-09-25T09:00:00.000Z",
+      "relevanceScore": 20.68,
+      "recommendationScore": 21.18,
       "tags": [],
       "readingLevel": "advanced"
     }
@@ -623,7 +616,7 @@
         "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
         "source": "The Verge",
         "pubDate": "2026-09-26T16:34:59.000Z",
-        "relevanceScore": 3487.1,
+        "relevanceScore": 3788,
         "tags": [
           "Web",
           "Breaking"
@@ -634,7 +627,7 @@
         "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-26T02:50:56.000Z",
-        "relevanceScore": 1452.35,
+        "relevanceScore": 1507.25,
         "tags": [
           "IPO"
         ]
@@ -644,7 +637,7 @@
         "link": "https://www.wired.com/story/best-mesh-wifi-routers/",
         "source": "Wired",
         "pubDate": "2026-09-26T11:00:00.000Z",
-        "relevanceScore": 756.98,
+        "relevanceScore": 752.88,
         "tags": [
           "Web"
         ]
@@ -654,23 +647,7 @@
         "link": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
         "source": "Ars Technica",
         "pubDate": "2026-09-25T23:00:26.000Z",
-        "relevanceScore": 660.08,
-        "tags": []
-      },
-      {
-        "title": "Apple hit with a $5.7 billion verdict for alleged patent infringement",
-        "link": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
-        "source": "Engadget",
-        "pubDate": "2026-09-26T17:02:42.000Z",
-        "relevanceScore": 389.19,
-        "tags": []
-      },
-      {
-        "title": "Amazon's delivery drones are annoying an entire Texas neighborhood, and there's nothing they can do about it",
-        "link": "https://www.reddit.com/r/technology/comments/1wqnnai/amazons_delivery_drones_are_annoying_an_entire/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-09-26T10:58:30.000Z",
-        "relevanceScore": 237.48,
+        "relevanceScore": 709.49,
         "tags": []
       },
       {
@@ -678,7 +655,7 @@
         "link": "https://techcrunch.com/2026/09/26/levoits-new-air-purifier-is-for-the-pet-odors-that-have-taken-over-your-apartment/",
         "source": "TechCrunch",
         "pubDate": "2026-09-26T17:00:00.000Z",
-        "relevanceScore": 101.68,
+        "relevanceScore": 211.08,
         "tags": []
       },
       {
@@ -686,33 +663,15 @@
         "link": "https://www.bbc.co.uk/news/articles/cq0m373ee0v0o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-25T09:48:33.000Z",
-        "relevanceScore": 95.94,
+        "relevanceScore": 59.85,
         "tags": []
-      },
-      {
-        "title": "You can use your old laptop to make a smart home hub",
-        "link": "https://www.engadget.com/2265491/you-can-use-your-old-laptop-to-make-a-smart-home-hub/",
-        "source": "Engadget",
-        "pubDate": "2026-09-26T18:30:00.000Z",
-        "relevanceScore": 48.48,
-        "tags": []
-      },
-      {
-        "title": "How to properly clean your laptop fan",
-        "link": "https://www.engadget.com/2266513/how-to-clean-laptop-fan/",
-        "source": "Engadget",
-        "pubDate": "2026-09-26T18:00:00.000Z",
-        "relevanceScore": 48.38,
-        "tags": [
-          "Tutorial"
-        ]
       },
       {
         "title": "Kids turned the comment section of an NPR podcast into a group chat",
         "link": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
         "source": "The Verge",
         "pubDate": "2026-09-26T17:32:35.000Z",
-        "relevanceScore": 25.79,
+        "relevanceScore": 25.19,
         "tags": [
           "Social"
         ]
@@ -722,50 +681,38 @@
         "link": "https://www.wired.com/gallery/best-white-elephant-gifts-2026/",
         "source": "Wired",
         "pubDate": "2026-09-26T11:36:00.000Z",
-        "relevanceScore": 25.6,
+        "relevanceScore": 25,
+        "tags": []
+      },
+      {
+        "title": "Decap is the man behind the drums behind your favorite song",
+        "link": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview",
+        "source": "The Verge",
+        "pubDate": "2026-09-26T19:30:00.000Z",
+        "relevanceScore": 24.08,
+        "tags": []
+      },
+      {
+        "title": "You can use your old laptop to make a smart home hub",
+        "link": "https://www.engadget.com/2265491/you-can-use-your-old-laptop-to-make-a-smart-home-hub/",
+        "source": "Engadget",
+        "pubDate": "2026-09-26T18:30:00.000Z",
+        "relevanceScore": 23.38,
         "tags": []
       }
     ],
-    "development": [
+    "mobile": [
       {
-        "title": "I Built an Interactive System Design Simulator — Learn by Breaking Things",
-        "link": "https://dev.to/saurabhd01/i-built-an-interactive-system-design-simulator-learn-by-breaking-things-4d06",
-        "source": "Dev.to",
-        "pubDate": "2026-09-26T18:23:01.000Z",
-        "relevanceScore": 1970.96,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "When chat is the wrong UI",
-        "link": "https://github.blog/ai-and-ml/github-copilot/when-chat-is-the-wrong-ui/",
+        "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
+        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
         "source": "GitHub Blog",
-        "pubDate": "2026-09-24T20:00:00.000Z",
-        "relevanceScore": 586.68,
+        "pubDate": "2026-09-25T18:00:00.000Z",
+        "relevanceScore": 1585.98,
         "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Improving site performance by shipping more CSS",
-        "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-09-25T15:00:00.000Z",
-        "relevanceScore": 305.48,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Your Search Query Is a Program: Composing Role-Based SQL With the Strategy Pattern",
-        "link": "https://dev.to/purbano/your-search-query-is-a-program-composing-role-based-sql-with-the-strategy-pattern-3o3a",
-        "source": "Dev.to",
-        "pubDate": "2026-09-26T18:19:15.000Z",
-        "relevanceScore": 48.44,
-        "tags": [
-          "Business",
-          "Exclusive"
+          "Mobile",
+          "Exclusive",
+          "Tutorial",
+          "Update"
         ]
       }
     ],
@@ -775,7 +722,7 @@
         "link": "https://stackoverflow.blog/2026/09/25/professional-skepticism-is-a-dev-s-best-skill/",
         "source": "Stack Overflow Blog",
         "pubDate": "2026-09-25T07:40:00.000Z",
-        "relevanceScore": 1466.01,
+        "relevanceScore": 1455.42,
         "tags": [
           "AI"
         ]
@@ -785,19 +732,9 @@
         "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
         "source": "Ars Technica",
         "pubDate": "2026-09-25T21:36:20.000Z",
-        "relevanceScore": 1144.3,
+        "relevanceScore": 1192.71,
         "tags": [
           "AI"
-        ]
-      },
-      {
-        "title": "🔍 My Next.js Portfolio Was Invisible to Google & ChatGPT — Here's How I Fixed It",
-        "link": "https://dev.to/dhruv_15_11/my-nextjs-portfolio-was-invisible-to-google-chatgpt-heres-how-i-fixed-it-1eg0",
-        "source": "Dev.to",
-        "pubDate": "2026-09-26T18:17:28.000Z",
-        "relevanceScore": 851.44,
-        "tags": [
-          "Science"
         ]
       },
       {
@@ -805,7 +742,7 @@
         "link": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
         "source": "Wired",
         "pubDate": "2026-09-26T10:30:00.000Z",
-        "relevanceScore": 648.38,
+        "relevanceScore": 643.78,
         "tags": [
           "AI"
         ]
@@ -815,7 +752,7 @@
         "link": "https://www.wired.com/story/kernel-panic-old-timey-credit-card-scams/",
         "source": "Wired",
         "pubDate": "2026-09-26T12:00:00.000Z",
-        "relevanceScore": 616.68,
+        "relevanceScore": 594.08,
         "tags": [
           "AI"
         ]
@@ -825,7 +762,7 @@
         "link": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
         "source": "The Verge",
         "pubDate": "2026-09-26T14:00:00.000Z",
-        "relevanceScore": 608.58,
+        "relevanceScore": 447.98,
         "tags": [
           "AI",
           "Business",
@@ -833,42 +770,32 @@
         ]
       },
       {
-        "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-        "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-        "source": "MIT Technology Review",
-        "pubDate": "2026-09-25T09:16:25.000Z",
-        "relevanceScore": 594.84,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
-        "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
-        "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
-        "source": "TechCrunch",
-        "pubDate": "2026-09-25T23:11:10.000Z",
-        "relevanceScore": 564.62,
-        "tags": [
-          "AI"
-        ]
-      },
-      {
         "title": "The Download: the Pentagon’s AI-powered lie detector and young organ limits",
         "link": "https://www.technologyreview.com/2026/09/25/1145157/the-download-pentagon-ai-lie-detector-young-organ-limits/",
         "source": "MIT Technology Review",
         "pubDate": "2026-09-25T12:10:00.000Z",
-        "relevanceScore": 358.41,
+        "relevanceScore": 428.32,
         "tags": [
           "AI",
           "Tech"
         ]
       },
       {
-        "title": "AI Exec: We May Have Pulled Off “The Largest Theft of Labor in Human History”",
-        "link": "https://www.reddit.com/r/technology/comments/1wqts7j/ai_exec_we_may_have_pulled_off_the_largest_theft/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-09-26T15:46:22.000Z",
-        "relevanceScore": 332.93,
+        "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+        "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+        "source": "MIT Technology Review",
+        "pubDate": "2026-09-25T09:16:25.000Z",
+        "relevanceScore": 371.74,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Insurers claim AI is already increasing healthcare costs",
+        "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "source": "TechCrunch",
+        "pubDate": "2026-09-26T21:02:06.000Z",
+        "relevanceScore": 68.89,
         "tags": [
           "AI"
         ]
@@ -878,7 +805,7 @@
         "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
         "source": "TechCrunch",
         "pubDate": "2026-09-26T14:00:00.000Z",
-        "relevanceScore": 293.58,
+        "relevanceScore": 67.48,
         "tags": [
           "AI",
           "Tech",
@@ -886,54 +813,105 @@
         ]
       }
     ],
-    "mobile": [
+    "development": [
       {
-        "title": "GitHub Copilot app for Beginners: How to build custom workflows with canvases",
-        "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-09-25T18:00:00.000Z",
-        "relevanceScore": 1302.08,
+        "title": "I built FreshDeploy to verify web deployments after release",
+        "link": "https://dev.to/devdvgs/i-built-freshdeploy-to-verify-web-deployments-after-release-3p64",
+        "source": "Dev.to",
+        "pubDate": "2026-09-26T21:20:48.000Z",
+        "relevanceScore": 1324.95,
         "tags": [
-          "Mobile",
-          "Exclusive",
-          "Tutorial",
-          "Update"
+          "Web",
+          "Launch"
         ]
+      },
+      {
+        "title": "Microservices are organizational debt disguised as architecture.",
+        "link": "https://www.reddit.com/r/programming/comments/1wq8nbw/microservices_are_organizational_debt_disguised/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-09-25T21:35:37.000Z",
+        "relevanceScore": 999.2,
+        "tags": []
+      },
+      {
+        "title": "Optimizing a Lock-Free Ring Buffer",
+        "link": "https://www.reddit.com/r/programming/comments/1wqok1x/optimizing_a_lockfree_ring_buffer/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-09-26T11:49:56.000Z",
+        "relevanceScore": 622.05,
+        "tags": []
+      },
+      {
+        "title": "How to get access to DOM from Service Worker?",
+        "link": "https://dev.to/jcubic/how-to-get-access-to-dom-from-service-worker-43e3",
+        "source": "Dev.to",
+        "pubDate": "2026-09-26T21:24:00.000Z",
+        "relevanceScore": 446.96,
+        "tags": [
+          "Web",
+          "Tutorial"
+        ]
+      },
+      {
+        "title": "Improving site performance by shipping more CSS",
+        "link": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-09-25T15:00:00.000Z",
+        "relevanceScore": 356.88,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "The Cloudflare Blog – Brought to you by EmDash",
+        "link": "https://www.reddit.com/r/programming/comments/1wqv795/the_cloudflare_blog_brought_to_you_by_emdash/",
+        "source": "Reddit Programming",
+        "pubDate": "2026-09-26T16:44:56.000Z",
+        "relevanceScore": 50.53,
+        "tags": []
       }
     ],
-    "general": [
+    "gaming": [
       {
-        "title": "Heathrow Airport warns third runway could be delayed by four years",
-        "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-26T16:32:42.000Z",
-        "relevanceScore": 857.09,
+        "title": "What type of power cord does a PS5 use?",
+        "link": "https://www.engadget.com/2265348/playstation-power-cord-what-type/",
+        "source": "Engadget",
+        "pubDate": "2026-09-26T18:45:00.000Z",
+        "relevanceScore": 1007.43,
         "tags": []
       },
       {
-        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
-        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+        "title": "Republic of Ireland to wear black armbands for Israel game",
+        "link": "https://www.bbc.co.uk/sport/football/articles/ckddvv5dn4eyo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-09-26T18:17:12.000Z",
-        "relevanceScore": 680.94,
+        "pubDate": "2026-09-26T19:59:00.000Z",
+        "relevanceScore": 791.18,
+        "tags": []
+      },
+      {
+        "title": "Inside iconic horror game Silent Hill's Scottish makeover",
+        "link": "https://www.bbc.co.uk/news/articles/ckvgyzjpy2eno?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-09-25T23:34:20.000Z",
+        "relevanceScore": 368.6,
+        "tags": []
+      },
+      {
+        "title": "Minecraft is getting a new dimension called The Sift in 2027",
+        "link": "https://www.engadget.com/2269867/minecraft-is-getting-a-new-dimension-called-the-sift-in-2027/",
+        "source": "Engadget",
+        "pubDate": "2026-09-26T19:19:53.000Z",
+        "relevanceScore": 330.55,
         "tags": [
-          "Partnership"
+          "Exclusive"
         ]
       },
       {
-        "title": "Met to re-examine CCTV from Jill Dando murder case",
-        "link": "https://www.bbc.co.uk/news/articles/c60m334grx9vo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-26T13:21:27.000Z",
-        "relevanceScore": 32.95,
-        "tags": []
-      },
-      {
-        "title": "How long can Labour's feel-good factor last?",
-        "link": "https://www.bbc.co.uk/news/articles/cwn8mn0rzkzlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-26T11:22:03.000Z",
-        "relevanceScore": 31.55,
+        "title": "This external GPU uses Wi-Fi to transform any device into a gaming rig",
+        "link": "https://www.engadget.com/2269877/this-external-gpu-uses-wi-fi-to-transform-any-device-into-a-gaming-rig/",
+        "source": "Engadget",
+        "pubDate": "2026-09-26T19:45:00.000Z",
+        "relevanceScore": 64.63,
         "tags": []
       }
     ],
@@ -943,43 +921,92 @@
         "link": "https://www.bbc.co.uk/news/articles/cw62me2vlj07o?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-09-25T13:56:16.000Z",
-        "relevanceScore": 707.77,
+        "relevanceScore": 931.67,
         "tags": [
           "Security"
         ]
       }
     ],
-    "social": [
+    "general": [
       {
-        "title": "At Meta Connect, the company’s smart glasses were everywhere",
-        "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-        "source": "TechCrunch",
-        "pubDate": "2026-09-26T01:08:57.000Z",
-        "relevanceScore": 663.51,
+        "title": "Heathrow Airport warns third runway could be delayed by four years",
+        "link": "https://www.bbc.co.uk/news/articles/crx2zz401935o?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-26T16:32:42.000Z",
+        "relevanceScore": 907.99,
+        "tags": []
+      },
+      {
+        "title": "Trump rejects Iran deal to reopen Strait of Hormuz in seven days",
+        "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-26T18:17:12.000Z",
+        "relevanceScore": 651.34,
         "tags": [
-          "Tech",
-          "Social"
+          "Partnership"
         ]
       },
       {
-        "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
-        "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
-        "source": "TechCrunch",
-        "pubDate": "2026-09-26T17:44:00.000Z",
-        "relevanceScore": 244.83,
+        "title": "How long can Labour's feel-good factor last?",
+        "link": "https://www.bbc.co.uk/news/articles/cwn8mn0rzkzlo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-26T11:22:03.000Z",
+        "relevanceScore": 30.96,
+        "tags": []
+      }
+    ],
+    "business": [
+      {
+        "title": "Dodgers' Shohei Ohtani first to top MLB jersey sales at end of 4 straight seasons",
+        "link": "https://abcnews.com/Business/wireStory/dodgers-shohei-ohtani-top-mlb-jersey-sales-end-136763557",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-25T19:08:46.000Z",
+        "relevanceScore": 720.71,
         "tags": [
-          "Social"
+          "Exclusive"
         ]
       },
       {
-        "title": "TikTok will pay Alabama $100 million to settle social media addiction lawsuit",
-        "link": "https://www.engadget.com/2269822/tiktok-will-pay-alabama-100-million-to-settle-social-media-addiction-lawsuit/",
-        "source": "Engadget",
-        "pubDate": "2026-09-26T16:41:00.000Z",
-        "relevanceScore": 23.62,
+        "title": "Pope Leo XIV affirms need for media when asked about Trump ban at White House",
+        "link": "https://abcnews.com/Business/wireStory/pope-leo-xiv-affirms-media-asked-trump-ban-136745136",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-25T10:58:24.000Z",
+        "relevanceScore": 390.08,
         "tags": [
-          "Social"
+          "IPO"
         ]
+      },
+      {
+        "title": "Why this Pokémon set is dropping in value",
+        "link": "https://www.npr.org/sections/planet-money/2026/09/25/nx-s1-5980393/why-this-pokemon-set-is-dropping-in-value",
+        "source": "NPR Business",
+        "pubDate": "2026-09-25T11:00:00.000Z",
+        "relevanceScore": 357.58,
+        "tags": []
+      },
+      {
+        "title": "Aga's restaurant in Houston is number one in the world for Uber Eats deliveries",
+        "link": "https://www.npr.org/2026/09/25/nx-s1-5979107/agas-restaurant-in-houston-is-number-one-in-the-world-for-uber-eats-deliveries",
+        "source": "NPR Business",
+        "pubDate": "2026-09-25T20:08:37.000Z",
+        "relevanceScore": 119.91,
+        "tags": []
+      },
+      {
+        "title": "Meatpacking groups say ICE arrests could lead to higher prices and revenue loss",
+        "link": "https://abcnews.com/Business/wireStory/meatpacking-groups-ice-arrests-lead-higher-prices-revenue-136770150",
+        "source": "ABC News Business",
+        "pubDate": "2026-09-25T23:42:07.000Z",
+        "relevanceScore": 62.12,
+        "tags": []
+      },
+      {
+        "title": "American farmers are hurting -- and worried about their futures",
+        "link": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
+        "source": "NPR Business",
+        "pubDate": "2026-09-25T09:00:00.000Z",
+        "relevanceScore": 20.68,
+        "tags": []
       }
     ],
     "automotive": [
@@ -988,7 +1015,7 @@
         "link": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
         "source": "Ars Technica",
         "pubDate": "2026-09-26T10:45:09.000Z",
-        "relevanceScore": 662.43,
+        "relevanceScore": 711.84,
         "tags": []
       },
       {
@@ -996,72 +1023,20 @@
         "link": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
         "source": "Ars Technica",
         "pubDate": "2026-09-25T21:10:51.000Z",
-        "relevanceScore": 94.22,
+        "relevanceScore": 108.12,
         "tags": []
       }
     ],
-    "gaming": [
+    "cloud": [
       {
-        "title": "Inside iconic horror game Silent Hill's Scottish makeover",
-        "link": "https://www.bbc.co.uk/news/articles/ckvgyzjpy2eno?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-09-25T23:34:20.000Z",
-        "relevanceScore": 398.19,
-        "tags": []
-      },
-      {
-        "title": "Control Resonant is a great game — it’s even better when you read everything",
-        "link": "https://www.theverge.com/games/1000818/control-resonant-reading-collectibles-documents-logs",
-        "source": "The Verge",
-        "pubDate": "2026-09-26T13:00:00.000Z",
-        "relevanceScore": 139.88,
-        "tags": []
-      }
-    ],
-    "business": [
-      {
-        "title": "Why this Pokémon set is dropping in value",
-        "link": "https://www.npr.org/sections/planet-money/2026/09/25/nx-s1-5980393/why-this-pokemon-set-is-dropping-in-value",
-        "source": "NPR Business",
-        "pubDate": "2026-09-25T11:00:00.000Z",
-        "relevanceScore": 306.18,
-        "tags": []
-      },
-      {
-        "title": "American farmers are hurting -- and worried about their futures",
-        "link": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
-        "source": "NPR Business",
-        "pubDate": "2026-09-25T09:00:00.000Z",
-        "relevanceScore": 238.28,
-        "tags": []
-      },
-      {
-        "title": "Europe uses subsidies, taxes and policy pauses to offset pain of high fuel prices",
-        "link": "https://abcnews.com/Business/wireStory/europe-subsidies-taxes-policy-pauses-offset-pain-high-136744695",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-25T09:54:18.000Z",
-        "relevanceScore": 91.46,
+        "title": "Build Your Own Kubernetes: A Small Orchestrator That Teaches the Real System",
+        "link": "https://dev.to/im-shafiqurehman/build-your-own-kubernetes-a-small-orchestrator-that-teaches-the-real-system-1lfn",
+        "source": "Dev.to",
+        "pubDate": "2026-09-26T21:24:02.000Z",
+        "relevanceScore": 121.46,
         "tags": [
-          "Regulation"
+          "Exclusive"
         ]
-      },
-      {
-        "title": "Poland halted asylum claims at the Belarus border and now wants Europe to follow its example",
-        "link": "https://abcnews.com/Business/wireStory/poland-halted-asylum-claims-belarus-border-now-europe-136744786",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-25T10:58:20.000Z",
-        "relevanceScore": 69.17,
-        "tags": [
-          "Breaking"
-        ]
-      },
-      {
-        "title": "Aga's restaurant in Houston is number one in the world for Uber Eats deliveries",
-        "link": "https://www.npr.org/2026/09/25/nx-s1-5979107/agas-restaurant-in-houston-is-number-one-in-the-world-for-uber-eats-deliveries",
-        "source": "NPR Business",
-        "pubDate": "2026-09-25T20:08:37.000Z",
-        "relevanceScore": 23.51,
-        "tags": []
       }
     ],
     "science": [
@@ -1070,57 +1045,69 @@
         "link": "https://www.technologyreview.com/2026/09/25/1145083/young-organs-may-not-be-a-fountain-of-youth-for-recipients/",
         "source": "MIT Technology Review",
         "pubDate": "2026-09-25T09:00:00.000Z",
-        "relevanceScore": 289.78,
+        "relevanceScore": 63.68,
         "tags": []
       }
     ],
     "finance": [
       {
-        "title": "World shares mostly advance after global bond sell-off and drop in oil prices",
-        "link": "https://abcnews.com/Business/wireStory/asian-shares-mixed-after-global-bond-sell-off-136743860",
-        "source": "ABC News Business",
-        "pubDate": "2026-09-25T11:58:23.000Z",
-        "relevanceScore": 281.87,
+        "title": "Burnham announces scheme to help first-time buyers on to housing ladder",
+        "link": "https://www.bbc.co.uk/news/articles/cv8e33gdw17no?at_medium=RSS&at_campaign=rss",
+        "source": "BBC News",
+        "pubDate": "2026-09-26T18:50:02.000Z",
+        "relevanceScore": 31.45,
         "tags": [
-          "Business"
+          "Exclusive"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "title": "Meta and YouTube say they will run ads for ‘Musk’ documentary after all",
+        "link": "https://techcrunch.com/2026/09/26/meta-says-it-will-run-ads-for-musk-documentary-after-all/",
+        "source": "TechCrunch",
+        "pubDate": "2026-09-26T17:44:00.000Z",
+        "relevanceScore": 28.23,
+        "tags": [
+          "Social"
         ]
       },
       {
-        "title": "Burnham announces scheme to help first-time buyers onto housing ladder",
-        "link": "https://www.bbc.co.uk/news/articles/cv8e33gdw17no?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-09-26T17:09:40.000Z",
-        "relevanceScore": 48.21,
+        "title": "TikTok agrees to pay at least $100M in Alabama settlement",
+        "link": "https://techcrunch.com/2026/09/26/tiktok-agrees-to-pay-at-least-100m-in-alabama-settlement/",
+        "source": "TechCrunch",
+        "pubDate": "2026-09-26T20:24:45.000Z",
+        "relevanceScore": 27.77,
         "tags": [
-          "Exclusive"
+          "Social"
         ]
       }
     ]
   },
   "stats": {
     "totalSources": 14,
-    "totalCategories": 12,
-    "avgRelevanceScore": 518.9145833333332,
+    "totalCategories": 13,
+    "avgRelevanceScore": 533.9818750000001,
     "topCategories": [
       {
         "category": "tech",
-        "count": 12
+        "count": 10
       },
       {
         "category": "ai-ml",
-        "count": 11
-      },
-      {
-        "category": "business",
-        "count": 5
+        "count": 9
       },
       {
         "category": "development",
-        "count": 4
+        "count": 6
       },
       {
-        "category": "general",
-        "count": 4
+        "category": "business",
+        "count": 6
+      },
+      {
+        "category": "gaming",
+        "count": 5
       }
     ]
   }
