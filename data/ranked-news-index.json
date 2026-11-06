@@ -1,52 +1,76 @@
 {
-  "lastUpdated": "2026-11-05T20:17:08.378Z",
-  "totalArticles": 48,
+  "lastUpdated": "2026-11-06T01:01:09.295Z",
+  "totalArticles": 45,
   "categories": [
+    "cybersecurity",
     "tech",
-    "development",
     "ai-ml",
-    "social",
+    "development",
+    "entertainment",
     "finance",
     "general",
-    "entertainment",
-    "gaming",
     "mobile",
-    "cybersecurity",
-    "startup",
     "business",
+    "social",
     "science"
   ],
   "topArticles": [
     {
-      "title": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
-      "link": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-11-05T13:00:56.000Z",
-      "relevanceScore": 558.55,
-      "recommendationScore": 561.05,
-      "tags": [],
+      "title": "Is SSH Password Auth Really Off on Your Server? Hardening sshd_config and Proving It From the Outside",
+      "link": "https://dev.to/eme_gug_0821b41b948be6516/is-ssh-password-auth-really-off-on-your-server-hardening-sshdconfig-and-proving-it-from-the-2cdd",
+      "source": "Dev.to",
+      "category": "cybersecurity",
+      "pubDate": "2026-11-06T00:50:59.000Z",
+      "relevanceScore": 5922.97,
+      "recommendationScore": 5922.97,
+      "tags": [
+        "Security"
+      ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Before authentication: three bugs in Mullvad's gotatun",
-      "link": "https://dev.to/zerox80/before-authentication-three-bugs-in-mullvads-gotatun-25ih",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-11-05T20:10:45.000Z",
-      "relevanceScore": 524.48,
-      "recommendationScore": 524.98,
+      "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-11-05T23:09:36.000Z",
+      "relevanceScore": 3777.63,
+      "recommendationScore": 3778.13,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "OpenAI released a new cybersecurity model. Is that enough?",
-      "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-      "source": "TechCrunch",
+      "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+      "source": "Ars Technica",
       "category": "ai-ml",
-      "pubDate": "2026-11-05T19:06:12.000Z",
-      "relevanceScore": 520.26,
-      "recommendationScore": 522.76,
+      "pubDate": "2026-11-05T21:40:36.000Z",
+      "relevanceScore": 1303.33,
+      "recommendationScore": 1303.83,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Your .NET parallel loop can become serial in a one-CPU container",
+      "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+      "source": "Stack Overflow Blog",
+      "category": "development",
+      "pubDate": "2026-11-04T16:34:13.000Z",
+      "relevanceScore": 739.51,
+      "recommendationScore": 740.01,
+      "tags": [],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Fears about an AI crackdown after midterms sparks a $2 trillion rout in tech stocks",
+      "link": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+      "source": "NPR Business",
+      "category": "ai-ml",
+      "pubDate": "2026-11-06T00:16:53.000Z",
+      "relevanceScore": 677.85,
+      "recommendationScore": 678.35,
       "tags": [
         "AI",
         "Tech"
@@ -59,8 +83,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-11-05T13:10:00.000Z",
-      "relevanceScore": 426.58,
-      "recommendationScore": 427.08,
+      "relevanceScore": 629.63,
+      "recommendationScore": 630.13,
       "tags": [
         "AI",
         "Tech",
@@ -70,83 +94,42 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
-      "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
-      "source": "Wired",
-      "category": "social",
-      "pubDate": "2026-11-05T16:26:57.000Z",
-      "relevanceScore": 406.73,
-      "recommendationScore": 407.23,
-      "tags": [
-        "Web",
-        "Social"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Muse has a voice mode now",
-      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-11-05T19:03:04.000Z",
-      "relevanceScore": 398.75,
-      "recommendationScore": 398.75,
-      "tags": [
-        "AI",
-        "Mobile"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Claude AI can plug directly into your bank account",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-      "source": "The Verge",
-      "category": "ai-ml",
-      "pubDate": "2026-11-05T18:00:00.000Z",
-      "relevanceScore": 391.54,
-      "recommendationScore": 391.54,
-      "tags": [
-        "AI",
-        "Business"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
-      "link": "https://www.reddit.com/r/technology/comments/1xokqlr/tech_is_about_to_get_hammered_in_congress/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-11-05T14:57:25.000Z",
-      "relevanceScore": 387.93,
-      "recommendationScore": 387.93,
-      "tags": [
-        "Tech"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Your .NET parallel loop can become serial in a one-CPU container",
-      "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
-      "source": "Stack Overflow Blog",
+      "title": "Run Vercel Cron more than once a day on the Hobby plan",
+      "link": "https://dev.to/greatworkco/run-vercel-cron-more-than-once-a-day-on-the-hobby-plan-1ggb",
+      "source": "Dev.to",
       "category": "development",
-      "pubDate": "2026-11-04T16:34:13.000Z",
-      "relevanceScore": 384.46,
-      "recommendationScore": 384.96,
+      "pubDate": "2026-11-06T00:49:50.000Z",
+      "relevanceScore": 583.46,
+      "recommendationScore": 583.96,
       "tags": [],
-      "readingLevel": "intermediate"
+      "readingLevel": "beginner"
     },
     {
-      "title": "Does the blue wave mean lower gasoline and diesel prices soon? Don't hold your breath",
-      "link": "https://www.npr.org/2026/11/05/nx-s1-6029365/gas-diesel-price-congress-midterms",
-      "source": "NPR Business",
-      "category": "finance",
-      "pubDate": "2026-11-05T10:00:00.000Z",
-      "relevanceScore": 379.94,
-      "recommendationScore": 380.44,
+      "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+      "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+      "source": "The Verge",
+      "category": "entertainment",
+      "pubDate": "2026-11-05T23:45:10.000Z",
+      "relevanceScore": 529.75,
+      "recommendationScore": 532.25,
       "tags": [
-        "Business"
+        "Social",
+        "Exclusive"
       ],
-      "readingLevel": "intermediate"
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bank of England raises interest rates to 4% to tackle higher inflation",
+      "link": "https://abcnews.com/Business/wireStory/bank-england-set-hike-interest-rates-tackle-higher-137867520",
+      "source": "ABC News Business",
+      "category": "finance",
+      "pubDate": "2026-11-05T14:18:15.000Z",
+      "relevanceScore": 527.86,
+      "recommendationScore": 528.36,
+      "tags": [
+        "Exclusive"
+      ],
+      "readingLevel": "advanced"
     },
     {
       "title": "Russell Brand found guilty of rape and sexual assault",
@@ -154,60 +137,23 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-11-05T18:28:35.000Z",
-      "relevanceScore": 353.64,
-      "recommendationScore": 354.14,
+      "relevanceScore": 499.69,
+      "recommendationScore": 500.19,
       "tags": [],
       "readingLevel": "beginner"
     },
     {
-      "title": "Graduates are managing AI - but are they learning much else?",
-      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+      "source": "Wired",
       "category": "ai-ml",
-      "pubDate": "2026-11-04T00:04:35.000Z",
-      "relevanceScore": 351.16,
-      "recommendationScore": 351.66,
+      "pubDate": "2026-11-05T21:37:18.000Z",
+      "relevanceScore": 481.32,
+      "recommendationScore": 483.32,
       "tags": [
         "AI"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "As budgets tighten, people are breaking out their library cards",
-      "link": "https://www.npr.org/2026/11/05/nx-s1-5992908/libraries-and-cost-of-living",
-      "source": "NPR Business",
-      "category": "entertainment",
-      "pubDate": "2026-11-05T10:00:00.000Z",
-      "relevanceScore": 348.94,
-      "recommendationScore": 349.44,
-      "tags": [
-        "Breaking"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "The Blue Tsunami Swept Doctors and Scientists Into Office",
-      "link": "https://www.wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-11-05T19:55:24.000Z",
-      "relevanceScore": 347.93,
-      "recommendationScore": 348.43,
-      "tags": [
-        "Science"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "EA is bringing 25 classic PC games to Steam",
-      "link": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
-      "source": "The Verge",
-      "category": "gaming",
-      "pubDate": "2026-11-05T18:30:00.000Z",
-      "relevanceScore": 315.14,
-      "recommendationScore": 315.14,
-      "tags": [],
-      "readingLevel": "advanced"
     },
     {
       "title": "Accessibility statements now have a home on GitHub",
@@ -215,25 +161,24 @@
       "source": "GitHub Blog",
       "category": "development",
       "pubDate": "2026-11-05T16:00:00.000Z",
-      "relevanceScore": 304.14,
-      "recommendationScore": 304.14,
+      "relevanceScore": 450.2,
+      "recommendationScore": 450.2,
       "tags": [
         "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+      "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
       "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Technology",
+      "source": "BBC News",
       "category": "ai-ml",
-      "pubDate": "2026-11-05T17:57:57.000Z",
-      "relevanceScore": 226.54,
-      "recommendationScore": 227.04,
+      "pubDate": "2026-11-06T00:41:15.000Z",
+      "relevanceScore": 394.43,
+      "recommendationScore": 394.93,
       "tags": [
         "AI",
-        "Tech",
-        "Business"
+        "Tech"
       ],
       "readingLevel": "advanced"
     },
@@ -243,8 +188,8 @@
       "source": "MIT Technology Review",
       "category": "ai-ml",
       "pubDate": "2026-11-04T18:50:55.000Z",
-      "relevanceScore": 220.91,
-      "recommendationScore": 223.41,
+      "relevanceScore": 358.97,
+      "recommendationScore": 361.47,
       "tags": [
         "AI",
         "Tech",
@@ -253,55 +198,95 @@
       "readingLevel": "beginner"
     },
     {
-      "title": "The FAA is finally phasing out floppy disks from air traffic control",
-      "link": "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
-      "source": "Engadget",
-      "category": "tech",
-      "pubDate": "2026-11-05T19:16:43.000Z",
-      "relevanceScore": 218.8,
-      "recommendationScore": 219.3,
-      "tags": [
-        "Update"
-      ],
-      "readingLevel": "intermediate"
-    },
-    {
       "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
       "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-11-04T16:26:15.000Z",
-      "relevanceScore": 215.43,
-      "recommendationScore": 215.93,
+      "relevanceScore": 343.48,
+      "recommendationScore": 343.98,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "13 Best Early Black Friday Deals at Best Buy on Hot Tech (2026)",
-      "link": "https://www.wired.com/story/early-black-friday-best-buy-deals-11-5-26/",
+      "title": "How Elon Musk and Big Tech Poured Millions Into the Midterms, and Lost",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost/",
       "source": "Wired",
       "category": "tech",
-      "pubDate": "2026-11-05T20:00:29.000Z",
-      "relevanceScore": 208.94,
-      "recommendationScore": 210.44,
+      "pubDate": "2026-11-05T22:18:42.000Z",
+      "relevanceScore": 324.46,
+      "recommendationScore": 326.46,
       "tags": [
         "Tech"
       ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+      "source": "Ars Technica",
+      "category": "ai-ml",
+      "pubDate": "2026-11-05T22:49:03.000Z",
+      "relevanceScore": 254.56,
+      "recommendationScore": 255.06,
+      "tags": [
+        "AI"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "npm packages, types, and the quick-fix install",
+      "link": "https://dev.to/jslab/npm-packages-types-and-the-quick-fix-install-1hb5",
+      "source": "Dev.to",
+      "category": "development",
+      "pubDate": "2026-11-06T00:47:25.000Z",
+      "relevanceScore": 174.45,
+      "recommendationScore": 174.45,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Area Man Feels Joy Online for First Time in Years",
-      "link": "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
-      "source": "Wired",
-      "category": "tech",
-      "pubDate": "2026-11-05T15:38:07.000Z",
-      "relevanceScore": 208.07,
-      "recommendationScore": 210.07,
+      "title": "Serve Robotics launches new business to become the AWS for robots",
+      "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-11-05T21:15:00.000Z",
+      "relevanceScore": 145.75,
+      "recommendationScore": 148.25,
       "tags": [
-        "Web",
-        "Exclusive"
+        "AI",
+        "Business",
+        "Cloud",
+        "Launch"
       ],
       "readingLevel": "advanced"
+    },
+    {
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "source": "The Verge",
+      "category": "tech",
+      "pubDate": "2026-11-06T00:37:56.000Z",
+      "relevanceScore": 108.92,
+      "recommendationScore": 109.42,
+      "tags": [
+        "IPO"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "category": "ai-ml",
+      "pubDate": "2026-11-05T22:40:55.000Z",
+      "relevanceScore": 99.03,
+      "recommendationScore": 101.53,
+      "tags": [
+        "AI",
+        "Exclusive"
+      ],
+      "readingLevel": "intermediate"
     },
     {
       "title": "Meta says US users can now video chat with their Muse AI avatar",
@@ -309,8 +294,8 @@
       "source": "TechCrunch",
       "category": "ai-ml",
       "pubDate": "2026-11-05T19:48:28.000Z",
-      "relevanceScore": 127.9,
-      "recommendationScore": 128.4,
+      "relevanceScore": 98.46,
+      "recommendationScore": 98.96,
       "tags": [
         "AI",
         "Launch"
@@ -318,146 +303,57 @@
       "readingLevel": "intermediate"
     },
     {
-      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-      "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-      "source": "TechCrunch",
+      "title": "Airbnb is working on an AI travel agent",
+      "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "source": "The Verge",
       "category": "ai-ml",
-      "pubDate": "2026-11-05T19:12:39.000Z",
-      "relevanceScore": 69.29,
-      "recommendationScore": 69.79,
+      "pubDate": "2026-11-06T00:06:12.000Z",
+      "relevanceScore": 98.32,
+      "recommendationScore": 98.32,
       "tags": [
-        "AI"
+        "AI",
+        "Exclusive"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "Statehouse wins give Democrats new power to push clean energy",
-      "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
-      "source": "Ars Technica",
+      "title": "Blue Origin's New Glenn launch delay will continue into 2027",
+      "link": "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+      "source": "Engadget",
       "category": "tech",
-      "pubDate": "2026-11-05T15:59:51.000Z",
-      "relevanceScore": 59.64,
-      "recommendationScore": 62.14,
+      "pubDate": "2026-11-05T22:10:09.000Z",
+      "relevanceScore": 94.93,
+      "recommendationScore": 97.43,
       "tags": [
-        "Regulation"
+        "Launch"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
-      "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
-      "source": "Ars Technica",
-      "category": "tech",
-      "pubDate": "2026-11-05T18:49:41.000Z",
-      "relevanceScore": 50.21,
-      "recommendationScore": 52.21,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-      "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+      "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+      "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
       "source": "The Verge",
       "category": "mobile",
-      "pubDate": "2026-11-05T19:12:58.000Z",
-      "relevanceScore": 47.29,
-      "recommendationScore": 47.79,
+      "pubDate": "2026-11-05T23:17:10.000Z",
+      "relevanceScore": 62.15,
+      "recommendationScore": 64.65,
       "tags": [
         "Mobile"
       ],
       "readingLevel": "advanced"
     },
     {
-      "title": "The Xbox PC app is getting a speed boost",
-      "link": "https://www.engadget.com/2308407/the-xbox-pc-app-is-getting-a-speed-boost/",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-11-05T19:52:39.000Z",
-      "relevanceScore": 45.42,
-      "recommendationScore": 45.42,
+      "title": "Inside GitHub’s new Git storage architecture",
+      "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "source": "GitHub Blog",
+      "category": "development",
+      "pubDate": "2026-11-05T20:23:21.000Z",
+      "relevanceScore": 61.57,
+      "recommendationScore": 63.57,
       "tags": [
-        "Mobile",
         "Exclusive"
       ],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Warby Parker seemingly spilled the beans on Google's Android XR smart glasses launch",
-      "link": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
-      "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-11-05T19:39:01.000Z",
-      "relevanceScore": 45.37,
-      "recommendationScore": 47.87,
-      "tags": [
-        "Mobile",
-        "Launch"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
-      "link": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-11-05T18:22:46.000Z",
-      "relevanceScore": 43.62,
-      "recommendationScore": 45.62,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-      "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News",
-      "category": "general",
-      "pubDate": "2026-11-05T17:39:48.000Z",
-      "relevanceScore": 43.48,
-      "recommendationScore": 43.98,
-      "tags": [],
-      "readingLevel": "intermediate"
-    },
-    {
-      "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
-      "link": "https://www.reddit.com/r/technology/comments/1xoqri7/mark_cuban_says_facebook_knowingly_runs_ai/",
-      "source": "Reddit Technology",
-      "category": "ai-ml",
-      "pubDate": "2026-11-05T18:47:12.000Z",
-      "relevanceScore": 41.7,
-      "recommendationScore": 41.7,
-      "tags": [
-        "AI",
-        "Social"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
-      "link": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
-      "source": "TechCrunch",
-      "category": "cybersecurity",
-      "pubDate": "2026-11-05T18:48:34.000Z",
-      "relevanceScore": 39.7,
-      "recommendationScore": 39.7,
-      "tags": [
-        "Security"
-      ],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-      "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-      "source": "TechCrunch",
-      "category": "startup",
-      "pubDate": "2026-11-05T18:02:27.000Z",
-      "relevanceScore": 39.55,
-      "recommendationScore": 40.05,
-      "tags": [
-        "Business",
-        "Startup",
-        "IPO"
-      ],
-      "readingLevel": "advanced"
     },
     {
       "title": "First-time homebuyers remain scarce, but a record share of them pay all cash",
@@ -465,8 +361,8 @@
       "source": "NPR Business",
       "category": "business",
       "pubDate": "2026-11-05T15:00:00.000Z",
-      "relevanceScore": 38.94,
-      "recommendationScore": 41.44,
+      "relevanceScore": 61,
+      "recommendationScore": 63.5,
       "tags": [
         "Exclusive",
         "Report"
@@ -479,31 +375,22 @@
       "source": "ABC News Business",
       "category": "business",
       "pubDate": "2026-11-05T18:35:00.000Z",
-      "relevanceScore": 37.16,
-      "recommendationScore": 37.66,
+      "relevanceScore": 59.21,
+      "recommendationScore": 59.71,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Sogou Input Method DNS Hijacking: DarkVigil Backdoor Deployment",
-      "link": "https://dev.to/satyam_rastogi/sogou-input-method-dns-hijacking-darkvigil-backdoor-deployment-2mg9",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-11-05T20:11:32.000Z",
-      "relevanceScore": 35.98,
-      "recommendationScore": 36.48,
-      "tags": [],
-      "readingLevel": "advanced"
-    },
-    {
-      "title": "Two ways to stall quinn, Rust's QUIC library",
-      "link": "https://dev.to/zerox80/two-ways-to-stall-quinn-rusts-quic-library-3150",
-      "source": "Dev.to",
-      "category": "development",
-      "pubDate": "2026-11-05T20:10:34.000Z",
-      "relevanceScore": 35.98,
-      "recommendationScore": 35.98,
-      "tags": [],
+      "title": "Google is ditching Firebase Studio soon, and it wants you to use its newer AI tools instead",
+      "link": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
+      "source": "Engadget",
+      "category": "ai-ml",
+      "pubDate": "2026-11-05T21:01:28.000Z",
+      "relevanceScore": 58.2,
+      "recommendationScore": 60.7,
+      "tags": [
+        "AI"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -512,20 +399,33 @@
       "source": "BBC Technology",
       "category": "tech",
       "pubDate": "2026-11-04T21:41:15.000Z",
-      "relevanceScore": 33.48,
-      "recommendationScore": 33.98,
+      "relevanceScore": 55.53,
+      "recommendationScore": 56.03,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Henry Nowak’s killer has minimum term increased to 25 years by Court of Appeal",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy9z5423p2o?at_medium=RSS&at_campaign=rss",
+      "title": "California governor commutes sentences for state's 548 death row inmates",
+      "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
       "source": "BBC News",
       "category": "general",
-      "pubDate": "2026-11-05T18:53:47.000Z",
-      "relevanceScore": 31.72,
-      "recommendationScore": 32.22,
+      "pubDate": "2026-11-05T23:09:33.000Z",
+      "relevanceScore": 31.63,
+      "recommendationScore": 32.13,
       "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Firms told to publish salaries in job adverts ahead of new law",
+      "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC News",
+      "category": "general",
+      "pubDate": "2026-11-05T22:32:02.000Z",
+      "relevanceScore": 31.5,
+      "recommendationScore": 34,
+      "tags": [
+        "Regulation"
+      ],
       "readingLevel": "intermediate"
     },
     {
@@ -534,8 +434,8 @@
       "source": "BBC News",
       "category": "general",
       "pubDate": "2026-11-05T16:01:56.000Z",
-      "relevanceScore": 31.15,
-      "recommendationScore": 31.15,
+      "relevanceScore": 30.2,
+      "recommendationScore": 30.2,
       "tags": [
         "Interview",
         "Launch"
@@ -543,40 +443,101 @@
       "readingLevel": "intermediate"
     },
     {
+      "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+      "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+      "source": "TechCrunch",
+      "category": "entertainment",
+      "pubDate": "2026-11-06T00:07:18.000Z",
+      "relevanceScore": 27.82,
+      "recommendationScore": 30.32,
+      "tags": [
+        "Web"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+      "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+      "source": "TechCrunch",
+      "category": "social",
+      "pubDate": "2026-11-06T00:01:38.000Z",
+      "relevanceScore": 27.8,
+      "recommendationScore": 28.3,
+      "tags": [
+        "Social",
+        "Regulation"
+      ],
+      "readingLevel": "intermediate"
+    },
+    {
+      "title": "Pasture mealybugs have killed off huge swaths of grasses in the Southeast",
+      "link": "https://www.npr.org/2026/11/05/nx-s1-6018539/pasture-mealybugs-have-killed-off-huge-swaths-of-grasses-in-the-southeast",
+      "source": "NPR Business",
+      "category": "business",
+      "pubDate": "2026-11-05T23:00:37.000Z",
+      "relevanceScore": 27.6,
+      "recommendationScore": 28.1,
+      "tags": [
+        "Business"
+      ],
+      "readingLevel": "advanced"
+    },
+    {
       "title": "A new bill could change how the US builds energy infrastructure",
       "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
       "source": "MIT Technology Review",
       "category": "science",
       "pubDate": "2026-11-05T10:00:00.000Z",
-      "relevanceScore": 27.94,
-      "recommendationScore": 31.94,
+      "relevanceScore": 27,
+      "recommendationScore": 31,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
-      "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
-      "source": "Ars Technica",
+      "title": "The engine parts that 'fight the laws of the universe'",
+      "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Technology",
       "category": "tech",
-      "pubDate": "2026-11-05T17:40:27.000Z",
-      "relevanceScore": 26.48,
-      "recommendationScore": 26.98,
+      "pubDate": "2026-11-06T00:06:06.000Z",
+      "relevanceScore": 25.82,
+      "recommendationScore": 26.32,
       "tags": [
-        "Tech"
+        "Business",
+        "Funding"
       ],
       "readingLevel": "intermediate"
     },
     {
-      "title": "New York's Strand Bookstore to repay nearly $1.5M after improperly receiving federal loan",
-      "link": "https://abcnews.com/Business/wireStory/new-yorks-strand-bookstore-repay-15m-after-improperly-137885689",
-      "source": "ABC News Business",
-      "category": "business",
-      "pubDate": "2026-11-05T18:19:09.000Z",
-      "relevanceScore": 25.61,
-      "recommendationScore": 28.11,
-      "tags": [
-        "Business"
-      ],
+      "title": "6 Best VPN Services (2026), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-vpn/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-11-05T23:00:00.000Z",
+      "relevanceScore": 25.6,
+      "recommendationScore": 26.6,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "The 7 Best Early Black Friday TV Deals (2026)",
+      "link": "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
+      "source": "Wired",
+      "category": "tech",
+      "pubDate": "2026-11-05T22:28:43.000Z",
+      "relevanceScore": 25.49,
+      "recommendationScore": 26.49,
+      "tags": [],
+      "readingLevel": "beginner"
+    },
+    {
+      "title": "Sony revives the original Walkman headphones, adds USB-C",
+      "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
+      "source": "Ars Technica",
+      "category": "tech",
+      "pubDate": "2026-11-05T21:56:36.000Z",
+      "relevanceScore": 25.38,
+      "recommendationScore": 25.88,
+      "tags": [],
       "readingLevel": "advanced"
     },
     {
@@ -585,24 +546,31 @@
       "source": "ABC News Business",
       "category": "finance",
       "pubDate": "2026-11-05T16:02:14.000Z",
-      "relevanceScore": 25.15,
-      "recommendationScore": 27.15,
+      "relevanceScore": 24.2,
+      "recommendationScore": 26.2,
       "tags": [],
       "readingLevel": "advanced"
     },
     {
-      "title": "TikTok just released a standalone Shop app, but it's not in America just yet",
-      "link": "https://www.engadget.com/2308419/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/",
+      "title": "A BioWare documentary is set to arrive next year",
+      "link": "https://www.engadget.com/2308483/a-bioware-documentary-is-set-to-arrive-next-year/",
       "source": "Engadget",
-      "category": "mobile",
-      "pubDate": "2026-11-05T19:58:23.000Z",
-      "relevanceScore": 24.94,
-      "recommendationScore": 25.44,
-      "tags": [
-        "Mobile",
-        "Social",
-        "Exclusive"
-      ],
+      "category": "tech",
+      "pubDate": "2026-11-05T20:33:13.000Z",
+      "relevanceScore": 23.11,
+      "recommendationScore": 23.11,
+      "tags": [],
+      "readingLevel": "advanced"
+    },
+    {
+      "title": "Bose recalls S1 Pro battery packs due to fire and overheating risks",
+      "link": "https://www.engadget.com/2308609/bose-recalls-s1-pro-battery-packs-due-to-fire-and-overheating-risks/",
+      "source": "Engadget",
+      "category": "tech",
+      "pubDate": "2026-11-05T21:39:22.000Z",
+      "relevanceScore": 22.83,
+      "recommendationScore": 23.33,
+      "tags": [],
       "readingLevel": "intermediate"
     },
     {
@@ -611,196 +579,149 @@
       "source": "Stack Overflow Blog",
       "category": "development",
       "pubDate": "2026-11-05T16:02:13.000Z",
-      "relevanceScore": 23.15,
-      "recommendationScore": 23.15,
+      "relevanceScore": 22.2,
+      "recommendationScore": 22.2,
       "tags": [],
       "readingLevel": "intermediate"
-    },
-    {
-      "title": "Republicans Learn X Is the Echo Chamber",
-      "link": "https://www.reddit.com/r/technology/comments/1xopyuw/republicans_learn_x_is_the_echo_chamber/",
-      "source": "Reddit Technology",
-      "category": "tech",
-      "pubDate": "2026-11-05T18:17:03.000Z",
-      "relevanceScore": 21.6,
-      "recommendationScore": 21.6,
-      "tags": [],
-      "readingLevel": "advanced"
     }
   ],
   "categoryIndex": {
+    "cybersecurity": [
+      {
+        "title": "Is SSH Password Auth Really Off on Your Server? Hardening sshd_config and Proving It From the Outside",
+        "link": "https://dev.to/eme_gug_0821b41b948be6516/is-ssh-password-auth-really-off-on-your-server-hardening-sshdconfig-and-proving-it-from-the-2cdd",
+        "source": "Dev.to",
+        "pubDate": "2026-11-06T00:50:59.000Z",
+        "relevanceScore": 5922.97,
+        "tags": [
+          "Security"
+        ]
+      }
+    ],
     "tech": [
       {
-        "title": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
-        "link": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
+        "title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+        "link": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
         "source": "Ars Technica",
-        "pubDate": "2026-11-05T13:00:56.000Z",
-        "relevanceScore": 558.55,
+        "pubDate": "2026-11-05T23:09:36.000Z",
+        "relevanceScore": 3777.63,
         "tags": []
-      },
-      {
-        "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
-        "link": "https://www.reddit.com/r/technology/comments/1xokqlr/tech_is_about_to_get_hammered_in_congress/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-11-05T14:57:25.000Z",
-        "relevanceScore": 387.93,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "The Blue Tsunami Swept Doctors and Scientists Into Office",
-        "link": "https://www.wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office/",
-        "source": "Wired",
-        "pubDate": "2026-11-05T19:55:24.000Z",
-        "relevanceScore": 347.93,
-        "tags": [
-          "Science"
-        ]
-      },
-      {
-        "title": "The FAA is finally phasing out floppy disks from air traffic control",
-        "link": "https://www.engadget.com/2308330/the-faa-is-finally-phasing-out-floppy-disks-from-air-traffic-control/",
-        "source": "Engadget",
-        "pubDate": "2026-11-05T19:16:43.000Z",
-        "relevanceScore": 218.8,
-        "tags": [
-          "Update"
-        ]
       },
       {
         "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
         "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-11-04T16:26:15.000Z",
-        "relevanceScore": 215.43,
+        "relevanceScore": 343.48,
         "tags": []
       },
       {
-        "title": "13 Best Early Black Friday Deals at Best Buy on Hot Tech (2026)",
-        "link": "https://www.wired.com/story/early-black-friday-best-buy-deals-11-5-26/",
+        "title": "How Elon Musk and Big Tech Poured Millions Into the Midterms, and Lost",
+        "link": "https://www.wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost/",
         "source": "Wired",
-        "pubDate": "2026-11-05T20:00:29.000Z",
-        "relevanceScore": 208.94,
+        "pubDate": "2026-11-05T22:18:42.000Z",
+        "relevanceScore": 324.46,
         "tags": [
           "Tech"
         ]
       },
       {
-        "title": "Area Man Feels Joy Online for First Time in Years",
-        "link": "https://www.wired.com/story/wired-world-fair-2026-ben-collins-the-onion/",
-        "source": "Wired",
-        "pubDate": "2026-11-05T15:38:07.000Z",
-        "relevanceScore": 208.07,
+        "title": "OpenAI is stepping back from NDAs for data center projects",
+        "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+        "source": "The Verge",
+        "pubDate": "2026-11-06T00:37:56.000Z",
+        "relevanceScore": 108.92,
         "tags": [
-          "Web",
-          "Exclusive"
+          "IPO"
         ]
       },
       {
-        "title": "Statehouse wins give Democrats new power to push clean energy",
-        "link": "https://arstechnica.com/science/2026/11/statehouse-wins-give-democrats-new-power-to-push-clean-energy/",
-        "source": "Ars Technica",
-        "pubDate": "2026-11-05T15:59:51.000Z",
-        "relevanceScore": 59.64,
+        "title": "Blue Origin's New Glenn launch delay will continue into 2027",
+        "link": "https://www.engadget.com/2308647/blue-origin-new-glenn-launch-delay-will-continue-into-2027/",
+        "source": "Engadget",
+        "pubDate": "2026-11-05T22:10:09.000Z",
+        "relevanceScore": 94.93,
         "tags": [
-          "Regulation"
+          "Launch"
         ]
-      },
-      {
-        "title": "Is MAHA dying—or will it be reborn? What's next after crushing midterm losses?",
-        "link": "https://arstechnica.com/health/2026/11/is-maha-dying-or-will-it-be-reborn-whats-next-after-crushing-midterm-losses/",
-        "source": "Ars Technica",
-        "pubDate": "2026-11-05T18:49:41.000Z",
-        "relevanceScore": 50.21,
-        "tags": []
       },
       {
         "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
         "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
         "source": "BBC Technology",
         "pubDate": "2026-11-04T21:41:15.000Z",
-        "relevanceScore": 33.48,
+        "relevanceScore": 55.53,
         "tags": []
       },
       {
-        "title": "Gamers go to ridiculous lengths to \"improve\" GTA VI with Nvidia's DLSS 5",
-        "link": "https://arstechnica.com/gaming/2026/11/gamers-go-to-ridiculous-lengths-to-improve-gta-vi-with-nvidias-dlss-5/",
+        "title": "The engine parts that 'fight the laws of the universe'",
+        "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+        "source": "BBC Technology",
+        "pubDate": "2026-11-06T00:06:06.000Z",
+        "relevanceScore": 25.82,
+        "tags": [
+          "Business",
+          "Funding"
+        ]
+      },
+      {
+        "title": "6 Best VPN Services (2026), Tested and Reviewed",
+        "link": "https://www.wired.com/gallery/best-vpn/",
+        "source": "Wired",
+        "pubDate": "2026-11-05T23:00:00.000Z",
+        "relevanceScore": 25.6,
+        "tags": []
+      },
+      {
+        "title": "The 7 Best Early Black Friday TV Deals (2026)",
+        "link": "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
+        "source": "Wired",
+        "pubDate": "2026-11-05T22:28:43.000Z",
+        "relevanceScore": 25.49,
+        "tags": []
+      },
+      {
+        "title": "Sony revives the original Walkman headphones, adds USB-C",
+        "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
         "source": "Ars Technica",
-        "pubDate": "2026-11-05T17:40:27.000Z",
-        "relevanceScore": 26.48,
-        "tags": [
-          "Tech"
-        ]
-      },
-      {
-        "title": "Republicans Learn X Is the Echo Chamber",
-        "link": "https://www.reddit.com/r/technology/comments/1xopyuw/republicans_learn_x_is_the_echo_chamber/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-11-05T18:17:03.000Z",
-        "relevanceScore": 21.6,
-        "tags": []
-      }
-    ],
-    "development": [
-      {
-        "title": "Before authentication: three bugs in Mullvad's gotatun",
-        "link": "https://dev.to/zerox80/before-authentication-three-bugs-in-mullvads-gotatun-25ih",
-        "source": "Dev.to",
-        "pubDate": "2026-11-05T20:10:45.000Z",
-        "relevanceScore": 524.48,
+        "pubDate": "2026-11-05T21:56:36.000Z",
+        "relevanceScore": 25.38,
         "tags": []
       },
       {
-        "title": "Your .NET parallel loop can become serial in a one-CPU container",
-        "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-11-04T16:34:13.000Z",
-        "relevanceScore": 384.46,
+        "title": "A BioWare documentary is set to arrive next year",
+        "link": "https://www.engadget.com/2308483/a-bioware-documentary-is-set-to-arrive-next-year/",
+        "source": "Engadget",
+        "pubDate": "2026-11-05T20:33:13.000Z",
+        "relevanceScore": 23.11,
         "tags": []
       },
       {
-        "title": "Accessibility statements now have a home on GitHub",
-        "link": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
-        "source": "GitHub Blog",
-        "pubDate": "2026-11-05T16:00:00.000Z",
-        "relevanceScore": 304.14,
-        "tags": [
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Sogou Input Method DNS Hijacking: DarkVigil Backdoor Deployment",
-        "link": "https://dev.to/satyam_rastogi/sogou-input-method-dns-hijacking-darkvigil-backdoor-deployment-2mg9",
-        "source": "Dev.to",
-        "pubDate": "2026-11-05T20:11:32.000Z",
-        "relevanceScore": 35.98,
-        "tags": []
-      },
-      {
-        "title": "Two ways to stall quinn, Rust's QUIC library",
-        "link": "https://dev.to/zerox80/two-ways-to-stall-quinn-rusts-quic-library-3150",
-        "source": "Dev.to",
-        "pubDate": "2026-11-05T20:10:34.000Z",
-        "relevanceScore": 35.98,
-        "tags": []
-      },
-      {
-        "title": "Don’t Build the Reusable Component Yet",
-        "link": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
-        "source": "Stack Overflow Blog",
-        "pubDate": "2026-11-05T16:02:13.000Z",
-        "relevanceScore": 23.15,
+        "title": "Bose recalls S1 Pro battery packs due to fire and overheating risks",
+        "link": "https://www.engadget.com/2308609/bose-recalls-s1-pro-battery-packs-due-to-fire-and-overheating-risks/",
+        "source": "Engadget",
+        "pubDate": "2026-11-05T21:39:22.000Z",
+        "relevanceScore": 22.83,
         "tags": []
       }
     ],
     "ai-ml": [
       {
-        "title": "OpenAI released a new cybersecurity model. Is that enough?",
-        "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
-        "source": "TechCrunch",
-        "pubDate": "2026-11-05T19:06:12.000Z",
-        "relevanceScore": 520.26,
+        "title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+        "link": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
+        "source": "Ars Technica",
+        "pubDate": "2026-11-05T21:40:36.000Z",
+        "relevanceScore": 1303.33,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Fears about an AI crackdown after midterms sparks a $2 trillion rout in tech stocks",
+        "link": "https://www.npr.org/2026/11/05/nx-s1-6031987/stock-markets-ai-midterm-elections",
+        "source": "NPR Business",
+        "pubDate": "2026-11-06T00:16:53.000Z",
+        "relevanceScore": 677.85,
         "tags": [
           "AI",
           "Tech"
@@ -811,7 +732,7 @@
         "link": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
         "source": "MIT Technology Review",
         "pubDate": "2026-11-05T13:10:00.000Z",
-        "relevanceScore": 426.58,
+        "relevanceScore": 629.63,
         "tags": [
           "AI",
           "Tech",
@@ -820,47 +741,24 @@
         ]
       },
       {
-        "title": "Muse has a voice mode now",
-        "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-        "source": "The Verge",
-        "pubDate": "2026-11-05T19:03:04.000Z",
-        "relevanceScore": 398.75,
-        "tags": [
-          "AI",
-          "Mobile"
-        ]
-      },
-      {
-        "title": "Claude AI can plug directly into your bank account",
-        "link": "https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
-        "source": "The Verge",
-        "pubDate": "2026-11-05T18:00:00.000Z",
-        "relevanceScore": 391.54,
-        "tags": [
-          "AI",
-          "Business"
-        ]
-      },
-      {
-        "title": "Graduates are managing AI - but are they learning much else?",
-        "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-11-04T00:04:35.000Z",
-        "relevanceScore": 351.16,
+        "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+        "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
+        "source": "Wired",
+        "pubDate": "2026-11-05T21:37:18.000Z",
+        "relevanceScore": 481.32,
         "tags": [
           "AI"
         ]
       },
       {
-        "title": "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
+        "title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
         "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC Technology",
-        "pubDate": "2026-11-05T17:57:57.000Z",
-        "relevanceScore": 226.54,
+        "source": "BBC News",
+        "pubDate": "2026-11-06T00:41:15.000Z",
+        "relevanceScore": 394.43,
         "tags": [
           "AI",
-          "Tech",
-          "Business"
+          "Tech"
         ]
       },
       {
@@ -868,7 +766,7 @@
         "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
         "source": "MIT Technology Review",
         "pubDate": "2026-11-04T18:50:55.000Z",
-        "relevanceScore": 220.91,
+        "relevanceScore": 358.97,
         "tags": [
           "AI",
           "Tech",
@@ -876,60 +774,158 @@
         ]
       },
       {
+        "title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+        "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
+        "source": "Ars Technica",
+        "pubDate": "2026-11-05T22:49:03.000Z",
+        "relevanceScore": 254.56,
+        "tags": [
+          "AI"
+        ]
+      },
+      {
+        "title": "Serve Robotics launches new business to become the AWS for robots",
+        "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
+        "source": "TechCrunch",
+        "pubDate": "2026-11-05T21:15:00.000Z",
+        "relevanceScore": 145.75,
+        "tags": [
+          "AI",
+          "Business",
+          "Cloud",
+          "Launch"
+        ]
+      },
+      {
+        "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+        "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+        "source": "TechCrunch",
+        "pubDate": "2026-11-05T22:40:55.000Z",
+        "relevanceScore": 99.03,
+        "tags": [
+          "AI",
+          "Exclusive"
+        ]
+      },
+      {
         "title": "Meta says US users can now video chat with their Muse AI avatar",
         "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
         "source": "TechCrunch",
         "pubDate": "2026-11-05T19:48:28.000Z",
-        "relevanceScore": 127.9,
+        "relevanceScore": 98.46,
         "tags": [
           "AI",
           "Launch"
         ]
       },
       {
-        "title": "Meta warns that election backlash against data centers could make AI expansion harder",
-        "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
-        "source": "TechCrunch",
-        "pubDate": "2026-11-05T19:12:39.000Z",
-        "relevanceScore": 69.29,
+        "title": "Airbnb is working on an AI travel agent",
+        "link": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+        "source": "The Verge",
+        "pubDate": "2026-11-06T00:06:12.000Z",
+        "relevanceScore": 98.32,
         "tags": [
-          "AI"
+          "AI",
+          "Exclusive"
         ]
       },
       {
-        "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
-        "link": "https://www.reddit.com/r/technology/comments/1xoqri7/mark_cuban_says_facebook_knowingly_runs_ai/",
-        "source": "Reddit Technology",
-        "pubDate": "2026-11-05T18:47:12.000Z",
-        "relevanceScore": 41.7,
+        "title": "Google is ditching Firebase Studio soon, and it wants you to use its newer AI tools instead",
+        "link": "https://www.engadget.com/2308541/google-is-ditching-firebase-studio-soon-and-it-wants-you-to-use-its-newer-ai-tools-instead/",
+        "source": "Engadget",
+        "pubDate": "2026-11-05T21:01:28.000Z",
+        "relevanceScore": 58.2,
         "tags": [
-          "AI",
-          "Social"
+          "AI"
         ]
       }
     ],
-    "social": [
+    "development": [
       {
-        "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
-        "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
-        "source": "Wired",
-        "pubDate": "2026-11-05T16:26:57.000Z",
-        "relevanceScore": 406.73,
+        "title": "Your .NET parallel loop can become serial in a one-CPU container",
+        "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-11-04T16:34:13.000Z",
+        "relevanceScore": 739.51,
+        "tags": []
+      },
+      {
+        "title": "Run Vercel Cron more than once a day on the Hobby plan",
+        "link": "https://dev.to/greatworkco/run-vercel-cron-more-than-once-a-day-on-the-hobby-plan-1ggb",
+        "source": "Dev.to",
+        "pubDate": "2026-11-06T00:49:50.000Z",
+        "relevanceScore": 583.46,
+        "tags": []
+      },
+      {
+        "title": "Accessibility statements now have a home on GitHub",
+        "link": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-11-05T16:00:00.000Z",
+        "relevanceScore": 450.2,
         "tags": [
-          "Web",
-          "Social"
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "npm packages, types, and the quick-fix install",
+        "link": "https://dev.to/jslab/npm-packages-types-and-the-quick-fix-install-1hb5",
+        "source": "Dev.to",
+        "pubDate": "2026-11-06T00:47:25.000Z",
+        "relevanceScore": 174.45,
+        "tags": []
+      },
+      {
+        "title": "Inside GitHub’s new Git storage architecture",
+        "link": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+        "source": "GitHub Blog",
+        "pubDate": "2026-11-05T20:23:21.000Z",
+        "relevanceScore": 61.57,
+        "tags": [
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "Don’t Build the Reusable Component Yet",
+        "link": "https://stackoverflow.blog/2026/11/05/don-t-build-the-reusable-component-yet/",
+        "source": "Stack Overflow Blog",
+        "pubDate": "2026-11-05T16:02:13.000Z",
+        "relevanceScore": 22.2,
+        "tags": []
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+        "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
+        "source": "The Verge",
+        "pubDate": "2026-11-05T23:45:10.000Z",
+        "relevanceScore": 529.75,
+        "tags": [
+          "Social",
+          "Exclusive"
+        ]
+      },
+      {
+        "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+        "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+        "source": "TechCrunch",
+        "pubDate": "2026-11-06T00:07:18.000Z",
+        "relevanceScore": 27.82,
+        "tags": [
+          "Web"
         ]
       }
     ],
     "finance": [
       {
-        "title": "Does the blue wave mean lower gasoline and diesel prices soon? Don't hold your breath",
-        "link": "https://www.npr.org/2026/11/05/nx-s1-6029365/gas-diesel-price-congress-midterms",
-        "source": "NPR Business",
-        "pubDate": "2026-11-05T10:00:00.000Z",
-        "relevanceScore": 379.94,
+        "title": "Bank of England raises interest rates to 4% to tackle higher inflation",
+        "link": "https://abcnews.com/Business/wireStory/bank-england-set-hike-interest-rates-tackle-higher-137867520",
+        "source": "ABC News Business",
+        "pubDate": "2026-11-05T14:18:15.000Z",
+        "relevanceScore": 527.86,
         "tags": [
-          "Business"
+          "Exclusive"
         ]
       },
       {
@@ -937,7 +933,7 @@
         "link": "https://abcnews.com/Business/wireStory/banks-collapse-upending-paraguay-trapping-savings-threatening-president-137881113",
         "source": "ABC News Business",
         "pubDate": "2026-11-05T16:02:14.000Z",
-        "relevanceScore": 25.15,
+        "relevanceScore": 24.2,
         "tags": []
       }
     ],
@@ -947,136 +943,48 @@
         "link": "https://www.bbc.co.uk/news/articles/ckyvrze96y70o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-11-05T18:28:35.000Z",
-        "relevanceScore": 353.64,
+        "relevanceScore": 499.69,
         "tags": []
       },
       {
-        "title": "Bomb hoaxes: Messages reveal how threat was passed on by air traffic control",
-        "link": "https://www.bbc.co.uk/news/videos/cq398m8w41lyo?at_medium=RSS&at_campaign=rss",
+        "title": "California governor commutes sentences for state's 548 death row inmates",
+        "link": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-11-05T18:22:46.000Z",
-        "relevanceScore": 43.62,
+        "pubDate": "2026-11-05T23:09:33.000Z",
+        "relevanceScore": 31.63,
         "tags": []
       },
       {
-        "title": "Hoax bomb threats target European airlines and airports for second time in a week",
-        "link": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+        "title": "Firms told to publish salaries in job adverts ahead of new law",
+        "link": "https://www.bbc.co.uk/news/articles/cmd9343z3zw2o?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
-        "pubDate": "2026-11-05T17:39:48.000Z",
-        "relevanceScore": 43.48,
-        "tags": []
-      },
-      {
-        "title": "Henry Nowak’s killer has minimum term increased to 25 years by Court of Appeal",
-        "link": "https://www.bbc.co.uk/news/articles/cmwy9z5423p2o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News",
-        "pubDate": "2026-11-05T18:53:47.000Z",
-        "relevanceScore": 31.72,
-        "tags": []
+        "pubDate": "2026-11-05T22:32:02.000Z",
+        "relevanceScore": 31.5,
+        "tags": [
+          "Regulation"
+        ]
       },
       {
         "title": "Watch: Met Police release Brand interview footage",
         "link": "https://www.bbc.co.uk/news/videos/c693ze38vywxo?at_medium=RSS&at_campaign=rss",
         "source": "BBC News",
         "pubDate": "2026-11-05T16:01:56.000Z",
-        "relevanceScore": 31.15,
+        "relevanceScore": 30.2,
         "tags": [
           "Interview",
           "Launch"
         ]
       }
     ],
-    "entertainment": [
-      {
-        "title": "As budgets tighten, people are breaking out their library cards",
-        "link": "https://www.npr.org/2026/11/05/nx-s1-5992908/libraries-and-cost-of-living",
-        "source": "NPR Business",
-        "pubDate": "2026-11-05T10:00:00.000Z",
-        "relevanceScore": 348.94,
-        "tags": [
-          "Breaking"
-        ]
-      }
-    ],
-    "gaming": [
-      {
-        "title": "EA is bringing 25 classic PC games to Steam",
-        "link": "https://www.theverge.com/games/1023553/ea-classic-pc-games-steam-anniversary-edition",
-        "source": "The Verge",
-        "pubDate": "2026-11-05T18:30:00.000Z",
-        "relevanceScore": 315.14,
-        "tags": []
-      }
-    ],
     "mobile": [
       {
-        "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-        "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+        "title": "T-Mobile owner on Elon Musk launching a wireless carrier: &#8216;Welcome to the party&#8217;",
+        "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
         "source": "The Verge",
-        "pubDate": "2026-11-05T19:12:58.000Z",
-        "relevanceScore": 47.29,
+        "pubDate": "2026-11-05T23:17:10.000Z",
+        "relevanceScore": 62.15,
         "tags": [
           "Mobile"
-        ]
-      },
-      {
-        "title": "The Xbox PC app is getting a speed boost",
-        "link": "https://www.engadget.com/2308407/the-xbox-pc-app-is-getting-a-speed-boost/",
-        "source": "Engadget",
-        "pubDate": "2026-11-05T19:52:39.000Z",
-        "relevanceScore": 45.42,
-        "tags": [
-          "Mobile",
-          "Exclusive"
-        ]
-      },
-      {
-        "title": "Warby Parker seemingly spilled the beans on Google's Android XR smart glasses launch",
-        "link": "https://www.engadget.com/2308376/warby-parker-seemingly-spilled-the-beans-on-googles-android-xr-smart-glasses-launch/",
-        "source": "Engadget",
-        "pubDate": "2026-11-05T19:39:01.000Z",
-        "relevanceScore": 45.37,
-        "tags": [
-          "Mobile",
-          "Launch"
-        ]
-      },
-      {
-        "title": "TikTok just released a standalone Shop app, but it's not in America just yet",
-        "link": "https://www.engadget.com/2308419/tiktok-just-released-a-standalone-shop-app-but-its-not-in-america-just-yet/",
-        "source": "Engadget",
-        "pubDate": "2026-11-05T19:58:23.000Z",
-        "relevanceScore": 24.94,
-        "tags": [
-          "Mobile",
-          "Social",
-          "Exclusive"
-        ]
-      }
-    ],
-    "cybersecurity": [
-      {
-        "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
-        "link": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
-        "source": "TechCrunch",
-        "pubDate": "2026-11-05T18:48:34.000Z",
-        "relevanceScore": 39.7,
-        "tags": [
-          "Security"
-        ]
-      }
-    ],
-    "startup": [
-      {
-        "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-        "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-        "source": "TechCrunch",
-        "pubDate": "2026-11-05T18:02:27.000Z",
-        "relevanceScore": 39.55,
-        "tags": [
-          "Business",
-          "Startup",
-          "IPO"
         ]
       }
     ],
@@ -1086,7 +994,7 @@
         "link": "https://www.npr.org/2026/11/05/nx-s1-6022491/real-estate-all-cash-offer",
         "source": "NPR Business",
         "pubDate": "2026-11-05T15:00:00.000Z",
-        "relevanceScore": 38.94,
+        "relevanceScore": 61,
         "tags": [
           "Exclusive",
           "Report"
@@ -1097,17 +1005,30 @@
         "link": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
         "source": "ABC News Business",
         "pubDate": "2026-11-05T18:35:00.000Z",
-        "relevanceScore": 37.16,
+        "relevanceScore": 59.21,
         "tags": []
       },
       {
-        "title": "New York's Strand Bookstore to repay nearly $1.5M after improperly receiving federal loan",
-        "link": "https://abcnews.com/Business/wireStory/new-yorks-strand-bookstore-repay-15m-after-improperly-137885689",
-        "source": "ABC News Business",
-        "pubDate": "2026-11-05T18:19:09.000Z",
-        "relevanceScore": 25.61,
+        "title": "Pasture mealybugs have killed off huge swaths of grasses in the Southeast",
+        "link": "https://www.npr.org/2026/11/05/nx-s1-6018539/pasture-mealybugs-have-killed-off-huge-swaths-of-grasses-in-the-southeast",
+        "source": "NPR Business",
+        "pubDate": "2026-11-05T23:00:37.000Z",
+        "relevanceScore": 27.6,
         "tags": [
           "Business"
+        ]
+      }
+    ],
+    "social": [
+      {
+        "title": "Meta, Google, and TikTok sue California AG over teen social media law",
+        "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
+        "source": "TechCrunch",
+        "pubDate": "2026-11-06T00:01:38.000Z",
+        "relevanceScore": 27.8,
+        "tags": [
+          "Social",
+          "Regulation"
         ]
       }
     ],
@@ -1117,15 +1038,15 @@
         "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
         "source": "MIT Technology Review",
         "pubDate": "2026-11-05T10:00:00.000Z",
-        "relevanceScore": 27.94,
+        "relevanceScore": 27,
         "tags": []
       }
     ]
   },
   "stats": {
-    "totalSources": 14,
-    "totalCategories": 13,
-    "avgRelevanceScore": 182.735625,
+    "totalSources": 13,
+    "totalCategories": 11,
+    "avgRelevanceScore": 430.5511111111112,
     "topCategories": [
       {
         "category": "tech",
@@ -1133,7 +1054,7 @@
       },
       {
         "category": "ai-ml",
-        "count": 10
+        "count": 12
       },
       {
         "category": "development",
@@ -1141,11 +1062,11 @@
       },
       {
         "category": "general",
-        "count": 5
+        "count": 4
       },
       {
-        "category": "mobile",
-        "count": 4
+        "category": "business",
+        "count": 3
       }
     ]
   }
